@@ -1,8 +1,26 @@
 [
-  "https://www.bleepingcomputer.com/feed/",
-  "https://krebsonsecurity.com/feed/",
-  "https://www.cisa.gov/cybersecurity-advisories.xml",
-  "https://security.paloaltonetworks.com/rss.xml",
-  "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
-  "https://www.ivanti.com/blog/topics/security-advisory/rss"
+  {
+    "name": "BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/feed/"
+  },
+  {
+    "name": "Krebs on Security",
+    "url": "https://krebsonsecurity.com/feed/"
+  },
+  {
+    "name": "CISA Advisories",
+    "url": "https://www.cisa.gov/cybersecurity-advisories.xml"
+  },
+  {
+    "name": "Palo Alto Networks",
+    "url": "https://security.paloaltonetworks.com/rss.xml"
+  },
+  {
+    "name": "Cisco Advisories",
+    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml"
+  },
+  {
+    "name": "Ivanti Security",
+    "url": "https://www.ivanti.com/blog/topics/security-advisory/rss"
+  }
 ]
