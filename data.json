@@ -2,7 +2,7 @@
   "stats": [
     {
       "source": "BleepingComputer",
-      "new_count": 4,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -20,7 +20,7 @@
     },
     {
       "source": "Palo Alto Networks Security Advisories",
-      "new_count": 1,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     },
@@ -39,11 +39,88 @@
   ],
   "articles": [
     {
+      "title": "Windows BitLocker zero-day gives access to protected drives, PoC released",
+      "link": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
+      "summary": "A cybersecurity researcher has published proof-of-concept (PoC) exploits for two unpatched Microsoft Windows vulnerabilities named YellowKey and Green...",
+      "timestamp": 1778690269.0,
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "PAN-SA-2026-0007 Chromium and Prisma Browser: Monthly Vulnerability Update (May 2026) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0007",
+      "summary": "",
+      "timestamp": 1778688000.0,
+      "source": "Palo Alto Networks Security Advisories"
+    },
+    {
+      "title": "CVE-2026-0247 Prisma Access Agent Endpoint DLP: Authorization Bypass Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0247",
+      "summary": "",
+      "timestamp": 1778688000.0,
+      "source": "Palo Alto Networks Security Advisories"
+    },
+    {
+      "title": "CVE-2026-0248 Prisma Access Agent: Improper Certificate Validation Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0248",
+      "summary": "",
+      "timestamp": 1778688000.0,
+      "source": "Palo Alto Networks Security Advisories"
+    },
+    {
       "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
       "summary": "",
       "timestamp": 1778688000.0,
       "source": "Palo Alto Networks Security Advisories"
+    },
+    {
+      "title": "CVE-2026-0238 Broker VM: Improper Input Validation in Broker VM Certificate and Key Fields (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0238",
+      "summary": "",
+      "timestamp": 1778688000.0,
+      "source": "Palo Alto Networks Security Advisories"
+    },
+    {
+      "title": "CVE-2026-0251 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0251",
+      "summary": "",
+      "timestamp": 1778688000.0,
+      "source": "Palo Alto Networks Security Advisories"
+    },
+    {
+      "title": "CVE-2026-0246 Prisma Access Agent: Local Privilege Escalation Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0246",
+      "summary": "",
+      "timestamp": 1778688000.0,
+      "source": "Palo Alto Networks Security Advisories"
+    },
+    {
+      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
+      "summary": "",
+      "timestamp": 1778688000.0,
+      "source": "Palo Alto Networks Security Advisories"
+    },
+    {
+      "title": "CVE-2026-0240 Trust Protection Foundation: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0240",
+      "summary": "",
+      "timestamp": 1778688000.0,
+      "source": "Palo Alto Networks Security Advisories"
+    },
+    {
+      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
+      "summary": "",
+      "timestamp": 1778688000.0,
+      "source": "Palo Alto Networks Security Advisories"
+    },
+    {
+      "title": "Webinar tomorrow: Why security alone won't stop modern attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-security-alone-wont-stop-modern-attacks/",
+      "summary": "Tomorrow's webinar examines why prevention alone is no longer enough against modern cyberattacks. The session explores how organizations combine secur...",
+      "timestamp": 1778687156.0,
+      "source": "BleepingComputer"
     },
     {
       "title": "Microsoft fixes BitLocker recovery issue only for Windows 11 users",
@@ -106,20 +183,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/",
       "summary": "IT teams often struggle to quickly coordinate responses across disparate systems during network incidents. This upcoming webinar explores how automati...",
       "timestamp": 1778615164.0,
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Signal adds security warnings for social engineering, phishing attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
-      "summary": "Signal has introduced new in-app confirmations and warning messages as additional safeguards against phishing and social engineering attempts that cou...",
-      "timestamp": 1778614831.0,
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Microsoft releases Windows 10 KB5087544 extended security update",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5087544-extended-security-update/",
-      "summary": "Microsoft has released the Windows 10 KB5087544 extended security update to fix the May\u00a02026 Patch Tuesday vulnerabilities and resolve an issue with t...",
-      "timestamp": 1778612314.0,
       "source": "BleepingComputer"
     },
     {
@@ -242,48 +305,6 @@
       "source": "Ivanti Blog: Security Advisory"
     },
     {
-      "title": "CVE-2026-0233 Autonomous Digital Experience Manager: Improper validation of ADEM certificate (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0233",
-      "summary": "",
-      "timestamp": 1775671500.0,
-      "source": "Palo Alto Networks Security Advisories"
-    },
-    {
-      "title": "PAN-SA-2026-0006 Informational Bulletin: Impact assessment of OSS CVEs in PAN-OS (Severity: INFORMATIONAL)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0006",
-      "summary": "",
-      "timestamp": 1775664000.0,
-      "source": "Palo Alto Networks Security Advisories"
-    },
-    {
-      "title": "CVE-2026-0232 Cortex XDR Agent: Local Administrator can disable the agent on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0232",
-      "summary": "",
-      "timestamp": 1775664000.0,
-      "source": "Palo Alto Networks Security Advisories"
-    },
-    {
-      "title": "PAN-SA-2026-0005 Informational Bulletin: Precautionary Fixes for Non-Exploitable OSS CVEs in PAN-OS (Severity: INFORMATIONAL)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0005",
-      "summary": "",
-      "timestamp": 1775664000.0,
-      "source": "Palo Alto Networks Security Advisories"
-    },
-    {
-      "title": "PAN-SA-2026-0004 Chromium: Monthly Vulnerability Update (April 2026) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0004",
-      "summary": "",
-      "timestamp": 1775664000.0,
-      "source": "Palo Alto Networks Security Advisories"
-    },
-    {
-      "title": "CVE-2026-0234 Cortex XSOAR: Improper Verification of Cryptographic Signature in Microsoft Teams integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0234",
-      "summary": "",
-      "timestamp": 1775664000.0,
-      "source": "Palo Alto Networks Security Advisories"
-    },
-    {
       "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
       "link": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
       "summary": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Micr...",
@@ -296,13 +317,6 @@
       "summary": "An elusive hacker who went by the handle \"UNKN\" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities ...",
       "timestamp": 1775441237.0,
       "source": "Krebs on Security"
-    },
-    {
-      "title": "CVE-2025-4615 PAN-OS: Improper Neutralization of Input in the Management Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2025-4615",
-      "summary": "",
-      "timestamp": 1775002500.0,
-      "source": "Palo Alto Networks Security Advisories"
     },
     {
       "title": "\u2018CanisterWorm\u2019 Springs Wiper Attack Targeting Iran",
@@ -324,20 +338,6 @@
       "summary": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical te...",
       "timestamp": 1773246013.0,
       "source": "Krebs on Security"
-    },
-    {
-      "title": "PAN-SA-2026-0003 Chromium: Monthly Vulnerability Update (March 2026) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0003",
-      "summary": "",
-      "timestamp": 1773244800.0,
-      "source": "Palo Alto Networks Security Advisories"
-    },
-    {
-      "title": "CVE-2026-0230 Cortex XDR Agent: Local Administrator can disable the agent on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0230",
-      "summary": "",
-      "timestamp": 1773244800.0,
-      "source": "Palo Alto Networks Security Advisories"
     },
     {
       "title": "March 2026 Security Update",
@@ -389,5 +389,5 @@
       "source": "Ivanti Blog: Security Advisory"
     }
   ],
-  "last_updated": 1778687247.1707692
+  "last_updated": 1778695642.2386017
 }
