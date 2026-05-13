@@ -1,20 +1,22 @@
-<<<<<<< HEAD
 {
   "stats": [
     {
       "source": "BleepingComputer",
       "new_count": 0,
-      "total_count": 10
+      "total_count": 10,
+      "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "new_count": 0,
-      "total_count": 10
+      "total_count": 10,
+      "status": "ok"
     },
     {
       "source": "https://www.cisa.gov/cybersecurity-advisories.xml",
       "new_count": 0,
-      "total_count": 0
+      "total_count": 0,
+      "status": "ok"
     }
   ],
   "articles": [
@@ -159,149 +161,5 @@
       "source": "Krebs on Security"
     }
   ],
-  "last_updated": 1778653725.0070431
+  "last_updated": 1778654411.797005
 }
-=======
-[
-  {
-    "title": "US govt seeks Instructure testimony on massive Canvas cyberattack",
-    "link": "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
-    "summary": "The U.S. House Committee on Homeland Security is calling on Instructure executives to testify about two cyberattacks by the ShinyHunters extortion gro...",
-    "timestamp": 1778627395.0,
-    "source": "BleepingComputer"
-  },
-  {
-    "title": "Patch Tuesday, May 2026 Edition",
-    "link": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
-    "summary": "Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding se...",
-    "timestamp": 1778622405.0,
-    "source": "Krebs on Security"
-  },
-  {
-    "title": "UK fines water supplier $1.3M for exposing data of 664k customers",
-    "link": "https://www.bleepingcomputer.com/news/security/uk-fines-water-supplier-13m-for-exposing-data-of-664k-customers/",
-    "summary": "The Information Commissioner's Office has fined South Staffordshire Water Plc and parent company South Staffordshire Plc \u00a3963,900 ($1.3 million) over ...",
-    "timestamp": 1778617039.0,
-    "source": "BleepingComputer"
-  },
-  {
-    "title": "Webinar: Fixing the gaps in network incident response",
-    "link": "https://www.bleepingcomputer.com/news/security/webinar-fixing-the-gaps-in-network-incident-response/",
-    "summary": "IT teams often struggle to quickly coordinate responses across disparate systems during network incidents. This upcoming webinar explores how automati...",
-    "timestamp": 1778615164.0,
-    "source": "BleepingComputer"
-  },
-  {
-    "title": "Signal adds security warnings for social engineering, phishing attacks",
-    "link": "https://www.bleepingcomputer.com/news/security/signal-adds-security-warnings-for-social-engineering-phishing-attacks/",
-    "summary": "Signal has introduced new in-app confirmations and warning messages as additional safeguards against phishing and social engineering attempts that cou...",
-    "timestamp": 1778614831.0,
-    "source": "BleepingComputer"
-  },
-  {
-    "title": "Microsoft releases Windows 10 KB5087544 extended security update",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5087544-extended-security-update/",
-    "summary": "Microsoft has released the Windows 10 KB5087544 extended security update to fix the May\u00a02026 Patch Tuesday vulnerabilities and resolve an issue with t...",
-    "timestamp": 1778612314.0,
-    "source": "BleepingComputer"
-  },
-  {
-    "title": "Fortinet warns of critical RCE flaws in FortiSandbox and FortiAuthenticator",
-    "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
-    "summary": "Fortinet has released security patches for two critical vulnerabilities in FortiSandbox and FortiAuthenticator that could enable attackers to run comm...",
-    "timestamp": 1778610189.0,
-    "source": "BleepingComputer"
-  },
-  {
-    "title": "Windows 11 KB5089549 & KB5087420 cumulative updates released",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089549-and-kb5087420-cumulative-updates-released/",
-    "summary": "Microsoft has released Windows 11 KB5089549 and KB5087420 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, an...",
-    "timestamp": 1778609352.0,
-    "source": "BleepingComputer"
-  },
-  {
-    "title": "Microsoft May 2026 Patch Tuesday fixes 120 flaws, no zero-days",
-    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2026-patch-tuesday-fixes-120-flaws-no-zero-days/",
-    "summary": "Today is Microsoft's May 2026\u00a0Patch Tuesday, with security updates for 120 flaws and no zero-days disclosed this month. [...]",
-    "timestamp": 1778609286.0,
-    "source": "BleepingComputer"
-  },
-  {
-    "title": "\u0160koda warns of customer data breach after online shop hack",
-    "link": "https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/",
-    "summary": "\u0160koda Auto, a wholly owned subsidiary of the Volkswagen Group, has disclosed a data breach after attackers hacked its online shop and stole the person...",
-    "timestamp": 1778605621.0,
-    "source": "BleepingComputer"
-  },
-  {
-    "title": "Android 17 to expand banking scam call and privacy protections",
-    "link": "https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/",
-    "summary": "Android 17, expected to roll out next month, will introduce several security and privacy features focused on device theft, threat detection, and banki...",
-    "timestamp": 1778605200.0,
-    "source": "BleepingComputer"
-  },
-  {
-    "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
-    "link": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
-    "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts a...",
-    "timestamp": 1778209126.0,
-    "source": "Krebs on Security"
-  },
-  {
-    "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
-    "link": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
-    "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible...",
-    "timestamp": 1777557866.0,
-    "source": "Krebs on Security"
-  },
-  {
-    "title": "\u2018Scattered Spider\u2019 Member \u2018Tylerb\u2019 Pleads Guilty",
-    "link": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
-    "summary": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated...",
-    "timestamp": 1776783239.0,
-    "source": "Krebs on Security"
-  },
-  {
-    "title": "Patch Tuesday, April 2026 Edition",
-    "link": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
-    "summary": "Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, includ...",
-    "timestamp": 1776203279.0,
-    "source": "Krebs on Security"
-  },
-  {
-    "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
-    "link": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
-    "summary": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Micr...",
-    "timestamp": 1775581364.0,
-    "source": "Krebs on Security"
-  },
-  {
-    "title": "Germany Doxes \u201cUNKN,\u201d Head of RU Ransomware Gangs REvil, GandCrab",
-    "link": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
-    "summary": "An elusive hacker who went by the handle \"UNKN\" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities ...",
-    "timestamp": 1775441237.0,
-    "source": "Krebs on Security"
-  },
-  {
-    "title": "\u2018CanisterWorm\u2019 Springs Wiper Attack Targeting Iran",
-    "link": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
-    "summary": "A financially motivated data theft and extortion group is attempting to inject itself into the Iran war, unleashing a worm that spreads through poorly...",
-    "timestamp": 1774280584.0,
-    "source": "Krebs on Security"
-  },
-  {
-    "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
-    "link": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
-    "summary": "The U.S. Justice Department joined authorities in Canada and Germany in dismantling the online infrastructure behind four highly disruptive botnets th...",
-    "timestamp": 1773967759.0,
-    "source": "Krebs on Security"
-  },
-  {
-    "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
-    "link": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
-    "summary": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical te...",
-    "timestamp": 1773246013.0,
-    "source": "Krebs on Security"
-  }
-]
->>>>>>> ea616b73efb6894378a91493b574367e1b0816cd

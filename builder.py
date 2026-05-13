@@ -32,6 +32,7 @@ def build_feed():
     stats = []
     
     for url in urls:
+        source_name = url # Default to URL if parsing fails
         try:
             parsed = feedparser.parse(url)
             source_name = parsed.feed.get('title', url)
@@ -61,10 +62,17 @@ def build_feed():
             stats.append({
                 'source': source_name,
                 'new_count': new_count,
-                'total_count': len(feed_articles)
+                'total_count': len(feed_articles),
+                'status': 'ok'
             })
         except Exception as e:
             print(f"Failed to parse {url}: {e}")
+            stats.append({
+                'source': source_name,
+                'new_count': 0,
+                'total_count': 0,
+                'status': 'error'
+            })
     
     articles.sort(key=lambda x: x['timestamp'], reverse=True)
 

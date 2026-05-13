@@ -53,63 +53,109 @@
             color: var(--text-secondary);
         }
 
-        /* Dashboard Styles */
+        /* Redesigned Dashboard */
         #dashboard {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
-            margin-bottom: 3rem;
-        }
-
-        .stat-card {
-            background: var(--surface);
+            grid-template-columns: 300px 1fr;
+            gap: 2rem;
+            margin-bottom: 4rem;
+            background: linear-gradient(145deg, #0f0f0f, #0a0a0a);
             border: 1px solid var(--border);
-            padding: 1.25rem;
-            border-radius: 4px;
-            position: relative;
-            overflow: hidden;
-            transition: all 0.3s ease;
+            padding: 2rem;
+            border-radius: 8px;
         }
 
-        .stat-card:hover {
-            border-color: var(--text-secondary);
-            transform: translateY(-2px);
+        .global-stat {
+            border-right: 1px solid var(--border);
+            padding-right: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
-        .stat-source {
-            font-size: 0.7rem;
+        .global-label {
+            font-size: 0.75rem;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 2px;
             color: var(--text-secondary);
             margin-bottom: 0.5rem;
         }
 
-        .stat-value {
-            font-size: 1.5rem;
-            font-weight: 700;
+        .global-value {
+            font-size: 3.5rem;
+            font-weight: 900;
+            line-height: 1;
+            margin: 0.5rem 0;
             display: flex;
             align-items: baseline;
             gap: 0.5rem;
         }
 
-        .stat-new {
+        .global-new {
             color: var(--success);
-            text-shadow: 0 0 10px var(--success-glow);
+            text-shadow: 0 0 20px var(--success-glow);
         }
 
-        .stat-new.has-new {
-            animation: pulse-glow 2s infinite;
-        }
-
-        @keyframes pulse-glow {
-            0% { text-shadow: 0 0 5px var(--success-glow); }
-            50% { text-shadow: 0 0 20px var(--success-glow); opacity: 0.8; }
-            100% { text-shadow: 0 0 5px var(--success-glow); }
-        }
-
-        .stat-total {
-            font-size: 0.9rem;
+        .global-total {
+            font-size: 1.2rem;
             color: var(--text-secondary);
+            font-weight: 400;
+        }
+
+        .source-activity {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            align-content: flex-start;
+        }
+
+        .source-chip {
+            background: #1a1a1a;
+            border: 1px solid var(--border);
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-family: 'JetBrains Mono', monospace;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            transition: all 0.2s ease;
+            color: var(--text-secondary);
+        }
+
+        .source-chip.has-updates {
+            border-color: var(--success);
+            color: var(--text-primary);
+            background: rgba(0, 255, 136, 0.05);
+        }
+
+        .source-chip.has-updates .indicator {
+            background: var(--success);
+            box-shadow: 0 0 8px var(--success-glow);
+            animation: pulse-dot 2s infinite;
+        }
+
+        .source-chip.has-error {
+            border-color: var(--accent);
+            opacity: 0.7;
+        }
+
+        .source-chip.has-error .indicator {
+            background: var(--accent);
+            box-shadow: 0 0 8px var(--accent-glow);
+        }
+
+        .source-chip .indicator {
+            width: 6px;
+            height: 6px;
+            background: #333;
+            border-radius: 50%;
+        }
+
+        @keyframes pulse-dot {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.5); opacity: 0.5; }
+            100% { transform: scale(1); opacity: 1; }
         }
 
         /* Feed Grid Styles */
@@ -194,6 +240,11 @@
             vertical-align: middle;
         }
 
+        @media (max-width: 900px) {
+            #dashboard { grid-template-columns: 1fr; }
+            .global-stat { border-right: none; border-bottom: 1px solid var(--border); padding-right: 0; padding-bottom: 2rem; }
+        }
+
         @media (max-width: 600px) {
             body { padding: 1rem; }
             #grid { grid-template-columns: 1fr; }
@@ -212,7 +263,16 @@
 </header>
 
 <div id="dashboard">
-    <!-- Dashboard stats will be injected here -->
+    <div class="global-stat">
+        <div class="global-label">TOTAL NEW INTEL</div>
+        <div class="global-value">
+            <span id="total-new" class="global-new">+0</span>
+            <span id="total-articles" class="global-total">/ 0</span>
+        </div>
+    </div>
+    <div id="source-activity" class="source-activity">
+        <!-- Source chips will be injected here -->
+    </div>
 </div>
 
 <div id="grid">
@@ -225,33 +285,48 @@
             const response = await fetch('data.json');
             const data = await response.json();
             
-            const dashboard = document.getElementById('dashboard');
+            const sourceActivity = document.getElementById('source-activity');
             const grid = document.getElementById('grid');
             const status = document.getElementById('status');
+            const totalNewEl = document.getElementById('total-new');
+            const totalArticlesEl = document.getElementById('total-articles');
 
-            // Render Dashboard
-            dashboard.innerHTML = '';
+            // Calculate Global Stats
+            let totalNew = 0;
+            let totalArticles = data.articles.length;
+            
+            sourceActivity.innerHTML = '';
             data.stats.forEach(stat => {
-                const hasNewClass = stat.new_count > 0 ? 'has-new' : '';
-                const statCard = `
-                    <div class="stat-card">
-                        <div class="stat-source">${stat.source}</div>
-                        <div class="stat-value">
-                            <span class="stat-new ${hasNewClass}">+${stat.new_count}</span>
-                            <span class="stat-total">/ ${stat.total_count}</span>
-                        </div>
+                totalNew += stat.new_count;
+                
+                const hasUpdates = stat.new_count > 0;
+                const isError = stat.status === 'error';
+                
+                let chipClass = '';
+                if (hasUpdates) chipClass = 'has-updates';
+                if (isError) chipClass = 'has-error';
+
+                const updateCount = hasUpdates ? `(${stat.new_count})` : '';
+                const errorIcon = isError ? ' [ERR]' : '';
+                
+                const chip = `
+                    <div class="source-chip ${chipClass}">
+                        <div class="indicator"></div>
+                        <span>${stat.source}${errorIcon} ${updateCount}</span>
                     </div>
                 `;
-                dashboard.innerHTML += statCard;
+                sourceActivity.innerHTML += chip;
             });
+
+            totalNewEl.innerText = `+${totalNew}`;
+            totalArticlesEl.innerText = `/ ${totalArticles}`;
+            if (totalNew > 0) totalNewEl.classList.add('global-new');
 
             // Render Feed
             grid.innerHTML = '';
             const now = Date.now() / 1000;
             
             data.articles.forEach(item => {
-                // We use the same 'new' logic as before for visual flair, 
-                // but the dashboard specifically tracks new since last fetch.
                 const isVeryNew = (now - item.timestamp) < (2 * 60 * 60); // 2 hours
                 const badge = isVeryNew ? `<span class="new-badge">NEW</span>` : '';
                 
