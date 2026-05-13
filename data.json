@@ -2,7 +2,7 @@
   "stats": [
     {
       "source": "BleepingComputer",
-      "new_count": 1,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -38,6 +38,41 @@
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
+      "summary": "",
+      "timestamp": 1778688000.0,
+      "source": "Palo Alto Networks Security Advisories"
+    },
+    {
+      "title": "Microsoft fixes BitLocker recovery issue only for Windows 11 users",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-issue-only-for-windows-11-users/",
+      "summary": "Microsoft has addressed a known issue causing some Windows 11 systems to boot into BitLocker recovery after installing the April 2026 Windows security...",
+      "timestamp": 1778686966.0,
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Microsoft fixes Windows Autopatch bug installing restricted drivers",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-autopatch-bug-installing-restricted-drivers/",
+      "summary": "Microsoft has fixed a Windows Autopatch bug that caused driver updates restricted by administrative policies to be deployed on some Autopatch-managed ...",
+      "timestamp": 1778682969.0,
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "Foxconn confirms cyberattack claimed by Nitrogen ransomware gang",
+      "link": "https://www.bleepingcomputer.com/news/security/electronics-giant-foxconn-confirms-cyberattack-on-north-american-factories/",
+      "summary": "Foxconn, the world's largest electronics manufacturer, says some of its North American factories are now working to resume normal operations after a c...",
+      "timestamp": 1778676594.0,
+      "source": "BleepingComputer"
+    },
+    {
+      "title": "73 Seconds to Breach, 24 Hours to Patch: The Case for Autonomous Validation",
+      "link": "https://www.bleepingcomputer.com/news/security/73-seconds-to-breach-24-hours-to-patch-the-case-for-autonomous-validation/",
+      "summary": "Attackers can compromise systems in minutes while patching and response still take hours or days. Picus Security breaks down why autonomous validation...",
+      "timestamp": 1778675438.0,
+      "source": "BleepingComputer"
+    },
     {
       "title": "Microsoft says some users can't install Office on Windows 365 devices",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-install-office-on-windows-365-devices/",
@@ -88,34 +123,6 @@
       "source": "BleepingComputer"
     },
     {
-      "title": "Fortinet warns of critical RCE flaws in FortiSandbox and FortiAuthenticator",
-      "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-rce-flaws-in-fortisandbox-and-fortiauthenticator/",
-      "summary": "Fortinet has released security patches for two critical vulnerabilities in FortiSandbox and FortiAuthenticator that could enable attackers to run comm...",
-      "timestamp": 1778610189.0,
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Windows 11 KB5089549 & KB5087420 cumulative updates released",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089549-and-kb5087420-cumulative-updates-released/",
-      "summary": "Microsoft has released Windows 11 KB5089549 and KB5087420 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, an...",
-      "timestamp": 1778609352.0,
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Microsoft May 2026 Patch Tuesday fixes 120 flaws, no zero-days",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2026-patch-tuesday-fixes-120-flaws-no-zero-days/",
-      "summary": "Today is Microsoft's May 2026\u00a0Patch Tuesday, with security updates for 120 flaws and no zero-days disclosed this month. [...]",
-      "timestamp": 1778609286.0,
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "\u0160koda warns of customer data breach after online shop hack",
-      "link": "https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/",
-      "summary": "\u0160koda Auto, a wholly owned subsidiary of the Volkswagen Group, has disclosed a data breach after attackers hacked its online shop and stole the person...",
-      "timestamp": 1778605621.0,
-      "source": "BleepingComputer"
-    },
-    {
       "title": "May 2026 Security Update",
       "link": "https://www.ivanti.com/blog/may-2026-security-update",
       "summary": "<p>Ivanti releases standard security patches on the second Tuesday of every month. In today\u2019s rapidly evolving technology and threat landscape, we bel...",
@@ -135,13 +142,6 @@
       "summary": "<p>In today\u2019s rapidly evolving technology and threat landscape, responsible transparency should be a cornerstone of any product security program. Espe...",
       "timestamp": 1778163786.0,
       "source": "Ivanti Blog: Security Advisory"
-    },
-    {
-      "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
-      "summary": "",
-      "timestamp": 1778119800.0,
-      "source": "Palo Alto Networks Security Advisories"
     },
     {
       "title": "Cisco Unity Connection Remote Code Execution and Server-Side Request Forgery Vulnerabilities",
@@ -249,8 +249,8 @@
       "source": "Palo Alto Networks Security Advisories"
     },
     {
-      "title": "CVE-2026-0234 Cortex XSOAR: Improper Verification of Cryptographic Signature in Microsoft Teams integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0234",
+      "title": "PAN-SA-2026-0006 Informational Bulletin: Impact assessment of OSS CVEs in PAN-OS (Severity: INFORMATIONAL)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0006",
       "summary": "",
       "timestamp": 1775664000.0,
       "source": "Palo Alto Networks Security Advisories"
@@ -258,13 +258,6 @@
     {
       "title": "CVE-2026-0232 Cortex XDR Agent: Local Administrator can disable the agent on Windows (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0232",
-      "summary": "",
-      "timestamp": 1775664000.0,
-      "source": "Palo Alto Networks Security Advisories"
-    },
-    {
-      "title": "PAN-SA-2026-0006 Informational Bulletin: Impact assessment of OSS CVEs in PAN-OS (Severity: INFORMATIONAL)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0006",
       "summary": "",
       "timestamp": 1775664000.0,
       "source": "Palo Alto Networks Security Advisories"
@@ -279,6 +272,13 @@
     {
       "title": "PAN-SA-2026-0004 Chromium: Monthly Vulnerability Update (April 2026) (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0004",
+      "summary": "",
+      "timestamp": 1775664000.0,
+      "source": "Palo Alto Networks Security Advisories"
+    },
+    {
+      "title": "CVE-2026-0234 Cortex XSOAR: Improper Verification of Cryptographic Signature in Microsoft Teams integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0234",
       "summary": "",
       "timestamp": 1775664000.0,
       "source": "Palo Alto Networks Security Advisories"
@@ -326,15 +326,15 @@
       "source": "Krebs on Security"
     },
     {
-      "title": "CVE-2026-0231 Cortex XDR Broker VM: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0231",
+      "title": "PAN-SA-2026-0003 Chromium: Monthly Vulnerability Update (March 2026) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0003",
       "summary": "",
       "timestamp": 1773244800.0,
       "source": "Palo Alto Networks Security Advisories"
     },
     {
-      "title": "PAN-SA-2026-0003 Chromium: Monthly Vulnerability Update (March 2026) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0003",
+      "title": "CVE-2026-0230 Cortex XDR Agent: Local Administrator can disable the agent on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0230",
       "summary": "",
       "timestamp": 1773244800.0,
       "source": "Palo Alto Networks Security Advisories"
@@ -389,5 +389,5 @@
       "source": "Ivanti Blog: Security Advisory"
     }
   ],
-  "last_updated": 1778674225.465339
+  "last_updated": 1778687247.1707692
 }
