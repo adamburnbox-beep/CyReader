@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTVM // INTELLIGENCE FEED</title>
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --text: #e0e0e0;
+            --border: #333;
+            --accent: #d32f2f;
+            --dim: #777;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 2rem;
+            line-height: 1.5;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+        h1 { margin: 0; font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; }
+        #grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            border: 1px solid var(--border);
+            padding: 1rem;
+            background: #111;
+            display: flex;
+            flex-direction: column;
+            transition: border-color 0.2s;
+        }
+        .card:hover { border-color: var(--dim); }
+        .meta {
+            font-size: 0.8rem;
+            color: var(--dim);
+            margin-bottom: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+        }
+        .title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .title:hover { text-decoration: underline; }
+        .summary { font-size: 0.9rem; color: #a0a0a0; flex-grow: 1; }
+        .new-badge {
+            color: var(--accent);
+            font-weight: bold;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CTVM // INTELLIGENCE FEED</h1>
+    <div id="status" class="meta">Initializing...</div>
+</header>
+
+<div id="grid"></div>
+
+<script>
+    async function loadFeed() {
+        try {
+            const response = await fetch('data.json');
+            const data = await response.json();
+            const grid = document.getElementById('grid');
+            const now = Date.now() / 1000;
+            const fourHours = 4 * 60 * 60;
+
+            grid.innerHTML = '';
+            
+            data.forEach(item => {
+                const isNew = (now - item.timestamp) < fourHours;
+                const badge = isNew ? `<span class="new-badge">[NEW]</span>` : '';
+                
+                // Format relative time (e.g., "2 hours ago")
+                const diffHours = Math.floor((now - item.timestamp) / 3600);
+                const timeString = diffHours === 0 ? "Just now" : `${diffHours}h ago`;
+
+                const card = `
+                    <div class="card">
+                        <div class="meta">
+                            <span>${item.source}</span>
+                            <span>${badge} ${timeString}</span>
+                        </div>
+                        <a href="${item.link}" target="_blank" class="title">${item.title}</a>
+                        <div class="summary">${item.summary}</div>
+                    </div>
+                `;
+                grid.innerHTML += card;
+            });
+            
+            document.getElementById('status').innerText = `Last fetch: ${new Date().toLocaleTimeString()}`;
+        } catch (error) {
+            document.getElementById('status').innerText = "ERR: UNABLE TO LOAD DATA.JSON";
+        }
+    }
+
+    loadFeed();
+</script>
+
+</body>
+</html>
