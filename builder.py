@@ -45,7 +45,8 @@ def build_feed():
 
         try:
             parsed = feedparser.parse(url)
-            source_name = parsed.feed.get('title', url)
+            source_name = config.get('name', parsed.feed.get('title', url))
+            vendor = config.get('vendor', 'Unknown')
             
             new_count = 0
             feed_articles = []
@@ -64,13 +65,15 @@ def build_feed():
                     'link': link,
                     'summary': clean_summary,
                     'timestamp': timestamp,
-                    'source': source_name
+                    'source': source_name,
+                    'vendor': vendor
                 }
                 feed_articles.append(article)
                 articles.append(article)
             
             stats.append({
                 'source': source_name,
+                'vendor': vendor,
                 'new_count': new_count,
                 'total_count': len(feed_articles),
                 'status': 'ok'
@@ -79,6 +82,7 @@ def build_feed():
             print(f"Failed to parse {url}: {e}")
             stats.append({
                 'source': source_name,
+                'vendor': config.get('vendor', 'Unknown'),
                 'new_count': 0,
                 'total_count': 0,
                 'status': 'error'

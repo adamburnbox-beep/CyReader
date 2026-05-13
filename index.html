@@ -152,6 +152,12 @@
             border-radius: 50%;
         }
 
+        .source-chip:hover {
+            background: #252525;
+            border-color: var(--text-secondary);
+            cursor: pointer;
+        }
+
         @keyframes pulse-dot {
             0% { transform: scale(1); opacity: 1; }
             50% { transform: scale(1.5); opacity: 0.5; }
@@ -249,6 +255,42 @@
             body { padding: 1rem; }
             #grid { grid-template-columns: 1fr; }
         }
+
+        /* Vendor Filter Styles */
+        .filter-bar {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .filter-btn {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .filter-btn:hover {
+            border-color: var(--text-primary);
+            color: var(--text-primary);
+        }
+
+        .filter-btn.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: #fff;
+            box-shadow: 0 0 15px var(--accent-glow);
+        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=JetBrains+Mono&display=swap" rel="stylesheet">
 </head>
@@ -275,79 +317,118 @@
     </div>
 </div>
 
+<div class="filter-bar" id="vendor-filter">
+    <!-- Vendor buttons will be injected here -->
+</div>
+
 <div id="grid">
     <!-- Articles will be injected here -->
 </div>
 
 <script>
+    let cachedData = null;
+    let currentVendor = 'ALL';
+
+    function setVendor(vendor) {
+        currentVendor = vendor;
+        renderUI();
+    }
+
+    function markSourceAsRead(sourceName) {
+        const readRegistry = JSON.parse(localStorage.getItem('cyreader_read_registry') || '{}');
+        readRegistry[sourceName] = Date.now() / 1000; 
+        localStorage.setItem('cyreader_read_registry', JSON.stringify(readRegistry));
+        renderUI();
+    }
+
+    function renderUI() {
+        if (!cachedData) return;
+
+        const sourceActivity = document.getElementById('source-activity');
+        const grid = document.getElementById('grid');
+        const totalNewEl = document.getElementById('total-new');
+        const totalArticlesEl = document.getElementById('total-articles');
+        const vendorFilter = document.getElementById('vendor-filter');
+
+        const readRegistry = JSON.parse(localStorage.getItem('cyreader_read_registry') || '{}');
+        const now = Date.now() / 1000;
+
+        // Extract and Render Vendors
+        const vendors = ['ALL', ...new Set(cachedData.stats.map(s => s.vendor))];
+        vendorFilter.innerHTML = vendors.map(v => `
+            <button class="filter-btn ${currentVendor === v ? 'active' : ''}" onclick="setVendor('${v}')">${v}</button>
+        `).join('');
+
+        // Filter Data
+        const filteredStats = currentVendor === 'ALL' 
+            ? cachedData.stats 
+            : cachedData.stats.filter(s => s.vendor === currentVendor);
+        
+        const filteredArticles = currentVendor === 'ALL' 
+            ? cachedData.articles 
+            : cachedData.articles.filter(a => a.vendor === currentVendor);
+
+        // Calculate Stats
+        let totalNew = 0;
+        filteredStats.forEach(stat => {
+            const lastReadAt = readRegistry[stat.source] || 0;
+            const unreadCount = cachedData.articles.filter(a => a.source === stat.source && a.timestamp > lastReadAt).length;
+            if (unreadCount > 0) totalNew += unreadCount;
+        });
+
+        totalNewEl.innerText = `+${totalNew}`;
+        totalArticlesEl.innerText = `/ ${filteredArticles.length}`;
+        totalNewEl.classList.toggle('global-new', totalNew > 0);
+
+        // Render Chips
+        sourceActivity.innerHTML = filteredStats.map(stat => {
+            const lastReadAt = readRegistry[stat.source] || 0;
+            const unreadCount = cachedData.articles.filter(a => a.source === stat.source && a.timestamp > lastReadAt).length;
+            const hasUnreadUpdates = unreadCount > 0;
+            const isError = stat.status === 'error';
+            
+            let chipClass = '';
+            if (hasUnreadUpdates) chipClass = 'has-updates';
+            if (isError) chipClass = 'has-error';
+
+            return `
+                <div class="source-chip ${chipClass}" onclick="markSourceAsRead('${stat.source.replace(/'/g, "\\'")}')">
+                    <div class="indicator"></div>
+                    <span>${stat.source}${isError ? ' [ERR]' : ''} ${hasUnreadUpdates ? `(${unreadCount})` : ''}</span>
+                </div>
+            `;
+        }).join('');
+
+        // Render Grid
+        grid.innerHTML = filteredArticles.map(item => {
+            const lastReadAt = readRegistry[item.source] || 0;
+            const isUnread = item.timestamp > lastReadAt;
+            const isVeryRecent = (now - item.timestamp) < (24 * 60 * 60);
+            const badge = (isUnread && isVeryRecent) ? `<span class="new-badge">NEW</span>` : '';
+            const diffHours = Math.floor((now - item.timestamp) / 3600);
+            const timeString = diffHours === 0 ? "JUST NOW" : `${diffHours}H AGO`;
+
+            return `
+                <div class="card">
+                    <div class="meta">
+                        <span>${item.source} [${item.vendor}]</span>
+                        <span>${timeString}${badge}</span>
+                    </div>
+                    <a href="${item.link}" target="_blank" class="title">${item.title}</a>
+                    <div class="summary">${item.summary}</div>
+                </div>
+            `;
+        }).join('');
+
+        const lastUpdated = new Date(cachedData.last_updated * 1000).toLocaleTimeString();
+        document.getElementById('status').innerText = `LAST FETCH: ${lastUpdated}`;
+    }
+
     async function loadFeed() {
         try {
             const response = await fetch('data.json');
-            const data = await response.json();
-            
-            const sourceActivity = document.getElementById('source-activity');
-            const grid = document.getElementById('grid');
-            const status = document.getElementById('status');
-            const totalNewEl = document.getElementById('total-new');
-            const totalArticlesEl = document.getElementById('total-articles');
-
-            // Calculate Global Stats
-            let totalNew = 0;
-            let totalArticles = data.articles.length;
-            
-            sourceActivity.innerHTML = '';
-            data.stats.forEach(stat => {
-                totalNew += stat.new_count;
-                
-                const hasUpdates = stat.new_count > 0;
-                const isError = stat.status === 'error';
-                
-                let chipClass = '';
-                if (hasUpdates) chipClass = 'has-updates';
-                if (isError) chipClass = 'has-error';
-
-                const updateCount = hasUpdates ? `(${stat.new_count})` : '';
-                const errorIcon = isError ? ' [ERR]' : '';
-                
-                const chip = `
-                    <div class="source-chip ${chipClass}">
-                        <div class="indicator"></div>
-                        <span>${stat.source}${errorIcon} ${updateCount}</span>
-                    </div>
-                `;
-                sourceActivity.innerHTML += chip;
-            });
-
-            totalNewEl.innerText = `+${totalNew}`;
-            totalArticlesEl.innerText = `/ ${totalArticles}`;
-            if (totalNew > 0) totalNewEl.classList.add('global-new');
-
-            // Render Feed
-            grid.innerHTML = '';
-            const now = Date.now() / 1000;
-            
-            data.articles.forEach(item => {
-                const isVeryNew = (now - item.timestamp) < (2 * 60 * 60); // 2 hours
-                const badge = isVeryNew ? `<span class="new-badge">NEW</span>` : '';
-                
-                const diffHours = Math.floor((now - item.timestamp) / 3600);
-                const timeString = diffHours === 0 ? "JUST NOW" : `${diffHours}H AGO`;
-
-                const card = `
-                    <div class="card">
-                        <div class="meta">
-                            <span>${item.source}</span>
-                            <span>${timeString}${badge}</span>
-                        </div>
-                        <a href="${item.link}" target="_blank" class="title">${item.title}</a>
-                        <div class="summary">${item.summary}</div>
-                    </div>
-                `;
-                grid.innerHTML += card;
-            });
-            
-            const lastUpdated = new Date(data.last_updated * 1000).toLocaleTimeString();
-            status.innerText = `LAST FETCH: ${lastUpdated}`;
+            cachedData = await response.json();
+            renderUI();
         } catch (error) {
             console.error(error);
             document.getElementById('status').innerText = "SYSTEM ERR: DATA_LOAD_FAILED";
