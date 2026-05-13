@@ -2,7 +2,7 @@
   "stats": [
     {
       "source": "BleepingComputer",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -20,7 +20,7 @@
     },
     {
       "source": "Palo Alto Networks Security Advisories",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -38,6 +38,13 @@
     }
   ],
   "articles": [
+    {
+      "title": "Microsoft says some users can't install Office on Windows 365 devices",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-install-office-on-windows-365-devices/",
+      "summary": "Microsoft says some customers are experiencing issues downloading and installing Office on their Windows 365 devices. [...]",
+      "timestamp": 1778673234.0,
+      "source": "BleepingComputer"
+    },
     {
       "title": "US govt seeks Instructure testimony on massive Canvas cyberattack",
       "link": "https://www.bleepingcomputer.com/news/security/us-govt-seeks-instructure-testimony-on-massive-canvas-cyberattack/",
@@ -106,13 +113,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/skoda-warns-of-customer-data-breach-after-online-shop-hack/",
       "summary": "\u0160koda Auto, a wholly owned subsidiary of the Volkswagen Group, has disclosed a data breach after attackers hacked its online shop and stole the person...",
       "timestamp": 1778605621.0,
-      "source": "BleepingComputer"
-    },
-    {
-      "title": "Android 17 to expand banking scam call and privacy protections",
-      "link": "https://www.bleepingcomputer.com/news/security/android-17-to-expand-banking-scam-call-and-privacy-protections/",
-      "summary": "Android 17, expected to roll out next month, will introduce several security and privacy features focused on device theft, threat detection, and banki...",
-      "timestamp": 1778605200.0,
       "source": "BleepingComputer"
     },
     {
@@ -249,8 +249,8 @@
       "source": "Palo Alto Networks Security Advisories"
     },
     {
-      "title": "PAN-SA-2026-0006 Informational Bulletin: Impact assessment of OSS CVEs in PAN-OS (Severity: INFORMATIONAL)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0006",
+      "title": "CVE-2026-0234 Cortex XSOAR: Improper Verification of Cryptographic Signature in Microsoft Teams integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0234",
       "summary": "",
       "timestamp": 1775664000.0,
       "source": "Palo Alto Networks Security Advisories"
@@ -258,6 +258,13 @@
     {
       "title": "CVE-2026-0232 Cortex XDR Agent: Local Administrator can disable the agent on Windows (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0232",
+      "summary": "",
+      "timestamp": 1775664000.0,
+      "source": "Palo Alto Networks Security Advisories"
+    },
+    {
+      "title": "PAN-SA-2026-0006 Informational Bulletin: Impact assessment of OSS CVEs in PAN-OS (Severity: INFORMATIONAL)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0006",
       "summary": "",
       "timestamp": 1775664000.0,
       "source": "Palo Alto Networks Security Advisories"
@@ -272,13 +279,6 @@
     {
       "title": "PAN-SA-2026-0004 Chromium: Monthly Vulnerability Update (April 2026) (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0004",
-      "summary": "",
-      "timestamp": 1775664000.0,
-      "source": "Palo Alto Networks Security Advisories"
-    },
-    {
-      "title": "CVE-2026-0234 Cortex XSOAR: Improper Verification of Cryptographic Signature in Microsoft Teams integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0234",
       "summary": "",
       "timestamp": 1775664000.0,
       "source": "Palo Alto Networks Security Advisories"
@@ -326,15 +326,15 @@
       "source": "Krebs on Security"
     },
     {
-      "title": "PAN-SA-2026-0003 Chromium: Monthly Vulnerability Update (March 2026) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0003",
+      "title": "CVE-2026-0231 Cortex XDR Broker VM: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0231",
       "summary": "",
       "timestamp": 1773244800.0,
       "source": "Palo Alto Networks Security Advisories"
     },
     {
-      "title": "CVE-2026-0230 Cortex XDR Agent: Local Administrator can disable the agent on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0230",
+      "title": "PAN-SA-2026-0003 Chromium: Monthly Vulnerability Update (March 2026) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0003",
       "summary": "",
       "timestamp": 1773244800.0,
       "source": "Palo Alto Networks Security Advisories"
@@ -389,5 +389,5 @@
       "source": "Ivanti Blog: Security Advisory"
     }
   ],
-  "last_updated": 1778665770.8612251
+  "last_updated": 1778674225.465339
 }
