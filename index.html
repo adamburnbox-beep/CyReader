@@ -318,6 +318,7 @@
 </div>
 
 <div class="filter-bar" id="vendor-filter">
+    <div style="font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--text-secondary); width: 100%; margin-bottom: 0.5rem; letter-spacing: 2px;">FILTER BY VENDOR:</div>
     <!-- Vendor buttons will be injected here -->
 </div>
 
@@ -426,7 +427,8 @@
 
     async function loadFeed() {
         try {
-            const response = await fetch('data.json');
+            // Add timestamp to bypass browser cache
+            const response = await fetch(`data.json?t=${Date.now()}`);
             cachedData = await response.json();
             renderUI();
         } catch (error) {
