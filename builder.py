@@ -14,7 +14,7 @@ def build_feed():
         return
 
     with open(feeds_path, 'r') as f:
-        urls = json.load(f)
+        feed_configs = json.load(f)
 
     # Load existing articles to identify "new" ones
     existing_links = set()
@@ -31,8 +31,18 @@ def build_feed():
     articles = []
     stats = []
     
-    for url in urls:
-        source_name = url # Default to URL if parsing fails
+    for config in feed_configs:
+        # Handle both list of strings and list of dicts
+        if isinstance(config, dict):
+            url = config.get('url')
+            source_name = config.get('name', url)
+        else:
+            url = config
+            source_name = url
+
+        if not url:
+            continue
+
         try:
             parsed = feedparser.parse(url)
             source_name = parsed.feed.get('title', url)
