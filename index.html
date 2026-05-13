@@ -256,40 +256,101 @@
             #grid { grid-template-columns: 1fr; }
         }
 
-        /* Vendor Filter Styles */
-        .filter-bar {
-            display: flex;
-            gap: 1rem;
+        /* Enhanced Filter Section */
+        .controls-container {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 1.5rem;
+            border-radius: 8px;
             margin-bottom: 2rem;
-            flex-wrap: wrap;
-            padding-bottom: 1rem;
-            border-bottom: 1px solid var(--border);
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 2rem;
+            align-items: flex-start;
         }
 
-        .filter-btn {
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .control-label {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .search-input {
+            background: #151515;
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            padding: 0.6rem 1rem;
+            border-radius: 4px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            width: 100%;
+            box-sizing: border-box;
+            transition: border-color 0.2s;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        .date-input {
+            background: #151515;
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            padding: 0.5rem;
+            border-radius: 4px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .vendor-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .vendor-tag {
             background: transparent;
             border: 1px solid var(--border);
             color: var(--text-secondary);
-            padding: 0.5rem 1rem;
+            padding: 0.3rem 0.6rem;
             border-radius: 4px;
+            font-size: 0.65rem;
             font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
             cursor: pointer;
-            transition: all 0.2s ease;
+            transition: all 0.2s;
             text-transform: uppercase;
-            letter-spacing: 1px;
         }
 
-        .filter-btn:hover {
+        .vendor-tag:hover {
             border-color: var(--text-primary);
             color: var(--text-primary);
         }
 
-        .filter-btn.active {
-            background: var(--accent);
+        .vendor-tag.active {
+            background: var(--accent-glow);
             border-color: var(--accent);
-            color: #fff;
-            box-shadow: 0 0 15px var(--accent-glow);
+            color: var(--text-primary);
+        }
+
+        @media (max-width: 1000px) {
+            .controls-container { grid-template-columns: 1fr 1fr; }
+        }
+
+        @media (max-width: 700px) {
+            .controls-container { grid-template-columns: 1fr; }
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=JetBrains+Mono&display=swap" rel="stylesheet">
@@ -317,9 +378,23 @@
     </div>
 </div>
 
-<div class="filter-bar" id="vendor-filter">
-    <div style="font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: var(--text-secondary); width: 100%; margin-bottom: 0.5rem; letter-spacing: 2px;">FILTER BY VENDOR:</div>
-    <!-- Vendor buttons will be injected here -->
+<div class="controls-container">
+    <div class="control-group">
+        <label class="control-label">SEARCH INTEL <span>[TITLE/VENDOR]</span></label>
+        <input type="text" id="search-query" class="search-input" placeholder="Type to search..." oninput="updateFilters()">
+    </div>
+    
+    <div class="control-group">
+        <label class="control-label">FILTER VENDORS <span>[MULTI-SELECT]</span></label>
+        <div id="vendor-tags" class="vendor-tags">
+            <!-- Vendor tags will be injected here -->
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label">PUBLISHED SINCE <span>[DATE]</span></label>
+        <input type="date" id="date-since" class="date-input" onchange="updateFilters()">
+    </div>
 </div>
 
 <div id="grid">
@@ -328,10 +403,22 @@
 
 <script>
     let cachedData = null;
-    let currentVendor = 'ALL';
+    let selectedVendors = new Set();
+    let searchQuery = '';
+    let dateSince = '';
 
-    function setVendor(vendor) {
-        currentVendor = vendor;
+    function updateFilters() {
+        searchQuery = document.getElementById('search-query').value.toLowerCase();
+        dateSince = document.getElementById('date-since').value;
+        renderUI();
+    }
+
+    function toggleVendor(vendor) {
+        if (selectedVendors.has(vendor)) {
+            selectedVendors.delete(vendor);
+        } else {
+            selectedVendors.add(vendor);
+        }
         renderUI();
     }
 
@@ -349,31 +436,49 @@
         const grid = document.getElementById('grid');
         const totalNewEl = document.getElementById('total-new');
         const totalArticlesEl = document.getElementById('total-articles');
-        const vendorFilter = document.getElementById('vendor-filter');
+        const vendorTagsContainer = document.getElementById('vendor-tags');
 
         const readRegistry = JSON.parse(localStorage.getItem('cyreader_read_registry') || '{}');
         const now = Date.now() / 1000;
 
-        // Extract and Render Vendors
-        const vendors = ['ALL', ...new Set(cachedData.stats.map(s => s.vendor))];
-        vendorFilter.innerHTML = vendors.map(v => `
-            <button class="filter-btn ${currentVendor === v ? 'active' : ''}" onclick="setVendor('${v}')">${v}</button>
+        // Render Vendors Multi-select
+        const allVendors = [...new Set(cachedData.stats.map(s => s.vendor))].sort();
+        vendorTagsContainer.innerHTML = allVendors.map(v => `
+            <div class="vendor-tag ${selectedVendors.has(v) ? 'active' : ''}" onclick="toggleVendor('${v}')">
+                ${v}
+            </div>
         `).join('');
 
-        // Filter Data
-        const filteredStats = currentVendor === 'ALL' 
-            ? cachedData.stats 
-            : cachedData.stats.filter(s => s.vendor === currentVendor);
+        // Apply Filters
+        const filteredStats = cachedData.stats.filter(s => {
+            const vendorMatch = selectedVendors.size === 0 || selectedVendors.has(s.vendor);
+            const searchMatch = !searchQuery || s.source.toLowerCase().includes(searchQuery) || s.vendor.toLowerCase().includes(searchQuery);
+            return vendorMatch && searchMatch;
+        });
         
-        const filteredArticles = currentVendor === 'ALL' 
-            ? cachedData.articles 
-            : cachedData.articles.filter(a => a.vendor === currentVendor);
+        const filteredArticles = cachedData.articles.filter(a => {
+            const vendorMatch = selectedVendors.size === 0 || selectedVendors.has(a.vendor);
+            const searchMatch = !searchQuery || 
+                               a.title.toLowerCase().includes(searchQuery) || 
+                               a.vendor.toLowerCase().includes(searchQuery) ||
+                               a.source.toLowerCase().includes(searchQuery);
+            
+            let dateMatch = true;
+            if (dateSince) {
+                const filterTime = new Date(dateSince).getTime() / 1000;
+                dateMatch = a.timestamp >= filterTime;
+            }
 
-        // Calculate Stats
+            return vendorMatch && searchMatch && dateMatch;
+        });
+
+        // Calculate Stats based on filtered data
         let totalNew = 0;
+        // We only count "new" from sources that match the current filters
         filteredStats.forEach(stat => {
             const lastReadAt = readRegistry[stat.source] || 0;
-            const unreadCount = cachedData.articles.filter(a => a.source === stat.source && a.timestamp > lastReadAt).length;
+            // Count unread articles for this source that ALSO pass the other filters (date, search)
+            const unreadCount = filteredArticles.filter(a => a.source === stat.source && a.timestamp > lastReadAt).length;
             if (unreadCount > 0) totalNew += unreadCount;
         });
 
@@ -384,7 +489,7 @@
         // Render Chips
         sourceActivity.innerHTML = filteredStats.map(stat => {
             const lastReadAt = readRegistry[stat.source] || 0;
-            const unreadCount = cachedData.articles.filter(a => a.source === stat.source && a.timestamp > lastReadAt).length;
+            const unreadCount = filteredArticles.filter(a => a.source === stat.source && a.timestamp > lastReadAt).length;
             const hasUnreadUpdates = unreadCount > 0;
             const isError = stat.status === 'error';
             
@@ -421,13 +526,12 @@
             `;
         }).join('');
 
-        const lastUpdated = new Date(cachedData.last_updated * 1000).toLocaleTimeString();
-        document.getElementById('status').innerText = `LAST FETCH: ${lastUpdated}`;
+        const lastUpdatedText = cachedData.last_updated ? new Date(cachedData.last_updated * 1000).toLocaleTimeString() : '--:--:--';
+        document.getElementById('status').innerText = `LAST FETCH: ${lastUpdatedText}`;
     }
 
     async function loadFeed() {
         try {
-            // Add timestamp to bypass browser cache
             const response = await fetch(`data.json?t=${Date.now()}`);
             cachedData = await response.json();
             renderUI();
