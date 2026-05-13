@@ -6,104 +6,263 @@
     <title>CTVM // INTELLIGENCE FEED</title>
     <style>
         :root {
-            --bg: #0a0a0a;
-            --text: #e0e0e0;
-            --border: #333;
-            --accent: #d32f2f;
-            --dim: #777;
+            --bg: #050505;
+            --surface: #0f0f0f;
+            --border: #1a1a1a;
+            --text-primary: #ffffff;
+            --text-secondary: #999999;
+            --accent: #ff3e3e;
+            --accent-glow: rgba(255, 62, 62, 0.4);
+            --success: #00ff88;
+            --success-glow: rgba(0, 255, 136, 0.4);
         }
+
         body {
             background-color: var(--bg);
-            color: var(--text);
-            font-family: 'Courier New', Courier, monospace;
+            color: var(--text-primary);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             margin: 0;
             padding: 2rem;
-            line-height: 1.5;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
         }
+
         header {
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 1rem;
-            margin-bottom: 2rem;
             display: flex;
             justify-content: space-between;
-            align-items: flex-end;
+            align-items: center;
+            margin-bottom: 3rem;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 1.5rem;
         }
-        h1 { margin: 0; font-size: 1.5rem; text-transform: uppercase; letter-spacing: 2px; }
+
+        .logo {
+            font-weight: 900;
+            font-size: 1.8rem;
+            letter-spacing: -1px;
+            text-transform: uppercase;
+            background: linear-gradient(90deg, #fff, #666);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .status-container {
+            text-align: right;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        /* Dashboard Styles */
+        #dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 1.25rem;
+            border-radius: 4px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            border-color: var(--text-secondary);
+            transform: translateY(-2px);
+        }
+
+        .stat-source {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            display: flex;
+            align-items: baseline;
+            gap: 0.5rem;
+        }
+
+        .stat-new {
+            color: var(--success);
+            text-shadow: 0 0 10px var(--success-glow);
+        }
+
+        .stat-new.has-new {
+            animation: pulse-glow 2s infinite;
+        }
+
+        @keyframes pulse-glow {
+            0% { text-shadow: 0 0 5px var(--success-glow); }
+            50% { text-shadow: 0 0 20px var(--success-glow); opacity: 0.8; }
+            100% { text-shadow: 0 0 5px var(--success-glow); }
+        }
+
+        .stat-total {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        /* Feed Grid Styles */
         #grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 2rem;
         }
+
         .card {
+            background: var(--surface);
             border: 1px solid var(--border);
-            padding: 1rem;
-            background: #111;
+            padding: 1.5rem;
             display: flex;
             flex-direction: column;
-            transition: border-color 0.2s;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
         }
-        .card:hover { border-color: var(--dim); }
+
+        .card:hover {
+            border-color: var(--accent);
+            box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
+            transform: scale(1.01);
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 2px;
+            height: 0;
+            background: var(--accent);
+            transition: height 0.4s ease;
+        }
+
+        .card:hover::before {
+            height: 100%;
+        }
+
         .meta {
-            font-size: 0.8rem;
-            color: var(--dim);
-            margin-bottom: 0.5rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
             display: flex;
             justify-content: space-between;
+            text-transform: uppercase;
         }
+
         .title {
-            font-size: 1.1rem;
-            font-weight: bold;
-            margin-bottom: 0.5rem;
-            color: var(--text);
+            font-size: 1.2rem;
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
             text-decoration: none;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }
-        .title:hover { text-decoration: underline; }
-        .summary { font-size: 0.9rem; color: #a0a0a0; flex-grow: 1; }
-        .new-badge {
+
+        .title:hover {
             color: var(--accent);
-            font-weight: bold;
-            animation: pulse 2s infinite;
         }
-        @keyframes pulse {
-            0% { opacity: 1; }
-            50% { opacity: 0.5; }
-            100% { opacity: 1; }
+
+        .summary {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            flex-grow: 1;
+        }
+
+        .new-badge {
+            background: var(--success);
+            color: #000;
+            padding: 0 4px;
+            font-size: 0.6rem;
+            font-weight: 900;
+            margin-left: 8px;
+            border-radius: 2px;
+            vertical-align: middle;
+        }
+
+        @media (max-width: 600px) {
+            body { padding: 1rem; }
+            #grid { grid-template-columns: 1fr; }
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=JetBrains+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <header>
-    <h1>CTVM // INTELLIGENCE FEED</h1>
-    <div id="status" class="meta">Initializing...</div>
+    <div class="logo">CyReader <span style="font-weight: 300; opacity: 0.5;">// INTEL</span></div>
+    <div class="status-container">
+        <div>SYSTEM STATUS: ACTIVE</div>
+        <div id="status">LAST FETCH: --:--:--</div>
+    </div>
 </header>
 
-<div id="grid"></div>
+<div id="dashboard">
+    <!-- Dashboard stats will be injected here -->
+</div>
+
+<div id="grid">
+    <!-- Articles will be injected here -->
+</div>
 
 <script>
     async function loadFeed() {
         try {
             const response = await fetch('data.json');
             const data = await response.json();
-            const grid = document.getElementById('grid');
-            const now = Date.now() / 1000;
-            const fourHours = 4 * 60 * 60;
-
-            grid.innerHTML = '';
             
-            data.forEach(item => {
-                const isNew = (now - item.timestamp) < fourHours;
-                const badge = isNew ? `<span class="new-badge">[NEW]</span>` : '';
+            const dashboard = document.getElementById('dashboard');
+            const grid = document.getElementById('grid');
+            const status = document.getElementById('status');
+
+            // Render Dashboard
+            dashboard.innerHTML = '';
+            data.stats.forEach(stat => {
+                const hasNewClass = stat.new_count > 0 ? 'has-new' : '';
+                const statCard = `
+                    <div class="stat-card">
+                        <div class="stat-source">${stat.source}</div>
+                        <div class="stat-value">
+                            <span class="stat-new ${hasNewClass}">+${stat.new_count}</span>
+                            <span class="stat-total">/ ${stat.total_count}</span>
+                        </div>
+                    </div>
+                `;
+                dashboard.innerHTML += statCard;
+            });
+
+            // Render Feed
+            grid.innerHTML = '';
+            const now = Date.now() / 1000;
+            
+            data.articles.forEach(item => {
+                // We use the same 'new' logic as before for visual flair, 
+                // but the dashboard specifically tracks new since last fetch.
+                const isVeryNew = (now - item.timestamp) < (2 * 60 * 60); // 2 hours
+                const badge = isVeryNew ? `<span class="new-badge">NEW</span>` : '';
                 
-                // Format relative time (e.g., "2 hours ago")
                 const diffHours = Math.floor((now - item.timestamp) / 3600);
-                const timeString = diffHours === 0 ? "Just now" : `${diffHours}h ago`;
+                const timeString = diffHours === 0 ? "JUST NOW" : `${diffHours}H AGO`;
 
                 const card = `
                     <div class="card">
                         <div class="meta">
                             <span>${item.source}</span>
-                            <span>${badge} ${timeString}</span>
+                            <span>${timeString}${badge}</span>
                         </div>
                         <a href="${item.link}" target="_blank" class="title">${item.title}</a>
                         <div class="summary">${item.summary}</div>
@@ -112,9 +271,11 @@
                 grid.innerHTML += card;
             });
             
-            document.getElementById('status').innerText = `Last fetch: ${new Date().toLocaleTimeString()}`;
+            const lastUpdated = new Date(data.last_updated * 1000).toLocaleTimeString();
+            status.innerText = `LAST FETCH: ${lastUpdated}`;
         } catch (error) {
-            document.getElementById('status').innerText = "ERR: UNABLE TO LOAD DATA.JSON";
+            console.error(error);
+            document.getElementById('status').innerText = "SYSTEM ERR: DATA_LOAD_FAILED";
         }
     }
 
