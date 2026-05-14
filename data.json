@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 4,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -44,6 +44,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
+      "summary": "Hackers are leveraging a critical authentication bypass vulnerability in the WordPress plugin Burst Statistics to obtain admin-level access to website...",
+      "timestamp": 1778792837.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
+      "summary": "Cisco is warning that a critical Catalyst SD-WAN Controller authentication bypass flaw, tracked as CVE-2026-20182, was actively exploited in zero-day ...",
+      "timestamp": 1778789396.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
@@ -69,8 +85,24 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
+      "summary": "",
+      "timestamp": 1778786100.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "summary": "",
+      "timestamp": 1778786100.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0257 PAN-OS: GlobalProtect Authentication Bypass Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0257",
       "summary": "",
       "timestamp": 1778786100.0,
       "source": "Palo Alto Networks",
@@ -181,48 +213,16 @@
       "vendor": "News"
     },
     {
-      "title": "West Pharmaceutical says hackers stole data, encrypted systems",
-      "link": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
-      "summary": "West Pharmaceutical Services disclosed that it was the target of a cyberattack that resulted in data exfiltration and system encryption. [...]",
-      "timestamp": 1778711011.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Iranian hackers targeted major South Korean electronics maker",
-      "link": "https://www.bleepingcomputer.com/news/security/iranian-hackers-targeted-major-south-korean-electronics-maker/",
-      "summary": "The Iran-linked hacking group MuddyWater (a.k.a. Seedworm, Static Kitten) launched a broad cyber-espionage campaign targeting at least nine high-profi...",
-      "timestamp": 1778709573.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-0241 Trust Protection Foundation: Multiple Authorization Bypass Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0241",
+      "title": "PAN-SA-2026-0007 Chromium and Prisma Browser: Monthly Vulnerability Update (May 2026) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0007",
       "summary": "",
       "timestamp": 1778688000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0247 Prisma Access Agent Endpoint DLP: Authorization Bypass Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0247",
-      "summary": "",
-      "timestamp": 1778688000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0242 Trust Protection Foundation: SQL Injection Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0242",
-      "summary": "",
-      "timestamp": 1778688000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
+      "title": "CVE-2026-0251 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0251",
       "summary": "",
       "timestamp": 1778688000.0,
       "source": "Palo Alto Networks",
@@ -317,5 +317,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1778788686.1607728
+  "last_updated": 1778793553.5875466
 }
