@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,21 +24,21 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 6,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Ivanti Security",
       "vendor": "Ivanti",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
@@ -77,56 +77,8 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0242 Trust Protection Foundation: SQL Injection Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0242",
-      "summary": "",
-      "timestamp": 1778652000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0239 Chronosphere Chronocollector Information Disclosure Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0239",
-      "summary": "",
-      "timestamp": 1778652000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
-      "summary": "",
-      "timestamp": 1778652000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0241 Trust Protection Foundation: Multiple Authorization Bypass Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0241",
-      "summary": "",
-      "timestamp": 1778652000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0007 Chromium and Prisma Browser: Monthly Vulnerability Update (May 2026) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0007",
-      "summary": "",
-      "timestamp": 1778652000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0247 Prisma Access Agent Endpoint DLP: Authorization Bypass Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0247",
-      "summary": "",
-      "timestamp": 1778652000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
+      "title": "CVE-2026-0246 Prisma Access Agent: Local Privilege Escalation Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0246",
       "summary": "",
       "timestamp": 1778652000.0,
       "source": "Palo Alto Networks",
@@ -141,16 +93,64 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0245 Prisma Access Agent: Information Disclosure Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0245",
+      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
       "summary": "",
       "timestamp": 1778652000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "title": "CVE-2026-0241 Trust Protection Foundation: Multiple Authorization Bypass Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0241",
+      "summary": "",
+      "timestamp": 1778652000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0238 Broker VM: Improper Input Validation in Broker VM Certificate and Key Fields (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0238",
+      "summary": "",
+      "timestamp": 1778652000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0251 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0251",
+      "summary": "",
+      "timestamp": 1778652000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0243 Prisma SD-WAN: Denial of Service (DoS) Vulnerability Through IPv6 Crafted Packet (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0243",
+      "summary": "",
+      "timestamp": 1778652000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
+      "summary": "",
+      "timestamp": 1778652000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0007 Chromium and Prisma Browser: Monthly Vulnerability Update (May 2026) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0007",
+      "summary": "",
+      "timestamp": 1778652000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0249",
       "summary": "",
       "timestamp": 1778652000.0,
       "source": "Palo Alto Networks",
@@ -309,5 +309,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1778723221.9615746
+  "last_updated": 1778723630.5507777
 }
