@@ -2,7 +2,7 @@ name: RSS Ops Baker
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '10,40 * * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
@@ -26,4 +26,5 @@ jobs:
           git config --global user.email "bot@ctvm.local"
           git add data.json
           git commit -m "Update feed data" || exit 0
+          git pull --rebase
           git push
