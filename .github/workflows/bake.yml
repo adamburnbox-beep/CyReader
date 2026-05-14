@@ -2,7 +2,7 @@ name: RSS Ops Baker
 
 on:
   schedule:
-    - cron: '0/30 * * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
