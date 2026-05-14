@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CTVM // INTELLIGENCE FEED</title>
+    <title>CybeRSS // INTELLIGENCE FEED</title>
     <style>
         :root {
             --bg: #050505;
@@ -41,9 +41,17 @@
             font-size: 1.8rem;
             letter-spacing: -1px;
             text-transform: uppercase;
-            background: linear-gradient(90deg, #fff, #666);
+        }
+
+        .logo-cybe {
+            background: linear-gradient(90deg, #fff, #aaa);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+        }
+
+        .logo-rss {
+            color: var(--accent);
+            text-shadow: 0 0 15px var(--accent-glow);
         }
 
         .status-container {
@@ -179,6 +187,8 @@
             flex-direction: column;
             transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
             position: relative;
+            overflow: hidden; /* Fixes the bleeding */
+            max-height: 400px; /* Optional: keeps the grid uniform */
         }
 
         .card:hover {
@@ -358,7 +368,7 @@
 <body>
 
 <header>
-    <div class="logo">CyReader <span style="font-weight: 300; opacity: 0.5;">// INTEL</span></div>
+    <div class="logo"><span class="logo-cybe">Cybe</span><span class="logo-rss">RSS</span> <span style="font-weight: 300; opacity: 0.5;">// INTEL</span></div>
     <div class="status-container">
         <div>SYSTEM STATUS: ACTIVE</div>
         <div id="status">LAST FETCH: --:--:--</div>
@@ -423,9 +433,9 @@
     }
 
     function markSourceAsRead(sourceName) {
-        const readRegistry = JSON.parse(localStorage.getItem('cyreader_read_registry') || '{}');
+        const readRegistry = JSON.parse(localStorage.getItem('cyberss_read_registry') || '{}');
         readRegistry[sourceName] = Date.now() / 1000; 
-        localStorage.setItem('cyreader_read_registry', JSON.stringify(readRegistry));
+        localStorage.setItem('cyberss_read_registry', JSON.stringify(readRegistry));
         renderUI();
     }
 
@@ -438,7 +448,7 @@
         const totalArticlesEl = document.getElementById('total-articles');
         const vendorTagsContainer = document.getElementById('vendor-tags');
 
-        const readRegistry = JSON.parse(localStorage.getItem('cyreader_read_registry') || '{}');
+        const readRegistry = JSON.parse(localStorage.getItem('cyberss_read_registry') || '{}');
         const now = Date.now() / 1000;
 
         // Render Vendors Multi-select

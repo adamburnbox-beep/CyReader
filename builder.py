@@ -2,6 +2,7 @@ import json
 import feedparser
 import time
 import os
+import re
 
 def build_feed():
     # Get the directory where the script is located
@@ -55,7 +56,10 @@ def build_feed():
                 link = entry.get('link', '#')
                 timestamp = time.mktime(entry.published_parsed) if getattr(entry, 'published_parsed', None) else 0
                 summary = entry.get('summary', '')
-                clean_summary = summary[:150] + '...' if len(summary) > 150 else summary
+                # Strip HTML tags
+                clean_text = re.sub('<[^<]+?>', '', summary)
+                # Now truncate safely
+                clean_summary = clean_text[:150] + '...' if len(clean_text) > 150 else clean_text
 
                 if link not in existing_links:
                     new_count += 1
@@ -89,6 +93,10 @@ def build_feed():
             })
     
     articles.sort(key=lambda x: x['timestamp'], reverse=True)
+
+    # Filter out anything older than 300 hours (1,080,000 seconds)
+    cutoff = time.time() - (300 * 3600)
+    articles = [a for a in articles if a['timestamp'] > cutoff]
 
     output = {
         'stats': stats,
