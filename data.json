@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 6,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -44,6 +44,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "18-year-old NGINX vulnerability allows DoS, potential RCE",
+      "link": "https://www.bleepingcomputer.com/news/security/18-year-old-nginx-vulnerability-allows-dos-potential-rce/",
+      "summary": "An 18-year-old flaw in the NGINX open-source web server, discovered using an autonomous scanning system, can be exploited for denial of service and, u...",
+      "timestamp": 1778773421.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cyber-Enabled Cargo Crime: How Cybercrime Tradecraft is Used to Steal Freight",
+      "link": "https://www.bleepingcomputer.com/news/security/cyber-enabled-cargo-crime-how-cybercrime-tradecraft-is-used-to-steal-freight/",
+      "summary": "Cargo theft now starts with phishing emails and stolen credentials, not hijackings, to reroute and steal freight from supply chains. NMFTA outlines ho...",
+      "timestamp": 1778772092.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "KongTuke hackers now use Microsoft Teams for corporate breaches",
       "link": "https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/",
@@ -109,32 +125,32 @@
       "vendor": "News"
     },
     {
-      "title": "PAN-SA-2026-0007 Chromium and Prisma Browser: Monthly Vulnerability Update (May 2026) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0007",
+      "title": "CVE-2026-0246 Prisma Access Agent: Local Privilege Escalation Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0246",
       "summary": "",
       "timestamp": 1778688000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0247 Prisma Access Agent Endpoint DLP: Authorization Bypass Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0247",
+      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
       "summary": "",
       "timestamp": 1778688000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0248 Prisma Access Agent: Improper Certificate Validation Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0248",
+      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
       "summary": "",
       "timestamp": 1778688000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
+      "title": "CVE-2026-0241 Trust Protection Foundation: Multiple Authorization Bypass Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0241",
       "summary": "",
       "timestamp": 1778688000.0,
       "source": "Palo Alto Networks",
@@ -157,8 +173,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0246 Prisma Access Agent: Local Privilege Escalation Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0246",
+      "title": "CVE-2026-0243 Prisma SD-WAN: Denial of Service (DoS) Vulnerability Through IPv6 Crafted Packet (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0243",
       "summary": "",
       "timestamp": 1778688000.0,
       "source": "Palo Alto Networks",
@@ -173,36 +189,20 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0240 Trust Protection Foundation: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0240",
+      "title": "PAN-SA-2026-0007 Chromium and Prisma Browser: Monthly Vulnerability Update (May 2026) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0007",
       "summary": "",
       "timestamp": 1778688000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
+      "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0249",
       "summary": "",
       "timestamp": 1778688000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
-    },
-    {
-      "title": "Webinar tomorrow: Why security alone won't stop modern attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-security-alone-wont-stop-modern-attacks/",
-      "summary": "Tomorrow's webinar examines why prevention alone is no longer enough against modern cyberattacks. The session explores how organizations combine secur...",
-      "timestamp": 1778687156.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft fixes BitLocker recovery issue only for Windows 11 users",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-issue-only-for-windows-11-users/",
-      "summary": "Microsoft has addressed a known issue causing some Windows 11 systems to boot into BitLocker recovery after installing the April 2026 Windows security...",
-      "timestamp": 1778686966.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "Patch Tuesday, May 2026 Edition",
@@ -309,5 +309,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1778764645.4303443
+  "last_updated": 1778774286.3168604
 }
