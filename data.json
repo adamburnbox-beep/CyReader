@@ -45,6 +45,14 @@
   ],
   "articles": [
     {
+      "title": "KongTuke hackers now use Microsoft Teams for corporate breaches",
+      "link": "https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/",
+      "summary": "Initial access broker KongTuke has moved to Microsoft Teams for social engineering attacks, taking as little as five minutes to gain persistent access...",
+      "timestamp": 1778760760.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Dell confirms its SupportAssist software causes Windows BSOD crashes",
       "link": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
       "summary": "Dell confirmed that its SupportAssist software is causing blue-screen crashes on some Windows systems following a wave of user reports about random re...",
@@ -101,38 +109,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0242 Trust Protection Foundation: SQL Injection Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0242",
-      "summary": "",
-      "timestamp": 1778688000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0239 Chronosphere Chronocollector Information Disclosure Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0239",
-      "summary": "",
-      "timestamp": 1778688000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
-      "summary": "",
-      "timestamp": 1778688000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0241 Trust Protection Foundation: Multiple Authorization Bypass Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0241",
-      "summary": "",
-      "timestamp": 1778688000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "PAN-SA-2026-0007 Chromium and Prisma Browser: Monthly Vulnerability Update (May 2026) (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0007",
       "summary": "",
@@ -149,6 +125,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0248 Prisma Access Agent: Improper Certificate Validation Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0248",
+      "summary": "",
+      "timestamp": 1778688000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
       "summary": "",
@@ -157,24 +141,48 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
+      "title": "CVE-2026-0238 Broker VM: Improper Input Validation in Broker VM Certificate and Key Fields (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0238",
       "summary": "",
       "timestamp": 1778688000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0245 Prisma Access Agent: Information Disclosure Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0245",
+      "title": "CVE-2026-0251 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0251",
       "summary": "",
       "timestamp": 1778688000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "title": "CVE-2026-0246 Prisma Access Agent: Local Privilege Escalation Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0246",
+      "summary": "",
+      "timestamp": 1778688000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
+      "summary": "",
+      "timestamp": 1778688000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0240 Trust Protection Foundation: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0240",
+      "summary": "",
+      "timestamp": 1778688000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
       "summary": "",
       "timestamp": 1778688000.0,
       "source": "Palo Alto Networks",
@@ -193,14 +201,6 @@
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-issue-only-for-windows-11-users/",
       "summary": "Microsoft has addressed a known issue causing some Windows 11 systems to boot into BitLocker recovery after installing the April 2026 Windows security...",
       "timestamp": 1778686966.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft fixes Windows Autopatch bug installing restricted drivers",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-autopatch-bug-installing-restricted-drivers/",
-      "summary": "Microsoft has fixed a Windows Autopatch bug that caused driver updates restricted by administrative policies to be deployed on some Autopatch-managed ...",
-      "timestamp": 1778682969.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -309,5 +309,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1778758063.586032
+  "last_updated": 1778764645.4303443
 }
