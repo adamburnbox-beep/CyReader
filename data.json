@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -44,6 +44,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-0251 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0251",
+      "summary": "",
+      "timestamp": 1778887800.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
     {
       "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
       "link": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
@@ -133,14 +141,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0251 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0251",
-      "summary": "",
-      "timestamp": 1778795400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
       "summary": "Hackers are leveraging a critical authentication bypass vulnerability in the WordPress plugin Burst Statistics to obtain admin-level access to website...",
@@ -157,14 +157,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
-      "summary": "",
-      "timestamp": 1778786100.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0259 WildFire WF-500 and WF-500-B: Arbitrary File Read and Delete Vulnerability in WildFire Appliance (WF-500, WF-500-B) (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0259",
       "summary": "",
@@ -173,8 +165,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
       "summary": "",
       "timestamp": 1778786100.0,
       "source": "Palo Alto Networks",
@@ -183,6 +175,14 @@
     {
       "title": "CVE-2026-0261 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0261",
+      "summary": "",
+      "timestamp": 1778786100.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
       "summary": "",
       "timestamp": 1778786100.0,
       "source": "Palo Alto Networks",
@@ -221,8 +221,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0241 Trust Protection Foundation: Multiple Authorization Bypass Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0241",
+      "title": "PAN-SA-2026-0007 Chromium and Prisma Browser: Monthly Vulnerability Update (May 2026) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0007",
       "summary": "",
       "timestamp": 1778688000.0,
       "source": "Palo Alto Networks",
@@ -317,5 +317,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1778884401.636908
+  "last_updated": 1778887890.5529115
 }
