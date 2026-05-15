@@ -45,6 +45,14 @@
   ],
   "articles": [
     {
+      "title": "Microsoft to automatically roll back faulty Windows drivers",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-automatically-roll-back-faulty-windows-drivers/",
+      "summary": "Microsoft is introducing a new capability that will allow it to remotely roll back problematic Windows drivers delivered through Windows Update. [...]",
+      "timestamp": 1778848188.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
       "summary": "On Thursday, Microsoft shared mitigations for a high-severity Exchange Server vulnerability exploited in attacks that allow threat actors to execute a...",
@@ -93,16 +101,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
+      "title": "CVE-2026-0261 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0261",
       "summary": "",
       "timestamp": 1778786100.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0257 PAN-OS: GlobalProtect Authentication Bypass Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0257",
+      "title": "CVE-2026-0259 WildFire WF-500 and WF-500-B: Arbitrary File Read and Delete Vulnerability in WildFire Appliance (WF-500, WF-500-B) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0259",
       "summary": "",
       "timestamp": 1778786100.0,
       "source": "Palo Alto Networks",
@@ -117,16 +125,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0261 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0261",
+      "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
       "summary": "",
       "timestamp": 1778786100.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0259 WildFire WF-500 and WF-500-B: Arbitrary File Read and Delete Vulnerability in WildFire Appliance (WF-500, WF-500-B) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0259",
+      "title": "CVE-2026-0257 PAN-OS: GlobalProtect Authentication Bypass Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0257",
       "summary": "",
       "timestamp": 1778786100.0,
       "source": "Palo Alto Networks",
@@ -213,16 +221,8 @@
       "vendor": "News"
     },
     {
-      "title": "Dell confirms its SupportAssist software causes Windows BSOD crashes",
-      "link": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
-      "summary": "Dell confirmed that its SupportAssist software is causing blue-screen crashes on some Windows systems following a wave of user reports about random re...",
-      "timestamp": 1778753019.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-0242 Trust Protection Foundation: SQL Injection Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0242",
+      "title": "CVE-2026-0241 Trust Protection Foundation: Multiple Authorization Bypass Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0241",
       "summary": "",
       "timestamp": 1778688000.0,
       "source": "Palo Alto Networks",
@@ -317,5 +317,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1778842927.9840016
+  "last_updated": 1778850123.1658783
 }
