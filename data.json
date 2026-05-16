@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -44,6 +44,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Russian hackers turn Kazuar backdoor into modular P2P botnet",
+      "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
+      "summary": "The Russian hacker group Secret Blizzard has developed its long-running Kazuar backdoor into a modular peer-to-peer (P2P) botnet designed for long-ter...",
+      "timestamp": 1778940937.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "CVE-2026-0264 PAN-OS: Heap-Based Buffer Overflow in DNS Proxy and DNS Server Allows Unauthenticated Remote Code Execution (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0264",
@@ -197,14 +205,6 @@
       "vendor": "News"
     },
     {
-      "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
-      "summary": "Hackers are leveraging a critical authentication bypass vulnerability in the WordPress plugin Burst Statistics to obtain admin-level access to website...",
-      "timestamp": 1778792837.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa2-v69WY2SW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
       "summary": "May 2026: This security advisory provides the details and fix information for a vulnerability that was discovered and fixed after the Cisco Catalyst S...",
@@ -317,5 +317,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1778939581.6811268
+  "last_updated": 1778944126.6384804
 }
