@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -61,16 +61,8 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
-      "summary": "",
-      "timestamp": 1778894100.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0261 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0261",
+      "title": "CVE-2026-0264 PAN-OS: Heap-Based Buffer Overflow in DNS Proxy and DNS Server Allows Unauthenticated Remote Code Execution (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0264",
       "summary": "",
       "timestamp": 1778894100.0,
       "source": "Palo Alto Networks",
@@ -93,8 +85,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
       "summary": "",
       "timestamp": 1778894100.0,
       "source": "Palo Alto Networks",
@@ -103,6 +95,22 @@
     {
       "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
+      "summary": "",
+      "timestamp": 1778894100.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0261 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0261",
+      "summary": "",
+      "timestamp": 1778894100.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
       "summary": "",
       "timestamp": 1778894100.0,
       "source": "Palo Alto Networks",
@@ -119,14 +127,6 @@
     {
       "title": "CVE-2026-0257 PAN-OS: GlobalProtect Authentication Bypass Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0257",
-      "summary": "",
-      "timestamp": 1778894100.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0264 PAN-OS: Heap-Based Buffer Overflow in DNS Proxy and DNS Server Allows Unauthenticated Remote Code Execution (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0264",
       "summary": "",
       "timestamp": 1778894100.0,
       "source": "Palo Alto Networks",
@@ -317,5 +317,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1778965236.0430658
+  "last_updated": 1778968721.9282393
 }
