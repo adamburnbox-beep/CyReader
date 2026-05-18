@@ -45,6 +45,22 @@
   ],
   "articles": [
     {
+      "title": "Microsoft testing adjustable taskbar, Start menu in Windows 11",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-finally-gets-a-resizable-taskbar-and-start-menu/",
+      "summary": "Microsoft has finally brought back the resizable taskbar and Start menu to Windows 11 in the latest preview version rolling out to Insiders in the Exp...",
+      "timestamp": 1779102868.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft confirms Windows 11 security update install issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/",
+      "summary": "Microsoft has confirmed that the May 2026 Windows 11 security update (KB5089549) fails to install on some systems and triggers 0x800f0922 errors. [......",
+      "timestamp": 1779093194.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
       "link": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
       "summary": "A recently patched local privilege escalation vulnerability in the Linux kernel's rxgk module now has a proof-of-concept exploit that allows attackers...",
@@ -93,8 +109,48 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "summary": "",
+      "timestamp": 1778894100.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0261 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0261",
+      "summary": "",
+      "timestamp": 1778894100.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
+      "summary": "",
+      "timestamp": 1778894100.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0264 PAN-OS: Heap-Based Buffer Overflow in DNS Proxy and DNS Server Allows Unauthenticated Remote Code Execution (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0264",
+      "summary": "",
+      "timestamp": 1778894100.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
+      "summary": "",
+      "timestamp": 1778894100.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
       "summary": "",
       "timestamp": 1778894100.0,
       "source": "Palo Alto Networks",
@@ -111,46 +167,6 @@
     {
       "title": "CVE-2026-0265 PAN-OS: Authentication Bypass with Cloud Authentication Service (CAS) enabled (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0265",
-      "summary": "",
-      "timestamp": 1778894100.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
-      "summary": "",
-      "timestamp": 1778894100.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
-      "summary": "",
-      "timestamp": 1778894100.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0261 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0261",
-      "summary": "",
-      "timestamp": 1778894100.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
-      "summary": "",
-      "timestamp": 1778894100.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
       "summary": "",
       "timestamp": 1778894100.0,
       "source": "Palo Alto Networks",
@@ -185,22 +201,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
       "summary": "\u200bDuring the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in mu...",
       "timestamp": 1778867245.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Popular node-ipc npm package compromised to steal credentials",
-      "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
-      "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new s...",
-      "timestamp": 1778865042.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Avada Builder WordPress plugin flaws allow site credential theft",
-      "link": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
-      "summary": "Two vulnerabilities in the Avada Builder plugin for WordPress, with an estimated one million active installations, allow hackers to read arbitrary fil...",
-      "timestamp": 1778860616.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -317,5 +317,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1779093188.5117097
+  "last_updated": 1779105716.923423
 }
