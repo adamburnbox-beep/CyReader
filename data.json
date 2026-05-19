@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -44,6 +44,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Cybercrime service disrupted for abusing Microsoft platform to sign malware",
+      "link": "https://www.bleepingcomputer.com/news/security/cybercrime-service-disrupted-for-abusing-microsoft-platform-to-sign-malware/",
+      "summary": "Microsoft says it has disrupted a malware-signing-as-a-service (MSaaS) operation that abused the company's Artifact Signing service to generate fraudu...",
+      "timestamp": 1779227251.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-0264 PAN-OS: Heap-Based Buffer Overflow in DNS Proxy and DNS Server Allows Unauthenticated Remote Code Execution (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0264",
+      "summary": "",
+      "timestamp": 1779224400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
     {
       "title": "Discord rolls out end-to-end encryption on voice, video calls",
       "link": "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
@@ -133,14 +149,6 @@
       "vendor": "News"
     },
     {
-      "title": "Microsoft confirms patching issues in restricted Windows networks",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-patching-issues-in-restricted-windows-networks/",
-      "summary": "Microsoft says customers in restricted network environments may encounter Windows Update failures after installing the January 2026 optional non-secur...",
-      "timestamp": 1779189735.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
       "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "summary": "Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that ex...",
@@ -157,14 +165,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0259 WildFire WF-500 and WF-500-B: Arbitrary File Read and Delete Vulnerability in WildFire Appliance (WF-500, WF-500-B) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0259",
-      "summary": "",
-      "timestamp": 1778894100.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
       "summary": "",
@@ -173,16 +173,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0264 PAN-OS: Heap-Based Buffer Overflow in DNS Proxy and DNS Server Allows Unauthenticated Remote Code Execution (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0264",
-      "summary": "",
-      "timestamp": 1778894100.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
       "summary": "",
       "timestamp": 1778894100.0,
       "source": "Palo Alto Networks",
@@ -197,8 +189,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
+      "title": "CVE-2026-0259 WildFire WF-500 and WF-500-B: Arbitrary File Read and Delete Vulnerability in WildFire Appliance (WF-500, WF-500-B) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0259",
+      "summary": "",
+      "timestamp": 1778894100.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
       "summary": "",
       "timestamp": 1778894100.0,
       "source": "Palo Alto Networks",
@@ -277,5 +277,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1779224754.8910964
+  "last_updated": 1779229338.2460337
 }
