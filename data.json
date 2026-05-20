@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -38,12 +38,28 @@
     {
       "source": "Ivanti Security",
       "vendor": "Ivanti",
-      "new_count": 8,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Microsoft shares mitigation for YellowKey Windows zero-day",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-mitigation-for-yellowkey-windows-zero-day/",
+      "summary": "Microsoft has shared mitigations for YellowKey, a recently disclosed Windows BitLocker zero-day vulnerability that grants access to protected drives. ...",
+      "timestamp": 1779262275.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "GitHub investigates internal repositories breach claimed by TeamPCP",
+      "link": "https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/",
+      "summary": "GitHub is investigating a breach of its internal repositories after the TeamPCP hacker group claimed to have accessed approximately 4,000 repositories...",
+      "timestamp": 1779253722.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Max-severity flaw in ChromaDB for AI apps allows server hijacking",
       "link": "https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/",
@@ -129,22 +145,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
       "summary": "Threat actors earlier today published more than 600 malicious packages to the Node Package Manager (npm) index as part of a new Shai-Hulud supply-chai...",
       "timestamp": 1779201022.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "7-Eleven confirms data breach claimed by the ShinyHunters gang",
-      "link": "https://www.bleepingcomputer.com/news/security/7-eleven-confirms-data-breach-claimed-by-the-shinyhunters-gang/",
-      "summary": "Convenience store chain giant 7-Eleven confirmed that its systems were breached in a cyberattack claimed by the ShinyHunters extortion group last mont...",
-      "timestamp": 1779200201.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Critical Microsoft Vulnerabilities Doubled: From Exposure to Escalation",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-microsoft-vulnerabilities-doubled-from-exposure-to-escalation/",
-      "summary": "Microsoft's total vulnerability count stayed steady in 2025, but critical flaws surged year over year. BeyondTrust breaks down why attackers are incre...",
-      "timestamp": 1779199210.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -269,5 +269,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1779250932.3415334
+  "last_updated": 1779264174.4905994
 }
