@@ -45,6 +45,22 @@
   ],
   "articles": [
     {
+      "title": "Exploit released for new PinTheft Arch Linux root escalation flaw",
+      "link": "https://www.bleepingcomputer.com/news/linux/exploit-released-for-new-pintheft-arch-linux-root-escalation-flaw/",
+      "summary": "PinTheft, a recently patched Linux privilege escalation vulnerability, now has a publicly available proof-of-concept (PoC) exploit that allows local a...",
+      "timestamp": 1779274351.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
+      "link": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
+      "summary": "GitHub has confirmed that roughly 3,800 internal repositories were breached after one of its employees installed a malicious VS Code extension. [...]",
+      "timestamp": 1779264848.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Microsoft shares mitigation for YellowKey Windows zero-day",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-mitigation-for-yellowkey-windows-zero-day/",
       "summary": "Microsoft has shared mitigations for YellowKey, a recently disclosed Windows BitLocker zero-day vulnerability that grants access to protected drives. ...",
@@ -133,22 +149,6 @@
       "vendor": "News"
     },
     {
-      "title": "Microsoft blames macOS update for undismissible Teams location prompts",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-undismissible-teams-location-prompts-on-macos-update/",
-      "summary": "Microsoft has confirmed user reports that the Teams team collaboration app is displaying non-dismissible location prompts on some macOS systems. [...]",
-      "timestamp": 1779207047.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New Shai-Hulud malware wave compromises 600 npm packages",
-      "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-malware-wave-compromises-600-npm-packages/",
-      "summary": "Threat actors earlier today published more than 600 malicious packages to the Node Package Manager (npm) index as part of a new Shai-Hulud supply-chai...",
-      "timestamp": 1779201022.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
       "link": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "summary": "Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that ex...",
@@ -157,8 +157,8 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
+      "title": "CVE-2026-0259 WildFire WF-500 and WF-500-B: Arbitrary File Read and Delete Vulnerability in WildFire Appliance (WF-500, WF-500-B) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0259",
       "summary": "",
       "timestamp": 1778894100.0,
       "source": "Palo Alto Networks",
@@ -173,16 +173,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0259 WildFire WF-500 and WF-500-B: Arbitrary File Read and Delete Vulnerability in WildFire Appliance (WF-500, WF-500-B) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0259",
-      "summary": "",
-      "timestamp": 1778894100.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
+      "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
       "summary": "",
       "timestamp": 1778894100.0,
       "source": "Palo Alto Networks",
@@ -191,6 +183,14 @@
     {
       "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "summary": "",
+      "timestamp": 1778894100.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
       "summary": "",
       "timestamp": 1778894100.0,
       "source": "Palo Alto Networks",
@@ -269,5 +269,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1779264174.4905994
+  "last_updated": 1779275802.170208
 }
