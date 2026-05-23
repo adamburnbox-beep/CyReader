@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -44,6 +44,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes",
+      "link": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
+      "summary": "Italian authorities have dismantled a piracy ecosystem centered around the CINEMAGOAL app that provided access to various streaming platforms, includi...",
+      "timestamp": 1779546224.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Netherlands seizes 800 servers of hosting firm enabling cyberattacks",
       "link": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
@@ -133,16 +141,8 @@
       "vendor": "News"
     },
     {
-      "title": "Inside a Crypto Drainer: How to Spot it Before it Empties Your Wallet",
-      "link": "https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/",
-      "summary": "Modern crypto drainers don't hack wallets. They trick users into approving malicious transactions.  Flare explores how the Lucifer DaaS platform scale...",
-      "timestamp": 1779372010.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-0257 PAN-OS: GlobalProtect Authentication Bypass Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0257",
+      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
       "summary": "",
       "timestamp": 1779319800.0,
       "source": "Palo Alto Networks",
@@ -165,24 +165,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0265 PAN-OS: Authentication Bypass with Cloud Authentication Service (CAS) enabled (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0265",
-      "summary": "",
-      "timestamp": 1779319800.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
-      "summary": "",
-      "timestamp": 1779319800.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
+      "title": "CVE-2026-0264 PAN-OS: Heap-Based Buffer Overflow in DNS Proxy and DNS Server Allows Unauthenticated Remote Code Execution (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0264",
       "summary": "",
       "timestamp": 1779319800.0,
       "source": "Palo Alto Networks",
@@ -197,8 +181,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0264 PAN-OS: Heap-Based Buffer Overflow in DNS Proxy and DNS Server Allows Unauthenticated Remote Code Execution (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0264",
+      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
+      "summary": "",
+      "timestamp": 1779319800.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0265 PAN-OS: Authentication Bypass with Cloud Authentication Service (CAS) enabled (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0265",
+      "summary": "",
+      "timestamp": 1779319800.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0257 PAN-OS: GlobalProtect Authentication Bypass Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0257",
       "summary": "",
       "timestamp": 1779319800.0,
       "source": "Palo Alto Networks",
@@ -309,5 +309,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1779544702.186563
+  "last_updated": 1779549176.8154147
 }
