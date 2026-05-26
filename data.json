@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -44,6 +44,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "How Varonis Atlas integrates Claude Compliance API for AI governance",
+      "link": "https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/",
+      "summary": "AI governance requires visibility into how AI tools interact with enterprise data. Varonis explains how its Atlas platform uses Claude Compliance API ...",
+      "timestamp": 1779804071.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Microsoft Defender can now automatically isolate hacked endpoints",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-can-now-automatically-isolate-hacked-endpoints/",
@@ -125,14 +133,6 @@
       "vendor": "News"
     },
     {
-      "title": "Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes",
-      "link": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
-      "summary": "Italian authorities have dismantled a piracy ecosystem centered around the CINEMAGOAL app that provided access to various streaming platforms, includi...",
-      "timestamp": 1779546224.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
       "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
       "summary": "Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &#038; Infrastructure Security Agency (CISA) after KrebsOnSecur...",
@@ -149,16 +149,16 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0265 PAN-OS: Authentication Bypass with Cloud Authentication Service (CAS) enabled (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0265",
+      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
       "summary": "",
       "timestamp": 1779319800.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
+      "title": "CVE-2026-0261 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0261",
       "summary": "",
       "timestamp": 1779319800.0,
       "source": "Palo Alto Networks",
@@ -181,6 +181,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
+      "summary": "",
+      "timestamp": 1779319800.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
       "summary": "",
@@ -189,16 +197,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0261 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0261",
-      "summary": "",
-      "timestamp": 1779319800.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "title": "CVE-2026-0265 PAN-OS: Authentication Bypass with Cloud Authentication Service (CAS) enabled (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0265",
       "summary": "",
       "timestamp": 1779319800.0,
       "source": "Palo Alto Networks",
@@ -301,5 +301,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1779802577.63651
+  "last_updated": 1779814737.9672725
 }
