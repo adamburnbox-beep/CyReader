@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 2,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -44,6 +44,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Windows 11 KB5089573 update released with performance improvements",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089573-update-released-with-performance-improvements/",
+      "summary": "Microsoft has released the KB5089573 preview cumulative update for Windows 11 versions 25H2 and 24H2, which comes with 30 changes, including performan...",
+      "timestamp": 1779870826.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "KnowledgeDeliver flaw exploited as a zero-day to install web shells",
       "link": "https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/",
@@ -122,14 +130,6 @@
       "summary": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to...",
       "timestamp": 1779715309.0,
       "source": "Krebs on Security",
-      "vendor": "News"
-    },
-    {
-      "title": "FBI warns of Kali365 phishing service targeting Microsoft 365 accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-service-targeting-microsoft-365-accounts/",
-      "summary": "The FBI is warning about the Kali365 phishing-as-a-service platform (PhaaS) that is used to hijack Microsoft 365 accounts by abusing OAuth device code...",
-      "timestamp": 1779713154.0,
-      "source": "BleepingComputer",
       "vendor": "News"
     },
     {
@@ -277,5 +277,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1779858096.1264367
+  "last_updated": 1779871556.9471543
 }
