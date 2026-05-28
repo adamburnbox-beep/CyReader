@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -44,6 +44,86 @@
     }
   ],
   "articles": [
+    {
+      "title": "BTMOB Android malware service generates custom phishing payloads",
+      "link": "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
+      "summary": "An Android remote access trojan named BTMOB is offered to cybercriminals with a builder interface for generating malware payloads tailored to phishing...",
+      "timestamp": 1780002611.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-0264 PAN-OS: Heap-Based Buffer Overflow in DNS Proxy and DNS Server Allows Unauthenticated Remote Code Execution (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0264",
+      "summary": "",
+      "timestamp": 1780002000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
+      "summary": "",
+      "timestamp": 1780002000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0261 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0261",
+      "summary": "",
+      "timestamp": 1780002000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0265 PAN-OS: Authentication Bypass with Cloud Authentication Service (CAS) enabled (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0265",
+      "summary": "",
+      "timestamp": 1780002000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
+      "summary": "",
+      "timestamp": 1780002000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0263 PAN-OS: Remote Code Execution (RCE) in IKEv2 Processing (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0263",
+      "summary": "",
+      "timestamp": 1780002000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0259 WildFire WF-500 and WF-500-B: Arbitrary File Read and Delete Vulnerability in WildFire Appliance (WF-500, WF-500-B) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0259",
+      "summary": "",
+      "timestamp": 1780002000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "summary": "",
+      "timestamp": 1780002000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0257 PAN-OS: GlobalProtect Authentication Bypass Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0257",
+      "summary": "",
+      "timestamp": 1780002000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
     {
       "title": "FBI warns of fake FIFA websites running World Cup fraud schemes",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes/",
@@ -109,80 +189,8 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0264 PAN-OS: Heap-Based Buffer Overflow in DNS Proxy and DNS Server Allows Unauthenticated Remote Code Execution (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0264",
-      "summary": "",
-      "timestamp": 1779926400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID\u2122 Authentication Portal (Severity: CRITICAL)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
-      "summary": "",
-      "timestamp": 1779926400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0259 WildFire WF-500 and WF-500-B: Arbitrary File Read and Delete Vulnerability in WildFire Appliance (WF-500, WF-500-B) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0259",
-      "summary": "",
-      "timestamp": 1779926400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
-      "summary": "",
-      "timestamp": 1779926400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
-      "summary": "",
-      "timestamp": 1779926400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
-      "summary": "",
-      "timestamp": 1779926400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0261 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0261",
-      "summary": "",
-      "timestamp": 1779926400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0257 PAN-OS: GlobalProtect Authentication Bypass Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0257",
-      "summary": "",
-      "timestamp": 1779926400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0265 PAN-OS: Authentication Bypass with Cloud Authentication Service (CAS) enabled (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0265",
-      "summary": "",
-      "timestamp": 1779926400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0263 PAN-OS: Remote Code Execution (RCE) in IKEv2 Processing (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0263",
       "summary": "",
       "timestamp": 1779926400.0,
       "source": "Palo Alto Networks",
@@ -201,14 +209,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/",
       "summary": "Threat actors are targeting systems with high-performance computers in an ongoing cryptojacking campaign spread through a coordinated SEO poisoning op...",
       "timestamp": 1779917485.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Can you enforce strong Active Directory password rules without frustrating users?",
-      "link": "https://www.bleepingcomputer.com/news/security/can-you-enforce-strong-active-directory-password-rules-without-frustrating-users/",
-      "summary": "Strong Active Directory passwords don't have to come at the expense of usability. Specops Software explains how passphrases, breached password protect...",
-      "timestamp": 1779890410.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -285,5 +285,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1779995688.165572
+  "last_updated": 1780004019.1207564
 }
