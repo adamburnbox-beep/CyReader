@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -44,6 +44,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
+      "link": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
+      "summary": "A newly discovered local privilege escalation vulnerability dubbed 'CIFSwitch' in the Linux kernel could allow attackers to forge CIFS authentication ...",
+      "timestamp": 1780150568.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "ChatGPT share links abused to host fake outage pages to deliver malware",
       "link": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
@@ -125,14 +133,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
-      "summary": "",
-      "timestamp": 1780009200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0249",
       "summary": "",
@@ -141,12 +141,12 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
-      "link": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
-      "summary": "A likely Russian threat cluster tracked as GreyVibe has been targeting Ukrainian entities with AI-generated lures and a rich set of custom malware too...",
-      "timestamp": 1780007089.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
+      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
+      "summary": "",
+      "timestamp": 1780009200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
     },
     {
       "title": "CVE-2026-0261 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
@@ -165,16 +165,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
+      "title": "CVE-2026-0263 PAN-OS: Remote Code Execution (RCE) in IKEv2 Processing (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0263",
       "summary": "",
       "timestamp": 1780002000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
       "summary": "",
       "timestamp": 1780002000.0,
       "source": "Palo Alto Networks",
@@ -189,16 +189,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0263 PAN-OS: Remote Code Execution (RCE) in IKEv2 Processing (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0263",
+      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
       "summary": "",
       "timestamp": 1780002000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
+      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
       "summary": "",
       "timestamp": 1780002000.0,
       "source": "Palo Alto Networks",
@@ -285,5 +285,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1780150585.7185001
+  "last_updated": 1780156206.942091
 }
