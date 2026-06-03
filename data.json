@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -44,6 +44,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Acer working to patch max severity zero-days in Wave 7 routers",
+      "link": "https://www.bleepingcomputer.com/news/security/acer-warns-of-max-severity-zero-days-affecting-wave-7-routers/",
+      "summary": "Acer is working to address two maximum-severity zero-day vulnerabilities affecting its Wave 7 mesh routers. [...]",
+      "timestamp": 1780486547.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Police dismantles 9 crime groups in illegal streaming crackdown",
+      "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/",
+      "summary": "European and international law enforcement agencies have dismantled nine organized crime groups and arrested 29 suspects in a major crackdown on illeg...",
+      "timestamp": 1780481544.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Google adds Android protection against AI deepfake scam calls",
+      "link": "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/",
+      "summary": "Google is introducing a new Android security feature that will detect and flag phone calls in which scammers use artificial intelligence to impersonat...",
+      "timestamp": 1780477331.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "VS Code zero-day lets hackers steal GitHub tokens in one click",
       "link": "https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/",
@@ -109,30 +133,6 @@
       "vendor": "News"
     },
     {
-      "title": "Instagram users locked out after Meta AI abused to steal accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/",
-      "summary": "Multiple Instagram users had their accounts hijacked after attackers convinced Meta's AI-powered support tools that they were the legitimate owners. [...",
-      "timestamp": 1780415253.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Why the browser is now the front line for AI security",
-      "link": "https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/",
-      "summary": "AI-powered attacks and shadow AI adoption are creating new security risks inside the browser. Push Security explains why browser visibility is becomin...",
-      "timestamp": 1780410640.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CISA flags two-year-old Oracle flaw as actively exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/",
-      "summary": "CISA has ordered government agencies to secure their systems against a high-severity Oracle WebLogic Server vulnerability that was patched two years a...",
-      "timestamp": 1780404033.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0251 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0251",
       "summary": "",
@@ -157,14 +157,6 @@
       "vendor": "Ivanti"
     },
     {
-      "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0249",
-      "summary": "",
-      "timestamp": 1780009200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
       "summary": "",
@@ -173,10 +165,10 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0249",
       "summary": "",
-      "timestamp": 1780002000.0,
+      "timestamp": 1780009200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
@@ -205,6 +197,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "summary": "",
+      "timestamp": 1780002000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0263 PAN-OS: Remote Code Execution (RCE) in IKEv2 Processing (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0263",
       "summary": "",
@@ -213,8 +213,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
+      "title": "CVE-2026-0265 PAN-OS: Authentication Bypass with Cloud Authentication Service (CAS) enabled (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0265",
       "summary": "",
       "timestamp": 1780002000.0,
       "source": "Palo Alto Networks",
@@ -243,15 +243,7 @@
       "timestamp": 1779467664.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "Alleged Kimwolf Botmaster \u2018Dort\u2019 Arrested, Charged in U.S. and Canada",
-      "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
-      "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Thing...",
-      "timestamp": 1779400225.0,
-      "source": "Krebs on Security",
-      "vendor": "News"
     }
   ],
-  "last_updated": 1780471512.2956886
+  "last_updated": 1780489428.7705894
 }
