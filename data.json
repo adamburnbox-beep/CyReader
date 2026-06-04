@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -44,6 +44,22 @@
     }
   ],
   "articles": [
+    {
+      "title": "Brave Software releases Origin for a paid, bloat-free browsing experience",
+      "link": "https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/",
+      "summary": "Brave has announced the public release of Brave Origin, a paid minimalist version of its browser that strips out cryptocurrency, AI, rewards, and othe...",
+      "timestamp": 1780609030.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Hola Browser for Windows compromised to deliver cryptominer",
+      "link": "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
+      "summary": "The Windows version of the Hola Browser has been compromised in a supply chain attack that delivered an undeclared executable identified by researcher...",
+      "timestamp": 1780608445.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Credit card theft campaign abuses Stripe to host stolen payment info",
       "link": "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
@@ -109,20 +125,12 @@
       "vendor": "News"
     },
     {
-      "title": "Chinese hackers use new Atlas RAT malware in European cyberattacks",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/",
-      "summary": "A Chinese-speaking cybercrime group has expanded its targeting to the European space, deploying previously undocumented malware and the Atlas backdoor...",
-      "timestamp": 1780523127.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "U.S. sanctions Nobitex crypto exchange used by Iranian ransomware actors",
-      "link": "https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/",
-      "summary": "The U.S. Treasury's Office of Foreign Assets Control (OFAC) has announced sanctions against Nobitex, Iran's largest cryptocurrency exchange, for facil...",
-      "timestamp": 1780518682.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
+      "title": "Cisco Catalyst SD-WAN Manager Authenticated Privilege Escalation Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an authenticated, local attacker to execute arbitrar...",
+      "timestamp": 1780568820.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
     },
     {
       "title": "Cisco Webex Meetings Cross-Site Scripting Vulnerability",
@@ -213,6 +221,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
+      "summary": "",
+      "timestamp": 1780002000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
       "summary": "",
@@ -221,24 +237,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
-      "summary": "",
-      "timestamp": 1780002000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0263 PAN-OS: Remote Code Execution (RCE) in IKEv2 Processing (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0263",
-      "summary": "",
-      "timestamp": 1780002000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0265 PAN-OS: Authentication Bypass with Cloud Authentication Service (CAS) enabled (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0265",
+      "summary": "",
+      "timestamp": 1780002000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
       "summary": "",
       "timestamp": 1780002000.0,
       "source": "Palo Alto Networks",
@@ -261,5 +269,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1780607788.203698
+  "last_updated": 1780613635.97742
 }
