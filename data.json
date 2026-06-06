@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -44,6 +44,14 @@
     }
   ],
   "articles": [
+    {
+      "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
+      "summary": "Hackers are actively exploiting a critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin, which lets them take complete control of a W...",
+      "timestamp": 1780754966.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Suspicious Polyfill login prompts pop up on Toshiba, Muji websites",
       "link": "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/",
@@ -121,14 +129,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
       "summary": "The Windows version of the Hola Browser has been compromised in a supply chain attack that delivered an undeclared executable identified by researcher...",
       "timestamp": 1780608445.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Credit card theft campaign abuses Stripe to host stolen payment info",
-      "link": "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
-      "summary": "A new Magecart campaign is using Stripe's API infrastructure to host the credit card-stealing payload and the data exfiltrated from checkout pages. [....",
-      "timestamp": 1780606036.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -221,14 +221,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0263 PAN-OS: Remote Code Execution (RCE) in IKEv2 Processing (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0263",
-      "summary": "",
-      "timestamp": 1780002000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
       "summary": "",
@@ -237,8 +229,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
+      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "summary": "",
+      "timestamp": 1780002000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0263 PAN-OS: Remote Code Execution (RCE) in IKEv2 Processing (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0263",
       "summary": "",
       "timestamp": 1780002000.0,
       "source": "Palo Alto Networks",
@@ -269,5 +269,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1780755489.7360377
+  "last_updated": 1780761208.0963166
 }
