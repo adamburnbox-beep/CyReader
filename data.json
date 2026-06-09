@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,19 +31,43 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 7,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Ivanti Security",
       "vendor": "Ivanti",
-      "new_count": 9,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Windows 11 KB5094126 & KB5093998 cumulative updates released",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5094126-and-kb5093998-cumulative-updates-released/",
+      "summary": "Microsoft has released Windows 11\u00a0KB5094126\u00a0and\u00a0KB5093998\u00a0cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, an...",
+      "timestamp": 1781026352.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "XBOW tests Anthropic's Mythos Preview for offensive security",
+      "link": "https://www.bleepingcomputer.com/news/security/xbow-tests-anthropics-mythos-preview-for-offensive-security/",
+      "summary": "Anthropic's Mythos Preview was highly effective at finding vulnerability candidates, especially when analyzing source code. XBOW explores how the mode...",
+      "timestamp": 1781021798.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "GitHub disables Microsoft repos pushing password-stealing malware",
+      "link": "https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/",
+      "summary": "Microsoft removed 73 repositories across its Azure, microsoft, Azure-Samples, and MicrosoftDocs organizations on GitHub, disrupting continuous integra...",
+      "timestamp": 1781019760.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
@@ -117,30 +141,6 @@
       "vendor": "News"
     },
     {
-      "title": "New Shai-Hulud attack trojanizes 19 science-focused PyPI packages",
-      "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
-      "summary": "Hackers compromised 19 packages on the PyPI, collectively downloaded hundreds of thousands of times, in a new Shai-Hulud\u00a0supply-chain attack that deli...",
-      "timestamp": 1780951295.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
-      "summary": "WhatsApp has detected and stopped spear-phishing campaigns allegedly conducted by the NSO Group after investigating user reports of social engineering...",
-      "timestamp": 1780944053.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Gogs patches critical zero-day enabling remote code execution",
-      "link": "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
-      "summary": "Gogs has patched a critical security zero-day flaw that can allow attackers to compromise Internet-facing instances and access any repositories (inclu...",
-      "timestamp": 1780935520.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Webex Meetings Cross-Site Scripting Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-xss-jw3NeQzS?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Webex%20Meetings%20Cross-Site%20Scripting%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the web-based user interface of Cisco Webex Meetings could have allowed an unauthenticated, remote attacker to conduct a cross-site...",
@@ -197,14 +197,6 @@
       "vendor": "Ivanti"
     },
     {
-      "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0249",
-      "summary": "",
-      "timestamp": 1780009200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
       "summary": "",
@@ -213,10 +205,10 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0249",
       "summary": "",
-      "timestamp": 1780002000.0,
+      "timestamp": 1780009200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
@@ -245,6 +237,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "summary": "",
+      "timestamp": 1780002000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0263 PAN-OS: Remote Code Execution (RCE) in IKEv2 Processing (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0263",
       "summary": "",
@@ -253,13 +253,13 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
+      "title": "CVE-2026-0265 PAN-OS: Authentication Bypass with Cloud Authentication Service (CAS) enabled (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0265",
       "summary": "",
       "timestamp": 1780002000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1781018629.1094606
+  "last_updated": 1781026472.3855226
 }
