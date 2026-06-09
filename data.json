@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 5,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     },
@@ -44,6 +44,30 @@
     }
   ],
   "articles": [
+    {
+      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
+      "timestamp": 1781015676.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "New Veeam vulnerability exposes backup servers to RCE attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/",
+      "summary": "Veeam has released security updates to patch a critical Backup & Replication security flaw that can be exploited to gain remote code execution (RCE) o...",
+      "timestamp": 1781015276.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "June 2026 Security Update",
+      "link": "https://www.ivanti.com/blog/june-2026-security-update",
+      "summary": "Ivanti releases standard security patches on the second Tuesday of every month. In today\u2019s rapidly evolving technology and threat landscape, we believ...",
+      "timestamp": 1781013992.0,
+      "source": "Ivanti Security",
+      "vendor": "Ivanti"
+    },
     {
       "title": "French govt messaging service breached in account hijacking attack",
       "link": "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/",
@@ -109,26 +133,10 @@
       "vendor": "News"
     },
     {
-      "title": "Cisco Catalyst SD-WAN Manager Authenticated Privilege Escalation Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an authenticated, local attacker to execute arbitrar...",
-      "timestamp": 1780935524.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "Gogs patches critical zero-day enabling remote code execution",
       "link": "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
       "summary": "Gogs has patched a critical security zero-day flaw that can allow attackers to compromise Internet-facing instances and access any repositories (inclu...",
       "timestamp": 1780935520.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Critical UniFi OS bug lets hackers gain root without authentication",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
-      "summary": "Attackers can chain three already fixed vulnerabilities in the Ubiquiti UniFi OS server to execute remote code with root privileges and without authen...",
-      "timestamp": 1780933879.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -189,6 +197,14 @@
       "vendor": "Ivanti"
     },
     {
+      "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0249",
+      "summary": "",
+      "timestamp": 1780009200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
       "summary": "",
@@ -197,10 +213,10 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0249",
+      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
       "summary": "",
-      "timestamp": 1780009200.0,
+      "timestamp": 1780002000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
@@ -221,16 +237,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0263 PAN-OS: Remote Code Execution (RCE) in IKEv2 Processing (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0263",
+      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
       "summary": "",
       "timestamp": 1780002000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
+      "title": "CVE-2026-0263 PAN-OS: Remote Code Execution (RCE) in IKEv2 Processing (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0263",
       "summary": "",
       "timestamp": 1780002000.0,
       "source": "Palo Alto Networks",
@@ -243,15 +259,7 @@
       "timestamp": 1780002000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0265 PAN-OS: Authentication Bypass with Cloud Authentication Service (CAS) enabled (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0265",
-      "summary": "",
-      "timestamp": 1780002000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1781005364.526884
+  "last_updated": 1781018629.1094606
 }
