@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,204 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 2,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0273 PAN-OS: Authenticated Admin Command Injection Vulnerability via CLI or Web UI (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0273",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "China-linked JDY botnet expands targeting of U.S. military networks",
+      "link": "https://www.bleepingcomputer.com/news/security/china-linked-jdy-botnet-expands-targeting-of-us-military-networks/",
+      "summary": "The JDY botnet, a malware network previously associated with Chinese threat actors like Volt Typhoon, has significantly expanded its targeting scope a...",
+      "timestamp": 1781103600.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-52758 - Ghidra < 12.1 - SQL Injection via Unescaped Filter Values in BSim Search",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52758",
+      "summary": "CVE ID :CVE-2026-52758\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Ghidra before 12.1 contains a SQL injection vulner...",
+      "timestamp": 1781100996.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52755 - Ghidra < 12.0.4 - Path Traversal via Zip Slip in Theme Import",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52755",
+      "summary": "CVE ID :CVE-2026-52755\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Ghidra before 12.0.4 contains a path traversal vul...",
+      "timestamp": 1781100995.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52754 - Ghidra < 12.1 - Authentication Bypass via Null Signature in PKIAuthenticationModule",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52754",
+      "summary": "CVE ID :CVE-2026-52754\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Ghidra before 12.1 contains an authentication bypa...",
+      "timestamp": 1781100995.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52752 - Ghidra < 12.0.2 - Path Traversal in Extension Installer via ZIP Entry Names",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52752",
+      "summary": "CVE ID :CVE-2026-52752\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Ghidra before 12.0.2 contains a path traversal vul...",
+      "timestamp": 1781100995.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52751 - Ghidra < 12.1 - Remote Code Execution via Unfiltered RMI Deserialization in Shared Project Connection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52751",
+      "summary": "CVE ID :CVE-2026-52751\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Ghidra before 12.1 contains an unsafe deserializat...",
+      "timestamp": 1781100995.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52750 - Ghidra < 12.1- Command Injection via URL Annotation Click",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52750",
+      "summary": "CVE ID :CVE-2026-52750\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Ghidra before 12.1 contains a command injection vu...",
+      "timestamp": 1781100995.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49498 - Ghidra 11.0 < 12.1 - SQL Injection in PostgreSQL Password Change via Unescaped Username",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49498",
+      "summary": "CVE ID :CVE-2026-49498\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Ghidra 11.0 before 12.1 contains a SQL injection v...",
+      "timestamp": 1781100994.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-71330 - image-size 2.0.2 Denial of Service via Malformed ICNS Image Parsing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71330",
+      "summary": "CVE ID :CVE-2025-71330\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :image-size through 2.0.2 contains a denial of serv...",
+      "timestamp": 1781100990.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-71329 - image-size 2.0.2 Denial of Service via Infinite Loop in JXL/HEIF Parser",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71329",
+      "summary": "CVE ID :CVE-2025-71329\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :image-size through 2.0.2 contains a denial of serv...",
+      "timestamp": 1781100990.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-10238 - ThinkPad BIOS Out-of-Bounds Write to SMM Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-10238",
+      "summary": "CVE ID :CVE-2025-10238\n  \n  Published : June 10, 2026, 2:11 p.m. | 51\u00a0minutes ago\n  \n  Description :During an internal security assessment, a\u00a0potentia...",
+      "timestamp": 1781100681.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "The 5 Best Practices for Secure Identity Verification",
+      "link": "https://www.bleepingcomputer.com/news/security/the-5-best-practices-for-secure-identity-verification/",
+      "summary": "Attackers are increasingly bypassing weak authentication through phishing, MFA fatigue, and service desk social engineering. Specops Software breaks d...",
+      "timestamp": 1781100315.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Who Runs the Ransomware Group \u2018The Gentlemen?\u2019",
+      "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+      "summary": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of...",
+      "timestamp": 1781100224.0,
+      "source": "Krebs on Security",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft patches Exchange Server zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/",
+      "summary": "Microsoft has patched an actively exploited Exchange Server vulnerability that allows threat actors to execute arbitrary JavaScript code in cross-site...",
+      "timestamp": 1781099059.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Microsoft: Some Windows PCs fail to install latest monthly updates",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-upgraded-windows-pcs-fail-to-install-monthly-updates/",
@@ -58,14 +250,6 @@
       "timestamp": 1781091212.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2025-6254 - Doctreat Core <= 1.6.8 - Unauthenticated Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-6254",
-      "summary": "CVE ID :CVE-2025-6254\n  \n  Published : June 10, 2026, 10:16 a.m. | 58\u00a0minutes ago\n  \n  Description :The Doctreat Core plugin for WordPress is vulnerab...",
-      "timestamp": 1781086589.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft patches YellowKey, GreenPlasma, MiniPlasma zero-days",
@@ -76,84 +260,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-10721 - Concrete CMS below 9.5.2 is vulnerable to PHP Object Injection via unserialize() calls in the  in Permission, Cache, and Search components",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10721",
-      "summary": "CVE ID :CVE-2026-10721\n  \n  Published : June 10, 2026, 8:16 a.m. | 2\u00a0hours, 58\u00a0minutes ago\n  \n  Description :Concrete CMS below 9.5.2 is vulnerable to...",
-      "timestamp": 1781079382.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-29116 - Dahua Denial of Service via Exception Reboot",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29116",
-      "summary": "CVE ID :CVE-2026-29116\n  \n  Published : June 10, 2026, 7:16 a.m. | 3\u00a0hours, 58\u00a0minutes ago\n  \n  Description :A vulnerability has been found in some Da...",
-      "timestamp": 1781075785.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10846 - Insufficient verification that responses belong to a query",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10846",
-      "summary": "CVE ID :CVE-2026-10846\n  \n  Published : June 10, 2026, 7:16 a.m. | 3\u00a0hours, 58\u00a0minutes ago\n  \n  Description :NLnet Labs ldns 1.2.0 up to and including...",
-      "timestamp": 1781075784.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Ivanti: Max severity Sentry flaw allows code execution as root",
       "link": "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
       "summary": "Ivanti has patched two critical vulnerabilities in its Sentry secure mobile gateway solution, including a maximum-severity flaw that enables remote at...",
       "timestamp": 1781072788.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-26239 - File Station 5",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-26239",
-      "summary": "CVE ID :CVE-2026-26239\n  \n  Published : June 10, 2026, 4:17 a.m. | 6\u00a0hours, 57\u00a0minutes ago\n  \n  Description :A buffer overflow vulnerability has been ...",
-      "timestamp": 1781065041.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-26237 - QuMagie",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-26237",
-      "summary": "CVE ID :CVE-2026-26237\n  \n  Published : June 10, 2026, 4:17 a.m. | 6\u00a0hours, 57\u00a0minutes ago\n  \n  Description :A missing authorization vulnerability has...",
-      "timestamp": 1781065039.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-24724 - File Station 5",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24724",
-      "summary": "CVE ID :CVE-2026-24724\n  \n  Published : June 10, 2026, 4:17 a.m. | 6\u00a0hours, 57\u00a0minutes ago\n  \n  Description :An incorrect authorization vulnerability ...",
-      "timestamp": 1781065037.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-24719 - QTS, QuTS hero",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24719",
-      "summary": "CVE ID :CVE-2026-24719\n  \n  Published : June 10, 2026, 4:17 a.m. | 6\u00a0hours, 57\u00a0minutes ago\n  \n  Description :A command injection vulnerability has bee...",
-      "timestamp": 1781065037.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-22893 - QTS, QuTS hero",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22893",
-      "summary": "CVE ID :CVE-2026-22893\n  \n  Published : June 10, 2026, 4:17 a.m. | 6\u00a0hours, 57\u00a0minutes ago\n  \n  Description :A command injection vulnerability has bee...",
-      "timestamp": 1781065034.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-66279 - QTS, QuTS hero",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-66279",
-      "summary": "CVE ID :CVE-2025-66279\n  \n  Published : June 10, 2026, 4:17 a.m. | 6\u00a0hours, 57\u00a0minutes ago\n  \n  Description :A command injection vulnerability has bee...",
-      "timestamp": 1781065032.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Anthropic rolls out Claude Fable 5, but it's available for a limited time",
@@ -192,30 +304,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/",
       "summary": "Phishing simulation on an OpenClaw email agent with various configuration profiles showed that it was susceptible to tactics\u00a0commonly used to compromi...",
       "timestamp": 1781040020.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "SAP fixes critical flaws in NetWeaver and Commerce Cloud",
-      "link": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/",
-      "summary": "SAP has released fixes for 15 vulnerabilities as part of its June 2026 Security Patch package, including four critical-severity flaws affecting SAP Ne...",
-      "timestamp": 1781033787.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft releases Windows 10 KB5094127 extended security update",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5094127-extended-security-update/",
-      "summary": "Microsoft has released the Windows 10 KB5094127 extended security update, which fixes the June 2026 Patch Tuesday vulnerabilities and adds new functio...",
-      "timestamp": 1781030100.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft June 2026 Patch Tuesday fixes 3 zero-day, 200 flaws",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-3-zero-day-200-flaws/",
-      "summary": "Today is Microsoft's June 2026 Patch Tuesday, with security updates for 200 flaws and three publicly disclosed zero-day vulnerabilities. [...]",
-      "timestamp": 1781027879.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -260,22 +348,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0257 PAN-OS: GlobalProtect Authentication Bypass Vulnerabilities (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0257",
-      "summary": "",
-      "timestamp": 1780465500.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0251 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0251",
-      "summary": "",
-      "timestamp": 1780362900.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "Hackers Used Meta\u2019s AI Support Bot to Seize Instagram Accounts",
       "link": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images an...",
@@ -292,5 +364,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781094822.3709924
+  "last_updated": 1781108629.9972222
 }
