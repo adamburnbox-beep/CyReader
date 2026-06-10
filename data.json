@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,84 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Path traversal flaw in AI dev platform Langflow exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
+      "summary": "Attackers are actively exploiting CVE-2026-5027, a high-severity path traversal vulnerability in the AI development platform Langflow, to write arbitr...",
+      "timestamp": 1781126624.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
+      "timestamp": 1781125304.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "CVE-2026-53738 - Copy & Delete Posts through 1.5.4 Privilege Escalation via cdp_action_handling Handler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53738",
+      "summary": "CVE ID :CVE-2026-53738\n  \n  Published : June 10, 2026, 8:39 p.m. | 37\u00a0minutes ago\n  \n  Description :Copy & Delete Posts through 1.5.4 lets any plugin-...",
+      "timestamp": 1781123983.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "The \u2018Miasma\u2019 worm source code briefly leaked on GitHub",
+      "link": "https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/",
+      "summary": "The Miasma credential-stealing attack framework, which has recently targeted open-source ecosystems through supply-chain attacks, was briefly open-sou...",
+      "timestamp": 1781123228.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-10143 - kafka-python prior to 2.3.2 DoS via SCRAM Iteration Count in scram.py",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10143",
+      "summary": "CVE ID :CVE-2026-10143\n  \n  Published : June 10, 2026, 8:22 p.m. | 55\u00a0minutes ago\n  \n  Description :kafka-python prior to 2.3.2 contains a denial-of-s...",
+      "timestamp": 1781122959.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-6893 - Dracut: dracut: root code execution via dhcp options command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6893",
+      "summary": "CVE ID :CVE-2026-6893\n  \n  Published : June 10, 2026, 8:17 p.m. | 1\u00a0hour ago\n  \n  Description :A flaw was found in dracut. A remote attacker on the ad...",
+      "timestamp": 1781122649.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46529 - PDF /GoToR action argv injection enables single-click RCE via --gtk-module dlopen",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46529",
+      "summary": "CVE ID :CVE-2026-46529\n  \n  Published : June 10, 2026, 8:17 p.m. | 1\u00a0hour ago\n  \n  Description :Atril Document Viewer is the default document reader o...",
+      "timestamp": 1781122648.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-10142 - kafka-python prior to 2.3.2 Denial of Service via Protocol Parser Frame Length",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10142",
+      "summary": "CVE ID :CVE-2026-10142\n  \n  Published : June 10, 2026, 8:13 p.m. | 1\u00a0hour, 4\u00a0minutes ago\n  \n  Description :kafka-python prior to 2.3.2 contains a deni...",
+      "timestamp": 1781122391.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "GitHub announces npm security changes to tackle supply-chain attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/",
+      "summary": "GitHub has announced that npm v12, expected next month, will introduce several security-focused changes aimed at blocking supply-chain attacks abusing...",
+      "timestamp": 1781120504.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
       "link": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
@@ -62,7 +134,7 @@
     {
       "title": "CVE-2026-9151 - Command Injection Vulnerability in OpenVPN on Multiple TP-Link Archer Routers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9151",
-      "summary": "CVE ID :CVE-2026-9151\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :An OS\ncommand injection vulnerability exists in the...",
+      "summary": "CVE ID :CVE-2026-9151\n  \n  Published : June 10, 2026, 6:17 p.m. | 3\u00a0hours ago\n  \n  Description :An OS\ncommand injection vulnerability exists in the VP...",
       "timestamp": 1781115435.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -70,7 +142,7 @@
     {
       "title": "CVE-2026-50570 - Fission: Incomplete capability denylist in Environment/Function PodSpec validation allows tenant-added CAP_SYS_TIME and cross-tenant node wall-clock corruption",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50570",
-      "summary": "CVE ID :CVE-2026-50570\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
+      "summary": "CVE ID :CVE-2026-50570\n  \n  Published : June 10, 2026, 6:17 p.m. | 3\u00a0hours ago\n  \n  Description :Fission is an open-source, Kubernetes-native serverle...",
       "timestamp": 1781115433.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -78,7 +150,7 @@
     {
       "title": "CVE-2026-50566 - Fission: Environment Runtime.Container and Builder.Container SecurityContext bypass allows privileged pod creation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50566",
-      "summary": "CVE ID :CVE-2026-50566\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
+      "summary": "CVE ID :CVE-2026-50566\n  \n  Published : June 10, 2026, 6:17 p.m. | 3\u00a0hours ago\n  \n  Description :Fission is an open-source, Kubernetes-native serverle...",
       "timestamp": 1781115433.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -86,7 +158,7 @@
     {
       "title": "CVE-2026-50564 - Fission Environment CRD podspec passthrough enables hostPID/hostNetwork/privileged pods, node escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50564",
-      "summary": "CVE ID :CVE-2026-50564\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
+      "summary": "CVE ID :CVE-2026-50564\n  \n  Published : June 10, 2026, 6:17 p.m. | 3\u00a0hours ago\n  \n  Description :Fission is an open-source, Kubernetes-native serverle...",
       "timestamp": 1781115432.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -94,54 +166,14 @@
     {
       "title": "CVE-2026-50563 - Fission Container Executor Function PodSpec Injection Leading to Node Escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50563",
-      "summary": "CVE ID :CVE-2026-50563\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
+      "summary": "CVE ID :CVE-2026-50563\n  \n  Published : June 10, 2026, 6:17 p.m. | 3\u00a0hours ago\n  \n  Description :Fission is an open-source, Kubernetes-native serverle...",
       "timestamp": 1781115432.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-50545 - Fission Environment CRD PodSpec Injection Leading to Node Escape and Cluster Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50545",
-      "summary": "CVE ID :CVE-2026-50545\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
-      "timestamp": 1781115432.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49824 - Fission: Cross-namespace Environment reference via unvalidated EnvironmentRef in Function admission webhook",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49824",
-      "summary": "CVE ID :CVE-2026-49824\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
-      "timestamp": 1781115430.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-46617 - Fission runtime pods automount the fission-fetcher service-account token into the user function container, granting function code namespace-wide secret / configmap read",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46617",
-      "summary": "CVE ID :CVE-2026-46617\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
-      "timestamp": 1781115425.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-46614 - Fission router exposes /fission-function/<ns>/<name> on its public listener, allowing invocation of any function without an HTTPTrigger",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46614",
-      "summary": "CVE ID :CVE-2026-46614\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
-      "timestamp": 1781115425.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-46612 - Fission StorageSvc /v1/archive endpoint exposes unauthenticated CRUD over all function archives",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46612",
-      "summary": "CVE ID :CVE-2026-46612\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
-      "timestamp": 1781115425.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
+      "title": "CVE-2026-0273 PAN-OS: Authenticated Admin Command Injection Vulnerability via CLI or Web UI (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0273",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -164,8 +196,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -180,8 +212,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0273 PAN-OS: Authenticated Admin Command Injection Vulnerability via CLI or Web UI (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0273",
+      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -212,8 +244,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
+      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -276,44 +308,12 @@
       "vendor": "News"
     },
     {
-      "title": "Anthropic rolls out Claude Fable 5, but it's available for a limited time",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-claude-fable-5-but-its-available-for-a-limited-time/",
-      "summary": "Anthropic has begun rolling out a new model called \"Fable,\" which is based on the same underlying model as Mythos, its most powerful AI model class. [...",
-      "timestamp": 1781057011.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft Defender 'RoguePlanet' zero-day grants SYSTEM privileges",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-rogueplanet-zero-day-grants-system-privileges/",
-      "summary": "A security researcher has released a new Microsoft Defender zero-day exploit named \"RoguePlanet\" just hours after Microsoft fixed two previously discl...",
-      "timestamp": 1781046678.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "A Record-Breaking Patch Tuesday for June 2026",
       "link": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
       "summary": "Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record numb...",
       "timestamp": 1781042848.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "ServiceNow discloses security incident exposing customer data",
-      "link": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/",
-      "summary": "ServiceNow is warning about a security incident after attackers exploited an unauthenticated access flaw through a vulnerable API endpoint, allowing t...",
-      "timestamp": 1781040849.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
-      "timestamp": 1781015676.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     },
     {
       "title": "June 2026 Security Update",
@@ -364,5 +364,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781118980.4484296
+  "last_updated": 1781127409.3464274
 }
