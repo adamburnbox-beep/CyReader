@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -41,9 +41,104 @@
       "new_count": 8,
       "total_count": 10,
       "status": "ok"
+    },
+    {
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High",
+      "new_count": 10,
+      "total_count": 10,
+      "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Anthropic rolls out Claude Fable 5, but it's available for a limited time",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-claude-fable-5-but-its-available-for-a-limited-time/",
+      "summary": "Anthropic has begun rolling out a new model called \"Fable,\" which is based on the same underlying model as Mythos, its most powerful AI model class. [...",
+      "timestamp": 1781057011.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-53673 - BuddyPress 14.4.0 Private Message IDOR via REST API user_id Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53673",
+      "summary": "CVE ID :CVE-2026-53673\n  \n  Published : June 10, 2026, 12:16 a.m. | 58\u00a0minutes ago\n  \n  Description :BuddyPress 14.4.0 contains an insecure direct obj...",
+      "timestamp": 1781050615.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46491 - SimpleSAMLphp casserver FileSystemTicketStore path traversal allows out-of-ticket-directory read/unserialize and conditional deletion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46491",
+      "summary": "CVE ID :CVE-2026-46491\n  \n  Published : June 10, 2026, 12:16 a.m. | 58\u00a0minutes ago\n  \n  Description :SimpleSAMLphp-casserver is a CAS 1.0 and 2.0 comp...",
+      "timestamp": 1781050613.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45782 - Cloud Hypervisor: Use-after-free in virtio-block Async I/O Completion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45782",
+      "summary": "CVE ID :CVE-2026-45782\n  \n  Published : June 10, 2026, 12:16 a.m. | 58\u00a0minutes ago\n  \n  Description :Cloud Hypervisor is a Virtual Machine Monitor for...",
+      "timestamp": 1781050613.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-41732 - In Spring for Apache Pulsar, overly broad trusted-package matching in header mapper exposes JDK classes to deserialization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41732",
+      "summary": "CVE ID :CVE-2026-41732\n  \n  Published : June 10, 2026, 12:16 a.m. | 58\u00a0minutes ago\n  \n  Description :JsonPulsarHeaderMapper matched type headers again...",
+      "timestamp": 1781050612.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-41731 - In Spring for Apache Kafka, overly broad trusted-package matching in header mappers exposes JDK classes to deserialization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41731",
+      "summary": "CVE ID :CVE-2026-41731\n  \n  Published : June 10, 2026, 12:16 a.m. | 58\u00a0minutes ago\n  \n  Description :JsonKafkaHeaderMapper and the deprecated DefaultK...",
+      "timestamp": 1781050612.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-41729 - Spring Data REST SpEL Injection via Map Key in JSON Patch",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41729",
+      "summary": "CVE ID :CVE-2026-41729\n  \n  Published : June 10, 2026, 12:16 a.m. | 58\u00a0minutes ago\n  \n  Description :Spring Data REST is vulnerable to SpEL expression...",
+      "timestamp": 1781050612.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-41717 - Spring Data MongoDB - SpEL Expression Injection via Annotated Query Parameter Binding",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41717",
+      "summary": "CVE ID :CVE-2026-41717\n  \n  Published : June 10, 2026, 12:16 a.m. | 58\u00a0minutes ago\n  \n  Description :Spring Data MongoDB contains a SpEL (Spring Expre...",
+      "timestamp": 1781050611.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-9753 - Server crash via malformed binary diff passed to $_internalApplyOplogUpdate.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9753",
+      "summary": "CVE ID :CVE-2026-9753\n  \n  Published : June 9, 2026, 11:17 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :The $_internalApplyOplogUpdate aggregation ...",
+      "timestamp": 1781047024.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-9742 - Authenticate command with specific mechanism parameter can trigger server crash",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9742",
+      "summary": "CVE ID :CVE-2026-9742\n  \n  Published : June 9, 2026, 11:17 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :When OIDC authentication is enabled in conf...",
+      "timestamp": 1781047023.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-9740 - Unbounded recursion in BSONColumn interleaved-reference causes pre-auth stack overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9740",
+      "summary": "CVE ID :CVE-2026-9740\n  \n  Published : June 9, 2026, 11:17 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :A vulnerability in MongoDB Server's BSON va...",
+      "timestamp": 1781047023.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Microsoft Defender 'RoguePlanet' zero-day grants SYSTEM privileges",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-rogueplanet-zero-day-grants-system-privileges/",
@@ -133,14 +228,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "New Veeam vulnerability exposes backup servers to RCE attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/",
-      "summary": "Veeam has released security updates to patch a critical Backup & Replication security flaw that can be exploited to gain remote code execution (RCE) o...",
-      "timestamp": 1781015276.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "June 2026 Security Update",
       "link": "https://www.ivanti.com/blog/june-2026-security-update",
       "summary": "Ivanti releases standard security patches on the second Tuesday of every month. In today\u2019s rapidly evolving technology and threat landscape, we believ...",
@@ -205,14 +292,6 @@
       "vendor": "Ivanti"
     },
     {
-      "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0249",
-      "summary": "",
-      "timestamp": 1780009200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
       "summary": "",
@@ -221,10 +300,10 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
+      "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0249",
       "summary": "",
-      "timestamp": 1780002000.0,
+      "timestamp": 1780009200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
@@ -245,16 +324,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
+      "title": "CVE-2026-0263 PAN-OS: Remote Code Execution (RCE) in IKEv2 Processing (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0263",
       "summary": "",
       "timestamp": 1780002000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0263 PAN-OS: Remote Code Execution (RCE) in IKEv2 Processing (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0263",
+      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
       "summary": "",
       "timestamp": 1780002000.0,
       "source": "Palo Alto Networks",
@@ -267,7 +346,15 @@
       "timestamp": 1780002000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0265 PAN-OS: Authentication Bypass with Cloud Authentication Service (CAS) enabled (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0265",
+      "summary": "",
+      "timestamp": 1780002000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1781050924.702676
+  "last_updated": 1781061090.942215
 }
