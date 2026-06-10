@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 8,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 10,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,24 +52,112 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
+      "title": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
+      "summary": "Oracle PeopleSoft servers are being targeted in ongoing data theft attacks by the ShinyHunters extortion gang, which claims to have stolen data from o...",
+      "timestamp": 1781116317.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
-      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
+      "title": "CVE-2026-9151 - Command Injection Vulnerability in OpenVPN on Multiple TP-Link Archer Routers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9151",
+      "summary": "CVE ID :CVE-2026-9151\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :An OS\ncommand injection vulnerability exists in the...",
+      "timestamp": 1781115435.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50570 - Fission: Incomplete capability denylist in Environment/Function PodSpec validation allows tenant-added CAP_SYS_TIME and cross-tenant node wall-clock corruption",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50570",
+      "summary": "CVE ID :CVE-2026-50570\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
+      "timestamp": 1781115433.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50566 - Fission: Environment Runtime.Container and Builder.Container SecurityContext bypass allows privileged pod creation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50566",
+      "summary": "CVE ID :CVE-2026-50566\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
+      "timestamp": 1781115433.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50564 - Fission Environment CRD podspec passthrough enables hostPID/hostNetwork/privileged pods, node escape",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50564",
+      "summary": "CVE ID :CVE-2026-50564\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
+      "timestamp": 1781115432.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50563 - Fission Container Executor Function PodSpec Injection Leading to Node Escape",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50563",
+      "summary": "CVE ID :CVE-2026-50563\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
+      "timestamp": 1781115432.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50545 - Fission Environment CRD PodSpec Injection Leading to Node Escape and Cluster Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50545",
+      "summary": "CVE ID :CVE-2026-50545\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
+      "timestamp": 1781115432.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49824 - Fission: Cross-namespace Environment reference via unvalidated EnvironmentRef in Function admission webhook",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49824",
+      "summary": "CVE ID :CVE-2026-49824\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
+      "timestamp": 1781115430.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46617 - Fission runtime pods automount the fission-fetcher service-account token into the user function container, granting function code namespace-wide secret / configmap read",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46617",
+      "summary": "CVE ID :CVE-2026-46617\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
+      "timestamp": 1781115425.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46614 - Fission router exposes /fission-function/<ns>/<name> on its public listener, allowing invocation of any function without an HTTPTrigger",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46614",
+      "summary": "CVE ID :CVE-2026-46614\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
+      "timestamp": 1781115425.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46612 - Fission StorageSvc /v1/archive endpoint exposes unauthenticated CRUD over all function archives",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46612",
+      "summary": "CVE ID :CVE-2026-46612\n  \n  Published : June 10, 2026, 6:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Fission is an open-source, Kubernetes-native serve...",
+      "timestamp": 1781115425.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -100,8 +188,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
+      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -116,16 +212,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -138,86 +226,6 @@
       "timestamp": 1781103600.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-52758 - Ghidra < 12.1 - SQL Injection via Unescaped Filter Values in BSim Search",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52758",
-      "summary": "CVE ID :CVE-2026-52758\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Ghidra before 12.1 contains a SQL injection vulner...",
-      "timestamp": 1781100996.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52755 - Ghidra < 12.0.4 - Path Traversal via Zip Slip in Theme Import",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52755",
-      "summary": "CVE ID :CVE-2026-52755\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Ghidra before 12.0.4 contains a path traversal vul...",
-      "timestamp": 1781100995.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52754 - Ghidra < 12.1 - Authentication Bypass via Null Signature in PKIAuthenticationModule",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52754",
-      "summary": "CVE ID :CVE-2026-52754\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Ghidra before 12.1 contains an authentication bypa...",
-      "timestamp": 1781100995.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52752 - Ghidra < 12.0.2 - Path Traversal in Extension Installer via ZIP Entry Names",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52752",
-      "summary": "CVE ID :CVE-2026-52752\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Ghidra before 12.0.2 contains a path traversal vul...",
-      "timestamp": 1781100995.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52751 - Ghidra < 12.1 - Remote Code Execution via Unfiltered RMI Deserialization in Shared Project Connection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52751",
-      "summary": "CVE ID :CVE-2026-52751\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Ghidra before 12.1 contains an unsafe deserializat...",
-      "timestamp": 1781100995.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52750 - Ghidra < 12.1- Command Injection via URL Annotation Click",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52750",
-      "summary": "CVE ID :CVE-2026-52750\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Ghidra before 12.1 contains a command injection vu...",
-      "timestamp": 1781100995.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49498 - Ghidra 11.0 < 12.1 - SQL Injection in PostgreSQL Password Change via Unescaped Username",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49498",
-      "summary": "CVE ID :CVE-2026-49498\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Ghidra 11.0 before 12.1 contains a SQL injection v...",
-      "timestamp": 1781100994.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-71330 - image-size 2.0.2 Denial of Service via Malformed ICNS Image Parsing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71330",
-      "summary": "CVE ID :CVE-2025-71330\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :image-size through 2.0.2 contains a denial of serv...",
-      "timestamp": 1781100990.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-71329 - image-size 2.0.2 Denial of Service via Infinite Loop in JXL/HEIF Parser",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71329",
-      "summary": "CVE ID :CVE-2025-71329\n  \n  Published : June 10, 2026, 2:16 p.m. | 46\u00a0minutes ago\n  \n  Description :image-size through 2.0.2 contains a denial of serv...",
-      "timestamp": 1781100990.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-10238 - ThinkPad BIOS Out-of-Bounds Write to SMM Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-10238",
-      "summary": "CVE ID :CVE-2025-10238\n  \n  Published : June 10, 2026, 2:11 p.m. | 51\u00a0minutes ago\n  \n  Description :During an internal security assessment, a\u00a0potentia...",
-      "timestamp": 1781100681.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "The 5 Best Practices for Secure Identity Verification",
@@ -300,14 +308,6 @@
       "vendor": "News"
     },
     {
-      "title": "OpenClaw AI agent found falling for phishing attacks, spills user data",
-      "link": "https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/",
-      "summary": "Phishing simulation on an OpenClaw email agent with various configuration profiles showed that it was susceptible to tactics\u00a0commonly used to compromi...",
-      "timestamp": 1781040020.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
@@ -364,5 +364,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781108629.9972222
+  "last_updated": 1781118980.4484296
 }
