@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,17 +45,57 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 9,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Microsoft: Some Windows PCs fail to install latest monthly updates",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-upgraded-windows-pcs-fail-to-install-monthly-updates/",
+      "summary": "Microsoft warned customers on Tuesday that they may have issues installing the latest monthly updates on some Windows devices that were upgraded to Wi...",
+      "timestamp": 1781091212.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2025-6254 - Doctreat Core <= 1.6.8 - Unauthenticated Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-6254",
+      "summary": "CVE ID :CVE-2025-6254\n  \n  Published : June 10, 2026, 10:16 a.m. | 58\u00a0minutes ago\n  \n  Description :The Doctreat Core plugin for WordPress is vulnerab...",
+      "timestamp": 1781086589.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft patches YellowKey, GreenPlasma, MiniPlasma zero-days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/",
+      "summary": "On Tuesday, Microsoft patched two zero-day vulnerabilities that let attackers gain SYSTEM privileges on fully patched Windows systems, and a third one...",
+      "timestamp": 1781085453.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-10721 - Concrete CMS below 9.5.2 is vulnerable to PHP Object Injection via unserialize() calls in the  in Permission, Cache, and Search components",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10721",
+      "summary": "CVE ID :CVE-2026-10721\n  \n  Published : June 10, 2026, 8:16 a.m. | 2\u00a0hours, 58\u00a0minutes ago\n  \n  Description :Concrete CMS below 9.5.2 is vulnerable to...",
+      "timestamp": 1781079382.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-29116 - Dahua Denial of Service via Exception Reboot",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29116",
+      "summary": "CVE ID :CVE-2026-29116\n  \n  Published : June 10, 2026, 7:16 a.m. | 3\u00a0hours, 58\u00a0minutes ago\n  \n  Description :A vulnerability has been found in some Da...",
+      "timestamp": 1781075785.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-10846 - Insufficient verification that responses belong to a query",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10846",
-      "summary": "CVE ID :CVE-2026-10846\n  \n  Published : June 10, 2026, 6:37 a.m. | 24\u00a0minutes ago\n  \n  Description :NLnet Labs ldns 1.2.0 up to and including versions...",
-      "timestamp": 1781073479.0,
+      "summary": "CVE ID :CVE-2026-10846\n  \n  Published : June 10, 2026, 7:16 a.m. | 3\u00a0hours, 58\u00a0minutes ago\n  \n  Description :NLnet Labs ldns 1.2.0 up to and including...",
+      "timestamp": 1781075784.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -68,17 +108,9 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-29116 - Dahua Denial of Service via Exception Reboot",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29116",
-      "summary": "CVE ID :CVE-2026-29116\n  \n  Published : June 10, 2026, 6:16 a.m. | 46\u00a0minutes ago\n  \n  Description :A vulnerability has been found in some Dahua produ...",
-      "timestamp": 1781072194.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-26239 - File Station 5",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-26239",
-      "summary": "CVE ID :CVE-2026-26239\n  \n  Published : June 10, 2026, 4:17 a.m. | 2\u00a0hours, 45\u00a0minutes ago\n  \n  Description :A buffer overflow vulnerability has been ...",
+      "summary": "CVE ID :CVE-2026-26239\n  \n  Published : June 10, 2026, 4:17 a.m. | 6\u00a0hours, 57\u00a0minutes ago\n  \n  Description :A buffer overflow vulnerability has been ...",
       "timestamp": 1781065041.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -86,7 +118,7 @@
     {
       "title": "CVE-2026-26237 - QuMagie",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-26237",
-      "summary": "CVE ID :CVE-2026-26237\n  \n  Published : June 10, 2026, 4:17 a.m. | 2\u00a0hours, 45\u00a0minutes ago\n  \n  Description :A missing authorization vulnerability has...",
+      "summary": "CVE ID :CVE-2026-26237\n  \n  Published : June 10, 2026, 4:17 a.m. | 6\u00a0hours, 57\u00a0minutes ago\n  \n  Description :A missing authorization vulnerability has...",
       "timestamp": 1781065039.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -94,7 +126,7 @@
     {
       "title": "CVE-2026-24724 - File Station 5",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-24724",
-      "summary": "CVE ID :CVE-2026-24724\n  \n  Published : June 10, 2026, 4:17 a.m. | 2\u00a0hours, 45\u00a0minutes ago\n  \n  Description :An incorrect authorization vulnerability ...",
+      "summary": "CVE ID :CVE-2026-24724\n  \n  Published : June 10, 2026, 4:17 a.m. | 6\u00a0hours, 57\u00a0minutes ago\n  \n  Description :An incorrect authorization vulnerability ...",
       "timestamp": 1781065037.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -102,7 +134,7 @@
     {
       "title": "CVE-2026-24719 - QTS, QuTS hero",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-24719",
-      "summary": "CVE ID :CVE-2026-24719\n  \n  Published : June 10, 2026, 4:17 a.m. | 2\u00a0hours, 45\u00a0minutes ago\n  \n  Description :A command injection vulnerability has bee...",
+      "summary": "CVE ID :CVE-2026-24719\n  \n  Published : June 10, 2026, 4:17 a.m. | 6\u00a0hours, 57\u00a0minutes ago\n  \n  Description :A command injection vulnerability has bee...",
       "timestamp": 1781065037.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -110,7 +142,7 @@
     {
       "title": "CVE-2026-22893 - QTS, QuTS hero",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-22893",
-      "summary": "CVE ID :CVE-2026-22893\n  \n  Published : June 10, 2026, 4:17 a.m. | 2\u00a0hours, 45\u00a0minutes ago\n  \n  Description :A command injection vulnerability has bee...",
+      "summary": "CVE ID :CVE-2026-22893\n  \n  Published : June 10, 2026, 4:17 a.m. | 6\u00a0hours, 57\u00a0minutes ago\n  \n  Description :A command injection vulnerability has bee...",
       "timestamp": 1781065034.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -118,24 +150,8 @@
     {
       "title": "CVE-2025-66279 - QTS, QuTS hero",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-66279",
-      "summary": "CVE ID :CVE-2025-66279\n  \n  Published : June 10, 2026, 4:17 a.m. | 2\u00a0hours, 45\u00a0minutes ago\n  \n  Description :A command injection vulnerability has bee...",
+      "summary": "CVE ID :CVE-2025-66279\n  \n  Published : June 10, 2026, 4:17 a.m. | 6\u00a0hours, 57\u00a0minutes ago\n  \n  Description :A command injection vulnerability has bee...",
       "timestamp": 1781065032.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-66273 - QTS, QuTS hero",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-66273",
-      "summary": "CVE ID :CVE-2025-66273\n  \n  Published : June 10, 2026, 4:17 a.m. | 2\u00a0hours, 45\u00a0minutes ago\n  \n  Description :A command injection vulnerability has bee...",
-      "timestamp": 1781065032.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-66276 - QTS: Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-66276",
-      "summary": "CVE ID :CVE-2025-66276\n  \n  Published : June 10, 2026, 3:16 a.m. | 3\u00a0hours, 46\u00a0minutes ago\n  \n  Description :QuTS hero is not affected.\n\nWe have alrea...",
-      "timestamp": 1781061384.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -200,22 +216,6 @@
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-3-zero-day-200-flaws/",
       "summary": "Today is Microsoft's June 2026 Patch Tuesday, with security updates for 200 flaws and three publicly disclosed zero-day vulnerabilities. [...]",
       "timestamp": 1781027879.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Windows 11 KB5094126 & KB5093998 cumulative updates released",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5094126-and-kb5093998-cumulative-updates-released/",
-      "summary": "Microsoft has released Windows 11\u00a0KB5094126\u00a0and\u00a0KB5093998\u00a0cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, an...",
-      "timestamp": 1781026352.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "XBOW tests Anthropic's Mythos Preview for offensive security",
-      "link": "https://www.bleepingcomputer.com/news/security/xbow-tests-anthropics-mythos-preview-for-offensive-security/",
-      "summary": "Anthropic's Mythos Preview was highly effective at finding vulnerability candidates, especially when analyzing source code. XBOW explores how the mode...",
-      "timestamp": 1781021798.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -290,71 +290,7 @@
       "timestamp": 1780322444.0,
       "source": "Ivanti Security",
       "vendor": "Ivanti"
-    },
-    {
-      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
-      "summary": "",
-      "timestamp": 1780009200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0249",
-      "summary": "",
-      "timestamp": 1780009200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0259 WildFire WF-500 and WF-500-B: Arbitrary File Read and Delete Vulnerability in WildFire Appliance (WF-500, WF-500-B) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0259",
-      "summary": "",
-      "timestamp": 1780002000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0261 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0261",
-      "summary": "",
-      "timestamp": 1780002000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0262 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Parsing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0262",
-      "summary": "",
-      "timestamp": 1780002000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0256 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0256",
-      "summary": "",
-      "timestamp": 1780002000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0265 PAN-OS: Authentication Bypass with Cloud Authentication Service (CAS) enabled (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0265",
-      "summary": "",
-      "timestamp": 1780002000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0258 PAN-OS: Server-Side Request Forgery (SSRF) in IKEv2 Certificate URL Fetching (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0258",
-      "summary": "",
-      "timestamp": 1780002000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1781081938.6379116
+  "last_updated": 1781094822.3709924
 }
