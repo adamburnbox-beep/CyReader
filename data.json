@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,84 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-53901 - Cerebrate before v1.37 allows mass assignment of record identifiers during object creation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53901",
+      "summary": "CVE ID :CVE-2026-53901\n  \n  Published : June 11, 2026, 9:16 a.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :Cerebrate before version 1.37 contains a ma...",
+      "timestamp": 1781169385.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft fixes BitLocker recovery bug on Windows Server 2025",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/",
+      "summary": "Microsoft has resolved a known issue causing some Windows Server 2025 devices to boot into BitLocker recovery after installing the April 2026 security...",
+      "timestamp": 1781167462.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Nottingham University data breach affects over 450,000 students",
+      "link": "https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/",
+      "summary": "The University of Nottingham confirmed on Wednesday that a hacking group gained access to its student records system in a breach affecting both curren...",
+      "timestamp": 1781162873.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-41700 - Cross-Site WebSocket Hijacking in Spring for GraphQL",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41700",
+      "summary": "CVE ID :CVE-2026-41700\n  \n  Published : June 11, 2026, 7:16 a.m. | 4\u00a0hours, 1\u00a0minute ago\n  \n  Description :Spring for GraphQL applications that have e...",
+      "timestamp": 1781162188.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-41699 - Unsafe Deserialization in Spring GraphQL",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41699",
+      "summary": "CVE ID :CVE-2026-41699\n  \n  Published : June 11, 2026, 7:16 a.m. | 4\u00a0hours, 1\u00a0minute ago\n  \n  Description :Spring for GraphQL applications are vulnera...",
+      "timestamp": 1781162188.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-40999 - Spring WS SSRF via unvalidated WS-Addressing reply destinations",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40999",
+      "summary": "CVE ID :CVE-2026-40999\n  \n  Published : June 11, 2026, 7:16 a.m. | 4\u00a0hours, 1\u00a0minute ago\n  \n  Description :When WS-Addressing is used with non-anonymo...",
+      "timestamp": 1781162187.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-40998 - Jaxp13 XPath XXE via StreamSource and SAXSource",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40998",
+      "summary": "CVE ID :CVE-2026-40998\n  \n  Published : June 11, 2026, 7:16 a.m. | 4\u00a0hours, 1\u00a0minute ago\n  \n  Description :Jaxp13XPathTemplate evaluated XPath express...",
+      "timestamp": 1781162187.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-40994 - Wss4jSecurityInterceptor disables WS-I BSP validation by default",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40994",
+      "summary": "CVE ID :CVE-2026-40994\n  \n  Published : June 11, 2026, 7:16 a.m. | 4\u00a0hours, 1\u00a0minute ago\n  \n  Description :Wss4jSecurityInterceptor initialized its BS...",
+      "timestamp": 1781162187.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-10795 - UpdraftPlus: WP Backup & Migration Plugin <= 1.26.4 - Unauthenticated Authentication Bypass via UpdraftCentral udrpc",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10795",
+      "summary": "CVE ID :CVE-2026-10795\n  \n  Published : June 11, 2026, 7:16 a.m. | 4\u00a0hours, 1\u00a0minute ago\n  \n  Description :The UpdraftPlus: WP Backup & Migration Plug...",
+      "timestamp": 1781162186.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Max severity Ivanti Sentry vulnerability now exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/",
@@ -62,7 +134,7 @@
     {
       "title": "CVE-2026-35273 - Oracle PeopleSoft: Unauthenticated Takeover of Updates Environment Management",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35273",
-      "summary": "CVE ID :CVE-2026-35273\n  \n  Published : June 11, 2026, 4:16 a.m. | 1\u00a0hour ago\n  \n  Description :Vulnerability in the PeopleSoft Enterprise PeopleTools...",
+      "summary": "CVE ID :CVE-2026-35273\n  \n  Published : June 11, 2026, 4:16 a.m. | 7\u00a0hours ago\n  \n  Description :Vulnerability in the PeopleSoft Enterprise PeopleTool...",
       "timestamp": 1781151413.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -78,7 +150,7 @@
     {
       "title": "CVE-2026-46703 - BoxLite: Path Traversal Vulnerability in boxlite Leads to Arbitrary File Write on the Host",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46703",
-      "summary": "CVE ID :CVE-2026-46703\n  \n  Published : June 10, 2026, 11:16 p.m. | 6\u00a0hours ago\n  \n  Description :Boxlite is a sandbox service that allows users to cr...",
+      "summary": "CVE ID :CVE-2026-46703\n  \n  Published : June 10, 2026, 11:16 p.m. | 12\u00a0hours ago\n  \n  Description :Boxlite is a sandbox service that allows users to c...",
       "timestamp": 1781133407.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -86,64 +158,8 @@
     {
       "title": "CVE-2026-46695 - BoxLite: Permission Bypass in boxlite Allows Modification of Read-Only Files",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46695",
-      "summary": "CVE ID :CVE-2026-46695\n  \n  Published : June 10, 2026, 11:16 p.m. | 6\u00a0hours ago\n  \n  Description :Boxlite is a sandbox service that allows users to cr...",
+      "summary": "CVE ID :CVE-2026-46695\n  \n  Published : June 10, 2026, 11:16 p.m. | 12\u00a0hours ago\n  \n  Description :Boxlite is a sandbox service that allows users to c...",
       "timestamp": 1781133407.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44693 - Pi-hole FTL: Unauthenticated Session Hijacking via Race Condition on Global Session Buffer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44693",
-      "summary": "CVE ID :CVE-2026-44693\n  \n  Published : June 10, 2026, 11:16 p.m. | 6\u00a0hours ago\n  \n  Description :Pi-hole FTL is the core engine of the Pi-hole networ...",
-      "timestamp": 1781133406.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-42305 - Dulwich has an arbitrary file write via NTFS-hostile tree entries on Windows",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42305",
-      "summary": "CVE ID :CVE-2026-42305\n  \n  Published : June 10, 2026, 11:16 p.m. | 6\u00a0hours ago\n  \n  Description :Dulwich is a pure-Python implementation of the Git f...",
-      "timestamp": 1781133406.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53738 - Copy & Delete Posts through 1.5.4 Privilege Escalation via cdp_action_handling Handler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53738",
-      "summary": "CVE ID :CVE-2026-53738\n  \n  Published : June 10, 2026, 10:17 p.m. | 7\u00a0hours ago\n  \n  Description :Copy & Delete Posts through 1.5.4 lets any plugin-en...",
-      "timestamp": 1781129822.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50131 - Fedify has an incomplete SSRF mitigation after GHSA-p9cg-vqcc-grcx: validatePublicUrl allows special-use IPv4 ranges",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50131",
-      "summary": "CVE ID :CVE-2026-50131\n  \n  Published : June 10, 2026, 10:17 p.m. | 7\u00a0hours ago\n  \n  Description :Fedify is a TypeScript library for building federate...",
-      "timestamp": 1781129821.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-46689 - Kanidm: Unauthenticated process abort via SCIM filter stack exhaustion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46689",
-      "summary": "CVE ID :CVE-2026-46689\n  \n  Published : June 10, 2026, 10:17 p.m. | 7\u00a0hours ago\n  \n  Description :Kanidm is an identity management platform. Prior to ...",
-      "timestamp": 1781129820.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-46669 - `openvm-pairing` pairing check missing proper subfield check on scaling factor",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46669",
-      "summary": "CVE ID :CVE-2026-46669\n  \n  Published : June 10, 2026, 10:17 p.m. | 7\u00a0hours ago\n  \n  Description :OpenVM is a performant and modular zkVM framework bu...",
-      "timestamp": 1781129820.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-46654 - Plonky3 MultiField32Challenger: transcript malleability and challenge entropy loss",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46654",
-      "summary": "CVE ID :CVE-2026-46654\n  \n  Published : June 10, 2026, 10:16 p.m. | 7\u00a0hours ago\n  \n  Description :Plonky3 is a toolkit for polynomial IOPs (PIOPs). Pr...",
-      "timestamp": 1781129819.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -188,8 +204,24 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -204,16 +236,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
+      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -228,22 +260,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
       "summary": "",
@@ -252,8 +268,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -288,22 +304,6 @@
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/",
       "summary": "Microsoft has patched an actively exploited Exchange Server vulnerability that allows threat actors to execute arbitrary JavaScript code in cross-site...",
       "timestamp": 1781099059.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft: Some Windows PCs fail to install latest monthly updates",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-upgraded-windows-pcs-fail-to-install-monthly-updates/",
-      "summary": "Microsoft warned customers on Tuesday that they may have issues installing the latest monthly updates on some Windows devices that were upgraded to Wi...",
-      "timestamp": 1781091212.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft patches YellowKey, GreenPlasma, MiniPlasma zero-days",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-yellowkey-greenplasma-miniplasma-zero-days/",
-      "summary": "On Tuesday, Microsoft patched two zero-day vulnerabilities that let attackers gain SYSTEM privileges on fully patched Windows systems, and a third one...",
-      "timestamp": 1781085453.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -364,5 +364,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781161190.806326
+  "last_updated": 1781178212.9614308
 }
