@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,100 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 7,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
+      "timestamp": 1781205271.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "CVE-2026-45176 - Idira Endpoint Privilege Manager Agent: Local Privilege Escalation via Internal Communication or File Operation Manipulation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45176",
+      "summary": "CVE ID :CVE-2026-45176\n  \n  Published : June 11, 2026, 6:49 p.m. | 28\u00a0minutes ago\n  \n  Description :Idira Endpoint Privilege Manager Agent versions pr...",
+      "timestamp": 1781203740.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45177 - Idira Secrets Manager SaaS Edge: Authentication Bypass of an internal validation mechanism",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45177",
+      "summary": "CVE ID :CVE-2026-45177\n  \n  Published : June 11, 2026, 6:40 p.m. | 37\u00a0minutes ago\n  \n  Description :Idira Secrets Manager SaaS Edge versions prior to ...",
+      "timestamp": 1781203217.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48547 - KanaDojo < 0.1.18 Command Injection via patchNotesData.json in release.yml",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48547",
+      "summary": "CVE ID :CVE-2026-48547\n  \n  Published : June 11, 2026, 6:33 p.m. | 44\u00a0minutes ago\n  \n  Description :KanaDojo contains a command injection vulnerabilit...",
+      "timestamp": 1781202794.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45178 - Idira Secrets Manager Self-Hosted: Improper Access Control in Internal Cluster Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45178",
+      "summary": "CVE ID :CVE-2026-45178\n  \n  Published : June 11, 2026, 6:19 p.m. | 58\u00a0minutes ago\n  \n  Description :Idira Secrets Manager Self-Hosted versions 13.8.0 ...",
+      "timestamp": 1781201948.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49261 - MariaDB server has unsafe parameter handling in `wsrep_notify_cmd`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49261",
+      "summary": "CVE ID :CVE-2026-49261\n  \n  Published : June 11, 2026, 6:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :MariaDB server is a community developed fork...",
+      "timestamp": 1781201786.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48546 - KanaDojo < 0.1.18 Sandbox Escape RCE via messages.cjs",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48546",
+      "summary": "CVE ID :CVE-2026-48546\n  \n  Published : June 11, 2026, 6:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :KanaDojo before 0.1.18 contains a sandbox es...",
+      "timestamp": 1781201786.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-3329 - Nexus Repository Manager - Improper Restriction of Excessive Authentication Attempts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-3329",
+      "summary": "CVE ID :CVE-2026-3329\n  \n  Published : June 11, 2026, 6:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :A remote unauthenticated attacker may be able...",
+      "timestamp": 1781201785.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49982 - tmp: Type-confusion bypass of _assertPath in tmp@0.2.6 allows path traversal via non-string prefix/postfix/template",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49982",
+      "summary": "CVE ID :CVE-2026-49982\n  \n  Published : June 11, 2026, 5:16 p.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :tmp is a temporary file and directory creat...",
+      "timestamp": 1781198195.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-44494 - Axios: Full Man-in-the-Middle via Prototype Pollution Gadget in `config.proxy`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44494",
+      "summary": "CVE ID :CVE-2026-44494\n  \n  Published : June 11, 2026, 5:16 p.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :Axios is a promise based HTTP client for th...",
+      "timestamp": 1781198193.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-44492 - Axios: shouldBypassProxy does not recognize IPv4-mapped IPv6 addresses, allowing NO_PROXY bypass (incomplete fix for CVE-2025-62718)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44492",
+      "summary": "CVE ID :CVE-2026-44492\n  \n  Published : June 11, 2026, 5:16 p.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :Axios is a promise based HTTP client for th...",
+      "timestamp": 1781198193.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Authorities dismantle 'AudiA6' ransomware crypto-laundering service",
       "link": "https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/",
@@ -60,36 +148,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-53661 - boruta-server sent sensitive session cookies without the Secure attribute",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53661",
-      "summary": "CVE ID :CVE-2026-53661\n  \n  Published : June 11, 2026, 2:16 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Boruta is a standalone authorization serve...",
-      "timestamp": 1781187391.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11816 - Path Traversal in keras-team/keras",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11816",
-      "summary": "CVE ID :CVE-2026-11816\n  \n  Published : June 11, 2026, 2:16 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Keras versions prior to 3.14.0 are vulnera...",
-      "timestamp": 1781187386.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Why AI-driven threats are exposing the limits of MSP security stacks",
       "link": "https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/",
       "summary": "AI-driven attacks are exposing the limits of fragmented MSP security stacks and slow response workflows. Kaseya breaks down why integrated security, a...",
       "timestamp": 1781186410.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-7852 - Unrestricted File Upload in Limatek's LimRAD NAC",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7852",
-      "summary": "CVE ID :CVE-2026-7852\n  \n  Published : June 11, 2026, 1:16 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Unrestricted upload of file with dangerous...",
-      "timestamp": 1781183797.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Coupang hit with record $409 million data breach fine in Korea",
@@ -108,46 +172,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-8464 - Path traversal in Neuron Soft Golem OEE MES",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8464",
-      "summary": "CVE ID :CVE-2026-8464\n  \n  Published : June 11, 2026, 12:16 p.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Golem OEE MES is vulnerable to an unauthe...",
-      "timestamp": 1781180192.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-6552 - Authorization Bypass Through User-Controlled Key in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6552",
-      "summary": "CVE ID :CVE-2026-6552\n  \n  Published : June 11, 2026, 12:16 p.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
-      "timestamp": 1781180192.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-4764 - Privilege Escalation in Dialogflow CX via Playbook Import",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4764",
-      "summary": "CVE ID :CVE-2026-4764\n  \n  Published : June 11, 2026, 12:16 p.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :A Missing Authorization vulnerability in ...",
-      "timestamp": 1781180191.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10087 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10087",
-      "summary": "CVE ID :CVE-2026-10087\n  \n  Published : June 11, 2026, 12:16 p.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab...",
-      "timestamp": 1781180190.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53901 - Cerebrate before v1.37 allows mass assignment of record identifiers during object creation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53901",
-      "summary": "CVE ID :CVE-2026-53901\n  \n  Published : June 11, 2026, 9:16 a.m. | 6\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Cerebrate before version 1.37 contains a ...",
-      "timestamp": 1781169385.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Microsoft fixes BitLocker recovery bug on Windows Server 2025",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/",
       "summary": "Microsoft has resolved a known issue causing some Windows Server 2025 devices to boot into BitLocker recovery after installing the April 2026 security...",
@@ -162,22 +186,6 @@
       "timestamp": 1781162873.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-41700 - Cross-Site WebSocket Hijacking in Spring for GraphQL",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41700",
-      "summary": "CVE ID :CVE-2026-41700\n  \n  Published : June 11, 2026, 7:16 a.m. | 8\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Spring for GraphQL applications that have...",
-      "timestamp": 1781162188.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-41699 - Unsafe Deserialization in Spring GraphQL",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41699",
-      "summary": "CVE ID :CVE-2026-41699\n  \n  Published : June 11, 2026, 7:16 a.m. | 8\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Spring for GraphQL applications are vulne...",
-      "timestamp": 1781162188.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Max severity Ivanti Sentry vulnerability now exploited in attacks",
@@ -204,14 +212,6 @@
       "vendor": "News"
     },
     {
-      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
-      "timestamp": 1781125304.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "The \u2018Miasma\u2019 worm source code briefly leaked on GitHub",
       "link": "https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/",
       "summary": "The Miasma credential-stealing attack framework, which has recently targeted open-source ecosystems through supply-chain attacks, was briefly open-sou...",
@@ -228,8 +228,8 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -244,8 +244,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
+      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -260,14 +268,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
       "summary": "",
@@ -276,8 +276,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -286,14 +294,6 @@
     {
       "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
       "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -364,5 +364,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781194656.9701965
+  "last_updated": 1781205611.459909
 }
