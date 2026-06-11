@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,100 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-0273 PAN-OS: Authenticated Admin Command Injection Vulnerability via CLI or Web UI (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0273",
+      "summary": "",
+      "timestamp": 1781139600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-46703 - BoxLite: Path Traversal Vulnerability in boxlite Leads to Arbitrary File Write on the Host",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46703",
+      "summary": "CVE ID :CVE-2026-46703\n  \n  Published : June 10, 2026, 11:16 p.m. | 2\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Boxlite is a sandbox service that allows ...",
+      "timestamp": 1781133407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46695 - BoxLite: Permission Bypass in boxlite Allows Modification of Read-Only Files",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46695",
+      "summary": "CVE ID :CVE-2026-46695\n  \n  Published : June 10, 2026, 11:16 p.m. | 2\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Boxlite is a sandbox service that allows ...",
+      "timestamp": 1781133407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-44693 - Pi-hole FTL: Unauthenticated Session Hijacking via Race Condition on Global Session Buffer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44693",
+      "summary": "CVE ID :CVE-2026-44693\n  \n  Published : June 10, 2026, 11:16 p.m. | 2\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Pi-hole FTL is the core engine of the Pi-...",
+      "timestamp": 1781133406.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-42305 - Dulwich has an arbitrary file write via NTFS-hostile tree entries on Windows",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42305",
+      "summary": "CVE ID :CVE-2026-42305\n  \n  Published : June 10, 2026, 11:16 p.m. | 2\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Dulwich is a pure-Python implementation o...",
+      "timestamp": 1781133406.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53738 - Copy & Delete Posts through 1.5.4 Privilege Escalation via cdp_action_handling Handler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53738",
+      "summary": "CVE ID :CVE-2026-53738\n  \n  Published : June 10, 2026, 10:17 p.m. | 3\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Copy & Delete Posts through 1.5.4 lets an...",
+      "timestamp": 1781129822.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50131 - Fedify has an incomplete SSRF mitigation after GHSA-p9cg-vqcc-grcx: validatePublicUrl allows special-use IPv4 ranges",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50131",
+      "summary": "CVE ID :CVE-2026-50131\n  \n  Published : June 10, 2026, 10:17 p.m. | 3\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Fedify is a TypeScript library for buildi...",
+      "timestamp": 1781129821.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46689 - Kanidm: Unauthenticated process abort via SCIM filter stack exhaustion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46689",
+      "summary": "CVE ID :CVE-2026-46689\n  \n  Published : June 10, 2026, 10:17 p.m. | 3\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Kanidm is an identity management platform...",
+      "timestamp": 1781129820.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46669 - `openvm-pairing` pairing check missing proper subfield check on scaling factor",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46669",
+      "summary": "CVE ID :CVE-2026-46669\n  \n  Published : June 10, 2026, 10:17 p.m. | 3\u00a0hours, 7\u00a0minutes ago\n  \n  Description :OpenVM is a performant and modular zkVM f...",
+      "timestamp": 1781129820.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46654 - Plonky3 MultiField32Challenger: transcript malleability and challenge entropy loss",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46654",
+      "summary": "CVE ID :CVE-2026-46654\n  \n  Published : June 10, 2026, 10:16 p.m. | 3\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Plonky3 is a toolkit for polynomial IOPs ...",
+      "timestamp": 1781129819.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-0274 - Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-0274",
+      "summary": "CVE ID :CVE-2026-0274\n  \n  Published : June 10, 2026, 10:16 p.m. | 3\u00a0hours, 7\u00a0minutes ago\n  \n  Description :An improper validation of credentials vuln...",
+      "timestamp": 1781129815.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Path traversal flaw in AI dev platform Langflow exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
@@ -68,52 +156,12 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-53738 - Copy & Delete Posts through 1.5.4 Privilege Escalation via cdp_action_handling Handler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53738",
-      "summary": "CVE ID :CVE-2026-53738\n  \n  Published : June 10, 2026, 8:39 p.m. | 37\u00a0minutes ago\n  \n  Description :Copy & Delete Posts through 1.5.4 lets any plugin-...",
-      "timestamp": 1781123983.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "The \u2018Miasma\u2019 worm source code briefly leaked on GitHub",
       "link": "https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/",
       "summary": "The Miasma credential-stealing attack framework, which has recently targeted open-source ecosystems through supply-chain attacks, was briefly open-sou...",
       "timestamp": 1781123228.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-10143 - kafka-python prior to 2.3.2 DoS via SCRAM Iteration Count in scram.py",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10143",
-      "summary": "CVE ID :CVE-2026-10143\n  \n  Published : June 10, 2026, 8:22 p.m. | 54\u00a0minutes ago\n  \n  Description :kafka-python prior to 2.3.2 contains a denial-of-s...",
-      "timestamp": 1781122959.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-6893 - Dracut: dracut: root code execution via dhcp options command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6893",
-      "summary": "CVE ID :CVE-2026-6893\n  \n  Published : June 10, 2026, 8:17 p.m. | 59\u00a0minutes ago\n  \n  Description :A flaw was found in dracut. A remote attacker on th...",
-      "timestamp": 1781122649.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-46529 - PDF /GoToR action argv injection enables single-click RCE via --gtk-module dlopen",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46529",
-      "summary": "CVE ID :CVE-2026-46529\n  \n  Published : June 10, 2026, 8:17 p.m. | 59\u00a0minutes ago\n  \n  Description :Atril Document Viewer is the default document read...",
-      "timestamp": 1781122648.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10142 - kafka-python prior to 2.3.2 Denial of Service via Protocol Parser Frame Length",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10142",
-      "summary": "CVE ID :CVE-2026-10142\n  \n  Published : June 10, 2026, 8:13 p.m. | 1\u00a0hour, 4\u00a0minutes ago\n  \n  Description :kafka-python prior to 2.3.2 contains a deni...",
-      "timestamp": 1781122391.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "GitHub announces npm security changes to tackle supply-chain attacks",
@@ -132,44 +180,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-9151 - Command Injection Vulnerability in OpenVPN on Multiple TP-Link Archer Routers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9151",
-      "summary": "CVE ID :CVE-2026-9151\n  \n  Published : June 10, 2026, 6:17 p.m. | 3\u00a0hours ago\n  \n  Description :An OS\ncommand injection vulnerability exists in the VP...",
-      "timestamp": 1781115435.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50570 - Fission: Incomplete capability denylist in Environment/Function PodSpec validation allows tenant-added CAP_SYS_TIME and cross-tenant node wall-clock corruption",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50570",
-      "summary": "CVE ID :CVE-2026-50570\n  \n  Published : June 10, 2026, 6:17 p.m. | 3\u00a0hours ago\n  \n  Description :Fission is an open-source, Kubernetes-native serverle...",
-      "timestamp": 1781115433.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50566 - Fission: Environment Runtime.Container and Builder.Container SecurityContext bypass allows privileged pod creation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50566",
-      "summary": "CVE ID :CVE-2026-50566\n  \n  Published : June 10, 2026, 6:17 p.m. | 3\u00a0hours ago\n  \n  Description :Fission is an open-source, Kubernetes-native serverle...",
-      "timestamp": 1781115433.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50564 - Fission Environment CRD podspec passthrough enables hostPID/hostNetwork/privileged pods, node escape",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50564",
-      "summary": "CVE ID :CVE-2026-50564\n  \n  Published : June 10, 2026, 6:17 p.m. | 3\u00a0hours ago\n  \n  Description :Fission is an open-source, Kubernetes-native serverle...",
-      "timestamp": 1781115432.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50563 - Fission Container Executor Function PodSpec Injection Leading to Node Escape",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50563",
-      "summary": "CVE ID :CVE-2026-50563\n  \n  Published : June 10, 2026, 6:17 p.m. | 3\u00a0hours ago\n  \n  Description :Fission is an open-source, Kubernetes-native serverle...",
-      "timestamp": 1781115432.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
+      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
     },
     {
       "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
@@ -188,14 +204,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
       "summary": "",
@@ -206,14 +214,6 @@
     {
       "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0273 PAN-OS: Authenticated Admin Command Injection Vulnerability via CLI or Web UI (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0273",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -364,5 +364,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781133190.2908163
+  "last_updated": 1781143377.1836867
 }
