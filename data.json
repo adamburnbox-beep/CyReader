@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,92 +52,100 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-45174 - Idira Endpoint Privilege Manager Linux Agent: Potential bypass of Agent Daemon Initialization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45174",
+      "summary": "CVE ID :CVE-2026-45174\n  \n  Published : June 11, 2026, 9:22 p.m. | 10\u00a0minutes ago\n  \n  Description :Idira Endpoint Privilege Manager Linux Agent versi...",
+      "timestamp": 1781212933.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53819 - OpenClaw < 2026.5.27 - Arbitrary Homebrew Executable Execution via Workspace .env Override",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53819",
+      "summary": "CVE ID :CVE-2026-53819\n  \n  Published : June 11, 2026, 9:16 p.m. | 16\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.27 contains an arbitrary co...",
+      "timestamp": 1781212584.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53817 - OpenClaw < 2026.5.22 - Control UI Locality Spoofing in Device Pairing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53817",
+      "summary": "CVE ID :CVE-2026-53817\n  \n  Published : June 11, 2026, 9:16 p.m. | 16\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.22 contains a locality vali...",
+      "timestamp": 1781212583.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53816 - OpenClaw < 2026.5.18 - Exec Lifecycle Event Forgery via Paired Node",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53816",
+      "summary": "CVE ID :CVE-2026-53816\n  \n  Published : June 11, 2026, 9:16 p.m. | 16\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.18 contains an insufficient...",
+      "timestamp": 1781212583.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53814 - OpenClaw < 2026.5.20 - Privilege Escalation via Hook-Triggered CLI MCP Tool Authority",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53814",
+      "summary": "CVE ID :CVE-2026-53814\n  \n  Published : June 11, 2026, 9:16 p.m. | 16\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.20 contains a privilege esc...",
+      "timestamp": 1781212583.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53811 - OpenClaw < 2026.5.7 - Privilege Escalation via Mutable Display Names in Matrix allowFrom",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53811",
+      "summary": "CVE ID :CVE-2026-53811\n  \n  Published : June 11, 2026, 9:16 p.m. | 16\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.7 contains a privilege esca...",
+      "timestamp": 1781212583.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53810 - OpenClaw < 2026.5.18 - Arbitrary Code Execution via Unscanned Marketplace Runtime Extension Metadata",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53810",
+      "summary": "CVE ID :CVE-2026-53810\n  \n  Published : June 11, 2026, 9:16 p.m. | 16\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.18 contains a code executio...",
+      "timestamp": 1781212583.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53807 - OpenClaw < 2026.5.6 - Authorization Bypass in Telegram Interactive Callbacks via commands.allowFrom",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53807",
+      "summary": "CVE ID :CVE-2026-53807\n  \n  Published : June 11, 2026, 9:16 p.m. | 16\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.6 contains an authorization...",
+      "timestamp": 1781212582.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53806 - OpenClaw < 2026.5.12 - Shell Option Parsing Bypass in Exec Revalidation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53806",
+      "summary": "CVE ID :CVE-2026-53806\n  \n  Published : June 11, 2026, 9:16 p.m. | 16\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.12 contains a shell option ...",
+      "timestamp": 1781212582.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50245 - Brickcom Cameras Missing Authentication for Critical Function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50245",
+      "summary": "CVE ID :CVE-2026-50245\n  \n  Published : June 11, 2026, 9:16 p.m. | 16\u00a0minutes ago\n  \n  Description :Brickcom cameras\u00a0allow unauthenticated access to l...",
+      "timestamp": 1781212582.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Oracle mitigates PeopleSoft zero-day exploited in data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/",
+      "summary": "Oracle is warning about a critical PeopleSoft Suite zero-day vulnerability tracked as\u00a0CVE-2026-35273 that allows unauthenticated remote code execution...",
+      "timestamp": 1781206793.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
       "timestamp": 1781205271.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "CVE-2026-45176 - Idira Endpoint Privilege Manager Agent: Local Privilege Escalation via Internal Communication or File Operation Manipulation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45176",
-      "summary": "CVE ID :CVE-2026-45176\n  \n  Published : June 11, 2026, 6:49 p.m. | 28\u00a0minutes ago\n  \n  Description :Idira Endpoint Privilege Manager Agent versions pr...",
-      "timestamp": 1781203740.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45177 - Idira Secrets Manager SaaS Edge: Authentication Bypass of an internal validation mechanism",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45177",
-      "summary": "CVE ID :CVE-2026-45177\n  \n  Published : June 11, 2026, 6:40 p.m. | 37\u00a0minutes ago\n  \n  Description :Idira Secrets Manager SaaS Edge versions prior to ...",
-      "timestamp": 1781203217.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48547 - KanaDojo < 0.1.18 Command Injection via patchNotesData.json in release.yml",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48547",
-      "summary": "CVE ID :CVE-2026-48547\n  \n  Published : June 11, 2026, 6:33 p.m. | 44\u00a0minutes ago\n  \n  Description :KanaDojo contains a command injection vulnerabilit...",
-      "timestamp": 1781202794.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45178 - Idira Secrets Manager Self-Hosted: Improper Access Control in Internal Cluster Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45178",
-      "summary": "CVE ID :CVE-2026-45178\n  \n  Published : June 11, 2026, 6:19 p.m. | 58\u00a0minutes ago\n  \n  Description :Idira Secrets Manager Self-Hosted versions 13.8.0 ...",
-      "timestamp": 1781201948.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49261 - MariaDB server has unsafe parameter handling in `wsrep_notify_cmd`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49261",
-      "summary": "CVE ID :CVE-2026-49261\n  \n  Published : June 11, 2026, 6:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :MariaDB server is a community developed fork...",
-      "timestamp": 1781201786.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48546 - KanaDojo < 0.1.18 Sandbox Escape RCE via messages.cjs",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48546",
-      "summary": "CVE ID :CVE-2026-48546\n  \n  Published : June 11, 2026, 6:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :KanaDojo before 0.1.18 contains a sandbox es...",
-      "timestamp": 1781201786.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-3329 - Nexus Repository Manager - Improper Restriction of Excessive Authentication Attempts",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-3329",
-      "summary": "CVE ID :CVE-2026-3329\n  \n  Published : June 11, 2026, 6:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :A remote unauthenticated attacker may be able...",
-      "timestamp": 1781201785.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49982 - tmp: Type-confusion bypass of _assertPath in tmp@0.2.6 allows path traversal via non-string prefix/postfix/template",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49982",
-      "summary": "CVE ID :CVE-2026-49982\n  \n  Published : June 11, 2026, 5:16 p.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :tmp is a temporary file and directory creat...",
-      "timestamp": 1781198195.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44494 - Axios: Full Man-in-the-Middle via Prototype Pollution Gadget in `config.proxy`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44494",
-      "summary": "CVE ID :CVE-2026-44494\n  \n  Published : June 11, 2026, 5:16 p.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :Axios is a promise based HTTP client for th...",
-      "timestamp": 1781198193.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44492 - Axios: shouldBypassProxy does not recognize IPv4-mapped IPv6 addresses, allowing NO_PROXY bypass (incomplete fix for CVE-2025-62718)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44492",
-      "summary": "CVE ID :CVE-2026-44492\n  \n  Published : June 11, 2026, 5:16 p.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :Axios is a promise based HTTP client for th...",
-      "timestamp": 1781198193.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Authorities dismantle 'AudiA6' ransomware crypto-laundering service",
@@ -216,14 +224,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/",
       "summary": "The Miasma credential-stealing attack framework, which has recently targeted open-source ecosystems through supply-chain attacks, was briefly open-sou...",
       "timestamp": 1781123228.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "GitHub announces npm security changes to tackle supply-chain attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/",
-      "summary": "GitHub has announced that npm v12, expected next month, will introduce several security-focused changes aimed at blocking supply-chain attacks abusing...",
-      "timestamp": 1781120504.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -364,5 +364,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781205611.459909
+  "last_updated": 1781213775.5121846
 }
