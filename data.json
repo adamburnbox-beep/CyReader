@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,6 +52,38 @@
   ],
   "articles": [
     {
+      "title": "phpBB forum fixes auth bypass bug lurking for a decade",
+      "link": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/",
+      "summary": "A 10-year-old authentication bypass vulnerability discovered in the phpBB forum software allows an attacker to log in as any user, including administr...",
+      "timestamp": 1781288374.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Ukrainian national pleads guilty to role in Conti ransomware operation",
+      "link": "https://www.bleepingcomputer.com/news/security/ukrainian-national-pleads-guilty-to-role-in-conti-ransomware-operation/",
+      "summary": "A Ukrainian national extradited from Ireland to the United States last year has pleaded guilty to conspiracy charges tied to the Conti ransomware oper...",
+      "timestamp": 1781286868.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-7387 - Mattermost group syncable endpoints allow privilege escalation via scheme_admin",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7387",
+      "summary": "CVE ID :CVE-2026-7387\n  \n  Published : June 12, 2026, 5:16 p.m. | 56\u00a0minutes ago\n  \n  Description :Mattermost versions 11.6.x <= 11.6.1, 11.5.x <= 11....",
+      "timestamp": 1781284587.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48558 - SimpleHelp Authentication Bypass via Missing OIDC JWT Signature Verification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48558",
+      "summary": "CVE ID :CVE-2026-48558\n  \n  Published : June 12, 2026, 5:07 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :SimpleHelp versions 5.5.15 and prior and 6....",
+      "timestamp": 1781284025.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Over 400 Arch Linux packages compromised to push rootkit, infostealer",
       "link": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/",
       "summary": "More than 400 packages in the Arch User Repository (AUR) are distributing a Linux rootkit and infostealer malware targeting credentials and access tok...",
@@ -60,82 +92,66 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-45833 - ChromaDB Code Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45833",
-      "summary": "CVE ID :CVE-2026-45833\n  \n  Published : June 12, 2026, 3:16 p.m. | 56\u00a0minutes ago\n  \n  Description :A code injection vulnerability in version 0.4.17 o...",
-      "timestamp": 1781277393.0,
+      "title": "CVE-2026-8828 - ChromaDB Authorization Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8828",
+      "summary": "CVE ID :CVE-2026-8828\n  \n  Published : June 12, 2026, 4:16 p.m. | 1\u00a0hour, 56\u00a0minutes ago\n  \n  Description :A lack of authorization validation in versi...",
+      "timestamp": 1781280994.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-7368 - Yarbo Android/iOS Mobile Application and Cloud Infrastructure Missing Authorization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7368",
-      "summary": "CVE ID :CVE-2026-7368\n  \n  Published : June 12, 2026, 3:16 p.m. | 56\u00a0minutes ago\n  \n  Description :The Yarbo cloud does not enforce per-device or per-...",
-      "timestamp": 1781277392.0,
+      "title": "CVE-2026-50091 - Aqara Home Android SDK hardcoded keys",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50091",
+      "summary": "CVE ID :CVE-2026-50091\n  \n  Published : June 12, 2026, 4:16 p.m. | 1\u00a0hour, 56\u00a0minutes ago\n  \n  Description :Aqara Home Android (com.lumiunited.aqaraho...",
+      "timestamp": 1781280992.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-6853 - OTP Bypass in Ba\u015fbelen Group's Pause+ Mobile App",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6853",
-      "summary": "CVE ID :CVE-2026-6853\n  \n  Published : June 12, 2026, 3:16 p.m. | 56\u00a0minutes ago\n  \n  Description :Improper restriction of excessive authentication at...",
-      "timestamp": 1781277392.0,
+      "title": "CVE-2026-50090 - Aqara OAuth redirect_uri validation bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50090",
+      "summary": "CVE ID :CVE-2026-50090\n  \n  Published : June 12, 2026, 4:16 p.m. | 1\u00a0hour, 56\u00a0minutes ago\n  \n  Description :The Aqara Cloud OAuth Authorization Endpoi...",
+      "timestamp": 1781280992.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-6211 - Arbitrary File Upload in Global IT's WEOLL",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6211",
-      "summary": "CVE ID :CVE-2026-6211\n  \n  Published : June 12, 2026, 3:16 p.m. | 56\u00a0minutes ago\n  \n  Description :Unrestricted upload of file with dangerous type vul...",
-      "timestamp": 1781277392.0,
+      "title": "CVE-2026-50088 - Aqara Developer Portal cross-origin resource sharing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50088",
+      "summary": "CVE ID :CVE-2026-50088\n  \n  Published : June 12, 2026, 4:16 p.m. | 1\u00a0hour, 56\u00a0minutes ago\n  \n  Description :The Aqara Developer Portal (developer.aqar...",
+      "timestamp": 1781280992.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-54133 - jmespath.php has CompilerRuntime code injection via unescaped function names",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54133",
-      "summary": "CVE ID :CVE-2026-54133\n  \n  Published : June 12, 2026, 3:16 p.m. | 56\u00a0minutes ago\n  \n  Description :jmespath.php allows users to use JMESPath, softwar...",
-      "timestamp": 1781277391.0,
+      "title": "CVE-2026-50087 - Aqara IAM/SSO Gateway cross-origin resource sharing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50087",
+      "summary": "CVE ID :CVE-2026-50087\n  \n  Published : June 12, 2026, 4:16 p.m. | 1\u00a0hour, 56\u00a0minutes ago\n  \n  Description :The Aqara IAM/SSO gateway (gw-builder.aqar...",
+      "timestamp": 1781280992.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-53787 - Amasty Order Attributes for Magento 2 < 4.0.0 Unauthenticated Arbitrary File Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53787",
-      "summary": "CVE ID :CVE-2026-53787\n  \n  Published : June 12, 2026, 3:16 p.m. | 56\u00a0minutes ago\n  \n  Description :Amasty Order Attributes for Magento 2 before versi...",
-      "timestamp": 1781277391.0,
+      "title": "CVE-2026-50086 - Aqara unauthenticated AES oracle",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50086",
+      "summary": "CVE ID :CVE-2026-50086\n  \n  Published : June 12, 2026, 4:16 p.m. | 1\u00a0hour, 56\u00a0minutes ago\n  \n  Description :The Aqara IAM/SSO gateway (gw-builder.aqar...",
+      "timestamp": 1781280992.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-53721 - Nuxt: Route-rule middleware bypass via case-sensitivity mismatch between vue-router and the routeRules matcher",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53721",
-      "summary": "CVE ID :CVE-2026-53721\n  \n  Published : June 12, 2026, 3:16 p.m. | 56\u00a0minutes ago\n  \n  Description :Nuxt is an open-source web development framework f...",
-      "timestamp": 1781277391.0,
+      "title": "CVE-2026-50085 - Aqara Board IoT insecure debug API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50085",
+      "summary": "CVE ID :CVE-2026-50085\n  \n  Published : June 12, 2026, 4:16 p.m. | 1\u00a0hour, 56\u00a0minutes ago\n  \n  Description :The Aqara Board service (op-test.aqara.com...",
+      "timestamp": 1781280992.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-47210 - vm2 sandbox escape via JSPI-backed Promise `.finally()` species bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47210",
-      "summary": "CVE ID :CVE-2026-47210\n  \n  Published : June 12, 2026, 3:16 p.m. | 56\u00a0minutes ago\n  \n  Description :vm2 is an open source vm/sandbox for Node.js. Prio...",
-      "timestamp": 1781277389.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47209 - vm2: Bridge Proxy set trap ignores receiver parameter, enabling host object property injection via prototype chain",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47209",
-      "summary": "CVE ID :CVE-2026-47209\n  \n  Published : June 12, 2026, 3:16 p.m. | 56\u00a0minutes ago\n  \n  Description :vm2 is an open source vm/sandbox for Node.js. Prio...",
-      "timestamp": 1781277388.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47208 - vm2: Sandbox Breakout Using Promise Species",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47208",
-      "summary": "CVE ID :CVE-2026-47208\n  \n  Published : June 12, 2026, 3:16 p.m. | 56\u00a0minutes ago\n  \n  Description :vm2 is an open source vm/sandbox for Node.js. Prio...",
-      "timestamp": 1781277388.0,
+      "title": "CVE-2026-50084 - Aqara API cross-account access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50084",
+      "summary": "CVE ID :CVE-2026-50084\n  \n  Published : June 12, 2026, 4:16 p.m. | 1\u00a0hour, 56\u00a0minutes ago\n  \n  Description :The Aqara Cloud Production API (open-cn.aq...",
+      "timestamp": 1781280991.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -196,28 +212,12 @@
       "vendor": "News"
     },
     {
-      "title": "Oracle mitigates PeopleSoft zero-day exploited in data theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/",
-      "summary": "Oracle is warning about a critical PeopleSoft Suite zero-day vulnerability tracked as\u00a0CVE-2026-35273 that allows unauthenticated remote code execution...",
-      "timestamp": 1781206793.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
       "timestamp": 1781205271.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "Authorities dismantle 'AudiA6' ransomware crypto-laundering service",
-      "link": "https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/",
-      "summary": "Law enforcement has dismantled the &ldquo;AudiA6&rdquo; cryptocurrency service&nbsp;allegedly used by ransomware actors and other cybercriminals to la...",
-      "timestamp": 1781193341.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "CVE-2026-0273 PAN-OS: Authenticated Admin Command Injection Vulnerability via CLI or Web UI (Severity: MEDIUM)",
@@ -228,8 +228,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -244,8 +244,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
+      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -260,14 +268,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
       "summary": "",
@@ -276,8 +276,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -286,14 +294,6 @@
     {
       "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
       "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -364,5 +364,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781285076.6719587
+  "last_updated": 1781292723.5041103
 }
