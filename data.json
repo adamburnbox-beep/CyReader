@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,44 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Early Warning Signs of Supply-Chain Attacks Live in the Dark Web",
+      "link": "https://www.bleepingcomputer.com/news/security/early-warning-signs-of-supply-chain-attacks-live-in-the-dark-web/",
+      "summary": "GitHub access sales, leaked repositories, and stolen API keys can all become supply-chain attack footholds. Flare explores how underground forums expo...",
+      "timestamp": 1781272871.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft fixes Windows update failures linked to WUSA installer",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-update-failures-linked-to-wusa-installer/",
+      "summary": "Microsoft has fixed a known issue that caused Windows updates released since May 2025 to fail when installed via the Windows Update Standalone Install...",
+      "timestamp": 1781264698.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-11849 - IEI Integration Corp\uff5ciRM-IEI Remote Management - Hard-coded Credentials",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11849",
+      "summary": "CVE ID :CVE-2026-11849\n  \n  Published : June 12, 2026, 11:16 a.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :The\u00a0\niRM-IEI Remote Management developed...",
+      "timestamp": 1781262982.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-11846 - IEI Integration Corp\uff5ciVEC-IEI Virtualization Edge Computer - Arbitrary File Deletion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11846",
+      "summary": "CVE ID :CVE-2026-11846\n  \n  Published : June 12, 2026, 10:16 a.m. | 3\u00a0hours, 11\u00a0minutes ago\n  \n  Description :The\u00a0\niVEC-IEI Virtualization Edge Comput...",
+      "timestamp": 1781259381.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Pharma giant Novo Nordisk discloses breach of clinical trials data",
       "link": "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/",
@@ -60,25 +92,9 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-11846 - IEI Integration Corp\uff5ciVEC-IEI Virtualization Edge Computer - Arbitrary File Deletion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11846",
-      "summary": "CVE ID :CVE-2026-11846\n  \n  Published : June 12, 2026, 9:31 a.m. | 39\u00a0minutes ago\n  \n  Description :The\u00a0\niVEC-IEI Virtualization Edge Computer develop...",
-      "timestamp": 1781256712.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11845 - IEI Integration Corp\uff5ciVEC-IEI Virtualization Edge Computer - OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11845",
-      "summary": "CVE ID :CVE-2026-11845\n  \n  Published : June 12, 2026, 9:27 a.m. | 44\u00a0minutes ago\n  \n  Description :The\u00a0iVEC-IEI Virtualization Edge Computer develope...",
-      "timestamp": 1781256446.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-11535 - PcSuite Bluetooth Information Leakage Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11535",
-      "summary": "CVE ID :CVE-2026-11535\n  \n  Published : June 12, 2026, 9:16 a.m. | 55\u00a0minutes ago\n  \n  Description :The authentication mechanism of a certain function...",
+      "summary": "CVE ID :CVE-2026-11535\n  \n  Published : June 12, 2026, 9:16 a.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :An unauthorized access vulnerability exis...",
       "timestamp": 1781255788.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -94,7 +110,7 @@
     {
       "title": "CVE-2026-12059 - Cellopoint\uff5cCelloOS - Improper Access Control",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12059",
-      "summary": "CVE ID :CVE-2026-12059\n  \n  Published : June 12, 2026, 7:16 a.m. | 2\u00a0hours, 55\u00a0minutes ago\n  \n  Description :The SSH service of CelloOS developed by C...",
+      "summary": "CVE ID :CVE-2026-12059\n  \n  Published : June 12, 2026, 7:16 a.m. | 6\u00a0hours, 11\u00a0minutes ago\n  \n  Description :The SSH service of CelloOS developed by C...",
       "timestamp": 1781248579.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -110,7 +126,7 @@
     {
       "title": "CVE-2026-45169 - Idira Privileged Access Manager (PAM) Self-Hosted Vault: Denial of Service due to Unexpected Input Processing",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45169",
-      "summary": "CVE ID :CVE-2026-45169\n  \n  Published : June 12, 2026, 5:16 a.m. | 4\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Idira Privileged Access Manager (PAM) Sel...",
+      "summary": "CVE ID :CVE-2026-45169\n  \n  Published : June 12, 2026, 5:16 a.m. | 8\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Idira Privileged Access Manager (PAM) Sel...",
       "timestamp": 1781241392.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -118,7 +134,7 @@
     {
       "title": "CVE-2026-48612 - Okta OAuth Account Linking Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48612",
-      "summary": "CVE ID :CVE-2026-48612\n  \n  Published : June 12, 2026, 4:17 a.m. | 5\u00a0hours, 54\u00a0minutes ago\n  \n  Description :Improper state verification in the OAuth ...",
+      "summary": "CVE ID :CVE-2026-48612\n  \n  Published : June 12, 2026, 4:17 a.m. | 9\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Improper state verification in the OAuth ...",
       "timestamp": 1781237830.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -126,7 +142,7 @@
     {
       "title": "CVE-2026-48611 - Google OAuth Account Hijacking Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48611",
-      "summary": "CVE ID :CVE-2026-48611\n  \n  Published : June 12, 2026, 4:17 a.m. | 5\u00a0hours, 54\u00a0minutes ago\n  \n  Description :Improper authentication checks in the OAu...",
+      "summary": "CVE ID :CVE-2026-48611\n  \n  Published : June 12, 2026, 4:17 a.m. | 9\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Improper authentication checks in the OAu...",
       "timestamp": 1781237828.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -134,7 +150,7 @@
     {
       "title": "CVE-2026-48610 - UniFi OS Improper Access Control Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48610",
-      "summary": "CVE ID :CVE-2026-48610\n  \n  Published : June 12, 2026, 4:17 a.m. | 5\u00a0hours, 54\u00a0minutes ago\n  \n  Description :Under certain network configurations, a m...",
+      "summary": "CVE ID :CVE-2026-48610\n  \n  Published : June 12, 2026, 4:17 a.m. | 9\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Under certain network configurations, a m...",
       "timestamp": 1781237826.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -142,7 +158,7 @@
     {
       "title": "CVE-2026-47370 - UniFi OS Command Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47370",
-      "summary": "CVE ID :CVE-2026-47370\n  \n  Published : June 12, 2026, 4:17 a.m. | 5\u00a0hours, 54\u00a0minutes ago\n  \n  Description :A malicious actor with access to the netw...",
+      "summary": "CVE ID :CVE-2026-47370\n  \n  Published : June 12, 2026, 4:17 a.m. | 9\u00a0hours, 10\u00a0minutes ago\n  \n  Description :A malicious actor with access to the netw...",
       "timestamp": 1781237826.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -150,7 +166,7 @@
     {
       "title": "CVE-2026-47369 - UniFi OS Improper Input Validation Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47369",
-      "summary": "CVE ID :CVE-2026-47369\n  \n  Published : June 12, 2026, 4:17 a.m. | 5\u00a0hours, 54\u00a0minutes ago\n  \n  Description :A malicious actor with access to the netw...",
+      "summary": "CVE ID :CVE-2026-47369\n  \n  Published : June 12, 2026, 4:17 a.m. | 9\u00a0hours, 10\u00a0minutes ago\n  \n  Description :A malicious actor with access to the netw...",
       "timestamp": 1781237826.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -204,22 +220,6 @@
       "vendor": "News"
     },
     {
-      "title": "Coupang hit with record $409 million data breach fine in Korea",
-      "link": "https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/",
-      "summary": "\u200b\u200bThe Personal Information Protection Commission (PIPC), South Korea's data protection regulator, has fined e-commerce giant Coupang a record 624.6 bi...",
-      "timestamp": 1781182361.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CISA tells govt agencies to patch critical exploited flaws in 3 days",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-tells-govt-agencies-to-patch-critical-exploited-flaws-in-3-days/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) announced a new Binding Operational Directive, 26-04, that prioritizes security updat...",
-      "timestamp": 1781182004.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0273 PAN-OS: Authenticated Admin Command Injection Vulnerability via CLI or Web UI (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0273",
       "summary": "",
@@ -228,8 +228,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -244,8 +244,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
+      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -260,14 +268,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
       "summary": "",
@@ -276,8 +276,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -286,14 +294,6 @@
     {
       "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
       "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -364,5 +364,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781261446.7363105
+  "last_updated": 1781273592.5287735
 }
