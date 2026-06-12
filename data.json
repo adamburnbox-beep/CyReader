@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,44 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-45418 - ClipBucket: Blind SQL Injection in subtitle_edit.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45418",
+      "summary": "CVE ID :CVE-2026-45418\n  \n  Published : June 11, 2026, 11:16 p.m. | 2\u00a0hours, 20\u00a0minutes ago\n  \n  Description :ClipBucket v5 is an open source video sh...",
+      "timestamp": 1781219783.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45060 - ClipBucket: Blind SQL Injection in progress_video.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45060",
+      "summary": "CVE ID :CVE-2026-45060\n  \n  Published : June 11, 2026, 11:16 p.m. | 2\u00a0hours, 20\u00a0minutes ago\n  \n  Description :ClipBucket v5 is an open source video sh...",
+      "timestamp": 1781219783.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-42846 - ClipBucket: Remote Play URL Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42846",
+      "summary": "CVE ID :CVE-2026-42846\n  \n  Published : June 11, 2026, 11:16 p.m. | 2\u00a0hours, 20\u00a0minutes ago\n  \n  Description :ClipBucket v5 is an open source video sh...",
+      "timestamp": 1781219783.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Japanese energy firm loses drive with data of 10.9 million clients",
+      "link": "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/",
+      "summary": "Kyushu Electric Power Co., Inc. has disclosed a physical security incident that affects private data of more than 10\u00a0million customers. [...]",
+      "timestamp": 1781219656.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Maine breach portal abused to publish fake data breach disclosures",
       "link": "https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/",
@@ -60,82 +92,58 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-49060 - WordPress Hippoo Mobile App for WooCommerce plugin <= 1.9.4 - Privilege Escalation vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49060",
+      "summary": "CVE ID :CVE-2026-49060\n  \n  Published : June 11, 2026, 10:16 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Incorrect Privilege Assignment vulnerabi...",
+      "timestamp": 1781216217.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-45174 - Idira Endpoint Privilege Manager Linux Agent: Potential bypass of Agent Daemon Initialization",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45174",
-      "summary": "CVE ID :CVE-2026-45174\n  \n  Published : June 11, 2026, 9:22 p.m. | 26\u00a0minutes ago\n  \n  Description :Idira Endpoint Privilege Manager Linux Agent versi...",
-      "timestamp": 1781212933.0,
+      "summary": "CVE ID :CVE-2026-45174\n  \n  Published : June 11, 2026, 10:16 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Idira Endpoint Privilege Manager Linux A...",
+      "timestamp": 1781216217.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-53819 - OpenClaw < 2026.5.27 - Arbitrary Homebrew Executable Execution via Workspace .env Override",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53819",
-      "summary": "CVE ID :CVE-2026-53819\n  \n  Published : June 11, 2026, 9:16 p.m. | 32\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.27 contains an arbitrary co...",
-      "timestamp": 1781212584.0,
+      "title": "CVE-2026-45173 - Idira Identity Browser Extension: Unauthorized Application Interaction via Origin Validation Failure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45173",
+      "summary": "CVE ID :CVE-2026-45173\n  \n  Published : June 11, 2026, 10:16 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Idira Identity Browser Extension (Chrome...",
+      "timestamp": 1781216217.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-53817 - OpenClaw < 2026.5.22 - Control UI Locality Spoofing in Device Pairing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53817",
-      "summary": "CVE ID :CVE-2026-53817\n  \n  Published : June 11, 2026, 9:16 p.m. | 32\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.22 contains a locality vali...",
-      "timestamp": 1781212583.0,
+      "title": "CVE-2026-45172 - Idira Privileged Session Manager for SSH (PSMP): Arbitrary Command Execution via Improper Neutralization of Special Elements used in an OS Command",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45172",
+      "summary": "CVE ID :CVE-2026-45172\n  \n  Published : June 11, 2026, 10:16 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Due to incomplete input validation in Id...",
+      "timestamp": 1781216217.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-53816 - OpenClaw < 2026.5.18 - Exec Lifecycle Event Forgery via Paired Node",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53816",
-      "summary": "CVE ID :CVE-2026-53816\n  \n  Published : June 11, 2026, 9:16 p.m. | 32\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.18 contains an insufficient...",
-      "timestamp": 1781212583.0,
+      "title": "CVE-2026-45171 - Idira Privileged Session Manager (PSM): Potential Code Execution due to an Incomplete Input Validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45171",
+      "summary": "CVE ID :CVE-2026-45171\n  \n  Published : June 11, 2026, 10:16 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Incomplete input validation and improper...",
+      "timestamp": 1781216217.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-53814 - OpenClaw < 2026.5.20 - Privilege Escalation via Hook-Triggered CLI MCP Tool Authority",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53814",
-      "summary": "CVE ID :CVE-2026-53814\n  \n  Published : June 11, 2026, 9:16 p.m. | 32\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.20 contains a privilege esc...",
-      "timestamp": 1781212583.0,
+      "title": "CVE-2026-44249 - Netty has an IPv6 Subnet Filter Bypass via Incorrect Comparator Masking",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44249",
+      "summary": "CVE ID :CVE-2026-44249\n  \n  Published : June 11, 2026, 10:16 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Netty is a network application framework...",
+      "timestamp": 1781216216.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-53811 - OpenClaw < 2026.5.7 - Privilege Escalation via Mutable Display Names in Matrix allowFrom",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53811",
-      "summary": "CVE ID :CVE-2026-53811\n  \n  Published : June 11, 2026, 9:16 p.m. | 32\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.7 contains a privilege esca...",
-      "timestamp": 1781212583.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53810 - OpenClaw < 2026.5.18 - Arbitrary Code Execution via Unscanned Marketplace Runtime Extension Metadata",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53810",
-      "summary": "CVE ID :CVE-2026-53810\n  \n  Published : June 11, 2026, 9:16 p.m. | 32\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.18 contains a code executio...",
-      "timestamp": 1781212583.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53807 - OpenClaw < 2026.5.6 - Authorization Bypass in Telegram Interactive Callbacks via commands.allowFrom",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53807",
-      "summary": "CVE ID :CVE-2026-53807\n  \n  Published : June 11, 2026, 9:16 p.m. | 32\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.6 contains an authorization...",
-      "timestamp": 1781212582.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53806 - OpenClaw < 2026.5.12 - Shell Option Parsing Bypass in Exec Revalidation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53806",
-      "summary": "CVE ID :CVE-2026-53806\n  \n  Published : June 11, 2026, 9:16 p.m. | 32\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.12 contains a shell option ...",
-      "timestamp": 1781212582.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50245 - Brickcom Cameras Missing Authentication for Critical Function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50245",
-      "summary": "CVE ID :CVE-2026-50245\n  \n  Published : June 11, 2026, 9:16 p.m. | 32\u00a0minutes ago\n  \n  Description :Brickcom cameras\u00a0allow unauthenticated access to l...",
-      "timestamp": 1781212582.0,
+      "title": "CVE-2026-42647 - WordPress JoomSport plugin <= 5.7.7 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42647",
+      "summary": "CVE ID :CVE-2026-42647\n  \n  Published : June 11, 2026, 10:16 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Eleme...",
+      "timestamp": 1781216216.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -220,32 +228,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "Path traversal flaw in AI dev platform Langflow exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
-      "summary": "Attackers are actively exploiting CVE-2026-5027, a high-severity path traversal vulnerability in the AI development platform Langflow, to write arbitr...",
-      "timestamp": 1781126624.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -260,16 +244,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
+      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -284,8 +268,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
+      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -294,6 +286,14 @@
     {
       "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
       "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -364,5 +364,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781219273.5099225
+  "last_updated": 1781228197.8532724
 }
