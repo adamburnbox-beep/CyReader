@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,33 +45,89 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 9,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-45418 - ClipBucket: Blind SQL Injection in subtitle_edit.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45418",
-      "summary": "CVE ID :CVE-2026-45418\n  \n  Published : June 11, 2026, 11:16 p.m. | 2\u00a0hours, 20\u00a0minutes ago\n  \n  Description :ClipBucket v5 is an open source video sh...",
-      "timestamp": 1781219783.0,
+      "title": "CVE-2026-45169 - Idira Privileged Access Manager (PAM) Self-Hosted Vault: Denial of Service due to Unexpected Input Processing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45169",
+      "summary": "CVE ID :CVE-2026-45169\n  \n  Published : June 12, 2026, 5:16 a.m. | 55\u00a0minutes ago\n  \n  Description :Idira Privileged Access Manager (PAM) Self-Hosted ...",
+      "timestamp": 1781241392.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-45060 - ClipBucket: Blind SQL Injection in progress_video.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45060",
-      "summary": "CVE ID :CVE-2026-45060\n  \n  Published : June 11, 2026, 11:16 p.m. | 2\u00a0hours, 20\u00a0minutes ago\n  \n  Description :ClipBucket v5 is an open source video sh...",
-      "timestamp": 1781219783.0,
+      "title": "CVE-2026-48612 - Okta OAuth Account Linking Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48612",
+      "summary": "CVE ID :CVE-2026-48612\n  \n  Published : June 12, 2026, 4:17 a.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :Improper state verification in the OAuth i...",
+      "timestamp": 1781237830.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-42846 - ClipBucket: Remote Play URL Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42846",
-      "summary": "CVE ID :CVE-2026-42846\n  \n  Published : June 11, 2026, 11:16 p.m. | 2\u00a0hours, 20\u00a0minutes ago\n  \n  Description :ClipBucket v5 is an open source video sh...",
-      "timestamp": 1781219783.0,
+      "title": "CVE-2026-48611 - Google OAuth Account Hijacking Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48611",
+      "summary": "CVE ID :CVE-2026-48611\n  \n  Published : June 12, 2026, 4:17 a.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :Improper authentication checks in the OAut...",
+      "timestamp": 1781237828.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48610 - UniFi OS Improper Access Control Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48610",
+      "summary": "CVE ID :CVE-2026-48610\n  \n  Published : June 12, 2026, 4:17 a.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :Under certain network configurations, a ma...",
+      "timestamp": 1781237826.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47370 - UniFi OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47370",
+      "summary": "CVE ID :CVE-2026-47370\n  \n  Published : June 12, 2026, 4:17 a.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :A malicious actor with access to the netwo...",
+      "timestamp": 1781237826.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47369 - UniFi OS Improper Input Validation Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47369",
+      "summary": "CVE ID :CVE-2026-47369\n  \n  Published : June 12, 2026, 4:17 a.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :A malicious actor with access to the netwo...",
+      "timestamp": 1781237826.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47368 - UniFi OS Path Traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47368",
+      "summary": "CVE ID :CVE-2026-47368\n  \n  Published : June 12, 2026, 4:17 a.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :A malicious actor with access to the netwo...",
+      "timestamp": 1781237826.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47367 - UID Enterprise Agent Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47367",
+      "summary": "CVE ID :CVE-2026-47367\n  \n  Published : June 12, 2026, 4:17 a.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :A malicious actor with access to the netwo...",
+      "timestamp": 1781237826.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47365 - WordPress Toolkit Argument Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47365",
+      "summary": "CVE ID :CVE-2026-47365\n  \n  Published : June 12, 2026, 4:17 a.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :Argument injection vulnerability in WordPr...",
+      "timestamp": 1781237825.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-11933 - Post-authentication use-after-free in server-side JavaScript BSON-to-array conversion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11933",
+      "summary": "CVE ID :CVE-2026-11933\n  \n  Published : June 12, 2026, 2:16 a.m. | 3\u00a0hours, 54\u00a0minutes ago\n  \n  Description :A use-after-free vulnerability exists in ...",
+      "timestamp": 1781230598.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -90,62 +146,6 @@
       "timestamp": 1781217898.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-49060 - WordPress Hippoo Mobile App for WooCommerce plugin <= 1.9.4 - Privilege Escalation vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49060",
-      "summary": "CVE ID :CVE-2026-49060\n  \n  Published : June 11, 2026, 10:16 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Incorrect Privilege Assignment vulnerabi...",
-      "timestamp": 1781216217.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45174 - Idira Endpoint Privilege Manager Linux Agent: Potential bypass of Agent Daemon Initialization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45174",
-      "summary": "CVE ID :CVE-2026-45174\n  \n  Published : June 11, 2026, 10:16 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Idira Endpoint Privilege Manager Linux A...",
-      "timestamp": 1781216217.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45173 - Idira Identity Browser Extension: Unauthorized Application Interaction via Origin Validation Failure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45173",
-      "summary": "CVE ID :CVE-2026-45173\n  \n  Published : June 11, 2026, 10:16 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Idira Identity Browser Extension (Chrome...",
-      "timestamp": 1781216217.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45172 - Idira Privileged Session Manager for SSH (PSMP): Arbitrary Command Execution via Improper Neutralization of Special Elements used in an OS Command",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45172",
-      "summary": "CVE ID :CVE-2026-45172\n  \n  Published : June 11, 2026, 10:16 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Due to incomplete input validation in Id...",
-      "timestamp": 1781216217.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45171 - Idira Privileged Session Manager (PSM): Potential Code Execution due to an Incomplete Input Validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45171",
-      "summary": "CVE ID :CVE-2026-45171\n  \n  Published : June 11, 2026, 10:16 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Incomplete input validation and improper...",
-      "timestamp": 1781216217.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44249 - Netty has an IPv6 Subnet Filter Bypass via Incorrect Comparator Masking",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44249",
-      "summary": "CVE ID :CVE-2026-44249\n  \n  Published : June 11, 2026, 10:16 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Netty is a network application framework...",
-      "timestamp": 1781216216.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-42647 - WordPress JoomSport plugin <= 5.7.7 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42647",
-      "summary": "CVE ID :CVE-2026-42647\n  \n  Published : June 11, 2026, 10:16 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Eleme...",
-      "timestamp": 1781216216.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Oracle mitigates PeopleSoft zero-day exploited in data theft attacks",
@@ -228,24 +228,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
+      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -260,8 +244,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
+      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -276,8 +276,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -286,14 +294,6 @@
     {
       "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
       "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -364,5 +364,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781228197.8532724
+  "last_updated": 1781244958.9272702
 }
