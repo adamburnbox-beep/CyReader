@@ -45,25 +45,89 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 5,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-45013 - Apostrophe has a Weak Password Recovery Mechanism for Forgotten Password and Improper Input Validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45013",
-      "summary": "CVE ID :CVE-2026-45013\n  \n  Published : June 12, 2026, 9:16 p.m. | 41\u00a0minutes ago\n  \n  Description :ApostropheCMS is an open-source Node.js content ma...",
-      "timestamp": 1781298982.0,
+      "title": "CVE-2026-53868 - Capgo < 12.128.2 - Denial of Service via Unverified Email Account Registration and Deletion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53868",
+      "summary": "CVE ID :CVE-2026-53868\n  \n  Published : June 12, 2026, 10:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :Capgo before 12.128.2 contains a denial of ...",
+      "timestamp": 1781302616.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-44990 - Apostrophe has default XSS via `xmp` raw-text passthrough in `sanitize-html`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44990",
-      "summary": "CVE ID :CVE-2026-44990\n  \n  Published : June 12, 2026, 9:16 p.m. | 41\u00a0minutes ago\n  \n  Description :ApostropheCMS is an open-source Node.js content ma...",
-      "timestamp": 1781298982.0,
+      "title": "CVE-2026-53838 - OpenClaw < 2026.5.27 - Node Pairing State Mutation via Reconnection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53838",
+      "summary": "CVE ID :CVE-2026-53838\n  \n  Published : June 12, 2026, 10:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :OpenClaw before 2026.5.27 contains a state ...",
+      "timestamp": 1781302615.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53836 - OpenClaw < 2026.5.12 - Allowlist Bypass via PowerShell Encoded-Command Aliases",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53836",
+      "summary": "CVE ID :CVE-2026-53836\n  \n  Published : June 12, 2026, 10:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :OpenClaw before 2026.5.12 contains an allow...",
+      "timestamp": 1781302615.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53834 - OpenClaw < 2026.4.27 - Authorization Bypass in QQBot Pre-dispatch Slash Commands",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53834",
+      "summary": "CVE ID :CVE-2026-53834\n  \n  Published : June 12, 2026, 10:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :OpenClaw before 2026.4.27 contains an autho...",
+      "timestamp": 1781302615.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53831 - OpenClaw < 2026.5.18 - Arbitrary File Read via Shell Expansion in system.run Safe-bin Allowlist",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53831",
+      "summary": "CVE ID :CVE-2026-53831\n  \n  Published : June 12, 2026, 10:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :OpenClaw before 2026.5.18 contains a policy...",
+      "timestamp": 1781302614.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53829 - OpenClaw < 2026.5.18 - Command Truncation in Exec Approval Display",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53829",
+      "summary": "CVE ID :CVE-2026-53829\n  \n  Published : June 12, 2026, 10:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :OpenClaw before 2026.5.18 contains an appro...",
+      "timestamp": 1781302614.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53828 - OpenClaw < 2026.5.6 - Native Command Authorization Bypass via Owner-Command Enforcement",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53828",
+      "summary": "CVE ID :CVE-2026-53828\n  \n  Published : June 12, 2026, 10:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :OpenClaw before 2026.5.6 contains an author...",
+      "timestamp": 1781302614.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53823 - OpenClaw < 2026.5.3 - Privilege Escalation via Mutable Slack Display Names in allowFrom",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53823",
+      "summary": "CVE ID :CVE-2026-53823\n  \n  Published : June 12, 2026, 10:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :OpenClaw before 2026.5.3 contains a privile...",
+      "timestamp": 1781302613.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53822 - OpenClaw < 2026.5.18 - Command Argument Modification via Shell Wrapper Between Approval and Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53822",
+      "summary": "CVE ID :CVE-2026-53822\n  \n  Published : June 12, 2026, 10:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :OpenClaw before 2026.5.18 contains a comman...",
+      "timestamp": 1781302613.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53821 - OpenClaw < 2026.5.18 - Scope Elevation in trusted-proxy Control UI WebSocket",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53821",
+      "summary": "CVE ID :CVE-2026-53821\n  \n  Published : June 12, 2026, 10:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :OpenClaw before 2026.5.18 accepts WebSocket...",
+      "timestamp": 1781302613.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -76,76 +140,12 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-54361 - MISP mass assignment vulnerabilities allow unauthorized modification of ownership and delegation records",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54361",
-      "summary": "CVE ID :CVE-2026-54361\n  \n  Published : June 12, 2026, 8:16 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :MISP contained multiple mass assignment vu...",
-      "timestamp": 1781295408.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54360 - MISP sharing group creation mass assignment allows unauthorized takeover of existing sharing groups",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54360",
-      "summary": "CVE ID :CVE-2026-54360\n  \n  Published : June 12, 2026, 8:16 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :A mass assignment vulnerability exists in ...",
-      "timestamp": 1781295407.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50287 - Missing Authentication for Critical Function in @agenticmail/mcp",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50287",
-      "summary": "CVE ID :CVE-2026-50287\n  \n  Published : June 12, 2026, 8:16 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :AgenticMail gives AI agents real email add...",
-      "timestamp": 1781295406.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Maine disables data breach notification portal after fake disclosures",
       "link": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
       "summary": "Maine has taken its public data breach reporting portal offline after fraudulent breach disclosures were published on the state's website, prompting a...",
       "timestamp": 1781292812.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-53408 - Zoom Workplace Improper Authorization Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53408",
-      "summary": "CVE ID :CVE-2026-53408\n  \n  Published : June 12, 2026, 7:16 p.m. | 2\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Improper Authorization in Handler for Cus...",
-      "timestamp": 1781291790.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53407 - Zoom Workplace Improper Authorization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53407",
-      "summary": "CVE ID :CVE-2026-53407\n  \n  Published : June 12, 2026, 7:16 p.m. | 2\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Improper Authorization in Handler for Cus...",
-      "timestamp": 1781291789.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50108 - Naxclow IoT Platform Missing Authorization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50108",
-      "summary": "CVE ID :CVE-2026-50108\n  \n  Published : June 12, 2026, 7:16 p.m. | 2\u00a0hours, 41\u00a0minutes ago\n  \n  Description :The Naxclow platform API that returns dev...",
-      "timestamp": 1781291789.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50101 - Naxclow IoT Platform Not using password aging",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50101",
-      "summary": "CVE ID :CVE-2026-50101\n  \n  Published : June 12, 2026, 7:16 p.m. | 2\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Naxclow devices use a server-side, per-de...",
-      "timestamp": 1781291789.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47138 - Parse Server: Pre-authentication denial of service via client version header regex backtracking",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47138",
-      "summary": "CVE ID :CVE-2026-47138\n  \n  Published : June 12, 2026, 7:16 p.m. | 2\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Parse Server is an open source backend th...",
-      "timestamp": 1781291788.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "phpBB forum fixes auth bypass bug lurking for a decade",
@@ -228,6 +228,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
       "summary": "",
@@ -236,16 +244,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
+      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -268,8 +268,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
+      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -284,16 +292,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -364,5 +364,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781305262.171603
+  "last_updated": 1781310269.1413426
 }
