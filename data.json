@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,16 +45,24 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-12186 - GL.iNet GL-MT3000 Tor Proxy Service Configuration tor replace_country command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12186",
+      "summary": "CVE ID :CVE-2026-12186\n  \n  Published : June 14, 2026, 9:16 p.m. | 59\u00a0minutes ago\n  \n  Description :A weakness has been identified in GL.iNet GL-MT300...",
+      "timestamp": 1781471778.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-54413 - DriftRegion UDS Integer Underflow Out-of-Bounds Read",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54413",
-      "summary": "CVE ID :CVE-2026-54413\n  \n  Published : June 14, 2026, 6:17 p.m. | 3\u00a0hours, 2\u00a0minutes ago\n  \n  Description :driftregion iso14229 through 0.9.0 contain...",
+      "summary": "CVE ID :CVE-2026-54413\n  \n  Published : June 14, 2026, 6:17 p.m. | 3\u00a0hours, 58\u00a0minutes ago\n  \n  Description :driftregion iso14229 through 0.9.0 contai...",
       "timestamp": 1781461040.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -62,7 +70,7 @@
     {
       "title": "CVE-2026-54412 - MQTT-C Heap Out-of-Bounds Read and Integer Underflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54412",
-      "summary": "CVE ID :CVE-2026-54412\n  \n  Published : June 14, 2026, 6:17 p.m. | 3\u00a0hours, 2\u00a0minutes ago\n  \n  Description :LiamBindle MQTT-C through version 1.1.6 co...",
+      "summary": "CVE ID :CVE-2026-54412\n  \n  Published : June 14, 2026, 6:17 p.m. | 3\u00a0hours, 58\u00a0minutes ago\n  \n  Description :LiamBindle MQTT-C through version 1.1.6 c...",
       "timestamp": 1781461040.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -70,7 +78,7 @@
     {
       "title": "CVE-2026-54410 - nanoMODBUS TCP Server Off-by-One Buffer Overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54410",
-      "summary": "CVE ID :CVE-2026-54410\n  \n  Published : June 14, 2026, 6:17 p.m. | 3\u00a0hours, 2\u00a0minutes ago\n  \n  Description :nanoMODBUS through v1.23.0 contains an off...",
+      "summary": "CVE ID :CVE-2026-54410\n  \n  Published : June 14, 2026, 6:17 p.m. | 3\u00a0hours, 58\u00a0minutes ago\n  \n  Description :nanoMODBUS through v1.23.0 contains an of...",
       "timestamp": 1781461040.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -86,7 +94,7 @@
     {
       "title": "CVE-2026-54420 - LiteSpeed cPanel Plugin Symlink Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54420",
-      "summary": "CVE ID :CVE-2026-54420\n  \n  Published : June 14, 2026, 4:16 a.m. | 17\u00a0hours, 2\u00a0minutes ago\n  \n  Description :LiteSpeed cPanel plugin before 2.4.8 (as ...",
+      "summary": "CVE ID :CVE-2026-54420\n  \n  Published : June 14, 2026, 4:16 a.m. | 17\u00a0hours, 59\u00a0minutes ago\n  \n  Description :LiteSpeed cPanel plugin before 2.4.8 (as...",
       "timestamp": 1781410588.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -167,14 +175,6 @@
       "title": "CVE-2026-53838 - OpenClaw < 2026.5.27 - Node Pairing State Mutation via Reconnection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53838",
       "summary": "CVE ID :CVE-2026-53838\n  \n  Published : June 12, 2026, 10:16 p.m. | 1\u00a0day, 23\u00a0hours ago\n  \n  Description :OpenClaw before 2026.5.27 contains a state m...",
-      "timestamp": 1781302615.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53836 - OpenClaw < 2026.5.12 - Allowlist Bypass via PowerShell Encoded-Command Aliases",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53836",
-      "summary": "CVE ID :CVE-2026-53836\n  \n  Published : June 12, 2026, 10:16 p.m. | 1\u00a0day, 23\u00a0hours ago\n  \n  Description :OpenClaw before 2026.5.12 contains an allowl...",
       "timestamp": 1781302615.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -348,5 +348,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1781472966.4876435
+  "last_updated": 1781477170.8176763
 }
