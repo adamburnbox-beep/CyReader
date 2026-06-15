@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,65 +45,97 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Webinar: How behavioral AI stops phishing and account takeovers",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-how-behavioral-ai-stops-phishing-and-account-takeovers/",
+      "summary": "Modern phishing, BEC, and account takeover attacks increasingly bypass traditional email defenses and create operational strain for security teams. Th...",
+      "timestamp": 1781525540.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-5482 - Remote Code Execution via Unrestricted File Upload in Responsive FileManager",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5482",
+      "summary": "CVE ID :CVE-2026-5482\n  \n  Published : June 15, 2026, 11:44 a.m. | 31\u00a0minutes ago\n  \n  Description :Responsive FileManager's allows an unauthenticated...",
+      "timestamp": 1781523886.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12057 - DoS + Remote Code Execution via PDF JavaScript in Foxit AI",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12057",
+      "summary": "CVE ID :CVE-2026-12057\n  \n  Published : June 15, 2026, 10:21 a.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :When the application executes the JavaScr...",
+      "timestamp": 1781518882.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49757 - OAuth2/OIDC account takeover in AshAuthentication via email-based user matching",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49757",
+      "summary": "CVE ID :CVE-2026-49757\n  \n  Published : June 15, 2026, 10:07 a.m. | 2\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Authentication Bypass by Spoofing vulnera...",
+      "timestamp": 1781518037.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-34024 - Missing authorization checks in Wertheim SafeController Software allow low-privileged users to access restricted functions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34024",
+      "summary": "CVE ID :CVE-2026-34024\n  \n  Published : June 15, 2026, 10:03 a.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :The Wertheim SafeController Software, As...",
+      "timestamp": 1781517813.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-34021 - Lack of cryptographic protection in Wertheim SafeController 5400 enables RS-485 message sniffing and replay",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34021",
+      "summary": "CVE ID :CVE-2026-34021\n  \n  Published : June 15, 2026, 10:02 a.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :The Wertheim SafeController 5400, Contro...",
+      "timestamp": 1781517729.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12222 - Yealink SIP-T46U Web FastCGI Service bttest mod_webd.BlueToothTest stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12222",
+      "summary": "CVE ID :CVE-2026-12222\n  \n  Published : June 15, 2026, 6:16 a.m. | 6\u00a0hours ago\n  \n  Description :A vulnerability was determined in Yealink SIP-T46U 10...",
+      "timestamp": 1781504184.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12221 - Yealink SIP-T46U Firmware Chunk Upload upgrade sprintf stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12221",
+      "summary": "CVE ID :CVE-2026-12221\n  \n  Published : June 15, 2026, 6:16 a.m. | 6\u00a0hours ago\n  \n  Description :A vulnerability was found in Yealink SIP-T46U 108.86....",
+      "timestamp": 1781504184.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12220 - Yealink SIP-T46U Firmware Chunk Upload handler accupgradebychunk mod_upgrade.SparePartsUpload stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12220",
+      "summary": "CVE ID :CVE-2026-12220\n  \n  Published : June 15, 2026, 6:16 a.m. | 6\u00a0hours ago\n  \n  Description :A vulnerability has been found in Yealink SIP-T46U 10...",
+      "timestamp": 1781504184.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12218 - Yealink SIP-T46U Web FastCGI Service beforewifitest StartReportInformation stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12218",
+      "summary": "CVE ID :CVE-2026-12218\n  \n  Published : June 15, 2026, 6:16 a.m. | 6\u00a0hours ago\n  \n  Description :A vulnerability was detected in Yealink SIP-T46U 108....",
+      "timestamp": 1781504182.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-12197 - Ruijie EG105G-P JSON-RPC Diagnose Endpoint diagnose nslookup command injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12197",
-      "summary": "CVE ID :CVE-2026-12197\n  \n  Published : June 15, 2026, 12:16 a.m. | 5\u00a0hours, 2\u00a0minutes ago\n  \n  Description :A security flaw has been discovered in Ru...",
+      "summary": "CVE ID :CVE-2026-12197\n  \n  Published : June 15, 2026, 12:16 a.m. | 11\u00a0hours, 59\u00a0minutes ago\n  \n  Description :A security flaw has been discovered in ...",
       "timestamp": 1781482603.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12192 - GALAYOU Y4 Web Server buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12192",
-      "summary": "CVE ID :CVE-2026-12192\n  \n  Published : June 15, 2026, 12:16 a.m. | 5\u00a0hours, 2\u00a0minutes ago\n  \n  Description :A vulnerability was determined in GALAYOU...",
-      "timestamp": 1781482603.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12187 - GL.iNet GL-MT3000 Online Firmware Upgrade one_click_upgrade command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12187",
-      "summary": "CVE ID :CVE-2026-12187\n  \n  Published : June 14, 2026, 11:16 p.m. | 6\u00a0hours, 2\u00a0minutes ago\n  \n  Description :A security vulnerability has been detecte...",
-      "timestamp": 1781478994.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12186 - GL.iNet GL-MT3000 Tor Proxy Service Configuration tor replace_country command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12186",
-      "summary": "CVE ID :CVE-2026-12186\n  \n  Published : June 14, 2026, 9:16 p.m. | 8\u00a0hours, 3\u00a0minutes ago\n  \n  Description :A weakness has been identified in GL.iNet ...",
-      "timestamp": 1781471778.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54413 - DriftRegion UDS Integer Underflow Out-of-Bounds Read",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54413",
-      "summary": "CVE ID :CVE-2026-54413\n  \n  Published : June 14, 2026, 6:17 p.m. | 11\u00a0hours, 2\u00a0minutes ago\n  \n  Description :driftregion iso14229 through 0.9.0 contai...",
-      "timestamp": 1781461040.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54412 - MQTT-C Heap Out-of-Bounds Read and Integer Underflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54412",
-      "summary": "CVE ID :CVE-2026-54412\n  \n  Published : June 14, 2026, 6:17 p.m. | 11\u00a0hours, 2\u00a0minutes ago\n  \n  Description :LiamBindle MQTT-C through version 1.1.6 c...",
-      "timestamp": 1781461040.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54410 - nanoMODBUS TCP Server Off-by-One Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54410",
-      "summary": "CVE ID :CVE-2026-54410\n  \n  Published : June 14, 2026, 6:17 p.m. | 11\u00a0hours, 2\u00a0minutes ago\n  \n  Description :nanoMODBUS through v1.23.0 contains an of...",
-      "timestamp": 1781461040.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -116,36 +148,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-54420 - LiteSpeed cPanel Plugin Symlink Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54420",
-      "summary": "CVE ID :CVE-2026-54420\n  \n  Published : June 14, 2026, 4:16 a.m. | 1\u00a0day, 1\u00a0hour ago\n  \n  Description :LiteSpeed cPanel plugin before 2.4.8 (as distri...",
-      "timestamp": 1781410588.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12174 - D-Link DCS-935L HTTP rhea snprintf format string",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12174",
-      "summary": "CVE ID :CVE-2026-12174\n  \n  Published : June 13, 2026, 9:16 p.m. | 1\u00a0day, 8\u00a0hours ago\n  \n  Description :A security vulnerability has been detected in ...",
-      "timestamp": 1781385378.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Ex-school district employee jailed for hacks on former employer",
       "link": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
       "summary": "A former \u00a0IT employee at an Iowa school district was sentenced to 21 months in prison after conducting a prolonged cyberattack against the former empl...",
       "timestamp": 1781383993.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-12183 - Nefteprodukttekhnika BUK TS-G Improper Authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12183",
-      "summary": "CVE ID :CVE-2026-12183\n  \n  Published : June 13, 2026, 6:16 p.m. | 1\u00a0day, 11\u00a0hours ago\n  \n  Description :Nefteprodukttekhnika BUK TS-G Gas Station Aut...",
-      "timestamp": 1781374582.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Chinese hackers hijack auth flow, spy on isolated network for a decade",
@@ -228,14 +236,6 @@
       "vendor": "News"
     },
     {
-      "title": "Microsoft fixes Windows update failures linked to WUSA installer",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-update-failures-linked-to-wusa-installer/",
-      "summary": "Microsoft has fixed a known issue that caused Windows updates released since May 2025 to fail when installed via the Windows Update Standalone Install...",
-      "timestamp": 1781264698.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0273 PAN-OS: Authenticated Admin Command Injection Vulnerability via CLI or Web UI (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0273",
       "summary": "",
@@ -244,24 +244,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -276,8 +268,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -348,5 +348,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1781503394.641777
+  "last_updated": 1781527066.0086498
 }
