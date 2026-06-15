@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 7,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,14 +24,14 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 6,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,60 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "SimpleHelp bug lets hackers create rogue remote support accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/simplehelp-bug-lets-hackers-create-rogue-remote-support-accounts/",
+      "summary": "A vulnerability in the SimpleHelp remote management software allows unauthenticated attackers to create privileged technician accounts on servers usin...",
+      "timestamp": 1781554012.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-52720 - Gstreamer1-plugins-bad-free: gstreamer: heap buffer overflow via crafted vnc server rectangle in librfb",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52720",
+      "summary": "CVE ID :CVE-2026-52720\n  \n  Published : June 15, 2026, 7:15 p.m. | 35\u00a0minutes ago\n  \n  Description :A heap buffer overflow vulnerability was found in ...",
+      "timestamp": 1781550919.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47835 - Spring AI vector store metadata filtering to handle special characters in Elasticsearch, OpenSearch, and GemFire Vector Stores",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47835",
+      "summary": "CVE ID :CVE-2026-47835\n  \n  Published : June 15, 2026, 6:54 p.m. | 56\u00a0minutes ago\n  \n  Description :In Spring AI Vector Stores, special characters cou...",
+      "timestamp": 1781549659.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49954 - Discuz! X5.0 Local File Inclusion via enable_disable.php Plugin Directory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49954",
+      "summary": "CVE ID :CVE-2026-49954\n  \n  Published : June 15, 2026, 6:50 p.m. | 1\u00a0hour ago\n  \n  Description :Discuz! X5.0 releases 20260320 through 20260501 contai...",
+      "timestamp": 1781549401.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49952 - Discuz! X5.0 Authentication Bypass via dbbak.php Encryption Oracle",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49952",
+      "summary": "CVE ID :CVE-2026-49952\n  \n  Published : June 15, 2026, 6:43 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :Discuz! X5.0 releases 20260320 through 2026...",
+      "timestamp": 1781549001.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "OptinMonster WordPress plugin hacked in CDN supply-chain attack",
+      "link": "https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/",
+      "summary": "WordPress plugins OptinMonster, TrustPulse, and PushEngage have been compromised in a supply-chain attack impacting Awesome Motive-s content distribut...",
+      "timestamp": 1781545027.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Cisco fixes SD-WAN vManage flaw exploited in zero-day attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/",
@@ -66,6 +114,14 @@
       "timestamp": 1781541431.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-9862 - Core Privileged Access Manager (BoKS) autoregistration service command injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9862",
+      "summary": "CVE ID :CVE-2026-9862\n  \n  Published : June 15, 2026, 4:16 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :Fortra's\u00a0\nCore Privileged Access Manager (...",
+      "timestamp": 1781540195.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco Catalyst SD-WAN Manager Arbitrary File Write Vulnerability",
@@ -84,17 +140,9 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-9862 - Core Privileged Access Manager (BoKS) autoregistration service command injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9862",
-      "summary": "CVE ID :CVE-2026-9862\n  \n  Published : June 15, 2026, 3:10 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :Fortra's\u00a0\nCore Privileged Access Manager (Bo...",
-      "timestamp": 1781536208.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-5242 - Code Injection in Mia Technologies' Pizzy Library",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5242",
-      "summary": "CVE ID :CVE-2026-5242\n  \n  Published : June 15, 2026, 2:16 p.m. | 2\u00a0hours ago\n  \n  Description :Improper neutralization of formula elements in a CSV f...",
+      "summary": "CVE ID :CVE-2026-5242\n  \n  Published : June 15, 2026, 2:16 p.m. | 5\u00a0hours, 34\u00a0minutes ago\n  \n  Description :Improper neutralization of formula element...",
       "timestamp": 1781532997.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -102,7 +150,7 @@
     {
       "title": "CVE-2026-52704 - WordPress WooCommerce PDF Invoice Builder plugin <= 2.0.8 - Remote Code Execution (RCE) vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-52704",
-      "summary": "CVE ID :CVE-2026-52704\n  \n  Published : June 15, 2026, 2:16 p.m. | 2\u00a0hours ago\n  \n  Description :Improper Control of Generation of Code ('Code Injecti...",
+      "summary": "CVE ID :CVE-2026-52704\n  \n  Published : June 15, 2026, 2:16 p.m. | 5\u00a0hours, 34\u00a0minutes ago\n  \n  Description :Improper Control of Generation of Code ('...",
       "timestamp": 1781532996.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -110,7 +158,7 @@
     {
       "title": "CVE-2026-49111 - WordPress Masteriyo - LMS plugin <= 2.2.0 - Privilege Escalation vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49111",
-      "summary": "CVE ID :CVE-2026-49111\n  \n  Published : June 15, 2026, 2:16 p.m. | 2\u00a0hours ago\n  \n  Description :Incorrect Privilege Assignment vulnerability in Theme...",
+      "summary": "CVE ID :CVE-2026-49111\n  \n  Published : June 15, 2026, 2:16 p.m. | 5\u00a0hours, 34\u00a0minutes ago\n  \n  Description :Incorrect Privilege Assignment vulnerabil...",
       "timestamp": 1781532995.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -118,7 +166,7 @@
     {
       "title": "CVE-2026-49062 - WordPress Faust.js plugin <= 1.8.7 - Broken Authentication vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49062",
-      "summary": "CVE ID :CVE-2026-49062\n  \n  Published : June 15, 2026, 2:16 p.m. | 2\u00a0hours ago\n  \n  Description :Authentication Bypass Using an Alternate Path or Chan...",
+      "summary": "CVE ID :CVE-2026-49062\n  \n  Published : June 15, 2026, 2:16 p.m. | 5\u00a0hours, 34\u00a0minutes ago\n  \n  Description :Authentication Bypass Using an Alternate ...",
       "timestamp": 1781532995.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -126,40 +174,8 @@
     {
       "title": "CVE-2018-25436 - WordPress Plugin Baggage Freight Shipping Australia 0.1.0 Arbitrary File Upload",
       "link": "https://cvefeed.io/vuln/detail/CVE-2018-25436",
-      "summary": "CVE ID :CVE-2018-25436\n  \n  Published : June 15, 2026, 2:16 p.m. | 2\u00a0hours ago\n  \n  Description :WordPress Plugin Baggage Freight Shipping Australia 0...",
+      "summary": "CVE ID :CVE-2018-25436\n  \n  Published : June 15, 2026, 2:16 p.m. | 5\u00a0hours, 34\u00a0minutes ago\n  \n  Description :WordPress Plugin Baggage Freight Shipping...",
       "timestamp": 1781532992.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2016-20075 - WordPress Ultimate Product Catalog 3.8.6 Arbitrary File Upload RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2016-20075",
-      "summary": "CVE ID :CVE-2016-20075\n  \n  Published : June 15, 2026, 2:16 p.m. | 2\u00a0hours ago\n  \n  Description :WordPress Ultimate Product Catalog 3.8.6 contains an ...",
-      "timestamp": 1781532990.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2016-20073 - Answer My Question 1.3 Plugin WordPress SQL Injection via modal.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2016-20073",
-      "summary": "CVE ID :CVE-2016-20073\n  \n  Published : June 15, 2026, 2:16 p.m. | 2\u00a0hours ago\n  \n  Description :Answer My Question 1.3 plugin for WordPress contains ...",
-      "timestamp": 1781532990.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2016-20072 - BBS e-Franchise 1.1.1 WordPress Plugin SQL Injection via uid",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2016-20072",
-      "summary": "CVE ID :CVE-2016-20072\n  \n  Published : June 15, 2026, 2:16 p.m. | 2\u00a0hours ago\n  \n  Description :BBS e-Franchise 1.1.1 plugin for WordPress contains a...",
-      "timestamp": 1781532990.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2016-20071 - WordPress 404 Redirection Manager Plugin 1.0 SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2016-20071",
-      "summary": "CVE ID :CVE-2016-20071\n  \n  Published : June 15, 2026, 2:16 p.m. | 2\u00a0hours ago\n  \n  Description :The 404 Redirection Manager plugin version 1.0 for Wo...",
-      "timestamp": 1781532990.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -204,22 +220,6 @@
       "vendor": "News"
     },
     {
-      "title": "FBI disrupts massive AI-powered phishing service using a million URLs",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
-      "summary": "In a coordinated effort, the FBI, working with Google and Black Lotus Labs, has dismantled a massive Chinese phishing-as-a-service operation called Ou...",
-      "timestamp": 1781447783.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Ex-school district employee jailed for hacks on former employer",
-      "link": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
-      "summary": "A former \u00a0IT employee at an Iowa school district was sentenced to 21 months in prison after conducting a prolonged cyberattack against the former empl...",
-      "timestamp": 1781383993.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0249",
       "summary": "",
@@ -260,16 +260,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
+      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -284,16 +292,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -356,5 +356,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1781544841.0542958
+  "last_updated": 1781555920.893688
 }
