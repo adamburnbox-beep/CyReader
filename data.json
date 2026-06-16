@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,15 +24,15 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 0,
-      "total_count": 0,
+      "new_count": 10,
+      "total_count": 10,
       "status": "ok"
     },
     {
@@ -45,75 +45,139 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CISA warns of another cPanel plugin flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has given U.S. government agencies three days to secure their servers against an acti...",
+      "timestamp": 1781606879.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Ransomware gang abuses Microsoft Teams relays to hide malicious traffic",
+      "link": "https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/",
+      "summary": "DragonForce ransomware used a custom malware named 'Backdoor.Turn' to hide command-and-control traffic inside Microsoft Teams relay infrastructure. [....",
+      "timestamp": 1781605128.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Critical Fortinet FortiSandbox flaws now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-fortinet-fortisandbox-flaws-now-exploited-in-attacks/",
+      "summary": "Attackers are now exploiting several critical vulnerabilities in Fortinet's FortiSandbox cyber threat detection platform, according to threat intellig...",
+      "timestamp": 1781601591.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-49772 - WordPress The Events Calendar plugin 6.15.12-6.16.2 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49772",
+      "summary": "CVE ID :CVE-2026-49772\n  \n  Published : June 16, 2026, 9:04 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Element...",
+      "timestamp": 1781600642.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49774 - WordPress RD Station plugin <= 5.6.0 - Remote Code Execution (RCE) vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49774",
+      "summary": "CVE ID :CVE-2026-49774\n  \n  Published : June 16, 2026, 9:02 a.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :Improper Control of Generation of Code ('C...",
+      "timestamp": 1781600565.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52715 - WordPress GEO my WordPress plugin <= 4.5.5 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52715",
+      "summary": "CVE ID :CVE-2026-52715\n  \n  Published : June 16, 2026, 9 a.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in GEO my WordP...",
+      "timestamp": 1781600435.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-39581 - WordPress WP Sessions Time Monitoring Full Automatic plugin <= 1.1.4 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39581",
+      "summary": "CVE ID :CVE-2026-39581\n  \n  Published : June 16, 2026, 9 a.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Subscriber SQL Injection in WP Sessions Time ...",
+      "timestamp": 1781600432.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-39574 - WordPress InPost Gallery plugin <= 2.1.4.6 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39574",
+      "summary": "CVE ID :CVE-2026-39574\n  \n  Published : June 16, 2026, 9 a.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in InPost Galle...",
+      "timestamp": 1781600431.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Windows version of SprySOCKS Linux malware used to attack govt orgs",
+      "link": "https://www.bleepingcomputer.com/news/security/windows-version-of-sprysocks-linux-malware-used-to-attack-govt-orgs/",
+      "summary": "Windows variants for the SprySOCKS Linux malware have been used in attacks targeting government organizations in at least four countries. [...]",
+      "timestamp": 1781600400.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-5416 - Command Injection via name parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5416",
+      "summary": "CVE ID :CVE-2026-5416\n  \n  Published : June 16, 2026, 8:18 a.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Due to the improper neutralization of speci...",
+      "timestamp": 1781597882.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8444 - WP Review Slider Pro <= 12.6.8 - Authenticated (Subscriber+) SQL Injection via 'curselrevs' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8444",
+      "summary": "CVE ID :CVE-2026-8444\n  \n  Published : June 16, 2026, 8:16 a.m. | 2\u00a0hours ago\n  \n  Description :The WP Review Slider Pro plugin for WordPress is vulne...",
+      "timestamp": 1781597784.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "iRhythm discloses data breach, says hackers stole patient info",
+      "link": "https://www.bleepingcomputer.com/news/security/irhythm-discloses-data-breach-says-hackers-stole-patient-info/",
+      "summary": "Digital healthcare company iRhythm Holdings has disclosed a data breach after hackers stole patients' personal and health information stored on third-...",
+      "timestamp": 1781591519.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-8443 - WP Review Slider Pro <= 12.6.8 - Authenticated (Subscriber+) SQL Injection via 'stypes' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8443",
+      "summary": "CVE ID :CVE-2026-8443\n  \n  Published : June 16, 2026, 6:16 a.m. | 4\u00a0hours ago\n  \n  Description :The WP Review Slider Pro plugin for WordPress is vulne...",
+      "timestamp": 1781590618.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-6933 - Premmerce Dev Tools <= 2.0 - Missing Authorization to Authenticated (Subscriber+) Remote Code Execution via Plugin Creation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6933",
+      "summary": "CVE ID :CVE-2026-6933\n  \n  Published : June 16, 2026, 6:16 a.m. | 4\u00a0hours ago\n  \n  Description :The Premmerce Dev Tools plugin for WordPress is vulner...",
+      "timestamp": 1781590618.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-7273 - Zyxel GS1900-48HPv2 Stack-Based Buffer Overflow Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7273",
-      "summary": "CVE ID :CVE-2026-7273\n  \n  Published : June 16, 2026, 3:16 a.m. | 1\u00a0hour ago\n  \n  Description :A stack-based buffer overflow vulnerability in the CGI ...",
+      "summary": "CVE ID :CVE-2026-7273\n  \n  Published : June 16, 2026, 3:16 a.m. | 7\u00a0hours ago\n  \n  Description :A stack-based buffer overflow vulnerability in the CGI...",
       "timestamp": 1781579773.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-53430 - grpc gzip decompression bomb in GRPC.Compressor.Gzip.decompress/1",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53430",
-      "summary": "CVE ID :CVE-2026-53430\n  \n  Published : June 15, 2026, 11:16 p.m. | 5\u00a0hours ago\n  \n  Description :Improper Handling of Highly Compressed Data (Data Am...",
-      "timestamp": 1781565406.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48854 - Unbounded request body accumulation causes memory exhaustion in elixir-grpc/grpc",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48854",
-      "summary": "CVE ID :CVE-2026-48854\n  \n  Published : June 15, 2026, 11:16 p.m. | 5\u00a0hours ago\n  \n  Description :Allocation of Resources Without Limits or Throttling...",
-      "timestamp": 1781565405.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48853 - Remote code execution and denial of service via unsafe Erlang term deserialization in elixir-grpc/grpc",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48853",
-      "summary": "CVE ID :CVE-2026-48853\n  \n  Published : June 15, 2026, 11:16 p.m. | 5\u00a0hours ago\n  \n  Description :Deserialization of Untrusted Data and Allocation of ...",
-      "timestamp": 1781565405.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-5064 - HP One Agent Software \u2013 Security Update",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5064",
-      "summary": "CVE ID :CVE-2026-5064\n  \n  Published : June 15, 2026, 10:16 p.m. | 6\u00a0hours ago\n  \n  Description :Potential security vulnerabilities have been identifi...",
-      "timestamp": 1781561778.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48714 - i18next-http-middleware missingKeyHandler does not reject keys whose segments contain prototype-polluting names",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48714",
-      "summary": "CVE ID :CVE-2026-48714\n  \n  Published : June 15, 2026, 10:16 p.m. | 6\u00a0hours ago\n  \n  Description :i18next-http-middleware is a middleware to be used w...",
-      "timestamp": 1781561777.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48713 - i18next-fs-backend: Prototype pollution via crafted missing-key string",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48713",
-      "summary": "CVE ID :CVE-2026-48713\n  \n  Published : June 15, 2026, 10:16 p.m. | 6\u00a0hours ago\n  \n  Description :Versions prior to 2.6.6 are vulnerable to prototype ...",
-      "timestamp": 1781561777.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48017 - DbGate: Remote Code Execution via functionName injection in loadReader endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48017",
-      "summary": "CVE ID :CVE-2026-48017\n  \n  Published : June 15, 2026, 10:16 p.m. | 6\u00a0hours ago\n  \n  Description :DbGate is cross-platform database manager. In versio...",
-      "timestamp": 1781561776.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
+      "title": "Cisco Catalyst SD-WAN Manager Arbitrary File Write Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-arbfw-c2rZvQ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20Arbitrary%20File%20Write%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the web UI of Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an authenticated, remote attacker to create a fil...",
+      "timestamp": 1781560851.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
     },
     {
       "title": "DOJ seizes CFAKE, SOCFAKE deepfake nude sites under TAKE IT DOWN Act",
@@ -122,22 +186,6 @@
       "timestamp": 1781560615.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-9691 - WordPress Integration for ActiveCampaign and Contact Form 7, WPForms, Elementor, Ninja Forms plugin <= 1.1.1 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9691",
-      "summary": "CVE ID :CVE-2026-9691\n  \n  Published : June 15, 2026, 9:17 p.m. | 6\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Unauthenticated PHP Object Injection in In...",
-      "timestamp": 1781558245.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52703 - WordPress FastDup plugin <= 2.7.2 - Path Traversal vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52703",
-      "summary": "CVE ID :CVE-2026-52703\n  \n  Published : June 15, 2026, 9:17 p.m. | 6\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Unauthenticated Path Traversal in FastDup...",
-      "timestamp": 1781558244.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "SimpleHelp bug lets hackers create rogue remote support accounts",
@@ -172,46 +220,6 @@
       "vendor": "News"
     },
     {
-      "title": "FBI: Fraudsters use couriers to steal money in crypto scams",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-fraudsters-use-couriers-to-steal-money-in-crypto-scams/",
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) warned that criminals are using couriers to collect money from victims of cryptocurrency investment sca...",
-      "timestamp": 1781537423.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Vibe coders are gonna vibe code: How CISOs are tackling code sprawl",
-      "link": "https://www.bleepingcomputer.com/news/security/vibe-coders-are-gonna-vibe-code-how-cisos-are-tackling-code-sprawl/",
-      "summary": "Employees are increasingly building automations, agents, and apps with AI tools outside traditional security oversight. Tines explores how CISOs are h...",
-      "timestamp": 1781532071.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Chinese hackers breach REDCap servers, steal medical research",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-breach-redcap-servers-steal-medical-research/",
-      "summary": "A China-linked espionage campaign targeted exposed REDCap servers to deploy the InfiniteRed malware and steal sensitive data from a medical institutio...",
-      "timestamp": 1781532000.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New attack turned Microsoft 365 Copilot into 1-click data theft tool",
-      "link": "https://www.bleepingcomputer.com/news/security/new-attack-turned-microsoft-365-copilot-into-1-click-data-theft-tool/",
-      "summary": "A critical vulnerability chain dubbed SearchLeak in Microsoft 365 Copilot Enterprise could allow attackers to steal sensitive data from a target's mai...",
-      "timestamp": 1781528400.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Infinite Campus data breach affects 137,000 school staff accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/infinite-campus-data-breach-affects-137-000-school-staff-accounts/",
-      "summary": "The ShinyHunters extortion gang stole personal information from more than 137,000 school staff accounts in a Salesforce data theft attack that targete...",
-      "timestamp": 1781527135.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0249",
       "summary": "",
@@ -226,6 +234,14 @@
       "timestamp": 1781314200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
+    },
+    {
+      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
+      "timestamp": 1781296609.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
     },
     {
       "title": "CVE-2026-0273 PAN-OS: Authenticated Admin Command Injection Vulnerability via CLI or Web UI (Severity: MEDIUM)",
@@ -316,5 +332,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781590493.8219821
+  "last_updated": 1781610873.6892743
 }
