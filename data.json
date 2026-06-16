@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 5,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 10,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,116 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 9,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-48780 - Forem vulnerable to bypass of email address domain restrictions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48780",
+      "summary": "CVE ID :CVE-2026-48780\n  \n  Published : June 16, 2026, 3:16 p.m. | 1\u00a0hour ago\n  \n  Description :Forem is open source software for building communities...",
+      "timestamp": 1781623001.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-11317 - Rockwell Automation Logix 5370 and 5570 Controllers Vulnerable To Denial of Service Via CIP",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11317",
+      "summary": "CVE ID :CVE-2026-11317\n  \n  Published : June 16, 2026, 3:16 p.m. | 1\u00a0hour ago\n  \n  Description :A denial of service security issue exists in the\naffec...",
+      "timestamp": 1781622994.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-0647 - Rockwell Automation FLEX I/O Dual-port EtherNet/IP Adapters \u2013 Multiple Vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-0647",
+      "summary": "CVE ID :CVE-2026-0647\n  \n  Published : June 16, 2026, 3:16 p.m. | 1\u00a0hour ago\n  \n  Description :An improper authentication security issue exists within...",
+      "timestamp": 1781622993.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-0646 - Rockwell Automation FLEX I/O Dual-port EtherNet/IP Adapters \u2013 Multiple Vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-0646",
+      "summary": "CVE ID :CVE-2026-0646\n  \n  Published : June 16, 2026, 3:16 p.m. | 1\u00a0hour ago\n  \n  Description :A denial-of-service security issue exists within the 17...",
+      "timestamp": 1781622993.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-14272 - Rockwell Automation FactoryTalk Analytics PavilionX",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-14272",
+      "summary": "CVE ID :CVE-2025-14272\n  \n  Published : June 16, 2026, 3:16 p.m. | 1\u00a0hour ago\n  \n  Description :A security issue was\u00a0identified\u00a0in Pavilion due to imp...",
+      "timestamp": 1781622993.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-13036 - Rockwell Automation FactoryTalk Historian Site Edition - Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-13036",
+      "summary": "CVE ID :CVE-2025-13036\n  \n  Published : June 16, 2026, 3:16 p.m. | 1\u00a0hour ago\n  \n  Description :An authentication\nbypass security issue exists within ...",
+      "timestamp": 1781622992.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-11694 - Rockwell Automation CompactLogix 5370 Controllers \u2013 Multiple Vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-11694",
+      "summary": "CVE ID :CVE-2025-11694\n  \n  Published : June 16, 2026, 3:16 p.m. | 1\u00a0hour ago\n  \n  Description :A security issue exists within\u00a01769 CompactLogix contr...",
+      "timestamp": 1781622992.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "UK to require ID or face scan before you can make social media accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/",
+      "summary": "Opening a new social media account in the UK will soon mean proving you're over 16 with an ID upload or a facial age scan, under a government ban on u...",
+      "timestamp": 1781620729.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "GhostTree Attack Abused Recursive Windows Junctions to Hide Malware",
+      "link": "https://www.bleepingcomputer.com/news/security/ghosttree-attack-abused-recursive-windows-junctions-to-hide-malware/",
+      "summary": "GhostTree uses recursive NTFS junctions to generate vast numbers of valid Windows file paths. Varonis explains how the technique could cause Microsoft...",
+      "timestamp": 1781619447.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "FTC warns of record $3.5 billion losses to imposter scams in 2025",
+      "link": "https://www.bleepingcomputer.com/news/security/ftc-warns-of-record-35-billion-losses-to-imposter-scams-in-2025/",
+      "summary": "The U.S. Federal Trade Commission (FTC) warned that Americans lost $3.5 billion to imposter scams in 2025, with reported losses nearly tripling since ...",
+      "timestamp": 1781617339.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-12328 - Memory safety bugs fixed in Firefox ESR 115.37, Firefox ESR 140.12, Thunderbird ESR 140.12, Firefox 152 and Thunderbird 152",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12328",
+      "summary": "CVE ID :CVE-2026-12328\n  \n  Published : June 16, 2026, 1:16 p.m. | 3\u00a0hours ago\n  \n  Description :Memory safety bugs present in Firefox ESR 115.36, Fir...",
+      "timestamp": 1781615793.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12289 - Privilege escalation in the Graphics: WebRender component",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12289",
+      "summary": "CVE ID :CVE-2026-12289\n  \n  Published : June 16, 2026, 1:16 p.m. | 3\u00a0hours ago\n  \n  Description :Privilege escalation in the Graphics: WebRender compo...",
+      "timestamp": 1781615789.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-40750 - WordPress Kids Online Store theme <= 0.8.9 - Arbitrary File Upload vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40750",
+      "summary": "CVE ID :CVE-2026-40750\n  \n  Published : June 16, 2026, 12:16 p.m. | 4\u00a0hours ago\n  \n  Description :Unrestricted Upload of File with Dangerous Type vuln...",
+      "timestamp": 1781612186.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "CISA warns of another cPanel plugin flaw exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/",
@@ -76,46 +180,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-49772 - WordPress The Events Calendar plugin 6.15.12-6.16.2 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49772",
-      "summary": "CVE ID :CVE-2026-49772\n  \n  Published : June 16, 2026, 9:04 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Element...",
-      "timestamp": 1781600642.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49774 - WordPress RD Station plugin <= 5.6.0 - Remote Code Execution (RCE) vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49774",
-      "summary": "CVE ID :CVE-2026-49774\n  \n  Published : June 16, 2026, 9:02 a.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :Improper Control of Generation of Code ('C...",
-      "timestamp": 1781600565.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52715 - WordPress GEO my WordPress plugin <= 4.5.5 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52715",
-      "summary": "CVE ID :CVE-2026-52715\n  \n  Published : June 16, 2026, 9 a.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in GEO my WordP...",
-      "timestamp": 1781600435.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-39581 - WordPress WP Sessions Time Monitoring Full Automatic plugin <= 1.1.4 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39581",
-      "summary": "CVE ID :CVE-2026-39581\n  \n  Published : June 16, 2026, 9 a.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Subscriber SQL Injection in WP Sessions Time ...",
-      "timestamp": 1781600432.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-39574 - WordPress InPost Gallery plugin <= 2.1.4.6 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39574",
-      "summary": "CVE ID :CVE-2026-39574\n  \n  Published : June 16, 2026, 9 a.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in InPost Galle...",
-      "timestamp": 1781600431.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Windows version of SprySOCKS Linux malware used to attack govt orgs",
       "link": "https://www.bleepingcomputer.com/news/security/windows-version-of-sprysocks-linux-malware-used-to-attack-govt-orgs/",
       "summary": "Windows variants for the SprySOCKS Linux malware have been used in attacks targeting government organizations in at least four countries. [...]",
@@ -124,52 +188,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-5416 - Command Injection via name parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5416",
-      "summary": "CVE ID :CVE-2026-5416\n  \n  Published : June 16, 2026, 8:18 a.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Due to the improper neutralization of speci...",
-      "timestamp": 1781597882.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8444 - WP Review Slider Pro <= 12.6.8 - Authenticated (Subscriber+) SQL Injection via 'curselrevs' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8444",
-      "summary": "CVE ID :CVE-2026-8444\n  \n  Published : June 16, 2026, 8:16 a.m. | 2\u00a0hours ago\n  \n  Description :The WP Review Slider Pro plugin for WordPress is vulne...",
-      "timestamp": 1781597784.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "iRhythm discloses data breach, says hackers stole patient info",
       "link": "https://www.bleepingcomputer.com/news/security/irhythm-discloses-data-breach-says-hackers-stole-patient-info/",
       "summary": "Digital healthcare company iRhythm Holdings has disclosed a data breach after hackers stole patients' personal and health information stored on third-...",
       "timestamp": 1781591519.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-8443 - WP Review Slider Pro <= 12.6.8 - Authenticated (Subscriber+) SQL Injection via 'stypes' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8443",
-      "summary": "CVE ID :CVE-2026-8443\n  \n  Published : June 16, 2026, 6:16 a.m. | 4\u00a0hours ago\n  \n  Description :The WP Review Slider Pro plugin for WordPress is vulne...",
-      "timestamp": 1781590618.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-6933 - Premmerce Dev Tools <= 2.0 - Missing Authorization to Authenticated (Subscriber+) Remote Code Execution via Plugin Creation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6933",
-      "summary": "CVE ID :CVE-2026-6933\n  \n  Published : June 16, 2026, 6:16 a.m. | 4\u00a0hours ago\n  \n  Description :The Premmerce Dev Tools plugin for WordPress is vulner...",
-      "timestamp": 1781590618.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-7273 - Zyxel GS1900-48HPv2 Stack-Based Buffer Overflow Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7273",
-      "summary": "CVE ID :CVE-2026-7273\n  \n  Published : June 16, 2026, 3:16 a.m. | 7\u00a0hours ago\n  \n  Description :A stack-based buffer overflow vulnerability in the CGI...",
-      "timestamp": 1781579773.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco Catalyst SD-WAN Manager Arbitrary File Write Vulnerability",
@@ -192,30 +216,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/simplehelp-bug-lets-hackers-create-rogue-remote-support-accounts/",
       "summary": "A vulnerability in the SimpleHelp remote management software allows unauthenticated attackers to create privileged technician accounts on servers usin...",
       "timestamp": 1781554012.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "OptinMonster WordPress plugin hacked in CDN supply-chain attack",
-      "link": "https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/",
-      "summary": "WordPress plugins OptinMonster, TrustPulse, and PushEngage have been compromised in a supply-chain attack impacting Awesome Motive-s content distribut...",
-      "timestamp": 1781545027.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cisco fixes SD-WAN vManage flaw exploited in zero-day attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/",
-      "summary": "Cisco has released security updates to address a vulnerability in the Catalyst SD-WAN Manager, tracked as CVE-2026-20262, that was exploited in attack...",
-      "timestamp": 1781543562.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Council of Europe investigates ShinyHunters data breach claims",
-      "link": "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
-      "summary": "The Council of Europe, the continent's oldest intergovernmental body, is probing claims of a data breach made by the ShinyHunters extortion group over...",
-      "timestamp": 1781541431.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -332,5 +332,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781610873.6892743
+  "last_updated": 1781630240.3524547
 }
