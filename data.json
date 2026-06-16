@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,60 +52,116 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-48780 - Forem vulnerable to bypass of email address domain restrictions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48780",
-      "summary": "CVE ID :CVE-2026-48780\n  \n  Published : June 16, 2026, 3:16 p.m. | 1\u00a0hour ago\n  \n  Description :Forem is open source software for building communities...",
-      "timestamp": 1781623001.0,
+      "title": "New Rokarolla Android malware targets 217 banking, crypto apps",
+      "link": "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
+      "summary": "A new Android banking trojan named Rokarolla is targeting 217 banking and cryptocurrency applications using an extensive set of 137 commands. [...]",
+      "timestamp": 1781640251.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-53866 - OpenClaw < 2026.5.12 - Allowlist Bypass in Shell Inline-Command Parsing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53866",
+      "summary": "CVE ID :CVE-2026-53866\n  \n  Published : June 16, 2026, 7:17 p.m. | 1\u00a0hour ago\n  \n  Description :OpenClaw before 2026.5.12 contains an allowlist bypass...",
+      "timestamp": 1781637425.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-11317 - Rockwell Automation Logix 5370 and 5570 Controllers Vulnerable To Denial of Service Via CIP",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11317",
-      "summary": "CVE ID :CVE-2026-11317\n  \n  Published : June 16, 2026, 3:16 p.m. | 1\u00a0hour ago\n  \n  Description :A denial of service security issue exists in the\naffec...",
-      "timestamp": 1781622994.0,
+      "title": "CVE-2026-53864 - OpenClaw < 2026.5.26 - Insufficient Environment Variable Sanitization in Node.js Control Variables",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53864",
+      "summary": "CVE ID :CVE-2026-53864\n  \n  Published : June 16, 2026, 7:17 p.m. | 1\u00a0hour ago\n  \n  Description :OpenClaw before 2026.5.26 contains an insufficient san...",
+      "timestamp": 1781637424.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-0647 - Rockwell Automation FLEX I/O Dual-port EtherNet/IP Adapters \u2013 Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-0647",
-      "summary": "CVE ID :CVE-2026-0647\n  \n  Published : June 16, 2026, 3:16 p.m. | 1\u00a0hour ago\n  \n  Description :An improper authentication security issue exists within...",
-      "timestamp": 1781622993.0,
+      "title": "CVE-2026-53857 - OpenClaw < 2026.5.3 - Mutable Display Name Binding in Zalo allowFrom Policy",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53857",
+      "summary": "CVE ID :CVE-2026-53857\n  \n  Published : June 16, 2026, 7:17 p.m. | 1\u00a0hour ago\n  \n  Description :OpenClaw before 2026.5.3 contains a policy enforcement...",
+      "timestamp": 1781637423.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-0646 - Rockwell Automation FLEX I/O Dual-port EtherNet/IP Adapters \u2013 Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-0646",
-      "summary": "CVE ID :CVE-2026-0646\n  \n  Published : June 16, 2026, 3:16 p.m. | 1\u00a0hour ago\n  \n  Description :A denial-of-service security issue exists within the 17...",
-      "timestamp": 1781622993.0,
+      "title": "CVE-2026-53855 - OpenClaw < 2026.4.2 - Shell Positional Parameters Bypass in Inline-Eval Checks",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53855",
+      "summary": "CVE ID :CVE-2026-53855\n  \n  Published : June 16, 2026, 7:17 p.m. | 1\u00a0hour ago\n  \n  Description :OpenClaw before 2026.4.2 contains an inline-eval bypas...",
+      "timestamp": 1781637422.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2025-14272 - Rockwell Automation FactoryTalk Analytics PavilionX",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-14272",
-      "summary": "CVE ID :CVE-2025-14272\n  \n  Published : June 16, 2026, 3:16 p.m. | 1\u00a0hour ago\n  \n  Description :A security issue was\u00a0identified\u00a0in Pavilion due to imp...",
-      "timestamp": 1781622993.0,
+      "title": "CVE-2026-53853 - OpenClaw < 2026.5.12 - Argument Pattern Bypass in Exec Allowlist via Linux and macOS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53853",
+      "summary": "CVE ID :CVE-2026-53853\n  \n  Published : June 16, 2026, 7:17 p.m. | 1\u00a0hour ago\n  \n  Description :OpenClaw before 2026.5.12 contains an argument pattern...",
+      "timestamp": 1781637422.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2025-13036 - Rockwell Automation FactoryTalk Historian Site Edition - Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-13036",
-      "summary": "CVE ID :CVE-2025-13036\n  \n  Published : June 16, 2026, 3:16 p.m. | 1\u00a0hour ago\n  \n  Description :An authentication\nbypass security issue exists within ...",
-      "timestamp": 1781622992.0,
+      "title": "CVE-2026-53849 - OpenClaw < 2026.5.7 - Privilege Escalation via Mutable Discord Display Names in allowFrom",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53849",
+      "summary": "CVE ID :CVE-2026-53849\n  \n  Published : June 16, 2026, 7:17 p.m. | 1\u00a0hour ago\n  \n  Description :OpenClaw before 2026.5.7 contains a privilege escalati...",
+      "timestamp": 1781637422.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2025-11694 - Rockwell Automation CompactLogix 5370 Controllers \u2013 Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-11694",
-      "summary": "CVE ID :CVE-2025-11694\n  \n  Published : June 16, 2026, 3:16 p.m. | 1\u00a0hour ago\n  \n  Description :A security issue exists within\u00a01769 CompactLogix contr...",
-      "timestamp": 1781622992.0,
+      "title": "CVE-2026-53843 - OpenClaw < 2026.5.26 - Node Token Revocation Bypass via Pairing-Scoped Device Session",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53843",
+      "summary": "CVE ID :CVE-2026-53843\n  \n  Published : June 16, 2026, 7:17 p.m. | 1\u00a0hour ago\n  \n  Description :OpenClaw before 2026.5.26 contains an authorization by...",
+      "timestamp": 1781637421.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-10748 - Nexus Repository 3 - Remote Code Execution via License Deserialization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10748",
+      "summary": "CVE ID :CVE-2026-10748\n  \n  Published : June 16, 2026, 7:16 p.m. | 1\u00a0hour ago\n  \n  Description :An authenticated user with the nx-licensing-create pri...",
+      "timestamp": 1781637390.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-22313 - OS Commands Executed with Administrative Permissions in Radiflow iSAP Smart Collector",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22313",
+      "summary": "CVE ID :CVE-2026-22313\n  \n  Published : June 16, 2026, 6:36 p.m. | 1\u00a0hour, 40\u00a0minutes ago\n  \n  Description :The device has a webserver that exposes a ...",
+      "timestamp": 1781635001.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Steam Workshop abused to spread malware via Wallpaper Engine app",
+      "link": "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/",
+      "summary": "Threat actors are abusing Steam Workshop, Valve's community hub for downloading game-related content, to push various malware hidden in wallpaper pack...",
+      "timestamp": 1781634475.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-22312 - Use of Hard-coded Credentials Vulnerability in Radiflow iSAP Smart Collector",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22312",
+      "summary": "CVE ID :CVE-2026-22312\n  \n  Published : June 16, 2026, 6:19 p.m. | 1\u00a0hour, 57\u00a0minutes ago\n  \n  Description :The device has a webserver that exposes a ...",
+      "timestamp": 1781633973.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-...",
+      "timestamp": 1781631587.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa2-v69WY2SW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
+      "summary": "May 2026: This security advisory provides the details and fix information for a vulnerability that was discovered and fixed after the Cisco Catalyst S...",
+      "timestamp": 1781631586.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
     },
     {
       "title": "UK to require ID or face scan before you can make social media accounts",
@@ -130,30 +186,6 @@
       "timestamp": 1781617339.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-12328 - Memory safety bugs fixed in Firefox ESR 115.37, Firefox ESR 140.12, Thunderbird ESR 140.12, Firefox 152 and Thunderbird 152",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12328",
-      "summary": "CVE ID :CVE-2026-12328\n  \n  Published : June 16, 2026, 1:16 p.m. | 3\u00a0hours ago\n  \n  Description :Memory safety bugs present in Firefox ESR 115.36, Fir...",
-      "timestamp": 1781615793.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12289 - Privilege escalation in the Graphics: WebRender component",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12289",
-      "summary": "CVE ID :CVE-2026-12289\n  \n  Published : June 16, 2026, 1:16 p.m. | 3\u00a0hours ago\n  \n  Description :Privilege escalation in the Graphics: WebRender compo...",
-      "timestamp": 1781615789.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-40750 - WordPress Kids Online Store theme <= 0.8.9 - Arbitrary File Upload vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40750",
-      "summary": "CVE ID :CVE-2026-40750\n  \n  Published : June 16, 2026, 12:16 p.m. | 4\u00a0hours ago\n  \n  Description :Unrestricted Upload of File with Dangerous Type vuln...",
-      "timestamp": 1781612186.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CISA warns of another cPanel plugin flaw exploited in attacks",
@@ -202,22 +234,6 @@
       "timestamp": 1781560851.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "DOJ seizes CFAKE, SOCFAKE deepfake nude sites under TAKE IT DOWN Act",
-      "link": "https://www.bleepingcomputer.com/news/security/doj-seizes-cfake-socfake-deepfake-nude-sites-under-take-it-down-act/",
-      "summary": "The U.S. Department of Justice announced Friday that it has seized the CFAKE.com and SOCFAKE.com websites, which allegedly hosted nonconsensual AI-gen...",
-      "timestamp": 1781560615.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "SimpleHelp bug lets hackers create rogue remote support accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/simplehelp-bug-lets-hackers-create-rogue-remote-support-accounts/",
-      "summary": "A vulnerability in the SimpleHelp remote management software allows unauthenticated attackers to create privileged technician accounts on servers usin...",
-      "timestamp": 1781554012.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)",
@@ -276,6 +292,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
       "summary": "",
@@ -284,24 +308,16 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -332,5 +348,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781630240.3524547
+  "last_updated": 1781641711.9301975
 }
