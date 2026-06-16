@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,14 +24,14 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 8,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,44 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Malicious JetBrains Marketplace plugins steal AI API keys from developers",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/",
+      "summary": "At least 15 malicious plugins found on the JetBrains Marketplace were designed to steal AI API keys from developers. [...]",
+      "timestamp": 1781646890.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-48777 - FileBrowser Quantum: Path Traversal in public share PATCH allows file ops outside shared directory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48777",
+      "summary": "CVE ID :CVE-2026-48777\n  \n  Published : June 16, 2026, 8:16 p.m. | 1\u00a0hour, 34\u00a0minutes ago\n  \n  Description :FileBrowser Quantum is a free, self-hosted...",
+      "timestamp": 1781641006.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-22313 - OS Commands Executed with Administrative Permissions in Radiflow iSAP Smart Collector",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22313",
+      "summary": "CVE ID :CVE-2026-22313\n  \n  Published : June 16, 2026, 8:16 p.m. | 1\u00a0hour, 35\u00a0minutes ago\n  \n  Description :The device has a webserver that exposes a ...",
+      "timestamp": 1781640988.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-22312 - Use of Hard-coded Credentials Vulnerability in Radiflow iSAP Smart Collector",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22312",
+      "summary": "CVE ID :CVE-2026-22312\n  \n  Published : June 16, 2026, 8:16 p.m. | 1\u00a0hour, 35\u00a0minutes ago\n  \n  Description :The device has a webserver that exposes a ...",
+      "timestamp": 1781640988.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "New Rokarolla Android malware targets 217 banking, crypto apps",
       "link": "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
@@ -62,7 +94,7 @@
     {
       "title": "CVE-2026-53866 - OpenClaw < 2026.5.12 - Allowlist Bypass in Shell Inline-Command Parsing",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53866",
-      "summary": "CVE ID :CVE-2026-53866\n  \n  Published : June 16, 2026, 7:17 p.m. | 1\u00a0hour ago\n  \n  Description :OpenClaw before 2026.5.12 contains an allowlist bypass...",
+      "summary": "CVE ID :CVE-2026-53866\n  \n  Published : June 16, 2026, 7:17 p.m. | 2\u00a0hours, 34\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.12 contains an all...",
       "timestamp": 1781637425.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -70,7 +102,7 @@
     {
       "title": "CVE-2026-53864 - OpenClaw < 2026.5.26 - Insufficient Environment Variable Sanitization in Node.js Control Variables",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53864",
-      "summary": "CVE ID :CVE-2026-53864\n  \n  Published : June 16, 2026, 7:17 p.m. | 1\u00a0hour ago\n  \n  Description :OpenClaw before 2026.5.26 contains an insufficient san...",
+      "summary": "CVE ID :CVE-2026-53864\n  \n  Published : June 16, 2026, 7:17 p.m. | 2\u00a0hours, 34\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.26 contains an ins...",
       "timestamp": 1781637424.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -78,7 +110,7 @@
     {
       "title": "CVE-2026-53857 - OpenClaw < 2026.5.3 - Mutable Display Name Binding in Zalo allowFrom Policy",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53857",
-      "summary": "CVE ID :CVE-2026-53857\n  \n  Published : June 16, 2026, 7:17 p.m. | 1\u00a0hour ago\n  \n  Description :OpenClaw before 2026.5.3 contains a policy enforcement...",
+      "summary": "CVE ID :CVE-2026-53857\n  \n  Published : June 16, 2026, 7:17 p.m. | 2\u00a0hours, 34\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.3 contains a polic...",
       "timestamp": 1781637423.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -86,7 +118,7 @@
     {
       "title": "CVE-2026-53855 - OpenClaw < 2026.4.2 - Shell Positional Parameters Bypass in Inline-Eval Checks",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53855",
-      "summary": "CVE ID :CVE-2026-53855\n  \n  Published : June 16, 2026, 7:17 p.m. | 1\u00a0hour ago\n  \n  Description :OpenClaw before 2026.4.2 contains an inline-eval bypas...",
+      "summary": "CVE ID :CVE-2026-53855\n  \n  Published : June 16, 2026, 7:17 p.m. | 2\u00a0hours, 34\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.4.2 contains an inli...",
       "timestamp": 1781637422.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -94,7 +126,7 @@
     {
       "title": "CVE-2026-53853 - OpenClaw < 2026.5.12 - Argument Pattern Bypass in Exec Allowlist via Linux and macOS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53853",
-      "summary": "CVE ID :CVE-2026-53853\n  \n  Published : June 16, 2026, 7:17 p.m. | 1\u00a0hour ago\n  \n  Description :OpenClaw before 2026.5.12 contains an argument pattern...",
+      "summary": "CVE ID :CVE-2026-53853\n  \n  Published : June 16, 2026, 7:17 p.m. | 2\u00a0hours, 34\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.12 contains an arg...",
       "timestamp": 1781637422.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -102,7 +134,7 @@
     {
       "title": "CVE-2026-53849 - OpenClaw < 2026.5.7 - Privilege Escalation via Mutable Discord Display Names in allowFrom",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53849",
-      "summary": "CVE ID :CVE-2026-53849\n  \n  Published : June 16, 2026, 7:17 p.m. | 1\u00a0hour ago\n  \n  Description :OpenClaw before 2026.5.7 contains a privilege escalati...",
+      "summary": "CVE ID :CVE-2026-53849\n  \n  Published : June 16, 2026, 7:17 p.m. | 2\u00a0hours, 34\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.7 contains a privi...",
       "timestamp": 1781637422.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -110,24 +142,8 @@
     {
       "title": "CVE-2026-53843 - OpenClaw < 2026.5.26 - Node Token Revocation Bypass via Pairing-Scoped Device Session",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53843",
-      "summary": "CVE ID :CVE-2026-53843\n  \n  Published : June 16, 2026, 7:17 p.m. | 1\u00a0hour ago\n  \n  Description :OpenClaw before 2026.5.26 contains an authorization by...",
+      "summary": "CVE ID :CVE-2026-53843\n  \n  Published : June 16, 2026, 7:17 p.m. | 2\u00a0hours, 34\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.26 contains an aut...",
       "timestamp": 1781637421.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10748 - Nexus Repository 3 - Remote Code Execution via License Deserialization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10748",
-      "summary": "CVE ID :CVE-2026-10748\n  \n  Published : June 16, 2026, 7:16 p.m. | 1\u00a0hour ago\n  \n  Description :An authenticated user with the nx-licensing-create pri...",
-      "timestamp": 1781637390.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-22313 - OS Commands Executed with Administrative Permissions in Radiflow iSAP Smart Collector",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22313",
-      "summary": "CVE ID :CVE-2026-22313\n  \n  Published : June 16, 2026, 6:36 p.m. | 1\u00a0hour, 40\u00a0minutes ago\n  \n  Description :The device has a webserver that exposes a ...",
-      "timestamp": 1781635001.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -138,14 +154,6 @@
       "timestamp": 1781634475.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-22312 - Use of Hard-coded Credentials Vulnerability in Radiflow iSAP Smart Collector",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22312",
-      "summary": "CVE ID :CVE-2026-22312\n  \n  Published : June 16, 2026, 6:19 p.m. | 1\u00a0hour, 57\u00a0minutes ago\n  \n  Description :The device has a webserver that exposes a ...",
-      "timestamp": 1781633973.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
@@ -220,14 +228,6 @@
       "vendor": "News"
     },
     {
-      "title": "iRhythm discloses data breach, says hackers stole patient info",
-      "link": "https://www.bleepingcomputer.com/news/security/irhythm-discloses-data-breach-says-hackers-stole-patient-info/",
-      "summary": "Digital healthcare company iRhythm Holdings has disclosed a data breach after hackers stole patients' personal and health information stored on third-...",
-      "timestamp": 1781591519.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Manager Arbitrary File Write Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-arbfw-c2rZvQ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20Arbitrary%20File%20Write%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the web UI of Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an authenticated, remote attacker to create a fil...",
@@ -268,24 +268,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -300,24 +284,40 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
+      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
+      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -348,5 +348,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781641711.9301975
+  "last_updated": 1781649140.780483
 }
