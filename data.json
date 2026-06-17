@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,33 +45,105 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 5,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-48616 - Rocket.Chat Livechat File Access Control Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48616",
-      "summary": "CVE ID :CVE-2026-48616\n  \n  Published : June 16, 2026, 11:08 p.m. | 5\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Rocket.Chat versions <8.5.1, 8.4.4, 8.3.6...",
-      "timestamp": 1781651317.0,
+      "title": "Microsoft working on Defender patch for RoguePlanet zero-day",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/",
+      "summary": "Microsoft confirmed that it's working on a security patch for a Defender zero-day vulnerability named \"RoguePlanet,\" disclosed one week ago. [...]",
+      "timestamp": 1781685149.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-0063 - Google Android PhoneInterfaceManager Improper Checkstone Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-0063",
+      "summary": "CVE ID :CVE-2026-0063\n  \n  Published : June 17, 2026, 7:24 a.m. | 53\u00a0minutes ago\n  \n  Description :In setAllowedCarriers of PhoneInterfaceManager.java...",
+      "timestamp": 1781681067.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-48788 - Remark42: Cross-Site Scripting (XSS) on /api/v1/img via content-type spoofing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48788",
-      "summary": "CVE ID :CVE-2026-48788\n  \n  Published : June 16, 2026, 10:29 p.m. | 5\u00a0hours, 47\u00a0minutes ago\n  \n  Description :Remark42 is a self-hosted comment engine...",
-      "timestamp": 1781648978.0,
+      "title": "CVE-2026-28587 - In MmsSmsProvider of MmsSmsProvider.java, there is",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28587",
+      "summary": "CVE ID :CVE-2026-28587\n  \n  Published : June 17, 2026, 7:21 a.m. | 55\u00a0minutes ago\n  \n  Description :In MmsSmsProvider of MmsSmsProvider.java, there is...",
+      "timestamp": 1781680905.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-48745 - Traccar Client: silent configuration hijack via unverified deep link redirects all GPS telemetry",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48745",
-      "summary": "CVE ID :CVE-2026-48745\n  \n  Published : June 16, 2026, 10:19 p.m. | 5\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Traccar Client is a GPS tracking mobile ...",
-      "timestamp": 1781648377.0,
+      "title": "CVE-2026-28576 - Contacts Provider SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28576",
+      "summary": "CVE ID :CVE-2026-28576\n  \n  Published : June 17, 2026, 7:19 a.m. | 57\u00a0minutes ago\n  \n  Description :In Contacts Provider, there is a possible way to a...",
+      "timestamp": 1781680787.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-28615 - Telecomm Local Privilege Escalation via Permissions Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28615",
+      "summary": "CVE ID :CVE-2026-28615\n  \n  Published : June 17, 2026, 7:17 a.m. | 1\u00a0hour ago\n  \n  Description :In Telecomm, there is a possible way to initiate an un...",
+      "timestamp": 1781680652.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-0083 - Nfc: Use After Free",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-0083",
+      "summary": "CVE ID :CVE-2026-0083\n  \n  Published : June 17, 2026, 7:15 a.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :In Nfc::eventCallback() of Nfc.h, there is a...",
+      "timestamp": 1781680528.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-0082 - Android NFC Dispatcher: Privilege Escalation via Insecure Permission Assignment",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-0082",
+      "summary": "CVE ID :CVE-2026-0082\n  \n  Published : June 17, 2026, 7:13 a.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :In tryStartActivity of NfcDispatcher.java, t...",
+      "timestamp": 1781680435.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-0081 - NFC Spoofing Leading to Local Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-0081",
+      "summary": "CVE ID :CVE-2026-0081\n  \n  Published : June 17, 2026, 7:12 a.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :In NFC, there is a possible way to spoof an ...",
+      "timestamp": 1781680335.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-0071 - SettingsLib Local Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-0071",
+      "summary": "CVE ID :CVE-2026-0071\n  \n  Published : June 17, 2026, 7:09 a.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :In SettingsLib, there is a possible missing ...",
+      "timestamp": 1781680174.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Kodak confirms data breach claimed by ShinyHunters extortion gang",
+      "link": "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
+      "summary": "Kodak has confirmed that it's working with external cybersecurity experts to investigate a security breach after hackers gained access to some of the ...",
+      "timestamp": 1781680076.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-28575 - Android PackageInstaller Denial of Service via Memory Exhaustion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28575",
+      "summary": "CVE ID :CVE-2026-28575\n  \n  Published : June 17, 2026, 7:02 a.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :In PackageInstaller.Session#transfer of fr...",
+      "timestamp": 1781679753.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-0064 - In multiple places, there is a possible persistent",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-0064",
+      "summary": "CVE ID :CVE-2026-0064\n  \n  Published : June 17, 2026, 6:59 a.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :In multiple places, there is a possible per...",
+      "timestamp": 1781679577.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -82,62 +154,6 @@
       "timestamp": 1781646890.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-48781 - Postiz has cross-tenant SUPERADMIN takeover via Skool-provider JWT forgery",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48781",
-      "summary": "CVE ID :CVE-2026-48781\n  \n  Published : June 16, 2026, 9:31 p.m. | 6\u00a0hours, 46\u00a0minutes ago\n  \n  Description :Postiz is an AI social media scheduling t...",
-      "timestamp": 1781645488.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-25470 - WordPress ACPT (Pro) - Custom Post Types plugin for WordPress plugin <= 2.0.47 - Remote Code Execution (RCE) vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-25470",
-      "summary": "CVE ID :CVE-2026-25470\n  \n  Published : June 16, 2026, 9:25 p.m. | 6\u00a0hours, 51\u00a0minutes ago\n  \n  Description :Improper Control of Generation of Code ('...",
-      "timestamp": 1781645155.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-39598 - WordPress Academy LMS Pro plugin < 3.5.2 - Arbitrary File Upload vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39598",
-      "summary": "CVE ID :CVE-2026-39598\n  \n  Published : June 16, 2026, 9:24 p.m. | 6\u00a0hours, 53\u00a0minutes ago\n  \n  Description :Unrestricted Upload of File with Dangerou...",
-      "timestamp": 1781645067.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49073 - WordPress Directorist Booking plugin <= 3.0.3 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49073",
-      "summary": "CVE ID :CVE-2026-49073\n  \n  Published : June 16, 2026, 9:23 p.m. | 6\u00a0hours, 54\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elemen...",
-      "timestamp": 1781644999.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48055 - Streambert: Arbitrary File Write (Zip Slip) via Subtitle Extraction",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48055",
-      "summary": "CVE ID :CVE-2026-48055\n  \n  Published : June 16, 2026, 9:17 p.m. | 6\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Streambert is a cross-platform Electron D...",
-      "timestamp": 1781644679.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11409 - OS Command Injection in IPv6 PPPoE Configuration in TP-Link TL-WR940N",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11409",
-      "summary": "CVE ID :CVE-2026-11409\n  \n  Published : June 16, 2026, 9:03 p.m. | 7\u00a0hours, 13\u00a0minutes ago\n  \n  Description :An authenticated OS command injection vul...",
-      "timestamp": 1781643827.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11410 - OS Command Injection in BigPond Cable (BPA) Configuration in TP-Link TL-WR940N",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11410",
-      "summary": "CVE ID :CVE-2026-11410\n  \n  Published : June 16, 2026, 9:03 p.m. | 7\u00a0hours, 14\u00a0minutes ago\n  \n  Description :An authenticated OS command injection vul...",
-      "timestamp": 1781643793.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "New Rokarolla Android malware targets 217 banking, crypto apps",
@@ -212,22 +228,6 @@
       "vendor": "News"
     },
     {
-      "title": "Critical Fortinet FortiSandbox flaws now exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-fortinet-fortisandbox-flaws-now-exploited-in-attacks/",
-      "summary": "Attackers are now exploiting several critical vulnerabilities in Fortinet's FortiSandbox cyber threat detection platform, according to threat intellig...",
-      "timestamp": 1781601591.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Windows version of SprySOCKS Linux malware used to attack govt orgs",
-      "link": "https://www.bleepingcomputer.com/news/security/windows-version-of-sprysocks-linux-malware-used-to-attack-govt-orgs/",
-      "summary": "Windows variants for the SprySOCKS Linux malware have been used in attacks targeting government organizations in at least four countries. [...]",
-      "timestamp": 1781600400.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Manager Arbitrary File Write Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-arbfw-c2rZvQ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20Arbitrary%20File%20Write%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the web UI of Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an authenticated, remote attacker to create a fil...",
@@ -292,6 +292,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
       "summary": "",
@@ -300,24 +308,16 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -348,5 +348,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781672718.6322603
+  "last_updated": 1781690300.6111293
 }
