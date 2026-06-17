@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,36 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-48616 - Rocket.Chat Livechat File Access Control Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48616",
+      "summary": "CVE ID :CVE-2026-48616\n  \n  Published : June 16, 2026, 11:08 p.m. | 5\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Rocket.Chat versions <8.5.1, 8.4.4, 8.3.6...",
+      "timestamp": 1781651317.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48788 - Remark42: Cross-Site Scripting (XSS) on /api/v1/img via content-type spoofing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48788",
+      "summary": "CVE ID :CVE-2026-48788\n  \n  Published : June 16, 2026, 10:29 p.m. | 5\u00a0hours, 47\u00a0minutes ago\n  \n  Description :Remark42 is a self-hosted comment engine...",
+      "timestamp": 1781648978.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48745 - Traccar Client: silent configuration hijack via unverified deep link redirects all GPS telemetry",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48745",
+      "summary": "CVE ID :CVE-2026-48745\n  \n  Published : June 16, 2026, 10:19 p.m. | 5\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Traccar Client is a GPS tracking mobile ...",
+      "timestamp": 1781648377.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Malicious JetBrains Marketplace plugins steal AI API keys from developers",
       "link": "https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/",
@@ -60,9 +84,17 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-48781 - Postiz has cross-tenant SUPERADMIN takeover via Skool-provider JWT forgery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48781",
+      "summary": "CVE ID :CVE-2026-48781\n  \n  Published : June 16, 2026, 9:31 p.m. | 6\u00a0hours, 46\u00a0minutes ago\n  \n  Description :Postiz is an AI social media scheduling t...",
+      "timestamp": 1781645488.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-25470 - WordPress ACPT (Pro) - Custom Post Types plugin for WordPress plugin <= 2.0.47 - Remote Code Execution (RCE) vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-25470",
-      "summary": "CVE ID :CVE-2026-25470\n  \n  Published : June 16, 2026, 9:25 p.m. | 51\u00a0minutes ago\n  \n  Description :Improper Control of Generation of Code ('Code Inje...",
+      "summary": "CVE ID :CVE-2026-25470\n  \n  Published : June 16, 2026, 9:25 p.m. | 6\u00a0hours, 51\u00a0minutes ago\n  \n  Description :Improper Control of Generation of Code ('...",
       "timestamp": 1781645155.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -70,7 +102,7 @@
     {
       "title": "CVE-2026-39598 - WordPress Academy LMS Pro plugin < 3.5.2 - Arbitrary File Upload vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39598",
-      "summary": "CVE ID :CVE-2026-39598\n  \n  Published : June 16, 2026, 9:24 p.m. | 52\u00a0minutes ago\n  \n  Description :Unrestricted Upload of File with Dangerous Type vu...",
+      "summary": "CVE ID :CVE-2026-39598\n  \n  Published : June 16, 2026, 9:24 p.m. | 6\u00a0hours, 53\u00a0minutes ago\n  \n  Description :Unrestricted Upload of File with Dangerou...",
       "timestamp": 1781645067.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -78,15 +110,23 @@
     {
       "title": "CVE-2026-49073 - WordPress Directorist Booking plugin <= 3.0.3 - SQL Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49073",
-      "summary": "CVE ID :CVE-2026-49073\n  \n  Published : June 16, 2026, 9:23 p.m. | 54\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elements used i...",
+      "summary": "CVE ID :CVE-2026-49073\n  \n  Published : June 16, 2026, 9:23 p.m. | 6\u00a0hours, 54\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elemen...",
       "timestamp": 1781644999.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48055 - Streambert: Arbitrary File Write (Zip Slip) via Subtitle Extraction",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48055",
+      "summary": "CVE ID :CVE-2026-48055\n  \n  Published : June 16, 2026, 9:17 p.m. | 6\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Streambert is a cross-platform Electron D...",
+      "timestamp": 1781644679.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-11409 - OS Command Injection in IPv6 PPPoE Configuration in TP-Link TL-WR940N",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11409",
-      "summary": "CVE ID :CVE-2026-11409\n  \n  Published : June 16, 2026, 9:03 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :An authenticated OS command injection vuln...",
+      "summary": "CVE ID :CVE-2026-11409\n  \n  Published : June 16, 2026, 9:03 p.m. | 7\u00a0hours, 13\u00a0minutes ago\n  \n  Description :An authenticated OS command injection vul...",
       "timestamp": 1781643827.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -94,48 +134,8 @@
     {
       "title": "CVE-2026-11410 - OS Command Injection in BigPond Cable (BPA) Configuration in TP-Link TL-WR940N",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11410",
-      "summary": "CVE ID :CVE-2026-11410\n  \n  Published : June 16, 2026, 9:03 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :An authenticated OS command injection vuln...",
+      "summary": "CVE ID :CVE-2026-11410\n  \n  Published : June 16, 2026, 9:03 p.m. | 7\u00a0hours, 14\u00a0minutes ago\n  \n  Description :An authenticated OS command injection vul...",
       "timestamp": 1781643793.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49113 - WordPress Cornerstone plugin < 7.8.8 - Arbitrary Code Execution vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49113",
-      "summary": "CVE ID :CVE-2026-49113\n  \n  Published : June 16, 2026, 8:57 p.m. | 1\u00a0hour, 19\u00a0minutes ago\n  \n  Description :Subscriber Arbitrary Code Execution in Cor...",
-      "timestamp": 1781643463.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49080 - WordPress wpDataTables plugin <= 7.3.6 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49080",
-      "summary": "CVE ID :CVE-2026-49080\n  \n  Published : June 16, 2026, 8:57 p.m. | 1\u00a0hour, 19\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in wpDataTab...",
-      "timestamp": 1781643463.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-40761 - WordPress Valeska theme <= 1.2.2 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40761",
-      "summary": "CVE ID :CVE-2026-40761\n  \n  Published : June 16, 2026, 8:57 p.m. | 1\u00a0hour, 19\u00a0minutes ago\n  \n  Description :Unauthenticated PHP Object Injection in Va...",
-      "timestamp": 1781643461.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-40760 - WordPress Behold theme <= 1.5 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40760",
-      "summary": "CVE ID :CVE-2026-40760\n  \n  Published : June 16, 2026, 8:57 p.m. | 1\u00a0hour, 19\u00a0minutes ago\n  \n  Description :Unauthenticated PHP Object Injection in Be...",
-      "timestamp": 1781643460.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-40759 - WordPress Esm\u00e9e theme <= 1.4 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40759",
-      "summary": "CVE ID :CVE-2026-40759\n  \n  Published : June 16, 2026, 8:57 p.m. | 1\u00a0hour, 19\u00a0minutes ago\n  \n  Description :Unauthenticated PHP Object Injection in Es...",
-      "timestamp": 1781643460.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -348,5 +348,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781654424.250177
+  "last_updated": 1781672718.6322603
 }
