@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,16 +45,80 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Google to use UK and EU user IP addresses for ad personalization",
+      "link": "https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/",
+      "summary": "From August 3, 2026, Google will use IP addresses from UK, EEA and Switzerland users for ad measurement and personalization. It lands as the ICO weigh...",
+      "timestamp": 1781730162.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-11407 - Pimcore CMS 12.3.8 Twig Sandbox Bypass via SecurityPolicy checkMethodAllowed",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11407",
+      "summary": "CVE ID :CVE-2026-11407\n  \n  Published : June 17, 2026, 8:07 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Pimcore CMS/DXP version 12.3.8 contains a ...",
+      "timestamp": 1781726870.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50107 - NGINX Gateway Fabric vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50107",
+      "summary": "CVE ID :CVE-2026-50107\n  \n  Published : June 17, 2026, 8:04 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :When NGINX Plus or NGINX Open Source is co...",
+      "timestamp": 1781726684.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54388 - Tinyproxy - HTTP Request Smuggling via Duplicate Content-Length Headers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54388",
+      "summary": "CVE ID :CVE-2026-54388\n  \n  Published : June 17, 2026, 7:59 p.m. | 1\u00a0hour, 19\u00a0minutes ago\n  \n  Description :Tinyproxy through 1.11.3, fixed in commit ...",
+      "timestamp": 1781726340.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54387 - Tinyproxy - HTTP Request Smuggling via CL/TE Desynchronization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54387",
+      "summary": "CVE ID :CVE-2026-54387\n  \n  Published : June 17, 2026, 7:48 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :Tinyproxy through 1.11.3, fixed in commit ...",
+      "timestamp": 1781725717.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55202 - Tinyproxy - Stathost Detection Bypass via Host Header Manipulation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55202",
+      "summary": "CVE ID :CVE-2026-55202\n  \n  Published : June 17, 2026, 7:13 p.m. | 2\u00a0hours, 5\u00a0minutes ago\n  \n  Description :Tinyproxy through 1.11.3, fixed in commit ...",
+      "timestamp": 1781723625.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55200 - libssh2 - Out-of-Bounds Write via Unchecked packet_length in transport.c",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55200",
+      "summary": "CVE ID :CVE-2026-55200\n  \n  Published : June 17, 2026, 7:03 p.m. | 2\u00a0hours, 15\u00a0minutes ago\n  \n  Description :libssh2 through 1.11.1, fixed in commit 7...",
+      "timestamp": 1781722995.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55199 - libssh2 - Pre-Authentication DoS via SSH_MSG_EXT_INFO Handler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55199",
+      "summary": "CVE ID :CVE-2026-55199\n  \n  Published : June 17, 2026, 6:44 p.m. | 2\u00a0hours, 34\u00a0minutes ago\n  \n  Description :libssh2 through 1.11.1, fixed in commit 1...",
+      "timestamp": 1781721858.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-55196 - Hermes WebUI < 0.51.409 - Unauthenticated Passkey Registration via Authentication Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55196",
-      "summary": "CVE ID :CVE-2026-55196\n  \n  Published : June 17, 2026, 5:58 p.m. | 1\u00a0hour, 21\u00a0minutes ago\n  \n  Description :Hermes WebUI before 0.51.409 contains an a...",
+      "summary": "CVE ID :CVE-2026-55196\n  \n  Published : June 17, 2026, 5:58 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Hermes WebUI before 0.51.409 contains an ...",
       "timestamp": 1781719136.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -62,7 +126,7 @@
     {
       "title": "CVE-2026-53871 - Hermes WebUI < 0.51.368 - Profile-Scoped Authorization Bypass via Forged hermes_profile Cookie",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53871",
-      "summary": "CVE ID :CVE-2026-53871\n  \n  Published : June 17, 2026, 5:58 p.m. | 1\u00a0hour, 21\u00a0minutes ago\n  \n  Description :Hermes WebUI before 0.51.368 contains an a...",
+      "summary": "CVE ID :CVE-2026-53871\n  \n  Published : June 17, 2026, 5:58 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Hermes WebUI before 0.51.368 contains an ...",
       "timestamp": 1781719109.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -70,64 +134,8 @@
     {
       "title": "CVE-2026-53869 - Hermes Agent < 0.16.0 - DNS Rebinding Bypass via WebSocket Endpoints",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53869",
-      "summary": "CVE ID :CVE-2026-53869\n  \n  Published : June 17, 2026, 5:57 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :Hermes Agent before 0.16.0 contains a DNS ...",
+      "summary": "CVE ID :CVE-2026-53869\n  \n  Published : June 17, 2026, 5:57 p.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Hermes Agent before 0.16.0 contains a DNS...",
       "timestamp": 1781719050.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-30803 - Integer Underflow (Wrap or Wraparound) vulnerability in RTI Connext Micro (Core Libraries) allows Overread Buffers.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-30803",
-      "summary": "CVE ID :CVE-2026-30803\n  \n  Published : June 17, 2026, 5:21 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Integer Underflow (Wrap or Wraparound) vul...",
-      "timestamp": 1781716871.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-30802 - Out-of-bounds Read vulnerability in RTI Connext Micro (Core Libraries) allows Overread Buffers.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-30802",
-      "summary": "CVE ID :CVE-2026-30802\n  \n  Published : June 17, 2026, 5:20 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Out-of-bounds Read vulnerability in RTI Co...",
-      "timestamp": 1781716855.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-7300 - Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') vulnerability in RTI Connext Professional (Web Integration Service) allows Filter Failure through Buffer Overflow.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7300",
-      "summary": "CVE ID :CVE-2026-7300\n  \n  Published : June 17, 2026, 5:20 p.m. | 2\u00a0hours ago\n  \n  Description :Buffer Copy without Checking Size of Input ('Classic B...",
-      "timestamp": 1781716819.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-3894 - Out-of-bounds Read vulnerability in RTI Connext Professional (Core Libraries) allows Overread Buffers.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-3894",
-      "summary": "CVE ID :CVE-2026-3894\n  \n  Published : June 17, 2026, 5:19 p.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :Out-of-bounds Read vulnerability in RTI Conn...",
-      "timestamp": 1781716765.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-2467 - Heap-based Buffer Overflow vulnerability in RTI Connext Professional (Core Libraries) allows Overflow Variables and Tags.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-2467",
-      "summary": "CVE ID :CVE-2026-2467\n  \n  Published : June 17, 2026, 5:17 p.m. | 2\u00a0hours, 3\u00a0minutes ago\n  \n  Description :Heap-based Buffer Overflow vulnerability in...",
-      "timestamp": 1781716624.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-20266 - OS Command Injection in the btool Configuration Helper in Splunk AI Toolkit",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20266",
-      "summary": "CVE ID :CVE-2026-20266\n  \n  Published : June 17, 2026, 5:07 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :In Splunk AI Toolkit versions below 5.7.4...",
-      "timestamp": 1781716044.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53805 - NVIDIA SIL GEN3C Unauthenticated RCE via Pickle Deserialization in Inference API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53805",
-      "summary": "CVE ID :CVE-2026-53805\n  \n  Published : June 17, 2026, 4:44 p.m. | 2\u00a0hours, 36\u00a0minutes ago\n  \n  Description :NVIDIA Spatial Intelligence Lab's (SIL) G...",
-      "timestamp": 1781714645.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -232,14 +240,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
       "summary": "A new Android banking trojan named Rokarolla is targeting 217 banking and cryptocurrency applications using an extensive set of 137 commands. [...]",
       "timestamp": 1781640251.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Steam Workshop abused to spread malware via Wallpaper Engine app",
-      "link": "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/",
-      "summary": "Threat actors are abusing Steam Workshop, Valve's community hub for downloading game-related content, to push various malware hidden in wallpaper pack...",
-      "timestamp": 1781634475.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -380,5 +380,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781725104.3549051
+  "last_updated": 1781731915.2696166
 }
