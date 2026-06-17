@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,14 +24,14 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 6,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -51,6 +51,86 @@
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-55196 - Hermes WebUI < 0.51.409 - Unauthenticated Passkey Registration via Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55196",
+      "summary": "CVE ID :CVE-2026-55196\n  \n  Published : June 17, 2026, 5:58 p.m. | 1\u00a0hour, 21\u00a0minutes ago\n  \n  Description :Hermes WebUI before 0.51.409 contains an a...",
+      "timestamp": 1781719136.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53871 - Hermes WebUI < 0.51.368 - Profile-Scoped Authorization Bypass via Forged hermes_profile Cookie",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53871",
+      "summary": "CVE ID :CVE-2026-53871\n  \n  Published : June 17, 2026, 5:58 p.m. | 1\u00a0hour, 21\u00a0minutes ago\n  \n  Description :Hermes WebUI before 0.51.368 contains an a...",
+      "timestamp": 1781719109.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53869 - Hermes Agent < 0.16.0 - DNS Rebinding Bypass via WebSocket Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53869",
+      "summary": "CVE ID :CVE-2026-53869\n  \n  Published : June 17, 2026, 5:57 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :Hermes Agent before 0.16.0 contains a DNS ...",
+      "timestamp": 1781719050.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-30803 - Integer Underflow (Wrap or Wraparound) vulnerability in RTI Connext Micro (Core Libraries) allows Overread Buffers.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-30803",
+      "summary": "CVE ID :CVE-2026-30803\n  \n  Published : June 17, 2026, 5:21 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Integer Underflow (Wrap or Wraparound) vul...",
+      "timestamp": 1781716871.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-30802 - Out-of-bounds Read vulnerability in RTI Connext Micro (Core Libraries) allows Overread Buffers.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-30802",
+      "summary": "CVE ID :CVE-2026-30802\n  \n  Published : June 17, 2026, 5:20 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Out-of-bounds Read vulnerability in RTI Co...",
+      "timestamp": 1781716855.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-7300 - Buffer Copy without Checking Size of Input ('Classic Buffer Overflow') vulnerability in RTI Connext Professional (Web Integration Service) allows Filter Failure through Buffer Overflow.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7300",
+      "summary": "CVE ID :CVE-2026-7300\n  \n  Published : June 17, 2026, 5:20 p.m. | 2\u00a0hours ago\n  \n  Description :Buffer Copy without Checking Size of Input ('Classic B...",
+      "timestamp": 1781716819.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-3894 - Out-of-bounds Read vulnerability in RTI Connext Professional (Core Libraries) allows Overread Buffers.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-3894",
+      "summary": "CVE ID :CVE-2026-3894\n  \n  Published : June 17, 2026, 5:19 p.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :Out-of-bounds Read vulnerability in RTI Conn...",
+      "timestamp": 1781716765.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-2467 - Heap-based Buffer Overflow vulnerability in RTI Connext Professional (Core Libraries) allows Overflow Variables and Tags.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-2467",
+      "summary": "CVE ID :CVE-2026-2467\n  \n  Published : June 17, 2026, 5:17 p.m. | 2\u00a0hours, 3\u00a0minutes ago\n  \n  Description :Heap-based Buffer Overflow vulnerability in...",
+      "timestamp": 1781716624.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-20266 - OS Command Injection in the btool Configuration Helper in Splunk AI Toolkit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20266",
+      "summary": "CVE ID :CVE-2026-20266\n  \n  Published : June 17, 2026, 5:07 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :In Splunk AI Toolkit versions below 5.7.4...",
+      "timestamp": 1781716044.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53805 - NVIDIA SIL GEN3C Unauthenticated RCE via Pickle Deserialization in Inference API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53805",
+      "summary": "CVE ID :CVE-2026-53805\n  \n  Published : June 17, 2026, 4:44 p.m. | 2\u00a0hours, 36\u00a0minutes ago\n  \n  Description :NVIDIA Spatial Intelligence Lab's (SIL) G...",
+      "timestamp": 1781714645.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Remote%20Code%20Execution%20and%20Information%20Disclosure%20Vulnerabilities%26vs_k=1",
@@ -92,92 +172,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-35065 - Dell PowerFlex Manager Missing Authentication for Critical Function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35065",
-      "summary": "CVE ID :CVE-2026-35065\n  \n  Published : June 17, 2026, 2:42 p.m. | 34\u00a0minutes ago\n  \n  Description :Dell PowerFlex Manager, version(s) [Versions], con...",
-      "timestamp": 1781707351.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-32804 - Dell PowerFlex Manager Improper Authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32804",
-      "summary": "CVE ID :CVE-2026-32804\n  \n  Published : June 17, 2026, 2:36 p.m. | 40\u00a0minutes ago\n  \n  Description :Dell PowerFlex Manager, version(s) [Versions], con...",
-      "timestamp": 1781707015.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47103 - Python StateMachine 3.0.0 < 3.2.0 RCE via SCXML eval() Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47103",
-      "summary": "CVE ID :CVE-2026-47103\n  \n  Published : June 17, 2026, 2:32 p.m. | 44\u00a0minutes ago\n  \n  Description :Python StateMachine versions 3.0.0 before 3.2.0 co...",
-      "timestamp": 1781706728.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54812 - WordPress Motors plugin <= 1.4.109 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54812",
-      "summary": "CVE ID :CVE-2026-54812\n  \n  Published : June 17, 2026, 2:24 p.m. | 52\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elements used i...",
-      "timestamp": 1781706262.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55743 - OpenHuman desktop agent shell tool sandbox bypass leads to arbitrary command execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55743",
-      "summary": "CVE ID :CVE-2026-55743\n  \n  Published : June 17, 2026, 2:08 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :The shell tool command allowlist in the Sec...",
-      "timestamp": 1781705313.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54415 - Broken Access Control in Azuriom CMS Server Routes Allows Account Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54415",
-      "summary": "CVE ID :CVE-2026-54415\n  \n  Published : June 17, 2026, 2:04 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :Missing Authorization in the server manage...",
-      "timestamp": 1781705099.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11311 - NGINX Gateway Fabric vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11311",
-      "summary": "CVE ID :CVE-2026-11311\n  \n  Published : June 17, 2026, 2:04 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :When NGINX Plus is configured as the data ...",
-      "timestamp": 1781705073.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-42055 - NGINX ngx_http_proxy_v2_module and ngx_http_grpc_module vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42055",
-      "summary": "CVE ID :CVE-2026-42055\n  \n  Published : June 17, 2026, 2:04 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :NGINX Plus and NGINX Open Source have a vu...",
-      "timestamp": 1781705072.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-42530 - NGINX Open-Source ngx_http_v3_module vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42530",
-      "summary": "CVE ID :CVE-2026-42530\n  \n  Published : June 17, 2026, 2:04 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :NGINX Open Source has a vulnerability in t...",
-      "timestamp": 1781705072.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Why Account Takeovers Are Rising and How to Stop Them",
       "link": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
       "summary": "Account takeovers are rising as attackers bypass traditional defenses through phishing, session hijacking, and MFA fatigue. Specops Software explores ...",
       "timestamp": 1781704810.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-54809 - WordPress GIFT4U plugin <= 1.0.10 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54809",
-      "summary": "CVE ID :CVE-2026-54809\n  \n  Published : June 17, 2026, 1:51 p.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Element...",
-      "timestamp": 1781704319.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "India's Telegram ban hit the UAE too. Here's how to get around it",
@@ -300,16 +300,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
+      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -340,8 +340,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
+      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -380,5 +380,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781716562.5811062
+  "last_updated": 1781725104.3549051
 }
