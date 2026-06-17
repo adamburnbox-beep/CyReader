@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,20 +52,140 @@
   ],
   "articles": [
     {
+      "title": "Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Remote%20Code%20Execution%20and%20Information%20Disclosure%20Vulnerabilities%26vs_k=1",
+      "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to a...",
+      "timestamp": 1781712000.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Crosswork Network Controller Server-Side Template Injection Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cnc-inj-QNMeEmxk?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Crosswork%20Network%20Controller%20Server-Side%20Template%20Injection%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the web-based management interface of Cisco Crosswork Network Controller could allow an&nbsp;authenticated, remote attacker to exec...",
+      "timestamp": 1781712000.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Webex App Open Redirect Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-app-redirect-KOyxhffH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Webex%20App%20Open%20Redirect%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the browser-based version of Cisco Webex App could have allowed an unauthenticated, remote attacker to redirect users to a maliciou...",
+      "timestamp": 1781712000.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Umbrella Virtual Appliance Privilege Escalation Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-umbrella-priv-esc-F4wJB7AU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Umbrella%20Virtual%20Appliance%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the vmadmin CLI of Cisco Umbrella Virtual Appliance could allow an authenticated, local attacker to elevate privileges on an affect...",
+      "timestamp": 1781712000.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.",
+      "link": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
+      "summary": "A newly discovered data leak dubbed \"FortiBleed\" has exposed what appears to be a collection of Fortinet and FortiGate VPN credentials for 73,932 fire...",
+      "timestamp": 1781709177.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-35065 - Dell PowerFlex Manager Missing Authentication for Critical Function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35065",
+      "summary": "CVE ID :CVE-2026-35065\n  \n  Published : June 17, 2026, 2:42 p.m. | 34\u00a0minutes ago\n  \n  Description :Dell PowerFlex Manager, version(s) [Versions], con...",
+      "timestamp": 1781707351.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-32804 - Dell PowerFlex Manager Improper Authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32804",
+      "summary": "CVE ID :CVE-2026-32804\n  \n  Published : June 17, 2026, 2:36 p.m. | 40\u00a0minutes ago\n  \n  Description :Dell PowerFlex Manager, version(s) [Versions], con...",
+      "timestamp": 1781707015.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47103 - Python StateMachine 3.0.0 < 3.2.0 RCE via SCXML eval() Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47103",
+      "summary": "CVE ID :CVE-2026-47103\n  \n  Published : June 17, 2026, 2:32 p.m. | 44\u00a0minutes ago\n  \n  Description :Python StateMachine versions 3.0.0 before 3.2.0 co...",
+      "timestamp": 1781706728.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54812 - WordPress Motors plugin <= 1.4.109 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54812",
+      "summary": "CVE ID :CVE-2026-54812\n  \n  Published : June 17, 2026, 2:24 p.m. | 52\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elements used i...",
+      "timestamp": 1781706262.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55743 - OpenHuman desktop agent shell tool sandbox bypass leads to arbitrary command execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55743",
+      "summary": "CVE ID :CVE-2026-55743\n  \n  Published : June 17, 2026, 2:08 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :The shell tool command allowlist in the Sec...",
+      "timestamp": 1781705313.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54415 - Broken Access Control in Azuriom CMS Server Routes Allows Account Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54415",
+      "summary": "CVE ID :CVE-2026-54415\n  \n  Published : June 17, 2026, 2:04 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :Missing Authorization in the server manage...",
+      "timestamp": 1781705099.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-11311 - NGINX Gateway Fabric vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11311",
+      "summary": "CVE ID :CVE-2026-11311\n  \n  Published : June 17, 2026, 2:04 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :When NGINX Plus is configured as the data ...",
+      "timestamp": 1781705073.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-42055 - NGINX ngx_http_proxy_v2_module and ngx_http_grpc_module vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42055",
+      "summary": "CVE ID :CVE-2026-42055\n  \n  Published : June 17, 2026, 2:04 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :NGINX Plus and NGINX Open Source have a vu...",
+      "timestamp": 1781705072.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-42530 - NGINX Open-Source ngx_http_v3_module vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42530",
+      "summary": "CVE ID :CVE-2026-42530\n  \n  Published : June 17, 2026, 2:04 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :NGINX Open Source has a vulnerability in t...",
+      "timestamp": 1781705072.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Why Account Takeovers Are Rising and How to Stop Them",
+      "link": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
+      "summary": "Account takeovers are rising as attackers bypass traditional defenses through phishing, session hijacking, and MFA fatigue. Specops Software explores ...",
+      "timestamp": 1781704810.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-54809 - WordPress GIFT4U plugin <= 1.0.10 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54809",
+      "summary": "CVE ID :CVE-2026-54809\n  \n  Published : June 17, 2026, 1:51 p.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Element...",
+      "timestamp": 1781704319.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "India's Telegram ban hit the UAE too. Here's how to get around it",
       "link": "https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/",
       "summary": "India has banned Telegram until June 22 after the app was used to circulate leaked exam papers. CEO Pavel Durov accuses telecom Reliance of BGP hijack...",
       "timestamp": 1781701965.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2024-32949 - WordPress Integrate Google Drive plugin <= 1.3.8 - Broken Access Control vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-32949",
-      "summary": "CVE ID :CVE-2024-32949\n  \n  Published : June 17, 2026, 11:57 a.m. | 1\u00a0hour, 45\u00a0minutes ago\n  \n  Description :Missing Authorization vulnerability in Pr...",
-      "timestamp": 1781697437.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft confirms Office apps launch issues after June updates",
@@ -76,84 +196,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-11858 - Missing authorization in Quanos SCHEMA ST4 Client Update Service allows arbitrary file overwrite as SYSTEM",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11858",
-      "summary": "CVE ID :CVE-2026-11858\n  \n  Published : June 17, 2026, 11:50 a.m. | 1\u00a0hour, 52\u00a0minutes ago\n  \n  Description :Quanos SCHEMA ST4 on-premises contains a ...",
-      "timestamp": 1781697047.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11857 - Insecure .NET Remoting deserialization in Quanos SCHEMA ST4 Client Update Service allows local privilege escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11857",
-      "summary": "CVE ID :CVE-2026-11857\n  \n  Published : June 17, 2026, 11:42 a.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :Quanos SCHEMA ST4 on-premises contains a l...",
-      "timestamp": 1781696522.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CISA orders feds to patch max severity Joomla plugin flaw by Friday",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to patch a maximum-severity flaw in the Widget Factory J...",
       "timestamp": 1781690964.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-54811 - WordPress WP eMember plugin < v10.9.4 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54811",
-      "summary": "CVE ID :CVE-2026-54811\n  \n  Published : June 17, 2026, 9:51 a.m. | 3\u00a0hours, 51\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in WP eMemb...",
-      "timestamp": 1781689907.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54807 - WordPress Registration Form for WooCommerce plugin <= 1.0.9 - Privilege Escalation vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54807",
-      "summary": "CVE ID :CVE-2026-54807\n  \n  Published : June 17, 2026, 9:51 a.m. | 3\u00a0hours, 51\u00a0minutes ago\n  \n  Description :Unauthenticated Privilege Escalation in R...",
-      "timestamp": 1781689906.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54806 - WordPress WP Activity Log plugin <= 5.6.3.1 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54806",
-      "summary": "CVE ID :CVE-2026-54806\n  \n  Published : June 17, 2026, 9:51 a.m. | 3\u00a0hours, 51\u00a0minutes ago\n  \n  Description :Unauthenticated PHP Object Injection in W...",
-      "timestamp": 1781689905.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54805 - WordPress Falang multilanguage plugin <= 1.4.2 - Privilege Escalation vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54805",
-      "summary": "CVE ID :CVE-2026-54805\n  \n  Published : June 17, 2026, 9:51 a.m. | 3\u00a0hours, 51\u00a0minutes ago\n  \n  Description :Subscriber Privilege Escalation in Falang...",
-      "timestamp": 1781689904.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54803 - WordPress SMS Alert Order Notifications plugin <= 3.9.4 - Privilege Escalation vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54803",
-      "summary": "CVE ID :CVE-2026-54803\n  \n  Published : June 17, 2026, 9:51 a.m. | 3\u00a0hours, 51\u00a0minutes ago\n  \n  Description :Subscriber Privilege Escalation in SMS Al...",
-      "timestamp": 1781689902.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54187 - WordPress JetEngine plugin <= 3.8.10.1 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54187",
-      "summary": "CVE ID :CVE-2026-54187\n  \n  Published : June 17, 2026, 9:51 a.m. | 3\u00a0hours, 51\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in JetEngin...",
-      "timestamp": 1781689894.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54186 - WordPress JobSearch plugin <= 3.2.9 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54186",
-      "summary": "CVE ID :CVE-2026-54186\n  \n  Published : June 17, 2026, 9:51 a.m. | 3\u00a0hours, 51\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in JobSearc...",
-      "timestamp": 1781689894.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft working on Defender patch for RoguePlanet zero-day",
@@ -212,22 +260,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "UK to require ID or face scan before you can make social media accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/",
-      "summary": "Opening a new social media account in the UK will soon mean proving you're over 16 with an ID upload or a facial age scan, under a government ban on u...",
-      "timestamp": 1781620729.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "GhostTree Attack Abused Recursive Windows Junctions to Hide Malware",
-      "link": "https://www.bleepingcomputer.com/news/security/ghosttree-attack-abused-recursive-windows-junctions-to-hide-malware/",
-      "summary": "GhostTree uses recursive NTFS junctions to generate vast numbers of valid Windows file paths. Varonis explains how the technique could cause Microsoft...",
-      "timestamp": 1781619447.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Manager Arbitrary File Write Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-arbfw-c2rZvQ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20Arbitrary%20File%20Write%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the web UI of Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an authenticated, remote attacker to create a fil...",
@@ -276,24 +308,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -308,16 +340,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
+      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -348,5 +380,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781704365.2063568
+  "last_updated": 1781716562.5811062
 }
