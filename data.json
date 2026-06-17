@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 7,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-12530 - Improper neutralization of argument delimiters in AWS Bedrock AgentCore Python SDK install_packages()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12530",
+      "summary": "CVE ID :CVE-2026-12530\n  \n  Published : June 17, 2026, 9:05 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Improper neutralization of argument delimi...",
+      "timestamp": 1781730300.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Google to use UK and EU user IP addresses for ad personalization",
       "link": "https://www.bleepingcomputer.com/news/security/google-to-use-uk-and-eu-user-ip-addresses-for-ad-personalization/",
@@ -62,7 +70,7 @@
     {
       "title": "CVE-2026-11407 - Pimcore CMS 12.3.8 Twig Sandbox Bypass via SecurityPolicy checkMethodAllowed",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11407",
-      "summary": "CVE ID :CVE-2026-11407\n  \n  Published : June 17, 2026, 8:07 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Pimcore CMS/DXP version 12.3.8 contains a ...",
+      "summary": "CVE ID :CVE-2026-11407\n  \n  Published : June 17, 2026, 8:07 p.m. | 2\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Pimcore CMS/DXP version 12.3.8 contains a...",
       "timestamp": 1781726870.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -70,7 +78,7 @@
     {
       "title": "CVE-2026-50107 - NGINX Gateway Fabric vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50107",
-      "summary": "CVE ID :CVE-2026-50107\n  \n  Published : June 17, 2026, 8:04 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :When NGINX Plus or NGINX Open Source is co...",
+      "summary": "CVE ID :CVE-2026-50107\n  \n  Published : June 17, 2026, 8:04 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :When NGINX Plus or NGINX Open Source is c...",
       "timestamp": 1781726684.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -78,7 +86,7 @@
     {
       "title": "CVE-2026-54388 - Tinyproxy - HTTP Request Smuggling via Duplicate Content-Length Headers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54388",
-      "summary": "CVE ID :CVE-2026-54388\n  \n  Published : June 17, 2026, 7:59 p.m. | 1\u00a0hour, 19\u00a0minutes ago\n  \n  Description :Tinyproxy through 1.11.3, fixed in commit ...",
+      "summary": "CVE ID :CVE-2026-54388\n  \n  Published : June 17, 2026, 7:59 p.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Tinyproxy through 1.11.3, fixed in commit...",
       "timestamp": 1781726340.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -86,7 +94,7 @@
     {
       "title": "CVE-2026-54387 - Tinyproxy - HTTP Request Smuggling via CL/TE Desynchronization",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54387",
-      "summary": "CVE ID :CVE-2026-54387\n  \n  Published : June 17, 2026, 7:48 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :Tinyproxy through 1.11.3, fixed in commit ...",
+      "summary": "CVE ID :CVE-2026-54387\n  \n  Published : June 17, 2026, 7:48 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Tinyproxy through 1.11.3, fixed in commit...",
       "timestamp": 1781725717.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -94,7 +102,7 @@
     {
       "title": "CVE-2026-55202 - Tinyproxy - Stathost Detection Bypass via Host Header Manipulation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55202",
-      "summary": "CVE ID :CVE-2026-55202\n  \n  Published : June 17, 2026, 7:13 p.m. | 2\u00a0hours, 5\u00a0minutes ago\n  \n  Description :Tinyproxy through 1.11.3, fixed in commit ...",
+      "summary": "CVE ID :CVE-2026-55202\n  \n  Published : June 17, 2026, 7:13 p.m. | 3\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Tinyproxy through 1.11.3, fixed in commit ...",
       "timestamp": 1781723625.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -102,7 +110,7 @@
     {
       "title": "CVE-2026-55200 - libssh2 - Out-of-Bounds Write via Unchecked packet_length in transport.c",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55200",
-      "summary": "CVE ID :CVE-2026-55200\n  \n  Published : June 17, 2026, 7:03 p.m. | 2\u00a0hours, 15\u00a0minutes ago\n  \n  Description :libssh2 through 1.11.1, fixed in commit 7...",
+      "summary": "CVE ID :CVE-2026-55200\n  \n  Published : June 17, 2026, 7:03 p.m. | 3\u00a0hours, 14\u00a0minutes ago\n  \n  Description :libssh2 through 1.11.1, fixed in commit 7...",
       "timestamp": 1781722995.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -110,7 +118,7 @@
     {
       "title": "CVE-2026-55199 - libssh2 - Pre-Authentication DoS via SSH_MSG_EXT_INFO Handler",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55199",
-      "summary": "CVE ID :CVE-2026-55199\n  \n  Published : June 17, 2026, 6:44 p.m. | 2\u00a0hours, 34\u00a0minutes ago\n  \n  Description :libssh2 through 1.11.1, fixed in commit 1...",
+      "summary": "CVE ID :CVE-2026-55199\n  \n  Published : June 17, 2026, 6:44 p.m. | 3\u00a0hours, 33\u00a0minutes ago\n  \n  Description :libssh2 through 1.11.1, fixed in commit 1...",
       "timestamp": 1781721858.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -118,7 +126,7 @@
     {
       "title": "CVE-2026-55196 - Hermes WebUI < 0.51.409 - Unauthenticated Passkey Registration via Authentication Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55196",
-      "summary": "CVE ID :CVE-2026-55196\n  \n  Published : June 17, 2026, 5:58 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Hermes WebUI before 0.51.409 contains an ...",
+      "summary": "CVE ID :CVE-2026-55196\n  \n  Published : June 17, 2026, 5:58 p.m. | 4\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Hermes WebUI before 0.51.409 contains an ...",
       "timestamp": 1781719136.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -126,16 +134,8 @@
     {
       "title": "CVE-2026-53871 - Hermes WebUI < 0.51.368 - Profile-Scoped Authorization Bypass via Forged hermes_profile Cookie",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53871",
-      "summary": "CVE ID :CVE-2026-53871\n  \n  Published : June 17, 2026, 5:58 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Hermes WebUI before 0.51.368 contains an ...",
+      "summary": "CVE ID :CVE-2026-53871\n  \n  Published : June 17, 2026, 5:58 p.m. | 4\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Hermes WebUI before 0.51.368 contains an ...",
       "timestamp": 1781719109.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53869 - Hermes Agent < 0.16.0 - DNS Rebinding Bypass via WebSocket Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53869",
-      "summary": "CVE ID :CVE-2026-53869\n  \n  Published : June 17, 2026, 5:57 p.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Hermes Agent before 0.16.0 contains a DNS...",
-      "timestamp": 1781719050.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -300,14 +300,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
       "summary": "",
@@ -316,16 +308,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
+      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -340,8 +332,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -350,6 +342,14 @@
     {
       "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -380,5 +380,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781731915.2696166
+  "last_updated": 1781737444.4952636
 }
