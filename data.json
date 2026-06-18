@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,16 +45,32 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 2,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Leak confirms OpenAI is testing a ChatGPT for Science subscription",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-testing-a-chatgpt-for-science-subscription/",
+      "summary": "OpenAI appears to be testing a new subscription and experience for science use cases, but it's unclear if it'll be available to everyone regardless of...",
+      "timestamp": 1781746208.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-12569 - Remote Code Execution (RCE) vulnerability in Windchill PDMlink",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12569",
+      "summary": "CVE ID :CVE-2026-12569\n  \n  Published : June 18, 2026, 12:11 a.m. | 4\u00a0hours, 6\u00a0minutes ago\n  \n  Description :A critical remote code execution (RCE) vu...",
+      "timestamp": 1781741495.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-53676 - ThingsBoard Prototype Pollution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53676",
-      "summary": "CVE ID :CVE-2026-53676\n  \n  Published : June 17, 2026, 10:53 p.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :ThingsBoard contains a prototype pollutio...",
+      "summary": "CVE ID :CVE-2026-53676\n  \n  Published : June 17, 2026, 10:53 p.m. | 5\u00a0hours, 24\u00a0minutes ago\n  \n  Description :ThingsBoard contains a prototype polluti...",
       "timestamp": 1781736836.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -62,8 +78,16 @@
     {
       "title": "CVE-2026-12530 - Improper neutralization of argument delimiters in AWS Bedrock AgentCore Python SDK install_packages()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12530",
-      "summary": "CVE ID :CVE-2026-12530\n  \n  Published : June 17, 2026, 9:05 p.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Improper neutralization of argument delim...",
+      "summary": "CVE ID :CVE-2026-12530\n  \n  Published : June 17, 2026, 9:05 p.m. | 7\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Improper neutralization of argument delim...",
       "timestamp": 1781730300.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50194 - Steeltoe vulnerable to management-port isolation bypass via spoofed Host header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50194",
+      "summary": "CVE ID :CVE-2026-50194\n  \n  Published : June 17, 2026, 9:03 p.m. | 7\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Steeltoe is an open source project that p...",
+      "timestamp": 1781730206.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -76,9 +100,17 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-48989 - Windows-MCP: HTTP transports expose unauthenticated PowerShell control with wildcard CORS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48989",
+      "summary": "CVE ID :CVE-2026-48989\n  \n  Published : June 17, 2026, 9:02 p.m. | 7\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Windows-MCP is an open-source project tha...",
+      "timestamp": 1781730135.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-11407 - Pimcore CMS 12.3.8 Twig Sandbox Bypass via SecurityPolicy checkMethodAllowed",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11407",
-      "summary": "CVE ID :CVE-2026-11407\n  \n  Published : June 17, 2026, 8:07 p.m. | 4\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Pimcore CMS/DXP version 12.3.8 contains a...",
+      "summary": "CVE ID :CVE-2026-11407\n  \n  Published : June 17, 2026, 8:07 p.m. | 8\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Pimcore CMS/DXP version 12.3.8 contains a...",
       "timestamp": 1781726870.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -86,7 +118,7 @@
     {
       "title": "CVE-2026-50107 - NGINX Gateway Fabric vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50107",
-      "summary": "CVE ID :CVE-2026-50107\n  \n  Published : June 17, 2026, 8:04 p.m. | 4\u00a0hours, 13\u00a0minutes ago\n  \n  Description :When NGINX Plus or NGINX Open Source is c...",
+      "summary": "CVE ID :CVE-2026-50107\n  \n  Published : June 17, 2026, 8:04 p.m. | 8\u00a0hours, 13\u00a0minutes ago\n  \n  Description :When NGINX Plus or NGINX Open Source is c...",
       "timestamp": 1781726684.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -94,7 +126,7 @@
     {
       "title": "CVE-2026-54388 - Tinyproxy - HTTP Request Smuggling via Duplicate Content-Length Headers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54388",
-      "summary": "CVE ID :CVE-2026-54388\n  \n  Published : June 17, 2026, 7:59 p.m. | 4\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Tinyproxy through 1.11.3, fixed in commit...",
+      "summary": "CVE ID :CVE-2026-54388\n  \n  Published : June 17, 2026, 7:59 p.m. | 8\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Tinyproxy through 1.11.3, fixed in commit...",
       "timestamp": 1781726340.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -102,7 +134,7 @@
     {
       "title": "CVE-2026-54387 - Tinyproxy - HTTP Request Smuggling via CL/TE Desynchronization",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54387",
-      "summary": "CVE ID :CVE-2026-54387\n  \n  Published : June 17, 2026, 7:48 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Tinyproxy through 1.11.3, fixed in commit...",
+      "summary": "CVE ID :CVE-2026-54387\n  \n  Published : June 17, 2026, 7:48 p.m. | 8\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Tinyproxy through 1.11.3, fixed in commit...",
       "timestamp": 1781725717.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -110,32 +142,8 @@
     {
       "title": "CVE-2026-48814 - Network-AI:  Empty default secret still authorizes all requests (Incomplete fix for CVE-2026-46701)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48814",
-      "summary": "CVE ID :CVE-2026-48814\n  \n  Published : June 17, 2026, 7:42 p.m. | 4\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Network-AI is a TypeScript/Node.js multi-...",
+      "summary": "CVE ID :CVE-2026-48814\n  \n  Published : June 17, 2026, 7:42 p.m. | 8\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Network-AI is a TypeScript/Node.js multi-...",
       "timestamp": 1781725350.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55202 - Tinyproxy - Stathost Detection Bypass via Host Header Manipulation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55202",
-      "summary": "CVE ID :CVE-2026-55202\n  \n  Published : June 17, 2026, 7:13 p.m. | 5\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Tinyproxy through 1.11.3, fixed in commit ...",
-      "timestamp": 1781723625.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55200 - libssh2 - Out-of-Bounds Write via Unchecked packet_length in transport.c",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55200",
-      "summary": "CVE ID :CVE-2026-55200\n  \n  Published : June 17, 2026, 7:03 p.m. | 5\u00a0hours, 14\u00a0minutes ago\n  \n  Description :libssh2 through 1.11.1, fixed in commit 7...",
-      "timestamp": 1781722995.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55199 - libssh2 - Pre-Authentication DoS via SSH_MSG_EXT_INFO Handler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55199",
-      "summary": "CVE ID :CVE-2026-55199\n  \n  Published : June 17, 2026, 6:44 p.m. | 5\u00a0hours, 33\u00a0minutes ago\n  \n  Description :libssh2 through 1.11.1, fixed in commit 1...",
-      "timestamp": 1781721858.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -236,14 +244,6 @@
       "vendor": "News"
     },
     {
-      "title": "New Rokarolla Android malware targets 217 banking, crypto apps",
-      "link": "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
-      "summary": "A new Android banking trojan named Rokarolla is targeting 217 banking and cryptocurrency applications using an extensive set of 137 commands. [...]",
-      "timestamp": 1781640251.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-...",
@@ -324,6 +324,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
       "summary": "",
@@ -342,14 +350,6 @@
     {
       "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -380,5 +380,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781742235.6563692
+  "last_updated": 1781760072.6779864
 }
