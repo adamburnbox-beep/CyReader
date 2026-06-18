@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,75 +45,147 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 9,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2025-10560 - Hardcoded cloud credentials in Worksnaps client application binaries expose production cloud resources",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-10560",
-      "summary": "CVE ID :CVE-2025-10560\n  \n  Published : June 18, 2026, 8:32 a.m. | 48\u00a0minutes ago\n  \n  Description :Worksnaps before version 1.6.20260201 contains har...",
-      "timestamp": 1781771534.0,
+      "title": "Police cleans nearly 15,000 SocGholish-infected sites tied to Evil Corp",
+      "link": "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/",
+      "summary": "International law enforcement agencies cleaned nearly 15,000 malware-infected WordPress websites and took down more than 100 servers linked to the Soc...",
+      "timestamp": 1781789147.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-54223 - Remote Code Execution via arbitrary file read and write in UBB.threads",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54223",
+      "summary": "CVE ID :CVE-2026-54223\n  \n  Published : June 18, 2026, 12:56 p.m. | 24\u00a0minutes ago\n  \n  Description :UBB.threads is vulnerable to Path traversal, allo...",
+      "timestamp": 1781787382.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-28573 - Android Persistent Denial of Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28573",
-      "summary": "CVE ID :CVE-2026-28573\n  \n  Published : June 18, 2026, 6:29 a.m. | 2\u00a0hours, 51\u00a0minutes ago\n  \n  Description :In AndroidManifest.xml, there is a possib...",
-      "timestamp": 1781764175.0,
+      "title": "CVE-2026-54222 - Blind SQL Injection in UBB.threads",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54222",
+      "summary": "CVE ID :CVE-2026-54222\n  \n  Published : June 18, 2026, 12:56 p.m. | 24\u00a0minutes ago\n  \n  Description :UBB.threads is vulnerable to Blind SQL Injection,...",
+      "timestamp": 1781787381.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-55744 - Cotonti CSRF in PFS allows forced arbitrary file upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55744",
-      "summary": "CVE ID :CVE-2026-55744\n  \n  Published : June 18, 2026, 6:06 a.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Cotonti 1.0.0 (master branch, commit f43f...",
-      "timestamp": 1781762817.0,
+      "title": "CVE-2026-54220 - Cross-Site Request Forgery in UBB.threads",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54220",
+      "summary": "CVE ID :CVE-2026-54220\n  \n  Published : June 18, 2026, 12:56 p.m. | 24\u00a0minutes ago\n  \n  Description :uBB.threads is vulnerable to a\u00a0Cross-Site Request...",
+      "timestamp": 1781787378.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-55742 - Cotonti CSRF in admin.rights.php allows privilege escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55742",
-      "summary": "CVE ID :CVE-2026-55742\n  \n  Published : June 18, 2026, 6:05 a.m. | 3\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Cotonti 1.0.0 (master branch, commit f43f...",
-      "timestamp": 1781762746.0,
+      "title": "ShapedPlugin update flow hacked to infect WordPress sites",
+      "link": "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
+      "summary": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack that distributed infected releases to paying customers via the ...",
+      "timestamp": 1781787336.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.",
+      "link": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
+      "summary": "A newly discovered data leak dubbed \"FortiBleed\" has exposed what appears to be a collection of Fortinet and FortiGate VPN credentials for 73,932 fire...",
+      "timestamp": 1781787279.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Apple fixes Beats Studio Buds flaw that let hackers spy on conversations",
+      "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/",
+      "summary": "Apple has released security updates to patch a high-severity flaw affecting the Beats Studio Buds wireless earbuds that could allow attackers in Bluet...",
+      "timestamp": 1781785438.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Telegram admits it couldn't police exam-leak channels, India tells court",
+      "link": "https://www.bleepingcomputer.com/news/security/telegram-admits-it-couldnt-police-exam-leak-channels-india-tells-court/",
+      "summary": "India's government has told the Delhi High Court that Telegram was warned about two weeks before it was blocked, and that the platform admitted it cou...",
+      "timestamp": 1781785129.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-11719 - MCP Toolbox for Databases Authorization Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11719",
+      "summary": "CVE ID :CVE-2026-11719\n  \n  Published : June 18, 2026, 11:55 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :An authenticated authorization bypass vul...",
+      "timestamp": 1781783703.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-55741 - Cotonti CSRF in admin.config.php allows unauthorized configuration changes",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55741",
-      "summary": "CVE ID :CVE-2026-55741\n  \n  Published : June 18, 2026, 6:04 a.m. | 3\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Cotonti 1.0.0 (master branch, commit f43f...",
-      "timestamp": 1781762659.0,
+      "title": "CVE-2026-11718 - Google Cloud Token Validation Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11718",
+      "summary": "CVE ID :CVE-2026-11718\n  \n  Published : June 18, 2026, 11:52 a.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :An authentication bypass vulnerability ex...",
+      "timestamp": 1781783562.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-55740 - SQL Injection in Nur-Alam39 bus-ticket bus_info.php via busid parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55740",
-      "summary": "CVE ID :CVE-2026-55740\n  \n  Published : June 18, 2026, 5:48 a.m. | 3\u00a0hours, 32\u00a0minutes ago\n  \n  Description :Nur-Alam39 bus-ticket (no released versio...",
-      "timestamp": 1781761707.0,
+      "title": "CVE-2026-11717 - Google Cloud Platform OAuth Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11717",
+      "summary": "CVE ID :CVE-2026-11717\n  \n  Published : June 18, 2026, 11:50 a.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :An authentication bypass vulnerability ex...",
+      "timestamp": 1781783423.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-9860 - Offload, AI & Optimize with Cloudflare Images <= 1.10.2 - Authenticated (Author+) Remote Code Execution via 'api-key' / 'account-id' Parameters in cf_images_do_setup AJAX Action",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9860",
-      "summary": "CVE ID :CVE-2026-9860\n  \n  Published : June 18, 2026, 4:31 a.m. | 4\u00a0hours, 49\u00a0minutes ago\n  \n  Description :The Offload, AI & Optimize with Cloudflare...",
-      "timestamp": 1781757068.0,
+      "title": "F5 issues out-of-band patches for critical NGINX vulnerabilities",
+      "link": "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+      "summary": "Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severi...",
+      "timestamp": 1781782380.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-8461 - Heap out-of-bounds write via odd slice_height in FFmpeg MagicYUV decoder",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8461",
+      "summary": "CVE ID :CVE-2026-8461\n  \n  Published : June 18, 2026, 11:29 a.m. | 1\u00a0hour, 51\u00a0minutes ago\n  \n  Description :An out-of-bounds write vulnerability in FF...",
+      "timestamp": 1781782140.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12407 - E2Pdf <= 1.32.26 - Missing Authorization to Authenticated (Custom+) Arbitrary Option Update / Privilege Escalation via 'screen_action' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12407",
-      "summary": "CVE ID :CVE-2026-12407\n  \n  Published : June 18, 2026, 3:41 a.m. | 5\u00a0hours, 38\u00a0minutes ago\n  \n  Description :The E2Pdf \u2013 Export Pdf Tool for WordPress...",
-      "timestamp": 1781754099.0,
+      "title": "CVE-2026-40456 - OS Command Injection in LMS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40456",
+      "summary": "CVE ID :CVE-2026-40456\n  \n  Published : June 18, 2026, 10:58 a.m. | 2\u00a0hours, 21\u00a0minutes ago\n  \n  Description :An OS Command Injection vulnerability ex...",
+      "timestamp": 1781780331.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-40455 - SQL Injection in LMS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40455",
+      "summary": "CVE ID :CVE-2026-40455\n  \n  Published : June 18, 2026, 10:58 a.m. | 2\u00a0hours, 21\u00a0minutes ago\n  \n  Description :An SQL Injection vulnerability exists in...",
+      "timestamp": 1781780330.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54419 - PIAF-HMS multiple unauthenticated SQL injection vulnerabilities via mysql_query",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54419",
+      "summary": "CVE ID :CVE-2026-54419\n  \n  Published : June 18, 2026, 10:21 a.m. | 2\u00a0hours, 58\u00a0minutes ago\n  \n  Description :claudiopizzillo PIAF-HMS (PBX-In-A-Flash...",
+      "timestamp": 1781778107.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft fixes Windows Server 2016 security update failures",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/",
+      "summary": "Microsoft has fixed a known issue causing the June 2026 security updates to fail on Windows Server 2016 systems that weren't up to date. [...]",
+      "timestamp": 1781777660.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Leak confirms OpenAI is testing a ChatGPT for Science subscription",
@@ -122,22 +194,6 @@
       "timestamp": 1781746208.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-12569 - Remote Code Execution (RCE) vulnerability in Windchill PDMlink",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12569",
-      "summary": "CVE ID :CVE-2026-12569\n  \n  Published : June 18, 2026, 12:11 a.m. | 9\u00a0hours, 9\u00a0minutes ago\n  \n  Description :A critical remote code execution (RCE) vu...",
-      "timestamp": 1781741495.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48764 - TypeBot has SSRF in HTTP request and script fetch flows via DNS rebinding bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48764",
-      "summary": "CVE ID :CVE-2026-48764\n  \n  Published : June 17, 2026, 11:29 p.m. | 9\u00a0hours, 50\u00a0minutes ago\n  \n  Description :TypeBot is a chatbot builder tool. In ve...",
-      "timestamp": 1781738989.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Google to use UK and EU user IP addresses for ad personalization",
@@ -180,66 +236,10 @@
       "vendor": "Cisco"
     },
     {
-      "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.",
-      "link": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
-      "summary": "A newly discovered data leak dubbed \"FortiBleed\" has exposed what appears to be a collection of Fortinet and FortiGate VPN credentials for 73,932 fire...",
-      "timestamp": 1781709177.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Why Account Takeovers Are Rising and How to Stop Them",
       "link": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
       "summary": "Account takeovers are rising as attackers bypass traditional defenses through phishing, session hijacking, and MFA fatigue. Specops Software explores ...",
       "timestamp": 1781704810.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "India's Telegram ban hit the UAE too. Here's how to get around it",
-      "link": "https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/",
-      "summary": "India has banned Telegram until June 22 after the app was used to circulate leaked exam papers. CEO Pavel Durov accuses telecom Reliance of BGP hijack...",
-      "timestamp": 1781701965.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft confirms Office apps launch issues after June updates",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-office-apps-launch-issues-after-june-updates/",
-      "summary": "Microsoft is investigating a new issue preventing third-party applications from launching Microsoft Office applications or opening documents on up-to-...",
-      "timestamp": 1781697261.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CISA orders feds to patch max severity Joomla plugin flaw by Friday",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to patch a maximum-severity flaw in the Widget Factory J...",
-      "timestamp": 1781690964.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft working on Defender patch for RoguePlanet zero-day",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/",
-      "summary": "Microsoft confirmed that it's working on a security patch for a Defender zero-day vulnerability named \"RoguePlanet,\" disclosed one week ago. [...]",
-      "timestamp": 1781685149.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Kodak confirms data breach claimed by ShinyHunters extortion gang",
-      "link": "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
-      "summary": "Kodak has confirmed that it's working with external cybersecurity experts to investigate a security breach after hackers gained access to some of the ...",
-      "timestamp": 1781680076.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Malicious JetBrains Marketplace plugins steal AI API keys from developers",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/",
-      "summary": "At least 15 malicious plugins found on the JetBrains Marketplace were designed to steal AI API keys from developers. [...]",
-      "timestamp": 1781646890.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -300,14 +300,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
@@ -316,16 +308,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
+      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -340,16 +340,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
+      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -380,5 +380,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781776600.558219
+  "last_updated": 1781789782.6807287
 }
