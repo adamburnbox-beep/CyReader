@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 8,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,28 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-25865 - Punto Switcher 4.5.0.583 Unquoted Search Path via WinExec",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-25865",
+      "summary": "CVE ID :CVE-2026-25865\n  \n  Published : June 18, 2026, 7:39 p.m. | 39\u00a0minutes ago\n  \n  Description :Punto Switcher through 4.5.0.583 contains an unquo...",
+      "timestamp": 1781811554.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47846 - Bitnami Cassandra Default Superuser Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47846",
+      "summary": "CVE ID :CVE-2026-47846\n  \n  Published : June 18, 2026, 6:39 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :Bitnami Cassandra container images are aff...",
+      "timestamp": 1781807987.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Nintendo confirms data stolen in WebMD subsidiary cyberattack",
       "link": "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/",
@@ -58,6 +74,14 @@
       "timestamp": 1781807496.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-12390 - Access of resource using incompatible type ('type confusion') in AzeoTech DAQFactory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12390",
+      "summary": "CVE ID :CVE-2026-12390\n  \n  Published : June 18, 2026, 6:30 p.m. | 1\u00a0hour, 47\u00a0minutes ago\n  \n  Description :In AzeoTech DAQFactory versions 21.1 and p...",
+      "timestamp": 1781807457.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "\u2018Popa\u2019 Botnet Linked to Publicly-Traded Israeli Firm",
@@ -70,8 +94,24 @@
     {
       "title": "CVE-2026-54390 - JTL Shop < 5.7.2 Server-Side Template Injection via Smarty Renderer",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54390",
-      "summary": "CVE ID :CVE-2026-54390\n  \n  Published : June 18, 2026, 5:33 p.m. | 19\u00a0minutes ago\n  \n  Description :JTL Shop versions 5.2.0 through 5.7.1 contains a s...",
+      "summary": "CVE ID :CVE-2026-54390\n  \n  Published : June 18, 2026, 5:33 p.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :JTL Shop versions 5.2.0 through 5.7.1 con...",
       "timestamp": 1781804026.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55237 - AutoGPT SignUp Page has DOM-Based XSS and Open Redirect",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55237",
+      "summary": "CVE ID :CVE-2026-55237\n  \n  Published : June 18, 2026, 4:21 p.m. | 3\u00a0hours, 56\u00a0minutes ago\n  \n  Description :AutoGPT is a workflow automation platform...",
+      "timestamp": 1781799700.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-32437 - AutoGPT has a DoS vulnerability in MediaDurationBlock",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-32437",
+      "summary": "CVE ID :CVE-2025-32437\n  \n  Published : June 18, 2026, 4:20 p.m. | 3\u00a0hours, 58\u00a0minutes ago\n  \n  Description :AutoGPT is a workflow automation platform...",
+      "timestamp": 1781799624.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -84,42 +124,34 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-55204 - HAProxy - NULL Pointer Dereference in hpack_dht_insert Function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55204",
-      "summary": "CVE ID :CVE-2026-55204\n  \n  Published : June 18, 2026, 4:05 p.m. | 1\u00a0hour, 47\u00a0minutes ago\n  \n  Description :HAProxy through  3.4.0, fixed in commit 9a...",
-      "timestamp": 1781798752.0,
+      "title": "CVE-2025-32424 - AutoGPT has a DoS vulnerability in ScreenshotWebPageBlock",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-32424",
+      "summary": "CVE ID :CVE-2025-32424\n  \n  Published : June 18, 2026, 4:14 p.m. | 4\u00a0hours, 3\u00a0minutes ago\n  \n  Description :AutoGPT is a workflow automation platform ...",
+      "timestamp": 1781799292.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-55203 - HAProxy - Integer Overflow in FCGI Demux Record Length Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55203",
-      "summary": "CVE ID :CVE-2026-55203\n  \n  Published : June 18, 2026, 4:05 p.m. | 1\u00a0hour, 47\u00a0minutes ago\n  \n  Description :HAProxy through 3.4.0, fixed in commit 598...",
-      "timestamp": 1781798720.0,
+      "title": "CVE-2026-54104 - U.S. GAO EPDS and CBCA EDS client-based privilege escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54104",
+      "summary": "CVE ID :CVE-2026-54104\n  \n  Published : June 18, 2026, 4:12 p.m. | 4\u00a0hours, 5\u00a0minutes ago\n  \n  Description :The U.S. Government Accountability Office ...",
+      "timestamp": 1781799178.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-44691 - Eclipse Theia Workspace Trust Bypass via Malicious Task Definitions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44691",
-      "summary": "CVE ID :CVE-2026-44691\n  \n  Published : June 18, 2026, 2:35 p.m. | 3\u00a0hours, 17\u00a0minutes ago\n  \n  Description :In Eclipse Theia versions prior to 1.69.0...",
-      "timestamp": 1781793325.0,
+      "title": "CVE-2025-32422 - AutoGPT has a DoS vulnerability in FileStoreBlock with StepThroughItemsBlock",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-32422",
+      "summary": "CVE ID :CVE-2025-32422\n  \n  Published : June 18, 2026, 4:12 p.m. | 4\u00a0hours, 5\u00a0minutes ago\n  \n  Description :AutoGPT is a workflow automation platform ...",
+      "timestamp": 1781799170.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-46580 - In Eclipse Theia versions prior to 1.71.0, files m",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46580",
-      "summary": "CVE ID :CVE-2026-46580\n  \n  Published : June 18, 2026, 2:26 p.m. | 3\u00a0hours, 26\u00a0minutes ago\n  \n  Description :In Eclipse Theia versions prior to 1.71.0...",
-      "timestamp": 1781792819.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44688 - Eclipse Theia Indirect Prompt Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44688",
-      "summary": "CVE ID :CVE-2026-44688\n  \n  Published : June 18, 2026, 2:22 p.m. | 3\u00a0hours, 30\u00a0minutes ago\n  \n  Description :In Eclipse Theia versions prior to 1.71.0...",
-      "timestamp": 1781792553.0,
+      "title": "CVE-2026-54103 - U.S. GAO EPDS and CBCA EDS unauthenticated password change",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54103",
+      "summary": "CVE ID :CVE-2026-54103\n  \n  Published : June 18, 2026, 4:12 p.m. | 4\u00a0hours, 6\u00a0minutes ago\n  \n  Description :The U.S. Government Accountability Office ...",
+      "timestamp": 1781799155.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -130,14 +162,6 @@
       "timestamp": 1781792390.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-56012 - WordPress Media LIbrary Assistant plugin <= 3.35 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56012",
-      "summary": "CVE ID :CVE-2026-56012\n  \n  Published : June 18, 2026, 2:02 p.m. | 3\u00a0hours, 50\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elemen...",
-      "timestamp": 1781791358.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "5 reasons Microsoft 365 backup isn\u2019t enough for business data protection",
@@ -154,30 +178,6 @@
       "timestamp": 1781789147.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-54223 - Remote Code Execution via arbitrary file read and write in UBB.threads",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54223",
-      "summary": "CVE ID :CVE-2026-54223\n  \n  Published : June 18, 2026, 12:56 p.m. | 4\u00a0hours, 56\u00a0minutes ago\n  \n  Description :UBB.threads is vulnerable to Path traver...",
-      "timestamp": 1781787382.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54222 - Blind SQL Injection in UBB.threads",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54222",
-      "summary": "CVE ID :CVE-2026-54222\n  \n  Published : June 18, 2026, 12:56 p.m. | 4\u00a0hours, 56\u00a0minutes ago\n  \n  Description :UBB.threads is vulnerable to Blind SQL I...",
-      "timestamp": 1781787381.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54220 - Cross-Site Request Forgery in UBB.threads",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54220",
-      "summary": "CVE ID :CVE-2026-54220\n  \n  Published : June 18, 2026, 12:56 p.m. | 4\u00a0hours, 56\u00a0minutes ago\n  \n  Description :uBB.threads is vulnerable to a\u00a0Cross-Sit...",
-      "timestamp": 1781787378.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "ShapedPlugin update flow hacked to infect WordPress sites",
@@ -316,24 +316,16 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -348,8 +340,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -388,5 +388,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781811285.0535967
+  "last_updated": 1781818505.4797375
 }
