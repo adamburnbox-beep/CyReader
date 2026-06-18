@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,36 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Nintendo confirms data stolen in WebMD subsidiary cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/",
+      "summary": "Nintendo of America has confirmed to BleepingComputer that threat actors stole survey data from the third-party TinyPulse service used internally, but...",
+      "timestamp": 1781807496.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "\u2018Popa\u2019 Botnet Linked to Publicly-Traded Israeli Firm",
+      "link": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
+      "summary": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to adv...",
+      "timestamp": 1781804278.0,
+      "source": "Krebs on Security",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-54390 - JTL Shop < 5.7.2 Server-Side Template Injection via Smarty Renderer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54390",
+      "summary": "CVE ID :CVE-2026-54390\n  \n  Published : June 18, 2026, 5:33 p.m. | 19\u00a0minutes ago\n  \n  Description :JTL Shop versions 5.2.0 through 5.7.1 contains a s...",
+      "timestamp": 1781804026.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "USB worm spreads crypto-stealing malware via Windows shortcut files",
       "link": "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/",
@@ -60,9 +84,25 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-55204 - HAProxy - NULL Pointer Dereference in hpack_dht_insert Function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55204",
+      "summary": "CVE ID :CVE-2026-55204\n  \n  Published : June 18, 2026, 4:05 p.m. | 1\u00a0hour, 47\u00a0minutes ago\n  \n  Description :HAProxy through  3.4.0, fixed in commit 9a...",
+      "timestamp": 1781798752.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55203 - HAProxy - Integer Overflow in FCGI Demux Record Length Field",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55203",
+      "summary": "CVE ID :CVE-2026-55203\n  \n  Published : June 18, 2026, 4:05 p.m. | 1\u00a0hour, 47\u00a0minutes ago\n  \n  Description :HAProxy through 3.4.0, fixed in commit 598...",
+      "timestamp": 1781798720.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-44691 - Eclipse Theia Workspace Trust Bypass via Malicious Task Definitions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44691",
-      "summary": "CVE ID :CVE-2026-44691\n  \n  Published : June 18, 2026, 2:35 p.m. | 55\u00a0minutes ago\n  \n  Description :In Eclipse Theia versions prior to 1.69.0, custom ...",
+      "summary": "CVE ID :CVE-2026-44691\n  \n  Published : June 18, 2026, 2:35 p.m. | 3\u00a0hours, 17\u00a0minutes ago\n  \n  Description :In Eclipse Theia versions prior to 1.69.0...",
       "timestamp": 1781793325.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -70,7 +110,7 @@
     {
       "title": "CVE-2026-46580 - In Eclipse Theia versions prior to 1.71.0, files m",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46580",
-      "summary": "CVE ID :CVE-2026-46580\n  \n  Published : June 18, 2026, 2:26 p.m. | 1\u00a0hour, 4\u00a0minutes ago\n  \n  Description :In Eclipse Theia versions prior to 1.71.0, ...",
+      "summary": "CVE ID :CVE-2026-46580\n  \n  Published : June 18, 2026, 2:26 p.m. | 3\u00a0hours, 26\u00a0minutes ago\n  \n  Description :In Eclipse Theia versions prior to 1.71.0...",
       "timestamp": 1781792819.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -78,7 +118,7 @@
     {
       "title": "CVE-2026-44688 - Eclipse Theia Indirect Prompt Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44688",
-      "summary": "CVE ID :CVE-2026-44688\n  \n  Published : June 18, 2026, 2:22 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :In Eclipse Theia versions prior to 1.71.0, ...",
+      "summary": "CVE ID :CVE-2026-44688\n  \n  Published : June 18, 2026, 2:22 p.m. | 3\u00a0hours, 30\u00a0minutes ago\n  \n  Description :In Eclipse Theia versions prior to 1.71.0...",
       "timestamp": 1781792553.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -94,7 +134,7 @@
     {
       "title": "CVE-2026-56012 - WordPress Media LIbrary Assistant plugin <= 3.35 - SQL Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56012",
-      "summary": "CVE ID :CVE-2026-56012\n  \n  Published : June 18, 2026, 2:02 p.m. | 1\u00a0hour, 28\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Element...",
+      "summary": "CVE ID :CVE-2026-56012\n  \n  Published : June 18, 2026, 2:02 p.m. | 3\u00a0hours, 50\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elemen...",
       "timestamp": 1781791358.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -118,7 +158,7 @@
     {
       "title": "CVE-2026-54223 - Remote Code Execution via arbitrary file read and write in UBB.threads",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54223",
-      "summary": "CVE ID :CVE-2026-54223\n  \n  Published : June 18, 2026, 12:56 p.m. | 2\u00a0hours, 35\u00a0minutes ago\n  \n  Description :UBB.threads is vulnerable to Path traver...",
+      "summary": "CVE ID :CVE-2026-54223\n  \n  Published : June 18, 2026, 12:56 p.m. | 4\u00a0hours, 56\u00a0minutes ago\n  \n  Description :UBB.threads is vulnerable to Path traver...",
       "timestamp": 1781787382.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -126,7 +166,7 @@
     {
       "title": "CVE-2026-54222 - Blind SQL Injection in UBB.threads",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54222",
-      "summary": "CVE ID :CVE-2026-54222\n  \n  Published : June 18, 2026, 12:56 p.m. | 2\u00a0hours, 35\u00a0minutes ago\n  \n  Description :UBB.threads is vulnerable to Blind SQL I...",
+      "summary": "CVE ID :CVE-2026-54222\n  \n  Published : June 18, 2026, 12:56 p.m. | 4\u00a0hours, 56\u00a0minutes ago\n  \n  Description :UBB.threads is vulnerable to Blind SQL I...",
       "timestamp": 1781787381.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -134,7 +174,7 @@
     {
       "title": "CVE-2026-54220 - Cross-Site Request Forgery in UBB.threads",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54220",
-      "summary": "CVE ID :CVE-2026-54220\n  \n  Published : June 18, 2026, 12:56 p.m. | 2\u00a0hours, 35\u00a0minutes ago\n  \n  Description :uBB.threads is vulnerable to a\u00a0Cross-Sit...",
+      "summary": "CVE ID :CVE-2026-54220\n  \n  Published : June 18, 2026, 12:56 p.m. | 4\u00a0hours, 56\u00a0minutes ago\n  \n  Description :uBB.threads is vulnerable to a\u00a0Cross-Sit...",
       "timestamp": 1781787378.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -172,42 +212,10 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-11719 - MCP Toolbox for Databases Authorization Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11719",
-      "summary": "CVE ID :CVE-2026-11719\n  \n  Published : June 18, 2026, 11:55 a.m. | 3\u00a0hours, 36\u00a0minutes ago\n  \n  Description :An authenticated authorization bypass vu...",
-      "timestamp": 1781783703.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11718 - Google Cloud Token Validation Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11718",
-      "summary": "CVE ID :CVE-2026-11718\n  \n  Published : June 18, 2026, 11:52 a.m. | 3\u00a0hours, 38\u00a0minutes ago\n  \n  Description :An authentication bypass vulnerability e...",
-      "timestamp": 1781783562.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11717 - Google Cloud Platform OAuth Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11717",
-      "summary": "CVE ID :CVE-2026-11717\n  \n  Published : June 18, 2026, 11:50 a.m. | 3\u00a0hours, 40\u00a0minutes ago\n  \n  Description :An authentication bypass vulnerability e...",
-      "timestamp": 1781783423.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "F5 issues out-of-band patches for critical NGINX vulnerabilities",
       "link": "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
       "summary": "Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severi...",
       "timestamp": 1781782380.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft fixes Windows Server 2016 security update failures",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/",
-      "summary": "Microsoft has fixed a known issue causing the June 2026 security updates to fail on Windows Server 2016 systems that weren't up to date. [...]",
-      "timestamp": 1781777660.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -300,14 +308,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
@@ -316,16 +316,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
+      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
+      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -340,16 +340,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
+      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
+      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -380,5 +388,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781801157.8946831
+  "last_updated": 1781811285.0535967
 }
