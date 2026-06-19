@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,15 +24,15 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 3,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 2,
-      "total_count": 10,
+      "new_count": 0,
+      "total_count": 0,
       "status": "ok"
     },
     {
@@ -45,7 +45,7 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 2,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,12 +59,100 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-12104 - Authenticated OS Command Injection in Bondix",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12104",
+      "summary": "CVE ID :CVE-2026-12104\n  \n  Published : June 19, 2026, 1:41 p.m. | 37\u00a0minutes ago\n  \n  Description :OS command injection in the environment and tunnel...",
+      "timestamp": 1781876498.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-9142 - Insecure Default Credentials vulnerability in NI grpc-device when TLS configuration is not present",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9142",
+      "summary": "CVE ID :CVE-2026-9142\n  \n  Published : June 19, 2026, 1:41 p.m. | 37\u00a0minutes ago\n  \n  Description :There is an insecure default credentials vulnerabil...",
+      "timestamp": 1781876486.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48139 - NULL pointer dereference vulnerability in NI grpc-device data moniker service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48139",
+      "summary": "CVE ID :CVE-2026-48139\n  \n  Published : June 19, 2026, 1:22 p.m. | 56\u00a0minutes ago\n  \n  Description :There is a NULL pointer dereference vulnerability ...",
+      "timestamp": 1781875352.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48138 - Out-of-bounds read vulnerability in the NI grpc-device streaming API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48138",
+      "summary": "CVE ID :CVE-2026-48138\n  \n  Published : June 19, 2026, 1:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :There is an out-of-bounds read vulnerabilit...",
+      "timestamp": 1781874963.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Every AI Agent Is an Identity. Most Organizations Don't Treat Them That Way",
+      "link": "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
+      "summary": "AI agents can access data, trigger workflows, deploy code, and interact with critical business systems, often with little oversight. Token Security br...",
+      "timestamp": 1781874619.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-48137 - Untrusted pointer dereference in NI grpc-device sideband streaming API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48137",
+      "summary": "CVE ID :CVE-2026-48137\n  \n  Published : June 19, 2026, 1:05 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :There is an untrusted pointer dereference ...",
+      "timestamp": 1781874324.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-4026 - FlexNet Manager Suite Privilege Escalation Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4026",
+      "summary": "CVE ID :CVE-2026-4026\n  \n  Published : June 19, 2026, 12:59 p.m. | 1\u00a0hour, 19\u00a0minutes ago\n  \n  Description :A security vulnerability has been identifi...",
+      "timestamp": 1781873991.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-44939 - Command injection through unsanitized YAML parameter in Rancher",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44939",
+      "summary": "CVE ID :CVE-2026-44939\n  \n  Published : June 19, 2026, 12:13 p.m. | 2\u00a0hours, 5\u00a0minutes ago\n  \n  Description :A command injection vulnerability in the ...",
+      "timestamp": 1781871219.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Webinar: How attackers bypass MFA and how defenders can respond",
       "link": "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
       "summary": "Modern phishing attacks, including Device Code phishing, can undermine MFA protections and grant attackers access to corporate accounts without steali...",
       "timestamp": 1781871140.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-50242 - JetBrains Hub Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50242",
+      "summary": "CVE ID :CVE-2026-50242\n  \n  Published : June 19, 2026, 11:49 a.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :In JetBrains Hub before 2026.1.13757,\n20...",
+      "timestamp": 1781869782.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56142 - JetBrains Hub Authentication Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56142",
+      "summary": "CVE ID :CVE-2026-56142\n  \n  Published : June 19, 2026, 11:49 a.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :In JetBrains Hub before 2026.1.13757,\n20...",
+      "timestamp": 1781869781.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56141 - JetBrains Hub Account Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56141",
+      "summary": "CVE ID :CVE-2026-56141\n  \n  Published : June 19, 2026, 11:49 a.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :In JetBrains Hub before 2026.1.13757,\n20...",
+      "timestamp": 1781869781.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft: June 2026 Windows updates break Recycle Bin prompts",
@@ -97,86 +185,6 @@
       "timestamp": 1781851675.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-54414 - FileRise shared-folder upload path traversal allows arbitrary file write and admin takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54414",
-      "summary": "CVE ID :CVE-2026-54414\n  \n  Published : June 19, 2026, 5:41 a.m. | 6\u00a0hours, 5\u00a0minutes ago\n  \n  Description :FileRise before 3.16.0 is vulnerable to pa...",
-      "timestamp": 1781847704.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-7515 - BetterDocs Pro <= 3.8.0 - Unauthenticated Local File Inclusion via doc_style",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7515",
-      "summary": "CVE ID :CVE-2026-7515\n  \n  Published : June 19, 2026, 5:33 a.m. | 6\u00a0hours, 13\u00a0minutes ago\n  \n  Description :The BetterDocs Pro plugin for WordPress is...",
-      "timestamp": 1781847209.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-7737 - DoS Vulnerability in 10G iSCSI Interface of Hitachi Virtual Storage Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-7737",
-      "summary": "CVE ID :CVE-2025-7737\n  \n  Published : June 19, 2026, 5:13 a.m. | 6\u00a0hours, 33\u00a0minutes ago\n  \n  Description :DoS Vulnerability in 10G iSCSI Interface o...",
-      "timestamp": 1781846018.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8713 - Avada (Fusion) Builder <= 3.15.3 - Unauthenticated Arbitrary File Deletion via Form Entry Value",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8713",
-      "summary": "CVE ID :CVE-2026-8713\n  \n  Published : June 19, 2026, 4:31 a.m. | 7\u00a0hours, 15\u00a0minutes ago\n  \n  Description :The Avada (Fusion) Builder plugin for Word...",
-      "timestamp": 1781843494.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8806 - Denial-of-service (DoS) vulnerability in MELSEC iQ-F Series FX5-ENET/IP Ethernet module",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8806",
-      "summary": "CVE ID :CVE-2026-8806\n  \n  Published : June 19, 2026, 2:31 a.m. | 9\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Expected Behavior Violation vulnerability ...",
-      "timestamp": 1781836264.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8805 - Denial-of-service (DoS) vulnerability in MELSEC iQ-F Series EtherNet/IP module",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8805",
-      "summary": "CVE ID :CVE-2026-8805\n  \n  Published : June 19, 2026, 2:26 a.m. | 9\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Integer Overflow or Wraparound vulnerabili...",
-      "timestamp": 1781836017.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-40624 - AVer PTC cameras Files or Directories Accessible to External Parties",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40624",
-      "summary": "CVE ID :CVE-2026-40624\n  \n  Published : June 18, 2026, 11:54 p.m. | 11\u00a0hours, 52\u00a0minutes ago\n  \n  Description :Improper input validation in AVer PTC50...",
-      "timestamp": 1781826891.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12048 - pgAdmin 4: Stored XSS via untrusted error and plan-node text rendered through html-react-parser",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12048",
-      "summary": "CVE ID :CVE-2026-12048\n  \n  Published : June 18, 2026, 11:37 p.m. | 12\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Stored cross-site scripting in pgAdmin 4...",
-      "timestamp": 1781825861.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12046 - pgAdmin 4: Unauthenticated pickle deserialization in SQL Editor close / update_connection routes enables remote code execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12046",
-      "summary": "CVE ID :CVE-2026-12046\n  \n  Published : June 18, 2026, 11:37 p.m. | 12\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Two state-mutating endpoints in pgAdmin ...",
-      "timestamp": 1781825857.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12045 - pgAdmin 4: AI Assistant read-only transaction bypass allows unauthorised writes and remote code execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12045",
-      "summary": "CVE ID :CVE-2026-12045\n  \n  Published : June 18, 2026, 11:37 p.m. | 12\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Read-only transaction bypass in the pgAd...",
-      "timestamp": 1781825855.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Gentlemen ransomware uses multiple EDR killers to disable defenses",
@@ -219,70 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "5 reasons Microsoft 365 backup isn\u2019t enough for business data protection",
-      "link": "https://www.bleepingcomputer.com/news/security/5-reasons-microsoft-365-backup-isnt-enough-for-business-data-protection/",
-      "summary": "Microsoft 365 helps keep services running, but protecting and recovering business data remains your responsibility. Acronis breaks down five gaps orga...",
-      "timestamp": 1781790536.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Remote%20Code%20Execution%20and%20Information%20Disclosure%20Vulnerabilities%26vs_k=1",
-      "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to a...",
-      "timestamp": 1781712000.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Crosswork Network Controller Server-Side Template Injection Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cnc-inj-QNMeEmxk?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Crosswork%20Network%20Controller%20Server-Side%20Template%20Injection%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the web-based management interface of Cisco Crosswork Network Controller could allow an&nbsp;authenticated, remote attacker to exec...",
-      "timestamp": 1781712000.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Webex App Open Redirect Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-app-redirect-KOyxhffH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Webex%20App%20Open%20Redirect%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the browser-based version of Cisco Webex App could have allowed an unauthenticated, remote attacker to redirect users to a maliciou...",
-      "timestamp": 1781712000.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Umbrella Virtual Appliance Privilege Escalation Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-umbrella-priv-esc-F4wJB7AU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Umbrella%20Virtual%20Appliance%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the vmadmin CLI of Cisco Umbrella Virtual Appliance could allow an authenticated, local attacker to elevate privileges on an affect...",
-      "timestamp": 1781712000.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-...",
-      "timestamp": 1781631587.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa2-v69WY2SW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
-      "summary": "May 2026: This security advisory provides the details and fix information for a vulnerability that was discovered and fixed after the Cisco Catalyst S...",
-      "timestamp": 1781631586.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Manager Arbitrary File Write Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-arbfw-c2rZvQ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20Arbitrary%20File%20Write%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the web UI of Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, could allow an authenticated, remote attacker to create a fil...",
-      "timestamp": 1781560851.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0249",
       "summary": "",
@@ -297,14 +241,6 @@
       "timestamp": 1781314200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
-      "timestamp": 1781296609.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     },
     {
       "title": "CVE-2026-0273 PAN-OS: Authenticated Admin Command Injection Vulnerability via CLI or Web UI (Severity: MEDIUM)",
@@ -395,5 +331,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781872692.7297173
+  "last_updated": 1781884665.4878771
 }
