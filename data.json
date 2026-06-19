@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,99 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 7,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
+    },
+    {
+      "source": "ASD Alerts",
+      "vendor": "ASD",
+      "new_count": 0,
+      "total_count": 0,
+      "status": "error"
     }
   ],
   "articles": [
+    {
+      "title": "CISA warns Fortinet users to secure devices after FortiBleed leak",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN...",
+      "timestamp": 1781851675.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-54414 - FileRise shared-folder upload path traversal allows arbitrary file write and admin takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54414",
+      "summary": "CVE ID :CVE-2026-54414\n  \n  Published : June 19, 2026, 5:41 a.m. | 37\u00a0minutes ago\n  \n  Description :FileRise before 3.16.0 is vulnerable to path trave...",
+      "timestamp": 1781847704.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-7737 - DoS Vulnerability in 10G iSCSI Interface of Hitachi Virtual Storage Platform",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-7737",
+      "summary": "CVE ID :CVE-2025-7737\n  \n  Published : June 19, 2026, 5:13 a.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :DoS Vulnerability in 10G iSCSI Interface of ...",
+      "timestamp": 1781846018.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8806 - Denial-of-service (DoS) vulnerability in MELSEC iQ-F Series FX5-ENET/IP Ethernet module",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8806",
+      "summary": "CVE ID :CVE-2026-8806\n  \n  Published : June 19, 2026, 2:31 a.m. | 3\u00a0hours, 47\u00a0minutes ago\n  \n  Description :Expected Behavior Violation vulnerability ...",
+      "timestamp": 1781836264.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8805 - Denial-of-service (DoS) vulnerability in MELSEC iQ-F Series EtherNet/IP module",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8805",
+      "summary": "CVE ID :CVE-2026-8805\n  \n  Published : June 19, 2026, 2:26 a.m. | 3\u00a0hours, 51\u00a0minutes ago\n  \n  Description :Integer Overflow or Wraparound vulnerabili...",
+      "timestamp": 1781836017.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-40624 - AVer PTC cameras Files or Directories Accessible to External Parties",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40624",
+      "summary": "CVE ID :CVE-2026-40624\n  \n  Published : June 18, 2026, 11:54 p.m. | 6\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Improper input validation in AVer PTC500...",
+      "timestamp": 1781826891.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12048 - pgAdmin 4: Stored XSS via untrusted error and plan-node text rendered through html-react-parser",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12048",
+      "summary": "CVE ID :CVE-2026-12048\n  \n  Published : June 18, 2026, 11:37 p.m. | 6\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Stored cross-site scripting in pgAdmin 4...",
+      "timestamp": 1781825861.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12046 - pgAdmin 4: Unauthenticated pickle deserialization in SQL Editor close / update_connection routes enables remote code execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12046",
+      "summary": "CVE ID :CVE-2026-12046\n  \n  Published : June 18, 2026, 11:37 p.m. | 6\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Two state-mutating endpoints in pgAdmin ...",
+      "timestamp": 1781825857.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12045 - pgAdmin 4: AI Assistant read-only transaction bypass allows unauthorised writes and remote code execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12045",
+      "summary": "CVE ID :CVE-2026-12045\n  \n  Published : June 18, 2026, 11:37 p.m. | 6\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Read-only transaction bypass in the pgAd...",
+      "timestamp": 1781825855.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12044 - pgAdmin 4: SQL injection in COMMENT ON ... IS '<description>' rendering across dialog templates",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12044",
+      "summary": "CVE ID :CVE-2026-12044\n  \n  Published : June 18, 2026, 11:37 p.m. | 6\u00a0hours, 41\u00a0minutes ago\n  \n  Description :SQL injection in pgAdmin 4 across every ...",
+      "timestamp": 1781825836.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Gentlemen ransomware uses multiple EDR killers to disable defenses",
       "link": "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
@@ -62,72 +149,8 @@
     {
       "title": "CVE-2026-56078 - PraisonAI - Arbitrary File Read and Write via Path Traversal in MultiAgentMonitor",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56078",
-      "summary": "CVE ID :CVE-2026-56078\n  \n  Published : June 18, 2026, 10:12 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :PraisonAI before 1.5.115 contains a path t...",
+      "summary": "CVE ID :CVE-2026-56078\n  \n  Published : June 18, 2026, 10:12 p.m. | 8\u00a0hours, 6\u00a0minutes ago\n  \n  Description :PraisonAI before 1.5.115 contains a path ...",
       "timestamp": 1781820745.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56076 - PraisonAI - Cross-Origin Agent Execution via Hardcoded Wildcard CORS and Missing Authentication on AGUI Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56076",
-      "summary": "CVE ID :CVE-2026-56076\n  \n  Published : June 18, 2026, 10:12 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :PraisonAI before 1.5.128 contains a cross-...",
-      "timestamp": 1781820744.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56075 - PraisonAI - Arbitrary Shell Command Execution via Hardcoded Approval Mode Override",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56075",
-      "summary": "CVE ID :CVE-2026-56075\n  \n  Published : June 18, 2026, 10:12 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :PraisonAI before 4.5.128 contains an arbit...",
-      "timestamp": 1781820743.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47647 - Dynamics 365 Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47647",
-      "summary": "CVE ID :CVE-2026-47647\n  \n  Published : June 18, 2026, 9:42 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 9.9 | CRITICAL\n  \n  Vi...",
-      "timestamp": 1781818960.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54130 - M365 Copilot Information Disclosure Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54130",
-      "summary": "CVE ID :CVE-2026-54130\n  \n  Published : June 18, 2026, 9:42 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 9.8 | CRITICAL\n  \n  Vi...",
-      "timestamp": 1781818959.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8100 - Chef 360 Unauthorized API Access Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8100",
-      "summary": "CVE ID :CVE-2026-8100\n  \n  Published : June 18, 2026, 9:18 p.m. | 2\u00a0hours, 2\u00a0minutes ago\n  \n  Description :Impact\n\nA security issue has been identifie...",
-      "timestamp": 1781817507.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-15661 - libssh2 - Heap Buffer Over-read via sftp_symlink() in sftp.c",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15661",
-      "summary": "CVE ID :CVE-2025-15661\n  \n  Published : June 18, 2026, 8:18 p.m. | 3\u00a0hours, 2\u00a0minutes ago\n  \n  Description :libssh2 through 1.11.1, fixed in commit 2d...",
-      "timestamp": 1781813909.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-25865 - Punto Switcher 4.5.0.583 Unquoted Search Path via WinExec",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-25865",
-      "summary": "CVE ID :CVE-2026-25865\n  \n  Published : June 18, 2026, 7:39 p.m. | 3\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Punto Switcher through 4.5.0.583 contains...",
-      "timestamp": 1781811554.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47846 - Bitnami Cassandra Default Superuser Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47846",
-      "summary": "CVE ID :CVE-2026-47846\n  \n  Published : June 18, 2026, 6:39 p.m. | 4\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Bitnami Cassandra container images are af...",
-      "timestamp": 1781807987.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -138,14 +161,6 @@
       "timestamp": 1781807496.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-12390 - Access of resource using incompatible type ('type confusion') in AzeoTech DAQFactory",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12390",
-      "summary": "CVE ID :CVE-2026-12390\n  \n  Published : June 18, 2026, 6:30 p.m. | 4\u00a0hours, 49\u00a0minutes ago\n  \n  Description :In AzeoTech DAQFactory versions 21.1 and ...",
-      "timestamp": 1781807457.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "\u2018Popa\u2019 Botnet Linked to Publicly-Traded Israeli Firm",
@@ -208,14 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-beats-studio-buds-flaw-that-let-hackers-spy-on-conversations/",
       "summary": "Apple has released security updates to patch a high-severity flaw affecting the Beats Studio Buds wireless earbuds that could allow attackers in Bluet...",
       "timestamp": 1781785438.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Telegram admits it couldn't police exam-leak channels, India tells court",
-      "link": "https://www.bleepingcomputer.com/news/security/telegram-admits-it-couldnt-police-exam-leak-channels-india-tells-court/",
-      "summary": "India's government has told the Delhi High Court that Telegram was warned about two weeks before it was blocked, and that the platform admitted it cou...",
-      "timestamp": 1781785129.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -316,8 +323,24 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -332,32 +355,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -388,5 +395,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781824867.053477
+  "last_updated": 1781857241.1922421
 }
