@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,7 +45,7 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 5,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,30 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-56216 - Capgo - Scope Escalation via API Key Creation in /functions/v1/apikey",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56216",
+      "summary": "CVE ID :CVE-2026-56216\n  \n  Published : June 20, 2026, 12:14 a.m. | 4\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains a scope es...",
+      "timestamp": 1781914478.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56215 - Capgo - Account Merge via Poisoned public.users.email in SSO Provisioning",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56215",
+      "summary": "CVE ID :CVE-2026-56215\n  \n  Published : June 20, 2026, 12:14 a.m. | 4\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Capgo before 12.128.12 allows authenticat...",
+      "timestamp": 1781914478.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56214 - Capgo - Unauthenticated Organization Enumeration and Billing Status Disclosure via Supabase RPC",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56214",
+      "summary": "CVE ID :CVE-2026-56214\n  \n  Published : June 20, 2026, 12:14 a.m. | 4\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains an informa...",
+      "timestamp": 1781914477.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
       "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
       "summary": "Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect t...",
@@ -67,9 +91,33 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-56082 - Supabase - Unauthenticated Cross-Tenant Billing Log Tampering via public.record_build_time RPC",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56082",
+      "summary": "CVE ID :CVE-2026-56082\n  \n  Published : June 19, 2026, 9:39 p.m. | 6\u00a0hours, 40\u00a0minutes ago\n  \n  Description :Capgo (Cap-go/capgo) before 12.128.2 cont...",
+      "timestamp": 1781905161.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56081 - Cap-go - Account Lockout via 2FA Misconfiguration on Unverified Email",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56081",
+      "summary": "CVE ID :CVE-2026-56081\n  \n  Published : June 19, 2026, 9:39 p.m. | 6\u00a0hours, 40\u00a0minutes ago\n  \n  Description :Cap-go before 12.128.2 contains an authen...",
+      "timestamp": 1781905160.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56073 - Cap-go - OTP Bypass via Response Manipulation in Email Verification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56073",
+      "summary": "CVE ID :CVE-2026-56073\n  \n  Published : June 19, 2026, 9:39 p.m. | 6\u00a0hours, 40\u00a0minutes ago\n  \n  Description :Cap-go before 12.128.2 contains an authen...",
+      "timestamp": 1781905158.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-47645 - Microsoft 365 Copilot's Business Chat Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47645",
-      "summary": "CVE ID :CVE-2026-47645\n  \n  Published : June 19, 2026, 8:29 p.m. | 51\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.8 | HIGH\n  \n  Visit the link...",
+      "summary": "CVE ID :CVE-2026-47645\n  \n  Published : June 19, 2026, 8:29 p.m. | 7\u00a0hours, 49\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.8 | HIGH\n  \n  Visit...",
       "timestamp": 1781900982.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +125,7 @@
     {
       "title": "CVE-2026-48582 - Microsoft Exchange Online Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48582",
-      "summary": "CVE ID :CVE-2026-48582\n  \n  Published : June 19, 2026, 8:29 p.m. | 51\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 9.6 | CRITICAL\n  \n  Visit the ...",
+      "summary": "CVE ID :CVE-2026-48582\n  \n  Published : June 19, 2026, 8:29 p.m. | 7\u00a0hours, 49\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 9.6 | CRITICAL\n  \n  V...",
       "timestamp": 1781900981.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +133,7 @@
     {
       "title": "CVE-2026-48584 - Microsoft Azure Synapse Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48584",
-      "summary": "CVE ID :CVE-2026-48584\n  \n  Published : June 19, 2026, 8:27 p.m. | 53\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 9.9 | CRITICAL\n  \n  Visit the ...",
+      "summary": "CVE ID :CVE-2026-48584\n  \n  Published : June 19, 2026, 8:27 p.m. | 7\u00a0hours, 51\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 9.9 | CRITICAL\n  \n  V...",
       "timestamp": 1781900868.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,16 +141,8 @@
     {
       "title": "CVE-2026-45480 - Azure Active Directory Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45480",
-      "summary": "CVE ID :CVE-2026-45480\n  \n  Published : June 19, 2026, 8:27 p.m. | 53\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 10.0 | CRITICAL\n  \n  Visit the...",
+      "summary": "CVE ID :CVE-2026-45480\n  \n  Published : June 19, 2026, 8:27 p.m. | 7\u00a0hours, 51\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 10.0 | CRITICAL\n  \n  ...",
       "timestamp": 1781900866.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-32208 - Microsoft Edge (Chromium-based) Spoofing Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32208",
-      "summary": "CVE ID :CVE-2026-32208\n  \n  Published : June 19, 2026, 8:27 p.m. | 53\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.8 | HIGH\n  \n  Visit the link...",
-      "timestamp": 1781900865.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -113,46 +153,6 @@
       "timestamp": 1781900702.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2023-54357 - Joomla com_booking 2.4.9 Information Disclosure via Account Enumeration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2023-54357",
-      "summary": "CVE ID :CVE-2023-54357\n  \n  Published : June 19, 2026, 5:52 p.m. | 3\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Joomla com_booking component 2.4.9 contai...",
-      "timestamp": 1781891526.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2019-25758 - Joomla! Component vBizz 1.0.7 Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2019-25758",
-      "summary": "CVE ID :CVE-2019-25758\n  \n  Published : June 19, 2026, 5:35 p.m. | 3\u00a0hours, 46\u00a0minutes ago\n  \n  Description :Joomla! Component vBizz 1.0.7 contains an...",
-      "timestamp": 1781890517.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2019-25756 - Joomla! Component vAccount 2.0.2 SQL Injection via vaccount-dashboard",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2019-25756",
-      "summary": "CVE ID :CVE-2019-25756\n  \n  Published : June 19, 2026, 5:28 p.m. | 3\u00a0hours, 52\u00a0minutes ago\n  \n  Description :Joomla! Component vAccount 2.0.2 contains...",
-      "timestamp": 1781890114.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2019-25755 - Joomla vReview 1.9.11 SQL Injection via editReview",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2019-25755",
-      "summary": "CVE ID :CVE-2019-25755\n  \n  Published : June 19, 2026, 5:25 p.m. | 3\u00a0hours, 56\u00a0minutes ago\n  \n  Description :Joomla Component vReview 1.9.11 contains ...",
-      "timestamp": 1781889911.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2019-25754 - Joomla vRestaurant 1.9.4 SQL Injection via menu-listing-layout",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2019-25754",
-      "summary": "CVE ID :CVE-2019-25754\n  \n  Published : June 19, 2026, 5:21 p.m. | 3\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Joomla Component vRestaurant 1.9.4 contai...",
-      "timestamp": 1781889710.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Texas govt data breach exposes over 3 million driver\u2019s licenses",
@@ -315,8 +315,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
+      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -331,16 +331,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
+      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -355,8 +347,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
+      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -395,5 +395,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781908623.975805
+  "last_updated": 1781930443.7875245
 }
