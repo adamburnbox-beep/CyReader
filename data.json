@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,7 +45,7 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,9 +59,41 @@
   ],
   "articles": [
     {
+      "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+      "summary": "Microsoft has attributed a recent Mastra AI supply chain attack that compromised more than 140 npm packages to the North Korean hacking group Sapphire...",
+      "timestamp": 1781964559.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-48908 - Joomla Extension - joomshaper.com - Remote Code Execution in SP Pagebuilder extension for Joomla < 6.6.12",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48908",
+      "summary": "CVE ID :CVE-2026-48908\n  \n  Published : June 20, 2026, 11:57 a.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :A vulnerability in the SP Page Builder fo...",
+      "timestamp": 1781956620.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48939 - Joomla Extension - icagenda.com - Remote Code Execution in iCaganda extension for Joomla < 4.0.8/3.9.15",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48939",
+      "summary": "CVE ID :CVE-2026-48939\n  \n  Published : June 20, 2026, 11:56 a.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :A vulnerability in the iCagenda extension...",
+      "timestamp": 1781956610.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48909 - Joomla Extension - joomshaper.com - PHP Object injection in SP LMS extension for Joomla < 4.1.4",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48909",
+      "summary": "CVE ID :CVE-2026-48909\n  \n  Published : June 20, 2026, 11:56 a.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :SP LMS (com_splms) < 4.1.4 by JoomShaper ...",
+      "timestamp": 1781956606.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-9843 - Database for Contact Form 7, WPforms, Elementor forms <= 1.5.1 - Unauthenticated Arbitrary File Deletion via CF7 File Field POST Value",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9843",
-      "summary": "CVE ID :CVE-2026-9843\n  \n  Published : June 20, 2026, 1:27 a.m. | 10\u00a0hours, 33\u00a0minutes ago\n  \n  Description :The Database for Contact Form 7, WPforms,...",
+      "summary": "CVE ID :CVE-2026-9843\n  \n  Published : June 20, 2026, 1:27 a.m. | 11\u00a0hours, 54\u00a0minutes ago\n  \n  Description :The Database for Contact Form 7, WPforms,...",
       "timestamp": 1781918842.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +101,7 @@
     {
       "title": "CVE-2026-56216 - Capgo - Scope Escalation via API Key Creation in /functions/v1/apikey",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56216",
-      "summary": "CVE ID :CVE-2026-56216\n  \n  Published : June 20, 2026, 12:14 a.m. | 11\u00a0hours, 46\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains a scope ...",
+      "summary": "CVE ID :CVE-2026-56216\n  \n  Published : June 20, 2026, 12:14 a.m. | 13\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains a scope e...",
       "timestamp": 1781914478.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +109,7 @@
     {
       "title": "CVE-2026-56215 - Capgo - Account Merge via Poisoned public.users.email in SSO Provisioning",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56215",
-      "summary": "CVE ID :CVE-2026-56215\n  \n  Published : June 20, 2026, 12:14 a.m. | 11\u00a0hours, 46\u00a0minutes ago\n  \n  Description :Capgo before 12.128.12 allows authentic...",
+      "summary": "CVE ID :CVE-2026-56215\n  \n  Published : June 20, 2026, 12:14 a.m. | 13\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Capgo before 12.128.12 allows authentica...",
       "timestamp": 1781914478.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +117,7 @@
     {
       "title": "CVE-2026-56214 - Capgo - Unauthenticated Organization Enumeration and Billing Status Disclosure via Supabase RPC",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56214",
-      "summary": "CVE ID :CVE-2026-56214\n  \n  Published : June 20, 2026, 12:14 a.m. | 11\u00a0hours, 46\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains an infor...",
+      "summary": "CVE ID :CVE-2026-56214\n  \n  Published : June 20, 2026, 12:14 a.m. | 13\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains an inform...",
       "timestamp": 1781914477.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +125,7 @@
     {
       "title": "CVE-2026-11551 - Branda \u2013 White Label & Branding, Free Login Page Customizer <= 3.4.29 - Unauthenticated Privilege Escalation via Account Takeover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11551",
-      "summary": "CVE ID :CVE-2026-11551\n  \n  Published : June 19, 2026, 11:29 p.m. | 12\u00a0hours, 31\u00a0minutes ago\n  \n  Description :The Branda plugin for WordPress is vuln...",
+      "summary": "CVE ID :CVE-2026-11551\n  \n  Published : June 19, 2026, 11:29 p.m. | 13\u00a0hours, 52\u00a0minutes ago\n  \n  Description :The Branda plugin for WordPress is vuln...",
       "timestamp": 1781911761.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -107,9 +139,9 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-56082 - Supabase - Unauthenticated Cross-Tenant Billing Log Tampering via public.record_build_time RPC",
+      "title": "CVE-2026-56082 - Capgo - Unauthenticated Cross-Tenant Billing Log Tampering via public.record_build_time RPC",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56082",
-      "summary": "CVE ID :CVE-2026-56082\n  \n  Published : June 19, 2026, 9:39 p.m. | 14\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Capgo (Cap-go/capgo) before 12.128.2 con...",
+      "summary": "CVE ID :CVE-2026-56082\n  \n  Published : June 19, 2026, 9:39 p.m. | 15\u00a0hours, 42\u00a0minutes ago\n  \n  Description :Capgo (Cap-go/capgo) before 12.128.2 con...",
       "timestamp": 1781905161.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,32 +149,8 @@
     {
       "title": "CVE-2026-56081 - Cap-go - Account Lockout via 2FA Misconfiguration on Unverified Email",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56081",
-      "summary": "CVE ID :CVE-2026-56081\n  \n  Published : June 19, 2026, 9:39 p.m. | 14\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Cap-go before 12.128.2 contains an authe...",
+      "summary": "CVE ID :CVE-2026-56081\n  \n  Published : June 19, 2026, 9:39 p.m. | 15\u00a0hours, 42\u00a0minutes ago\n  \n  Description :Cap-go before 12.128.2 contains an authe...",
       "timestamp": 1781905160.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56073 - Cap-go - OTP Bypass via Response Manipulation in Email Verification",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56073",
-      "summary": "CVE ID :CVE-2026-56073\n  \n  Published : June 19, 2026, 9:39 p.m. | 14\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Cap-go before 12.128.2 contains an authe...",
-      "timestamp": 1781905158.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47645 - Microsoft 365 Copilot's Business Chat Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47645",
-      "summary": "CVE ID :CVE-2026-47645\n  \n  Published : June 19, 2026, 8:29 p.m. | 15\u00a0hours, 31\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.8 | HIGH\n  \n  Visi...",
-      "timestamp": 1781900982.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48582 - Microsoft Exchange Online Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48582",
-      "summary": "CVE ID :CVE-2026-48582\n  \n  Published : June 19, 2026, 8:29 p.m. | 15\u00a0hours, 31\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 9.6 | CRITICAL\n  \n  ...",
-      "timestamp": 1781900981.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -215,14 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN...",
       "timestamp": 1781851675.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Gentlemen ransomware uses multiple EDR killers to disable defenses",
-      "link": "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
-      "summary": "The Gentlemen ransomware-as-a-service (RaaS) is actively developing and maintaining a suite of endpoint detection and response (EDR) killers\u00a0to help a...",
-      "timestamp": 1781821912.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -323,24 +323,16 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -355,8 +347,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -395,5 +395,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1781958033.8189952
+  "last_updated": 1781967602.094274
 }
