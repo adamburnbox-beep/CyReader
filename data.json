@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,7 +45,7 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,34 +59,90 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-56345 - AVideo - Arbitrary User Session Hijacking via Meet Plugin uploadRecordedVideo Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56345",
-      "summary": "CVE ID :CVE-2026-56345\n  \n  Published : June 20, 2026, 6:27 p.m. | 16\u00a0hours, 54\u00a0minutes ago\n  \n  Description :AVideo through 29.0 contains an authoriz...",
-      "timestamp": 1781980032.0,
+      "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
+      "link": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
+      "summary": "A previously undocumented malware botnet named AryStinger has compromised more than 4,000 outdated routers to turn them into proxies for malicious tra...",
+      "timestamp": 1782051262.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-56397 - SiYuan - Remote Code Execution via Malicious Bazaar Package Metadata and README",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56397",
+      "summary": "CVE ID :CVE-2026-56397\n  \n  Published : June 21, 2026, 1:27 p.m. | 52\u00a0minutes ago\n  \n  Description :SiYuan before v3.6.1 fails to sanitize package met...",
+      "timestamp": 1782048424.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-56341 - AVideo - Unauthenticated Access to Payment Log DataTables Endpoints via list.json.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56341",
-      "summary": "CVE ID :CVE-2026-56341\n  \n  Published : June 20, 2026, 6:27 p.m. | 16\u00a0hours, 54\u00a0minutes ago\n  \n  Description :AVideo through version 26.0 contains mul...",
-      "timestamp": 1781980030.0,
+      "title": "CVE-2026-56396 - phpMyFAQ - Privilege Escalation via Missing Authorization in editUser() and updateUserRights()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56396",
+      "summary": "CVE ID :CVE-2026-56396\n  \n  Published : June 21, 2026, 1:27 p.m. | 53\u00a0minutes ago\n  \n  Description :phpMyFAQ before 4.1.4 contains missing authorizati...",
+      "timestamp": 1782048423.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-56340 - vLLM - Denial of Service via Unvalidated Multimodal Embeddings",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56340",
-      "summary": "CVE ID :CVE-2026-56340\n  \n  Published : June 20, 2026, 6:27 p.m. | 16\u00a0hours, 54\u00a0minutes ago\n  \n  Description :vLLM versions >= 0.10.2 and < 0.13.0 are...",
-      "timestamp": 1781980030.0,
+      "title": "CVE-2026-56395 - SiYuan - Remote Code Execution via Malicious Bazaar Package Metadata and README",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56395",
+      "summary": "CVE ID :CVE-2026-56395\n  \n  Published : June 21, 2026, 1:27 p.m. | 53\u00a0minutes ago\n  \n  Description :SiYuan before v3.6.1 fails to sanitize package met...",
+      "timestamp": 1782048423.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-5366 - Git Argument Injection in prefecthq/prefect",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5366",
-      "summary": "CVE ID :CVE-2026-5366\n  \n  Published : June 20, 2026, 4:43 p.m. | 18\u00a0hours, 38\u00a0minutes ago\n  \n  Description :Prefect version 3.6.23 is vulnerable to r...",
-      "timestamp": 1781973817.0,
+      "title": "CVE-2026-56382 - Craft CMS - Remote Code Execution via Missing Config Sanitization in FieldsController",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56382",
+      "summary": "CVE ID :CVE-2026-56382\n  \n  Published : June 21, 2026, 1:26 p.m. | 53\u00a0minutes ago\n  \n  Description :Craft CMS (composer package craftcms/cms) versions...",
+      "timestamp": 1782048418.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56265 - Crawl4AI - Authentication Bypass via Hardcoded JWT Signing Key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56265",
+      "summary": "CVE ID :CVE-2026-56265\n  \n  Published : June 21, 2026, 1:26 p.m. | 53\u00a0minutes ago\n  \n  Description :Crawl4AI before 0.8.7 contains an authentication b...",
+      "timestamp": 1782048414.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56253 - Capgo - Unauthenticated Organization Member Email Disclosure via get_org_members RPC",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56253",
+      "summary": "CVE ID :CVE-2026-56253\n  \n  Published : June 21, 2026, 1:26 p.m. | 53\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains an improper access ...",
+      "timestamp": 1782048414.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56242 - Capgo - Unauthenticated API Key Validity Oracle and User Identity Disclosure via get_identity_apikey_only RPC",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56242",
+      "summary": "CVE ID :CVE-2026-56242\n  \n  Published : June 21, 2026, 1:26 p.m. | 53\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains an unauthenticated ...",
+      "timestamp": 1782048412.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-71378 - picklescan - Remote Code Execution via Undetected cProfile.runctx in Pickle Files",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71378",
+      "summary": "CVE ID :CVE-2025-71378\n  \n  Published : June 21, 2026, 1:26 p.m. | 53\u00a0minutes ago\n  \n  Description :picklescan before 0.0.30 fails to detect cProfile....",
+      "timestamp": 1782048410.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-71357 - picklescan - Arbitrary Code Execution via Undetected idlelib.pyshell.ModifiedInterpreter.runcommand",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71357",
+      "summary": "CVE ID :CVE-2025-71357\n  \n  Published : June 21, 2026, 1:26 p.m. | 53\u00a0minutes ago\n  \n  Description :picklescan before 0.0.30 fails to detect malicious...",
+      "timestamp": 1782048409.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-71348 - picklescan - Arbitrary Code Execution via torch.utils._config_module.load_config Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71348",
+      "summary": "CVE ID :CVE-2025-71348\n  \n  Published : June 21, 2026, 1:26 p.m. | 53\u00a0minutes ago\n  \n  Description :picklescan before 0.0.28 fails to detect malicious...",
+      "timestamp": 1782048408.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -99,60 +155,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2024-58351 - Flowise - Remote Code Execution via overrideConfig Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58351",
-      "summary": "CVE ID :CVE-2024-58351\n  \n  Published : June 20, 2026, 3:21 p.m. | 19\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Flowise before 2.1.4 allows configuratio...",
-      "timestamp": 1781968915.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
       "summary": "Microsoft has attributed a recent Mastra AI supply chain attack that compromised more than 140 npm packages to the North Korean hacking group Sapphire...",
       "timestamp": 1781964559.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2022-50972 - WooCommerce 7.1.0 Remote Code Execution via class-wc-meta-box-product-images.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2022-50972",
-      "summary": "CVE ID :CVE-2022-50972\n  \n  Published : June 20, 2026, 1:37 p.m. | 21\u00a0hours, 44\u00a0minutes ago\n  \n  Description :WooCommerce 7.1.0 contains a remote code...",
-      "timestamp": 1781962620.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2020-37255 - WordPress Time Capsule Plugin 1.21.16 Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2020-37255",
-      "summary": "CVE ID :CVE-2020-37255\n  \n  Published : June 20, 2026, 1:36 p.m. | 21\u00a0hours, 44\u00a0minutes ago\n  \n  Description :WordPress Time Capsule Plugin 1.21.16 co...",
-      "timestamp": 1781962613.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2019-25763 - WordPress Ultimate Addons for Beaver Builder 1.2.4.1 Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2019-25763",
-      "summary": "CVE ID :CVE-2019-25763\n  \n  Published : June 20, 2026, 1:36 p.m. | 21\u00a0hours, 45\u00a0minutes ago\n  \n  Description :WordPress Ultimate Addons for Beaver Bui...",
-      "timestamp": 1781962592.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48908 - Joomla Extension - joomshaper.com - Remote Code Execution in SP Pagebuilder extension for Joomla < 6.6.12",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48908",
-      "summary": "CVE ID :CVE-2026-48908\n  \n  Published : June 20, 2026, 11:57 a.m. | 23\u00a0hours, 24\u00a0minutes ago\n  \n  Description :A vulnerability in the SP Page Builder ...",
-      "timestamp": 1781956620.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48939 - Joomla Extension - icagenda.com - Remote Code Execution in iCaganda extension for Joomla < 4.0.8/3.9.15",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48939",
-      "summary": "CVE ID :CVE-2026-48939\n  \n  Published : June 20, 2026, 11:56 a.m. | 23\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A vulnerability in the iCagenda extensi...",
-      "timestamp": 1781956610.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
@@ -215,14 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/",
       "summary": "CISA has urged U.S. federal agencies to secure their systems by Sunday against a\u00a0critical Splunk Enterprise vulnerability that is being exploited in a...",
       "timestamp": 1781865598.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "NY man charged after harassing college student with AI-generated nudes",
-      "link": "https://www.bleepingcomputer.com/news/security/new-york-man-faces-cyberstalking-charge-after-sharing-ai-generated-nudes-online/",
-      "summary": "A New York man faces cyberstalking charges after allegedly sharing AI-generated nude images and fabricated racist messages using fake social media pro...",
-      "timestamp": 1781858648.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -323,16 +323,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
+      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -347,16 +355,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -395,5 +395,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1782042975.5305579
+  "last_updated": 1782052403.7846286
 }
