@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 7,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,49 +45,105 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2023-45796 - XSS vulnerability in Pilz PASvisu and PMI v8xx",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2023-45796",
-      "summary": "CVE ID :CVE-2023-45796\n  \n  Published : June 22, 2026, 9:04 a.m. | 2\u00a0hours, 28\u00a0minutes ago\n  \n  Description :A stored cross-site scripting vulnerabili...",
-      "timestamp": 1782119095.0,
+      "title": "Cisco Packaged Contact Center Enterprise and Cisco Unified Contact Center Enterprise Cross-Site Scripting Vulnerabilities",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucce-pcce-xss-2JVyg3uD?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Packaged%20Contact%20Center%20Enterprise%20and%20Cisco%20Unified%20Contact%20Center%20Enterprise%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
+      "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Packaged Contact Center Enterprise (Packaged CCE) and Cisco Unified Contact Ce...",
+      "timestamp": 1782140649.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "A Glimpse into the \u201cSearch Your Target\u201d Market for Stolen Credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
+      "summary": "Attackers no longer need to sift through massive credential dumps. They can pay others to do it for them. Flare explores how an emerging underground m...",
+      "timestamp": 1782137115.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-10561 - Unauthenticated Remote Code Execution in Langflow OSS PythonREPLComponent via Builtins Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10561",
+      "summary": "CVE ID :CVE-2026-10561\n  \n  Published : June 22, 2026, 1:22 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.9.3 has ...",
+      "timestamp": 1782134527.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2025-4994 - Authentication Bypass for SafeLine SL6 and SL6+",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-4994",
-      "summary": "CVE ID :CVE-2025-4994\n  \n  Published : June 22, 2026, 8:10 a.m. | 3\u00a0hours, 22\u00a0minutes ago\n  \n  Description :The SafeLine SL6 and SL6+ devices integrat...",
-      "timestamp": 1782115829.0,
+      "title": "CVE-2026-28381 - Local File Read/Write to Potential Privilege Escalation via Snowflake GET/PUT",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28381",
+      "summary": "CVE ID :CVE-2026-28381\n  \n  Published : June 22, 2026, 1:20 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :The Snowflake datasource allows for GET/P...",
+      "timestamp": 1782134429.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-11746 - CentralDogma Replication Secret Weakness",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11746",
-      "summary": "CVE ID :CVE-2026-11746\n  \n  Published : June 22, 2026, 2:35 a.m. | 8\u00a0hours, 57\u00a0minutes ago\n  \n  Description :A vulnerability has been identified in ce...",
-      "timestamp": 1782095751.0,
+      "title": "CVE-2026-56448 - Authenticated Path Traversal in AIL Framework Investigation Downloads Allows Arbitrary File Read",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56448",
+      "summary": "CVE ID :CVE-2026-56448\n  \n  Published : June 22, 2026, 12:54 p.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :A path traversal vulnerability exists in...",
+      "timestamp": 1782132882.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-11745 - CentralDogma Git Mirror SSH Host Key Verification Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11745",
-      "summary": "CVE ID :CVE-2026-11745\n  \n  Published : June 22, 2026, 2:33 a.m. | 9\u00a0hours ago\n  \n  Description :A vulnerability has been identified in centraldogma-s...",
-      "timestamp": 1782095588.0,
+      "title": "CVE-2026-7166 - Multiple vulnerabilities in the Assassin game by Gaudire",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7166",
+      "summary": "CVE ID :CVE-2026-7166\n  \n  Published : June 22, 2026, 12:47 p.m. | 2\u00a0hours, 45\u00a0minutes ago\n  \n  Description :Vulnerability involving the exposure of s...",
+      "timestamp": 1782132467.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12806 - Edimax BR-6478AC V2 POST Request formWlSiteSurvey buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12806",
-      "summary": "CVE ID :CVE-2026-12806\n  \n  Published : June 21, 2026, 7:30 p.m. | 16\u00a0hours, 3\u00a0minutes ago\n  \n  Description :A vulnerability has been found in Edimax ...",
-      "timestamp": 1782070208.0,
+      "title": "CVE-2026-7165 - Multiple vulnerabilities in the Assassin game by Gaudire",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7165",
+      "summary": "CVE ID :CVE-2026-7165\n  \n  Published : June 22, 2026, 12:46 p.m. | 2\u00a0hours, 47\u00a0minutes ago\n  \n  Description :The vulnerability is present in the \u2018/add...",
+      "timestamp": 1782132377.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54100 - Windows-machine-config-operator: windows-machine-config-operator: ssh host key not verified enables credential theft",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54100",
+      "summary": "CVE ID :CVE-2026-54100\n  \n  Published : June 22, 2026, 12:46 p.m. | 2\u00a0hours, 47\u00a0minutes ago\n  \n  Description :A flaw was found in the Windows Machine ...",
+      "timestamp": 1782132369.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54099 - Windows-machine-config-operator: windows-machine-config-operator: wicd csr extra-organization allows privilege escalation to system:masters",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54099",
+      "summary": "CVE ID :CVE-2026-54099\n  \n  Published : June 22, 2026, 12:46 p.m. | 2\u00a0hours, 47\u00a0minutes ago\n  \n  Description :A flaw was found in the Windows Machine ...",
+      "timestamp": 1782132364.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56447 - MISP remote code execution via arbitrary rdkafka configuration path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56447",
+      "summary": "CVE ID :CVE-2026-56447\n  \n  Published : June 22, 2026, 12:39 p.m. | 2\u00a0hours, 53\u00a0minutes ago\n  \n  Description :MISP allowed an authenticated site admin...",
+      "timestamp": 1782131971.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12602 - Incorrect permissions in ArubaSign by Aruba",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12602",
+      "summary": "CVE ID :CVE-2026-12602\n  \n  Published : June 22, 2026, 12:34 p.m. | 2\u00a0hours, 58\u00a0minutes ago\n  \n  Description :Incorrect default permissions in ArubaSi...",
+      "timestamp": 1782131689.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56446 - Authenticated Remote Code Execution via Arbitrary NDJSON Error Log Path in MISP",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56446",
+      "summary": "CVE ID :CVE-2026-56446\n  \n  Published : June 22, 2026, 12:31 p.m. | 3\u00a0hours, 1\u00a0minute ago\n  \n  Description :MISP allowed a site administrator to confi...",
+      "timestamp": 1782131500.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -98,46 +154,6 @@
       "timestamp": 1782051262.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-56397 - SiYuan - Remote Code Execution via Malicious Bazaar Package Metadata and README",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56397",
-      "summary": "CVE ID :CVE-2026-56397\n  \n  Published : June 21, 2026, 1:27 p.m. | 22\u00a0hours, 6\u00a0minutes ago\n  \n  Description :SiYuan before v3.6.1 fails to sanitize pa...",
-      "timestamp": 1782048424.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56396 - phpMyFAQ - Privilege Escalation via Missing Authorization in editUser() and updateUserRights()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56396",
-      "summary": "CVE ID :CVE-2026-56396\n  \n  Published : June 21, 2026, 1:27 p.m. | 22\u00a0hours, 6\u00a0minutes ago\n  \n  Description :phpMyFAQ before 4.1.4 contains missing au...",
-      "timestamp": 1782048423.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56395 - SiYuan - Remote Code Execution via Malicious Bazaar Package Metadata and README",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56395",
-      "summary": "CVE ID :CVE-2026-56395\n  \n  Published : June 21, 2026, 1:27 p.m. | 22\u00a0hours, 6\u00a0minutes ago\n  \n  Description :SiYuan before v3.6.1 fails to sanitize pa...",
-      "timestamp": 1782048423.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56382 - Craft CMS - Remote Code Execution via Missing Config Sanitization in FieldsController",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56382",
-      "summary": "CVE ID :CVE-2026-56382\n  \n  Published : June 21, 2026, 1:26 p.m. | 22\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Craft CMS (composer package craftcms/cms)...",
-      "timestamp": 1782048418.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56265 - Crawl4AI - Authentication Bypass via Hardcoded JWT Signing Key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56265",
-      "summary": "CVE ID :CVE-2026-56265\n  \n  Published : June 21, 2026, 1:26 p.m. | 22\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Crawl4AI before 0.8.7 contains an authent...",
-      "timestamp": 1782048414.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "New Prinz Eugen ransomware prioritizes recent files for encryption",
@@ -208,14 +224,6 @@
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/",
       "summary": "Microsoft has confirmed a confusing Windows bug that causes different filenames to appear in the confirmation dialog when deleting a file from the Rec...",
       "timestamp": 1781868754.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/",
-      "summary": "CISA has urged U.S. federal agencies to secure their systems by Sunday against a\u00a0critical Splunk Enterprise vulnerability that is being exploited in a...",
-      "timestamp": 1781865598.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -308,24 +316,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -340,24 +340,32 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
+      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
+      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -372,5 +380,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1782131016.7317224
+  "last_updated": 1782148586.4527073
 }
