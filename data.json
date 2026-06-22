@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,28 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "JaredFromSubway MEV bot hacked in $15 million crypto theft",
+      "link": "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
+      "summary": "The JaredFromSubway Ethereum MEV (Maximal Extractable Value) bot suffered a $15 million loss after an attacker manipulated the opportunity-detection l...",
+      "timestamp": 1782165138.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
+      "link": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+      "summary": "A newly disclosed FFmpeg flaw dubbed 'PixelSmash'\u00a0could be exploited for remote code execution on Jellyfin servers under certain conditions, and can a...",
+      "timestamp": 1782162301.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
       "link": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
@@ -60,9 +76,25 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-44271 - Dell Wyse Management Suite SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44271",
+      "summary": "CVE ID :CVE-2026-44271\n  \n  Published : June 22, 2026, 7 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Dell Wyse Management Suite (WMS), versions p...",
+      "timestamp": 1782154851.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-44272 - Dell Wyse Management Suite SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44272",
+      "summary": "CVE ID :CVE-2026-44272\n  \n  Published : June 22, 2026, 6:56 p.m. | 3\u00a0hours, 23\u00a0minutes ago\n  \n  Description :Dell Wyse Management Suite (WMS), version...",
+      "timestamp": 1782154619.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-53779 - WebP Server Go < 0.15.0 Path Traversal via Backslash Encoding on Windows",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53779",
-      "summary": "CVE ID :CVE-2026-53779\n  \n  Published : June 22, 2026, 6:22 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :WebP Server Go through 0.14.4 contains a p...",
+      "summary": "CVE ID :CVE-2026-53779\n  \n  Published : June 22, 2026, 6:22 p.m. | 3\u00a0hours, 58\u00a0minutes ago\n  \n  Description :WebP Server Go through 0.14.4 contains a ...",
       "timestamp": 1782152560.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -70,7 +102,7 @@
     {
       "title": "CVE-2026-11834 - Unauthenticated Command Injection via DHCP Option Handling in Multiple TP-Link Routers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11834",
-      "summary": "CVE ID :CVE-2026-11834\n  \n  Published : June 22, 2026, 5:53 p.m. | 1\u00a0hour, 39\u00a0minutes ago\n  \n  Description :A command\ninjection vulnerability has been...",
+      "summary": "CVE ID :CVE-2026-11834\n  \n  Published : June 22, 2026, 5:53 p.m. | 4\u00a0hours, 26\u00a0minutes ago\n  \n  Description :A command\ninjection vulnerability has bee...",
       "timestamp": 1782150828.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -94,40 +126,48 @@
     {
       "title": "CVE-2026-10789 - MCP Extension Code Injection Vulnerability in Autodesk Fusion Desktop",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10789",
-      "summary": "CVE ID :CVE-2026-10789\n  \n  Published : June 22, 2026, 5:15 p.m. | 2\u00a0hours, 18\u00a0minutes ago\n  \n  Description :A maliciously crafted webpage, when visit...",
+      "summary": "CVE ID :CVE-2026-10789\n  \n  Published : June 22, 2026, 5:15 p.m. | 5\u00a0hours, 5\u00a0minutes ago\n  \n  Description :A maliciously crafted webpage, when visite...",
       "timestamp": 1782148525.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55388 - piscina: Prototype Pollution Gadget \u2192 RCE via inherited options.filename",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55388",
+      "summary": "CVE ID :CVE-2026-55388\n  \n  Published : June 22, 2026, 4:50 p.m. | 5\u00a0hours, 30\u00a0minutes ago\n  \n  Description :piscina is a node.js worker pool implemen...",
+      "timestamp": 1782147040.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54271 - protobufjs-cli: Code injection in pbjs static output from crafted JSON descriptor names",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54271",
+      "summary": "CVE ID :CVE-2026-54271\n  \n  Published : June 22, 2026, 4:16 p.m. | 6\u00a0hours, 4\u00a0minutes ago\n  \n  Description :protobufjs-cli is the command line add-on ...",
+      "timestamp": 1782144965.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53571 - Vite: `server.fs.deny` bypass on Windows alternate paths",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53571",
+      "summary": "CVE ID :CVE-2026-53571\n  \n  Published : June 22, 2026, 4:10 p.m. | 6\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Vite is a frontend tooling framework for J...",
+      "timestamp": 1782144658.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50171 - Angular: Denial of Service (DoS) via OOM in Number Formatting (digitsInfo)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50171",
+      "summary": "CVE ID :CVE-2026-50171\n  \n  Published : June 22, 2026, 3:49 p.m. | 6\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Angular is a development platform for bui...",
+      "timestamp": 1782143391.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-12249 - Canonical ADSys Trust Store Poisoning via Plaintext HTTP Certificate Auto-Enrollment",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12249",
-      "summary": "CVE ID :CVE-2026-12249\n  \n  Published : June 22, 2026, 3:43 p.m. | 3\u00a0hours, 49\u00a0minutes ago\n  \n  Description :An issue was discovered in Canonical ADSy...",
+      "summary": "CVE ID :CVE-2026-12249\n  \n  Published : June 22, 2026, 3:43 p.m. | 6\u00a0hours, 37\u00a0minutes ago\n  \n  Description :An issue was discovered in Canonical ADSy...",
       "timestamp": 1782143013.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-41049 - Caching of Authentication allows Authentication Bypass between users in qSnapper",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41049",
-      "summary": "CVE ID :CVE-2026-41049\n  \n  Published : June 22, 2026, 3:32 p.m. | 4\u00a0hours ago\n  \n  Description :Incorrect caching of authentication between different...",
-      "timestamp": 1782142379.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-41048 - Caching of Authentication allows Authentication Bypass in qSnapper",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41048",
-      "summary": "CVE ID :CVE-2026-41048\n  \n  Published : June 22, 2026, 3:31 p.m. | 4\u00a0hours, 2\u00a0minutes ago\n  \n  Description :Incorrect caching of authentication betwee...",
-      "timestamp": 1782142274.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-41045 - Weak polkit authentication check in qSnapper",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41045",
-      "summary": "CVE ID :CVE-2026-41045\n  \n  Published : June 22, 2026, 3:16 p.m. | 4\u00a0hours, 16\u00a0minutes ago\n  \n  Description :A time-to-check-time-of-use in polkit aut...",
-      "timestamp": 1782141397.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -138,30 +178,6 @@
       "timestamp": 1782140649.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "CVE-2026-9072 - IBM i is Affected By Denial of Service, HTTP Request Smuggling, and Remote Code Execution Vulnerabilities in IBM WebSphere Application Server Liberty [, , , , ]",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9072",
-      "summary": "CVE ID :CVE-2026-9072\n  \n  Published : June 22, 2026, 2:21 p.m. | 5\u00a0hours, 11\u00a0minutes ago\n  \n  Description :IBM i 7.6, 7.5, 7.4, and 7.3, IBM WebSpher...",
-      "timestamp": 1782138095.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56104 - Chainlit < 2.10.1 Session Hijacking via WebSocket Session Restoration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56104",
-      "summary": "CVE ID :CVE-2026-56104\n  \n  Published : June 22, 2026, 2:17 p.m. | 5\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Chainlit before 2.10.1 contains a session...",
-      "timestamp": 1782137872.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-7664 - Unauthenticated Flow Execution via Webhook Endpoint in Langflow OSS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7664",
-      "summary": "CVE ID :CVE-2026-7664\n  \n  Published : June 22, 2026, 2:10 p.m. | 5\u00a0hours, 23\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.8.4 could...",
-      "timestamp": 1782137425.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "A Glimpse into the \u201cSearch Your Target\u201d Market for Stolen Credentials",
@@ -200,22 +216,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
       "summary": "Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect t...",
       "timestamp": 1781908264.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
-      "summary": "Threat actors are exploiting an unauthenticated information disclosure vulnerability in the WordPress plugin Gravity SMTP, active on 100,000 sites. [....",
-      "timestamp": 1781900702.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Texas govt data breach exposes over 3 million driver\u2019s licenses",
-      "link": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
-      "summary": "The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than th...",
-      "timestamp": 1781885561.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -340,14 +340,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
       "summary": "",
@@ -372,6 +364,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "Who Runs the Ransomware Group \u2018The Gentlemen?\u2019",
       "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
       "summary": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of...",
@@ -380,5 +380,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1782159651.8250604
+  "last_updated": 1782167008.1611435
 }
