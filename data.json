@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -38,23 +38,55 @@
     {
       "source": "Ivanti Security",
       "vendor": "Ivanti",
-      "new_count": 9,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2023-45796 - XSS vulnerability in Pilz PASvisu and PMI v8xx",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2023-45796",
+      "summary": "CVE ID :CVE-2023-45796\n  \n  Published : June 22, 2026, 9:04 a.m. | 2\u00a0hours, 28\u00a0minutes ago\n  \n  Description :A stored cross-site scripting vulnerabili...",
+      "timestamp": 1782119095.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-4994 - Authentication Bypass for SafeLine SL6 and SL6+",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-4994",
+      "summary": "CVE ID :CVE-2025-4994\n  \n  Published : June 22, 2026, 8:10 a.m. | 3\u00a0hours, 22\u00a0minutes ago\n  \n  Description :The SafeLine SL6 and SL6+ devices integrat...",
+      "timestamp": 1782115829.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-11746 - CentralDogma Replication Secret Weakness",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11746",
+      "summary": "CVE ID :CVE-2026-11746\n  \n  Published : June 22, 2026, 2:35 a.m. | 8\u00a0hours, 57\u00a0minutes ago\n  \n  Description :A vulnerability has been identified in ce...",
+      "timestamp": 1782095751.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-11745 - CentralDogma Git Mirror SSH Host Key Verification Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11745",
+      "summary": "CVE ID :CVE-2026-11745\n  \n  Published : June 22, 2026, 2:33 a.m. | 9\u00a0hours ago\n  \n  Description :A vulnerability has been identified in centraldogma-s...",
+      "timestamp": 1782095588.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-12806 - Edimax BR-6478AC V2 POST Request formWlSiteSurvey buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12806",
-      "summary": "CVE ID :CVE-2026-12806\n  \n  Published : June 21, 2026, 7:30 p.m. | 10\u00a0hours, 3\u00a0minutes ago\n  \n  Description :A vulnerability has been found in Edimax ...",
+      "summary": "CVE ID :CVE-2026-12806\n  \n  Published : June 21, 2026, 7:30 p.m. | 16\u00a0hours, 3\u00a0minutes ago\n  \n  Description :A vulnerability has been found in Edimax ...",
       "timestamp": 1782070208.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -70,7 +102,7 @@
     {
       "title": "CVE-2026-56397 - SiYuan - Remote Code Execution via Malicious Bazaar Package Metadata and README",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56397",
-      "summary": "CVE ID :CVE-2026-56397\n  \n  Published : June 21, 2026, 1:27 p.m. | 16\u00a0hours, 6\u00a0minutes ago\n  \n  Description :SiYuan before v3.6.1 fails to sanitize pa...",
+      "summary": "CVE ID :CVE-2026-56397\n  \n  Published : June 21, 2026, 1:27 p.m. | 22\u00a0hours, 6\u00a0minutes ago\n  \n  Description :SiYuan before v3.6.1 fails to sanitize pa...",
       "timestamp": 1782048424.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -78,7 +110,7 @@
     {
       "title": "CVE-2026-56396 - phpMyFAQ - Privilege Escalation via Missing Authorization in editUser() and updateUserRights()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56396",
-      "summary": "CVE ID :CVE-2026-56396\n  \n  Published : June 21, 2026, 1:27 p.m. | 16\u00a0hours, 6\u00a0minutes ago\n  \n  Description :phpMyFAQ before 4.1.4 contains missing au...",
+      "summary": "CVE ID :CVE-2026-56396\n  \n  Published : June 21, 2026, 1:27 p.m. | 22\u00a0hours, 6\u00a0minutes ago\n  \n  Description :phpMyFAQ before 4.1.4 contains missing au...",
       "timestamp": 1782048423.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -86,7 +118,7 @@
     {
       "title": "CVE-2026-56395 - SiYuan - Remote Code Execution via Malicious Bazaar Package Metadata and README",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56395",
-      "summary": "CVE ID :CVE-2026-56395\n  \n  Published : June 21, 2026, 1:27 p.m. | 16\u00a0hours, 6\u00a0minutes ago\n  \n  Description :SiYuan before v3.6.1 fails to sanitize pa...",
+      "summary": "CVE ID :CVE-2026-56395\n  \n  Published : June 21, 2026, 1:27 p.m. | 22\u00a0hours, 6\u00a0minutes ago\n  \n  Description :SiYuan before v3.6.1 fails to sanitize pa...",
       "timestamp": 1782048423.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -94,7 +126,7 @@
     {
       "title": "CVE-2026-56382 - Craft CMS - Remote Code Execution via Missing Config Sanitization in FieldsController",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56382",
-      "summary": "CVE ID :CVE-2026-56382\n  \n  Published : June 21, 2026, 1:26 p.m. | 16\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Craft CMS (composer package craftcms/cms)...",
+      "summary": "CVE ID :CVE-2026-56382\n  \n  Published : June 21, 2026, 1:26 p.m. | 22\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Craft CMS (composer package craftcms/cms)...",
       "timestamp": 1782048418.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -102,40 +134,8 @@
     {
       "title": "CVE-2026-56265 - Crawl4AI - Authentication Bypass via Hardcoded JWT Signing Key",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56265",
-      "summary": "CVE ID :CVE-2026-56265\n  \n  Published : June 21, 2026, 1:26 p.m. | 16\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Crawl4AI before 0.8.7 contains an authent...",
+      "summary": "CVE ID :CVE-2026-56265\n  \n  Published : June 21, 2026, 1:26 p.m. | 22\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Crawl4AI before 0.8.7 contains an authent...",
       "timestamp": 1782048414.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56253 - Capgo - Unauthenticated Organization Member Email Disclosure via get_org_members RPC",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56253",
-      "summary": "CVE ID :CVE-2026-56253\n  \n  Published : June 21, 2026, 1:26 p.m. | 16\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains an imprope...",
-      "timestamp": 1782048414.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56242 - Capgo - Unauthenticated API Key Validity Oracle and User Identity Disclosure via get_identity_apikey_only RPC",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56242",
-      "summary": "CVE ID :CVE-2026-56242\n  \n  Published : June 21, 2026, 1:26 p.m. | 16\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains an unauthe...",
-      "timestamp": 1782048412.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-71378 - picklescan - Remote Code Execution via Undetected cProfile.runctx in Pickle Files",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71378",
-      "summary": "CVE ID :CVE-2025-71378\n  \n  Published : June 21, 2026, 1:26 p.m. | 16\u00a0hours, 6\u00a0minutes ago\n  \n  Description :picklescan before 0.0.30 fails to detect ...",
-      "timestamp": 1782048410.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-71357 - picklescan - Arbitrary Code Execution via Undetected idlelib.pyshell.ModifiedInterpreter.runcommand",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71357",
-      "summary": "CVE ID :CVE-2025-71357\n  \n  Published : June 21, 2026, 1:26 p.m. | 16\u00a0hours, 6\u00a0minutes ago\n  \n  Description :picklescan before 0.0.30 fails to detect ...",
-      "timestamp": 1782048409.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -370,15 +370,7 @@
       "timestamp": 1781100224.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "A Record-Breaking Patch Tuesday for June 2026",
-      "link": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
-      "summary": "Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record numb...",
-      "timestamp": 1781042848.0,
-      "source": "Krebs on Security",
-      "vendor": "News"
     }
   ],
-  "last_updated": 1782108526.769163
+  "last_updated": 1782131016.7317224
 }
