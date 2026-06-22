@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,14 +24,14 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 3,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,6 +52,86 @@
   ],
   "articles": [
     {
+      "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
+      "summary": "Security firm SOCRadar says the\u00a0large-scale FortiBleed campaign targeting Fortinet FortiGate devices used custom sniffers to harvest authentication se...",
+      "timestamp": 1782158462.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-53779 - WebP Server Go < 0.15.0 Path Traversal via Backslash Encoding on Windows",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53779",
+      "summary": "CVE ID :CVE-2026-53779\n  \n  Published : June 22, 2026, 6:22 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :WebP Server Go through 0.14.4 contains a p...",
+      "timestamp": 1782152560.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-11834 - Unauthenticated Command Injection via DHCP Option Handling in Multiple TP-Link Routers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11834",
+      "summary": "CVE ID :CVE-2026-11834\n  \n  Published : June 22, 2026, 5:53 p.m. | 1\u00a0hour, 39\u00a0minutes ago\n  \n  Description :A command\ninjection vulnerability has been...",
+      "timestamp": 1782150828.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft says Windows 11 26H2 is coming soon, details upgrade process",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-windows-11-26h2-is-coming-soon-details-upgrade-process/",
+      "summary": "Microsoft has confirmed that Windows 11 version 26H2 will be the next feature update and that devices running Windows 11 24H2 and 25H2 will be able to...",
+      "timestamp": 1782150091.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft fixes AutoGen Studio flaw that enabled code execution",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/",
+      "summary": "A vulnerability chain dubbed AutoJack in Microsoft's AutoGen Studio interface for prototyping AI agents could let attackers manipulate an agent into e...",
+      "timestamp": 1782149337.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-10789 - MCP Extension Code Injection Vulnerability in Autodesk Fusion Desktop",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10789",
+      "summary": "CVE ID :CVE-2026-10789\n  \n  Published : June 22, 2026, 5:15 p.m. | 2\u00a0hours, 18\u00a0minutes ago\n  \n  Description :A maliciously crafted webpage, when visit...",
+      "timestamp": 1782148525.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12249 - Canonical ADSys Trust Store Poisoning via Plaintext HTTP Certificate Auto-Enrollment",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12249",
+      "summary": "CVE ID :CVE-2026-12249\n  \n  Published : June 22, 2026, 3:43 p.m. | 3\u00a0hours, 49\u00a0minutes ago\n  \n  Description :An issue was discovered in Canonical ADSy...",
+      "timestamp": 1782143013.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-41049 - Caching of Authentication allows Authentication Bypass between users in qSnapper",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41049",
+      "summary": "CVE ID :CVE-2026-41049\n  \n  Published : June 22, 2026, 3:32 p.m. | 4\u00a0hours ago\n  \n  Description :Incorrect caching of authentication between different...",
+      "timestamp": 1782142379.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-41048 - Caching of Authentication allows Authentication Bypass in qSnapper",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41048",
+      "summary": "CVE ID :CVE-2026-41048\n  \n  Published : June 22, 2026, 3:31 p.m. | 4\u00a0hours, 2\u00a0minutes ago\n  \n  Description :Incorrect caching of authentication betwee...",
+      "timestamp": 1782142274.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-41045 - Weak polkit authentication check in qSnapper",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41045",
+      "summary": "CVE ID :CVE-2026-41045\n  \n  Published : June 22, 2026, 3:16 p.m. | 4\u00a0hours, 16\u00a0minutes ago\n  \n  Description :A time-to-check-time-of-use in polkit aut...",
+      "timestamp": 1782141397.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Cisco Packaged Contact Center Enterprise and Cisco Unified Contact Center Enterprise Cross-Site Scripting Vulnerabilities",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucce-pcce-xss-2JVyg3uD?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Packaged%20Contact%20Center%20Enterprise%20and%20Cisco%20Unified%20Contact%20Center%20Enterprise%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
       "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Packaged Contact Center Enterprise (Packaged CCE) and Cisco Unified Contact Ce...",
@@ -60,92 +140,36 @@
       "vendor": "Cisco"
     },
     {
+      "title": "CVE-2026-9072 - IBM i is Affected By Denial of Service, HTTP Request Smuggling, and Remote Code Execution Vulnerabilities in IBM WebSphere Application Server Liberty [, , , , ]",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9072",
+      "summary": "CVE ID :CVE-2026-9072\n  \n  Published : June 22, 2026, 2:21 p.m. | 5\u00a0hours, 11\u00a0minutes ago\n  \n  Description :IBM i 7.6, 7.5, 7.4, and 7.3, IBM WebSpher...",
+      "timestamp": 1782138095.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56104 - Chainlit < 2.10.1 Session Hijacking via WebSocket Session Restoration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56104",
+      "summary": "CVE ID :CVE-2026-56104\n  \n  Published : June 22, 2026, 2:17 p.m. | 5\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Chainlit before 2.10.1 contains a session...",
+      "timestamp": 1782137872.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-7664 - Unauthenticated Flow Execution via Webhook Endpoint in Langflow OSS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7664",
+      "summary": "CVE ID :CVE-2026-7664\n  \n  Published : June 22, 2026, 2:10 p.m. | 5\u00a0hours, 23\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.8.4 could...",
+      "timestamp": 1782137425.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "A Glimpse into the \u201cSearch Your Target\u201d Market for Stolen Credentials",
       "link": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
       "summary": "Attackers no longer need to sift through massive credential dumps. They can pay others to do it for them. Flare explores how an emerging underground m...",
       "timestamp": 1782137115.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-10561 - Unauthenticated Remote Code Execution in Langflow OSS PythonREPLComponent via Builtins Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10561",
-      "summary": "CVE ID :CVE-2026-10561\n  \n  Published : June 22, 2026, 1:22 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.9.3 has ...",
-      "timestamp": 1782134527.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-28381 - Local File Read/Write to Potential Privilege Escalation via Snowflake GET/PUT",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28381",
-      "summary": "CVE ID :CVE-2026-28381\n  \n  Published : June 22, 2026, 1:20 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :The Snowflake datasource allows for GET/P...",
-      "timestamp": 1782134429.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56448 - Authenticated Path Traversal in AIL Framework Investigation Downloads Allows Arbitrary File Read",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56448",
-      "summary": "CVE ID :CVE-2026-56448\n  \n  Published : June 22, 2026, 12:54 p.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :A path traversal vulnerability exists in...",
-      "timestamp": 1782132882.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-7166 - Multiple vulnerabilities in the Assassin game by Gaudire",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7166",
-      "summary": "CVE ID :CVE-2026-7166\n  \n  Published : June 22, 2026, 12:47 p.m. | 2\u00a0hours, 45\u00a0minutes ago\n  \n  Description :Vulnerability involving the exposure of s...",
-      "timestamp": 1782132467.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-7165 - Multiple vulnerabilities in the Assassin game by Gaudire",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7165",
-      "summary": "CVE ID :CVE-2026-7165\n  \n  Published : June 22, 2026, 12:46 p.m. | 2\u00a0hours, 47\u00a0minutes ago\n  \n  Description :The vulnerability is present in the \u2018/add...",
-      "timestamp": 1782132377.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54100 - Windows-machine-config-operator: windows-machine-config-operator: ssh host key not verified enables credential theft",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54100",
-      "summary": "CVE ID :CVE-2026-54100\n  \n  Published : June 22, 2026, 12:46 p.m. | 2\u00a0hours, 47\u00a0minutes ago\n  \n  Description :A flaw was found in the Windows Machine ...",
-      "timestamp": 1782132369.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54099 - Windows-machine-config-operator: windows-machine-config-operator: wicd csr extra-organization allows privilege escalation to system:masters",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54099",
-      "summary": "CVE ID :CVE-2026-54099\n  \n  Published : June 22, 2026, 12:46 p.m. | 2\u00a0hours, 47\u00a0minutes ago\n  \n  Description :A flaw was found in the Windows Machine ...",
-      "timestamp": 1782132364.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56447 - MISP remote code execution via arbitrary rdkafka configuration path",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56447",
-      "summary": "CVE ID :CVE-2026-56447\n  \n  Published : June 22, 2026, 12:39 p.m. | 2\u00a0hours, 53\u00a0minutes ago\n  \n  Description :MISP allowed an authenticated site admin...",
-      "timestamp": 1782131971.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12602 - Incorrect permissions in ArubaSign by Aruba",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12602",
-      "summary": "CVE ID :CVE-2026-12602\n  \n  Published : June 22, 2026, 12:34 p.m. | 2\u00a0hours, 58\u00a0minutes ago\n  \n  Description :Incorrect default permissions in ArubaSi...",
-      "timestamp": 1782131689.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56446 - Authenticated Remote Code Execution via Arbitrary NDJSON Error Log Path in MISP",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56446",
-      "summary": "CVE ID :CVE-2026-56446\n  \n  Published : June 22, 2026, 12:31 p.m. | 3\u00a0hours, 1\u00a0minute ago\n  \n  Description :MISP allowed a site administrator to confi...",
-      "timestamp": 1782131500.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
@@ -202,30 +226,6 @@
       "timestamp": 1781881343.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "Every AI Agent Is an Identity. Most Organizations Don't Treat Them That Way",
-      "link": "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
-      "summary": "AI agents can access data, trigger workflows, deploy code, and interact with critical business systems, often with little oversight. Token Security br...",
-      "timestamp": 1781874619.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Webinar: How attackers bypass MFA and how defenders can respond",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
-      "summary": "Modern phishing attacks, including Device Code phishing, can undermine MFA protections and grant attackers access to corporate accounts without steali...",
-      "timestamp": 1781871140.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft: June 2026 Windows updates break Recycle Bin prompts",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/",
-      "summary": "Microsoft has confirmed a confusing Windows bug that causes different filenames to appear in the confirmation dialog when deleting a file from the Rec...",
-      "timestamp": 1781868754.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "\u2018Popa\u2019 Botnet Linked to Publicly-Traded Israeli Firm",
@@ -316,24 +316,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -348,6 +332,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
       "summary": "",
@@ -356,16 +348,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
+      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+      "summary": "",
+      "timestamp": 1781107200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
       "summary": "",
       "timestamp": 1781107200.0,
       "source": "Palo Alto Networks",
@@ -380,5 +380,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1782148586.4527073
+  "last_updated": 1782159651.8250604
 }
