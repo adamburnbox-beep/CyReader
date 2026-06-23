@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,7 +45,7 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,12 +59,124 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-11833 - FAST/TOOLS CI Server Information Disclosure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11833",
-      "summary": "CVE ID :CVE-2026-11833\n  \n  Published : June 23, 2026, 12:53 a.m. | 6\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Overview: \nA vulnerability has been foun...",
-      "timestamp": 1782176023.0,
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "summary": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London...",
+      "timestamp": 1782231169.0,
+      "source": "Krebs on Security",
+      "vendor": "News"
+    },
+    {
+      "title": "Scattered Spider members plead guilty to hacking Transport for London",
+      "link": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
+      "summary": "Two members of the 'Scattered Spider' cybercrime group pleaded guilty to hacking the Transport for London (TfL) systems in 2024. [...]",
+      "timestamp": 1782228719.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "The Exploit Doesn't Exist. You Can Still Prove It Works Against You",
+      "link": "https://www.bleepingcomputer.com/news/security/the-exploit-doesnt-exist-you-can-still-prove-it-works-against-you/",
+      "summary": "Attackers can now weaponize newly disclosed vulnerabilities far faster than most organizations can patch them. Picus Security explains how security te...",
+      "timestamp": 1782223271.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "LastPass confirms data breach in Klue supply chain attack",
+      "link": "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
+      "summary": "LastPass announced that hackers accessed customer data from its Salesforce environment after stealing the company's OAuth tokens in the Klue supply ch...",
+      "timestamp": 1782223105.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-35019 - NetComm NF20MESH < R6B032 Hardcoded AES Key Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35019",
+      "summary": "CVE ID :CVE-2026-35019\n  \n  Published : June 23, 2026, 1:48 p.m. | 1\u00a0hour, 45\u00a0minutes ago\n  \n  Description :NetComm NF20MESH routers running firmware ...",
+      "timestamp": 1782222529.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-35018 - NetComm NF20MESH < R6B032 Authenticated RCE via OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35018",
+      "summary": "CVE ID :CVE-2026-35018\n  \n  Published : June 23, 2026, 1:46 p.m. | 1\u00a0hour, 47\u00a0minutes ago\n  \n  Description :NetComm NF20MESH routers running firmware ...",
+      "timestamp": 1782222399.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54892 - Plug: quadratic-time decoding of nested query/body parameters enables denial of service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54892",
+      "summary": "CVE ID :CVE-2026-54892\n  \n  Published : June 23, 2026, 12:31 p.m. | 3\u00a0hours, 2\u00a0minutes ago\n  \n  Description :Inefficient algorithmic complexity in Plu...",
+      "timestamp": 1782217872.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56784 - OpenRemote Manager - Cross-Tenant IDOR in Bulk Alarm Deletion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56784",
+      "summary": "CVE ID :CVE-2026-56784\n  \n  Published : June 23, 2026, 12:13 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :OpenRemote Manager before 1.24.2 contain...",
+      "timestamp": 1782216787.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56322 - Capgo - Information Disclosure via Unauthenticated /updates defaultChannel Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56322",
+      "summary": "CVE ID :CVE-2026-56322\n  \n  Published : June 23, 2026, 12:13 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains an inform...",
+      "timestamp": 1782216783.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56315 - picklescan - Remote Code Execution via Unblocked Standard Library Modules",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56315",
+      "summary": "CVE ID :CVE-2026-56315\n  \n  Published : June 23, 2026, 12:13 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :picklescan before 1.0.4 fails to block a...",
+      "timestamp": 1782216782.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56274 - Flowise - Remote Code Execution via MCP Security Bypass in validateCommandFlags and validateArgsForLocalFileAccess",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56274",
+      "summary": "CVE ID :CVE-2026-56274\n  \n  Published : June 23, 2026, 12:13 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Flowise before 3.1.2 contains multiple O...",
+      "timestamp": 1782216780.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56258 - Crawl4AI - Arbitrary File Write via output_path Symlink and TOCTOU",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56258",
+      "summary": "CVE ID :CVE-2026-56258\n  \n  Published : June 23, 2026, 12:12 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Crawl4AI before 0.8.8 contains an arbitr...",
+      "timestamp": 1782216779.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56248 - Capgo - Unauthenticated Denial-of-Service via audit_logs RLS Policy",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56248",
+      "summary": "CVE ID :CVE-2026-56248\n  \n  Published : June 23, 2026, 12:12 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Cap-go capgo (capgo-backend) before 12.1...",
+      "timestamp": 1782216778.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56243 - Capgo - Hashed API Key Enforcement Bypass via PostgREST/RLS Plane",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56243",
+      "summary": "CVE ID :CVE-2026-56243\n  \n  Published : June 23, 2026, 12:12 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains a securit...",
+      "timestamp": 1782216777.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Webinar: Why email security teams are drowning in alerts",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-email-security-teams-are-drowning-in-alerts/",
+      "summary": "Phishing, BEC, and account takeover attacks continue to overwhelm security teams with alerts and investigations. This webinar explores how behavioral ...",
+      "timestamp": 1782216740.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "WhatsApp phishing attack uses fake business docs to hack PCs",
@@ -75,22 +187,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-54232 - vLLM:  Dependency Confusion Vulnerability in vLLM Dockerfile",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54232",
-      "summary": "CVE ID :CVE-2026-54232\n  \n  Published : June 22, 2026, 10:16 p.m. | 9\u00a0hours, 5\u00a0minutes ago\n  \n  Description :vLLM is an inference and serving engine f...",
-      "timestamp": 1782166603.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48746 - vLLM: OpenAI auth bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48746",
-      "summary": "CVE ID :CVE-2026-48746\n  \n  Published : June 22, 2026, 9:57 p.m. | 9\u00a0hours, 25\u00a0minutes ago\n  \n  Description :vLLM is an inference and serving engine f...",
-      "timestamp": 1782165448.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "JaredFromSubway MEV bot hacked in $15 million crypto theft",
       "link": "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
       "summary": "The JaredFromSubway Ethereum MEV (Maximal Extractable Value) bot suffered a $15 million loss after an attacker manipulated the opportunity-detection l...",
@@ -99,68 +195,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-48109 - MessagePack-CSharp: LZ4 decompression may fail with AccessViolationException after dereferencing memory from bad input",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48109",
-      "summary": "CVE ID :CVE-2026-48109\n  \n  Published : June 22, 2026, 9:19 p.m. | 10\u00a0hours, 2\u00a0minutes ago\n  \n  Description :MessagePack for C# is a MessagePack seria...",
-      "timestamp": 1782163194.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48502 - MessagePack-CSharp: Denial of service vulnerabilities can swamp the CPU or crash the process with stack and heap overflows",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48502",
-      "summary": "CVE ID :CVE-2026-48502\n  \n  Published : June 22, 2026, 9:18 p.m. | 10\u00a0hours, 4\u00a0minutes ago\n  \n  Description :MessagePack for C# is a MessagePack seria...",
-      "timestamp": 1782163109.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
       "link": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
       "summary": "A newly disclosed FFmpeg flaw dubbed 'PixelSmash'\u00a0could be exploited for remote code execution on Jellyfin servers under certain conditions, and can a...",
       "timestamp": 1782162301.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-56348 - n8n - Credential Exfiltration via Allowed HTTP Request Domains Bypass in Dynamic Node Parameters Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56348",
-      "summary": "CVE ID :CVE-2026-56348\n  \n  Published : June 22, 2026, 9:04 p.m. | 10\u00a0hours, 17\u00a0minutes ago\n  \n  Description :n8n before 2.20.0 contains a credential ...",
-      "timestamp": 1782162291.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56324 - Capgo - Rate Limit Bypass via User-Controlled device_id Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56324",
-      "summary": "CVE ID :CVE-2026-56324\n  \n  Published : June 22, 2026, 9:04 p.m. | 10\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains a rate li...",
-      "timestamp": 1782162290.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56323 - Capgo - Unauthenticated Channel Enumeration and App Oracle via GET /channel_self",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56323",
-      "summary": "CVE ID :CVE-2026-56323\n  \n  Published : June 22, 2026, 9:04 p.m. | 10\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains an inform...",
-      "timestamp": 1782162289.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56266 - Crawl4AI - Server-Side Request Forgery via Direct Crawl Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56266",
-      "summary": "CVE ID :CVE-2026-56266\n  \n  Published : June 22, 2026, 9:04 p.m. | 10\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Crawl4AI before 0.8.7 contains a server-...",
-      "timestamp": 1782162284.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-71358 - picklescan - Remote Code Execution via idlelib.autocomplete.AutoComplete.get_entity",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71358",
-      "summary": "CVE ID :CVE-2025-71358\n  \n  Published : June 22, 2026, 9:04 p.m. | 10\u00a0hours, 17\u00a0minutes ago\n  \n  Description :picklescan before 0.0.29 fails to detect...",
-      "timestamp": 1782162282.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
@@ -193,38 +233,6 @@
       "timestamp": 1782140649.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "A Glimpse into the \u201cSearch Your Target\u201d Market for Stolen Credentials",
-      "link": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
-      "summary": "Attackers no longer need to sift through massive credential dumps. They can pay others to do it for them. Flare explores how an emerging underground m...",
-      "timestamp": 1782137115.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
-      "link": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
-      "summary": "A previously undocumented malware botnet named AryStinger has compromised more than 4,000 outdated routers to turn them into proxies for malicious tra...",
-      "timestamp": 1782051262.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New Prinz Eugen ransomware prioritizes recent files for encryption",
-      "link": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
-      "summary": "A new ransomware operation named 'Prinz Eugen' prioritizes recently modified files for encryption and leaves no ransom note on the system. [...]",
-      "timestamp": 1781969026.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
-      "summary": "Microsoft has attributed a recent Mastra AI supply chain attack that compromised more than 140 npm packages to the North Korean hacking group Sapphire...",
-      "timestamp": 1781964559.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities",
@@ -313,15 +321,7 @@
       "timestamp": 1781296609.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "CVE-2026-0273 PAN-OS: Authenticated Admin Command Injection Vulnerability via CLI or Web UI (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0273",
-      "summary": "",
-      "timestamp": 1781139600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1782202263.8293712
+  "last_updated": 1782232638.3838782
 }
