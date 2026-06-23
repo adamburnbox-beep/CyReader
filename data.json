@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,12 +45,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 7,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-11833 - FAST/TOOLS CI Server Information Disclosure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11833",
+      "summary": "CVE ID :CVE-2026-11833\n  \n  Published : June 23, 2026, 12:53 a.m. | 2\u00a0hours, 47\u00a0minutes ago\n  \n  Description :Overview: \nA vulnerability has been foun...",
+      "timestamp": 1782176023.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "WhatsApp phishing attack uses fake business docs to hack PCs",
       "link": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
@@ -60,12 +68,44 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-54232 - vLLM:  Dependency Confusion Vulnerability in vLLM Dockerfile",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54232",
+      "summary": "CVE ID :CVE-2026-54232\n  \n  Published : June 22, 2026, 10:16 p.m. | 5\u00a0hours, 24\u00a0minutes ago\n  \n  Description :vLLM is an inference and serving engine ...",
+      "timestamp": 1782166603.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48746 - vLLM: OpenAI auth bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48746",
+      "summary": "CVE ID :CVE-2026-48746\n  \n  Published : June 22, 2026, 9:57 p.m. | 5\u00a0hours, 43\u00a0minutes ago\n  \n  Description :vLLM is an inference and serving engine f...",
+      "timestamp": 1782165448.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "JaredFromSubway MEV bot hacked in $15 million crypto theft",
       "link": "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
       "summary": "The JaredFromSubway Ethereum MEV (Maximal Extractable Value) bot suffered a $15 million loss after an attacker manipulated the opportunity-detection l...",
       "timestamp": 1782165138.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-48109 - MessagePack-CSharp: LZ4 decompression may fail with AccessViolationException after dereferencing memory from bad input",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48109",
+      "summary": "CVE ID :CVE-2026-48109\n  \n  Published : June 22, 2026, 9:19 p.m. | 6\u00a0hours, 21\u00a0minutes ago\n  \n  Description :MessagePack for C# is a MessagePack seria...",
+      "timestamp": 1782163194.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48502 - MessagePack-CSharp: Denial of service vulnerabilities can swamp the CPU or crash the process with stack and heap overflows",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48502",
+      "summary": "CVE ID :CVE-2026-48502\n  \n  Published : June 22, 2026, 9:18 p.m. | 6\u00a0hours, 22\u00a0minutes ago\n  \n  Description :MessagePack for C# is a MessagePack seria...",
+      "timestamp": 1782163109.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
@@ -78,7 +118,7 @@
     {
       "title": "CVE-2026-56348 - n8n - Credential Exfiltration via Allowed HTTP Request Domains Bypass in Dynamic Node Parameters Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56348",
-      "summary": "CVE ID :CVE-2026-56348\n  \n  Published : June 22, 2026, 9:04 p.m. | 2\u00a0hours, 17\u00a0minutes ago\n  \n  Description :n8n before 2.20.0 contains a credential e...",
+      "summary": "CVE ID :CVE-2026-56348\n  \n  Published : June 22, 2026, 9:04 p.m. | 6\u00a0hours, 36\u00a0minutes ago\n  \n  Description :n8n before 2.20.0 contains a credential e...",
       "timestamp": 1782162291.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -86,7 +126,7 @@
     {
       "title": "CVE-2026-56324 - Capgo - Rate Limit Bypass via User-Controlled device_id Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56324",
-      "summary": "CVE ID :CVE-2026-56324\n  \n  Published : June 22, 2026, 9:04 p.m. | 2\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains a rate lim...",
+      "summary": "CVE ID :CVE-2026-56324\n  \n  Published : June 22, 2026, 9:04 p.m. | 6\u00a0hours, 36\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains a rate lim...",
       "timestamp": 1782162290.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -94,7 +134,7 @@
     {
       "title": "CVE-2026-56323 - Capgo - Unauthenticated Channel Enumeration and App Oracle via GET /channel_self",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56323",
-      "summary": "CVE ID :CVE-2026-56323\n  \n  Published : June 22, 2026, 9:04 p.m. | 2\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains an informa...",
+      "summary": "CVE ID :CVE-2026-56323\n  \n  Published : June 22, 2026, 9:04 p.m. | 6\u00a0hours, 36\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains an informa...",
       "timestamp": 1782162289.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -102,7 +142,7 @@
     {
       "title": "CVE-2026-56266 - Crawl4AI - Server-Side Request Forgery via Direct Crawl Endpoints",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56266",
-      "summary": "CVE ID :CVE-2026-56266\n  \n  Published : June 22, 2026, 9:04 p.m. | 2\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Crawl4AI before 0.8.7 contains a server-s...",
+      "summary": "CVE ID :CVE-2026-56266\n  \n  Published : June 22, 2026, 9:04 p.m. | 6\u00a0hours, 36\u00a0minutes ago\n  \n  Description :Crawl4AI before 0.8.7 contains a server-s...",
       "timestamp": 1782162284.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -110,24 +150,8 @@
     {
       "title": "CVE-2025-71358 - picklescan - Remote Code Execution via idlelib.autocomplete.AutoComplete.get_entity",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-71358",
-      "summary": "CVE ID :CVE-2025-71358\n  \n  Published : June 22, 2026, 9:04 p.m. | 2\u00a0hours, 17\u00a0minutes ago\n  \n  Description :picklescan before 0.0.29 fails to detect ...",
+      "summary": "CVE ID :CVE-2025-71358\n  \n  Published : June 22, 2026, 9:04 p.m. | 6\u00a0hours, 36\u00a0minutes ago\n  \n  Description :picklescan before 0.0.29 fails to detect ...",
       "timestamp": 1782162282.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-71344 - picklescan - Arbitrary Code Execution via Undetected ensurepip._run_pip Function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71344",
-      "summary": "CVE ID :CVE-2025-71344\n  \n  Published : June 22, 2026, 9:04 p.m. | 2\u00a0hours, 17\u00a0minutes ago\n  \n  Description :picklescan before 0.0.30 (affected versio...",
-      "timestamp": 1782162281.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-71339 - Picklescan - Arbitrary Code Execution via numpy.f2py.crackfortran._eval_length Gadget",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71339",
-      "summary": "CVE ID :CVE-2025-71339\n  \n  Published : June 22, 2026, 9:04 p.m. | 2\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Picklescan before 0.0.33 fails to detect ...",
-      "timestamp": 1782162281.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -138,30 +162,6 @@
       "timestamp": 1782158462.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-44271 - Dell Wyse Management Suite SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44271",
-      "summary": "CVE ID :CVE-2026-44271\n  \n  Published : June 22, 2026, 7 p.m. | 4\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Dell Wyse Management Suite (WMS), versions p...",
-      "timestamp": 1782154851.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44272 - Dell Wyse Management Suite SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44272",
-      "summary": "CVE ID :CVE-2026-44272\n  \n  Published : June 22, 2026, 6:56 p.m. | 4\u00a0hours, 25\u00a0minutes ago\n  \n  Description :Dell Wyse Management Suite (WMS), version...",
-      "timestamp": 1782154619.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53779 - WebP Server Go < 0.15.0 Path Traversal via Backslash Encoding on Windows",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53779",
-      "summary": "CVE ID :CVE-2026-53779\n  \n  Published : June 22, 2026, 6:22 p.m. | 4\u00a0hours, 59\u00a0minutes ago\n  \n  Description :WebP Server Go through 0.14.4 contains a ...",
-      "timestamp": 1782152560.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft says Windows 11 26H2 is coming soon, details upgrade process",
@@ -314,71 +314,7 @@
       "timestamp": 1781139600.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
-      "summary": "",
-      "timestamp": 1781107200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "Who Runs the Ransomware Group \u2018The Gentlemen?\u2019",
-      "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
-      "summary": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of...",
-      "timestamp": 1781100224.0,
-      "source": "Krebs on Security",
-      "vendor": "News"
     }
   ],
-  "last_updated": 1782172348.8748875
+  "last_updated": 1782188152.844821
 }
