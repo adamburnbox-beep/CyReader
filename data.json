@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 9,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 7,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,7 +45,7 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -67,12 +67,44 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-12958 - Arbitrary file write in Language Servers for AWS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12958",
+      "summary": "CVE ID :CVE-2026-12958\n  \n  Published : June 23, 2026, 4:03 p.m. | 2\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Missing symlink validation in Language Se...",
+      "timestamp": 1782230581.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12957 - Arbitrary Code Execution in Language Servers for AWS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12957",
+      "summary": "CVE ID :CVE-2026-12957\n  \n  Published : June 23, 2026, 4:02 p.m. | 2\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Improper trust boundary enforcement in La...",
+      "timestamp": 1782230573.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Scattered Spider members plead guilty to hacking Transport for London",
       "link": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
       "summary": "Two members of the 'Scattered Spider' cybercrime group pleaded guilty to hacking the Transport for London (TfL) systems in 2024. [...]",
       "timestamp": 1782228719.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-27604 - FOSSBilling: Improper API Role Validation (system) Enables Unauthenticated Access to Privileged Admin Functions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27604",
+      "summary": "CVE ID :CVE-2026-27604\n  \n  Published : June 23, 2026, 2:25 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :FOSSBilling is a free, open-source billin...",
+      "timestamp": 1782224720.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-28496 - FOSSBilling: Server-side template injection in Twig template rendering enables information disclosure and RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28496",
+      "summary": "CVE ID :CVE-2026-28496\n  \n  Published : June 23, 2026, 2:20 p.m. | 4\u00a0hours ago\n  \n  Description :FOSSBilling is a free, open-source billing and client...",
+      "timestamp": 1782224450.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "The Exploit Doesn't Exist. You Can Still Prove It Works Against You",
@@ -93,7 +125,7 @@
     {
       "title": "CVE-2026-35019 - NetComm NF20MESH < R6B032 Hardcoded AES Key Authentication Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35019",
-      "summary": "CVE ID :CVE-2026-35019\n  \n  Published : June 23, 2026, 1:48 p.m. | 1\u00a0hour, 45\u00a0minutes ago\n  \n  Description :NetComm NF20MESH routers running firmware ...",
+      "summary": "CVE ID :CVE-2026-35019\n  \n  Published : June 23, 2026, 1:48 p.m. | 4\u00a0hours, 32\u00a0minutes ago\n  \n  Description :NetComm NF20MESH routers running firmware...",
       "timestamp": 1782222529.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +133,7 @@
     {
       "title": "CVE-2026-35018 - NetComm NF20MESH < R6B032 Authenticated RCE via OS Command Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-35018",
-      "summary": "CVE ID :CVE-2026-35018\n  \n  Published : June 23, 2026, 1:46 p.m. | 1\u00a0hour, 47\u00a0minutes ago\n  \n  Description :NetComm NF20MESH routers running firmware ...",
+      "summary": "CVE ID :CVE-2026-35018\n  \n  Published : June 23, 2026, 1:46 p.m. | 4\u00a0hours, 34\u00a0minutes ago\n  \n  Description :NetComm NF20MESH routers running firmware...",
       "timestamp": 1782222399.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +141,7 @@
     {
       "title": "CVE-2026-54892 - Plug: quadratic-time decoding of nested query/body parameters enables denial of service",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54892",
-      "summary": "CVE ID :CVE-2026-54892\n  \n  Published : June 23, 2026, 12:31 p.m. | 3\u00a0hours, 2\u00a0minutes ago\n  \n  Description :Inefficient algorithmic complexity in Plu...",
+      "summary": "CVE ID :CVE-2026-54892\n  \n  Published : June 23, 2026, 12:31 p.m. | 5\u00a0hours, 49\u00a0minutes ago\n  \n  Description :Inefficient algorithmic complexity in Pl...",
       "timestamp": 1782217872.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +149,7 @@
     {
       "title": "CVE-2026-56784 - OpenRemote Manager - Cross-Tenant IDOR in Bulk Alarm Deletion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56784",
-      "summary": "CVE ID :CVE-2026-56784\n  \n  Published : June 23, 2026, 12:13 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :OpenRemote Manager before 1.24.2 contain...",
+      "summary": "CVE ID :CVE-2026-56784\n  \n  Published : June 23, 2026, 12:13 p.m. | 6\u00a0hours, 7\u00a0minutes ago\n  \n  Description :OpenRemote Manager before 1.24.2 contains...",
       "timestamp": 1782216787.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +157,7 @@
     {
       "title": "CVE-2026-56322 - Capgo - Information Disclosure via Unauthenticated /updates defaultChannel Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56322",
-      "summary": "CVE ID :CVE-2026-56322\n  \n  Published : June 23, 2026, 12:13 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains an inform...",
+      "summary": "CVE ID :CVE-2026-56322\n  \n  Published : June 23, 2026, 12:13 p.m. | 6\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains an informa...",
       "timestamp": 1782216783.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,40 +165,8 @@
     {
       "title": "CVE-2026-56315 - picklescan - Remote Code Execution via Unblocked Standard Library Modules",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56315",
-      "summary": "CVE ID :CVE-2026-56315\n  \n  Published : June 23, 2026, 12:13 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :picklescan before 1.0.4 fails to block a...",
+      "summary": "CVE ID :CVE-2026-56315\n  \n  Published : June 23, 2026, 12:13 p.m. | 6\u00a0hours, 8\u00a0minutes ago\n  \n  Description :picklescan before 1.0.4 fails to block at...",
       "timestamp": 1782216782.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56274 - Flowise - Remote Code Execution via MCP Security Bypass in validateCommandFlags and validateArgsForLocalFileAccess",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56274",
-      "summary": "CVE ID :CVE-2026-56274\n  \n  Published : June 23, 2026, 12:13 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Flowise before 3.1.2 contains multiple O...",
-      "timestamp": 1782216780.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56258 - Crawl4AI - Arbitrary File Write via output_path Symlink and TOCTOU",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56258",
-      "summary": "CVE ID :CVE-2026-56258\n  \n  Published : June 23, 2026, 12:12 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Crawl4AI before 0.8.8 contains an arbitr...",
-      "timestamp": 1782216779.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56248 - Capgo - Unauthenticated Denial-of-Service via audit_logs RLS Policy",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56248",
-      "summary": "CVE ID :CVE-2026-56248\n  \n  Published : June 23, 2026, 12:12 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Cap-go capgo (capgo-backend) before 12.1...",
-      "timestamp": 1782216778.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56243 - Capgo - Hashed API Key Enforcement Bypass via PostgREST/RLS Plane",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56243",
-      "summary": "CVE ID :CVE-2026-56243\n  \n  Published : June 23, 2026, 12:12 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains a securit...",
-      "timestamp": 1782216777.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -323,5 +323,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782232638.3838782
+  "last_updated": 1782239357.4783103
 }
