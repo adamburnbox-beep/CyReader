@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,7 +45,7 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
@@ -58,6 +58,38 @@
     }
   ],
   "articles": [
+    {
+      "title": "Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
+      "summary": "A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks. [...]",
+      "timestamp": 1782251312.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Tata Electronics confirms cyberattack as hackers leak data",
+      "link": "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
+      "summary": "Tata Electronics has confirmed in a statement to BleepingComputer that it was the target of a cyberattack that impacted parts of its IT infrastructure...",
+      "timestamp": 1782248792.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-41862 - Spring Statemachine Deserialisation Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41862",
+      "summary": "CVE ID :CVE-2026-41862\n  \n  Published : June 23, 2026, 8:59 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :Spring Statemachine's Kryo-based persistence...",
+      "timestamp": 1782248342.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56120 - OpenRemote < 1.25.0 IDOR via Bulk Alarm Deletion Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56120",
+      "summary": "CVE ID :CVE-2026-56120\n  \n  Published : June 23, 2026, 8:54 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :OpenRemote before 1.25.0 contains an insecu...",
+      "timestamp": 1782248055.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Windows 11 KB5095093 update rolls out new Point-in-Time restore feature",
       "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5095093-update-rolls-out-new-point-in-time-restore-feature/",
@@ -75,12 +107,76 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-11807 - Eda-server: websocket missing authorization allows credential theft via activation_id spoofing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11807",
+      "summary": "CVE ID :CVE-2026-11807\n  \n  Published : June 23, 2026, 7:40 p.m. | 2\u00a0hours, 20\u00a0minutes ago\n  \n  Description :A missing authorization vulnerability was...",
+      "timestamp": 1782243633.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "New macOS ClickFix attack silently mounts DMGs to push infostealer",
       "link": "https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/",
       "summary": "A new macOS ClickFix campaign is using Terminal commands to silently download, mount, and launch info-stealing malware from malicious disk image (DMG)...",
       "timestamp": 1782239416.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-53753 - Crawl4AI: AST Sandbox Escape via gi_frame.f_back Chain - Pre-Auth RCE in Docker API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53753",
+      "summary": "CVE ID :CVE-2026-53753\n  \n  Published : June 23, 2026, 6:17 p.m. | 3\u00a0hours, 43\u00a0minutes ago\n  \n  Description :Crawl4AI is an open-source LLM friendly w...",
+      "timestamp": 1782238638.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53755 - Crawl4AI: SSRF via proxy settings in the Docker server bypasses the crawl-URL SSRF check",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53755",
+      "summary": "CVE ID :CVE-2026-53755\n  \n  Published : June 23, 2026, 6:15 p.m. | 3\u00a0hours, 45\u00a0minutes ago\n  \n  Description :Crawl4AI is an open-source LLM friendly w...",
+      "timestamp": 1782238531.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54320 - Daytona: Cross-tenant organization takeover via invitation acceptance with an unverified email",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54320",
+      "summary": "CVE ID :CVE-2026-54320\n  \n  Published : June 23, 2026, 6:11 p.m. | 3\u00a0hours, 49\u00a0minutes ago\n  \n  Description :Daytona is a secure and elastic infrastru...",
+      "timestamp": 1782238279.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45135 - Caddy: Unsafe Unicode Handling in FastCGI splitPos Allows Execution of Non-PHP Files",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45135",
+      "summary": "CVE ID :CVE-2026-45135\n  \n  Published : June 23, 2026, 5:56 p.m. | 4\u00a0hours, 3\u00a0minutes ago\n  \n  Description :Caddy is an extensible server platform tha...",
+      "timestamp": 1782237402.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52845 - Caddy: FastCGI header normalization bypass in `forward_auth copy_headers`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52845",
+      "summary": "CVE ID :CVE-2026-52845\n  \n  Published : June 23, 2026, 5:52 p.m. | 4\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Caddy is an extensible server platform tha...",
+      "timestamp": 1782237121.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54157 - LobeHub: Unauthenticated SSRF in `/webapi/proxy`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54157",
+      "summary": "CVE ID :CVE-2026-54157\n  \n  Published : June 23, 2026, 5:43 p.m. | 4\u00a0hours, 17\u00a0minutes ago\n  \n  Description :LobeHub is a work-and-lifestyle space to ...",
+      "timestamp": 1782236586.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53662 - immich: One-click account takeover via XSS in login page continue redirect",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53662",
+      "summary": "CVE ID :CVE-2026-53662\n  \n  Published : June 23, 2026, 5:36 p.m. | 4\u00a0hours, 24\u00a0minutes ago\n  \n  Description :immich is a high performance self-hosted ...",
+      "timestamp": 1782236190.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
@@ -91,44 +187,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-12958 - Arbitrary file write in Language Servers for AWS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12958",
-      "summary": "CVE ID :CVE-2026-12958\n  \n  Published : June 23, 2026, 4:03 p.m. | 3\u00a0hours, 43\u00a0minutes ago\n  \n  Description :Missing symlink validation in Language Se...",
-      "timestamp": 1782230581.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12957 - Arbitrary Code Execution in Language Servers for AWS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12957",
-      "summary": "CVE ID :CVE-2026-12957\n  \n  Published : June 23, 2026, 4:02 p.m. | 3\u00a0hours, 43\u00a0minutes ago\n  \n  Description :Improper trust boundary enforcement in La...",
-      "timestamp": 1782230573.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Scattered Spider members plead guilty to hacking Transport for London",
       "link": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
       "summary": "Two members of the 'Scattered Spider' cybercrime group pleaded guilty to hacking the Transport for London (TfL) systems in 2024. [...]",
       "timestamp": 1782228719.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-27604 - FOSSBilling: Improper API Role Validation (system) Enables Unauthenticated Access to Privileged Admin Functions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27604",
-      "summary": "CVE ID :CVE-2026-27604\n  \n  Published : June 23, 2026, 2:25 p.m. | 5\u00a0hours, 21\u00a0minutes ago\n  \n  Description :FOSSBilling is a free, open-source billin...",
-      "timestamp": 1782224720.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-28496 - FOSSBilling: Server-side template injection in Twig template rendering enables information disclosure and RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28496",
-      "summary": "CVE ID :CVE-2026-28496\n  \n  Published : June 23, 2026, 2:20 p.m. | 5\u00a0hours, 25\u00a0minutes ago\n  \n  Description :FOSSBilling is a free, open-source billin...",
-      "timestamp": 1782224450.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "The Exploit Doesn't Exist. You Can Still Prove It Works Against You",
@@ -147,54 +211,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-35019 - NetComm NF20MESH < R6B032 Hardcoded AES Key Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35019",
-      "summary": "CVE ID :CVE-2026-35019\n  \n  Published : June 23, 2026, 1:48 p.m. | 5\u00a0hours, 57\u00a0minutes ago\n  \n  Description :NetComm NF20MESH routers running firmware...",
-      "timestamp": 1782222529.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-35018 - NetComm NF20MESH < R6B032 Authenticated RCE via OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35018",
-      "summary": "CVE ID :CVE-2026-35018\n  \n  Published : June 23, 2026, 1:46 p.m. | 5\u00a0hours, 59\u00a0minutes ago\n  \n  Description :NetComm NF20MESH routers running firmware...",
-      "timestamp": 1782222399.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54892 - Plug: quadratic-time decoding of nested query/body parameters enables denial of service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54892",
-      "summary": "CVE ID :CVE-2026-54892\n  \n  Published : June 23, 2026, 12:31 p.m. | 7\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Inefficient algorithmic complexity in Pl...",
-      "timestamp": 1782217872.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56784 - OpenRemote Manager - Cross-Tenant IDOR in Bulk Alarm Deletion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56784",
-      "summary": "CVE ID :CVE-2026-56784\n  \n  Published : June 23, 2026, 12:13 p.m. | 7\u00a0hours, 33\u00a0minutes ago\n  \n  Description :OpenRemote Manager before 1.24.2 contain...",
-      "timestamp": 1782216787.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56322 - Capgo - Information Disclosure via Unauthenticated /updates defaultChannel Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56322",
-      "summary": "CVE ID :CVE-2026-56322\n  \n  Published : June 23, 2026, 12:13 p.m. | 7\u00a0hours, 33\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains an inform...",
-      "timestamp": 1782216783.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56315 - picklescan - Remote Code Execution via Unblocked Standard Library Modules",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56315",
-      "summary": "CVE ID :CVE-2026-56315\n  \n  Published : June 23, 2026, 12:13 p.m. | 7\u00a0hours, 33\u00a0minutes ago\n  \n  Description :picklescan before 1.0.4 fails to block a...",
-      "timestamp": 1782216782.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Webinar: Why email security teams are drowning in alerts",
       "link": "https://www.bleepingcomputer.com/news/security/webinar-why-email-security-teams-are-drowning-in-alerts/",
       "summary": "Phishing, BEC, and account takeover attacks continue to overwhelm security teams with alerts and investigations. This webinar explores how behavioral ...",
@@ -207,22 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
       "summary": "An ongoing malware campaign is targeting WhatsApp users in multiple countries with deceptive messages that push VBScript files, leading to remote syst...",
       "timestamp": 1782168141.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "JaredFromSubway MEV bot hacked in $15 million crypto theft",
-      "link": "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
-      "summary": "The JaredFromSubway Ethereum MEV (Maximal Extractable Value) bot suffered a $15 million loss after an attacker manipulated the opportunity-detection l...",
-      "timestamp": 1782165138.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
-      "link": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
-      "summary": "A newly disclosed FFmpeg flaw dubbed 'PixelSmash'\u00a0could be exploited for remote code execution on Jellyfin servers under certain conditions, and can a...",
-      "timestamp": 1782162301.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -323,5 +323,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782247255.0486453
+  "last_updated": 1782252331.275431
 }
