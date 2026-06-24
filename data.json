@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,91 +52,139 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-12416 - Invoice Generator <= 1.0.0 - Unauthenticated Account Takeover via Weak Password Reset Validation via 'reset_user_id' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12416",
-      "summary": "CVE ID :CVE-2026-12416\n  \n  Published : June 24, 2026, 5:33 a.m. | 3\u00a0hours, 49\u00a0minutes ago\n  \n  Description :The Invoice Generator plugin for WordPres...",
-      "timestamp": 1782279210.0,
+      "title": "Malicious Edge extension abuses Native Messaging as bridge to malware",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
+      "summary": "A malicious Microsoft Edge extension dubbed 'Edgecution' has been used in a ransomware attack to escape the browser sandbox and deploy a Python-based ...",
+      "timestamp": 1782334702.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-44016 - Docling: Unsafe Playwright-based HTML Rendering",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44016",
+      "summary": "CVE ID :CVE-2026-44016\n  \n  Published : June 24, 2026, 5:42 p.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :Docling simplifies document processing by...",
+      "timestamp": 1782322962.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12417 - SignUp & SignIn <= 1.0.0 - Unauthenticated Privilege Escalation via Weak Password Reset Validation via 'reset_activation_code' Leading to Account Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12417",
-      "summary": "CVE ID :CVE-2026-12417\n  \n  Published : June 24, 2026, 5:33 a.m. | 3\u00a0hours, 49\u00a0minutes ago\n  \n  Description :The SignUp & SignIn plugin for WordPress ...",
-      "timestamp": 1782279209.0,
+      "title": "CVE-2026-48704 - Warp Markdown notebook links may open executable local files",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48704",
+      "summary": "CVE ID :CVE-2026-48704\n  \n  Published : June 24, 2026, 5:35 p.m. | 2\u00a0hours, 46\u00a0minutes ago\n  \n  Description :Warp is an agentic development environmen...",
+      "timestamp": 1782322502.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-4297 - Welcome Software Publishing <= 0.0.31 - Authenticated (Subscriber+) Arbitrary Options Update to Privilege Escalation via 'nc.setOption' XML-RPC Method",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4297",
-      "summary": "CVE ID :CVE-2026-4297\n  \n  Published : June 24, 2026, 5:33 a.m. | 3\u00a0hours, 49\u00a0minutes ago\n  \n  Description :The Welcome Software Publishing plugin for...",
-      "timestamp": 1782279204.0,
+      "title": "CVE-2026-48719 - Warp branch selector command injection via Git branch names",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48719",
+      "summary": "CVE ID :CVE-2026-48719\n  \n  Published : June 24, 2026, 5:33 p.m. | 2\u00a0hours, 47\u00a0minutes ago\n  \n  Description :Warp is an agentic development environmen...",
+      "timestamp": 1782322435.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12851 - GeoVision GV-I/O Box 4E libNetSetObj.so OS command injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12851",
-      "summary": "CVE ID :CVE-2026-12851\n  \n  Published : June 24, 2026, 3:40 a.m. | 5\u00a0hours, 42\u00a0minutes ago\n  \n  Description :Multiple OS command injection vulnerabili...",
-      "timestamp": 1782272426.0,
+      "title": "CVE-2026-48720 - Warp: SSH remote output can lead to local file overwrite and persistence",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48720",
+      "summary": "CVE ID :CVE-2026-48720\n  \n  Published : June 24, 2026, 5:32 p.m. | 2\u00a0hours, 48\u00a0minutes ago\n  \n  Description :Warp is an agentic development environmen...",
+      "timestamp": 1782322370.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12850 - GeoVision GV-I/O Box 4E libNetSetObj.so OS command injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12850",
-      "summary": "CVE ID :CVE-2026-12850\n  \n  Published : June 24, 2026, 3:40 a.m. | 5\u00a0hours, 42\u00a0minutes ago\n  \n  Description :Multiple OS command injection vulnerabili...",
-      "timestamp": 1782272424.0,
+      "title": "CVE-2026-48721 - Warp: Env-var prefixes can lead to denylisted command autoexecution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48721",
+      "summary": "CVE ID :CVE-2026-48721\n  \n  Published : June 24, 2026, 5:31 p.m. | 2\u00a0hours, 50\u00a0minutes ago\n  \n  Description :Warp is an agentic development environmen...",
+      "timestamp": 1782322275.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12849 - GeoVision GV-I/O Box 4E libNetSetObj.so OS command injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12849",
-      "summary": "CVE ID :CVE-2026-12849\n  \n  Published : June 24, 2026, 3:40 a.m. | 5\u00a0hours, 42\u00a0minutes ago\n  \n  Description :Multiple OS command injection vulnerabili...",
-      "timestamp": 1782272421.0,
+      "title": "CVE-2026-48732 - Warp: Remote SSH cwd can lead to unauthorized remote command execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48732",
+      "summary": "CVE ID :CVE-2026-48732\n  \n  Published : June 24, 2026, 5:29 p.m. | 2\u00a0hours, 52\u00a0minutes ago\n  \n  Description :Warp is an agentic development environmen...",
+      "timestamp": 1782322151.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12486 - GeoVision GV-I/O Box 4E libNetSetObj.so OS command injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12486",
-      "summary": "CVE ID :CVE-2026-12486\n  \n  Published : June 24, 2026, 3:40 a.m. | 5\u00a0hours, 42\u00a0minutes ago\n  \n  Description :Multiple OS command injection vulnerabili...",
-      "timestamp": 1782272419.0,
+      "title": "CVE-2026-48725 - Warp may allow terminal output to access the local clipboard through OSC 52",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48725",
+      "summary": "CVE ID :CVE-2026-48725\n  \n  Published : June 24, 2026, 5:22 p.m. | 2\u00a0hours, 58\u00a0minutes ago\n  \n  Description :Warp is an agentic development environmen...",
+      "timestamp": 1782321766.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12848 - GeoVision GV-I/O Box DVRSearch buffer overflow vulnerabilities in CMD_IP_SET command",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12848",
-      "summary": "CVE ID :CVE-2026-12848\n  \n  Published : June 24, 2026, 3:34 a.m. | 5\u00a0hours, 48\u00a0minutes ago\n  \n  Description :GV-I/O Box 4E is a smart embedded device ...",
-      "timestamp": 1782272070.0,
+      "title": "Cisco Advance Notification for Publication of July 1, 2026, Security Advisories",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-vwL7b0S7?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%201,%202026,%20Security%20Advisories%26vs_k=1",
+      "summary": "On July 1, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information alon...",
+      "timestamp": 1782316800.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "CVE-2026-54904 - concurrent-ruby:  `AtomicReference#update` livelocks when the stored value is `Float::NAN`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54904",
+      "summary": "CVE ID :CVE-2026-54904\n  \n  Published : June 24, 2026, 3:44 p.m. | 4\u00a0hours, 37\u00a0minutes ago\n  \n  Description :concurrent-ruby is a modern concurrency t...",
+      "timestamp": 1782315861.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12847 - GeoVision GV-I/O Box DVRSearch buffer overflow vulnerabilities in CMD_IP_SET command",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12847",
-      "summary": "CVE ID :CVE-2026-12847\n  \n  Published : June 24, 2026, 3:34 a.m. | 5\u00a0hours, 48\u00a0minutes ago\n  \n  Description :GV-I/O Box 4E is a smart embedded device ...",
-      "timestamp": 1782272068.0,
+      "title": "CVE-2026-13164 - Unauthenticated self-registration in MailerUp allows access to stored email data",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13164",
+      "summary": "CVE ID :CVE-2026-13164\n  \n  Published : June 24, 2026, 3:37 p.m. | 4\u00a0hours, 44\u00a0minutes ago\n  \n  Description :Missing Authentication for Critical Funct...",
+      "timestamp": 1782315437.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12846 - GeoVision GV-I/O Box DVRSearch buffer overflow vulnerabilities in CMD_IP_SET command",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12846",
-      "summary": "CVE ID :CVE-2026-12846\n  \n  Published : June 24, 2026, 3:34 a.m. | 5\u00a0hours, 48\u00a0minutes ago\n  \n  Description :GV-I/O Box 4E is a smart embedded device ...",
-      "timestamp": 1782272065.0,
+      "title": "CVE-2026-56121 - Feast < 0.63.0 Unauthenticated RCE via ApplyFeatureView gRPC Deserialization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56121",
+      "summary": "CVE ID :CVE-2026-56121\n  \n  Published : June 24, 2026, 2:49 p.m. | 5\u00a0hours, 32\u00a0minutes ago\n  \n  Description :Feast before 0.63.0 contains an unsafe de...",
+      "timestamp": 1782312551.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CISA warns of max severity Ubiquiti flaws exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of hackers actively exploiting\u00a0flaws in\u00a0Ubiquity UniFi OS and\u00a0Lantronix se...",
+      "timestamp": 1782311715.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Amadey, StealC malware operations disrupted in Operation Endgame action",
+      "link": "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/",
+      "summary": "Microsoft, Europol, and international partners have disrupted infrastructure used by the Amadey and StealC malware operations as part of Operation End...",
+      "timestamp": 1782311711.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Securing the service desk: Why social engineering attacks keep succeeding",
+      "link": "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
+      "summary": "Service desks have become a favored target for attackers seeking password resets, MFA changes, and access to corporate accounts. Specops Software brea...",
+      "timestamp": 1782309732.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Stealthy Mistic backdoor linked to ransomware access broker KongTuke",
+      "link": "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
+      "summary": "A new backdoor dubbed Mistic has been observed in financially motivated attacks targeting organizations in the insurance, education, IT, and professio...",
+      "timestamp": 1782297711.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks",
@@ -184,46 +232,6 @@
       "summary": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London...",
       "timestamp": 1782231169.0,
       "source": "Krebs on Security",
-      "vendor": "News"
-    },
-    {
-      "title": "Scattered Spider members plead guilty to hacking Transport for London",
-      "link": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
-      "summary": "Two members of the 'Scattered Spider' cybercrime group pleaded guilty to hacking the Transport for London (TfL) systems in 2024. [...]",
-      "timestamp": 1782228719.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "The Exploit Doesn't Exist. You Can Still Prove It Works Against You",
-      "link": "https://www.bleepingcomputer.com/news/security/the-exploit-doesnt-exist-you-can-still-prove-it-works-against-you/",
-      "summary": "Attackers can now weaponize newly disclosed vulnerabilities far faster than most organizations can patch them. Picus Security explains how security te...",
-      "timestamp": 1782223271.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "LastPass confirms data breach in Klue supply chain attack",
-      "link": "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
-      "summary": "LastPass announced that hackers accessed customer data from its Salesforce environment after stealing the company's OAuth tokens in the Klue supply ch...",
-      "timestamp": 1782223105.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Webinar: Why email security teams are drowning in alerts",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-email-security-teams-are-drowning-in-alerts/",
-      "summary": "Phishing, BEC, and account takeover attacks continue to overwhelm security teams with alerts and investigations. This webinar explores how behavioral ...",
-      "timestamp": 1782216740.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "WhatsApp phishing attack uses fake business docs to hack PCs",
-      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
-      "summary": "An ongoing malware campaign is targeting WhatsApp users in multiple countries with deceptive messages that push VBScript files, leading to remote syst...",
-      "timestamp": 1782168141.0,
-      "source": "BleepingComputer",
       "vendor": "News"
     },
     {
@@ -323,5 +331,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782294772.6325433
+  "last_updated": 1782335762.786979
 }
