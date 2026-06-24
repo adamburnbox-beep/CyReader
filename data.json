@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 5,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,44 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "DraftKings hacker 'Snoopy' sentenced to 18 months in prison",
+      "link": "https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/",
+      "summary": "A 21-year-old using the alias \"Snoopy\" was sentenced to 18 months in prison for his role in hacking DraftKings accounts in\u00a0the November 2022 cyberatta...",
+      "timestamp": 1782338143.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-9773 - Unraid Web Server ToggleState Command Injection Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9773",
+      "summary": "CVE ID :CVE-2026-9773\n  \n  Published : June 24, 2026, 9:35 p.m. | 46\u00a0minutes ago\n  \n  Description :Unraid Web Server ToggleState Command Injection Rem...",
+      "timestamp": 1782336935.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-9772 - Unraid Web Server FileUpload Command Injection Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9772",
+      "summary": "CVE ID :CVE-2026-9772\n  \n  Published : June 24, 2026, 9:35 p.m. | 46\u00a0minutes ago\n  \n  Description :Unraid Web Server FileUpload Command Injection Remo...",
+      "timestamp": 1782336927.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Mandiant reveals how Cisco SD-WAN zero-day attacks gained root access",
+      "link": "https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/",
+      "summary": "New details have been revealed on how hackers exploited a Cisco Catalyst SD-WAN vulnerability tracked as CVE-2026-20245 in zero-day attacks to create ...",
+      "timestamp": 1782336550.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Malicious Edge extension abuses Native Messaging as bridge to malware",
       "link": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
@@ -67,9 +99,49 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-1840 - Missing authentication for critical function in Hubbell Aclara Metrum Cellular Web Interface",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-1840",
+      "summary": "CVE ID :CVE-2026-1840\n  \n  Published : June 24, 2026, 7:47 p.m. | 2\u00a0hours, 34\u00a0minutes ago\n  \n  Description :The Aclara Metrum Cellular Web Interface i...",
+      "timestamp": 1782330449.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48793 - Jellyfin: Potential FFmpeg argument injection via unescaped subtitle file path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48793",
+      "summary": "CVE ID :CVE-2026-48793\n  \n  Published : June 24, 2026, 6:22 p.m. | 3\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Jellyfin is an open source self hosted me...",
+      "timestamp": 1782325338.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49247 - Jellyfin: Potential Authenticated path traversal in /ClientLog/Document",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49247",
+      "summary": "CVE ID :CVE-2026-49247\n  \n  Published : June 24, 2026, 6:18 p.m. | 4\u00a0hours, 2\u00a0minutes ago\n  \n  Description :Jellyfin is an open source self hosted med...",
+      "timestamp": 1782325126.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53943 - Ghost: Cache-poisoning XSS in Ghost frontend via x-ghost-preview header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53943",
+      "summary": "CVE ID :CVE-2026-53943\n  \n  Published : June 24, 2026, 6:13 p.m. | 4\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Ghost is a Node.js content management syst...",
+      "timestamp": 1782324784.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49980 - Rclone: Unauthenticated command execution in `rclone rcd --rc-serve` via inline remote instantiation, bypassing CVE-2026-41179 fix",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49980",
+      "summary": "CVE ID :CVE-2026-49980\n  \n  Published : June 24, 2026, 5:52 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Rclone is a command-line program to sync ...",
+      "timestamp": 1782323553.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-44016 - Docling: Unsafe Playwright-based HTML Rendering",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44016",
-      "summary": "CVE ID :CVE-2026-44016\n  \n  Published : June 24, 2026, 5:42 p.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :Docling simplifies document processing by...",
+      "summary": "CVE ID :CVE-2026-44016\n  \n  Published : June 24, 2026, 5:42 p.m. | 4\u00a0hours, 39\u00a0minutes ago\n  \n  Description :Docling simplifies document processing by...",
       "timestamp": 1782322962.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +149,7 @@
     {
       "title": "CVE-2026-48704 - Warp Markdown notebook links may open executable local files",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48704",
-      "summary": "CVE ID :CVE-2026-48704\n  \n  Published : June 24, 2026, 5:35 p.m. | 2\u00a0hours, 46\u00a0minutes ago\n  \n  Description :Warp is an agentic development environmen...",
+      "summary": "CVE ID :CVE-2026-48704\n  \n  Published : June 24, 2026, 5:35 p.m. | 4\u00a0hours, 46\u00a0minutes ago\n  \n  Description :Warp is an agentic development environmen...",
       "timestamp": 1782322502.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,40 +157,8 @@
     {
       "title": "CVE-2026-48719 - Warp branch selector command injection via Git branch names",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48719",
-      "summary": "CVE ID :CVE-2026-48719\n  \n  Published : June 24, 2026, 5:33 p.m. | 2\u00a0hours, 47\u00a0minutes ago\n  \n  Description :Warp is an agentic development environmen...",
+      "summary": "CVE ID :CVE-2026-48719\n  \n  Published : June 24, 2026, 5:33 p.m. | 4\u00a0hours, 47\u00a0minutes ago\n  \n  Description :Warp is an agentic development environmen...",
       "timestamp": 1782322435.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48720 - Warp: SSH remote output can lead to local file overwrite and persistence",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48720",
-      "summary": "CVE ID :CVE-2026-48720\n  \n  Published : June 24, 2026, 5:32 p.m. | 2\u00a0hours, 48\u00a0minutes ago\n  \n  Description :Warp is an agentic development environmen...",
-      "timestamp": 1782322370.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48721 - Warp: Env-var prefixes can lead to denylisted command autoexecution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48721",
-      "summary": "CVE ID :CVE-2026-48721\n  \n  Published : June 24, 2026, 5:31 p.m. | 2\u00a0hours, 50\u00a0minutes ago\n  \n  Description :Warp is an agentic development environmen...",
-      "timestamp": 1782322275.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48732 - Warp: Remote SSH cwd can lead to unauthorized remote command execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48732",
-      "summary": "CVE ID :CVE-2026-48732\n  \n  Published : June 24, 2026, 5:29 p.m. | 2\u00a0hours, 52\u00a0minutes ago\n  \n  Description :Warp is an agentic development environmen...",
-      "timestamp": 1782322151.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48725 - Warp may allow terminal output to access the local clipboard through OSC 52",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48725",
-      "summary": "CVE ID :CVE-2026-48725\n  \n  Published : June 24, 2026, 5:22 p.m. | 2\u00a0hours, 58\u00a0minutes ago\n  \n  Description :Warp is an agentic development environmen...",
-      "timestamp": 1782321766.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -129,30 +169,6 @@
       "timestamp": 1782316800.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "CVE-2026-54904 - concurrent-ruby:  `AtomicReference#update` livelocks when the stored value is `Float::NAN`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54904",
-      "summary": "CVE ID :CVE-2026-54904\n  \n  Published : June 24, 2026, 3:44 p.m. | 4\u00a0hours, 37\u00a0minutes ago\n  \n  Description :concurrent-ruby is a modern concurrency t...",
-      "timestamp": 1782315861.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13164 - Unauthenticated self-registration in MailerUp allows access to stored email data",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13164",
-      "summary": "CVE ID :CVE-2026-13164\n  \n  Published : June 24, 2026, 3:37 p.m. | 4\u00a0hours, 44\u00a0minutes ago\n  \n  Description :Missing Authentication for Critical Funct...",
-      "timestamp": 1782315437.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56121 - Feast < 0.63.0 Unauthenticated RCE via ApplyFeatureView gRPC Deserialization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56121",
-      "summary": "CVE ID :CVE-2026-56121\n  \n  Published : June 24, 2026, 2:49 p.m. | 5\u00a0hours, 32\u00a0minutes ago\n  \n  Description :Feast before 0.63.0 contains an unsafe de...",
-      "timestamp": 1782312551.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CISA warns of max severity Ubiquiti flaws exploited in attacks",
@@ -207,22 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5095093-update-rolls-out-new-point-in-time-restore-feature/",
       "summary": "\u200b\u200bMicrosoft has released the KB5095093 preview cumulative update for Windows 11 24H2 and 25H2, which fixes numerous bugs and begins rolling out new fe...",
       "timestamp": 1782246141.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Healthtech firm Xolis suffers data breach impacting 1.4 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/",
-      "summary": "Healthcare technology company Xsolis says that sensitive data belonging to nearly 1.4 million individuals was compromised in a phishing attack that ga...",
-      "timestamp": 1782244752.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New macOS ClickFix attack silently mounts DMGs to push infostealer",
-      "link": "https://www.bleepingcomputer.com/news/security/new-macos-clickfix-attack-silently-mounts-dmgs-to-push-infostealer/",
-      "summary": "A new macOS ClickFix campaign is using Terminal commands to silently download, mount, and launch info-stealing malware from malicious disk image (DMG)...",
-      "timestamp": 1782239416.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -331,5 +331,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782335762.786979
+  "last_updated": 1782341638.7374365
 }
