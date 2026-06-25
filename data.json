@@ -52,16 +52,40 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 7,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-56091 - Apache Shiro: Authentication bypass in Guice-Web integration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56091",
+      "summary": "CVE ID :CVE-2026-56091\n  \n  Published : June 25, 2026, 8:45 a.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :When using Apache Shiro with the shiro-gui...",
+      "timestamp": 1782377119.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-41566 - Apache Kvrocks: Improper permission for the APPLYBATCH command",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41566",
+      "summary": "CVE ID :CVE-2026-41566\n  \n  Published : June 25, 2026, 8:04 a.m. | 2\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Improper Handling of Insufficient Permiss...",
+      "timestamp": 1782374665.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46752 - Apache Kvrocks: Stack buffer overflow in Lua bit.tohex()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46752",
+      "summary": "CVE ID :CVE-2026-46752\n  \n  Published : June 25, 2026, 8 a.m. | 2\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Redis Lua HEAP overflow in cjson library vul...",
+      "timestamp": 1782374418.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-12490 - Bypass of client certificate verification with transfer over TLS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12490",
-      "summary": "CVE ID :CVE-2026-12490\n  \n  Published : June 25, 2026, 5:24 a.m. | 2\u00a0hours, 10\u00a0minutes ago\n  \n  Description :When a provide-xfr is given with a tls-au...",
+      "summary": "CVE ID :CVE-2026-12490\n  \n  Published : June 25, 2026, 5:24 a.m. | 4\u00a0hours, 57\u00a0minutes ago\n  \n  Description :When a provide-xfr is given with a tls-au...",
       "timestamp": 1782365081.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +93,7 @@
     {
       "title": "CVE-2026-12245 - Denial of DNS over TLS service by any DoT client",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12245",
-      "summary": "CVE ID :CVE-2026-12245\n  \n  Published : June 25, 2026, 5:24 a.m. | 2\u00a0hours, 10\u00a0minutes ago\n  \n  Description :NSD from version 4.13.0 has a heap use-af...",
+      "summary": "CVE ID :CVE-2026-12245\n  \n  Published : June 25, 2026, 5:24 a.m. | 4\u00a0hours, 57\u00a0minutes ago\n  \n  Description :NSD from version 4.13.0 has a heap use-af...",
       "timestamp": 1782365058.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +101,7 @@
     {
       "title": "CVE-2026-12244 - Heap overflow and crash with crafted SVCB RR",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12244",
-      "summary": "CVE ID :CVE-2026-12244\n  \n  Published : June 25, 2026, 5:24 a.m. | 2\u00a0hours, 10\u00a0minutes ago\n  \n  Description :If NSD is configured as secondary for a z...",
+      "summary": "CVE ID :CVE-2026-12244\n  \n  Published : June 25, 2026, 5:24 a.m. | 4\u00a0hours, 57\u00a0minutes ago\n  \n  Description :If NSD is configured as secondary for a z...",
       "timestamp": 1782365048.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +109,7 @@
     {
       "title": "CVE-2026-10086 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10086",
-      "summary": "CVE ID :CVE-2026-10086\n  \n  Published : June 25, 2026, 5:03 a.m. | 2\u00a0hours, 31\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
+      "summary": "CVE ID :CVE-2026-10086\n  \n  Published : June 25, 2026, 5:03 a.m. | 5\u00a0hours, 18\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
       "timestamp": 1782363838.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +117,7 @@
     {
       "title": "CVE-2026-13311 - shell-quote parse() is quadratic in token count, enabling denial of service",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13311",
-      "summary": "CVE ID :CVE-2026-13311\n  \n  Published : June 25, 2026, 4:48 a.m. | 2\u00a0hours, 46\u00a0minutes ago\n  \n  Description :shell-quote prior to 1.8.5 finalizes pars...",
+      "summary": "CVE ID :CVE-2026-13311\n  \n  Published : June 25, 2026, 4:48 a.m. | 5\u00a0hours, 33\u00a0minutes ago\n  \n  Description :shell-quote prior to 1.8.5 finalizes pars...",
       "timestamp": 1782362916.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +125,7 @@
     {
       "title": "CVE-2026-10712 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10712",
-      "summary": "CVE ID :CVE-2026-10712\n  \n  Published : June 25, 2026, 4:33 a.m. | 3\u00a0hours, 1\u00a0minute ago\n  \n  Description :GitLab has remediated an issue in GitLab CE...",
+      "summary": "CVE ID :CVE-2026-10712\n  \n  Published : June 25, 2026, 4:33 a.m. | 5\u00a0hours, 48\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
       "timestamp": 1782362034.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,16 +133,8 @@
     {
       "title": "CVE-2026-12053 - Insertion of Sensitive Information into Log File in GitLab",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12053",
-      "summary": "CVE ID :CVE-2026-12053\n  \n  Published : June 25, 2026, 4:33 a.m. | 3\u00a0hours, 1\u00a0minute ago\n  \n  Description :GitLab has remediated an issue in GitLab EE...",
+      "summary": "CVE ID :CVE-2026-12053\n  \n  Published : June 25, 2026, 4:33 a.m. | 5\u00a0hours, 48\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
       "timestamp": 1782362024.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9155 - OS Command Injection in Rapid7 InsightConnect Sed Plugin via expression parameter.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9155",
-      "summary": "CVE ID :CVE-2026-9155\n  \n  Published : June 25, 2026, 12:25 a.m. | 7\u00a0hours, 9\u00a0minutes ago\n  \n  Description :OS Command Injection vulnerability in Rapi...",
-      "timestamp": 1782347122.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -129,22 +145,6 @@
       "timestamp": 1782344777.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-7569 - Quest NetVault Backup viewclient Cross-Site Scripting Authentication Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7569",
-      "summary": "CVE ID :CVE-2026-7569\n  \n  Published : June 24, 2026, 11:15 p.m. | 8\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Quest NetVault Backup viewclient Cross-Si...",
-      "timestamp": 1782342940.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9787 - Quest NetVault Backup NVBULogDaemon Command Injection Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9787",
-      "summary": "CVE ID :CVE-2026-9787\n  \n  Published : June 24, 2026, 11:15 p.m. | 8\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Quest NetVault Backup NVBULogDaemon Comma...",
-      "timestamp": 1782342919.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "DraftKings hacker 'Snoopy' sentenced to 18 months in prison",
@@ -321,15 +321,7 @@
       "timestamp": 1781314200.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
-      "timestamp": 1781296609.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782376456.2285495
+  "last_updated": 1782386508.7423477
 }
