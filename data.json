@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,91 +52,155 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-56091 - Apache Shiro: Authentication bypass in Guice-Web integration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56091",
-      "summary": "CVE ID :CVE-2026-56091\n  \n  Published : June 25, 2026, 8:45 a.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :When using Apache Shiro with the shiro-gui...",
-      "timestamp": 1782377119.0,
+      "title": "CVE-2026-56445 - pydicom pynetdicom Library Path Traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56445",
+      "summary": "CVE ID :CVE-2026-56445\n  \n  Published : June 25, 2026, 8:46 p.m. | 36\u00a0minutes ago\n  \n  Description :The qrscp application's C-STORE handler uses a spe...",
+      "timestamp": 1782420404.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-41566 - Apache Kvrocks: Improper permission for the APPLYBATCH command",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41566",
-      "summary": "CVE ID :CVE-2026-41566\n  \n  Published : June 25, 2026, 8:04 a.m. | 2\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Improper Handling of Insufficient Permiss...",
-      "timestamp": 1782374665.0,
+      "title": "CVE-2026-12473 - OHIF Viewers DICOM Server-Side request forgery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12473",
+      "summary": "CVE ID :CVE-2026-12473\n  \n  Published : June 25, 2026, 8:38 p.m. | 45\u00a0minutes ago\n  \n  Description :Two data sources (DICOMWebProxy and DICOMJSON) shi...",
+      "timestamp": 1782419912.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-46752 - Apache Kvrocks: Stack buffer overflow in Lua bit.tohex()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46752",
-      "summary": "CVE ID :CVE-2026-46752\n  \n  Published : June 25, 2026, 8 a.m. | 2\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Redis Lua HEAP overflow in cjson library vul...",
-      "timestamp": 1782374418.0,
+      "title": "CVE-2026-6679 - DTLS 1.3 ACK serialization heap buffer overflow via integer truncation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6679",
+      "summary": "CVE ID :CVE-2026-6679\n  \n  Published : June 25, 2026, 8:13 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :A heap buffer overflow could occur in the D...",
+      "timestamp": 1782418386.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12490 - Bypass of client certificate verification with transfer over TLS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12490",
-      "summary": "CVE ID :CVE-2026-12490\n  \n  Published : June 25, 2026, 5:24 a.m. | 4\u00a0hours, 57\u00a0minutes ago\n  \n  Description :When a provide-xfr is given with a tls-au...",
-      "timestamp": 1782365081.0,
+      "title": "Order-tracking app Shop abused to push callback phishing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
+      "summary": "Threat actors are increasingly abusing Shop, the order-tracking app from Shopify, by adding fake purchase receipts in users' order histories to trick ...",
+      "timestamp": 1782416748.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-11310 - X.509 trust-chain bypass in wolfSSL_X509_verify_cert() via untrusted intermediate anchoring",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11310",
+      "summary": "CVE ID :CVE-2026-11310\n  \n  Published : June 25, 2026, 7:38 p.m. | 1\u00a0hour, 45\u00a0minutes ago\n  \n  Description :X.509 trust-chain bypass in the OpenSSL co...",
+      "timestamp": 1782416299.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12245 - Denial of DNS over TLS service by any DoT client",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12245",
-      "summary": "CVE ID :CVE-2026-12245\n  \n  Published : June 25, 2026, 5:24 a.m. | 4\u00a0hours, 57\u00a0minutes ago\n  \n  Description :NSD from version 4.13.0 has a heap use-af...",
-      "timestamp": 1782365058.0,
+      "title": "CVE-2026-55958 - Renesas TSIP TLS 1.3 transcript buffer out-of-bounds write in tsip_StoreMessage",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55958",
+      "summary": "CVE ID :CVE-2026-55958\n  \n  Published : June 25, 2026, 7:35 p.m. | 1\u00a0hour, 48\u00a0minutes ago\n  \n  Description :Out-of-bounds write in the Renesas TSIP TL...",
+      "timestamp": 1782416121.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12244 - Heap overflow and crash with crafted SVCB RR",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12244",
-      "summary": "CVE ID :CVE-2026-12244\n  \n  Published : June 25, 2026, 5:24 a.m. | 4\u00a0hours, 57\u00a0minutes ago\n  \n  Description :If NSD is configured as secondary for a z...",
-      "timestamp": 1782365048.0,
+      "title": "CVE-2026-55960 - Un-negotiated Raw Public Key (RFC 7250) accepted in place of X.509, bypassing chain validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55960",
+      "summary": "CVE ID :CVE-2026-55960\n  \n  Published : June 25, 2026, 7:31 p.m. | 1\u00a0hour, 51\u00a0minutes ago\n  \n  Description :Un-negotiated Raw Public Key (RFC 7250) ac...",
+      "timestamp": 1782415915.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-10086 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10086",
-      "summary": "CVE ID :CVE-2026-10086\n  \n  Published : June 25, 2026, 5:03 a.m. | 5\u00a0hours, 18\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
-      "timestamp": 1782363838.0,
+      "title": "CVE-2026-50548 - Cursor Desktop sandbox escape via agent-controlled working directory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50548",
+      "summary": "CVE ID :CVE-2026-50548\n  \n  Published : June 25, 2026, 6:47 p.m. | 2\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Cursor is a code editor built for program...",
+      "timestamp": 1782413276.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-13311 - shell-quote parse() is quadratic in token count, enabling denial of service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13311",
-      "summary": "CVE ID :CVE-2026-13311\n  \n  Published : June 25, 2026, 4:48 a.m. | 5\u00a0hours, 33\u00a0minutes ago\n  \n  Description :shell-quote prior to 1.8.5 finalizes pars...",
-      "timestamp": 1782362916.0,
+      "title": "CVE-2026-50549 - Cursor Desktop sandbox escape via symlink and failed path canonicalization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50549",
+      "summary": "CVE ID :CVE-2026-50549\n  \n  Published : June 25, 2026, 6:47 p.m. | 2\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Cursor is a code editor built for program...",
+      "timestamp": 1782413265.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-10712 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10712",
-      "summary": "CVE ID :CVE-2026-10712\n  \n  Published : June 25, 2026, 4:33 a.m. | 5\u00a0hours, 48\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
-      "timestamp": 1782362034.0,
+      "title": "Microsoft quietly extends free Windows 10 ESU support to October 2027",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
+      "summary": "Microsoft has quietly extended its free Windows 10 Extended Security Updates (ESU) program for consumers by an additional year, allowing enrolled devi...",
+      "timestamp": 1782412160.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-56786 - RTKLIB 2.4.3 - Out-of-bounds Write in decode_type1033 via Crafted RTCM3 Message",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56786",
+      "summary": "CVE ID :CVE-2026-56786\n  \n  Published : June 25, 2026, 6:11 p.m. | 3\u00a0hours, 11\u00a0minutes ago\n  \n  Description :RTKLIB through 2.4.3 contains an out-of-b...",
+      "timestamp": 1782411115.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12053 - Insertion of Sensitive Information into Log File in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12053",
-      "summary": "CVE ID :CVE-2026-12053\n  \n  Published : June 25, 2026, 4:33 a.m. | 5\u00a0hours, 48\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
-      "timestamp": 1782362024.0,
+      "title": "CVE-2026-56771 - NewsBlur < 14.5.0 - Server-Side Request Forgery via add_url Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56771",
+      "summary": "CVE ID :CVE-2026-56771\n  \n  Published : June 25, 2026, 6:07 p.m. | 3\u00a0hours, 16\u00a0minutes ago\n  \n  Description :NewsBlur before version 14.5.0 contains a...",
+      "timestamp": 1782410851.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
+      "link": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
+      "summary": "A newly discovered\u00a0macOS malware dubbed \"Gaslight\" is designed to confuse AI-assisted malware analysis tools by hiding prompt injection strings and fa...",
+      "timestamp": 1782404599.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "PirloTV sports piracy network disrupted as 44 domains seized",
+      "link": "https://www.bleepingcomputer.com/news/security/pirlotv-sports-piracy-network-disrupted-as-44-domains-seized/",
+      "summary": "A major sports piracy ring linked to the illegal PirloTV streaming platform has been disrupted in an action that targeted 44 domains. [...]",
+      "timestamp": 1782401816.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Bluekit phishing kit adopts browser-in-the-middle for login theft",
+      "link": "https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/",
+      "summary": "The Bluekit phishing-as-a-service platform continues to evolve with nearly 70 new hostnames identified over the past week and by adding browser-in-the...",
+      "timestamp": 1782399600.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco Finesse Remote File Inclusion Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-rfi-gwpkdc89?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Remote%20File%20Inclusion%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in Cisco Finesse could allow an unauthenticated, remote attacker to load arbitrary files from remote locations into an active user ses...",
+      "timestamp": 1782397869.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "The Four Elevations of Effective Fraud Prevention",
+      "link": "https://www.bleepingcomputer.com/news/security/the-four-elevations-of-effective-fraud-prevention/",
+      "summary": "Fraudsters don't attack just one transaction. They target accounts, platforms, and entire ecosystems. IPQS explains the four elevations of fraud preve...",
+      "timestamp": 1782396071.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Webinar: Why account takeovers remain one of the hardest threats to stop",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/",
+      "summary": "Account takeover attacks continue to challenge security teams because attackers often operate through legitimate accounts and trusted services. This w...",
+      "timestamp": 1782389540.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Google releases new privacy controls for activity history, personalization",
@@ -163,68 +227,12 @@
       "vendor": "News"
     },
     {
-      "title": "Malicious Edge extension abuses Native Messaging as bridge to malware",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/",
-      "summary": "A malicious Microsoft Edge extension dubbed 'Edgecution' has been used in a ransomware attack to escape the browser sandbox and deploy a Python-based ...",
-      "timestamp": 1782334702.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of July 1, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-vwL7b0S7?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%201,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On July 1, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information alon...",
       "timestamp": 1782316800.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "CISA warns of max severity Ubiquiti flaws exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of hackers actively exploiting\u00a0flaws in\u00a0Ubiquity UniFi OS and\u00a0Lantronix se...",
-      "timestamp": 1782311715.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Amadey, StealC malware operations disrupted in Operation Endgame action",
-      "link": "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/",
-      "summary": "Microsoft, Europol, and international partners have disrupted infrastructure used by the Amadey and StealC malware operations as part of Operation End...",
-      "timestamp": 1782311711.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Securing the service desk: Why social engineering attacks keep succeeding",
-      "link": "https://www.bleepingcomputer.com/news/security/securing-the-service-desk-why-social-engineering-attacks-keep-succeeding/",
-      "summary": "Service desks have become a favored target for attackers seeking password resets, MFA changes, and access to corporate accounts. Specops Software brea...",
-      "timestamp": 1782309732.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Stealthy Mistic backdoor linked to ransomware access broker KongTuke",
-      "link": "https://www.bleepingcomputer.com/news/security/stealthy-mistic-backdoor-linked-to-ransomware-access-broker-kongtuke/",
-      "summary": "A new backdoor dubbed Mistic has been observed in financially motivated attacks targeting organizations in the insurance, education, IT, and professio...",
-      "timestamp": 1782297711.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
-      "summary": "A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks. [...]",
-      "timestamp": 1782251312.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Tata Electronics confirms cyberattack as hackers leak data",
-      "link": "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
-      "summary": "Tata Electronics has confirmed in a statement to BleepingComputer that it was the target of a cyberattack that impacted parts of its IT infrastructure...",
-      "timestamp": 1782248792.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
@@ -305,23 +313,7 @@
       "timestamp": 1781560851.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "CVE-2026-0249 GlobalProtect App: Certificate Validation Bypass Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0249",
-      "summary": "",
-      "timestamp": 1781315100.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
-      "summary": "",
-      "timestamp": 1781314200.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1782386508.7423477
+  "last_updated": 1782425550.5519428
 }
