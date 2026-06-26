@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,24 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-8797 - An access control deficiency vulnerability exists",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8797",
+      "summary": "CVE ID :CVE-2026-8797\n  \n  Published : June 26, 2026, 4:14 a.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :An access control deficiency vulnerability e...",
+      "timestamp": 1782447259.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-9222 - Setracker2 Children's Smartwatch Ecosystem Use of password hash instead of password for authentication",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9222",
-      "summary": "CVE ID :CVE-2026-9222\n  \n  Published : June 25, 2026, 11:29 p.m. | 4\u00a0hours, 53\u00a0minutes ago\n  \n  Description :Setracker2 Android Companion App com.tgel...",
+      "summary": "CVE ID :CVE-2026-9222\n  \n  Published : June 25, 2026, 11:29 p.m. | 6\u00a0hours, 47\u00a0minutes ago\n  \n  Description :Setracker2 Android Companion App com.tgel...",
       "timestamp": 1782430143.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +77,7 @@
     {
       "title": "CVE-2026-9221 - Setracker2 Children's Smartwatch Ecosystem Use of a Broken or Risky Cryptographic Algorithm",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9221",
-      "summary": "CVE ID :CVE-2026-9221\n  \n  Published : June 25, 2026, 11:27 p.m. | 4\u00a0hours, 54\u00a0minutes ago\n  \n  Description :The Setracker2 Android Companion App (com...",
+      "summary": "CVE ID :CVE-2026-9221\n  \n  Published : June 25, 2026, 11:27 p.m. | 6\u00a0hours, 48\u00a0minutes ago\n  \n  Description :The Setracker2 Android Companion App (com...",
       "timestamp": 1782430046.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +85,7 @@
     {
       "title": "CVE-2026-9220 - Setracker2 Children's Smartwatch Ecosystem Use of hard-coded cryptographic key",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9220",
-      "summary": "CVE ID :CVE-2026-9220\n  \n  Published : June 25, 2026, 11:13 p.m. | 5\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Setracker2 Android Companion App com.tgele...",
+      "summary": "CVE ID :CVE-2026-9220\n  \n  Published : June 25, 2026, 11:13 p.m. | 7\u00a0hours, 2\u00a0minutes ago\n  \n  Description :Setracker2 Android Companion App com.tgele...",
       "timestamp": 1782429221.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +93,7 @@
     {
       "title": "CVE-2026-9219 - Setracker2 Children's Smartwatch Ecosystem Generation of Predictable Numbers or Identifiers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9219",
-      "summary": "CVE ID :CVE-2026-9219\n  \n  Published : June 25, 2026, 11:10 p.m. | 5\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Setracker2 Android Companion App com.tgel...",
+      "summary": "CVE ID :CVE-2026-9219\n  \n  Published : June 25, 2026, 11:10 p.m. | 7\u00a0hours, 5\u00a0minutes ago\n  \n  Description :Setracker2 Android Companion App com.tgele...",
       "timestamp": 1782429019.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +117,7 @@
     {
       "title": "CVE-2026-22879 - VTK vtk-dicom heap-based buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-22879",
-      "summary": "CVE ID :CVE-2026-22879\n  \n  Published : June 25, 2026, 9:46 p.m. | 6\u00a0hours, 36\u00a0minutes ago\n  \n  Description :vtk vtk-dicom vtkDICOMItem::NewDataElemen...",
+      "summary": "CVE ID :CVE-2026-22879\n  \n  Published : June 25, 2026, 9:46 p.m. | 8\u00a0hours, 30\u00a0minutes ago\n  \n  Description :vtk vtk-dicom vtkDICOMItem::NewDataElemen...",
       "timestamp": 1782423960.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +125,7 @@
     {
       "title": "CVE-2025-71340 - picklescan - Remote Code Execution via idlelib.pyshell.ModifiedInterpreter.runcode",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-71340",
-      "summary": "CVE ID :CVE-2025-71340\n  \n  Published : June 25, 2026, 9:41 p.m. | 6\u00a0hours, 41\u00a0minutes ago\n  \n  Description :picklescan through 0.0.26 fails to detect...",
+      "summary": "CVE ID :CVE-2025-71340\n  \n  Published : June 25, 2026, 9:41 p.m. | 8\u00a0hours, 35\u00a0minutes ago\n  \n  Description :picklescan through 0.0.26 fails to detect...",
       "timestamp": 1782423668.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +133,7 @@
     {
       "title": "CVE-2025-71338 - Flowise - Arbitrary File Write to Remote Code Execution via document-store API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-71338",
-      "summary": "CVE ID :CVE-2025-71338\n  \n  Published : June 25, 2026, 9:41 p.m. | 6\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Flowise contains a path traversal vulnera...",
+      "summary": "CVE ID :CVE-2025-71338\n  \n  Published : June 25, 2026, 9:41 p.m. | 8\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Flowise contains a path traversal vulnera...",
       "timestamp": 1782423667.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,7 +141,7 @@
     {
       "title": "CVE-2025-71336 - Flowise - Unsandboxed Remote Code Execution via Custom MCP",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-71336",
-      "summary": "CVE ID :CVE-2025-71336\n  \n  Published : June 25, 2026, 9:41 p.m. | 6\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Flowise before 3.0.6 (affected versions 2...",
+      "summary": "CVE ID :CVE-2025-71336\n  \n  Published : June 25, 2026, 9:41 p.m. | 8\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Flowise before 3.0.6 (affected versions 2...",
       "timestamp": 1782423666.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -141,16 +149,8 @@
     {
       "title": "CVE-2025-71335 - Flowise - Session Invalidation Failure After Password Change",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-71335",
-      "summary": "CVE ID :CVE-2025-71335\n  \n  Published : June 25, 2026, 9:41 p.m. | 6\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Flowise before 3.0.10 (affected versions ...",
+      "summary": "CVE ID :CVE-2025-71335\n  \n  Published : June 25, 2026, 9:41 p.m. | 8\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Flowise before 3.0.10 (affected versions ...",
       "timestamp": 1782423666.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-71334 - Flowise - Arbitrary File Access via Missing Chat Flow ID Validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71334",
-      "summary": "CVE ID :CVE-2025-71334\n  \n  Published : June 25, 2026, 9:41 p.m. | 6\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Flowise before 3.0.6 (affected versions 2...",
-      "timestamp": 1782423665.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -315,5 +315,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782448224.4914572
+  "last_updated": 1782461757.5809636
 }
