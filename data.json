@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-32833 - Cudy LT300 3.0 OS Command Injection via NTP Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32833",
+      "summary": "CVE ID :CVE-2026-32833\n  \n  Published : June 26, 2026, 7:54 p.m. | 28\u00a0minutes ago\n  \n  Description :Cudy LT300 3.0 running firmware prior to version 2...",
+      "timestamp": 1782503642.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
@@ -83,82 +91,74 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-33646 - mise: Arbitrary Code Execution via Tera Templates in .tool-versions Files (Trust Bypass)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33646",
+      "summary": "CVE ID :CVE-2026-33646\n  \n  Published : June 26, 2026, 4:51 p.m. | 3\u00a0hours, 30\u00a0minutes ago\n  \n  Description :mise manages dev tools like node, python,...",
+      "timestamp": 1782492704.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55441 - mise: Arbitrary command execution via task-include files in an untrusted, config-less repository",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55441",
+      "summary": "CVE ID :CVE-2026-55441\n  \n  Published : June 26, 2026, 4:48 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :mise manages dev tools like node, python,...",
+      "timestamp": 1782492503.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56876 - extract-zip unvalidated symlink path traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56876",
+      "summary": "CVE ID :CVE-2026-56876\n  \n  Published : June 26, 2026, 4:44 p.m. | 3\u00a0hours, 38\u00a0minutes ago\n  \n  Description :extract-zip does not validate symlink tar...",
+      "timestamp": 1782492269.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54636 - Dokku: OS Command Injection via app.json managed Cron",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54636",
+      "summary": "CVE ID :CVE-2026-54636\n  \n  Published : June 26, 2026, 4:23 p.m. | 3\u00a0hours, 58\u00a0minutes ago\n  \n  Description :Dokku is a docker-powered PaaS. Prior to ...",
+      "timestamp": 1782491038.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45405 - Dokku: Arbitrary File Write via Tar Symlink Traversal in git:from-archive and certs:add",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45405",
+      "summary": "CVE ID :CVE-2026-45405\n  \n  Published : June 26, 2026, 4:23 p.m. | 3\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Dokku is a docker-powered PaaS. Prior to ...",
+      "timestamp": 1782490985.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45406 - Dokku: Host RCE via Maliciously Named OpenResty Include Files Injected Through eval",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45406",
+      "summary": "CVE ID :CVE-2026-45406\n  \n  Published : June 26, 2026, 4:22 p.m. | 4\u00a0hours ago\n  \n  Description :Dokku is a docker-powered PaaS. Prior to 0.38.2, the ...",
+      "timestamp": 1782490937.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45408 - Dokku: OS Command Injection via App Name in Git Pre-Receive Hook",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45408",
+      "summary": "CVE ID :CVE-2026-45408\n  \n  Published : June 26, 2026, 4:19 p.m. | 4\u00a0hours, 2\u00a0minutes ago\n  \n  Description :Dokku is a docker-powered PaaS. Prior to 0...",
+      "timestamp": 1782490796.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56663 - AutoGPT: SSRF-to-RCE Chain in `SendWebRequestBlock` via IP validation bypass and internal `pg-meta` access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56663",
+      "summary": "CVE ID :CVE-2026-56663\n  \n  Published : June 26, 2026, 4:04 p.m. | 4\u00a0hours, 17\u00a0minutes ago\n  \n  Description :AutoGPT is a workflow automation platform...",
+      "timestamp": 1782489894.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-57518 - Pagekit CMS 1.0.18 Privilege Escalation via UserApiController",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57518",
-      "summary": "CVE ID :CVE-2026-57518\n  \n  Published : June 26, 2026, 3:58 p.m. | 2\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Pagekit CMS 1.0.18 contains a privilege e...",
+      "summary": "CVE ID :CVE-2026-57518\n  \n  Published : June 26, 2026, 3:58 p.m. | 4\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Pagekit CMS 1.0.18 contains a privilege e...",
       "timestamp": 1782489500.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12411 - Broken Access Control in Canonical LXD DevLXD API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12411",
-      "summary": "CVE ID :CVE-2026-12411\n  \n  Published : June 26, 2026, 3:27 p.m. | 2\u00a0hours, 54\u00a0minutes ago\n  \n  Description :Broken Access Control in the devLXDInstan...",
-      "timestamp": 1782487675.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57667 - WordPress Groundhogg plugin <= 4.5 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57667",
-      "summary": "CVE ID :CVE-2026-57667\n  \n  Published : June 26, 2026, 2:53 p.m. | 3\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Sales Representative SQL Injection in Gro...",
-      "timestamp": 1782485612.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57663 - WordPress Recipe Maker For Your Food Blog from Zip Recipes plugin <= 8.2.7 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57663",
-      "summary": "CVE ID :CVE-2026-57663\n  \n  Published : June 26, 2026, 2:53 p.m. | 3\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Contributor SQL Injection in Recipe Maker...",
-      "timestamp": 1782485610.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57662 - WordPress Contest Gallery plugin <= 30.0.0 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57662",
-      "summary": "CVE ID :CVE-2026-57662\n  \n  Published : June 26, 2026, 2:53 p.m. | 3\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Contributor SQL Injection in Contest Gall...",
-      "timestamp": 1782485609.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57659 - WordPress Paid Memberships Pro - Add Member From Admin plugin <= 0.7.2 - Cross Site Request Forgery (CSRF) vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57659",
-      "summary": "CVE ID :CVE-2026-57659\n  \n  Published : June 26, 2026, 2:53 p.m. | 3\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Unauthenticated Cross Site Request Forger...",
-      "timestamp": 1782485607.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57658 - WordPress TemplateSpare plugin <= 4.2.0 - Arbitrary File Upload vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57658",
-      "summary": "CVE ID :CVE-2026-57658\n  \n  Published : June 26, 2026, 2:53 p.m. | 3\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Administrator Arbitrary File Upload in Te...",
-      "timestamp": 1782485606.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57655 - WordPress Child theme Wizard plugin <= 1.4 - Cross Site Request Forgery (CSRF) vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57655",
-      "summary": "CVE ID :CVE-2026-57655\n  \n  Published : June 26, 2026, 2:53 p.m. | 3\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Unauthenticated Cross Site Request Forger...",
-      "timestamp": 1782485604.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57653 - WordPress WP Job Portal plugin <= 2.5.2 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57653",
-      "summary": "CVE ID :CVE-2026-57653\n  \n  Published : June 26, 2026, 2:53 p.m. | 3\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Contributor SQL Injection in WP Job Porta...",
-      "timestamp": 1782485603.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57645 - WordPress Newsletters plugin <= 4.13 - Broken Access Control vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57645",
-      "summary": "CVE ID :CVE-2026-57645\n  \n  Published : June 26, 2026, 2:53 p.m. | 3\u00a0hours, 29\u00a0minutes ago\n  \n  Description :newsletters_subscribers Broken Access Con...",
-      "timestamp": 1782485598.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -315,5 +315,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782504508.7847383
+  "last_updated": 1782510074.5293245
 }
