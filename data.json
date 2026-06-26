@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 7,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,14 +24,14 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 8,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,26 +59,98 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-56445 - pydicom pynetdicom Library Path Traversal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56445",
-      "summary": "CVE ID :CVE-2026-56445\n  \n  Published : June 25, 2026, 8:46 p.m. | 36\u00a0minutes ago\n  \n  Description :The qrscp application's C-STORE handler uses a spe...",
-      "timestamp": 1782420404.0,
+      "title": "CVE-2026-9222 - Setracker2 Children's Smartwatch Ecosystem Use of password hash instead of password for authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9222",
+      "summary": "CVE ID :CVE-2026-9222\n  \n  Published : June 25, 2026, 11:29 p.m. | 4\u00a0hours, 53\u00a0minutes ago\n  \n  Description :Setracker2 Android Companion App com.tgel...",
+      "timestamp": 1782430143.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12473 - OHIF Viewers DICOM Server-Side request forgery",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12473",
-      "summary": "CVE ID :CVE-2026-12473\n  \n  Published : June 25, 2026, 8:38 p.m. | 45\u00a0minutes ago\n  \n  Description :Two data sources (DICOMWebProxy and DICOMJSON) shi...",
-      "timestamp": 1782419912.0,
+      "title": "CVE-2026-9221 - Setracker2 Children's Smartwatch Ecosystem Use of a Broken or Risky Cryptographic Algorithm",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9221",
+      "summary": "CVE ID :CVE-2026-9221\n  \n  Published : June 25, 2026, 11:27 p.m. | 4\u00a0hours, 54\u00a0minutes ago\n  \n  Description :The Setracker2 Android Companion App (com...",
+      "timestamp": 1782430046.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-6679 - DTLS 1.3 ACK serialization heap buffer overflow via integer truncation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6679",
-      "summary": "CVE ID :CVE-2026-6679\n  \n  Published : June 25, 2026, 8:13 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :A heap buffer overflow could occur in the D...",
-      "timestamp": 1782418386.0,
+      "title": "CVE-2026-9220 - Setracker2 Children's Smartwatch Ecosystem Use of hard-coded cryptographic key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9220",
+      "summary": "CVE ID :CVE-2026-9220\n  \n  Published : June 25, 2026, 11:13 p.m. | 5\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Setracker2 Android Companion App com.tgele...",
+      "timestamp": 1782429221.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-9219 - Setracker2 Children's Smartwatch Ecosystem Generation of Predictable Numbers or Identifiers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9219",
+      "summary": "CVE ID :CVE-2026-9219\n  \n  Published : June 25, 2026, 11:10 p.m. | 5\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Setracker2 Android Companion App com.tgel...",
+      "timestamp": 1782429019.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/",
+      "summary": "Anthropic appears to be testing Claude Cowork support on mobile, allowing you to manage\u00a0long-running Claude tasks from your phone. [...]",
+      "timestamp": 1782428012.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Poland busts SIM-swapping gang tied to millions in crypto theft",
+      "link": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
+      "summary": "Authorities in Poland have arrested four members of an organized cybercrime group accused of breaching telecommunications partners and hijacking email...",
+      "timestamp": 1782427062.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-22879 - VTK vtk-dicom heap-based buffer overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22879",
+      "summary": "CVE ID :CVE-2026-22879\n  \n  Published : June 25, 2026, 9:46 p.m. | 6\u00a0hours, 36\u00a0minutes ago\n  \n  Description :vtk vtk-dicom vtkDICOMItem::NewDataElemen...",
+      "timestamp": 1782423960.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-71340 - picklescan - Remote Code Execution via idlelib.pyshell.ModifiedInterpreter.runcode",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71340",
+      "summary": "CVE ID :CVE-2025-71340\n  \n  Published : June 25, 2026, 9:41 p.m. | 6\u00a0hours, 41\u00a0minutes ago\n  \n  Description :picklescan through 0.0.26 fails to detect...",
+      "timestamp": 1782423668.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-71338 - Flowise - Arbitrary File Write to Remote Code Execution via document-store API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71338",
+      "summary": "CVE ID :CVE-2025-71338\n  \n  Published : June 25, 2026, 9:41 p.m. | 6\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Flowise contains a path traversal vulnera...",
+      "timestamp": 1782423667.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-71336 - Flowise - Unsandboxed Remote Code Execution via Custom MCP",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71336",
+      "summary": "CVE ID :CVE-2025-71336\n  \n  Published : June 25, 2026, 9:41 p.m. | 6\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Flowise before 3.0.6 (affected versions 2...",
+      "timestamp": 1782423666.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-71335 - Flowise - Session Invalidation Failure After Password Change",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71335",
+      "summary": "CVE ID :CVE-2025-71335\n  \n  Published : June 25, 2026, 9:41 p.m. | 6\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Flowise before 3.0.10 (affected versions ...",
+      "timestamp": 1782423666.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-71334 - Flowise - Arbitrary File Access via Missing Chat Flow ID Validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71334",
+      "summary": "CVE ID :CVE-2025-71334\n  \n  Published : June 25, 2026, 9:41 p.m. | 6\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Flowise before 3.0.6 (affected versions 2...",
+      "timestamp": 1782423665.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -91,68 +163,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-11310 - X.509 trust-chain bypass in wolfSSL_X509_verify_cert() via untrusted intermediate anchoring",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11310",
-      "summary": "CVE ID :CVE-2026-11310\n  \n  Published : June 25, 2026, 7:38 p.m. | 1\u00a0hour, 45\u00a0minutes ago\n  \n  Description :X.509 trust-chain bypass in the OpenSSL co...",
-      "timestamp": 1782416299.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55958 - Renesas TSIP TLS 1.3 transcript buffer out-of-bounds write in tsip_StoreMessage",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55958",
-      "summary": "CVE ID :CVE-2026-55958\n  \n  Published : June 25, 2026, 7:35 p.m. | 1\u00a0hour, 48\u00a0minutes ago\n  \n  Description :Out-of-bounds write in the Renesas TSIP TL...",
-      "timestamp": 1782416121.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55960 - Un-negotiated Raw Public Key (RFC 7250) accepted in place of X.509, bypassing chain validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55960",
-      "summary": "CVE ID :CVE-2026-55960\n  \n  Published : June 25, 2026, 7:31 p.m. | 1\u00a0hour, 51\u00a0minutes ago\n  \n  Description :Un-negotiated Raw Public Key (RFC 7250) ac...",
-      "timestamp": 1782415915.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50548 - Cursor Desktop sandbox escape via agent-controlled working directory",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50548",
-      "summary": "CVE ID :CVE-2026-50548\n  \n  Published : June 25, 2026, 6:47 p.m. | 2\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Cursor is a code editor built for program...",
-      "timestamp": 1782413276.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50549 - Cursor Desktop sandbox escape via symlink and failed path canonicalization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50549",
-      "summary": "CVE ID :CVE-2026-50549\n  \n  Published : June 25, 2026, 6:47 p.m. | 2\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Cursor is a code editor built for program...",
-      "timestamp": 1782413265.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Microsoft quietly extends free Windows 10 ESU support to October 2027",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
       "summary": "Microsoft has quietly extended its free Windows 10 Extended Security Updates (ESU) program for consumers by an additional year, allowing enrolled devi...",
       "timestamp": 1782412160.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-56786 - RTKLIB 2.4.3 - Out-of-bounds Write in decode_type1033 via Crafted RTCM3 Message",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56786",
-      "summary": "CVE ID :CVE-2026-56786\n  \n  Published : June 25, 2026, 6:11 p.m. | 3\u00a0hours, 11\u00a0minutes ago\n  \n  Description :RTKLIB through 2.4.3 contains an out-of-b...",
-      "timestamp": 1782411115.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56771 - NewsBlur < 14.5.0 - Server-Side Request Forgery via add_url Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56771",
-      "summary": "CVE ID :CVE-2026-56771\n  \n  Published : June 25, 2026, 6:07 p.m. | 3\u00a0hours, 16\u00a0minutes ago\n  \n  Description :NewsBlur before version 14.5.0 contains a...",
-      "timestamp": 1782410851.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
@@ -207,22 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/google/google-releases-new-privacy-controls-for-activity-history-personalization/",
       "summary": "Google is rolling out new privacy controls for Search services and Google Play, giving you more control over saved history and personalized recommenda...",
       "timestamp": 1782344777.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "DraftKings hacker 'Snoopy' sentenced to 18 months in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/draftkings-hacker-snoopy-sentenced-to-18-months-in-prison/",
-      "summary": "A 21-year-old using the alias \"Snoopy\" was sentenced to 18 months in prison for his role in hacking DraftKings accounts in\u00a0the November 2022 cyberatta...",
-      "timestamp": 1782338143.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Mandiant reveals how Cisco SD-WAN zero-day attacks gained root access",
-      "link": "https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/",
-      "summary": "New details have been revealed on how hackers exploited a Cisco Catalyst SD-WAN vulnerability tracked as CVE-2026-20245 in zero-day attacks to create ...",
-      "timestamp": 1782336550.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -315,5 +315,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782425550.5519428
+  "last_updated": 1782448224.4914572
 }
