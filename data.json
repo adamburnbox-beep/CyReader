@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,24 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 9,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "FBI: Russian hackers now target Signal backup recovery keys",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
+      "summary": "The FBI and CISA are warning that a phishing campaign targeting Signal users tied to Russian intelligence services has evolved to steal Signal Backup ...",
+      "timestamp": 1782511577.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "CVE-2026-32833 - Cudy LT300 3.0 OS Command Injection via NTP Configuration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-32833",
-      "summary": "CVE ID :CVE-2026-32833\n  \n  Published : June 26, 2026, 7:54 p.m. | 28\u00a0minutes ago\n  \n  Description :Cudy LT300 3.0 running firmware prior to version 2...",
+      "summary": "CVE ID :CVE-2026-32833\n  \n  Published : June 26, 2026, 7:54 p.m. | 2\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Cudy LT300 3.0 running firmware prior to ...",
       "timestamp": 1782503642.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -73,6 +81,46 @@
       "timestamp": 1782502986.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-52780 - OpenProject: Cache store poisoning leads to Remote Code Execution (RCE)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52780",
+      "summary": "CVE ID :CVE-2026-52780\n  \n  Published : June 26, 2026, 7:09 p.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :OpenProject is open-source, web-based pro...",
+      "timestamp": 1782500961.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52782 - OpenProject: IDOR through /projects/<A>/settings/project_storages/<A_ps_id> via PATCH parameter \"storages_project_storage[project_folder_id]\" leads to Access to Unauthorized Resources",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52782",
+      "summary": "CVE ID :CVE-2026-52782\n  \n  Published : June 26, 2026, 6:59 p.m. | 3\u00a0hours, 23\u00a0minutes ago\n  \n  Description :OpenProject is open-source, web-based pro...",
+      "timestamp": 1782500367.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52783 - OpenProject: Information Disclosure (cleartext storage of data) on localhost through memcached via Others \"storage.<id>.httpx_access_token\" leads to Sensitive Data Exposure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52783",
+      "summary": "CVE ID :CVE-2026-52783\n  \n  Published : June 26, 2026, 6:57 p.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :OpenProject is open-source, web-based pro...",
+      "timestamp": 1782500278.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52784 - OpenProject: CSRF on TARGET through /users/:id via POST parameter \"user[admin]\"",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52784",
+      "summary": "CVE ID :CVE-2026-52784\n  \n  Published : June 26, 2026, 6:56 p.m. | 3\u00a0hours, 26\u00a0minutes ago\n  \n  Description :OpenProject is open-source, web-based pro...",
+      "timestamp": 1782500166.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52785 - OpenProject: SQL injection in timestamps functionality",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52785",
+      "summary": "CVE ID :CVE-2026-52785\n  \n  Published : June 26, 2026, 6:54 p.m. | 3\u00a0hours, 28\u00a0minutes ago\n  \n  Description :OpenProject is open-source, web-based pro...",
+      "timestamp": 1782500043.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Polymarket customers lose $3 million in supply-chain attack",
@@ -93,7 +141,7 @@
     {
       "title": "CVE-2026-33646 - mise: Arbitrary Code Execution via Tera Templates in .tool-versions Files (Trust Bypass)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-33646",
-      "summary": "CVE ID :CVE-2026-33646\n  \n  Published : June 26, 2026, 4:51 p.m. | 3\u00a0hours, 30\u00a0minutes ago\n  \n  Description :mise manages dev tools like node, python,...",
+      "summary": "CVE ID :CVE-2026-33646\n  \n  Published : June 26, 2026, 4:51 p.m. | 5\u00a0hours, 30\u00a0minutes ago\n  \n  Description :mise manages dev tools like node, python,...",
       "timestamp": 1782492704.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +149,7 @@
     {
       "title": "CVE-2026-55441 - mise: Arbitrary command execution via task-include files in an untrusted, config-less repository",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55441",
-      "summary": "CVE ID :CVE-2026-55441\n  \n  Published : June 26, 2026, 4:48 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :mise manages dev tools like node, python,...",
+      "summary": "CVE ID :CVE-2026-55441\n  \n  Published : June 26, 2026, 4:48 p.m. | 5\u00a0hours, 34\u00a0minutes ago\n  \n  Description :mise manages dev tools like node, python,...",
       "timestamp": 1782492503.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +157,7 @@
     {
       "title": "CVE-2026-56876 - extract-zip unvalidated symlink path traversal",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56876",
-      "summary": "CVE ID :CVE-2026-56876\n  \n  Published : June 26, 2026, 4:44 p.m. | 3\u00a0hours, 38\u00a0minutes ago\n  \n  Description :extract-zip does not validate symlink tar...",
+      "summary": "CVE ID :CVE-2026-56876\n  \n  Published : June 26, 2026, 4:44 p.m. | 5\u00a0hours, 38\u00a0minutes ago\n  \n  Description :extract-zip does not validate symlink tar...",
       "timestamp": 1782492269.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,48 +165,8 @@
     {
       "title": "CVE-2026-54636 - Dokku: OS Command Injection via app.json managed Cron",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54636",
-      "summary": "CVE ID :CVE-2026-54636\n  \n  Published : June 26, 2026, 4:23 p.m. | 3\u00a0hours, 58\u00a0minutes ago\n  \n  Description :Dokku is a docker-powered PaaS. Prior to ...",
+      "summary": "CVE ID :CVE-2026-54636\n  \n  Published : June 26, 2026, 4:23 p.m. | 5\u00a0hours, 58\u00a0minutes ago\n  \n  Description :Dokku is a docker-powered PaaS. Prior to ...",
       "timestamp": 1782491038.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45405 - Dokku: Arbitrary File Write via Tar Symlink Traversal in git:from-archive and certs:add",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45405",
-      "summary": "CVE ID :CVE-2026-45405\n  \n  Published : June 26, 2026, 4:23 p.m. | 3\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Dokku is a docker-powered PaaS. Prior to ...",
-      "timestamp": 1782490985.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45406 - Dokku: Host RCE via Maliciously Named OpenResty Include Files Injected Through eval",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45406",
-      "summary": "CVE ID :CVE-2026-45406\n  \n  Published : June 26, 2026, 4:22 p.m. | 4\u00a0hours ago\n  \n  Description :Dokku is a docker-powered PaaS. Prior to 0.38.2, the ...",
-      "timestamp": 1782490937.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45408 - Dokku: OS Command Injection via App Name in Git Pre-Receive Hook",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45408",
-      "summary": "CVE ID :CVE-2026-45408\n  \n  Published : June 26, 2026, 4:19 p.m. | 4\u00a0hours, 2\u00a0minutes ago\n  \n  Description :Dokku is a docker-powered PaaS. Prior to 0...",
-      "timestamp": 1782490796.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56663 - AutoGPT: SSRF-to-RCE Chain in `SendWebRequestBlock` via IP validation bypass and internal `pg-meta` access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56663",
-      "summary": "CVE ID :CVE-2026-56663\n  \n  Published : June 26, 2026, 4:04 p.m. | 4\u00a0hours, 17\u00a0minutes ago\n  \n  Description :AutoGPT is a workflow automation platform...",
-      "timestamp": 1782489894.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57518 - Pagekit CMS 1.0.18 Privilege Escalation via UserApiController",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57518",
-      "summary": "CVE ID :CVE-2026-57518\n  \n  Published : June 26, 2026, 3:58 p.m. | 4\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Pagekit CMS 1.0.18 contains a privilege e...",
-      "timestamp": 1782489500.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
       "summary": "A newly discovered\u00a0macOS malware dubbed \"Gaslight\" is designed to confuse AI-assisted malware analysis tools by hiding prompt injection strings and fa...",
       "timestamp": 1782404599.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "PirloTV sports piracy network disrupted as 44 domains seized",
-      "link": "https://www.bleepingcomputer.com/news/security/pirlotv-sports-piracy-network-disrupted-as-44-domains-seized/",
-      "summary": "A major sports piracy ring linked to the illegal PirloTV streaming platform has been disrupted in an action that targeted 44 domains. [...]",
-      "timestamp": 1782401816.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -315,5 +315,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782510074.5293245
+  "last_updated": 1782514311.2482579
 }
