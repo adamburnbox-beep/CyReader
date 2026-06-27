@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,52 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 5,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-56414 - H.VIEW HV-500S6 IP Camera Unrestricted Upload of File with Dangerous Type",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56414",
+      "summary": "CVE ID :CVE-2026-56414\n  \n  Published : June 26, 2026, 11 p.m. | 35\u00a0minutes ago\n  \n  Description :A vulnerability exists in H.View IP cameras certific...",
+      "timestamp": 1782514839.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55975 - H.VIEW HV-500S6 IP Camera OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55975",
+      "summary": "CVE ID :CVE-2026-55975\n  \n  Published : June 26, 2026, 10:58 p.m. | 37\u00a0minutes ago\n  \n  Description :A vulnerability exists in H.View IP cameras that ...",
+      "timestamp": 1782514732.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-31928 - Daktronics Controller Firmware Use of Hard-coded Credentials",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-31928",
+      "summary": "CVE ID :CVE-2026-31928\n  \n  Published : June 26, 2026, 10:52 p.m. | 43\u00a0minutes ago\n  \n  Description :The DMP-5000 devices are shipped with a default a...",
+      "timestamp": 1782514371.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-33560 - Daktronics Controller Firmware Unrestricted Upload of File with Dangerous Type",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33560",
+      "summary": "CVE ID :CVE-2026-33560\n  \n  Published : June 26, 2026, 10:48 p.m. | 46\u00a0minutes ago\n  \n  Description :The DMP-5000 file service exposes authenticated a...",
+      "timestamp": 1782514136.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-28701 - Daktronics Controller Firmware Path Traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28701",
+      "summary": "CVE ID :CVE-2026-28701\n  \n  Published : June 26, 2026, 10:40 p.m. | 55\u00a0minutes ago\n  \n  Description :Various versions of Daktronics Controller Firmwar...",
+      "timestamp": 1782513603.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "FBI: Russian hackers now target Signal backup recovery keys",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
@@ -67,10 +107,42 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-32833 - Cudy LT300 3.0 OS Command Injection via NTP Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32833",
-      "summary": "CVE ID :CVE-2026-32833\n  \n  Published : June 26, 2026, 7:54 p.m. | 2\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Cudy LT300 3.0 running firmware prior to ...",
-      "timestamp": 1782503642.0,
+      "title": "CVE-2026-49869 - Kestra: Unauthenticated Remote Code Execution via Authentication Bypass in `AuthenticationFilter`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49869",
+      "summary": "CVE ID :CVE-2026-49869\n  \n  Published : June 26, 2026, 8:58 p.m. | 2\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Kestra is an open-source, event-driven or...",
+      "timestamp": 1782507499.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53576 - Kestra: Unauthenticated RCE via /configs path-suffix auth-filter bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53576",
+      "summary": "CVE ID :CVE-2026-53576\n  \n  Published : June 26, 2026, 8:54 p.m. | 2\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Kestra is an open-source, event-driven or...",
+      "timestamp": 1782507248.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55069 - Kestra BasicAuth Password Stored as SHA-512 Enables Offline Brute-Force Attack",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55069",
+      "summary": "CVE ID :CVE-2026-55069\n  \n  Published : June 26, 2026, 8:50 p.m. | 2\u00a0hours, 45\u00a0minutes ago\n  \n  Description :Kestra is an open-source, event-driven or...",
+      "timestamp": 1782507009.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54351 - Budibase: Mass Assignment in Webhook Trigger Allows Cross-Workspace Automation Execution via appId Override",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54351",
+      "summary": "CVE ID :CVE-2026-54351\n  \n  Published : June 26, 2026, 8:45 p.m. | 2\u00a0hours, 50\u00a0minutes ago\n  \n  Description :Budibase is an open-source low-code platf...",
+      "timestamp": 1782506735.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54353 - Budibase: Potential SSRF DNS rebinding bypass in outbound fetch validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54353",
+      "summary": "CVE ID :CVE-2026-54353\n  \n  Published : June 26, 2026, 8:44 p.m. | 2\u00a0hours, 51\u00a0minutes ago\n  \n  Description :Budibase is an open-source low-code platf...",
+      "timestamp": 1782506692.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -81,46 +153,6 @@
       "timestamp": 1782502986.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-52780 - OpenProject: Cache store poisoning leads to Remote Code Execution (RCE)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52780",
-      "summary": "CVE ID :CVE-2026-52780\n  \n  Published : June 26, 2026, 7:09 p.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :OpenProject is open-source, web-based pro...",
-      "timestamp": 1782500961.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52782 - OpenProject: IDOR through /projects/<A>/settings/project_storages/<A_ps_id> via PATCH parameter \"storages_project_storage[project_folder_id]\" leads to Access to Unauthorized Resources",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52782",
-      "summary": "CVE ID :CVE-2026-52782\n  \n  Published : June 26, 2026, 6:59 p.m. | 3\u00a0hours, 23\u00a0minutes ago\n  \n  Description :OpenProject is open-source, web-based pro...",
-      "timestamp": 1782500367.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52783 - OpenProject: Information Disclosure (cleartext storage of data) on localhost through memcached via Others \"storage.<id>.httpx_access_token\" leads to Sensitive Data Exposure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52783",
-      "summary": "CVE ID :CVE-2026-52783\n  \n  Published : June 26, 2026, 6:57 p.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :OpenProject is open-source, web-based pro...",
-      "timestamp": 1782500278.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52784 - OpenProject: CSRF on TARGET through /users/:id via POST parameter \"user[admin]\"",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52784",
-      "summary": "CVE ID :CVE-2026-52784\n  \n  Published : June 26, 2026, 6:56 p.m. | 3\u00a0hours, 26\u00a0minutes ago\n  \n  Description :OpenProject is open-source, web-based pro...",
-      "timestamp": 1782500166.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52785 - OpenProject: SQL injection in timestamps functionality",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52785",
-      "summary": "CVE ID :CVE-2026-52785\n  \n  Published : June 26, 2026, 6:54 p.m. | 3\u00a0hours, 28\u00a0minutes ago\n  \n  Description :OpenProject is open-source, web-based pro...",
-      "timestamp": 1782500043.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Polymarket customers lose $3 million in supply-chain attack",
@@ -137,38 +169,6 @@
       "timestamp": 1782496147.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-33646 - mise: Arbitrary Code Execution via Tera Templates in .tool-versions Files (Trust Bypass)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33646",
-      "summary": "CVE ID :CVE-2026-33646\n  \n  Published : June 26, 2026, 4:51 p.m. | 5\u00a0hours, 30\u00a0minutes ago\n  \n  Description :mise manages dev tools like node, python,...",
-      "timestamp": 1782492704.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55441 - mise: Arbitrary command execution via task-include files in an untrusted, config-less repository",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55441",
-      "summary": "CVE ID :CVE-2026-55441\n  \n  Published : June 26, 2026, 4:48 p.m. | 5\u00a0hours, 34\u00a0minutes ago\n  \n  Description :mise manages dev tools like node, python,...",
-      "timestamp": 1782492503.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56876 - extract-zip unvalidated symlink path traversal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56876",
-      "summary": "CVE ID :CVE-2026-56876\n  \n  Published : June 26, 2026, 4:44 p.m. | 5\u00a0hours, 38\u00a0minutes ago\n  \n  Description :extract-zip does not validate symlink tar...",
-      "timestamp": 1782492269.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54636 - Dokku: OS Command Injection via app.json managed Cron",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54636",
-      "summary": "CVE ID :CVE-2026-54636\n  \n  Published : June 26, 2026, 4:23 p.m. | 5\u00a0hours, 58\u00a0minutes ago\n  \n  Description :Dokku is a docker-powered PaaS. Prior to ...",
-      "timestamp": 1782491038.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
@@ -315,5 +315,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782514311.2482579
+  "last_updated": 1782519770.874006
 }
