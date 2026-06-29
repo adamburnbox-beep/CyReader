@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 5,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,8 +31,8 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 3,
-      "total_count": 10,
+      "new_count": 0,
+      "total_count": 0,
       "status": "ok"
     },
     {
@@ -52,12 +52,36 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Microsoft extends Windows Server 2022 hotpatching until October 2027",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-extends-windows-server-2022-hotpatching-until-october-2027/",
+      "summary": "Microsoft has extended Windows Server 2022 hotpatching until October 2027, one year after the mainstream end date of October 2026. [...]",
+      "timestamp": 1782753075.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "U.S. offers $10 million for hackers targeting WhatsApp, Signal users",
+      "link": "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
+      "summary": "The U.S. Department of State is offering up to $10 million for information that helps identify or locate members of the UNC5792 and UNC4221 hacker gro...",
+      "timestamp": 1782745783.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-56290 - Joomla Extension - joomlack.fr - Unauthenticated file upload in Page Builder CK extension < 3.6.0",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56290",
+      "summary": "CVE ID :CVE-2026-56290\n  \n  Published : June 29, 2026, 2:31 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :The Joomla extension Page Builder CK is vul...",
+      "timestamp": 1782743497.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Agentic AI Has an Identity Problem and Attackers Know It",
       "link": "https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/",
@@ -75,12 +99,68 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-56124 - phpUploader < 2.0.2 Unauthenticated Database Exposure via index model",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56124",
+      "summary": "CVE ID :CVE-2026-56124\n  \n  Published : June 29, 2026, 1:47 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :phpUploader before 2.0.2 contains an unaut...",
+      "timestamp": 1782740841.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Hackers now exploit critical Oracle E-Business flaw in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
       "summary": "Attackers have begun exploiting a critical vulnerability (CVE-2026-46817) in the Oracle E-Business Suite (EBS) financial application, according to thr...",
       "timestamp": 1782740777.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-57331 - WordPress Paid Videochat Turnkey Site plugin <= 7.4.8 - Arbitrary File Deletion vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57331",
+      "summary": "CVE ID :CVE-2026-57331\n  \n  Published : June 29, 2026, 1:36 p.m. | 2\u00a0hours ago\n  \n  Description :Performer Arbitrary File Deletion in Paid Videochat T...",
+      "timestamp": 1782740195.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12856 - Vscode-java: vscode: command injection vulnerability in the javadoc hover provider of the vscode-java extension",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12856",
+      "summary": "CVE ID :CVE-2026-12856\n  \n  Published : June 29, 2026, 12:33 p.m. | 3\u00a0hours, 3\u00a0minutes ago\n  \n  Description :A flaw was found in the vscode-java exten...",
+      "timestamp": 1782736432.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-40521 - FrontAccounting < 2.4.20 Path Traversal RCE via attachment upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40521",
+      "summary": "CVE ID :CVE-2026-40521\n  \n  Published : June 29, 2026, 12:30 p.m. | 3\u00a0hours, 7\u00a0minutes ago\n  \n  Description :FrontAccounting before 2.4.20 contains a ...",
+      "timestamp": 1782736212.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-40523 - FrontAccounting < 2.4.20 SQL Injection via reporting/rep710.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40523",
+      "summary": "CVE ID :CVE-2026-40523\n  \n  Published : June 29, 2026, 12:29 p.m. | 3\u00a0hours, 8\u00a0minutes ago\n  \n  Description :FrontAccounting before 2.4.20 contains a ...",
+      "timestamp": 1782736150.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-40524 - FrontAccounting < 2.4.20 SQL Injection via get_gl_transactions()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40524",
+      "summary": "CVE ID :CVE-2026-40524\n  \n  Published : June 29, 2026, 12:27 p.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :FrontAccounting before 2.4.20 contains a ...",
+      "timestamp": 1782736046.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13165 - Remote Code Execution in SzafirHost",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13165",
+      "summary": "CVE ID :CVE-2026-13165\n  \n  Published : June 29, 2026, 12:16 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :SzafirHost verifies the downloaded nativ...",
+      "timestamp": 1782735415.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Webinar: Why business email compromise attacks keep succeeding",
@@ -91,6 +171,22 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-13564 - Edimax EW-7478APC POST Request formPPPoESetup stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13564",
+      "summary": "CVE ID :CVE-2026-13564\n  \n  Published : June 29, 2026, 11:45 a.m. | 3\u00a0hours, 52\u00a0minutes ago\n  \n  Description :A vulnerability was found in Edimax EW-7...",
+      "timestamp": 1782733507.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13563 - Edimax EW-7478APC POST Request formL2TPSetup stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13563",
+      "summary": "CVE ID :CVE-2026-13563\n  \n  Published : June 29, 2026, 11:30 a.m. | 4\u00a0hours, 7\u00a0minutes ago\n  \n  Description :A vulnerability has been found in Edimax ...",
+      "timestamp": 1782732608.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "US seizes hundreds of FIFA World Cup illegal streaming domains",
       "link": "https://www.bleepingcomputer.com/news/security/us-seizes-hundreds-of-fifa-world-cup-illegal-streaming-domains/",
       "summary": "The U.S. Justice Department's Criminal Division has seized nearly 400 web domains used for illegally streaming matches at the FIFA World Cup. [...]",
@@ -99,92 +195,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-25707 - Handcrafted repo metadata may cause arbitrary local files to be overwritten by libzypp",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-25707",
-      "summary": "CVE ID :CVE-2026-25707\n  \n  Published : June 29, 2026, 10:04 a.m. | 2\u00a0hours, 18\u00a0minutes ago\n  \n  Description :A relative path traversal bug problem wh...",
-      "timestamp": 1782727499.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13545 - D-Link DCS-935L POST Parameter setconf.cgi sub_400E40 os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13545",
-      "summary": "CVE ID :CVE-2026-13545\n  \n  Published : June 29, 2026, 7 a.m. | 5\u00a0hours, 23\u00a0minutes ago\n  \n  Description :A vulnerability has been found in D-Link DCS...",
-      "timestamp": 1782716411.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-2902 - Improper Authorization Vulnerability of Maintenance Utility in Hitachi Virtual Storage Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-2902",
-      "summary": "CVE ID :CVE-2025-2902\n  \n  Published : June 29, 2026, 5:52 a.m. | 6\u00a0hours, 31\u00a0minutes ago\n  \n  Description :Improper Authorization Vulnerability of Ma...",
-      "timestamp": 1782712359.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13539 - Wavlink WL-NU516U1-A POST Parameter wireless.cgi sub_407504 stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13539",
-      "summary": "CVE ID :CVE-2026-13539\n  \n  Published : June 29, 2026, 5:30 a.m. | 6\u00a0hours, 53\u00a0minutes ago\n  \n  Description :A vulnerability was identified in Wavlink...",
-      "timestamp": 1782711009.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13519 - Tenda JD12L NatStaticSetting fromNatStaticSetting stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13519",
-      "summary": "CVE ID :CVE-2026-13519\n  \n  Published : June 29, 2026, 12:30 a.m. | 11\u00a0hours, 53\u00a0minutes ago\n  \n  Description :A vulnerability was found in Tenda JD12...",
-      "timestamp": 1782693010.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13518 - Tenda JD12L addressNat fromAddressNat stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13518",
-      "summary": "CVE ID :CVE-2026-13518\n  \n  Published : June 29, 2026, 12:15 a.m. | 12\u00a0hours, 8\u00a0minutes ago\n  \n  Description :A vulnerability has been found in Tenda ...",
-      "timestamp": 1782692108.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13517 - Tenda JD12L WifiBasicSet formWifiBasicSet stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13517",
-      "summary": "CVE ID :CVE-2026-13517\n  \n  Published : June 29, 2026, midnight | 12\u00a0hours, 23\u00a0minutes ago\n  \n  Description :A flaw has been found in Tenda JD12L 16.0...",
-      "timestamp": 1782691211.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13516 - Tenda JD12L WifiGuestSet fromSetWifiGusetBasic stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13516",
-      "summary": "CVE ID :CVE-2026-13516\n  \n  Published : June 28, 2026, 11:45 p.m. | 12\u00a0hours, 38\u00a0minutes ago\n  \n  Description :A vulnerability was detected in Tenda J...",
-      "timestamp": 1782690309.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13515 - Tenda JD12L SetPptpServerCfg formSetPPTPServer stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13515",
-      "summary": "CVE ID :CVE-2026-13515\n  \n  Published : June 28, 2026, 11:30 p.m. | 12\u00a0hours, 53\u00a0minutes ago\n  \n  Description :A security vulnerability has been detec...",
-      "timestamp": 1782689410.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
       "link": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
       "summary": "Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by fi...",
       "timestamp": 1782656026.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-58054 - MyBB - Privilege Escalation from Limited ACP User Management to Administrator",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58054",
-      "summary": "CVE ID :CVE-2026-58054\n  \n  Published : June 28, 2026, 1:32 a.m. | 1\u00a0day, 10\u00a0hours ago\n  \n  Description :MyBB 1.8.40 does not restrict which usergroup...",
-      "timestamp": 1782610376.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Clean GitHub repo tricks AI coding agents into running malware",
@@ -203,38 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Com...",
-      "timestamp": 1782502986.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Polymarket customers lose $3 million in supply-chain attack",
-      "link": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
-      "summary": "Polymarket says it will fully reimburse customers who lost an estimated $3 million after hackers injected a malicious script into the platform's front...",
-      "timestamp": 1782497052.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cisco Finesse Remote File Inclusion Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-rfi-gwpkdc89?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Remote%20File%20Inclusion%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in Cisco Finesse could allow an unauthenticated, remote attacker to load arbitrary files from remote locations into an active user ses...",
-      "timestamp": 1782397869.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Advance Notification for Publication of July 1, 2026, Security Advisories",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-vwL7b0S7?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%201,%202026,%20Security%20Advisories%26vs_k=1",
-      "summary": "On July 1, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information alon...",
-      "timestamp": 1782316800.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
       "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "summary": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London...",
@@ -243,53 +227,13 @@
       "vendor": "News"
     },
     {
-      "title": "Cisco Packaged Contact Center Enterprise and Cisco Unified Contact Center Enterprise Cross-Site Scripting Vulnerabilities",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucce-pcce-xss-2JVyg3uD?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Packaged%20Contact%20Center%20Enterprise%20and%20Cisco%20Unified%20Contact%20Center%20Enterprise%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
-      "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Packaged Contact Center Enterprise (Packaged CCE) and Cisco Unified Contact Ce...",
-      "timestamp": 1782140649.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Remote%20Code%20Execution%20and%20Information%20Disclosure%20Vulnerabilities%26vs_k=1",
-      "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to a...",
-      "timestamp": 1781881343.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "\u2018Popa\u2019 Botnet Linked to Publicly-Traded Israeli Firm",
       "link": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
       "summary": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to adv...",
       "timestamp": 1781804278.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "Cisco Umbrella Virtual Appliance Privilege Escalation Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-umbrella-priv-esc-F4wJB7AU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Umbrella%20Virtual%20Appliance%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the vmadmin CLI of Cisco Umbrella Virtual Appliance could allow an authenticated, local attacker to elevate privileges on an affect...",
-      "timestamp": 1781712000.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Crosswork Network Controller Server-Side Template Injection Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cnc-inj-QNMeEmxk?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Crosswork%20Network%20Controller%20Server-Side%20Template%20Injection%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the web-based management interface of Cisco Crosswork Network Controller could allow an&nbsp;authenticated, remote attacker to exec...",
-      "timestamp": 1781712000.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Webex App Open Redirect Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-app-redirect-KOyxhffH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Webex%20App%20Open%20Redirect%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the browser-based version of Cisco Webex App could have allowed an unauthenticated, remote attacker to redirect users to a maliciou...",
-      "timestamp": 1781712000.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782742808.7741847
+  "last_updated": 1782753866.2132285
 }
