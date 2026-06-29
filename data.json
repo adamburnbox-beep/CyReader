@@ -3,8 +3,8 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
-      "total_count": 0,
+      "new_count": 10,
+      "total_count": 10,
       "status": "ok"
     },
     {
@@ -52,16 +52,72 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2025-2902 - Improper Authorization Vulnerability of Maintenance Utility in Hitachi Virtual Storage Platform",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-2902",
+      "summary": "CVE ID :CVE-2025-2902\n  \n  Published : June 29, 2026, 5:52 a.m. | 2\u00a0hours, 31\u00a0minutes ago\n  \n  Description :Improper Authorization Vulnerability of Ma...",
+      "timestamp": 1782712359.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13519 - Tenda JD12L NatStaticSetting fromNatStaticSetting stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13519",
+      "summary": "CVE ID :CVE-2026-13519\n  \n  Published : June 29, 2026, 12:30 a.m. | 7\u00a0hours, 53\u00a0minutes ago\n  \n  Description :A vulnerability was found in Tenda JD12L...",
+      "timestamp": 1782693010.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13518 - Tenda JD12L addressNat fromAddressNat stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13518",
+      "summary": "CVE ID :CVE-2026-13518\n  \n  Published : June 29, 2026, 12:15 a.m. | 8\u00a0hours, 8\u00a0minutes ago\n  \n  Description :A vulnerability has been found in Tenda J...",
+      "timestamp": 1782692108.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13517 - Tenda JD12L WifiBasicSet formWifiBasicSet stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13517",
+      "summary": "CVE ID :CVE-2026-13517\n  \n  Published : June 29, 2026, midnight | 8\u00a0hours, 23\u00a0minutes ago\n  \n  Description :A flaw has been found in Tenda JD12L 16.03...",
+      "timestamp": 1782691211.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13516 - Tenda JD12L WifiGuestSet fromSetWifiGusetBasic stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13516",
+      "summary": "CVE ID :CVE-2026-13516\n  \n  Published : June 28, 2026, 11:45 p.m. | 8\u00a0hours, 38\u00a0minutes ago\n  \n  Description :A vulnerability was detected in Tenda JD...",
+      "timestamp": 1782690309.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13515 - Tenda JD12L SetPptpServerCfg formSetPPTPServer stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13515",
+      "summary": "CVE ID :CVE-2026-13515\n  \n  Published : June 28, 2026, 11:30 p.m. | 8\u00a0hours, 53\u00a0minutes ago\n  \n  Description :A security vulnerability has been detect...",
+      "timestamp": 1782689410.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
+      "link": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
+      "summary": "Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by fi...",
+      "timestamp": 1782656026.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "CVE-2026-58054 - MyBB - Privilege Escalation from Limited ACP User Management to Administrator",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58054",
-      "summary": "CVE ID :CVE-2026-58054\n  \n  Published : June 28, 2026, 1:32 a.m. | 20\u00a0hours, 49\u00a0minutes ago\n  \n  Description :MyBB 1.8.40 does not restrict which user...",
+      "summary": "CVE ID :CVE-2026-58054\n  \n  Published : June 28, 2026, 1:32 a.m. | 1\u00a0day, 6\u00a0hours ago\n  \n  Description :MyBB 1.8.40 does not restrict which usergroup ...",
       "timestamp": 1782610376.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +125,7 @@
     {
       "title": "CVE-2026-58053 - Gitea act_runner - Container Hardening Bypass via Workflow Container Options",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58053",
-      "summary": "CVE ID :CVE-2026-58053\n  \n  Published : June 28, 2026, 1:32 a.m. | 20\u00a0hours, 49\u00a0minutes ago\n  \n  Description :Gitea act_runner with the Docker backend...",
+      "summary": "CVE ID :CVE-2026-58053\n  \n  Published : June 28, 2026, 1:32 a.m. | 1\u00a0day, 6\u00a0hours ago\n  \n  Description :Gitea act_runner with the Docker backend (thro...",
       "timestamp": 1782610375.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +133,7 @@
     {
       "title": "CVE-2026-58051 - libssh2 - Free of Uninitialized Pointer in publickey List Cleanup",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58051",
-      "summary": "CVE ID :CVE-2026-58051\n  \n  Published : June 28, 2026, 1:32 a.m. | 20\u00a0hours, 49\u00a0minutes ago\n  \n  Description :libssh2 through 1.11.1 grows its publick...",
+      "summary": "CVE ID :CVE-2026-58051\n  \n  Published : June 28, 2026, 1:32 a.m. | 1\u00a0day, 6\u00a0hours ago\n  \n  Description :libssh2 through 1.11.1 grows its publickey lis...",
       "timestamp": 1782610374.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,58 +141,82 @@
     {
       "title": "CVE-2026-58050 - libssh2 - Integer Overflow in publickey Subsystem Attribute Allocation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58050",
-      "summary": "CVE ID :CVE-2026-58050\n  \n  Published : June 28, 2026, 1:32 a.m. | 20\u00a0hours, 49\u00a0minutes ago\n  \n  Description :libssh2 through 1.11.1 reads an attacker...",
+      "summary": "CVE ID :CVE-2026-58050\n  \n  Published : June 28, 2026, 1:32 a.m. | 1\u00a0day, 6\u00a0hours ago\n  \n  Description :libssh2 through 1.11.1 reads an attacker-contr...",
       "timestamp": 1782610373.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-58049 - FFmpeg - Out-of-Bounds Write in RASC Decoder decode_dlta()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58049",
-      "summary": "CVE ID :CVE-2026-58049\n  \n  Published : June 28, 2026, 1:32 a.m. | 20\u00a0hours, 49\u00a0minutes ago\n  \n  Description :FFmpeg's RASC video decoder (decode_dlta...",
-      "timestamp": 1782610372.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
+      "title": "Clean GitHub repo tricks AI coding agents into running malware",
+      "link": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
+      "summary": "An agentic coding tool tasked with cloning and setting up a seemingly benign GitHub repository could execute a malicious payload that remains invisibl...",
+      "timestamp": 1782570156.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
-      "title": "CVE-2026-8095 - Frontend File Manager Plugin <= 23.6 - Authenticated (Subscriber+) Arbitrary File Deletion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8095",
-      "summary": "CVE ID :CVE-2026-8095\n  \n  Published : June 27, 2026, 11:28 p.m. | 22\u00a0hours, 53\u00a0minutes ago\n  \n  Description :The Frontend File Manager Plugin plugin ...",
-      "timestamp": 1782602916.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
+      "title": "FBI: Russian hackers now target Signal backup recovery keys",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
+      "summary": "The FBI and CISA are warning that a phishing campaign targeting Signal users tied to Russian intelligence services has evolved to steal Signal Backup ...",
+      "timestamp": 1782511577.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
-      "title": "CVE-2026-10643 - Out-of-bounds heap write in Zephyr `recvmsg()` ancillary-data path (`insert_pktinfo` undersizes the control-buffer capacity check)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10643",
-      "summary": "CVE ID :CVE-2026-10643\n  \n  Published : June 27, 2026, 10:59 p.m. | 23\u00a0hours, 22\u00a0minutes ago\n  \n  Description :Zephyr's IP socket recvmsg() implementa...",
-      "timestamp": 1782601162.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
+      "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Com...",
+      "timestamp": 1782502986.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
-      "title": "CVE-2026-12415 - Invoice Generator <= 1.0.0 - Unauthenticated Privilege Escalation via Account Takeover via 'user_id' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12415",
-      "summary": "CVE ID :CVE-2026-12415\n  \n  Published : June 27, 2026, 4:30 a.m. | 1\u00a0day, 17\u00a0hours ago\n  \n  Description :The Invoice Generator plugin for WordPress is...",
-      "timestamp": 1782534630.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
+      "title": "Polymarket customers lose $3 million in supply-chain attack",
+      "link": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
+      "summary": "Polymarket says it will fully reimburse customers who lost an estimated $3 million after hackers injected a malicious script into the platform's front...",
+      "timestamp": 1782497052.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
-      "title": "CVE-2026-56414 - H.VIEW HV-500S6 IP Camera Unrestricted Upload of File with Dangerous Type",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56414",
-      "summary": "CVE ID :CVE-2026-56414\n  \n  Published : June 26, 2026, 11 p.m. | 1\u00a0day, 23\u00a0hours ago\n  \n  Description :A vulnerability exists in H.View IP cameras cer...",
-      "timestamp": 1782514839.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
+      "title": "Cybersecurity firms targeted by fraudulent OpenAI organization invites",
+      "link": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
+      "summary": "Threat actors are creating OpenAI tenants that impersonate legitimate companies and inviting employees to join them, in what appears to be a ploy to t...",
+      "timestamp": 1782496147.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
-      "title": "CVE-2026-55975 - H.VIEW HV-500S6 IP Camera OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55975",
-      "summary": "CVE ID :CVE-2026-55975\n  \n  Published : June 26, 2026, 10:58 p.m. | 1\u00a0day, 23\u00a0hours ago\n  \n  Description :A vulnerability exists in H.View IP cameras ...",
-      "timestamp": 1782514732.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
+      "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
+      "link": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
+      "summary": "AI won't replace GRC analysts, but it can eliminate much of the repetitive work they do. Anecdotes walks through building an agent that continuously m...",
+      "timestamp": 1782482471.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/",
+      "summary": "Anthropic appears to be testing Claude Cowork support on mobile, allowing you to manage\u00a0long-running Claude tasks from your phone. [...]",
+      "timestamp": 1782428012.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Poland busts SIM-swapping gang tied to millions in crypto theft",
+      "link": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
+      "summary": "Authorities in Poland have arrested four members of an organized cybercrime group accused of breaching telecommunications partners and hijacking email...",
+      "timestamp": 1782427062.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Order-tracking app Shop abused to push callback phishing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
+      "summary": "Threat actors are increasingly abusing Shop, the order-tracking app from Shopify, by adding fake purchase receipts in users' order histories to trick ...",
+      "timestamp": 1782416748.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Cisco Finesse Remote File Inclusion Vulnerability",
@@ -209,23 +289,7 @@
       "timestamp": 1781712000.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-...",
-      "timestamp": 1781631587.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa2-v69WY2SW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
-      "summary": "May 2026: This security advisory provides the details and fix information for a vulnerability that was discovered and fixed after the Cisco Catalyst S...",
-      "timestamp": 1781631586.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782690476.2384074
+  "last_updated": 1782727237.754806
 }
