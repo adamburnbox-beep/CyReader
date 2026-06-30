@@ -59,9 +59,17 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-58302 - LinuxCNC rtapi_app Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58302",
+      "summary": "CVE ID :CVE-2026-58302\n  \n  Published : June 30, 2026, 1:09 a.m. | 4\u00a0hours, 2\u00a0minutes ago\n  \n  Description :rtapi_app in linuxcnc-uspace in LinuxCNC b...",
+      "timestamp": 1782781774.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-7656 - Broken IPv6 Neighbor Discovery input validation allows spoofed RA/NS/NA acceptance in Zephyr net stack",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7656",
-      "summary": "CVE ID :CVE-2026-7656\n  \n  Published : June 29, 2026, 10:09 p.m. | 3\u00a0hours, 16\u00a0minutes ago\n  \n  Description :The IPv6 Neighbor Discovery handlers in s...",
+      "summary": "CVE ID :CVE-2026-7656\n  \n  Published : June 29, 2026, 10:09 p.m. | 7\u00a0hours, 2\u00a0minutes ago\n  \n  Description :The IPv6 Neighbor Discovery handlers in su...",
       "timestamp": 1782770950.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +93,7 @@
     {
       "title": "CVE-2026-34594 - Coolify: Authenticated Remote Code Execution via Command Injection in Destination Network Management",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34594",
-      "summary": "CVE ID :CVE-2026-34594\n  \n  Published : June 29, 2026, 8:21 p.m. | 5\u00a0hours, 3\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostabl...",
+      "summary": "CVE ID :CVE-2026-34594\n  \n  Published : June 29, 2026, 8:21 p.m. | 8\u00a0hours, 49\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostab...",
       "timestamp": 1782764519.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +101,7 @@
     {
       "title": "CVE-2026-34597 - Coolify: Authenticated Host RCE",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34597",
-      "summary": "CVE ID :CVE-2026-34597\n  \n  Published : June 29, 2026, 8:18 p.m. | 5\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostabl...",
+      "summary": "CVE ID :CVE-2026-34597\n  \n  Published : June 29, 2026, 8:18 p.m. | 8\u00a0hours, 52\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostab...",
       "timestamp": 1782764317.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +109,7 @@
     {
       "title": "CVE-2026-57498 - Coolify Cross-Team IDOR: Livewire Components Accept Unscoped server_id and destination_uuid \u2014 Deploy to Other Teams' Servers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57498",
-      "summary": "CVE ID :CVE-2026-57498\n  \n  Published : June 29, 2026, 8:12 p.m. | 5\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostab...",
+      "summary": "CVE ID :CVE-2026-57498\n  \n  Published : June 29, 2026, 8:12 p.m. | 8\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostab...",
       "timestamp": 1782763927.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +117,7 @@
     {
       "title": "CVE-2026-13763 - HTTP/2 Stream Parser Confusion Body-Inspection Bypass in AWS Application Load Balancer with AWS WAF",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13763",
-      "summary": "CVE ID :CVE-2026-13763\n  \n  Published : June 29, 2026, 8:03 p.m. | 5\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Inconsistent interpretation of HTTP/2 req...",
+      "summary": "CVE ID :CVE-2026-13763\n  \n  Published : June 29, 2026, 8:03 p.m. | 9\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Inconsistent interpretation of HTTP/2 requ...",
       "timestamp": 1782763437.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,40 +125,32 @@
     {
       "title": "CVE-2026-13762 - HTTP/2 Stream Parser Confusion Body-Inspection Bypass in Amazon CloudFront with AWS WAF",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13762",
-      "summary": "CVE ID :CVE-2026-13762\n  \n  Published : June 29, 2026, 8:03 p.m. | 5\u00a0hours, 22\u00a0minutes ago\n  \n  Description :Inconsistent interpretation of HTTP/2 req...",
+      "summary": "CVE ID :CVE-2026-13762\n  \n  Published : June 29, 2026, 8:03 p.m. | 9\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Inconsistent interpretation of HTTP/2 requ...",
       "timestamp": 1782763386.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-53426 - Atom-table exhaustion denial-of-service via JSON parse_document in MDEx",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53426",
-      "summary": "CVE ID :CVE-2026-53426\n  \n  Published : June 29, 2026, 7:11 p.m. | 6\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Allocation of Resources Without Limits or...",
-      "timestamp": 1782760292.0,
+      "title": "CVE-2026-43731 - Safari Use-After-Free Memory Corruption",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43731",
+      "summary": "CVE ID :CVE-2026-43731\n  \n  Published : June 29, 2026, 7:43 p.m. | 9\u00a0hours, 28\u00a0minutes ago\n  \n  Description :A use-after-free issue was addressed with...",
+      "timestamp": 1782762180.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-58000 - luci-proto-openvpn - Command Injection via cl_meta Parameter in generateKey",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58000",
-      "summary": "CVE ID :CVE-2026-58000\n  \n  Published : June 29, 2026, 6:16 p.m. | 7\u00a0hours, 9\u00a0minutes ago\n  \n  Description :luci-proto-openvpn through 0.11.1, fixed i...",
-      "timestamp": 1782756964.0,
+      "title": "CVE-2026-43705 - Apple Safari Type Confusion Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43705",
+      "summary": "CVE ID :CVE-2026-43705\n  \n  Published : June 29, 2026, 7:42 p.m. | 9\u00a0hours, 28\u00a0minutes ago\n  \n  Description :A type confusion issue was addressed with...",
+      "timestamp": 1782762174.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-57999 - luci-app-tailscale-community - Command Injection via tailscale.do_login RPC",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57999",
-      "summary": "CVE ID :CVE-2026-57999\n  \n  Published : June 29, 2026, 6:16 p.m. | 7\u00a0hours, 9\u00a0minutes ago\n  \n  Description :luci-app-tailscale-community contains a co...",
-      "timestamp": 1782756964.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11720 - Path Traversal in googleapis/mcp-toolbox HTTP Tool URL Builder",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11720",
-      "summary": "CVE ID :CVE-2026-11720\n  \n  Published : June 29, 2026, 5:51 p.m. | 7\u00a0hours, 33\u00a0minutes ago\n  \n  Description :A path traversal vulnerability exists in ...",
-      "timestamp": 1782755490.0,
+      "title": "CVE-2026-43715 - Apple Safari Use-After-Free",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43715",
+      "summary": "CVE ID :CVE-2026-43715\n  \n  Published : June 29, 2026, 7:42 p.m. | 9\u00a0hours, 28\u00a0minutes ago\n  \n  Description :A use-after-free issue was addressed with...",
+      "timestamp": 1782762162.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -265,31 +265,7 @@
       "timestamp": 1781804278.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "Cisco Umbrella Virtual Appliance Privilege Escalation Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-umbrella-priv-esc-F4wJB7AU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Umbrella%20Virtual%20Appliance%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the vmadmin CLI of Cisco Umbrella Virtual Appliance could allow an authenticated, local attacker to elevate privileges on an affect...",
-      "timestamp": 1781712000.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Crosswork Network Controller Server-Side Template Injection Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cnc-inj-QNMeEmxk?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Crosswork%20Network%20Controller%20Server-Side%20Template%20Injection%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the web-based management interface of Cisco Crosswork Network Controller could allow an&nbsp;authenticated, remote attacker to exec...",
-      "timestamp": 1781712000.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Webex App Open Redirect Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-app-redirect-KOyxhffH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Webex%20App%20Open%20Redirect%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the browser-based version of Cisco Webex App could have allowed an unauthenticated, remote attacker to redirect users to a maliciou...",
-      "timestamp": 1781712000.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782783532.761372
+  "last_updated": 1782798903.0064714
 }
