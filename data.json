@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 5,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,108 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 8,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-58377 - JeecgBoot 3.9.2 - Missing Authorization on OpenAPI Credential Management Endpoints Exposes Access/Secret Keys",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58377",
+      "summary": "CVE ID :CVE-2026-58377\n  \n  Published : June 30, 2026, 3:59 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :JeecgBoot through 3.9.2 contains a broken ...",
+      "timestamp": 1782835175.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58375 - JimuReport 2.5.0 - Unauthenticated Report Export via /jmreport/auto/export",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58375",
+      "summary": "CVE ID :CVE-2026-58375\n  \n  Published : June 30, 2026, 3:58 p.m. | 1\u00a0hour, 39\u00a0minutes ago\n  \n  Description :JimuReport through 2.5.0 exposes the POST ...",
+      "timestamp": 1782835127.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58372 - SeaweedFS < 4.34 - Cross-Bucket Object Deletion via DeleteObjects Request-Body Keys",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58372",
+      "summary": "CVE ID :CVE-2026-58372\n  \n  Published : June 30, 2026, 3:57 p.m. | 1\u00a0hour, 39\u00a0minutes ago\n  \n  Description :SeaweedFS before 4.34 contains a path trav...",
+      "timestamp": 1782835079.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58370 - Woodpecker < 3.15.0 - GitLab Approval Gate Bypass via Spoofable Commit Author Name",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58370",
+      "summary": "CVE ID :CVE-2026-58370\n  \n  Published : June 30, 2026, 3:57 p.m. | 1\u00a0hour, 40\u00a0minutes ago\n  \n  Description :Woodpecker before 3.15.0 matches the Appro...",
+      "timestamp": 1782835029.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58172 - Ocelot - IP Allow/Block List Bypass for WebSocket Upgrade Requests",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58172",
+      "summary": "CVE ID :CVE-2026-58172\n  \n  Published : June 30, 2026, 3:54 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :Ocelot through 24.1.0, fixed in commit f15...",
+      "timestamp": 1782834899.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58170 - Vibe-Trading < 0.1.10 - Path Traversal in Proposal Identifier Allows Forging Live Trading Mandates",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58170",
+      "summary": "CVE ID :CVE-2026-58170\n  \n  Published : June 30, 2026, 3:53 p.m. | 1\u00a0hour, 44\u00a0minutes ago\n  \n  Description :Vibe-Trading before 0.1.10 builds the prop...",
+      "timestamp": 1782834801.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58168 - DeepTutor < 1.4.10 - Insecure Default Grants Unrestricted MCP Tool Access to Non-Admin Users",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58168",
+      "summary": "CVE ID :CVE-2026-58168\n  \n  Published : June 30, 2026, 3:52 p.m. | 1\u00a0hour, 45\u00a0minutes ago\n  \n  Description :DeepTutor before version 1.4.10 contains a...",
+      "timestamp": 1782834742.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58166 - OpenBMB ChatDev - Unauthenticated Path Traversal in Upload Handler Allows Arbitrary File Write and Delete",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58166",
+      "summary": "CVE ID :CVE-2026-58166\n  \n  Published : June 30, 2026, 3:51 p.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :OpenBMB ChatDev through 2.2.0, fixed in co...",
+      "timestamp": 1782834680.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58165 - OpenZiti - Privilege Escalation to Admin via Unauthorized Enrollment Creation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58165",
+      "summary": "CVE ID :CVE-2026-58165\n  \n  Published : June 30, 2026, 3:49 p.m. | 1\u00a0hour, 48\u00a0minutes ago\n  \n  Description :OpenZiti through 2.0.0, fixed in commit 30...",
+      "timestamp": 1782834552.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
+      "summary": "A malicious extension in the Chrome Web Store is masquerading as the Perplexity AI answer engine, intercepting search traffic and collecting browsing ...",
+      "timestamp": 1782834379.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-48315 - ColdFusion | Improper Input Validation (CWE-20)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48315",
+      "summary": "CVE ID :CVE-2026-48315\n  \n  Published : June 30, 2026, 3:12 p.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :ColdFusion versions 2025.9, 2023.20 and e...",
+      "timestamp": 1782832323.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Lessons from the Underground: How to Combat Business Email Compromise",
+      "link": "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/",
+      "summary": "Business Email Compromise is more than an email scam. It's a coordinated operation involving compromised accounts, financial research, and cash-out ne...",
+      "timestamp": 1782828010.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Insurance giant Aflac discloses data breach after subsidiary hack",
       "link": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/",
@@ -68,7 +164,7 @@
     },
     {
       "title": "Microsoft adds smarter bot protection to Teams meetings",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/mircosoft-adds-smarter-bot-protection-to-teams-meetings/",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-smarter-bot-protection-to-teams-meetings/",
       "summary": "Microsoft has introduced a new Teams admin policy that allows organizers to prevent third-party bots from joining meetings without approval. [...]",
       "timestamp": 1782816746.0,
       "source": "BleepingComputer",
@@ -91,92 +187,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-12076 - SQL Injection in Raytha CMS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12076",
-      "summary": "CVE ID :CVE-2026-12076\n  \n  Published : June 30, 2026, 9:10 a.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Raytha CMS is vulnerable to SQL Injection ...",
-      "timestamp": 1782810616.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CISA: Windows BlueHammer flaw now exploited by ransomware gangs",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
       "summary": "CISA confirmed on Monday that ransomware gangs are now exploiting a Microsoft Defender privilege escalation vulnerability, dubbed BlueHammer, that has...",
       "timestamp": 1782809593.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-12578 - DTMSoft - Deserialization of Untrusted Data Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12578",
-      "summary": "CVE ID :CVE-2026-12578\n  \n  Published : June 30, 2026, 7:20 a.m. | 3\u00a0hours, 54\u00a0minutes ago\n  \n  Description :The affected product is vulnerable to a d...",
-      "timestamp": 1782804059.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12240 - Export User Data <= 2.2.6 - Authenticated (Subscriber+) PHP Object Injection to Arbitrary File Deletion via display_name Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12240",
-      "summary": "CVE ID :CVE-2026-12240\n  \n  Published : June 30, 2026, 6:52 a.m. | 4\u00a0hours, 22\u00a0minutes ago\n  \n  Description :The Export User Data plugin for WordPress...",
-      "timestamp": 1782802360.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12819 - DVP-12SE Missing Authentication and Unauthorized Write access Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12819",
-      "summary": "CVE ID :CVE-2026-12819\n  \n  Published : June 30, 2026, 6:28 a.m. | 4\u00a0hours, 46\u00a0minutes ago\n  \n  Description :Delta Electronics DVP12SE PLC exposes a M...",
-      "timestamp": 1782800931.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12818 - DVP-12SE Exposure of Sensitive Information Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12818",
-      "summary": "CVE ID :CVE-2026-12818\n  \n  Published : June 30, 2026, 6:24 a.m. | 4\u00a0hours, 50\u00a0minutes ago\n  \n  Description :Delta Electronics DVP12SE PLCs are suscep...",
-      "timestamp": 1782800651.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56137 - Gotcha Gotcha Games RPG MAKER OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56137",
-      "summary": "CVE ID :CVE-2026-56137\n  \n  Published : June 30, 2026, 6:02 a.m. | 5\u00a0hours, 12\u00a0minutes ago\n  \n  Description :RPG MAKER MV and MZ provided by Gotcha Go...",
-      "timestamp": 1782799367.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56808 - AVTECH DGM3103SCT OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56808",
-      "summary": "CVE ID :CVE-2026-56808\n  \n  Published : June 30, 2026, 6 a.m. | 5\u00a0hours, 14\u00a0minutes ago\n  \n  Description :DGM3103SCT provided by AVTECH Security Corpo...",
-      "timestamp": 1782799225.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12073 - ProfileGrid - User Profiles, Groups and Communities <= 5.9.9.5 - Unauthenticated Privilege Escalation via Email Overwrite",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12073",
-      "summary": "CVE ID :CVE-2026-12073\n  \n  Published : June 30, 2026, 5:34 a.m. | 5\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The ProfileGrid \u2013 User Profiles, Groups a...",
-      "timestamp": 1782797645.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58302 - LinuxCNC rtapi_app Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58302",
-      "summary": "CVE ID :CVE-2026-58302\n  \n  Published : June 30, 2026, 1:09 a.m. | 10\u00a0hours, 5\u00a0minutes ago\n  \n  Description :rtapi_app in linuxcnc-uspace in LinuxCNC ...",
-      "timestamp": 1782781774.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-7656 - Broken IPv6 Neighbor Discovery input validation allows spoofed RA/NS/NA acceptance in Zephyr net stack",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7656",
-      "summary": "CVE ID :CVE-2026-7656\n  \n  Published : June 29, 2026, 10:09 p.m. | 13\u00a0hours, 5\u00a0minutes ago\n  \n  Description :The IPv6 Neighbor Discovery handlers in s...",
-      "timestamp": 1782770950.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
@@ -199,22 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
       "summary": "WhatsApp is finally allowing users to reserve usernames, a privacy feature that lets them hide their phone numbers from people not in their contact li...",
       "timestamp": 1782755308.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft extends Windows Server 2022 hotpatching until October 2027",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-extends-windows-server-2022-hotpatching-until-october-2027/",
-      "summary": "Microsoft has extended Windows Server 2022 hotpatching until October 2027, one year after the mainstream end date of October 2026. [...]",
-      "timestamp": 1782753075.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "U.S. offers $10 million for hackers targeting WhatsApp, Signal users",
-      "link": "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
-      "summary": "The U.S. Department of State is offering up to $10 million for information that helps identify or locate members of the UNC5792 and UNC4221 hacker gro...",
-      "timestamp": 1782745783.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -267,5 +267,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1782822273.3785944
+  "last_updated": 1782847631.7901323
 }
