@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,32 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Malicious PyPI packages give hackers control of Telegram bot servers",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
+      "summary": "A campaign active since last November has been targeting Python developers building Telegram bots with trojanized Pyrogram forks that allow attackers ...",
+      "timestamp": 1782853375.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-58138 - Orkes Conductor 3.21.21 < 3.30.2 Unauthenticated RCE via GraalVM Script Evaluators",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58138",
+      "summary": "CVE ID :CVE-2026-58138\n  \n  Published : June 30, 2026, 6:44 p.m. | 41\u00a0minutes ago\n  \n  Description :Orkes Conductor 3.21.21 before 3.30.2 contains an ...",
+      "timestamp": 1782845052.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-58377 - JeecgBoot 3.9.2 - Missing Authorization on OpenAPI Credential Management Endpoints Exposes Access/Secret Keys",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58377",
-      "summary": "CVE ID :CVE-2026-58377\n  \n  Published : June 30, 2026, 3:59 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :JeecgBoot through 3.9.2 contains a broken ...",
+      "summary": "CVE ID :CVE-2026-58377\n  \n  Published : June 30, 2026, 3:59 p.m. | 3\u00a0hours, 25\u00a0minutes ago\n  \n  Description :JeecgBoot through 3.9.2 contains a broken...",
       "timestamp": 1782835175.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +85,7 @@
     {
       "title": "CVE-2026-58375 - JimuReport 2.5.0 - Unauthenticated Report Export via /jmreport/auto/export",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58375",
-      "summary": "CVE ID :CVE-2026-58375\n  \n  Published : June 30, 2026, 3:58 p.m. | 1\u00a0hour, 39\u00a0minutes ago\n  \n  Description :JimuReport through 2.5.0 exposes the POST ...",
+      "summary": "CVE ID :CVE-2026-58375\n  \n  Published : June 30, 2026, 3:58 p.m. | 3\u00a0hours, 26\u00a0minutes ago\n  \n  Description :JimuReport through 2.5.0 exposes the POST...",
       "timestamp": 1782835127.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +93,7 @@
     {
       "title": "CVE-2026-58372 - SeaweedFS < 4.34 - Cross-Bucket Object Deletion via DeleteObjects Request-Body Keys",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58372",
-      "summary": "CVE ID :CVE-2026-58372\n  \n  Published : June 30, 2026, 3:57 p.m. | 1\u00a0hour, 39\u00a0minutes ago\n  \n  Description :SeaweedFS before 4.34 contains a path trav...",
+      "summary": "CVE ID :CVE-2026-58372\n  \n  Published : June 30, 2026, 3:57 p.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :SeaweedFS before 4.34 contains a path tra...",
       "timestamp": 1782835079.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +101,7 @@
     {
       "title": "CVE-2026-58370 - Woodpecker < 3.15.0 - GitLab Approval Gate Bypass via Spoofable Commit Author Name",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58370",
-      "summary": "CVE ID :CVE-2026-58370\n  \n  Published : June 30, 2026, 3:57 p.m. | 1\u00a0hour, 40\u00a0minutes ago\n  \n  Description :Woodpecker before 3.15.0 matches the Appro...",
+      "summary": "CVE ID :CVE-2026-58370\n  \n  Published : June 30, 2026, 3:57 p.m. | 3\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Woodpecker before 3.15.0 matches the Appr...",
       "timestamp": 1782835029.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +109,7 @@
     {
       "title": "CVE-2026-58172 - Ocelot - IP Allow/Block List Bypass for WebSocket Upgrade Requests",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58172",
-      "summary": "CVE ID :CVE-2026-58172\n  \n  Published : June 30, 2026, 3:54 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :Ocelot through 24.1.0, fixed in commit f15...",
+      "summary": "CVE ID :CVE-2026-58172\n  \n  Published : June 30, 2026, 3:54 p.m. | 3\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Ocelot through 24.1.0, fixed in commit f1...",
       "timestamp": 1782834899.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +117,7 @@
     {
       "title": "CVE-2026-58170 - Vibe-Trading < 0.1.10 - Path Traversal in Proposal Identifier Allows Forging Live Trading Mandates",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58170",
-      "summary": "CVE ID :CVE-2026-58170\n  \n  Published : June 30, 2026, 3:53 p.m. | 1\u00a0hour, 44\u00a0minutes ago\n  \n  Description :Vibe-Trading before 0.1.10 builds the prop...",
+      "summary": "CVE ID :CVE-2026-58170\n  \n  Published : June 30, 2026, 3:53 p.m. | 3\u00a0hours, 32\u00a0minutes ago\n  \n  Description :Vibe-Trading before 0.1.10 builds the pro...",
       "timestamp": 1782834801.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +125,7 @@
     {
       "title": "CVE-2026-58168 - DeepTutor < 1.4.10 - Insecure Default Grants Unrestricted MCP Tool Access to Non-Admin Users",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58168",
-      "summary": "CVE ID :CVE-2026-58168\n  \n  Published : June 30, 2026, 3:52 p.m. | 1\u00a0hour, 45\u00a0minutes ago\n  \n  Description :DeepTutor before version 1.4.10 contains a...",
+      "summary": "CVE ID :CVE-2026-58168\n  \n  Published : June 30, 2026, 3:52 p.m. | 3\u00a0hours, 33\u00a0minutes ago\n  \n  Description :DeepTutor before version 1.4.10 contains ...",
       "timestamp": 1782834742.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +133,7 @@
     {
       "title": "CVE-2026-58166 - OpenBMB ChatDev - Unauthenticated Path Traversal in Upload Handler Allows Arbitrary File Write and Delete",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58166",
-      "summary": "CVE ID :CVE-2026-58166\n  \n  Published : June 30, 2026, 3:51 p.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :OpenBMB ChatDev through 2.2.0, fixed in co...",
+      "summary": "CVE ID :CVE-2026-58166\n  \n  Published : June 30, 2026, 3:51 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :OpenBMB ChatDev through 2.2.0, fixed in c...",
       "timestamp": 1782834680.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +141,7 @@
     {
       "title": "CVE-2026-58165 - OpenZiti - Privilege Escalation to Admin via Unauthorized Enrollment Creation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58165",
-      "summary": "CVE ID :CVE-2026-58165\n  \n  Published : June 30, 2026, 3:49 p.m. | 1\u00a0hour, 48\u00a0minutes ago\n  \n  Description :OpenZiti through 2.0.0, fixed in commit 30...",
+      "summary": "CVE ID :CVE-2026-58165\n  \n  Published : June 30, 2026, 3:49 p.m. | 3\u00a0hours, 36\u00a0minutes ago\n  \n  Description :OpenZiti through 2.0.0, fixed in commit 3...",
       "timestamp": 1782834552.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -137,14 +153,6 @@
       "timestamp": 1782834379.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-48315 - ColdFusion | Improper Input Validation (CWE-20)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48315",
-      "summary": "CVE ID :CVE-2026-48315\n  \n  Published : June 30, 2026, 3:12 p.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :ColdFusion versions 2025.9, 2023.20 and e...",
-      "timestamp": 1782832323.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Lessons from the Underground: How to Combat Business Email Compromise",
@@ -211,14 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "WhatsApp rolls out usernames to help users hide their phone number",
-      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
-      "summary": "WhatsApp is finally allowing users to reserve usernames, a privacy feature that lets them hide their phone numbers from people not in their contact li...",
-      "timestamp": 1782755308.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Finesse Remote File Inclusion Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-rfi-gwpkdc89?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Remote%20File%20Inclusion%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in Cisco Finesse could allow an unauthenticated, remote attacker to load arbitrary files from remote locations into an active user ses...",
@@ -267,5 +267,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1782847631.7901323
+  "last_updated": 1782854524.7292972
 }
