@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 3,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,120 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Insurance giant Aflac discloses data breach after subsidiary hack",
+      "link": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/",
+      "summary": "American insurance giant Aflac has disclosed a new data breach after attackers breached its Japan subsidiary's systems and stole personal and bank acc...",
+      "timestamp": 1782817938.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft adds smarter bot protection to Teams meetings",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/mircosoft-adds-smarter-bot-protection-to-teams-meetings/",
+      "summary": "Microsoft has introduced a new Teams admin policy that allows organizers to prevent third-party bots from joining meetings without approval. [...]",
+      "timestamp": 1782816746.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Kali Linux 2026.2 released with 9 new tools, NetHunter updates",
+      "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20262-released-with-9-new-tools-nethunter-updates/",
+      "summary": "Kali\u00a0Linux 2026.2, the second release of the year, is now available for download, featuring 9 new tools and numerous\u00a0Kali NetHunter improvements. [......",
+      "timestamp": 1782812799.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Blackfield ransomware asks Nidec Corporation for $2 million ransom",
+      "link": "https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/",
+      "summary": "The Blackfield ransomware gang is asking for a $2 million ransom from Nidec Corporation, a large Japanese manufacturer of electronic components for au...",
+      "timestamp": 1782812465.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-12076 - SQL Injection in Raytha CMS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12076",
+      "summary": "CVE ID :CVE-2026-12076\n  \n  Published : June 30, 2026, 9:10 a.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Raytha CMS is vulnerable to SQL Injection ...",
+      "timestamp": 1782810616.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CISA: Windows BlueHammer flaw now exploited by ransomware gangs",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
+      "summary": "CISA confirmed on Monday that ransomware gangs are now exploiting a Microsoft Defender privilege escalation vulnerability, dubbed BlueHammer, that has...",
+      "timestamp": 1782809593.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-12578 - DTMSoft - Deserialization of Untrusted Data Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12578",
+      "summary": "CVE ID :CVE-2026-12578\n  \n  Published : June 30, 2026, 7:20 a.m. | 3\u00a0hours, 54\u00a0minutes ago\n  \n  Description :The affected product is vulnerable to a d...",
+      "timestamp": 1782804059.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12240 - Export User Data <= 2.2.6 - Authenticated (Subscriber+) PHP Object Injection to Arbitrary File Deletion via display_name Field",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12240",
+      "summary": "CVE ID :CVE-2026-12240\n  \n  Published : June 30, 2026, 6:52 a.m. | 4\u00a0hours, 22\u00a0minutes ago\n  \n  Description :The Export User Data plugin for WordPress...",
+      "timestamp": 1782802360.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12819 - DVP-12SE Missing Authentication and Unauthorized Write access Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12819",
+      "summary": "CVE ID :CVE-2026-12819\n  \n  Published : June 30, 2026, 6:28 a.m. | 4\u00a0hours, 46\u00a0minutes ago\n  \n  Description :Delta Electronics DVP12SE PLC exposes a M...",
+      "timestamp": 1782800931.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12818 - DVP-12SE Exposure of Sensitive Information Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12818",
+      "summary": "CVE ID :CVE-2026-12818\n  \n  Published : June 30, 2026, 6:24 a.m. | 4\u00a0hours, 50\u00a0minutes ago\n  \n  Description :Delta Electronics DVP12SE PLCs are suscep...",
+      "timestamp": 1782800651.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56137 - Gotcha Gotcha Games RPG MAKER OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56137",
+      "summary": "CVE ID :CVE-2026-56137\n  \n  Published : June 30, 2026, 6:02 a.m. | 5\u00a0hours, 12\u00a0minutes ago\n  \n  Description :RPG MAKER MV and MZ provided by Gotcha Go...",
+      "timestamp": 1782799367.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56808 - AVTECH DGM3103SCT OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56808",
+      "summary": "CVE ID :CVE-2026-56808\n  \n  Published : June 30, 2026, 6 a.m. | 5\u00a0hours, 14\u00a0minutes ago\n  \n  Description :DGM3103SCT provided by AVTECH Security Corpo...",
+      "timestamp": 1782799225.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12073 - ProfileGrid - User Profiles, Groups and Communities <= 5.9.9.5 - Unauthenticated Privilege Escalation via Email Overwrite",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12073",
+      "summary": "CVE ID :CVE-2026-12073\n  \n  Published : June 30, 2026, 5:34 a.m. | 5\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The ProfileGrid \u2013 User Profiles, Groups a...",
+      "timestamp": 1782797645.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-58302 - LinuxCNC rtapi_app Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58302",
-      "summary": "CVE ID :CVE-2026-58302\n  \n  Published : June 30, 2026, 1:09 a.m. | 4\u00a0hours, 2\u00a0minutes ago\n  \n  Description :rtapi_app in linuxcnc-uspace in LinuxCNC b...",
+      "summary": "CVE ID :CVE-2026-58302\n  \n  Published : June 30, 2026, 1:09 a.m. | 10\u00a0hours, 5\u00a0minutes ago\n  \n  Description :rtapi_app in linuxcnc-uspace in LinuxCNC ...",
       "timestamp": 1782781774.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +173,7 @@
     {
       "title": "CVE-2026-7656 - Broken IPv6 Neighbor Discovery input validation allows spoofed RA/NS/NA acceptance in Zephyr net stack",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7656",
-      "summary": "CVE ID :CVE-2026-7656\n  \n  Published : June 29, 2026, 10:09 p.m. | 7\u00a0hours, 2\u00a0minutes ago\n  \n  Description :The IPv6 Neighbor Discovery handlers in su...",
+      "summary": "CVE ID :CVE-2026-7656\n  \n  Published : June 29, 2026, 10:09 p.m. | 13\u00a0hours, 5\u00a0minutes ago\n  \n  Description :The IPv6 Neighbor Discovery handlers in s...",
       "timestamp": 1782770950.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -89,70 +193,6 @@
       "timestamp": 1782765028.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-34594 - Coolify: Authenticated Remote Code Execution via Command Injection in Destination Network Management",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34594",
-      "summary": "CVE ID :CVE-2026-34594\n  \n  Published : June 29, 2026, 8:21 p.m. | 8\u00a0hours, 49\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostab...",
-      "timestamp": 1782764519.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-34597 - Coolify: Authenticated Host RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34597",
-      "summary": "CVE ID :CVE-2026-34597\n  \n  Published : June 29, 2026, 8:18 p.m. | 8\u00a0hours, 52\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostab...",
-      "timestamp": 1782764317.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57498 - Coolify Cross-Team IDOR: Livewire Components Accept Unscoped server_id and destination_uuid \u2014 Deploy to Other Teams' Servers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57498",
-      "summary": "CVE ID :CVE-2026-57498\n  \n  Published : June 29, 2026, 8:12 p.m. | 8\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostab...",
-      "timestamp": 1782763927.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13763 - HTTP/2 Stream Parser Confusion Body-Inspection Bypass in AWS Application Load Balancer with AWS WAF",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13763",
-      "summary": "CVE ID :CVE-2026-13763\n  \n  Published : June 29, 2026, 8:03 p.m. | 9\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Inconsistent interpretation of HTTP/2 requ...",
-      "timestamp": 1782763437.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13762 - HTTP/2 Stream Parser Confusion Body-Inspection Bypass in Amazon CloudFront with AWS WAF",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13762",
-      "summary": "CVE ID :CVE-2026-13762\n  \n  Published : June 29, 2026, 8:03 p.m. | 9\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Inconsistent interpretation of HTTP/2 requ...",
-      "timestamp": 1782763386.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-43731 - Safari Use-After-Free Memory Corruption",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43731",
-      "summary": "CVE ID :CVE-2026-43731\n  \n  Published : June 29, 2026, 7:43 p.m. | 9\u00a0hours, 28\u00a0minutes ago\n  \n  Description :A use-after-free issue was addressed with...",
-      "timestamp": 1782762180.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-43705 - Apple Safari Type Confusion Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43705",
-      "summary": "CVE ID :CVE-2026-43705\n  \n  Published : June 29, 2026, 7:42 p.m. | 9\u00a0hours, 28\u00a0minutes ago\n  \n  Description :A type confusion issue was addressed with...",
-      "timestamp": 1782762174.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-43715 - Apple Safari Use-After-Free",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43715",
-      "summary": "CVE ID :CVE-2026-43715\n  \n  Published : June 29, 2026, 7:42 p.m. | 9\u00a0hours, 28\u00a0minutes ago\n  \n  Description :A use-after-free issue was addressed with...",
-      "timestamp": 1782762162.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "WhatsApp rolls out usernames to help users hide their phone number",
@@ -175,46 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
       "summary": "The U.S. Department of State is offering up to $10 million for information that helps identify or locate members of the UNC5792 and UNC4221 hacker gro...",
       "timestamp": 1782745783.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Agentic AI Has an Identity Problem and Attackers Know It",
-      "link": "https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/",
-      "summary": "AI agents can access data, trigger workflows, and take action across enterprise systems. Token Security explains why governing these privileged identi...",
-      "timestamp": 1782741671.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Critical SimpleHelp flaw exploited to deploy new stealer malware",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
-      "summary": "Hackers are exploiting a recently disclosed critical vulnerability (CVE-2026-48558) in SimpleHelp to deploy Djinn Stealer, a previously undocumented c...",
-      "timestamp": 1782741600.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers now exploit critical Oracle E-Business flaw in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
-      "summary": "Attackers have begun exploiting a critical vulnerability (CVE-2026-46817) in the Oracle E-Business Suite (EBS) financial application, according to thr...",
-      "timestamp": 1782740777.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Webinar: Why business email compromise attacks keep succeeding",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-business-email-compromise-attacks-keep-succeeding/",
-      "summary": "Business email compromise attacks increasingly rely on convincing impersonation rather than malware, making them harder for employees and traditional ...",
-      "timestamp": 1782735262.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "US seizes hundreds of FIFA World Cup illegal streaming domains",
-      "link": "https://www.bleepingcomputer.com/news/security/us-seizes-hundreds-of-fifa-world-cup-illegal-streaming-domains/",
-      "summary": "The U.S. Justice Department's Criminal Division has seized nearly 400 web domains used for illegally streaming matches at the FIFA World Cup. [...]",
-      "timestamp": 1782732063.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -267,5 +267,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1782798903.0064714
+  "last_updated": 1782822273.3785944
 }
