@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-7656 - Broken IPv6 Neighbor Discovery input validation allows spoofed RA/NS/NA acceptance in Zephyr net stack",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7656",
+      "summary": "CVE ID :CVE-2026-7656\n  \n  Published : June 29, 2026, 10:09 p.m. | 3\u00a0hours, 16\u00a0minutes ago\n  \n  Description :The IPv6 Neighbor Discovery handlers in s...",
+      "timestamp": 1782770950.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
       "link": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
@@ -75,9 +83,33 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-34594 - Coolify: Authenticated Remote Code Execution via Command Injection in Destination Network Management",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34594",
+      "summary": "CVE ID :CVE-2026-34594\n  \n  Published : June 29, 2026, 8:21 p.m. | 5\u00a0hours, 3\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostabl...",
+      "timestamp": 1782764519.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-34597 - Coolify: Authenticated Host RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34597",
+      "summary": "CVE ID :CVE-2026-34597\n  \n  Published : June 29, 2026, 8:18 p.m. | 5\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostabl...",
+      "timestamp": 1782764317.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57498 - Coolify Cross-Team IDOR: Livewire Components Accept Unscoped server_id and destination_uuid \u2014 Deploy to Other Teams' Servers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57498",
+      "summary": "CVE ID :CVE-2026-57498\n  \n  Published : June 29, 2026, 8:12 p.m. | 5\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostab...",
+      "timestamp": 1782763927.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-13763 - HTTP/2 Stream Parser Confusion Body-Inspection Bypass in AWS Application Load Balancer with AWS WAF",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13763",
-      "summary": "CVE ID :CVE-2026-13763\n  \n  Published : June 29, 2026, 8:03 p.m. | 2\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Inconsistent interpretation of HTTP/2 req...",
+      "summary": "CVE ID :CVE-2026-13763\n  \n  Published : June 29, 2026, 8:03 p.m. | 5\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Inconsistent interpretation of HTTP/2 req...",
       "timestamp": 1782763437.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +117,7 @@
     {
       "title": "CVE-2026-13762 - HTTP/2 Stream Parser Confusion Body-Inspection Bypass in Amazon CloudFront with AWS WAF",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13762",
-      "summary": "CVE ID :CVE-2026-13762\n  \n  Published : June 29, 2026, 8:03 p.m. | 2\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Inconsistent interpretation of HTTP/2 req...",
+      "summary": "CVE ID :CVE-2026-13762\n  \n  Published : June 29, 2026, 8:03 p.m. | 5\u00a0hours, 22\u00a0minutes ago\n  \n  Description :Inconsistent interpretation of HTTP/2 req...",
       "timestamp": 1782763386.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +125,7 @@
     {
       "title": "CVE-2026-53426 - Atom-table exhaustion denial-of-service via JSON parse_document in MDEx",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53426",
-      "summary": "CVE ID :CVE-2026-53426\n  \n  Published : June 29, 2026, 7:11 p.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Allocation of Resources Without Limits or...",
+      "summary": "CVE ID :CVE-2026-53426\n  \n  Published : June 29, 2026, 7:11 p.m. | 6\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Allocation of Resources Without Limits or...",
       "timestamp": 1782760292.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +133,7 @@
     {
       "title": "CVE-2026-58000 - luci-proto-openvpn - Command Injection via cl_meta Parameter in generateKey",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58000",
-      "summary": "CVE ID :CVE-2026-58000\n  \n  Published : June 29, 2026, 6:16 p.m. | 4\u00a0hours, 8\u00a0minutes ago\n  \n  Description :luci-proto-openvpn through 0.11.1, fixed i...",
+      "summary": "CVE ID :CVE-2026-58000\n  \n  Published : June 29, 2026, 6:16 p.m. | 7\u00a0hours, 9\u00a0minutes ago\n  \n  Description :luci-proto-openvpn through 0.11.1, fixed i...",
       "timestamp": 1782756964.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +141,7 @@
     {
       "title": "CVE-2026-57999 - luci-app-tailscale-community - Command Injection via tailscale.do_login RPC",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57999",
-      "summary": "CVE ID :CVE-2026-57999\n  \n  Published : June 29, 2026, 6:16 p.m. | 4\u00a0hours, 8\u00a0minutes ago\n  \n  Description :luci-app-tailscale-community contains a co...",
+      "summary": "CVE ID :CVE-2026-57999\n  \n  Published : June 29, 2026, 6:16 p.m. | 7\u00a0hours, 9\u00a0minutes ago\n  \n  Description :luci-app-tailscale-community contains a co...",
       "timestamp": 1782756964.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +149,7 @@
     {
       "title": "CVE-2026-11720 - Path Traversal in googleapis/mcp-toolbox HTTP Tool URL Builder",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11720",
-      "summary": "CVE ID :CVE-2026-11720\n  \n  Published : June 29, 2026, 5:51 p.m. | 4\u00a0hours, 32\u00a0minutes ago\n  \n  Description :A path traversal vulnerability exists in ...",
+      "summary": "CVE ID :CVE-2026-11720\n  \n  Published : June 29, 2026, 5:51 p.m. | 7\u00a0hours, 33\u00a0minutes ago\n  \n  Description :A path traversal vulnerability exists in ...",
       "timestamp": 1782755490.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -129,38 +161,6 @@
       "timestamp": 1782755308.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-57960 - Hi.Events 1.9.0 - Unauthenticated Attendee PII Exposure via Check-in List short_id",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57960",
-      "summary": "CVE ID :CVE-2026-57960\n  \n  Published : June 29, 2026, 5:24 p.m. | 4\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Hi.Events through 1.9.0 public check-in l...",
-      "timestamp": 1782753867.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57959 - Hi.Events 1.9.0 - Promo Code Max-Usage Bypass via Asynchronous Job Race Condition",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57959",
-      "summary": "CVE ID :CVE-2026-57959\n  \n  Published : June 29, 2026, 5:24 p.m. | 5\u00a0hours ago\n  \n  Description :Hi.Events through 1.9.0 contains a promo code validat...",
-      "timestamp": 1782753843.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57955 - SigNoz 0.130.1 - SQL Injection in Alert History Endpoints via Rule ID Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57955",
-      "summary": "CVE ID :CVE-2026-57955\n  \n  Published : June 29, 2026, 5:22 p.m. | 5\u00a0hours, 1\u00a0minute ago\n  \n  Description :SigNoz through 0.130.1 contains a SQL injec...",
-      "timestamp": 1782753742.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57950 - ruoyi-vue-pro - Incorrect Permission Namespace in ErpSaleOrderController",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57950",
-      "summary": "CVE ID :CVE-2026-57950\n  \n  Published : June 29, 2026, 5:20 p.m. | 5\u00a0hours, 3\u00a0minutes ago\n  \n  Description :ruoyi-vue-pro through 2026.05, fixed in co...",
-      "timestamp": 1782753607.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft extends Windows Server 2022 hotpatching until October 2027",
@@ -291,5 +291,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782776595.7966237
+  "last_updated": 1782783532.761372
 }
