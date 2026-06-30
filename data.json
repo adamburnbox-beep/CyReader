@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,28 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "New BioShocking attack manipulates AI browser into data theft",
+      "link": "https://www.bleepingcomputer.com/news/security/new-bioshocking-attack-manipulates-ai-browser-into-data-theft/",
+      "summary": "A new prompt injection attack dubbed \"BioShocking\" could trick AI-powered browsers into treating real-world risky actions as part of a fictional scena...",
+      "timestamp": 1782856224.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft accelerates quantum-safe roadmap as risks grow",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-accelerates-quantum-safe-roadmap-as-risks-grow/",
+      "summary": "Microsoft announced today that it is accelerating its quantum-safe security roadmap, saying advances in quantum computing are bringing the need to rep...",
+      "timestamp": 1782854406.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Malicious PyPI packages give hackers control of Telegram bot servers",
       "link": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
@@ -67,82 +83,82 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-58138 - Orkes Conductor 3.21.21 < 3.30.2 Unauthenticated RCE via GraalVM Script Evaluators",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58138",
-      "summary": "CVE ID :CVE-2026-58138\n  \n  Published : June 30, 2026, 6:44 p.m. | 41\u00a0minutes ago\n  \n  Description :Orkes Conductor 3.21.21 before 3.30.2 contains an ...",
-      "timestamp": 1782845052.0,
+      "title": "CVE-2026-44628 - OFFIS DCMTK Toolkit Type Confusion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44628",
+      "summary": "CVE ID :CVE-2026-44628\n  \n  Published : June 30, 2026, 8:54 p.m. | 26\u00a0minutes ago\n  \n  Description :An unauthenticated attacker can crash the worklist...",
+      "timestamp": 1782852875.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-58377 - JeecgBoot 3.9.2 - Missing Authorization on OpenAPI Credential Management Endpoints Exposes Access/Secret Keys",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58377",
-      "summary": "CVE ID :CVE-2026-58377\n  \n  Published : June 30, 2026, 3:59 p.m. | 3\u00a0hours, 25\u00a0minutes ago\n  \n  Description :JeecgBoot through 3.9.2 contains a broken...",
-      "timestamp": 1782835175.0,
+      "title": "CVE-2026-11594 - IBM WebSphere Application Server is affected by multiple cross-site scripting vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11594",
+      "summary": "CVE ID :CVE-2026-11594\n  \n  Published : June 30, 2026, 8:50 p.m. | 30\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 9.0, and 8.5 is a...",
+      "timestamp": 1782852634.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-58375 - JimuReport 2.5.0 - Unauthenticated Report Export via /jmreport/auto/export",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58375",
-      "summary": "CVE ID :CVE-2026-58375\n  \n  Published : June 30, 2026, 3:58 p.m. | 3\u00a0hours, 26\u00a0minutes ago\n  \n  Description :JimuReport through 2.5.0 exposes the POST...",
-      "timestamp": 1782835127.0,
+      "title": "CVE-2026-13207 - Frangoteam FUXA SCADA/HMI Authentication Bypass by Spoofing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13207",
+      "summary": "CVE ID :CVE-2026-13207\n  \n  Published : June 30, 2026, 8:24 p.m. | 56\u00a0minutes ago\n  \n  Description :FUXA versions 1.3.1 and prior contain an authentic...",
+      "timestamp": 1782851073.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-58372 - SeaweedFS < 4.34 - Cross-Bucket Object Deletion via DeleteObjects Request-Body Keys",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58372",
-      "summary": "CVE ID :CVE-2026-58372\n  \n  Published : June 30, 2026, 3:57 p.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :SeaweedFS before 4.34 contains a path tra...",
-      "timestamp": 1782835079.0,
+      "title": "CVE-2025-36359 - IBM DevOps Loop is susceptible to an Insufficient Session Expiration vulnerability.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-36359",
+      "summary": "CVE ID :CVE-2025-36359\n  \n  Published : June 30, 2026, 8:11 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :IBM DevOps Automation 1.0.1 and IBM DevOps ...",
+      "timestamp": 1782850317.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-58370 - Woodpecker < 3.15.0 - GitLab Approval Gate Bypass via Spoofable Commit Author Name",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58370",
-      "summary": "CVE ID :CVE-2026-58370\n  \n  Published : June 30, 2026, 3:57 p.m. | 3\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Woodpecker before 3.15.0 matches the Appr...",
-      "timestamp": 1782835029.0,
+      "title": "CVE-2026-10109 - IBM\u00ae Db2\u00ae is vulnerable to remote code execution due to improper pre-auth DRDA handshake handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10109",
+      "summary": "CVE ID :CVE-2026-10109\n  \n  Published : June 30, 2026, 8:02 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :IBM Db2 11.5.0 through 11.5.9, and 12.1.0 ...",
+      "timestamp": 1782849733.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-58172 - Ocelot - IP Allow/Block List Bypass for WebSocket Upgrade Requests",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58172",
-      "summary": "CVE ID :CVE-2026-58172\n  \n  Published : June 30, 2026, 3:54 p.m. | 3\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Ocelot through 24.1.0, fixed in commit f1...",
-      "timestamp": 1782834899.0,
+      "title": "CVE-2026-10129 - SSRF via HTTP Redirect Following in Langflow API Request Component",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10129",
+      "summary": "CVE ID :CVE-2026-10129\n  \n  Published : June 30, 2026, 7:59 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.9.3 conta...",
+      "timestamp": 1782849599.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-58170 - Vibe-Trading < 0.1.10 - Path Traversal in Proposal Identifier Allows Forging Live Trading Mandates",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58170",
-      "summary": "CVE ID :CVE-2026-58170\n  \n  Published : June 30, 2026, 3:53 p.m. | 3\u00a0hours, 32\u00a0minutes ago\n  \n  Description :Vibe-Trading before 0.1.10 builds the pro...",
-      "timestamp": 1782834801.0,
+      "title": "CVE-2026-10134 - Unauthenticated Server-Side RCE via PythonCodeStructuredTool in Public Flows",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10134",
+      "summary": "CVE ID :CVE-2026-10134\n  \n  Published : June 30, 2026, 7:56 p.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.9.3 allow...",
+      "timestamp": 1782849412.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-58168 - DeepTutor < 1.4.10 - Insecure Default Grants Unrestricted MCP Tool Access to Non-Admin Users",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58168",
-      "summary": "CVE ID :CVE-2026-58168\n  \n  Published : June 30, 2026, 3:52 p.m. | 3\u00a0hours, 33\u00a0minutes ago\n  \n  Description :DeepTutor before version 1.4.10 contains ...",
-      "timestamp": 1782834742.0,
+      "title": "CVE-2026-10140 - Cross-Tenant API Key Reuse and Billing Fraud in Langflow Voice Mode Subsystem",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10140",
+      "summary": "CVE ID :CVE-2026-10140\n  \n  Published : June 30, 2026, 7:55 p.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 voic...",
+      "timestamp": 1782849331.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-58166 - OpenBMB ChatDev - Unauthenticated Path Traversal in Upload Handler Allows Arbitrary File Write and Delete",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58166",
-      "summary": "CVE ID :CVE-2026-58166\n  \n  Published : June 30, 2026, 3:51 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :OpenBMB ChatDev through 2.2.0, fixed in c...",
-      "timestamp": 1782834680.0,
+      "title": "CVE-2026-10560 - Unauthenticated Access to Private Flow Build Events and Cancellation in Langflow OSS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10560",
+      "summary": "CVE ID :CVE-2026-10560\n  \n  Published : June 30, 2026, 7:53 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.9.6 conta...",
+      "timestamp": 1782849200.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-58165 - OpenZiti - Privilege Escalation to Admin via Unauthorized Enrollment Creation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58165",
-      "summary": "CVE ID :CVE-2026-58165\n  \n  Published : June 30, 2026, 3:49 p.m. | 3\u00a0hours, 36\u00a0minutes ago\n  \n  Description :OpenZiti through 2.0.0, fixed in commit 3...",
-      "timestamp": 1782834552.0,
+      "title": "CVE-2026-10564 - SSRF Vulnerability in Langflow OSS Legacy Components Bypasses Protection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10564",
+      "summary": "CVE ID :CVE-2026-10564\n  \n  Published : June 30, 2026, 7:51 p.m. | 1\u00a0hour, 28\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.9.6 conta...",
+      "timestamp": 1782849115.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -203,22 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
-      "summary": "Nissan is warning that it suffered a data breach affecting current and former employees after threat actors exploited an Oracle PeopleSoft vulnerabili...",
-      "timestamp": 1782765644.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
-      "link": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
-      "summary": "The National Association of Insurance Commissioners (NAIC) says the ShinyHunters extortion group stole only publicly available data, outdated logs, an...",
-      "timestamp": 1782765028.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Finesse Remote File Inclusion Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-rfi-gwpkdc89?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Remote%20File%20Inclusion%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in Cisco Finesse could allow an unauthenticated, remote attacker to load arbitrary files from remote locations into an active user ses...",
@@ -267,5 +267,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1782854524.7292972
+  "last_updated": 1782860280.0461178
 }
