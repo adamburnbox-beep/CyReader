@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,14 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-14439 - Path Traversal in Altium Git Service Allows Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14439",
+      "summary": "CVE ID :CVE-2026-14439\n  \n  Published : July 1, 2026, 11:05 p.m. | 36\u00a0minutes ago\n  \n  Description :A path traversal vulnerability exists in the Git S...",
+      "timestamp": 1782947130.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
       "link": "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
       "summary": "The massive FortiBleed credential theft campaign has been linked to the INC and Lynx ransomware operations, suggesting the stolen Fortinet credentials...",
@@ -77,7 +85,7 @@
     {
       "title": "CVE-2026-50521 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50521",
-      "summary": "CVE ID :CVE-2026-50521\n  \n  Published : July 1, 2026, 8:14 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.3 | HIGH\n  \n  Visit t...",
+      "summary": "CVE ID :CVE-2026-50521\n  \n  Published : July 1, 2026, 8:14 p.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.3 | HIGH\n  \n  Visit ...",
       "timestamp": 1782936883.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +101,7 @@
     {
       "title": "CVE-2026-58593 - NodeBB - ActivityPub Author Spoofing via Unvalidated attributedTo Mapped to Local User",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58593",
-      "summary": "CVE ID :CVE-2026-58593\n  \n  Published : July 1, 2026, 7:27 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :NodeBB does not bind the claimed author of ...",
+      "summary": "CVE ID :CVE-2026-58593\n  \n  Published : July 1, 2026, 7:27 p.m. | 4\u00a0hours, 14\u00a0minutes ago\n  \n  Description :NodeBB does not bind the claimed author of...",
       "timestamp": 1782934043.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +109,7 @@
     {
       "title": "CVE-2026-58592 - Ladybird - Web-Reachable Code Execution via Dangling FunctionType Reference in WebAssembly ESM Integration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58592",
-      "summary": "CVE ID :CVE-2026-58592\n  \n  Published : July 1, 2026, 7:27 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :Ladybird contains a dangling-reference memo...",
+      "summary": "CVE ID :CVE-2026-58592\n  \n  Published : July 1, 2026, 7:27 p.m. | 4\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Ladybird contains a dangling-reference mem...",
       "timestamp": 1782934042.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +117,7 @@
     {
       "title": "CVE-2026-58457 - Shenzhen Aitemi M300 MT02 Unauthenticated OS Command Injection via protocol.csp",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58457",
-      "summary": "CVE ID :CVE-2026-58457\n  \n  Published : July 1, 2026, 7:22 p.m. | 2\u00a0hours, 3\u00a0minutes ago\n  \n  Description :Shenzhen Aitemi M300 Wi-Fi Repeater (hardwa...",
+      "summary": "CVE ID :CVE-2026-58457\n  \n  Published : July 1, 2026, 7:22 p.m. | 4\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Shenzhen Aitemi M300 Wi-Fi Repeater (hardw...",
       "timestamp": 1782933762.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,8 +125,32 @@
     {
       "title": "CVE-2026-49119 - Gradio < 6.16.0 Path Traversal via FileExplorer.preprocess()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49119",
-      "summary": "CVE ID :CVE-2026-49119\n  \n  Published : July 1, 2026, 6:30 p.m. | 2\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Gradio before 6.16.0 contain a path traver...",
+      "summary": "CVE ID :CVE-2026-49119\n  \n  Published : July 1, 2026, 6:30 p.m. | 5\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Gradio before 6.16.0 contain a path traver...",
       "timestamp": 1782930638.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53489 - containerd: Arbitrary host CRI log file read via symlink following in CRI checkpoint restore",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53489",
+      "summary": "CVE ID :CVE-2026-53489\n  \n  Published : July 1, 2026, 6:10 p.m. | 5\u00a0hours, 31\u00a0minutes ago\n  \n  Description :containerd is an open-source container run...",
+      "timestamp": 1782929441.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53492 - containerd CRI checkpoint restore CDI annotation smuggling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53492",
+      "summary": "CVE ID :CVE-2026-53492\n  \n  Published : July 1, 2026, 5:59 p.m. | 5\u00a0hours, 42\u00a0minutes ago\n  \n  Description :containerd is an open-source container run...",
+      "timestamp": 1782928752.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50160 - Mass Assignment via Onboarding Endpoint Allows Unauthenticated JWT_SECRET Overwrite",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50160",
+      "summary": "CVE ID :CVE-2026-50160\n  \n  Published : July 1, 2026, 5:48 p.m. | 5\u00a0hours, 53\u00a0minutes ago\n  \n  Description :Hoppscotch is an API development ecosystem...",
+      "timestamp": 1782928129.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -133,7 +165,7 @@
     {
       "title": "CVE-2026-49091 - Improper Output Neutralization for Logs in Kibana Leading to Log Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49091",
-      "summary": "CVE ID :CVE-2026-49091\n  \n  Published : July 1, 2026, 5:21 p.m. | 4\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Improper Output Neutralization for Logs (CW...",
+      "summary": "CVE ID :CVE-2026-49091\n  \n  Published : July 1, 2026, 5:21 p.m. | 6\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Improper Output Neutralization for Logs (C...",
       "timestamp": 1782926488.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -153,38 +185,6 @@
       "timestamp": 1782923881.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-57516 - Ray < 2.56.0 Unsafe Deserialization RCE via WebDataset Reader",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57516",
-      "summary": "CVE ID :CVE-2026-57516\n  \n  Published : July 1, 2026, 4:36 p.m. | 4\u00a0hours, 49\u00a0minutes ago\n  \n  Description :Ray prior to 2.56.0 contains an unsafe des...",
-      "timestamp": 1782923815.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-34117 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in text_to_subtitles.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34117",
-      "summary": "CVE ID :CVE-2026-34117\n  \n  Published : July 1, 2026, 4:24 p.m. | 5\u00a0hours, 2\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET ...",
-      "timestamp": 1782923046.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-34116 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in transcribe.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34116",
-      "summary": "CVE ID :CVE-2026-34116\n  \n  Published : July 1, 2026, 4:23 p.m. | 5\u00a0hours, 2\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET ...",
-      "timestamp": 1782923004.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-34115 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in transcribe_amazon.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34115",
-      "summary": "CVE ID :CVE-2026-34115\n  \n  Published : July 1, 2026, 4:22 p.m. | 5\u00a0hours, 3\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET ...",
-      "timestamp": 1782922965.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco Advance Notification for Publication of July 1, 2026, Security Advisories",
@@ -283,5 +283,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782945784.036757
+  "last_updated": 1782950244.4853148
 }
