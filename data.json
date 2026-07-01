@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 8,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,156 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 9,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Webinar: Why traditional email security is no longer enough",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/",
+      "summary": "Modern phishing, business email compromise, and account takeover attacks increasingly exploit trusted identities and legitimate business workflows, ma...",
+      "timestamp": 1782924862.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Hackers target Microsoft 365 accounts with 81 million login attempts",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/",
+      "summary": "An aggressive password-spraying campaign targeting Microsoft 365 environments generated more than 81 million login attempts over a two-week period. [....",
+      "timestamp": 1782923881.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-57516 - Ray < 2.56.0 Unsafe Deserialization RCE via WebDataset Reader",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57516",
+      "summary": "CVE ID :CVE-2026-57516\n  \n  Published : July 1, 2026, 4:36 p.m. | 56\u00a0minutes ago\n  \n  Description :Ray prior to 2.56.0 contains an unsafe deserializat...",
+      "timestamp": 1782923815.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-34117 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in text_to_subtitles.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34117",
+      "summary": "CVE ID :CVE-2026-34117\n  \n  Published : July 1, 2026, 4:24 p.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET p...",
+      "timestamp": 1782923046.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-34116 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in transcribe.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34116",
+      "summary": "CVE ID :CVE-2026-34116\n  \n  Published : July 1, 2026, 4:23 p.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET p...",
+      "timestamp": 1782923004.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-34115 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in transcribe_amazon.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34115",
+      "summary": "CVE ID :CVE-2026-34115\n  \n  Published : July 1, 2026, 4:22 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET ...",
+      "timestamp": 1782922965.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-34114 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in translate_text.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34114",
+      "summary": "CVE ID :CVE-2026-34114\n  \n  Published : July 1, 2026, 4:21 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET ...",
+      "timestamp": 1782922919.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-34113 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in speech_text.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34113",
+      "summary": "CVE ID :CVE-2026-34113\n  \n  Published : July 1, 2026, 4:21 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET ...",
+      "timestamp": 1782922881.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-34112 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in speechmac.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34112",
+      "summary": "CVE ID :CVE-2026-34112\n  \n  Published : July 1, 2026, 4:20 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET ...",
+      "timestamp": 1782922846.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-34111 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in speechmac_text.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34111",
+      "summary": "CVE ID :CVE-2026-34111\n  \n  Published : July 1, 2026, 4:20 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET ...",
+      "timestamp": 1782922809.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-34110 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in complex_start.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34110",
+      "summary": "CVE ID :CVE-2026-34110\n  \n  Published : July 1, 2026, 4:19 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET ...",
+      "timestamp": 1782922755.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-34109 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in speech.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34109",
+      "summary": "CVE ID :CVE-2026-34109\n  \n  Published : July 1, 2026, 4:18 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET ...",
+      "timestamp": 1782922707.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Cisco Advance Notification for Publication of July 1, 2026, Security Advisories",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-vwL7b0S7?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%201,%202026,%20Security%20Advisories%26vs_k=1",
+      "summary": "On July 1, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE-ID\nSecur...",
+      "timestamp": 1782921667.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "ClamAV Vulnerabilities Affecting Cisco Products: July 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-88cFYyxR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20July%202026%26vs_k=1",
+      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.\nFor m...",
+      "timestamp": 1782921600.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Catalyst Center Arbitrary File Read Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-catc-file-read-wLH2vf8X?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20Center%20Arbitrary%20File%20Read%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in Cisco Catalyst Center could allow an unauthenticated, remote attacker to read arbitrary files from a restricted container.&nbsp;\nTh...",
+      "timestamp": 1782921600.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Unified Communications Manager Server-Side Request Forgery Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-ssrf-cXPnHcW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Manager%20Server-Side%20Request%20Forgery%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM S...",
+      "timestamp": 1782918608.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Turning Indicators into Intelligence in OpenCTI with Criminal IP",
+      "link": "https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/",
+      "summary": "Threat intelligence is only as useful as the context behind it. Criminal IP explains how its integration enriches threat indicators in OpenCTI with ri...",
+      "timestamp": 1782914471.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Over 900 Oracle E-Business instances exposed to ongoing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/",
+      "summary": "Over 900 Oracle E-Business Suite (EBS) instances have been found exposed online amid ongoing attacks exploiting a critical security flaw. [...]",
+      "timestamp": 1782909001.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Microsoft fixes GIF functionality in the Windows Emoji Panel",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-gif-functionality-in-the-windows-emoji-panel/",
@@ -75,76 +219,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-10538 - Improper deserialization handling in Control-M Components",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10538",
-      "summary": "CVE ID :CVE-2026-10538\n  \n  Published : July 1, 2026, 7:56 a.m. | 2\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Messaging consumer functionality allows de...",
-      "timestamp": 1782892591.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10539 - Unauthenticated command injection in Control-M/Server communication command",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10539",
-      "summary": "CVE ID :CVE-2026-10539\n  \n  Published : July 1, 2026, 7:55 a.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :A Control-M/Server communication command d...",
-      "timestamp": 1782892500.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Adobe patches seven max severity ColdFusion, Campaign flaws",
       "link": "https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/",
       "summary": "Adobe has released security patches for seven maximum-severity vulnerabilities in the ColdFusion web app development platform and the Campaign Classic...",
       "timestamp": 1782891292.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-12577 - DVP80ES3 Improperly Implemented Security Check for Standard vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12577",
-      "summary": "CVE ID :CVE-2026-12577\n  \n  Published : July 1, 2026, 7:05 a.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :DVP80ES3 with Improperly Implemented Secur...",
-      "timestamp": 1782889525.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50043 - SkyBridge OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50043",
-      "summary": "CVE ID :CVE-2026-50043\n  \n  Published : July 1, 2026, 6:53 a.m. | 3\u00a0hours, 31\u00a0minutes ago\n  \n  Description :Improper neutralization of special element...",
-      "timestamp": 1782888812.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-6070 - WP-BusinessDirectory <= 4.0.1 - Unauthenticated Arbitrary File Deletion via Path Traversal via '_filename' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6070",
-      "summary": "CVE ID :CVE-2026-6070\n  \n  Published : July 1, 2026, 4:32 a.m. | 5\u00a0hours, 52\u00a0minutes ago\n  \n  Description :The WP-BusinessDirectory plugin for WordPre...",
-      "timestamp": 1782880347.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-7840 - UltraVNC repeater HTTP server global buffer overflow via long URI (pre-auth RCE)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7840",
-      "summary": "CVE ID :CVE-2026-7840\n  \n  Published : July 1, 2026, 3:33 a.m. | 6\u00a0hours, 51\u00a0minutes ago\n  \n  Description :UltraVNC repeater through 1.8.2.2 contains ...",
-      "timestamp": 1782876808.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-7839 - UltraVNC repeater ships hardcoded default admin password allowing unauthenticated admin access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7839",
-      "summary": "CVE ID :CVE-2026-7839\n  \n  Published : July 1, 2026, 3:33 a.m. | 6\u00a0hours, 51\u00a0minutes ago\n  \n  Description :UltraVNC repeater through 1.8.2.2 initializ...",
-      "timestamp": 1782876807.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-7838 - UltraVNC viewer heap buffer overflow via integer overflow in RFB connection-failure reason length",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7838",
-      "summary": "CVE ID :CVE-2026-7838\n  \n  Published : July 1, 2026, 3:33 a.m. | 6\u00a0hours, 51\u00a0minutes ago\n  \n  Description :UltraVNC viewer through 1.8.2.2 contains an...",
-      "timestamp": 1782876806.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Anthropic to restore Claude Fable access on Wednesday",
@@ -155,28 +235,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-53488 - containerd CRI plugin: \u2014 image-config `LABEL` flows to restart-monitor `binary://` logger: host-root command execution from an image pull",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53488",
-      "summary": "CVE ID :CVE-2026-53488\n  \n  Published : July 1, 2026, 12:11 a.m. | 10\u00a0hours, 13\u00a0minutes ago\n  \n  Description :containerd is an open-source container r...",
-      "timestamp": 1782864680.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Anthropic rolls out Sonnet 5 with near-Opus 4.8 performance at a lower price",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-sonnet-5-with-near-opus-48-performance-at-a-lower-price/",
       "summary": "Anthropic is now rolling out Sonnet 5, and it's almost as good as the Opus range, but it is designed to be cheaper than the company's flagship model. ...",
       "timestamp": 1782861187.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-50110 - Use of Hard-coded Credentials in StoneFly Storage Concentrator",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50110",
-      "summary": "CVE ID :CVE-2026-50110\n  \n  Published : June 30, 2026, 10:54 p.m. | 11\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Storage Concentrator (SC & SCVM) contai...",
-      "timestamp": 1782860082.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "New BioShocking attack manipulates AI browser into data theft",
@@ -187,50 +251,10 @@
       "vendor": "News"
     },
     {
-      "title": "Microsoft accelerates quantum-safe roadmap as risks grow",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-accelerates-quantum-safe-roadmap-as-risks-grow/",
-      "summary": "Microsoft announced today that it is accelerating its quantum-safe security roadmap, saying advances in quantum computing are bringing the need to rep...",
-      "timestamp": 1782854406.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Malicious PyPI packages give hackers control of Telegram bot servers",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
-      "summary": "A campaign active since last November has been targeting Python developers building Telegram bots with trojanized Pyrogram forks that allow attackers ...",
-      "timestamp": 1782853375.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
-      "summary": "A malicious extension in the Chrome Web Store is masquerading as the Perplexity AI answer engine, intercepting search traffic and collecting browsing ...",
-      "timestamp": 1782834379.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Lessons from the Underground: How to Combat Business Email Compromise",
-      "link": "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/",
-      "summary": "Business Email Compromise is more than an email scam. It's a coordinated operation involving compromised accounts, financial research, and cash-out ne...",
-      "timestamp": 1782828010.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Finesse Remote File Inclusion Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-rfi-gwpkdc89?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Remote%20File%20Inclusion%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in Cisco Finesse could allow an unauthenticated, remote attacker to load arbitrary files from remote locations into an active user ses...",
       "timestamp": 1782397869.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Advance Notification for Publication of July 1, 2026, Security Advisories",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-vwL7b0S7?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%201,%202026,%20Security%20Advisories%26vs_k=1",
-      "summary": "On July 1, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information alon...",
-      "timestamp": 1782316800.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
     },
@@ -259,5 +283,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782908365.7939248
+  "last_updated": 1782927354.5736203
 }
