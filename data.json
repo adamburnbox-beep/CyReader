@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 5,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Anthropic to restore Claude Fable access on Wednesday",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/",
+      "summary": "Anthropic has confirmed that the\u00a0Department of Commerce has lifted export controls on Claude's two most powerful models,\u00a0Fable 5 and Mythos 5. [...]",
+      "timestamp": 1782866114.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Anthropic rolls out Sonnet 5 with near-Opus 4.8 performance at a lower price",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-sonnet-5-with-near-opus-48-performance-at-a-lower-price/",
@@ -65,6 +73,86 @@
       "timestamp": 1782861187.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-50110 - Use of Hard-coded Credentials in StoneFly Storage Concentrator",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50110",
+      "summary": "CVE ID :CVE-2026-50110\n  \n  Published : June 30, 2026, 10:54 p.m. | 4\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Storage Concentrator (SC & SCVM) contain...",
+      "timestamp": 1782860082.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56413 - OS Command Injection in StoneFly Storage Concentrator",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56413",
+      "summary": "CVE ID :CVE-2026-56413\n  \n  Published : June 30, 2026, 10:50 p.m. | 4\u00a0hours, 34\u00a0minutes ago\n  \n  Description :Storage Concentrator (SC & SCVM) contain...",
+      "timestamp": 1782859858.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56415 - OS Command Injection in StoneFly Storage Concentrator",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56415",
+      "summary": "CVE ID :CVE-2026-56415\n  \n  Published : June 30, 2026, 10:40 p.m. | 4\u00a0hours, 44\u00a0minutes ago\n  \n  Description :Storage Concentrator (SC & SCVM) contain...",
+      "timestamp": 1782859255.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55721 - SQL Injection in StoneFly Storage Concentrator",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55721",
+      "summary": "CVE ID :CVE-2026-55721\n  \n  Published : June 30, 2026, 10:36 p.m. | 4\u00a0hours, 49\u00a0minutes ago\n  \n  Description :Storage Concentrator (SC & SCVM) is vuln...",
+      "timestamp": 1782858982.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54673 - electron-updater: Cross-origin redirect leaks `PRIVATE-TOKEN` and mixed-case `Authorization` credentials in `builder-util-runtime`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54673",
+      "summary": "CVE ID :CVE-2026-54673\n  \n  Published : June 30, 2026, 10:11 p.m. | 5\u00a0hours, 14\u00a0minutes ago\n  \n  Description :electron-updater allows for automatic up...",
+      "timestamp": 1782857497.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57995 - phpMyFAQ - Privilege Escalation via Missing Self-Rights Constraint in GroupController::updatePermissions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57995",
+      "summary": "CVE ID :CVE-2026-57995\n  \n  Published : June 30, 2026, 10:08 p.m. | 5\u00a0hours, 16\u00a0minutes ago\n  \n  Description :phpMyFAQ before 4.1.5 contains a privile...",
+      "timestamp": 1782857322.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56700 - Grav - Multiple Remote Code Execution Vulnerabilities via Unsafe Unserialize and Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56700",
+      "summary": "CVE ID :CVE-2026-56700\n  \n  Published : June 30, 2026, 10:08 p.m. | 5\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Grav CMS before 2.0.0-beta.2 contains mu...",
+      "timestamp": 1782857320.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56300 - Capgo - Unauthenticated API Key Validity and Permission Oracle via RPC Functions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56300",
+      "summary": "CVE ID :CVE-2026-56300\n  \n  Published : June 30, 2026, 10:08 p.m. | 5\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains unauthent...",
+      "timestamp": 1782857309.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56286 - Capgo - Account Deletion Without Password Confirmation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56286",
+      "summary": "CVE ID :CVE-2026-56286\n  \n  Published : June 30, 2026, 10:08 p.m. | 5\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains an authen...",
+      "timestamp": 1782857308.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56278 - Flowise - Session Hijacking via Weak Default Express Session Secret",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56278",
+      "summary": "CVE ID :CVE-2026-56278\n  \n  Published : June 30, 2026, 10:08 p.m. | 5\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Flowise before 3.1.0 (affected versions ...",
+      "timestamp": 1782857307.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "New BioShocking attack manipulates AI browser into data theft",
@@ -75,14 +163,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-50003 - OFFIS DCMTK Toolkit Path Traversal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50003",
-      "summary": "CVE ID :CVE-2026-50003\n  \n  Published : June 30, 2026, 9:27 p.m. | 56\u00a0minutes ago\n  \n  Description :A malicious or compromised server can make a DCMTK...",
-      "timestamp": 1782854862.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Microsoft accelerates quantum-safe roadmap as risks grow",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-accelerates-quantum-safe-roadmap-as-risks-grow/",
       "summary": "Microsoft announced today that it is accelerating its quantum-safe security roadmap, saying advances in quantum computing are bringing the need to rep...",
@@ -91,84 +171,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-50254 - OFFIS DCMTK Toolkit Missing Release of Memory after Effective Lifetime",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50254",
-      "summary": "CVE ID :CVE-2026-50254\n  \n  Published : June 30, 2026, 9:14 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :An unauthenticated remote attacker can rep...",
-      "timestamp": 1782854041.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-35505 - OFFIS DCMTK Toolkit Missing Release of Memory after Effective Lifetime",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35505",
-      "summary": "CVE ID :CVE-2026-35505\n  \n  Published : June 30, 2026, 9:09 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :An unauthenticated remote attacker can rep...",
-      "timestamp": 1782853786.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58449 - txtai - Unauthenticated Remote Code Execution via Unsafe Reflection in API /reindex function Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58449",
-      "summary": "CVE ID :CVE-2026-58449\n  \n  Published : June 30, 2026, 9:06 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :txtai through 9.10.0, fixed in commit 11b3...",
-      "timestamp": 1782853607.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52868 - OFFIS DCMTK Toolkit Path Traversal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52868",
-      "summary": "CVE ID :CVE-2026-52868\n  \n  Published : June 30, 2026, 9:06 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :An unauthenticated attacker can read workl...",
-      "timestamp": 1782853596.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Malicious PyPI packages give hackers control of Telegram bot servers",
       "link": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/",
       "summary": "A campaign active since last November has been targeting Python developers building Telegram bots with trojanized Pyrogram forks that allow attackers ...",
       "timestamp": 1782853375.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-44628 - OFFIS DCMTK Toolkit Type Confusion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44628",
-      "summary": "CVE ID :CVE-2026-44628\n  \n  Published : June 30, 2026, 8:54 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :An unauthenticated attacker can crash the ...",
-      "timestamp": 1782852875.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11594 - IBM WebSphere Application Server is affected by multiple cross-site scripting vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11594",
-      "summary": "CVE ID :CVE-2026-11594\n  \n  Published : June 30, 2026, 8:50 p.m. | 1\u00a0hour, 34\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 9.0, and ...",
-      "timestamp": 1782852634.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13207 - Frangoteam FUXA SCADA/HMI Authentication Bypass by Spoofing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13207",
-      "summary": "CVE ID :CVE-2026-13207\n  \n  Published : June 30, 2026, 8:24 p.m. | 2\u00a0hours ago\n  \n  Description :FUXA versions 1.3.1 and prior contain an authenticati...",
-      "timestamp": 1782851073.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-36359 - IBM DevOps Loop is susceptible to an Insufficient Session Expiration vulnerability.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-36359",
-      "summary": "CVE ID :CVE-2025-36359\n  \n  Published : June 30, 2026, 8:11 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :IBM DevOps Automation 1.0.1 and IBM DevOp...",
-      "timestamp": 1782850317.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10109 - IBM\u00ae Db2\u00ae is vulnerable to remote code execution due to improper pre-auth DRDA handshake handling",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10109",
-      "summary": "CVE ID :CVE-2026-10109\n  \n  Published : June 30, 2026, 8:02 p.m. | 2\u00a0hours, 22\u00a0minutes ago\n  \n  Description :IBM Db2 11.5.0 through 11.5.9, and 12.1.0...",
-      "timestamp": 1782849733.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20262-released-with-9-new-tools-nethunter-updates/",
       "summary": "Kali\u00a0Linux 2026.2, the second release of the year, is now available for download, featuring 9 new tools and numerous\u00a0Kali NetHunter improvements. [......",
       "timestamp": 1782812799.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Blackfield ransomware asks Nidec Corporation for $2 million ransom",
-      "link": "https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/",
-      "summary": "The Blackfield ransomware gang is asking for a $2 million ransom from Nidec Corporation, a large Japanese manufacturer of electronic components for au...",
-      "timestamp": 1782812465.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -267,5 +267,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1782865288.991324
+  "last_updated": 1782882817.7620687
 }
