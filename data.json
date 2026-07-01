@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,100 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Microsoft fixes GIF functionality in the Windows Emoji Panel",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-gif-functionality-in-the-windows-emoji-panel/",
+      "summary": "Microsoft has fixed the GIF functionality in the Emoji Panel for Windows 11 users after the provider shut down its service. [...]",
+      "timestamp": 1782903146.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Amazon fined $2.25M for withholding evidence from fraud victims",
+      "link": "https://www.bleepingcomputer.com/news/security/amazon-fined-225m-for-withholding-evidence-from-fraud-victims/",
+      "summary": "The U.S. Federal Trade Commission (FTC) says Amazon will pay a $2.25 million civil penalty to settle charges that it blocked identity theft victims' a...",
+      "timestamp": 1782899007.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-10538 - Improper deserialization handling in Control-M Components",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10538",
+      "summary": "CVE ID :CVE-2026-10538\n  \n  Published : July 1, 2026, 7:56 a.m. | 2\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Messaging consumer functionality allows de...",
+      "timestamp": 1782892591.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-10539 - Unauthenticated command injection in Control-M/Server communication command",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10539",
+      "summary": "CVE ID :CVE-2026-10539\n  \n  Published : July 1, 2026, 7:55 a.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :A Control-M/Server communication command d...",
+      "timestamp": 1782892500.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Adobe patches seven max severity ColdFusion, Campaign flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/",
+      "summary": "Adobe has released security patches for seven maximum-severity vulnerabilities in the ColdFusion web app development platform and the Campaign Classic...",
+      "timestamp": 1782891292.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-12577 - DVP80ES3 Improperly Implemented Security Check for Standard vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12577",
+      "summary": "CVE ID :CVE-2026-12577\n  \n  Published : July 1, 2026, 7:05 a.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :DVP80ES3 with Improperly Implemented Secur...",
+      "timestamp": 1782889525.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50043 - SkyBridge OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50043",
+      "summary": "CVE ID :CVE-2026-50043\n  \n  Published : July 1, 2026, 6:53 a.m. | 3\u00a0hours, 31\u00a0minutes ago\n  \n  Description :Improper neutralization of special element...",
+      "timestamp": 1782888812.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-6070 - WP-BusinessDirectory <= 4.0.1 - Unauthenticated Arbitrary File Deletion via Path Traversal via '_filename' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6070",
+      "summary": "CVE ID :CVE-2026-6070\n  \n  Published : July 1, 2026, 4:32 a.m. | 5\u00a0hours, 52\u00a0minutes ago\n  \n  Description :The WP-BusinessDirectory plugin for WordPre...",
+      "timestamp": 1782880347.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-7840 - UltraVNC repeater HTTP server global buffer overflow via long URI (pre-auth RCE)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7840",
+      "summary": "CVE ID :CVE-2026-7840\n  \n  Published : July 1, 2026, 3:33 a.m. | 6\u00a0hours, 51\u00a0minutes ago\n  \n  Description :UltraVNC repeater through 1.8.2.2 contains ...",
+      "timestamp": 1782876808.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-7839 - UltraVNC repeater ships hardcoded default admin password allowing unauthenticated admin access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7839",
+      "summary": "CVE ID :CVE-2026-7839\n  \n  Published : July 1, 2026, 3:33 a.m. | 6\u00a0hours, 51\u00a0minutes ago\n  \n  Description :UltraVNC repeater through 1.8.2.2 initializ...",
+      "timestamp": 1782876807.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-7838 - UltraVNC viewer heap buffer overflow via integer overflow in RFB connection-failure reason length",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7838",
+      "summary": "CVE ID :CVE-2026-7838\n  \n  Published : July 1, 2026, 3:33 a.m. | 6\u00a0hours, 51\u00a0minutes ago\n  \n  Description :UltraVNC viewer through 1.8.2.2 contains an...",
+      "timestamp": 1782876806.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Anthropic to restore Claude Fable access on Wednesday",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/",
@@ -65,6 +153,14 @@
       "timestamp": 1782866114.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-53488 - containerd CRI plugin: \u2014 image-config `LABEL` flows to restart-monitor `binary://` logger: host-root command execution from an image pull",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53488",
+      "summary": "CVE ID :CVE-2026-53488\n  \n  Published : July 1, 2026, 12:11 a.m. | 10\u00a0hours, 13\u00a0minutes ago\n  \n  Description :containerd is an open-source container r...",
+      "timestamp": 1782864680.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Anthropic rolls out Sonnet 5 with near-Opus 4.8 performance at a lower price",
@@ -77,80 +173,8 @@
     {
       "title": "CVE-2026-50110 - Use of Hard-coded Credentials in StoneFly Storage Concentrator",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50110",
-      "summary": "CVE ID :CVE-2026-50110\n  \n  Published : June 30, 2026, 10:54 p.m. | 4\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Storage Concentrator (SC & SCVM) contain...",
+      "summary": "CVE ID :CVE-2026-50110\n  \n  Published : June 30, 2026, 10:54 p.m. | 11\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Storage Concentrator (SC & SCVM) contai...",
       "timestamp": 1782860082.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56413 - OS Command Injection in StoneFly Storage Concentrator",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56413",
-      "summary": "CVE ID :CVE-2026-56413\n  \n  Published : June 30, 2026, 10:50 p.m. | 4\u00a0hours, 34\u00a0minutes ago\n  \n  Description :Storage Concentrator (SC & SCVM) contain...",
-      "timestamp": 1782859858.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56415 - OS Command Injection in StoneFly Storage Concentrator",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56415",
-      "summary": "CVE ID :CVE-2026-56415\n  \n  Published : June 30, 2026, 10:40 p.m. | 4\u00a0hours, 44\u00a0minutes ago\n  \n  Description :Storage Concentrator (SC & SCVM) contain...",
-      "timestamp": 1782859255.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55721 - SQL Injection in StoneFly Storage Concentrator",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55721",
-      "summary": "CVE ID :CVE-2026-55721\n  \n  Published : June 30, 2026, 10:36 p.m. | 4\u00a0hours, 49\u00a0minutes ago\n  \n  Description :Storage Concentrator (SC & SCVM) is vuln...",
-      "timestamp": 1782858982.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54673 - electron-updater: Cross-origin redirect leaks `PRIVATE-TOKEN` and mixed-case `Authorization` credentials in `builder-util-runtime`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54673",
-      "summary": "CVE ID :CVE-2026-54673\n  \n  Published : June 30, 2026, 10:11 p.m. | 5\u00a0hours, 14\u00a0minutes ago\n  \n  Description :electron-updater allows for automatic up...",
-      "timestamp": 1782857497.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57995 - phpMyFAQ - Privilege Escalation via Missing Self-Rights Constraint in GroupController::updatePermissions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57995",
-      "summary": "CVE ID :CVE-2026-57995\n  \n  Published : June 30, 2026, 10:08 p.m. | 5\u00a0hours, 16\u00a0minutes ago\n  \n  Description :phpMyFAQ before 4.1.5 contains a privile...",
-      "timestamp": 1782857322.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56700 - Grav - Multiple Remote Code Execution Vulnerabilities via Unsafe Unserialize and Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56700",
-      "summary": "CVE ID :CVE-2026-56700\n  \n  Published : June 30, 2026, 10:08 p.m. | 5\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Grav CMS before 2.0.0-beta.2 contains mu...",
-      "timestamp": 1782857320.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56300 - Capgo - Unauthenticated API Key Validity and Permission Oracle via RPC Functions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56300",
-      "summary": "CVE ID :CVE-2026-56300\n  \n  Published : June 30, 2026, 10:08 p.m. | 5\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains unauthent...",
-      "timestamp": 1782857309.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56286 - Capgo - Account Deletion Without Password Confirmation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56286",
-      "summary": "CVE ID :CVE-2026-56286\n  \n  Published : June 30, 2026, 10:08 p.m. | 5\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains an authen...",
-      "timestamp": 1782857308.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56278 - Flowise - Session Hijacking via Weak Default Express Session Secret",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56278",
-      "summary": "CVE ID :CVE-2026-56278\n  \n  Published : June 30, 2026, 10:08 p.m. | 5\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Flowise before 3.1.0 (affected versions ...",
-      "timestamp": 1782857307.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -195,30 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "Insurance giant Aflac discloses data breach after subsidiary hack",
-      "link": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/",
-      "summary": "American insurance giant Aflac has disclosed a new data breach after attackers breached its Japan subsidiary's systems and stole personal and bank acc...",
-      "timestamp": 1782817938.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft adds smarter bot protection to Teams meetings",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-smarter-bot-protection-to-teams-meetings/",
-      "summary": "Microsoft has introduced a new Teams admin policy that allows organizers to prevent third-party bots from joining meetings without approval. [...]",
-      "timestamp": 1782816746.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Kali Linux 2026.2 released with 9 new tools, NetHunter updates",
-      "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20262-released-with-9-new-tools-nethunter-updates/",
-      "summary": "Kali\u00a0Linux 2026.2, the second release of the year, is now available for download, featuring 9 new tools and numerous\u00a0Kali NetHunter improvements. [......",
-      "timestamp": 1782812799.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Finesse Remote File Inclusion Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-rfi-gwpkdc89?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Remote%20File%20Inclusion%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in Cisco Finesse could allow an unauthenticated, remote attacker to load arbitrary files from remote locations into an active user ses...",
@@ -257,15 +257,7 @@
       "timestamp": 1781881343.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "\u2018Popa\u2019 Botnet Linked to Publicly-Traded Israeli Firm",
-      "link": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
-      "summary": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to adv...",
-      "timestamp": 1781804278.0,
-      "source": "Krebs on Security",
-      "vendor": "News"
     }
   ],
-  "last_updated": 1782882817.7620687
+  "last_updated": 1782908365.7939248
 }
