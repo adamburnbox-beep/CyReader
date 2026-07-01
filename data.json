@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,30 @@
   ],
   "articles": [
     {
+      "title": "Kubota says hackers had month-long access to network systems",
+      "link": "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
+      "summary": "Kubota North America Corporation disclosed that hackers had access to some of its network systems for more than a month earlier this year. [...]",
+      "timestamp": 1782940146.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
+      "link": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
+      "summary": "Multiple weaponized proof-of-concept (PoC) exploits on GitHub were found delivering a Python-based remote access trojan (RAT) named ChocoPoC that can ...",
+      "timestamp": 1782936493.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-49119 - Gradio < 6.16.0 Path Traversal via FileExplorer.preprocess()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49119",
+      "summary": "CVE ID :CVE-2026-49119\n  \n  Published : July 1, 2026, 6:30 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :Gradio before 6.16.0 contain a path traversa...",
+      "timestamp": 1782930638.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "DHS confirms hackers breached HSIN info-sharing platform",
       "link": "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
       "summary": "The Department of Homeland Security is investigating a cyberattack that compromised the Homeland Security Information Network (HSIN), a sensitive info...",
@@ -69,7 +93,7 @@
     {
       "title": "CVE-2026-49091 - Improper Output Neutralization for Logs in Kibana Leading to Log Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49091",
-      "summary": "CVE ID :CVE-2026-49091\n  \n  Published : July 1, 2026, 5:21 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Improper Output Neutralization for Logs (CWE...",
+      "summary": "CVE ID :CVE-2026-49091\n  \n  Published : July 1, 2026, 5:21 p.m. | 2\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Improper Output Neutralization for Logs (C...",
       "timestamp": 1782926488.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +117,7 @@
     {
       "title": "CVE-2026-57516 - Ray < 2.56.0 Unsafe Deserialization RCE via WebDataset Reader",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57516",
-      "summary": "CVE ID :CVE-2026-57516\n  \n  Published : July 1, 2026, 4:36 p.m. | 1\u00a0hour, 48\u00a0minutes ago\n  \n  Description :Ray prior to 2.56.0 contains an unsafe dese...",
+      "summary": "CVE ID :CVE-2026-57516\n  \n  Published : July 1, 2026, 4:36 p.m. | 3\u00a0hours, 1\u00a0minute ago\n  \n  Description :Ray prior to 2.56.0 contains an unsafe deser...",
       "timestamp": 1782923815.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +125,7 @@
     {
       "title": "CVE-2026-34117 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in text_to_subtitles.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34117",
-      "summary": "CVE ID :CVE-2026-34117\n  \n  Published : July 1, 2026, 4:24 p.m. | 2\u00a0hours ago\n  \n  Description :Guardian language-system passes the id GET parameter d...",
+      "summary": "CVE ID :CVE-2026-34117\n  \n  Published : July 1, 2026, 4:24 p.m. | 3\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET...",
       "timestamp": 1782923046.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +133,7 @@
     {
       "title": "CVE-2026-34116 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in transcribe.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34116",
-      "summary": "CVE ID :CVE-2026-34116\n  \n  Published : July 1, 2026, 4:23 p.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :Guardian language-system passes the id GET p...",
+      "summary": "CVE ID :CVE-2026-34116\n  \n  Published : July 1, 2026, 4:23 p.m. | 3\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET...",
       "timestamp": 1782923004.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +141,7 @@
     {
       "title": "CVE-2026-34115 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in transcribe_amazon.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34115",
-      "summary": "CVE ID :CVE-2026-34115\n  \n  Published : July 1, 2026, 4:22 p.m. | 2\u00a0hours, 2\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET ...",
+      "summary": "CVE ID :CVE-2026-34115\n  \n  Published : July 1, 2026, 4:22 p.m. | 3\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET...",
       "timestamp": 1782922965.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +149,7 @@
     {
       "title": "CVE-2026-34114 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in translate_text.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34114",
-      "summary": "CVE ID :CVE-2026-34114\n  \n  Published : July 1, 2026, 4:21 p.m. | 2\u00a0hours, 3\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET ...",
+      "summary": "CVE ID :CVE-2026-34114\n  \n  Published : July 1, 2026, 4:21 p.m. | 3\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET...",
       "timestamp": 1782922919.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,7 +157,7 @@
     {
       "title": "CVE-2026-34113 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in speech_text.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34113",
-      "summary": "CVE ID :CVE-2026-34113\n  \n  Published : July 1, 2026, 4:21 p.m. | 2\u00a0hours, 3\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET ...",
+      "summary": "CVE ID :CVE-2026-34113\n  \n  Published : July 1, 2026, 4:21 p.m. | 3\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET...",
       "timestamp": 1782922881.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -141,7 +165,7 @@
     {
       "title": "CVE-2026-34112 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in speechmac.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34112",
-      "summary": "CVE ID :CVE-2026-34112\n  \n  Published : July 1, 2026, 4:20 p.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET ...",
+      "summary": "CVE ID :CVE-2026-34112\n  \n  Published : July 1, 2026, 4:20 p.m. | 3\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET...",
       "timestamp": 1782922846.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -149,16 +173,8 @@
     {
       "title": "CVE-2026-34111 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in speechmac_text.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34111",
-      "summary": "CVE ID :CVE-2026-34111\n  \n  Published : July 1, 2026, 4:20 p.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET ...",
+      "summary": "CVE ID :CVE-2026-34111\n  \n  Published : July 1, 2026, 4:20 p.m. | 3\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET...",
       "timestamp": 1782922809.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-34110 - Guardian Language-System Unauthenticated OS Command Injection via id Parameter in complex_start.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34110",
-      "summary": "CVE ID :CVE-2026-34110\n  \n  Published : July 1, 2026, 4:19 p.m. | 2\u00a0hours, 5\u00a0minutes ago\n  \n  Description :Guardian language-system passes the id GET ...",
-      "timestamp": 1782922755.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -235,22 +251,6 @@
       "vendor": "News"
     },
     {
-      "title": "Anthropic to restore Claude Fable access on Wednesday",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/",
-      "summary": "Anthropic has confirmed that the\u00a0Department of Commerce has lifted export controls on Claude's two most powerful models,\u00a0Fable 5 and Mythos 5. [...]",
-      "timestamp": 1782866114.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Anthropic rolls out Sonnet 5 with near-Opus 4.8 performance at a lower price",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-sonnet-5-with-near-opus-48-performance-at-a-lower-price/",
-      "summary": "Anthropic is now rolling out Sonnet 5, and it's almost as good as the Opus range, but it is designed to be cheaper than the company's flagship model. ...",
-      "timestamp": 1782861187.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Finesse Remote File Inclusion Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-rfi-gwpkdc89?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Remote%20File%20Inclusion%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in Cisco Finesse could allow an unauthenticated, remote attacker to load arbitrary files from remote locations into an active user ses...",
@@ -283,5 +283,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782933927.5279806
+  "last_updated": 1782940494.8306031
 }
