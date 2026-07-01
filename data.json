@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Anthropic rolls out Sonnet 5 with near-Opus 4.8 performance at a lower price",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-sonnet-5-with-near-opus-48-performance-at-a-lower-price/",
+      "summary": "Anthropic is now rolling out Sonnet 5, and it's almost as good as the Opus range, but it is designed to be cheaper than the company's flagship model. ...",
+      "timestamp": 1782861187.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "New BioShocking attack manipulates AI browser into data theft",
       "link": "https://www.bleepingcomputer.com/news/security/new-bioshocking-attack-manipulates-ai-browser-into-data-theft/",
@@ -67,12 +75,52 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-50003 - OFFIS DCMTK Toolkit Path Traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50003",
+      "summary": "CVE ID :CVE-2026-50003\n  \n  Published : June 30, 2026, 9:27 p.m. | 56\u00a0minutes ago\n  \n  Description :A malicious or compromised server can make a DCMTK...",
+      "timestamp": 1782854862.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Microsoft accelerates quantum-safe roadmap as risks grow",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-accelerates-quantum-safe-roadmap-as-risks-grow/",
       "summary": "Microsoft announced today that it is accelerating its quantum-safe security roadmap, saying advances in quantum computing are bringing the need to rep...",
       "timestamp": 1782854406.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-50254 - OFFIS DCMTK Toolkit Missing Release of Memory after Effective Lifetime",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50254",
+      "summary": "CVE ID :CVE-2026-50254\n  \n  Published : June 30, 2026, 9:14 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :An unauthenticated remote attacker can rep...",
+      "timestamp": 1782854041.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-35505 - OFFIS DCMTK Toolkit Missing Release of Memory after Effective Lifetime",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35505",
+      "summary": "CVE ID :CVE-2026-35505\n  \n  Published : June 30, 2026, 9:09 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :An unauthenticated remote attacker can rep...",
+      "timestamp": 1782853786.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58449 - txtai - Unauthenticated Remote Code Execution via Unsafe Reflection in API /reindex function Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58449",
+      "summary": "CVE ID :CVE-2026-58449\n  \n  Published : June 30, 2026, 9:06 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :txtai through 9.10.0, fixed in commit 11b3...",
+      "timestamp": 1782853607.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52868 - OFFIS DCMTK Toolkit Path Traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52868",
+      "summary": "CVE ID :CVE-2026-52868\n  \n  Published : June 30, 2026, 9:06 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :An unauthenticated attacker can read workl...",
+      "timestamp": 1782853596.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Malicious PyPI packages give hackers control of Telegram bot servers",
@@ -85,7 +133,7 @@
     {
       "title": "CVE-2026-44628 - OFFIS DCMTK Toolkit Type Confusion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44628",
-      "summary": "CVE ID :CVE-2026-44628\n  \n  Published : June 30, 2026, 8:54 p.m. | 26\u00a0minutes ago\n  \n  Description :An unauthenticated attacker can crash the worklist...",
+      "summary": "CVE ID :CVE-2026-44628\n  \n  Published : June 30, 2026, 8:54 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :An unauthenticated attacker can crash the ...",
       "timestamp": 1782852875.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +141,7 @@
     {
       "title": "CVE-2026-11594 - IBM WebSphere Application Server is affected by multiple cross-site scripting vulnerabilities",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11594",
-      "summary": "CVE ID :CVE-2026-11594\n  \n  Published : June 30, 2026, 8:50 p.m. | 30\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 9.0, and 8.5 is a...",
+      "summary": "CVE ID :CVE-2026-11594\n  \n  Published : June 30, 2026, 8:50 p.m. | 1\u00a0hour, 34\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 9.0, and ...",
       "timestamp": 1782852634.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +149,7 @@
     {
       "title": "CVE-2026-13207 - Frangoteam FUXA SCADA/HMI Authentication Bypass by Spoofing",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13207",
-      "summary": "CVE ID :CVE-2026-13207\n  \n  Published : June 30, 2026, 8:24 p.m. | 56\u00a0minutes ago\n  \n  Description :FUXA versions 1.3.1 and prior contain an authentic...",
+      "summary": "CVE ID :CVE-2026-13207\n  \n  Published : June 30, 2026, 8:24 p.m. | 2\u00a0hours ago\n  \n  Description :FUXA versions 1.3.1 and prior contain an authenticati...",
       "timestamp": 1782851073.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +157,7 @@
     {
       "title": "CVE-2025-36359 - IBM DevOps Loop is susceptible to an Insufficient Session Expiration vulnerability.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-36359",
-      "summary": "CVE ID :CVE-2025-36359\n  \n  Published : June 30, 2026, 8:11 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :IBM DevOps Automation 1.0.1 and IBM DevOps ...",
+      "summary": "CVE ID :CVE-2025-36359\n  \n  Published : June 30, 2026, 8:11 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :IBM DevOps Automation 1.0.1 and IBM DevOp...",
       "timestamp": 1782850317.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,48 +165,8 @@
     {
       "title": "CVE-2026-10109 - IBM\u00ae Db2\u00ae is vulnerable to remote code execution due to improper pre-auth DRDA handshake handling",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10109",
-      "summary": "CVE ID :CVE-2026-10109\n  \n  Published : June 30, 2026, 8:02 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :IBM Db2 11.5.0 through 11.5.9, and 12.1.0 ...",
+      "summary": "CVE ID :CVE-2026-10109\n  \n  Published : June 30, 2026, 8:02 p.m. | 2\u00a0hours, 22\u00a0minutes ago\n  \n  Description :IBM Db2 11.5.0 through 11.5.9, and 12.1.0...",
       "timestamp": 1782849733.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10129 - SSRF via HTTP Redirect Following in Langflow API Request Component",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10129",
-      "summary": "CVE ID :CVE-2026-10129\n  \n  Published : June 30, 2026, 7:59 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.9.3 conta...",
-      "timestamp": 1782849599.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10134 - Unauthenticated Server-Side RCE via PythonCodeStructuredTool in Public Flows",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10134",
-      "summary": "CVE ID :CVE-2026-10134\n  \n  Published : June 30, 2026, 7:56 p.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.9.3 allow...",
-      "timestamp": 1782849412.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10140 - Cross-Tenant API Key Reuse and Billing Fraud in Langflow Voice Mode Subsystem",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10140",
-      "summary": "CVE ID :CVE-2026-10140\n  \n  Published : June 30, 2026, 7:55 p.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 voic...",
-      "timestamp": 1782849331.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10560 - Unauthenticated Access to Private Flow Build Events and Cancellation in Langflow OSS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10560",
-      "summary": "CVE ID :CVE-2026-10560\n  \n  Published : June 30, 2026, 7:53 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.9.6 conta...",
-      "timestamp": 1782849200.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10564 - SSRF Vulnerability in Langflow OSS Legacy Components Bypasses Protection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10564",
-      "summary": "CVE ID :CVE-2026-10564\n  \n  Published : June 30, 2026, 7:51 p.m. | 1\u00a0hour, 28\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.9.6 conta...",
-      "timestamp": 1782849115.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -211,14 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "CISA: Windows BlueHammer flaw now exploited by ransomware gangs",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
-      "summary": "CISA confirmed on Monday that ransomware gangs are now exploiting a Microsoft Defender privilege escalation vulnerability, dubbed BlueHammer, that has...",
-      "timestamp": 1782809593.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Finesse Remote File Inclusion Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-rfi-gwpkdc89?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Remote%20File%20Inclusion%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in Cisco Finesse could allow an unauthenticated, remote attacker to load arbitrary files from remote locations into an active user ses...",
@@ -267,5 +267,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1782860280.0461178
+  "last_updated": 1782865288.991324
 }
