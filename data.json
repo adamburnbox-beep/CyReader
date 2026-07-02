@@ -59,9 +59,57 @@
   ],
   "articles": [
     {
+      "title": "CVE-2024-58352 - Landray OA Unauthenticated HQL Injection via wechatLoginHelper.do",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58352",
+      "summary": "CVE ID :CVE-2024-58352\n  \n  Published : July 2, 2026, 5:05 p.m. | 42\u00a0minutes ago\n  \n  Description :Landray OA contains an unauthenticated HQL injectio...",
+      "timestamp": 1783011910.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2022-50973 - Yonyou KSOA 9.0 Unauthenticated File Upload RCE via ImageUpload Servlet",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2022-50973",
+      "summary": "CVE ID :CVE-2022-50973\n  \n  Published : July 2, 2026, 5:04 p.m. | 43\u00a0minutes ago\n  \n  Description :Yonyou KSOA 9.0 contains an unauthenticated arbitra...",
+      "timestamp": 1783011860.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2024-14037 - Redsea Cloud eHR Unauthenticated File Upload RCE via PtFjk.mob",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-14037",
+      "summary": "CVE ID :CVE-2024-14037\n  \n  Published : July 2, 2026, 5:03 p.m. | 44\u00a0minutes ago\n  \n  Description :Redsea Cloud eHR contains an arbitrary file upload ...",
+      "timestamp": 1783011803.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55950 - DTLS listener crash via race condition in dtls_packet_demux causes denial of service for all sessions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55950",
+      "summary": "CVE ID :CVE-2026-55950\n  \n  Published : July 2, 2026, 4:06 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Time-of-check Time-of-use (TOCTOU) race con...",
+      "timestamp": 1783008384.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55952 - TLS 1.3 server denial of service via malformed ClientHello pre-shared key extension",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55952",
+      "summary": "CVE ID :CVE-2026-55952\n  \n  Published : July 2, 2026, 4:06 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :The Erlang/OTP ssl application does not val...",
+      "timestamp": 1783008368.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-44935 - Rancher Fleet vulnerable to cross namespace secret disclosure via unvalidated `valuesFrom` references in Helm Deployer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44935",
+      "summary": "CVE ID :CVE-2026-44935\n  \n  Published : July 2, 2026, 4 p.m. | 1\u00a0hour, 47\u00a0minutes ago\n  \n  Description :Missing validation of \"valuesFrom\" references ...",
+      "timestamp": 1783008006.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-44941 - libzypp path traversal via \"keyhint\" in repomd.xml",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44941",
-      "summary": "CVE ID :CVE-2026-44941\n  \n  Published : July 2, 2026, 3:19 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :A relative path traversal in the \"keyhint\" o...",
+      "summary": "CVE ID :CVE-2026-44941\n  \n  Published : July 2, 2026, 3:19 p.m. | 2\u00a0hours, 28\u00a0minutes ago\n  \n  Description :A relative path traversal in the \"keyhint\"...",
       "timestamp": 1783005545.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +125,7 @@
     {
       "title": "CVE-2026-58455 - Dockwatch 0.6.567 Unauthenticated OS Command Injection via ajax/compose.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58455",
-      "summary": "CVE ID :CVE-2026-58455\n  \n  Published : July 2, 2026, 3:12 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Dockwatch through 0.6.567 contains an unaut...",
+      "summary": "CVE ID :CVE-2026-58455\n  \n  Published : July 2, 2026, 3:12 p.m. | 2\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Dockwatch through 0.6.567 contains an unau...",
       "timestamp": 1783005130.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +133,7 @@
     {
       "title": "CVE-2026-56004 - obs-service-tar_scm: command injection via mercurial handler",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56004",
-      "summary": "CVE ID :CVE-2026-56004\n  \n  Published : July 2, 2026, 2:54 p.m. | 1\u00a0hour, 31\u00a0minutes ago\n  \n  Description :A shellcode injection in the mercurial hand...",
+      "summary": "CVE ID :CVE-2026-56004\n  \n  Published : July 2, 2026, 2:54 p.m. | 2\u00a0hours, 53\u00a0minutes ago\n  \n  Description :A shellcode injection in the mercurial han...",
       "timestamp": 1783004042.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,16 +141,8 @@
     {
       "title": "CVE-2026-8079 - Unintended limited set of actions with elevated privileges may be performed during PDF generation in Progress Flowmon",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8079",
-      "summary": "CVE ID :CVE-2026-8079\n  \n  Published : July 2, 2026, 2:03 p.m. | 2\u00a0hours, 21\u00a0minutes ago\n  \n  Description :In Progress Flowmon versions prior to 12.5....",
+      "summary": "CVE ID :CVE-2026-8079\n  \n  Published : July 2, 2026, 2:03 p.m. | 3\u00a0hours, 44\u00a0minutes ago\n  \n  Description :In Progress Flowmon versions prior to 12.5....",
       "timestamp": 1783001016.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9272 - Possibility of unintended database operations when querying data related to detected anomalies in Progress Flowmon ADS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9272",
-      "summary": "CVE ID :CVE-2026-9272\n  \n  Published : July 2, 2026, 2:02 p.m. | 2\u00a0hours, 22\u00a0minutes ago\n  \n  Description :In Progress Flowmon ADS versions prior to 1...",
-      "timestamp": 1783000971.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -113,22 +153,6 @@
       "timestamp": 1783000810.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-4767 - Improper Access Control in TR7's WAF-ASP",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4767",
-      "summary": "CVE ID :CVE-2026-4767\n  \n  Published : July 2, 2026, 1:12 p.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Missing authentication for critical functio...",
-      "timestamp": 1782997950.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-5524 - Divi Form Builder <= 5.1.8 - Unauthenticated Arbitrary File Upload Leading to Remote Code Execution via 'acceptFileTypes' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5524",
-      "summary": "CVE ID :CVE-2026-5524\n  \n  Published : July 2, 2026, 12:34 p.m. | 3\u00a0hours, 50\u00a0minutes ago\n  \n  Description :The Divi Form Builder plugin for WordPress...",
-      "timestamp": 1782995680.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft fixes bug that removed Copilot buttons in Outlook",
@@ -145,30 +169,6 @@
       "timestamp": 1782992125.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-56037 - WordPress Themify Popup plugin <= 1.4.3 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56037",
-      "summary": "CVE ID :CVE-2026-56037\n  \n  Published : July 2, 2026, 11:30 a.m. | 4\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnera...",
-      "timestamp": 1782991812.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57766 - WordPress WPIDE \u2013 File Manager & Code Editor plugin <= 3.5.6 - Cross Site Request Forgery (CSRF) vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57766",
-      "summary": "CVE ID :CVE-2026-57766\n  \n  Published : July 2, 2026, 11:16 a.m. | 5\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Unauthenticated Cross Site Request Forgery...",
-      "timestamp": 1782990967.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57765 - WordPress WP EasyCart plugin <= 5.9.0 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57765",
-      "summary": "CVE ID :CVE-2026-57765\n  \n  Published : July 2, 2026, 11:16 a.m. | 5\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Contributor SQL Injection in WP EasyCart <...",
-      "timestamp": 1782990966.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CISA: Microsoft SharePoint RCE flaw now actively exploited",
@@ -275,5 +275,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783012681.1104817
+  "last_updated": 1783019193.9874344
 }
