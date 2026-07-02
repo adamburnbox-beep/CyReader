@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,8 +31,8 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 3,
-      "total_count": 10,
+      "new_count": 0,
+      "total_count": 0,
       "status": "ok"
     },
     {
@@ -52,17 +52,97 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-14439 - Path Traversal in Altium Git Service Allows Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14439",
-      "summary": "CVE ID :CVE-2026-14439\n  \n  Published : July 1, 2026, 11:05 p.m. | 36\u00a0minutes ago\n  \n  Description :A path traversal vulnerability exists in the Git S...",
-      "timestamp": 1782947130.0,
+      "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
+      "link": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
+      "summary": "Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. ...",
+      "timestamp": 1782966342.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-57278 - GeoVision GeoWebPlayer Websocket Server connectInfo handler stack-based buffer overflow vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57278",
+      "summary": "CVE ID :CVE-2026-57278\n  \n  Published : July 2, 2026, 2:26 a.m. | 5\u00a0hours ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in the GV-VMS d...",
+      "timestamp": 1782959169.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57277 - GeoVision GeoWebPlayer Websocket Server connectInfo handler stack-based buffer overflow vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57277",
+      "summary": "CVE ID :CVE-2026-57277\n  \n  Published : July 2, 2026, 2:25 a.m. | 5\u00a0hours ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in the GV-VMS d...",
+      "timestamp": 1782959134.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57276 - GeoVision GeoWebPlayer Websocket Server connectInfo handler stack-based buffer overflow vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57276",
+      "summary": "CVE ID :CVE-2026-57276\n  \n  Published : July 2, 2026, 2:25 a.m. | 5\u00a0hours, 1\u00a0minute ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in th...",
+      "timestamp": 1782959109.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57275 - GeoVision GeoWebPlayer Websocket Server connectInfo handler stack-based buffer overflow vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57275",
+      "summary": "CVE ID :CVE-2026-57275\n  \n  Published : July 2, 2026, 2:24 a.m. | 5\u00a0hours, 1\u00a0minute ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in th...",
+      "timestamp": 1782959079.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57274 - GeoVision GeoWebPlayer Websocket Server connectInfo handler stack-based buffer overflow vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57274",
+      "summary": "CVE ID :CVE-2026-57274\n  \n  Published : July 2, 2026, 2:24 a.m. | 5\u00a0hours, 2\u00a0minutes ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in t...",
+      "timestamp": 1782959051.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57273 - GeoVision GeoWebPlayer Websocket Server connectInfo handler stack-based buffer overflow vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57273",
+      "summary": "CVE ID :CVE-2026-57273\n  \n  Published : July 2, 2026, 2:23 a.m. | 5\u00a0hours, 2\u00a0minutes ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in t...",
+      "timestamp": 1782959023.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57272 - GeoVision GeoWebPlayer Websocket Server out-of-bounds read vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57272",
+      "summary": "CVE ID :CVE-2026-57272\n  \n  Published : July 2, 2026, 2:22 a.m. | 5\u00a0hours, 3\u00a0minutes ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in t...",
+      "timestamp": 1782958956.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57271 - GeoVision GeoWebPlayer Websocket Server out-of-bounds read vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57271",
+      "summary": "CVE ID :CVE-2026-57271\n  \n  Published : July 2, 2026, 2:21 a.m. | 5\u00a0hours, 4\u00a0minutes ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in t...",
+      "timestamp": 1782958906.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57270 - GeoVision GeoWebPlayer Websocket Server out-of-bounds read vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57270",
+      "summary": "CVE ID :CVE-2026-57270\n  \n  Published : July 2, 2026, 2:21 a.m. | 5\u00a0hours, 5\u00a0minutes ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in t...",
+      "timestamp": 1782958871.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57269 - GeoVision GeoWebPlayer Websocket Server out-of-bounds read vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57269",
+      "summary": "CVE ID :CVE-2026-57269\n  \n  Published : July 2, 2026, 2:20 a.m. | 5\u00a0hours, 5\u00a0minutes ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in t...",
+      "timestamp": 1782958843.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -83,14 +163,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-50521 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50521",
-      "summary": "CVE ID :CVE-2026-50521\n  \n  Published : July 1, 2026, 8:14 p.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.3 | HIGH\n  \n  Visit ...",
-      "timestamp": 1782936883.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
       "link": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
       "summary": "Multiple weaponized proof-of-concept (PoC) exploits on GitHub were found delivering a Python-based remote access trojan (RAT) named ChocoPoC that can ...",
@@ -99,76 +171,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-58593 - NodeBB - ActivityPub Author Spoofing via Unvalidated attributedTo Mapped to Local User",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58593",
-      "summary": "CVE ID :CVE-2026-58593\n  \n  Published : July 1, 2026, 7:27 p.m. | 4\u00a0hours, 14\u00a0minutes ago\n  \n  Description :NodeBB does not bind the claimed author of...",
-      "timestamp": 1782934043.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58592 - Ladybird - Web-Reachable Code Execution via Dangling FunctionType Reference in WebAssembly ESM Integration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58592",
-      "summary": "CVE ID :CVE-2026-58592\n  \n  Published : July 1, 2026, 7:27 p.m. | 4\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Ladybird contains a dangling-reference mem...",
-      "timestamp": 1782934042.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58457 - Shenzhen Aitemi M300 MT02 Unauthenticated OS Command Injection via protocol.csp",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58457",
-      "summary": "CVE ID :CVE-2026-58457\n  \n  Published : July 1, 2026, 7:22 p.m. | 4\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Shenzhen Aitemi M300 Wi-Fi Repeater (hardw...",
-      "timestamp": 1782933762.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49119 - Gradio < 6.16.0 Path Traversal via FileExplorer.preprocess()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49119",
-      "summary": "CVE ID :CVE-2026-49119\n  \n  Published : July 1, 2026, 6:30 p.m. | 5\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Gradio before 6.16.0 contain a path traver...",
-      "timestamp": 1782930638.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53489 - containerd: Arbitrary host CRI log file read via symlink following in CRI checkpoint restore",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53489",
-      "summary": "CVE ID :CVE-2026-53489\n  \n  Published : July 1, 2026, 6:10 p.m. | 5\u00a0hours, 31\u00a0minutes ago\n  \n  Description :containerd is an open-source container run...",
-      "timestamp": 1782929441.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53492 - containerd CRI checkpoint restore CDI annotation smuggling",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53492",
-      "summary": "CVE ID :CVE-2026-53492\n  \n  Published : July 1, 2026, 5:59 p.m. | 5\u00a0hours, 42\u00a0minutes ago\n  \n  Description :containerd is an open-source container run...",
-      "timestamp": 1782928752.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50160 - Mass Assignment via Onboarding Endpoint Allows Unauthenticated JWT_SECRET Overwrite",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50160",
-      "summary": "CVE ID :CVE-2026-50160\n  \n  Published : July 1, 2026, 5:48 p.m. | 5\u00a0hours, 53\u00a0minutes ago\n  \n  Description :Hoppscotch is an API development ecosystem...",
-      "timestamp": 1782928129.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "DHS confirms hackers breached HSIN info-sharing platform",
       "link": "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
       "summary": "The Department of Homeland Security is investigating a cyberattack that compromised the Homeland Security Information Network (HSIN), a sensitive info...",
       "timestamp": 1782927142.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-49091 - Improper Output Neutralization for Logs in Kibana Leading to Log Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49091",
-      "summary": "CVE ID :CVE-2026-49091\n  \n  Published : July 1, 2026, 5:21 p.m. | 6\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Improper Output Neutralization for Logs (C...",
-      "timestamp": 1782926488.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Webinar: Why traditional email security is no longer enough",
@@ -185,38 +193,6 @@
       "timestamp": 1782923881.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "Cisco Advance Notification for Publication of July 1, 2026, Security Advisories",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-vwL7b0S7?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%201,%202026,%20Security%20Advisories%26vs_k=1",
-      "summary": "On July 1, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE-ID\nSecur...",
-      "timestamp": 1782921667.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "ClamAV Vulnerabilities Affecting Cisco Products: July 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-88cFYyxR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20July%202026%26vs_k=1",
-      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.\nFor m...",
-      "timestamp": 1782921600.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Catalyst Center Arbitrary File Read Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-catc-file-read-wLH2vf8X?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20Center%20Arbitrary%20File%20Read%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in Cisco Catalyst Center could allow an unauthenticated, remote attacker to read arbitrary files from a restricted container.&nbsp;\nTh...",
-      "timestamp": 1782921600.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Unified Communications Manager Server-Side Request Forgery Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-ssrf-cXPnHcW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Manager%20Server-Side%20Request%20Forgery%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM S...",
-      "timestamp": 1782918608.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     },
     {
       "title": "Turning Indicators into Intelligence in OpenCTI with Criminal IP",
@@ -243,45 +219,13 @@
       "vendor": "News"
     },
     {
-      "title": "Amazon fined $2.25M for withholding evidence from fraud victims",
-      "link": "https://www.bleepingcomputer.com/news/security/amazon-fined-225m-for-withholding-evidence-from-fraud-victims/",
-      "summary": "The U.S. Federal Trade Commission (FTC) says Amazon will pay a $2.25 million civil penalty to settle charges that it blocked identity theft victims' a...",
-      "timestamp": 1782899007.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cisco Finesse Remote File Inclusion Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-rfi-gwpkdc89?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Remote%20File%20Inclusion%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in Cisco Finesse could allow an unauthenticated, remote attacker to load arbitrary files from remote locations into an active user ses...",
-      "timestamp": 1782397869.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
       "link": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
       "summary": "Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London...",
       "timestamp": 1782231169.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "Cisco Packaged Contact Center Enterprise and Cisco Unified Contact Center Enterprise Cross-Site Scripting Vulnerabilities",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucce-pcce-xss-2JVyg3uD?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Packaged%20Contact%20Center%20Enterprise%20and%20Cisco%20Unified%20Contact%20Center%20Enterprise%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
-      "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Packaged Contact Center Enterprise (Packaged CCE) and Cisco Unified Contact Ce...",
-      "timestamp": 1782140649.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Remote%20Code%20Execution%20and%20Information%20Disclosure%20Vulnerabilities%26vs_k=1",
-      "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to a...",
-      "timestamp": 1781881343.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782950244.4853148
+  "last_updated": 1782979174.7210994
 }
