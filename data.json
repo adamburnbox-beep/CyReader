@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 10,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,132 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 2,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Google loses final appeal to overturn \u20ac4.1 billion EU fine",
+      "link": "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/",
+      "summary": "Court of Justice of the European Union (CJEU) has dismissed Google's final appeal against a \u20ac4.1 billion ($4.7 billion) antitrust fine over the compan...",
+      "timestamp": 1783005531.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
+      "link": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
+      "summary": "ConsentFix and ClickFix attacks steal Microsoft 365 tokens in seconds using fake prompts and OAuth flows. Learn how these MFA bypass tactics work and ...",
+      "timestamp": 1783000810.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-4767 - Improper Access Control in TR7's WAF-ASP",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4767",
+      "summary": "CVE ID :CVE-2026-4767\n  \n  Published : July 2, 2026, 1:12 p.m. | 33\u00a0minutes ago\n  \n  Description :Missing authentication for critical function vulnera...",
+      "timestamp": 1782997950.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft fixes bug that removed Copilot buttons in Outlook",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-removed-copilot-button-in-outlook/",
+      "summary": "Microsoft has fixed a known issue causing the Copilot Chat or Copilot buttons in Classic Outlook to disappear for Windows users with the Copilot Chat ...",
+      "timestamp": 1782994547.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco finally confirms attackers exploiting Unified CM flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/",
+      "summary": "Cisco confirmed that attackers are now exploiting a Unified Communications Manager (Unified CM) vulnerability patched in early June. [...]",
+      "timestamp": 1782992125.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-56037 - WordPress Themify Popup plugin <= 1.4.3 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56037",
+      "summary": "CVE ID :CVE-2026-56037\n  \n  Published : July 2, 2026, 11:30 a.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnera...",
+      "timestamp": 1782991812.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57766 - WordPress WPIDE \u2013 File Manager & Code Editor plugin <= 3.5.6 - Cross Site Request Forgery (CSRF) vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57766",
+      "summary": "CVE ID :CVE-2026-57766\n  \n  Published : July 2, 2026, 11:16 a.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Unauthenticated Cross Site Request Forger...",
+      "timestamp": 1782990967.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57765 - WordPress WP EasyCart plugin <= 5.9.0 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57765",
+      "summary": "CVE ID :CVE-2026-57765\n  \n  Published : July 2, 2026, 11:16 a.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Contributor SQL Injection in WP EasyCart ...",
+      "timestamp": 1782990966.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57759 - WordPress ProfileGrid  plugin <= 5.9.9.7 - CSRF to Account Takeover vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57759",
+      "summary": "CVE ID :CVE-2026-57759\n  \n  Published : July 2, 2026, 11:16 a.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Unauthenticated Cross Site Request Forger...",
+      "timestamp": 1782990962.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57756 - WordPress nicen-localize-image plugin <= 1.4.9 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57756",
+      "summary": "CVE ID :CVE-2026-57756\n  \n  Published : July 2, 2026, 11:15 a.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Contributor SQL Injection in nicen-locali...",
+      "timestamp": 1782990958.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57752 - WordPress iNET Webkit plugin 1.2.4 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57752",
+      "summary": "CVE ID :CVE-2026-57752\n  \n  Published : July 2, 2026, 11:15 a.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Contributor SQL Injection in iNET Webkit ...",
+      "timestamp": 1782990955.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57751 - WordPress Heateor Social Login plugin <= 1.1.39 - Cross Site Request Forgery (CSRF) vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57751",
+      "summary": "CVE ID :CVE-2026-57751\n  \n  Published : July 2, 2026, 11:15 a.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Unauthenticated Cross Site Request Forger...",
+      "timestamp": 1782990954.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57688 - WordPress POS Entegrat\u00f6r plugin <= 3.7.103 - Broken Access Control vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57688",
+      "summary": "CVE ID :CVE-2026-57688\n  \n  Published : July 2, 2026, 11:15 a.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Unauthenticated Broken Access Control in ...",
+      "timestamp": 1782990944.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57687 - WordPress Custom Field Template plugin <= 2.7.8 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57687",
+      "summary": "CVE ID :CVE-2026-57687\n  \n  Published : July 2, 2026, 11:15 a.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Contributor SQL Injection in Custom Field...",
+      "timestamp": 1782990943.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CISA: Microsoft SharePoint RCE flaw now actively exploited",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/",
+      "summary": "CISA warned on Wednesday that attackers have begun exploiting a high-severity Microsoft SharePoint remote code execution vulnerability patched in May....",
+      "timestamp": 1782989563.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Opera rolls out Paste Protect feature to fight ClickFix attacks",
       "link": "https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/",
@@ -75,92 +195,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-14336 - Eclipse PIA OIDC Issuer Allowlist Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14336",
-      "summary": "CVE ID :CVE-2026-14336\n  \n  Published : July 2, 2026, 8:29 a.m. | 1\u00a0hour, 56\u00a0minutes ago\n  \n  Description :PIA's OIDC issuer allowlist for Jenkins tok...",
-      "timestamp": 1782980956.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-5821 - Image Optimizer <= 1.7.4 - Authenticated (Author+) Arbitrary File Deletion via Post Meta Field Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5821",
-      "summary": "CVE ID :CVE-2026-5821\n  \n  Published : July 2, 2026, 5:35 a.m. | 4\u00a0hours, 50\u00a0minutes ago\n  \n  Description :The Image Optimizer plugin for WordPress is...",
-      "timestamp": 1782970507.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
       "link": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
       "summary": "Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. ...",
       "timestamp": 1782966342.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-57278 - GeoVision GeoWebPlayer Websocket Server connectInfo handler stack-based buffer overflow vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57278",
-      "summary": "CVE ID :CVE-2026-57278\n  \n  Published : July 2, 2026, 2:26 a.m. | 7\u00a0hours, 59\u00a0minutes ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in ...",
-      "timestamp": 1782959169.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57277 - GeoVision GeoWebPlayer Websocket Server connectInfo handler stack-based buffer overflow vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57277",
-      "summary": "CVE ID :CVE-2026-57277\n  \n  Published : July 2, 2026, 2:25 a.m. | 7\u00a0hours, 59\u00a0minutes ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in ...",
-      "timestamp": 1782959134.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57276 - GeoVision GeoWebPlayer Websocket Server connectInfo handler stack-based buffer overflow vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57276",
-      "summary": "CVE ID :CVE-2026-57276\n  \n  Published : July 2, 2026, 2:25 a.m. | 8\u00a0hours ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in the GV-VMS d...",
-      "timestamp": 1782959109.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57275 - GeoVision GeoWebPlayer Websocket Server connectInfo handler stack-based buffer overflow vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57275",
-      "summary": "CVE ID :CVE-2026-57275\n  \n  Published : July 2, 2026, 2:24 a.m. | 8\u00a0hours ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in the GV-VMS d...",
-      "timestamp": 1782959079.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57274 - GeoVision GeoWebPlayer Websocket Server connectInfo handler stack-based buffer overflow vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57274",
-      "summary": "CVE ID :CVE-2026-57274\n  \n  Published : July 2, 2026, 2:24 a.m. | 8\u00a0hours, 1\u00a0minute ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in th...",
-      "timestamp": 1782959051.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57273 - GeoVision GeoWebPlayer Websocket Server connectInfo handler stack-based buffer overflow vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57273",
-      "summary": "CVE ID :CVE-2026-57273\n  \n  Published : July 2, 2026, 2:23 a.m. | 8\u00a0hours, 1\u00a0minute ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in th...",
-      "timestamp": 1782959023.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57272 - GeoVision GeoWebPlayer Websocket Server out-of-bounds read vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57272",
-      "summary": "CVE ID :CVE-2026-57272\n  \n  Published : July 2, 2026, 2:22 a.m. | 8\u00a0hours, 2\u00a0minutes ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in t...",
-      "timestamp": 1782958956.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57271 - GeoVision GeoWebPlayer Websocket Server out-of-bounds read vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57271",
-      "summary": "CVE ID :CVE-2026-57271\n  \n  Published : July 2, 2026, 2:21 a.m. | 8\u00a0hours, 3\u00a0minutes ago\n  \n  Description :GeoWebPlayer (also called \"Web Plugin\" in t...",
-      "timestamp": 1782958906.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
@@ -175,38 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
       "summary": "Kubota North America Corporation disclosed that hackers had access to some of its network systems for more than a month earlier this year. [...]",
       "timestamp": 1782940146.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
-      "link": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
-      "summary": "Multiple weaponized proof-of-concept (PoC) exploits on GitHub were found delivering a Python-based remote access trojan (RAT) named ChocoPoC that can ...",
-      "timestamp": 1782936493.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "DHS confirms hackers breached HSIN info-sharing platform",
-      "link": "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
-      "summary": "The Department of Homeland Security is investigating a cyberattack that compromised the Homeland Security Information Network (HSIN), a sensitive info...",
-      "timestamp": 1782927142.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Webinar: Why traditional email security is no longer enough",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/",
-      "summary": "Modern phishing, business email compromise, and account takeover attacks increasingly exploit trusted identities and legitimate business workflows, ma...",
-      "timestamp": 1782924862.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers target Microsoft 365 accounts with 81 million login attempts",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/",
-      "summary": "An aggressive password-spraying campaign targeting Microsoft 365 environments generated more than 81 million login attempts over a two-week period. [....",
-      "timestamp": 1782923881.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -243,14 +251,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "Turning Indicators into Intelligence in OpenCTI with Criminal IP",
-      "link": "https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/",
-      "summary": "Threat intelligence is only as useful as the context behind it. Criminal IP explains how its integration enriches threat indicators in OpenCTI with ri...",
-      "timestamp": 1782914471.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Finesse Remote File Inclusion Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-rfi-gwpkdc89?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Remote%20File%20Inclusion%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in Cisco Finesse could allow an unauthenticated, remote attacker to load arbitrary files from remote locations into an active user ses...",
@@ -275,5 +275,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1782989639.1570191
+  "last_updated": 1783006195.2765765
 }
