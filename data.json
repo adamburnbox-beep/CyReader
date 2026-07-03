@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,48 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-47896 - Apache Lucene.Net: Unauthenticated arbitrary file read on the Lucene.Net.Replicator replication server",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47896",
+      "summary": "CVE ID :CVE-2026-47896\n  \n  Published : July 3, 2026, 7:48 a.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Improper Limitation of a Pathname to a Rest...",
+      "timestamp": 1783064915.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47897 - Apache Lucene.Net: Arbitrary file write from malicious server to Lucene.Net.Replicator client",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47897",
+      "summary": "CVE ID :CVE-2026-47897\n  \n  Published : July 3, 2026, 7:48 a.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Improper Limitation of a Pathname to a Rest...",
+      "timestamp": 1783064891.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14544 - Hplip: incomplete fix for cve-2026-8631",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14544",
+      "summary": "CVE ID :CVE-2026-14544\n  \n  Published : July 3, 2026, 7:26 a.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :A flaw was found in HPLIP (HP Linux Imagin...",
+      "timestamp": 1783063560.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-9725 - Printcart Web to Print Product Designer for WooCommerce <= 2.5.2 - Unauthenticated Arbitrary File Deletion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9725",
+      "summary": "CVE ID :CVE-2026-9725\n  \n  Published : July 3, 2026, 4:30 a.m. | 5\u00a0hours, 26\u00a0minutes ago\n  \n  Description :The Printcart Web to Print Product Designer...",
+      "timestamp": 1783053017.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2022-4989 - ASUS AI Suite 3 Improper Input Validation Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2022-4989",
-      "summary": "CVE ID :CVE-2022-4989\n  \n  Published : July 3, 2026, 2:01 a.m. | 5\u00a0hours, 25\u00a0minutes ago\n  \n  Description :** UNSUPPORTED WHEN ASSIGNED ** Improper Va...",
+      "summary": "CVE ID :CVE-2022-4989\n  \n  Published : July 3, 2026, 2:01 a.m. | 7\u00a0hours, 55\u00a0minutes ago\n  \n  Description :** UNSUPPORTED WHEN ASSIGNED ** Improper Va...",
       "timestamp": 1783044062.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +101,7 @@
     {
       "title": "CVE-2026-8921 - ASUS Business Manager SYSTEM Code Execution via IPC Message Tampering",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8921",
-      "summary": "CVE ID :CVE-2026-8921\n  \n  Published : July 3, 2026, 2 a.m. | 5\u00a0hours, 26\u00a0minutes ago\n  \n  Description :External Control of File Name or Path vulnerab...",
+      "summary": "CVE ID :CVE-2026-8921\n  \n  Published : July 3, 2026, 2 a.m. | 7\u00a0hours, 56\u00a0minutes ago\n  \n  Description :External Control of File Name or Path vulnerab...",
       "timestamp": 1783044034.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +125,7 @@
     {
       "title": "CVE-2026-13768 - Gardyn IoT Hub Use of Hard-coded Credentials",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13768",
-      "summary": "CVE ID :CVE-2026-13768\n  \n  Published : July 2, 2026, 11:40 p.m. | 7\u00a0hours, 46\u00a0minutes ago\n  \n  Description :Gardyn devices expose a privileged iothub...",
+      "summary": "CVE ID :CVE-2026-13768\n  \n  Published : July 2, 2026, 11:40 p.m. | 10\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Gardyn devices expose a privileged iothu...",
       "timestamp": 1783035632.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +133,7 @@
     {
       "title": "CVE-2026-13053 - WatchGuard Firebox Authenticated Out of Bounds Write in Management CLI Command Handler",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13053",
-      "summary": "CVE ID :CVE-2026-13053\n  \n  Published : July 2, 2026, 11:08 p.m. | 8\u00a0hours, 18\u00a0minutes ago\n  \n  Description :An Out-of-bounds Write vulnerability in W...",
+      "summary": "CVE ID :CVE-2026-13053\n  \n  Published : July 2, 2026, 11:08 p.m. | 10\u00a0hours, 48\u00a0minutes ago\n  \n  Description :An Out-of-bounds Write vulnerability in ...",
       "timestamp": 1783033707.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +141,7 @@
     {
       "title": "CVE-2026-13050 - WatchGuard Firebox networkd Out of Bounds Write Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13050",
-      "summary": "CVE ID :CVE-2026-13050\n  \n  Published : July 2, 2026, 11:08 p.m. | 8\u00a0hours, 18\u00a0minutes ago\n  \n  Description :An Out-of-bounds Write vulnerability in W...",
+      "summary": "CVE ID :CVE-2026-13050\n  \n  Published : July 2, 2026, 11:08 p.m. | 10\u00a0hours, 48\u00a0minutes ago\n  \n  Description :An Out-of-bounds Write vulnerability in ...",
       "timestamp": 1783033692.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,40 +149,8 @@
     {
       "title": "CVE-2026-13054 - WatchGuard Firebox Arbitrary File Write via Path Traversal in Management Web UI",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13054",
-      "summary": "CVE ID :CVE-2026-13054\n  \n  Published : July 2, 2026, 11:07 p.m. | 8\u00a0hours, 18\u00a0minutes ago\n  \n  Description :A path traversal vulnerability in the Wat...",
+      "summary": "CVE ID :CVE-2026-13054\n  \n  Published : July 2, 2026, 11:07 p.m. | 10\u00a0hours, 48\u00a0minutes ago\n  \n  Description :A path traversal vulnerability in the Wa...",
       "timestamp": 1783033677.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13084 - Null Pointer Dereference in WatchGuard Fireware OS iked Process",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13084",
-      "summary": "CVE ID :CVE-2026-13084\n  \n  Published : July 2, 2026, 11:06 p.m. | 8\u00a0hours, 19\u00a0minutes ago\n  \n  Description :A null pointer dereference vulnerability ...",
-      "timestamp": 1783033608.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13368 - WatchGuard Firebox Race Condition and Use-After-Free in Mobile VPN with IKEv2 LDAP Authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13368",
-      "summary": "CVE ID :CVE-2026-13368\n  \n  Published : July 2, 2026, 11:06 p.m. | 8\u00a0hours, 20\u00a0minutes ago\n  \n  Description :WatchGuard Fireware OS contains a race co...",
-      "timestamp": 1783033592.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13722 - WatchGuard Firebox Firmware Image Validation Bypass in WatchGuard Fireware OS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13722",
-      "summary": "CVE ID :CVE-2026-13722\n  \n  Published : July 2, 2026, 11:06 p.m. | 8\u00a0hours, 20\u00a0minutes ago\n  \n  Description :WatchGuard Fireware OS contains a firmwar...",
-      "timestamp": 1783033572.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13384 - WatchGuard Firebox wgagent Out of Bounds Write Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13384",
-      "summary": "CVE ID :CVE-2026-13384\n  \n  Published : July 2, 2026, 11:05 p.m. | 8\u00a0hours, 20\u00a0minutes ago\n  \n  Description :An Out-of-bounds Write vulnerability in W...",
-      "timestamp": 1783033559.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -283,5 +283,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783068102.4383297
+  "last_updated": 1783077548.5641935
 }
