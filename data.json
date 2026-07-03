@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 9,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,108 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Claude Fable relaunch disappoints users with nerfed performance",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-relaunch-disappoints-users-with-nerfed-performance/",
+      "summary": "Claude Fable, the company's most powerful model, is now available to all users, but early impressions are disappointing, as it appears to be nowhere n...",
+      "timestamp": 1783039710.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-13053 - WatchGuard Firebox Authenticated Out of Bounds Write in Management CLI Command Handler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13053",
+      "summary": "CVE ID :CVE-2026-13053\n  \n  Published : July 2, 2026, 11:08 p.m. | 30\u00a0minutes ago\n  \n  Description :An Out-of-bounds Write vulnerability in WatchGuard...",
+      "timestamp": 1783033707.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13050 - WatchGuard Firebox networkd Out of Bounds Write Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13050",
+      "summary": "CVE ID :CVE-2026-13050\n  \n  Published : July 2, 2026, 11:08 p.m. | 30\u00a0minutes ago\n  \n  Description :An Out-of-bounds Write vulnerability in WatchGuard...",
+      "timestamp": 1783033692.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13054 - WatchGuard Firebox Arbitrary File Write via Path Traversal in Management Web UI",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13054",
+      "summary": "CVE ID :CVE-2026-13054\n  \n  Published : July 2, 2026, 11:07 p.m. | 31\u00a0minutes ago\n  \n  Description :A path traversal vulnerability in the WatchGuard F...",
+      "timestamp": 1783033677.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13084 - Null Pointer Dereference in WatchGuard Fireware OS iked Process",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13084",
+      "summary": "CVE ID :CVE-2026-13084\n  \n  Published : July 2, 2026, 11:06 p.m. | 32\u00a0minutes ago\n  \n  Description :A null pointer dereference vulnerability in WatchG...",
+      "timestamp": 1783033608.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13368 - WatchGuard Firebox Race Condition and Use-After-Free in Mobile VPN with IKEv2 LDAP Authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13368",
+      "summary": "CVE ID :CVE-2026-13368\n  \n  Published : July 2, 2026, 11:06 p.m. | 32\u00a0minutes ago\n  \n  Description :WatchGuard Fireware OS contains a race condition l...",
+      "timestamp": 1783033592.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13722 - WatchGuard Firebox Firmware Image Validation Bypass in WatchGuard Fireware OS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13722",
+      "summary": "CVE ID :CVE-2026-13722\n  \n  Published : July 2, 2026, 11:06 p.m. | 32\u00a0minutes ago\n  \n  Description :WatchGuard Fireware OS contains a firmware validat...",
+      "timestamp": 1783033572.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13384 - WatchGuard Firebox wgagent Out of Bounds Write Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13384",
+      "summary": "CVE ID :CVE-2026-13384\n  \n  Published : July 2, 2026, 11:05 p.m. | 33\u00a0minutes ago\n  \n  Description :An Out-of-bounds Write vulnerability in WatchGuard...",
+      "timestamp": 1783033559.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13383 - WatchGuard Firebox ikestubd Out of Bounds Write Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13383",
+      "summary": "CVE ID :CVE-2026-13383\n  \n  Published : July 2, 2026, 11:05 p.m. | 33\u00a0minutes ago\n  \n  Description :An Out-of-bounds Write vulnerability in WatchGuard...",
+      "timestamp": 1783033553.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54998 - Microsoft Exchange Online Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54998",
+      "summary": "CVE ID :CVE-2026-54998\n  \n  Published : July 2, 2026, 10:18 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.8 | HIGH\n  \n  Visit ...",
+      "timestamp": 1783030738.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-41106 - Microsoft 365 Copilot Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41106",
+      "summary": "CVE ID :CVE-2026-41106\n  \n  Published : July 2, 2026, 10:18 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 9.3 | CRITICAL\n  \n  Vi...",
+      "timestamp": 1783030737.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "ClamAV Vulnerabilities Affecting Cisco Products: July 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-88cFYyxR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20July%202026%26vs_k=1",
+      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.\nFor m...",
+      "timestamp": 1783025533.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
     {
       "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
       "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
@@ -67,92 +163,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-58465 - Eclipse Wakaama CoAP Block1 Handler Unbounded Memory Allocation DoS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58465",
-      "summary": "CVE ID :CVE-2026-58465\n  \n  Published : July 2, 2026, 5:55 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Eclipse Wakaama before snapshot/2026-05-26...",
-      "timestamp": 1783014912.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2024-58352 - Landray OA Unauthenticated HQL Injection via wechatLoginHelper.do",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58352",
-      "summary": "CVE ID :CVE-2024-58352\n  \n  Published : July 2, 2026, 5:05 p.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Landray OA contains an unauthenticated HQL...",
-      "timestamp": 1783011910.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2022-50973 - Yonyou KSOA 9.0 Unauthenticated File Upload RCE via ImageUpload Servlet",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2022-50973",
-      "summary": "CVE ID :CVE-2022-50973\n  \n  Published : July 2, 2026, 5:04 p.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Yonyou KSOA 9.0 contains an unauthenticate...",
-      "timestamp": 1783011860.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2024-14037 - Redsea Cloud eHR Unauthenticated File Upload RCE via PtFjk.mob",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-14037",
-      "summary": "CVE ID :CVE-2024-14037\n  \n  Published : July 2, 2026, 5:03 p.m. | 3\u00a0hours, 22\u00a0minutes ago\n  \n  Description :Redsea Cloud eHR contains an arbitrary fil...",
-      "timestamp": 1783011803.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55950 - DTLS listener crash via race condition in dtls_packet_demux causes denial of service for all sessions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55950",
-      "summary": "CVE ID :CVE-2026-55950\n  \n  Published : July 2, 2026, 4:06 p.m. | 4\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Time-of-check Time-of-use (TOCTOU) race co...",
-      "timestamp": 1783008384.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55952 - TLS 1.3 server denial of service via malformed ClientHello pre-shared key extension",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55952",
-      "summary": "CVE ID :CVE-2026-55952\n  \n  Published : July 2, 2026, 4:06 p.m. | 4\u00a0hours, 19\u00a0minutes ago\n  \n  Description :The Erlang/OTP ssl application does not va...",
-      "timestamp": 1783008368.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44935 - Rancher Fleet vulnerable to cross namespace secret disclosure via unvalidated `valuesFrom` references in Helm Deployer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44935",
-      "summary": "CVE ID :CVE-2026-44935\n  \n  Published : July 2, 2026, 4 p.m. | 4\u00a0hours, 25\u00a0minutes ago\n  \n  Description :Missing validation of \"valuesFrom\" references...",
-      "timestamp": 1783008006.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44941 - libzypp path traversal via \"keyhint\" in repomd.xml",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44941",
-      "summary": "CVE ID :CVE-2026-44941\n  \n  Published : July 2, 2026, 3:19 p.m. | 5\u00a0hours, 6\u00a0minutes ago\n  \n  Description :A relative path traversal in the \"keyhint\" ...",
-      "timestamp": 1783005545.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Google loses final appeal to overturn \u20ac4.1 billion EU fine",
       "link": "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/",
       "summary": "Court of Justice of the European Union (CJEU) has dismissed Google's final appeal against a \u20ac4.1 billion ($4.7 billion) antitrust fine over the compan...",
       "timestamp": 1783005531.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-58455 - Dockwatch 0.6.567 Unauthenticated OS Command Injection via ajax/compose.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58455",
-      "summary": "CVE ID :CVE-2026-58455\n  \n  Published : July 2, 2026, 3:12 p.m. | 5\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Dockwatch through 0.6.567 contains an unau...",
-      "timestamp": 1783005130.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56004 - obs-service-tar_scm: command injection via mercurial handler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56004",
-      "summary": "CVE ID :CVE-2026-56004\n  \n  Published : July 2, 2026, 2:54 p.m. | 5\u00a0hours, 31\u00a0minutes ago\n  \n  Description :A shellcode injection in the mercurial han...",
-      "timestamp": 1783004042.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
@@ -219,26 +235,10 @@
       "vendor": "News"
     },
     {
-      "title": "Kubota says hackers had month-long access to network systems",
-      "link": "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
-      "summary": "Kubota North America Corporation disclosed that hackers had access to some of its network systems for more than a month earlier this year. [...]",
-      "timestamp": 1782940146.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of July 1, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-vwL7b0S7?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%201,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On July 1, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE-ID\nSecur...",
       "timestamp": 1782921667.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "ClamAV Vulnerabilities Affecting Cisco Products: July 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-88cFYyxR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20July%202026%26vs_k=1",
-      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.\nFor m...",
-      "timestamp": 1782921600.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
     },
@@ -283,5 +283,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783024203.5402286
+  "last_updated": 1783041462.0208125
 }
