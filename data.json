@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,96 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Software Is Now Written at the Speed of Thought. Security Isn't.",
+      "link": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/",
+      "summary": "Every evolution in software development has reduced the friction between an idea and a deployable application. AI may remove the final barrier, but it...",
+      "timestamp": 1783346410.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Max severity Adobe ColdFusion flaw now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/",
+      "summary": "Attackers are now exploiting a maximum-severity Adobe ColdFusion vulnerability tracked as CVE-2026-48282, according to vulnerability\u00a0intelligence\u00a0comp...",
+      "timestamp": 1783343917.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco Catalyst Center Arbitrary File Read Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-catc-file-read-wLH2vf8X?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20Center%20Arbitrary%20File%20Read%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in Cisco Catalyst Center could allow an unauthenticated, remote attacker to read arbitrary files from a restricted container.&nbsp;\nTh...",
+      "timestamp": 1783339233.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "CVE-2026-6901 - Untrusted Search Path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6901",
+      "summary": "CVE ID :CVE-2026-6901\n  \n  Published : July 6, 2026, 11:16 a.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Untrusted Search Path vulnerability in B&a...",
+      "timestamp": 1783336591.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-6900 - Improper Certificate Validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6900",
+      "summary": "CVE ID :CVE-2026-6900\n  \n  Published : July 6, 2026, 11:16 a.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Improper certificate validation vulnerabil...",
+      "timestamp": 1783336591.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58226 - Unauthenticated denial-of-service via unbounded HPACK integer decoding in hpax",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58226",
+      "summary": "CVE ID :CVE-2026-58226\n  \n  Published : July 6, 2026, 11:16 a.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Inefficient Algorithmic Complexity vulner...",
+      "timestamp": 1783336591.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56810 - mint buffers an entire chunked response chunk in memory in Mint.HTTP1.decode_body/5",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56810",
+      "summary": "CVE ID :CVE-2026-56810\n  \n  Published : July 6, 2026, 11:16 a.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Allocation of Resources Without Limits or...",
+      "timestamp": 1783336590.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-4249 - Denial of Service via Malicious JSON Payloads in Throttling Events in Multiple WSO2 Products Causing Persistent Service Disruption",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4249",
+      "summary": "CVE ID :CVE-2026-4249\n  \n  Published : July 6, 2026, 11:16 a.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :The throttling event handling mechanism in...",
+      "timestamp": 1783336590.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-44937 - SUSE Rancher Fleet had an Unauthenticated Webhook: Regex Injection via Unsanitized Repository URL Components",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44937",
+      "summary": "CVE ID :CVE-2026-44937\n  \n  Published : July 6, 2026, 11:16 a.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Potential forgery of webhook requests whe...",
+      "timestamp": 1783336587.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12686 - Incorrect authorisation in Adiss\u2019s Biloop",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12686",
+      "summary": "CVE ID :CVE-2026-12686\n  \n  Published : July 6, 2026, 11:16 a.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :An authenticated user could manipulate a ...",
+      "timestamp": 1783336586.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-14809 - PROG MIS\uff5cProg Management System - SQL Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14809",
-      "summary": "CVE ID :CVE-2026-14809\n  \n  Published : July 6, 2026, 9:16 a.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :Prog Management System developed by PROG MI...",
+      "summary": "CVE ID :CVE-2026-14809\n  \n  Published : July 6, 2026, 9:16 a.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Prog Management System developed by PROG M...",
       "timestamp": 1783329394.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +149,7 @@
     {
       "title": "CVE-2026-14808 - PROG MIS\uff5cProg Management System - Exposure of Sensitive Information",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14808",
-      "summary": "CVE ID :CVE-2026-14808\n  \n  Published : July 6, 2026, 8:16 a.m. | 2\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Prog\n  Management System developed by PROG...",
+      "summary": "CVE ID :CVE-2026-14808\n  \n  Published : July 6, 2026, 8:16 a.m. | 5\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Prog\n  Management System developed by PROG...",
       "timestamp": 1783325796.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,16 +157,8 @@
     {
       "title": "CVE-2026-14807 - PROG MIS\uff5cERP App - Use of Hard-coded Credentials",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14807",
-      "summary": "CVE ID :CVE-2026-14807\n  \n  Published : July 6, 2026, 8:16 a.m. | 2\u00a0hours, 10\u00a0minutes ago\n  \n  Description :ERP App developed by PROG MIS has a Use of...",
+      "summary": "CVE ID :CVE-2026-14807\n  \n  Published : July 6, 2026, 8:16 a.m. | 5\u00a0hours, 11\u00a0minutes ago\n  \n  Description :ERP App developed by PROG MIS has a Use of...",
       "timestamp": 1783325796.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9085 - DNS Hijacking in TUBITAK BILGEM's Pardus-Parental-Control",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9085",
-      "summary": "CVE ID :CVE-2026-9085\n  \n  Published : July 5, 2026, 3:16 p.m. | 19\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Incorrect Permission Assignment for Critic...",
-      "timestamp": 1783264617.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -99,60 +171,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-59509 - Unauthenticated arbitrary MongoDB collection read in cve-search",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59509",
-      "summary": "CVE ID :CVE-2026-59509\n  \n  Published : July 5, 2026, 1:16 p.m. | 21\u00a0hours, 10\u00a0minutes ago\n  \n  Description :An unauthenticated improper input validat...",
-      "timestamp": 1783257416.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14721 - UTT HiPER 1250GW Web Endpoint ConfigWirelessBase_5g stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14721",
-      "summary": "CVE ID :CVE-2026-14721\n  \n  Published : July 5, 2026, 8:16 a.m. | 1\u00a0day, 2\u00a0hours ago\n  \n  Description :A vulnerability has been found in UTT HiPER 125...",
-      "timestamp": 1783239386.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14637 - kirilkirkov Ecommerce-CodeIgniter-Bootstrap ShoppingCart.php getCartItems deserialization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14637",
-      "summary": "CVE ID :CVE-2026-14637\n  \n  Published : July 4, 2026, 6:16 p.m. | 1\u00a0day, 16\u00a0hours ago\n  \n  Description :A security vulnerability has been detected in ...",
-      "timestamp": 1783188988.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "JadePuffer ransomware used AI agent to automate entire attack",
       "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
       "summary": "Researchers identified what they believe is the first documented case of a ransomware operation, JadePuffer, conducted entirely by a large language mo...",
       "timestamp": 1783174598.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-14535 - Fickling MLAllowlist analysis pass rendered inoperative by shared mutable state in AnalysisContext.shorten_code()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14535",
-      "summary": "CVE ID :CVE-2026-14535\n  \n  Published : July 4, 2026, 2:16 p.m. | 1\u00a0day, 20\u00a0hours ago\n  \n  Description :In Trail of Bits fickling versions up to and i...",
-      "timestamp": 1783174589.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14534 - Fickling check_safety() bypass via unlisted standard library modules (_posixsubprocess, site, atexit)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14534",
-      "summary": "CVE ID :CVE-2026-14534\n  \n  Published : July 4, 2026, 2:16 p.m. | 1\u00a0day, 20\u00a0hours ago\n  \n  Description :Trail of Bits fickling versions up to and incl...",
-      "timestamp": 1783174588.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12196 - HestiaCP Admin Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12196",
-      "summary": "CVE ID :CVE-2026-12196\n  \n  Published : July 4, 2026, 12:16 p.m. | 1\u00a0day, 22\u00a0hours ago\n  \n  Description :HestiaCP panel cronjob feature is affected by...",
-      "timestamp": 1783167413.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
@@ -219,34 +243,10 @@
       "vendor": "News"
     },
     {
-      "title": "Microsoft fixes bug that removed Copilot buttons in Outlook",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-removed-copilot-button-in-outlook/",
-      "summary": "Microsoft has fixed a known issue causing the Copilot Chat or Copilot buttons in Classic Outlook to disappear for Windows users with the Copilot Chat ...",
-      "timestamp": 1782994547.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cisco finally confirms attackers exploiting Unified CM flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/",
-      "summary": "Cisco confirmed that attackers are now exploiting a Unified Communications Manager (Unified CM) vulnerability patched in early June. [...]",
-      "timestamp": 1782992125.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of July 1, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-vwL7b0S7?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%201,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On July 1, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE-ID\nSecur...",
       "timestamp": 1782921667.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Catalyst Center Arbitrary File Read Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-catc-file-read-wLH2vf8X?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20Center%20Arbitrary%20File%20Read%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in Cisco Catalyst Center could allow an unauthenticated, remote attacker to read arbitrary files from a restricted container.&nbsp;\nTh...",
-      "timestamp": 1782921600.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
     },
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783335739.661558
+  "last_updated": 1783348683.2687402
 }
