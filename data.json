@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,8 +31,8 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 4,
-      "total_count": 10,
+      "new_count": 0,
+      "total_count": 0,
       "status": "ok"
     },
     {
@@ -59,82 +59,90 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-43921 - FOSSBilling vulnerable to arbitrary PHP code injection via unescaped config serialization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43921",
-      "summary": "CVE ID :CVE-2026-43921\n  \n  Published : July 6, 2026, 10:16 p.m. | 34\u00a0minutes ago\n  \n  Description :FOSSBilling is a free, open-source billing and cli...",
-      "timestamp": 1783376209.0,
+      "title": "Microsoft testing new Cloud Rebuild Windows 11 recovery feature",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-cloud-rebuild-windows-11-recovery-feature/",
+      "summary": "Microsoft has begun testing the Cloud Rebuild recovery feature in the latest Windows 11 Insider Preview builds released for users in the Experimental ...",
+      "timestamp": 1783409858.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-57867 - MicroRealEstate Authentication Bypass Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57867",
+      "summary": "CVE ID :CVE-2026-57867\n  \n  Published : July 7, 2026, 6:16 a.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :MicroRealEstate allows adversaries to bypas...",
+      "timestamp": 1783404982.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-43918 - Suspended or inactive FOSSBilling accounts can retain or regain access through existing sessions, API tokens, and password reset flows",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43918",
-      "summary": "CVE ID :CVE-2026-43918\n  \n  Published : July 6, 2026, 10:16 p.m. | 34\u00a0minutes ago\n  \n  Description :FOSSBilling is a free, open-source billing and cli...",
-      "timestamp": 1783376209.0,
+      "title": "CVE-2026-14345 - WPFunnels <= 3.12.7 - Unauthenticated Remote Code Execution via 'postData' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14345",
+      "summary": "CVE ID :CVE-2026-14345\n  \n  Published : July 7, 2026, 6:16 a.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :The WPFunnels \u2013 Funnel Builder for WooComme...",
+      "timestamp": 1783404982.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-42204 - Coolify: Authenticated RCE via SHELL_SAFE_COMMAND_PATTERN regression \u2192 host root",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42204",
-      "summary": "CVE ID :CVE-2026-42204\n  \n  Published : July 6, 2026, 10:16 p.m. | 34\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostable tool f...",
-      "timestamp": 1783376209.0,
+      "title": "CVE-2026-34158 - Coolify: Command injection via single-quote breakout in Docker Compose custom commands",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34158",
+      "summary": "CVE ID :CVE-2026-34158\n  \n  Published : July 7, 2026, 5:16 a.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostabl...",
+      "timestamp": 1783401410.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-42153 - Coolify: PostgreSQL Healthcheck Command Injection Allows Root Code Execution in Container",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42153",
-      "summary": "CVE ID :CVE-2026-42153\n  \n  Published : July 6, 2026, 10:16 p.m. | 34\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostable tool f...",
-      "timestamp": 1783376209.0,
+      "title": "CVE-2026-42200 - Coolify: PostgreSQL Init Script Path Traversal Leads to Arbitrary File Write and Root RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42200",
+      "summary": "CVE ID :CVE-2026-42200\n  \n  Published : July 7, 2026, 4:17 a.m. | 3\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostabl...",
+      "timestamp": 1783397872.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-34599 - Coolify: Authenticated Remote Code Execution in GetLogs Livewire Component",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34599",
-      "summary": "CVE ID :CVE-2026-34599\n  \n  Published : July 6, 2026, 10:16 p.m. | 34\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostable tool f...",
-      "timestamp": 1783376208.0,
+      "title": "CVE-2026-42143 - Coolify: OS Command Injection via Persistent Volume Names - Root RCE on Managed Servers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42143",
+      "summary": "CVE ID :CVE-2026-42143\n  \n  Published : July 7, 2026, 4:17 a.m. | 3\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostabl...",
+      "timestamp": 1783397871.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-34153 - Coolify LocalFileVolume fs_path command injection enables RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34153",
-      "summary": "CVE ID :CVE-2026-34153\n  \n  Published : July 6, 2026, 10:16 p.m. | 34\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostable tool f...",
-      "timestamp": 1783376208.0,
+      "title": "CVE-2026-34171 - Coolify: Account takeover via CSRF-able GET endpoint that resets password to attacker-known value",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34171",
+      "summary": "CVE ID :CVE-2026-34171\n  \n  Published : July 7, 2026, 4:17 a.m. | 3\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostabl...",
+      "timestamp": 1783397870.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-59713 - Leantime - OIDC Login CSRF via Unconditional State Verification Stub",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59713",
-      "summary": "CVE ID :CVE-2026-59713\n  \n  Published : July 6, 2026, 9:16 p.m. | 1\u00a0hour, 34\u00a0minutes ago\n  \n  Description :Leantime contains an OIDC login CSRF vulner...",
-      "timestamp": 1783372618.0,
+      "title": "CVE-2026-34168 - Coolify: Command injection via unsanitized persistent storage name in docker volume commands",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34168",
+      "summary": "CVE ID :CVE-2026-34168\n  \n  Published : July 7, 2026, 4:17 a.m. | 3\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostabl...",
+      "timestamp": 1783397870.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-59712 - Leantime - Credential Disclosure via Unauthenticated JSON-RPC users.getUser Method",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59712",
-      "summary": "CVE ID :CVE-2026-59712\n  \n  Published : July 6, 2026, 9:16 p.m. | 1\u00a0hour, 34\u00a0minutes ago\n  \n  Description :Leantime's Users::getUser method in the JSO...",
-      "timestamp": 1783372618.0,
+      "title": "CVE-2026-34152 - Coolify: Command Injection via Newline in Pre/Post Deployment Commands (Heredoc Transport)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34152",
+      "summary": "CVE ID :CVE-2026-34152\n  \n  Published : July 7, 2026, 4:17 a.m. | 3\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostabl...",
+      "timestamp": 1783397870.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-57573 - Crawl4AI unauthenticated SSRF in Docker streaming crawl endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57573",
-      "summary": "CVE ID :CVE-2026-57573\n  \n  Published : July 6, 2026, 9:16 p.m. | 1\u00a0hour, 34\u00a0minutes ago\n  \n  Description :Crawl4AI is an open-source LLM-friendly web...",
-      "timestamp": 1783372618.0,
+      "title": "CVE-2026-34058 - Coolify: OS Command Injection via Unmanaged Container Operations - Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34058",
+      "summary": "CVE ID :CVE-2026-34058\n  \n  Published : July 7, 2026, 4:17 a.m. | 3\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostabl...",
+      "timestamp": 1783397869.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-57572 - Crawl4AI: Unauthenticated RCE via Chromium launch-argument injection in browser_config.extra_args",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57572",
-      "summary": "CVE ID :CVE-2026-57572\n  \n  Published : July 6, 2026, 9:16 p.m. | 1\u00a0hour, 34\u00a0minutes ago\n  \n  Description :Crawl4AI is an open-source LLM-friendly web...",
-      "timestamp": 1783372618.0,
+      "title": "CVE-2026-34057 - Coolify: Authenticated Remote Code Execution via Command Injection in Database Import Container Name",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34057",
+      "summary": "CVE ID :CVE-2026-34057\n  \n  Published : July 7, 2026, 4:17 a.m. | 3\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostabl...",
+      "timestamp": 1783397868.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -153,14 +161,6 @@
       "timestamp": 1783369425.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Remote%20Code%20Execution%20and%20Information%20Disclosure%20Vulnerabilities%26vs_k=1",
-      "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to a...",
-      "timestamp": 1783365630.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     },
     {
       "title": "Vietnam arrests suspects behind HiAnime anime piracy service",
@@ -185,14 +185,6 @@
       "timestamp": 1783343917.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "Cisco Catalyst Center Arbitrary File Read Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-catc-file-read-wLH2vf8X?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20Center%20Arbitrary%20File%20Read%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in Cisco Catalyst Center could allow an unauthenticated, remote attacker to read arbitrary files from a restricted container.&nbsp;\nTh...",
-      "timestamp": 1783339233.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     },
     {
       "title": "Flipper Zero firmware development continues with community help",
@@ -227,53 +219,13 @@
       "vendor": "News"
     },
     {
-      "title": "Claude Fable 5 isn\u2019t permanently leaving subscriptions, Anthropic says",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
-      "summary": "Anthropic says Claude Fable 5 won't be accessible via Claude subscriptions after July 7, but it's not a permanent change, and the company expects the ...",
-      "timestamp": 1783042629.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "ClamAV Vulnerabilities Affecting Cisco Products: July 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-88cFYyxR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20July%202026%26vs_k=1",
-      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.\nFor m...",
-      "timestamp": 1783025533.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
       "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
       "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling...",
       "timestamp": 1783020453.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "Cisco Advance Notification for Publication of July 1, 2026, Security Advisories",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-vwL7b0S7?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%201,%202026,%20Security%20Advisories%26vs_k=1",
-      "summary": "On July 1, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE-ID\nSecur...",
-      "timestamp": 1782921667.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Unified Communications Manager Server-Side Request Forgery Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-ssrf-cXPnHcW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Manager%20Server-Side%20Request%20Forgery%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM S...",
-      "timestamp": 1782918608.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Finesse Remote File Inclusion Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-rfi-gwpkdc89?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Remote%20File%20Inclusion%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in Cisco Finesse could allow an unauthenticated, remote attacker to load arbitrary files from remote locations into an active user ses...",
-      "timestamp": 1782397869.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783383674.3946059
+  "last_updated": 1783411921.1360118
 }
