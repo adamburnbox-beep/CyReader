@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 6,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 10,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Hidden backdoor in Tenda router firmware grants admin access",
+      "link": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
+      "summary": "A hidden authentication backdoor has been found in multiple Tenda router firmware versions, potentially allowing an attacker to gain administrative ac...",
+      "timestamp": 1783445242.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Spain arrests suspected member of pro-Russian hacktivist groups",
       "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/",
@@ -65,6 +73,22 @@
       "timestamp": 1783437681.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-56811 - Phoenix transports do not limit channel joins per connection, enabling process-exhaustion denial of service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56811",
+      "summary": "CVE ID :CVE-2026-56811\n  \n  Published : July 7, 2026, 3:09 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Allocation of Resources Without Limits or T...",
+      "timestamp": 1783436997.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-44938 - Fleet has PSS Bypass through addLabelsFromOptions in Fleet Agent",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44938",
+      "summary": "CVE ID :CVE-2026-44938\n  \n  Published : July 7, 2026, 2:16 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :A vulnerability has been identified in Fle...",
+      "timestamp": 1783433790.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
@@ -77,7 +101,7 @@
     {
       "title": "CVE-2026-53483 - Dell PowerProtect Data Domain Improper Authentication Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53483",
-      "summary": "CVE ID :CVE-2026-53483\n  \n  Published : July 7, 2026, 1:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Dell PowerProtect Data Domain, versions 7.7...",
+      "summary": "CVE ID :CVE-2026-53483\n  \n  Published : July 7, 2026, 1:16 p.m. | 3\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Dell PowerProtect Data Domain, versions 7....",
       "timestamp": 1783430191.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,23 +109,15 @@
     {
       "title": "CVE-2026-53481 - Dell PowerProtect Data Domain Path Traversal Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53481",
-      "summary": "CVE ID :CVE-2026-53481\n  \n  Published : July 7, 2026, 1:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Dell PowerProtect Data Domain, versions 7.7...",
+      "summary": "CVE ID :CVE-2026-53481\n  \n  Published : July 7, 2026, 1:16 p.m. | 3\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Dell PowerProtect Data Domain, versions 7....",
       "timestamp": 1783430191.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44938 - Fleet has PSS Bypass through addLabelsFromOptions in Fleet Agent",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44938",
-      "summary": "CVE ID :CVE-2026-44938\n  \n  Published : July 7, 2026, 1:05 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :A vulnerability has been identified in Flee...",
-      "timestamp": 1783429503.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-13696 - LDAP Injection in HAVELSAN's Liman MYS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13696",
-      "summary": "CVE ID :CVE-2026-13696\n  \n  Published : July 7, 2026, 12:16 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Improper neutralization of special elemen...",
+      "summary": "CVE ID :CVE-2026-13696\n  \n  Published : July 7, 2026, 12:16 p.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Improper neutralization of special elemen...",
       "timestamp": 1783426592.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +125,7 @@
     {
       "title": "CVE-2026-11348 - Authentication Bypass in HAVELSAN's Open Source Project Liman MYS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11348",
-      "summary": "CVE ID :CVE-2026-11348\n  \n  Published : July 7, 2026, 12:16 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Improper verification of cryptographic si...",
+      "summary": "CVE ID :CVE-2026-11348\n  \n  Published : July 7, 2026, 12:16 p.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Improper verification of cryptographic si...",
       "timestamp": 1783426588.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,7 +149,7 @@
     {
       "title": "CVE-2026-11340 - Authorization Bypass in HAVELSAN's Open Source Project Liman MYS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11340",
-      "summary": "CVE ID :CVE-2026-11340\n  \n  Published : July 7, 2026, 11:16 a.m. | 3\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Missing Authorization vulnerability in HA...",
+      "summary": "CVE ID :CVE-2026-11340\n  \n  Published : July 7, 2026, 11:16 a.m. | 5\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Missing Authorization vulnerability in HA...",
       "timestamp": 1783422992.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -141,7 +157,7 @@
     {
       "title": "CVE-2026-14868 - Weak encryption mechanism for User directory",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14868",
-      "summary": "CVE ID :CVE-2026-14868\n  \n  Published : July 7, 2026, 10:16 a.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :The encryption algorithm used to protect ...",
+      "summary": "CVE ID :CVE-2026-14868\n  \n  Published : July 7, 2026, 10:16 a.m. | 6\u00a0hours, 11\u00a0minutes ago\n  \n  Description :The encryption algorithm used to protect ...",
       "timestamp": 1783419400.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -149,7 +165,7 @@
     {
       "title": "CVE-2026-14476 - Sssd: sssd: gpo cache path traversal via unsanitized gpcfilesyspath allows kerberos authentication bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14476",
-      "summary": "CVE ID :CVE-2026-14476\n  \n  Published : July 7, 2026, 10:16 a.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :A path traversal flaw was found in SSSD's...",
+      "summary": "CVE ID :CVE-2026-14476\n  \n  Published : July 7, 2026, 10:16 a.m. | 6\u00a0hours, 11\u00a0minutes ago\n  \n  Description :A path traversal flaw was found in SSSD's...",
       "timestamp": 1783419399.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -157,15 +173,7 @@
     {
       "title": "CVE-2026-14474 - Sssd: sssd: sudo ldap provider searches entire directory tree for sudorole objects by default, enabling privilege escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14474",
-      "summary": "CVE ID :CVE-2026-14474\n  \n  Published : July 7, 2026, 10:16 a.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :A flaw was found in SSSD's LDAP sudo prov...",
-      "timestamp": 1783419399.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11610 - 389-ds-base: 389-ds-base: heap buffer overflow in sasl_io_recv() via padded sasl unbind",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11610",
-      "summary": "CVE ID :CVE-2026-11610\n  \n  Published : July 7, 2026, 10:16 a.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :A heap buffer overflow flaw was found in ...",
+      "summary": "CVE ID :CVE-2026-14474\n  \n  Published : July 7, 2026, 10:16 a.m. | 6\u00a0hours, 11\u00a0minutes ago\n  \n  Description :A flaw was found in SSSD's LDAP sudo prov...",
       "timestamp": 1783419399.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -219,14 +227,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "Vietnam arrests suspects behind HiAnime anime piracy service",
-      "link": "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/",
-      "summary": "\u200bVietnamese authorities have arrested and are prosecuting seven suspects believed to have run HiAnime, the largest anime piracy streaming service befo...",
-      "timestamp": 1783362306.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Catalyst Center Arbitrary File Read Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-catc-file-read-wLH2vf8X?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20Center%20Arbitrary%20File%20Read%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in Cisco Catalyst Center could allow an unauthenticated, remote attacker to read arbitrary files from a restricted container.&nbsp;\nTh...",
@@ -275,5 +275,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783440729.097187
+  "last_updated": 1783448344.289121
 }
