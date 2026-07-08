@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 9,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,84 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 9,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "3 Ways AI Powers Service Desk Attacks and How to Prevent Them",
+      "link": "https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/",
+      "summary": "Specops Software explains how AI is making service desk impersonation attacks more convincing, personalized, and scalable, along with practical steps ...",
+      "timestamp": 1783519271.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-58656 - Grav API Plugin - Cross-Origin Admin Account Takeover via CORS Wildcard and JWT Query Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58656",
+      "summary": "CVE ID :CVE-2026-58656\n  \n  Published : July 8, 2026, 1:49 p.m. | 39\u00a0minutes ago\n  \n  Description :Grav API plugin before v1.0.0-rc.16 accepts JWT tok...",
+      "timestamp": 1783518551.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56297 - FreeRDP - Use-After-Free via Race Condition in DRDYNVC Channel Callback",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56297",
+      "summary": "CVE ID :CVE-2026-56297\n  \n  Published : July 8, 2026, 1:49 p.m. | 39\u00a0minutes ago\n  \n  Description :FreeRDP before 3.22.0 contains a use-after-free vul...",
+      "timestamp": 1783518541.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56250 - Capgo - Arbitrary R2 Object Deletion via Mutable r2_path in app_versions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56250",
+      "summary": "CVE ID :CVE-2026-56250\n  \n  Published : July 8, 2026, 1:48 p.m. | 39\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 allows upload-scoped API keys...",
+      "timestamp": 1783518537.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56246 - Capgo - Cross-Organization Authorization Bypass via Scoped API Key Privilege Inheritance",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56246",
+      "summary": "CVE ID :CVE-2026-56246\n  \n  Published : July 8, 2026, 1:48 p.m. | 39\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains a broken access cont...",
+      "timestamp": 1783518537.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56226 - Capgo - Unauthenticated Organization Data Disclosure via get_orgs_v6 RPC",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56226",
+      "summary": "CVE ID :CVE-2026-56226\n  \n  Published : July 8, 2026, 1:48 p.m. | 39\u00a0minutes ago\n  \n  Description :Capgo (Cap-go/capgo) before 12.128.2 exposes the Su...",
+      "timestamp": 1783518536.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56086 - Dell PowerProtect Data Domain Incorrect Authorization Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56086",
+      "summary": "CVE ID :CVE-2026-56086\n  \n  Published : July 8, 2026, 1:34 p.m. | 54\u00a0minutes ago\n  \n  Description :Dell PowerProtect Data Domain, versions 7.7.1.0 thr...",
+      "timestamp": 1783517644.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8307 - SQLi in Webbeyaz's Medik\u00fcm Web",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8307",
+      "summary": "CVE ID :CVE-2026-8307\n  \n  Published : July 8, 2026, 1:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements ...",
+      "timestamp": 1783516617.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58480 - Blocksy Companion Pro < 2.1.47 Unauthenticated File Upload via save_attachments",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58480",
+      "summary": "CVE ID :CVE-2026-58480\n  \n  Published : July 8, 2026, 1:05 p.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :Blocksy Companion Pro plugin for WordPress ...",
+      "timestamp": 1783515902.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
       "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
@@ -69,16 +141,8 @@
     {
       "title": "CVE-2026-3688 - WCFM - WooCommerce Multivendor Membership <= 2.11.10 - Insecure Direct Object Reference to Limited Privilege Escalation via User Role Overwrite",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-3688",
-      "summary": "CVE ID :CVE-2026-3688\n  \n  Published : July 8, 2026, 12:17 p.m. | 47\u00a0minutes ago\n  \n  Description :The WCFM Membership \u2013 WooCommerce Memberships for M...",
+      "summary": "CVE ID :CVE-2026-3688\n  \n  Published : July 8, 2026, 12:17 p.m. | 2\u00a0hours, 10\u00a0minutes ago\n  \n  Description :The WCFM Membership \u2013 WooCommerce Membersh...",
       "timestamp": 1783513040.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8307 - SQLi in Webbeyaz's Medik\u00fcm Web",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8307",
-      "summary": "CVE ID :CVE-2026-8307\n  \n  Published : July 8, 2026, 12:14 p.m. | 50\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements used in...",
-      "timestamp": 1783512848.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -101,15 +165,7 @@
     {
       "title": "CVE-2026-56003 - libXfont2 computeProps Property Buffer Heap Buffer Overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56003",
-      "summary": "CVE ID :CVE-2026-56003\n  \n  Published : July 8, 2026, 10:16 a.m. | 2\u00a0hours, 48\u00a0minutes ago\n  \n  Description :A heap buffer overflow due to missing siz...",
-      "timestamp": 1783505783.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56002 - libXfont2 PCF Font Parsing Heap Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56002",
-      "summary": "CVE ID :CVE-2026-56002\n  \n  Published : July 8, 2026, 10:16 a.m. | 2\u00a0hours, 48\u00a0minutes ago\n  \n  Description :A heap bufferflow in pcfReadFont() due to...",
+      "summary": "CVE ID :CVE-2026-56003\n  \n  Published : July 8, 2026, 10:16 a.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :A heap buffer overflow due to missing siz...",
       "timestamp": 1783505783.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -121,38 +177,6 @@
       "timestamp": 1783504691.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-57239 - Foxit PDF Editor/Reader Local Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57239",
-      "summary": "CVE ID :CVE-2026-57239\n  \n  Published : July 8, 2026, 9:16 a.m. | 3\u00a0hours, 48\u00a0minutes ago\n  \n  Description :The user-controllable executable files wil...",
-      "timestamp": 1783502191.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56001 - libXfont2 BitmapScaleBitmaps Integer Overflow Heap Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56001",
-      "summary": "CVE ID :CVE-2026-56001\n  \n  Published : July 8, 2026, 9:16 a.m. | 3\u00a0hours, 48\u00a0minutes ago\n  \n  Description :A heap buffer overflow in BitmapScaleBitma...",
-      "timestamp": 1783502190.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56000 - xorg-x11-server / xwayland GLX contextTags Use-After-Free in CommonMakeCurrent()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56000",
-      "summary": "CVE ID :CVE-2026-56000\n  \n  Published : July 8, 2026, 9:16 a.m. | 3\u00a0hours, 48\u00a0minutes ago\n  \n  Description :Local attackers with a X connection able t...",
-      "timestamp": 1783502189.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55999 - xorg-server / xwayland glamor font atlas Heap Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55999",
-      "summary": "CVE ID :CVE-2026-55999\n  \n  Published : July 8, 2026, 9:16 a.m. | 3\u00a0hours, 48\u00a0minutes ago\n  \n  Description :Local attackers with a X connection able t...",
-      "timestamp": 1783502189.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Ubiquiti warns of new max severity  UniFi OS vulnerability",
@@ -169,22 +193,6 @@
       "timestamp": 1783495015.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-9695 - Improper Authentication vulnerability affecting DELMIA Apriso from Release 2020 through Release 2026",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9695",
-      "summary": "CVE ID :CVE-2026-9695\n  \n  Published : July 8, 2026, 7:16 a.m. | 5\u00a0hours, 47\u00a0minutes ago\n  \n  Description :An Improper Authentication vulnerability af...",
-      "timestamp": 1783495006.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12378 - BookingPress <= 1.1.28 - Unauthenticated PHP Object Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12378",
-      "summary": "CVE ID :CVE-2026-12378\n  \n  Published : July 8, 2026, 7:16 a.m. | 5\u00a0hours, 47\u00a0minutes ago\n  \n  Description :The Appointment Booking Calendar Plugin an...",
-      "timestamp": 1783495006.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Accenture confirms breach after hacker offers stolen data for sale",
@@ -215,14 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/",
       "summary": "The National Police in Spain have arrested a man who is suspected of being an active member of the CyberArmy of Russia Reborn (CARR) and Z-Pentest, bo...",
       "timestamp": 1783437681.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
-      "link": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
-      "summary": "ActiveState explains how GitHub Actions attack chains can evade traditional CI security scanners, why passing a scan doesn't guarantee a secure pipeli...",
-      "timestamp": 1783432871.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -275,5 +275,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783516597.2542853
+  "last_updated": 1783526202.618944
 }
