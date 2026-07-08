@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,64 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 6,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Ubiquiti warns of new max severity  UniFi OS vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/",
+      "summary": "Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a\u00a0maximum-severity flaw that can be exploited in...",
+      "timestamp": 1783498520.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CISA orders feds to patch max severity ColdFusion flaw by Friday",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to patch an actively exploited maximum-severity flaw ...",
+      "timestamp": 1783495015.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-9695 - Improper Authentication vulnerability affecting DELMIA Apriso from Release 2020 through Release 2026",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9695",
+      "summary": "CVE ID :CVE-2026-9695\n  \n  Published : July 8, 2026, 7:16 a.m. | 43\u00a0minutes ago\n  \n  Description :An Improper Authentication vulnerability affecting D...",
+      "timestamp": 1783495006.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14495 - DoLogin Security <= 4.3 - Unauthenticated Authentication Bypass via Insufficient Randomness via 'dologin' Parameter Weak PRNG Token",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14495",
+      "summary": "CVE ID :CVE-2026-14495\n  \n  Published : July 8, 2026, 6:16 a.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :The DoLogin Security plugin for WordPress i...",
+      "timestamp": 1783491382.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14489 - WHMCS Bridge <= 6.9 - Unauthenticated Arbitrary File Upload via 'ccce' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14489",
+      "summary": "CVE ID :CVE-2026-14489\n  \n  Published : July 8, 2026, 6:16 a.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :The WHMCS Bridge plugin for WordPress is vu...",
+      "timestamp": 1783491382.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12153 - WP Learn Manager <= 1.1.8 - Missing Authorization to Unauthenticated Arbitrary Plugin Installation and Activation via jslearnmanager_ajax AJAX Action",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12153",
+      "summary": "CVE ID :CVE-2026-12153\n  \n  Published : July 8, 2026, 6:16 a.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :The WP Learn Manager plugin for WordPress i...",
+      "timestamp": 1783491382.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-9701 - Eventer <= 4.4.2 - Insecure Password Reset Mechanism to Unauthenticated Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9701",
-      "summary": "CVE ID :CVE-2026-9701\n  \n  Published : July 8, 2026, 5:16 a.m. | 55\u00a0minutes ago\n  \n  Description :The Eventer plugin for WordPress is vulnerable to an...",
+      "summary": "CVE ID :CVE-2026-9701\n  \n  Published : July 8, 2026, 5:16 a.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :The Eventer plugin for WordPress is vulnera...",
       "timestamp": 1783487788.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +117,7 @@
     {
       "title": "CVE-2026-14487 - Simple Coherent Form <= 2.4.13 - Unauthenticated Arbitrary File Deletion via 'id' Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14487",
-      "summary": "CVE ID :CVE-2026-14487\n  \n  Published : July 8, 2026, 5:16 a.m. | 55\u00a0minutes ago\n  \n  Description :The Simple Coherent Form plugin for WordPress is vu...",
+      "summary": "CVE ID :CVE-2026-14487\n  \n  Published : July 8, 2026, 5:16 a.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :The Simple Coherent Form plugin for WordPr...",
       "timestamp": 1783487786.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +125,7 @@
     {
       "title": "CVE-2026-14482 - \u591a\u8bf4\u793e\u4f1a\u5316\u8bc4\u8bba\u6846 <= 1.2 - Unauthenticated Privilege Escalation via api.php 'option'/'value' Parameters",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14482",
-      "summary": "CVE ID :CVE-2026-14482\n  \n  Published : July 8, 2026, 5:16 a.m. | 55\u00a0minutes ago\n  \n  Description :The \u591a\u8bf4\u793e\u4f1a\u5316\u8bc4\u8bba\u6846 plugin for WordPress is vulnerable to ...",
+      "summary": "CVE ID :CVE-2026-14482\n  \n  Published : July 8, 2026, 5:16 a.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :The \u591a\u8bf4\u793e\u4f1a\u5316\u8bc4\u8bba\u6846 plugin for WordPress is vulne...",
       "timestamp": 1783487786.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,31 +133,15 @@
     {
       "title": "CVE-2026-14158 - Widget Logic Visual <= 1.52 - Authenticated (Subscriber+) Remote Code Execution via 'nwlv[cod-tag]' Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14158",
-      "summary": "CVE ID :CVE-2026-14158\n  \n  Published : July 8, 2026, 5:16 a.m. | 55\u00a0minutes ago\n  \n  Description :The Widget Logic Visual plugin for WordPress is vul...",
+      "summary": "CVE ID :CVE-2026-14158\n  \n  Published : July 8, 2026, 5:16 a.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :The Widget Logic Visual plugin for WordPre...",
       "timestamp": 1783487786.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57895 - Pupsman Insecure File Permissions Arbitrary Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57895",
-      "summary": "CVE ID :CVE-2026-57895\n  \n  Published : July 8, 2026, 4:38 a.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :Incorrect default permissions issue exists ...",
-      "timestamp": 1783485494.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56437 - Pupsman DLL Hijacking Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56437",
-      "summary": "CVE ID :CVE-2026-56437\n  \n  Published : July 8, 2026, 4:38 a.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :Uncontrolled search path element issue exis...",
-      "timestamp": 1783485488.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-56843 - WebPros Plesk XML-RPC API Incorrect Authorization Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56843",
-      "summary": "CVE ID :CVE-2026-56843\n  \n  Published : July 8, 2026, 1:16 a.m. | 4\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Incorrect authorization in the XML-RPC API...",
+      "summary": "CVE ID :CVE-2026-56843\n  \n  Published : July 8, 2026, 1:16 a.m. | 6\u00a0hours, 43\u00a0minutes ago\n  \n  Description :Incorrect authorization in the XML-RPC API...",
       "timestamp": 1783473388.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,23 +149,7 @@
     {
       "title": "CVE-2026-55429 - Coder's workspace app upsert allows cross-workspace agent rebinding via user-controlled app ID",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55429",
-      "summary": "CVE ID :CVE-2026-55429\n  \n  Published : July 8, 2026, 12:16 a.m. | 5\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Coder allows organizations to provision r...",
-      "timestamp": 1783469793.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55428 - Coder: Route hijacking through lack of validation of agent-supplied AllowedIPs in tailnet coordinator",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55428",
-      "summary": "CVE ID :CVE-2026-55428\n  \n  Published : July 8, 2026, 12:16 a.m. | 5\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Coder allows organizations to provision r...",
-      "timestamp": 1783469793.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55427 - Coder vulnerable to SSH config injection via unsanitized server-supplied values in `coder config-ssh`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55427",
-      "summary": "CVE ID :CVE-2026-55427\n  \n  Published : July 8, 2026, 12:16 a.m. | 5\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Coder allows organizations to provision r...",
+      "summary": "CVE ID :CVE-2026-55429\n  \n  Published : July 8, 2026, 12:16 a.m. | 7\u00a0hours, 43\u00a0minutes ago\n  \n  Description :Coder allows organizations to provision r...",
       "timestamp": 1783469793.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -203,22 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "BeyondTrust warns of critical flaws in remote access software",
-      "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
-      "summary": "BeyondTrust warned customers to patch two critical security flaws in its Remote Support (RS) and Privileged Remote Access (PRA) software that could al...",
-      "timestamp": 1783411930.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft testing new Cloud Rebuild Windows 11 recovery feature",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-cloud-rebuild-windows-11-recovery-feature/",
-      "summary": "Microsoft has begun testing the Cloud Rebuild recovery feature in the latest Windows 11 Insider Preview builds released for users in the Experimental ...",
-      "timestamp": 1783409858.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Remote%20Code%20Execution%20and%20Information%20Disclosure%20Vulnerabilities%26vs_k=1",
       "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to a...",
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783494816.7176769
+  "last_updated": 1783503414.2329109
 }
