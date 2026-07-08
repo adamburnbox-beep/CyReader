@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,68 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-0279 PAN-OS: Multiple Cross-Site Scripting (XSS) Vulnerabilities  (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0279",
+      "summary": "",
+      "timestamp": 1783542600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-14891 - Nomad vulnerable to sandbox escape in Docker task driver",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14891",
+      "summary": "CVE ID :CVE-2026-14891\n  \n  Published : July 8, 2026, 8:09 p.m. | 19\u00a0minutes ago\n  \n  Description :HashiCorp Nomad and Nomad Enterprise are vulnerable...",
+      "timestamp": 1783541345.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
+      "summary": "Malicious packages on the Node Package Manager (npm) and the Python Package Index (PyPI) delivered stealer malware to developers and users of Paysafe,...",
+      "timestamp": 1783540499.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-59807 - Composio SDK < 0.2.32-beta.283 - Sensitive File Upload via tool-file-uploads.ts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59807",
+      "summary": "CVE ID :CVE-2026-59807\n  \n  Published : July 8, 2026, 7:43 p.m. | 44\u00a0minutes ago\n  \n  Description :Composio SDK before 0.2.32-beta.283 contains a path...",
+      "timestamp": 1783539831.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59803 - rpcx - Denial of Service via Gzip Decompression Bomb in Wire Protocol",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59803",
+      "summary": "CVE ID :CVE-2026-59803\n  \n  Published : July 8, 2026, 7:42 p.m. | 45\u00a0minutes ago\n  \n  Description :rpcx through 1.9.3, fixed in commit 047aec1, contai...",
+      "timestamp": 1783539749.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59802 - PasswordPusher < 2.8.1 - Redirect-Based XSS via data URI in URL Push Payload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59802",
+      "summary": "CVE ID :CVE-2026-59802\n  \n  Published : July 8, 2026, 7:42 p.m. | 46\u00a0minutes ago\n  \n  Description :PasswordPusher before 2.8.1 accepts data URI scheme...",
+      "timestamp": 1783539727.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-60104 - Bitwarden Server < 2026.6.0 Authorization Bypass via Admin Auth Request",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60104",
+      "summary": "CVE ID :CVE-2026-60104\n  \n  Published : July 8, 2026, 7:34 p.m. | 53\u00a0minutes ago\n  \n  Description :Bitwarden Server before 2026.6.0 does not verify th...",
+      "timestamp": 1783539289.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
@@ -69,7 +125,7 @@
     {
       "title": "CVE-2026-60102 - Horde VFS < 3.0.1 OS Command Injection via Horde_Vfs_Smb Driver",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60102",
-      "summary": "CVE ID :CVE-2026-60102\n  \n  Published : July 8, 2026, 5:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :Horde Virtual File System (VFS) API before ...",
+      "summary": "CVE ID :CVE-2026-60102\n  \n  Published : July 8, 2026, 5:17 p.m. | 3\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Horde Virtual File System (VFS) API before...",
       "timestamp": 1783531048.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +133,7 @@
     {
       "title": "CVE-2026-59879 - Immutable.js `List` 32-bit trie overflow \u2192 unrecoverable DoS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59879",
-      "summary": "CVE ID :CVE-2026-59879\n  \n  Published : July 8, 2026, 5:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :Immutable.js provides many Persistent Immut...",
+      "summary": "CVE ID :CVE-2026-59879\n  \n  Published : July 8, 2026, 5:17 p.m. | 3\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Immutable.js provides many Persistent Immu...",
       "timestamp": 1783531046.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +141,7 @@
     {
       "title": "CVE-2026-59731 - Astro 6.4.7 Authorization Bypass via Decode Iteration Limit and Rewrite Path Canonicalization Mismatch",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59731",
-      "summary": "CVE ID :CVE-2026-59731\n  \n  Published : July 8, 2026, 5:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :Astro is a web framework for content-driven...",
+      "summary": "CVE ID :CVE-2026-59731\n  \n  Published : July 8, 2026, 5:17 p.m. | 3\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Astro is a web framework for content-drive...",
       "timestamp": 1783531045.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +149,7 @@
     {
       "title": "CVE-2026-59261 - OpenClaw < 2026.5.28 - Credential Override via Workspace Dotenv Files",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59261",
-      "summary": "CVE ID :CVE-2026-59261\n  \n  Published : July 8, 2026, 5:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.28 contains a creden...",
+      "summary": "CVE ID :CVE-2026-59261\n  \n  Published : July 8, 2026, 5:17 p.m. | 3\u00a0hours, 10\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.28 contains a crede...",
       "timestamp": 1783531045.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,15 +157,7 @@
     {
       "title": "CVE-2026-29009 - U-Boot 2026.04-rc3 Buffer Overflow in nfs_readlink_reply() via NFS READLINK",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-29009",
-      "summary": "CVE ID :CVE-2026-29009\n  \n  Published : July 8, 2026, 5:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :U-Boot through 2026.04-rc3 contains a buffe...",
-      "timestamp": 1783531041.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-29008 - U-Boot 2026.04-rc3 Integer Underflow DoS via tcp_rx_state_machine()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29008",
-      "summary": "CVE ID :CVE-2026-29008\n  \n  Published : July 8, 2026, 5:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :U-Boot through 2026.04-rc3 contains an inte...",
+      "summary": "CVE ID :CVE-2026-29009\n  \n  Published : July 8, 2026, 5:17 p.m. | 3\u00a0hours, 11\u00a0minutes ago\n  \n  Description :U-Boot through 2026.04-rc3 contains a buff...",
       "timestamp": 1783531041.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -123,72 +171,8 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-9074 - IBM API Connect SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9074",
-      "summary": "CVE ID :CVE-2026-9074\n  \n  Published : July 8, 2026, 4:16 p.m. | 2\u00a0hours, 49\u00a0minutes ago\n  \n  Description :IBM API Connect 10.0.8.0 through 10.0.8.9 a...",
-      "timestamp": 1783527395.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59880 - Immutable.js: Hash-collision algorithmic complexity denial of service in Immutable.Map/Set",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59880",
-      "summary": "CVE ID :CVE-2026-59880\n  \n  Published : July 8, 2026, 4:16 p.m. | 2\u00a0hours, 49\u00a0minutes ago\n  \n  Description :Immutable.js provides many Persistent Immu...",
-      "timestamp": 1783527394.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59874 - node-tar: Negative tar entry size causes infinite loop in archive replace",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59874",
-      "summary": "CVE ID :CVE-2026-59874\n  \n  Published : July 8, 2026, 4:16 p.m. | 2\u00a0hours, 49\u00a0minutes ago\n  \n  Description :node-tar is a tar archive manipulation lib...",
-      "timestamp": 1783527393.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59873 - node-tar: Decompression/parse DoS via unlimited input",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59873",
-      "summary": "CVE ID :CVE-2026-59873\n  \n  Published : July 8, 2026, 4:16 p.m. | 2\u00a0hours, 49\u00a0minutes ago\n  \n  Description :node-tar is a tar archive manipulation lib...",
-      "timestamp": 1783527393.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -203,6 +187,30 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0278 Prisma Access Agent: Multiple DLP Policy Bypass Vulnerabilities on Windows (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0278",
       "summary": "",
@@ -211,8 +219,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0279 PAN-OS: Multiple Cross-Site Scripting (XSS) Vulnerabilities  (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0279",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -227,8 +235,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+      "title": "PAN-SA-2026-0010 Chromium and Prisma Browser: Monthly Vulnerability Update (July 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0010",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -307,14 +315,6 @@
       "vendor": "News"
     },
     {
-      "title": "Chinese hackers develop LONGLEASH malware to expand ORB network",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
-      "summary": "Chinese hackers tracked as 'UAT-7810' are actively evolving their malware to expand their Operational Relay Box (ORB) network by compromising internet...",
-      "timestamp": 1783450339.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Remote%20Code%20Execution%20and%20Information%20Disclosure%20Vulnerabilities%26vs_k=1",
       "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to a...",
@@ -363,5 +363,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783540359.5041215
+  "last_updated": 1783545888.1500623
 }
