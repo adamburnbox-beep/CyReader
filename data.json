@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 3,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,100 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 5,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Mount Royal University confirms breach as hackers claim attack",
+      "link": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
+      "summary": "Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university's network. [.....",
+      "timestamp": 1783546019.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-10037 - Sandbox Escape in Ubuntu OpenJDK Packages via xdg-desktop-portal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10037",
+      "summary": "CVE ID :CVE-2026-10037\n  \n  Published : July 8, 2026, 9:18 p.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :A sandbox escape vulnerability exists in the...",
+      "timestamp": 1783545536.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-6896 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6896",
+      "summary": "CVE ID :CVE-2026-6896\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab EE ...",
+      "timestamp": 1783545415.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-60105 - Monsta FTP < 2.14.5 SSRF via IPv4-Mapped IPv6 Address Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60105",
+      "summary": "CVE ID :CVE-2026-60105\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Monsta FTP before 2.14.5 contains a server-...",
+      "timestamp": 1783545414.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58525 - Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58525",
+      "summary": "CVE ID :CVE-2026-58525\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Improper access control in Microsoft Edge (...",
+      "timestamp": 1783545414.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58192 - Appium: Unauthenticated arbitrary file/directory deletion in @appium/storage-plugin",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58192",
+      "summary": "CVE ID :CVE-2026-58192\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Appium is a cross-platform automation frame...",
+      "timestamp": 1783545412.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57480 - Parse Server: Denial of service via exponential-time processing of deeply nested query operators",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57480",
+      "summary": "CVE ID :CVE-2026-57480\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Parse Server is an open source backend that...",
+      "timestamp": 1783545410.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55596 - Plate: Media embed provider metadata can bypass URL sanitization and execute iframe JavaScript",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55596",
+      "summary": "CVE ID :CVE-2026-55596\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Plate is a rich-text editor with AI and sha...",
+      "timestamp": 1783545410.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55206 - py7zr: O(n^2) algorithmic complexity DoS in PackInfo._read()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55206",
+      "summary": "CVE ID :CVE-2026-55206\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :py7zr is a Python-based library and utility...",
+      "timestamp": 1783545409.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55195 - py7zr: Decompression bomb (zip bomb) denial of service via unchecked extraction size",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55195",
+      "summary": "CVE ID :CVE-2026-55195\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :py7zr is a Python-based library and utility...",
+      "timestamp": 1783545409.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54591 - AsyncSSH: SCP Path Traversal to Arbitrary File Write",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54591",
+      "summary": "CVE ID :CVE-2026-54591\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :AsyncSSH is a Python package which provides...",
+      "timestamp": 1783545409.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "CVE-2026-0279 PAN-OS: Multiple Cross-Site Scripting (XSS) Vulnerabilities  (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0279",
@@ -65,14 +153,6 @@
       "timestamp": 1783542600.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-14891 - Nomad vulnerable to sandbox escape in Docker task driver",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14891",
-      "summary": "CVE ID :CVE-2026-14891\n  \n  Published : July 8, 2026, 8:09 p.m. | 19\u00a0minutes ago\n  \n  Description :HashiCorp Nomad and Nomad Enterprise are vulnerable...",
-      "timestamp": 1783541345.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
@@ -83,38 +163,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-59807 - Composio SDK < 0.2.32-beta.283 - Sensitive File Upload via tool-file-uploads.ts",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59807",
-      "summary": "CVE ID :CVE-2026-59807\n  \n  Published : July 8, 2026, 7:43 p.m. | 44\u00a0minutes ago\n  \n  Description :Composio SDK before 0.2.32-beta.283 contains a path...",
-      "timestamp": 1783539831.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59803 - rpcx - Denial of Service via Gzip Decompression Bomb in Wire Protocol",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59803",
-      "summary": "CVE ID :CVE-2026-59803\n  \n  Published : July 8, 2026, 7:42 p.m. | 45\u00a0minutes ago\n  \n  Description :rpcx through 1.9.3, fixed in commit 047aec1, contai...",
-      "timestamp": 1783539749.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59802 - PasswordPusher < 2.8.1 - Redirect-Based XSS via data URI in URL Push Payload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59802",
-      "summary": "CVE ID :CVE-2026-59802\n  \n  Published : July 8, 2026, 7:42 p.m. | 46\u00a0minutes ago\n  \n  Description :PasswordPusher before 2.8.1 accepts data URI scheme...",
-      "timestamp": 1783539727.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-60104 - Bitwarden Server < 2026.6.0 Authorization Bypass via Admin Auth Request",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60104",
-      "summary": "CVE ID :CVE-2026-60104\n  \n  Published : July 8, 2026, 7:34 p.m. | 53\u00a0minutes ago\n  \n  Description :Bitwarden Server before 2026.6.0 does not verify th...",
-      "timestamp": 1783539289.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
       "summary": "A China-linked threat cluster has been exploiting vulnerable Roundcube servers at U.S. and Canadian universities to steal credentials and deploy backd...",
@@ -123,68 +171,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-60102 - Horde VFS < 3.0.1 OS Command Injection via Horde_Vfs_Smb Driver",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60102",
-      "summary": "CVE ID :CVE-2026-60102\n  \n  Published : July 8, 2026, 5:17 p.m. | 3\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Horde Virtual File System (VFS) API before...",
-      "timestamp": 1783531048.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59879 - Immutable.js `List` 32-bit trie overflow \u2192 unrecoverable DoS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59879",
-      "summary": "CVE ID :CVE-2026-59879\n  \n  Published : July 8, 2026, 5:17 p.m. | 3\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Immutable.js provides many Persistent Immu...",
-      "timestamp": 1783531046.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59731 - Astro 6.4.7 Authorization Bypass via Decode Iteration Limit and Rewrite Path Canonicalization Mismatch",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59731",
-      "summary": "CVE ID :CVE-2026-59731\n  \n  Published : July 8, 2026, 5:17 p.m. | 3\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Astro is a web framework for content-drive...",
-      "timestamp": 1783531045.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59261 - OpenClaw < 2026.5.28 - Credential Override via Workspace Dotenv Files",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59261",
-      "summary": "CVE ID :CVE-2026-59261\n  \n  Published : July 8, 2026, 5:17 p.m. | 3\u00a0hours, 10\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.28 contains a crede...",
-      "timestamp": 1783531045.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-29009 - U-Boot 2026.04-rc3 Buffer Overflow in nfs_readlink_reply() via NFS READLINK",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29009",
-      "summary": "CVE ID :CVE-2026-29009\n  \n  Published : July 8, 2026, 5:17 p.m. | 3\u00a0hours, 11\u00a0minutes ago\n  \n  Description :U-Boot through 2026.04-rc3 contains a buff...",
-      "timestamp": 1783531041.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
       "link": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
       "summary": "A threat actor has been targeting organizations across multiple sectors with voice-based fake security requests that ask Microsoft 365 users to enroll...",
       "timestamp": 1783529245.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
     },
     {
       "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
@@ -203,6 +195,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0278 Prisma Access Agent: Multiple DLP Policy Bypass Vulnerabilities on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0278",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
       "summary": "",
@@ -211,8 +211,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0278 Prisma Access Agent: Multiple DLP Policy Bypass Vulnerabilities on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0278",
+      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -229,14 +245,6 @@
     {
       "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0010 Chromium and Prisma Browser: Monthly Vulnerability Update (July 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0010",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -307,14 +315,6 @@
       "vendor": "News"
     },
     {
-      "title": "Accenture confirms breach after hacker offers stolen data for sale",
-      "link": "https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/",
-      "summary": "IT services giant Accenture has confirmed it suffered a security breach after a threat actor claimed to have stolen 35 GB of source code and other dat...",
-      "timestamp": 1783461967.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Remote%20Code%20Execution%20and%20Information%20Disclosure%20Vulnerabilities%26vs_k=1",
       "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to a...",
@@ -363,5 +363,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783545888.1500623
+  "last_updated": 1783550503.7911844
 }
