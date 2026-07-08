@@ -24,14 +24,14 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 10,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 5,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,68 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
+      "summary": "A China-linked threat cluster has been exploiting vulnerable Roundcube servers at U.S. and Canadian universities to steal credentials and deploy backd...",
+      "timestamp": 1783536962.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-60102 - Horde VFS < 3.0.1 OS Command Injection via Horde_Vfs_Smb Driver",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60102",
+      "summary": "CVE ID :CVE-2026-60102\n  \n  Published : July 8, 2026, 5:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :Horde Virtual File System (VFS) API before ...",
+      "timestamp": 1783531048.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59879 - Immutable.js `List` 32-bit trie overflow \u2192 unrecoverable DoS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59879",
+      "summary": "CVE ID :CVE-2026-59879\n  \n  Published : July 8, 2026, 5:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :Immutable.js provides many Persistent Immut...",
+      "timestamp": 1783531046.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59731 - Astro 6.4.7 Authorization Bypass via Decode Iteration Limit and Rewrite Path Canonicalization Mismatch",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59731",
+      "summary": "CVE ID :CVE-2026-59731\n  \n  Published : July 8, 2026, 5:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :Astro is a web framework for content-driven...",
+      "timestamp": 1783531045.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59261 - OpenClaw < 2026.5.28 - Credential Override via Workspace Dotenv Files",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59261",
+      "summary": "CVE ID :CVE-2026-59261\n  \n  Published : July 8, 2026, 5:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.28 contains a creden...",
+      "timestamp": 1783531045.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-29009 - U-Boot 2026.04-rc3 Buffer Overflow in nfs_readlink_reply() via NFS READLINK",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29009",
+      "summary": "CVE ID :CVE-2026-29009\n  \n  Published : July 8, 2026, 5:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :U-Boot through 2026.04-rc3 contains a buffe...",
+      "timestamp": 1783531041.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-29008 - U-Boot 2026.04-rc3 Integer Underflow DoS via tcp_rx_state_machine()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29008",
+      "summary": "CVE ID :CVE-2026-29008\n  \n  Published : July 8, 2026, 5:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :U-Boot through 2026.04-rc3 contains an inte...",
+      "timestamp": 1783531041.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
       "link": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
@@ -67,17 +123,9 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-60102 - Horde VFS < 3.0.1 OS Command Injection via Horde_Vfs_Smb Driver",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60102",
-      "summary": "CVE ID :CVE-2026-60102\n  \n  Published : July 8, 2026, 4:25 p.m. | 40\u00a0minutes ago\n  \n  Description :Horde Virtual File System (VFS) API before 3.0.1 co...",
-      "timestamp": 1783527919.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-9074 - IBM API Connect SQL Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9074",
-      "summary": "CVE ID :CVE-2026-9074\n  \n  Published : July 8, 2026, 4:16 p.m. | 49\u00a0minutes ago\n  \n  Description :IBM API Connect 10.0.8.0 through 10.0.8.9 and\u00a012.1.0...",
+      "summary": "CVE ID :CVE-2026-9074\n  \n  Published : July 8, 2026, 4:16 p.m. | 2\u00a0hours, 49\u00a0minutes ago\n  \n  Description :IBM API Connect 10.0.8.0 through 10.0.8.9 a...",
       "timestamp": 1783527395.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +133,7 @@
     {
       "title": "CVE-2026-59880 - Immutable.js: Hash-collision algorithmic complexity denial of service in Immutable.Map/Set",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59880",
-      "summary": "CVE ID :CVE-2026-59880\n  \n  Published : July 8, 2026, 4:16 p.m. | 49\u00a0minutes ago\n  \n  Description :Immutable.js provides many Persistent Immutable dat...",
+      "summary": "CVE ID :CVE-2026-59880\n  \n  Published : July 8, 2026, 4:16 p.m. | 2\u00a0hours, 49\u00a0minutes ago\n  \n  Description :Immutable.js provides many Persistent Immu...",
       "timestamp": 1783527394.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +141,7 @@
     {
       "title": "CVE-2026-59874 - node-tar: Negative tar entry size causes infinite loop in archive replace",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59874",
-      "summary": "CVE ID :CVE-2026-59874\n  \n  Published : July 8, 2026, 4:16 p.m. | 49\u00a0minutes ago\n  \n  Description :node-tar is a tar archive manipulation library for ...",
+      "summary": "CVE ID :CVE-2026-59874\n  \n  Published : July 8, 2026, 4:16 p.m. | 2\u00a0hours, 49\u00a0minutes ago\n  \n  Description :node-tar is a tar archive manipulation lib...",
       "timestamp": 1783527393.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,48 +149,8 @@
     {
       "title": "CVE-2026-59873 - node-tar: Decompression/parse DoS via unlimited input",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59873",
-      "summary": "CVE ID :CVE-2026-59873\n  \n  Published : July 8, 2026, 4:16 p.m. | 49\u00a0minutes ago\n  \n  Description :node-tar is a tar archive manipulation library for ...",
+      "summary": "CVE ID :CVE-2026-59873\n  \n  Published : July 8, 2026, 4:16 p.m. | 2\u00a0hours, 49\u00a0minutes ago\n  \n  Description :node-tar is a tar archive manipulation lib...",
       "timestamp": 1783527393.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59702 - repomix - Server-Side Request Forgery via Unvalidated Repository URLs in POST /api/pack",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59702",
-      "summary": "CVE ID :CVE-2026-59702\n  \n  Published : July 8, 2026, 4:16 p.m. | 49\u00a0minutes ago\n  \n  Description :repomix contains a server-side request forgery vuln...",
-      "timestamp": 1783527391.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53951 - Copier: trust-prefix bypass via path traversal runs tasks unprompted",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53951",
-      "summary": "CVE ID :CVE-2026-53951\n  \n  Published : July 8, 2026, 4:16 p.m. | 49\u00a0minutes ago\n  \n  Description :Copier is a library and CLI app for rendering proje...",
-      "timestamp": 1783527390.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-3144 - IBM API Connect Default Credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-3144",
-      "summary": "CVE ID :CVE-2026-3144\n  \n  Published : July 8, 2026, 4:16 p.m. | 49\u00a0minutes ago\n  \n  Description :IBM API Connect 12.1.0.0 through 12.1.0.3 uses defau...",
-      "timestamp": 1783527388.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-29009 - U-Boot 2026.04-rc3 Buffer Overflow in nfs_readlink_reply() via NFS READLINK",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29009",
-      "summary": "CVE ID :CVE-2026-29009\n  \n  Published : July 8, 2026, 4:16 p.m. | 49\u00a0minutes ago\n  \n  Description :U-Boot through 2026.04-rc3 contains a buffer overfl...",
-      "timestamp": 1783527364.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-29008 - U-Boot 2026.04-rc3 Integer Underflow DoS via tcp_rx_state_machine()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29008",
-      "summary": "CVE ID :CVE-2026-29008\n  \n  Published : July 8, 2026, 4:14 p.m. | 50\u00a0minutes ago\n  \n  Description :U-Boot through 2026.04-rc3 contains an integer unde...",
-      "timestamp": 1783527281.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -307,14 +315,6 @@
       "vendor": "News"
     },
     {
-      "title": "Hidden backdoor in Tenda router firmware grants admin access",
-      "link": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
-      "summary": "A hidden authentication backdoor has been found in multiple Tenda router firmware versions, potentially allowing an attacker to gain administrative ac...",
-      "timestamp": 1783445242.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Remote%20Code%20Execution%20and%20Information%20Disclosure%20Vulnerabilities%26vs_k=1",
       "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to a...",
@@ -363,5 +363,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783533196.748232
+  "last_updated": 1783540359.5041215
 }
