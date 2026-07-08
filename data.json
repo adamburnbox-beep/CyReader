@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,108 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+      "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+      "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right co...",
+      "timestamp": 1783513899.0,
+      "source": "Krebs on Security",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-3688 - WCFM - WooCommerce Multivendor Membership <= 2.11.10 - Insecure Direct Object Reference to Limited Privilege Escalation via User Role Overwrite",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-3688",
+      "summary": "CVE ID :CVE-2026-3688\n  \n  Published : July 8, 2026, 12:17 p.m. | 47\u00a0minutes ago\n  \n  Description :The WCFM Membership \u2013 WooCommerce Memberships for M...",
+      "timestamp": 1783513040.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8307 - SQLi in Webbeyaz's Medik\u00fcm Web",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8307",
+      "summary": "CVE ID :CVE-2026-8307\n  \n  Published : July 8, 2026, 12:14 p.m. | 50\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements used in...",
+      "timestamp": 1783512848.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "DuckDuckGo browser now blocks YouTube video ads",
+      "link": "https://www.bleepingcomputer.com/news/software/duckduckgo-browser-now-blocks-youtube-video-ads/",
+      "summary": "DuckDuckGo announced that its browser can now block most video ads on YouTube, including those shown before the video starts playing and during playba...",
+      "timestamp": 1783512000.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Telco giant KDDI says data breach affects over 12 million people",
+      "link": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
+      "summary": "Japanese telecommunications giant KDDI says that millions of people had their email addresses and passwords exposed after attackers breached an email ...",
+      "timestamp": 1783509856.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-56003 - libXfont2 computeProps Property Buffer Heap Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56003",
+      "summary": "CVE ID :CVE-2026-56003\n  \n  Published : July 8, 2026, 10:16 a.m. | 2\u00a0hours, 48\u00a0minutes ago\n  \n  Description :A heap buffer overflow due to missing siz...",
+      "timestamp": 1783505783.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56002 - libXfont2 PCF Font Parsing Heap Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56002",
+      "summary": "CVE ID :CVE-2026-56002\n  \n  Published : July 8, 2026, 10:16 a.m. | 2\u00a0hours, 48\u00a0minutes ago\n  \n  Description :A heap bufferflow in pcfReadFont() due to...",
+      "timestamp": 1783505783.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CISA orders feds to prioritize patching Langflow auth bypass flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) gave federal agencies until Friday to patch an actively exploited vulnerability in th...",
+      "timestamp": 1783504691.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-57239 - Foxit PDF Editor/Reader Local Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57239",
+      "summary": "CVE ID :CVE-2026-57239\n  \n  Published : July 8, 2026, 9:16 a.m. | 3\u00a0hours, 48\u00a0minutes ago\n  \n  Description :The user-controllable executable files wil...",
+      "timestamp": 1783502191.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56001 - libXfont2 BitmapScaleBitmaps Integer Overflow Heap Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56001",
+      "summary": "CVE ID :CVE-2026-56001\n  \n  Published : July 8, 2026, 9:16 a.m. | 3\u00a0hours, 48\u00a0minutes ago\n  \n  Description :A heap buffer overflow in BitmapScaleBitma...",
+      "timestamp": 1783502190.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56000 - xorg-x11-server / xwayland GLX contextTags Use-After-Free in CommonMakeCurrent()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56000",
+      "summary": "CVE ID :CVE-2026-56000\n  \n  Published : July 8, 2026, 9:16 a.m. | 3\u00a0hours, 48\u00a0minutes ago\n  \n  Description :Local attackers with a X connection able t...",
+      "timestamp": 1783502189.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55999 - xorg-server / xwayland glamor font atlas Heap Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55999",
+      "summary": "CVE ID :CVE-2026-55999\n  \n  Published : July 8, 2026, 9:16 a.m. | 3\u00a0hours, 48\u00a0minutes ago\n  \n  Description :Local attackers with a X connection able t...",
+      "timestamp": 1783502189.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Ubiquiti warns of new max severity  UniFi OS vulnerability",
       "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/",
@@ -77,80 +173,16 @@
     {
       "title": "CVE-2026-9695 - Improper Authentication vulnerability affecting DELMIA Apriso from Release 2020 through Release 2026",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9695",
-      "summary": "CVE ID :CVE-2026-9695\n  \n  Published : July 8, 2026, 7:16 a.m. | 43\u00a0minutes ago\n  \n  Description :An Improper Authentication vulnerability affecting D...",
+      "summary": "CVE ID :CVE-2026-9695\n  \n  Published : July 8, 2026, 7:16 a.m. | 5\u00a0hours, 47\u00a0minutes ago\n  \n  Description :An Improper Authentication vulnerability af...",
       "timestamp": 1783495006.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-14495 - DoLogin Security <= 4.3 - Unauthenticated Authentication Bypass via Insufficient Randomness via 'dologin' Parameter Weak PRNG Token",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14495",
-      "summary": "CVE ID :CVE-2026-14495\n  \n  Published : July 8, 2026, 6:16 a.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :The DoLogin Security plugin for WordPress i...",
-      "timestamp": 1783491382.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14489 - WHMCS Bridge <= 6.9 - Unauthenticated Arbitrary File Upload via 'ccce' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14489",
-      "summary": "CVE ID :CVE-2026-14489\n  \n  Published : July 8, 2026, 6:16 a.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :The WHMCS Bridge plugin for WordPress is vu...",
-      "timestamp": 1783491382.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12153 - WP Learn Manager <= 1.1.8 - Missing Authorization to Unauthenticated Arbitrary Plugin Installation and Activation via jslearnmanager_ajax AJAX Action",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12153",
-      "summary": "CVE ID :CVE-2026-12153\n  \n  Published : July 8, 2026, 6:16 a.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :The WP Learn Manager plugin for WordPress i...",
-      "timestamp": 1783491382.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9701 - Eventer <= 4.4.2 - Insecure Password Reset Mechanism to Unauthenticated Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9701",
-      "summary": "CVE ID :CVE-2026-9701\n  \n  Published : July 8, 2026, 5:16 a.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :The Eventer plugin for WordPress is vulnera...",
-      "timestamp": 1783487788.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14487 - Simple Coherent Form <= 2.4.13 - Unauthenticated Arbitrary File Deletion via 'id' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14487",
-      "summary": "CVE ID :CVE-2026-14487\n  \n  Published : July 8, 2026, 5:16 a.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :The Simple Coherent Form plugin for WordPr...",
-      "timestamp": 1783487786.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14482 - \u591a\u8bf4\u793e\u4f1a\u5316\u8bc4\u8bba\u6846 <= 1.2 - Unauthenticated Privilege Escalation via api.php 'option'/'value' Parameters",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14482",
-      "summary": "CVE ID :CVE-2026-14482\n  \n  Published : July 8, 2026, 5:16 a.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :The \u591a\u8bf4\u793e\u4f1a\u5316\u8bc4\u8bba\u6846 plugin for WordPress is vulne...",
-      "timestamp": 1783487786.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14158 - Widget Logic Visual <= 1.52 - Authenticated (Subscriber+) Remote Code Execution via 'nwlv[cod-tag]' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14158",
-      "summary": "CVE ID :CVE-2026-14158\n  \n  Published : July 8, 2026, 5:16 a.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :The Widget Logic Visual plugin for WordPre...",
-      "timestamp": 1783487786.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56843 - WebPros Plesk XML-RPC API Incorrect Authorization Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56843",
-      "summary": "CVE ID :CVE-2026-56843\n  \n  Published : July 8, 2026, 1:16 a.m. | 6\u00a0hours, 43\u00a0minutes ago\n  \n  Description :Incorrect authorization in the XML-RPC API...",
-      "timestamp": 1783473388.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55429 - Coder's workspace app upsert allows cross-workspace agent rebinding via user-controlled app ID",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55429",
-      "summary": "CVE ID :CVE-2026-55429\n  \n  Published : July 8, 2026, 12:16 a.m. | 7\u00a0hours, 43\u00a0minutes ago\n  \n  Description :Coder allows organizations to provision r...",
-      "timestamp": 1783469793.0,
+      "title": "CVE-2026-12378 - BookingPress <= 1.1.28 - Unauthenticated PHP Object Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12378",
+      "summary": "CVE ID :CVE-2026-12378\n  \n  Published : July 8, 2026, 7:16 a.m. | 5\u00a0hours, 47\u00a0minutes ago\n  \n  Description :The Appointment Booking Calendar Plugin an...",
+      "timestamp": 1783495006.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -191,30 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
       "summary": "ActiveState explains how GitHub Actions attack chains can evade traditional CI security scanners, why passing a scan doesn't guarantee a secure pipeli...",
       "timestamp": 1783432871.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Webinar tomorrow: Why modern email attacks require a new approach to defense",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/",
-      "summary": "Tomorrow's webinar explores how behavioral AI can help organizations detect sophisticated phishing, business email compromise, and account takeover at...",
-      "timestamp": 1783426340.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New Januscape Linux flaw allows VM escape on Intel, AMD devices",
-      "link": "https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allows-vm-escape-on-intel-amd-devices/",
-      "summary": "A 16-year-old Linux kernel vulnerability, dubbed Januscape, allows attackers to escape a virtual machine and execute arbitrary code on the host. [...]",
-      "timestamp": 1783425969.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft to enable Windows settings backup by default for orgs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/",
-      "summary": "Microsoft says the Windows settings backup and restore tool will be enabled by default on Microsoft Entra-joined or Microsoft Entra hybrid-joined ente...",
-      "timestamp": 1783417279.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -267,5 +275,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783503414.2329109
+  "last_updated": 1783516597.2542853
 }
