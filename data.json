@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 4,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,64 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-9701 - Eventer <= 4.4.2 - Insecure Password Reset Mechanism to Unauthenticated Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9701",
+      "summary": "CVE ID :CVE-2026-9701\n  \n  Published : July 8, 2026, 5:16 a.m. | 55\u00a0minutes ago\n  \n  Description :The Eventer plugin for WordPress is vulnerable to an...",
+      "timestamp": 1783487788.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14487 - Simple Coherent Form <= 2.4.13 - Unauthenticated Arbitrary File Deletion via 'id' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14487",
+      "summary": "CVE ID :CVE-2026-14487\n  \n  Published : July 8, 2026, 5:16 a.m. | 55\u00a0minutes ago\n  \n  Description :The Simple Coherent Form plugin for WordPress is vu...",
+      "timestamp": 1783487786.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14482 - \u591a\u8bf4\u793e\u4f1a\u5316\u8bc4\u8bba\u6846 <= 1.2 - Unauthenticated Privilege Escalation via api.php 'option'/'value' Parameters",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14482",
+      "summary": "CVE ID :CVE-2026-14482\n  \n  Published : July 8, 2026, 5:16 a.m. | 55\u00a0minutes ago\n  \n  Description :The \u591a\u8bf4\u793e\u4f1a\u5316\u8bc4\u8bba\u6846 plugin for WordPress is vulnerable to ...",
+      "timestamp": 1783487786.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14158 - Widget Logic Visual <= 1.52 - Authenticated (Subscriber+) Remote Code Execution via 'nwlv[cod-tag]' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14158",
+      "summary": "CVE ID :CVE-2026-14158\n  \n  Published : July 8, 2026, 5:16 a.m. | 55\u00a0minutes ago\n  \n  Description :The Widget Logic Visual plugin for WordPress is vul...",
+      "timestamp": 1783487786.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57895 - Pupsman Insecure File Permissions Arbitrary Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57895",
+      "summary": "CVE ID :CVE-2026-57895\n  \n  Published : July 8, 2026, 4:38 a.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :Incorrect default permissions issue exists ...",
+      "timestamp": 1783485494.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56437 - Pupsman DLL Hijacking Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56437",
+      "summary": "CVE ID :CVE-2026-56437\n  \n  Published : July 8, 2026, 4:38 a.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :Uncontrolled search path element issue exis...",
+      "timestamp": 1783485488.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-56843 - WebPros Plesk XML-RPC API Incorrect Authorization Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56843",
-      "summary": "CVE ID :CVE-2026-56843\n  \n  Published : July 8, 2026, 1:16 a.m. | 1\u00a0hour, 44\u00a0minutes ago\n  \n  Description :Incorrect authorization in the XML-RPC API ...",
+      "summary": "CVE ID :CVE-2026-56843\n  \n  Published : July 8, 2026, 1:16 a.m. | 4\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Incorrect authorization in the XML-RPC API...",
       "timestamp": 1783473388.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +117,7 @@
     {
       "title": "CVE-2026-55429 - Coder's workspace app upsert allows cross-workspace agent rebinding via user-controlled app ID",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55429",
-      "summary": "CVE ID :CVE-2026-55429\n  \n  Published : July 8, 2026, 12:16 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :Coder allows organizations to provision r...",
+      "summary": "CVE ID :CVE-2026-55429\n  \n  Published : July 8, 2026, 12:16 a.m. | 5\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Coder allows organizations to provision r...",
       "timestamp": 1783469793.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +125,7 @@
     {
       "title": "CVE-2026-55428 - Coder: Route hijacking through lack of validation of agent-supplied AllowedIPs in tailnet coordinator",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55428",
-      "summary": "CVE ID :CVE-2026-55428\n  \n  Published : July 8, 2026, 12:16 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :Coder allows organizations to provision r...",
+      "summary": "CVE ID :CVE-2026-55428\n  \n  Published : July 8, 2026, 12:16 a.m. | 5\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Coder allows organizations to provision r...",
       "timestamp": 1783469793.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,56 +133,8 @@
     {
       "title": "CVE-2026-55427 - Coder vulnerable to SSH config injection via unsanitized server-supplied values in `coder config-ssh`",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55427",
-      "summary": "CVE ID :CVE-2026-55427\n  \n  Published : July 8, 2026, 12:16 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :Coder allows organizations to provision r...",
+      "summary": "CVE ID :CVE-2026-55427\n  \n  Published : July 8, 2026, 12:16 a.m. | 5\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Coder allows organizations to provision r...",
       "timestamp": 1783469793.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59705 - mem0 - OpenMemory API Unauthenticated Access via Memory Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59705",
-      "summary": "CVE ID :CVE-2026-59705\n  \n  Published : July 7, 2026, 11:16 p.m. | 3\u00a0hours, 43\u00a0minutes ago\n  \n  Description :mem0's openmemory/api component contains ...",
-      "timestamp": 1783466215.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59706 - mem0 - Server-Side Request Forgery and Plaintext API Key Exposure via Unauthenticated Config Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59706",
-      "summary": "CVE ID :CVE-2026-59706\n  \n  Published : July 7, 2026, 10:16 p.m. | 4\u00a0hours, 43\u00a0minutes ago\n  \n  Description :mem0 contains unauthenticated config API ...",
-      "timestamp": 1783462614.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55418 - FastGPT: S3 presign/read handlers do not bind the object key to the caller's team (cross-team file disclosure)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55418",
-      "summary": "CVE ID :CVE-2026-55418\n  \n  Published : July 7, 2026, 10:16 p.m. | 4\u00a0hours, 43\u00a0minutes ago\n  \n  Description :FastGPT is an open source AI knowledge ba...",
-      "timestamp": 1783462613.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55408 - Koodo Reader: Remote code execution via malicious epub file",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55408",
-      "summary": "CVE ID :CVE-2026-55408\n  \n  Published : July 7, 2026, 10:16 p.m. | 4\u00a0hours, 43\u00a0minutes ago\n  \n  Description :Koodo Reader is an ebook reader. In versi...",
-      "timestamp": 1783462613.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49229 - Actual: Disabled OpenID users keep access through existing session tokens",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49229",
-      "summary": "CVE ID :CVE-2026-49229\n  \n  Published : July 7, 2026, 10:16 p.m. | 4\u00a0hours, 43\u00a0minutes ago\n  \n  Description :Actual is a local-first personal finance ...",
-      "timestamp": 1783462612.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49033 - Stack-Based Buffer Overflow in Labcenter Proteus",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49033",
-      "summary": "CVE ID :CVE-2026-49033\n  \n  Published : July 7, 2026, 10:16 p.m. | 4\u00a0hours, 43\u00a0minutes ago\n  \n  Description :The application contains a stack-based bu...",
-      "timestamp": 1783462612.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783484904.2056234
+  "last_updated": 1783494816.7176769
 }
