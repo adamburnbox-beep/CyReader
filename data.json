@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,124 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
+      "summary": "A new phishing-as-a-service (PhaaS) operation called Forg365 focuses on stealing Microsoft 365 accounts by combining adversary-in-the-middle (AiTM) an...",
+      "timestamp": 1783607991.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-60109 - Zeek < 8.0.9 Null Pointer Dereference DoS via Kerberos KRB_ERROR Parsing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60109",
+      "summary": "CVE ID :CVE-2026-60109\n  \n  Published : July 9, 2026, 2:19 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Zeek before 8.0.9 contains a null pointer de...",
+      "timestamp": 1783606757.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-60108 - Zeek < 8.0.9 Uncontrolled Memory Consumption DoS via FTP Analyzer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60108",
+      "summary": "CVE ID :CVE-2026-60108\n  \n  Published : July 9, 2026, 2:16 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :Zeek before 8.0.9 contains an uncontrolled m...",
+      "timestamp": 1783606617.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-4256 - LDAP Injection in PEAKUP's PassGate",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4256",
+      "summary": "CVE ID :CVE-2026-4256\n  \n  Published : July 9, 2026, 2:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements u...",
+      "timestamp": 1783606592.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12593 - Privilege escalation via forged API token creation in Axivion Dashboard OIDC/OAuth2/SSO subsystem",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12593",
+      "summary": "CVE ID :CVE-2026-12593\n  \n  Published : July 9, 2026, 2:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :The implementation of an internal\u00a0and\u00a0undocu...",
+      "timestamp": 1783606586.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "The Hidden Security Risks of Reduced Summer IT Coverage",
+      "link": "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/",
+      "summary": "Security operations don't slow down when IT teams take vacation, but staffing levels often do. Kaseya explains how AI-driven automation can help organ...",
+      "timestamp": 1783605732.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-56292 - Joomla Extension - acymailing.com - SQL Injection in AcyMailing extension < 10.11.1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56292",
+      "summary": "CVE ID :CVE-2026-56292\n  \n  Published : July 9, 2026, 1:49 p.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :A SQLi vulnerability in AcyMailing componen...",
+      "timestamp": 1783604979.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56291 - Joomla Extension - balbooa.com - Unauthenticated file upload in Balbooa Forms extension < 2.4.1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56291",
+      "summary": "CVE ID :CVE-2026-56291\n  \n  Published : July 9, 2026, 11:16 a.m. | 4\u00a0hours, 6\u00a0minutes ago\n  \n  Description :The Joomla extension Balbooa Forms is vuln...",
+      "timestamp": 1783595800.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50644 - SQL Injection in SOPlanning Audit Retention Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50644",
+      "summary": "CVE ID :CVE-2026-50644\n  \n  Published : July 9, 2026, 11:16 a.m. | 4\u00a0hours, 6\u00a0minutes ago\n  \n  Description :SOPlanning is vulnerable to SQL injection ...",
+      "timestamp": 1783595799.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-4275 - Divi Torque Lite <= 4.2.3 - Cross-Site Request Forgery to Arbitrary Plugin Installation via 'install_plugin' REST Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4275",
+      "summary": "CVE ID :CVE-2026-4275\n  \n  Published : July 9, 2026, 11:16 a.m. | 4\u00a0hours, 6\u00a0minutes ago\n  \n  Description :The Divi Torque Lite \u2013 Divi Theme, Divi Bui...",
+      "timestamp": 1783595799.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft to retire the OWA Light client in Exchange Server",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/",
+      "summary": "Microsoft has announced plans to disable Outlook Web Access (OWA) Light, the lightweight version of the Outlook Web App email client, in a future Exch...",
+      "timestamp": 1783594835.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-5955 - SQLi in Inrove Software's BiEticaret",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5955",
+      "summary": "CVE ID :CVE-2026-5955\n  \n  Published : July 9, 2026, 10:16 a.m. | 5\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements...",
+      "timestamp": 1783592187.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-2342 - XSS in Oceanicsoft's ValeApp",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-2342",
+      "summary": "CVE ID :CVE-2026-2342\n  \n  Published : July 9, 2026, 10:16 a.m. | 5\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Improper neutralization of input during web...",
+      "timestamp": 1783592185.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
+      "link": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
+      "summary": "Law enforcement agencies have arrested 5,811 suspects and seized $293 million in illicit assets in a global anti-fraud operation spanning 97 countries...",
+      "timestamp": 1783590448.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
       "link": "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
@@ -75,92 +187,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-47646 - Dynamics 365 Customer Voice Spoofing Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47646",
-      "summary": "CVE ID :CVE-2026-47646\n  \n  Published : July 9, 2026, 12:17 a.m. | 6\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Improper neutralization of input during we...",
-      "timestamp": 1783556243.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59723 - Cline: Cross-Origin WebSocket Hijacking in Cline Hub Dashboard (`/browser` endpoint)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59723",
-      "summary": "CVE ID :CVE-2026-59723\n  \n  Published : July 8, 2026, 11:16 p.m. | 7\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Cline is an autonomous coding agent as an ...",
-      "timestamp": 1783552616.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54782 - CoreWCF: Authentication bypass in CoreWCF SAML 1.1 / 2.0 token signature validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54782",
-      "summary": "CVE ID :CVE-2026-54782\n  \n  Published : July 8, 2026, 11:16 p.m. | 7\u00a0hours, 6\u00a0minutes ago\n  \n  Description :CoreWCF is a port of the service side of W...",
-      "timestamp": 1783552616.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55849 - @cyclonedx/cyclonedx-npm: Shell Injection via Unsanitized `--workspace` Argument",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55849",
-      "summary": "CVE ID :CVE-2026-55849\n  \n  Published : July 8, 2026, 10:17 p.m. | 8\u00a0hours, 6\u00a0minutes ago\n  \n  Description :@cyclonedx/cyclonedx-npm creates CycloneDX...",
-      "timestamp": 1783549035.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55830 - RestrictedPython guard hooks can be shadowed via positional-only arguments",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55830",
-      "summary": "CVE ID :CVE-2026-55830\n  \n  Published : July 8, 2026, 10:17 p.m. | 8\u00a0hours, 6\u00a0minutes ago\n  \n  Description :RestrictedPython is a tool that helps to d...",
-      "timestamp": 1783549035.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55471 - HAPI FHIR: XXE in XsltUtilities.saxonTransform via unhardened Saxon TransformerFactory",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55471",
-      "summary": "CVE ID :CVE-2026-55471\n  \n  Published : July 8, 2026, 10:17 p.m. | 8\u00a0hours, 6\u00a0minutes ago\n  \n  Description :HAPI FHIR is a complete implementation of ...",
-      "timestamp": 1783549035.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44024 - Fluentd: Remote Code Execution (RCE) via Arbitrary File Write in `${tag}` Placeholder",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44024",
-      "summary": "CVE ID :CVE-2026-44024\n  \n  Published : July 8, 2026, 10:17 p.m. | 8\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Fluentd collects events from various data ...",
-      "timestamp": 1783549034.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10037 - Sandbox Escape in Ubuntu OpenJDK Packages via xdg-desktop-portal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10037",
-      "summary": "CVE ID :CVE-2026-10037\n  \n  Published : July 8, 2026, 10:17 p.m. | 8\u00a0hours, 6\u00a0minutes ago\n  \n  Description :A sandbox escape vulnerability exists in t...",
-      "timestamp": 1783549032.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Mount Royal University confirms breach as hackers claim attack",
       "link": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
       "summary": "Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university's network. [.....",
       "timestamp": 1783546019.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-6896 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6896",
-      "summary": "CVE ID :CVE-2026-6896\n  \n  Published : July 8, 2026, 9:16 p.m. | 9\u00a0hours, 6\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab EE ...",
-      "timestamp": 1783545415.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-60105 - Monsta FTP < 2.14.5 SSRF via IPv4-Mapped IPv6 Address Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60105",
-      "summary": "CVE ID :CVE-2026-60105\n  \n  Published : July 8, 2026, 9:16 p.m. | 9\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Monsta FTP before 2.14.5 contains a server-...",
-      "timestamp": 1783545414.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-0279 PAN-OS: Multiple Cross-Site Scripting (XSS) Vulnerabilities  (Severity: LOW)",
@@ -195,8 +227,8 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -211,16 +243,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0278 Prisma Access Agent: Multiple DLP Policy Bypass Vulnerabilities on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0278",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -243,16 +267,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+      "title": "CVE-2026-0278 Prisma Access Agent: Multiple DLP Policy Bypass Vulnerabilities on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0278",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0276 Cortex XDR Broker VM: Privilege Escalation (PE) Vulnerability (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0276",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -275,43 +307,11 @@
       "vendor": "Cisco"
     },
     {
-      "title": "3 Ways AI Powers Service Desk Attacks and How to Prevent Them",
-      "link": "https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/",
-      "summary": "Specops Software explains how AI is making service desk impersonation attacks more convincing, personalized, and scalable, along with practical steps ...",
-      "timestamp": 1783519271.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
       "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
       "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right co...",
       "timestamp": 1783513899.0,
       "source": "Krebs on Security",
-      "vendor": "News"
-    },
-    {
-      "title": "DuckDuckGo browser now blocks YouTube video ads",
-      "link": "https://www.bleepingcomputer.com/news/software/duckduckgo-browser-now-blocks-youtube-video-ads/",
-      "summary": "DuckDuckGo announced that its browser can now block most video ads on YouTube, including those shown before the video starts playing and during playba...",
-      "timestamp": 1783512000.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Telco giant KDDI says data breach affects over 12 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
-      "summary": "Japanese telecommunications giant KDDI says that millions of people had their email addresses and passwords exposed after attackers breached an email ...",
-      "timestamp": 1783509856.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CISA orders feds to prioritize patching Langflow auth bypass flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) gave federal agencies until Friday to patch an actively exploited vulnerability in th...",
-      "timestamp": 1783504691.0,
-      "source": "BleepingComputer",
       "vendor": "News"
     },
     {
@@ -363,5 +363,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783583785.9572616
+  "last_updated": 1783615273.0913954
 }
