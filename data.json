@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,76 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-47646 - Dynamics 365 Customer Voice Spoofing Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47646",
+      "summary": "CVE ID :CVE-2026-47646\n  \n  Published : July 9, 2026, 12:17 a.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :Improper neutralization of input during we...",
+      "timestamp": 1783556243.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59723 - Cline: Cross-Origin WebSocket Hijacking in Cline Hub Dashboard (`/browser` endpoint)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59723",
+      "summary": "CVE ID :CVE-2026-59723\n  \n  Published : July 8, 2026, 11:16 p.m. | 2\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Cline is an autonomous coding agent as an...",
+      "timestamp": 1783552616.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54782 - CoreWCF: Authentication bypass in CoreWCF SAML 1.1 / 2.0 token signature validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54782",
+      "summary": "CVE ID :CVE-2026-54782\n  \n  Published : July 8, 2026, 11:16 p.m. | 2\u00a0hours, 55\u00a0minutes ago\n  \n  Description :CoreWCF is a port of the service side of ...",
+      "timestamp": 1783552616.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55849 - @cyclonedx/cyclonedx-npm: Shell Injection via Unsanitized `--workspace` Argument",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55849",
+      "summary": "CVE ID :CVE-2026-55849\n  \n  Published : July 8, 2026, 10:17 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :@cyclonedx/cyclonedx-npm creates CycloneD...",
+      "timestamp": 1783549035.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55830 - RestrictedPython guard hooks can be shadowed via positional-only arguments",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55830",
+      "summary": "CVE ID :CVE-2026-55830\n  \n  Published : July 8, 2026, 10:17 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :RestrictedPython is a tool that helps to ...",
+      "timestamp": 1783549035.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55471 - HAPI FHIR: XXE in XsltUtilities.saxonTransform via unhardened Saxon TransformerFactory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55471",
+      "summary": "CVE ID :CVE-2026-55471\n  \n  Published : July 8, 2026, 10:17 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :HAPI FHIR is a complete implementation of...",
+      "timestamp": 1783549035.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-44024 - Fluentd: Remote Code Execution (RCE) via Arbitrary File Write in `${tag}` Placeholder",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44024",
+      "summary": "CVE ID :CVE-2026-44024\n  \n  Published : July 8, 2026, 10:17 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Fluentd collects events from various data...",
+      "timestamp": 1783549034.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-10037 - Sandbox Escape in Ubuntu OpenJDK Packages via xdg-desktop-portal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10037",
+      "summary": "CVE ID :CVE-2026-10037\n  \n  Published : July 8, 2026, 10:17 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :A sandbox escape vulnerability exists in ...",
+      "timestamp": 1783549032.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Mount Royal University confirms breach as hackers claim attack",
       "link": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
@@ -67,17 +131,9 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-10037 - Sandbox Escape in Ubuntu OpenJDK Packages via xdg-desktop-portal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10037",
-      "summary": "CVE ID :CVE-2026-10037\n  \n  Published : July 8, 2026, 9:18 p.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :A sandbox escape vulnerability exists in the...",
-      "timestamp": 1783545536.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-6896 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6896",
-      "summary": "CVE ID :CVE-2026-6896\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab EE ...",
+      "summary": "CVE ID :CVE-2026-6896\n  \n  Published : July 8, 2026, 9:16 p.m. | 4\u00a0hours, 55\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab EE...",
       "timestamp": 1783545415.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,64 +141,8 @@
     {
       "title": "CVE-2026-60105 - Monsta FTP < 2.14.5 SSRF via IPv4-Mapped IPv6 Address Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60105",
-      "summary": "CVE ID :CVE-2026-60105\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Monsta FTP before 2.14.5 contains a server-...",
+      "summary": "CVE ID :CVE-2026-60105\n  \n  Published : July 8, 2026, 9:16 p.m. | 4\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Monsta FTP before 2.14.5 contains a server...",
       "timestamp": 1783545414.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58525 - Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58525",
-      "summary": "CVE ID :CVE-2026-58525\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Improper access control in Microsoft Edge (...",
-      "timestamp": 1783545414.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58192 - Appium: Unauthenticated arbitrary file/directory deletion in @appium/storage-plugin",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58192",
-      "summary": "CVE ID :CVE-2026-58192\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Appium is a cross-platform automation frame...",
-      "timestamp": 1783545412.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57480 - Parse Server: Denial of service via exponential-time processing of deeply nested query operators",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57480",
-      "summary": "CVE ID :CVE-2026-57480\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Parse Server is an open source backend that...",
-      "timestamp": 1783545410.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55596 - Plate: Media embed provider metadata can bypass URL sanitization and execute iframe JavaScript",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55596",
-      "summary": "CVE ID :CVE-2026-55596\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Plate is a rich-text editor with AI and sha...",
-      "timestamp": 1783545410.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55206 - py7zr: O(n^2) algorithmic complexity DoS in PackInfo._read()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55206",
-      "summary": "CVE ID :CVE-2026-55206\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :py7zr is a Python-based library and utility...",
-      "timestamp": 1783545409.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55195 - py7zr: Decompression bomb (zip bomb) denial of service via unchecked extraction size",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55195",
-      "summary": "CVE ID :CVE-2026-55195\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :py7zr is a Python-based library and utility...",
-      "timestamp": 1783545409.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54591 - AsyncSSH: SCP Path Traversal to Arbitrary File Write",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54591",
-      "summary": "CVE ID :CVE-2026-54591\n  \n  Published : July 8, 2026, 9:16 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :AsyncSSH is a Python package which provides...",
-      "timestamp": 1783545409.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -179,8 +179,8 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -219,16 +219,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -363,5 +363,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783550503.7911844
+  "last_updated": 1783570252.0820584
 }
