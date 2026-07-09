@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,84 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "OpenMandriva Linux says contributor tried to sabotage the project",
+      "link": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
+      "summary": "The OpenMandriva Linux project announced that it was the target of an attempted act of internal sabotage after a dispute among contributors. [...]",
+      "timestamp": 1783635253.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-58122 - Hermes WebUI < 0.51.307 Authentication Bypass via X-Forwarded-For Header Spoofing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58122",
+      "summary": "CVE ID :CVE-2026-58122\n  \n  Published : July 9, 2026, 9:30 p.m. | 42\u00a0minutes ago\n  \n  Description :Hermes WebUI before 0.51.307 contains an authentica...",
+      "timestamp": 1783632617.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55207 - Pimcore: Account Takeover via Password Reset URL Injection allows unauthenticated attacker to hijack any admin account with 2FA bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55207",
+      "summary": "CVE ID :CVE-2026-55207\n  \n  Published : July 9, 2026, 9:16 p.m. | 55\u00a0minutes ago\n  \n  Description :Pimcore is an Open Source Data & Experience Managem...",
+      "timestamp": 1783631815.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-33794 - Junos OS Evolved: PTX Series: Receipt of repeated ECMP routing updates results in PFE crash",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33794",
+      "summary": "CVE ID :CVE-2026-33794\n  \n  Published : July 9, 2026, 9:16 p.m. | 55\u00a0minutes ago\n  \n  Description :An Improper Check for Unusual or Exceptional Condit...",
+      "timestamp": 1783631814.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58123 - Hermes WebUI < 0.51.788 Unauthenticated RCE via Terminal API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58123",
+      "summary": "CVE ID :CVE-2026-58123\n  \n  Published : July 9, 2026, 9:14 p.m. | 58\u00a0minutes ago\n  \n  Description :Hermes WebUI before 0.51.788 contains an unauthenti...",
+      "timestamp": 1783631646.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57030 - Junos OS: SRX Series: Flow sessions are not getting cleared leading to a DoS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57030",
+      "summary": "CVE ID :CVE-2026-57030\n  \n  Published : July 9, 2026, 9:13 p.m. | 59\u00a0minutes ago\n  \n  Description :A Concurrent Execution using Shared Resource with I...",
+      "timestamp": 1783631592.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57026 - Junos OS: MX Series with SPC3, SRX Series: Processing of a specifically malformed SIP invite causes a flowd crash",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57026",
+      "summary": "CVE ID :CVE-2026-57026\n  \n  Published : July 9, 2026, 9:07 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :An Improper Validation of Syntactic Correctn...",
+      "timestamp": 1783631264.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57023 - Junos OS: MX with SPC3, SRX Series: A specifically malformed TCP packet causes a flowd crash",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57023",
+      "summary": "CVE ID :CVE-2026-57023\n  \n  Published : July 9, 2026, 9:06 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :An Improper Validation of Specified Quantity...",
+      "timestamp": 1783631194.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57022 - Junos OS: MX Series with SPC3, SRX Series: Specific packet in response to a TCP connection establishment by the affected device can crash the PFE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57022",
+      "summary": "CVE ID :CVE-2026-57022\n  \n  Published : July 9, 2026, 9:06 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :An Improper Check for Unusual or Exceptional...",
+      "timestamp": 1783631166.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
       "link": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
@@ -69,7 +141,7 @@
     {
       "title": "CVE-2026-59148 - Mockoon: Unauthenticated admin API + wildcard CORS allows mock-state hijack and secret theft",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59148",
-      "summary": "CVE ID :CVE-2026-59148\n  \n  Published : July 9, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Mockoon provides way to design and run mock...",
+      "summary": "CVE ID :CVE-2026-59148\n  \n  Published : July 9, 2026, 7:17 p.m. | 2\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Mockoon provides way to design and run moc...",
       "timestamp": 1783624627.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,72 +149,8 @@
     {
       "title": "CVE-2026-54003 - Kirby: External Initialization of the Panel on reverse proxy setups with the `Forwarded` header",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54003",
-      "summary": "CVE ID :CVE-2026-54003\n  \n  Published : July 9, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Kirby is an open-source content management ...",
+      "summary": "CVE ID :CVE-2026-54003\n  \n  Published : July 9, 2026, 7:17 p.m. | 2\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Kirby is an open-source content management...",
       "timestamp": 1783624626.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54002 - Kirby: Cross-site scripting (XSS) from incomplete HTML/XML sanitization in `Dom::sanitize()`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54002",
-      "summary": "CVE ID :CVE-2026-54002\n  \n  Published : July 9, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Kirby is an open-source content management ...",
-      "timestamp": 1783624625.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13492 - UsersWP <= 1.2.65 - Authenticated (Subscriber+) Arbitrary File Deletion via File Upload Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13492",
-      "summary": "CVE ID :CVE-2026-13492\n  \n  Published : July 9, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :The UsersWP plugin for WordPress is vulnera...",
-      "timestamp": 1783624623.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61343 - LibreBooking path traversal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61343",
-      "summary": "CVE ID :CVE-2026-61343\n  \n  Published : July 9, 2026, 6:16 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :LibreBooking's email template editor save ...",
-      "timestamp": 1783621018.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59827 - Metabase: Unsafe Deserialization of H2 Query Results",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59827",
-      "summary": "CVE ID :CVE-2026-59827\n  \n  Published : July 9, 2026, 6:16 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Metabase is an open-source business intell...",
-      "timestamp": 1783621017.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59826 - Metabase: Arbitrary Code Execution via Database Connection Detail Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59826",
-      "summary": "CVE ID :CVE-2026-59826\n  \n  Published : July 9, 2026, 6:16 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Metabase is an open-source business intell...",
-      "timestamp": 1783621017.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59734 - Coolify: OS Command Injection in Health Check Configuration Allows Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59734",
-      "summary": "CVE ID :CVE-2026-59734\n  \n  Published : July 9, 2026, 6:16 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostabl...",
-      "timestamp": 1783621017.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59726 - Ruflo: Unauthenticated RCE in MCP bridge default docker-compose deployment",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59726",
-      "summary": "CVE ID :CVE-2026-59726\n  \n  Published : July 9, 2026, 6:16 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Ruflo is an agent meta-harness for Claude ...",
-      "timestamp": 1783621017.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58378 - Allwinner TV Box TV98 ADB exposed on network",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58378",
-      "summary": "CVE ID :CVE-2026-58378\n  \n  Published : July 9, 2026, 6:16 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Allwinner H616 TV Box TV98 has ADB enabled...",
-      "timestamp": 1783621014.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -211,14 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "Mount Royal University confirms breach as hackers claim attack",
-      "link": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
-      "summary": "Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university's network. [.....",
-      "timestamp": 1783546019.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0279 PAN-OS: Multiple Cross-Site Scripting (XSS) Vulnerabilities  (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0279",
       "summary": "",
@@ -227,16 +227,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -275,8 +275,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -291,8 +291,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+      "title": "PAN-SA-2026-0010 Chromium and Prisma Browser: Monthly Vulnerability Update (July 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0010",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -363,5 +363,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783635006.8668554
+  "last_updated": 1783639639.3314166
 }
