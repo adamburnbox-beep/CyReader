@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,44 +59,108 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-15308 - Incremental HTMLParser feed() allows CPU-exhaustion DoS via repeated unterminated markup declarations",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15308",
+      "summary": "CVE ID :CVE-2026-15308\n  \n  Published : July 9, 2026, 5:10 p.m. | 11\u00a0minutes ago\n  \n  Description :The incremental HTML parser (html.parser.HTMLParser...",
+      "timestamp": 1783617057.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "New Helix vishing group emerges in SharePoint data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
+      "summary": "A new data-extortion group called Helix is using identity-focused tactics such as voice phishing (vishing), device code phishing, and multi-factor aut...",
+      "timestamp": 1783616909.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft expects more Windows security updates from AI-discovered flaws",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/",
+      "summary": "Microsoft says Windows users should expect to see an increase in security updates as the company increasingly relies on artificial intelligence to dis...",
+      "timestamp": 1783616400.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-42486 - Multiple RBAC issues in XAPI",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42486",
+      "summary": "CVE ID :CVE-2026-42486\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :[This CNA information record relates to mult...",
+      "timestamp": 1783613801.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-23562 - Multiple RBAC issues in XAPI",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-23562",
+      "summary": "CVE ID :CVE-2026-23562\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :[This CNA information record relates to mult...",
+      "timestamp": 1783613799.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-23561 - Multiple RBAC issues in XAPI",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-23561",
+      "summary": "CVE ID :CVE-2026-23561\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :[This CNA information record relates to mult...",
+      "timestamp": 1783613799.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-23560 - Multiple RBAC issues in XAPI",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-23560",
+      "summary": "CVE ID :CVE-2026-23560\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :[This CNA information record relates to mult...",
+      "timestamp": 1783613798.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-23559 - Multiple RBAC issues in XAPI",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-23559",
+      "summary": "CVE ID :CVE-2026-23559\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :[This CNA information record relates to mult...",
+      "timestamp": 1783613798.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-23556 - oxenstored keeps quota related use counts across domain destruction",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-23556",
+      "summary": "CVE ID :CVE-2026-23556\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :When oxenstored is tearing a domain down, th...",
+      "timestamp": 1783613798.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-11404 - Cesanta Mongoose < 7.22 Out-of-Bounds Read in MG_TLS_BUILTIN ClientHello Session ID Parsing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11404",
+      "summary": "CVE ID :CVE-2026-11404\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :Cesanta Mongoose before 7.22 contains an out...",
+      "timestamp": 1783613794.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-58151 - varstored: TOCTOU issues with mapped guest memory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-58151",
+      "summary": "CVE ID :CVE-2025-58151\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :varstored is a component of the Xapi toolsta...",
+      "timestamp": 1783613793.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-58146 - XAPI UTF-8 string handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-58146",
+      "summary": "CVE ID :CVE-2025-58146\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :There are multiple issues.\n\n 1. Updates to t...",
+      "timestamp": 1783613793.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
       "link": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
       "summary": "A new phishing-as-a-service (PhaaS) operation called Forg365 focuses on stealing Microsoft 365 accounts by combining adversary-in-the-middle (AiTM) an...",
       "timestamp": 1783607991.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-60109 - Zeek < 8.0.9 Null Pointer Dereference DoS via Kerberos KRB_ERROR Parsing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60109",
-      "summary": "CVE ID :CVE-2026-60109\n  \n  Published : July 9, 2026, 2:19 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Zeek before 8.0.9 contains a null pointer de...",
-      "timestamp": 1783606757.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-60108 - Zeek < 8.0.9 Uncontrolled Memory Consumption DoS via FTP Analyzer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60108",
-      "summary": "CVE ID :CVE-2026-60108\n  \n  Published : July 9, 2026, 2:16 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :Zeek before 8.0.9 contains an uncontrolled m...",
-      "timestamp": 1783606617.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-4256 - LDAP Injection in PEAKUP's PassGate",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4256",
-      "summary": "CVE ID :CVE-2026-4256\n  \n  Published : July 9, 2026, 2:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements u...",
-      "timestamp": 1783606592.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12593 - Privilege escalation via forged API token creation in Axivion Dashboard OIDC/OAuth2/SSO subsystem",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12593",
-      "summary": "CVE ID :CVE-2026-12593\n  \n  Published : July 9, 2026, 2:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :The implementation of an internal\u00a0and\u00a0undocu...",
-      "timestamp": 1783606586.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "The Hidden Security Risks of Reduced Summer IT Coverage",
@@ -107,60 +171,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-56292 - Joomla Extension - acymailing.com - SQL Injection in AcyMailing extension < 10.11.1",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56292",
-      "summary": "CVE ID :CVE-2026-56292\n  \n  Published : July 9, 2026, 1:49 p.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :A SQLi vulnerability in AcyMailing componen...",
-      "timestamp": 1783604979.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56291 - Joomla Extension - balbooa.com - Unauthenticated file upload in Balbooa Forms extension < 2.4.1",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56291",
-      "summary": "CVE ID :CVE-2026-56291\n  \n  Published : July 9, 2026, 11:16 a.m. | 4\u00a0hours, 6\u00a0minutes ago\n  \n  Description :The Joomla extension Balbooa Forms is vuln...",
-      "timestamp": 1783595800.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50644 - SQL Injection in SOPlanning Audit Retention Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50644",
-      "summary": "CVE ID :CVE-2026-50644\n  \n  Published : July 9, 2026, 11:16 a.m. | 4\u00a0hours, 6\u00a0minutes ago\n  \n  Description :SOPlanning is vulnerable to SQL injection ...",
-      "timestamp": 1783595799.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-4275 - Divi Torque Lite <= 4.2.3 - Cross-Site Request Forgery to Arbitrary Plugin Installation via 'install_plugin' REST Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4275",
-      "summary": "CVE ID :CVE-2026-4275\n  \n  Published : July 9, 2026, 11:16 a.m. | 4\u00a0hours, 6\u00a0minutes ago\n  \n  Description :The Divi Torque Lite \u2013 Divi Theme, Divi Bui...",
-      "timestamp": 1783595799.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Microsoft to retire the OWA Light client in Exchange Server",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/",
       "summary": "Microsoft has announced plans to disable Outlook Web Access (OWA) Light, the lightweight version of the Outlook Web App email client, in a future Exch...",
       "timestamp": 1783594835.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-5955 - SQLi in Inrove Software's BiEticaret",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5955",
-      "summary": "CVE ID :CVE-2026-5955\n  \n  Published : July 9, 2026, 10:16 a.m. | 5\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements...",
-      "timestamp": 1783592187.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-2342 - XSS in Oceanicsoft's ValeApp",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-2342",
-      "summary": "CVE ID :CVE-2026-2342\n  \n  Published : July 9, 2026, 10:16 a.m. | 5\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Improper neutralization of input during web...",
-      "timestamp": 1783592185.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
@@ -211,24 +227,8 @@
       "vendor": "News"
     },
     {
-      "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
-      "summary": "A China-linked threat cluster has been exploiting vulnerable Roundcube servers at U.S. and Canadian universities to steal credentials and deploy backd...",
-      "timestamp": 1783536962.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
-      "link": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
-      "summary": "A threat actor has been targeting organizations across multiple sectors with voice-based fake security requests that ask Microsoft 365 users to enroll...",
-      "timestamp": 1783529245.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -243,8 +243,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0278 Prisma Access Agent: Multiple DLP Policy Bypass Vulnerabilities on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0278",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -267,24 +275,16 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0278 Prisma Access Agent: Multiple DLP Policy Bypass Vulnerabilities on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0278",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0276 Cortex XDR Broker VM: Privilege Escalation (PE) Vulnerability (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0276",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -363,5 +363,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783615273.0913954
+  "last_updated": 1783621675.1696062
 }
