@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,10 +59,90 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-15308 - Incremental HTMLParser feed() allows CPU-exhaustion DoS via repeated unterminated markup declarations",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15308",
-      "summary": "CVE ID :CVE-2026-15308\n  \n  Published : July 9, 2026, 5:10 p.m. | 11\u00a0minutes ago\n  \n  Description :The incremental HTML parser (html.parser.HTMLParser...",
-      "timestamp": 1783617057.0,
+      "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
+      "link": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
+      "summary": "Hackers compromised the Injective Labs SDK project's GitHub repository and used it to publish a malicious package on the Node Package Manager (npm) th...",
+      "timestamp": 1783627800.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-59148 - Mockoon: Unauthenticated admin API + wildcard CORS allows mock-state hijack and secret theft",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59148",
+      "summary": "CVE ID :CVE-2026-59148\n  \n  Published : July 9, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Mockoon provides way to design and run mock...",
+      "timestamp": 1783624627.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54003 - Kirby: External Initialization of the Panel on reverse proxy setups with the `Forwarded` header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54003",
+      "summary": "CVE ID :CVE-2026-54003\n  \n  Published : July 9, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Kirby is an open-source content management ...",
+      "timestamp": 1783624626.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54002 - Kirby: Cross-site scripting (XSS) from incomplete HTML/XML sanitization in `Dom::sanitize()`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54002",
+      "summary": "CVE ID :CVE-2026-54002\n  \n  Published : July 9, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Kirby is an open-source content management ...",
+      "timestamp": 1783624625.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13492 - UsersWP <= 1.2.65 - Authenticated (Subscriber+) Arbitrary File Deletion via File Upload Field",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13492",
+      "summary": "CVE ID :CVE-2026-13492\n  \n  Published : July 9, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :The UsersWP plugin for WordPress is vulnera...",
+      "timestamp": 1783624623.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-61343 - LibreBooking path traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61343",
+      "summary": "CVE ID :CVE-2026-61343\n  \n  Published : July 9, 2026, 6:16 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :LibreBooking's email template editor save ...",
+      "timestamp": 1783621018.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59827 - Metabase: Unsafe Deserialization of H2 Query Results",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59827",
+      "summary": "CVE ID :CVE-2026-59827\n  \n  Published : July 9, 2026, 6:16 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Metabase is an open-source business intell...",
+      "timestamp": 1783621017.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59826 - Metabase: Arbitrary Code Execution via Database Connection Detail Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59826",
+      "summary": "CVE ID :CVE-2026-59826\n  \n  Published : July 9, 2026, 6:16 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Metabase is an open-source business intell...",
+      "timestamp": 1783621017.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59734 - Coolify: OS Command Injection in Health Check Configuration Allows Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59734",
+      "summary": "CVE ID :CVE-2026-59734\n  \n  Published : July 9, 2026, 6:16 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Coolify is an open-source and self-hostabl...",
+      "timestamp": 1783621017.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59726 - Ruflo: Unauthenticated RCE in MCP bridge default docker-compose deployment",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59726",
+      "summary": "CVE ID :CVE-2026-59726\n  \n  Published : July 9, 2026, 6:16 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Ruflo is an agent meta-harness for Claude ...",
+      "timestamp": 1783621017.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58378 - Allwinner TV Box TV98 ADB exposed on network",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58378",
+      "summary": "CVE ID :CVE-2026-58378\n  \n  Published : July 9, 2026, 6:16 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Allwinner H616 TV Box TV98 has ADB enabled...",
+      "timestamp": 1783621014.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -81,78 +161,6 @@
       "timestamp": 1783616400.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-42486 - Multiple RBAC issues in XAPI",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42486",
-      "summary": "CVE ID :CVE-2026-42486\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :[This CNA information record relates to mult...",
-      "timestamp": 1783613801.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-23562 - Multiple RBAC issues in XAPI",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-23562",
-      "summary": "CVE ID :CVE-2026-23562\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :[This CNA information record relates to mult...",
-      "timestamp": 1783613799.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-23561 - Multiple RBAC issues in XAPI",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-23561",
-      "summary": "CVE ID :CVE-2026-23561\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :[This CNA information record relates to mult...",
-      "timestamp": 1783613799.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-23560 - Multiple RBAC issues in XAPI",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-23560",
-      "summary": "CVE ID :CVE-2026-23560\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :[This CNA information record relates to mult...",
-      "timestamp": 1783613798.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-23559 - Multiple RBAC issues in XAPI",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-23559",
-      "summary": "CVE ID :CVE-2026-23559\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :[This CNA information record relates to mult...",
-      "timestamp": 1783613798.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-23556 - oxenstored keeps quota related use counts across domain destruction",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-23556",
-      "summary": "CVE ID :CVE-2026-23556\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :When oxenstored is tearing a domain down, th...",
-      "timestamp": 1783613798.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11404 - Cesanta Mongoose < 7.22 Out-of-Bounds Read in MG_TLS_BUILTIN ClientHello Session ID Parsing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11404",
-      "summary": "CVE ID :CVE-2026-11404\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :Cesanta Mongoose before 7.22 contains an out...",
-      "timestamp": 1783613794.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-58151 - varstored: TOCTOU issues with mapped guest memory",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-58151",
-      "summary": "CVE ID :CVE-2025-58151\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :varstored is a component of the Xapi toolsta...",
-      "timestamp": 1783613793.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-58146 - XAPI UTF-8 string handling",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-58146",
-      "summary": "CVE ID :CVE-2025-58146\n  \n  Published : July 9, 2026, 4:16 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :There are multiple issues.\n\n 1. Updates to t...",
-      "timestamp": 1783613793.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
@@ -219,32 +227,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
-      "summary": "Malicious packages on the Node Package Manager (npm) and the Python Package Index (PyPI) delivered stealer malware to developers and users of Paysafe,...",
-      "timestamp": 1783540499.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
+      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0278 Prisma Access Agent: Multiple DLP Policy Bypass Vulnerabilities on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0278",
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -267,24 +267,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "title": "CVE-2026-0278 Prisma Access Agent: Multiple DLP Policy Bypass Vulnerabilities on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0278",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -293,6 +285,14 @@
     {
       "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -363,5 +363,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783621675.1696062
+  "last_updated": 1783635006.8668554
 }
