@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,52 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Zimbra urges customers to patch critical web client XSS flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
+      "summary": "The Zimbra security team urged customers to patch a critical vulnerability affecting the Classic Web Client used to access the Zimbra Collaboration su...",
+      "timestamp": 1783684058.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-41880 - OS Command Injection in R-SOFT DMS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41880",
+      "summary": "CVE ID :CVE-2026-41880\n  \n  Published : July 10, 2026, 10:16 a.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :R-SOFT DMS is vulnerable to\u00a0OS Command In...",
+      "timestamp": 1783678584.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-41879 - Weak password hashing in R-SOFT DMS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41879",
+      "summary": "CVE ID :CVE-2026-41879\n  \n  Published : July 10, 2026, 10:16 a.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :R-SOFT DMS\u00a0stores superadmin credentials ...",
+      "timestamp": 1783678584.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-41876 - OS Command Injection in R-SOFT DMS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41876",
+      "summary": "CVE ID :CVE-2026-41876\n  \n  Published : July 10, 2026, 10:16 a.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :R-SOFT DMS is vulnerable to\u00a0OS Command In...",
+      "timestamp": 1783678583.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15378 - Guardrails-detectors: guardrails-detectors: ssrf and local file read via user-supplied xml schema (xml-with-schema:)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15378",
+      "summary": "CVE ID :CVE-2026-15378\n  \n  Published : July 10, 2026, 10:16 a.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :A flaw was found in the `guardrails-detec...",
+      "timestamp": 1783678583.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Former ransomware negotiator gets 4 years for BlackCat attacks",
       "link": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/",
@@ -69,7 +109,7 @@
     {
       "title": "CVE-2026-21055 - Samsung Bixby Improper Component Export Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-21055",
-      "summary": "CVE ID :CVE-2026-21055\n  \n  Published : July 10, 2026, 5:16 a.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Improper export of android application co...",
+      "summary": "CVE ID :CVE-2026-21055\n  \n  Published : July 10, 2026, 5:16 a.m. | 6\u00a0hours, 23\u00a0minutes ago\n  \n  Description :Improper export of android application co...",
       "timestamp": 1783660596.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +117,7 @@
     {
       "title": "CVE-2026-21049 - libpadm Out-of-bounds Write Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-21049",
-      "summary": "CVE ID :CVE-2026-21049\n  \n  Published : July 10, 2026, 5:16 a.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Out-of-bounds write in libpadm.so library...",
+      "summary": "CVE ID :CVE-2026-21049\n  \n  Published : July 10, 2026, 5:16 a.m. | 6\u00a0hours, 23\u00a0minutes ago\n  \n  Description :Out-of-bounds write in libpadm.so library...",
       "timestamp": 1783660595.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +125,7 @@
     {
       "title": "CVE-2026-21048 - libimagecodec Out-of-Bounds Write",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-21048",
-      "summary": "CVE ID :CVE-2026-21048\n  \n  Published : July 10, 2026, 5:16 a.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Out-of-bounds write in parsing DNG format...",
+      "summary": "CVE ID :CVE-2026-21048\n  \n  Published : July 10, 2026, 5:16 a.m. | 6\u00a0hours, 23\u00a0minutes ago\n  \n  Description :Out-of-bounds write in parsing DNG format...",
       "timestamp": 1783660595.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +133,7 @@
     {
       "title": "CVE-2026-21046 - FabricKeymaster Trustlet Time-of-Check Time-of-Use Race Condition",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-21046",
-      "summary": "CVE ID :CVE-2026-21046\n  \n  Published : July 10, 2026, 5:16 a.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Time-of-check time-of-use race condition ...",
+      "summary": "CVE ID :CVE-2026-21046\n  \n  Published : July 10, 2026, 5:16 a.m. | 6\u00a0hours, 23\u00a0minutes ago\n  \n  Description :Time-of-check time-of-use race condition ...",
       "timestamp": 1783660595.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +141,7 @@
     {
       "title": "CVE-2026-21045 - Quram libimagecodec Out-of-Bounds Write",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-21045",
-      "summary": "CVE ID :CVE-2026-21045\n  \n  Published : July 10, 2026, 5:16 a.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Out-of-bounds write in parsing TIFF forma...",
+      "summary": "CVE ID :CVE-2026-21045\n  \n  Published : July 10, 2026, 5:16 a.m. | 6\u00a0hours, 23\u00a0minutes ago\n  \n  Description :Out-of-bounds write in parsing TIFF forma...",
       "timestamp": 1783660595.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,40 +149,8 @@
     {
       "title": "CVE-2026-21042 - Libsavsac Out-of-bounds Write Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-21042",
-      "summary": "CVE ID :CVE-2026-21042\n  \n  Published : July 10, 2026, 5:16 a.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Out-of-bounds write in libsavsac.so prior...",
+      "summary": "CVE ID :CVE-2026-21042\n  \n  Published : July 10, 2026, 5:16 a.m. | 6\u00a0hours, 23\u00a0minutes ago\n  \n  Description :Out-of-bounds write in libsavsac.so prior...",
       "timestamp": 1783660594.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-15300 - GEO my WP <= 4.5.4 - Unauthenticated SQL Injection via 'distance' / 'lat' / 'lng' Parameters",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15300",
-      "summary": "CVE ID :CVE-2026-15300\n  \n  Published : July 10, 2026, 5:16 a.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :The GEO my WP plugin for WordPress was vu...",
-      "timestamp": 1783660593.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-15293 - WP Business Intelligence Lite <= 3.2.0 - Authenticated (Subscriber+) Missing Authorization to Privilege Escalation via Arbitrary SQL Modification",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15293",
-      "summary": "CVE ID :CVE-2026-15293\n  \n  Published : July 10, 2026, 5:16 a.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :The WP Business Intelligence Lite plugin ...",
-      "timestamp": 1783660592.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-15282 - Instant Appointment <= 1.2 - Unauthenticated Arbitrary File Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15282",
-      "summary": "CVE ID :CVE-2026-15282\n  \n  Published : July 10, 2026, 5:16 a.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :The Instant Appointment plugin for WordPr...",
-      "timestamp": 1783660590.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54423 - OpenStack Ironic IPMI Access Control Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54423",
-      "summary": "CVE ID :CVE-2026-54423\n  \n  Published : July 10, 2026, 4:17 a.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :In OpenStack Ironic before 37.0.1, an Iro...",
-      "timestamp": 1783657072.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -211,14 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
-      "link": "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
-      "summary": "American insurance company\u00a0AssuranceAmerica has disclosed a data breach impacting nearly 7 million drivers after attackers gained access to its system...",
-      "timestamp": 1783583236.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0279 PAN-OS: Multiple Cross-Site Scripting (XSS) Vulnerabilities  (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0279",
       "summary": "",
@@ -227,8 +227,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -243,8 +243,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -259,8 +259,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -269,14 +277,6 @@
     {
       "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -363,5 +363,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783677266.3844454
+  "last_updated": 1783686995.2259388
 }
