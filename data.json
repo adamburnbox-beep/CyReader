@@ -24,14 +24,14 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 10,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,92 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-44383 - Hydro-Qu\u00e9bec Le Circuit Electrique charging station backend Insufficient Session Expiration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44383",
+      "summary": "CVE ID :CVE-2026-44383\n  \n  Published : July 10, 2026, 11:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :Multiple connections to the backend using...",
+      "timestamp": 1783725408.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-42952 - Hydro-Qu\u00e9bec Le Circuit Electrique charging station backend Improper Restriction of Excessive Authentication Attempts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42952",
+      "summary": "CVE ID :CVE-2026-42952\n  \n  Published : July 10, 2026, 11:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :Previously, there was no throttling on re...",
+      "timestamp": 1783725408.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-20744 - Hydro-Qu\u00e9bec Le Circuit Electrique charging station backend Improper Access Control",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20744",
+      "summary": "CVE ID :CVE-2026-20744\n  \n  Published : July 10, 2026, 11:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :The charging station websocket endpoint a...",
+      "timestamp": 1783725407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14480 - OpenPLC v3 External Control of File Name or Path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14480",
+      "summary": "CVE ID :CVE-2026-14480\n  \n  Published : July 10, 2026, 11:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :OpenPLC Runtime v3 contains an authentica...",
+      "timestamp": 1783725407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57584 - Phalcon: Catastrophic backtracking (ReDoS) in the default Phalcon Router route lead to remote unauthenticated DoS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57584",
+      "summary": "CVE ID :CVE-2026-57584\n  \n  Published : July 10, 2026, 10:16 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Phalcon is a high-performance, full-stac...",
+      "timestamp": 1783721804.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55884 - Tilt: Missing authentication on the network-exposed Tilt HUD server",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55884",
+      "summary": "CVE ID :CVE-2026-55884\n  \n  Published : July 10, 2026, 10:16 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Tilt defines dev environments as code fo...",
+      "timestamp": 1783721804.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55883 - Tilt: Cross-site WebSocket hijacking of the Tilt HUD stream",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55883",
+      "summary": "CVE ID :CVE-2026-55883\n  \n  Published : July 10, 2026, 10:16 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Tilt defines dev environments as code fo...",
+      "timestamp": 1783721804.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55882 - Tilt: Unauthenticated pprof debug endpoints on the Tilt HUD server",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55882",
+      "summary": "CVE ID :CVE-2026-55882\n  \n  Published : July 10, 2026, 10:16 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Tilt defines dev environments as code fo...",
+      "timestamp": 1783721804.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55852 - Frappe: TarSlip RCE in Package Import",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55852",
+      "summary": "CVE ID :CVE-2026-55852\n  \n  Published : July 10, 2026, 10:16 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Frappe is a full-stack web application f...",
+      "timestamp": 1783721803.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54736 - Phalcon: Non-constant-time HMAC verification in `Encryption\\Crypt::decrypt` (timing side-channel)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54736",
+      "summary": "CVE ID :CVE-2026-54736\n  \n  Published : July 10, 2026, 10:16 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Phalcon is a high-performance, full-stac...",
+      "timestamp": 1783721802.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "New U-Boot flaws could enable stealthy firmware attacks",
       "link": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
@@ -65,86 +145,6 @@
       "timestamp": 1783720742.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-58499 - Path traversal in EverOS /api/v1/memory/add via unvalidated sender_id",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58499",
-      "summary": "CVE ID :CVE-2026-58499\n  \n  Published : July 10, 2026, 9:17 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :EverOS is a memory runtime for agents. Prio...",
-      "timestamp": 1783718220.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57807 - WordPress OAuth Single Sign On - SSO (OAuth Client) plugin <= 38.5.8 - Broken Authentication vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57807",
-      "summary": "CVE ID :CVE-2026-57807\n  \n  Published : July 10, 2026, 9:16 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :Authentication Bypass Using an Alternate Pa...",
-      "timestamp": 1783718219.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57219 - RabbitMQ: Unauthenticated disclosure of OAuth client credentials via an HTTP API endpoint with certain less common OAuth 2 configurations",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57219",
-      "summary": "CVE ID :CVE-2026-57219\n  \n  Published : July 10, 2026, 9:16 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :RabbitMQ is a messaging and streaming broke...",
-      "timestamp": 1783718219.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55879 - OpenReplay: Unauthenticated stored XSS leads to dashboard account takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55879",
-      "summary": "CVE ID :CVE-2026-55879\n  \n  Published : July 10, 2026, 9:16 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :OpenReplay is a self-hosted session replay ...",
-      "timestamp": 1783718217.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55665 - DOM-based XSS in Grist via unsanitized links, enabling privilege escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55665",
-      "summary": "CVE ID :CVE-2026-55665\n  \n  Published : July 10, 2026, 9:16 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :Grist is spreadsheet software using Python ...",
-      "timestamp": 1783718216.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12761 - miniOrange Social Login and Register (Discord, Google, Twitter, LinkedIn) <= 7.7.0 - Unauthenticated Authentication Bypass to Administrator Account Takeover via Profile Completion OTP Flow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12761",
-      "summary": "CVE ID :CVE-2026-12761\n  \n  Published : July 10, 2026, 9:16 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :The miniOrange Social Login and Register (D...",
-      "timestamp": 1783718213.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57850 - RustDesk before 1.4.9 Missing Session Scope Enforcement Allows Out-of-Scope Control Message Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57850",
-      "summary": "CVE ID :CVE-2026-57850\n  \n  Published : July 10, 2026, 8:16 p.m. | 2\u00a0hours, 7\u00a0minutes ago\n  \n  Description :RustDesk before 1.4.9 does not enforce a s...",
-      "timestamp": 1783714608.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57156 - FreeRDP: Integer overflow leading to heap buffer overflow in Orders Delta Points parsing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57156",
-      "summary": "CVE ID :CVE-2026-57156\n  \n  Published : July 10, 2026, 8:16 p.m. | 2\u00a0hours, 7\u00a0minutes ago\n  \n  Description :FreeRDP is a free implementation of the Re...",
-      "timestamp": 1783714608.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55789 - Logto: SAML IdP injects user-controlled profile attributes raw into signed assertions, allowing privilege escalation at relying Service Providers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55789",
-      "summary": "CVE ID :CVE-2026-55789\n  \n  Published : July 10, 2026, 8:16 p.m. | 2\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Logto is the modern, open-source auth infr...",
-      "timestamp": 1783714607.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55377 - Logto: Account Center MFA management step-up bypass via WebAuthn registration verification",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55377",
-      "summary": "CVE ID :CVE-2026-55377\n  \n  Published : July 10, 2026, 8:16 p.m. | 2\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Logto is the modern, open-source auth infr...",
-      "timestamp": 1783714606.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
@@ -363,5 +363,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783726690.3507442
+  "last_updated": 1783731998.9011095
 }
