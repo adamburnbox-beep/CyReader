@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,49 +52,97 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-15484 - TRENDnet TEW-821DAP ssi tools_nslookup sub_41EC14 buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15484",
-      "summary": "CVE ID :CVE-2026-15484\n  \n  Published : July 12, 2026, 7:16 a.m. | 4\u00a0hours, 47\u00a0minutes ago\n  \n  Description :A vulnerability was detected in TRENDnet ...",
-      "timestamp": 1783840585.0,
+      "title": "CVE-2026-58596 - Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58596",
+      "summary": "CVE ID :CVE-2026-58596\n  \n  Published : July 12, 2026, 3:22 p.m. | 48\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.3 | HIGH\n  \n  Visit the link...",
+      "timestamp": 1783869779.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-15483 - TRENDnet TEW-821DAP ssi tools_nslookup sub_41EC14 buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15483",
-      "summary": "CVE ID :CVE-2026-15483\n  \n  Published : July 12, 2026, 7:16 a.m. | 4\u00a0hours, 47\u00a0minutes ago\n  \n  Description :A security vulnerability has been detecte...",
-      "timestamp": 1783840584.0,
+      "title": "RedHook Android malware now uses Wireless ADB for shell access",
+      "link": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
+      "summary": "A new version of the RedHook Android malware abuses the Android Wireless Debugging (Wireless ADB) mechanism in a novel way to gain shell-level privile...",
+      "timestamp": 1783866452.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-61876 - LuCI DHCPv6 Lease Hostname Stored Cross-Site Scripting",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61876",
+      "summary": "CVE ID :CVE-2026-61876\n  \n  Published : July 12, 2026, 12:16 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :LuCI versions fail to properly encode DH...",
+      "timestamp": 1783858606.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-15481 - Trendnet TEW-635BRM IPoA WAN Connection Setup rc ipoa_test command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15481",
-      "summary": "CVE ID :CVE-2026-15481\n  \n  Published : July 12, 2026, 6:16 a.m. | 5\u00a0hours, 47\u00a0minutes ago\n  \n  Description :A security flaw has been discovered in Tr...",
-      "timestamp": 1783837002.0,
+      "title": "CVE-2026-61875 - luci-app-upnp Stored XSS via UPnP Port Mapping Description",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61875",
+      "summary": "CVE ID :CVE-2026-61875\n  \n  Published : July 12, 2026, 12:16 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :luci-app-upnp contains a stored cross-si...",
+      "timestamp": 1783858606.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-15480 - Trendnet TEW-635BRM Web Service rc start_httpd stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15480",
-      "summary": "CVE ID :CVE-2026-15480\n  \n  Published : July 12, 2026, 6:16 a.m. | 5\u00a0hours, 47\u00a0minutes ago\n  \n  Description :A vulnerability was identified in Trendne...",
-      "timestamp": 1783837002.0,
+      "title": "CVE-2026-59260 - OpenWrt luci-app-samba4 read ACL remote code execution via smbd",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59260",
+      "summary": "CVE ID :CVE-2026-59260\n  \n  Published : July 12, 2026, 12:16 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :OpenWrt luci-app-samba4 read ACL grants ...",
+      "timestamp": 1783858605.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-58281 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58281",
-      "summary": "CVE ID :CVE-2026-58281\n  \n  Published : July 11, 2026, 9:16 p.m. | 14\u00a0hours, 47\u00a0minutes ago\n  \n  Description :Deserialization of untrusted data in Mic...",
-      "timestamp": 1783804583.0,
+      "title": "CVE-2026-56313 - Capgo - Cross-Organization Account Disruption via SSO Prelink Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56313",
+      "summary": "CVE ID :CVE-2026-56313\n  \n  Published : July 12, 2026, 12:16 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains a cross-o...",
+      "timestamp": 1783858605.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56308 - Capgo - Insufficient Authentication in Email Change Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56308",
+      "summary": "CVE ID :CVE-2026-56308\n  \n  Published : July 12, 2026, 12:16 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 allows email addre...",
+      "timestamp": 1783858605.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56271 - Flowise - Weak Default JWT Secrets in Authentication Middleware",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56271",
+      "summary": "CVE ID :CVE-2026-56271\n  \n  Published : July 12, 2026, 12:16 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Flowise before 3.1.0 (affected versions ...",
+      "timestamp": 1783858605.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56260 - Crawl4AI - Arbitrary File Write via output_path Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56260",
+      "summary": "CVE ID :CVE-2026-56260\n  \n  Published : July 12, 2026, 12:16 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Crawl4AI before 0.8.7 contains an arbitr...",
+      "timestamp": 1783858605.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56259 - Crawl4AI - LLM Credential Exfiltration via base_url and Environment Variable Resolution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56259",
+      "summary": "CVE ID :CVE-2026-56259\n  \n  Published : July 12, 2026, 12:16 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Crawl4AI before 0.8.8 contains credentia...",
+      "timestamp": 1783858605.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56241 - Capgo - RBAC Demotion Privilege Retention via Stale org_users.user_right",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56241",
+      "summary": "CVE ID :CVE-2026-56241\n  \n  Published : July 12, 2026, 12:16 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains a privile...",
+      "timestamp": 1783858604.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -105,46 +153,6 @@
       "timestamp": 1783779503.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-61447 - PraisonAI before 1.6.78 Remote Code Execution via CodeAgent",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61447",
-      "summary": "CVE ID :CVE-2026-61447\n  \n  Published : July 11, 2026, 2:16 p.m. | 21\u00a0hours, 47\u00a0minutes ago\n  \n  Description :PraisonAI before 1.6.78 contains a remot...",
-      "timestamp": 1783779383.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61445 - PraisonAI before 4.6.78 Arbitrary File Write and Command Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61445",
-      "summary": "CVE ID :CVE-2026-61445\n  \n  Published : July 11, 2026, 2:16 p.m. | 21\u00a0hours, 47\u00a0minutes ago\n  \n  Description :PraisonAI before 4.6.78 contains arbitra...",
-      "timestamp": 1783779383.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61429 - PraisonAI before 1.6.78 SSRF via Crawl4AI Chromium backend",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61429",
-      "summary": "CVE ID :CVE-2026-61429\n  \n  Published : July 11, 2026, 2:16 p.m. | 21\u00a0hours, 47\u00a0minutes ago\n  \n  Description :PraisonAI versions before 1.6.78 contain...",
-      "timestamp": 1783779382.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61426 - PraisonAI before 1.7.3 Unauthenticated Agent Access via Insecure Defaults",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61426",
-      "summary": "CVE ID :CVE-2026-61426\n  \n  Published : July 11, 2026, 2:16 p.m. | 21\u00a0hours, 47\u00a0minutes ago\n  \n  Description :PraisonAI before 1.7.3 contains an insec...",
-      "timestamp": 1783779382.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-60090 - PraisonAI before 4.6.78 SQL/CQL Injection via vector dimension",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60090",
-      "summary": "CVE ID :CVE-2026-60090\n  \n  Published : July 11, 2026, 2:16 p.m. | 21\u00a0hours, 47\u00a0minutes ago\n  \n  Description :PraisonAI before 4.6.78 fails to validat...",
-      "timestamp": 1783779382.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
@@ -211,14 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "Zimbra urges customers to patch critical web client XSS flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
-      "summary": "The Zimbra security team urged customers to patch a critical vulnerability affecting the Classic Web Client used to access the Zimbra Collaboration su...",
-      "timestamp": 1783684058.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0279 PAN-OS: Multiple Cross-Site Scripting (XSS) Vulnerabilities  (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0279",
       "summary": "",
@@ -227,8 +227,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -243,8 +243,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -259,8 +259,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -269,22 +285,6 @@
     {
       "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0010 Chromium and Prisma Browser: Monthly Vulnerability Update (July 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0010",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -363,5 +363,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783864364.7393496
+  "last_updated": 1783872719.0686862
 }
