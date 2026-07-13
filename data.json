@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,76 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CISA warns of actively exploited RCE flaws in Joomla extensions",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are exploiting vulnerabilities in the iCagenda and Balbooa ...",
+      "timestamp": 1783956016.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Lessons Learned from CISA\u2019s Recent GitHub Leak",
+      "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal ...",
+      "timestamp": 1783955008.0,
+      "source": "Krebs on Security",
+      "vendor": "News"
+    },
+    {
+      "title": "Lidl discloses online shop breach after service provider hack",
+      "link": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
+      "summary": "German discount supermarket chain Lidl notified customers in Germany, Belgium, and the Netherlands that attackers stole their personal information in ...",
+      "timestamp": 1783952383.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
+      "link": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
+      "summary": "Learn how attackers abuse Entra ID through a free hands-on Capture the Flag. Varonis created the Breach at the Beach CTF to teach defenders how to inv...",
+      "timestamp": 1783951271.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-6847 - Unauthenticated Remote Code Execution in ThemisNETPanel",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6847",
+      "summary": "CVE ID :CVE-2026-6847\n  \n  Published : July 13, 2026, 1:26 p.m. | 58\u00a0minutes ago\n  \n  Description :Remote Code Execution vulnerability exists in Themi...",
+      "timestamp": 1783949180.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "UK charges suspects linked to Russian Coms call spoofing platform",
+      "link": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
+      "summary": "UK authorities charged five people following a National Crime Agency (NCA) investigation into Russian Coms, a major caller ID spoofing platform used b...",
+      "timestamp": 1783949010.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-61498 - Vitec Flamingo 4.12.2 Unauthenticated OS Command Injection via gen_graphs.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61498",
+      "summary": "CVE ID :CVE-2026-61498\n  \n  Published : July 13, 2026, 1:12 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Vitec Flamingo 4.12.2 contains an unauthen...",
+      "timestamp": 1783948356.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-60121 - Vitec Flamingo 4.12.2 Unauthenticated OS Command Injection via ping.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60121",
+      "summary": "CVE ID :CVE-2026-60121\n  \n  Published : July 13, 2026, 1:11 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Vitec Flamingo 4.12.2 contains an unauthen...",
+      "timestamp": 1783948275.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "EU sanctions Russian GRU military hackers over cyberattacks",
       "link": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
@@ -69,7 +133,7 @@
     {
       "title": "CVE-2026-14934 - Cross-Tenant Repository Takeover via Improper Access Control in BigQuery, Dataform and Colab Enterprise",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14934",
-      "summary": "CVE ID :CVE-2026-14934\n  \n  Published : July 13, 2026, 11:16 a.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :A Missing Authorization vulnerability in t...",
+      "summary": "CVE ID :CVE-2026-14934\n  \n  Published : July 13, 2026, 11:16 a.m. | 3\u00a0hours, 7\u00a0minutes ago\n  \n  Description :A Missing Authorization vulnerability in ...",
       "timestamp": 1783941386.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +141,7 @@
     {
       "title": "CVE-2026-59518 - WordPress Directorist plugin <= 8.8.2 - PHP Object Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59518",
-      "summary": "CVE ID :CVE-2026-59518\n  \n  Published : July 13, 2026, 10:16 a.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnera...",
+      "summary": "CVE ID :CVE-2026-59518\n  \n  Published : July 13, 2026, 10:16 a.m. | 4\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnera...",
       "timestamp": 1783937805.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +149,7 @@
     {
       "title": "CVE-2026-59515 - WordPress AIWU plugin <= 1.5.4 - SQL Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59515",
-      "summary": "CVE ID :CVE-2026-59515\n  \n  Published : July 13, 2026, 10:16 a.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elemen...",
+      "summary": "CVE ID :CVE-2026-59515\n  \n  Published : July 13, 2026, 10:16 a.m. | 4\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elemen...",
       "timestamp": 1783937805.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +157,7 @@
     {
       "title": "CVE-2026-57813 - WordPress MailOptin plugin <= 1.2.77.3 - Privilege Escalation vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57813",
-      "summary": "CVE ID :CVE-2026-57813\n  \n  Published : July 13, 2026, 10:16 a.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Incorrect Privilege Assignment vulnerabil...",
+      "summary": "CVE ID :CVE-2026-57813\n  \n  Published : July 13, 2026, 10:16 a.m. | 4\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Incorrect Privilege Assignment vulnerabil...",
       "timestamp": 1783937805.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +165,7 @@
     {
       "title": "CVE-2026-57811 - WordPress Realtyna Organic IDX plugin plugin <= 5.2.0 - Remote Code Execution (RCE) vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57811",
-      "summary": "CVE ID :CVE-2026-57811\n  \n  Published : July 13, 2026, 10:16 a.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Improper Control of Generation of Code ('...",
+      "summary": "CVE ID :CVE-2026-57811\n  \n  Published : July 13, 2026, 10:16 a.m. | 4\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Improper Control of Generation of Code ('...",
       "timestamp": 1783937805.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +173,7 @@
     {
       "title": "CVE-2026-57810 - WordPress APIExperts Square for WooCommerce plugin <= 4.7.4 - SQL Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57810",
-      "summary": "CVE ID :CVE-2026-57810\n  \n  Published : July 13, 2026, 10:16 a.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elemen...",
+      "summary": "CVE ID :CVE-2026-57810\n  \n  Published : July 13, 2026, 10:16 a.m. | 4\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elemen...",
       "timestamp": 1783937804.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,32 +181,8 @@
     {
       "title": "CVE-2026-57787 - WordPress CWS SVGicons plugin <= 1.5.5 - SQL Injection vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57787",
-      "summary": "CVE ID :CVE-2026-57787\n  \n  Published : July 13, 2026, 10:16 a.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elemen...",
+      "summary": "CVE ID :CVE-2026-57787\n  \n  Published : July 13, 2026, 10:16 a.m. | 4\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elemen...",
       "timestamp": 1783937802.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57786 - WordPress WorkScout-Core plugin <= 1.7.08 - Cross Site Request Forgery (CSRF) to Broken Authentication vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57786",
-      "summary": "CVE ID :CVE-2026-57786\n  \n  Published : July 13, 2026, 10:16 a.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Cross-Site Request Forgery (CSRF) vulnera...",
-      "timestamp": 1783937802.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57772 - WordPress WP Inventory Manager plugin <= 2.4.0 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57772",
-      "summary": "CVE ID :CVE-2026-57772\n  \n  Published : July 13, 2026, 10:16 a.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elemen...",
-      "timestamp": 1783937801.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57771 - WordPress GD Rating System plugin <= 3.7 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57771",
-      "summary": "CVE ID :CVE-2026-57771\n  \n  Published : July 13, 2026, 10:16 a.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elemen...",
-      "timestamp": 1783937801.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -187,38 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
-      "link": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
-      "summary": "A PNG hiding a prompt injection could steal your repo's secrets, researchers demonstrate. The technique, dubbed 'Ghostcommit,' slipped past AI code re...",
-      "timestamp": 1783760637.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New U-Boot flaws could enable stealthy firmware attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
-      "summary": "Six vulnerabilities in the widely used U-Boot bootloader have been discovered that could allow attackers to execute malicious code during device boot,...",
-      "timestamp": 1783720742.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
-      "summary": "A 34-year-old Armenian man has pleaded guilty to hacking U.S. companies and deploying the infamous Ryuk ransomware to encrypt their systems. [...]",
-      "timestamp": 1783705570.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Police suspects Dutch hackers were involved in Odido breach",
-      "link": "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/",
-      "summary": "The Dutch National Police (Politie) says it has found \"strong indications\" that Dutch hackers have been involved in a February breach at the telecommu...",
-      "timestamp": 1783701421.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0279 PAN-OS: Multiple Cross-Site Scripting (XSS) Vulnerabilities  (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0279",
       "summary": "",
@@ -227,32 +235,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -267,14 +251,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
       "summary": "",
@@ -283,8 +259,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0010 Chromium and Prisma Browser: Monthly Vulnerability Update (July 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0010",
+      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -293,6 +285,22 @@
     {
       "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -363,5 +371,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783947974.1557553
+  "last_updated": 1783957934.4340158
 }
