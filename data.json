@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,108 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-13014 - Remote Code Execution vulnerability in \"Suspicious\" application",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13014",
+      "summary": "CVE ID :CVE-2026-13014\n  \n  Published : July 13, 2026, 9:42 a.m. | 42\u00a0minutes ago\n  \n  Description :A vulnerability in\u00a0Thales CERT \"Suspicious\" applic...",
+      "timestamp": 1783935765.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "US and allies warn of Russian critical infrastructure attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
+      "summary": "Cybersecurity agencies from the United States and eight other countries have issued a joint warning that Russian state hackers are targeting vulnerabl...",
+      "timestamp": 1783935143.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-62143 - Server-Side Request Forgery protection bypass in misp-modules html_to_markdown via IPv4-mapped IPv6 addresses",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62143",
+      "summary": "CVE ID :CVE-2026-62143\n  \n  Published : July 13, 2026, 9:16 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :A Server-Side Request Forgery (SSRF) protec...",
+      "timestamp": 1783934184.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15545 - Shibby Tomato apcupsd tomatodata.cgi main out-of-bounds write",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15545",
+      "summary": "CVE ID :CVE-2026-15545\n  \n  Published : July 13, 2026, 9:16 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :A vulnerability was identified in Shibby To...",
+      "timestamp": 1783934184.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14453 - A user with low privileges can inject SSTI templates that can lead to RCE in open-tickets",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14453",
+      "summary": "CVE ID :CVE-2026-14453\n  \n  Published : July 13, 2026, 9:16 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :This vulnerability is a critical Server-Sid...",
+      "timestamp": 1783934183.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-22103 - Command injection in NPC start web endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22103",
+      "summary": "CVE ID :CVE-2026-22103\n  \n  Published : July 13, 2026, 9:11 a.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :The NPC start endpoint on the web server a...",
+      "timestamp": 1783933860.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-22098 - Sensitive information is written to logs",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22098",
+      "summary": "CVE ID :CVE-2026-22098\n  \n  Published : July 13, 2026, 9:10 a.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :Various sensitive information such as pass...",
+      "timestamp": 1783933859.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-22097 - Missing firmware validation allows remote code execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22097",
+      "summary": "CVE ID :CVE-2026-22097\n  \n  Published : July 13, 2026, 9:10 a.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :The firmware update mechanism does not inc...",
+      "timestamp": 1783933859.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-22099 - Missing authentication for Bluetooth communication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22099",
+      "summary": "CVE ID :CVE-2026-22099\n  \n  Published : July 13, 2026, 9:10 a.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :The charging station does not require auth...",
+      "timestamp": 1783933858.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-22102 - Arbitrary file overwrite through certificate update functionality",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22102",
+      "summary": "CVE ID :CVE-2026-22102\n  \n  Published : July 13, 2026, 9:10 a.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :A POST request sent to a specific webserve...",
+      "timestamp": 1783933858.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-22096 - Missing authentication for webserver endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22096",
+      "summary": "CVE ID :CVE-2026-22096\n  \n  Published : July 13, 2026, 9:10 a.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :The webserver running on port 8090 does no...",
+      "timestamp": 1783933857.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "OpenAI temporarily relaxes GPT-5.6 Sol usage limits",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-temporarily-relaxes-gpt-56-sol-usage-limits/",
+      "summary": "OpenAI is temporarily relaxing GPT-5.6 Sol usage\u00a0after demand for the company's most powerful model\u00a0surged over the past 48 hours. [...]",
+      "timestamp": 1783903484.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
@@ -67,92 +163,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-10666 - Stack buffer overflow in `net_ipaddr_parse()` IPv4 address-with-port parsing in `subsys/net/ip/utils.c`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10666",
-      "summary": "CVE ID :CVE-2026-10666\n  \n  Published : July 12, 2026, 5:16 p.m. | 5\u00a0hours, 13\u00a0minutes ago\n  \n  Description :parse_ipv4() in subsys/net/ip/utils.c (re...",
-      "timestamp": 1783876584.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58596 - Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58596",
-      "summary": "CVE ID :CVE-2026-58596\n  \n  Published : July 12, 2026, 4:16 p.m. | 6\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Untrusted pointer dereference in Microsof...",
-      "timestamp": 1783872991.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "RedHook Android malware now uses Wireless ADB for shell access",
       "link": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
       "summary": "A new version of the RedHook Android malware abuses the Android Wireless Debugging (Wireless ADB) mechanism in a novel way to gain shell-level privile...",
       "timestamp": 1783866452.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-61876 - LuCI DHCPv6 Lease Hostname Stored Cross-Site Scripting",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61876",
-      "summary": "CVE ID :CVE-2026-61876\n  \n  Published : July 12, 2026, 12:16 p.m. | 10\u00a0hours, 13\u00a0minutes ago\n  \n  Description :LuCI versions fail to properly encode D...",
-      "timestamp": 1783858606.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61875 - luci-app-upnp Stored XSS via UPnP Port Mapping Description",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61875",
-      "summary": "CVE ID :CVE-2026-61875\n  \n  Published : July 12, 2026, 12:16 p.m. | 10\u00a0hours, 13\u00a0minutes ago\n  \n  Description :luci-app-upnp contains a stored cross-s...",
-      "timestamp": 1783858606.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59260 - OpenWrt luci-app-samba4 read ACL remote code execution via smbd",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59260",
-      "summary": "CVE ID :CVE-2026-59260\n  \n  Published : July 12, 2026, 12:16 p.m. | 10\u00a0hours, 13\u00a0minutes ago\n  \n  Description :OpenWrt luci-app-samba4 read ACL grants...",
-      "timestamp": 1783858605.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56313 - Capgo - Cross-Organization Account Disruption via SSO Prelink Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56313",
-      "summary": "CVE ID :CVE-2026-56313\n  \n  Published : July 12, 2026, 12:16 p.m. | 10\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 contains a cross-...",
-      "timestamp": 1783858605.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56308 - Capgo - Insufficient Authentication in Email Change Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56308",
-      "summary": "CVE ID :CVE-2026-56308\n  \n  Published : July 12, 2026, 12:16 p.m. | 10\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Capgo before 12.128.2 allows email addr...",
-      "timestamp": 1783858605.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56271 - Flowise - Weak Default JWT Secrets in Authentication Middleware",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56271",
-      "summary": "CVE ID :CVE-2026-56271\n  \n  Published : July 12, 2026, 12:16 p.m. | 10\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Flowise before 3.1.0 (affected versions...",
-      "timestamp": 1783858605.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56260 - Crawl4AI - Arbitrary File Write via output_path Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56260",
-      "summary": "CVE ID :CVE-2026-56260\n  \n  Published : July 12, 2026, 12:16 p.m. | 10\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Crawl4AI before 0.8.7 contains an arbit...",
-      "timestamp": 1783858605.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56259 - Crawl4AI - LLM Credential Exfiltration via base_url and Environment Variable Resolution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56259",
-      "summary": "CVE ID :CVE-2026-56259\n  \n  Published : July 12, 2026, 12:16 p.m. | 10\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Crawl4AI before 0.8.8 contains credenti...",
-      "timestamp": 1783858605.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
@@ -203,22 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "Hackers exploit critical auth bypass in Gitea Docker image",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
-      "summary": "Hackers are actively exploiting a critical vulnerability in the official Docker image for the Gitea self-hosted Git service that allows attackers to i...",
-      "timestamp": 1783698518.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Money launderer accused of stealing seized crypto while in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/money-launderer-accused-of-stealing-seized-crypto-while-in-prison/",
-      "summary": "A Bulgarian national has been charged with stealing $290,000 in government-seized cryptocurrency while serving 121 months in prison for helping launde...",
-      "timestamp": 1783697419.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0279 PAN-OS: Multiple Cross-Site Scripting (XSS) Vulnerabilities  (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0279",
       "summary": "",
@@ -235,8 +235,32 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -259,14 +283,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
       "summary": "",
@@ -275,24 +291,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "title": "CVE-2026-0276 Cortex XDR Broker VM: Privilege Escalation (PE) Vulnerability (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0276",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -363,5 +363,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783901327.2389348
+  "last_updated": 1783939491.461131
 }
