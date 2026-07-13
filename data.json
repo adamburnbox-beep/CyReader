@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,60 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 6,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Japan's largest taxi operator shuts systems after cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
+      "summary": "Japan's largest taxi operator, Nihon Kotsu, announced that its systems were compromised in a cyberattack, forcing the company to shut down part of its...",
+      "timestamp": 1783973939.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Hackers backdoor Jscrambler npm package with infostealer malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
+      "summary": "The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloade...",
+      "timestamp": 1783971859.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-6875 - Sandbox Escape in ServiceNow AI Platform",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6875",
+      "summary": "CVE ID :CVE-2026-6875\n  \n  Published : July 13, 2026, 7:17 p.m. | 47\u00a0minutes ago\n  \n  Description :ServiceNow has addressed a remote code execution vu...",
+      "timestamp": 1783970256.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55772 - CedarJava has a type confusion vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55772",
+      "summary": "CVE ID :CVE-2026-55772\n  \n  Published : July 13, 2026, 7:17 p.m. | 48\u00a0minutes ago\n  \n  Description :CedarJava is an open source Java implementation of...",
+      "timestamp": 1783970235.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49972 - Laravel-Mediable < 7.0.0 File Upload RCE via Extension Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49972",
+      "summary": "CVE ID :CVE-2026-49972\n  \n  Published : July 13, 2026, 7:17 p.m. | 48\u00a0minutes ago\n  \n  Description :Laravel-Mediable before 7.0.0 contains a file uplo...",
+      "timestamp": 1783970230.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49970 - Laravel-Mediable < 7.0.0 Path Traversal via File::sanitizePath()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49970",
+      "summary": "CVE ID :CVE-2026-49970\n  \n  Published : July 13, 2026, 7:17 p.m. | 48\u00a0minutes ago\n  \n  Description :Laravel-Mediable before 7.0.0 contains a path trav...",
+      "timestamp": 1783970229.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "New CrashStealer malware poses as Apple crash reporting tool",
       "link": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
@@ -67,17 +115,9 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-6875 - Sandbox Escape in ServiceNow AI Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6875",
-      "summary": "CVE ID :CVE-2026-6875\n  \n  Published : July 13, 2026, 6:17 p.m. | 13\u00a0minutes ago\n  \n  Description :ServiceNow has addressed a remote code execution vu...",
-      "timestamp": 1783966647.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-61500 - Rejetto HFS < 3.2.1 Session Forgery via Predictable Signing Key",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61500",
-      "summary": "CVE ID :CVE-2026-61500\n  \n  Published : July 13, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Rejetto HFS 3.0.0 through 3.2.0 derives its sessio...",
+      "summary": "CVE ID :CVE-2026-61500\n  \n  Published : July 13, 2026, 6:16 p.m. | 1\u00a0hour, 48\u00a0minutes ago\n  \n  Description :Rejetto HFS 3.0.0 through 3.2.0 derives it...",
       "timestamp": 1783966589.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +125,7 @@
     {
       "title": "CVE-2026-61463 - Shiori Authenticated Privilege Escalation via PATCH /api/v1/auth/account",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61463",
-      "summary": "CVE ID :CVE-2026-61463\n  \n  Published : July 13, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Shiori contains a privilege escalation vulnerabili...",
+      "summary": "CVE ID :CVE-2026-61463\n  \n  Published : July 13, 2026, 6:16 p.m. | 1\u00a0hour, 48\u00a0minutes ago\n  \n  Description :Shiori contains a privilege escalation vul...",
       "timestamp": 1783966589.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,24 +133,8 @@
     {
       "title": "CVE-2026-61462 - mcp-gitlab Path Traversal via job_id Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61462",
-      "summary": "CVE ID :CVE-2026-61462\n  \n  Published : July 13, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :mcp-gitlab contains a path traversal vulnerability...",
+      "summary": "CVE ID :CVE-2026-61462\n  \n  Published : July 13, 2026, 6:16 p.m. | 1\u00a0hour, 48\u00a0minutes ago\n  \n  Description :mcp-gitlab contains a path traversal vulne...",
       "timestamp": 1783966589.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49972 - Laravel-Mediable < 7.0.0 File Upload RCE via Extension Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49972",
-      "summary": "CVE ID :CVE-2026-49972\n  \n  Published : July 13, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Laravel-Mediable before 7.0.0 contains a file uplo...",
-      "timestamp": 1783966562.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49970 - Laravel-Mediable < 7.0.0 Path Traversal via File::sanitizePath()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49970",
-      "summary": "CVE ID :CVE-2026-49970\n  \n  Published : July 13, 2026, 6:11 p.m. | 19\u00a0minutes ago\n  \n  Description :Laravel-Mediable before 7.0.0 contains a path trav...",
-      "timestamp": 1783966296.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -141,7 +165,7 @@
     {
       "title": "CVE-2026-6847 - Unauthenticated Remote Code Execution in ThemisNETPanel",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6847",
-      "summary": "CVE ID :CVE-2026-6847\n  \n  Published : July 13, 2026, 2:16 p.m. | 4\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Remote Code Execution vulnerability exists...",
+      "summary": "CVE ID :CVE-2026-6847\n  \n  Published : July 13, 2026, 2:16 p.m. | 5\u00a0hours, 48\u00a0minutes ago\n  \n  Description :Remote Code Execution vulnerability exists...",
       "timestamp": 1783952192.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -149,7 +173,7 @@
     {
       "title": "CVE-2026-61498 - Vitec Flamingo 4.12.2 Unauthenticated OS Command Injection via gen_graphs.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61498",
-      "summary": "CVE ID :CVE-2026-61498\n  \n  Published : July 13, 2026, 2:16 p.m. | 4\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Vitec Flamingo 4.12.2 contains an unauthe...",
+      "summary": "CVE ID :CVE-2026-61498\n  \n  Published : July 13, 2026, 2:16 p.m. | 5\u00a0hours, 48\u00a0minutes ago\n  \n  Description :Vitec Flamingo 4.12.2 contains an unauthe...",
       "timestamp": 1783952192.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -157,7 +181,7 @@
     {
       "title": "CVE-2026-60121 - Vitec Flamingo 4.12.2 Unauthenticated OS Command Injection via ping.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60121",
-      "summary": "CVE ID :CVE-2026-60121\n  \n  Published : July 13, 2026, 2:16 p.m. | 4\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Vitec Flamingo 4.12.2 contains an unauthe...",
+      "summary": "CVE ID :CVE-2026-60121\n  \n  Published : July 13, 2026, 2:16 p.m. | 5\u00a0hours, 48\u00a0minutes ago\n  \n  Description :Vitec Flamingo 4.12.2 contains an unauthe...",
       "timestamp": 1783952192.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -177,14 +201,6 @@
       "timestamp": 1783949010.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-12257 - Remote code execution in Mura Software\u2019s CMS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12257",
-      "summary": "CVE ID :CVE-2026-12257\n  \n  Published : July 13, 2026, 12:16 p.m. | 6\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Versions of Mura CMS prior to 10.0.712 c...",
-      "timestamp": 1783944989.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "EU sanctions Russian GRU military hackers over cyberattacks",
@@ -211,22 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
-      "summary": "Anthropic has just extended access to Claude Fable 5 for paid subscribers until July 19, giving you another week to keep using the most powerful model...",
-      "timestamp": 1783885152.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "RedHook Android malware now uses Wireless ADB for shell access",
-      "link": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
-      "summary": "A new version of the RedHook Android malware abuses the Android Wireless Debugging (Wireless ADB) mechanism in a novel way to gain shell-level privile...",
-      "timestamp": 1783866452.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0279 PAN-OS: Multiple Cross-Site Scripting (XSS) Vulnerabilities  (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0279",
       "summary": "",
@@ -235,8 +235,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -251,8 +251,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -267,8 +267,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -277,14 +285,6 @@
     {
       "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -371,5 +371,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783971960.1885166
+  "last_updated": 1783977191.7298534
 }
