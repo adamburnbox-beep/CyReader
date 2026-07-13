@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,68 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "New CrashStealer malware poses as Apple crash reporting tool",
+      "link": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
+      "summary": "A new macOS information-stealing malware called CrashStealer pretends to be Apple's crash-reporting tool to steal credentials, keychain data, and cryp...",
+      "timestamp": 1783969442.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-6875 - Sandbox Escape in ServiceNow AI Platform",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6875",
+      "summary": "CVE ID :CVE-2026-6875\n  \n  Published : July 13, 2026, 6:17 p.m. | 13\u00a0minutes ago\n  \n  Description :ServiceNow has addressed a remote code execution vu...",
+      "timestamp": 1783966647.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-61500 - Rejetto HFS < 3.2.1 Session Forgery via Predictable Signing Key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61500",
+      "summary": "CVE ID :CVE-2026-61500\n  \n  Published : July 13, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Rejetto HFS 3.0.0 through 3.2.0 derives its sessio...",
+      "timestamp": 1783966589.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-61463 - Shiori Authenticated Privilege Escalation via PATCH /api/v1/auth/account",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61463",
+      "summary": "CVE ID :CVE-2026-61463\n  \n  Published : July 13, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Shiori contains a privilege escalation vulnerabili...",
+      "timestamp": 1783966589.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-61462 - mcp-gitlab Path Traversal via job_id Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61462",
+      "summary": "CVE ID :CVE-2026-61462\n  \n  Published : July 13, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :mcp-gitlab contains a path traversal vulnerability...",
+      "timestamp": 1783966589.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49972 - Laravel-Mediable < 7.0.0 File Upload RCE via Extension Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49972",
+      "summary": "CVE ID :CVE-2026-49972\n  \n  Published : July 13, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Laravel-Mediable before 7.0.0 contains a file uplo...",
+      "timestamp": 1783966562.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49970 - Laravel-Mediable < 7.0.0 Path Traversal via File::sanitizePath()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49970",
+      "summary": "CVE ID :CVE-2026-49970\n  \n  Published : July 13, 2026, 6:11 p.m. | 19\u00a0minutes ago\n  \n  Description :Laravel-Mediable before 7.0.0 contains a path trav...",
+      "timestamp": 1783966296.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "CISA warns of actively exploited RCE flaws in Joomla extensions",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
@@ -85,7 +141,7 @@
     {
       "title": "CVE-2026-6847 - Unauthenticated Remote Code Execution in ThemisNETPanel",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6847",
-      "summary": "CVE ID :CVE-2026-6847\n  \n  Published : July 13, 2026, 2:16 p.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Remote Code Execution vulnerability exists...",
+      "summary": "CVE ID :CVE-2026-6847\n  \n  Published : July 13, 2026, 2:16 p.m. | 4\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Remote Code Execution vulnerability exists...",
       "timestamp": 1783952192.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +149,7 @@
     {
       "title": "CVE-2026-61498 - Vitec Flamingo 4.12.2 Unauthenticated OS Command Injection via gen_graphs.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61498",
-      "summary": "CVE ID :CVE-2026-61498\n  \n  Published : July 13, 2026, 2:16 p.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Vitec Flamingo 4.12.2 contains an unauthe...",
+      "summary": "CVE ID :CVE-2026-61498\n  \n  Published : July 13, 2026, 2:16 p.m. | 4\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Vitec Flamingo 4.12.2 contains an unauthe...",
       "timestamp": 1783952192.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +157,7 @@
     {
       "title": "CVE-2026-60121 - Vitec Flamingo 4.12.2 Unauthenticated OS Command Injection via ping.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60121",
-      "summary": "CVE ID :CVE-2026-60121\n  \n  Published : July 13, 2026, 2:16 p.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Vitec Flamingo 4.12.2 contains an unauthe...",
+      "summary": "CVE ID :CVE-2026-60121\n  \n  Published : July 13, 2026, 2:16 p.m. | 4\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Vitec Flamingo 4.12.2 contains an unauthe...",
       "timestamp": 1783952192.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +181,7 @@
     {
       "title": "CVE-2026-12257 - Remote code execution in Mura Software\u2019s CMS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12257",
-      "summary": "CVE ID :CVE-2026-12257\n  \n  Published : July 13, 2026, 12:16 p.m. | 4\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Versions of Mura CMS prior to 10.0.712 c...",
+      "summary": "CVE ID :CVE-2026-12257\n  \n  Published : July 13, 2026, 12:16 p.m. | 6\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Versions of Mura CMS prior to 10.0.712 c...",
       "timestamp": 1783944989.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -137,54 +193,6 @@
       "timestamp": 1783941545.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-14934 - Cross-Tenant Repository Takeover via Improper Access Control in BigQuery, Dataform and Colab Enterprise",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14934",
-      "summary": "CVE ID :CVE-2026-14934\n  \n  Published : July 13, 2026, 11:16 a.m. | 5\u00a0hours, 14\u00a0minutes ago\n  \n  Description :A Missing Authorization vulnerability in...",
-      "timestamp": 1783941386.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59518 - WordPress Directorist plugin <= 8.8.2 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59518",
-      "summary": "CVE ID :CVE-2026-59518\n  \n  Published : July 13, 2026, 10:16 a.m. | 6\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulner...",
-      "timestamp": 1783937805.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59515 - WordPress AIWU plugin <= 1.5.4 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59515",
-      "summary": "CVE ID :CVE-2026-59515\n  \n  Published : July 13, 2026, 10:16 a.m. | 6\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Eleme...",
-      "timestamp": 1783937805.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57813 - WordPress MailOptin plugin <= 1.2.77.3 - Privilege Escalation vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57813",
-      "summary": "CVE ID :CVE-2026-57813\n  \n  Published : July 13, 2026, 10:16 a.m. | 6\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Incorrect Privilege Assignment vulnerabi...",
-      "timestamp": 1783937805.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57811 - WordPress Realtyna Organic IDX plugin plugin <= 5.2.0 - Remote Code Execution (RCE) vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57811",
-      "summary": "CVE ID :CVE-2026-57811\n  \n  Published : July 13, 2026, 10:16 a.m. | 6\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Improper Control of Generation of Code (...",
-      "timestamp": 1783937805.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57810 - WordPress APIExperts Square for WooCommerce plugin <= 4.7.4 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57810",
-      "summary": "CVE ID :CVE-2026-57810\n  \n  Published : July 13, 2026, 10:16 a.m. | 6\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Eleme...",
-      "timestamp": 1783937804.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "US and allies warn of Russian critical infrastructure attacks",
@@ -219,14 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
-      "link": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
-      "summary": "The Australian Cyber Security Centre (ACSC) issued an alert about a global exploitation campaign targeting vulnerable content management systems (CMS)...",
-      "timestamp": 1783779503.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0279 PAN-OS: Multiple Cross-Site Scripting (XSS) Vulnerabilities  (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0279",
       "summary": "",
@@ -235,8 +235,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -267,8 +267,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -277,22 +293,6 @@
     {
       "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0010 Chromium and Prisma Browser: Monthly Vulnerability Update (July 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0010",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -371,5 +371,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783966005.0677705
+  "last_updated": 1783971960.1885166
 }
