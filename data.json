@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,89 +52,89 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-62328 - 9Router 0.4.41 - Unauthenticated Information Disclosure via API Usage Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62328",
-      "summary": "CVE ID :CVE-2026-62328\n  \n  Published : July 13, 2026, 9:37 p.m. | 47\u00a0minutes ago\n  \n  Description :9Router through version 0.4.41 contain an unauthen...",
-      "timestamp": 1783978672.0,
+      "title": "CVE-2026-44761 - Insecure Sample Credentials in SAP Commerce Cloud",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44761",
+      "summary": "CVE ID :CVE-2026-44761\n  \n  Published : July 14, 2026, 1:16 a.m. | 49\u00a0minutes ago\n  \n  Description :SAP Commerce Cloud could retain a sample OAuth2 cl...",
+      "timestamp": 1783991778.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-44752 - Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver Application Server Java(Configuration Wizard)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44752",
+      "summary": "CVE ID :CVE-2026-44752\n  \n  Published : July 14, 2026, 1:16 a.m. | 49\u00a0minutes ago\n  \n  Description :SAP NetWeaver Application Server Java allows an un...",
+      "timestamp": 1783991777.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-44747 - Memory Corruption vulnerability in SAP NetWeaver Application Server ABAP",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44747",
+      "summary": "CVE ID :CVE-2026-44747\n  \n  Published : July 14, 2026, 1:16 a.m. | 49\u00a0minutes ago\n  \n  Description :SAP NetWeaver Application Server ABAP allows an au...",
+      "timestamp": 1783991777.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-44745 - Open Redirect vulnerability in SAP Approuter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44745",
+      "summary": "CVE ID :CVE-2026-44745\n  \n  Published : July 14, 2026, 1:16 a.m. | 49\u00a0minutes ago\n  \n  Description :SAP Approuter does not properly validate incoming ...",
+      "timestamp": 1783991777.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-27690 - HTTP Request Smuggling in SAP Approuter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27690",
+      "summary": "CVE ID :CVE-2026-27690\n  \n  Published : July 14, 2026, 1:16 a.m. | 49\u00a0minutes ago\n  \n  Description :Due to an HTTP Request Smuggling vulnerability in ...",
+      "timestamp": 1783991777.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-0487 - DLL Hijacking vulnerability in SAProuter on Microsoft Windows",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-0487",
+      "summary": "CVE ID :CVE-2026-0487\n  \n  Published : July 14, 2026, 1:16 a.m. | 49\u00a0minutes ago\n  \n  Description :SAProuter on Microsoft Windows allows an unauthenti...",
+      "timestamp": 1783991776.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58486 - HedgeDoc: Denial-of-service via YAML alias expansion in note frontmatter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58486",
+      "summary": "CVE ID :CVE-2026-58486\n  \n  Published : July 13, 2026, 11:16 p.m. | 2\u00a0hours, 48\u00a0minutes ago\n  \n  Description :HedgeDoc is an open source, real-time, c...",
+      "timestamp": 1783984607.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57856 - Cockpit CMS Path Traversal via Bucket Name in Bucket File Storage API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57856",
+      "summary": "CVE ID :CVE-2026-57856\n  \n  Published : July 13, 2026, 11:16 p.m. | 2\u00a0hours, 48\u00a0minutes ago\n  \n  Description :Cockpit CMS contains a path traversal vu...",
+      "timestamp": 1783984606.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57855 - Cockpit CMS Missing Authorization in Bucket File Storage API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57855",
+      "summary": "CVE ID :CVE-2026-57855\n  \n  Published : July 13, 2026, 11:16 p.m. | 2\u00a0hours, 48\u00a0minutes ago\n  \n  Description :Cockpit CMS contains a missing authoriza...",
+      "timestamp": 1783984606.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-62327 - 9Router 0.4.41 - Unauthenticated API Key Exposure via /api/usage/stats",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62327",
-      "summary": "CVE ID :CVE-2026-62327\n  \n  Published : July 13, 2026, 9:37 p.m. | 47\u00a0minutes ago\n  \n  Description :9Router through version 0.4.41 contain an unauthen...",
-      "timestamp": 1783978671.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62185 - Argo CD Helm Chart < 10.0.0 Missing Network Policy RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62185",
-      "summary": "CVE ID :CVE-2026-62185\n  \n  Published : July 13, 2026, 9:31 p.m. | 54\u00a0minutes ago\n  \n  Description :Argo CD Helm Chart before 10.0.0 fails to install ...",
-      "timestamp": 1783978283.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62200 - OpenClaw < 2026.6.6 Authentication Bypass via Git ext transport",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62200",
-      "summary": "CVE ID :CVE-2026-62200\n  \n  Published : July 13, 2026, 9:30 p.m. | 55\u00a0minutes ago\n  \n  Description :OpenClaw versions before 2026.6.1 contain a flaw i...",
-      "timestamp": 1783978220.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62199 - OpenClaw < 2026.6.6 Authentication Bypass via Environment Filtering",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62199",
-      "summary": "CVE ID :CVE-2026-62199\n  \n  Published : July 13, 2026, 9:30 p.m. | 55\u00a0minutes ago\n  \n  Description :OpenClaw versions before 2026.6.6 contain a flaw i...",
-      "timestamp": 1783978219.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62197 - OpenClaw < 2026.6.6 Policy Bypass via CDP Discovery",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62197",
-      "summary": "CVE ID :CVE-2026-62197\n  \n  Published : July 13, 2026, 9:30 p.m. | 55\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.6.6 contains a policy bypass ...",
-      "timestamp": 1783978218.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62196 - OpenClaw 2026.3.22 < 2026.6.6 Authorization Bypass via WhatsApp Group IDs",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62196",
-      "summary": "CVE ID :CVE-2026-62196\n  \n  Published : July 13, 2026, 9:30 p.m. | 55\u00a0minutes ago\n  \n  Description :OpenClaw versions 2026.3.22 before 2026.6.6 contai...",
-      "timestamp": 1783978217.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62195 - OpenClaw 2026.5.20 < 2026.6.6 Authorization Bypass via MCP loopback",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62195",
-      "summary": "CVE ID :CVE-2026-62195\n  \n  Published : July 13, 2026, 9:30 p.m. | 55\u00a0minutes ago\n  \n  Description :OpenClaw versions 2026.5.20 before 2026.6.6 contai...",
-      "timestamp": 1783978216.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62194 - OpenClaw 2026.5.20 < 2026.6.9 Privilege Escalation via Plugin Install",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62194",
-      "summary": "CVE ID :CVE-2026-62194\n  \n  Published : July 13, 2026, 9:30 p.m. | 55\u00a0minutes ago\n  \n  Description :OpenClaw versions 2026.5.20 before 2026.6.9 contai...",
-      "timestamp": 1783978216.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62192 - OpenClaw 2026.6.6 < 2026.6.9 Authorization Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62192",
-      "summary": "CVE ID :CVE-2026-62192\n  \n  Published : July 13, 2026, 9:30 p.m. | 55\u00a0minutes ago\n  \n  Description :OpenClaw versions 2026.6.6 before 2026.6.9 contain...",
-      "timestamp": 1783978214.0,
+      "summary": "CVE ID :CVE-2026-62327\n  \n  Published : July 13, 2026, 10:16 p.m. | 3\u00a0hours, 48\u00a0minutes ago\n  \n  Description :9Router through version 0.4.41 contain a...",
+      "timestamp": 1783981012.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -243,8 +243,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
+      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -259,16 +259,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -361,15 +361,7 @@
       "timestamp": 1782921667.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Unified Communications Manager Server-Side Request Forgery Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-ssrf-cXPnHcW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Manager%20Server-Side%20Request%20Forgery%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM S...",
-      "timestamp": 1782918608.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1783987542.3715804
+  "last_updated": 1783999652.397797
 }
