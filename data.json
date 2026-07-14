@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
+      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
+      "summary": "SonicWall warns that threat actors have been exploiting two SMA1000 vulnerabilities, tracked as\u00a0CVE-2026-15409 and CVE-2026-15410, in zero-day attacks...",
+      "timestamp": 1784064204.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Spanish Police take down \u20ac140 million cyber fraud ring, arrest four",
       "link": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
@@ -69,7 +77,7 @@
     {
       "title": "CVE-2026-15738 - Cross-namespace traffic interception via incorrect route precedence ordering in AWS Load Balancer Controller",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15738",
-      "summary": "CVE ID :CVE-2026-15738\n  \n  Published : July 14, 2026, 8:19 p.m. | 32\u00a0minutes ago\n  \n  Description :Incorrect behavior order in the Gateway API listen...",
+      "summary": "CVE ID :CVE-2026-15738\n  \n  Published : July 14, 2026, 8:19 p.m. | 11\u00a0minutes ago\n  \n  Description :Incorrect behavior order in the Gateway API listen...",
       "timestamp": 1784060363.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +85,7 @@
     {
       "title": "CVE-2026-53633 - Vitest: Exposed Browser Mode API Can Proxy CDP and Overwrite Config Files, Leading to RCE",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53633",
-      "summary": "CVE ID :CVE-2026-53633\n  \n  Published : July 14, 2026, 8:17 p.m. | 33\u00a0minutes ago\n  \n  Description :Vitest is a testing framework powered by Vite. Fro...",
+      "summary": "CVE ID :CVE-2026-53633\n  \n  Published : July 14, 2026, 8:17 p.m. | 13\u00a0minutes ago\n  \n  Description :Vitest is a testing framework powered by Vite. Fro...",
       "timestamp": 1784060262.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +93,7 @@
     {
       "title": "CVE-2026-50528 - .NET Security Feature Bypass Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50528",
-      "summary": "CVE ID :CVE-2026-50528\n  \n  Published : July 14, 2026, 8:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Incorrect authorization in .NET allows an unauthor...",
+      "summary": "CVE ID :CVE-2026-50528\n  \n  Published : July 14, 2026, 8:17 p.m. | 13\u00a0minutes ago\n  \n  Description :Incorrect authorization in .NET allows an unauthor...",
       "timestamp": 1784060257.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +101,7 @@
     {
       "title": "CVE-2026-48489 - Symfony: Security Firewall Bypass via failure_forward Subrequest: Unauthenticated Access to access_control-Protected GET Routes",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48489",
-      "summary": "CVE ID :CVE-2026-48489\n  \n  Published : July 14, 2026, 8:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Symfony is a PHP framework for web and console app...",
+      "summary": "CVE ID :CVE-2026-48489\n  \n  Published : July 14, 2026, 8:17 p.m. | 14\u00a0minutes ago\n  \n  Description :Symfony is a PHP framework for web and console app...",
       "timestamp": 1784060229.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +109,7 @@
     {
       "title": "CVE-2026-48359 - Adobe Experience Manager | Improper Restriction of XML External Entity Reference ('XXE') (CWE-611)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48359",
-      "summary": "CVE ID :CVE-2026-48359\n  \n  Published : July 14, 2026, 8:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Adobe Experience Manager is affected by an Imprope...",
+      "summary": "CVE ID :CVE-2026-48359\n  \n  Published : July 14, 2026, 8:17 p.m. | 14\u00a0minutes ago\n  \n  Description :Adobe Experience Manager is affected by an Imprope...",
       "timestamp": 1784060228.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +117,7 @@
     {
       "title": "CVE-2026-48358 - Adobe Commerce | Improper Encoding or Escaping of Output (CWE-116)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48358",
-      "summary": "CVE ID :CVE-2026-48358\n  \n  Published : July 14, 2026, 8:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Adobe Commerce is affected by an Improper Encoding...",
+      "summary": "CVE ID :CVE-2026-48358\n  \n  Published : July 14, 2026, 8:17 p.m. | 14\u00a0minutes ago\n  \n  Description :Adobe Commerce is affected by an Improper Encoding...",
       "timestamp": 1784060228.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +125,7 @@
     {
       "title": "CVE-2026-48356 - Adobe Commerce | Unrestricted Upload of File with Dangerous Type (CWE-434)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48356",
-      "summary": "CVE ID :CVE-2026-48356\n  \n  Published : July 14, 2026, 8:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Adobe Commerce is affected by an Unrestricted Uplo...",
+      "summary": "CVE ID :CVE-2026-48356\n  \n  Published : July 14, 2026, 8:17 p.m. | 14\u00a0minutes ago\n  \n  Description :Adobe Commerce is affected by an Unrestricted Uplo...",
       "timestamp": 1784060228.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +133,7 @@
     {
       "title": "CVE-2026-48350 - Animate | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (CWE-22)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48350",
-      "summary": "CVE ID :CVE-2026-48350\n  \n  Published : July 14, 2026, 8:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Animate is affected by an Improper Limitation of a...",
+      "summary": "CVE ID :CVE-2026-48350\n  \n  Published : July 14, 2026, 8:17 p.m. | 14\u00a0minutes ago\n  \n  Description :Animate is affected by an Improper Limitation of a...",
       "timestamp": 1784060228.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,7 +141,7 @@
     {
       "title": "CVE-2026-48349 - Animate | Incorrect Authorization (CWE-863)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48349",
-      "summary": "CVE ID :CVE-2026-48349\n  \n  Published : July 14, 2026, 8:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Animate is affected by an Incorrect Authorization ...",
+      "summary": "CVE ID :CVE-2026-48349\n  \n  Published : July 14, 2026, 8:17 p.m. | 14\u00a0minutes ago\n  \n  Description :Animate is affected by an Incorrect Authorization ...",
       "timestamp": 1784060228.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -141,7 +149,7 @@
     {
       "title": "CVE-2026-48345 - Animate | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') (CWE-78)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48345",
-      "summary": "CVE ID :CVE-2026-48345\n  \n  Published : July 14, 2026, 8:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Animate is affected by an Improper Neutralization ...",
+      "summary": "CVE ID :CVE-2026-48345\n  \n  Published : July 14, 2026, 8:17 p.m. | 14\u00a0minutes ago\n  \n  Description :Animate is affected by an Improper Neutralization ...",
       "timestamp": 1784060227.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -227,14 +235,6 @@
       "vendor": "News"
     },
     {
-      "title": "New phishing kits target Microsoft 365 accounts, evade MFA",
-      "link": "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
-      "summary": "Two new phishing kits, Jalisco and OmegaLord, have been discovered in attacks targeting Microsoft 365 accounts, using techniques that defeat multi-fac...",
-      "timestamp": 1784033340.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Lessons Learned from CISA\u2019s Recent GitHub Leak",
       "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal ...",
@@ -251,8 +251,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -267,8 +267,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -283,8 +283,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -299,8 +299,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -315,8 +315,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -371,5 +371,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784063635.5358005
+  "last_updated": 1784067271.631813
 }
