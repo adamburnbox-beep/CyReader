@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,84 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-59733 - rclone `serve restic --private-repos` authorization bypass: `..` in the URL path lets an authenticated user read, overwrite and delete other users' repositories",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59733",
+      "summary": "CVE ID :CVE-2026-59733\n  \n  Published : July 14, 2026, 10:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Rclone is a command-line program to sync files an...",
+      "timestamp": 1784067450.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50130 - Pi-hole: Local privilege escalation from `pihole` user to root via `/etc/pihole/logrotate`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50130",
+      "summary": "CVE ID :CVE-2026-50130\n  \n  Published : July 14, 2026, 10:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Pi-hole is a DNS sinkhole that protects devices f...",
+      "timestamp": 1784067433.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48334 - Illustrator | Improper Input Validation (CWE-20)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48334",
+      "summary": "CVE ID :CVE-2026-48334\n  \n  Published : July 14, 2026, 10:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Illustrator is affected by an Improper Input Vali...",
+      "timestamp": 1784067421.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48290 - CAI Content Credentials | Server-Side Request Forgery (SSRF) (CWE-918)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48290",
+      "summary": "CVE ID :CVE-2026-48290\n  \n  Published : July 14, 2026, 10:17 p.m. | 34\u00a0minutes ago\n  \n  Description :CAI Content Credentials is affected by a Server-S...",
+      "timestamp": 1784067420.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48275 - Illustrator | Untrusted Search Path (CWE-426)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48275",
+      "summary": "CVE ID :CVE-2026-48275\n  \n  Published : July 14, 2026, 10:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Illustrator is affected by an Untrusted Search Pa...",
+      "timestamp": 1784067420.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46640 - Twig: Arbitrary PHP code execution via `_self.(<string>)` macro-reference compilation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46640",
+      "summary": "CVE ID :CVE-2026-46640\n  \n  Published : July 14, 2026, 10:16 p.m. | 34\u00a0minutes ago\n  \n  Description :Twig is a template language for PHP. From 3.15.0 ...",
+      "timestamp": 1784067416.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46633 - Twig: PHP code injection via `{% use %}` template name",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46633",
+      "summary": "CVE ID :CVE-2026-46633\n  \n  Published : July 14, 2026, 10:16 p.m. | 34\u00a0minutes ago\n  \n  Description :Twig is a template language for PHP. Prior to 3.2...",
+      "timestamp": 1784067415.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45363 - `jwt` (Ruby gem) - empty-key HMAC bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45363",
+      "summary": "CVE ID :CVE-2026-45363\n  \n  Published : July 14, 2026, 10:16 p.m. | 34\u00a0minutes ago\n  \n  Description :ruby-jwt is a Ruby implementation of the RFC 7519...",
+      "timestamp": 1784067414.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-42049 - jadx: RCE Via Groovy Code Injection in Gradle Export",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42049",
+      "summary": "CVE ID :CVE-2026-42049\n  \n  Published : July 14, 2026, 10:16 p.m. | 34\u00a0minutes ago\n  \n  Description :jadx is a Dex to Java decompiler. Prior to 1.5.6,...",
+      "timestamp": 1784067412.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
       "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
@@ -67,92 +139,20 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-53486 - decompress: Archive extraction can create files and links outside the target directory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53486",
+      "summary": "CVE ID :CVE-2026-53486\n  \n  Published : July 14, 2026, 9:17 p.m. | 1\u00a0hour, 34\u00a0minutes ago\n  \n  Description :The decompress package for Node.js extract...",
+      "timestamp": 1784063825.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Spanish Police take down \u20ac140 million cyber fraud ring, arrest four",
       "link": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
       "summary": "The Spanish Police dismantled a cybercrime and money-laundering organization that made \u20ac140 million ($160 million) from investment fraud and business ...",
       "timestamp": 1784060589.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-15738 - Cross-namespace traffic interception via incorrect route precedence ordering in AWS Load Balancer Controller",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15738",
-      "summary": "CVE ID :CVE-2026-15738\n  \n  Published : July 14, 2026, 8:19 p.m. | 11\u00a0minutes ago\n  \n  Description :Incorrect behavior order in the Gateway API listen...",
-      "timestamp": 1784060363.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53633 - Vitest: Exposed Browser Mode API Can Proxy CDP and Overwrite Config Files, Leading to RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53633",
-      "summary": "CVE ID :CVE-2026-53633\n  \n  Published : July 14, 2026, 8:17 p.m. | 13\u00a0minutes ago\n  \n  Description :Vitest is a testing framework powered by Vite. Fro...",
-      "timestamp": 1784060262.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50528 - .NET Security Feature Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50528",
-      "summary": "CVE ID :CVE-2026-50528\n  \n  Published : July 14, 2026, 8:17 p.m. | 13\u00a0minutes ago\n  \n  Description :Incorrect authorization in .NET allows an unauthor...",
-      "timestamp": 1784060257.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48489 - Symfony: Security Firewall Bypass via failure_forward Subrequest: Unauthenticated Access to access_control-Protected GET Routes",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48489",
-      "summary": "CVE ID :CVE-2026-48489\n  \n  Published : July 14, 2026, 8:17 p.m. | 14\u00a0minutes ago\n  \n  Description :Symfony is a PHP framework for web and console app...",
-      "timestamp": 1784060229.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48359 - Adobe Experience Manager | Improper Restriction of XML External Entity Reference ('XXE') (CWE-611)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48359",
-      "summary": "CVE ID :CVE-2026-48359\n  \n  Published : July 14, 2026, 8:17 p.m. | 14\u00a0minutes ago\n  \n  Description :Adobe Experience Manager is affected by an Imprope...",
-      "timestamp": 1784060228.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48358 - Adobe Commerce | Improper Encoding or Escaping of Output (CWE-116)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48358",
-      "summary": "CVE ID :CVE-2026-48358\n  \n  Published : July 14, 2026, 8:17 p.m. | 14\u00a0minutes ago\n  \n  Description :Adobe Commerce is affected by an Improper Encoding...",
-      "timestamp": 1784060228.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48356 - Adobe Commerce | Unrestricted Upload of File with Dangerous Type (CWE-434)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48356",
-      "summary": "CVE ID :CVE-2026-48356\n  \n  Published : July 14, 2026, 8:17 p.m. | 14\u00a0minutes ago\n  \n  Description :Adobe Commerce is affected by an Unrestricted Uplo...",
-      "timestamp": 1784060228.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48350 - Animate | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (CWE-22)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48350",
-      "summary": "CVE ID :CVE-2026-48350\n  \n  Published : July 14, 2026, 8:17 p.m. | 14\u00a0minutes ago\n  \n  Description :Animate is affected by an Improper Limitation of a...",
-      "timestamp": 1784060228.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48349 - Animate | Incorrect Authorization (CWE-863)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48349",
-      "summary": "CVE ID :CVE-2026-48349\n  \n  Published : July 14, 2026, 8:17 p.m. | 14\u00a0minutes ago\n  \n  Description :Animate is affected by an Incorrect Authorization ...",
-      "timestamp": 1784060228.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48345 - Animate | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') (CWE-78)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48345",
-      "summary": "CVE ID :CVE-2026-48345\n  \n  Published : July 14, 2026, 8:17 p.m. | 14\u00a0minutes ago\n  \n  Description :Animate is affected by an Improper Neutralization ...",
-      "timestamp": 1784060227.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft Patches a Record 570 Security Flaws",
@@ -189,7 +189,7 @@
     {
       "title": "Windows 11 KB5101650\u00a0& KB5099414\u00a0cumulative updates released",
       "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101650-and-kb5099414-cumulative-updates-released/",
-      "summary": "Microsoft has released Windows 11\u00a0KB5101650\u00a0and\u00a0KB5099414\u00a0cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, an...",
+      "summary": "Microsoft has released Windows 11's June 2026 Update for version 25H2, 24H2, and 23H2, bringing fixes for over 570 security issues. [...]",
       "timestamp": 1784050876.0,
       "source": "BleepingComputer",
       "vendor": "News"
@@ -251,16 +251,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -275,24 +267,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
+      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -307,16 +291,32 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0276 Cortex XDR Broker VM: Privilege Escalation (PE) Vulnerability (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0276",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -371,5 +371,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784067271.631813
+  "last_updated": 1784070785.7033064
 }
