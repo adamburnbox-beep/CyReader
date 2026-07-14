@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,76 +59,124 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-9636 - Rockwell Automation CompactLogix\u00ae 5380 ControlLogix\u00ae 5580 / 1756-EN4 Communications Module \u2013 Certificate Revocation List Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9636",
-      "summary": "CVE ID :CVE-2026-9636\n  \n  Published : July 14, 2026, 4:17 p.m. | 14\u00a0minutes ago\n  \n  Description :A security issue exists within CompactLogix\u00ae 5380, ...",
-      "timestamp": 1784045825.0,
+      "title": "Microsoft Patches a Record 570 Security Flaws",
+      "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "summary": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple...",
+      "timestamp": 1784056962.0,
+      "source": "Krebs on Security",
+      "vendor": "News"
+    },
+    {
+      "title": "Nearly 300 GitHub repos pose as legit software to push malware",
+      "link": "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/",
+      "summary": "A threat actor has published hundreds of fake GitHub repositories impersonating legitimate software and security projects to distribute infostealer ma...",
+      "timestamp": 1784056517.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft releases Windows 10 KB5099539 extended security update",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/",
+      "summary": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes the July 2026 Patch Tuesday security updates for 570 vulnerab...",
+      "timestamp": 1784054968.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-58626 - Windows Remote Desktop Services Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58626",
+      "summary": "CVE ID :CVE-2026-58626\n  \n  Published : July 14, 2026, 6:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Use after free in Windows Remote Desktop Services ...",
+      "timestamp": 1784053124.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-9292 - Rockwell Automation FactoryTalk\u00ae DataMosaix\u2122 Private Cloud - Stored Cross-Site Scripting",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9292",
-      "summary": "CVE ID :CVE-2026-9292\n  \n  Published : July 14, 2026, 4:17 p.m. | 14\u00a0minutes ago\n  \n  Description :A Stored Cross-Site Scripting security issue exists...",
-      "timestamp": 1784045825.0,
+      "title": "CVE-2026-58617 - M365 Copilot for iOS Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58617",
+      "summary": "CVE ID :CVE-2026-58617\n  \n  Published : July 14, 2026, 6:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Improper access control in Microsoft 365 Copilot f...",
+      "timestamp": 1784053124.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-59835 - Fortinet FortiSandbox Exposure of Resource to Wrong Sphere Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59835",
-      "summary": "CVE ID :CVE-2026-59835\n  \n  Published : July 14, 2026, 4:17 p.m. | 14\u00a0minutes ago\n  \n  Description :A exposure of resource to wrong sphere vulnerabili...",
-      "timestamp": 1784045822.0,
+      "title": "CVE-2026-58594 - Remote Desktop Client Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58594",
+      "summary": "CVE ID :CVE-2026-58594\n  \n  Published : July 14, 2026, 6:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Integer overflow or wraparound in Windows RDP allo...",
+      "timestamp": 1784053123.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-59204 - Pillow JPEG2000 tiled decode retains a growing scratch buffer and can be used for denial of service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59204",
-      "summary": "CVE ID :CVE-2026-59204\n  \n  Published : July 14, 2026, 4:17 p.m. | 14\u00a0minutes ago\n  \n  Description :Pillow is a Python imaging library. From 8.2.0 thr...",
-      "timestamp": 1784045822.0,
+      "title": "CVE-2026-58534 - Windows Input Method Editor (IME) Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58534",
+      "summary": "CVE ID :CVE-2026-58534\n  \n  Published : July 14, 2026, 6:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Microsoft Input Meth...",
+      "timestamp": 1784053120.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-55954 - Missing ID token claim validation in ueberauth_apple allows account takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55954",
-      "summary": "CVE ID :CVE-2026-55954\n  \n  Published : July 14, 2026, 4:17 p.m. | 14\u00a0minutes ago\n  \n  Description :Authentication Bypass by Spoofing vulnerability in...",
-      "timestamp": 1784045821.0,
+      "title": "CVE-2026-58277 - Microsoft SharePoint Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58277",
+      "summary": "CVE ID :CVE-2026-58277\n  \n  Published : July 14, 2026, 6:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Improper authorization in Microsoft Office SharePo...",
+      "timestamp": 1784053116.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-14504 - Nexus Repository 3 - Authorization Bypass in Component Upload API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14504",
-      "summary": "CVE ID :CVE-2026-14504\n  \n  Published : July 14, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :An authorization bypass in Nexus Repository 3's co...",
-      "timestamp": 1784045805.0,
+      "title": "CVE-2026-57102 - Visual Studio Code Security Feature Bypass Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57102",
+      "summary": "CVE ID :CVE-2026-57102\n  \n  Published : July 14, 2026, 6:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Inclusion of functionality from untrusted control ...",
+      "timestamp": 1784053114.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12659 - Rockwell Automation Flex 5000\u00ae Adapter - Denial of Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12659",
-      "summary": "CVE ID :CVE-2026-12659\n  \n  Published : July 14, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :A denial-of-service security issue exists in the a...",
-      "timestamp": 1784045805.0,
+      "title": "CVE-2026-57094 - Microsoft Windows Media Foundation Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57094",
+      "summary": "CVE ID :CVE-2026-57094\n  \n  Published : July 14, 2026, 6:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Microsoft Windows Me...",
+      "timestamp": 1784053114.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-11403 - Nexus Repository Manager - Insufficient Entropy in Format-Specific API Key Generation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11403",
-      "summary": "CVE ID :CVE-2026-11403\n  \n  Published : July 14, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :A vulnerability in Sonatype Nexus Repository Manag...",
-      "timestamp": 1784045804.0,
+      "title": "CVE-2026-57092 - Microsoft Windows VMSwitch Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57092",
+      "summary": "CVE ID :CVE-2026-57092\n  \n  Published : July 14, 2026, 6:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Use after free in Windows VMSwitch allows an autho...",
+      "timestamp": 1784053113.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2025-11698 - CompactLogix \u00ae, ControlLogix \u00ae, Compact GuardLogix \u00ae and GuardLogix \u00ae Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-11698",
-      "summary": "CVE ID :CVE-2025-11698\n  \n  Published : July 14, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :A denial-of-service issue exists in\u00a05380/5480/5580...",
-      "timestamp": 1784045801.0,
+      "title": "CVE-2026-57090 - Microsoft Windows Media Foundation Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57090",
+      "summary": "CVE ID :CVE-2026-57090\n  \n  Published : July 14, 2026, 6:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Microsoft Windows Me...",
+      "timestamp": 1784053113.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57087 - Microsoft Windows Media Foundation Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57087",
+      "summary": "CVE ID :CVE-2026-57087\n  \n  Published : July 14, 2026, 6:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Microsoft Windows Me...",
+      "timestamp": 1784053112.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/",
+      "summary": "Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabiliti...",
+      "timestamp": 1784052096.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Windows 11 KB5101650\u00a0& KB5099414\u00a0cumulative updates released",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101650-and-kb5099414-cumulative-updates-released/",
+      "summary": "Microsoft has released Windows 11\u00a0KB5101650\u00a0and\u00a0KB5099414\u00a0cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, an...",
+      "timestamp": 1784050876.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
@@ -145,14 +193,6 @@
       "timestamp": 1784043112.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-9653 - 1756-EN2, 1756-EN3, and 1756-ENBT - Denial of Service via CIP Connection ID",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9653",
-      "summary": "CVE ID :CVE-2026-9653\n  \n  Published : July 14, 2026, 3:17 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :A denial-of-service security issue exists a...",
-      "timestamp": 1784042231.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "July 2026 Security Update",
@@ -195,38 +235,6 @@
       "vendor": "News"
     },
     {
-      "title": "Microsoft starts testing cleaner Windows Search without ads",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-testing-cleaner-windows-search-without-ads/",
-      "summary": "Microsoft is now testing a cleaner and faster version of Windows Search that should prioritize relevant results over ads and promotional content. [......",
-      "timestamp": 1784026043.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "US sanctions VPN, malware providers for enabling ransomware attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/",
-      "summary": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) sanctioned two individuals and one entity for enabling ransomware attacks again...",
-      "timestamp": 1784022013.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Japan's largest taxi operator shuts systems after cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
-      "summary": "Japan's largest taxi operator, Nihon Kotsu, announced that its systems were compromised in a cyberattack, forcing the company to shut down part of its...",
-      "timestamp": 1783973939.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers backdoor Jscrambler npm package with infostealer malware",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
-      "summary": "The Jscrambler client-side web security company disclosed that a threat actor published a malicious version of its npm package that has been downloade...",
-      "timestamp": 1783971859.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Lessons Learned from CISA\u2019s Recent GitHub Leak",
       "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
       "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal ...",
@@ -243,8 +251,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -259,8 +267,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -275,16 +283,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -293,6 +293,14 @@
     {
       "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -363,5 +371,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784047990.70391
+  "last_updated": 1784059082.0234332
 }
