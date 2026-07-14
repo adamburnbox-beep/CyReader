@@ -52,12 +52,36 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 8,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "You Don't Have to Run an Exploit to Know If You're Vulnerable",
+      "link": "https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/",
+      "summary": "Many vulnerabilities cannot be safely validated with live exploits, either because no exploit exists or the affected systems are too critical to test....",
+      "timestamp": 1784037610.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft Entra ID gets passkeys default authentication starting September",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-id-gets-passkeys-default-authentication-starting-september/",
+      "summary": "Microsoft has announced that passkeys will become the default authentication method for the Entra ID enterprise identity service starting September 20...",
+      "timestamp": 1784033396.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "New phishing kits target Microsoft 365 accounts, evade MFA",
+      "link": "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/",
+      "summary": "Two new phishing kits, Jalisco and OmegaLord, have been discovered in attacks targeting Microsoft 365 accounts, using techniques that defeat multi-fac...",
+      "timestamp": 1784033340.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "SAP warns of critical flaws in NetWeaver and Commerce Cloud",
       "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/",
@@ -65,6 +89,22 @@
       "timestamp": 1784029341.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-62422 - JetBrains YouTrack Authentication Bypass via Database Access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62422",
+      "summary": "CVE ID :CVE-2026-62422\n  \n  Published : July 14, 2026, 11:16 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :In JetBrains YouTrack before 2026.1.13757,...",
+      "timestamp": 1784027808.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15389 - Inadequate access control in Sesame Time session management",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15389",
+      "summary": "CVE ID :CVE-2026-15389\n  \n  Published : July 14, 2026, 11:16 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :A vulnerability relating to insufficient a...",
+      "timestamp": 1784027808.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft starts testing cleaner Windows Search without ads",
@@ -75,10 +115,18 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-56451 - Opcenter X JWT Algorithm Confusion Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56451",
+      "summary": "CVE ID :CVE-2026-56451\n  \n  Published : July 14, 2026, 10:16 a.m. | 2\u00a0hours, 9\u00a0minutes ago\n  \n  Description :A vulnerability has been identified in Op...",
+      "timestamp": 1784024193.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-3014 - Remote Code Execution by administrative user on the Management Server",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-3014",
-      "summary": "CVE ID :CVE-2026-3014\n  \n  Published : July 14, 2026, 9:45 a.m. | 40\u00a0minutes ago\n  \n  Description :Milestone\nhas released a new version of XProtect\u00ae (...",
-      "timestamp": 1784022322.0,
+      "summary": "CVE ID :CVE-2026-3014\n  \n  Published : July 14, 2026, 10:16 a.m. | 2\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Milestone\nhas released a new version of XP...",
+      "timestamp": 1784024192.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -93,7 +141,7 @@
     {
       "title": "CVE-2026-9561 - Eclipse Kura IP Address Spoofing Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9561",
-      "summary": "CVE ID :CVE-2026-9561\n  \n  Published : July 14, 2026, 9:16 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :Eclipse Kura versions prior to 5.6.2 trust t...",
+      "summary": "CVE ID :CVE-2026-9561\n  \n  Published : July 14, 2026, 9:16 a.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Eclipse Kura versions prior to 5.6.2 trust ...",
       "timestamp": 1784020602.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +149,7 @@
     {
       "title": "CVE-2026-58229 - Unbounded HTTP/1 response-header and chunked-trailer accumulation in Mint causes memory-exhaustion DoS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58229",
-      "summary": "CVE ID :CVE-2026-58229\n  \n  Published : July 14, 2026, 9:16 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :Allocation of resources without limits vuln...",
+      "summary": "CVE ID :CVE-2026-58229\n  \n  Published : July 14, 2026, 9:16 a.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Allocation of resources without limits vul...",
       "timestamp": 1784020601.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +157,7 @@
     {
       "title": "CVE-2026-57898 - Eclipse BaSyx Java Server SDK Arbitrary File Write",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57898",
-      "summary": "CVE ID :CVE-2026-57898\n  \n  Published : July 14, 2026, 9:16 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :In Eclipse BaSyx Java Server SDK versions 2...",
+      "summary": "CVE ID :CVE-2026-57898\n  \n  Published : July 14, 2026, 9:16 a.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :In Eclipse BaSyx Java Server SDK versions ...",
       "timestamp": 1784020601.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +165,7 @@
     {
       "title": "CVE-2026-15416 - Argo-cd: argo cd unauthenticated remote code execution in repo-server via generatemanifest grpc endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15416",
-      "summary": "CVE ID :CVE-2026-15416\n  \n  Published : July 14, 2026, 9:16 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :A flaw was identified in Argo CD, the GitOp...",
+      "summary": "CVE ID :CVE-2026-15416\n  \n  Published : July 14, 2026, 9:16 a.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :A flaw was identified in Argo CD, the GitO...",
       "timestamp": 1784020600.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +173,7 @@
     {
       "title": "CVE-2026-15183 - Input Validation Vulnerabilities in Snowflake Spark Connector",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15183",
-      "summary": "CVE ID :CVE-2026-15183\n  \n  Published : July 14, 2026, 9:16 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :Multiple input validation vulnerabilities i...",
+      "summary": "CVE ID :CVE-2026-15183\n  \n  Published : July 14, 2026, 9:16 a.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Multiple input validation vulnerabilities ...",
       "timestamp": 1784020600.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,32 +181,8 @@
     {
       "title": "CVE-2026-15076 - Eclipse Vert.x Improper Cookie Domain Validation Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15076",
-      "summary": "CVE ID :CVE-2026-15076\n  \n  Published : July 14, 2026, 9:16 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :In versions up to and including 4.5.29 (4.x...",
+      "summary": "CVE ID :CVE-2026-15076\n  \n  Published : July 14, 2026, 9:16 a.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :In versions up to and including 4.5.29 (4....",
       "timestamp": 1784020600.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-15075 - Eclipse Vert.x DefaultRedirectHandler Improper Header Propagation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15075",
-      "summary": "CVE ID :CVE-2026-15075\n  \n  Published : July 14, 2026, 9:16 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :In Eclipse Vert.x versions up to and includ...",
-      "timestamp": 1784020600.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44761 - Insecure Sample Credentials in SAP Commerce Cloud",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44761",
-      "summary": "CVE ID :CVE-2026-44761\n  \n  Published : July 14, 2026, 1:16 a.m. | 9\u00a0hours, 9\u00a0minutes ago\n  \n  Description :SAP Commerce Cloud could retain a sample O...",
-      "timestamp": 1783991778.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44752 - Cross-Site Scripting (XSS) vulnerability in SAP NetWeaver Application Server Java(Configuration Wizard)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44752",
-      "summary": "CVE ID :CVE-2026-44752\n  \n  Published : July 14, 2026, 1:16 a.m. | 9\u00a0hours, 9\u00a0minutes ago\n  \n  Description :SAP NetWeaver Application Server Java allo...",
-      "timestamp": 1783991777.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -203,30 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "Lidl discloses online shop breach after service provider hack",
-      "link": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
-      "summary": "German discount supermarket chain Lidl notified customers in Germany, Belgium, and the Netherlands that attackers stole their personal information in ...",
-      "timestamp": 1783952383.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
-      "link": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
-      "summary": "Learn how attackers abuse Entra ID through a free hands-on Capture the Flag. Varonis created the Breach at the Beach CTF to teach defenders how to inv...",
-      "timestamp": 1783951271.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "UK charges suspects linked to Russian Coms call spoofing platform",
-      "link": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
-      "summary": "UK authorities charged five people following a National Crime Agency (NCA) investigation into Russian Coms, a major caller ID spoofing platform used b...",
-      "timestamp": 1783949010.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0279 PAN-OS: Multiple Cross-Site Scripting (XSS) Vulnerabilities  (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0279",
       "summary": "",
@@ -235,32 +235,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -283,6 +259,22 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
       "summary": "",
@@ -291,16 +283,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0010 Chromium and Prisma Browser: Monthly Vulnerability Update (July 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0010",
+      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0276 Cortex XDR Broker VM: Privilege Escalation (PE) Vulnerability (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0276",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -355,5 +355,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784030840.8717113
+  "last_updated": 1784038295.3494482
 }
