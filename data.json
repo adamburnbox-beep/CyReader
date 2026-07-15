@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,40 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "\u200b    \u200bAsyncAPI npm packages infected with credential-stealing malware",
+      "link": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
+      "summary": "Five malicious versions of AsyncAPI packages were published to the Node Package Manager (npm) in a supply-chain attack that delivered a remote access ...",
+      "timestamp": 1784129847.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-43637 - Cornac < 2.6.0 Path Traversal via _extract_archive() in download.py",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43637",
+      "summary": "CVE ID :CVE-2026-43637\n  \n  Published : July 15, 2026, 2:18 p.m. | 30\u00a0minutes ago\n  \n  Description :Cornac before 2.6.0 contains a path traversal (Tar...",
+      "timestamp": 1784125090.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
+      "link": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
+      "summary": "Intruder built an AI-powered \"vulnerability vending machine\" that combines code slicing with LLMs to automatically discover complex software vulnerabi...",
+      "timestamp": 1784124071.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "CVE-2026-61873 - Grav before 9.1.8 Arbitrary File Write via Twig-Processed Filename",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61873",
-      "summary": "CVE ID :CVE-2026-61873\n  \n  Published : July 15, 2026, 12:18 p.m. | 13\u00a0minutes ago\n  \n  Description :Grav before 9.1.8 contains an arbitrary file writ...",
+      "summary": "CVE ID :CVE-2026-61873\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Grav before 9.1.8 contains an arbitrary ...",
       "timestamp": 1784117902.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +93,7 @@
     {
       "title": "CVE-2026-61457 - Grav before 1.0.3 Remote Code Execution via File Upload Extension Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61457",
-      "summary": "CVE ID :CVE-2026-61457\n  \n  Published : July 15, 2026, 12:18 p.m. | 13\u00a0minutes ago\n  \n  Description :The Grav API plugin (getgrav/grav-plugin-api) bef...",
+      "summary": "CVE ID :CVE-2026-61457\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :The Grav API plugin (getgrav/grav-plugin...",
       "timestamp": 1784117900.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +101,7 @@
     {
       "title": "CVE-2026-61451 - Grav before 1.0.4 Password Reset Token Poisoning via admin_base_url",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61451",
-      "summary": "CVE ID :CVE-2026-61451\n  \n  Published : July 15, 2026, 12:18 p.m. | 13\u00a0minutes ago\n  \n  Description :The Grav API plugin (grav-plugin-api) before 1.0....",
+      "summary": "CVE ID :CVE-2026-61451\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :The Grav API plugin (grav-plugin-api) be...",
       "timestamp": 1784117899.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +109,7 @@
     {
       "title": "CVE-2026-61446 - PraisonAI before 1.6.78 Remote Code Execution via Plugin Auto-Discovery",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61446",
-      "summary": "CVE ID :CVE-2026-61446\n  \n  Published : July 15, 2026, 12:18 p.m. | 13\u00a0minutes ago\n  \n  Description :PraisonAI (praisonaiagents) before 1.6.78 contain...",
+      "summary": "CVE ID :CVE-2026-61446\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :PraisonAI (praisonaiagents) before 1.6.7...",
       "timestamp": 1784117899.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +117,7 @@
     {
       "title": "CVE-2026-61443 - PraisonAI before 1.6.78 Remote Code Execution via SkillTools",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61443",
-      "summary": "CVE ID :CVE-2026-61443\n  \n  Published : July 15, 2026, 12:18 p.m. | 13\u00a0minutes ago\n  \n  Description :PraisonAI before 1.6.78 contains a remote code ex...",
+      "summary": "CVE ID :CVE-2026-61443\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :PraisonAI before 1.6.78 contains a remot...",
       "timestamp": 1784117899.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +125,7 @@
     {
       "title": "CVE-2026-61436 - PraisonAI before 4.6.78 Missing Webhook Signature Verification",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61436",
-      "summary": "CVE ID :CVE-2026-61436\n  \n  Published : July 15, 2026, 12:18 p.m. | 13\u00a0minutes ago\n  \n  Description :PraisonAI before 4.6.78 fails to verify Svix webh...",
+      "summary": "CVE ID :CVE-2026-61436\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :PraisonAI before 4.6.78 fails to verify ...",
       "timestamp": 1784117898.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +133,7 @@
     {
       "title": "CVE-2026-61435 - PraisonAI before 4.6.78 Authentication Bypass via Host Header Spoofing",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61435",
-      "summary": "CVE ID :CVE-2026-61435\n  \n  Published : July 15, 2026, 12:18 p.m. | 13\u00a0minutes ago\n  \n  Description :PraisonAI before 4.6.78 contains an authenticatio...",
+      "summary": "CVE ID :CVE-2026-61435\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :PraisonAI before 4.6.78 contains an auth...",
       "timestamp": 1784117898.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +141,7 @@
     {
       "title": "CVE-2026-61433 - PraisonAI before 4.6.78 Code Injection via API deployment generator",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61433",
-      "summary": "CVE ID :CVE-2026-61433\n  \n  Published : July 15, 2026, 12:18 p.m. | 13\u00a0minutes ago\n  \n  Description :PraisonAI before 4.6.78 fails to safely encode de...",
+      "summary": "CVE ID :CVE-2026-61433\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :PraisonAI before 4.6.78 fails to safely ...",
       "timestamp": 1784117898.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,16 +149,8 @@
     {
       "title": "CVE-2026-61430 - PraisonAI before 1.6.78 DNS Rebinding SSRF via web_crawl",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61430",
-      "summary": "CVE ID :CVE-2026-61430\n  \n  Published : July 15, 2026, 12:18 p.m. | 13\u00a0minutes ago\n  \n  Description :PraisonAI before 1.6.78 contains a server-side re...",
+      "summary": "CVE ID :CVE-2026-61430\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :PraisonAI before 1.6.78 contains a serve...",
       "timestamp": 1784117898.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-60085 - PraisonAI before 4.6.78 Unenforced Security Policy in Subprocess Sandbox",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60085",
-      "summary": "CVE ID :CVE-2026-60085\n  \n  Published : July 15, 2026, 12:18 p.m. | 13\u00a0minutes ago\n  \n  Description :PraisonAI before 4.6.78 contains an unenforced se...",
-      "timestamp": 1784117897.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -197,7 +213,7 @@
     {
       "title": "Microsoft releases Windows 10 KB5099539 extended security update",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/",
-      "summary": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes the July 2026 Patch Tuesday security updates for 570 vulnerab...",
+      "summary": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes this month's record-breaking July 2026 Patch Tuesday fixes, a...",
       "timestamp": 1784054968.0,
       "source": "BleepingComputer",
       "vendor": "News"
@@ -207,22 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/",
       "summary": "Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabiliti...",
       "timestamp": 1784052096.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Windows 11 KB5101650\u00a0& KB5099414\u00a0cumulative updates released",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101650-and-kb5099414-cumulative-updates-released/",
-      "summary": "Microsoft has released Windows 11's June 2026 Update for version 25H2, 24H2, and 23H2, bringing fixes for over 570 security issues. [...]",
-      "timestamp": 1784050876.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
-      "link": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
-      "summary": "Progress Software has confirmed that a high-severity zero-day vulnerability is behind the emergency shutdown of ShareFile Storage Zone Controllers las...",
-      "timestamp": 1784045327.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -251,8 +251,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -267,8 +267,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -283,16 +283,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -301,6 +293,14 @@
     {
       "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -355,5 +355,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784124486.1786942
+  "last_updated": 1784130366.2555702
 }
