@@ -24,15 +24,15 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 6,
-      "total_count": 10,
+      "new_count": 0,
+      "total_count": 0,
       "status": "ok"
     },
     {
@@ -52,81 +52,17 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-59733 - rclone `serve restic --private-repos` authorization bypass: `..` in the URL path lets an authenticated user read, overwrite and delete other users' repositories",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59733",
-      "summary": "CVE ID :CVE-2026-59733\n  \n  Published : July 14, 2026, 10:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Rclone is a command-line program to sync files an...",
-      "timestamp": 1784067450.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50130 - Pi-hole: Local privilege escalation from `pihole` user to root via `/etc/pihole/logrotate`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50130",
-      "summary": "CVE ID :CVE-2026-50130\n  \n  Published : July 14, 2026, 10:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Pi-hole is a DNS sinkhole that protects devices f...",
-      "timestamp": 1784067433.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48334 - Illustrator | Improper Input Validation (CWE-20)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48334",
-      "summary": "CVE ID :CVE-2026-48334\n  \n  Published : July 14, 2026, 10:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Illustrator is affected by an Improper Input Vali...",
-      "timestamp": 1784067421.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-48290 - CAI Content Credentials | Server-Side Request Forgery (SSRF) (CWE-918)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48290",
-      "summary": "CVE ID :CVE-2026-48290\n  \n  Published : July 14, 2026, 10:17 p.m. | 34\u00a0minutes ago\n  \n  Description :CAI Content Credentials is affected by a Server-S...",
-      "timestamp": 1784067420.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48275 - Illustrator | Untrusted Search Path (CWE-426)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48275",
-      "summary": "CVE ID :CVE-2026-48275\n  \n  Published : July 14, 2026, 10:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Illustrator is affected by an Untrusted Search Pa...",
-      "timestamp": 1784067420.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-46640 - Twig: Arbitrary PHP code execution via `_self.(<string>)` macro-reference compilation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46640",
-      "summary": "CVE ID :CVE-2026-46640\n  \n  Published : July 14, 2026, 10:16 p.m. | 34\u00a0minutes ago\n  \n  Description :Twig is a template language for PHP. From 3.15.0 ...",
-      "timestamp": 1784067416.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-46633 - Twig: PHP code injection via `{% use %}` template name",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46633",
-      "summary": "CVE ID :CVE-2026-46633\n  \n  Published : July 14, 2026, 10:16 p.m. | 34\u00a0minutes ago\n  \n  Description :Twig is a template language for PHP. Prior to 3.2...",
-      "timestamp": 1784067415.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45363 - `jwt` (Ruby gem) - empty-key HMAC bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45363",
-      "summary": "CVE ID :CVE-2026-45363\n  \n  Published : July 14, 2026, 10:16 p.m. | 34\u00a0minutes ago\n  \n  Description :ruby-jwt is a Ruby implementation of the RFC 7519...",
-      "timestamp": 1784067414.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-42049 - jadx: RCE Via Groovy Code Injection in Gradle Export",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42049",
-      "summary": "CVE ID :CVE-2026-42049\n  \n  Published : July 14, 2026, 10:16 p.m. | 34\u00a0minutes ago\n  \n  Description :jadx is a Dex to Java decompiler. Prior to 1.5.6,...",
-      "timestamp": 1784067412.0,
+      "summary": "CVE ID :CVE-2026-48290\n  \n  Published : July 14, 2026, 9:33 p.m. | 53\u00a0minutes ago\n  \n  Description :CAI Content Credentials is affected by a Server-Si...",
+      "timestamp": 1784064781.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -141,8 +77,72 @@
     {
       "title": "CVE-2026-53486 - decompress: Archive extraction can create files and links outside the target directory",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53486",
-      "summary": "CVE ID :CVE-2026-53486\n  \n  Published : July 14, 2026, 9:17 p.m. | 1\u00a0hour, 34\u00a0minutes ago\n  \n  Description :The decompress package for Node.js extract...",
+      "summary": "CVE ID :CVE-2026-53486\n  \n  Published : July 14, 2026, 9:17 p.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :The decompress package for Node.js extracts...",
       "timestamp": 1784063825.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48801 - linkify-it: Quadratic algorithmic complexity in LinkifyIt#match scan loop",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48801",
+      "summary": "CVE ID :CVE-2026-48801\n  \n  Published : July 14, 2026, 9:17 p.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :linkify-it is a links recognition library w...",
+      "timestamp": 1784063821.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48327 - ColdFusion | Incorrect Authorization (CWE-863)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48327",
+      "summary": "CVE ID :CVE-2026-48327\n  \n  Published : July 14, 2026, 9:16 p.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :ColdFusion is affected by an Incorrect Auth...",
+      "timestamp": 1784063819.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48325 - ColdFusion | Missing Authentication for Critical Function (CWE-306)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48325",
+      "summary": "CVE ID :CVE-2026-48325\n  \n  Published : July 14, 2026, 9:16 p.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :ColdFusion is affected by a Missing Authent...",
+      "timestamp": 1784063819.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48324 - ColdFusion | Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') (CWE-89)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48324",
+      "summary": "CVE ID :CVE-2026-48324\n  \n  Published : July 14, 2026, 9:16 p.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :ColdFusion is affected by an Improper Neutr...",
+      "timestamp": 1784063819.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48322 - ColdFusion | Improper Control of Generation of Code ('Code Injection') (CWE-94)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48322",
+      "summary": "CVE ID :CVE-2026-48322\n  \n  Published : July 14, 2026, 9:16 p.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :ColdFusion is affected by an Improper Contr...",
+      "timestamp": 1784063818.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48321 - ColdFusion | Incorrect Authorization (CWE-863)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48321",
+      "summary": "CVE ID :CVE-2026-48321\n  \n  Published : July 14, 2026, 9:16 p.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :ColdFusion is affected by an Incorrect Auth...",
+      "timestamp": 1784063818.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48320 - ColdFusion | Cross-site Scripting (Reflected XSS) (CWE-79)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48320",
+      "summary": "CVE ID :CVE-2026-48320\n  \n  Published : July 14, 2026, 9:16 p.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :ColdFusion is affected by a reflected Cross...",
+      "timestamp": 1784063818.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48319 - ColdFusion | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') (CWE-22)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48319",
+      "summary": "CVE ID :CVE-2026-48319\n  \n  Published : July 14, 2026, 9:16 p.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :ColdFusion is affected by an Improper Limit...",
+      "timestamp": 1784063818.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -323,44 +323,12 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "Cisco Advance Notification for Publication of July 15, 2026, Security Advisories",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-ILh3ZrP5?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%2015,%202026,%20Security%20Advisories%26vs_k=1",
-      "summary": "On July 15, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information alo...",
-      "timestamp": 1783526400.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
       "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
       "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right co...",
       "timestamp": 1783513899.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Remote%20Code%20Execution%20and%20Information%20Disclosure%20Vulnerabilities%26vs_k=1",
-      "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to a...",
-      "timestamp": 1783365630.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Catalyst Center Arbitrary File Read Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-catc-file-read-wLH2vf8X?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20Center%20Arbitrary%20File%20Read%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in Cisco Catalyst Center could allow an unauthenticated, remote attacker to read arbitrary files from a restricted container.&nbsp;\nTh...",
-      "timestamp": 1783339233.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "ClamAV Vulnerabilities Affecting Cisco Products: July 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-88cFYyxR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20July%202026%26vs_k=1",
-      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.\nFor m...",
-      "timestamp": 1783025533.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     },
     {
       "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
@@ -371,5 +339,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784070785.7033064
+  "last_updated": 1784074127.7269804
 }
