@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,100 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-62685 - File Browser: Colliding username normalization gives two users the same home directory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62685",
+      "summary": "CVE ID :CVE-2026-62685\n  \n  Published : July 15, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :File Browser is a file managing interface for uplo...",
+      "timestamp": 1784132211.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-61828 - nixos/mysql : `services.mysql` is configured with insecure authentication by default when used with `mysql` or `percona-server`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61828",
+      "summary": "CVE ID :CVE-2026-61828\n  \n  Published : July 15, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Nixpkgs is a collection of software packages that ...",
+      "timestamp": 1784132210.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-60005 - NGINX ngx_http_slice_module vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60005",
+      "summary": "CVE ID :CVE-2026-60005\n  \n  Published : July 15, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :NGINX Plus and NGINX Open Source have a vulnerabil...",
+      "timestamp": 1784132209.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55242 - ERPNext: Server-Side Template Injection (SSTI) in Batch autonaming via Stock Settings.naming_series_prefix",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55242",
+      "summary": "CVE ID :CVE-2026-55242\n  \n  Published : July 15, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :ERPNext is a free and open source Enterprise Resou...",
+      "timestamp": 1784132208.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50148 - Metabase: Remote Code Execution via Snowflake JDBC Driver Arbitrary File Write",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50148",
+      "summary": "CVE ID :CVE-2026-50148\n  \n  Published : July 15, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Metabase is an open-source business intelligence a...",
+      "timestamp": 1784132207.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47158 - Vaultwarden: CSRF in SSO Authorization Flow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47158",
+      "summary": "CVE ID :CVE-2026-47158\n  \n  Published : July 15, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Vaultwarden is a Bitwarden-compatible server writt...",
+      "timestamp": 1784132206.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45805 - Penpot: MCP REPL server binds to 0.0.0.0 with unauthenticated /execute endpoint \u2014 RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45805",
+      "summary": "CVE ID :CVE-2026-45805\n  \n  Published : July 15, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Penpot is an open-source design tool for design an...",
+      "timestamp": 1784132205.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-44986 - Penpot: Pre-authenticated account takeover via team-invitation token + prepare-register-profile",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44986",
+      "summary": "CVE ID :CVE-2026-44986\n  \n  Published : July 15, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Penpot is an open-source design tool for design an...",
+      "timestamp": 1784132205.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Cisco Advance Notification for Publication of July 15, 2026, Security Advisories",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-ILh3ZrP5?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%2015,%202026,%20Security%20Advisories%26vs_k=1",
+      "summary": "On July 15, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE ID\nSecu...",
+      "timestamp": 1784131270.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco RoomOS Security Hardening Release: July 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-roomos-AqNMbEq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20RoomOS%20Security%20Hardening%20Release:%20July%202026%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco RoomOS engineering team has conducted a comprehensive inter...",
+      "timestamp": 1784131200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Identity Services Engine Path Traversal Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-traversal-xNt7wb2Y?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Path%20Traversal%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an authenticated, remote attack...",
+      "timestamp": 1784131200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
     {
       "title": "\u200b    \u200bAsyncAPI npm packages infected with credential-stealing malware",
       "link": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
@@ -67,10 +155,18 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-43637 - Cornac < 2.6.0 Path Traversal via _extract_archive() in download.py",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43637",
-      "summary": "CVE ID :CVE-2026-43637\n  \n  Published : July 15, 2026, 2:18 p.m. | 30\u00a0minutes ago\n  \n  Description :Cornac before 2.6.0 contains a path traversal (Tar...",
-      "timestamp": 1784125090.0,
+      "title": "CVE-2026-61836 - Directus: Authorization-dependent response served from unsegmented cache key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61836",
+      "summary": "CVE ID :CVE-2026-61836\n  \n  Published : July 15, 2026, 3:16 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :Directus is a real-time API and App dashbo...",
+      "timestamp": 1784128608.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-61740 - LightRAG: Authentication bypass: hardcoded DEFAULT_TOKEN_SECRET and public /auth-status defeat LIGHTRAG_API_KEY protection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61740",
+      "summary": "CVE ID :CVE-2026-61740\n  \n  Published : July 15, 2026, 3:16 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :LightRAG provides simple and fast retrieva...",
+      "timestamp": 1784128608.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -81,78 +177,6 @@
       "timestamp": 1784124071.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-61873 - Grav before 9.1.8 Arbitrary File Write via Twig-Processed Filename",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61873",
-      "summary": "CVE ID :CVE-2026-61873\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Grav before 9.1.8 contains an arbitrary ...",
-      "timestamp": 1784117902.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61457 - Grav before 1.0.3 Remote Code Execution via File Upload Extension Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61457",
-      "summary": "CVE ID :CVE-2026-61457\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :The Grav API plugin (getgrav/grav-plugin...",
-      "timestamp": 1784117900.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61451 - Grav before 1.0.4 Password Reset Token Poisoning via admin_base_url",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61451",
-      "summary": "CVE ID :CVE-2026-61451\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :The Grav API plugin (grav-plugin-api) be...",
-      "timestamp": 1784117899.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61446 - PraisonAI before 1.6.78 Remote Code Execution via Plugin Auto-Discovery",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61446",
-      "summary": "CVE ID :CVE-2026-61446\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :PraisonAI (praisonaiagents) before 1.6.7...",
-      "timestamp": 1784117899.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61443 - PraisonAI before 1.6.78 Remote Code Execution via SkillTools",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61443",
-      "summary": "CVE ID :CVE-2026-61443\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :PraisonAI before 1.6.78 contains a remot...",
-      "timestamp": 1784117899.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61436 - PraisonAI before 4.6.78 Missing Webhook Signature Verification",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61436",
-      "summary": "CVE ID :CVE-2026-61436\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :PraisonAI before 4.6.78 fails to verify ...",
-      "timestamp": 1784117898.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61435 - PraisonAI before 4.6.78 Authentication Bypass via Host Header Spoofing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61435",
-      "summary": "CVE ID :CVE-2026-61435\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :PraisonAI before 4.6.78 contains an auth...",
-      "timestamp": 1784117898.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61433 - PraisonAI before 4.6.78 Code Injection via API deployment generator",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61433",
-      "summary": "CVE ID :CVE-2026-61433\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :PraisonAI before 4.6.78 fails to safely ...",
-      "timestamp": 1784117898.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61430 - PraisonAI before 1.6.78 DNS Rebinding SSRF via web_crawl",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61430",
-      "summary": "CVE ID :CVE-2026-61430\n  \n  Published : July 15, 2026, 12:18 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :PraisonAI before 1.6.78 contains a serve...",
-      "timestamp": 1784117898.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CISA warns admins to patch actively exploited SharePoint flaws",
@@ -251,8 +275,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -267,8 +291,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -283,32 +307,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -323,12 +331,20 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "Cisco Advance Notification for Publication of July 15, 2026, Security Advisories",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-ILh3ZrP5?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%2015,%202026,%20Security%20Advisories%26vs_k=1",
-      "summary": "On July 15, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information alo...",
+      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+      "summary": "",
       "timestamp": 1783526400.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
     },
     {
       "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
@@ -355,5 +371,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784130366.2555702
+  "last_updated": 1784137051.5260398
 }
