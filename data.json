@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 7,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,66 +59,90 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-62685 - File Browser: Colliding username normalization gives two users the same home directory",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62685",
-      "summary": "CVE ID :CVE-2026-62685\n  \n  Published : July 15, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :File Browser is a file managing interface for uplo...",
-      "timestamp": 1784132211.0,
+      "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
+      "link": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
+      "summary": "A Russian-speaking threat actor known as \"bandcampro\" used Google's open-source Gemini CLI AI tool as a hacking agent and to operate a small-scale bot...",
+      "timestamp": 1784140428.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-62948 - OpenWrt odhcpd/LuCI: unauthenticated DHCPv6 client can inject lease-file lines via FQDN hostname \u2192 stored XSS in the LuCI admin UI",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62948",
+      "summary": "CVE ID :CVE-2026-62948\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :OpenWrt is a Linux operating system targeting embe...",
+      "timestamp": 1784139410.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-61828 - nixos/mysql : `services.mysql` is configured with insecure authentication by default when used with `mysql` or `percona-server`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61828",
-      "summary": "CVE ID :CVE-2026-61828\n  \n  Published : July 15, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Nixpkgs is a collection of software packages that ...",
-      "timestamp": 1784132210.0,
+      "title": "CVE-2026-62389 - ws < 8.21.1 Default maxFragments Allows Memory Exhaustion DoS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62389",
+      "summary": "CVE ID :CVE-2026-62389\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :ws before 8.21.1 contains a memory exhaustion vuln...",
+      "timestamp": 1784139409.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-60005 - NGINX ngx_http_slice_module vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60005",
-      "summary": "CVE ID :CVE-2026-60005\n  \n  Published : July 15, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :NGINX Plus and NGINX Open Source have a vulnerabil...",
-      "timestamp": 1784132209.0,
+      "title": "CVE-2026-59258 - immich < 3.0.3 Shared Album Editor Ownership Takeover via updateUser",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59258",
+      "summary": "CVE ID :CVE-2026-59258\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :immich before 3.0.3 contains a broken access contr...",
+      "timestamp": 1784139409.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-55242 - ERPNext: Server-Side Template Injection (SSTI) in Batch autonaming via Stock Settings.naming_series_prefix",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55242",
-      "summary": "CVE ID :CVE-2026-55242\n  \n  Published : July 15, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :ERPNext is a free and open source Enterprise Resou...",
-      "timestamp": 1784132208.0,
+      "title": "CVE-2026-58660 - Kanboard BoardAjaxController Missing Ownership Check via Drag-and-Drop",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58660",
+      "summary": "CVE ID :CVE-2026-58660\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Kanboard through 1.2.52, fixed in commit 564cc30, ...",
+      "timestamp": 1784139408.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-50148 - Metabase: Remote Code Execution via Snowflake JDBC Driver Arbitrary File Write",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50148",
-      "summary": "CVE ID :CVE-2026-50148\n  \n  Published : July 15, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Metabase is an open-source business intelligence a...",
-      "timestamp": 1784132207.0,
+      "title": "CVE-2026-58659 - PyTorch Lightning Arbitrary Code Execution via _instantiator Hyperparameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58659",
+      "summary": "CVE ID :CVE-2026-58659\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :PyTorch Lightning through 2.6.5, fixed in commit d...",
+      "timestamp": 1784139408.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-47158 - Vaultwarden: CSRF in SSO Authorization Flow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47158",
-      "summary": "CVE ID :CVE-2026-47158\n  \n  Published : July 15, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Vaultwarden is a Bitwarden-compatible server writt...",
-      "timestamp": 1784132206.0,
+      "title": "CVE-2026-58658 - GPUStack Unauthenticated Information Disclosure via Worker Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58658",
+      "summary": "CVE ID :CVE-2026-58658\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :GPUStack through 2.2.1, fixed in commit 4e20551, c...",
+      "timestamp": 1784139408.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-45805 - Penpot: MCP REPL server binds to 0.0.0.0 with unauthenticated /execute endpoint \u2014 RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45805",
-      "summary": "CVE ID :CVE-2026-45805\n  \n  Published : July 15, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Penpot is an open-source design tool for design an...",
-      "timestamp": 1784132205.0,
+      "title": "CVE-2026-53517 - Better Auth OAuth Provider: Refresh Token Rotation Race Condition Allows Concurrent Replay and Token Family Forking",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53517",
+      "summary": "CVE ID :CVE-2026-53517\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Better Auth is an authentication and authorization...",
+      "timestamp": 1784139408.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-44986 - Penpot: Pre-authenticated account takeover via team-invitation token + prepare-register-profile",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44986",
-      "summary": "CVE ID :CVE-2026-44986\n  \n  Published : July 15, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Penpot is an open-source design tool for design an...",
-      "timestamp": 1784132205.0,
+      "title": "CVE-2026-53516 - Better Auth: Account takeover via OAuth auto-link to unverified pre-registered email",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53516",
+      "summary": "CVE ID :CVE-2026-53516\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Better Auth is an authentication and authorization...",
+      "timestamp": 1784139407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53513 - Better Auth: Server-side request forgery via unvalidated OIDC endpoints on @better-auth/sso provider registration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53513",
+      "summary": "CVE ID :CVE-2026-53513\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Better Auth is an authentication and authorization...",
+      "timestamp": 1784139407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53512 - Better Auth: OAuth refresh-token replay via missing client authentication on oidc-provider and mcp plugins",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53512",
+      "summary": "CVE ID :CVE-2026-53512\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Better Auth is an authentication and authorization...",
+      "timestamp": 1784139407.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -147,28 +171,12 @@
       "vendor": "Cisco"
     },
     {
-      "title": "\u200b    \u200bAsyncAPI npm packages infected with credential-stealing malware",
+      "title": "AsyncAPI npm packages infected with credential-stealing malware",
       "link": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
       "summary": "Five malicious versions of AsyncAPI packages were published to the Node Package Manager (npm) in a supply-chain attack that delivered a remote access ...",
       "timestamp": 1784129847.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-61836 - Directus: Authorization-dependent response served from unsegmented cache key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61836",
-      "summary": "CVE ID :CVE-2026-61836\n  \n  Published : July 15, 2026, 3:16 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :Directus is a real-time API and App dashbo...",
-      "timestamp": 1784128608.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61740 - LightRAG: Authentication bypass: hardcoded DEFAULT_TOKEN_SECRET and public /auth-status defeat LIGHTRAG_API_KEY protection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61740",
-      "summary": "CVE ID :CVE-2026-61740\n  \n  Published : July 15, 2026, 3:16 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :LightRAG provides simple and fast retrieva...",
-      "timestamp": 1784128608.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
@@ -243,14 +251,6 @@
       "vendor": "News"
     },
     {
-      "title": "Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/",
-      "summary": "Today is Microsoft's July 2026 Patch Tuesday, and with it comes security updates for a record-breaking 570 flaws, including two zero-day vulnerabiliti...",
-      "timestamp": 1784052096.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "July 2026 Security Update",
       "link": "https://www.ivanti.com/blog/july-2026-security-update",
       "summary": "Ivanti releases standard security patches on the second Tuesday of every month. In today\u2019s rapidly evolving technology and threat landscape, we believ...",
@@ -275,8 +275,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -291,8 +291,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -315,22 +315,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
       "summary": "",
@@ -339,8 +323,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0010 Chromium and Prisma Browser: Monthly Vulnerability Update (July 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0010",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -371,5 +371,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784137051.5260398
+  "last_updated": 1784141133.671669
 }
