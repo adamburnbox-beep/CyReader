@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Zoom warns of critical account takeover vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/",
+      "summary": "Zoom is warning of a critical vulnerability in its desktop client and software development kit for Windows that could be exploited by an unauthenticat...",
+      "timestamp": 1784146562.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
       "link": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
@@ -67,82 +75,82 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-62948 - OpenWrt odhcpd/LuCI: unauthenticated DHCPv6 client can inject lease-file lines via FQDN hostname \u2192 stored XSS in the LuCI admin UI",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62948",
-      "summary": "CVE ID :CVE-2026-62948\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :OpenWrt is a Linux operating system targeting embe...",
-      "timestamp": 1784139410.0,
+      "title": "CVE-2026-40501 - Cherry Studio RCE via SearchService nodeIntegration Misconfiguration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40501",
+      "summary": "CVE ID :CVE-2026-40501\n  \n  Published : July 15, 2026, 5:41 p.m. | 45\u00a0minutes ago\n  \n  Description :Cherry Studio versions 1.2.2 through 1.9.12, fixed...",
+      "timestamp": 1784137261.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-10673 - Out-of-bounds write in ADIN2111/ADIN1110 OA SPI Ethernet RX frame reassembly",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10673",
+      "summary": "CVE ID :CVE-2026-10673\n  \n  Published : July 15, 2026, 5:36 p.m. | 50\u00a0minutes ago\n  \n  Description :The Zephyr ADIN2111/ADIN1110 10BASE-T1S/T1L Ethern...",
+      "timestamp": 1784136991.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12382 - Aap-gateway: missing requestheaderstoremove allows mtls bypass via subject header spoofing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12382",
+      "summary": "CVE ID :CVE-2026-12382\n  \n  Published : July 15, 2026, 5:21 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :A flaw was found in the AAP Gateway Envoy p...",
+      "timestamp": 1784136088.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-20296 - SPL Command Safeguards Bypass through Cross-Site Request Forgery (CSRF) in Deployment Server in Splunk Enterprise",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20296",
+      "summary": "CVE ID :CVE-2026-20296\n  \n  Published : July 15, 2026, 5:18 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :In Splunk Enterprise versions below 10.4.1,...",
+      "timestamp": 1784135903.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62378 - RustFS Console: Critical Stored XSS in Preview Modal leading to Administrative Account Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62378",
+      "summary": "CVE ID :CVE-2026-62378\n  \n  Published : July 15, 2026, 5:16 p.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :RustFS Console is a web management console ...",
+      "timestamp": 1784135813.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52843 - Lightpanda: fetch() and XMLHttpRequest attach session cookies to cross-origin requests regardless of credentials mode",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52843",
+      "summary": "CVE ID :CVE-2026-52843\n  \n  Published : July 15, 2026, 5:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :Lightpanda is a headless browser designed ...",
+      "timestamp": 1784135810.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52842 - Lightpanda:URL parser misidentifies page origin for URLs containing @ in the path - Same-Origin Policy bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52842",
+      "summary": "CVE ID :CVE-2026-52842\n  \n  Published : July 15, 2026, 5:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :Lightpanda is a headless browser designed ...",
+      "timestamp": 1784135810.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-20156 - Cisco RoomOS Security Hardening Release - Buffer Management Vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20156",
+      "summary": "CVE ID :CVE-2026-20156\n  \n  Published : July 15, 2026, 5:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to p...",
+      "timestamp": 1784135807.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-20150 - Cisco RoomOS Security Hardening Release - Access Control Vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20150",
+      "summary": "CVE ID :CVE-2026-20150\n  \n  Published : July 15, 2026, 5:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to p...",
+      "timestamp": 1784135807.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-62389 - ws < 8.21.1 Default maxFragments Allows Memory Exhaustion DoS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62389",
-      "summary": "CVE ID :CVE-2026-62389\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :ws before 8.21.1 contains a memory exhaustion vuln...",
-      "timestamp": 1784139409.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59258 - immich < 3.0.3 Shared Album Editor Ownership Takeover via updateUser",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59258",
-      "summary": "CVE ID :CVE-2026-59258\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :immich before 3.0.3 contains a broken access contr...",
-      "timestamp": 1784139409.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58660 - Kanboard BoardAjaxController Missing Ownership Check via Drag-and-Drop",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58660",
-      "summary": "CVE ID :CVE-2026-58660\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Kanboard through 1.2.52, fixed in commit 564cc30, ...",
-      "timestamp": 1784139408.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58659 - PyTorch Lightning Arbitrary Code Execution via _instantiator Hyperparameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58659",
-      "summary": "CVE ID :CVE-2026-58659\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :PyTorch Lightning through 2.6.5, fixed in commit d...",
-      "timestamp": 1784139408.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58658 - GPUStack Unauthenticated Information Disclosure via Worker Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58658",
-      "summary": "CVE ID :CVE-2026-58658\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :GPUStack through 2.2.1, fixed in commit 4e20551, c...",
-      "timestamp": 1784139408.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53517 - Better Auth OAuth Provider: Refresh Token Rotation Race Condition Allows Concurrent Replay and Token Family Forking",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53517",
-      "summary": "CVE ID :CVE-2026-53517\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Better Auth is an authentication and authorization...",
-      "timestamp": 1784139408.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53516 - Better Auth: Account takeover via OAuth auto-link to unverified pre-registered email",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53516",
-      "summary": "CVE ID :CVE-2026-53516\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Better Auth is an authentication and authorization...",
-      "timestamp": 1784139407.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53513 - Better Auth: Server-side request forgery via unvalidated OIDC endpoints on @better-auth/sso provider registration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53513",
-      "summary": "CVE ID :CVE-2026-53513\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Better Auth is an authentication and authorization...",
-      "timestamp": 1784139407.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53512 - Better Auth: OAuth refresh-token replay via missing client authentication on oidc-provider and mcp plugins",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53512",
-      "summary": "CVE ID :CVE-2026-53512\n  \n  Published : July 15, 2026, 6:16 p.m. | 14\u00a0minutes ago\n  \n  Description :Better Auth is an authentication and authorization...",
-      "timestamp": 1784139407.0,
+      "summary": "CVE ID :CVE-2026-62389\n  \n  Published : July 15, 2026, 5:04 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :ws before 8.21.1 contains a memory exhaust...",
+      "timestamp": 1784135066.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -243,14 +251,6 @@
       "vendor": "News"
     },
     {
-      "title": "Microsoft releases Windows 10 KB5099539 extended security update",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/",
-      "summary": "Microsoft has released the Windows 10 KB5099539 extended security update, which includes this month's record-breaking July 2026 Patch Tuesday fixes, a...",
-      "timestamp": 1784054968.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "July 2026 Security Update",
       "link": "https://www.ivanti.com/blog/july-2026-security-update",
       "summary": "Ivanti releases standard security patches on the second Tuesday of every month. In today\u2019s rapidly evolving technology and threat landscape, we believ...",
@@ -275,32 +275,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -323,6 +299,22 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
       "summary": "",
@@ -331,16 +323,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0010 Chromium and Prisma Browser: Monthly Vulnerability Update (July 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0010",
+      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0276 Cortex XDR Broker VM: Privilege Escalation (PE) Vulnerability (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0276",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -371,5 +371,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784141133.671669
+  "last_updated": 1784146880.3383844
 }
