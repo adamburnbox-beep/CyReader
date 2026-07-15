@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 5,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,7 +52,7 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
@@ -75,9 +75,65 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-62312 - 9Router: Authenticated RCE via Unvalidated MCP Plugin Arguments",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62312",
+      "summary": "CVE ID :CVE-2026-62312\n  \n  Published : July 15, 2026, 9:16 p.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :9Router is an AI router & token saver. Prio...",
+      "timestamp": 1784150215.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56679 - 9Router: Mass assignment in PATCH /api/settings allows authenticated authorization downgrade",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56679",
+      "summary": "CVE ID :CVE-2026-56679\n  \n  Published : July 15, 2026, 9:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :9Router is an AI router & token saver. Pri...",
+      "timestamp": 1784150215.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54052 - n8n-MCP: Cross-tenant access to workflow version backups in multi-tenant HTTP deployments",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54052",
+      "summary": "CVE ID :CVE-2026-54052\n  \n  Published : July 15, 2026, 9:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :n8n-MCP is an MCP server that provides AI ...",
+      "timestamp": 1784150214.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52887 - NocoBase: SQL injection in /api/myInAppChannels:list filter to PG-superuser RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52887",
+      "summary": "CVE ID :CVE-2026-52887\n  \n  Published : July 15, 2026, 9:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :NocoBase is an AI-powered no-code/low-code...",
+      "timestamp": 1784150214.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49352 - 9Router: Hardcoded Default fallback JWT Secret  Allows Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49352",
+      "summary": "CVE ID :CVE-2026-49352\n  \n  Published : July 15, 2026, 9:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :9Router is an AI router & token saver. Fro...",
+      "timestamp": 1784150213.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46339 - 9Router: Unauthenticated Remote Code Execution via unprotected MCP custom plugin routes",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46339",
+      "summary": "CVE ID :CVE-2026-46339\n  \n  Published : July 15, 2026, 9:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :9Router is an AI router & token saver. Fro...",
+      "timestamp": 1784150210.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-33445 - Memory management vulnerability in Secure Access servers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33445",
+      "summary": "CVE ID :CVE-2026-33445\n  \n  Published : July 15, 2026, 9:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :CVE-2026-33445 is a memory management\nvuln...",
+      "timestamp": 1784150196.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-49445 - Cilium: Sensitive information disclosure and cluster disruption via local Envoy admin socket access",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49445",
-      "summary": "CVE ID :CVE-2026-49445\n  \n  Published : July 15, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :Cilium is a networking, observability, and securit...",
+      "summary": "CVE ID :CVE-2026-49445\n  \n  Published : July 15, 2026, 8:17 p.m. | 2\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Cilium is a networking, observability, and...",
       "timestamp": 1784146630.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +141,7 @@
     {
       "title": "CVE-2026-46684 - DataEase: Unauthorized Command Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46684",
-      "summary": "CVE ID :CVE-2026-46684\n  \n  Published : July 15, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :DataEase is an open source data visualization and ...",
+      "summary": "CVE ID :CVE-2026-46684\n  \n  Published : July 15, 2026, 8:17 p.m. | 2\u00a0hours, 9\u00a0minutes ago\n  \n  Description :DataEase is an open source data visualizat...",
       "timestamp": 1784146625.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,56 +149,8 @@
     {
       "title": "CVE-2026-45535 - DataEase: Stored SQL Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45535",
-      "summary": "CVE ID :CVE-2026-45535\n  \n  Published : July 15, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :DataEase is an open source data visualization and ...",
+      "summary": "CVE ID :CVE-2026-45535\n  \n  Published : July 15, 2026, 8:17 p.m. | 2\u00a0hours, 9\u00a0minutes ago\n  \n  Description :DataEase is an open source data visualizat...",
       "timestamp": 1784146624.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45534 - DataEase: RCE Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45534",
-      "summary": "CVE ID :CVE-2026-45534\n  \n  Published : July 15, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :DataEase is an open source data visualization and ...",
-      "timestamp": 1784146624.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45533 - DataEase: Path Traversal Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45533",
-      "summary": "CVE ID :CVE-2026-45533\n  \n  Published : July 15, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :DataEase is an open source data visualization and ...",
-      "timestamp": 1784146624.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45419 - DataEase: Arbitrary File Write Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45419",
-      "summary": "CVE ID :CVE-2026-45419\n  \n  Published : July 15, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :DataEase is an open source data visualization and ...",
-      "timestamp": 1784146624.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45417 - DataEase: SQL injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45417",
-      "summary": "CVE ID :CVE-2026-45417\n  \n  Published : July 15, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :DataEase is an open source data visualization and ...",
-      "timestamp": 1784146623.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45320 - DataEase Data Dashboard SqlVariable transFilter Unfiltered SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45320",
-      "summary": "CVE ID :CVE-2026-45320\n  \n  Published : July 15, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :DataEase is an open source data visualization and ...",
-      "timestamp": 1784146623.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-40952 - Privilge misconfiguration in Secure Access installers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40952",
-      "summary": "CVE ID :CVE-2026-40952\n  \n  Published : July 15, 2026, 8:16 p.m. | 32\u00a0minutes ago\n  \n  Description :CVE-2026-40952 is a privilege misconfiguration\nin ...",
-      "timestamp": 1784146617.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -153,14 +161,6 @@
       "timestamp": 1784146562.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-33445 - Memory management vulnerability in Secure Access servers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33445",
-      "summary": "CVE ID :CVE-2026-33445\n  \n  Published : July 15, 2026, 8:13 p.m. | 36\u00a0minutes ago\n  \n  Description :CVE-2026-33445 is a memory management\nvulnerabilit...",
-      "timestamp": 1784146435.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
@@ -283,8 +283,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -299,8 +299,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -315,24 +315,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -347,8 +347,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -379,5 +379,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784155083.3447256
+  "last_updated": 1784158722.4302227
 }
