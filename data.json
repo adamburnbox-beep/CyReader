@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,76 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 6,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-55652 - Wekan: Header-login IP allowlist bypass via X-Forwarded-For spoofing in Wekan allows unauthenticated full account takeover (incl. admin)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55652",
+      "summary": "CVE ID :CVE-2026-55652\n  \n  Published : July 15, 2026, 10:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :Wekan is open source kanban built with Me...",
+      "timestamp": 1784153846.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55576 - MaaAssistantArknights: PR-title expression injection in release-preparation.yml",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55576",
+      "summary": "CVE ID :CVE-2026-55576\n  \n  Published : July 15, 2026, 10:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :MaaAssistantArknights is a one-click tool...",
+      "timestamp": 1784153846.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55445 - Qinglong: Incomplete fix for CVE-2026-3965: Improper Authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55445",
+      "summary": "CVE ID :CVE-2026-55445\n  \n  Published : July 15, 2026, 10:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :Qinglong is a timed task management platf...",
+      "timestamp": 1784153846.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55234 - Wekan: Broken access control: any authenticated user can move their Cards/Lists/Swimlanes into a private board they are not a member of (cross-board write via collection allow rule)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55234",
+      "summary": "CVE ID :CVE-2026-55234\n  \n  Published : July 15, 2026, 10:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :Wekan is open source kanban built with Me...",
+      "timestamp": 1784153845.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54458 - AVideo: Unauthenticated Stored DOM Cross-Site Scripting via Per-Client Metadata Broadcast in YPTSocket Plugin",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54458",
+      "summary": "CVE ID :CVE-2026-54458\n  \n  Published : July 15, 2026, 10:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :WWBN AVideo is an open source video platf...",
+      "timestamp": 1784153839.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52893 - Wekan: OIDC Account Takeover via Unconditional Email-Based Account Merge in onCreateUser hook",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52893",
+      "summary": "CVE ID :CVE-2026-52893\n  \n  Published : July 15, 2026, 10:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :Wekan is open source kanban built with Me...",
+      "timestamp": 1784153836.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52891 - Wekan: Shell Injection via Avatar Upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52891",
+      "summary": "CVE ID :CVE-2026-52891\n  \n  Published : July 15, 2026, 10:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :Wekan is open source kanban built with Me...",
+      "timestamp": 1784153836.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48795 - Incomplete fix for CVE-2026-25754 in @adonisjs/bodyparser",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48795",
+      "summary": "CVE ID :CVE-2026-48795\n  \n  Published : July 15, 2026, 10:16 p.m. | 1\u00a0hour, 50\u00a0minutes ago\n  \n  Description :AdonisJS is a TypeScript-first web framew...",
+      "timestamp": 1784153810.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
@@ -77,7 +141,7 @@
     {
       "title": "CVE-2026-62312 - 9Router: Authenticated RCE via Unvalidated MCP Plugin Arguments",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62312",
-      "summary": "CVE ID :CVE-2026-62312\n  \n  Published : July 15, 2026, 9:16 p.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :9Router is an AI router & token saver. Prio...",
+      "summary": "CVE ID :CVE-2026-62312\n  \n  Published : July 15, 2026, 9:16 p.m. | 2\u00a0hours, 50\u00a0minutes ago\n  \n  Description :9Router is an AI router & token saver. Pr...",
       "timestamp": 1784150215.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,72 +149,8 @@
     {
       "title": "CVE-2026-56679 - 9Router: Mass assignment in PATCH /api/settings allows authenticated authorization downgrade",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56679",
-      "summary": "CVE ID :CVE-2026-56679\n  \n  Published : July 15, 2026, 9:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :9Router is an AI router & token saver. Pri...",
+      "summary": "CVE ID :CVE-2026-56679\n  \n  Published : July 15, 2026, 9:16 p.m. | 2\u00a0hours, 50\u00a0minutes ago\n  \n  Description :9Router is an AI router & token saver. Pr...",
       "timestamp": 1784150215.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54052 - n8n-MCP: Cross-tenant access to workflow version backups in multi-tenant HTTP deployments",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54052",
-      "summary": "CVE ID :CVE-2026-54052\n  \n  Published : July 15, 2026, 9:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :n8n-MCP is an MCP server that provides AI ...",
-      "timestamp": 1784150214.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52887 - NocoBase: SQL injection in /api/myInAppChannels:list filter to PG-superuser RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52887",
-      "summary": "CVE ID :CVE-2026-52887\n  \n  Published : July 15, 2026, 9:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :NocoBase is an AI-powered no-code/low-code...",
-      "timestamp": 1784150214.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49352 - 9Router: Hardcoded Default fallback JWT Secret  Allows Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49352",
-      "summary": "CVE ID :CVE-2026-49352\n  \n  Published : July 15, 2026, 9:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :9Router is an AI router & token saver. Fro...",
-      "timestamp": 1784150213.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-46339 - 9Router: Unauthenticated Remote Code Execution via unprotected MCP custom plugin routes",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46339",
-      "summary": "CVE ID :CVE-2026-46339\n  \n  Published : July 15, 2026, 9:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :9Router is an AI router & token saver. Fro...",
-      "timestamp": 1784150210.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-33445 - Memory management vulnerability in Secure Access servers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33445",
-      "summary": "CVE ID :CVE-2026-33445\n  \n  Published : July 15, 2026, 9:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :CVE-2026-33445 is a memory management\nvuln...",
-      "timestamp": 1784150196.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49445 - Cilium: Sensitive information disclosure and cluster disruption via local Envoy admin socket access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49445",
-      "summary": "CVE ID :CVE-2026-49445\n  \n  Published : July 15, 2026, 8:17 p.m. | 2\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Cilium is a networking, observability, and...",
-      "timestamp": 1784146630.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-46684 - DataEase: Unauthorized Command Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46684",
-      "summary": "CVE ID :CVE-2026-46684\n  \n  Published : July 15, 2026, 8:17 p.m. | 2\u00a0hours, 9\u00a0minutes ago\n  \n  Description :DataEase is an open source data visualizat...",
-      "timestamp": 1784146625.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45535 - DataEase: Stored SQL Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45535",
-      "summary": "CVE ID :CVE-2026-45535\n  \n  Published : July 15, 2026, 8:17 p.m. | 2\u00a0hours, 9\u00a0minutes ago\n  \n  Description :DataEase is an open source data visualizat...",
-      "timestamp": 1784146624.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -379,5 +379,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784158722.4302227
+  "last_updated": 1784164276.2949767
 }
