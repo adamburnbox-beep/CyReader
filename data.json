@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,84 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 7,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-15352 - NASA Core Flight System (cFS) Health & Safety (HS) Application NULL Pointer Dereference",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15352",
+      "summary": "CVE ID :CVE-2026-15352\n  \n  Published : July 16, 2026, 7:48 p.m. | 38\u00a0minutes ago\n  \n  Description :A vulnerability exists in the Health & Safety (HS)...",
+      "timestamp": 1784231323.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15422 - SCTP needs to better-check INIT ACK chunk parameters",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15422",
+      "summary": "CVE ID :CVE-2026-15422\n  \n  Published : July 16, 2026, 7:29 p.m. | 58\u00a0minutes ago\n  \n  Description :The illumos SCTP inbound path performs association...",
+      "timestamp": 1784230153.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63089 - WireGuard Easy Weak Token Generation Information Disclosure via OTL Route",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63089",
+      "summary": "CVE ID :CVE-2026-63089\n  \n  Published : July 16, 2026, 7:28 p.m. | 58\u00a0minutes ago\n  \n  Description :WireGuard Easy through 15.3.0, fixed in commit 66b...",
+      "timestamp": 1784230117.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
+      "link": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
+      "summary": "A flaw in Anthropic's Claude for Chrome browser extension could allow a malicious extension to trigger predefined AI actions by simulating user clicks...",
+      "timestamp": 1784229967.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-54526 - Argo Workflows: Incomplete fix for CVE-2026-31892: ArtifactGC.PodSpecPatch bypass of Strict/Secure templateReferencing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54526",
+      "summary": "CVE ID :CVE-2026-54526\n  \n  Published : July 16, 2026, 7:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :Argo Workflows is an open source container...",
+      "timestamp": 1784229410.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46515 - Frogman: Multiple read-tier tools expose admin-grade data and arbitrary GraphQL execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46515",
+      "summary": "CVE ID :CVE-2026-46515\n  \n  Published : July 16, 2026, 7:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :Frogman provides headless PBX control thro...",
+      "timestamp": 1784229406.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46512 - Frogman: Dialplan template parameters interpolated into extensions_custom.conf without escaping",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46512",
+      "summary": "CVE ID :CVE-2026-46512\n  \n  Published : July 16, 2026, 7:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :Frogman provides headless PBX control thro...",
+      "timestamp": 1784229406.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46353 - BigBlueButton API checksum bypass via presentationUploadExternalUrl",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46353",
+      "summary": "CVE ID :CVE-2026-46353\n  \n  Published : July 16, 2026, 7:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :BigBlueButton is an open-source virtual cl...",
+      "timestamp": 1784229406.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46351 - BigBlueButton: Insecure Randomness allows to guess user's conference session token and impersonate them",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46351",
+      "summary": "CVE ID :CVE-2026-46351\n  \n  Published : July 16, 2026, 7:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :BigBlueButton is an open-source virtual cl...",
+      "timestamp": 1784229405.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "New OkoBot framework deploys 20 payloads to steal data, crypto",
       "link": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
@@ -69,7 +141,7 @@
     {
       "title": "CVE-2026-46686 - Emlog Reflected Cross-Site Scripting",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46686",
-      "summary": "CVE ID :CVE-2026-46686\n  \n  Published : July 16, 2026, 6:16 p.m. | 59\u00a0minutes ago\n  \n  Description :Emlog is an open source website building system. I...",
+      "summary": "CVE ID :CVE-2026-46686\n  \n  Published : July 16, 2026, 6:16 p.m. | 2\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Emlog is an open source website building ...",
       "timestamp": 1784225804.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,72 +149,8 @@
     {
       "title": "CVE-2026-45336 - HireFlow: Use of Hard-coded Credentials",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-45336",
-      "summary": "CVE ID :CVE-2026-45336\n  \n  Published : July 16, 2026, 6:16 p.m. | 59\u00a0minutes ago\n  \n  Description :HireFlow is a web-based interview management syste...",
+      "summary": "CVE ID :CVE-2026-45336\n  \n  Published : July 16, 2026, 6:16 p.m. | 2\u00a0hours, 10\u00a0minutes ago\n  \n  Description :HireFlow is a web-based interview managem...",
       "timestamp": 1784225803.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2021-27137 - DD-WRT UPnP Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2021-27137",
-      "summary": "CVE ID :CVE-2021-27137\n  \n  Published : July 16, 2026, 6:16 p.m. | 59\u00a0minutes ago\n  \n  Description :An issue was discovered in router/upnp/src/ssdp.c ...",
-      "timestamp": 1784225799.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63088 - stoatchat < 0.14.0 SSRF via DNS-based IP Blocklist Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63088",
-      "summary": "CVE ID :CVE-2026-63088\n  \n  Published : July 16, 2026, 5:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :stoatchat before 0.14.0 contains a server-...",
-      "timestamp": 1784222218.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63087 - Grafana OnCall 1.16.11 Unauthenticated Token Hijack via Plugin Install Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63087",
-      "summary": "CVE ID :CVE-2026-63087\n  \n  Published : July 16, 2026, 5:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Grafana OnCall through 1.16.11 contains an...",
-      "timestamp": 1784222218.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63086 - text-generation-inference 3.3.7 SSRF via fetch_image in multimodal chat completions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63086",
-      "summary": "CVE ID :CVE-2026-63086\n  \n  Published : July 16, 2026, 5:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :text-generation-inference through 3.3.7 co...",
-      "timestamp": 1784222218.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63085 - Axelor Open Platform 8.x < 8.2.2 Authorization Bypass via Nested Relational Record Persistence",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63085",
-      "summary": "CVE ID :CVE-2026-63085\n  \n  Published : July 16, 2026, 5:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Axelor Open Platform versions 8.x prior to...",
-      "timestamp": 1784222218.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-46621 - Yamcs: Authenticated Remote Code Execution (RCE) via Jython Algorithm Code Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46621",
-      "summary": "CVE ID :CVE-2026-46621\n  \n  Published : July 16, 2026, 5:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Yamcs is a mission control framework. Prio...",
-      "timestamp": 1784222217.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-46562 - Yamcs: Remote Code Execution via Mission Database algorithm override",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46562",
-      "summary": "CVE ID :CVE-2026-46562\n  \n  Published : July 16, 2026, 5:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Yamcs is a mission control framework. Prio...",
-      "timestamp": 1784222216.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45576 - zrok copy writes attacker-controlled WebDAV paths outside the destination root",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45576",
-      "summary": "CVE ID :CVE-2026-45576\n  \n  Published : July 16, 2026, 5:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :zrok is software for sharing web services,...",
-      "timestamp": 1784222216.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -215,14 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
       "summary": "The Dutch Police announced the arrest of multiple individuals suspected of being part of an international investment fraud scheme estimated to have te...",
       "timestamp": 1784152550.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Zoom warns of critical account takeover vulnerability",
-      "link": "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/",
-      "summary": "Zoom is warning of a critical vulnerability in its desktop client and software development kit for Windows that could be exploited by an unauthenticat...",
-      "timestamp": 1784146562.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -379,5 +379,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784230188.6094415
+  "last_updated": 1784234063.9727302
 }
