@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,96 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CISA orders feds to patch actively exploited Oracle flaw by Saturday",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/",
+      "summary": "CISA has ordered federal agencies to secure their systems by Saturday against ongoing attacks exploiting a critical vulnerability in the Oracle E-Busi...",
+      "timestamp": 1784199363.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Russian hackers trojanize WebEx, Zoom apps to push Starland malware",
+      "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/",
+      "summary": "A financially motivated Russian threat actor tracked as UAT-11795 is using trojanized software to steal credentials and cryptocurrency by deploying a ...",
+      "timestamp": 1784197174.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "New Spirals ransomware encrypts victim network in under 24 hours",
+      "link": "https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/",
+      "summary": "A new ransomware actor called Spirals completed a corporate intrusion, from initial access to data theft and encryption, in less than 24 hours. [...]",
+      "timestamp": 1784196000.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-6423 - Local privilege escalation via unauthenticated ALPC in ESET Inspect Connector",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6423",
+      "summary": "CVE ID :CVE-2026-6423\n  \n  Published : July 16, 2026, 9:16 a.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :A local privilege escalation vulnerability i...",
+      "timestamp": 1784193379.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58078 - Joomla Extension - themexpert.com - Unauthenticated SQL injection in Quix Page Builder Pro < 6.2.1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58078",
+      "summary": "CVE ID :CVE-2026-58078\n  \n  Published : July 16, 2026, 9:16 a.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :The Joomla extension Quix Page Builder Pro ...",
+      "timestamp": 1784193379.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15103 - WPFunnels <= 3.12.8 - Authenticated (Funnel Manager+) Privilege Escalation via 'group_id' Path Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15103",
+      "summary": "CVE ID :CVE-2026-15103\n  \n  Published : July 16, 2026, 9:16 a.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :The WPFunnels \u2013 Funnel Builder for WooComme...",
+      "timestamp": 1784193377.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15008 - Uncanny Automator <= 7.3.1.4 - Unauthenticated PHP Object Injection to Arbitrary File Deletion via Forminator Submitted-Field Token",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15008",
+      "summary": "CVE ID :CVE-2026-15008\n  \n  Published : July 16, 2026, 9:16 a.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :The Uncanny Automator \u2013 Easy Automation, In...",
+      "timestamp": 1784193377.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15005 - Loco Translate <= 2.8.5 - Cross-Site Request Forgery to Remote Code Execution via 'template' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15005",
+      "summary": "CVE ID :CVE-2026-15005\n  \n  Published : July 16, 2026, 9:16 a.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :The Loco Translate plugin for WordPress is ...",
+      "timestamp": 1784193377.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13741 - Digits: WordPress Mobile Number Signup and Login <= 9.1.0.5 - Authenticated (Subscriber+) Privilege Escalation via 'digits_reg_userrole' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13741",
+      "summary": "CVE ID :CVE-2026-13741\n  \n  Published : July 16, 2026, 9:16 a.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :The Digits: WordPress Mobile Number Signup ...",
+      "timestamp": 1784193376.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-22752 - Spring Security Authorization Server Dynamic Client Registration endpoints perform insufficient validation of client metadata",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22752",
+      "summary": "CVE ID :CVE-2026-22752\n  \n  Published : July 16, 2026, 8:40 a.m. | 1\u00a0hour, 39\u00a0minutes ago\n  \n  Description :Authentication bypass by primary weakness ...",
+      "timestamp": 1784191223.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-15925 - Improper TLS Hostname Verification in Snowflake Connector for Python",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15925",
-      "summary": "CVE ID :CVE-2026-15925\n  \n  Published : July 16, 2026, 7:16 a.m. | 50\u00a0minutes ago\n  \n  Description :Improper TLS hostname verification in Snowflake Co...",
+      "summary": "CVE ID :CVE-2026-15925\n  \n  Published : July 16, 2026, 7:16 a.m. | 3\u00a0hours, 3\u00a0minutes ago\n  \n  Description :Improper TLS hostname verification in Snow...",
       "timestamp": 1784186207.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +149,7 @@
     {
       "title": "CVE-2026-15013 - SAML Single Sign On <= 5.4.3 - Unauthenticated Authentication Bypass via 'SAMLResponse' Parameter Signature Algorithm Confusion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15013",
-      "summary": "CVE ID :CVE-2026-15013\n  \n  Published : July 16, 2026, 5:16 a.m. | 2\u00a0hours, 51\u00a0minutes ago\n  \n  Description :The SAML Single Sign On \u2013 SSO Login plugi...",
+      "summary": "CVE ID :CVE-2026-15013\n  \n  Published : July 16, 2026, 5:16 a.m. | 5\u00a0hours, 3\u00a0minutes ago\n  \n  Description :The SAML Single Sign On \u2013 SSO Login plugin...",
       "timestamp": 1784178978.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,64 +157,8 @@
     {
       "title": "CVE-2026-1609 - Org.keycloak/keycloak-quarkus-server: keycloak: unauthorized access via jwt authorization grant with disabled users",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-1609",
-      "summary": "CVE ID :CVE-2026-1609\n  \n  Published : July 16, 2026, 1:16 a.m. | 6\u00a0hours, 51\u00a0minutes ago\n  \n  Description :A flaw was found in Keycloak. When the JSO...",
+      "summary": "CVE ID :CVE-2026-1609\n  \n  Published : July 16, 2026, 1:16 a.m. | 9\u00a0hours, 3\u00a0minutes ago\n  \n  Description :A flaw was found in Keycloak. When the JSON...",
       "timestamp": 1784164590.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55652 - Wekan: Header-login IP allowlist bypass via X-Forwarded-For spoofing in Wekan allows unauthenticated full account takeover (incl. admin)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55652",
-      "summary": "CVE ID :CVE-2026-55652\n  \n  Published : July 15, 2026, 10:17 p.m. | 9\u00a0hours, 50\u00a0minutes ago\n  \n  Description :Wekan is open source kanban built with M...",
-      "timestamp": 1784153846.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55576 - MaaAssistantArknights: PR-title expression injection in release-preparation.yml",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55576",
-      "summary": "CVE ID :CVE-2026-55576\n  \n  Published : July 15, 2026, 10:17 p.m. | 9\u00a0hours, 50\u00a0minutes ago\n  \n  Description :MaaAssistantArknights is a one-click too...",
-      "timestamp": 1784153846.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55445 - Qinglong: Incomplete fix for CVE-2026-3965: Improper Authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55445",
-      "summary": "CVE ID :CVE-2026-55445\n  \n  Published : July 15, 2026, 10:17 p.m. | 9\u00a0hours, 50\u00a0minutes ago\n  \n  Description :Qinglong is a timed task management plat...",
-      "timestamp": 1784153846.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55234 - Wekan: Broken access control: any authenticated user can move their Cards/Lists/Swimlanes into a private board they are not a member of (cross-board write via collection allow rule)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55234",
-      "summary": "CVE ID :CVE-2026-55234\n  \n  Published : July 15, 2026, 10:17 p.m. | 9\u00a0hours, 50\u00a0minutes ago\n  \n  Description :Wekan is open source kanban built with M...",
-      "timestamp": 1784153845.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54458 - AVideo: Unauthenticated Stored DOM Cross-Site Scripting via Per-Client Metadata Broadcast in YPTSocket Plugin",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54458",
-      "summary": "CVE ID :CVE-2026-54458\n  \n  Published : July 15, 2026, 10:17 p.m. | 9\u00a0hours, 50\u00a0minutes ago\n  \n  Description :WWBN AVideo is an open source video plat...",
-      "timestamp": 1784153839.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52893 - Wekan: OIDC Account Takeover via Unconditional Email-Based Account Merge in onCreateUser hook",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52893",
-      "summary": "CVE ID :CVE-2026-52893\n  \n  Published : July 15, 2026, 10:17 p.m. | 9\u00a0hours, 50\u00a0minutes ago\n  \n  Description :Wekan is open source kanban built with M...",
-      "timestamp": 1784153836.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52891 - Wekan: Shell Injection via Avatar Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52891",
-      "summary": "CVE ID :CVE-2026-52891\n  \n  Published : July 15, 2026, 10:17 p.m. | 9\u00a0hours, 50\u00a0minutes ago\n  \n  Description :Wekan is open source kanban built with M...",
-      "timestamp": 1784153836.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -227,30 +251,6 @@
       "vendor": "News"
     },
     {
-      "title": "US charges alleged operators of Russian bulletproof hosting service",
-      "link": "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/",
-      "summary": "U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ranso...",
-      "timestamp": 1784101550.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
-      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
-      "summary": "SonicWall warns that threat actors have been exploiting two SMA1000 vulnerabilities, tracked as\u00a0CVE-2026-15409 and CVE-2026-15410, in zero-day attacks...",
-      "timestamp": 1784064204.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Spanish Police take down \u20ac140 million cyber fraud ring, arrest four",
-      "link": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
-      "summary": "The Spanish Police dismantled a cybercrime and money-laundering organization that made \u20ac140 million ($160 million) from investment fraud and business ...",
-      "timestamp": 1784060589.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Microsoft Patches a Record 570 Security Flaws",
       "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
       "summary": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple...",
@@ -283,16 +283,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -307,24 +299,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
+      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -339,16 +323,32 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0276 Cortex XDR Broker VM: Privilege Escalation (PE) Vulnerability (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0276",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -379,5 +379,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784194299.9925787
+  "last_updated": 1784201035.6741617
 }
