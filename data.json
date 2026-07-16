@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,33 +52,73 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 8,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-15352 - NASA Core Flight System (cFS) Health & Safety (HS) Application NULL Pointer Dereference",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15352",
-      "summary": "CVE ID :CVE-2026-15352\n  \n  Published : July 16, 2026, 7:48 p.m. | 38\u00a0minutes ago\n  \n  Description :A vulnerability exists in the Health & Safety (HS)...",
-      "timestamp": 1784231323.0,
+      "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
+      "link": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
+      "summary": "The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspendin...",
+      "timestamp": 1784236181.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-63089 - WireGuard Easy Weak Token Generation Information Disclosure via OTL Route",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63089",
+      "summary": "CVE ID :CVE-2026-63089\n  \n  Published : July 16, 2026, 8:16 p.m. | 59\u00a0minutes ago\n  \n  Description :WireGuard Easy through 15.3.0, fixed in commit 66b...",
+      "timestamp": 1784233007.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62963 - Centrifugo: Decompression bomb DoS via permessage-deflate in unidirectional WebSocket transport",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62963",
+      "summary": "CVE ID :CVE-2026-62963\n  \n  Published : July 16, 2026, 8:16 p.m. | 59\u00a0minutes ago\n  \n  Description :Centrifugo is an open-source scalable real-time me...",
+      "timestamp": 1784233007.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55629 - Whistle: Path traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55629",
+      "summary": "CVE ID :CVE-2026-55629\n  \n  Published : July 16, 2026, 8:16 p.m. | 59\u00a0minutes ago\n  \n  Description :Whistle is an HTTP, HTTP2, HTTPS, and WebSocket de...",
+      "timestamp": 1784233005.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49998 - Centrifugo: Dynamic JWKS key cache keyed only by `kid` allows cross-issuer JWT authentication bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49998",
+      "summary": "CVE ID :CVE-2026-49998\n  \n  Published : July 16, 2026, 8:16 p.m. | 59\u00a0minutes ago\n  \n  Description :Centrifugo is an open-source scalable real-time me...",
+      "timestamp": 1784233005.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-44981 - CrowdSec LAPI: Denial of Service via Unbounded Gzip Decompression",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44981",
+      "summary": "CVE ID :CVE-2026-44981\n  \n  Published : July 16, 2026, 8:16 p.m. | 59\u00a0minutes ago\n  \n  Description :CrowdSec offers crowdsourced protection against ma...",
+      "timestamp": 1784233004.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-15422 - SCTP needs to better-check INIT ACK chunk parameters",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15422",
-      "summary": "CVE ID :CVE-2026-15422\n  \n  Published : July 16, 2026, 7:29 p.m. | 58\u00a0minutes ago\n  \n  Description :The illumos SCTP inbound path performs association...",
-      "timestamp": 1784230153.0,
+      "summary": "CVE ID :CVE-2026-15422\n  \n  Published : July 16, 2026, 8:16 p.m. | 59\u00a0minutes ago\n  \n  Description :The illumos SCTP inbound path performs association...",
+      "timestamp": 1784233004.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-63089 - WireGuard Easy Weak Token Generation Information Disclosure via OTL Route",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63089",
-      "summary": "CVE ID :CVE-2026-63089\n  \n  Published : July 16, 2026, 7:28 p.m. | 58\u00a0minutes ago\n  \n  Description :WireGuard Easy through 15.3.0, fixed in commit 66b...",
-      "timestamp": 1784230117.0,
+      "title": "CVE-2026-15352 - NASA Core Flight System (cFS) Health & Safety (HS) Application NULL Pointer Dereference",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15352",
+      "summary": "CVE ID :CVE-2026-15352\n  \n  Published : July 16, 2026, 8:16 p.m. | 59\u00a0minutes ago\n  \n  Description :A vulnerability exists in the Health & Safety (HS)...",
+      "timestamp": 1784233004.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -93,7 +133,7 @@
     {
       "title": "CVE-2026-54526 - Argo Workflows: Incomplete fix for CVE-2026-31892: ArtifactGC.PodSpecPatch bypass of Strict/Secure templateReferencing",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54526",
-      "summary": "CVE ID :CVE-2026-54526\n  \n  Published : July 16, 2026, 7:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :Argo Workflows is an open source container...",
+      "summary": "CVE ID :CVE-2026-54526\n  \n  Published : July 16, 2026, 7:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Argo Workflows is an open source container...",
       "timestamp": 1784229410.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +141,7 @@
     {
       "title": "CVE-2026-46515 - Frogman: Multiple read-tier tools expose admin-grade data and arbitrary GraphQL execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46515",
-      "summary": "CVE ID :CVE-2026-46515\n  \n  Published : July 16, 2026, 7:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :Frogman provides headless PBX control thro...",
+      "summary": "CVE ID :CVE-2026-46515\n  \n  Published : July 16, 2026, 7:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Frogman provides headless PBX control thro...",
       "timestamp": 1784229406.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,24 +149,8 @@
     {
       "title": "CVE-2026-46512 - Frogman: Dialplan template parameters interpolated into extensions_custom.conf without escaping",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46512",
-      "summary": "CVE ID :CVE-2026-46512\n  \n  Published : July 16, 2026, 7:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :Frogman provides headless PBX control thro...",
+      "summary": "CVE ID :CVE-2026-46512\n  \n  Published : July 16, 2026, 7:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Frogman provides headless PBX control thro...",
       "timestamp": 1784229406.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-46353 - BigBlueButton API checksum bypass via presentationUploadExternalUrl",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46353",
-      "summary": "CVE ID :CVE-2026-46353\n  \n  Published : July 16, 2026, 7:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :BigBlueButton is an open-source virtual cl...",
-      "timestamp": 1784229406.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-46351 - BigBlueButton: Insecure Randomness allows to guess user's conference session token and impersonate them",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46351",
-      "summary": "CVE ID :CVE-2026-46351\n  \n  Published : July 16, 2026, 7:16 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :BigBlueButton is an open-source virtual cl...",
-      "timestamp": 1784229405.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -137,22 +161,6 @@
       "timestamp": 1784228975.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-46686 - Emlog Reflected Cross-Site Scripting",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46686",
-      "summary": "CVE ID :CVE-2026-46686\n  \n  Published : July 16, 2026, 6:16 p.m. | 2\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Emlog is an open source website building ...",
-      "timestamp": 1784225804.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45336 - HireFlow: Use of Hard-coded Credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45336",
-      "summary": "CVE ID :CVE-2026-45336\n  \n  Published : July 16, 2026, 6:16 p.m. | 2\u00a0hours, 10\u00a0minutes ago\n  \n  Description :HireFlow is a web-based interview managem...",
-      "timestamp": 1784225803.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "AI Agents Broke the Security Playbook. Here's What Replaces It.",
@@ -219,14 +227,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "Dutch police bust investment fraud ring stealing over \u20ac100 million",
-      "link": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
-      "summary": "The Dutch Police announced the arrest of multiple individuals suspected of being part of an international investment fraud scheme estimated to have te...",
-      "timestamp": 1784152550.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of July 15, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-ILh3ZrP5?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%2015,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On July 15, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE ID\nSecu...",
@@ -283,56 +283,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -347,8 +307,48 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0276 Cortex XDR Broker VM: Privilege Escalation (PE) Vulnerability (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0276",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -379,5 +379,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784234063.9727302
+  "last_updated": 1784238220.699489
 }
