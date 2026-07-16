@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,89 +52,97 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-59866 - Kiota: Arbitrary file write + code-injection via x-ms-kiota-info clientClassName and clientNamespaceName",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59866",
-      "summary": "CVE ID :CVE-2026-59866\n  \n  Published : July 16, 2026, 4:19 p.m. | 12\u00a0minutes ago\n  \n  Description :Kiota is an OpenAPI based HTTP Client code generat...",
-      "timestamp": 1784218755.0,
+      "title": "New OkoBot framework deploys 20 payloads to steal data, crypto",
+      "link": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
+      "summary": "A new malicious framework called OkoBot is delivering more than 20 payloads in attacks focused on stealing\u00a0cryptocurrency wallet seed phrases, credent...",
+      "timestamp": 1784228975.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-46686 - Emlog Reflected Cross-Site Scripting",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46686",
+      "summary": "CVE ID :CVE-2026-46686\n  \n  Published : July 16, 2026, 6:16 p.m. | 59\u00a0minutes ago\n  \n  Description :Emlog is an open source website building system. I...",
+      "timestamp": 1784225804.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-59865 - Kiota: Command injection via x-ms-kiota-info dependencyInstallCommand surfaced by `kiota info`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59865",
-      "summary": "CVE ID :CVE-2026-59865\n  \n  Published : July 16, 2026, 4:19 p.m. | 12\u00a0minutes ago\n  \n  Description :Kiota is an OpenAPI based HTTP Client code generat...",
-      "timestamp": 1784218755.0,
+      "title": "CVE-2026-45336 - HireFlow: Use of Hard-coded Credentials",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45336",
+      "summary": "CVE ID :CVE-2026-45336\n  \n  Published : July 16, 2026, 6:16 p.m. | 59\u00a0minutes ago\n  \n  Description :HireFlow is a web-based interview management syste...",
+      "timestamp": 1784225803.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-59864 - Kiota: Path/URL injection into generated Copilot plugin manifest via x-ai-* extensions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59864",
-      "summary": "CVE ID :CVE-2026-59864\n  \n  Published : July 16, 2026, 4:19 p.m. | 12\u00a0minutes ago\n  \n  Description :Kiota is an OpenAPI based HTTP Client code generat...",
-      "timestamp": 1784218755.0,
+      "title": "CVE-2021-27137 - DD-WRT UPnP Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2021-27137",
+      "summary": "CVE ID :CVE-2021-27137\n  \n  Published : July 16, 2026, 6:16 p.m. | 59\u00a0minutes ago\n  \n  Description :An issue was discovered in router/upnp/src/ssdp.c ...",
+      "timestamp": 1784225799.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-57206 - SimpleChat plugin validation endpoints missing authentication and authorization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57206",
-      "summary": "CVE ID :CVE-2026-57206\n  \n  Published : July 16, 2026, 4:19 p.m. | 12\u00a0minutes ago\n  \n  Description :SimpleChat is a secure AI conversation application...",
-      "timestamp": 1784218754.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54733 - moodle-local_o365: Authentication bypass via unverified JWT signature in Teams SSO endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54733",
-      "summary": "CVE ID :CVE-2026-54733\n  \n  Published : July 16, 2026, 4:19 p.m. | 12\u00a0minutes ago\n  \n  Description :The Microsoft 365 and Microsoft Entra ID Plugins f...",
-      "timestamp": 1784218753.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53597 - Prompty: Arbitrary code execution via JavaScript frontmatter in TypeScript loader",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53597",
-      "summary": "CVE ID :CVE-2026-53597\n  \n  Published : July 16, 2026, 4:19 p.m. | 12\u00a0minutes ago\n  \n  Description :Prompty is a markdown file format (.prompty) for L...",
-      "timestamp": 1784218752.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45695 - Kopia: Unauthenticated RCE via SSH ProxyCommand Injection when --insecure --without-password is used",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45695",
-      "summary": "CVE ID :CVE-2026-45695\n  \n  Published : July 16, 2026, 4:19 p.m. | 13\u00a0minutes ago\n  \n  Description :Kopia is a cross-platform backup tool for Windows,...",
-      "timestamp": 1784218748.0,
+      "title": "CVE-2026-63088 - stoatchat < 0.14.0 SSRF via DNS-based IP Blocklist Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63088",
+      "summary": "CVE ID :CVE-2026-63088\n  \n  Published : July 16, 2026, 5:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :stoatchat before 0.14.0 contains a server-...",
+      "timestamp": 1784222218.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-63087 - Grafana OnCall 1.16.11 Unauthenticated Token Hijack via Plugin Install Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63087",
-      "summary": "CVE ID :CVE-2026-63087\n  \n  Published : July 16, 2026, 4:03 p.m. | 28\u00a0minutes ago\n  \n  Description :Grafana OnCall through 1.16.11 contains an unauthe...",
-      "timestamp": 1784217835.0,
+      "summary": "CVE ID :CVE-2026-63087\n  \n  Published : July 16, 2026, 5:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Grafana OnCall through 1.16.11 contains an...",
+      "timestamp": 1784222218.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-63086 - text-generation-inference 3.3.7 SSRF via fetch_image in multimodal chat completions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63086",
-      "summary": "CVE ID :CVE-2026-63086\n  \n  Published : July 16, 2026, 3:59 p.m. | 32\u00a0minutes ago\n  \n  Description :text-generation-inference through 3.3.7 contains a...",
-      "timestamp": 1784217585.0,
+      "summary": "CVE ID :CVE-2026-63086\n  \n  Published : July 16, 2026, 5:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :text-generation-inference through 3.3.7 co...",
+      "timestamp": 1784222218.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-63085 - Axelor Open Platform 8.x < 8.2.2 Authorization Bypass via Nested Relational Record Persistence",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63085",
-      "summary": "CVE ID :CVE-2026-63085\n  \n  Published : July 16, 2026, 3:56 p.m. | 35\u00a0minutes ago\n  \n  Description :Axelor Open Platform versions 8.x prior to 8.2.2 c...",
-      "timestamp": 1784217394.0,
+      "summary": "CVE ID :CVE-2026-63085\n  \n  Published : July 16, 2026, 5:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Axelor Open Platform versions 8.x prior to...",
+      "timestamp": 1784222218.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46621 - Yamcs: Authenticated Remote Code Execution (RCE) via Jython Algorithm Code Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46621",
+      "summary": "CVE ID :CVE-2026-46621\n  \n  Published : July 16, 2026, 5:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Yamcs is a mission control framework. Prio...",
+      "timestamp": 1784222217.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46562 - Yamcs: Remote Code Execution via Mission Database algorithm override",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46562",
+      "summary": "CVE ID :CVE-2026-46562\n  \n  Published : July 16, 2026, 5:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Yamcs is a mission control framework. Prio...",
+      "timestamp": 1784222216.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45576 - zrok copy writes attacker-controlled WebDAV paths outside the destination root",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45576",
+      "summary": "CVE ID :CVE-2026-45576\n  \n  Published : July 16, 2026, 5:16 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :zrok is software for sharing web services,...",
+      "timestamp": 1784222216.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -219,14 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
-      "link": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
-      "summary": "A Russian-speaking threat actor known as \"bandcampro\" used Google's open-source Gemini CLI AI tool as a hacking agent and to operate a small-scale bot...",
-      "timestamp": 1784140428.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of July 15, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-ILh3ZrP5?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%2015,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On July 15, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE ID\nSecu...",
@@ -283,8 +283,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -315,8 +315,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -325,22 +341,6 @@
     {
       "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0010 Chromium and Prisma Browser: Monthly Vulnerability Update (July 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0010",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -379,5 +379,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784224374.0475912
+  "last_updated": 1784230188.6094415
 }
