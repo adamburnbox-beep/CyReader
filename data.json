@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,74 +59,82 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-44182 - Jupyter Enterprise Gateway Has Kubernetes Manifest Injection via Jinja2 Template Rendering",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44182",
-      "summary": "CVE ID :CVE-2026-44182\n  \n  Published : July 16, 2026, 11:16 p.m. | 17\u00a0minutes ago\n  \n  Description :Jupyter Enterprise Gateway launches remote Jupyte...",
-      "timestamp": 1784243776.0,
+      "title": "CVE-2026-62386 - Grav < 1.0.0-rc.16 Authentication Bypass via token URL Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62386",
+      "summary": "CVE ID :CVE-2026-62386\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :The Grav API plugin (getgrav/grav-plugin...",
+      "timestamp": 1784246833.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-44181 - Jupyter Enterprise Gateway: Jinja2 Template Server Side Template Injection results in Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44181",
-      "summary": "CVE ID :CVE-2026-44181\n  \n  Published : July 16, 2026, 11:16 p.m. | 17\u00a0minutes ago\n  \n  Description :Jupyter Enterprise Gateway launches remote Jupyte...",
-      "timestamp": 1784243776.0,
+      "title": "CVE-2026-62241 - clawvet < 0.7.5 Hard-coded JWT Secret Session Forgery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62241",
+      "summary": "CVE ID :CVE-2026-62241\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :clawvet self-hosted API server (apps/api...",
+      "timestamp": 1784246833.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-43978 - wger: Privilege escalation via trainer-login session chaining allows gym trainers to impersonate gym managers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43978",
-      "summary": "CVE ID :CVE-2026-43978\n  \n  Published : July 16, 2026, 11:16 p.m. | 17\u00a0minutes ago\n  \n  Description :wger is a free, open-source workout and fitness m...",
-      "timestamp": 1784243776.0,
+      "title": "CVE-2026-62234 - Grav < 2.0.4 SSRF via Unrestricted cURL Protocols",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62234",
+      "summary": "CVE ID :CVE-2026-62234\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Grav before 2.0.4 fails to restrict cURL...",
+      "timestamp": 1784246829.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-53412 - Zoom Workplace VDI Plugin for Windows - Improper Input Validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53412",
-      "summary": "CVE ID :CVE-2026-53412\n  \n  Published : July 16, 2026, 10:17 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Improper Input Validation in Zoom Desktop...",
-      "timestamp": 1784240251.0,
+      "title": "CVE-2026-62233 - grav-plugin-api < 1.0.6 Privilege Escalation via createApiKey",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62233",
+      "summary": "CVE ID :CVE-2026-62233\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :grav-plugin-api before 1.0.6 fails to va...",
+      "timestamp": 1784246829.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-45368 - Kirby: Cross-site scripting (XSS) from links in KirbyTags and image blocks in the site frontend",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45368",
-      "summary": "CVE ID :CVE-2026-45368\n  \n  Published : July 16, 2026, 10:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Kirby is an open-source content managemen...",
-      "timestamp": 1784240222.0,
+      "title": "CVE-2026-62232 - Grav < 2.0.4 2FA Bypass via Secret Regeneration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62232",
+      "summary": "CVE ID :CVE-2026-62232\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Grav before 2.0.4 contains a two-factor ...",
+      "timestamp": 1784246828.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-44180 - Jupyter Enterprise Gateway: ContainerProcessProxy._enforce_prohibited_ids can be Bypassed",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44180",
-      "summary": "CVE ID :CVE-2026-44180\n  \n  Published : July 16, 2026, 10:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Jupyter Enterprise Gateway launches remot...",
-      "timestamp": 1784240222.0,
+      "title": "CVE-2026-62231 - Grav < 1.0.6 API Key Scope Bypass via ApiKeyAuthenticator",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62231",
+      "summary": "CVE ID :CVE-2026-62231\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :The Grav API plugin (getgrav/grav-plugin...",
+      "timestamp": 1784246827.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-44177 - Kirby: Pre-authentication path traversal and PHP file inclusion during user lookup",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44177",
-      "summary": "CVE ID :CVE-2026-44177\n  \n  Published : July 16, 2026, 10:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Kirby is an open-source content managemen...",
-      "timestamp": 1784240222.0,
+      "title": "CVE-2026-62230 - Grav < 2.0.4 File Access Bypass via Case Variation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62230",
+      "summary": "CVE ID :CVE-2026-62230\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Grav before 2.0.4 ships a default .htacc...",
+      "timestamp": 1784246826.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-44175 - Kirby: Cross-site scripting (XSS) from list field content in the site frontend",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44175",
-      "summary": "CVE ID :CVE-2026-44175\n  \n  Published : July 16, 2026, 10:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Kirby is an open-source content managemen...",
-      "timestamp": 1784240221.0,
+      "title": "CVE-2026-62229 - OpenClaw < 2026.5.18 Authorization Bypass via Glob Matching",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62229",
+      "summary": "CVE ID :CVE-2026-62229\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.18 contain an aut...",
+      "timestamp": 1784246826.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-44174 - Kirby: Arbitrary Method Call via REST API search and collection query endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44174",
-      "summary": "CVE ID :CVE-2026-44174\n  \n  Published : July 16, 2026, 10:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Kirby is an open-source content managemen...",
-      "timestamp": 1784240221.0,
+      "title": "CVE-2026-62228 - OpenClaw < 2026.6.5 Authorization Bypass via Node Exec Approvals",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62228",
+      "summary": "CVE ID :CVE-2026-62228\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.6.5 contain an auth...",
+      "timestamp": 1784246825.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62226 - OpenClaw 2026.3.28 < 2026.5.19 Authorization Bypass via Browser Act Route",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62226",
+      "summary": "CVE ID :CVE-2026-62226\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :OpenClaw 2026.3.28 before 2026.5.19 cont...",
+      "timestamp": 1784246824.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -137,14 +145,6 @@
       "timestamp": 1784238774.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-55173 - AVideo incomplete fix for CVE-2026-33482: sanitizeFFmpegCommand still allows a single '&' (background operator), giving OS command execution at the same execAsync sh -c sink",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55173",
-      "summary": "CVE ID :CVE-2026-55173\n  \n  Published : July 16, 2026, 9:17 p.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :WWBN AVideo is an open source video platf...",
-      "timestamp": 1784236641.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
@@ -291,8 +291,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
+      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -307,16 +307,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -379,5 +379,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784244950.9984536
+  "last_updated": 1784262133.4912074
 }
