@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,100 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 2,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Abbott Laboratories probes two cyber incidents amid extortion claims",
+      "link": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
+      "summary": "Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences syste...",
+      "timestamp": 1784321152.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-7667 - Path Traversal Vulnerability in API Request Component Content-Disposition Header Processing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7667",
+      "summary": "CVE ID :CVE-2026-7667\n  \n  Published : July 17, 2026, 7:21 p.m. | 32\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 allows an aut...",
+      "timestamp": 1784316101.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-7755 - MCP Server Configuration Validator Bypass via File Upload API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7755",
+      "summary": "CVE ID :CVE-2026-7755\n  \n  Published : July 17, 2026, 7:18 p.m. | 35\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 Langflow coul...",
+      "timestamp": 1784315906.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-9135 - Policies Component Dynamic CodeInput Fields Bypass Custom Component Validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9135",
+      "summary": "CVE ID :CVE-2026-9135\n  \n  Published : July 17, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 Langflow vers...",
+      "timestamp": 1784315839.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-9103 - Unauthenticated Superuser Token Issuance via Auto-Login Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9103",
+      "summary": "CVE ID :CVE-2026-9103\n  \n  Published : July 17, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 could allow a...",
+      "timestamp": 1784315839.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58195 - Agentic-Flow: OS Command Injection in agentic-flow MCP server tools via unsanitized tool-parameter interpolation into execSync",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58195",
+      "summary": "CVE ID :CVE-2026-58195\n  \n  Published : July 17, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :Agentic-Flow is an AI agent orchestration platform...",
+      "timestamp": 1784315837.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53712 - SCRAM: Silent channel-binding authentication downgrade via unsupported certificate algorithms",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53712",
+      "summary": "CVE ID :CVE-2026-53712\n  \n  Published : July 17, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :SCRAM (Salted Challenge Response Authentication Me...",
+      "timestamp": 1784315836.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45309 - AsyncSSH `AuthorizedKeysFile %u` path traversal allows attacker-selected authorized keys to authenticate a traversal username",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45309",
+      "summary": "CVE ID :CVE-2026-45309\n  \n  Published : July 17, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :AsyncSSH is a Python package which provides an asy...",
+      "timestamp": 1784315834.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45162 - Pimcore: Unsafe PHP Deserialization in Multiple Locations Without allowed_classes Restriction",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45162",
+      "summary": "CVE ID :CVE-2026-45162\n  \n  Published : July 17, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :Pimcore is an Open Source Data & Experience Manage...",
+      "timestamp": 1784315834.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8056 - Parameter Injection Vulnerability in API Graph Execution Engine",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8056",
+      "summary": "CVE ID :CVE-2026-8056\n  \n  Published : July 17, 2026, 7:13 p.m. | 40\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 allows authen...",
+      "timestamp": 1784315592.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8476 - Disk Cache Deserialization Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8476",
+      "summary": "CVE ID :CVE-2026-8476\n  \n  Published : July 17, 2026, 7:11 p.m. | 42\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 contain a cri...",
+      "timestamp": 1784315464.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
       "link": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
@@ -65,86 +153,6 @@
       "timestamp": 1784310981.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-9198 - Unauthenticated Remote Code Execution via Auto-Login Bypass and Code Validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9198",
-      "summary": "CVE ID :CVE-2026-9198\n  \n  Published : July 17, 2026, 5:36 p.m. | 17\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 allows unauth...",
-      "timestamp": 1784309771.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9202 - Unauthenticated User Registration Could Lead to Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9202",
-      "summary": "CVE ID :CVE-2026-9202\n  \n  Published : July 17, 2026, 5:33 p.m. | 20\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 allows unauth...",
-      "timestamp": 1784309600.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9586 - Unauthenticated SQL Injection Leading to Remote Code Execution in Switchvox SMB",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9586",
-      "summary": "CVE ID :CVE-2026-9586\n  \n  Published : July 17, 2026, 5:17 p.m. | 36\u00a0minutes ago\n  \n  Description :An unauthenticated SQL injection vulnerability exis...",
-      "timestamp": 1784308638.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9585 - Unauthenticated Reflected Cross-Site Scripting (XSS) in Switchvox SMB Web Portal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9585",
-      "summary": "CVE ID :CVE-2026-9585\n  \n  Published : July 17, 2026, 5:17 p.m. | 36\u00a0minutes ago\n  \n  Description :An unauthenticated reflected cross-site scripting (...",
-      "timestamp": 1784308637.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8297 - SQLi in GIS Informatics' GisLab Laboratory Management System",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8297",
-      "summary": "CVE ID :CVE-2026-8297\n  \n  Published : July 17, 2026, 5:17 p.m. | 36\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements used in...",
-      "timestamp": 1784308637.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63101 - Open Event Server 1.19.1 Unauthenticated Member Roster Export via CSV Export Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63101",
-      "summary": "CVE ID :CVE-2026-63101\n  \n  Published : July 17, 2026, 5:17 p.m. | 36\u00a0minutes ago\n  \n  Description :Open Event Server through 1.19.1 contains a missin...",
-      "timestamp": 1784308637.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57860 - ForgeCode Arbitrary Code Execution via Unvetted .mcp.json in Untrusted Repository",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57860",
-      "summary": "CVE ID :CVE-2026-57860\n  \n  Published : July 17, 2026, 5:17 p.m. | 36\u00a0minutes ago\n  \n  Description :ForgeCode (tailcallhq/forgecode), an AI pair-progr...",
-      "timestamp": 1784308636.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54496 - Missing copy constraint in halo2_gadgets variable-base scalar multiplication allows under-constrained base, breaking Orchard Action circuit soundness",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54496",
-      "summary": "CVE ID :CVE-2026-54496\n  \n  Published : July 17, 2026, 5:17 p.m. | 36\u00a0minutes ago\n  \n  Description :ZEBRA is a Zcash node written entirely in Rust. Pr...",
-      "timestamp": 1784308636.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12694 - Missing Authorization in Vimesoft's Enterprise Video Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12694",
-      "summary": "CVE ID :CVE-2026-12694\n  \n  Published : July 17, 2026, 5:17 p.m. | 36\u00a0minutes ago\n  \n  Description :Missing Authorization vulnerability in Vimesoft In...",
-      "timestamp": 1784308633.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12693 - IDOR in Vimesoft's Enterprise Video Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12693",
-      "summary": "CVE ID :CVE-2026-12693\n  \n  Published : July 17, 2026, 5:17 p.m. | 36\u00a0minutes ago\n  \n  Description :Authorization bypass through User-Controlled key v...",
-      "timestamp": 1784308633.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco Identity Services Engine Stored Cross-Site Scripting Vulnerabilities",
@@ -219,14 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
-      "link": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
-      "summary": "A flaw in Anthropic's Claude for Chrome browser extension could allow a malicious extension to trigger predefined AI actions by simulating user clicks...",
-      "timestamp": 1784229967.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
@@ -291,32 +291,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -339,6 +315,22 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
       "summary": "",
@@ -347,16 +339,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0010 Chromium and Prisma Browser: Monthly Vulnerability Update (July 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0010",
+      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0276 Cortex XDR Broker VM: Privilege Escalation (PE) Vulnerability (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0276",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -387,5 +387,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784317599.745476
+  "last_updated": 1784322487.438115
 }
