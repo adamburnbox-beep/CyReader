@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,89 +52,89 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-13352 - Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content <= 4.16.18 - Authenticated (Author+) Limited Unsafe File Upload via upload_mimes Filter Expansion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13352",
+      "summary": "CVE ID :CVE-2026-13352\n  \n  Published : July 17, 2026, 5:16 a.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :The Paid Membership Plugin, Ecommerce, Use...",
+      "timestamp": 1784265396.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-62386 - Grav < 1.0.0-rc.16 Authentication Bypass via token URL Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62386",
-      "summary": "CVE ID :CVE-2026-62386\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :The Grav API plugin (getgrav/grav-plugin...",
-      "timestamp": 1784246833.0,
+      "summary": "CVE ID :CVE-2026-62386\n  \n  Published : July 17, 2026, 2:18 a.m. | 4\u00a0hours, 9\u00a0minutes ago\n  \n  Description :The Grav API plugin (getgrav/grav-plugin-a...",
+      "timestamp": 1784254691.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-62241 - clawvet < 0.7.5 Hard-coded JWT Secret Session Forgery",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62241",
-      "summary": "CVE ID :CVE-2026-62241\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :clawvet self-hosted API server (apps/api...",
-      "timestamp": 1784246833.0,
+      "summary": "CVE ID :CVE-2026-62241\n  \n  Published : July 17, 2026, 2:18 a.m. | 4\u00a0hours, 9\u00a0minutes ago\n  \n  Description :clawvet self-hosted API server (apps/api) ...",
+      "timestamp": 1784254691.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-62234 - Grav < 2.0.4 SSRF via Unrestricted cURL Protocols",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62234",
-      "summary": "CVE ID :CVE-2026-62234\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Grav before 2.0.4 fails to restrict cURL...",
-      "timestamp": 1784246829.0,
+      "summary": "CVE ID :CVE-2026-62234\n  \n  Published : July 17, 2026, 2:18 a.m. | 4\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Grav before 2.0.4 fails to restrict cURL p...",
+      "timestamp": 1784254691.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-62233 - grav-plugin-api < 1.0.6 Privilege Escalation via createApiKey",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62233",
-      "summary": "CVE ID :CVE-2026-62233\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :grav-plugin-api before 1.0.6 fails to va...",
-      "timestamp": 1784246829.0,
+      "summary": "CVE ID :CVE-2026-62233\n  \n  Published : July 17, 2026, 2:18 a.m. | 4\u00a0hours, 9\u00a0minutes ago\n  \n  Description :grav-plugin-api before 1.0.6 fails to vali...",
+      "timestamp": 1784254690.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-62232 - Grav < 2.0.4 2FA Bypass via Secret Regeneration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62232",
-      "summary": "CVE ID :CVE-2026-62232\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Grav before 2.0.4 contains a two-factor ...",
-      "timestamp": 1784246828.0,
+      "summary": "CVE ID :CVE-2026-62232\n  \n  Published : July 17, 2026, 2:18 a.m. | 4\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Grav before 2.0.4 contains a two-factor au...",
+      "timestamp": 1784254690.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-62231 - Grav < 1.0.6 API Key Scope Bypass via ApiKeyAuthenticator",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62231",
-      "summary": "CVE ID :CVE-2026-62231\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :The Grav API plugin (getgrav/grav-plugin...",
-      "timestamp": 1784246827.0,
+      "summary": "CVE ID :CVE-2026-62231\n  \n  Published : July 17, 2026, 2:18 a.m. | 4\u00a0hours, 9\u00a0minutes ago\n  \n  Description :The Grav API plugin (getgrav/grav-plugin-a...",
+      "timestamp": 1784254690.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-62230 - Grav < 2.0.4 File Access Bypass via Case Variation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62230",
-      "summary": "CVE ID :CVE-2026-62230\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Grav before 2.0.4 ships a default .htacc...",
-      "timestamp": 1784246826.0,
+      "summary": "CVE ID :CVE-2026-62230\n  \n  Published : July 17, 2026, 2:18 a.m. | 4\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Grav before 2.0.4 ships a default .htacces...",
+      "timestamp": 1784254690.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-62229 - OpenClaw < 2026.5.18 Authorization Bypass via Glob Matching",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62229",
-      "summary": "CVE ID :CVE-2026-62229\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.18 contain an aut...",
-      "timestamp": 1784246826.0,
+      "summary": "CVE ID :CVE-2026-62229\n  \n  Published : July 17, 2026, 2:18 a.m. | 4\u00a0hours, 9\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.5.18 contain an autho...",
+      "timestamp": 1784254690.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-62228 - OpenClaw < 2026.6.5 Authorization Bypass via Node Exec Approvals",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62228",
-      "summary": "CVE ID :CVE-2026-62228\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.6.5 contain an auth...",
-      "timestamp": 1784246825.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62226 - OpenClaw 2026.3.28 < 2026.5.19 Authorization Bypass via Browser Act Route",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62226",
-      "summary": "CVE ID :CVE-2026-62226\n  \n  Published : July 17, 2026, 12:07 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :OpenClaw 2026.3.28 before 2026.5.19 cont...",
-      "timestamp": 1784246824.0,
+      "summary": "CVE ID :CVE-2026-62228\n  \n  Published : July 17, 2026, 2:18 a.m. | 4\u00a0hours, 9\u00a0minutes ago\n  \n  Description :OpenClaw before 2026.6.5 contain an author...",
+      "timestamp": 1784254690.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -283,8 +283,48 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -307,48 +347,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0010 Chromium and Prisma Browser: Monthly Vulnerability Update (July 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0010",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "title": "CVE-2026-0276 Cortex XDR Broker VM: Privilege Escalation (PE) Vulnerability (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0276",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -379,5 +379,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784262133.4912074
+  "last_updated": 1784271852.2853081
 }
