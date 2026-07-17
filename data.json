@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,70 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-55518 - Avo: Missing Authorization in Avo Association Attach Endpoint Allows Unauthorized Relationship Manipulation and Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55518",
+      "summary": "CVE ID :CVE-2026-55518\n  \n  Published : July 17, 2026, 9:17 p.m. | 36\u00a0minutes ago\n  \n  Description :Avo is a framework to create admin panels for Ruby...",
+      "timestamp": 1784323029.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54498 - view_component: around_render HTML-Safety Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54498",
+      "summary": "CVE ID :CVE-2026-54498\n  \n  Published : July 17, 2026, 9:17 p.m. | 36\u00a0minutes ago\n  \n  Description :view_component is a framework for building reusabl...",
+      "timestamp": 1784323029.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54466 - websocket-driver: Message corruption via abuse of protocol length headers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54466",
+      "summary": "CVE ID :CVE-2026-54466\n  \n  Published : July 17, 2026, 9:17 p.m. | 36\u00a0minutes ago\n  \n  Description :websocket-driver is a WebSocket protocol handler w...",
+      "timestamp": 1784323028.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54159 - ps_facetedsearch: PHP Object Injection in faceted search cache allows unauthenticated RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54159",
+      "summary": "CVE ID :CVE-2026-54159\n  \n  Published : July 17, 2026, 9:17 p.m. | 36\u00a0minutes ago\n  \n  Description :PrestaShop ps_facetedsearch is a module that adds ...",
+      "timestamp": 1784323027.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53727 - css_parser: SSRF and Local File Disclosure in `CssParser::Parser#read_remote_file`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53727",
+      "summary": "CVE ID :CVE-2026-53727\n  \n  Published : July 17, 2026, 9:17 p.m. | 36\u00a0minutes ago\n  \n  Description :css_parser is a Ruby CSS parser. From 2.2.0 until ...",
+      "timestamp": 1784323027.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48062 - CodeIgniter: Uploaded file extension validation bypass in `ext_in` rule",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48062",
+      "summary": "CVE ID :CVE-2026-48062\n  \n  Published : July 17, 2026, 9:17 p.m. | 36\u00a0minutes ago\n  \n  Description :CodeIgniter is a PHP full-stack web framework. Pri...",
+      "timestamp": 1784323026.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13446 - Langflow is affected by remote code execution, denial of service, path traversal, and exposed credentials due to multiple unauthenticated and insufficiently authorized API endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13446",
+      "summary": "CVE ID :CVE-2026-13446\n  \n  Published : July 17, 2026, 9:17 p.m. | 37\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.1 contains\u00a0har...",
+      "timestamp": 1784323025.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13445 - Langflow is affected by remote code execution, denial of service, path traversal, and exposed credentials due to multiple unauthenticated and insufficiently authorized API endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13445",
+      "summary": "CVE ID :CVE-2026-13445\n  \n  Published : July 17, 2026, 9:17 p.m. | 37\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.1 can allow an...",
+      "timestamp": 1784323025.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Abbott Laboratories probes two cyber incidents amid extortion claims",
       "link": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
       "summary": "Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences syste...",
@@ -67,82 +131,18 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-7667 - Path Traversal Vulnerability in API Request Component Content-Disposition Header Processing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7667",
-      "summary": "CVE ID :CVE-2026-7667\n  \n  Published : July 17, 2026, 7:21 p.m. | 32\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 allows an aut...",
-      "timestamp": 1784316101.0,
+      "title": "CVE-2026-8859 - Path Traversal in APIRequest Component via Content-Disposition Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8859",
+      "summary": "CVE ID :CVE-2026-8859\n  \n  Published : July 17, 2026, 8:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 Langf...",
+      "timestamp": 1784319451.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-7755 - MCP Server Configuration Validator Bypass via File Upload API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7755",
-      "summary": "CVE ID :CVE-2026-7755\n  \n  Published : July 17, 2026, 7:18 p.m. | 35\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 Langflow coul...",
-      "timestamp": 1784315906.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9135 - Policies Component Dynamic CodeInput Fields Bypass Custom Component Validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9135",
-      "summary": "CVE ID :CVE-2026-9135\n  \n  Published : July 17, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 Langflow vers...",
-      "timestamp": 1784315839.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9103 - Unauthenticated Superuser Token Issuance via Auto-Login Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9103",
-      "summary": "CVE ID :CVE-2026-9103\n  \n  Published : July 17, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 could allow a...",
-      "timestamp": 1784315839.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58195 - Agentic-Flow: OS Command Injection in agentic-flow MCP server tools via unsanitized tool-parameter interpolation into execSync",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58195",
-      "summary": "CVE ID :CVE-2026-58195\n  \n  Published : July 17, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :Agentic-Flow is an AI agent orchestration platform...",
-      "timestamp": 1784315837.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53712 - SCRAM: Silent channel-binding authentication downgrade via unsupported certificate algorithms",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53712",
-      "summary": "CVE ID :CVE-2026-53712\n  \n  Published : July 17, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :SCRAM (Salted Challenge Response Authentication Me...",
-      "timestamp": 1784315836.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45309 - AsyncSSH `AuthorizedKeysFile %u` path traversal allows attacker-selected authorized keys to authenticate a traversal username",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45309",
-      "summary": "CVE ID :CVE-2026-45309\n  \n  Published : July 17, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :AsyncSSH is a Python package which provides an asy...",
-      "timestamp": 1784315834.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45162 - Pimcore: Unsafe PHP Deserialization in Multiple Locations Without allowed_classes Restriction",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45162",
-      "summary": "CVE ID :CVE-2026-45162\n  \n  Published : July 17, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :Pimcore is an Open Source Data & Experience Manage...",
-      "timestamp": 1784315834.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8056 - Parameter Injection Vulnerability in API Graph Execution Engine",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8056",
-      "summary": "CVE ID :CVE-2026-8056\n  \n  Published : July 17, 2026, 7:13 p.m. | 40\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 allows authen...",
-      "timestamp": 1784315592.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8476 - Disk Cache Deserialization Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8476",
-      "summary": "CVE ID :CVE-2026-8476\n  \n  Published : July 17, 2026, 7:11 p.m. | 42\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 contain a cri...",
-      "timestamp": 1784315464.0,
+      "title": "CVE-2026-8635 - Arbitrary Code Execution in Python Interpreter Component",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8635",
+      "summary": "CVE ID :CVE-2026-8635\n  \n  Published : July 17, 2026, 8:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 allow...",
+      "timestamp": 1784319451.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -299,32 +299,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -347,6 +323,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
       "summary": "",
@@ -355,8 +339,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0276 Cortex XDR Broker VM: Privilege Escalation (PE) Vulnerability (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0276",
+      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -387,5 +387,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784322487.438115
+  "last_updated": 1784325964.0101244
 }
