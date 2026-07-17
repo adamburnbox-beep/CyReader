@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 4,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,100 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
+      "link": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
+      "summary": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious ...",
+      "timestamp": 1784310981.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-9586 - Unauthenticated SQL Injection Leading to Remote Code Execution in Switchvox SMB",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9586",
+      "summary": "CVE ID :CVE-2026-9586\n  \n  Published : July 17, 2026, 5:17 p.m. | 22\u00a0minutes ago\n  \n  Description :An unauthenticated SQL injection vulnerability exis...",
+      "timestamp": 1784308638.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-9585 - Unauthenticated Reflected Cross-Site Scripting (XSS) in Switchvox SMB Web Portal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9585",
+      "summary": "CVE ID :CVE-2026-9585\n  \n  Published : July 17, 2026, 5:17 p.m. | 22\u00a0minutes ago\n  \n  Description :An unauthenticated reflected cross-site scripting (...",
+      "timestamp": 1784308637.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8297 - SQLi in GIS Informatics' GisLab Laboratory Management System",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8297",
+      "summary": "CVE ID :CVE-2026-8297\n  \n  Published : July 17, 2026, 5:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements used in...",
+      "timestamp": 1784308637.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63101 - Open Event Server 1.19.1 Unauthenticated Member Roster Export via CSV Export Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63101",
+      "summary": "CVE ID :CVE-2026-63101\n  \n  Published : July 17, 2026, 5:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Open Event Server through 1.19.1 contains a missin...",
+      "timestamp": 1784308637.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57860 - ForgeCode Arbitrary Code Execution via Unvetted .mcp.json in Untrusted Repository",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57860",
+      "summary": "CVE ID :CVE-2026-57860\n  \n  Published : July 17, 2026, 5:17 p.m. | 22\u00a0minutes ago\n  \n  Description :ForgeCode (tailcallhq/forgecode), an AI pair-progr...",
+      "timestamp": 1784308636.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54496 - Missing copy constraint in halo2_gadgets variable-base scalar multiplication allows under-constrained base, breaking Orchard Action circuit soundness",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54496",
+      "summary": "CVE ID :CVE-2026-54496\n  \n  Published : July 17, 2026, 5:17 p.m. | 22\u00a0minutes ago\n  \n  Description :ZEBRA is a Zcash node written entirely in Rust. Pr...",
+      "timestamp": 1784308636.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12694 - Missing Authorization in Vimesoft's Enterprise Video Platform",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12694",
+      "summary": "CVE ID :CVE-2026-12694\n  \n  Published : July 17, 2026, 5:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Missing Authorization vulnerability in Vimesoft In...",
+      "timestamp": 1784308633.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12693 - IDOR in Vimesoft's Enterprise Video Platform",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12693",
+      "summary": "CVE ID :CVE-2026-12693\n  \n  Published : July 17, 2026, 5:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Authorization bypass through User-Controlled key v...",
+      "timestamp": 1784308633.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12692 - Improper Authentication in Vimesoft's Enterprise Video Platform",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12692",
+      "summary": "CVE ID :CVE-2026-12692\n  \n  Published : July 17, 2026, 5:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Unverified password change vulnerability in Vimeso...",
+      "timestamp": 1784308633.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58148 - Joomla Extension - chronoengine.com - Stored XSS in ChronoForms extension for Joomla < 8.0.53",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58148",
+      "summary": "CVE ID :CVE-2026-58148\n  \n  Published : July 17, 2026, 4:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :The Joomla extension ChronoForms is vulner...",
+      "timestamp": 1784305035.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Cisco Identity Services Engine Stored Cross-Site Scripting Vulnerabilities",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-42tgsdMG?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Stored%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
@@ -65,30 +153,6 @@
       "timestamp": 1784302443.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "CVE-2026-63094 - SigNoz 0.133.0 SSO OAuth State Manipulation Session Token Theft",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63094",
-      "summary": "CVE ID :CVE-2026-63094\n  \n  Published : July 17, 2026, 3:16 p.m. | 37\u00a0minutes ago\n  \n  Description :SigNoz through 0.133.0 contains an open redirect v...",
-      "timestamp": 1784301407.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63093 - Cursor for Windows 3.2.16 RCE via Malicious git.exe in Workspace",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63093",
-      "summary": "CVE ID :CVE-2026-63093\n  \n  Published : July 17, 2026, 3:16 p.m. | 37\u00a0minutes ago\n  \n  Description :Cursor for Windows version 3.2.16 contains a binar...",
-      "timestamp": 1784301407.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12715 - Missing Authorization in Firebase Studio allows Cross-Tenant Source Code Theft",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12715",
-      "summary": "CVE ID :CVE-2026-12715\n  \n  Published : July 17, 2026, 3:09 p.m. | 44\u00a0minutes ago\n  \n  Description :Missing Authorization in Google Cloud Firebase Stu...",
-      "timestamp": 1784300989.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Ernst & Young discloses data breach after support system hack",
@@ -99,52 +163,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2024-23564 - HCL Aftermarket EPC Business Logic Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-23564",
-      "summary": "CVE ID :CVE-2024-23564\n  \n  Published : July 17, 2026, 2:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :HCL Aftermarket EPC is affected by Busines...",
-      "timestamp": 1784297836.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Inside the Search for \"Clean\" Residential Proxies for Carding",
       "link": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
       "summary": "Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek \"clean\" residentia...",
       "timestamp": 1784296810.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-7189 - Sensitive Data Exposure in Proliz's OBS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7189",
-      "summary": "CVE ID :CVE-2026-7189\n  \n  Published : July 17, 2026, 1:19 p.m. | 2\u00a0hours, 34\u00a0minutes ago\n  \n  Description :Insertion of sensitive information into se...",
-      "timestamp": 1784294341.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59695 - Unbounded max_fee_per_gas in mpp Tempo fee-payer enables single-request wallet drain",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59695",
-      "summary": "CVE ID :CVE-2026-59695\n  \n  Published : July 17, 2026, 11:17 a.m. | 4\u00a0hours, 36\u00a0minutes ago\n  \n  Description :Improper Validation of Specified Quantit...",
-      "timestamp": 1784287034.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59694 - Unbounded access list in mpp Tempo fee-payer inflates gas cost per payment",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59694",
-      "summary": "CVE ID :CVE-2026-59694\n  \n  Published : July 17, 2026, 11:17 a.m. | 4\u00a0hours, 36\u00a0minutes ago\n  \n  Description :Improper Validation of Specified Quantit...",
-      "timestamp": 1784287033.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59252 - Missing gas_limit validation in mpp Tempo fee-payer enables wallet drain",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59252",
-      "summary": "CVE ID :CVE-2026-59252\n  \n  Published : July 17, 2026, 11:17 a.m. | 4\u00a0hours, 36\u00a0minutes ago\n  \n  Description :Improper Validation of Specified Quantit...",
-      "timestamp": 1784287033.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "New Windows LegacyHive zero-day gives hackers admin privileges",
@@ -169,22 +193,6 @@
       "timestamp": 1784276017.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-9810 - AI Chatbot & Workflow Automation by AIWU < 1.5.4 - Unauthenticated Privilege Escalation via MCP OAuth",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9810",
-      "summary": "CVE ID :CVE-2026-9810\n  \n  Published : July 17, 2026, 7:16 a.m. | 8\u00a0hours, 37\u00a0minutes ago\n  \n  Description :The AI Copilot  WordPress plugin before 1....",
-      "timestamp": 1784272598.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11961 - User Registration & Membership < 5.2.3 - Unauthenticated Privilege Escalation via Unbound members_data Membership ID",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11961",
-      "summary": "CVE ID :CVE-2026-11961\n  \n  Published : July 17, 2026, 7:16 a.m. | 8\u00a0hours, 37\u00a0minutes ago\n  \n  Description :The User Registration & Membership  WordP...",
-      "timestamp": 1784272597.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CISA urges immediate action on actively exploited Fortinet flaws",
@@ -215,14 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
       "summary": "A flaw in Anthropic's Claude for Chrome browser extension could allow a malicious extension to trigger predefined AI actions by simulating user clicks...",
       "timestamp": 1784229967.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New OkoBot framework deploys 20 payloads to steal data, crypto",
-      "link": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
-      "summary": "A new malicious framework called OkoBot is delivering more than 20 payloads in attacks focused on stealing\u00a0cryptocurrency wallet seed phrases, credent...",
-      "timestamp": 1784228975.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -291,16 +291,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -315,24 +307,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
+      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -347,16 +331,32 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0276 Cortex XDR Broker VM: Privilege Escalation (PE) Vulnerability (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0276",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -387,5 +387,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784309083.4480116
+  "last_updated": 1784313733.047266
 }
