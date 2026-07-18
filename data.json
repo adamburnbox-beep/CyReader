@@ -24,15 +24,15 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 0,
-      "total_count": 0,
+      "new_count": 10,
+      "total_count": 10,
       "status": "ok"
     },
     {
@@ -52,16 +52,56 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-47871 - VMware Avi Load Balancer Directory Traversal Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47871",
+      "summary": "CVE ID :CVE-2026-47871\n  \n  Published : July 18, 2026, 9:17 a.m. | 37\u00a0minutes ago\n  \n  Description :VMware Avi Load Balancer contains a directory trav...",
+      "timestamp": 1784366228.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47869 - VMware Avi Load Balancer Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47869",
+      "summary": "CVE ID :CVE-2026-47869\n  \n  Published : July 18, 2026, 9:17 a.m. | 37\u00a0minutes ago\n  \n  Description :VMware Avi Load Balancer contains a remote code ex...",
+      "timestamp": 1784366228.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47867 - VMware Avi Load Balancer Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47867",
+      "summary": "CVE ID :CVE-2026-47867\n  \n  Published : July 18, 2026, 9:17 a.m. | 37\u00a0minutes ago\n  \n  Description :VMware Avi Load Balancer contains a remote code ex...",
+      "timestamp": 1784366228.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47866 - VMware Avi Load Balancer Authorization Bypass Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47866",
+      "summary": "CVE ID :CVE-2026-47866\n  \n  Published : July 18, 2026, 9:17 a.m. | 37\u00a0minutes ago\n  \n  Description :VMware Avi Load Balancer contains an authorization...",
+      "timestamp": 1784366228.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47865 - VMware Avi Load Balancer Authentication Bypass Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47865",
+      "summary": "CVE ID :CVE-2026-47865\n  \n  Published : July 18, 2026, 9:17 a.m. | 37\u00a0minutes ago\n  \n  Description :VMware Avi Load Balancer contains an authenticatio...",
+      "timestamp": 1784366228.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-55518 - Avo: Missing Authorization in Avo Association Attach Endpoint Allows Unauthorized Relationship Manipulation and Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55518",
-      "summary": "CVE ID :CVE-2026-55518\n  \n  Published : July 17, 2026, 9:17 p.m. | 10\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Avo is a framework to create admin panel...",
+      "summary": "CVE ID :CVE-2026-55518\n  \n  Published : July 17, 2026, 9:17 p.m. | 12\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Avo is a framework to create admin panel...",
       "timestamp": 1784323029.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +109,7 @@
     {
       "title": "CVE-2026-54498 - view_component: around_render HTML-Safety Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54498",
-      "summary": "CVE ID :CVE-2026-54498\n  \n  Published : July 17, 2026, 9:17 p.m. | 10\u00a0hours, 37\u00a0minutes ago\n  \n  Description :view_component is a framework for buildi...",
+      "summary": "CVE ID :CVE-2026-54498\n  \n  Published : July 17, 2026, 9:17 p.m. | 12\u00a0hours, 37\u00a0minutes ago\n  \n  Description :view_component is a framework for buildi...",
       "timestamp": 1784323029.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +117,7 @@
     {
       "title": "CVE-2026-54466 - websocket-driver: Message corruption via abuse of protocol length headers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54466",
-      "summary": "CVE ID :CVE-2026-54466\n  \n  Published : July 17, 2026, 9:17 p.m. | 10\u00a0hours, 37\u00a0minutes ago\n  \n  Description :websocket-driver is a WebSocket protocol...",
+      "summary": "CVE ID :CVE-2026-54466\n  \n  Published : July 17, 2026, 9:17 p.m. | 12\u00a0hours, 37\u00a0minutes ago\n  \n  Description :websocket-driver is a WebSocket protocol...",
       "timestamp": 1784323028.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +125,7 @@
     {
       "title": "CVE-2026-54159 - ps_facetedsearch: PHP Object Injection in faceted search cache allows unauthenticated RCE",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54159",
-      "summary": "CVE ID :CVE-2026-54159\n  \n  Published : July 17, 2026, 9:17 p.m. | 10\u00a0hours, 37\u00a0minutes ago\n  \n  Description :PrestaShop ps_facetedsearch is a module ...",
+      "summary": "CVE ID :CVE-2026-54159\n  \n  Published : July 17, 2026, 9:17 p.m. | 12\u00a0hours, 37\u00a0minutes ago\n  \n  Description :PrestaShop ps_facetedsearch is a module ...",
       "timestamp": 1784323027.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,32 +133,8 @@
     {
       "title": "CVE-2026-53727 - css_parser: SSRF and Local File Disclosure in `CssParser::Parser#read_remote_file`",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53727",
-      "summary": "CVE ID :CVE-2026-53727\n  \n  Published : July 17, 2026, 9:17 p.m. | 10\u00a0hours, 37\u00a0minutes ago\n  \n  Description :css_parser is a Ruby CSS parser. From 2....",
+      "summary": "CVE ID :CVE-2026-53727\n  \n  Published : July 17, 2026, 9:17 p.m. | 12\u00a0hours, 37\u00a0minutes ago\n  \n  Description :css_parser is a Ruby CSS parser. From 2....",
       "timestamp": 1784323027.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48062 - CodeIgniter: Uploaded file extension validation bypass in `ext_in` rule",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48062",
-      "summary": "CVE ID :CVE-2026-48062\n  \n  Published : July 17, 2026, 9:17 p.m. | 10\u00a0hours, 37\u00a0minutes ago\n  \n  Description :CodeIgniter is a PHP full-stack web fram...",
-      "timestamp": 1784323026.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13446 - Langflow is affected by remote code execution, denial of service, path traversal, and exposed credentials due to multiple unauthenticated and insufficiently authorized API endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13446",
-      "summary": "CVE ID :CVE-2026-13446\n  \n  Published : July 17, 2026, 9:17 p.m. | 10\u00a0hours, 37\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.1 co...",
-      "timestamp": 1784323025.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13445 - Langflow is affected by remote code execution, denial of service, path traversal, and exposed credentials due to multiple unauthenticated and insufficiently authorized API endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13445",
-      "summary": "CVE ID :CVE-2026-13445\n  \n  Published : July 17, 2026, 9:17 p.m. | 10\u00a0hours, 37\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.1 ca...",
-      "timestamp": 1784323025.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -131,28 +147,20 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-8859 - Path Traversal in APIRequest Component via Content-Disposition Header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8859",
-      "summary": "CVE ID :CVE-2026-8859\n  \n  Published : July 17, 2026, 8:17 p.m. | 11\u00a0hours, 37\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 Lan...",
-      "timestamp": 1784319451.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8635 - Arbitrary Code Execution in Python Interpreter Component",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8635",
-      "summary": "CVE ID :CVE-2026-8635\n  \n  Published : July 17, 2026, 8:17 p.m. | 11\u00a0hours, 37\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 all...",
-      "timestamp": 1784319451.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
       "link": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
       "summary": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious ...",
       "timestamp": 1784310981.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "Cisco Identity Services Engine Stored Cross-Site Scripting Vulnerabilities",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-42tgsdMG?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Stored%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
+      "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Identity Services Engine (ISE) guest portals could allow an authenticated, rem...",
+      "timestamp": 1784302443.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
     },
     {
       "title": "Ernst & Young discloses data breach after support system hack",
@@ -219,6 +227,38 @@
       "vendor": "News"
     },
     {
+      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
+      "timestamp": 1784153368.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Advance Notification for Publication of July 15, 2026, Security Advisories",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-ILh3ZrP5?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%2015,%202026,%20Security%20Advisories%26vs_k=1",
+      "summary": "On July 15, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE ID\nSecu...",
+      "timestamp": 1784131270.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco RoomOS Security Hardening Release: July 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-roomos-AqNMbEq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20RoomOS%20Security%20Hardening%20Release:%20July%202026%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco RoomOS engineering team has conducted a comprehensive inter...",
+      "timestamp": 1784131200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Identity Services Engine Path Traversal Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-traversal-xNt7wb2Y?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Path%20Traversal%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an authenticated, remote attack...",
+      "timestamp": 1784131200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
       "title": "Microsoft Patches a Record 570 Security Flaws",
       "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
       "summary": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple...",
@@ -251,8 +291,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -267,8 +307,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -283,8 +323,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -293,14 +341,6 @@
     {
       "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -329,7 +369,23 @@
       "timestamp": 1783513899.0,
       "source": "Krebs on Security",
       "vendor": "News"
+    },
+    {
+      "title": "Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Remote%20Code%20Execution%20and%20Information%20Disclosure%20Vulnerabilities%26vs_k=1",
+      "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to a...",
+      "timestamp": 1783365630.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Catalyst Center Arbitrary File Read Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-catc-file-read-wLH2vf8X?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20Center%20Arbitrary%20File%20Read%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in Cisco Catalyst Center could allow an unauthenticated, remote attacker to read arbitrary files from a restricted container.&nbsp;\nTh...",
+      "timestamp": 1783339233.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784368098.616863
+  "last_updated": 1784373517.9307246
 }
