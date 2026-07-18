@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,89 +52,97 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-16095 - Shibby Tomato rc setup_conntrack out-of-bounds write",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16095",
-      "summary": "CVE ID :CVE-2026-16095\n  \n  Published : July 18, 2026, 11:16 a.m. | 38\u00a0minutes ago\n  \n  Description :A flaw has been found in Shibby Tomato 1.28 RT-N5...",
-      "timestamp": 1784373403.0,
+      "title": "CVE-2026-9147 - uproot 5.7.4 and prior Code Injection via TStreamerInfo Metadata",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9147",
+      "summary": "CVE ID :CVE-2026-9147\n  \n  Published : July 18, 2026, 1:17 p.m. | 38\u00a0minutes ago\n  \n  Description :uproot dynamically generates Python class source co...",
+      "timestamp": 1784380626.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-47871 - VMware Avi Load Balancer Directory Traversal Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47871",
-      "summary": "CVE ID :CVE-2026-47871\n  \n  Published : July 18, 2026, 9:17 a.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :VMware Avi Load Balancer contains a direc...",
-      "timestamp": 1784366228.0,
+      "title": "CVE-2026-16158 - @fastify/reply-from vulnerable to cross-upstream request routing via URL cache key collision",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16158",
+      "summary": "CVE ID :CVE-2026-16158\n  \n  Published : July 18, 2026, 1:17 p.m. | 38\u00a0minutes ago\n  \n  Description :Impact: @fastify/reply-from versions from 8.3.1 up...",
+      "timestamp": 1784380626.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-47869 - VMware Avi Load Balancer Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47869",
-      "summary": "CVE ID :CVE-2026-47869\n  \n  Published : July 18, 2026, 9:17 a.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :VMware Avi Load Balancer contains a remot...",
-      "timestamp": 1784366228.0,
+      "title": "CVE-2026-15631 - @fastify/http-proxy vulnerable to prefix escape via WebSocket path traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15631",
+      "summary": "CVE ID :CVE-2026-15631\n  \n  Published : July 18, 2026, 1:17 p.m. | 38\u00a0minutes ago\n  \n  Description :Impact: @fastify/http-proxy versions from 9.4.0 up...",
+      "timestamp": 1784380625.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-47867 - VMware Avi Load Balancer Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47867",
-      "summary": "CVE ID :CVE-2026-47867\n  \n  Published : July 18, 2026, 9:17 a.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :VMware Avi Load Balancer contains a remot...",
-      "timestamp": 1784366228.0,
+      "title": "The Future of Age Verification: Your Face Never Leaves Your Device",
+      "link": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
+      "summary": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode...",
+      "timestamp": 1784380524.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2025-71392 - SurrealDB before 2.2.2 SurrealQL Injection via export",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71392",
+      "summary": "CVE ID :CVE-2025-71392\n  \n  Published : July 18, 2026, 1:10 p.m. | 45\u00a0minutes ago\n  \n  Description :SurrealDB before 2.0.5, 2.1.x before 2.1.5, and 2....",
+      "timestamp": 1784380211.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-47866 - VMware Avi Load Balancer Authorization Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47866",
-      "summary": "CVE ID :CVE-2026-47866\n  \n  Published : July 18, 2026, 9:17 a.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :VMware Avi Load Balancer contains an auth...",
-      "timestamp": 1784366228.0,
+      "title": "CVE-2024-58368 - SurrealDB before 1.1.0 Denial of Service via HTTP Headers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58368",
+      "summary": "CVE ID :CVE-2024-58368\n  \n  Published : July 18, 2026, 1:10 p.m. | 45\u00a0minutes ago\n  \n  Description :SurrealDB versions before 1.1.0 fail to properly p...",
+      "timestamp": 1784380208.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-47865 - VMware Avi Load Balancer Authentication Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47865",
-      "summary": "CVE ID :CVE-2026-47865\n  \n  Published : July 18, 2026, 9:17 a.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :VMware Avi Load Balancer contains an auth...",
-      "timestamp": 1784366228.0,
+      "title": "CVE-2024-58366 - SurrealDB before 1.1.1 Format String via Scripting Functions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58366",
+      "summary": "CVE ID :CVE-2024-58366\n  \n  Published : July 18, 2026, 1:10 p.m. | 45\u00a0minutes ago\n  \n  Description :SurrealDB before 1.1.1 contains a format string vu...",
+      "timestamp": 1784380206.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-55518 - Avo: Missing Authorization in Avo Association Attach Endpoint Allows Unauthorized Relationship Manipulation and Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55518",
-      "summary": "CVE ID :CVE-2026-55518\n  \n  Published : July 17, 2026, 9:17 p.m. | 14\u00a0hours, 38\u00a0minutes ago\n  \n  Description :Avo is a framework to create admin panel...",
-      "timestamp": 1784323029.0,
+      "title": "CVE-2024-58362 - SurrealDB before 1.5.5 Query Injection via RPC API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58362",
+      "summary": "CVE ID :CVE-2024-58362\n  \n  Published : July 18, 2026, 1:10 p.m. | 45\u00a0minutes ago\n  \n  Description :SurrealDB before 1.5.5 (and 2.0.0-beta before 2.0....",
+      "timestamp": 1784380204.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-54498 - view_component: around_render HTML-Safety Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54498",
-      "summary": "CVE ID :CVE-2026-54498\n  \n  Published : July 17, 2026, 9:17 p.m. | 14\u00a0hours, 38\u00a0minutes ago\n  \n  Description :view_component is a framework for buildi...",
-      "timestamp": 1784323029.0,
+      "title": "CVE-2023-54366 - SurrealDB before 1.0.1 Insecure Default Table Permissions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2023-54366",
+      "summary": "CVE ID :CVE-2023-54366\n  \n  Published : July 18, 2026, 1:10 p.m. | 45\u00a0minutes ago\n  \n  Description :SurrealDB before 1.0.1 sets default table permissi...",
+      "timestamp": 1784380200.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-54466 - websocket-driver: Message corruption via abuse of protocol length headers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54466",
-      "summary": "CVE ID :CVE-2026-54466\n  \n  Published : July 17, 2026, 9:17 p.m. | 14\u00a0hours, 38\u00a0minutes ago\n  \n  Description :websocket-driver is a WebSocket protocol...",
-      "timestamp": 1784323028.0,
+      "title": "CVE-2026-16117 - @fastify/http-proxy vulnerable to prefix escape via URL-encoded characters",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16117",
+      "summary": "CVE ID :CVE-2026-16117\n  \n  Published : July 18, 2026, 1:08 p.m. | 46\u00a0minutes ago\n  \n  Description :Impact: @fastify/http-proxy versions up to and inc...",
+      "timestamp": 1784380120.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-54159 - ps_facetedsearch: PHP Object Injection in faceted search cache allows unauthenticated RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54159",
-      "summary": "CVE ID :CVE-2026-54159\n  \n  Published : July 17, 2026, 9:17 p.m. | 14\u00a0hours, 38\u00a0minutes ago\n  \n  Description :PrestaShop ps_facetedsearch is a module ...",
-      "timestamp": 1784323027.0,
+      "title": "CVE-2026-16097 - Shibby Tomato Scheduler Name sub_42537C stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16097",
+      "summary": "CVE ID :CVE-2026-16097\n  \n  Published : July 18, 2026, 12:17 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :A vulnerability was found in Shibby Tomat...",
+      "timestamp": 1784377031.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -219,14 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
-      "link": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
-      "summary": "The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspendin...",
-      "timestamp": 1784236181.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
@@ -291,24 +291,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -323,14 +307,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
       "summary": "",
@@ -339,8 +315,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -349,6 +333,22 @@
     {
       "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0010 Chromium and Prisma Browser: Monthly Vulnerability Update (July 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0010",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -387,5 +387,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784378187.7378576
+  "last_updated": 1784383580.567944
 }
