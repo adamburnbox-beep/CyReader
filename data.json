@@ -31,8 +31,8 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 0,
-      "total_count": 0,
+      "new_count": 10,
+      "total_count": 10,
       "status": "ok"
     },
     {
@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
+      "link": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+      "summary": "Public exploits have been released for the critical \"wp2shell\" remote code execution vulnerabilities affecting WordPress Core, making it imperative th...",
+      "timestamp": 1784395367.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
@@ -67,9 +75,65 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-9323 - Insecure PRNG and Information Exposure in urwid Web Display Backend",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9323",
+      "summary": "CVE ID :CVE-2026-9323\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0hour, 52\u00a0minutes ago\n  \n  Description :The urwid web display backend (urwid/displa...",
+      "timestamp": 1784384232.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-16117 - @fastify/http-proxy vulnerable to prefix escape via URL-encoded characters",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16117",
+      "summary": "CVE ID :CVE-2026-16117\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0hour, 52\u00a0minutes ago\n  \n  Description :Impact: @fastify/http-proxy versions up to...",
+      "timestamp": 1784384231.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-11826 - OpenPLC_v3 Heap-Based Buffer Overflow in Modbus Master getData()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11826",
+      "summary": "CVE ID :CVE-2026-11826\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0hour, 52\u00a0minutes ago\n  \n  Description :OpenPLC_v3 contains a heap-based buffer ov...",
+      "timestamp": 1784384231.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-71392 - SurrealDB before 2.2.2 SurrealQL Injection via export",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71392",
+      "summary": "CVE ID :CVE-2025-71392\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0hour, 52\u00a0minutes ago\n  \n  Description :SurrealDB before 2.0.5, 2.1.x before 2.1.5...",
+      "timestamp": 1784384230.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2024-58366 - SurrealDB before 1.1.1 Format String via Scripting Functions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58366",
+      "summary": "CVE ID :CVE-2024-58366\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0hour, 52\u00a0minutes ago\n  \n  Description :SurrealDB before 1.1.1 contains a format s...",
+      "timestamp": 1784384229.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2024-58362 - SurrealDB before 1.5.5 Query Injection via RPC API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58362",
+      "summary": "CVE ID :CVE-2024-58362\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0hour, 52\u00a0minutes ago\n  \n  Description :SurrealDB before 1.5.5 (and 2.0.0-beta bef...",
+      "timestamp": 1784384229.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2023-54366 - SurrealDB before 1.0.1 Insecure Default Table Permissions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2023-54366",
+      "summary": "CVE ID :CVE-2023-54366\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0hour, 52\u00a0minutes ago\n  \n  Description :SurrealDB before 1.0.1 sets default table ...",
+      "timestamp": 1784384227.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-9147 - uproot 5.7.4 and prior Code Injection via TStreamerInfo Metadata",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9147",
-      "summary": "CVE ID :CVE-2026-9147\n  \n  Published : July 18, 2026, 1:17 p.m. | 38\u00a0minutes ago\n  \n  Description :uproot dynamically generates Python class source co...",
+      "summary": "CVE ID :CVE-2026-9147\n  \n  Published : July 18, 2026, 1:17 p.m. | 2\u00a0hours, 52\u00a0minutes ago\n  \n  Description :uproot dynamically generates Python class ...",
       "timestamp": 1784380626.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +141,7 @@
     {
       "title": "CVE-2026-16158 - @fastify/reply-from vulnerable to cross-upstream request routing via URL cache key collision",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16158",
-      "summary": "CVE ID :CVE-2026-16158\n  \n  Published : July 18, 2026, 1:17 p.m. | 38\u00a0minutes ago\n  \n  Description :Impact: @fastify/reply-from versions from 8.3.1 up...",
+      "summary": "CVE ID :CVE-2026-16158\n  \n  Published : July 18, 2026, 1:17 p.m. | 2\u00a0hours, 52\u00a0minutes ago\n  \n  Description :Impact: @fastify/reply-from versions from...",
       "timestamp": 1784380626.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +149,7 @@
     {
       "title": "CVE-2026-15631 - @fastify/http-proxy vulnerable to prefix escape via WebSocket path traversal",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15631",
-      "summary": "CVE ID :CVE-2026-15631\n  \n  Published : July 18, 2026, 1:17 p.m. | 38\u00a0minutes ago\n  \n  Description :Impact: @fastify/http-proxy versions from 9.4.0 up...",
+      "summary": "CVE ID :CVE-2026-15631\n  \n  Published : July 18, 2026, 1:17 p.m. | 2\u00a0hours, 52\u00a0minutes ago\n  \n  Description :Impact: @fastify/http-proxy versions from...",
       "timestamp": 1784380625.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -97,62 +161,6 @@
       "timestamp": 1784380524.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2025-71392 - SurrealDB before 2.2.2 SurrealQL Injection via export",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71392",
-      "summary": "CVE ID :CVE-2025-71392\n  \n  Published : July 18, 2026, 1:10 p.m. | 45\u00a0minutes ago\n  \n  Description :SurrealDB before 2.0.5, 2.1.x before 2.1.5, and 2....",
-      "timestamp": 1784380211.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2024-58368 - SurrealDB before 1.1.0 Denial of Service via HTTP Headers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58368",
-      "summary": "CVE ID :CVE-2024-58368\n  \n  Published : July 18, 2026, 1:10 p.m. | 45\u00a0minutes ago\n  \n  Description :SurrealDB versions before 1.1.0 fail to properly p...",
-      "timestamp": 1784380208.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2024-58366 - SurrealDB before 1.1.1 Format String via Scripting Functions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58366",
-      "summary": "CVE ID :CVE-2024-58366\n  \n  Published : July 18, 2026, 1:10 p.m. | 45\u00a0minutes ago\n  \n  Description :SurrealDB before 1.1.1 contains a format string vu...",
-      "timestamp": 1784380206.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2024-58362 - SurrealDB before 1.5.5 Query Injection via RPC API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58362",
-      "summary": "CVE ID :CVE-2024-58362\n  \n  Published : July 18, 2026, 1:10 p.m. | 45\u00a0minutes ago\n  \n  Description :SurrealDB before 1.5.5 (and 2.0.0-beta before 2.0....",
-      "timestamp": 1784380204.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2023-54366 - SurrealDB before 1.0.1 Insecure Default Table Permissions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2023-54366",
-      "summary": "CVE ID :CVE-2023-54366\n  \n  Published : July 18, 2026, 1:10 p.m. | 45\u00a0minutes ago\n  \n  Description :SurrealDB before 1.0.1 sets default table permissi...",
-      "timestamp": 1784380200.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16117 - @fastify/http-proxy vulnerable to prefix escape via URL-encoded characters",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16117",
-      "summary": "CVE ID :CVE-2026-16117\n  \n  Published : July 18, 2026, 1:08 p.m. | 46\u00a0minutes ago\n  \n  Description :Impact: @fastify/http-proxy versions up to and inc...",
-      "timestamp": 1784380120.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16097 - Shibby Tomato Scheduler Name sub_42537C stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16097",
-      "summary": "CVE ID :CVE-2026-16097\n  \n  Published : July 18, 2026, 12:17 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :A vulnerability was found in Shibby Tomat...",
-      "timestamp": 1784377031.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Abbott probes two cyber incidents amid extortion claims",
@@ -169,6 +177,14 @@
       "timestamp": 1784310981.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "Cisco Identity Services Engine Stored Cross-Site Scripting Vulnerabilities",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-42tgsdMG?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Stored%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
+      "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Identity Services Engine (ISE) guest portals could allow an authenticated, rem...",
+      "timestamp": 1784302443.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
     },
     {
       "title": "Ernst & Young discloses data breach after support system hack",
@@ -211,12 +227,36 @@
       "vendor": "News"
     },
     {
-      "title": "CISA urges immediate action on actively exploited Fortinet flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
-      "summary": "CISA on Thursday ordered government agencies to prioritize patching two actively exploited vulnerabilities in the Fortinet FortiSandbox threat detecti...",
-      "timestamp": 1784271813.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
+      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
+      "timestamp": 1784153368.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Advance Notification for Publication of July 15, 2026, Security Advisories",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-ILh3ZrP5?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%2015,%202026,%20Security%20Advisories%26vs_k=1",
+      "summary": "On July 15, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE ID\nSecu...",
+      "timestamp": 1784131270.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco RoomOS Security Hardening Release: July 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-roomos-AqNMbEq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20RoomOS%20Security%20Hardening%20Release:%20July%202026%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco RoomOS engineering team has conducted a comprehensive inter...",
+      "timestamp": 1784131200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Identity Services Engine Path Traversal Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-traversal-xNt7wb2Y?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Path%20Traversal%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an authenticated, remote attack...",
+      "timestamp": 1784131200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
     },
     {
       "title": "Microsoft Patches a Record 570 Security Flaws",
@@ -251,24 +291,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -283,16 +307,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -307,16 +323,40 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0276 Cortex XDR Broker VM: Privilege Escalation (PE) Vulnerability (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0276",
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -329,7 +369,23 @@
       "timestamp": 1783513899.0,
       "source": "Krebs on Security",
       "vendor": "News"
+    },
+    {
+      "title": "Cisco Identity Services Engine Remote Code Execution and Information Disclosure Vulnerabilities",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multi-G5WP8vv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Remote%20Code%20Execution%20and%20Information%20Disclosure%20Vulnerabilities%26vs_k=1",
+      "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to a...",
+      "timestamp": 1783365630.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Catalyst Center Arbitrary File Read Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-catc-file-read-wLH2vf8X?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20Center%20Arbitrary%20File%20Read%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in Cisco Catalyst Center could allow an unauthenticated, remote attacker to read arbitrary files from a restricted container.&nbsp;\nTh...",
+      "timestamp": 1783339233.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1784387530.084906
+  "last_updated": 1784398069.6682696
 }
