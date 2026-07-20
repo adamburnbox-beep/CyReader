@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,25 +52,57 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Cisco Identity Services Engine Stored Cross-Site Scripting Vulnerabilities",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-42tgsdMG?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Stored%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
+      "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Identity Services Engine (ISE) guest portals could allow an authenticated, rem...",
+      "timestamp": 1784562435.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
       "title": "CVE-2026-63090 - ProFTPD mod_sftp Heap Buffer Overflow via SFTP Packet Reassembly",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63090",
-      "summary": "CVE ID :CVE-2026-63090\n  \n  Published : July 20, 2026, 2:22 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :ProFTPD before 1.3.9c and 1.3.10rc3 contain...",
-      "timestamp": 1784557323.0,
+      "summary": "CVE ID :CVE-2026-63090\n  \n  Published : July 20, 2026, 3:16 p.m. | 40\u00a0minutes ago\n  \n  Description :ProFTPD before 1.3.9c and 1.3.10rc3 contains a hea...",
+      "timestamp": 1784560605.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46410 - FileBrowser Quantum: unauthenticated user share share info",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46410",
+      "summary": "CVE ID :CVE-2026-46410\n  \n  Published : July 20, 2026, 3:16 p.m. | 40\u00a0minutes ago\n  \n  Description :FileBrowser Quantum is a free, self-hosted, web-ba...",
+      "timestamp": 1784560598.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45270 - CI4MS: Stored XSS in Pages Module Content via Broken html_purify Validation Rule",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45270",
+      "summary": "CVE ID :CVE-2026-45270\n  \n  Published : July 20, 2026, 3:16 p.m. | 40\u00a0minutes ago\n  \n  Description :CI4MS is a CodeIgniter 4-based content management ...",
+      "timestamp": 1784560598.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-12701 - Pulpcore: pulpcore: relative_path_validator bypass via directory traversal in filesystemexport",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12701",
-      "summary": "CVE ID :CVE-2026-12701\n  \n  Published : July 20, 2026, 2:18 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :A path traversal vulnerability was found i...",
-      "timestamp": 1784557098.0,
+      "summary": "CVE ID :CVE-2026-12701\n  \n  Published : July 20, 2026, 3:16 p.m. | 40\u00a0minutes ago\n  \n  Description :A path traversal vulnerability was found in pulpco...",
+      "timestamp": 1784560594.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-21824 - A privilege escalation vulnerability affects HCL Commerce",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-21824",
+      "summary": "CVE ID :CVE-2026-21824\n  \n  Published : July 20, 2026, 3:04 p.m. | 52\u00a0minutes ago\n  \n  Description :HCL Commerce contains an privilege escalation vuln...",
+      "timestamp": 1784559877.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -85,7 +117,7 @@
     {
       "title": "CVE-2026-57309 - Blind SQL Injection in Windu CMS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57309",
-      "summary": "CVE ID :CVE-2026-57309\n  \n  Published : July 20, 2026, 1:16 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :A Blind SQL injection vulnerability has b...",
+      "summary": "CVE ID :CVE-2026-57309\n  \n  Published : July 20, 2026, 1:16 p.m. | 2\u00a0hours, 40\u00a0minutes ago\n  \n  Description :A Blind SQL injection vulnerability has b...",
       "timestamp": 1784553416.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +125,7 @@
     {
       "title": "CVE-2026-16248 - Tenda AC10 httpd/netctrl AdvSetLanip fromAdvSetLanip stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16248",
-      "summary": "CVE ID :CVE-2026-16248\n  \n  Published : July 20, 2026, 1:16 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :A vulnerability was found in Tenda AC10 1...",
+      "summary": "CVE ID :CVE-2026-16248\n  \n  Published : July 20, 2026, 1:16 p.m. | 2\u00a0hours, 40\u00a0minutes ago\n  \n  Description :A vulnerability was found in Tenda AC10 1...",
       "timestamp": 1784553416.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +133,7 @@
     {
       "title": "CVE-2026-64623 - Network-AI before 5.13.4 Cryptographic Signature Verification Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64623",
-      "summary": "CVE ID :CVE-2026-64623\n  \n  Published : July 20, 2026, 12:19 p.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Network-AI before 5.13.4 contains an impr...",
+      "summary": "CVE ID :CVE-2026-64623\n  \n  Published : July 20, 2026, 12:19 p.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Network-AI before 5.13.4 contains an imp...",
       "timestamp": 1784549987.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +141,7 @@
     {
       "title": "CVE-2026-64622 - Network-AI 5.12.2 through 5.13.3 Missing Authorization via ApprovalInbox",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64622",
-      "summary": "CVE ID :CVE-2026-64622\n  \n  Published : July 20, 2026, 12:19 p.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Network-AI (npm: network-ai) versions 5.1...",
+      "summary": "CVE ID :CVE-2026-64622\n  \n  Published : July 20, 2026, 12:19 p.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Network-AI (npm: network-ai) versions 5....",
       "timestamp": 1784549987.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,32 +149,8 @@
     {
       "title": "CVE-2026-64621 - FreeRDP before 3.28.0 Double-Free via selectedmonitors",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64621",
-      "summary": "CVE ID :CVE-2026-64621\n  \n  Published : July 20, 2026, 12:19 p.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :FreeRDP before 3.28.0 (affected 3.x throu...",
+      "summary": "CVE ID :CVE-2026-64621\n  \n  Published : July 20, 2026, 12:19 p.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :FreeRDP before 3.28.0 (affected 3.x thro...",
       "timestamp": 1784549986.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-64620 - FreeRDP before 3.28.0 Heap Buffer Overflow via crypto_rsa_common",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64620",
-      "summary": "CVE ID :CVE-2026-64620\n  \n  Published : July 20, 2026, 12:19 p.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :FreeRDP before 3.28.0 (affected  out_leng...",
-      "timestamp": 1784549986.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63760 - SurrealDB before 3.1.0 Denial of Service via JSON Parser",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63760",
-      "summary": "CVE ID :CVE-2026-63760\n  \n  Published : July 20, 2026, 12:19 p.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :SurrealDB before 3.1.0 fails to enforce t...",
-      "timestamp": 1784549986.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63757 - SurrealDB before 3.1.0 Session Hijacking via /rpc sessions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63757",
-      "summary": "CVE ID :CVE-2026-63757\n  \n  Published : July 20, 2026, 12:19 p.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :SurrealDB versions before 3.1.0 contain a...",
-      "timestamp": 1784549985.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -217,14 +225,6 @@
       "timestamp": 1784380524.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "Cisco Identity Services Engine Stored Cross-Site Scripting Vulnerabilities",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-42tgsdMG?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Stored%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
-      "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Identity Services Engine (ISE) guest portals could allow an authenticated, rem...",
-      "timestamp": 1784302443.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     },
     {
       "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
@@ -371,5 +371,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784561729.9071248
+  "last_updated": 1784567280.0161755
 }
