@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-44359 - Meshtastic GitHub repo vulnerable to Arbitrary Code Execution via pull_request_target Fork Checkout in CI Workflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44359",
+      "summary": "CVE ID :CVE-2026-44359\n  \n  Published : July 20, 2026, 12:16 a.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Meshtastic is an open source mesh networ...",
+      "timestamp": 1784506618.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Hackers abuse ViPNet software to target Russian govt agencies",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
@@ -69,7 +77,7 @@
     {
       "title": "CVE-2026-10130 - QueryWeaver Authentication Bypass via Email Signup Token Issuance for Existing Accounts",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10130",
-      "summary": "CVE ID :CVE-2026-10130\n  \n  Published : July 18, 2026, 11:17 p.m. | 1\u00a0day ago\n  \n  Description :QueryWeaver contains an authentication bypass vulnerab...",
+      "summary": "CVE ID :CVE-2026-10130\n  \n  Published : July 18, 2026, 11:17 p.m. | 1\u00a0day, 5\u00a0hours ago\n  \n  Description :QueryWeaver contains an authentication bypass...",
       "timestamp": 1784416620.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +85,7 @@
     {
       "title": "CVE-2026-12228 - Stored XSS in Direct Messages via Prompt Sharing in parisneo/lollms",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12228",
-      "summary": "CVE ID :CVE-2026-12228\n  \n  Published : July 18, 2026, 9:17 p.m. | 1\u00a0day, 2\u00a0hours ago\n  \n  Description :A stored cross-site scripting (XSS) vulnerabil...",
+      "summary": "CVE ID :CVE-2026-12228\n  \n  Published : July 18, 2026, 9:17 p.m. | 1\u00a0day, 7\u00a0hours ago\n  \n  Description :A stored cross-site scripting (XSS) vulnerabil...",
       "timestamp": 1784409423.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +117,7 @@
     {
       "title": "CVE-2026-9323 - Insecure PRNG and Information Exposure in urwid Web Display Backend",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9323",
-      "summary": "CVE ID :CVE-2026-9323\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 9\u00a0hours ago\n  \n  Description :The urwid web display backend (urwid/display/we...",
+      "summary": "CVE ID :CVE-2026-9323\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 14\u00a0hours ago\n  \n  Description :The urwid web display backend (urwid/display/w...",
       "timestamp": 1784384232.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +125,7 @@
     {
       "title": "CVE-2026-16117 - @fastify/http-proxy vulnerable to prefix escape via URL-encoded characters",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16117",
-      "summary": "CVE ID :CVE-2026-16117\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 9\u00a0hours ago\n  \n  Description :Impact: @fastify/http-proxy versions up to and...",
+      "summary": "CVE ID :CVE-2026-16117\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 14\u00a0hours ago\n  \n  Description :Impact: @fastify/http-proxy versions up to an...",
       "timestamp": 1784384231.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +133,7 @@
     {
       "title": "CVE-2026-11826 - OpenPLC_v3 Heap-Based Buffer Overflow in Modbus Master getData()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-11826",
-      "summary": "CVE ID :CVE-2026-11826\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 9\u00a0hours ago\n  \n  Description :OpenPLC_v3 contains a heap-based buffer overfl...",
+      "summary": "CVE ID :CVE-2026-11826\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 14\u00a0hours ago\n  \n  Description :OpenPLC_v3 contains a heap-based buffer overf...",
       "timestamp": 1784384231.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,7 +141,7 @@
     {
       "title": "CVE-2025-71392 - SurrealDB before 2.2.2 SurrealQL Injection via export",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-71392",
-      "summary": "CVE ID :CVE-2025-71392\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 9\u00a0hours ago\n  \n  Description :SurrealDB before 2.0.5, 2.1.x before 2.1.5, an...",
+      "summary": "CVE ID :CVE-2025-71392\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 14\u00a0hours ago\n  \n  Description :SurrealDB before 2.0.5, 2.1.x before 2.1.5, a...",
       "timestamp": 1784384230.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -141,7 +149,7 @@
     {
       "title": "CVE-2024-58366 - SurrealDB before 1.1.1 Format String via Scripting Functions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2024-58366",
-      "summary": "CVE ID :CVE-2024-58366\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 9\u00a0hours ago\n  \n  Description :SurrealDB before 1.1.1 contains a format strin...",
+      "summary": "CVE ID :CVE-2024-58366\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 14\u00a0hours ago\n  \n  Description :SurrealDB before 1.1.1 contains a format stri...",
       "timestamp": 1784384229.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -149,7 +157,7 @@
     {
       "title": "CVE-2024-58362 - SurrealDB before 1.5.5 Query Injection via RPC API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2024-58362",
-      "summary": "CVE ID :CVE-2024-58362\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 9\u00a0hours ago\n  \n  Description :SurrealDB before 1.5.5 (and 2.0.0-beta before ...",
+      "summary": "CVE ID :CVE-2024-58362\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 14\u00a0hours ago\n  \n  Description :SurrealDB before 1.5.5 (and 2.0.0-beta before...",
       "timestamp": 1784384229.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -157,16 +165,8 @@
     {
       "title": "CVE-2023-54366 - SurrealDB before 1.0.1 Insecure Default Table Permissions",
       "link": "https://cvefeed.io/vuln/detail/CVE-2023-54366",
-      "summary": "CVE ID :CVE-2023-54366\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 9\u00a0hours ago\n  \n  Description :SurrealDB before 1.0.1 sets default table perm...",
+      "summary": "CVE ID :CVE-2023-54366\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 14\u00a0hours ago\n  \n  Description :SurrealDB before 1.0.1 sets default table per...",
       "timestamp": 1784384227.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9147 - uproot 5.7.4 and prior Code Injection via TStreamerInfo Metadata",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9147",
-      "summary": "CVE ID :CVE-2026-9147\n  \n  Published : July 18, 2026, 1:17 p.m. | 1\u00a0day, 10\u00a0hours ago\n  \n  Description :uproot dynamically generates Python class sour...",
-      "timestamp": 1784380626.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -371,5 +371,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784509954.5666587
+  "last_updated": 1784523130.10043
 }
