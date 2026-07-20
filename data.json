@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,100 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "New HollowGraph malware uses Microsoft Graph for stealthy C2 comms",
+      "link": "https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms/",
+      "summary": "A malicious component dubbed HollowGraph uses the calendar feature in compromised Microsoft 365 mailboxes as a command-and-control channel to receive ...",
+      "timestamp": 1784569381.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-63429 - HeyForm has unauthenticated /api/upload endpoint that accepts arbitrary files with no auth/session/form context",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63429",
+      "summary": "CVE ID :CVE-2026-63429\n  \n  Published : July 20, 2026, 4:17 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :HeyForm is an open-source form builder. Pr...",
+      "timestamp": 1784564226.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-51027 - FileThingie Information Disclosure Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-51027",
+      "summary": "CVE ID :CVE-2026-51027\n  \n  Published : July 20, 2026, 4:17 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :An issue in FileThingie v.2.5.7 allows a r...",
+      "timestamp": 1784564224.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46428 - lettre has TLS hostname verification disabled when using Boring TLS backend",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46428",
+      "summary": "CVE ID :CVE-2026-46428\n  \n  Published : July 20, 2026, 4:17 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :lettre is a a mailer library for Rust. Sta...",
+      "timestamp": 1784564221.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46415 - Caddy Defender trusted proxy client IP bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46415",
+      "summary": "CVE ID :CVE-2026-46415\n  \n  Published : July 20, 2026, 4:17 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :The Caddy Defender plugin is a middleware ...",
+      "timestamp": 1784564221.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46412 - Malicious code in @beproduct/nestjs-auth (0.1.2 through 0.1.19) \u2014 Mini Shai-Hulud worm",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46412",
+      "summary": "CVE ID :CVE-2026-46412\n  \n  Published : July 20, 2026, 4:17 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :@beproduct/nestjs-auth is a NestJS authent...",
+      "timestamp": 1784564221.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-35198 - HeyForm vulnerable to stored XSS via form field titles",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35198",
+      "summary": "CVE ID :CVE-2026-35198\n  \n  Published : July 20, 2026, 4:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :HeyForm is an open-source form builder. Pr...",
+      "timestamp": 1784564218.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-28220 - Wazuh cluster DAPI arbitrary callable deserialization and RBAC context injection allow a cluster peer to execute privileged functions on the master node",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28220",
+      "summary": "CVE ID :CVE-2026-28220\n  \n  Published : July 20, 2026, 4:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :Wazuh is a free and open source platform u...",
+      "timestamp": 1784564217.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-27823 - Remote Code Execution Vulnerability in EGroupware",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-27823",
+      "summary": "CVE ID :CVE-2026-27823\n  \n  Published : July 20, 2026, 4:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :A vulnerability has been identified in EGr...",
+      "timestamp": 1784564217.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-25039 - The application evaluate UNC path in workspace name",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-25039",
+      "summary": "CVE ID :CVE-2026-25039\n  \n  Published : July 20, 2026, 4:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :Parsec is a cloud-based application for si...",
+      "timestamp": 1784564216.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-21824 - A privilege escalation vulnerability affects HCL Commerce",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-21824",
+      "summary": "CVE ID :CVE-2026-21824\n  \n  Published : July 20, 2026, 4:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :HCL Commerce contains an privilege escalat...",
+      "timestamp": 1784564216.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Cisco Identity Services Engine Stored Cross-Site Scripting Vulnerabilities",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-42tgsdMG?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Stored%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
@@ -67,92 +155,12 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-63090 - ProFTPD mod_sftp Heap Buffer Overflow via SFTP Packet Reassembly",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63090",
-      "summary": "CVE ID :CVE-2026-63090\n  \n  Published : July 20, 2026, 3:16 p.m. | 40\u00a0minutes ago\n  \n  Description :ProFTPD before 1.3.9c and 1.3.10rc3 contains a hea...",
-      "timestamp": 1784560605.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-46410 - FileBrowser Quantum: unauthenticated user share share info",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46410",
-      "summary": "CVE ID :CVE-2026-46410\n  \n  Published : July 20, 2026, 3:16 p.m. | 40\u00a0minutes ago\n  \n  Description :FileBrowser Quantum is a free, self-hosted, web-ba...",
-      "timestamp": 1784560598.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45270 - CI4MS: Stored XSS in Pages Module Content via Broken html_purify Validation Rule",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45270",
-      "summary": "CVE ID :CVE-2026-45270\n  \n  Published : July 20, 2026, 3:16 p.m. | 40\u00a0minutes ago\n  \n  Description :CI4MS is a CodeIgniter 4-based content management ...",
-      "timestamp": 1784560598.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12701 - Pulpcore: pulpcore: relative_path_validator bypass via directory traversal in filesystemexport",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12701",
-      "summary": "CVE ID :CVE-2026-12701\n  \n  Published : July 20, 2026, 3:16 p.m. | 40\u00a0minutes ago\n  \n  Description :A path traversal vulnerability was found in pulpco...",
-      "timestamp": 1784560594.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-21824 - A privilege escalation vulnerability affects HCL Commerce",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-21824",
-      "summary": "CVE ID :CVE-2026-21824\n  \n  Published : July 20, 2026, 3:04 p.m. | 52\u00a0minutes ago\n  \n  Description :HCL Commerce contains an privilege escalation vuln...",
-      "timestamp": 1784559877.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "An AI SOC Evaluation Guide for Security Leaders",
       "link": "https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/",
       "summary": "Choosing an AI SOC platform requires understanding how it will perform in your own environment, not just during an evaluation. Prophet Security shares...",
       "timestamp": 1784556071.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-57309 - Blind SQL Injection in Windu CMS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57309",
-      "summary": "CVE ID :CVE-2026-57309\n  \n  Published : July 20, 2026, 1:16 p.m. | 2\u00a0hours, 40\u00a0minutes ago\n  \n  Description :A Blind SQL injection vulnerability has b...",
-      "timestamp": 1784553416.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16248 - Tenda AC10 httpd/netctrl AdvSetLanip fromAdvSetLanip stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16248",
-      "summary": "CVE ID :CVE-2026-16248\n  \n  Published : July 20, 2026, 1:16 p.m. | 2\u00a0hours, 40\u00a0minutes ago\n  \n  Description :A vulnerability was found in Tenda AC10 1...",
-      "timestamp": 1784553416.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-64623 - Network-AI before 5.13.4 Cryptographic Signature Verification Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64623",
-      "summary": "CVE ID :CVE-2026-64623\n  \n  Published : July 20, 2026, 12:19 p.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Network-AI before 5.13.4 contains an imp...",
-      "timestamp": 1784549987.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-64622 - Network-AI 5.12.2 through 5.13.3 Missing Authorization via ApprovalInbox",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64622",
-      "summary": "CVE ID :CVE-2026-64622\n  \n  Published : July 20, 2026, 12:19 p.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Network-AI (npm: network-ai) versions 5....",
-      "timestamp": 1784549987.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-64621 - FreeRDP before 3.28.0 Double-Free via selectedmonitors",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64621",
-      "summary": "CVE ID :CVE-2026-64621\n  \n  Published : July 20, 2026, 12:19 p.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :FreeRDP before 3.28.0 (affected 3.x thro...",
-      "timestamp": 1784549986.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Hugging Face warns an autonomous AI agent hacked its network",
@@ -215,14 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
       "summary": "Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive docume...",
       "timestamp": 1784384239.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "The Future of Age Verification: Your Face Never Leaves Your Device",
-      "link": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
-      "summary": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode...",
-      "timestamp": 1784380524.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -291,8 +291,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -323,24 +323,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -349,6 +333,22 @@
     {
       "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0010 Chromium and Prisma Browser: Monthly Vulnerability Update (July 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0010",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -371,5 +371,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784567280.0161755
+  "last_updated": 1784574360.4547648
 }
