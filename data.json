@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,24 +52,32 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-63766 - GPT-SoVITS 20250606v2pro OS Command Injection via webui.py",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63766",
-      "summary": "CVE ID :CVE-2026-63766\n  \n  Published : July 20, 2026, 7:18 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :GPT-SoVITS through 20250606v2pro contains ...",
-      "timestamp": 1784575089.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
+      "title": "Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
+      "link": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
+      "summary": "Researchers escaped the sandboxes in Cursor, Codex, Gemini CLI and Antigravity by having the AI agent write files that trusted host tools later run. M...",
+      "timestamp": 1784582082.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "JadePuffer agentic attacks now target AI model data with ransomware",
+      "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/",
+      "summary": "The JadePuffer autonomous AI agent\u00a0has upgraded with custom malware called EncForge that focuses on encrypting AI assets, such as training datasets, v...",
+      "timestamp": 1784581682.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "CVE-2026-64619 - FileCodeBox < 2.4 Anti-bruteforce Rate Limit Bypass via Spoofed Headers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64619",
-      "summary": "CVE ID :CVE-2026-64619\n  \n  Published : July 20, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :FileCodeBox before 2.4 contains a rate-lim...",
+      "summary": "CVE ID :CVE-2026-64619\n  \n  Published : July 20, 2026, 7:17 p.m. | 40\u00a0minutes ago\n  \n  Description :FileCodeBox before 2.4 contains a rate-limit bypas...",
       "timestamp": 1784575050.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +85,7 @@
     {
       "title": "CVE-2026-63770 - Glance 0.8.5 IP Spoofing Authentication Brute-Force Protection Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63770",
-      "summary": "CVE ID :CVE-2026-63770\n  \n  Published : July 20, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Glance through 0.8.5 contains an IP addres...",
+      "summary": "CVE ID :CVE-2026-63770\n  \n  Published : July 20, 2026, 7:17 p.m. | 40\u00a0minutes ago\n  \n  Description :Glance through 0.8.5 contains an IP address spoofi...",
       "timestamp": 1784575049.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +93,7 @@
     {
       "title": "CVE-2026-63108 - Roo Code 3.54.0 Command Injection via Parameter Expansion Parsing",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63108",
-      "summary": "CVE ID :CVE-2026-63108\n  \n  Published : July 20, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Roo Code through 3.54.0 contains a command...",
+      "summary": "CVE ID :CVE-2026-63108\n  \n  Published : July 20, 2026, 7:17 p.m. | 40\u00a0minutes ago\n  \n  Description :Roo Code through 3.54.0 contains a command injecti...",
       "timestamp": 1784575049.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +101,7 @@
     {
       "title": "CVE-2026-61900 - Joomla Extension - dj-extensions.com - Unauthenticated arbitrary file upload in DJ-jDownloads < 4.1.6",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61900",
-      "summary": "CVE ID :CVE-2026-61900\n  \n  Published : July 20, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :The Joomla extension JDownloads is vulnera...",
+      "summary": "CVE ID :CVE-2026-61900\n  \n  Published : July 20, 2026, 7:17 p.m. | 40\u00a0minutes ago\n  \n  Description :The Joomla extension JDownloads is vulnerable to a...",
       "timestamp": 1784575048.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +109,7 @@
     {
       "title": "CVE-2026-61425 - Joomla Extension - balbooa.com - Authentication bypass in Gridbox < 1.6.0",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61425",
-      "summary": "CVE ID :CVE-2026-61425\n  \n  Published : July 20, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :The Joomla extension Gridbox is vulnerable...",
+      "summary": "CVE ID :CVE-2026-61425\n  \n  Published : July 20, 2026, 7:17 p.m. | 40\u00a0minutes ago\n  \n  Description :The Joomla extension Gridbox is vulnerable an auth...",
       "timestamp": 1784575048.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +117,7 @@
     {
       "title": "CVE-2026-61424 - Joomla Extension - dj-extensions.com - Unauthenticated arbitrary file upload in DJ-Classifieds < 3.11.2",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61424",
-      "summary": "CVE ID :CVE-2026-61424\n  \n  Published : July 20, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :The Joomla extension DJ-Classifieds is vul...",
+      "summary": "CVE ID :CVE-2026-61424\n  \n  Published : July 20, 2026, 7:17 p.m. | 40\u00a0minutes ago\n  \n  Description :The Joomla extension DJ-Classifieds is vulnerable ...",
       "timestamp": 1784575048.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +125,7 @@
     {
       "title": "CVE-2026-60034 - Joomla Extension - themexpert.com - Authenticated stored XSS in JMedia Extension < 1.6.0",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60034",
-      "summary": "CVE ID :CVE-2026-60034\n  \n  Published : July 20, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :The Joomla extension JMedia is vulnerable ...",
+      "summary": "CVE ID :CVE-2026-60034\n  \n  Published : July 20, 2026, 7:17 p.m. | 40\u00a0minutes ago\n  \n  Description :The Joomla extension JMedia is vulnerable to a sto...",
       "timestamp": 1784575047.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +133,7 @@
     {
       "title": "CVE-2026-60032 - Joomla Extension - themexpert.com - Authenticated arbitrary file upload in JMedia < 1.6.0",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60032",
-      "summary": "CVE ID :CVE-2026-60032\n  \n  Published : July 20, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :The Joomla extension JMedia is vulnerable ...",
+      "summary": "CVE ID :CVE-2026-60032\n  \n  Published : July 20, 2026, 7:17 p.m. | 40\u00a0minutes ago\n  \n  Description :The Joomla extension JMedia is vulnerable to an au...",
       "timestamp": 1784575047.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,7 +141,15 @@
     {
       "title": "CVE-2026-60030 - Joomla Extension - themexpert.com - Broken Access Control for media management in Quix Page Builder < 6.2.1",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60030",
-      "summary": "CVE ID :CVE-2026-60030\n  \n  Published : July 20, 2026, 7:17 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :The Joomla extension Quix Page Builder Pro...",
+      "summary": "CVE ID :CVE-2026-60030\n  \n  Published : July 20, 2026, 7:17 p.m. | 40\u00a0minutes ago\n  \n  Description :The Joomla extension Quix Page Builder Pro is vuln...",
+      "timestamp": 1784575047.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-60028 - Joomla Extension - themexpert.com - Authenticated stored XSS in Quix Page Builder < 6.2.1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60028",
+      "summary": "CVE ID :CVE-2026-60028\n  \n  Published : July 20, 2026, 7:17 p.m. | 40\u00a0minutes ago\n  \n  Description :The Joomla extension Quix Page Builder Pro is vuln...",
       "timestamp": 1784575047.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -211,22 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
-      "link": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
-      "summary": "Public exploits have been released for the critical \"wp2shell\" remote code execution vulnerabilities affecting WordPress Core, making it imperative th...",
-      "timestamp": 1784395367.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
-      "summary": "Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive docume...",
-      "timestamp": 1784384239.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
@@ -291,8 +291,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -307,8 +307,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -323,16 +323,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -341,6 +333,14 @@
     {
       "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -371,5 +371,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784580058.6417847
+  "last_updated": 1784584225.3340037
 }
