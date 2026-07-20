@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,19 +52,123 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-44359 - Meshtastic GitHub repo vulnerable to Arbitrary Code Execution via pull_request_target Fork Checkout in CI Workflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44359",
-      "summary": "CVE ID :CVE-2026-44359\n  \n  Published : July 20, 2026, 12:16 a.m. | 6\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Meshtastic is an open source mesh networ...",
-      "timestamp": 1784506618.0,
+      "title": "CVE-2026-64623 - Network-AI before 5.13.4 Cryptographic Signature Verification Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64623",
+      "summary": "CVE ID :CVE-2026-64623\n  \n  Published : July 20, 2026, 12:04 p.m. | 23\u00a0minutes ago\n  \n  Description :Network-AI before 5.13.4 contains an improper cry...",
+      "timestamp": 1784549095.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-64622 - Network-AI 5.12.2 through 5.13.3 Missing Authorization via ApprovalInbox",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64622",
+      "summary": "CVE ID :CVE-2026-64622\n  \n  Published : July 20, 2026, 12:04 p.m. | 23\u00a0minutes ago\n  \n  Description :Network-AI (npm: network-ai) versions 5.12.2 thro...",
+      "timestamp": 1784549094.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-64621 - FreeRDP before 3.28.0 Double-Free via selectedmonitors",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64621",
+      "summary": "CVE ID :CVE-2026-64621\n  \n  Published : July 20, 2026, 12:04 p.m. | 23\u00a0minutes ago\n  \n  Description :FreeRDP before 3.28.0 (affected 3.x through 3.27....",
+      "timestamp": 1784549093.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-64620 - FreeRDP before 3.28.0 Heap Buffer Overflow via crypto_rsa_common",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64620",
+      "summary": "CVE ID :CVE-2026-64620\n  \n  Published : July 20, 2026, 12:04 p.m. | 23\u00a0minutes ago\n  \n  Description :FreeRDP before 3.28.0 (affected  out_length, so o...",
+      "timestamp": 1784549093.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63760 - SurrealDB before 3.1.0 Denial of Service via JSON Parser",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63760",
+      "summary": "CVE ID :CVE-2026-63760\n  \n  Published : July 20, 2026, 12:04 p.m. | 24\u00a0minutes ago\n  \n  Description :SurrealDB before 3.1.0 fails to enforce the confi...",
+      "timestamp": 1784549089.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63757 - SurrealDB before 3.1.0 Session Hijacking via /rpc sessions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63757",
+      "summary": "CVE ID :CVE-2026-63757\n  \n  Published : July 20, 2026, 12:04 p.m. | 24\u00a0minutes ago\n  \n  Description :SurrealDB versions before 3.1.0 contain a session...",
+      "timestamp": 1784549087.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63756 - SurrealDB before 3.1.0 Privilege Escalation via RPC Session Race Condition",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63756",
+      "summary": "CVE ID :CVE-2026-63756\n  \n  Published : July 20, 2026, 12:04 p.m. | 24\u00a0minutes ago\n  \n  Description :SurrealDB versions before 3.1.0 contain a time-of...",
+      "timestamp": 1784549086.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63747 - SurrealDB before 3.1.0 Denial of Service via malformed RPC use",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63747",
+      "summary": "CVE ID :CVE-2026-63747\n  \n  Published : July 20, 2026, 12:04 p.m. | 24\u00a0minutes ago\n  \n  Description :SurrealDB versions before 3.1.0 contain a denial ...",
+      "timestamp": 1784549080.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63739 - SurrealDB before 3.1.5 Arbitrary File Read via DEFINE ANALYZER",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63739",
+      "summary": "CVE ID :CVE-2026-63739\n  \n  Published : July 20, 2026, 12:04 p.m. | 24\u00a0minutes ago\n  \n  Description :SurrealDB before 3.1.5 contains an arbitrary file...",
+      "timestamp": 1784549074.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63735 - SurrealDB before 3.2.0 Authentication Bypass via Custom API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63735",
+      "summary": "CVE ID :CVE-2026-63735\n  \n  Published : July 20, 2026, 12:04 p.m. | 24\u00a0minutes ago\n  \n  Description :SurrealDB versions before 3.2.0 fail to validate ...",
+      "timestamp": 1784549071.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Hugging Face warns an autonomous AI agent hacked its network",
+      "link": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
+      "summary": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its pr...",
+      "timestamp": 1784548588.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft confirms Windows Server Update Services sync delays",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/",
+      "summary": "Microsoft is working to fix a known issue affecting Windows Server Update Services (WSUS) servers, which has caused synchronization problems for more ...",
+      "timestamp": 1784544448.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Windows KB5121767 OOB update fixes shutdowns on some Dell PCs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/",
+      "summary": "Microsoft has released emergency updates to fix a known issue causing some Dell PCs to shut down after installing the July 2026 Windows 11 security up...",
+      "timestamp": 1784541977.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Critical ServiceNow code execution flaw now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/",
+      "summary": "Attackers have begun exploiting a critical vulnerability (CVE-2026-6875) in the ServiceNow AI Platform, according to threat intelligence company Defus...",
+      "timestamp": 1784539760.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Hackers abuse ViPNet software to target Russian govt agencies",
@@ -73,22 +177,6 @@
       "timestamp": 1784471026.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-10130 - QueryWeaver Authentication Bypass via Email Signup Token Issuance for Existing Accounts",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10130",
-      "summary": "CVE ID :CVE-2026-10130\n  \n  Published : July 18, 2026, 11:17 p.m. | 1\u00a0day, 7\u00a0hours ago\n  \n  Description :QueryWeaver contains an authentication bypass...",
-      "timestamp": 1784416620.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12228 - Stored XSS in Direct Messages via Prompt Sharing in parisneo/lollms",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12228",
-      "summary": "CVE ID :CVE-2026-12228\n  \n  Published : July 18, 2026, 9:17 p.m. | 1\u00a0day, 9\u00a0hours ago\n  \n  Description :A stored cross-site scripting (XSS) vulnerabil...",
-      "timestamp": 1784409423.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
@@ -115,62 +203,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-9323 - Insecure PRNG and Information Exposure in urwid Web Display Backend",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9323",
-      "summary": "CVE ID :CVE-2026-9323\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 16\u00a0hours ago\n  \n  Description :The urwid web display backend (urwid/display/w...",
-      "timestamp": 1784384232.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16117 - @fastify/http-proxy vulnerable to prefix escape via URL-encoded characters",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16117",
-      "summary": "CVE ID :CVE-2026-16117\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 16\u00a0hours ago\n  \n  Description :Impact: @fastify/http-proxy versions up to an...",
-      "timestamp": 1784384231.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11826 - OpenPLC_v3 Heap-Based Buffer Overflow in Modbus Master getData()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11826",
-      "summary": "CVE ID :CVE-2026-11826\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 16\u00a0hours ago\n  \n  Description :OpenPLC_v3 contains a heap-based buffer overf...",
-      "timestamp": 1784384231.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-71392 - SurrealDB before 2.2.2 SurrealQL Injection via export",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71392",
-      "summary": "CVE ID :CVE-2025-71392\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 16\u00a0hours ago\n  \n  Description :SurrealDB before 2.0.5, 2.1.x before 2.1.5, a...",
-      "timestamp": 1784384230.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2024-58366 - SurrealDB before 1.1.1 Format String via Scripting Functions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58366",
-      "summary": "CVE ID :CVE-2024-58366\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 16\u00a0hours ago\n  \n  Description :SurrealDB before 1.1.1 contains a format stri...",
-      "timestamp": 1784384229.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2024-58362 - SurrealDB before 1.5.5 Query Injection via RPC API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58362",
-      "summary": "CVE ID :CVE-2024-58362\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 16\u00a0hours ago\n  \n  Description :SurrealDB before 1.5.5 (and 2.0.0-beta before...",
-      "timestamp": 1784384229.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2023-54366 - SurrealDB before 1.0.1 Insecure Default Table Permissions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2023-54366",
-      "summary": "CVE ID :CVE-2023-54366\n  \n  Published : July 18, 2026, 2:17 p.m. | 1\u00a0day, 16\u00a0hours ago\n  \n  Description :SurrealDB before 1.0.1 sets default table per...",
-      "timestamp": 1784384227.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "The Future of Age Verification: Your Face Never Leaves Your Device",
       "link": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
       "summary": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode...",
@@ -187,44 +219,12 @@
       "vendor": "News"
     },
     {
-      "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
-      "link": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
-      "summary": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious ...",
-      "timestamp": 1784310981.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Identity Services Engine Stored Cross-Site Scripting Vulnerabilities",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-42tgsdMG?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Stored%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
       "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Identity Services Engine (ISE) guest portals could allow an authenticated, rem...",
       "timestamp": 1784302443.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "Ernst & Young discloses data breach after support system hack",
-      "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
-      "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
-      "timestamp": 1784300128.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Inside the Search for \"Clean\" Residential Proxies for Carding",
-      "link": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
-      "summary": "Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek \"clean\" residentia...",
-      "timestamp": 1784296810.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New Windows LegacyHive zero-day gives hackers admin privileges",
-      "link": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/",
-      "summary": "A security researcher using the \"Nightmare Eclipse\" handle has released a Windows zero-day exploit dubbed LegacyHive that allows attackers to escalate...",
-      "timestamp": 1784286330.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
@@ -291,8 +291,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -307,8 +307,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -323,8 +323,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+      "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -339,8 +339,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -355,8 +355,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -371,5 +371,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784535540.6940267
+  "last_updated": 1784554581.2862186
 }
