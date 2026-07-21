@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 9,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,132 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Critical wp2shell WordPress flaws exploited to install webshells",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
+      "summary": "Hackers are exploiting the \"wp2shell\" critical vulnerability suite (CVE-2026-63030 and CVE-2026-60137) affecting WordPress Core to deploy persistent w...",
+      "timestamp": 1784652110.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
+      "timestamp": 1784649687.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "CVE-2026-65052 - Ninja Forms Calculation and Payment Total Tampering via Fail-Open get_calc_value in ListSelect and ListRadio Fields",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65052",
+      "summary": "CVE ID :CVE-2026-65052\n  \n  Published : July 21, 2026, 3:16 p.m. | 23\u00a0minutes ago\n  \n  Description :Ninja Forms WordPress plugin version 3.14.8 and pr...",
+      "timestamp": 1784646999.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65049 - Ninja Forms Cross-Site Network-Wide Data Deletion on WordPress Multisite via nf_delete_all_data AJAX Action",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65049",
+      "summary": "CVE ID :CVE-2026-65049\n  \n  Published : July 21, 2026, 3:16 p.m. | 23\u00a0minutes ago\n  \n  Description :Ninja Forms plugin version 3.14.8 and prior for Wo...",
+      "timestamp": 1784646998.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65048 - Ninja Forms Unauthenticated Stored Cross-Site Scripting via Repeatable Fieldset Submission Index",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65048",
+      "summary": "CVE ID :CVE-2026-65048\n  \n  Published : July 21, 2026, 3:16 p.m. | 23\u00a0minutes ago\n  \n  Description :Ninja Forms plugin for WordPress versions 3.10.4 t...",
+      "timestamp": 1784646998.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59851 - Libssh: libssh: authentication bypass via missing gssapi principal check",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59851",
+      "summary": "CVE ID :CVE-2026-59851\n  \n  Published : July 21, 2026, 3:16 p.m. | 23\u00a0minutes ago\n  \n  Description :A flaw was found in libssh. On servers with GSSAPI...",
+      "timestamp": 1784646997.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15226 - snapd snap-confine Sandbox Confinement Bypass via Omission of setuid Restriction in Seccomp Templates",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15226",
+      "summary": "CVE ID :CVE-2026-15226\n  \n  Published : July 21, 2026, 3:16 p.m. | 23\u00a0minutes ago\n  \n  Description :A sandbox confinement bypass vulnerability exists ...",
+      "timestamp": 1784646991.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Closing the Identity Gaps in Critical Infrastructure Security",
+      "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/",
+      "summary": "Critical infrastructure attacks often begin with stolen credentials, compromised devices, or trusted accounts. Specops Software explains why Zero Trus...",
+      "timestamp": 1784642410.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-65008 - Grav before 2.0.7 Remote Code Execution via Blueprint dynamicData",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65008",
+      "summary": "CVE ID :CVE-2026-65008\n  \n  Published : July 21, 2026, 12:19 p.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Grav 2.0.4 (fixed in 2.0.7) contains a r...",
+      "timestamp": 1784636341.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65007 - Grav before 1.0.8 Missing Authorization on API Key Generation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65007",
+      "summary": "CVE ID :CVE-2026-65007\n  \n  Published : July 21, 2026, 12:19 p.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :The Grav api plugin (grav-plugin-api) be...",
+      "timestamp": 1784636340.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-1617 - SQLi in Turkmesh's Turkhotspot 5651 Loglama",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-1617",
+      "summary": "CVE ID :CVE-2026-1617\n  \n  Published : July 21, 2026, 12:17 p.m. | 3\u00a0hours, 22\u00a0minutes ago\n  \n  Description :Improper neutralization of special elemen...",
+      "timestamp": 1784636241.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-64606 - Apache Fory, Apache Fory: Class-registration bypass through an auto-admitted SerializedLambda capturing interface",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64606",
+      "summary": "CVE ID :CVE-2026-64606\n  \n  Published : July 21, 2026, 11:16 a.m. | 4\u00a0hours, 23\u00a0minutes ago\n  \n  Description :Deserialization of untrusted data vulner...",
+      "timestamp": 1784632587.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "US seizes over 1,000 websites in FIFA World Cup piracy crackdown",
+      "link": "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/",
+      "summary": "The U.S. Justice Department has seized more than 1,000 websites and blocked 1,970 domains used to stream FIFA World Cup 2026 matches without authoriza...",
+      "timestamp": 1784632027.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-64609 - Apache Fory, Apache Fory: Out-of-Bounds Read via sun.misc.Unsafe in zero-copy java deserialization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64609",
+      "summary": "CVE ID :CVE-2026-64609\n  \n  Published : July 21, 2026, 10:16 a.m. | 5\u00a0hours, 23\u00a0minutes ago\n  \n  Description :Out-of-bounds read via sun.misc.Unsafe i...",
+      "timestamp": 1784628985.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
+      "summary": "The Qilin ransomware gang is exploiting a critical PAN-OS GlobalProtect authentication bypass flaw to breach victims' networks, according to cybersecu...",
+      "timestamp": 1784628744.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Microsoft shares manual fix for WSUS sync delays and timeouts",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-manual-fix-for-wsus-sync-delays-and-timeouts/",
@@ -73,22 +193,6 @@
       "timestamp": 1784621186.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-13439 - Easy Form Builder by WhiteStudio <= 4.0.11 - Unauthenticated Privilege Escalation to Administrator via Password Recovery REST Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13439",
-      "summary": "CVE ID :CVE-2026-13439\n  \n  Published : July 21, 2026, 6:16 a.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :The Easy Form Builder by WhiteStudio plug...",
-      "timestamp": 1784614588.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63728 - Gitleaks Secret Exfiltration via Non-Hermetic Sprig Template Functions in Report Template Feature",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63728",
-      "summary": "CVE ID :CVE-2026-63728\n  \n  Published : July 21, 2026, 12:17 a.m. | 8\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Gitleaks prior to 8.30.1 contains a temp...",
-      "timestamp": 1784593068.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Est\u00e9e Lauder discloses data breach via Oracle E-Business flaw",
@@ -115,70 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-64625 - AVideo before 29.0 OS Command Injection via execAsync",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64625",
-      "summary": "CVE ID :CVE-2026-64625\n  \n  Published : July 20, 2026, 10:17 p.m. | 10\u00a0hours, 12\u00a0minutes ago\n  \n  Description :AVideo before 29.0 contains an incomple...",
-      "timestamp": 1784585838.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-64624 - FreeRDP RDP File Parser Remote Code Execution via CLI Options",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64624",
-      "summary": "CVE ID :CVE-2026-64624\n  \n  Published : July 20, 2026, 10:17 p.m. | 10\u00a0hours, 12\u00a0minutes ago\n  \n  Description :FreeRDP before 3.28.0 treats lines begi...",
-      "timestamp": 1784585838.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57495 - AgenticMail: Unauthenticated inbound mail triggers bypassPermissions resume of the operator's Claude Code session (bridge-wake)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57495",
-      "summary": "CVE ID :CVE-2026-57495\n  \n  Published : July 20, 2026, 10:17 p.m. | 10\u00a0hours, 12\u00a0minutes ago\n  \n  Description :AgenticMail gives AI agents real email ...",
-      "timestamp": 1784585837.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47255 - AgenticMail API/storage and outbound relay hardening",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47255",
-      "summary": "CVE ID :CVE-2026-47255\n  \n  Published : July 20, 2026, 10:17 p.m. | 10\u00a0hours, 12\u00a0minutes ago\n  \n  Description :AgenticMail gives AI agents real email ...",
-      "timestamp": 1784585835.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53595 - FreeScout vulnerable to anonymous account takeover via /user-setup empty invite_hash on MySQL",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53595",
-      "summary": "CVE ID :CVE-2026-53595\n  \n  Published : July 20, 2026, 9:16 p.m. | 11\u00a0hours, 12\u00a0minutes ago\n  \n  Description :FreeScout is a free help desk and shared...",
-      "timestamp": 1784582208.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47198 - Paymenter: URL parameter injection bypasses paid plan limits at checkout",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47198",
-      "summary": "CVE ID :CVE-2026-47198\n  \n  Published : July 20, 2026, 9:16 p.m. | 11\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Paymenter is a free and open-source webs...",
-      "timestamp": 1784582208.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47129 - NextCRM has Broken Access Control in Server Actions that allows any authenticated user to deactivate/activate arbitrary accounts",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47129",
-      "summary": "CVE ID :CVE-2026-47129\n  \n  Published : July 20, 2026, 9:16 p.m. | 11\u00a0hours, 12\u00a0minutes ago\n  \n  Description :NextCRM is open-source customer relation...",
-      "timestamp": 1784582207.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44508 - Rsync: Integer overflow in compressed-token decoding",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44508",
-      "summary": "CVE ID :CVE-2026-44508\n  \n  Published : July 20, 2026, 9:16 p.m. | 11\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Rsync is a file-copying tool that uses a...",
-      "timestamp": 1784582207.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
       "link": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
       "summary": "Researchers escaped the sandboxes in Cursor, Codex, Gemini CLI and Antigravity by having the AI agent write files that trusted host tools later run. M...",
@@ -187,50 +227,10 @@
       "vendor": "News"
     },
     {
-      "title": "JadePuffer agentic attacks now target AI model data with ransomware",
-      "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/",
-      "summary": "The JadePuffer autonomous AI agent\u00a0has upgraded with custom malware called EncForge that focuses on encrypting AI assets, such as training datasets, v...",
-      "timestamp": 1784581682.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New HollowGraph malware uses Microsoft Graph for stealthy C2 comms",
-      "link": "https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms/",
-      "summary": "A malicious component dubbed HollowGraph uses the calendar feature in compromised Microsoft 365 mailboxes as a command-and-control channel to receive ...",
-      "timestamp": 1784569381.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Identity Services Engine Stored Cross-Site Scripting Vulnerabilities",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-42tgsdMG?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Stored%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
       "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Identity Services Engine (ISE) guest portals could allow an authenticated, rem...",
       "timestamp": 1784562435.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "An AI SOC Evaluation Guide for Security Leaders",
-      "link": "https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/",
-      "summary": "Choosing an AI SOC platform requires understanding how it will perform in your own environment, not just during an evaluation. Prophet Security shares...",
-      "timestamp": 1784556071.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hugging Face warns an autonomous AI agent hacked its network",
-      "link": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
-      "summary": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its pr...",
-      "timestamp": 1784548588.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
-      "timestamp": 1784153368.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
     },
@@ -283,5 +283,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784625447.9563868
+  "last_updated": 1784653347.472734
 }
