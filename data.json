@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,40 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Microsoft shares manual fix for WSUS sync delays and timeouts",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-manual-fix-for-wsus-sync-delays-and-timeouts/",
+      "summary": "Microsoft has shared manual mitigations to help IT administrators fix Windows Server Update Services (WSUS) servers affected by a known issue that cau...",
+      "timestamp": 1784624750.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Windows LegacyHive zero-day flaw gets free, unofficial patches",
+      "link": "https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/",
+      "summary": "Free unofficial patches are available for a recently disclosed Windows zero-day flaw that allows attackers to escalate privileges on up-to-date Window...",
+      "timestamp": 1784621186.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-13439 - Easy Form Builder by WhiteStudio <= 4.0.11 - Unauthenticated Privilege Escalation to Administrator via Password Recovery REST Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13439",
+      "summary": "CVE ID :CVE-2026-13439\n  \n  Published : July 21, 2026, 6:16 a.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :The Easy Form Builder by WhiteStudio plug...",
+      "timestamp": 1784614588.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-63728 - Gitleaks Secret Exfiltration via Non-Hermetic Sprig Template Functions in Report Template Feature",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63728",
-      "summary": "CVE ID :CVE-2026-63728\n  \n  Published : July 21, 2026, 12:17 a.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Gitleaks prior to 8.30.1 contains a temp...",
+      "summary": "CVE ID :CVE-2026-63728\n  \n  Published : July 21, 2026, 12:17 a.m. | 8\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Gitleaks prior to 8.30.1 contains a temp...",
       "timestamp": 1784593068.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +117,7 @@
     {
       "title": "CVE-2026-64625 - AVideo before 29.0 OS Command Injection via execAsync",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64625",
-      "summary": "CVE ID :CVE-2026-64625\n  \n  Published : July 20, 2026, 10:17 p.m. | 6\u00a0hours, 11\u00a0minutes ago\n  \n  Description :AVideo before 29.0 contains an incomplet...",
+      "summary": "CVE ID :CVE-2026-64625\n  \n  Published : July 20, 2026, 10:17 p.m. | 10\u00a0hours, 12\u00a0minutes ago\n  \n  Description :AVideo before 29.0 contains an incomple...",
       "timestamp": 1784585838.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +125,7 @@
     {
       "title": "CVE-2026-64624 - FreeRDP RDP File Parser Remote Code Execution via CLI Options",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64624",
-      "summary": "CVE ID :CVE-2026-64624\n  \n  Published : July 20, 2026, 10:17 p.m. | 6\u00a0hours, 11\u00a0minutes ago\n  \n  Description :FreeRDP before 3.28.0 treats lines begin...",
+      "summary": "CVE ID :CVE-2026-64624\n  \n  Published : July 20, 2026, 10:17 p.m. | 10\u00a0hours, 12\u00a0minutes ago\n  \n  Description :FreeRDP before 3.28.0 treats lines begi...",
       "timestamp": 1784585838.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +133,7 @@
     {
       "title": "CVE-2026-57495 - AgenticMail: Unauthenticated inbound mail triggers bypassPermissions resume of the operator's Claude Code session (bridge-wake)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-57495",
-      "summary": "CVE ID :CVE-2026-57495\n  \n  Published : July 20, 2026, 10:17 p.m. | 6\u00a0hours, 11\u00a0minutes ago\n  \n  Description :AgenticMail gives AI agents real email a...",
+      "summary": "CVE ID :CVE-2026-57495\n  \n  Published : July 20, 2026, 10:17 p.m. | 10\u00a0hours, 12\u00a0minutes ago\n  \n  Description :AgenticMail gives AI agents real email ...",
       "timestamp": 1784585837.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +141,7 @@
     {
       "title": "CVE-2026-47255 - AgenticMail API/storage and outbound relay hardening",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47255",
-      "summary": "CVE ID :CVE-2026-47255\n  \n  Published : July 20, 2026, 10:17 p.m. | 6\u00a0hours, 11\u00a0minutes ago\n  \n  Description :AgenticMail gives AI agents real email a...",
+      "summary": "CVE ID :CVE-2026-47255\n  \n  Published : July 20, 2026, 10:17 p.m. | 10\u00a0hours, 12\u00a0minutes ago\n  \n  Description :AgenticMail gives AI agents real email ...",
       "timestamp": 1784585835.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +149,7 @@
     {
       "title": "CVE-2026-53595 - FreeScout vulnerable to anonymous account takeover via /user-setup empty invite_hash on MySQL",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53595",
-      "summary": "CVE ID :CVE-2026-53595\n  \n  Published : July 20, 2026, 9:16 p.m. | 7\u00a0hours, 12\u00a0minutes ago\n  \n  Description :FreeScout is a free help desk and shared ...",
+      "summary": "CVE ID :CVE-2026-53595\n  \n  Published : July 20, 2026, 9:16 p.m. | 11\u00a0hours, 12\u00a0minutes ago\n  \n  Description :FreeScout is a free help desk and shared...",
       "timestamp": 1784582208.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,7 +157,7 @@
     {
       "title": "CVE-2026-47198 - Paymenter: URL parameter injection bypasses paid plan limits at checkout",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47198",
-      "summary": "CVE ID :CVE-2026-47198\n  \n  Published : July 20, 2026, 9:16 p.m. | 7\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Paymenter is a free and open-source websh...",
+      "summary": "CVE ID :CVE-2026-47198\n  \n  Published : July 20, 2026, 9:16 p.m. | 11\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Paymenter is a free and open-source webs...",
       "timestamp": 1784582208.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -141,7 +165,7 @@
     {
       "title": "CVE-2026-47129 - NextCRM has Broken Access Control in Server Actions that allows any authenticated user to deactivate/activate arbitrary accounts",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47129",
-      "summary": "CVE ID :CVE-2026-47129\n  \n  Published : July 20, 2026, 9:16 p.m. | 7\u00a0hours, 12\u00a0minutes ago\n  \n  Description :NextCRM is open-source customer relations...",
+      "summary": "CVE ID :CVE-2026-47129\n  \n  Published : July 20, 2026, 9:16 p.m. | 11\u00a0hours, 12\u00a0minutes ago\n  \n  Description :NextCRM is open-source customer relation...",
       "timestamp": 1784582207.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -149,16 +173,8 @@
     {
       "title": "CVE-2026-44508 - Rsync: Integer overflow in compressed-token decoding",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44508",
-      "summary": "CVE ID :CVE-2026-44508\n  \n  Published : July 20, 2026, 9:16 p.m. | 7\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Rsync is a file-copying tool that uses a ...",
+      "summary": "CVE ID :CVE-2026-44508\n  \n  Published : July 20, 2026, 9:16 p.m. | 11\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Rsync is a file-copying tool that uses a...",
       "timestamp": 1784582207.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13381 - VSee Clinic and API Insecure Direct Object Reference in File API Allows Unauthorized File Access and Deletion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13381",
-      "summary": "CVE ID :CVE-2026-13381\n  \n  Published : July 20, 2026, 9:16 p.m. | 7\u00a0hours, 12\u00a0minutes ago\n  \n  Description :VSee Clinic 7.1.26 and API\u00a01.3.0\u00a0contain ...",
-      "timestamp": 1784582206.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -207,22 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
       "summary": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its pr...",
       "timestamp": 1784548588.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft confirms Windows Server Update Services sync delays",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/",
-      "summary": "Microsoft is working to fix a known issue affecting Windows Server Update Services (WSUS) servers, which has caused synchronization problems for more ...",
-      "timestamp": 1784544448.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Windows KB5121767 OOB update fixes shutdowns on some Dell PCs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/",
-      "summary": "Microsoft has released emergency updates to fix a known issue causing some Dell PCs to shut down after installing the July 2026 Windows 11 security up...",
-      "timestamp": 1784541977.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -281,15 +281,7 @@
       "timestamp": 1783955008.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-0279 PAN-OS: Multiple Cross-Site Scripting (XSS) Vulnerabilities  (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0279",
-      "summary": "",
-      "timestamp": 1783542600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1784614730.5429199
+  "last_updated": 1784625447.9563868
 }
