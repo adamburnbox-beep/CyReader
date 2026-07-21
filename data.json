@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,80 +52,32 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-65319 - Feedbin Unauthenticated Entry Content Disclosure via GET /api/v2/entries/:id/text",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65319",
-      "summary": "CVE ID :CVE-2026-65319\n  \n  Published : July 21, 2026, 9:40 p.m. | 24\u00a0minutes ago\n  \n  Description :Feedbin (commit 739884a) contains an unauthenticat...",
-      "timestamp": 1784670053.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
+      "title": "Police dismantle Kratos phishing platform, arrest developer",
+      "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/",
+      "summary": "Authorities in Germany and the U.S. dismantled the central infrastructure of Kratos, a phishing-as-a-service (PhaaS) platform with global reach, and i...",
+      "timestamp": 1784675253.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
-      "title": "CVE-2026-65318 - Verba (goldenverba) Unauthenticated Server-Side Request Forgery via WebSocket Import Endpoint HTMLReader",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65318",
-      "summary": "CVE ID :CVE-2026-65318\n  \n  Published : July 21, 2026, 9:36 p.m. | 28\u00a0minutes ago\n  \n  Description :Verba RAG application version 2.1.3 contains an un...",
-      "timestamp": 1784669783.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65317 - Verba (goldenverba) Server-Side Request Forgery via /api/connect and Same-Origin Middleware Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65317",
-      "summary": "CVE ID :CVE-2026-65317\n  \n  Published : July 21, 2026, 9:31 p.m. | 34\u00a0minutes ago\n  \n  Description :Verba RAG application version 2.1.3 contains a ser...",
-      "timestamp": 1784669461.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10678 - NULL-pointer / out-of-bounds write in Zephyr MCTP I2C+GPIO target binding driven by an unauthenticated I2C controller",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10678",
-      "summary": "CVE ID :CVE-2026-10678\n  \n  Published : July 21, 2026, 9:30 p.m. | 34\u00a0minutes ago\n  \n  Description :The MCTP-over-I2C+GPIO target binding in Zephyr (s...",
-      "timestamp": 1784669455.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8989 - Open Recovery Mode",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8989",
-      "summary": "CVE ID :CVE-2026-8989\n  \n  Published : July 21, 2026, 9:24 p.m. | 40\u00a0minutes ago\n  \n  Description :Autel Maxi Charger Single firmware through V1.03.51...",
-      "timestamp": 1784669068.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8988 - Access to Bootloader",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8988",
-      "summary": "CVE ID :CVE-2026-8988\n  \n  Published : July 21, 2026, 9:21 p.m. | 43\u00a0minutes ago\n  \n  Description :Autel Maxi Charger Single firmware through V1.03.51...",
-      "timestamp": 1784668910.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8987 - Authenticated Heap Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8987",
-      "summary": "CVE ID :CVE-2026-8987\n  \n  Published : July 21, 2026, 9:18 p.m. | 46\u00a0minutes ago\n  \n  Description :Autel Maxi Charger Single firmware through V1.03.51...",
-      "timestamp": 1784668712.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65315 - Ollama Remote Denial of Service via Attacker-Controlled Allocation in GGUF Metadata Parser",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65315",
-      "summary": "CVE ID :CVE-2026-65315\n  \n  Published : July 21, 2026, 9:18 p.m. | 46\u00a0minutes ago\n  \n  Description :Ollama (HEAD f0078ae) contains an uncontrolled mem...",
-      "timestamp": 1784668704.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
+      "title": "FakeGit campaign uses 7,600 GitHub repos to push SmartLoader malware",
+      "link": "https://www.bleepingcomputer.com/news/security/fakegit-campaign-uses-7-600-github-repos-to-push-smartloader-malware/",
+      "summary": "A large-scale operation dubbed 'FakeGit' is pushing SmartLoader and StealC malware through 7,600 malicious GitHub repositories that accumulated more t...",
+      "timestamp": 1784673257.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "CVE-2026-8983 - Backdoor Authentication Token",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8983",
-      "summary": "CVE ID :CVE-2026-8983\n  \n  Published : July 21, 2026, 9:16 p.m. | 48\u00a0minutes ago\n  \n  Description :Autel Maxi Charger Single firmware through V1.03.51...",
+      "summary": "CVE ID :CVE-2026-8983\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :Autel Maxi Charger Single firmware through V1.03.51...",
       "timestamp": 1784668614.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,8 +85,72 @@
     {
       "title": "CVE-2026-8982 - Hard-coded / Backdoor Accounts",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8982",
-      "summary": "CVE ID :CVE-2026-8982\n  \n  Published : July 21, 2026, 9:16 p.m. | 48\u00a0minutes ago\n  \n  Description :Two undocumented privileged accounts exist in Autel...",
+      "summary": "CVE ID :CVE-2026-8982\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :Two undocumented privileged accounts exist in Autel...",
       "timestamp": 1784668614.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65057 - Keep Unauthenticated Server-Side Request Forgery via POST /providers/healthcheck",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65057",
+      "summary": "CVE ID :CVE-2026-65057\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :Keep (commit 91c75e0) contains a server-side reque...",
+      "timestamp": 1784668614.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65056 - mcp-webresearch Server-Side Request Forgery in visit_page Due to Missing Internal-IP Filtering",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65056",
+      "summary": "CVE ID :CVE-2026-65056\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :mcp-webresearch 0.1.7 contains a server-side reque...",
+      "timestamp": 1784668614.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65054 - MediaCMS Private Media Metadata Disclosure via Playlist Ownership Loophole",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65054",
+      "summary": "CVE ID :CVE-2026-65054\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :MediaCMS 8.2.0 contains an information disclosure ...",
+      "timestamp": 1784668614.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-64881 - Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64881",
+      "summary": "CVE ID :CVE-2026-64881\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :The audit file upload handler does not sanitize fi...",
+      "timestamp": 1784668613.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63764 - lmdeploy Server-Side Request Forgery via HTTP Redirect Bypass of Private-IP Guard in Vision Image Fetch",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63764",
+      "summary": "CVE ID :CVE-2026-63764\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :lmdeploy's OpenAI-compatible API server contains a...",
+      "timestamp": 1784668613.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63358 - FileGator privilege escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63358",
+      "summary": "CVE ID :CVE-2026-63358\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :FileGator accepts arbitrary Unix permission values...",
+      "timestamp": 1784668613.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47708 - MCP-for-Stata: Command injection via log_file_name parameter in Stata command wrapper",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47708",
+      "summary": "CVE ID :CVE-2026-47708\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :MCP-for-Stata is an MCP server for Stata to integr...",
+      "timestamp": 1784668611.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47688 - FOGProject has unauthenticated clearAES and clearPMTasks that allow remote destruction of host encryption keys and power schedules",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47688",
+      "summary": "CVE ID :CVE-2026-47688\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :FOG is a free open-source cloning/imaging/rescue s...",
+      "timestamp": 1784668610.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -211,22 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "Est\u00e9e Lauder discloses data breach via Oracle E-Business flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
-      "summary": "Cosmetics giant Est\u00e9e Lauder is notifying employees of a data breach after hackers exploited a flaw in\u00a0Oracle E-Business Suite that the company used f...",
-      "timestamp": 1784587170.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "SonicWall SMA1000 flaws exploited as zero-days to push custom malware",
-      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
-      "summary": "Two recently disclosed SonicWall SMA1000 vulnerabilities were exploited in zero-day attacks for weeks, allowing threat actors to install custom malwar...",
-      "timestamp": 1784586203.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Identity Services Engine Stored Cross-Site Scripting Vulnerabilities",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-42tgsdMG?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Stored%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
       "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Identity Services Engine (ISE) guest portals could allow an authenticated, rem...",
@@ -283,5 +283,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784673280.554982
+  "last_updated": 1784677083.6428487
 }
