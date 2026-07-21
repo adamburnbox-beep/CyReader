@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 2,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,7 +52,7 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     }
@@ -83,9 +83,25 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-64625 - AVideo before 29.0 OS Command Injection via execAsync",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64625",
+      "summary": "CVE ID :CVE-2026-64625\n  \n  Published : July 20, 2026, 9:50 p.m. | 38\u00a0minutes ago\n  \n  Description :AVideo before 29.0 contains an incomplete fix for ...",
+      "timestamp": 1784584254.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-64624 - FreeRDP RDP File Parser Remote Code Execution via CLI Options",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64624",
+      "summary": "CVE ID :CVE-2026-64624\n  \n  Published : July 20, 2026, 9:50 p.m. | 38\u00a0minutes ago\n  \n  Description :FreeRDP before 3.28.0 treats lines beginning with ...",
+      "timestamp": 1784584253.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-53595 - FreeScout vulnerable to anonymous account takeover via /user-setup empty invite_hash on MySQL",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53595",
-      "summary": "CVE ID :CVE-2026-53595\n  \n  Published : July 20, 2026, 9:16 p.m. | 54\u00a0minutes ago\n  \n  Description :FreeScout is a free help desk and shared inbox bui...",
+      "summary": "CVE ID :CVE-2026-53595\n  \n  Published : July 20, 2026, 9:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :FreeScout is a free help desk and shared i...",
       "timestamp": 1784582208.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +109,7 @@
     {
       "title": "CVE-2026-47198 - Paymenter: URL parameter injection bypasses paid plan limits at checkout",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47198",
-      "summary": "CVE ID :CVE-2026-47198\n  \n  Published : July 20, 2026, 9:16 p.m. | 54\u00a0minutes ago\n  \n  Description :Paymenter is a free and open-source webshop soluti...",
+      "summary": "CVE ID :CVE-2026-47198\n  \n  Published : July 20, 2026, 9:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :Paymenter is a free and open-source websho...",
       "timestamp": 1784582208.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +117,7 @@
     {
       "title": "CVE-2026-47129 - NextCRM has Broken Access Control in Server Actions that allows any authenticated user to deactivate/activate arbitrary accounts",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47129",
-      "summary": "CVE ID :CVE-2026-47129\n  \n  Published : July 20, 2026, 9:16 p.m. | 54\u00a0minutes ago\n  \n  Description :NextCRM is open-source customer relationship manag...",
+      "summary": "CVE ID :CVE-2026-47129\n  \n  Published : July 20, 2026, 9:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :NextCRM is open-source customer relationsh...",
       "timestamp": 1784582207.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +125,7 @@
     {
       "title": "CVE-2026-44508 - Rsync: Integer overflow in compressed-token decoding",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44508",
-      "summary": "CVE ID :CVE-2026-44508\n  \n  Published : July 20, 2026, 9:16 p.m. | 54\u00a0minutes ago\n  \n  Description :Rsync is a file-copying tool that uses a delta-tra...",
+      "summary": "CVE ID :CVE-2026-44508\n  \n  Published : July 20, 2026, 9:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :Rsync is a file-copying tool that uses a d...",
       "timestamp": 1784582207.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +133,7 @@
     {
       "title": "CVE-2026-13381 - VSee Clinic and API Insecure Direct Object Reference in File API Allows Unauthorized File Access and Deletion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13381",
-      "summary": "CVE ID :CVE-2026-13381\n  \n  Published : July 20, 2026, 9:16 p.m. | 54\u00a0minutes ago\n  \n  Description :VSee Clinic 7.1.26 and API\u00a01.3.0\u00a0contain an Insecu...",
+      "summary": "CVE ID :CVE-2026-13381\n  \n  Published : July 20, 2026, 9:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :VSee Clinic 7.1.26 and API\u00a01.3.0\u00a0contain a...",
       "timestamp": 1784582206.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +141,7 @@
     {
       "title": "CVE-2026-13380 - VSee Clinic and API Exposes Cleartext SFTP Credentials in Unauthenticated HTTP Responses",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13380",
-      "summary": "CVE ID :CVE-2026-13380\n  \n  Published : July 20, 2026, 9:16 p.m. | 54\u00a0minutes ago\n  \n  Description :VSee Clinic 7.1.26 and VSee Clinic API 1.3.0 expos...",
+      "summary": "CVE ID :CVE-2026-13380\n  \n  Published : July 20, 2026, 9:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :VSee Clinic 7.1.26 and VSee Clinic API 1.3...",
       "timestamp": 1784582206.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -149,7 +165,7 @@
     {
       "title": "CVE-2026-63767 - ktransformers Unauthenticated Pickle Deserialization RCE via ZMQ",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63767",
-      "summary": "CVE ID :CVE-2026-63767\n  \n  Published : July 20, 2026, 8:16 p.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :ktransformers through 0.6.3, fixed in comm...",
+      "summary": "CVE ID :CVE-2026-63767\n  \n  Published : July 20, 2026, 8:16 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :ktransformers through 0.6.3, fixed in com...",
       "timestamp": 1784578606.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -157,24 +173,8 @@
     {
       "title": "CVE-2026-63766 - GPT-SoVITS 20250606v2pro OS Command Injection via webui.py",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63766",
-      "summary": "CVE ID :CVE-2026-63766\n  \n  Published : July 20, 2026, 8:16 p.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :GPT-SoVITS through 20250606v2pro contains ...",
+      "summary": "CVE ID :CVE-2026-63766\n  \n  Published : July 20, 2026, 8:16 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :GPT-SoVITS through 20250606v2pro contains...",
       "timestamp": 1784578606.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53593 - FreeScout Vulnerable to Authenticated Remote Code Execution via incomplete upload extension denylist (.pht) \u2014 bypass of CVE-2025-48471",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53593",
-      "summary": "CVE ID :CVE-2026-53593\n  \n  Published : July 20, 2026, 8:16 p.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :FreeScout is a free help desk and shared i...",
-      "timestamp": 1784578604.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53591 - FreeScout Vulnerable to Unauthenticated Conversation Thread Injection via HMAC Length Bypass in FetchEmails",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53591",
-      "summary": "CVE ID :CVE-2026-53591\n  \n  Published : July 20, 2026, 8:16 p.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :FreeScout is a free help desk and shared i...",
-      "timestamp": 1784578604.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -291,32 +291,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -331,24 +307,32 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0278 Prisma Access Agent: Multiple DLP Policy Bypass Vulnerabilities on Windows (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0278",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
-      "summary": "",
-      "timestamp": 1783526400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
       "summary": "",
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
@@ -363,6 +347,22 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0010 Chromium and Prisma Browser: Monthly Vulnerability Update (July 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0010",
+      "summary": "",
+      "timestamp": 1783526400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
       "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
       "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right co...",
@@ -371,5 +371,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784589562.073445
+  "last_updated": 1784592703.6938672
 }
