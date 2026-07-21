@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,94 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-64877 - Ticketing REST API SQL Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64877",
+      "summary": "CVE ID :CVE-2026-64877\n  \n  Published : July 21, 2026, 7:17 p.m. | 23\u00a0minutes ago\n  \n  Description :An authenticated non-admin user can exploit a SQL ...",
+      "timestamp": 1784661433.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55084 - SQL Injection in SqlView Filter Parameter Leading to Arbitrary Database Read",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55084",
+      "summary": "CVE ID :CVE-2026-55084\n  \n  Published : July 21, 2026, 7:17 p.m. | 23\u00a0minutes ago\n  \n  Description :DHIS2 is a flexible information system for data ca...",
+      "timestamp": 1784661431.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55082 - DHIS2 SQL injection in SQL View filter values",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55082",
+      "summary": "CVE ID :CVE-2026-55082\n  \n  Published : July 21, 2026, 7:17 p.m. | 23\u00a0minutes ago\n  \n  Description :DHIS2 is a flexible information system for data ca...",
+      "timestamp": 1784661431.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2016-20096 - Linknat VOS3000/VOS2009 2.1.2.0 SQL Injection via login.jsp",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2016-20096",
+      "summary": "CVE ID :CVE-2016-20096\n  \n  Published : July 21, 2026, 7:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Linknat VOS3000 and VOS2009 through version 2.1.2....",
+      "timestamp": 1784661427.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
+      "link": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
+      "summary": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly s...",
+      "timestamp": 1784659854.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-47419 - praisonai-platform: Agent endpoints accept any agent_id without workspace ownership check, cross-workspace read/update/delete IDOR",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47419",
+      "summary": "CVE ID :CVE-2026-47419\n  \n  Published : July 21, 2026, 6:17 p.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :PraisonAI Platform is the platform layer f...",
+      "timestamp": 1784657820.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47418 - praisonai-platform: Project endpoints accept any project_id without workspace ownership check, cross-workspace read/update/delete IDOR",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47418",
+      "summary": "CVE ID :CVE-2026-47418\n  \n  Published : July 21, 2026, 6:17 p.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :PraisonAI Platform is the platform layer f...",
+      "timestamp": 1784657820.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47417 - praisonai-platform: Comment endpoints accept any issue_id without workspace ownership check, cross-workspace comment read and post IDOR",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47417",
+      "summary": "CVE ID :CVE-2026-47417\n  \n  Published : July 21, 2026, 6:17 p.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :PraisonAI Platform is the platform layer f...",
+      "timestamp": 1784657820.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47416 - praisonai-platform: Any workspace member can promote themselves (or any other member) to owner via PATCH /workspaces/{id}/members/{user_id}",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47416",
+      "summary": "CVE ID :CVE-2026-47416\n  \n  Published : July 21, 2026, 6:17 p.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :PraisonAI Platform is the platform layer f...",
+      "timestamp": 1784657820.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47415 - praisonai-platform: Issue endpoints accept any issue_id without workspace ownership check, cross-workspace read/update/delete IDOR",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47415",
+      "summary": "CVE ID :CVE-2026-47415\n  \n  Published : July 21, 2026, 6:17 p.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :PraisonAI Platform is the platform layer f...",
+      "timestamp": 1784657820.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47413 - praisonai-platform: Any workspace member can add arbitrary user as owner via POST /workspaces/{id}/members",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47413",
+      "summary": "CVE ID :CVE-2026-47413\n  \n  Published : July 21, 2026, 6:17 p.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :PraisonAI Platform is the platform layer f...",
+      "timestamp": 1784657820.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Critical wp2shell WordPress flaws exploited to install webshells",
       "link": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
       "summary": "Hackers are exploiting the \"wp2shell\" critical vulnerability suite (CVE-2026-63030 and CVE-2026-60137) affecting WordPress Core to deploy persistent w...",
@@ -73,86 +161,6 @@
       "timestamp": 1784649687.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "CVE-2026-64825 - Home Assistant Core < 2026.6.0 Path Traversal File Write via Backup Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64825",
-      "summary": "CVE ID :CVE-2026-64825\n  \n  Published : July 21, 2026, 3:40 p.m. | 49\u00a0minutes ago\n  \n  Description :Home Assistant Core before 2026.6.0 contains a pat...",
-      "timestamp": 1784648418.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-64824 - Home Assistant Core < 2026.6.0 Symlink Path Traversal RCE via backup-restore",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64824",
-      "summary": "CVE ID :CVE-2026-64824\n  \n  Published : July 21, 2026, 3:39 p.m. | 49\u00a0minutes ago\n  \n  Description :Home Assistant Core before 2026.6.0 contains a pat...",
-      "timestamp": 1784648392.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-28321 - SolarWinds Serv-U Broken Access Control Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28321",
-      "summary": "CVE ID :CVE-2026-28321\n  \n  Published : July 21, 2026, 3:39 p.m. | 49\u00a0minutes ago\n  \n  Description :SolarWinds Serv-U is affected by a broken access c...",
-      "timestamp": 1784648386.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-28317 - SolarWinds Serv-U Insecure Direct Object Reference (IDOR) Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28317",
-      "summary": "CVE ID :CVE-2026-28317\n  \n  Published : July 21, 2026, 3:39 p.m. | 49\u00a0minutes ago\n  \n  Description :SolarWinds Serv-U is affected by an insecure direc...",
-      "timestamp": 1784648370.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-28316 - SolarWinds Serv-U Insecure Direct Object Reference (IDOR) Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28316",
-      "summary": "CVE ID :CVE-2026-28316\n  \n  Published : July 21, 2026, 3:39 p.m. | 50\u00a0minutes ago\n  \n  Description :SolarWinds Serv-U is affected by an insecure direc...",
-      "timestamp": 1784648357.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-28314 - SolarWinds Serv-U Insecure Direct Object Reference (IDOR) Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28314",
-      "summary": "CVE ID :CVE-2026-28314\n  \n  Published : July 21, 2026, 3:38 p.m. | 50\u00a0minutes ago\n  \n  Description :SolarWinds Serv-U is affected by an insecure direc...",
-      "timestamp": 1784648319.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-28313 - SolarWinds Serv-U Insecure Direct Object Reference (IDOR) Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28313",
-      "summary": "CVE ID :CVE-2026-28313\n  \n  Published : July 21, 2026, 3:38 p.m. | 50\u00a0minutes ago\n  \n  Description :SolarWinds Serv-U is affected by an insecure direc...",
-      "timestamp": 1784648302.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-28312 - SolarWinds Serv-U Privilege Escalation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28312",
-      "summary": "CVE ID :CVE-2026-28312\n  \n  Published : July 21, 2026, 3:37 p.m. | 51\u00a0minutes ago\n  \n  Description :SolarWinds Serv-U is affected by a privilege escal...",
-      "timestamp": 1784648265.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-28310 - SolarWinds Serv-U Privilege Escalation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28310",
-      "summary": "CVE ID :CVE-2026-28310\n  \n  Published : July 21, 2026, 3:35 p.m. | 54\u00a0minutes ago\n  \n  Description :SolarWinds Serv-U is affected by a privilege escal...",
-      "timestamp": 1784648107.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-28309 - SolarWinds Serv-U Broken Access Control Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28309",
-      "summary": "CVE ID :CVE-2026-28309\n  \n  Published : July 21, 2026, 3:34 p.m. | 54\u00a0minutes ago\n  \n  Description :SolarWinds Serv-U is affected by a broken access c...",
-      "timestamp": 1784648092.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Closing the Identity Gaps in Critical Infrastructure Security",
@@ -197,7 +205,7 @@
     {
       "title": "Est\u00e9e Lauder discloses data breach via Oracle E-Business flaw",
       "link": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
-      "summary": "Cosmetics giant Est\u00e9e Lauder is notifying customers of a data breach after hackers exploited a flaw in\u00a0Oracle E-Business Suite that the company used f...",
+      "summary": "Cosmetics giant Est\u00e9e Lauder is notifying employees of a data breach after hackers exploited a flaw in\u00a0Oracle E-Business Suite that the company used f...",
       "timestamp": 1784587170.0,
       "source": "BleepingComputer",
       "vendor": "News"
@@ -215,14 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/",
       "summary": "The Ostium trading platform announced that an attacker stole $23.75 million from its liquidity provider vault last week, after compromising off-chain ...",
       "timestamp": 1784586176.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
-      "link": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
-      "summary": "Researchers escaped the sandboxes in Cursor, Codex, Gemini CLI and Antigravity by having the AI agent write files that trusted host tools later run. M...",
-      "timestamp": 1784582082.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -283,5 +283,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784658378.2185767
+  "last_updated": 1784664480.3418987
 }
