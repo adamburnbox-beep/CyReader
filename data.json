@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 3,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 2,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-63728 - Gitleaks Secret Exfiltration via Non-Hermetic Sprig Template Functions in Report Template Feature",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63728",
+      "summary": "CVE ID :CVE-2026-63728\n  \n  Published : July 21, 2026, 12:17 a.m. | 1\u00a0hour, 53\u00a0minutes ago\n  \n  Description :Gitleaks prior to 8.30.1 contains a templ...",
+      "timestamp": 1784593068.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Est\u00e9e Lauder discloses data breach via Oracle E-Business flaw",
       "link": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
@@ -85,23 +93,39 @@
     {
       "title": "CVE-2026-64625 - AVideo before 29.0 OS Command Injection via execAsync",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64625",
-      "summary": "CVE ID :CVE-2026-64625\n  \n  Published : July 20, 2026, 9:50 p.m. | 38\u00a0minutes ago\n  \n  Description :AVideo before 29.0 contains an incomplete fix for ...",
-      "timestamp": 1784584254.0,
+      "summary": "CVE ID :CVE-2026-64625\n  \n  Published : July 20, 2026, 10:17 p.m. | 3\u00a0hours, 54\u00a0minutes ago\n  \n  Description :AVideo before 29.0 contains an incomplet...",
+      "timestamp": 1784585838.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-64624 - FreeRDP RDP File Parser Remote Code Execution via CLI Options",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64624",
-      "summary": "CVE ID :CVE-2026-64624\n  \n  Published : July 20, 2026, 9:50 p.m. | 38\u00a0minutes ago\n  \n  Description :FreeRDP before 3.28.0 treats lines beginning with ...",
-      "timestamp": 1784584253.0,
+      "summary": "CVE ID :CVE-2026-64624\n  \n  Published : July 20, 2026, 10:17 p.m. | 3\u00a0hours, 54\u00a0minutes ago\n  \n  Description :FreeRDP before 3.28.0 treats lines begin...",
+      "timestamp": 1784585838.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57495 - AgenticMail: Unauthenticated inbound mail triggers bypassPermissions resume of the operator's Claude Code session (bridge-wake)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57495",
+      "summary": "CVE ID :CVE-2026-57495\n  \n  Published : July 20, 2026, 10:17 p.m. | 3\u00a0hours, 54\u00a0minutes ago\n  \n  Description :AgenticMail gives AI agents real email a...",
+      "timestamp": 1784585837.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47255 - AgenticMail API/storage and outbound relay hardening",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47255",
+      "summary": "CVE ID :CVE-2026-47255\n  \n  Published : July 20, 2026, 10:17 p.m. | 3\u00a0hours, 54\u00a0minutes ago\n  \n  Description :AgenticMail gives AI agents real email a...",
+      "timestamp": 1784585835.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-53595 - FreeScout vulnerable to anonymous account takeover via /user-setup empty invite_hash on MySQL",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53595",
-      "summary": "CVE ID :CVE-2026-53595\n  \n  Published : July 20, 2026, 9:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :FreeScout is a free help desk and shared i...",
+      "summary": "CVE ID :CVE-2026-53595\n  \n  Published : July 20, 2026, 9:16 p.m. | 4\u00a0hours, 54\u00a0minutes ago\n  \n  Description :FreeScout is a free help desk and shared ...",
       "timestamp": 1784582208.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +133,7 @@
     {
       "title": "CVE-2026-47198 - Paymenter: URL parameter injection bypasses paid plan limits at checkout",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47198",
-      "summary": "CVE ID :CVE-2026-47198\n  \n  Published : July 20, 2026, 9:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :Paymenter is a free and open-source websho...",
+      "summary": "CVE ID :CVE-2026-47198\n  \n  Published : July 20, 2026, 9:16 p.m. | 4\u00a0hours, 54\u00a0minutes ago\n  \n  Description :Paymenter is a free and open-source websh...",
       "timestamp": 1784582208.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +141,7 @@
     {
       "title": "CVE-2026-47129 - NextCRM has Broken Access Control in Server Actions that allows any authenticated user to deactivate/activate arbitrary accounts",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47129",
-      "summary": "CVE ID :CVE-2026-47129\n  \n  Published : July 20, 2026, 9:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :NextCRM is open-source customer relationsh...",
+      "summary": "CVE ID :CVE-2026-47129\n  \n  Published : July 20, 2026, 9:16 p.m. | 4\u00a0hours, 54\u00a0minutes ago\n  \n  Description :NextCRM is open-source customer relations...",
       "timestamp": 1784582207.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +149,7 @@
     {
       "title": "CVE-2026-44508 - Rsync: Integer overflow in compressed-token decoding",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44508",
-      "summary": "CVE ID :CVE-2026-44508\n  \n  Published : July 20, 2026, 9:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :Rsync is a file-copying tool that uses a d...",
+      "summary": "CVE ID :CVE-2026-44508\n  \n  Published : July 20, 2026, 9:16 p.m. | 4\u00a0hours, 54\u00a0minutes ago\n  \n  Description :Rsync is a file-copying tool that uses a ...",
       "timestamp": 1784582207.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,15 +157,7 @@
     {
       "title": "CVE-2026-13381 - VSee Clinic and API Insecure Direct Object Reference in File API Allows Unauthorized File Access and Deletion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13381",
-      "summary": "CVE ID :CVE-2026-13381\n  \n  Published : July 20, 2026, 9:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :VSee Clinic 7.1.26 and API\u00a01.3.0\u00a0contain a...",
-      "timestamp": 1784582206.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13380 - VSee Clinic and API Exposes Cleartext SFTP Credentials in Unauthenticated HTTP Responses",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13380",
-      "summary": "CVE ID :CVE-2026-13380\n  \n  Published : July 20, 2026, 9:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :VSee Clinic 7.1.26 and VSee Clinic API 1.3...",
+      "summary": "CVE ID :CVE-2026-13381\n  \n  Published : July 20, 2026, 9:16 p.m. | 4\u00a0hours, 54\u00a0minutes ago\n  \n  Description :VSee Clinic 7.1.26 and API\u00a01.3.0\u00a0contain ...",
       "timestamp": 1784582206.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -161,22 +177,6 @@
       "timestamp": 1784581682.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-63767 - ktransformers Unauthenticated Pickle Deserialization RCE via ZMQ",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63767",
-      "summary": "CVE ID :CVE-2026-63767\n  \n  Published : July 20, 2026, 8:16 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :ktransformers through 0.6.3, fixed in com...",
-      "timestamp": 1784578606.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63766 - GPT-SoVITS 20250606v2pro OS Command Injection via webui.py",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63766",
-      "summary": "CVE ID :CVE-2026-63766\n  \n  Published : July 20, 2026, 8:16 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :GPT-SoVITS through 20250606v2pro contains...",
-      "timestamp": 1784578606.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "New HollowGraph malware uses Microsoft Graph for stealthy C2 comms",
@@ -361,15 +361,7 @@
       "timestamp": 1783526400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
-    },
-    {
-      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-      "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-      "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right co...",
-      "timestamp": 1783513899.0,
-      "source": "Krebs on Security",
-      "vendor": "News"
     }
   ],
-  "last_updated": 1784592703.6938672
+  "last_updated": 1784605265.8115242
 }
