@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,33 +52,89 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-64879 - Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64879",
-      "summary": "CVE ID :CVE-2026-64879\n  \n  Published : July 21, 2026, 8:17 p.m. | 13\u00a0minutes ago\n  \n  Description :A filename supplied during file upload is not prop...",
-      "timestamp": 1784665024.0,
+      "title": "CVE-2026-65319 - Feedbin Unauthenticated Entry Content Disclosure via GET /api/v2/entries/:id/text",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65319",
+      "summary": "CVE ID :CVE-2026-65319\n  \n  Published : July 21, 2026, 9:40 p.m. | 24\u00a0minutes ago\n  \n  Description :Feedbin (commit 739884a) contains an unauthenticat...",
+      "timestamp": 1784670053.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-64878 - Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64878",
-      "summary": "CVE ID :CVE-2026-64878\n  \n  Published : July 21, 2026, 8:17 p.m. | 13\u00a0minutes ago\n  \n  Description :Unvalidated input in asset filter parameters allow...",
-      "timestamp": 1784665024.0,
+      "title": "CVE-2026-65318 - Verba (goldenverba) Unauthenticated Server-Side Request Forgery via WebSocket Import Endpoint HTMLReader",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65318",
+      "summary": "CVE ID :CVE-2026-65318\n  \n  Published : July 21, 2026, 9:36 p.m. | 28\u00a0minutes ago\n  \n  Description :Verba RAG application version 2.1.3 contains an un...",
+      "timestamp": 1784669783.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-15957 - Uncontrolled recursion in smithy-rs generated JSON, CBOR, and XML deserializers allows unauthenticated remote denial of service via recursive shapes",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15957",
-      "summary": "CVE ID :CVE-2026-15957\n  \n  Published : July 21, 2026, 8:16 p.m. | 13\u00a0minutes ago\n  \n  Description :Smithy-RS is a Rust code generation and runtime fr...",
-      "timestamp": 1784665018.0,
+      "title": "CVE-2026-65317 - Verba (goldenverba) Server-Side Request Forgery via /api/connect and Same-Origin Middleware Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65317",
+      "summary": "CVE ID :CVE-2026-65317\n  \n  Published : July 21, 2026, 9:31 p.m. | 34\u00a0minutes ago\n  \n  Description :Verba RAG application version 2.1.3 contains a ser...",
+      "timestamp": 1784669461.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-10678 - NULL-pointer / out-of-bounds write in Zephyr MCTP I2C+GPIO target binding driven by an unauthenticated I2C controller",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10678",
+      "summary": "CVE ID :CVE-2026-10678\n  \n  Published : July 21, 2026, 9:30 p.m. | 34\u00a0minutes ago\n  \n  Description :The MCTP-over-I2C+GPIO target binding in Zephyr (s...",
+      "timestamp": 1784669455.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8989 - Open Recovery Mode",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8989",
+      "summary": "CVE ID :CVE-2026-8989\n  \n  Published : July 21, 2026, 9:24 p.m. | 40\u00a0minutes ago\n  \n  Description :Autel Maxi Charger Single firmware through V1.03.51...",
+      "timestamp": 1784669068.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8988 - Access to Bootloader",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8988",
+      "summary": "CVE ID :CVE-2026-8988\n  \n  Published : July 21, 2026, 9:21 p.m. | 43\u00a0minutes ago\n  \n  Description :Autel Maxi Charger Single firmware through V1.03.51...",
+      "timestamp": 1784668910.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8987 - Authenticated Heap Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8987",
+      "summary": "CVE ID :CVE-2026-8987\n  \n  Published : July 21, 2026, 9:18 p.m. | 46\u00a0minutes ago\n  \n  Description :Autel Maxi Charger Single firmware through V1.03.51...",
+      "timestamp": 1784668712.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65315 - Ollama Remote Denial of Service via Attacker-Controlled Allocation in GGUF Metadata Parser",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65315",
+      "summary": "CVE ID :CVE-2026-65315\n  \n  Published : July 21, 2026, 9:18 p.m. | 46\u00a0minutes ago\n  \n  Description :Ollama (HEAD f0078ae) contains an uncontrolled mem...",
+      "timestamp": 1784668704.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8983 - Backdoor Authentication Token",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8983",
+      "summary": "CVE ID :CVE-2026-8983\n  \n  Published : July 21, 2026, 9:16 p.m. | 48\u00a0minutes ago\n  \n  Description :Autel Maxi Charger Single firmware through V1.03.51...",
+      "timestamp": 1784668614.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8982 - Hard-coded / Backdoor Accounts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8982",
+      "summary": "CVE ID :CVE-2026-8982\n  \n  Published : July 21, 2026, 9:16 p.m. | 48\u00a0minutes ago\n  \n  Description :Two undocumented privileged accounts exist in Autel...",
+      "timestamp": 1784668614.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -91,68 +147,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-64877 - Ticketing REST API SQL Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64877",
-      "summary": "CVE ID :CVE-2026-64877\n  \n  Published : July 21, 2026, 7:17 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :An authenticated non-admin user can exploi...",
-      "timestamp": 1784661433.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55084 - SQL Injection in SqlView Filter Parameter Leading to Arbitrary Database Read",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55084",
-      "summary": "CVE ID :CVE-2026-55084\n  \n  Published : July 21, 2026, 7:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :DHIS2 is a flexible information system for...",
-      "timestamp": 1784661431.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55082 - DHIS2 SQL injection in SQL View filter values",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55082",
-      "summary": "CVE ID :CVE-2026-55082\n  \n  Published : July 21, 2026, 7:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :DHIS2 is a flexible information system for...",
-      "timestamp": 1784661431.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2016-20096 - Linknat VOS3000/VOS2009 2.1.2.0 SQL Injection via login.jsp",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2016-20096",
-      "summary": "CVE ID :CVE-2016-20096\n  \n  Published : July 21, 2026, 7:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Linknat VOS3000 and VOS2009 through versio...",
-      "timestamp": 1784661427.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
       "link": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
       "summary": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly s...",
       "timestamp": 1784659854.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-47419 - praisonai-platform: Agent endpoints accept any agent_id without workspace ownership check, cross-workspace read/update/delete IDOR",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47419",
-      "summary": "CVE ID :CVE-2026-47419\n  \n  Published : July 21, 2026, 6:17 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :PraisonAI Platform is the platform layer ...",
-      "timestamp": 1784657820.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47418 - praisonai-platform: Project endpoints accept any project_id without workspace ownership check, cross-workspace read/update/delete IDOR",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47418",
-      "summary": "CVE ID :CVE-2026-47418\n  \n  Published : July 21, 2026, 6:17 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :PraisonAI Platform is the platform layer ...",
-      "timestamp": 1784657820.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47417 - praisonai-platform: Comment endpoints accept any issue_id without workspace ownership check, cross-workspace comment read and post IDOR",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47417",
-      "summary": "CVE ID :CVE-2026-47417\n  \n  Published : July 21, 2026, 6:17 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :PraisonAI Platform is the platform layer ...",
-      "timestamp": 1784657820.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Critical wp2shell WordPress flaws exploited to install webshells",
@@ -283,5 +283,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784669125.5808816
+  "last_updated": 1784673280.554982
 }
