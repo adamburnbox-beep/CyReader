@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,36 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 8,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-56844 - Veeam Software Appliance Local Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56844",
+      "summary": "CVE ID :CVE-2026-56844\n  \n  Published : July 22, 2026, 1:16 a.m. | 1\u00a0hour, 32\u00a0minutes ago\n  \n  Description :A vulnerability in the Veeam Updater compo...",
+      "timestamp": 1784682986.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "LG to Ban Residential Proxies from Smart TV Apps",
+      "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an alw...",
+      "timestamp": 1784682638.0,
+      "source": "Krebs on Security",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-56817 - Netty: XML External Entity (XXE) injection via unconfigured XML factory when DTD and entity processing are enabled",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56817",
+      "summary": "CVE ID :CVE-2026-56817\n  \n  Published : July 21, 2026, 11:17 p.m. | 3\u00a0hours, 31\u00a0minutes ago\n  \n  Description :Netty is a network application framework...",
+      "timestamp": 1784675872.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Police dismantle Kratos phishing platform, arrest developer",
       "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-kratos-phishing-platform-arrest-developer/",
@@ -75,82 +99,66 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-8983 - Backdoor Authentication Token",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8983",
-      "summary": "CVE ID :CVE-2026-8983\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :Autel Maxi Charger Single firmware through V1.03.51...",
-      "timestamp": 1784668614.0,
+      "title": "CVE-2026-8989 - Open Recovery Mode",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8989",
+      "summary": "CVE ID :CVE-2026-8989\n  \n  Published : July 21, 2026, 10:19 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Autel Maxi Charger Single firmware throug...",
+      "timestamp": 1784672351.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-8982 - Hard-coded / Backdoor Accounts",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8982",
-      "summary": "CVE ID :CVE-2026-8982\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :Two undocumented privileged accounts exist in Autel...",
-      "timestamp": 1784668614.0,
+      "title": "CVE-2026-8988 - Access to Bootloader",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8988",
+      "summary": "CVE ID :CVE-2026-8988\n  \n  Published : July 21, 2026, 10:19 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Autel Maxi Charger Single firmware throug...",
+      "timestamp": 1784672351.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-65057 - Keep Unauthenticated Server-Side Request Forgery via POST /providers/healthcheck",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65057",
-      "summary": "CVE ID :CVE-2026-65057\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :Keep (commit 91c75e0) contains a server-side reque...",
-      "timestamp": 1784668614.0,
+      "title": "CVE-2026-8987 - Authenticated Heap Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8987",
+      "summary": "CVE ID :CVE-2026-8987\n  \n  Published : July 21, 2026, 10:19 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Autel Maxi Charger Single firmware throug...",
+      "timestamp": 1784672351.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-65056 - mcp-webresearch Server-Side Request Forgery in visit_page Due to Missing Internal-IP Filtering",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65056",
-      "summary": "CVE ID :CVE-2026-65056\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :mcp-webresearch 0.1.7 contains a server-side reque...",
-      "timestamp": 1784668614.0,
+      "title": "CVE-2026-8986 - Command Injection via Malicious OCPP Server",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8986",
+      "summary": "CVE ID :CVE-2026-8986\n  \n  Published : July 21, 2026, 10:19 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Autel Maxi Charger Single firmware throug...",
+      "timestamp": 1784672351.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-65054 - MediaCMS Private Media Metadata Disclosure via Playlist Ownership Loophole",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65054",
-      "summary": "CVE ID :CVE-2026-65054\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :MediaCMS 8.2.0 contains an information disclosure ...",
-      "timestamp": 1784668614.0,
+      "title": "CVE-2026-8985 - Unauthenticated Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8985",
+      "summary": "CVE ID :CVE-2026-8985\n  \n  Published : July 21, 2026, 10:19 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Autel Maxi Charger Single firmware throug...",
+      "timestamp": 1784672350.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-64881 - Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64881",
-      "summary": "CVE ID :CVE-2026-64881\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :The audit file upload handler does not sanitize fi...",
-      "timestamp": 1784668613.0,
+      "title": "CVE-2026-8984 - Unauthenticated RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8984",
+      "summary": "CVE ID :CVE-2026-8984\n  \n  Published : July 21, 2026, 10:19 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Autel Maxi Charger Single firmware throug...",
+      "timestamp": 1784672350.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-63764 - lmdeploy Server-Side Request Forgery via HTTP Redirect Bypass of Private-IP Guard in Vision Image Fetch",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63764",
-      "summary": "CVE ID :CVE-2026-63764\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :lmdeploy's OpenAI-compatible API server contains a...",
-      "timestamp": 1784668613.0,
+      "title": "CVE-2026-65318 - Verba (goldenverba) Unauthenticated Server-Side Request Forgery via WebSocket Import Endpoint HTMLReader",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65318",
+      "summary": "CVE ID :CVE-2026-65318\n  \n  Published : July 21, 2026, 10:19 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Verba RAG application version 2.1.3 cont...",
+      "timestamp": 1784672350.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-63358 - FileGator privilege escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63358",
-      "summary": "CVE ID :CVE-2026-63358\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :FileGator accepts arbitrary Unix permission values...",
-      "timestamp": 1784668613.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47708 - MCP-for-Stata: Command injection via log_file_name parameter in Stata command wrapper",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47708",
-      "summary": "CVE ID :CVE-2026-47708\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :MCP-for-Stata is an MCP server for Stata to integr...",
-      "timestamp": 1784668611.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47688 - FOGProject has unauthenticated clearAES and clearPMTasks that allow remote destruction of host encryption keys and power schedules",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47688",
-      "summary": "CVE ID :CVE-2026-47688\n  \n  Published : July 21, 2026, 9:16 p.m. | 25\u00a0minutes ago\n  \n  Description :FOG is a free open-source cloning/imaging/rescue s...",
-      "timestamp": 1784668610.0,
+      "title": "CVE-2026-65317 - Verba (goldenverba) Server-Side Request Forgery via /api/connect and Same-Origin Middleware Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65317",
+      "summary": "CVE ID :CVE-2026-65317\n  \n  Published : July 21, 2026, 10:19 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Verba RAG application version 2.1.3 cont...",
+      "timestamp": 1784672350.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -283,5 +291,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784677083.6428487
+  "last_updated": 1784694657.0240662
 }
