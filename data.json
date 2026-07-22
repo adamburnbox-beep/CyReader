@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 7,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,60 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-64835 - FFmpeg 4.4 - 8.1.2 Out-of-Bounds Memory Access in ADX Audio Decoder",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64835",
+      "summary": "CVE ID :CVE-2026-64835\n  \n  Published : July 22, 2026, 5:24 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :FFmpeg versions 4.4 through 8.1.2 contain a...",
+      "timestamp": 1784741045.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65013 - Onlook tRPC Insecure Direct Object Reference via multiple procedures",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65013",
+      "summary": "CVE ID :CVE-2026-65013\n  \n  Published : July 22, 2026, 5:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :Onlook through 0.2.32, fixed in commit 423...",
+      "timestamp": 1784740619.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-64831 - FFmpeg 8.0 - 8.1.2 Stack Buffer Overflow in Vulkan HEVC Decoder",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64831",
+      "summary": "CVE ID :CVE-2026-64831\n  \n  Published : July 22, 2026, 5:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :FFmpeg versions 8.0 through 8.1.2 contains...",
+      "timestamp": 1784740618.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-64830 - FFmpeg 2.1 - 8.1.2 Heap Buffer Overflow via VobSub Subtitle Demuxer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64830",
+      "summary": "CVE ID :CVE-2026-64830\n  \n  Published : July 22, 2026, 5:16 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :FFmpeg versions 2.1 through 8.1.2 contains...",
+      "timestamp": 1784740618.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-64834 - FFmpeg 0.6.3 - 8.1.2 Infinite Loop DoS via RTP/ASF Demuxer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64834",
+      "summary": "CVE ID :CVE-2026-64834\n  \n  Published : July 22, 2026, 5:06 p.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :FFmpeg versions 0.6.3 through 8.1.2 contai...",
+      "timestamp": 1784739967.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-64832 - FFmpeg 4.4 - 8.1.2 Double-Free in NVDEC Hardware Decoder via nvdec.c",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64832",
+      "summary": "CVE ID :CVE-2026-64832\n  \n  Published : July 22, 2026, 5:01 p.m. | 1\u00a0hour, 28\u00a0minutes ago\n  \n  Description :FFmpeg versions 4.4 through 8.1.2 contain ...",
+      "timestamp": 1784739676.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
       "link": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
@@ -69,16 +117,32 @@
     {
       "title": "CVE-2026-49499 - Dell PowerProtect Data Manager IAM Generation of Incorrect Security Tokens Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49499",
-      "summary": "CVE ID :CVE-2026-49499\n  \n  Published : July 22, 2026, 3:39 p.m. | 29\u00a0minutes ago\n  \n  Description :Dell PowerProtect Data Manager, versions prior to ...",
-      "timestamp": 1784734788.0,
+      "summary": "CVE ID :CVE-2026-49499\n  \n  Published : July 22, 2026, 4:17 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Dell PowerProtect Data Manager, versions ...",
+      "timestamp": 1784737049.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-46738 - Dell PowerProtect Data Manager Improper Input Validation Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-46738",
-      "summary": "CVE ID :CVE-2026-46738\n  \n  Published : July 22, 2026, 3:34 p.m. | 35\u00a0minutes ago\n  \n  Description :Dell PowerProtect Data Manager, versions prior to ...",
-      "timestamp": 1784734452.0,
+      "summary": "CVE ID :CVE-2026-46738\n  \n  Published : July 22, 2026, 4:17 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Dell PowerProtect Data Manager, versions ...",
+      "timestamp": 1784737044.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-40712 - Dell PowerProtect Data Manager Improper Input Validation Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40712",
+      "summary": "CVE ID :CVE-2026-40712\n  \n  Published : July 22, 2026, 4:17 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Dell PowerProtect Data Manager, versions ...",
+      "timestamp": 1784737039.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-16606 - Unauthenticated remote code execution (pre-auth RCE) vulnerability in openFT for Linux and Oracle Solaris",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16606",
+      "summary": "CVE ID :CVE-2026-16606\n  \n  Published : July 22, 2026, 4:17 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :A vulnerability in Fujitsu Software Linux...",
+      "timestamp": 1784737036.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -89,70 +153,6 @@
       "timestamp": 1784734200.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-40712 - Dell PowerProtect Data Manager Improper Input Validation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40712",
-      "summary": "CVE ID :CVE-2026-40712\n  \n  Published : July 22, 2026, 3:28 p.m. | 41\u00a0minutes ago\n  \n  Description :Dell PowerProtect Data Manager, versions prior to ...",
-      "timestamp": 1784734095.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-2395 - SQLi in Xpoda T\u00fcrkiye Informatics Technology's No Code Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-2395",
-      "summary": "CVE ID :CVE-2026-2395\n  \n  Published : July 22, 2026, 3:16 p.m. | 52\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements used in...",
-      "timestamp": 1784733414.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13321 - DNSSEC Validation Bypass via Out-of-Zone NSEC Next Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13321",
-      "summary": "CVE ID :CVE-2026-13321\n  \n  Published : July 22, 2026, 3:16 p.m. | 52\u00a0minutes ago\n  \n  Description :The BIND resolver accepts validly-signed NSEC reco...",
-      "timestamp": 1784733412.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16606 - Unauthenticated remote code execution (pre-auth RCE) vulnerability in openFT for Linux and Oracle Solaris",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16606",
-      "summary": "CVE ID :CVE-2026-16606\n  \n  Published : July 22, 2026, 3:14 p.m. | 55\u00a0minutes ago\n  \n  Description :A vulnerability in Fujitsu Software Linux openFT a...",
-      "timestamp": 1784733252.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16607 - Authenticated local root privilege escalation vulnerability in openFT for Linux and Oracle Solaris",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16607",
-      "summary": "CVE ID :CVE-2026-16607\n  \n  Published : July 22, 2026, 3:07 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :A vulnerability in Fujitsu Software Linux o...",
-      "timestamp": 1784732855.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13190 - PersistenceFramework Unsafe Type Resolution Vulnerability in Telerik UI for ASP.NET AJAX",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13190",
-      "summary": "CVE ID :CVE-2026-13190\n  \n  Published : July 22, 2026, 2:17 p.m. | 1\u00a0hour, 52\u00a0minutes ago\n  \n  Description :In Progress\u00ae Telerik\u00ae UI for AJAX prior to...",
-      "timestamp": 1784729834.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13187 - DialogHandler Provider Type Tampering Vulnerability in Telerik UI for ASP.NET AJAX",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13187",
-      "summary": "CVE ID :CVE-2026-13187\n  \n  Published : July 22, 2026, 2:17 p.m. | 1\u00a0hour, 52\u00a0minutes ago\n  \n  Description :In Progress\u00ae Telerik\u00ae UI for AJAX prior to...",
-      "timestamp": 1784729834.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13186 - AppDataStorageProvider Path Traversal Deserialization Vulnerability in Telerik UI for ASP.NET AJAX",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13186",
-      "summary": "CVE ID :CVE-2026-13186\n  \n  Published : July 22, 2026, 2:17 p.m. | 1\u00a0hour, 52\u00a0minutes ago\n  \n  Description :In Progress\u00ae Telerik\u00ae UI for AJAX prior to...",
-      "timestamp": 1784729834.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "New InfraTrust report reveals infrastructure flaws admins should patch first",
@@ -291,5 +291,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784742025.8786051
+  "last_updated": 1784746090.3241053
 }
