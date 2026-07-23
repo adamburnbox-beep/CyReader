@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,73 +52,105 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-65919 - Meshery < 1.0.57 Unauthenticated Arbitrary File Read via fileView and fileDownload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65919",
-      "summary": "CVE ID :CVE-2026-65919\n  \n  Published : July 23, 2026, 5:39 p.m. | 33\u00a0minutes ago\n  \n  Description :Meshery before 1.0.57 contains an unauthenticated ...",
-      "timestamp": 1784828367.0,
+      "title": "Australian energy provider Origin says data breach exposes client data",
+      "link": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
+      "summary": "Origin Energy has confirmed that an unauthorized party accessed and subsequently leaked customer data online, exposing sensitive personally identifiab...",
+      "timestamp": 1784837675.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Fake Claude app promoted by Bing ads pushes SectopRAT malware",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
+      "summary": "A malvertising campaign on the Bing search service is pushing a fake Claude desktop app installer hosted on a legitimate Claude.ai domain to deliver t...",
+      "timestamp": 1784836110.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-60122 - gpsd gpsprof Code Injection via SKY.satellites used Field",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60122",
+      "summary": "CVE ID :CVE-2026-60122\n  \n  Published : July 23, 2026, 7:18 p.m. | 54\u00a0minutes ago\n  \n  Description :gpsd through release-3.27.5, fixed at commit 4c066...",
+      "timestamp": 1784834294.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63765 - Chatwoot < 4.16.0 Unauthenticated ActiveStorage Direct Upload Arbitrary Blob Creation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63765",
+      "summary": "CVE ID :CVE-2026-63765\n  \n  Published : July 23, 2026, 7:17 p.m. | 55\u00a0minutes ago\n  \n  Description :Chatwoot before 4.16.0 contains an authentication ...",
+      "timestamp": 1784834223.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-16756 - Allocation of resources without limits in the default aws-smithy-http-server serve() path allows unauthenticated Slowloris denial of service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16756",
+      "summary": "CVE ID :CVE-2026-16756\n  \n  Published : July 23, 2026, 7:16 p.m. | 55\u00a0minutes ago\n  \n  Description :Missing connection and header-read timeouts and th...",
+      "timestamp": 1784834213.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65706 - FFmpeg 3.0 - 8.1.2 vf_swaprect Out-of-Bounds Write via NV12 Frame Processing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65706",
+      "summary": "CVE ID :CVE-2026-65706\n  \n  Published : July 23, 2026, 7:05 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :FFmpeg versions 3.0 through 8.1.2 contain a...",
+      "timestamp": 1784833511.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65703 - FFmpeg 2.7 - 8.1.2 Out-of-Bounds Write in TDSC Video Decoder",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65703",
+      "summary": "CVE ID :CVE-2026-65703\n  \n  Published : July 23, 2026, 6:52 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :FFmpeg versions 2.7 through 8.1.2 contain ...",
+      "timestamp": 1784832739.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-6516 - Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6516",
-      "summary": "CVE ID :CVE-2026-6516\n  \n  Published : July 23, 2026, 5:22 p.m. | 50\u00a0minutes ago\n  \n  Description :Zohocorp ManageEngine ADAudit Plus versions\u00a0before ...",
-      "timestamp": 1784827346.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65761 - Joomla Extension - joomshaper.com - Unauthenticated SQL injection in Easy Store extension 1.0.0-2.0.1",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65761",
-      "summary": "CVE ID :CVE-2026-65761\n  \n  Published : July 23, 2026, 5:16 p.m. | 56\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - Unauthenticate...",
-      "timestamp": 1784826990.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65760 - Joomla Extension - joomshaper.com - cross-customer order and personal information disclosure in Easy Store extension 1.0.0-2.0.1",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65760",
-      "summary": "CVE ID :CVE-2026-65760\n  \n  Published : July 23, 2026, 5:16 p.m. | 56\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - cross-customer...",
-      "timestamp": 1784826990.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65759 - Joomla Extension - joomshaper.com - unauthenticated payment/order forgery in Easy Store extension 1.0.0-2.0.1",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65759",
-      "summary": "CVE ID :CVE-2026-65759\n  \n  Published : July 23, 2026, 5:16 p.m. | 56\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - unauthenticate...",
-      "timestamp": 1784826990.0,
+      "summary": "CVE ID :CVE-2026-6516\n  \n  Published : July 23, 2026, 6:17 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :Zohocorp ManageEngine ADAudit Plus versions...",
+      "timestamp": 1784830622.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-65702 - Vanna 2.0.2 Path Traversal via FileSystemConversationStore",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65702",
-      "summary": "CVE ID :CVE-2026-65702\n  \n  Published : July 23, 2026, 5:09 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Vanna through 2.0.2 contains a path travers...",
-      "timestamp": 1784826577.0,
+      "summary": "CVE ID :CVE-2026-65702\n  \n  Published : July 23, 2026, 6:17 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :Vanna through 2.0.2 contains a path traver...",
+      "timestamp": 1784830621.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-65701 - SoftVC VITS Singing Voice Conversion Path Traversal via /wav2wav Flask Route",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65701",
-      "summary": "CVE ID :CVE-2026-65701\n  \n  Published : July 23, 2026, 5:05 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :SoftVC VITS Singing Voice Conversion throug...",
-      "timestamp": 1784826347.0,
+      "summary": "CVE ID :CVE-2026-65701\n  \n  Published : July 23, 2026, 6:17 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :SoftVC VITS Singing Voice Conversion throu...",
+      "timestamp": 1784830621.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-65700 - h2oGPT 0.2.1 Path Traversal via OpenAI-compatible Files API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65700",
-      "summary": "CVE ID :CVE-2026-65700\n  \n  Published : July 23, 2026, 5:02 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :h2oGPT through 0.2.1 contains a path trave...",
-      "timestamp": 1784826144.0,
+      "summary": "CVE ID :CVE-2026-65700\n  \n  Published : July 23, 2026, 6:17 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :h2oGPT through 0.2.1 contains a path trave...",
+      "timestamp": 1784830621.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47752 - Tugtainer has Server-Side Template Injection in notification templates that leads to Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47752",
+      "summary": "CVE ID :CVE-2026-47752\n  \n  Published : July 23, 2026, 6:16 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :Tugtainer is a self-hosted app for automat...",
+      "timestamp": 1784830613.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -137,22 +169,6 @@
       "timestamp": 1784824355.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-65917 - CyberPanel IncBackups IDOR via Sequential Backup ID",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65917",
-      "summary": "CVE ID :CVE-2026-65917\n  \n  Published : July 23, 2026, 4:17 p.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :CyberPanel through 1.9.1, fixed in commit ...",
-      "timestamp": 1784823475.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65916 - CyberPanel Missing Authorization in cancelBackupCreation Handler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65916",
-      "summary": "CVE ID :CVE-2026-65916\n  \n  Published : July 23, 2026, 4:17 p.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :CyberPanel through 1.9.1, fixed in commit ...",
-      "timestamp": 1784823474.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
@@ -199,22 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/",
       "summary": "Microsoft is working to resolve an ongoing Exchange Online issue that has been mistakenly quarantining customers' mailboxes since Sunday. [...]",
       "timestamp": 1784798410.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
-      "summary": "Israeli cybersecurity firm Check Point Software has addressed an actively exploited zero-day flaw in the company's SmartConsole graphical user interfa...",
-      "timestamp": 1784794387.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
-      "link": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
-      "summary": "The Upbound Group fintech company disclosed that threat actors who stole data from its systems leveraged it to create $13 million in Acima leases. [.....",
-      "timestamp": 1784756619.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -291,5 +291,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784835798.4286802
+  "last_updated": 1784839421.2764063
 }
