@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,108 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 2,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires",
+      "link": "https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires/",
+      "summary": "FedRAMP 20X replaces point-in-time assessments with continuous, machine-readable evidence that demonstrates security controls are working. Anecdotes e...",
+      "timestamp": 1784815210.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "EU fines Google $1 billion for search, app store antitrust violations",
+      "link": "https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/",
+      "summary": "The European Commission fined Google \u20ac890 million ($1 billion) on Thursday after finding the company had violated the European Union's Digital Markets...",
+      "timestamp": 1784809999.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-65897 - Grav API Plugin 1.0.9 Privilege Escalation via Invitations groups",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65897",
+      "summary": "CVE ID :CVE-2026-65897\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :Grav API Plugin versions before 1.0.10 fail to va...",
+      "timestamp": 1784809128.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65895 - Grav API Plugin before 1.0.10 Broken Access Control",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65895",
+      "summary": "CVE ID :CVE-2026-65895\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :Grav API Plugin versions before 1.0.10 fail to re...",
+      "timestamp": 1784809127.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65608 - Grav before 2.0.9 Remote Code Execution via FlexDirectory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65608",
+      "summary": "CVE ID :CVE-2026-65608\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :Grav versions >= 1.7.0 and before 2.0.9 contain a...",
+      "timestamp": 1784809127.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65606 - SiYuan before v3.7.2 Cross-Site Scripting to RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65606",
+      "summary": "CVE ID :CVE-2026-65606\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :SiYuan before v3.7.2 contains a cross-site script...",
+      "timestamp": 1784809127.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65605 - SiYuan before v3.7.2 Stored XSS to RCE via Attribute View",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65605",
+      "summary": "CVE ID :CVE-2026-65605\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :SiYuan before v3.7.2 contains a stored cross-site...",
+      "timestamp": 1784809127.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65526 - WordPress Visualizer plugin <= 4.0.6 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65526",
+      "summary": "CVE ID :CVE-2026-65526\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :Contributor SQL Injection in Visualizer <= 4.0.6 ...",
+      "timestamp": 1784809125.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65471 - WordPress Avada Core plugin <= 5.15.6 - Cross Site Request Forgery (CSRF) vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65471",
+      "summary": "CVE ID :CVE-2026-65471\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :Unauthenticated Cross Site Request Forgery (CSRF)...",
+      "timestamp": 1784809119.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65461 - WordPress Really Simple CSV Importer plugin <= 1.3 - Arbitrary File Upload vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65461",
+      "summary": "CVE ID :CVE-2026-65461\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :Administrator Arbitrary File Upload in Really Sim...",
+      "timestamp": 1784809118.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65455 - WordPress MapSVG plugin <= 8.14.0 - Arbitrary File Upload vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65455",
+      "summary": "CVE ID :CVE-2026-65455\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :Administrator Arbitrary File Upload in MapSVG <= ...",
+      "timestamp": 1784809117.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65454 - WordPress Quiz And Survey Master plugin <= 11.2.0 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65454",
+      "summary": "CVE ID :CVE-2026-65454\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :Contributor SQL Injection in Quiz And Survey Mast...",
+      "timestamp": 1784809117.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "New RefluXFS Linux flaw lets attackers gain root privileges",
       "link": "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/",
@@ -83,92 +179,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-16723 - Remote Code Execution in fastjson 1.2.68\u20131.2.83",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16723",
-      "summary": "CVE ID :CVE-2026-16723\n  \n  Published : July 23, 2026, 9:16 a.m. | 57\u00a0minutes ago\n  \n  Description :A remote code execution (RCE) vulnerability exists...",
-      "timestamp": 1784798186.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2024-58023 - Bosch Configuration Manager Information Disclosure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58023",
-      "summary": "CVE ID :CVE-2024-58023\n  \n  Published : July 23, 2026, 9:16 a.m. | 57\u00a0minutes ago\n  \n  Description :Information disclosure in Bosch Configuration Mana...",
-      "timestamp": 1784798186.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
       "summary": "Israeli cybersecurity firm Check Point Software has addressed an actively exploited zero-day flaw in the company's SmartConsole graphical user interfa...",
       "timestamp": 1784794387.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-61246 - Vulnerability in the Oracle Platform Security for",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61246",
-      "summary": "CVE ID :CVE-2026-61246\n  \n  Published : July 22, 2026, 11:16 p.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Se...",
-      "timestamp": 1784762196.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-60455 - Vulnerability in the Oracle Platform Security for",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60455",
-      "summary": "CVE ID :CVE-2026-60455\n  \n  Published : July 22, 2026, 11:16 p.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Se...",
-      "timestamp": 1784762196.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-60439 - Vulnerability in the Oracle Platform Security for",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60439",
-      "summary": "CVE ID :CVE-2026-60439\n  \n  Published : July 22, 2026, 11:16 p.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Se...",
-      "timestamp": 1784762196.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-60373 - Vulnerability in the Oracle Platform Security for",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60373",
-      "summary": "CVE ID :CVE-2026-60373\n  \n  Published : July 22, 2026, 11:16 p.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Se...",
-      "timestamp": 1784762196.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-60372 - Vulnerability in the Oracle Platform Security for",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60372",
-      "summary": "CVE ID :CVE-2026-60372\n  \n  Published : July 22, 2026, 11:16 p.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Se...",
-      "timestamp": 1784762196.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-60371 - Vulnerability in the Oracle Platform Security for",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60371",
-      "summary": "CVE ID :CVE-2026-60371\n  \n  Published : July 22, 2026, 11:16 p.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Se...",
-      "timestamp": 1784762196.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-60369 - Vulnerability in the Oracle Platform Security for",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60369",
-      "summary": "CVE ID :CVE-2026-60369\n  \n  Published : July 22, 2026, 11:16 p.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Se...",
-      "timestamp": 1784762196.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-60368 - Vulnerability in the Oracle Platform Security for",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60368",
-      "summary": "CVE ID :CVE-2026-60368\n  \n  Published : July 22, 2026, 11:16 p.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Se...",
-      "timestamp": 1784762195.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
@@ -199,22 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
       "summary": "Enterprise AI can accelerate ransomware attacks when AI assistants and agents inherit excessive permissions or compromised identities. Acronis explain...",
       "timestamp": 1784734200.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New InfraTrust report reveals infrastructure flaws admins should patch first",
-      "link": "https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first/",
-      "summary": "Eclypsium has launched InfraTrust, a new infrastructure cybersecurity knowledge base and monthly InfraTrust Pulse report designed to help organization...",
-      "timestamp": 1784729700.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Adobe Chrome extension flaw let sites access private WhatsApp chats",
-      "link": "https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/",
-      "summary": "The Adobe Acrobat extension for Chrome could be used to access conversations and data rendered in WhatsApp Web without any form of authentication. [.....",
-      "timestamp": 1784726540.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -291,5 +291,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784808156.0185063
+  "last_updated": 1784817003.452581
 }
