@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,64 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "New RefluXFS Linux flaw lets attackers gain root privileges",
+      "link": "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/",
+      "summary": "A nine-year-old race condition vulnerability in the Linux kernel's XFS filesystem, tracked as CVE-2026-64600, allows local attackers to overwrite prot...",
+      "timestamp": 1784806816.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
+      "link": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
+      "summary": "The Chaos ransomware gang is using a new backdoor dubbed msaRAT that hides command-and-control (C2) communication by routing it through the Chrome or ...",
+      "timestamp": 1784800800.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft working to fix Exchange Online mailbox quarantine issue",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/",
+      "summary": "Microsoft is working to resolve an ongoing Exchange Online issue that has been mistakenly quarantining customers' mailboxes since Sunday. [...]",
+      "timestamp": 1784798410.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-16723 - Remote Code Execution in fastjson 1.2.68\u20131.2.83",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16723",
+      "summary": "CVE ID :CVE-2026-16723\n  \n  Published : July 23, 2026, 9:16 a.m. | 57\u00a0minutes ago\n  \n  Description :A remote code execution (RCE) vulnerability exists...",
+      "timestamp": 1784798186.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2024-58023 - Bosch Configuration Manager Information Disclosure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58023",
+      "summary": "CVE ID :CVE-2024-58023\n  \n  Published : July 23, 2026, 9:16 a.m. | 57\u00a0minutes ago\n  \n  Description :Information disclosure in Bosch Configuration Mana...",
+      "timestamp": 1784798186.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
+      "summary": "Israeli cybersecurity firm Check Point Software has addressed an actively exploited zero-day flaw in the company's SmartConsole graphical user interfa...",
+      "timestamp": 1784794387.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "CVE-2026-61246 - Vulnerability in the Oracle Platform Security for",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61246",
-      "summary": "CVE ID :CVE-2026-61246\n  \n  Published : July 22, 2026, 11:16 p.m. | 6\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Sec...",
+      "summary": "CVE ID :CVE-2026-61246\n  \n  Published : July 22, 2026, 11:16 p.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Se...",
       "timestamp": 1784762196.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +117,7 @@
     {
       "title": "CVE-2026-60455 - Vulnerability in the Oracle Platform Security for",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60455",
-      "summary": "CVE ID :CVE-2026-60455\n  \n  Published : July 22, 2026, 11:16 p.m. | 6\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Sec...",
+      "summary": "CVE ID :CVE-2026-60455\n  \n  Published : July 22, 2026, 11:16 p.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Se...",
       "timestamp": 1784762196.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +125,7 @@
     {
       "title": "CVE-2026-60439 - Vulnerability in the Oracle Platform Security for",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60439",
-      "summary": "CVE ID :CVE-2026-60439\n  \n  Published : July 22, 2026, 11:16 p.m. | 6\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Sec...",
+      "summary": "CVE ID :CVE-2026-60439\n  \n  Published : July 22, 2026, 11:16 p.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Se...",
       "timestamp": 1784762196.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +133,7 @@
     {
       "title": "CVE-2026-60373 - Vulnerability in the Oracle Platform Security for",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60373",
-      "summary": "CVE ID :CVE-2026-60373\n  \n  Published : July 22, 2026, 11:16 p.m. | 6\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Sec...",
+      "summary": "CVE ID :CVE-2026-60373\n  \n  Published : July 22, 2026, 11:16 p.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Se...",
       "timestamp": 1784762196.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +141,7 @@
     {
       "title": "CVE-2026-60372 - Vulnerability in the Oracle Platform Security for",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60372",
-      "summary": "CVE ID :CVE-2026-60372\n  \n  Published : July 22, 2026, 11:16 p.m. | 6\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Sec...",
+      "summary": "CVE ID :CVE-2026-60372\n  \n  Published : July 22, 2026, 11:16 p.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Se...",
       "timestamp": 1784762196.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +149,7 @@
     {
       "title": "CVE-2026-60371 - Vulnerability in the Oracle Platform Security for",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60371",
-      "summary": "CVE ID :CVE-2026-60371\n  \n  Published : July 22, 2026, 11:16 p.m. | 6\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Sec...",
+      "summary": "CVE ID :CVE-2026-60371\n  \n  Published : July 22, 2026, 11:16 p.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Se...",
       "timestamp": 1784762196.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +157,7 @@
     {
       "title": "CVE-2026-60369 - Vulnerability in the Oracle Platform Security for",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60369",
-      "summary": "CVE ID :CVE-2026-60369\n  \n  Published : July 22, 2026, 11:16 p.m. | 6\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Sec...",
+      "summary": "CVE ID :CVE-2026-60369\n  \n  Published : July 22, 2026, 11:16 p.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Se...",
       "timestamp": 1784762196.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,23 +165,7 @@
     {
       "title": "CVE-2026-60368 - Vulnerability in the Oracle Platform Security for",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60368",
-      "summary": "CVE ID :CVE-2026-60368\n  \n  Published : July 22, 2026, 11:16 p.m. | 6\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Sec...",
-      "timestamp": 1784762195.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-60367 - Vulnerability in the Oracle Platform Security for",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60367",
-      "summary": "CVE ID :CVE-2026-60367\n  \n  Published : July 22, 2026, 11:16 p.m. | 6\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Sec...",
-      "timestamp": 1784762195.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-60366 - Vulnerability in the Oracle Platform Security for",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60366",
-      "summary": "CVE ID :CVE-2026-60366\n  \n  Published : July 22, 2026, 11:16 p.m. | 6\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Sec...",
+      "summary": "CVE ID :CVE-2026-60368\n  \n  Published : July 22, 2026, 11:16 p.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle Platform Se...",
       "timestamp": 1784762195.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -183,38 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/",
       "summary": "The Adobe Acrobat extension for Chrome could be used to access conversations and data rendered in WhatsApp Web without any form of authentication. [.....",
       "timestamp": 1784726540.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CISA orders urgent action on actively exploited Langflow RCE flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-langflow-rce-flaw/",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday ordered U.S. government agencies to prioritize patching an actively exploited v...",
-      "timestamp": 1784720608.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Stop renting storage space \u2014 this lifetime 2TB plan is yours for $59",
-      "link": "https://www.bleepingcomputer.com/news/security/stop-renting-storage-space-this-lifetime-2tb-plan-is-yours-for-59/",
-      "summary": "Cloud storage costs tend to creep up over time, since most services charge monthly or annually for as long as you use them. FileJump's Lifetime Plan s...",
-      "timestamp": 1784718556.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft to stop Exchange 2016 / 2019 security updates in October",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/",
-      "summary": "Microsoft has reminded customers that it will stop shipping security updates for Exchange 2016 and 2019 through the Extended Security Update (ESU) pro...",
-      "timestamp": 1784717092.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Chick-fil-A discloses data breach after credential stuffing attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
-      "summary": "American fast food restaurant chain Chick-fil-A is notifying customers of a data breach after their accounts were hacked in a wave of recent credentia...",
-      "timestamp": 1784702429.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -291,5 +291,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784790938.3012753
+  "last_updated": 1784808156.0185063
 }
