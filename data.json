@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,52 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
+      "summary": "Microsoft Teams and several Microsoft 365 services are experiencing an ongoing outage, with users reporting problems accessing Teams, SharePoint, Exce...",
+      "timestamp": 1784820883.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-65690 - Bold Reports Standalone Report Designer 14.1.12 Path Traversal RCE via File Upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65690",
+      "summary": "CVE ID :CVE-2026-65690\n  \n  Published : July 23, 2026, 2:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Bold Reports Standalone Report Designer before 14....",
+      "timestamp": 1784816283.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65689 - Bold Reports Standalone Report Designer 14.1.12 Arbitrary File Read via Database Download",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65689",
+      "summary": "CVE ID :CVE-2026-65689\n  \n  Published : July 23, 2026, 2:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Bold Reports Standalone Report Designer before 14....",
+      "timestamp": 1784816283.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65688 - Bold Reports Standalone Report Designer 14.1.12 Arbitrary File Read via Font Processing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65688",
+      "summary": "CVE ID :CVE-2026-65688\n  \n  Published : July 23, 2026, 2:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Bold Reports Standalone Report Designer before 14....",
+      "timestamp": 1784816283.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65687 - Bold Reports Standalone Report Designer 14.1.12 Arbitrary File Read via SVG Processing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65687",
+      "summary": "CVE ID :CVE-2026-65687\n  \n  Published : July 23, 2026, 2:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Bold Reports Standalone Report Designer before 14....",
+      "timestamp": 1784816282.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires",
       "link": "https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires/",
@@ -65,6 +105,30 @@
       "timestamp": 1784815210.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-65908 - JetBrains PyCharm Arbitrary Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65908",
+      "summary": "CVE ID :CVE-2026-65908\n  \n  Published : July 23, 2026, 1:16 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :In JetBrains PyCharm before 2026.1.4, 2026...",
+      "timestamp": 1784812591.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65907 - JetBrains TeamCity Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65907",
+      "summary": "CVE ID :CVE-2026-65907\n  \n  Published : July 23, 2026, 1:16 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :In JetBrains TeamCity before 2026.1.2, 202...",
+      "timestamp": 1784812591.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65906 - JetBrains TeamCity Kotlin DSL Sandbox Escape Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65906",
+      "summary": "CVE ID :CVE-2026-65906\n  \n  Published : July 23, 2026, 1:16 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :In JetBrains TeamCity before 2026.1.2, 202...",
+      "timestamp": 1784812591.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "EU fines Google $1 billion for search, app store antitrust violations",
@@ -77,7 +141,7 @@
     {
       "title": "CVE-2026-65897 - Grav API Plugin 1.0.9 Privilege Escalation via Invitations groups",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65897",
-      "summary": "CVE ID :CVE-2026-65897\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :Grav API Plugin versions before 1.0.10 fail to va...",
+      "summary": "CVE ID :CVE-2026-65897\n  \n  Published : July 23, 2026, 12:18 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Grav API Plugin versions before 1.0.10 f...",
       "timestamp": 1784809128.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +149,7 @@
     {
       "title": "CVE-2026-65895 - Grav API Plugin before 1.0.10 Broken Access Control",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65895",
-      "summary": "CVE ID :CVE-2026-65895\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :Grav API Plugin versions before 1.0.10 fail to re...",
+      "summary": "CVE ID :CVE-2026-65895\n  \n  Published : July 23, 2026, 12:18 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Grav API Plugin versions before 1.0.10 f...",
       "timestamp": 1784809127.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,64 +157,8 @@
     {
       "title": "CVE-2026-65608 - Grav before 2.0.9 Remote Code Execution via FlexDirectory",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65608",
-      "summary": "CVE ID :CVE-2026-65608\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :Grav versions >= 1.7.0 and before 2.0.9 contain a...",
+      "summary": "CVE ID :CVE-2026-65608\n  \n  Published : July 23, 2026, 12:18 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Grav versions >= 1.7.0 and before 2.0.9 ...",
       "timestamp": 1784809127.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65606 - SiYuan before v3.7.2 Cross-Site Scripting to RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65606",
-      "summary": "CVE ID :CVE-2026-65606\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :SiYuan before v3.7.2 contains a cross-site script...",
-      "timestamp": 1784809127.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65605 - SiYuan before v3.7.2 Stored XSS to RCE via Attribute View",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65605",
-      "summary": "CVE ID :CVE-2026-65605\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :SiYuan before v3.7.2 contains a stored cross-site...",
-      "timestamp": 1784809127.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65526 - WordPress Visualizer plugin <= 4.0.6 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65526",
-      "summary": "CVE ID :CVE-2026-65526\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :Contributor SQL Injection in Visualizer <= 4.0.6 ...",
-      "timestamp": 1784809125.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65471 - WordPress Avada Core plugin <= 5.15.6 - Cross Site Request Forgery (CSRF) vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65471",
-      "summary": "CVE ID :CVE-2026-65471\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :Unauthenticated Cross Site Request Forgery (CSRF)...",
-      "timestamp": 1784809119.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65461 - WordPress Really Simple CSV Importer plugin <= 1.3 - Arbitrary File Upload vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65461",
-      "summary": "CVE ID :CVE-2026-65461\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :Administrator Arbitrary File Upload in Really Sim...",
-      "timestamp": 1784809118.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65455 - WordPress MapSVG plugin <= 8.14.0 - Arbitrary File Upload vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65455",
-      "summary": "CVE ID :CVE-2026-65455\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :Administrator Arbitrary File Upload in MapSVG <= ...",
-      "timestamp": 1784809117.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65454 - WordPress Quiz And Survey Master plugin <= 11.2.0 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65454",
-      "summary": "CVE ID :CVE-2026-65454\n  \n  Published : July 23, 2026, 12:18 p.m. | 31\u00a0minutes ago\n  \n  Description :Contributor SQL Injection in Quiz And Survey Mast...",
-      "timestamp": 1784809117.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
       "summary": "Swiss rail vehicle manufacturer Stadler Rail says the Everest ransomware gang demanded about $12.3 million after breaching a data exchange platform sh...",
       "timestamp": 1784739557.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "How enterprise GenAI can amplify ransomware risk \u2014 and how to contain it",
-      "link": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
-      "summary": "Enterprise AI can accelerate ransomware attacks when AI assistants and agents inherit excessive permissions or compromised identities. Acronis explain...",
-      "timestamp": 1784734200.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -291,5 +291,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784817003.452581
+  "last_updated": 1784823303.302681
 }
