@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,84 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 6,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "New Dolphin X malware uses AI to rank high-value targets",
+      "link": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
+      "summary": "A new Dolphin X remote access trojan claims to use\u00a0an AI-powered profiling feature to score and rank infected users, helping cybercriminals identify w...",
+      "timestamp": 1784841634.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-65706 - FFmpeg 3.0 - 8.1.2 vf_swaprect Out-of-Bounds Write via NV12 Frame Processing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65706",
+      "summary": "CVE ID :CVE-2026-65706\n  \n  Published : July 23, 2026, 8:17 p.m. | 17\u00a0minutes ago\n  \n  Description :FFmpeg versions 3.0 through 8.1.2 contain an out-o...",
+      "timestamp": 1784837842.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65703 - FFmpeg 2.7 - 8.1.2 Out-of-Bounds Write in TDSC Video Decoder",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65703",
+      "summary": "CVE ID :CVE-2026-65703\n  \n  Published : July 23, 2026, 8:17 p.m. | 17\u00a0minutes ago\n  \n  Description :FFmpeg versions 2.7 through 8.1.2 contain an out-o...",
+      "timestamp": 1784837841.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63359 - Appriss Insights VINE SQLI",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63359",
+      "summary": "CVE ID :CVE-2026-63359\n  \n  Published : July 23, 2026, 8:17 p.m. | 17\u00a0minutes ago\n  \n  Description :The Appriss Insights (Equifax) Victim Information ...",
+      "timestamp": 1784837840.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-60122 - gpsd gpsprof Code Injection via SKY.satellites used Field",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60122",
+      "summary": "CVE ID :CVE-2026-60122\n  \n  Published : July 23, 2026, 8:17 p.m. | 17\u00a0minutes ago\n  \n  Description :gpsd through release-3.27.5, fixed at commit 4c066...",
+      "timestamp": 1784837829.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47722 - nebula-mesh: Host advanced overrides allow YAML injection into agent config.yml",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47722",
+      "summary": "CVE ID :CVE-2026-47722\n  \n  Published : July 23, 2026, 8:17 p.m. | 17\u00a0minutes ago\n  \n  Description :nebula-mesh is a self-hosted control plane for Sla...",
+      "timestamp": 1784837828.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47670 - DbGate Vulnerable to Authenticated Remote Code Execution via loadReader functionName code injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47670",
+      "summary": "CVE ID :CVE-2026-47670\n  \n  Published : July 23, 2026, 8:17 p.m. | 17\u00a0minutes ago\n  \n  Description :DbGate is cross-platform database manager. Version...",
+      "timestamp": 1784837828.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47669 - DbGate: Zip Slip in archive/unzip allows arbitrary file write leading to RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47669",
+      "summary": "CVE ID :CVE-2026-47669\n  \n  Published : July 23, 2026, 8:17 p.m. | 17\u00a0minutes ago\n  \n  Description :DbGate is cross-platform database manager. In vers...",
+      "timestamp": 1784837828.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15212 - WPO365 | SEAMLESS WORDPRESS + MICROSOFT INTEGRATION (WPO365 | LOGIN) <= 43.2 - Cross-Site Request Forgery to Privilege Escalation via Plugin Settings Update",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15212",
+      "summary": "CVE ID :CVE-2026-15212\n  \n  Published : July 23, 2026, 8:17 p.m. | 17\u00a0minutes ago\n  \n  Description :The WPO365 | Login plugin for WordPress is vulnera...",
+      "timestamp": 1784837827.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Australian energy provider Origin says data breach exposes client data",
       "link": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
@@ -67,92 +139,28 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-21655 - C-CURE 9000 and Victor application server - Deserialization of Untrusted Data",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-21655",
+      "summary": "CVE ID :CVE-2026-21655\n  \n  Published : July 23, 2026, 8:13 p.m. | 21\u00a0minutes ago\n  \n  Description :Deserialization of untrusted data vulnerability in...",
+      "timestamp": 1784837585.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-16796 - Improper neutralization of argument delimiters in AWS Bedrock AgentCore Python SDK install_packages()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16796",
+      "summary": "CVE ID :CVE-2026-16796\n  \n  Published : July 23, 2026, 8:06 p.m. | 28\u00a0minutes ago\n  \n  Description :Improper neutralization of argument delimiters in ...",
+      "timestamp": 1784837192.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Fake Claude app promoted by Bing ads pushes SectopRAT malware",
       "link": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
       "summary": "A malvertising campaign on the Bing search service is pushing a fake Claude desktop app installer hosted on a legitimate Claude.ai domain to deliver t...",
       "timestamp": 1784836110.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-60122 - gpsd gpsprof Code Injection via SKY.satellites used Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60122",
-      "summary": "CVE ID :CVE-2026-60122\n  \n  Published : July 23, 2026, 7:18 p.m. | 54\u00a0minutes ago\n  \n  Description :gpsd through release-3.27.5, fixed at commit 4c066...",
-      "timestamp": 1784834294.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63765 - Chatwoot < 4.16.0 Unauthenticated ActiveStorage Direct Upload Arbitrary Blob Creation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63765",
-      "summary": "CVE ID :CVE-2026-63765\n  \n  Published : July 23, 2026, 7:17 p.m. | 55\u00a0minutes ago\n  \n  Description :Chatwoot before 4.16.0 contains an authentication ...",
-      "timestamp": 1784834223.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16756 - Allocation of resources without limits in the default aws-smithy-http-server serve() path allows unauthenticated Slowloris denial of service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16756",
-      "summary": "CVE ID :CVE-2026-16756\n  \n  Published : July 23, 2026, 7:16 p.m. | 55\u00a0minutes ago\n  \n  Description :Missing connection and header-read timeouts and th...",
-      "timestamp": 1784834213.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65706 - FFmpeg 3.0 - 8.1.2 vf_swaprect Out-of-Bounds Write via NV12 Frame Processing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65706",
-      "summary": "CVE ID :CVE-2026-65706\n  \n  Published : July 23, 2026, 7:05 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :FFmpeg versions 3.0 through 8.1.2 contain a...",
-      "timestamp": 1784833511.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65703 - FFmpeg 2.7 - 8.1.2 Out-of-Bounds Write in TDSC Video Decoder",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65703",
-      "summary": "CVE ID :CVE-2026-65703\n  \n  Published : July 23, 2026, 6:52 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :FFmpeg versions 2.7 through 8.1.2 contain ...",
-      "timestamp": 1784832739.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-6516 - Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6516",
-      "summary": "CVE ID :CVE-2026-6516\n  \n  Published : July 23, 2026, 6:17 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :Zohocorp ManageEngine ADAudit Plus versions...",
-      "timestamp": 1784830622.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65702 - Vanna 2.0.2 Path Traversal via FileSystemConversationStore",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65702",
-      "summary": "CVE ID :CVE-2026-65702\n  \n  Published : July 23, 2026, 6:17 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :Vanna through 2.0.2 contains a path traver...",
-      "timestamp": 1784830621.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65701 - SoftVC VITS Singing Voice Conversion Path Traversal via /wav2wav Flask Route",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65701",
-      "summary": "CVE ID :CVE-2026-65701\n  \n  Published : July 23, 2026, 6:17 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :SoftVC VITS Singing Voice Conversion throu...",
-      "timestamp": 1784830621.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65700 - h2oGPT 0.2.1 Path Traversal via OpenAI-compatible Files API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65700",
-      "summary": "CVE ID :CVE-2026-65700\n  \n  Published : July 23, 2026, 6:17 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :h2oGPT through 0.2.1 contains a path trave...",
-      "timestamp": 1784830621.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47752 - Tugtainer has Server-Side Template Injection in notification templates that leads to Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47752",
-      "summary": "CVE ID :CVE-2026-47752\n  \n  Published : July 23, 2026, 6:16 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :Tugtainer is a self-hosted app for automat...",
-      "timestamp": 1784830613.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
       "summary": "The Chaos ransomware gang is using a new backdoor dubbed msaRAT that hides command-and-control (C2) communication by routing it through the Chrome or ...",
       "timestamp": 1784800800.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft working to fix Exchange Online mailbox quarantine issue",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/",
-      "summary": "Microsoft is working to resolve an ongoing Exchange Online issue that has been mistakenly quarantining customers' mailboxes since Sunday. [...]",
-      "timestamp": 1784798410.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -291,5 +291,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784839421.2764063
+  "last_updated": 1784843000.7753878
 }
