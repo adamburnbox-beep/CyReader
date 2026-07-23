@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,76 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-65919 - Meshery < 1.0.57 Unauthenticated Arbitrary File Read via fileView and fileDownload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65919",
+      "summary": "CVE ID :CVE-2026-65919\n  \n  Published : July 23, 2026, 5:39 p.m. | 33\u00a0minutes ago\n  \n  Description :Meshery before 1.0.57 contains an unauthenticated ...",
+      "timestamp": 1784828367.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-6516 - Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6516",
+      "summary": "CVE ID :CVE-2026-6516\n  \n  Published : July 23, 2026, 5:22 p.m. | 50\u00a0minutes ago\n  \n  Description :Zohocorp ManageEngine ADAudit Plus versions\u00a0before ...",
+      "timestamp": 1784827346.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65761 - Joomla Extension - joomshaper.com - Unauthenticated SQL injection in Easy Store extension 1.0.0-2.0.1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65761",
+      "summary": "CVE ID :CVE-2026-65761\n  \n  Published : July 23, 2026, 5:16 p.m. | 56\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - Unauthenticate...",
+      "timestamp": 1784826990.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65760 - Joomla Extension - joomshaper.com - cross-customer order and personal information disclosure in Easy Store extension 1.0.0-2.0.1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65760",
+      "summary": "CVE ID :CVE-2026-65760\n  \n  Published : July 23, 2026, 5:16 p.m. | 56\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - cross-customer...",
+      "timestamp": 1784826990.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65759 - Joomla Extension - joomshaper.com - unauthenticated payment/order forgery in Easy Store extension 1.0.0-2.0.1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65759",
+      "summary": "CVE ID :CVE-2026-65759\n  \n  Published : July 23, 2026, 5:16 p.m. | 56\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - unauthenticate...",
+      "timestamp": 1784826990.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65702 - Vanna 2.0.2 Path Traversal via FileSystemConversationStore",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65702",
+      "summary": "CVE ID :CVE-2026-65702\n  \n  Published : July 23, 2026, 5:09 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Vanna through 2.0.2 contains a path travers...",
+      "timestamp": 1784826577.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65701 - SoftVC VITS Singing Voice Conversion Path Traversal via /wav2wav Flask Route",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65701",
+      "summary": "CVE ID :CVE-2026-65701\n  \n  Published : July 23, 2026, 5:05 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :SoftVC VITS Singing Voice Conversion throug...",
+      "timestamp": 1784826347.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65700 - h2oGPT 0.2.1 Path Traversal via OpenAI-compatible Files API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65700",
+      "summary": "CVE ID :CVE-2026-65700\n  \n  Published : July 23, 2026, 5:02 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :h2oGPT through 0.2.1 contains a path trave...",
+      "timestamp": 1784826144.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
       "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
@@ -75,44 +139,28 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-65917 - CyberPanel IncBackups IDOR via Sequential Backup ID",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65917",
+      "summary": "CVE ID :CVE-2026-65917\n  \n  Published : July 23, 2026, 4:17 p.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :CyberPanel through 1.9.1, fixed in commit ...",
+      "timestamp": 1784823475.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65916 - CyberPanel Missing Authorization in cancelBackupCreation Handler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65916",
+      "summary": "CVE ID :CVE-2026-65916\n  \n  Published : July 23, 2026, 4:17 p.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :CyberPanel through 1.9.1, fixed in commit ...",
+      "timestamp": 1784823474.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
-      "summary": "Microsoft Teams and several Microsoft 365 services are experiencing an ongoing outage, with users reporting problems accessing Teams, SharePoint, Exce...",
+      "summary": "Microsoft is impacted by a massive outage affecting\u00a0Teams and Microsoft 365 services, primarily affecting users in North America. [...]",
       "timestamp": 1784820883.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-65690 - Bold Reports Standalone Report Designer 14.1.12 Path Traversal RCE via File Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65690",
-      "summary": "CVE ID :CVE-2026-65690\n  \n  Published : July 23, 2026, 2:18 p.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :Bold Reports Standalone Report Designer be...",
-      "timestamp": 1784816283.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65689 - Bold Reports Standalone Report Designer 14.1.12 Arbitrary File Read via Database Download",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65689",
-      "summary": "CVE ID :CVE-2026-65689\n  \n  Published : July 23, 2026, 2:18 p.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :Bold Reports Standalone Report Designer be...",
-      "timestamp": 1784816283.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65688 - Bold Reports Standalone Report Designer 14.1.12 Arbitrary File Read via Font Processing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65688",
-      "summary": "CVE ID :CVE-2026-65688\n  \n  Published : July 23, 2026, 2:18 p.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :Bold Reports Standalone Report Designer be...",
-      "timestamp": 1784816283.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65687 - Bold Reports Standalone Report Designer 14.1.12 Arbitrary File Read via SVG Processing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65687",
-      "summary": "CVE ID :CVE-2026-65687\n  \n  Published : July 23, 2026, 2:18 p.m. | 1\u00a0hour, 54\u00a0minutes ago\n  \n  Description :Bold Reports Standalone Report Designer be...",
-      "timestamp": 1784816282.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires",
@@ -123,60 +171,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-65908 - JetBrains PyCharm Arbitrary Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65908",
-      "summary": "CVE ID :CVE-2026-65908\n  \n  Published : July 23, 2026, 1:16 p.m. | 2\u00a0hours, 55\u00a0minutes ago\n  \n  Description :In JetBrains PyCharm before 2026.1.4, 202...",
-      "timestamp": 1784812591.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65907 - JetBrains TeamCity Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65907",
-      "summary": "CVE ID :CVE-2026-65907\n  \n  Published : July 23, 2026, 1:16 p.m. | 2\u00a0hours, 55\u00a0minutes ago\n  \n  Description :In JetBrains TeamCity before 2026.1.2, 20...",
-      "timestamp": 1784812591.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65906 - JetBrains TeamCity Kotlin DSL Sandbox Escape Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65906",
-      "summary": "CVE ID :CVE-2026-65906\n  \n  Published : July 23, 2026, 1:16 p.m. | 2\u00a0hours, 55\u00a0minutes ago\n  \n  Description :In JetBrains TeamCity before 2026.1.2, 20...",
-      "timestamp": 1784812591.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "EU fines Google $1 billion for search, app store antitrust violations",
       "link": "https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/",
       "summary": "The European Commission fined Google \u20ac890 million ($1 billion) on Thursday after finding the company had violated the European Union's Digital Markets...",
       "timestamp": 1784809999.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-65897 - Grav API Plugin 1.0.9 Privilege Escalation via Invitations groups",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65897",
-      "summary": "CVE ID :CVE-2026-65897\n  \n  Published : July 23, 2026, 12:18 p.m. | 3\u00a0hours, 53\u00a0minutes ago\n  \n  Description :Grav API Plugin versions before 1.0.10 f...",
-      "timestamp": 1784809128.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65895 - Grav API Plugin before 1.0.10 Broken Access Control",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65895",
-      "summary": "CVE ID :CVE-2026-65895\n  \n  Published : July 23, 2026, 12:18 p.m. | 3\u00a0hours, 53\u00a0minutes ago\n  \n  Description :Grav API Plugin versions before 1.0.10 f...",
-      "timestamp": 1784809127.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65608 - Grav before 2.0.9 Remote Code Execution via FlexDirectory",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65608",
-      "summary": "CVE ID :CVE-2026-65608\n  \n  Published : July 23, 2026, 12:18 p.m. | 3\u00a0hours, 53\u00a0minutes ago\n  \n  Description :Grav versions >= 1.7.0 and before 2.0.9 ...",
-      "timestamp": 1784809127.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "New RefluXFS Linux flaw lets attackers gain root privileges",
@@ -291,5 +291,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784829659.3082647
+  "last_updated": 1784835798.4286802
 }
