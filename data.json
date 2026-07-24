@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,8 +31,8 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 10,
-      "total_count": 10,
+      "new_count": 0,
+      "total_count": 0,
       "status": "ok"
     },
     {
@@ -52,16 +52,32 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-15704 - CWE-863: ABAC authorization bypass via trailing slash route normalization in Eclipse BaSyx Go Components",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15704",
+      "summary": "CVE ID :CVE-2026-15704\n  \n  Published : July 24, 2026, 7:41 a.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :In Eclipse BaSyx Go Components versions up ...",
+      "timestamp": 1784878902.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
+      "summary": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campai...",
+      "timestamp": 1784878599.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "CVE-2026-16870 - Multiple Security Vulnerabilities in Snowflake libsnowflakeclient",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16870",
-      "summary": "CVE ID :CVE-2026-16870\n  \n  Published : July 24, 2026, 6:16 a.m. | 14\u00a0minutes ago\n  \n  Description :Multiple security vulnerabilities in Snowflake lib...",
+      "summary": "CVE ID :CVE-2026-16870\n  \n  Published : July 24, 2026, 6:16 a.m. | 2\u00a0hours, 31\u00a0minutes ago\n  \n  Description :Multiple security vulnerabilities in Snow...",
       "timestamp": 1784873802.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +85,7 @@
     {
       "title": "CVE-2026-66140 - Exim Directory Traversal Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66140",
-      "summary": "CVE ID :CVE-2026-66140\n  \n  Published : July 24, 2026, 5:16 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Exim before 4.99.5 allows directory traver...",
+      "summary": "CVE ID :CVE-2026-66140\n  \n  Published : July 24, 2026, 5:16 a.m. | 3\u00a0hours, 31\u00a0minutes ago\n  \n  Description :Exim before 4.99.5 allows directory trave...",
       "timestamp": 1784870209.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +93,7 @@
     {
       "title": "CVE-2026-12736 - WPify Woo <= 5.4.16 - Authenticated (Shop Manager+) Privilege Escalation via Arbitrary Option Update via save_option REST Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12736",
-      "summary": "CVE ID :CVE-2026-12736\n  \n  Published : July 24, 2026, 4:16 a.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :The Wpify Woo plugin for WordPress is vul...",
+      "summary": "CVE ID :CVE-2026-12736\n  \n  Published : July 24, 2026, 4:16 a.m. | 4\u00a0hours, 31\u00a0minutes ago\n  \n  Description :The Wpify Woo plugin for WordPress is vul...",
       "timestamp": 1784866611.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +101,7 @@
     {
       "title": "CVE-2026-62825 - Azure Key Vault Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62825",
-      "summary": "CVE ID :CVE-2026-62825\n  \n  Published : July 24, 2026, 1:17 a.m. | 5\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Improper authentication in Azure Key Vaul...",
+      "summary": "CVE ID :CVE-2026-62825\n  \n  Published : July 24, 2026, 1:17 a.m. | 7\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Improper authentication in Azure Key Vaul...",
       "timestamp": 1784855867.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +109,7 @@
     {
       "title": "CVE-2026-58275 - Azure DNS Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58275",
-      "summary": "CVE ID :CVE-2026-58275\n  \n  Published : July 24, 2026, 1:17 a.m. | 5\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Missing authorization in Azure DNS allows...",
+      "summary": "CVE ID :CVE-2026-58275\n  \n  Published : July 24, 2026, 1:17 a.m. | 7\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Missing authorization in Azure DNS allows...",
       "timestamp": 1784855860.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +117,7 @@
     {
       "title": "CVE-2026-56191 - Microsoft Exchange Online Tampering Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56191",
-      "summary": "CVE ID :CVE-2026-56191\n  \n  Published : July 24, 2026, 1:17 a.m. | 5\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Improper authentication in Microsoft Exch...",
+      "summary": "CVE ID :CVE-2026-56191\n  \n  Published : July 24, 2026, 1:17 a.m. | 7\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Improper authentication in Microsoft Exch...",
       "timestamp": 1784855856.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +125,7 @@
     {
       "title": "CVE-2026-56167 - Azure AI Search Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56167",
-      "summary": "CVE ID :CVE-2026-56167\n  \n  Published : July 24, 2026, 1:17 a.m. | 5\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Server-side request forgery (ssrf) in Azu...",
+      "summary": "CVE ID :CVE-2026-56167\n  \n  Published : July 24, 2026, 1:17 a.m. | 7\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Server-side request forgery (ssrf) in Azu...",
       "timestamp": 1784855854.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +133,7 @@
     {
       "title": "CVE-2026-56165 - Microsoft Account Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56165",
-      "summary": "CVE ID :CVE-2026-56165\n  \n  Published : July 24, 2026, 1:17 a.m. | 5\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Microsoft A...",
+      "summary": "CVE ID :CVE-2026-56165\n  \n  Published : July 24, 2026, 1:17 a.m. | 7\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Microsoft A...",
       "timestamp": 1784855854.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,16 +141,8 @@
     {
       "title": "CVE-2026-56160 - Azure Red Hat OpenShift (ARO) Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56160",
-      "summary": "CVE ID :CVE-2026-56160\n  \n  Published : July 24, 2026, 1:17 a.m. | 5\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Improper authorization in Azure Red Hat O...",
+      "summary": "CVE ID :CVE-2026-56160\n  \n  Published : July 24, 2026, 1:17 a.m. | 7\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Improper authorization in Azure Red Hat O...",
       "timestamp": 1784855854.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54120 - Microsoft Surface Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54120",
-      "summary": "CVE ID :CVE-2026-54120\n  \n  Published : July 24, 2026, 1:17 a.m. | 5\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Improper input validation in Microsoft Su...",
-      "timestamp": 1784855845.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -211,60 +219,12 @@
       "vendor": "News"
     },
     {
-      "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
-      "link": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
-      "summary": "The Chaos ransomware gang is using a new backdoor dubbed msaRAT that hides command-and-control (C2) communication by routing it through the Chrome or ...",
-      "timestamp": 1784800800.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an alw...",
       "timestamp": 1784682638.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
-      "timestamp": 1784649687.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Identity Services Engine Stored Cross-Site Scripting Vulnerabilities",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-42tgsdMG?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Stored%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
-      "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Identity Services Engine (ISE) guest portals could allow an authenticated, rem...",
-      "timestamp": 1784562435.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Advance Notification for Publication of July 15, 2026, Security Advisories",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-ILh3ZrP5?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%2015,%202026,%20Security%20Advisories%26vs_k=1",
-      "summary": "On July 15, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE ID\nSecu...",
-      "timestamp": 1784131270.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco RoomOS Security Hardening Release: July 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-roomos-AqNMbEq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20RoomOS%20Security%20Hardening%20Release:%20July%202026%26vs_k=1",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco RoomOS engineering team has conducted a comprehensive inter...",
-      "timestamp": 1784131200.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Identity Services Engine Path Traversal Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-traversal-xNt7wb2Y?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Path%20Traversal%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an authenticated, remote attack...",
-      "timestamp": 1784131200.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     },
     {
       "title": "Microsoft Patches a Record 570 Security Flaws",
@@ -291,5 +251,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784877438.398894
+  "last_updated": 1784887629.705625
 }
