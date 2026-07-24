@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,94 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-66027 - Suna < 0.9.102 Broken Access Control via Message Queue API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66027",
+      "summary": "CVE ID :CVE-2026-66027\n  \n  Published : July 24, 2026, 4:16 p.m. | 18\u00a0minutes ago\n  \n  Description :Suna before 0.9.102 contains a broken access contr...",
+      "timestamp": 1784909815.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65693 - Microweber CMS 2.0.20 Server-Side Template Injection via Mail Templates",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65693",
+      "summary": "CVE ID :CVE-2026-65693\n  \n  Published : July 24, 2026, 4:16 p.m. | 18\u00a0minutes ago\n  \n  Description :Microweber CMS through 2.0.20 contains a server-si...",
+      "timestamp": 1784909815.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
+      "summary": "Microsoft says a bug in its automated network maintenance request system caused Thursday's massive outage by mistakenly removing IP routes from more d...",
+      "timestamp": 1784907704.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-8789 - Easy Appointments <= 3.12.27 - Missing Authorization to Authenticated (Contributor+) Arbitrary Connection Deletion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8789",
+      "summary": "CVE ID :CVE-2026-8789\n  \n  Published : July 24, 2026, 3:19 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :The Easy Appointments plugin for WordPress ...",
+      "timestamp": 1784906348.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58630 - Azure App Service on Azure Stack Hub Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58630",
+      "summary": "CVE ID :CVE-2026-58630\n  \n  Published : July 24, 2026, 3:18 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Improper access control in Azure App Servi...",
+      "timestamp": 1784906327.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57106 - Data Quality Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57106",
+      "summary": "CVE ID :CVE-2026-57106\n  \n  Published : July 24, 2026, 3:18 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Server-side request forgery (ssrf) in Data...",
+      "timestamp": 1784906319.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56163 - Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56163",
+      "summary": "CVE ID :CVE-2026-56163\n  \n  Published : July 24, 2026, 3:18 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Missing authentication for critical functi...",
+      "timestamp": 1784906313.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55732 - Loytec LINX firmware: Out-of-bounds Read in BACnet packet parsing (bacdt_datetime_to_tod)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55732",
+      "summary": "CVE ID :CVE-2026-55732\n  \n  Published : July 24, 2026, 3:18 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Out-of-bounds Read (CWE-125)\u00a0in BACnet pac...",
+      "timestamp": 1784906311.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55730 - Loytec LWEB802: Reflected Cross-Site Scripting in LWEB802",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55730",
+      "summary": "CVE ID :CVE-2026-55730\n  \n  Published : July 24, 2026, 3:18 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Reflected Cross-Site Scripting (CWE-79) in...",
+      "timestamp": 1784906311.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12504 - Loytec LINX firmware: Improper Authentication in PAM configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12504",
+      "summary": "CVE ID :CVE-2026-12504\n  \n  Published : July 24, 2026, 3:17 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Improper Authentication (CWE-287)\u00a0in the P...",
+      "timestamp": 1784906231.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12503 - Loytec LINX firmware: Improper Link Resolution in /usr/bin/larm_starter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12503",
+      "summary": "CVE ID :CVE-2026-12503\n  \n  Published : July 24, 2026, 3:17 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Improper Link Resolution (CWE-59)\u00a0in `/usr...",
+      "timestamp": 1784906230.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Chick-fil-A data breach affects more than 13,000 customers",
       "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
       "summary": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mo...",
@@ -75,54 +163,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-55732 - Loytec LINX firmware: Out-of-bounds Read in BACnet packet parsing (bacdt_datetime_to_tod)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55732",
-      "summary": "CVE ID :CVE-2026-55732\n  \n  Published : July 24, 2026, 2 p.m. | 34\u00a0minutes ago\n  \n  Description :Out-of-bounds Read (CWE-125)\u00a0in BACnet packet parsing...",
-      "timestamp": 1784901648.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55730 - Loytec LWEB802: Reflected Cross-Site Scripting in LWEB802",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55730",
-      "summary": "CVE ID :CVE-2026-55730\n  \n  Published : July 24, 2026, 2 p.m. | 35\u00a0minutes ago\n  \n  Description :Reflected Cross-Site Scripting (CWE-79) in LWEB802 in...",
-      "timestamp": 1784901604.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12504 - Loytec LINX firmware: Improper Authentication in PAM configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12504",
-      "summary": "CVE ID :CVE-2026-12504\n  \n  Published : July 24, 2026, 1:58 p.m. | 37\u00a0minutes ago\n  \n  Description :Improper Authentication (CWE-287)\u00a0in the PAM confi...",
-      "timestamp": 1784901496.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12503 - Loytec LINX firmware: Improper Link Resolution in /usr/bin/larm_starter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12503",
-      "summary": "CVE ID :CVE-2026-12503\n  \n  Published : July 24, 2026, 1:57 p.m. | 37\u00a0minutes ago\n  \n  Description :Improper Link Resolution (CWE-59)\u00a0in `/usr/bin/lar...",
-      "timestamp": 1784901476.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12502 - Loytec LINX firmware: Improper Privilege Management in /usr/bin/ltsudo",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12502",
-      "summary": "CVE ID :CVE-2026-12502\n  \n  Published : July 24, 2026, 1:57 p.m. | 37\u00a0minutes ago\n  \n  Description :Improper Privilege Management (CWE-269)\u00a0in `/usr/b...",
-      "timestamp": 1784901464.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12496 - Loytec LINX firmware: Unauthenticated stored XSS in OPC XML-DA server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12496",
-      "summary": "CVE ID :CVE-2026-12496\n  \n  Published : July 24, 2026, 1:57 p.m. | 37\u00a0minutes ago\n  \n  Description :Stored Cross-Site Scripting (CWE-79)\u00a0in the OPC XM...",
-      "timestamp": 1784901444.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Europol flags 4,340 URLs for removal in 'The Com' crackdown",
       "link": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/",
       "summary": "Europol has flagged 4,340 URLs for removal during a multi-week operation targeting online content linked to \"The Com,\" a loosely organized network of ...",
@@ -131,44 +171,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-15810 - Cross-Site Scripting (XSS) in Looker allows Admin Account Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15810",
-      "summary": "CVE ID :CVE-2026-15810\n  \n  Published : July 24, 2026, 12:16 p.m. | 2\u00a0hours, 18\u00a0minutes ago\n  \n  Description :A Cross-Site Scripting (XSS) vulnerabili...",
-      "timestamp": 1784895407.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10610 - Local privilege escalation in ESET security applications for macOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10610",
-      "summary": "CVE ID :CVE-2026-10610\n  \n  Published : July 24, 2026, 12:16 p.m. | 2\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Local privilege escalation\u00a0potentially a...",
-      "timestamp": 1784895405.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Man gets six years for hacking 750 women's Snapchat accounts",
       "link": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
       "summary": "An Illinois man was sentenced on Tuesday to 76 months in prison and three years of supervised release for hacking the Snapchat accounts of over 750 wo...",
       "timestamp": 1784891839.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-7483 - Local privilege escalation in ESET security applications for macOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7483",
-      "summary": "CVE ID :CVE-2026-7483\n  \n  Published : July 24, 2026, 10:16 a.m. | 4\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Local privilege escalation\u00a0potentially al...",
-      "timestamp": 1784888192.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-24727 - SUNNET Corporate Training Management System - Unrestricted Upload of File with Dangerous Type",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24727",
-      "summary": "CVE ID :CVE-2026-24727\n  \n  Published : July 24, 2026, 9:16 a.m. | 5\u00a0hours, 18\u00a0minutes ago\n  \n  Description :An unrestricted upload of file with dange...",
-      "timestamp": 1784884584.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
       "summary": "CISA is warning that the Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is targeting organizations using Zimbra Coll...",
       "timestamp": 1784825367.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers abuse Notepad++ plugins to stealthily install malware",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
-      "summary": "Ukraine's CERT has uncovered attacks distributing an archive containing the legitimate Notepad++ application and a malicious utility called LunchPoke ...",
-      "timestamp": 1784824355.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -291,5 +291,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784907753.2516503
+  "last_updated": 1784913283.6593874
 }
