@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 10,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,7 +52,7 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
@@ -75,12 +75,76 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-55732 - Loytec LINX firmware: Out-of-bounds Read in BACnet packet parsing (bacdt_datetime_to_tod)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55732",
+      "summary": "CVE ID :CVE-2026-55732\n  \n  Published : July 24, 2026, 2 p.m. | 34\u00a0minutes ago\n  \n  Description :Out-of-bounds Read (CWE-125)\u00a0in BACnet packet parsing...",
+      "timestamp": 1784901648.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55730 - Loytec LWEB802: Reflected Cross-Site Scripting in LWEB802",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55730",
+      "summary": "CVE ID :CVE-2026-55730\n  \n  Published : July 24, 2026, 2 p.m. | 35\u00a0minutes ago\n  \n  Description :Reflected Cross-Site Scripting (CWE-79) in LWEB802 in...",
+      "timestamp": 1784901604.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12504 - Loytec LINX firmware: Improper Authentication in PAM configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12504",
+      "summary": "CVE ID :CVE-2026-12504\n  \n  Published : July 24, 2026, 1:58 p.m. | 37\u00a0minutes ago\n  \n  Description :Improper Authentication (CWE-287)\u00a0in the PAM confi...",
+      "timestamp": 1784901496.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12503 - Loytec LINX firmware: Improper Link Resolution in /usr/bin/larm_starter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12503",
+      "summary": "CVE ID :CVE-2026-12503\n  \n  Published : July 24, 2026, 1:57 p.m. | 37\u00a0minutes ago\n  \n  Description :Improper Link Resolution (CWE-59)\u00a0in `/usr/bin/lar...",
+      "timestamp": 1784901476.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12502 - Loytec LINX firmware: Improper Privilege Management in /usr/bin/ltsudo",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12502",
+      "summary": "CVE ID :CVE-2026-12502\n  \n  Published : July 24, 2026, 1:57 p.m. | 37\u00a0minutes ago\n  \n  Description :Improper Privilege Management (CWE-269)\u00a0in `/usr/b...",
+      "timestamp": 1784901464.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12496 - Loytec LINX firmware: Unauthenticated stored XSS in OPC XML-DA server",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12496",
+      "summary": "CVE ID :CVE-2026-12496\n  \n  Published : July 24, 2026, 1:57 p.m. | 37\u00a0minutes ago\n  \n  Description :Stored Cross-Site Scripting (CWE-79)\u00a0in the OPC XM...",
+      "timestamp": 1784901444.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Europol flags 4,340 URLs for removal in 'The Com' crackdown",
       "link": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/",
       "summary": "Europol has flagged 4,340 URLs for removal during a multi-week operation targeting online content linked to \"The Com,\" a loosely organized network of ...",
       "timestamp": 1784897813.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-15810 - Cross-Site Scripting (XSS) in Looker allows Admin Account Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15810",
+      "summary": "CVE ID :CVE-2026-15810\n  \n  Published : July 24, 2026, 12:16 p.m. | 2\u00a0hours, 18\u00a0minutes ago\n  \n  Description :A Cross-Site Scripting (XSS) vulnerabili...",
+      "timestamp": 1784895407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-10610 - Local privilege escalation in ESET security applications for macOS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10610",
+      "summary": "CVE ID :CVE-2026-10610\n  \n  Published : July 24, 2026, 12:16 p.m. | 2\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Local privilege escalation\u00a0potentially a...",
+      "timestamp": 1784895405.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Man gets six years for hacking 750 women's Snapchat accounts",
@@ -91,25 +155,9 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-10610 - Local privilege escalation in ESET security applications for macOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10610",
-      "summary": "CVE ID :CVE-2026-10610\n  \n  Published : July 24, 2026, 11:14 a.m. | 59\u00a0minutes ago\n  \n  Description :Local privilege escalation\u00a0potentially allowed an...",
-      "timestamp": 1784891691.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-15810 - Cross-Site Scripting (XSS) in Looker allows Admin Account Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15810",
-      "summary": "CVE ID :CVE-2026-15810\n  \n  Published : July 24, 2026, 11:04 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :A Cross-Site Scripting (XSS) vulnerability...",
-      "timestamp": 1784891099.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-7483 - Local privilege escalation in ESET security applications for macOS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7483",
-      "summary": "CVE ID :CVE-2026-7483\n  \n  Published : July 24, 2026, 10:16 a.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :Local privilege escalation\u00a0potentially all...",
+      "summary": "CVE ID :CVE-2026-7483\n  \n  Published : July 24, 2026, 10:16 a.m. | 4\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Local privilege escalation\u00a0potentially al...",
       "timestamp": 1784888192.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,15 +165,7 @@
     {
       "title": "CVE-2026-24727 - SUNNET Corporate Training Management System - Unrestricted Upload of File with Dangerous Type",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-24727",
-      "summary": "CVE ID :CVE-2026-24727\n  \n  Published : July 24, 2026, 9:16 a.m. | 2\u00a0hours, 58\u00a0minutes ago\n  \n  Description :An unrestricted upload of file with dange...",
-      "timestamp": 1784884584.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-15704 - CWE-863: ABAC authorization bypass via trailing slash route normalization in Eclipse BaSyx Go Components",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15704",
-      "summary": "CVE ID :CVE-2026-15704\n  \n  Published : July 24, 2026, 9:16 a.m. | 2\u00a0hours, 58\u00a0minutes ago\n  \n  Description :In Eclipse BaSyx Go Components versions u...",
+      "summary": "CVE ID :CVE-2026-24727\n  \n  Published : July 24, 2026, 9:16 a.m. | 5\u00a0hours, 18\u00a0minutes ago\n  \n  Description :An unrestricted upload of file with dange...",
       "timestamp": 1784884584.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -137,46 +177,6 @@
       "timestamp": 1784878599.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-16870 - Multiple Security Vulnerabilities in Snowflake libsnowflakeclient",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16870",
-      "summary": "CVE ID :CVE-2026-16870\n  \n  Published : July 24, 2026, 6:16 a.m. | 5\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Multiple security vulnerabilities in Snow...",
-      "timestamp": 1784873802.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66140 - Exim Directory Traversal Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66140",
-      "summary": "CVE ID :CVE-2026-66140\n  \n  Published : July 24, 2026, 5:16 a.m. | 6\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Exim before 4.99.5 allows directory trave...",
-      "timestamp": 1784870209.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12736 - WPify Woo <= 5.4.16 - Authenticated (Shop Manager+) Privilege Escalation via Arbitrary Option Update via save_option REST Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12736",
-      "summary": "CVE ID :CVE-2026-12736\n  \n  Published : July 24, 2026, 4:16 a.m. | 7\u00a0hours, 57\u00a0minutes ago\n  \n  Description :The Wpify Woo plugin for WordPress is vul...",
-      "timestamp": 1784866611.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62825 - Azure Key Vault Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62825",
-      "summary": "CVE ID :CVE-2026-62825\n  \n  Published : July 24, 2026, 1:17 a.m. | 10\u00a0hours, 56\u00a0minutes ago\n  \n  Description :Improper authentication in Azure Key Vau...",
-      "timestamp": 1784855867.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58275 - Azure DNS Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58275",
-      "summary": "CVE ID :CVE-2026-58275\n  \n  Published : July 24, 2026, 1:17 a.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Missing authorization in Azure DNS allow...",
-      "timestamp": 1784855860.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "New Dolphin X malware uses AI to rank high-value targets",
@@ -291,5 +291,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784902228.6052988
+  "last_updated": 1784907753.2516503
 }
