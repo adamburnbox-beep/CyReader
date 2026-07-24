@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,108 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 7,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-66041 - FFmpeg 7.0 - 8.1.2 Heap Out-of-Bounds Write via vf_quirc Filter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66041",
+      "summary": "CVE ID :CVE-2026-66041\n  \n  Published : July 24, 2026, 8:18 p.m. | 17\u00a0minutes ago\n  \n  Description :FFmpeg 7.0 through 8.1.2, fixed in commit 4da9812,...",
+      "timestamp": 1784924301.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66040 - FFmpeg Heap Out-of-Bounds Write via PNG/APNG eXIf Encoder",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66040",
+      "summary": "CVE ID :CVE-2026-66040\n  \n  Published : July 24, 2026, 8:18 p.m. | 17\u00a0minutes ago\n  \n  Description :FFmpeg through 8.1.2, fixed in commit b506faf, con...",
+      "timestamp": 1784924301.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66039 - FFmpeg MACE6 Audio Decoder Heap Out-of-Bounds Write via CAF File",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66039",
+      "summary": "CVE ID :CVE-2026-66039\n  \n  Published : July 24, 2026, 8:18 p.m. | 17\u00a0minutes ago\n  \n  Description :FFmpeg through 8.1.2, fixed in commit aafb5c6, con...",
+      "timestamp": 1784924300.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66036 - FFmpeg Heap Out-of-Bounds Write in vf_hqdn3d Filter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66036",
+      "summary": "CVE ID :CVE-2026-66036\n  \n  Published : July 24, 2026, 8:18 p.m. | 17\u00a0minutes ago\n  \n  Description :FFmpeg through 8.1.2, fixed in commit 5d7112c, con...",
+      "timestamp": 1784924300.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62835 - Azure Portal Information Disclosure Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62835",
+      "summary": "CVE ID :CVE-2026-62835\n  \n  Published : July 24, 2026, 8:18 p.m. | 17\u00a0minutes ago\n  \n  Description :Improper authorization in Azure Portal allows an u...",
+      "timestamp": 1784924299.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "OnTrac notifies customers of data breach after network hack",
+      "link": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
+      "summary": "OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its custom...",
+      "timestamp": 1784922901.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-54342 - TLS Certificate Verification Disabled on CXF Transport Clients in epa4all",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54342",
+      "summary": "CVE ID :CVE-2026-54342\n  \n  Published : July 24, 2026, 7:16 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :In epa4all, prior to version 2026-05-20, a...",
+      "timestamp": 1784920619.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48036 - Hulumi: Drift classifier fails open on adapter errors and over-promotes Mixed verdicts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48036",
+      "summary": "CVE ID :CVE-2026-48036\n  \n  Published : July 24, 2026, 7:16 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Hulumi is an open-source toolkit that ship...",
+      "timestamp": 1784920618.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48034 - HULUMI-H5 bypass via decoy sibling resources targeting a different bucket",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48034",
+      "summary": "CVE ID :CVE-2026-48034\n  \n  Published : July 24, 2026, 7:16 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Hulumi is an open-source toolkit that ship...",
+      "timestamp": 1784920618.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48033 - Hulumi: Policy packs bypassed by a forged Pulumi-URN logical name",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48033",
+      "summary": "CVE ID :CVE-2026-48033\n  \n  Published : July 24, 2026, 7:16 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Hulumi is an open-source toolkit that ship...",
+      "timestamp": 1784920618.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48032 - Hulumi: IAM-role policy checks bypassed when the role trusts multiple OIDC providers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48032",
+      "summary": "CVE ID :CVE-2026-48032\n  \n  Published : July 24, 2026, 7:16 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Hulumi is an open-source toolkit that ship...",
+      "timestamp": 1784920618.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
+      "link": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
+      "summary": "A threat actor used the open-source Hermes AI agent in unattended \"YOLO\" mode to automate post-exploitation activity during an alleged breach of Thail...",
+      "timestamp": 1784920149.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
@@ -67,92 +163,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-66033 - libssh2 Integer Underflow DoS via AES-GCM Cipher Negotiation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66033",
-      "summary": "CVE ID :CVE-2026-66033\n  \n  Published : July 24, 2026, 5:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :libssh2 through 1.11.1, fixed in commit a2...",
-      "timestamp": 1784913455.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66032 - libssh2 Double-Free Heap Corruption via sftp_open()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66032",
-      "summary": "CVE ID :CVE-2026-66032\n  \n  Published : July 24, 2026, 5:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :libssh2 through 1.11.1, fixed in commit 5e...",
-      "timestamp": 1784913455.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65711 - sysPass 3.2.11 Authenticated OS Command Injection via Backup Path",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65711",
-      "summary": "CVE ID :CVE-2026-65711\n  \n  Published : July 24, 2026, 5:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :sysPass through version 3.2.11 contains an...",
-      "timestamp": 1784913454.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65709 - sysPass 3.2.11 Missing Object-Level Authorization via JSON-RPC API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65709",
-      "summary": "CVE ID :CVE-2026-65709\n  \n  Published : July 24, 2026, 5:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :sysPass through version 3.2.11 contains a ...",
-      "timestamp": 1784913454.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65708 - sysPass 3.2.11 Insecure Direct Object Reference via AccountFileController",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65708",
-      "summary": "CVE ID :CVE-2026-65708\n  \n  Published : July 24, 2026, 5:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :sysPass through version 3.2.11 contains an...",
-      "timestamp": 1784913454.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65707 - Likeshop 3.0.5 Authenticated SQL Injection via adjustAccount Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65707",
-      "summary": "CVE ID :CVE-2026-65707\n  \n  Published : July 24, 2026, 5:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Likeshop through 3.0.5 contains an authent...",
-      "timestamp": 1784913454.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65623 - Quadratic CPU blow-up reassembling fragmented WebSocket messages in Bandit",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65623",
-      "summary": "CVE ID :CVE-2026-65623\n  \n  Published : July 24, 2026, 5:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Inefficient Algorithmic Complexity vulnera...",
-      "timestamp": 1784913454.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66027 - Suna < 0.9.102 Broken Access Control via Message Queue API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66027",
-      "summary": "CVE ID :CVE-2026-66027\n  \n  Published : July 24, 2026, 4:16 p.m. | 2\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Suna before 0.9.102 contains a broken acc...",
-      "timestamp": 1784909815.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65693 - Microweber CMS 2.0.20 Server-Side Template Injection via Mail Templates",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65693",
-      "summary": "CVE ID :CVE-2026-65693\n  \n  Published : July 24, 2026, 4:16 p.m. | 2\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Microweber CMS through 2.0.20 contains a ...",
-      "timestamp": 1784909815.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
       "summary": "Microsoft says a bug in its automated network maintenance request system caused Thursday's massive outage by mistakenly removing IP routes from more d...",
       "timestamp": 1784907704.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-8789 - Easy Appointments <= 3.12.27 - Missing Authorization to Authenticated (Contributor+) Arbitrary Connection Deletion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8789",
-      "summary": "CVE ID :CVE-2026-8789\n  \n  Published : July 24, 2026, 3:19 p.m. | 3\u00a0hours, 16\u00a0minutes ago\n  \n  Description :The Easy Appointments plugin for WordPress...",
-      "timestamp": 1784906348.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Chick-fil-A data breach affects more than 13,000 customers",
@@ -199,22 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
       "summary": "A new Dolphin X remote access trojan claims to use\u00a0an AI-powered profiling feature to score and rank infected users, helping cybercriminals identify w...",
       "timestamp": 1784841634.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Australian energy provider Origin says data breach exposes client data",
-      "link": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/",
-      "summary": "Origin Energy has confirmed that an unauthorized party accessed and subsequently leaked customer data online, exposing sensitive personally identifiab...",
-      "timestamp": 1784837675.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Fake Claude app promoted by Bing ads pushes SectopRAT malware",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
-      "summary": "A malvertising campaign on the Bing search service is pushing a fake Claude desktop app installer hosted on a legitimate Claude.ai domain to deliver t...",
-      "timestamp": 1784836110.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -291,5 +291,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784918813.0372155
+  "last_updated": 1784925678.081091
 }
