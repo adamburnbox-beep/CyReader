@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,8 +31,8 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 0,
-      "total_count": 0,
+      "new_count": 10,
+      "total_count": 10,
       "status": "ok"
     },
     {
@@ -52,17 +52,81 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Chick-fil-A data breach affects more than 13,000 customers",
+      "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
+      "summary": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mo...",
+      "timestamp": 1784901869.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
+      "link": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
+      "summary": "Slopsquatting, phantom squatting, and HalluSquatting all exploit the same late-binding attack pattern, where AI coding agents trust hallucinated packa...",
+      "timestamp": 1784901671.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Europol flags 4,340 URLs for removal in 'The Com' crackdown",
+      "link": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/",
+      "summary": "Europol has flagged 4,340 URLs for removal during a multi-week operation targeting online content linked to \"The Com,\" a loosely organized network of ...",
+      "timestamp": 1784897813.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Man gets six years for hacking 750 women's Snapchat accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
+      "summary": "An Illinois man was sentenced on Tuesday to 76 months in prison and three years of supervised release for hacking the Snapchat accounts of over 750 wo...",
+      "timestamp": 1784891839.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-10610 - Local privilege escalation in ESET security applications for macOS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10610",
+      "summary": "CVE ID :CVE-2026-10610\n  \n  Published : July 24, 2026, 11:14 a.m. | 59\u00a0minutes ago\n  \n  Description :Local privilege escalation\u00a0potentially allowed an...",
+      "timestamp": 1784891691.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15810 - Cross-Site Scripting (XSS) in Looker allows Admin Account Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15810",
+      "summary": "CVE ID :CVE-2026-15810\n  \n  Published : July 24, 2026, 11:04 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :A Cross-Site Scripting (XSS) vulnerability...",
+      "timestamp": 1784891099.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-7483 - Local privilege escalation in ESET security applications for macOS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7483",
+      "summary": "CVE ID :CVE-2026-7483\n  \n  Published : July 24, 2026, 10:16 a.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :Local privilege escalation\u00a0potentially all...",
+      "timestamp": 1784888192.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-24727 - SUNNET Corporate Training Management System - Unrestricted Upload of File with Dangerous Type",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24727",
+      "summary": "CVE ID :CVE-2026-24727\n  \n  Published : July 24, 2026, 9:16 a.m. | 2\u00a0hours, 58\u00a0minutes ago\n  \n  Description :An unrestricted upload of file with dange...",
+      "timestamp": 1784884584.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-15704 - CWE-863: ABAC authorization bypass via trailing slash route normalization in Eclipse BaSyx Go Components",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15704",
-      "summary": "CVE ID :CVE-2026-15704\n  \n  Published : July 24, 2026, 7:41 a.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :In Eclipse BaSyx Go Components versions up ...",
-      "timestamp": 1784878902.0,
+      "summary": "CVE ID :CVE-2026-15704\n  \n  Published : July 24, 2026, 9:16 a.m. | 2\u00a0hours, 58\u00a0minutes ago\n  \n  Description :In Eclipse BaSyx Go Components versions u...",
+      "timestamp": 1784884584.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -77,7 +141,7 @@
     {
       "title": "CVE-2026-16870 - Multiple Security Vulnerabilities in Snowflake libsnowflakeclient",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16870",
-      "summary": "CVE ID :CVE-2026-16870\n  \n  Published : July 24, 2026, 6:16 a.m. | 2\u00a0hours, 31\u00a0minutes ago\n  \n  Description :Multiple security vulnerabilities in Snow...",
+      "summary": "CVE ID :CVE-2026-16870\n  \n  Published : July 24, 2026, 6:16 a.m. | 5\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Multiple security vulnerabilities in Snow...",
       "timestamp": 1784873802.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +149,7 @@
     {
       "title": "CVE-2026-66140 - Exim Directory Traversal Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66140",
-      "summary": "CVE ID :CVE-2026-66140\n  \n  Published : July 24, 2026, 5:16 a.m. | 3\u00a0hours, 31\u00a0minutes ago\n  \n  Description :Exim before 4.99.5 allows directory trave...",
+      "summary": "CVE ID :CVE-2026-66140\n  \n  Published : July 24, 2026, 5:16 a.m. | 6\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Exim before 4.99.5 allows directory trave...",
       "timestamp": 1784870209.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +157,7 @@
     {
       "title": "CVE-2026-12736 - WPify Woo <= 5.4.16 - Authenticated (Shop Manager+) Privilege Escalation via Arbitrary Option Update via save_option REST Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12736",
-      "summary": "CVE ID :CVE-2026-12736\n  \n  Published : July 24, 2026, 4:16 a.m. | 4\u00a0hours, 31\u00a0minutes ago\n  \n  Description :The Wpify Woo plugin for WordPress is vul...",
+      "summary": "CVE ID :CVE-2026-12736\n  \n  Published : July 24, 2026, 4:16 a.m. | 7\u00a0hours, 57\u00a0minutes ago\n  \n  Description :The Wpify Woo plugin for WordPress is vul...",
       "timestamp": 1784866611.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +165,7 @@
     {
       "title": "CVE-2026-62825 - Azure Key Vault Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62825",
-      "summary": "CVE ID :CVE-2026-62825\n  \n  Published : July 24, 2026, 1:17 a.m. | 7\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Improper authentication in Azure Key Vaul...",
+      "summary": "CVE ID :CVE-2026-62825\n  \n  Published : July 24, 2026, 1:17 a.m. | 10\u00a0hours, 56\u00a0minutes ago\n  \n  Description :Improper authentication in Azure Key Vau...",
       "timestamp": 1784855867.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,40 +173,8 @@
     {
       "title": "CVE-2026-58275 - Azure DNS Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58275",
-      "summary": "CVE ID :CVE-2026-58275\n  \n  Published : July 24, 2026, 1:17 a.m. | 7\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Missing authorization in Azure DNS allows...",
+      "summary": "CVE ID :CVE-2026-58275\n  \n  Published : July 24, 2026, 1:17 a.m. | 10\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Missing authorization in Azure DNS allow...",
       "timestamp": 1784855860.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56191 - Microsoft Exchange Online Tampering Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56191",
-      "summary": "CVE ID :CVE-2026-56191\n  \n  Published : July 24, 2026, 1:17 a.m. | 7\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Improper authentication in Microsoft Exch...",
-      "timestamp": 1784855856.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56167 - Azure AI Search Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56167",
-      "summary": "CVE ID :CVE-2026-56167\n  \n  Published : July 24, 2026, 1:17 a.m. | 7\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Server-side request forgery (ssrf) in Azu...",
-      "timestamp": 1784855854.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56165 - Microsoft Account Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56165",
-      "summary": "CVE ID :CVE-2026-56165\n  \n  Published : July 24, 2026, 1:17 a.m. | 7\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Microsoft A...",
-      "timestamp": 1784855854.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56160 - Azure Red Hat OpenShift (ARO) Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56160",
-      "summary": "CVE ID :CVE-2026-56160\n  \n  Published : July 24, 2026, 1:17 a.m. | 7\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Improper authorization in Azure Red Hat O...",
-      "timestamp": 1784855854.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -187,44 +219,52 @@
       "vendor": "News"
     },
     {
-      "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
-      "summary": "Microsoft is impacted by a massive outage affecting\u00a0Teams and Microsoft 365 services, primarily affecting users in North America. [...]",
-      "timestamp": 1784820883.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires",
-      "link": "https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires/",
-      "summary": "FedRAMP 20X replaces point-in-time assessments with continuous, machine-readable evidence that demonstrates security controls are working. Anecdotes e...",
-      "timestamp": 1784815210.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "EU fines Google $1 billion for search, app store antitrust violations",
-      "link": "https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/",
-      "summary": "The European Commission fined Google \u20ac890 million ($1 billion) on Thursday after finding the company had violated the European Union's Digital Markets...",
-      "timestamp": 1784809999.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New RefluXFS Linux flaw lets attackers gain root privileges",
-      "link": "https://www.bleepingcomputer.com/news/linux/new-refluxfs-linux-flaw-lets-attackers-gain-root-privileges/",
-      "summary": "A nine-year-old race condition vulnerability in the Linux kernel's XFS filesystem, tracked as CVE-2026-64600, allows local attackers to overwrite prot...",
-      "timestamp": 1784806816.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an alw...",
       "timestamp": 1784682638.0,
       "source": "Krebs on Security",
       "vendor": "News"
+    },
+    {
+      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
+      "timestamp": 1784649687.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Identity Services Engine Stored Cross-Site Scripting Vulnerabilities",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-42tgsdMG?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Stored%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
+      "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Identity Services Engine (ISE) guest portals could allow an authenticated, rem...",
+      "timestamp": 1784562435.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Advance Notification for Publication of July 15, 2026, Security Advisories",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-ILh3ZrP5?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20July%2015,%202026,%20Security%20Advisories%26vs_k=1",
+      "summary": "On July 15, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE ID\nSecu...",
+      "timestamp": 1784131270.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco RoomOS Security Hardening Release: July 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-roomos-AqNMbEq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20RoomOS%20Security%20Hardening%20Release:%20July%202026%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco RoomOS engineering team has conducted a comprehensive inter...",
+      "timestamp": 1784131200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Identity Services Engine Path Traversal Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-traversal-xNt7wb2Y?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Path%20Traversal%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an authenticated, remote attack...",
+      "timestamp": 1784131200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
     },
     {
       "title": "Microsoft Patches a Record 570 Security Flaws",
@@ -251,5 +291,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784887629.705625
+  "last_updated": 1784902228.6052988
 }
