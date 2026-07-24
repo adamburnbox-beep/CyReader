@@ -52,16 +52,80 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 6,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
+      "summary": "Hackers are changing the DNS settings on Wi-Fi devices at hotels and conference centers to redirect users to fake Microsoft 365 login pages. [...]",
+      "timestamp": 1784915437.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-66033 - libssh2 Integer Underflow DoS via AES-GCM Cipher Negotiation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66033",
+      "summary": "CVE ID :CVE-2026-66033\n  \n  Published : July 24, 2026, 5:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :libssh2 through 1.11.1, fixed in commit a2...",
+      "timestamp": 1784913455.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66032 - libssh2 Double-Free Heap Corruption via sftp_open()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66032",
+      "summary": "CVE ID :CVE-2026-66032\n  \n  Published : July 24, 2026, 5:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :libssh2 through 1.11.1, fixed in commit 5e...",
+      "timestamp": 1784913455.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65711 - sysPass 3.2.11 Authenticated OS Command Injection via Backup Path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65711",
+      "summary": "CVE ID :CVE-2026-65711\n  \n  Published : July 24, 2026, 5:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :sysPass through version 3.2.11 contains an...",
+      "timestamp": 1784913454.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65709 - sysPass 3.2.11 Missing Object-Level Authorization via JSON-RPC API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65709",
+      "summary": "CVE ID :CVE-2026-65709\n  \n  Published : July 24, 2026, 5:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :sysPass through version 3.2.11 contains a ...",
+      "timestamp": 1784913454.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65708 - sysPass 3.2.11 Insecure Direct Object Reference via AccountFileController",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65708",
+      "summary": "CVE ID :CVE-2026-65708\n  \n  Published : July 24, 2026, 5:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :sysPass through version 3.2.11 contains an...",
+      "timestamp": 1784913454.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65707 - Likeshop 3.0.5 Authenticated SQL Injection via adjustAccount Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65707",
+      "summary": "CVE ID :CVE-2026-65707\n  \n  Published : July 24, 2026, 5:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Likeshop through 3.0.5 contains an authent...",
+      "timestamp": 1784913454.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65623 - Quadratic CPU blow-up reassembling fragmented WebSocket messages in Bandit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65623",
+      "summary": "CVE ID :CVE-2026-65623\n  \n  Published : July 24, 2026, 5:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Inefficient Algorithmic Complexity vulnera...",
+      "timestamp": 1784913454.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-66027 - Suna < 0.9.102 Broken Access Control via Message Queue API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66027",
-      "summary": "CVE ID :CVE-2026-66027\n  \n  Published : July 24, 2026, 4:16 p.m. | 18\u00a0minutes ago\n  \n  Description :Suna before 0.9.102 contains a broken access contr...",
+      "summary": "CVE ID :CVE-2026-66027\n  \n  Published : July 24, 2026, 4:16 p.m. | 2\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Suna before 0.9.102 contains a broken acc...",
       "timestamp": 1784909815.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +133,7 @@
     {
       "title": "CVE-2026-65693 - Microweber CMS 2.0.20 Server-Side Template Injection via Mail Templates",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65693",
-      "summary": "CVE ID :CVE-2026-65693\n  \n  Published : July 24, 2026, 4:16 p.m. | 18\u00a0minutes ago\n  \n  Description :Microweber CMS through 2.0.20 contains a server-si...",
+      "summary": "CVE ID :CVE-2026-65693\n  \n  Published : July 24, 2026, 4:16 p.m. | 2\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Microweber CMS through 2.0.20 contains a ...",
       "timestamp": 1784909815.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,64 +149,8 @@
     {
       "title": "CVE-2026-8789 - Easy Appointments <= 3.12.27 - Missing Authorization to Authenticated (Contributor+) Arbitrary Connection Deletion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8789",
-      "summary": "CVE ID :CVE-2026-8789\n  \n  Published : July 24, 2026, 3:19 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :The Easy Appointments plugin for WordPress ...",
+      "summary": "CVE ID :CVE-2026-8789\n  \n  Published : July 24, 2026, 3:19 p.m. | 3\u00a0hours, 16\u00a0minutes ago\n  \n  Description :The Easy Appointments plugin for WordPress...",
       "timestamp": 1784906348.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58630 - Azure App Service on Azure Stack Hub Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58630",
-      "summary": "CVE ID :CVE-2026-58630\n  \n  Published : July 24, 2026, 3:18 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Improper access control in Azure App Servi...",
-      "timestamp": 1784906327.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57106 - Data Quality Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57106",
-      "summary": "CVE ID :CVE-2026-57106\n  \n  Published : July 24, 2026, 3:18 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Server-side request forgery (ssrf) in Data...",
-      "timestamp": 1784906319.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56163 - Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56163",
-      "summary": "CVE ID :CVE-2026-56163\n  \n  Published : July 24, 2026, 3:18 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Missing authentication for critical functi...",
-      "timestamp": 1784906313.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55732 - Loytec LINX firmware: Out-of-bounds Read in BACnet packet parsing (bacdt_datetime_to_tod)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55732",
-      "summary": "CVE ID :CVE-2026-55732\n  \n  Published : July 24, 2026, 3:18 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Out-of-bounds Read (CWE-125)\u00a0in BACnet pac...",
-      "timestamp": 1784906311.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55730 - Loytec LWEB802: Reflected Cross-Site Scripting in LWEB802",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55730",
-      "summary": "CVE ID :CVE-2026-55730\n  \n  Published : July 24, 2026, 3:18 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Reflected Cross-Site Scripting (CWE-79) in...",
-      "timestamp": 1784906311.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12504 - Loytec LINX firmware: Improper Authentication in PAM configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12504",
-      "summary": "CVE ID :CVE-2026-12504\n  \n  Published : July 24, 2026, 3:17 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Improper Authentication (CWE-287)\u00a0in the P...",
-      "timestamp": 1784906231.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12503 - Loytec LINX firmware: Improper Link Resolution in /usr/bin/larm_starter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12503",
-      "summary": "CVE ID :CVE-2026-12503\n  \n  Published : July 24, 2026, 3:17 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Improper Link Resolution (CWE-59)\u00a0in `/usr...",
-      "timestamp": 1784906230.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/fake-claude-app-promoted-by-bing-ads-pushes-sectoprat-malware/",
       "summary": "A malvertising campaign on the Bing search service is pushing a fake Claude desktop app installer hosted on a legitimate Claude.ai domain to deliver t...",
       "timestamp": 1784836110.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
-      "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
-      "summary": "CISA is warning that the Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is targeting organizations using Zimbra Coll...",
-      "timestamp": 1784825367.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -291,5 +291,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1784913283.6593874
+  "last_updated": 1784918813.0372155
 }
