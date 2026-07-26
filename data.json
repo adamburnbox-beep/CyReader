@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,40 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-17497 - NoteGen arbitrary OS command execution via Tauri shell:allow-execute for bash/python",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17497",
+      "summary": "CVE ID :CVE-2026-17497\n  \n  Published : July 26, 2026, 3:16 p.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :NoteGen before 0.32.0 grants the Tauri she...",
+      "timestamp": 1785078987.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-17496 - NoteGen chat preview XSS via unsanitized AI/skill HTML rendering",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17496",
+      "summary": "CVE ID :CVE-2026-17496\n  \n  Published : July 26, 2026, 3:16 p.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :NoteGen before 0.32.0 renders AI chat resp...",
+      "timestamp": 1785078987.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "GitHub, PyPI add time-absed defenses against supply chain attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
+      "summary": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-c...",
+      "timestamp": 1785075219.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "CVE-2026-15962 - Fluent Forms Pro Add On Pack <= 6.2.6 - Authenticated (Subscriber+) PHP Object Injection to Arbitrary User Password Change via User Meta Field",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15962",
-      "summary": "CVE ID :CVE-2026-15962\n  \n  Published : July 26, 2026, 2:16 a.m. | 8\u00a0hours, 19\u00a0minutes ago\n  \n  Description :The Fluent Forms Pro Add On Pack plugin f...",
+      "summary": "CVE ID :CVE-2026-15962\n  \n  Published : July 26, 2026, 2:16 a.m. | 16\u00a0hours, 9\u00a0minutes ago\n  \n  Description :The Fluent Forms Pro Add On Pack plugin f...",
       "timestamp": 1785032188.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +117,7 @@
     {
       "title": "CVE-2026-66013 - OpenRemote before 1.26.2 Authentication Bypass via Console Registration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66013",
-      "summary": "CVE ID :CVE-2026-66013\n  \n  Published : July 25, 2026, 11:17 a.m. | 23\u00a0hours, 18\u00a0minutes ago\n  \n  Description :OpenRemote before 1.26.2 contains an au...",
+      "summary": "CVE ID :CVE-2026-66013\n  \n  Published : July 25, 2026, 11:17 a.m. | 1\u00a0day, 7\u00a0hours ago\n  \n  Description :OpenRemote before 1.26.2 contains an authenti...",
       "timestamp": 1784978239.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +125,7 @@
     {
       "title": "CVE-2026-66012 - SiYuan before v3.7.2 Unauthenticated Administrator Takeover via MCP",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66012",
-      "summary": "CVE ID :CVE-2026-66012\n  \n  Published : July 25, 2026, 11:17 a.m. | 23\u00a0hours, 18\u00a0minutes ago\n  \n  Description :SiYuan before v3.7.2 contains a missing...",
+      "summary": "CVE ID :CVE-2026-66012\n  \n  Published : July 25, 2026, 11:17 a.m. | 1\u00a0day, 7\u00a0hours ago\n  \n  Description :SiYuan before v3.7.2 contains a missing autho...",
       "timestamp": 1784978239.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +141,7 @@
     {
       "title": "CVE-2026-10818 - WPForms Pro <= 1.10.1.1 - Unauthenticated Arbitrary File Write via Chunked Upload Init/Finalize Ordering",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10818",
-      "summary": "CVE ID :CVE-2026-10818\n  \n  Published : July 25, 2026, 7:17 a.m. | 1\u00a0day, 3\u00a0hours ago\n  \n  Description :The WPForms Pro plugin for WordPress is vulner...",
+      "summary": "CVE ID :CVE-2026-10818\n  \n  Published : July 25, 2026, 7:17 a.m. | 1\u00a0day, 11\u00a0hours ago\n  \n  Description :The WPForms Pro plugin for WordPress is vulne...",
       "timestamp": 1784963828.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +149,7 @@
     {
       "title": "CVE-2026-66374 - Knot Resolver Heap-Based Buffer Overflow Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66374",
-      "summary": "CVE ID :CVE-2026-66374\n  \n  Published : July 25, 2026, 1:16 a.m. | 1\u00a0day, 9\u00a0hours ago\n  \n  Description :Knot Resolver before 6.4.1 allows remote code ...",
+      "summary": "CVE ID :CVE-2026-66374\n  \n  Published : July 25, 2026, 1:16 a.m. | 1\u00a0day, 17\u00a0hours ago\n  \n  Description :Knot Resolver before 6.4.1 allows remote code...",
       "timestamp": 1784942186.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,7 +157,7 @@
     {
       "title": "CVE-2026-61892 - Weintek cMT3092X Incorrect Permission Assignment for Critical Resource",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61892",
-      "summary": "CVE ID :CVE-2026-61892\n  \n  Published : July 24, 2026, 11:16 p.m. | 1\u00a0day, 11\u00a0hours ago\n  \n  Description :Weintek cMT3092X HMI allows a non-privileged...",
+      "summary": "CVE ID :CVE-2026-61892\n  \n  Published : July 24, 2026, 11:16 p.m. | 1\u00a0day, 19\u00a0hours ago\n  \n  Description :Weintek cMT3092X HMI allows a non-privileged...",
       "timestamp": 1784935011.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -141,7 +165,7 @@
     {
       "title": "CVE-2026-60134 - Weintek cMT3092X Reliance on Cookies without Validation and Integrity Checking in a Security Decision",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-60134",
-      "summary": "CVE ID :CVE-2026-60134\n  \n  Published : July 24, 2026, 11:16 p.m. | 1\u00a0day, 11\u00a0hours ago\n  \n  Description :Weintek cMT3092X HMI allows a non-privileged...",
+      "summary": "CVE ID :CVE-2026-60134\n  \n  Published : July 24, 2026, 11:16 p.m. | 1\u00a0day, 19\u00a0hours ago\n  \n  Description :Weintek cMT3092X HMI allows a non-privileged...",
       "timestamp": 1784935010.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -149,24 +173,8 @@
     {
       "title": "CVE-2026-61884 - Tycon Systems TPDIN-Monitor-WEB2 Authentication Bypass Using an Alternate Path or Channel",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61884",
-      "summary": "CVE ID :CVE-2026-61884\n  \n  Published : July 24, 2026, 10:16 p.m. | 1\u00a0day, 12\u00a0hours ago\n  \n  Description :The web management interface of\u00a0Tycon System...",
+      "summary": "CVE ID :CVE-2026-61884\n  \n  Published : July 24, 2026, 10:16 p.m. | 1\u00a0day, 20\u00a0hours ago\n  \n  Description :The web management interface of\u00a0Tycon System...",
       "timestamp": 1784931410.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66041 - FFmpeg 7.0 - 8.1.2 Heap Out-of-Bounds Write via vf_quirc Filter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66041",
-      "summary": "CVE ID :CVE-2026-66041\n  \n  Published : July 24, 2026, 8:18 p.m. | 1\u00a0day, 14\u00a0hours ago\n  \n  Description :FFmpeg 7.0 through 8.1.2, fixed in commit 4da...",
-      "timestamp": 1784924301.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66040 - FFmpeg Heap Out-of-Bounds Write via PNG/APNG eXIf Encoder",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66040",
-      "summary": "CVE ID :CVE-2026-66040\n  \n  Published : July 24, 2026, 8:18 p.m. | 1\u00a0day, 14\u00a0hours ago\n  \n  Description :FFmpeg through 8.1.2, fixed in commit b506faf...",
-      "timestamp": 1784924301.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
       "summary": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mo...",
       "timestamp": 1784901869.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
-      "link": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
-      "summary": "Slopsquatting, phantom squatting, and HalluSquatting all exploit the same late-binding attack pattern, where AI coding agents trust hallucinated packa...",
-      "timestamp": 1784901671.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -283,5 +283,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1785068113.3056467
+  "last_updated": 1785091282.7753422
 }
