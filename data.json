@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,94 @@
   ],
   "articles": [
     {
+      "title": "Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin",
+      "link": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
+      "summary": "Apple is being sued by three\u00a0people who claim approximately $1.8 million in Bitcoin was stolen after downloading and using a fraudulent Sparrow Wallet...",
+      "timestamp": 1785173347.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-66399 - phpMyFAQ before 4.1.6 Privilege Escalation via Group Membership",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66399",
+      "summary": "CVE ID :CVE-2026-66399\n  \n  Published : July 27, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :phpMyFAQ before 4.1.6 contains a privilege escalat...",
+      "timestamp": 1785169092.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66398 - phpMyFAQ before 4.1.6 Remote Code Execution via Configuration API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66398",
+      "summary": "CVE ID :CVE-2026-66398\n  \n  Published : July 27, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :phpMyFAQ before v4.1.6 contains a remote code exec...",
+      "timestamp": 1785169092.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66397 - phpMyFAQ before 4.1.6 Path Traversal via category image deletion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66397",
+      "summary": "CVE ID :CVE-2026-66397\n  \n  Published : July 27, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :phpMyFAQ before 4.1.6 fails to validate path trave...",
+      "timestamp": 1785169092.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66396 - SiYuan before v3.7.2 Stored XSS to RCE via title-img IAL",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66396",
+      "summary": "CVE ID :CVE-2026-66396\n  \n  Published : July 27, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :SiYuan before v3.7.2 fails to escape the title-img...",
+      "timestamp": 1785169092.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66395 - SiYuan Desktop before v3.7.2 Reflected XSS to RCE via siyuan Protocol",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66395",
+      "summary": "CVE ID :CVE-2026-66395\n  \n  Published : July 27, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :SiYuan desktop before v3.7.2 contains a reflected ...",
+      "timestamp": 1785169092.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66394 - SiYuan before v3.7.3 Stored and Reflected XSS via SVG Sanitizer Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66394",
+      "summary": "CVE ID :CVE-2026-66394\n  \n  Published : July 27, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :SiYuan before v3.7.3 contains stored and reflected...",
+      "timestamp": 1785169091.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59251 - Denial of service via exponential certificate policy tree growth in path validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59251",
+      "summary": "CVE ID :CVE-2026-59251\n  \n  Published : July 27, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Allocation of resources without limits in Erlang/O...",
+      "timestamp": 1785169083.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59250 - Megaco flex scanner buffer overflow via oversized property parm name",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59250",
+      "summary": "CVE ID :CVE-2026-59250\n  \n  Published : July 27, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Classic buffer overflow in the Erlang/OTP megaco f...",
+      "timestamp": 1785169083.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58227 - TLS/DTLS denial of service via unbounded recursion on cross-signed peer certificate chain",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58227",
+      "summary": "CVE ID :CVE-2026-58227\n  \n  Published : July 27, 2026, 4:17 p.m. | 12\u00a0minutes ago\n  \n  Description :The Erlang/OTP ssl application does not detect cyc...",
+      "timestamp": 1785169076.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55953 - TLS 1.2 and DTLS client accepts unoffered anonymous cipher suite, bypassing server authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55953",
+      "summary": "CVE ID :CVE-2026-55953\n  \n  Published : July 27, 2026, 4:17 p.m. | 12\u00a0minutes ago\n  \n  Description :The Erlang/OTP ssl TLS 1.2 (and earlier) and DTLS ...",
+      "timestamp": 1785169069.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
       "link": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
       "summary": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]",
@@ -75,92 +163,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-66050 - NitroShare Desktop 0.3.4 Path Traversal via LAN File Transfer Server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66050",
-      "summary": "CVE ID :CVE-2026-66050\n  \n  Published : July 27, 2026, 2:19 p.m. | 50\u00a0minutes ago\n  \n  Description :NitroShare Desktop through 0.3.4 contains a path t...",
-      "timestamp": 1785161950.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65878 - Joomla Extension - joomshaper.com - Authenticated arbitrary file delete in SP Page Builder < 6.7.1",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65878",
-      "summary": "CVE ID :CVE-2026-65878\n  \n  Published : July 27, 2026, 2:17 p.m. | 52\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - Authenticated ...",
-      "timestamp": 1785161820.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65877 - Joomla Extension - joomshaper.com - Authenticated SQL injection  in SP Page Builder < 6.7.1",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65877",
-      "summary": "CVE ID :CVE-2026-65877\n  \n  Published : July 27, 2026, 2:17 p.m. | 52\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - Authenticated ...",
-      "timestamp": 1785161820.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65876 - Joomla Extension - joomshaper.com - Unauthenticated SQL injection  in SP Page Builder < 6.7.1",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65876",
-      "summary": "CVE ID :CVE-2026-65876\n  \n  Published : July 27, 2026, 2:17 p.m. | 52\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - Unauthenticate...",
-      "timestamp": 1785161820.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65766 - Joomla Extension - joomshaper.com - Unauthenticated SQL injection  in SP Page Builder < 6.7.1",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65766",
-      "summary": "CVE ID :CVE-2026-65766\n  \n  Published : July 27, 2026, 2:17 p.m. | 52\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - Unauthenticate...",
-      "timestamp": 1785161820.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61511 - vBulletin < 6.2.2 Eval Injection RCE via vb5/template/runtime.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61511",
-      "summary": "CVE ID :CVE-2026-61511\n  \n  Published : July 27, 2026, 2:16 p.m. | 52\u00a0minutes ago\n  \n  Description :vBulletin 5.x through 5.7.5 and 6.x through 6.2.1 ...",
-      "timestamp": 1785161819.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-59172 - Improper Neutralization of Special Elements used in an OS Command Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-59172",
-      "summary": "CVE ID :CVE-2025-59172\n  \n  Published : July 27, 2026, 2:03 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :Ericsson Packet Core Controller (PCC) versi...",
-      "timestamp": 1785160994.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Shadow AI agents are multiplying. Here's how to find and secure them.",
       "link": "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
       "summary": "Shadow AI agents are rapidly spreading across enterprise platforms, often without IT or security visibility. Nudge Security explains how organizations...",
       "timestamp": 1785160871.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-59551 - WordPress rtMedia for WordPress, BuddyPress and bbPress plugin <= 4.7.10 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59551",
-      "summary": "CVE ID :CVE-2026-59551\n  \n  Published : July 27, 2026, 1:59 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :Subscriber SQL Injection in rtMedia for Wo...",
-      "timestamp": 1785160751.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59550 - WordPress AWP Classifieds plugin <= 4.4.7 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59550",
-      "summary": "CVE ID :CVE-2026-59550\n  \n  Published : July 27, 2026, 1:59 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in AWP Class...",
-      "timestamp": 1785160750.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59549 - WordPress rtMedia for WordPress, BuddyPress and bbPress plugin <= 4.7.10 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59549",
-      "summary": "CVE ID :CVE-2026-59549\n  \n  Published : July 27, 2026, 1:59 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in rtMedia f...",
-      "timestamp": 1785160750.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
       "summary": "OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its custom...",
       "timestamp": 1784922901.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
-      "link": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
-      "summary": "A threat actor used the open-source Hermes AI agent in unattended \"YOLO\" mode to automate post-exploitation activity during an alleged breach of Thail...",
-      "timestamp": 1784920149.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785170046.0349455
+  "last_updated": 1785176008.8236167
 }
