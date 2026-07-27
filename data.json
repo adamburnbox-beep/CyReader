@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,28 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 9,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-55685 - React Router: Unauthenticated Denial of Service via Inefficient Route Matching",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55685",
+      "summary": "CVE ID :CVE-2026-55685\n  \n  Published : July 27, 2026, 10:17 p.m. | 12\u00a0minutes ago\n  \n  Description :React Router is a router for React. In versions 7...",
+      "timestamp": 1785190660.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66824 - Stored Cross-Site Scripting via Unsafe Capture Tree JSON Embedding",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66824",
+      "summary": "CVE ID :CVE-2026-66824\n  \n  Published : July 27, 2026, 9:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :A stored cross-site scripting vulnerabilit...",
+      "timestamp": 1785187037.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
       "link": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
@@ -75,82 +91,66 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-65617 - Potential remote code execution on an Artifactory package service container.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65617",
-      "summary": "CVE ID :CVE-2026-65617\n  \n  Published : July 27, 2026, 7:37 p.m. | 40\u00a0minutes ago\n  \n  Description :A deserialization weakness in JFrog Artifactory pa...",
-      "timestamp": 1785181047.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65616 - Potential privilege escalation to JFrog administrator privileges",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65616",
-      "summary": "CVE ID :CVE-2026-65616\n  \n  Published : July 27, 2026, 7:34 p.m. | 43\u00a0minutes ago\n  \n  Description :Incorrect authorization validation in refresh toke...",
-      "timestamp": 1785180857.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-66014 - Potential authentication bypass leading to privilege escalation in Artifactory",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66014",
-      "summary": "CVE ID :CVE-2026-66014\n  \n  Published : July 27, 2026, 7:29 p.m. | 47\u00a0minutes ago\n  \n  Description :JFrog Artifactory contains an authentication handl...",
-      "timestamp": 1785180587.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56748 - Authenticated RCE via Symlink Following in Cribl Stream Pack Git Import",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56748",
-      "summary": "CVE ID :CVE-2026-56748\n  \n  Published : July 27, 2026, 7:27 p.m. | 50\u00a0minutes ago\n  \n  Description :Improper validation of symbolic links in the Pack ...",
-      "timestamp": 1785180451.0,
+      "summary": "CVE ID :CVE-2026-66014\n  \n  Published : July 27, 2026, 8:16 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :JFrog Artifactory contains an authenticat...",
+      "timestamp": 1785183401.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-65921 - Potential path traversal leading to unauthorized file writes",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65921",
-      "summary": "CVE ID :CVE-2026-65921\n  \n  Published : July 27, 2026, 7:27 p.m. | 50\u00a0minutes ago\n  \n  Description :A path validation weakness in archive extraction/w...",
-      "timestamp": 1785180451.0,
+      "summary": "CVE ID :CVE-2026-65921\n  \n  Published : July 27, 2026, 8:16 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :A path validation weakness in archive ext...",
+      "timestamp": 1785183401.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-42017 - Privilege escalation via JFrog Worker event token exposure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42017",
-      "summary": "CVE ID :CVE-2026-42017\n  \n  Published : July 27, 2026, 7:26 p.m. | 51\u00a0minutes ago\n  \n  Description :An event-handling weakness in JFrog Artifactory co...",
-      "timestamp": 1785180383.0,
+      "title": "CVE-2026-65617 - Potential remote code execution on an Artifactory package service container.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65617",
+      "summary": "CVE ID :CVE-2026-65617\n  \n  Published : July 27, 2026, 8:16 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :A deserialization weakness in JFrog Artif...",
+      "timestamp": 1785183400.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65616 - Potential privilege escalation to JFrog administrator privileges",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65616",
+      "summary": "CVE ID :CVE-2026-65616\n  \n  Published : July 27, 2026, 8:16 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Incorrect authorization validation in ref...",
+      "timestamp": 1785183400.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-64649 - Next.js: Server-Side Request Forgery in Server Actions on Custom Servers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64649",
+      "summary": "CVE ID :CVE-2026-64649\n  \n  Published : July 27, 2026, 8:16 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Next.js is a React framework for building...",
+      "timestamp": 1785183400.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56748 - Authenticated RCE via Symlink Following in Cribl Stream Pack Git Import",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56748",
+      "summary": "CVE ID :CVE-2026-56748\n  \n  Published : July 27, 2026, 8:16 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Improper validation of symbolic links in ...",
+      "timestamp": 1785183400.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-56747 - Code Injection in JSON Pointer Processing Component in Cribl Stream",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-56747",
-      "summary": "CVE ID :CVE-2026-56747\n  \n  Published : July 27, 2026, 7:22 p.m. | 55\u00a0minutes ago\n  \n  Description :Improper control of generation of code in the JSON...",
-      "timestamp": 1785180132.0,
+      "summary": "CVE ID :CVE-2026-56747\n  \n  Published : July 27, 2026, 8:16 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Improper control of generation of code in...",
+      "timestamp": 1785183399.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-42016 - Incorrect authorization validation of user token in JFrog Artifactory allows Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42016",
-      "summary": "CVE ID :CVE-2026-42016\n  \n  Published : July 27, 2026, 7:20 p.m. | 56\u00a0minutes ago\n  \n  Description :JFrog Artifactory (Self Hosted) versions before 7....",
-      "timestamp": 1785180056.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16481 - Server-Side Request Forgery (SSRF) and Credential Exfiltration in googleapis/mcp-toolbox cloud-healthcare-fhir-fetch-page Tool",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16481",
-      "summary": "CVE ID :CVE-2026-16481\n  \n  Published : July 27, 2026, 7:17 p.m. | 1\u00a0hour ago\n  \n  Description :A Server-Side Request Forgery (SSRF) and credential ex...",
-      "timestamp": 1785179834.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-64645 - Next.js: Server-Side Request Forgery in rewrites via attacker-controlled destination hostname",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64645",
-      "summary": "CVE ID :CVE-2026-64645\n  \n  Published : July 27, 2026, 6:16 p.m. | 2\u00a0hours ago\n  \n  Description :Next.js is a React framework for building full-stack ...",
-      "timestamp": 1785176219.0,
+      "title": "CVE-2026-42017 - Privilege escalation via JFrog Worker event token exposure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42017",
+      "summary": "CVE ID :CVE-2026-42017\n  \n  Published : July 27, 2026, 8:16 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :An event-handling weakness in JFrog Artif...",
+      "timestamp": 1785183399.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785187466.7648075
+  "last_updated": 1785192213.1991637
 }
