@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,82 +59,106 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-58662 - Apache Thrift: C++ THeaderTransport::readString() info-header length bounds bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58662",
-      "summary": "CVE ID :CVE-2026-58662\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Improper Validation of Specified Quantity in Inpu...",
-      "timestamp": 1785154606.0,
+      "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
+      "link": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
+      "summary": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]",
+      "timestamp": 1785166791.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
+      "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
+      "summary": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some...",
+      "timestamp": 1785165147.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-66050 - NitroShare Desktop 0.3.4 Path Traversal via LAN File Transfer Server",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66050",
+      "summary": "CVE ID :CVE-2026-66050\n  \n  Published : July 27, 2026, 2:19 p.m. | 50\u00a0minutes ago\n  \n  Description :NitroShare Desktop through 0.3.4 contains a path t...",
+      "timestamp": 1785161950.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-58389 - Apache Thrift: Rust binary protocol non-strict path missing string size limit",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58389",
-      "summary": "CVE ID :CVE-2026-58389\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Allocation of Resources Without Limits or Throttl...",
-      "timestamp": 1785154606.0,
+      "title": "CVE-2026-65878 - Joomla Extension - joomshaper.com - Authenticated arbitrary file delete in SP Page Builder < 6.7.1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65878",
+      "summary": "CVE ID :CVE-2026-65878\n  \n  Published : July 27, 2026, 2:17 p.m. | 52\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - Authenticated ...",
+      "timestamp": 1785161820.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-55971 - Apache Thrift: C++ ZLIB heap buffer overflow (write) in THeaderTransport::untransform()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55971",
-      "summary": "CVE ID :CVE-2026-55971\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Heap-based Buffer Overflow vulnerability in Apach...",
-      "timestamp": 1785154606.0,
+      "title": "CVE-2026-65877 - Joomla Extension - joomshaper.com - Authenticated SQL injection  in SP Page Builder < 6.7.1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65877",
+      "summary": "CVE ID :CVE-2026-65877\n  \n  Published : July 27, 2026, 2:17 p.m. | 52\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - Authenticated ...",
+      "timestamp": 1785161820.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-55969 - Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: integer overflow in TProtocol::checkReadBytesAvailable()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55969",
-      "summary": "CVE ID :CVE-2026-55969\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Integer Overflow or Wraparound vulnerability in A...",
-      "timestamp": 1785154605.0,
+      "title": "CVE-2026-65876 - Joomla Extension - joomshaper.com - Unauthenticated SQL injection  in SP Page Builder < 6.7.1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65876",
+      "summary": "CVE ID :CVE-2026-65876\n  \n  Published : July 27, 2026, 2:17 p.m. | 52\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - Unauthenticate...",
+      "timestamp": 1785161820.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-55968 - Apache Thrift: Node.js quadratic-time DoS in server receive transports",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55968",
-      "summary": "CVE ID :CVE-2026-55968\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Inefficient Algorithmic Complexity, Allocation of...",
-      "timestamp": 1785154605.0,
+      "title": "CVE-2026-65766 - Joomla Extension - joomshaper.com - Unauthenticated SQL injection  in SP Page Builder < 6.7.1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65766",
+      "summary": "CVE ID :CVE-2026-65766\n  \n  Published : July 27, 2026, 2:17 p.m. | 52\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - Unauthenticate...",
+      "timestamp": 1785161820.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-48586 - Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: TZlibTransport Decompression Size Limit",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48586",
-      "summary": "CVE ID :CVE-2026-48586\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Improper Handling of Highly Compressed Data (Data...",
-      "timestamp": 1785154604.0,
+      "title": "CVE-2026-61511 - vBulletin < 6.2.2 Eval Injection RCE via vb5/template/runtime.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61511",
+      "summary": "CVE ID :CVE-2026-61511\n  \n  Published : July 27, 2026, 2:16 p.m. | 52\u00a0minutes ago\n  \n  Description :vBulletin 5.x through 5.7.5 and 6.x through 6.2.1 ...",
+      "timestamp": 1785161819.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-48145 - Apache Thrift: C++ TSSLSocket matchName() RFC 6125 Wildcard Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48145",
-      "summary": "CVE ID :CVE-2026-48145\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Improper Validation of Certificate with Host Mism...",
-      "timestamp": 1785154604.0,
+      "title": "CVE-2025-59172 - Improper Neutralization of Special Elements used in an OS Command Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-59172",
+      "summary": "CVE ID :CVE-2025-59172\n  \n  Published : July 27, 2026, 2:03 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :Ericsson Packet Core Controller (PCC) versi...",
+      "timestamp": 1785160994.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-48144 - Apache Thrift: c_glib TLS Client Missing Hostname Verification",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48144",
-      "summary": "CVE ID :CVE-2026-48144\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Improper Validation of Certificate with Host Mism...",
-      "timestamp": 1785154604.0,
+      "title": "Shadow AI agents are multiplying. Here's how to find and secure them.",
+      "link": "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
+      "summary": "Shadow AI agents are rapidly spreading across enterprise platforms, often without IT or security visibility. Nudge Security explains how organizations...",
+      "timestamp": 1785160871.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-59551 - WordPress rtMedia for WordPress, BuddyPress and bbPress plugin <= 4.7.10 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59551",
+      "summary": "CVE ID :CVE-2026-59551\n  \n  Published : July 27, 2026, 1:59 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :Subscriber SQL Injection in rtMedia for Wo...",
+      "timestamp": 1785160751.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-43871 - Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: TCompactProtocol varint byte-count limit",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43871",
-      "summary": "CVE ID :CVE-2026-43871\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Loop with Unreachable Exit Condition ('Infinite L...",
-      "timestamp": 1785154604.0,
+      "title": "CVE-2026-59550 - WordPress AWP Classifieds plugin <= 4.4.7 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59550",
+      "summary": "CVE ID :CVE-2026-59550\n  \n  Published : July 27, 2026, 1:59 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in AWP Class...",
+      "timestamp": 1785160750.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12495 - Stack-Based Buffer Overflow in the Mercusys MB115-4G",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12495",
-      "summary": "CVE ID :CVE-2026-12495\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Denial-of-service (DoS) vulnerability due to a st...",
-      "timestamp": 1785154601.0,
+      "title": "CVE-2026-59549 - WordPress rtMedia for WordPress, BuddyPress and bbPress plugin <= 4.7.10 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59549",
+      "summary": "CVE ID :CVE-2026-59549\n  \n  Published : July 27, 2026, 1:59 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in rtMedia f...",
+      "timestamp": 1785160750.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -195,30 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
-      "summary": "Hackers are changing the DNS settings on Wi-Fi devices at hotels and conference centers to redirect users to fake Microsoft 365 login pages. [...]",
-      "timestamp": 1784915437.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
-      "summary": "Microsoft says a bug in its automated network maintenance request system caused Thursday's massive outage by mistakenly removing IP routes from more d...",
-      "timestamp": 1784907704.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Chick-fil-A data breach affects more than 13,000 customers",
-      "link": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/",
-      "summary": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mo...",
-      "timestamp": 1784901869.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an alw...",
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785160779.6768968
+  "last_updated": 1785170046.0349455
 }
