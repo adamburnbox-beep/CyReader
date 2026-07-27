@@ -10,7 +10,7 @@
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 8,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,24 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 5,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-65894 - Improper Authentication Vulnerability in CP PLUS EZ-P21 IP Camera",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65894",
+      "summary": "CVE ID :CVE-2026-65894\n  \n  Published : July 27, 2026, 8:16 a.m. | 2\u00a0hours, 52\u00a0minutes ago\n  \n  Description :This vulnerability exists in CP PLUS EZ-P...",
+      "timestamp": 1785140183.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-15928 - XMLRPC-C Library Reflected Cross-Site Scripting Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15928",
-      "summary": "CVE ID :CVE-2026-15928\n  \n  Published : July 27, 2026, 3:16 a.m. | 3\u00a0hours, 51\u00a0minutes ago\n  \n  Description :XMLRPC-C Library versions 1.07 through 1....",
+      "summary": "CVE ID :CVE-2026-15928\n  \n  Published : July 27, 2026, 3:16 a.m. | 7\u00a0hours, 52\u00a0minutes ago\n  \n  Description :XMLRPC-C Library versions 1.07 through 1....",
       "timestamp": 1785122178.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +77,7 @@
     {
       "title": "CVE-2026-17497 - NoteGen arbitrary OS command execution via Tauri shell:allow-execute for bash/python",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-17497",
-      "summary": "CVE ID :CVE-2026-17497\n  \n  Published : July 26, 2026, 3:16 p.m. | 15\u00a0hours, 51\u00a0minutes ago\n  \n  Description :NoteGen before 0.32.0 grants the Tauri s...",
+      "summary": "CVE ID :CVE-2026-17497\n  \n  Published : July 26, 2026, 3:16 p.m. | 19\u00a0hours, 52\u00a0minutes ago\n  \n  Description :NoteGen before 0.32.0 grants the Tauri s...",
       "timestamp": 1785078987.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +85,7 @@
     {
       "title": "CVE-2026-17496 - NoteGen chat preview XSS via unsanitized AI/skill HTML rendering",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-17496",
-      "summary": "CVE ID :CVE-2026-17496\n  \n  Published : July 26, 2026, 3:16 p.m. | 15\u00a0hours, 51\u00a0minutes ago\n  \n  Description :NoteGen before 0.32.0 renders AI chat re...",
+      "summary": "CVE ID :CVE-2026-17496\n  \n  Published : July 26, 2026, 3:16 p.m. | 19\u00a0hours, 52\u00a0minutes ago\n  \n  Description :NoteGen before 0.32.0 renders AI chat re...",
       "timestamp": 1785078987.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +101,7 @@
     {
       "title": "CVE-2026-64530 - net/sched: cls_api: Handle TC_ACT_CONSUMED in tcf_qevent_handle",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64530",
-      "summary": "CVE ID :CVE-2026-64530\n  \n  Published : July 26, 2026, 7:16 a.m. | 23\u00a0hours, 51\u00a0minutes ago\n  \n  Description :In the Linux kernel, the following vulne...",
+      "summary": "CVE ID :CVE-2026-64530\n  \n  Published : July 26, 2026, 7:16 a.m. | 1\u00a0day, 3\u00a0hours ago\n  \n  Description :In the Linux kernel, the following vulnerabili...",
       "timestamp": 1785050201.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +109,7 @@
     {
       "title": "CVE-2026-15962 - Fluent Forms Pro Add On Pack <= 6.2.6 - Authenticated (Subscriber+) PHP Object Injection to Arbitrary User Password Change via User Meta Field",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15962",
-      "summary": "CVE ID :CVE-2026-15962\n  \n  Published : July 26, 2026, 2:16 a.m. | 1\u00a0day, 4\u00a0hours ago\n  \n  Description :The Fluent Forms Pro Add On Pack plugin for Wo...",
+      "summary": "CVE ID :CVE-2026-15962\n  \n  Published : July 26, 2026, 2:16 a.m. | 1\u00a0day, 8\u00a0hours ago\n  \n  Description :The Fluent Forms Pro Add On Pack plugin for Wo...",
       "timestamp": 1785032188.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,7 +141,7 @@
     {
       "title": "CVE-2026-66013 - OpenRemote before 1.26.2 Authentication Bypass via Console Registration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66013",
-      "summary": "CVE ID :CVE-2026-66013\n  \n  Published : July 25, 2026, 11:17 a.m. | 1\u00a0day, 19\u00a0hours ago\n  \n  Description :OpenRemote before 1.26.2 contains an authent...",
+      "summary": "CVE ID :CVE-2026-66013\n  \n  Published : July 25, 2026, 11:17 a.m. | 1\u00a0day, 23\u00a0hours ago\n  \n  Description :OpenRemote before 1.26.2 contains an authent...",
       "timestamp": 1784978239.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -141,7 +149,7 @@
     {
       "title": "CVE-2026-66012 - SiYuan before v3.7.2 Unauthenticated Administrator Takeover via MCP",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66012",
-      "summary": "CVE ID :CVE-2026-66012\n  \n  Published : July 25, 2026, 11:17 a.m. | 1\u00a0day, 19\u00a0hours ago\n  \n  Description :SiYuan before v3.7.2 contains a missing auth...",
+      "summary": "CVE ID :CVE-2026-66012\n  \n  Published : July 25, 2026, 11:17 a.m. | 1\u00a0day, 23\u00a0hours ago\n  \n  Description :SiYuan before v3.7.2 contains a missing auth...",
       "timestamp": 1784978239.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -149,7 +157,7 @@
     {
       "title": "CVE-2026-64523 - net/handshake: Take a long-lived file reference at submit",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64523",
-      "summary": "CVE ID :CVE-2026-64523\n  \n  Published : July 25, 2026, 10:17 a.m. | 1\u00a0day, 20\u00a0hours ago\n  \n  Description :In the Linux kernel, the following vulnerabi...",
+      "summary": "CVE ID :CVE-2026-64523\n  \n  Published : July 25, 2026, 10:17 a.m. | 2\u00a0days ago\n  \n  Description :In the Linux kernel, the following vulnerability has ...",
       "timestamp": 1784974658.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -157,15 +165,7 @@
     {
       "title": "CVE-2026-64522 - net/mlx5e: Fix eswitch mode block underflow on IPsec acquire SA",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64522",
-      "summary": "CVE ID :CVE-2026-64522\n  \n  Published : July 25, 2026, 10:17 a.m. | 1\u00a0day, 20\u00a0hours ago\n  \n  Description :In the Linux kernel, the following vulnerabi...",
-      "timestamp": 1784974658.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-64520 - firmware: arm_ffa: Bound PARTITION_INFO_GET_REGS copies",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64520",
-      "summary": "CVE ID :CVE-2026-64520\n  \n  Published : July 25, 2026, 10:17 a.m. | 1\u00a0day, 20\u00a0hours ago\n  \n  Description :In the Linux kernel, the following vulnerabi...",
+      "summary": "CVE ID :CVE-2026-64522\n  \n  Published : July 25, 2026, 10:17 a.m. | 2\u00a0days ago\n  \n  Description :In the Linux kernel, the following vulnerability has ...",
       "timestamp": 1784974658.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785138452.7365618
+  "last_updated": 1785152409.226675
 }
