@@ -52,41 +52,89 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-65894 - Improper Authentication Vulnerability in CP PLUS EZ-P21 IP Camera",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65894",
-      "summary": "CVE ID :CVE-2026-65894\n  \n  Published : July 27, 2026, 8:16 a.m. | 2\u00a0hours, 52\u00a0minutes ago\n  \n  Description :This vulnerability exists in CP PLUS EZ-P...",
-      "timestamp": 1785140183.0,
+      "title": "CVE-2026-58662 - Apache Thrift: C++ THeaderTransport::readString() info-header length bounds bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58662",
+      "summary": "CVE ID :CVE-2026-58662\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Improper Validation of Specified Quantity in Inpu...",
+      "timestamp": 1785154606.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-15928 - XMLRPC-C Library Reflected Cross-Site Scripting Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15928",
-      "summary": "CVE ID :CVE-2026-15928\n  \n  Published : July 27, 2026, 3:16 a.m. | 7\u00a0hours, 52\u00a0minutes ago\n  \n  Description :XMLRPC-C Library versions 1.07 through 1....",
-      "timestamp": 1785122178.0,
+      "title": "CVE-2026-58389 - Apache Thrift: Rust binary protocol non-strict path missing string size limit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58389",
+      "summary": "CVE ID :CVE-2026-58389\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Allocation of Resources Without Limits or Throttl...",
+      "timestamp": 1785154606.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-17497 - NoteGen arbitrary OS command execution via Tauri shell:allow-execute for bash/python",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17497",
-      "summary": "CVE ID :CVE-2026-17497\n  \n  Published : July 26, 2026, 3:16 p.m. | 19\u00a0hours, 52\u00a0minutes ago\n  \n  Description :NoteGen before 0.32.0 grants the Tauri s...",
-      "timestamp": 1785078987.0,
+      "title": "CVE-2026-55971 - Apache Thrift: C++ ZLIB heap buffer overflow (write) in THeaderTransport::untransform()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55971",
+      "summary": "CVE ID :CVE-2026-55971\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Heap-based Buffer Overflow vulnerability in Apach...",
+      "timestamp": 1785154606.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-17496 - NoteGen chat preview XSS via unsanitized AI/skill HTML rendering",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17496",
-      "summary": "CVE ID :CVE-2026-17496\n  \n  Published : July 26, 2026, 3:16 p.m. | 19\u00a0hours, 52\u00a0minutes ago\n  \n  Description :NoteGen before 0.32.0 renders AI chat re...",
-      "timestamp": 1785078987.0,
+      "title": "CVE-2026-55969 - Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: integer overflow in TProtocol::checkReadBytesAvailable()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55969",
+      "summary": "CVE ID :CVE-2026-55969\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Integer Overflow or Wraparound vulnerability in A...",
+      "timestamp": 1785154605.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55968 - Apache Thrift: Node.js quadratic-time DoS in server receive transports",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55968",
+      "summary": "CVE ID :CVE-2026-55968\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Inefficient Algorithmic Complexity, Allocation of...",
+      "timestamp": 1785154605.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48586 - Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: TZlibTransport Decompression Size Limit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48586",
+      "summary": "CVE ID :CVE-2026-48586\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Improper Handling of Highly Compressed Data (Data...",
+      "timestamp": 1785154604.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48145 - Apache Thrift: C++ TSSLSocket matchName() RFC 6125 Wildcard Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48145",
+      "summary": "CVE ID :CVE-2026-48145\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Improper Validation of Certificate with Host Mism...",
+      "timestamp": 1785154604.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48144 - Apache Thrift: c_glib TLS Client Missing Hostname Verification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48144",
+      "summary": "CVE ID :CVE-2026-48144\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Improper Validation of Certificate with Host Mism...",
+      "timestamp": 1785154604.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-43871 - Apache Thrift, Apache Thrift, Apache Thrift, Apache Thrift: TCompactProtocol varint byte-count limit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43871",
+      "summary": "CVE ID :CVE-2026-43871\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Loop with Unreachable Exit Condition ('Infinite L...",
+      "timestamp": 1785154604.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12495 - Stack-Based Buffer Overflow in the Mercusys MB115-4G",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12495",
+      "summary": "CVE ID :CVE-2026-12495\n  \n  Published : July 27, 2026, 12:16 p.m. | 15\u00a0minutes ago\n  \n  Description :Denial-of-service (DoS) vulnerability due to a st...",
+      "timestamp": 1785154601.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -97,22 +145,6 @@
       "timestamp": 1785075219.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-64530 - net/sched: cls_api: Handle TC_ACT_CONSUMED in tcf_qevent_handle",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64530",
-      "summary": "CVE ID :CVE-2026-64530\n  \n  Published : July 26, 2026, 7:16 a.m. | 1\u00a0day, 3\u00a0hours ago\n  \n  Description :In the Linux kernel, the following vulnerabili...",
-      "timestamp": 1785050201.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-15962 - Fluent Forms Pro Add On Pack <= 6.2.6 - Authenticated (Subscriber+) PHP Object Injection to Arbitrary User Password Change via User Meta Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15962",
-      "summary": "CVE ID :CVE-2026-15962\n  \n  Published : July 26, 2026, 2:16 a.m. | 1\u00a0day, 8\u00a0hours ago\n  \n  Description :The Fluent Forms Pro Add On Pack plugin for Wo...",
-      "timestamp": 1785032188.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
@@ -137,38 +169,6 @@
       "timestamp": 1784988986.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-66013 - OpenRemote before 1.26.2 Authentication Bypass via Console Registration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66013",
-      "summary": "CVE ID :CVE-2026-66013\n  \n  Published : July 25, 2026, 11:17 a.m. | 1\u00a0day, 23\u00a0hours ago\n  \n  Description :OpenRemote before 1.26.2 contains an authent...",
-      "timestamp": 1784978239.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66012 - SiYuan before v3.7.2 Unauthenticated Administrator Takeover via MCP",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66012",
-      "summary": "CVE ID :CVE-2026-66012\n  \n  Published : July 25, 2026, 11:17 a.m. | 1\u00a0day, 23\u00a0hours ago\n  \n  Description :SiYuan before v3.7.2 contains a missing auth...",
-      "timestamp": 1784978239.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-64523 - net/handshake: Take a long-lived file reference at submit",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64523",
-      "summary": "CVE ID :CVE-2026-64523\n  \n  Published : July 25, 2026, 10:17 a.m. | 2\u00a0days ago\n  \n  Description :In the Linux kernel, the following vulnerability has ...",
-      "timestamp": 1784974658.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-64522 - net/mlx5e: Fix eswitch mode block underflow on IPsec acquire SA",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64522",
-      "summary": "CVE ID :CVE-2026-64522\n  \n  Published : July 25, 2026, 10:17 a.m. | 2\u00a0days ago\n  \n  Description :In the Linux kernel, the following vulnerability has ...",
-      "timestamp": 1784974658.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "OpenAI confirms ChatGPT is down worldwide",
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785152409.226675
+  "last_updated": 1785160779.6768968
 }
