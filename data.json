@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,70 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-64645 - Next.js: Server-Side Request Forgery in rewrites via attacker-controlled destination hostname",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64645",
+      "summary": "CVE ID :CVE-2026-64645\n  \n  Published : July 27, 2026, 6:16 p.m. | 20\u00a0minutes ago\n  \n  Description :Next.js is a React framework for building full-sta...",
+      "timestamp": 1785176219.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-64642 - Next.js: Middleware / Proxy bypass in App Router applications using Turbopack and single locale",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64642",
+      "summary": "CVE ID :CVE-2026-64642\n  \n  Published : July 27, 2026, 6:16 p.m. | 20\u00a0minutes ago\n  \n  Description :Next.js is a React framework for building full-sta...",
+      "timestamp": 1785176219.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-64641 - Next.js: Denial of Service in App Router using Server Actions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64641",
+      "summary": "CVE ID :CVE-2026-64641\n  \n  Published : July 27, 2026, 6:16 p.m. | 20\u00a0minutes ago\n  \n  Description :Next.js is a React framework for building full-sta...",
+      "timestamp": 1785176218.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59239 - Stored XSS in Prospero Flow CRM email body allows administrator account takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59239",
+      "summary": "CVE ID :CVE-2026-59239\n  \n  Published : July 27, 2026, 6:16 p.m. | 20\u00a0minutes ago\n  \n  Description :Stored Cross-site Scripting (CWE-79) in the email ...",
+      "timestamp": 1785176217.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55579 - Pheditor: Hardcoded default password 'admin' with no forced change enables full application compromise",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55579",
+      "summary": "CVE ID :CVE-2026-55579\n  \n  Published : July 27, 2026, 6:16 p.m. | 20\u00a0minutes ago\n  \n  Description :Pheditor is a single-file editor and file manager ...",
+      "timestamp": 1785176216.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55578 - Pheditor: Incomplete command sanitization in terminal feature allows RCE via pipe operator, backtick substitution, and newline injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55578",
+      "summary": "CVE ID :CVE-2026-55578\n  \n  Published : July 27, 2026, 6:16 p.m. | 20\u00a0minutes ago\n  \n  Description :Pheditor is a single-file editor and file manager ...",
+      "timestamp": 1785176216.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54540 - Authenticated terminal command whitelist bypass in Pheditor",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54540",
+      "summary": "CVE ID :CVE-2026-54540\n  \n  Published : July 27, 2026, 6:16 p.m. | 20\u00a0minutes ago\n  \n  Description :Pheditor is a single-file editor and file manager ...",
+      "timestamp": 1785176216.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48030 - Pheditor: OS Command Injection in terminal handler via unsanitized 'dir' parameter (CWE-78)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48030",
+      "summary": "CVE ID :CVE-2026-48030\n  \n  Published : July 27, 2026, 6:16 p.m. | 20\u00a0minutes ago\n  \n  Description :Pheditor is a single-file editor and file manager ...",
+      "timestamp": 1785176215.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin",
       "link": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
       "summary": "Apple is being sued by three\u00a0people who claim approximately $1.8 million in Bitcoin was stolen after downloading and using a fraudulent Sparrow Wallet...",
@@ -67,82 +131,18 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-66399 - phpMyFAQ before 4.1.6 Privilege Escalation via Group Membership",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66399",
-      "summary": "CVE ID :CVE-2026-66399\n  \n  Published : July 27, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :phpMyFAQ before 4.1.6 contains a privilege escalat...",
-      "timestamp": 1785169092.0,
+      "title": "CVE-2026-66731 - facil.io 0.7.5 - 0.7.6 HTTP/1.1 Chunked Transfer Encoding Parser Crash DoS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66731",
+      "summary": "CVE ID :CVE-2026-66731\n  \n  Published : July 27, 2026, 5:16 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :facil.io 0.7.5 through 0.7.6 contains a de...",
+      "timestamp": 1785172602.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-66398 - phpMyFAQ before 4.1.6 Remote Code Execution via Configuration API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66398",
-      "summary": "CVE ID :CVE-2026-66398\n  \n  Published : July 27, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :phpMyFAQ before v4.1.6 contains a remote code exec...",
-      "timestamp": 1785169092.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66397 - phpMyFAQ before 4.1.6 Path Traversal via category image deletion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66397",
-      "summary": "CVE ID :CVE-2026-66397\n  \n  Published : July 27, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :phpMyFAQ before 4.1.6 fails to validate path trave...",
-      "timestamp": 1785169092.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66396 - SiYuan before v3.7.2 Stored XSS to RCE via title-img IAL",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66396",
-      "summary": "CVE ID :CVE-2026-66396\n  \n  Published : July 27, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :SiYuan before v3.7.2 fails to escape the title-img...",
-      "timestamp": 1785169092.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66395 - SiYuan Desktop before v3.7.2 Reflected XSS to RCE via siyuan Protocol",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66395",
-      "summary": "CVE ID :CVE-2026-66395\n  \n  Published : July 27, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :SiYuan desktop before v3.7.2 contains a reflected ...",
-      "timestamp": 1785169092.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66394 - SiYuan before v3.7.3 Stored and Reflected XSS via SVG Sanitizer Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66394",
-      "summary": "CVE ID :CVE-2026-66394\n  \n  Published : July 27, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :SiYuan before v3.7.3 contains stored and reflected...",
-      "timestamp": 1785169091.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59251 - Denial of service via exponential certificate policy tree growth in path validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59251",
-      "summary": "CVE ID :CVE-2026-59251\n  \n  Published : July 27, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Allocation of resources without limits in Erlang/O...",
-      "timestamp": 1785169083.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59250 - Megaco flex scanner buffer overflow via oversized property parm name",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59250",
-      "summary": "CVE ID :CVE-2026-59250\n  \n  Published : July 27, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Classic buffer overflow in the Erlang/OTP megaco f...",
-      "timestamp": 1785169083.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58227 - TLS/DTLS denial of service via unbounded recursion on cross-signed peer certificate chain",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58227",
-      "summary": "CVE ID :CVE-2026-58227\n  \n  Published : July 27, 2026, 4:17 p.m. | 12\u00a0minutes ago\n  \n  Description :The Erlang/OTP ssl application does not detect cyc...",
-      "timestamp": 1785169076.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55953 - TLS 1.2 and DTLS client accepts unoffered anonymous cipher suite, bypassing server authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55953",
-      "summary": "CVE ID :CVE-2026-55953\n  \n  Published : July 27, 2026, 4:17 p.m. | 12\u00a0minutes ago\n  \n  Description :The Erlang/OTP ssl TLS 1.2 (and earlier) and DTLS ...",
-      "timestamp": 1785169069.0,
+      "title": "CVE-2026-66730 - facil.io 0.6.0 - 0.7.6 Infinite Loop DoS via Multipart MIME Body Parser",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66730",
+      "summary": "CVE ID :CVE-2026-66730\n  \n  Published : July 27, 2026, 5:16 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :facil.io 0.6.0 through 0.7.6 contains a de...",
+      "timestamp": 1785172602.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785176008.8236167
+  "last_updated": 1785182030.724802
 }
