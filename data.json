@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,73 +52,105 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
+      "link": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
+      "summary": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks a...",
+      "timestamp": 1785186495.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
+      "link": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
+      "summary": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authentic...",
+      "timestamp": 1785186025.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-65617 - Potential remote code execution on an Artifactory package service container.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65617",
+      "summary": "CVE ID :CVE-2026-65617\n  \n  Published : July 27, 2026, 7:37 p.m. | 40\u00a0minutes ago\n  \n  Description :A deserialization weakness in JFrog Artifactory pa...",
+      "timestamp": 1785181047.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65616 - Potential privilege escalation to JFrog administrator privileges",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65616",
+      "summary": "CVE ID :CVE-2026-65616\n  \n  Published : July 27, 2026, 7:34 p.m. | 43\u00a0minutes ago\n  \n  Description :Incorrect authorization validation in refresh toke...",
+      "timestamp": 1785180857.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66014 - Potential authentication bypass leading to privilege escalation in Artifactory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66014",
+      "summary": "CVE ID :CVE-2026-66014\n  \n  Published : July 27, 2026, 7:29 p.m. | 47\u00a0minutes ago\n  \n  Description :JFrog Artifactory contains an authentication handl...",
+      "timestamp": 1785180587.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56748 - Authenticated RCE via Symlink Following in Cribl Stream Pack Git Import",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56748",
+      "summary": "CVE ID :CVE-2026-56748\n  \n  Published : July 27, 2026, 7:27 p.m. | 50\u00a0minutes ago\n  \n  Description :Improper validation of symbolic links in the Pack ...",
+      "timestamp": 1785180451.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65921 - Potential path traversal leading to unauthorized file writes",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65921",
+      "summary": "CVE ID :CVE-2026-65921\n  \n  Published : July 27, 2026, 7:27 p.m. | 50\u00a0minutes ago\n  \n  Description :A path validation weakness in archive extraction/w...",
+      "timestamp": 1785180451.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-42017 - Privilege escalation via JFrog Worker event token exposure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42017",
+      "summary": "CVE ID :CVE-2026-42017\n  \n  Published : July 27, 2026, 7:26 p.m. | 51\u00a0minutes ago\n  \n  Description :An event-handling weakness in JFrog Artifactory co...",
+      "timestamp": 1785180383.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56747 - Code Injection in JSON Pointer Processing Component in Cribl Stream",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56747",
+      "summary": "CVE ID :CVE-2026-56747\n  \n  Published : July 27, 2026, 7:22 p.m. | 55\u00a0minutes ago\n  \n  Description :Improper control of generation of code in the JSON...",
+      "timestamp": 1785180132.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-42016 - Incorrect authorization validation of user token in JFrog Artifactory allows Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-42016",
+      "summary": "CVE ID :CVE-2026-42016\n  \n  Published : July 27, 2026, 7:20 p.m. | 56\u00a0minutes ago\n  \n  Description :JFrog Artifactory (Self Hosted) versions before 7....",
+      "timestamp": 1785180056.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-16481 - Server-Side Request Forgery (SSRF) and Credential Exfiltration in googleapis/mcp-toolbox cloud-healthcare-fhir-fetch-page Tool",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16481",
+      "summary": "CVE ID :CVE-2026-16481\n  \n  Published : July 27, 2026, 7:17 p.m. | 1\u00a0hour ago\n  \n  Description :A Server-Side Request Forgery (SSRF) and credential ex...",
+      "timestamp": 1785179834.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-64645 - Next.js: Server-Side Request Forgery in rewrites via attacker-controlled destination hostname",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64645",
-      "summary": "CVE ID :CVE-2026-64645\n  \n  Published : July 27, 2026, 6:16 p.m. | 20\u00a0minutes ago\n  \n  Description :Next.js is a React framework for building full-sta...",
+      "summary": "CVE ID :CVE-2026-64645\n  \n  Published : July 27, 2026, 6:16 p.m. | 2\u00a0hours ago\n  \n  Description :Next.js is a React framework for building full-stack ...",
       "timestamp": 1785176219.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-64642 - Next.js: Middleware / Proxy bypass in App Router applications using Turbopack and single locale",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64642",
-      "summary": "CVE ID :CVE-2026-64642\n  \n  Published : July 27, 2026, 6:16 p.m. | 20\u00a0minutes ago\n  \n  Description :Next.js is a React framework for building full-sta...",
-      "timestamp": 1785176219.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-64641 - Next.js: Denial of Service in App Router using Server Actions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64641",
-      "summary": "CVE ID :CVE-2026-64641\n  \n  Published : July 27, 2026, 6:16 p.m. | 20\u00a0minutes ago\n  \n  Description :Next.js is a React framework for building full-sta...",
-      "timestamp": 1785176218.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59239 - Stored XSS in Prospero Flow CRM email body allows administrator account takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59239",
-      "summary": "CVE ID :CVE-2026-59239\n  \n  Published : July 27, 2026, 6:16 p.m. | 20\u00a0minutes ago\n  \n  Description :Stored Cross-site Scripting (CWE-79) in the email ...",
-      "timestamp": 1785176217.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55579 - Pheditor: Hardcoded default password 'admin' with no forced change enables full application compromise",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55579",
-      "summary": "CVE ID :CVE-2026-55579\n  \n  Published : July 27, 2026, 6:16 p.m. | 20\u00a0minutes ago\n  \n  Description :Pheditor is a single-file editor and file manager ...",
-      "timestamp": 1785176216.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55578 - Pheditor: Incomplete command sanitization in terminal feature allows RCE via pipe operator, backtick substitution, and newline injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55578",
-      "summary": "CVE ID :CVE-2026-55578\n  \n  Published : July 27, 2026, 6:16 p.m. | 20\u00a0minutes ago\n  \n  Description :Pheditor is a single-file editor and file manager ...",
-      "timestamp": 1785176216.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54540 - Authenticated terminal command whitelist bypass in Pheditor",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54540",
-      "summary": "CVE ID :CVE-2026-54540\n  \n  Published : July 27, 2026, 6:16 p.m. | 20\u00a0minutes ago\n  \n  Description :Pheditor is a single-file editor and file manager ...",
-      "timestamp": 1785176216.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48030 - Pheditor: OS Command Injection in terminal handler via unsanitized 'dir' parameter (CWE-78)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48030",
-      "summary": "CVE ID :CVE-2026-48030\n  \n  Published : July 27, 2026, 6:16 p.m. | 20\u00a0minutes ago\n  \n  Description :Pheditor is a single-file editor and file manager ...",
-      "timestamp": 1785176215.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -129,22 +161,6 @@
       "timestamp": 1785173347.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-66731 - facil.io 0.7.5 - 0.7.6 HTTP/1.1 Chunked Transfer Encoding Parser Crash DoS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66731",
-      "summary": "CVE ID :CVE-2026-66731\n  \n  Published : July 27, 2026, 5:16 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :facil.io 0.7.5 through 0.7.6 contains a de...",
-      "timestamp": 1785172602.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66730 - facil.io 0.6.0 - 0.7.6 Infinite Loop DoS via Multipart MIME Body Parser",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66730",
-      "summary": "CVE ID :CVE-2026-66730\n  \n  Published : July 27, 2026, 5:16 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :facil.io 0.6.0 through 0.7.6 contains a de...",
-      "timestamp": 1785172602.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
@@ -203,22 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "OpenAI confirms ChatGPT is down worldwide",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
-      "summary": "ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has\u00a0connectivity issues world...",
-      "timestamp": 1784971869.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "OnTrac notifies customers of data breach after network hack",
-      "link": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/",
-      "summary": "OnTrac parcel delivery company is informing that hackers breached its corporate network and may have accessed personal details belonging to its custom...",
-      "timestamp": 1784922901.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an alw...",
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785182030.724802
+  "last_updated": 1785187466.7648075
 }
