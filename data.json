@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 10,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,100 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 7,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-14446 - IBM WebSphere Application Server is affected by a privilege escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14446",
+      "summary": "CVE ID :CVE-2026-14446\n  \n  Published : July 28, 2026, 8:52 p.m. | 13\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 9.0, and 8.5 is v...",
+      "timestamp": 1785271937.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14512 - IBM WebSphere Application Server is affected by an unsafe deserialization and exposure of sensitive information",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14512",
+      "summary": "CVE ID :CVE-2026-14512\n  \n  Published : July 28, 2026, 8:50 p.m. | 16\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 9.0, and 8.5 trad...",
+      "timestamp": 1785271808.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "OpenAI models used Artifactory zero-days to escape to the internet",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
+      "summary": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing enviro...",
+      "timestamp": 1785271026.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-14958 - OS command injection in IBM Aspera Faspex",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14958",
+      "summary": "CVE ID :CVE-2026-14958\n  \n  Published : July 28, 2026, 8:36 p.m. | 30\u00a0minutes ago\n  \n  Description :IBM Aspera Faspex 5 5.0.0 through 5.0.15.4 could a...",
+      "timestamp": 1785270965.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14959 - OS Command Injection in IBM Aspera Faspex",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14959",
+      "summary": "CVE ID :CVE-2026-14959\n  \n  Published : July 28, 2026, 8:33 p.m. | 32\u00a0minutes ago\n  \n  Description :IBM Aspera Faspex 5 5.0.0 through 5.0.15.4 could a...",
+      "timestamp": 1785270831.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14973 - Path Traversal in IBM Desktop App",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14973",
+      "summary": "CVE ID :CVE-2026-14973\n  \n  Published : July 28, 2026, 8:31 p.m. | 34\u00a0minutes ago\n  \n  Description :IBM Aspera Desktop App 1.0.5 through 1.0.19 IBM As...",
+      "timestamp": 1785270689.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14974 - IBM WebSphere Application Server is affected by cross-site scripting and deserialization vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14974",
+      "summary": "CVE ID :CVE-2026-14974\n  \n  Published : July 28, 2026, 8:29 p.m. | 36\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 8.5, and 9.0 trad...",
+      "timestamp": 1785270587.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14996 - Multiple vulnerabilities in IBM Aspera Faspex",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14996",
+      "summary": "CVE ID :CVE-2026-14996\n  \n  Published : July 28, 2026, 8:21 p.m. | 44\u00a0minutes ago\n  \n  Description :IBM Aspera Faspex 5 5.0.0 through 5.0.15.4 has add...",
+      "timestamp": 1785270078.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57510 - SuperPlane < 0.27.0 Broken Object Level Authorization via CanvasService gRPC",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57510",
+      "summary": "CVE ID :CVE-2026-57510\n  \n  Published : July 28, 2026, 8:17 p.m. | 48\u00a0minutes ago\n  \n  Description :SuperPlane before 0.27.0 contains a broken object-...",
+      "timestamp": 1785269847.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48060 - Litestar: HTML Injection Through CSRF Token",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48060",
+      "summary": "CVE ID :CVE-2026-48060\n  \n  Published : July 28, 2026, 8:17 p.m. | 48\u00a0minutes ago\n  \n  Description :Litestar is an Asynchronous Server Gateway Interfa...",
+      "timestamp": 1785269845.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-16347 - Improper restriction of excessive authentication attempts in MikroTik RouterOS and Cloud Hosted Router",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16347",
+      "summary": "CVE ID :CVE-2026-16347\n  \n  Published : July 28, 2026, 8:17 p.m. | 48\u00a0minutes ago\n  \n  Description :MikroTik RouterOS contains a weakness in its API a...",
+      "timestamp": 1785269843.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "CISA shares advice on isolating vital systems during cyberattacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
@@ -73,86 +161,6 @@
       "timestamp": 1785262130.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-48388 - Photoshop Installer | CWE-427: Uncontrolled Search Path Element",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48388",
-      "summary": "CVE ID :CVE-2026-48388\n  \n  Published : July 28, 2026, 5:46 p.m. | 31\u00a0minutes ago\n  \n  Description :Adobe Photoshop Installer was affected by an Uncon...",
-      "timestamp": 1785260786.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67185 - TinyWeb 0.0.8 Path Traversal via URL Path Component",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67185",
-      "summary": "CVE ID :CVE-2026-67185\n  \n  Published : July 28, 2026, 5:17 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :TinyWeb through 0.0.8 contains a path traver...",
-      "timestamp": 1785259028.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67184 - TinyWeb 0.0.8 Null Pointer Dereference DoS via Malformed HTTP Request",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67184",
-      "summary": "CVE ID :CVE-2026-67184\n  \n  Published : July 28, 2026, 5:17 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :TinyWeb through 0.0.8 contains a null pointe...",
-      "timestamp": 1785259027.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67183 - TinyWeb 0.0.8 Memory Leak DoS via HTTP Request Handling",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67183",
-      "summary": "CVE ID :CVE-2026-67183\n  \n  Published : July 28, 2026, 5:17 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :TinyWeb through 0.0.8 contains a memory leak...",
-      "timestamp": 1785259027.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54609 - QTINeon has unauthenticated relay-to-host amplification via unbounded RECONNECT_REQUEST forwarding",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54609",
-      "summary": "CVE ID :CVE-2026-54609\n  \n  Published : July 28, 2026, 5:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :QTI Neon is a minimal, game-agnostic, relay-...",
-      "timestamp": 1785259012.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54603 - OAuth2::Client#request: Protocol-relative redirect Location overrides authority, leaking bearer Authorization to attacker host",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54603",
-      "summary": "CVE ID :CVE-2026-54603\n  \n  Published : July 28, 2026, 5:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :OAuth2 is a Ruby wrapper for the OAuth 2.0 a...",
-      "timestamp": 1785259012.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18084 - Cross-Site Scripting (XSS) in time\u00a0zone\u00a0parameter of BlackBerry UEM",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18084",
-      "summary": "CVE ID :CVE-2026-18084\n  \n  Published : July 28, 2026, 5:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :Improper Neutralization of Input During Web ...",
-      "timestamp": 1785258997.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66754 - Rouille 0.1.6 - 3.6.2 Reachable Assertion DoS via remove_prefix percent-encoding",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66754",
-      "summary": "CVE ID :CVE-2026-66754\n  \n  Published : July 28, 2026, 4:20 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :Rouille 0.1.6 through 3.6.2 contains a rea...",
-      "timestamp": 1785255617.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66748 - Camaleon CMS 2.1.1 - 2.9.1 Authenticated RCE via select_eval Custom Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66748",
-      "summary": "CVE ID :CVE-2026-66748\n  \n  Published : July 28, 2026, 4:20 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :Camaleon CMS versions 2.1.1 through 2.9.1 ...",
-      "timestamp": 1785255616.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54593 - Pterodactyl's improper JWT scoping allows subuser to upload files when not explicitly granted `file.create` permissions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54593",
-      "summary": "CVE ID :CVE-2026-54593\n  \n  Published : July 28, 2026, 4:19 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Pterodactyl is a free, open-source game se...",
-      "timestamp": 1785255540.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Is Your SSO Protected Against Modern Credential Attacks?",
@@ -211,14 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin",
-      "link": "https://www.bleepingcomputer.com/news/apple/apple-sued-over-fake-app-store-crypto-wallet-app-stealing-18m-in-bitcoin/",
-      "summary": "Apple is being sued by three\u00a0people who claim approximately $1.8 million in Bitcoin was stolen after downloading and using a fraudulent Sparrow Wallet...",
-      "timestamp": 1785173347.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an alw...",
@@ -243,5 +243,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785269302.6240602
+  "last_updated": 1785273651.5695767
 }
