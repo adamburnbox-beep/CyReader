@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,8 +31,8 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 8,
-      "total_count": 10,
+      "new_count": 0,
+      "total_count": 0,
       "status": "ok"
     },
     {
@@ -52,48 +52,88 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 5,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-66754 - Rouille 0.1.6 - 3.6.2 Reachable Assertion DoS via remove_prefix percent-encoding",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66754",
-      "summary": "CVE ID :CVE-2026-66754\n  \n  Published : July 28, 2026, 4:04 p.m. | 13\u00a0minutes ago\n  \n  Description :Rouille 0.1.6 through 3.6.2 contains a reachable a...",
-      "timestamp": 1785254669.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
+      "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
+      "link": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
+      "summary": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [....",
+      "timestamp": 1785262130.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
-      "title": "CVE-2026-47483 - NVIDIA DCGM Exporter Uncontrolled Resource Consumption Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47483",
-      "summary": "CVE ID :CVE-2026-47483\n  \n  Published : July 28, 2026, 3:55 p.m. | 22\u00a0minutes ago\n  \n  Description :NVIDIA DCGM Exporter for all platforms contains a ...",
-      "timestamp": 1785254131.0,
+      "title": "CVE-2026-66754 - Rouille 0.1.6 - 3.6.2 Reachable Assertion DoS via remove_prefix percent-encoding",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66754",
+      "summary": "CVE ID :CVE-2026-66754\n  \n  Published : July 28, 2026, 4:20 p.m. | 10\u00a0minutes ago\n  \n  Description :Rouille 0.1.6 through 3.6.2 contains a reachable a...",
+      "timestamp": 1785255617.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-66748 - Camaleon CMS 2.1.1 - 2.9.1 Authenticated RCE via select_eval Custom Field",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66748",
-      "summary": "CVE ID :CVE-2026-66748\n  \n  Published : July 28, 2026, 3:19 p.m. | 58\u00a0minutes ago\n  \n  Description :Camaleon CMS versions 2.1.1 through 2.9.1 contains...",
-      "timestamp": 1785251992.0,
+      "summary": "CVE ID :CVE-2026-66748\n  \n  Published : July 28, 2026, 4:20 p.m. | 10\u00a0minutes ago\n  \n  Description :Camaleon CMS versions 2.1.1 through 2.9.1 contains...",
+      "timestamp": 1785255616.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54593 - Pterodactyl's improper JWT scoping allows subuser to upload files when not explicitly granted `file.create` permissions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54593",
+      "summary": "CVE ID :CVE-2026-54593\n  \n  Published : July 28, 2026, 4:19 p.m. | 11\u00a0minutes ago\n  \n  Description :Pterodactyl is a free, open-source game server man...",
+      "timestamp": 1785255540.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47483 - NVIDIA DCGM Exporter Uncontrolled Resource Consumption Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47483",
+      "summary": "CVE ID :CVE-2026-47483\n  \n  Published : July 28, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :NVIDIA DCGM Exporter for all platforms contains a ...",
+      "timestamp": 1785255495.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45293 - WordPress Coding Standards (WordPressCS) contains an arbitrary code execution vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45293",
+      "summary": "CVE ID :CVE-2026-45293\n  \n  Published : July 28, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :WordPress Coding Standards is a set of PHP_CodeSni...",
+      "timestamp": 1785255493.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-43910 - Appium java-client Allows Network Pivot via Unvalidated directConnect Redirect in AppiumCommandExecutor",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43910",
+      "summary": "CVE ID :CVE-2026-43910\n  \n  Published : July 28, 2026, 4:18 p.m. | 12\u00a0minutes ago\n  \n  Description :Appium Java Client is the Java language binding fo...",
+      "timestamp": 1785255492.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-67174 - DOM-Based Cross-Site Scripting via Unsafe String and SVG Icon Rendering in Pivotick",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67174",
-      "summary": "CVE ID :CVE-2026-67174\n  \n  Published : July 28, 2026, 3:17 p.m. | 1\u00a0hour ago\n  \n  Description :Pivotick contains a DOM-based cross-site scripting vul...",
+      "summary": "CVE ID :CVE-2026-67174\n  \n  Published : July 28, 2026, 3:17 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :Pivotick contains a DOM-based cross-site s...",
       "timestamp": 1785251871.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66713 - Apache Axis2/Java: deserialization of untrusted Data",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66713",
+      "summary": "CVE ID :CVE-2026-66713\n  \n  Published : July 28, 2026, 3:17 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data (CWE-502...",
+      "timestamp": 1785251870.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-63727 - Anchore Enterprise Privilege Escalation via User Management API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63727",
-      "summary": "CVE ID :CVE-2026-63727\n  \n  Published : July 28, 2026, 3:17 p.m. | 1\u00a0hour ago\n  \n  Description :Anchore Enterprise versions from 5.11.0 to 5.27.1 and ...",
+      "summary": "CVE ID :CVE-2026-63727\n  \n  Published : July 28, 2026, 3:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Anchore Enterprise versions from 5.11.0 to...",
       "timestamp": 1785251846.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,40 +149,8 @@
     {
       "title": "CVE-2026-7187 - Improper Authentication in Universal Sotware's UKBS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7187",
-      "summary": "CVE ID :CVE-2026-7187\n  \n  Published : July 28, 2026, 1:19 p.m. | 2\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Missing authentication for critical functi...",
+      "summary": "CVE ID :CVE-2026-7187\n  \n  Published : July 28, 2026, 1:19 p.m. | 3\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Missing authentication for critical functi...",
       "timestamp": 1785244748.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66920 - Pivotick - Stack Exhaustion Denial of Service via Deep or Cyclic Graph Data",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66920",
-      "summary": "CVE ID :CVE-2026-66920\n  \n  Published : July 28, 2026, 1:19 p.m. | 2\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Pivotick contains an uncontrolled-recursi...",
-      "timestamp": 1785244747.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66918 - DOM-Based Cross-Site Scripting via Unsanitized SVG Node Icons",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66918",
-      "summary": "CVE ID :CVE-2026-66918\n  \n  Published : July 28, 2026, 1:19 p.m. | 2\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Pivotick fails to sanitize attacker-contr...",
-      "timestamp": 1785244746.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49332 - Openshift/oauth-proxy: openshift/oauth-proxy: underscore header smuggling enables identity impersonation on wsgi/php upstreams",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49332",
-      "summary": "CVE ID :CVE-2026-49332\n  \n  Published : July 28, 2026, 1:18 p.m. | 2\u00a0hours, 59\u00a0minutes ago\n  \n  Description :A flaw was found in openshift/oauth-proxy...",
-      "timestamp": 1785244726.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-21047 - ImsService Out-of-Bounds Write Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-21047",
-      "summary": "CVE ID :CVE-2026-21047\n  \n  Published : July 28, 2026, 12:16 p.m. | 4\u00a0hours, 1\u00a0minute ago\n  \n  Description :Out-of-bounds write in ImsService prior to...",
-      "timestamp": 1785240996.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -211,37 +219,13 @@
       "vendor": "News"
     },
     {
-      "title": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
-      "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
-      "summary": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some...",
-      "timestamp": 1785165147.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an alw...",
       "timestamp": 1784682638.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
-      "timestamp": 1784649687.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Identity Services Engine Stored Cross-Site Scripting Vulnerabilities",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-42tgsdMG?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Stored%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
-      "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Identity Services Engine (ISE) guest portals could allow an authenticated, rem...",
-      "timestamp": 1784562435.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785257462.3136802
+  "last_updated": 1785263332.3906987
 }
