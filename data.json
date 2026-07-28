@@ -52,25 +52,97 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-14446 - IBM WebSphere Application Server is affected by a privilege escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14446",
-      "summary": "CVE ID :CVE-2026-14446\n  \n  Published : July 28, 2026, 8:52 p.m. | 13\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 9.0, and 8.5 is v...",
-      "timestamp": 1785271937.0,
+      "title": "CVE-2026-54691 - datamodel-code-generator vulnerable to SSRF via --url: no host/IP validation, follows redirects",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54691",
+      "summary": "CVE ID :CVE-2026-54691\n  \n  Published : July 28, 2026, 10:17 p.m. | 20\u00a0minutes ago\n  \n  Description :datamodel-code-generator generates Python data mo...",
+      "timestamp": 1785277060.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-14512 - IBM WebSphere Application Server is affected by an unsafe deserialization and exposure of sensitive information",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14512",
-      "summary": "CVE ID :CVE-2026-14512\n  \n  Published : July 28, 2026, 8:50 p.m. | 16\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 9.0, and 8.5 trad...",
-      "timestamp": 1785271808.0,
+      "title": "CVE-2026-54690 - datamodel-code-generator vulnerable to SSRF via JSON-Schema `$ref` to HTTP URL (silent by default)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54690",
+      "summary": "CVE ID :CVE-2026-54690\n  \n  Published : July 28, 2026, 10:17 p.m. | 20\u00a0minutes ago\n  \n  Description :datamodel-code-generator generates Pydantic v2 mo...",
+      "timestamp": 1785277060.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54653 - `datamodel-code-generator` vulnerable to code injection in via attacker-controlled `default_factory` schema field",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54653",
+      "summary": "CVE ID :CVE-2026-54653\n  \n  Published : July 28, 2026, 10:17 p.m. | 20\u00a0minutes ago\n  \n  Description :datamodel-code-generator generates Pydantic v2 mo...",
+      "timestamp": 1785277060.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
+      "link": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
+      "summary": "CubePilot, an Australian firm that designs flight controllers for drones (UAVs), announced a severe operational disruption caused by a DNS hijacking a...",
+      "timestamp": 1785273459.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-6881 - Authenticated SQL Injection Enables Unauthorized Access to Sensitive Information in Ellucian Advance Web and Legacy Advance",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6881",
+      "summary": "CVE ID :CVE-2026-6881\n  \n  Published : July 28, 2026, 9:17 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :A SQL Injection in the Giving Reports funct...",
+      "timestamp": 1785273449.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15325 - IBM WebSphere Application Server and WebSphere Application Server Liberty are affected by multiple vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15325",
+      "summary": "CVE ID :CVE-2026-15325\n  \n  Published : July 28, 2026, 9:17 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 9.0, and ...",
+      "timestamp": 1785273447.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15064 - IBM WebSphere Application Server and WebSphere Application Server Liberty are affected by multiple vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15064",
+      "summary": "CVE ID :CVE-2026-15064\n  \n  Published : July 28, 2026, 9:17 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 9.0, and ...",
+      "timestamp": 1785273447.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14996 - Multiple vulnerabilities in IBM Aspera Faspex",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14996",
+      "summary": "CVE ID :CVE-2026-14996\n  \n  Published : July 28, 2026, 9:17 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :IBM Aspera Faspex 5 5.0.0 through 5.0.15.4...",
+      "timestamp": 1785273447.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14974 - IBM WebSphere Application Server is affected by cross-site scripting and deserialization vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14974",
+      "summary": "CVE ID :CVE-2026-14974\n  \n  Published : July 28, 2026, 9:17 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 8.5, and ...",
+      "timestamp": 1785273446.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14973 - Path Traversal in IBM Desktop App",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14973",
+      "summary": "CVE ID :CVE-2026-14973\n  \n  Published : July 28, 2026, 9:17 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :IBM Aspera Desktop App 1.0.5 through 1.0.1...",
+      "timestamp": 1785273446.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14959 - OS Command Injection in IBM Aspera Faspex",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14959",
+      "summary": "CVE ID :CVE-2026-14959\n  \n  Published : July 28, 2026, 9:17 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :IBM Aspera Faspex 5 5.0.0 through 5.0.15.4...",
+      "timestamp": 1785273446.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -81,70 +153,6 @@
       "timestamp": 1785271026.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-14958 - OS command injection in IBM Aspera Faspex",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14958",
-      "summary": "CVE ID :CVE-2026-14958\n  \n  Published : July 28, 2026, 8:36 p.m. | 30\u00a0minutes ago\n  \n  Description :IBM Aspera Faspex 5 5.0.0 through 5.0.15.4 could a...",
-      "timestamp": 1785270965.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14959 - OS Command Injection in IBM Aspera Faspex",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14959",
-      "summary": "CVE ID :CVE-2026-14959\n  \n  Published : July 28, 2026, 8:33 p.m. | 32\u00a0minutes ago\n  \n  Description :IBM Aspera Faspex 5 5.0.0 through 5.0.15.4 could a...",
-      "timestamp": 1785270831.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14973 - Path Traversal in IBM Desktop App",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14973",
-      "summary": "CVE ID :CVE-2026-14973\n  \n  Published : July 28, 2026, 8:31 p.m. | 34\u00a0minutes ago\n  \n  Description :IBM Aspera Desktop App 1.0.5 through 1.0.19 IBM As...",
-      "timestamp": 1785270689.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14974 - IBM WebSphere Application Server is affected by cross-site scripting and deserialization vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14974",
-      "summary": "CVE ID :CVE-2026-14974\n  \n  Published : July 28, 2026, 8:29 p.m. | 36\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 8.5, and 9.0 trad...",
-      "timestamp": 1785270587.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14996 - Multiple vulnerabilities in IBM Aspera Faspex",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14996",
-      "summary": "CVE ID :CVE-2026-14996\n  \n  Published : July 28, 2026, 8:21 p.m. | 44\u00a0minutes ago\n  \n  Description :IBM Aspera Faspex 5 5.0.0 through 5.0.15.4 has add...",
-      "timestamp": 1785270078.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57510 - SuperPlane < 0.27.0 Broken Object Level Authorization via CanvasService gRPC",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57510",
-      "summary": "CVE ID :CVE-2026-57510\n  \n  Published : July 28, 2026, 8:17 p.m. | 48\u00a0minutes ago\n  \n  Description :SuperPlane before 0.27.0 contains a broken object-...",
-      "timestamp": 1785269847.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48060 - Litestar: HTML Injection Through CSRF Token",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48060",
-      "summary": "CVE ID :CVE-2026-48060\n  \n  Published : July 28, 2026, 8:17 p.m. | 48\u00a0minutes ago\n  \n  Description :Litestar is an Asynchronous Server Gateway Interfa...",
-      "timestamp": 1785269845.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16347 - Improper restriction of excessive authentication attempts in MikroTik RouterOS and Cloud Hosted Router",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16347",
-      "summary": "CVE ID :CVE-2026-16347\n  \n  Published : July 28, 2026, 8:17 p.m. | 48\u00a0minutes ago\n  \n  Description :MikroTik RouterOS contains a weakness in its API a...",
-      "timestamp": 1785269843.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CISA shares advice on isolating vital systems during cyberattacks",
@@ -211,14 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
-      "link": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
-      "summary": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authentic...",
-      "timestamp": 1785186025.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an alw...",
@@ -243,5 +243,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785273651.5695767
+  "last_updated": 1785278622.489969
 }
