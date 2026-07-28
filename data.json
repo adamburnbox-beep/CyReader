@@ -31,8 +31,8 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 8,
-      "total_count": 10,
+      "new_count": 0,
+      "total_count": 0,
       "status": "ok"
     },
     {
@@ -52,12 +52,92 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Over 24,000 exposed server BMCs leak password hash via decades-old flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
+      "summary": "More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard Management ...",
+      "timestamp": 1785240623.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-59248 - Unbounded HPACK/QPACK prefixed-integer decoding in Cowlib causes memory-exhaustion DoS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59248",
+      "summary": "CVE ID :CVE-2026-59248\n  \n  Published : July 28, 2026, 10:16 a.m. | 13\u00a0minutes ago\n  \n  Description :Allocation of resources without limits vulnerabil...",
+      "timestamp": 1785233810.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-16462 - SQL injection via unauthenticated GetGridData endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16462",
+      "summary": "CVE ID :CVE-2026-16462\n  \n  Published : July 28, 2026, 10:16 a.m. | 13\u00a0minutes ago\n  \n  Description :In PROCON-WEB SCADA the endpoint 'GetGridData' is...",
+      "timestamp": 1785233808.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14328 - Eazy Plugin Manager <= 4.4.1 - Authenticated (Subscriber+) Privilege Escalation via pos_get_option AJAX Action and admin/login REST Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14328",
+      "summary": "CVE ID :CVE-2026-14328\n  \n  Published : July 28, 2026, 10:16 a.m. | 13\u00a0minutes ago\n  \n  Description :The Eazy Plugin Manager \u2013 Powerful Plugin Managem...",
+      "timestamp": 1785233808.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-11841 - CVE-2026-11841",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11841",
+      "summary": "CVE ID :CVE-2026-11841\n  \n  Published : July 28, 2026, 10:16 a.m. | 13\u00a0minutes ago\n  \n  Description :An attacker may perform unauthenticated read and ...",
+      "timestamp": 1785233807.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-61376 - ELECOM Wireless LAN Routers and Access Points OS Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61376",
+      "summary": "CVE ID :CVE-2026-61376\n  \n  Published : July 28, 2026, 9:16 a.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :ELECOM wireless LAN routers and access poi...",
+      "timestamp": 1785230202.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59764 - ELECOM Wireless LAN Routers and Access Points OS Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59764",
+      "summary": "CVE ID :CVE-2026-59764\n  \n  Published : July 28, 2026, 9:16 a.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :ELECOM wireless LAN routers and access poi...",
+      "timestamp": 1785230202.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14169 - ads-tec Industrial IT: Account lockout via non-atomic user creation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14169",
+      "summary": "CVE ID :CVE-2026-14169\n  \n  Published : July 28, 2026, 9:16 a.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :Due to incorrect behavior order a low priv...",
+      "timestamp": 1785230201.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14168 - ads-tec Industrial IT: Vertical privilege escalation via configuration table write",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14168",
+      "summary": "CVE ID :CVE-2026-14168\n  \n  Published : July 28, 2026, 9:16 a.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :A low privileged remote attacker can gain ...",
+      "timestamp": 1785230201.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14167 - ads-tec Industrial IT: Privilege escalation during configuration import",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14167",
+      "summary": "CVE ID :CVE-2026-14167\n  \n  Published : July 28, 2026, 9:16 a.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :A low privileged remote attacker can perfo...",
+      "timestamp": 1785230201.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
       "link": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
@@ -69,32 +149,8 @@
     {
       "title": "CVE-2026-15014 - SMS Alert <= 3.9.7 - Unauthenticated Authentication Bypass to Account Takeover via 'billing_phone' Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15014",
-      "summary": "CVE ID :CVE-2026-15014\n  \n  Published : July 28, 2026, 8:17 a.m. | 13\u00a0minutes ago\n  \n  Description :The SMS Alert \u2013 SMS & OTP for WooCommerce, Order N...",
+      "summary": "CVE ID :CVE-2026-15014\n  \n  Published : July 28, 2026, 8:17 a.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :The SMS Alert \u2013 SMS & OTP for WooCommerce...",
       "timestamp": 1785226634.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11756 - Deserialization of Untrusted Data vulnerability affecting Station Launcher App in 3DEXPERIENCE platform from Release 3DEXPERIENCE R2023x through Release 3DEXPERIENCE R2026x",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11756",
-      "summary": "CVE ID :CVE-2026-11756\n  \n  Published : July 28, 2026, 8:17 a.m. | 13\u00a0minutes ago\n  \n  Description :A Deserialization of Untrusted Data vulnerability ...",
-      "timestamp": 1785226634.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2024-14041 - ML-KEM (Kyber) decapsulation leaks private key information through non-constant-time division in message decoding and ciphertext compression (KyberSlash)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-14041",
-      "summary": "CVE ID :CVE-2024-14041\n  \n  Published : July 28, 2026, 8:17 a.m. | 13\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java from 1.73 to before 1.78...",
-      "timestamp": 1785226632.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-17524 - zip-lib Directory Traversal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17524",
-      "summary": "CVE ID :CVE-2026-17524\n  \n  Published : July 28, 2026, 6:16 a.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Versions of the package zip-lib before 1....",
-      "timestamp": 1785219401.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -115,22 +171,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-55685 - React Router: Unauthenticated Denial of Service via Inefficient Route Matching",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55685",
-      "summary": "CVE ID :CVE-2026-55685\n  \n  Published : July 27, 2026, 10:17 p.m. | 10\u00a0hours, 13\u00a0minutes ago\n  \n  Description :React Router is a router for React. In ...",
-      "timestamp": 1785190660.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66824 - Stored Cross-Site Scripting via Unsafe Capture Tree JSON Embedding",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66824",
-      "summary": "CVE ID :CVE-2026-66824\n  \n  Published : July 27, 2026, 9:17 p.m. | 11\u00a0hours, 13\u00a0minutes ago\n  \n  Description :A stored cross-site scripting vulnerabil...",
-      "timestamp": 1785187037.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
       "link": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
       "summary": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks a...",
@@ -145,38 +185,6 @@
       "timestamp": 1785186025.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-66014 - Potential authentication bypass leading to privilege escalation in Artifactory",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66014",
-      "summary": "CVE ID :CVE-2026-66014\n  \n  Published : July 27, 2026, 8:16 p.m. | 12\u00a0hours, 14\u00a0minutes ago\n  \n  Description :JFrog Artifactory contains an authentica...",
-      "timestamp": 1785183401.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65921 - Potential path traversal leading to unauthorized file writes",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65921",
-      "summary": "CVE ID :CVE-2026-65921\n  \n  Published : July 27, 2026, 8:16 p.m. | 12\u00a0hours, 14\u00a0minutes ago\n  \n  Description :A path validation weakness in archive ex...",
-      "timestamp": 1785183401.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65617 - Potential remote code execution on an Artifactory package service container.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65617",
-      "summary": "CVE ID :CVE-2026-65617\n  \n  Published : July 27, 2026, 8:16 p.m. | 12\u00a0hours, 14\u00a0minutes ago\n  \n  Description :A deserialization weakness in JFrog Arti...",
-      "timestamp": 1785183400.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65616 - Potential privilege escalation to JFrog administrator privileges",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65616",
-      "summary": "CVE ID :CVE-2026-65616\n  \n  Published : July 27, 2026, 8:16 p.m. | 12\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Incorrect authorization validation in re...",
-      "timestamp": 1785183400.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Apple sued over fake App Store crypto wallet app stealing $1.8M in Bitcoin",
@@ -211,37 +219,13 @@
       "vendor": "News"
     },
     {
-      "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
-      "summary": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-c...",
-      "timestamp": 1785075219.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an alw...",
       "timestamp": 1784682638.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
-      "timestamp": 1784649687.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Identity Services Engine Stored Cross-Site Scripting Vulnerabilities",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-xss-42tgsdMG?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Stored%20Cross-Site%20Scripting%20Vulnerabilities%26vs_k=1",
-      "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Identity Services Engine (ISE) guest portals could allow an authenticated, rem...",
-      "timestamp": 1784562435.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785233741.0084078
+  "last_updated": 1785241780.6318674
 }
