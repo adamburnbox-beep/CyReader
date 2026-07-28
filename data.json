@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 10,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,52 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 6,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-66754 - Rouille 0.1.6 - 3.6.2 Reachable Assertion DoS via remove_prefix percent-encoding",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66754",
+      "summary": "CVE ID :CVE-2026-66754\n  \n  Published : July 28, 2026, 4:04 p.m. | 13\u00a0minutes ago\n  \n  Description :Rouille 0.1.6 through 3.6.2 contains a reachable a...",
+      "timestamp": 1785254669.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47483 - NVIDIA DCGM Exporter Uncontrolled Resource Consumption Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47483",
+      "summary": "CVE ID :CVE-2026-47483\n  \n  Published : July 28, 2026, 3:55 p.m. | 22\u00a0minutes ago\n  \n  Description :NVIDIA DCGM Exporter for all platforms contains a ...",
+      "timestamp": 1785254131.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66748 - Camaleon CMS 2.1.1 - 2.9.1 Authenticated RCE via select_eval Custom Field",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66748",
+      "summary": "CVE ID :CVE-2026-66748\n  \n  Published : July 28, 2026, 3:19 p.m. | 58\u00a0minutes ago\n  \n  Description :Camaleon CMS versions 2.1.1 through 2.9.1 contains...",
+      "timestamp": 1785251992.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67174 - DOM-Based Cross-Site Scripting via Unsafe String and SVG Icon Rendering in Pivotick",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67174",
+      "summary": "CVE ID :CVE-2026-67174\n  \n  Published : July 28, 2026, 3:17 p.m. | 1\u00a0hour ago\n  \n  Description :Pivotick contains a DOM-based cross-site scripting vul...",
+      "timestamp": 1785251871.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63727 - Anchore Enterprise Privilege Escalation via User Management API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63727",
+      "summary": "CVE ID :CVE-2026-63727\n  \n  Published : July 28, 2026, 3:17 p.m. | 1\u00a0hour ago\n  \n  Description :Anchore Enterprise versions from 5.11.0 to 5.27.1 and ...",
+      "timestamp": 1785251846.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Is Your SSO Protected Against Modern Credential Attacks?",
       "link": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
@@ -69,7 +109,7 @@
     {
       "title": "CVE-2026-7187 - Improper Authentication in Universal Sotware's UKBS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7187",
-      "summary": "CVE ID :CVE-2026-7187\n  \n  Published : July 28, 2026, 1:19 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Missing authentication for critical functio...",
+      "summary": "CVE ID :CVE-2026-7187\n  \n  Published : July 28, 2026, 1:19 p.m. | 2\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Missing authentication for critical functi...",
       "timestamp": 1785244748.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +117,7 @@
     {
       "title": "CVE-2026-66920 - Pivotick - Stack Exhaustion Denial of Service via Deep or Cyclic Graph Data",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66920",
-      "summary": "CVE ID :CVE-2026-66920\n  \n  Published : July 28, 2026, 1:19 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Pivotick contains an uncontrolled-recursio...",
+      "summary": "CVE ID :CVE-2026-66920\n  \n  Published : July 28, 2026, 1:19 p.m. | 2\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Pivotick contains an uncontrolled-recursi...",
       "timestamp": 1785244747.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +125,7 @@
     {
       "title": "CVE-2026-66918 - DOM-Based Cross-Site Scripting via Unsanitized SVG Node Icons",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66918",
-      "summary": "CVE ID :CVE-2026-66918\n  \n  Published : July 28, 2026, 1:19 p.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :Pivotick fails to sanitize attacker-contro...",
+      "summary": "CVE ID :CVE-2026-66918\n  \n  Published : July 28, 2026, 1:19 p.m. | 2\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Pivotick fails to sanitize attacker-contr...",
       "timestamp": 1785244746.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +133,7 @@
     {
       "title": "CVE-2026-49332 - Openshift/oauth-proxy: openshift/oauth-proxy: underscore header smuggling enables identity impersonation on wsgi/php upstreams",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49332",
-      "summary": "CVE ID :CVE-2026-49332\n  \n  Published : July 28, 2026, 1:18 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :A flaw was found in openshift/oauth-proxy....",
+      "summary": "CVE ID :CVE-2026-49332\n  \n  Published : July 28, 2026, 1:18 p.m. | 2\u00a0hours, 59\u00a0minutes ago\n  \n  Description :A flaw was found in openshift/oauth-proxy...",
       "timestamp": 1785244726.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +141,7 @@
     {
       "title": "CVE-2026-21047 - ImsService Out-of-Bounds Write Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-21047",
-      "summary": "CVE ID :CVE-2026-21047\n  \n  Published : July 28, 2026, 12:16 p.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :Out-of-bounds write in ImsService prior ...",
+      "summary": "CVE ID :CVE-2026-21047\n  \n  Published : July 28, 2026, 12:16 p.m. | 4\u00a0hours, 1\u00a0minute ago\n  \n  Description :Out-of-bounds write in ImsService prior to...",
       "timestamp": 1785240996.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -113,46 +153,6 @@
       "timestamp": 1785240623.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-65880 - Joomla Extension - joomshaper.com - Unauthenticated remote code execution in Balbooa Forms < 2.4.3",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65880",
-      "summary": "CVE ID :CVE-2026-65880\n  \n  Published : July 28, 2026, 11:17 a.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Joomla Extension - balbooa.com - Unauthe...",
-      "timestamp": 1785237424.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59248 - Unbounded HPACK/QPACK prefixed-integer decoding in Cowlib causes memory-exhaustion DoS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59248",
-      "summary": "CVE ID :CVE-2026-59248\n  \n  Published : July 28, 2026, 10:16 a.m. | 4\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Allocation of resources without limits v...",
-      "timestamp": 1785233810.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16462 - SQL injection via unauthenticated GetGridData endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16462",
-      "summary": "CVE ID :CVE-2026-16462\n  \n  Published : July 28, 2026, 10:16 a.m. | 4\u00a0hours, 14\u00a0minutes ago\n  \n  Description :In PROCON-WEB SCADA the endpoint 'GetGri...",
-      "timestamp": 1785233808.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14328 - Eazy Plugin Manager <= 4.4.1 - Authenticated (Subscriber+) Privilege Escalation via pos_get_option AJAX Action and admin/login REST Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14328",
-      "summary": "CVE ID :CVE-2026-14328\n  \n  Published : July 28, 2026, 10:16 a.m. | 4\u00a0hours, 14\u00a0minutes ago\n  \n  Description :The Eazy Plugin Manager \u2013 Powerful Plugi...",
-      "timestamp": 1785233808.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11841 - CVE-2026-11841",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11841",
-      "summary": "CVE ID :CVE-2026-11841\n  \n  Published : July 28, 2026, 10:16 a.m. | 4\u00a0hours, 14\u00a0minutes ago\n  \n  Description :An attacker may perform unauthenticated ...",
-      "timestamp": 1785233807.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
@@ -243,5 +243,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785251239.2581882
+  "last_updated": 1785257462.3136802
 }
