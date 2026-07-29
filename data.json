@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,80 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 8,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Anthropic confirms Claude is down worldwide",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
+      "summary": "[...]",
+      "timestamp": 1785358772.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-6267 - Insertion of Sensitive Information Into Sent Data in GitLab",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6267",
+      "summary": "CVE ID :CVE-2026-6267\n  \n  Published : July 29, 2026, 8:17 p.m. | 16\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab CE/EE affe...",
+      "timestamp": 1785356233.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67436 - Linuxfabrik monitoring-plugins: SSRF and auth-token disclosure via unvalidated @odata.id link in redfish-* plugins",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67436",
+      "summary": "CVE ID :CVE-2026-67436\n  \n  Published : July 29, 2026, 8:17 p.m. | 16\u00a0minutes ago\n  \n  Description :Linuxfabrik monitoring-plugins provides Python mon...",
+      "timestamp": 1785356232.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67431 - MCP Ruby SDK: Ruby SSE Session Poisoning",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67431",
+      "summary": "CVE ID :CVE-2026-67431\n  \n  Published : July 29, 2026, 8:17 p.m. | 16\u00a0minutes ago\n  \n  Description :MCP Ruby SDK is the official Ruby SDK for Model Co...",
+      "timestamp": 1785356232.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-5490 - DriveLock SQL Injection Privilege Escalation Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5490",
+      "summary": "CVE ID :CVE-2026-5490\n  \n  Published : July 29, 2026, 8:17 p.m. | 16\u00a0minutes ago\n  \n  Description :DriveLock SQL Injection Privilege Escalation Vulner...",
+      "timestamp": 1785356225.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18022 - pgvector buffer overflow via integer wraparound in IVFFlat index build on 32-bit systems",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18022",
+      "summary": "CVE ID :CVE-2026-18022\n  \n  Published : July 29, 2026, 8:17 p.m. | 16\u00a0minutes ago\n  \n  Description :Integer wraparound in IVFFlat index build in pgvec...",
+      "timestamp": 1785356222.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12436 - Improperly Controlled Modification of Dynamically-Determined Object Attributes in GitLab",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12436",
+      "summary": "CVE ID :CVE-2026-12436\n  \n  Published : July 29, 2026, 8:17 p.m. | 16\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab CE/EE aff...",
+      "timestamp": 1785356220.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13308 - Autel MaxiCharger AC Elite Home WebSockets Integer Underflow Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13308",
+      "summary": "CVE ID :CVE-2026-13308\n  \n  Published : July 29, 2026, 8:14 p.m. | 18\u00a0minutes ago\n  \n  Description :Autel MaxiCharger AC Elite Home WebSockets Integer...",
+      "timestamp": 1785356070.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-67429 - Flyto2 Core: Arbitrary file write via image.download (and other file-writing modules)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67429",
-      "summary": "CVE ID :CVE-2026-67429\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :Flyto2 Core is an execution kernel for auto...",
+      "summary": "CVE ID :CVE-2026-67429\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Flyto2 Core is an execution kernel for aut...",
       "timestamp": 1785352612.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +133,7 @@
     {
       "title": "CVE-2026-67428 - Flyto2 Core: Multiple HTTP-family modules fetch client-controlled URLs without the SSRF guard their siblings apply (SSRF to internal/metadata)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67428",
-      "summary": "CVE ID :CVE-2026-67428\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :Flyto2 Core is an execution kernel for auto...",
+      "summary": "CVE ID :CVE-2026-67428\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Flyto2 Core is an execution kernel for aut...",
       "timestamp": 1785352612.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,64 +141,8 @@
     {
       "title": "CVE-2026-67427 - Flyto2 Core: ${env.VAR} interpolation reads any env secret despite env.get being denylisted",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67427",
-      "summary": "CVE ID :CVE-2026-67427\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :Flyto2 Core is an execution kernel for auto...",
+      "summary": "CVE ID :CVE-2026-67427\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Flyto2 Core is an execution kernel for aut...",
       "timestamp": 1785352611.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67426 - Flyto2 Core: Unauthenticated flyto-verification /run: callback_url SSRF and internal runner-secret exfiltration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67426",
-      "summary": "CVE ID :CVE-2026-67426\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :Flyto2 Core is an execution kernel for auto...",
-      "timestamp": 1785352611.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67425 - Flyto2 Core: LLM/API keys leak to an attacker-controlled base_url",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67425",
-      "summary": "CVE ID :CVE-2026-67425\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :Flyto2 Core is an execution kernel for auto...",
-      "timestamp": 1785352611.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67424 - Flyto2 Core: Guarded HTTP modules follow redirects into internal space without per-hop SSRF revalidation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67424",
-      "summary": "CVE ID :CVE-2026-67424\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :Flyto2 Core is an execution kernel for auto...",
-      "timestamp": 1785352611.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67201 - V 0.5.2 SSRF Bypass via Parser Differential in net.urllib and net.http",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67201",
-      "summary": "CVE ID :CVE-2026-67201\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :V through 0.5.2, fixed in commit 85859f0, c...",
-      "timestamp": 1785352611.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16328 - consul-mcp-server vulnerable to server side request forgery leading to token exposure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16328",
-      "summary": "CVE ID :CVE-2026-16328\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :In consul-mcp-server, versions 0.1.0 up to ...",
-      "timestamp": 1785352605.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16326 - consul-mcp-server vulnerable to cross-tenant credential reuse in streamable-HTTP stateless mode",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16326",
-      "summary": "CVE ID :CVE-2026-16326\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :In consul-mcp-server, versions 0.1.0 up to ...",
-      "timestamp": 1785352604.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14529 - IBM WebSphere Application Server and WebSphere Application Server Liberty are affected by a server-side request forgery",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14529",
-      "summary": "CVE ID :CVE-2026-14529\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 9.0, and 8...",
-      "timestamp": 1785352604.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -235,14 +243,6 @@
       "vendor": "News"
     },
     {
-      "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
-      "link": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
-      "summary": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [....",
-      "timestamp": 1785262130.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an alw...",
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785357459.1359367
+  "last_updated": 1785360886.4788241
 }
