@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,100 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 7,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-12935 - Unauthenticated Remote Code Execution in TP-Link TL-WR940N RTSP Conntrack Feature",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12935",
+      "summary": "CVE ID :CVE-2026-12935\n  \n  Published : July 29, 2026, 6:20 p.m. | 13\u00a0minutes ago\n  \n  Description :The\nTL-WR940N v6 router contains a vulnerability i...",
+      "timestamp": 1785349206.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59901 - Netty Bzip2Decoder: Infinite Loop in RLE State Machine Leads to Event-Loop Thread Hang",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59901",
+      "summary": "CVE ID :CVE-2026-59901\n  \n  Published : July 29, 2026, 6:16 p.m. | 16\u00a0minutes ago\n  \n  Description :Netty is an asynchronous, event-driven network app...",
+      "timestamp": 1785349016.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-41939 - Care Everywhere Gateway 14.3.10 Hard-coded Credentials RCE via WildFly",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41939",
+      "summary": "CVE ID :CVE-2026-41939\n  \n  Published : July 29, 2026, 6:16 p.m. | 16\u00a0minutes ago\n  \n  Description :Care Everywhere Gateway 14.3.10 contains a hard-co...",
+      "timestamp": 1785349013.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18236 - Google-ADK Continuation Forgery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18236",
+      "summary": "CVE ID :CVE-2026-18236\n  \n  Published : July 29, 2026, 6:16 p.m. | 16\u00a0minutes ago\n  \n  Description :A vulnerability in the Agent Development Kit (ADK)...",
+      "timestamp": 1785349012.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14529 - IBM WebSphere Application Server and WebSphere Application Server Liberty are affected by a server-side request forgery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14529",
+      "summary": "CVE ID :CVE-2026-14529\n  \n  Published : July 29, 2026, 6:15 p.m. | 18\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 9.0, and 8.5 and ...",
+      "timestamp": 1785348918.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67201 - V 0.5.2 SSRF Bypass via Parser Differential in net.urllib and net.http",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67201",
+      "summary": "CVE ID :CVE-2026-67201\n  \n  Published : July 29, 2026, 6:12 p.m. | 20\u00a0minutes ago\n  \n  Description :V through 0.5.2, fixed in commit 85859f0, contains...",
+      "timestamp": 1785348754.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
+      "link": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
+      "summary": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an ...",
+      "timestamp": 1785347645.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-8339 - SQL Injection in Coverity Connect SOAP API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8339",
+      "summary": "CVE ID :CVE-2026-8339\n  \n  Published : July 29, 2026, 5:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :A SQL injection vulnerability exists in the...",
+      "timestamp": 1785345414.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8338 - Authentication and Authorization Bypass in Coverity Connect",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8338",
+      "summary": "CVE ID :CVE-2026-8338\n  \n  Published : July 29, 2026, 5:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :A Spring Security authentication and author...",
+      "timestamp": 1785345414.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54727 - proot-distro has a Container Isolation Bypass via Crafted Restore Archive",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54727",
+      "summary": "CVE ID :CVE-2026-54727\n  \n  Published : July 29, 2026, 5:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :proot-distro is a utility for managing pro...",
+      "timestamp": 1785345413.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54693 - ZITADEL Users Can Self-Verify Email/Phone via API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54693",
+      "summary": "CVE ID :CVE-2026-54693\n  \n  Published : July 29, 2026, 5:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :ZITADEL is an open source identity managem...",
+      "timestamp": 1785345413.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
       "link": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
@@ -91,92 +179,12 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-65888 - Joomla Extension - balbooa.com - Account takeover vulnerability in Gridbox < 2.20.2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65888",
-      "summary": "CVE ID :CVE-2026-65888\n  \n  Published : July 29, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Joomla Extension - balbooa.com - Account takeover ...",
-      "timestamp": 1785338188.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65887 - Joomla Extension - balbooa.com - Unauthenticated arbitrary password reset in  Gridbox < 2.20.2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65887",
-      "summary": "CVE ID :CVE-2026-65887\n  \n  Published : July 29, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Joomla Extension - balbooa.com - Unauthenticated a...",
-      "timestamp": 1785338188.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65886 - Joomla Extension - balbooa.com - Unauthenticated arbitrary file read in Gridbox < 2.20.2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65886",
-      "summary": "CVE ID :CVE-2026-65886\n  \n  Published : July 29, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Joomla Extension - balbooa.com - Unauthenticated a...",
-      "timestamp": 1785338188.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54666 - swagger-typescript-api vulnerable to code injection via unescaped OpenAPI path strings in generated method bodies",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54666",
-      "summary": "CVE ID :CVE-2026-54666\n  \n  Published : July 29, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :swagger-typescript-api generates API clients for F...",
-      "timestamp": 1785338185.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54664 - swagger-typescript-api vulnerable to code injection via unescaped enum string values",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54664",
-      "summary": "CVE ID :CVE-2026-54664\n  \n  Published : July 29, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :swagger-typescript-api generates API clients for F...",
-      "timestamp": 1785338185.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54662 - swagger-typescript-api vulnerable to code injection via unescaped `servers[0].url` in fetch http-client template",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54662",
-      "summary": "CVE ID :CVE-2026-54662\n  \n  Published : July 29, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :swagger-typescript-api generates API clients for F...",
-      "timestamp": 1785338185.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54661 - swagger-typescript-api vulnerable to code injection via unescaped `servers[0].url` in axios http-client template",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54661",
-      "summary": "CVE ID :CVE-2026-54661\n  \n  Published : July 29, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :swagger-typescript-api generates API clients for F...",
-      "timestamp": 1785338185.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12703 - Bypass of 2FA for Connections via Unattended Access in TeamViewer for macOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12703",
-      "summary": "CVE ID :CVE-2026-12703\n  \n  Published : July 29, 2026, 3:16 p.m. | 43\u00a0minutes ago\n  \n  Description :TeamViewer Full Client and Host\u00a0for macOS before v...",
-      "timestamp": 1785338180.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
       "summary": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more...",
       "timestamp": 1785336957.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-9177 - Server-Side Template Injection in SecureTransport's Apache Velocity mail templates",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9177",
-      "summary": "CVE ID :CVE-2026-9177\n  \n  Published : July 29, 2026, 2:16 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :A Server-Side Template Injection (SSTI) vul...",
-      "timestamp": 1785334595.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67216 - cJSON cJSON_Compare Exponential Complexity Denial of Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67216",
-      "summary": "CVE ID :CVE-2026-67216\n  \n  Published : July 29, 2026, 2:16 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :cJSON through 1.7.19 contains an inefficie...",
-      "timestamp": 1785334595.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
@@ -235,14 +243,6 @@
       "vendor": "News"
     },
     {
-      "title": "Is Your SSO Protected Against Modern Credential Attacks?",
-      "link": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
-      "summary": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger pas...",
-      "timestamp": 1785247210.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an alw...",
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785347752.731374
+  "last_updated": 1785354172.9494398
 }
