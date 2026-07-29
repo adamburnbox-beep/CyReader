@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,75 +52,115 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-12144 - Wholesale for WooCommerce <= 2.0.5 - Authenticated (Author+) Privilege Escalation via 'user_role_set' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12144",
-      "summary": "CVE ID :CVE-2026-12144\n  \n  Published : July 29, 2026, 2:16 a.m. | 1\u00a0hour, 40\u00a0minutes ago\n  \n  Description :The Wholesale for WooCommerce plugin for W...",
-      "timestamp": 1785291401.0,
+      "title": "CVE-2026-9177 - Server-Side Template Injection in SecureTransport's Apache Velocity mail templates",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9177",
+      "summary": "CVE ID :CVE-2026-9177\n  \n  Published : July 29, 2026, 2:16 p.m. | 21\u00a0minutes ago\n  \n  Description :A Server-Side Template Injection (SSTI) vulnerabili...",
+      "timestamp": 1785334595.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-64863 - goshs --no-delete WebDAV MOVE bypass allows file deletion/overwrite",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64863",
-      "summary": "CVE ID :CVE-2026-64863\n  \n  Published : July 28, 2026, 11:17 p.m. | 4\u00a0hours, 39\u00a0minutes ago\n  \n  Description :goshs is a feature-rich single-binary fi...",
-      "timestamp": 1785280630.0,
+      "title": "CVE-2026-67216 - cJSON cJSON_Compare Exponential Complexity Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67216",
+      "summary": "CVE ID :CVE-2026-67216\n  \n  Published : July 29, 2026, 2:16 p.m. | 21\u00a0minutes ago\n  \n  Description :cJSON through 1.7.19 contains an inefficient algor...",
+      "timestamp": 1785334595.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-62325 - goshs SFTP authentication bypass via empty password (incomplete fix of CVE-2026-40884)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62325",
-      "summary": "CVE ID :CVE-2026-62325\n  \n  Published : July 28, 2026, 11:17 p.m. | 4\u00a0hours, 39\u00a0minutes ago\n  \n  Description :goshs is a feature-rich single-binary fi...",
-      "timestamp": 1785280630.0,
+      "title": "CVE-2026-67215 - cJSON JSON Patch copy/add Uncontrolled Recursion Stack Exhaustion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67215",
+      "summary": "CVE ID :CVE-2026-67215\n  \n  Published : July 29, 2026, 2:16 p.m. | 21\u00a0minutes ago\n  \n  Description :cJSON through 1.7.19 is vulnerable to uncontrolled...",
+      "timestamp": 1785334595.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-54658 - @hypequery/clickhouse has SQL Injection in parameter escaping that allows arbitrary SQL execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54658",
-      "summary": "CVE ID :CVE-2026-54658\n  \n  Published : July 28, 2026, 11:17 p.m. | 4\u00a0hours, 39\u00a0minutes ago\n  \n  Description :Hypequery is a TypeScript semantic layer...",
-      "timestamp": 1785280628.0,
+      "title": "CVE-2026-67214 - nanoid before 5.1.16 Infinite Loop via Negative Size in non-secure module",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67214",
+      "summary": "CVE ID :CVE-2026-67214\n  \n  Published : July 29, 2026, 2:16 p.m. | 21\u00a0minutes ago\n  \n  Description :nanoid (Nano ID) before 5.1.16 contains an infinit...",
+      "timestamp": 1785334595.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-54650 - openhole-server vulnerable to path traversal via URL-decoded request path",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54650",
-      "summary": "CVE ID :CVE-2026-54650\n  \n  Published : July 28, 2026, 11:17 p.m. | 4\u00a0hours, 39\u00a0minutes ago\n  \n  Description :openhole exposes localhost to the intern...",
-      "timestamp": 1785280628.0,
+      "title": "CVE-2026-67213 - nanoid before 5.1.6 Infinite Loop via Zero Size in customAlphabet and customRandom",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67213",
+      "summary": "CVE ID :CVE-2026-67213\n  \n  Published : July 29, 2026, 2:16 p.m. | 21\u00a0minutes ago\n  \n  Description :nanoid (Nano ID) before 5.1.6 contains an infinite...",
+      "timestamp": 1785334594.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-54691 - datamodel-code-generator vulnerable to SSRF via --url: no host/IP validation, follows redirects",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54691",
-      "summary": "CVE ID :CVE-2026-54691\n  \n  Published : July 28, 2026, 10:17 p.m. | 5\u00a0hours, 39\u00a0minutes ago\n  \n  Description :datamodel-code-generator generates Pytho...",
-      "timestamp": 1785277060.0,
+      "title": "CVE-2026-65890 - Joomla Extension - balbooa.com - Unauthenticated SQL injection in Gridbox < 2.20.2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65890",
+      "summary": "CVE ID :CVE-2026-65890\n  \n  Published : July 29, 2026, 2:16 p.m. | 21\u00a0minutes ago\n  \n  Description :Joomla Extension - balbooa.com - Unauthenticated S...",
+      "timestamp": 1785334593.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-54690 - datamodel-code-generator vulnerable to SSRF via JSON-Schema `$ref` to HTTP URL (silent by default)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54690",
-      "summary": "CVE ID :CVE-2026-54690\n  \n  Published : July 28, 2026, 10:17 p.m. | 5\u00a0hours, 39\u00a0minutes ago\n  \n  Description :datamodel-code-generator generates Pydan...",
-      "timestamp": 1785277060.0,
+      "title": "CVE-2026-65889 - Joomla Extension - balbooa.com - Unauthenticated recursive directory deletion in Gridbox < 2.20.2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65889",
+      "summary": "CVE ID :CVE-2026-65889\n  \n  Published : July 29, 2026, 2:16 p.m. | 21\u00a0minutes ago\n  \n  Description :Joomla Extension - balbooa.com - Unauthenticated r...",
+      "timestamp": 1785334593.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-54653 - `datamodel-code-generator` vulnerable to code injection in via attacker-controlled `default_factory` schema field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54653",
-      "summary": "CVE ID :CVE-2026-54653\n  \n  Published : July 28, 2026, 10:17 p.m. | 5\u00a0hours, 39\u00a0minutes ago\n  \n  Description :datamodel-code-generator generates Pydan...",
-      "timestamp": 1785277060.0,
+      "title": "CVE-2026-55995 - Double-free in the iSNS attribute decoder in open-iscsi",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55995",
+      "summary": "CVE ID :CVE-2026-55995\n  \n  Published : July 29, 2026, 2:16 p.m. | 21\u00a0minutes ago\n  \n  Description :A Double Free vulnerability in open-iscsi allows a...",
+      "timestamp": 1785334591.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
+      "link": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
+      "summary": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, in...",
+      "timestamp": 1785333732.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Windows 11 KB5101684 update released with 42 changes and fixes",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/",
+      "summary": "\u200b\u200bMicrosoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements ...",
+      "timestamp": 1785333382.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-65885 - Joomla Extension - balbooa.com - Authenticated arbitrary file upload in Gridbox < 2.20.2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65885",
+      "summary": "CVE ID :CVE-2026-65885\n  \n  Published : July 29, 2026, 1:19 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Joomla Extension - balbooa.com - Authentic...",
+      "timestamp": 1785331150.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65884 - Joomla Extension - balbooa.com - Privilege Escalation in Gridbox < 2.20.2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65884",
+      "summary": "CVE ID :CVE-2026-65884\n  \n  Published : July 29, 2026, 1:19 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Joomla Extension - balbooa.com - Privilege...",
+      "timestamp": 1785331150.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "These near-mint ASUS Chromebook refurbs are only $145",
+      "link": "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/",
+      "summary": "Buying a new computer in 2026 is a unique experience. Rather than deal with incredibly high tech prices, more shoppers are opting for high-quality ref...",
+      "timestamp": 1785323539.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
@@ -129,22 +169,6 @@
       "timestamp": 1785273459.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-6881 - Authenticated SQL Injection Enables Unauthorized Access to Sensitive Information in Ellucian Advance Web and Legacy Advance",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6881",
-      "summary": "CVE ID :CVE-2026-6881\n  \n  Published : July 28, 2026, 9:17 p.m. | 6\u00a0hours, 39\u00a0minutes ago\n  \n  Description :A SQL Injection in the Giving Reports func...",
-      "timestamp": 1785273449.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-15325 - IBM WebSphere Application Server and WebSphere Application Server Liberty are affected by multiple vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15325",
-      "summary": "CVE ID :CVE-2026-15325\n  \n  Published : July 28, 2026, 9:17 p.m. | 6\u00a0hours, 39\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 9.0, and...",
-      "timestamp": 1785273447.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "OpenAI models used Artifactory zero-days to escape to the internet",
@@ -195,30 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "Hackers target US firms in FastJson RCE zero-day attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
-      "summary": "Hackers are actively exploiting a vulnerability in the FastJson open-source Java library, allowing remote code execution without user interaction or e...",
-      "timestamp": 1785196184.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-      "summary": "Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploit...",
-      "timestamp": 1785192584.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
-      "link": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
-      "summary": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks a...",
-      "timestamp": 1785186495.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an alw...",
@@ -243,5 +243,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785299147.294026
+  "last_updated": 1785337164.7504456
 }
