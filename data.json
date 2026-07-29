@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,57 +52,89 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-12935 - Unauthenticated Remote Code Execution in TP-Link TL-WR940N RTSP Conntrack Feature",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12935",
-      "summary": "CVE ID :CVE-2026-12935\n  \n  Published : July 29, 2026, 6:20 p.m. | 13\u00a0minutes ago\n  \n  Description :The\nTL-WR940N v6 router contains a vulnerability i...",
-      "timestamp": 1785349206.0,
+      "title": "CVE-2026-67429 - Flyto2 Core: Arbitrary file write via image.download (and other file-writing modules)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67429",
+      "summary": "CVE ID :CVE-2026-67429\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :Flyto2 Core is an execution kernel for auto...",
+      "timestamp": 1785352612.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-59901 - Netty Bzip2Decoder: Infinite Loop in RLE State Machine Leads to Event-Loop Thread Hang",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59901",
-      "summary": "CVE ID :CVE-2026-59901\n  \n  Published : July 29, 2026, 6:16 p.m. | 16\u00a0minutes ago\n  \n  Description :Netty is an asynchronous, event-driven network app...",
-      "timestamp": 1785349016.0,
+      "title": "CVE-2026-67428 - Flyto2 Core: Multiple HTTP-family modules fetch client-controlled URLs without the SSRF guard their siblings apply (SSRF to internal/metadata)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67428",
+      "summary": "CVE ID :CVE-2026-67428\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :Flyto2 Core is an execution kernel for auto...",
+      "timestamp": 1785352612.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-41939 - Care Everywhere Gateway 14.3.10 Hard-coded Credentials RCE via WildFly",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41939",
-      "summary": "CVE ID :CVE-2026-41939\n  \n  Published : July 29, 2026, 6:16 p.m. | 16\u00a0minutes ago\n  \n  Description :Care Everywhere Gateway 14.3.10 contains a hard-co...",
-      "timestamp": 1785349013.0,
+      "title": "CVE-2026-67427 - Flyto2 Core: ${env.VAR} interpolation reads any env secret despite env.get being denylisted",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67427",
+      "summary": "CVE ID :CVE-2026-67427\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :Flyto2 Core is an execution kernel for auto...",
+      "timestamp": 1785352611.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-18236 - Google-ADK Continuation Forgery",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18236",
-      "summary": "CVE ID :CVE-2026-18236\n  \n  Published : July 29, 2026, 6:16 p.m. | 16\u00a0minutes ago\n  \n  Description :A vulnerability in the Agent Development Kit (ADK)...",
-      "timestamp": 1785349012.0,
+      "title": "CVE-2026-67426 - Flyto2 Core: Unauthenticated flyto-verification /run: callback_url SSRF and internal runner-secret exfiltration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67426",
+      "summary": "CVE ID :CVE-2026-67426\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :Flyto2 Core is an execution kernel for auto...",
+      "timestamp": 1785352611.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-14529 - IBM WebSphere Application Server and WebSphere Application Server Liberty are affected by a server-side request forgery",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14529",
-      "summary": "CVE ID :CVE-2026-14529\n  \n  Published : July 29, 2026, 6:15 p.m. | 18\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 9.0, and 8.5 and ...",
-      "timestamp": 1785348918.0,
+      "title": "CVE-2026-67425 - Flyto2 Core: LLM/API keys leak to an attacker-controlled base_url",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67425",
+      "summary": "CVE ID :CVE-2026-67425\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :Flyto2 Core is an execution kernel for auto...",
+      "timestamp": 1785352611.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67424 - Flyto2 Core: Guarded HTTP modules follow redirects into internal space without per-hop SSRF revalidation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67424",
+      "summary": "CVE ID :CVE-2026-67424\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :Flyto2 Core is an execution kernel for auto...",
+      "timestamp": 1785352611.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-67201 - V 0.5.2 SSRF Bypass via Parser Differential in net.urllib and net.http",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67201",
-      "summary": "CVE ID :CVE-2026-67201\n  \n  Published : July 29, 2026, 6:12 p.m. | 20\u00a0minutes ago\n  \n  Description :V through 0.5.2, fixed in commit 85859f0, contains...",
-      "timestamp": 1785348754.0,
+      "summary": "CVE ID :CVE-2026-67201\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :V through 0.5.2, fixed in commit 85859f0, c...",
+      "timestamp": 1785352611.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-16328 - consul-mcp-server vulnerable to server side request forgery leading to token exposure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16328",
+      "summary": "CVE ID :CVE-2026-16328\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :In consul-mcp-server, versions 0.1.0 up to ...",
+      "timestamp": 1785352605.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-16326 - consul-mcp-server vulnerable to cross-tenant credential reuse in streamable-HTTP stateless mode",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16326",
+      "summary": "CVE ID :CVE-2026-16326\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :In consul-mcp-server, versions 0.1.0 up to ...",
+      "timestamp": 1785352604.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14529 - IBM WebSphere Application Server and WebSphere Application Server Liberty are affected by a server-side request forgery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14529",
+      "summary": "CVE ID :CVE-2026-14529\n  \n  Published : July 29, 2026, 7:16 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 9.0, and 8...",
+      "timestamp": 1785352604.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -113,38 +145,6 @@
       "timestamp": 1785347645.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-8339 - SQL Injection in Coverity Connect SOAP API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8339",
-      "summary": "CVE ID :CVE-2026-8339\n  \n  Published : July 29, 2026, 5:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :A SQL injection vulnerability exists in the...",
-      "timestamp": 1785345414.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8338 - Authentication and Authorization Bypass in Coverity Connect",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8338",
-      "summary": "CVE ID :CVE-2026-8338\n  \n  Published : July 29, 2026, 5:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :A Spring Security authentication and author...",
-      "timestamp": 1785345414.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54727 - proot-distro has a Container Isolation Bypass via Crafted Restore Archive",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54727",
-      "summary": "CVE ID :CVE-2026-54727\n  \n  Published : July 29, 2026, 5:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :proot-distro is a utility for managing pro...",
-      "timestamp": 1785345413.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54693 - ZITADEL Users Can Self-Verify Email/Phone via API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54693",
-      "summary": "CVE ID :CVE-2026-54693\n  \n  Published : July 29, 2026, 5:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :ZITADEL is an open source identity managem...",
-      "timestamp": 1785345413.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785354172.9494398
+  "last_updated": 1785357459.1359367
 }
