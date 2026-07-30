@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 10,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,20 +59,92 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-67594 - Spikster Missing Authentication via API Route Group",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67594",
+      "summary": "CVE ID :CVE-2026-67594\n  \n  Published : July 30, 2026, 8:18 p.m. | 20\u00a0minutes ago\n  \n  Description :Spikster through commit e1cdf8c contains a missing...",
+      "timestamp": 1785442695.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67208 - Juggle 1.6.0 Unauthenticated RCE via Exposed H2 Console",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67208",
+      "summary": "CVE ID :CVE-2026-67208\n  \n  Published : July 30, 2026, 8:18 p.m. | 20\u00a0minutes ago\n  \n  Description :Juggle through 1.6.0 contains a remote code execut...",
+      "timestamp": 1785442694.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67207 - Wolf CMS 0.8.3.1 Authorization Bypass via BackupRestoreController",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67207",
+      "summary": "CVE ID :CVE-2026-67207\n  \n  Published : July 30, 2026, 8:18 p.m. | 20\u00a0minutes ago\n  \n  Description :Wolf CMS through 0.8.3.1 contains an authorization...",
+      "timestamp": 1785442694.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67206 - Wolf CMS 0.8.3.1 Authenticated RCE via FileManagerController File Upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67206",
+      "summary": "CVE ID :CVE-2026-67206\n  \n  Published : July 30, 2026, 8:18 p.m. | 20\u00a0minutes ago\n  \n  Description :Wolf CMS through 0.8.3.1 contains a remote code ex...",
+      "timestamp": 1785442694.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12946 - Remote Code Execution in CUGA Component CodeAgent",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12946",
+      "summary": "CVE ID :CVE-2026-12946\n  \n  Published : July 30, 2026, 8:16 p.m. | 21\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 could allow ...",
+      "timestamp": 1785442612.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-11536 - IBM WebSphere Application Server is affected by a remote code execution vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11536",
+      "summary": "CVE ID :CVE-2026-11536\n  \n  Published : July 30, 2026, 8:16 p.m. | 21\u00a0minutes ago\n  \n  Description :IBM WebSphere Application Server 9.0, and 8.5 is a...",
+      "timestamp": 1785442612.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66416 - Leantime CSRF Protection Globally Disabled by Omission of Laravel VerifyCsrfToken Middleware",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66416",
+      "summary": "CVE ID :CVE-2026-66416\n  \n  Published : July 30, 2026, 7:18 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :Leantime 3.6.2 contains a cross-site reque...",
+      "timestamp": 1785439116.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66415 - Leantime Server-Side Request Forgery and Local File Inclusion in Blueprints::import()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66415",
+      "summary": "CVE ID :CVE-2026-66415\n  \n  Published : July 30, 2026, 7:18 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :Leantime 3.6.2 contains a server-side requ...",
+      "timestamp": 1785439116.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66066 - Action Pack: Possible arbitrary file read and remote code execution in Active Storage variant processing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66066",
+      "summary": "CVE ID :CVE-2026-66066\n  \n  Published : July 30, 2026, 7:18 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :Action Pack is a framework for handling an...",
+      "timestamp": 1785439115.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-51272 - ESP32-audioI2S Heap-Based Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-51272",
+      "summary": "CVE ID :CVE-2026-51272\n  \n  Published : July 30, 2026, 7:18 p.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :In schreibfaul1 ESP32-audioI2S 3.4.5, a he...",
+      "timestamp": 1785439085.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers",
       "link": "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
       "summary": "Amazon linked multiple high-profile open-source software supply chain attacks targeting the Node Package Manager (npm) ecosystem to North Korean hacke...",
       "timestamp": 1785435204.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-18245 - Incomplete fix for CVE-2025-4318 code injection in Amazon @aws-amplify/codegen-ui-react",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18245",
-      "summary": "CVE ID :CVE-2026-18245\n  \n  Published : July 30, 2026, 6:13 p.m. | 25\u00a0minutes ago\n  \n  Description :Improper control of code generation in Amazon @aws...",
-      "timestamp": 1785435187.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "VMware fixes three critical flaws allowing auth bypass, VM escapes",
@@ -83,54 +155,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-12943 - This Power Hardware Management Console update is being released to address",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12943",
-      "summary": "CVE ID :CVE-2026-12943\n  \n  Published : July 30, 2026, 5:57 p.m. | 40\u00a0minutes ago\n  \n  Description :IBM HMC V10.3.1050.0 through 10.3.1064.0 and IBM H...",
-      "timestamp": 1785434266.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54722 - dssrf: there a critical security bug with remove_at_symbol_in_string",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54722",
-      "summary": "CVE ID :CVE-2026-54722\n  \n  Published : July 30, 2026, 5:16 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :DSSRF is a Node.js library that provides a...",
-      "timestamp": 1785431793.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12940 - Langflow is affected by remote code execution due to multiple unauthenticated and insufficiently authorized API endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12940",
-      "summary": "CVE ID :CVE-2026-12940\n  \n  Published : July 30, 2026, 5:16 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.1\u00a0 are...",
-      "timestamp": 1785431788.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11885 - Power System update in Buffer Copy",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11885",
-      "summary": "CVE ID :CVE-2026-11885\n  \n  Published : July 30, 2026, 5:16 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :IBM PowerVM Hypervisor FW1110.00 through F...",
-      "timestamp": 1785431787.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12118 - IBM webMethods Integration could allow an unauthenticated remote attacker to execute arbitrary code on the system due to the deserialization of untrusted data",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12118",
-      "summary": "CVE ID :CVE-2026-12118\n  \n  Published : July 30, 2026, 5 p.m. | 1\u00a0hour, 37\u00a0minutes ago\n  \n  Description :IBM webMethods Integration (on prem) 10.15, 1...",
-      "timestamp": 1785430850.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66416 - Leantime CSRF Protection Globally Disabled by Omission of Laravel VerifyCsrfToken Middleware",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66416",
-      "summary": "CVE ID :CVE-2026-66416\n  \n  Published : July 30, 2026, 5 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :Leantime 3.6.2 contains a cross-site request ...",
-      "timestamp": 1785430810.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Google says AI helped Chrome fix 1,072 security bugs in two releases",
       "link": "https://www.bleepingcomputer.com/news/google/google-says-ai-helped-chrome-fix-1-072-security-bugs-in-two-releases/",
       "summary": "Google says artificial intelligence is dramatically increasing the number of security vulnerabilities it can find and fix in Chrome, with more than 1,...",
@@ -139,36 +163,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-10535 - IBM\u00ae Db2\u00ae is vulnerable to buffer overflow in setgid helper db2flacc which can lead to privilege escalation and instance compromise from an unprivileged shell",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10535",
-      "summary": "CVE ID :CVE-2026-10535\n  \n  Published : July 30, 2026, 4:55 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :IBM Db2 11.5.0 through 11.5.9, and 12.1.0 ...",
-      "timestamp": 1785430557.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66415 - Leantime Server-Side Request Forgery and Local File Inclusion in Blueprints::import()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66415",
-      "summary": "CVE ID :CVE-2026-66415\n  \n  Published : July 30, 2026, 4:49 p.m. | 1\u00a0hour, 48\u00a0minutes ago\n  \n  Description :Leantime 3.6.2 contains a server-side requ...",
-      "timestamp": 1785430194.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
       "timestamp": 1785430140.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-13435 - Python Interpreter Sandbox Bypass Leading to Sensitive Data Exposure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13435",
-      "summary": "CVE ID :CVE-2026-13435\n  \n  Published : July 30, 2026, 4:48 p.m. | 1\u00a0hour, 50\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.1 cont...",
-      "timestamp": 1785430116.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "ShinyHunters claims Brinks Home breach, threatens to leak stolen data",
@@ -275,5 +275,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785440948.0858011
+  "last_updated": 1785446627.106774
 }
