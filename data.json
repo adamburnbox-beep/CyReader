@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,82 +59,82 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-58066 - Rocket.Chat SAML SSO XML Signature Wrapping Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58066",
-      "summary": "CVE ID :CVE-2026-58066\n  \n  Published : July 30, 2026, 6:25 a.m. | 12\u00a0minutes ago\n  \n  Description :Rocket.Chat's SAML SSO before versions 8.7.0, 8.6....",
-      "timestamp": 1785392755.0,
+      "title": "CVE-2026-18353 - Unauthenticated SSRF in PIA via OIDC issuer allowlist bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18353",
+      "summary": "CVE ID :CVE-2026-18353\n  \n  Published : July 30, 2026, 8:16 a.m. | 17\u00a0minutes ago\n  \n  Description :PIA's `POST /v1/upload/sbom` endpoint accepts a Be...",
+      "timestamp": 1785399388.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-58046 - Plesk SQL Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58046",
-      "summary": "CVE ID :CVE-2026-58046\n  \n  Published : July 30, 2026, 6:25 a.m. | 12\u00a0minutes ago\n  \n  Description :Improper neutralization in the Plesk XML-RPC API a...",
-      "timestamp": 1785392755.0,
+      "title": "CVE-2026-7849 - Command Injection in SCM (idledisconnect parameter)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7849",
+      "summary": "CVE ID :CVE-2026-7849\n  \n  Published : July 30, 2026, 7:16 a.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Due to improper neutralization of special e...",
+      "timestamp": 1785395819.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-47882 - Spring Boot DevTools remote secret generated with a non-cryptographic PRNG",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47882",
-      "summary": "CVE ID :CVE-2026-47882\n  \n  Published : July 30, 2026, 6:25 a.m. | 12\u00a0minutes ago\n  \n  Description :When enabling Spring Boot DevTools support for a r...",
-      "timestamp": 1785392752.0,
+      "title": "CVE-2026-44108 - Firewall bypass during shutdown",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44108",
+      "summary": "CVE ID :CVE-2026-44108\n  \n  Published : July 30, 2026, 7:16 a.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Due to a flaw in the execution order of sc...",
+      "timestamp": 1785395819.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-47873 - Spring Tools Docker integration publishes unauthenticated debug (JDWP) and JMX ports on all network interfaces",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47873",
-      "summary": "CVE ID :CVE-2026-47873\n  \n  Published : July 30, 2026, 6:25 a.m. | 12\u00a0minutes ago\n  \n  Description :The Boot Dashboard Docker integration in Spring To...",
-      "timestamp": 1785392752.0,
+      "title": "CVE-2026-44107 - Exposed Reboot via Modbus",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44107",
+      "summary": "CVE ID :CVE-2026-44107\n  \n  Published : July 30, 2026, 7:16 a.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :A reboot of the charging controller can be...",
+      "timestamp": 1785395819.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-47858 - live information startup mode is vulnerable for remote code execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47858",
-      "summary": "CVE ID :CVE-2026-47858\n  \n  Published : July 30, 2026, 6:25 a.m. | 12\u00a0minutes ago\n  \n  Description :Starting Spring Boot applications in the Spring To...",
-      "timestamp": 1785392752.0,
+      "title": "CVE-2026-44106 - Local Privilege Escalation vulnerability in /etc/init.d/user-applications via customer website file",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44106",
+      "summary": "CVE ID :CVE-2026-44106\n  \n  Published : July 30, 2026, 7:16 a.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :A privilege escalation vulnerability in th...",
+      "timestamp": 1785395819.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-16526 - Pcp: pcp: privilege escalation to root via linux_sockets pmda vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16526",
-      "summary": "CVE ID :CVE-2026-16526\n  \n  Published : July 30, 2026, 6:25 a.m. | 13\u00a0minutes ago\n  \n  Description :A flaw in the PCP linux_sockets module exposes an ...",
-      "timestamp": 1785392702.0,
+      "title": "CVE-2026-44104 - ControllerAgent does not perform validation of firmware",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44104",
+      "summary": "CVE ID :CVE-2026-44104\n  \n  Published : July 30, 2026, 7:16 a.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :The firmware update process for the basemo...",
+      "timestamp": 1785395818.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-67248 - A stack-based buffer overflow vulnerability was found in the File Explorer on the ADM",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67248",
-      "summary": "CVE ID :CVE-2026-67248\n  \n  Published : July 30, 2026, 5:16 a.m. | 1\u00a0hour, 21\u00a0minutes ago\n  \n  Description :A stack-based buffer overflow vulnerabilit...",
-      "timestamp": 1785388599.0,
+      "title": "CVE-2026-44101 - OCPP reconfiguration vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44101",
+      "summary": "CVE ID :CVE-2026-44101\n  \n  Published : July 30, 2026, 7:16 a.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :Due to missing authentication the CHARX OC...",
+      "timestamp": 1785395818.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-16610 - Admin and Site Enhancements (ASE) Pro <= 8.9.0 - Unauthenticated Remote Code Execution via PHP Code Injection via cfgroup[input] Repeater Row Key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16610",
-      "summary": "CVE ID :CVE-2026-16610\n  \n  Published : July 30, 2026, 5:16 a.m. | 1\u00a0hour, 21\u00a0minutes ago\n  \n  Description :The Admin and Site Enhancements (ASE) Pro ...",
-      "timestamp": 1785388594.0,
+      "title": "CVE-2026-44100 - JupiCore charging point reconfiguration without auth",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44100",
+      "summary": "CVE ID :CVE-2026-44100\n  \n  Published : July 30, 2026, 7:16 a.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :The CHARX JupiCore service allows an unaut...",
+      "timestamp": 1785395818.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-14356 - FleekDash V2 <= 2.6.2.2 - Missing Authorization to Authenticated (Subscriber+) Administrator Account Takeover via /users/{id} REST Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14356",
-      "summary": "CVE ID :CVE-2026-14356\n  \n  Published : July 30, 2026, 5:16 a.m. | 1\u00a0hour, 21\u00a0minutes ago\n  \n  Description :The FleekDash V2 plugin for WordPress is v...",
-      "timestamp": 1785388592.0,
+      "title": "CVE-2026-44099 - Local Privilege Escalation via pppd password injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44099",
+      "summary": "CVE ID :CVE-2026-44099\n  \n  Published : July 30, 2026, 7:16 a.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :A privilege escalation vulnerability in th...",
+      "timestamp": 1785395818.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-67244 - A format string vulnerability was found in the Notification OAuth settings of ADM",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67244",
-      "summary": "CVE ID :CVE-2026-67244\n  \n  Published : July 30, 2026, 3:16 a.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :A format string vulnerability was found i...",
-      "timestamp": 1785381385.0,
+      "title": "CVE-2026-44098 - OS Command Injection in OCPP Agent via charge_box_id",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44098",
+      "summary": "CVE ID :CVE-2026-44098\n  \n  Published : July 30, 2026, 7:16 a.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :This vulnerability allows an unauthenticat...",
+      "timestamp": 1785395817.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785396065.656677
+  "last_updated": 1785405932.0606446
 }
