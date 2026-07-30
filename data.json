@@ -3,8 +3,8 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
-      "total_count": 10,
+      "new_count": 0,
+      "total_count": 0,
       "status": "ok"
     },
     {
@@ -59,148 +59,92 @@
   ],
   "articles": [
     {
-      "title": "Microsoft Teams vishing attacks lead to Chaos ransomware attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
-      "summary": "Threat actors are impersonating IT support staff in Microsoft Teams calls to gain remote access to corporate devices and deploy Chaos ransomware in at...",
-      "timestamp": 1785426993.0,
-      "source": "BleepingComputer",
+      "title": "Read This Before You Buy That TV Streaming Stick",
+      "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
+      "timestamp": 1785430140.0,
+      "source": "Krebs on Security",
       "vendor": "News"
     },
     {
-      "title": "Analog Devices discloses data breach, says operations unaffected",
-      "link": "https://www.bleepingcomputer.com/news/security/analog-devices-discloses-data-breach-says-operations-unaffected/",
-      "summary": "American semiconductor company Analog Devices announced that an unauthorized party accessed some of its systems and exfiltrated certain files. [...]",
-      "timestamp": 1785424345.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-67351 - Serendipity < 2.6.1 Authentication Bypass via Username Collision",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67351",
-      "summary": "CVE ID :CVE-2026-67351\n  \n  Published : July 30, 2026, 2:17 p.m. | 16\u00a0minutes ago\n  \n  Description :Serendipity before 2.6.1 contains an authenticatio...",
-      "timestamp": 1785421024.0,
+      "title": "CVE-2026-12940 - Langflow is affected by remote code execution due to multiple unauthenticated and insufficiently authorized API endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12940",
+      "summary": "CVE ID :CVE-2026-12940\n  \n  Published : July 30, 2026, 4:41 p.m. | 23\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.1\u00a0 are vulnera...",
+      "timestamp": 1785429714.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-5219 - CSRF in Softtr's E-Commerce Pack",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5219",
-      "summary": "CVE ID :CVE-2026-5219\n  \n  Published : July 30, 2026, 2:17 p.m. | 16\u00a0minutes ago\n  \n  Description :Cross-Site request forgery (CSRF) vulnerability in ...",
-      "timestamp": 1785421021.0,
+      "title": "CVE-2026-11885 - Power System update in Buffer Copy",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11885",
+      "summary": "CVE ID :CVE-2026-11885\n  \n  Published : July 30, 2026, 4:38 p.m. | 27\u00a0minutes ago\n  \n  Description :IBM PowerVM Hypervisor FW1110.00 through FW1110.20...",
+      "timestamp": 1785429505.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-56428 - BSH ELP Module Improper Authentication Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56428",
-      "summary": "CVE ID :CVE-2026-56428\n  \n  Published : July 30, 2026, 2:16 p.m. | 16\u00a0minutes ago\n  \n  Description :The SSH service on BSH ELP (Electronic Platform) m...",
-      "timestamp": 1785421019.0,
+      "title": "CVE-2026-58222 - Samba: samba ad ldap compare filter injection and trusted-request confusion disclose protected attributes",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58222",
+      "summary": "CVE ID :CVE-2026-58222\n  \n  Published : July 30, 2026, 4:17 p.m. | 48\u00a0minutes ago\n  \n  Description :A security flaw combining LDAP filter injection an...",
+      "timestamp": 1785428234.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12722 - Authentication Bypass in FTC Software's E-Commerce Management Panel",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12722",
-      "summary": "CVE ID :CVE-2026-12722\n  \n  Published : July 30, 2026, 2:16 p.m. | 16\u00a0minutes ago\n  \n  Description :Missing authentication for critical function vulne...",
-      "timestamp": 1785421005.0,
+      "title": "CVE-2026-57862 - Kanboard 1.2.52 and prior SSRF Filter Bypass via Hexadecimal IP Notation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57862",
+      "summary": "CVE ID :CVE-2026-57862\n  \n  Published : July 30, 2026, 4:17 p.m. | 48\u00a0minutes ago\n  \n  Description :Kanboard 1.2.52 and prior contains a server-side r...",
+      "timestamp": 1785428234.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "After the Break-In: What Attackers Do Once They're Already Inside",
-      "link": "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/",
-      "summary": "Attackers rarely stop after gaining initial access. Huntress analyzes a real-world intrusion to show how threat actors establish persistence, disable ...",
-      "timestamp": 1785420071.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-59310 - vCenter directory-traversal vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59310",
-      "summary": "CVE ID :CVE-2026-59310\n  \n  Published : July 30, 2026, 1:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :VMware vCenter contains a directory traver...",
-      "timestamp": 1785417413.0,
+      "title": "CVE-2026-4978 - SQLi in UMAI Vision's Traffic Analysis System",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4978",
+      "summary": "CVE ID :CVE-2026-4978\n  \n  Published : July 30, 2026, 4:17 p.m. | 48\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements used in...",
+      "timestamp": 1785428232.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-59309 - vCenter authentication-bypass vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59309",
-      "summary": "CVE ID :CVE-2026-59309\n  \n  Published : July 30, 2026, 1:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :VMware vCenter contains an authentication ...",
-      "timestamp": 1785417413.0,
+      "title": "CVE-2026-28323 - SolarWinds Web Help Desk SAML Authentication Bypass Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28323",
+      "summary": "CVE ID :CVE-2026-28323\n  \n  Published : July 30, 2026, 4:17 p.m. | 48\u00a0minutes ago\n  \n  Description :SolarWinds Web Help Desk is found to be affected b...",
+      "timestamp": 1785428230.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-54368 - CentreStack < 17.4 SQL Injection via x-glad-filter Header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54368",
-      "summary": "CVE ID :CVE-2026-54368\n  \n  Published : July 30, 2026, 1:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :CentreStack before 17.4 contains a SQL inj...",
-      "timestamp": 1785417411.0,
+      "title": "CVE-2026-67349 - OpenCost < 1.121.0 Unauthenticated Helm Values Exposure and Admin Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67349",
+      "summary": "CVE ID :CVE-2026-67349\n  \n  Published : July 30, 2026, 3:16 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :OpenCost before 1.121.0 fails to authentic...",
+      "timestamp": 1785424596.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-54367 - CentreStack < 17.2 Unauthenticated API Authorization Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54367",
-      "summary": "CVE ID :CVE-2026-54367\n  \n  Published : July 30, 2026, 1:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :CentreStack before 17.2 contains an authen...",
-      "timestamp": 1785417411.0,
+      "title": "CVE-2026-67348 - Julep Insecure Direct Object Reference via GET /executions/{execution_id}",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67348",
+      "summary": "CVE ID :CVE-2026-67348\n  \n  Published : July 30, 2026, 3:16 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :Julep contains an insecure direct object r...",
+      "timestamp": 1785424596.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-54366 - CentreStack < 17.4 XXE via SharePoint Storage Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54366",
-      "summary": "CVE ID :CVE-2026-54366\n  \n  Published : July 30, 2026, 1:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :CentreStack before 17.4 contains an XML ex...",
-      "timestamp": 1785417411.0,
+      "title": "CVE-2026-67346 - Swarms 6.8.1 Server-Side Request Forgery via DNS Rebinding Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67346",
+      "summary": "CVE ID :CVE-2026-67346\n  \n  Published : July 30, 2026, 3:16 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :Swarms through 6.8.1, fixed in commit 8b0f...",
+      "timestamp": 1785424595.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-54365 - CentreStack < 17.3 Unauthenticated User Creation via Deserialization in GSNamespace.dll",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54365",
-      "summary": "CVE ID :CVE-2026-54365\n  \n  Published : July 30, 2026, 1:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :CentreStack before 17.3 contains an unauth...",
-      "timestamp": 1785417411.0,
+      "title": "CVE-2026-67345 - MaxKey 4.1.12 DefaultRedirectResolver OAuth Authorization Code Theft",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67345",
+      "summary": "CVE ID :CVE-2026-67345\n  \n  Published : July 30, 2026, 3:16 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :MaxKey through 4.1.12, fixed in commit ddb...",
+      "timestamp": 1785424595.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
-      "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/",
-      "summary": "The Russian state-sponsored hacking group Laundry Bear, also known as Void Blizzard, is exploiting an Exchange Outlook Web Access vulnerability in ema...",
-      "timestamp": 1785368647.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Anthropic confirms Claude is down worldwide",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
-      "summary": "Claude is down for some users, with Anthropic confirming elevated errors across multiple AI models.\u00a0The disruption is causing requests to fail with a ...",
-      "timestamp": 1785361169.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
-      "summary": "Cisco is warning that a high-severity Secure Firewall Management Center (FMC) static credential vulnerability, tracked as CVE-2026-20316, was actively...",
-      "timestamp": 1785360940.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
-      "link": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
-      "summary": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an ...",
-      "timestamp": 1785347645.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
-      "link": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
-      "summary": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recen...",
-      "timestamp": 1785341099.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "Cisco Secure Firewall Management Center Software Static Credential Vulnerability",
@@ -227,22 +171,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
-      "summary": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more...",
-      "timestamp": 1785336957.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
-      "link": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
-      "summary": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, in...",
-      "timestamp": 1785333732.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an alw...",
@@ -267,5 +195,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785428172.7283475
+  "last_updated": 1785433735.062
 }
