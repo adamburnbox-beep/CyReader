@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,72 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "After the Break-In: What Attackers Do Once They're Already Inside",
+      "link": "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/",
+      "summary": "Attackers rarely stop after gaining initial access. Huntress analyzes a real-world intrusion to show how threat actors establish persistence, disable ...",
+      "timestamp": 1785420071.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-17544 - Out-of-bounds write in bccomp() via crafted operand and scale",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17544",
+      "summary": "CVE ID :CVE-2026-17544\n  \n  Published : July 30, 2026, 12:17 p.m. | 16\u00a0minutes ago\n  \n  Description :Attacker-provided inputs to bccomp() could lead t...",
+      "timestamp": 1785413847.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-17543 - SQL injection in ext-pgsql via E'...' backslash breakout",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17543",
+      "summary": "CVE ID :CVE-2026-17543\n  \n  Published : July 30, 2026, 12:17 p.m. | 16\u00a0minutes ago\n  \n  Description :Improper escaping of backslashes in attacker-prov...",
+      "timestamp": 1785413847.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-22622 - Eaton Tripp Lite PADM Improper Input Validation Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22622",
+      "summary": "CVE ID :CVE-2026-22622\n  \n  Published : July 30, 2026, 11:16 a.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Improper input validation in one of the s...",
+      "timestamp": 1785410187.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-22621 - Eaton Tripp Lite Series PADM OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22621",
+      "summary": "CVE ID :CVE-2026-22621\n  \n  Published : July 30, 2026, 11:16 a.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Improper input validation in one of the s...",
+      "timestamp": 1785410187.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-22620 - Eaton Tripp Lite PADM Authentication Bypass Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22620",
+      "summary": "CVE ID :CVE-2026-22620\n  \n  Published : July 30, 2026, 11:16 a.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Improper input validation in the authenti...",
+      "timestamp": 1785410187.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18363 - Weak password recovery mechanism in osTicket by Enhancesoft LLC",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18363",
+      "summary": "CVE ID :CVE-2026-18363\n  \n  Published : July 30, 2026, 11:16 a.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :A logic vulnerability in the password res...",
+      "timestamp": 1785410186.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-18353 - Unauthenticated SSRF in PIA via OIDC issuer allowlist bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18353",
-      "summary": "CVE ID :CVE-2026-18353\n  \n  Published : July 30, 2026, 8:16 a.m. | 2\u00a0hours, 21\u00a0minutes ago\n  \n  Description :PIA's `POST /v1/upload/sbom` endpoint acc...",
+      "summary": "CVE ID :CVE-2026-18353\n  \n  Published : July 30, 2026, 8:16 a.m. | 4\u00a0hours, 17\u00a0minutes ago\n  \n  Description :PIA's `POST /v1/upload/sbom` endpoint acc...",
       "timestamp": 1785399388.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +125,7 @@
     {
       "title": "CVE-2026-7849 - Command Injection in SCM (idledisconnect parameter)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-7849",
-      "summary": "CVE ID :CVE-2026-7849\n  \n  Published : July 30, 2026, 7:16 a.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Due to improper neutralization of special ...",
+      "summary": "CVE ID :CVE-2026-7849\n  \n  Published : July 30, 2026, 7:16 a.m. | 5\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Due to improper neutralization of special ...",
       "timestamp": 1785395819.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +133,7 @@
     {
       "title": "CVE-2026-44108 - Firewall bypass during shutdown",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44108",
-      "summary": "CVE ID :CVE-2026-44108\n  \n  Published : July 30, 2026, 7:16 a.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Due to a flaw in the execution order of s...",
+      "summary": "CVE ID :CVE-2026-44108\n  \n  Published : July 30, 2026, 7:16 a.m. | 5\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Due to a flaw in the execution order of s...",
       "timestamp": 1785395819.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,56 +141,8 @@
     {
       "title": "CVE-2026-44107 - Exposed Reboot via Modbus",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-44107",
-      "summary": "CVE ID :CVE-2026-44107\n  \n  Published : July 30, 2026, 7:16 a.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :A reboot of the charging controller can b...",
+      "summary": "CVE ID :CVE-2026-44107\n  \n  Published : July 30, 2026, 7:16 a.m. | 5\u00a0hours, 16\u00a0minutes ago\n  \n  Description :A reboot of the charging controller can b...",
       "timestamp": 1785395819.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44106 - Local Privilege Escalation vulnerability in /etc/init.d/user-applications via customer website file",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44106",
-      "summary": "CVE ID :CVE-2026-44106\n  \n  Published : July 30, 2026, 7:16 a.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :A privilege escalation vulnerability in t...",
-      "timestamp": 1785395819.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44104 - ControllerAgent does not perform validation of firmware",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44104",
-      "summary": "CVE ID :CVE-2026-44104\n  \n  Published : July 30, 2026, 7:16 a.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :The firmware update process for the basem...",
-      "timestamp": 1785395818.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44101 - OCPP reconfiguration vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44101",
-      "summary": "CVE ID :CVE-2026-44101\n  \n  Published : July 30, 2026, 7:16 a.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Due to missing authentication the CHARX O...",
-      "timestamp": 1785395818.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44100 - JupiCore charging point reconfiguration without auth",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44100",
-      "summary": "CVE ID :CVE-2026-44100\n  \n  Published : July 30, 2026, 7:16 a.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :The CHARX JupiCore service allows an unau...",
-      "timestamp": 1785395818.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44099 - Local Privilege Escalation via pppd password injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44099",
-      "summary": "CVE ID :CVE-2026-44099\n  \n  Published : July 30, 2026, 7:16 a.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :A privilege escalation vulnerability in t...",
-      "timestamp": 1785395818.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44098 - OS Command Injection in OCPP Agent via charge_box_id",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44098",
-      "summary": "CVE ID :CVE-2026-44098\n  \n  Published : July 30, 2026, 7:16 a.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :This vulnerability allows an unauthentica...",
-      "timestamp": 1785395817.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -235,14 +243,6 @@
       "vendor": "News"
     },
     {
-      "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
-      "link": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
-      "summary": "CubePilot, an Australian firm that designs flight controllers for drones (UAVs), announced a severe operational disruption caused by a DNS hijacking a...",
-      "timestamp": 1785273459.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an alw...",
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785413001.6575003
+  "last_updated": 1785421818.9561577
 }
