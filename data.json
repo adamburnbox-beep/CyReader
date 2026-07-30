@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,60 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 6,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Microsoft Teams vishing attacks lead to Chaos ransomware attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-vishing-attacks-lead-to-chaos-ransomware-attacks/",
+      "summary": "Threat actors are impersonating IT support staff in Microsoft Teams calls to gain remote access to corporate devices and deploy Chaos ransomware in at...",
+      "timestamp": 1785426993.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Analog Devices discloses data breach, says operations unaffected",
+      "link": "https://www.bleepingcomputer.com/news/security/analog-devices-discloses-data-breach-says-operations-unaffected/",
+      "summary": "American semiconductor company Analog Devices announced that an unauthorized party accessed some of its systems and exfiltrated certain files. [...]",
+      "timestamp": 1785424345.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-67351 - Serendipity < 2.6.1 Authentication Bypass via Username Collision",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67351",
+      "summary": "CVE ID :CVE-2026-67351\n  \n  Published : July 30, 2026, 2:17 p.m. | 16\u00a0minutes ago\n  \n  Description :Serendipity before 2.6.1 contains an authenticatio...",
+      "timestamp": 1785421024.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-5219 - CSRF in Softtr's E-Commerce Pack",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5219",
+      "summary": "CVE ID :CVE-2026-5219\n  \n  Published : July 30, 2026, 2:17 p.m. | 16\u00a0minutes ago\n  \n  Description :Cross-Site request forgery (CSRF) vulnerability in ...",
+      "timestamp": 1785421021.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56428 - BSH ELP Module Improper Authentication Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56428",
+      "summary": "CVE ID :CVE-2026-56428\n  \n  Published : July 30, 2026, 2:16 p.m. | 16\u00a0minutes ago\n  \n  Description :The SSH service on BSH ELP (Electronic Platform) m...",
+      "timestamp": 1785421019.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12722 - Authentication Bypass in FTC Software's E-Commerce Management Panel",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12722",
+      "summary": "CVE ID :CVE-2026-12722\n  \n  Published : July 30, 2026, 2:16 p.m. | 16\u00a0minutes ago\n  \n  Description :Missing authentication for critical function vulne...",
+      "timestamp": 1785421005.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "After the Break-In: What Attackers Do Once They're Already Inside",
       "link": "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/",
@@ -67,82 +115,50 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-17544 - Out-of-bounds write in bccomp() via crafted operand and scale",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17544",
-      "summary": "CVE ID :CVE-2026-17544\n  \n  Published : July 30, 2026, 12:17 p.m. | 16\u00a0minutes ago\n  \n  Description :Attacker-provided inputs to bccomp() could lead t...",
-      "timestamp": 1785413847.0,
+      "title": "CVE-2026-59310 - vCenter directory-traversal vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59310",
+      "summary": "CVE ID :CVE-2026-59310\n  \n  Published : July 30, 2026, 1:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :VMware vCenter contains a directory traver...",
+      "timestamp": 1785417413.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-17543 - SQL injection in ext-pgsql via E'...' backslash breakout",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17543",
-      "summary": "CVE ID :CVE-2026-17543\n  \n  Published : July 30, 2026, 12:17 p.m. | 16\u00a0minutes ago\n  \n  Description :Improper escaping of backslashes in attacker-prov...",
-      "timestamp": 1785413847.0,
+      "title": "CVE-2026-59309 - vCenter authentication-bypass vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59309",
+      "summary": "CVE ID :CVE-2026-59309\n  \n  Published : July 30, 2026, 1:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :VMware vCenter contains an authentication ...",
+      "timestamp": 1785417413.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-22622 - Eaton Tripp Lite PADM Improper Input Validation Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22622",
-      "summary": "CVE ID :CVE-2026-22622\n  \n  Published : July 30, 2026, 11:16 a.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Improper input validation in one of the s...",
-      "timestamp": 1785410187.0,
+      "title": "CVE-2026-54368 - CentreStack < 17.4 SQL Injection via x-glad-filter Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54368",
+      "summary": "CVE ID :CVE-2026-54368\n  \n  Published : July 30, 2026, 1:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :CentreStack before 17.4 contains a SQL inj...",
+      "timestamp": 1785417411.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-22621 - Eaton Tripp Lite Series PADM OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22621",
-      "summary": "CVE ID :CVE-2026-22621\n  \n  Published : July 30, 2026, 11:16 a.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Improper input validation in one of the s...",
-      "timestamp": 1785410187.0,
+      "title": "CVE-2026-54367 - CentreStack < 17.2 Unauthenticated API Authorization Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54367",
+      "summary": "CVE ID :CVE-2026-54367\n  \n  Published : July 30, 2026, 1:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :CentreStack before 17.2 contains an authen...",
+      "timestamp": 1785417411.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-22620 - Eaton Tripp Lite PADM Authentication Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22620",
-      "summary": "CVE ID :CVE-2026-22620\n  \n  Published : July 30, 2026, 11:16 a.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Improper input validation in the authenti...",
-      "timestamp": 1785410187.0,
+      "title": "CVE-2026-54366 - CentreStack < 17.4 XXE via SharePoint Storage Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54366",
+      "summary": "CVE ID :CVE-2026-54366\n  \n  Published : July 30, 2026, 1:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :CentreStack before 17.4 contains an XML ex...",
+      "timestamp": 1785417411.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-18363 - Weak password recovery mechanism in osTicket by Enhancesoft LLC",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18363",
-      "summary": "CVE ID :CVE-2026-18363\n  \n  Published : July 30, 2026, 11:16 a.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :A logic vulnerability in the password res...",
-      "timestamp": 1785410186.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18353 - Unauthenticated SSRF in PIA via OIDC issuer allowlist bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18353",
-      "summary": "CVE ID :CVE-2026-18353\n  \n  Published : July 30, 2026, 8:16 a.m. | 4\u00a0hours, 17\u00a0minutes ago\n  \n  Description :PIA's `POST /v1/upload/sbom` endpoint acc...",
-      "timestamp": 1785399388.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-7849 - Command Injection in SCM (idledisconnect parameter)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7849",
-      "summary": "CVE ID :CVE-2026-7849\n  \n  Published : July 30, 2026, 7:16 a.m. | 5\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Due to improper neutralization of special ...",
-      "timestamp": 1785395819.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44108 - Firewall bypass during shutdown",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44108",
-      "summary": "CVE ID :CVE-2026-44108\n  \n  Published : July 30, 2026, 7:16 a.m. | 5\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Due to a flaw in the execution order of s...",
-      "timestamp": 1785395819.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44107 - Exposed Reboot via Modbus",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44107",
-      "summary": "CVE ID :CVE-2026-44107\n  \n  Published : July 30, 2026, 7:16 a.m. | 5\u00a0hours, 16\u00a0minutes ago\n  \n  Description :A reboot of the charging controller can b...",
-      "timestamp": 1785395819.0,
+      "title": "CVE-2026-54365 - CentreStack < 17.3 Unauthenticated User Creation via Deserialization in GSNamespace.dll",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54365",
+      "summary": "CVE ID :CVE-2026-54365\n  \n  Published : July 30, 2026, 1:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :CentreStack before 17.3 contains an unauth...",
+      "timestamp": 1785417411.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -227,22 +243,6 @@
       "vendor": "News"
     },
     {
-      "title": "Windows 11 KB5101684 update released with 42 changes and fixes",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/",
-      "summary": "\u200b\u200bMicrosoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements ...",
-      "timestamp": 1785333382.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "These near-mint ASUS Chromebook refurbs are only $145",
-      "link": "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/",
-      "summary": "Buying a new computer in 2026 is a unique experience. Rather than deal with incredibly high tech prices, more shoppers are opting for high-quality ref...",
-      "timestamp": 1785323539.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "LG to Ban Residential Proxies from Smart TV Apps",
       "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
       "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an alw...",
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785421818.9561577
+  "last_updated": 1785428172.7283475
 }
