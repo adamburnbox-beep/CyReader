@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,44 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Amgen says cloud data breach exposed patient health, proprietary info",
+      "link": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
+      "summary": "Pharmaceutical company Amgen says it suffered a data breach after threat actors stole corporate data and patient information stored in multiple cloud ...",
+      "timestamp": 1785536202.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Arch Linux disables AUR package adoption to stop malware flood",
+      "link": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/",
+      "summary": "The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packa...",
+      "timestamp": 1785533888.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-68770 - sentence-transformers Arbitrary Code Execution on Local Model Load Despite trust_remote_code=False",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68770",
+      "summary": "CVE ID :CVE-2026-68770\n  \n  Published : July 31, 2026, 9:17 p.m. | 35\u00a0minutes ago\n  \n  Description :sentence-transformers contains a security control ...",
+      "timestamp": 1785532652.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-68771 - ComfyUI 0.23.0 Unauthenticated RCE via LoadTrainingDataset Pickle Deserialization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68771",
+      "summary": "CVE ID :CVE-2026-68771\n  \n  Published : July 31, 2026, 9:16 p.m. | 36\u00a0minutes ago\n  \n  Description :ComfyUI v0.23.0 contains an unsafe deserialization...",
+      "timestamp": 1785532569.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Online ad firm Adform\u2019s script compromised to steal cryptocurrency",
       "link": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
@@ -65,6 +97,22 @@
       "timestamp": 1785532165.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-62959 - Coturn: Pre-authentication heap memory disclosure in ACME redirect (`try_acme_redirect`)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62959",
+      "summary": "CVE ID :CVE-2026-62959\n  \n  Published : July 31, 2026, 8:16 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :Coturn is a free open source implementatio...",
+      "timestamp": 1785529013.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53510 - Savon::Model evaluates WSDL operation names as Ruby source",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53510",
+      "summary": "CVE ID :CVE-2026-53510\n  \n  Published : July 31, 2026, 8:16 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :Savon is a Ruby SOAP client. From 0.9.8 un...",
+      "timestamp": 1785529011.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
@@ -85,7 +133,7 @@
     {
       "title": "CVE-2026-53502 - Thumbor has path traversal via post-validation URL decoding bypass in file_loader",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53502",
-      "summary": "CVE ID :CVE-2026-53502\n  \n  Published : July 31, 2026, 7:17 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Thumbor is an open-source photo thumbnail s...",
+      "summary": "CVE ID :CVE-2026-53502\n  \n  Published : July 31, 2026, 7:17 p.m. | 2\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Thumbor is an open-source photo thumbnail...",
       "timestamp": 1785525429.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +141,7 @@
     {
       "title": "CVE-2026-53501 - Thumbor has HMAC validation bypass via multiple .replace() calls when removing URL signature",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53501",
-      "summary": "CVE ID :CVE-2026-53501\n  \n  Published : July 31, 2026, 7:17 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Thumbor is an open-source photo thumbnail s...",
+      "summary": "CVE ID :CVE-2026-53501\n  \n  Published : July 31, 2026, 7:17 p.m. | 2\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Thumbor is an open-source photo thumbnail...",
       "timestamp": 1785525429.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +149,7 @@
     {
       "title": "CVE-2026-53500 - Thumbor treats ALLOWED_SOURCES string patterns as unescaped regex, allowing hostname bypass via wildcard dot",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-53500",
-      "summary": "CVE ID :CVE-2026-53500\n  \n  Published : July 31, 2026, 7:17 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Thumbor is an open-source photo thumbnail s...",
+      "summary": "CVE ID :CVE-2026-53500\n  \n  Published : July 31, 2026, 7:17 p.m. | 2\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Thumbor is an open-source photo thumbnail...",
       "timestamp": 1785525429.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +165,7 @@
     {
       "title": "CVE-2026-55100 - hashi-vault-js has a path traversal and query parameter injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55100",
-      "summary": "CVE ID :CVE-2026-55100\n  \n  Published : July 31, 2026, 6:17 p.m. | 2\u00a0hours, 3\u00a0minutes ago\n  \n  Description :hashi-vault-js is a Node.js module for int...",
+      "summary": "CVE ID :CVE-2026-55100\n  \n  Published : July 31, 2026, 6:17 p.m. | 3\u00a0hours, 35\u00a0minutes ago\n  \n  Description :hashi-vault-js is a Node.js module for in...",
       "timestamp": 1785521837.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +173,7 @@
     {
       "title": "CVE-2026-54729 - dssrf: any users using 1.1.1.1 DNS is impacted by SSRF",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54729",
-      "summary": "CVE ID :CVE-2026-54729\n  \n  Published : July 31, 2026, 6:17 p.m. | 2\u00a0hours, 3\u00a0minutes ago\n  \n  Description :DSSRF is a Node.js library that provides a...",
+      "summary": "CVE ID :CVE-2026-54729\n  \n  Published : July 31, 2026, 6:17 p.m. | 3\u00a0hours, 35\u00a0minutes ago\n  \n  Description :DSSRF is a Node.js library that provides ...",
       "timestamp": 1785521837.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,7 +181,7 @@
     {
       "title": "CVE-2026-54725 - vault-addr annotation SSRF -- webhook makes outbound HTTP call to attacker URL during admission; vault-serviceaccount enables cluster-wide SA token theft via TokenRequest API",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54725",
-      "summary": "CVE ID :CVE-2026-54725\n  \n  Published : July 31, 2026, 6:17 p.m. | 2\u00a0hours, 3\u00a0minutes ago\n  \n  Description :vault-secrets-webhook is a Kubernetes muta...",
+      "summary": "CVE ID :CVE-2026-54725\n  \n  Published : July 31, 2026, 6:17 p.m. | 3\u00a0hours, 35\u00a0minutes ago\n  \n  Description :vault-secrets-webhook is a Kubernetes mut...",
       "timestamp": 1785521837.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -147,44 +195,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-67822 - Tenda W6-S Stack-based Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67822",
-      "summary": "CVE ID :CVE-2026-67822\n  \n  Published : July 31, 2026, 5:16 p.m. | 3\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Tenda W6-S 1.0.0.4(510) contains a stack-b...",
-      "timestamp": 1785518195.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58048 - cPanel SQL Mode Improper Preservation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58048",
-      "summary": "CVE ID :CVE-2026-58048\n  \n  Published : July 31, 2026, 5:16 p.m. | 3\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Improper preservation of SQL mode when ren...",
-      "timestamp": 1785518194.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52855 - Wings exposes node configuration secrets through egg configuration-file templating",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52855",
-      "summary": "CVE ID :CVE-2026-52855\n  \n  Published : July 31, 2026, 5:16 p.m. | 3\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Wings is the server control plane for Pter...",
-      "timestamp": 1785518193.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CISA warns of cyberattacks disrupting U.S. water utilities",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a significant increase in attacks targeting internet-exposed programmab...",
       "timestamp": 1785516589.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-18141 - Aap-gateway: aap-gateway: authentication bypass in event-driven ansible via forged http header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18141",
-      "summary": "CVE ID :CVE-2026-18141\n  \n  Published : July 31, 2026, 4:17 p.m. | 4\u00a0hours, 3\u00a0minutes ago\n  \n  Description :A flaw was found in aap-gateway, a compone...",
-      "timestamp": 1785514625.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "ESET tracks rise in malicious AI skills and adaptable malware",
@@ -215,22 +231,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/",
       "summary": "JetBrains is warning of a critical authentication bypass vulnerability affecting TeamCity On-Premises that could be exploited to achieve remote code e...",
       "timestamp": 1785448891.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Amazon links Debug, Chalk NPM supply-chain attacks to North Korean hackers",
-      "link": "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/",
-      "summary": "Amazon linked multiple high-profile open-source software supply chain attacks targeting the Node Package Manager (npm) ecosystem to North Korean hacke...",
-      "timestamp": 1785435204.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "VMware fixes three critical flaws allowing auth bypass, VM escapes",
-      "link": "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/",
-      "summary": "Broadcom has released security updates to fix five vulnerabilities in VMware vCenter, ESX, Workstation, and Fusion, including three critical flaws tha...",
-      "timestamp": 1785434451.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -275,5 +275,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785532880.9444675
+  "last_updated": 1785537634.8563325
 }
