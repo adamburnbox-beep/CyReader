@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 5,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,89 +52,121 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-10079 - Stackrox: stackrox: deploy-time policy enforcement and visibility bypass via label injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10079",
-      "summary": "CVE ID :CVE-2026-10079\n  \n  Published : July 31, 2026, 10:16 a.m. | 22\u00a0minutes ago\n  \n  Description :A flaw was found in Red Hat Advanced Cluster Secu...",
-      "timestamp": 1785493003.0,
+      "title": "CISA warns of cyberattacks disrupting U.S. water utilities",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a significant increase in attacks targeting internet-exposed programmab...",
+      "timestamp": 1785516589.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-67607 - LightFTP 2.3.1 Race Condition DoS via worker_thread_cleanup",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67607",
+      "summary": "CVE ID :CVE-2026-67607\n  \n  Published : July 31, 2026, 4:17 p.m. | 16\u00a0minutes ago\n  \n  Description :LightFTP 2.3.1 contains a race condition vulnerabi...",
+      "timestamp": 1785514631.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-65313 - Use of hard-coded VNC credentials in the engineering-workstation provisioning",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65313",
-      "summary": "CVE ID :CVE-2026-65313\n  \n  Published : July 31, 2026, 9:16 a.m. | 1\u00a0hour, 21\u00a0minutes ago\n  \n  Description :A provisioning script used when installing...",
-      "timestamp": 1785489419.0,
+      "title": "CVE-2026-18141 - Aap-gateway: aap-gateway: authentication bypass in event-driven ansible via forged http header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18141",
+      "summary": "CVE ID :CVE-2026-18141\n  \n  Published : July 31, 2026, 4:17 p.m. | 17\u00a0minutes ago\n  \n  Description :A flaw was found in aap-gateway, a component of An...",
+      "timestamp": 1785514625.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-18452 - Rich Source\uff5cDMS+ (Non-Mobile) - Use of Hard-coded Credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18452",
-      "summary": "CVE ID :CVE-2026-18452\n  \n  Published : July 31, 2026, 7:16 a.m. | 3\u00a0hours, 22\u00a0minutes ago\n  \n  Description :DMS+ (Non-Mobile) developed by Rich Sourc...",
-      "timestamp": 1785482187.0,
+      "title": "CVE-2026-17566 - pgAdmin 4: RCE via backslash-escape mismatch in Import/Export Data query guard (incomplete defense, sibling gap to CVE-2025-13780)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17566",
+      "summary": "CVE ID :CVE-2026-17566\n  \n  Published : July 31, 2026, 4:17 p.m. | 17\u00a0minutes ago\n  \n  Description :pgAdmin 4's Import/Export Data tool builds a psql ...",
+      "timestamp": 1785514620.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-16236 - Realtyna Organic IDX plugin + WPL Real Estate <= 5.3.0 - Authenticated (Subscriber+) Arbitrary File Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16236",
-      "summary": "CVE ID :CVE-2026-16236\n  \n  Published : July 31, 2026, 7:16 a.m. | 3\u00a0hours, 22\u00a0minutes ago\n  \n  Description :The Realtyna Organic IDX plugin for WordP...",
-      "timestamp": 1785482187.0,
+      "title": "CVE-2026-17351 - pgAdmin 4: AI Assistant read-only transaction bypass via sqlparse/PostgreSQL lexer disagreement (incomplete fix for CVE-2026-12045)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17351",
+      "summary": "CVE ID :CVE-2026-17351\n  \n  Published : July 31, 2026, 4:16 p.m. | 17\u00a0minutes ago\n  \n  Description :The fix for CVE-2026-12045 in pgAdmin 4 9.16 requi...",
+      "timestamp": 1785514619.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-14483 - Realtyna Organic IDX plugin + WPL Real Estate <= 5.2.0 - Unauthenticated Arbitrary File Upload via 'files[file]' Parameter via Public I/O 'set_property' Command",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14483",
-      "summary": "CVE ID :CVE-2026-14483\n  \n  Published : July 31, 2026, 7:16 a.m. | 3\u00a0hours, 22\u00a0minutes ago\n  \n  Description :The Realtyna Organic IDX plugin + WPL Rea...",
-      "timestamp": 1785482184.0,
+      "title": "CVE-2026-17349 - pgAdmin 4: Adhoc server clone leaks another user's stored database credentials and ownership to a non-owner",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17349",
+      "summary": "CVE ID :CVE-2026-17349\n  \n  Published : July 31, 2026, 4:16 p.m. | 17\u00a0minutes ago\n  \n  Description :/misc/workspace/adhoc_connect_server, part of the ...",
+      "timestamp": 1785514619.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-63223 - CodeIgniter: Uploaded file extension validation bypass in is_image and mime_in rules",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63223",
-      "summary": "CVE ID :CVE-2026-63223\n  \n  Published : July 31, 2026, 6:16 a.m. | 4\u00a0hours, 22\u00a0minutes ago\n  \n  Description :CodeIgniter is a PHP full-stack web frame...",
-      "timestamp": 1785478592.0,
+      "title": "CVE-2026-17346 - pgAdmin 4: SQL injection via unescaped object names in index Statistics and publication/subscription dependency views (incomplete fix for CVE-2026-12044)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17346",
+      "summary": "CVE ID :CVE-2026-17346\n  \n  Published : July 31, 2026, 4:16 p.m. | 17\u00a0minutes ago\n  \n  Description :The fix for CVE-2026-12044 in pgAdmin 4 9.16 harde...",
+      "timestamp": 1785514618.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-63221 - CodeIgniter: SQL injection is possible via Query Builder deleteBatch() when used with where() conditions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63221",
-      "summary": "CVE ID :CVE-2026-63221\n  \n  Published : July 31, 2026, 6:16 a.m. | 4\u00a0hours, 22\u00a0minutes ago\n  \n  Description :CodeIgniter is a PHP full-stack web frame...",
-      "timestamp": 1785478591.0,
+      "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypa...",
+      "timestamp": 1785512441.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Secure Firewall Management Center Software Static Credential Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Static%20Credential%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to log ...",
+      "timestamp": 1785512440.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "ESET tracks rise in malicious AI skills and adaptable malware",
+      "link": "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/",
+      "summary": "Attackers are adapting established techniques to AI platforms, emerging technologies, and changing user behavior. ESET's new threat report examines th...",
+      "timestamp": 1785506471.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-17561 - Unauthenticated RCE in Innotim Software's Logsign SIEM",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17561",
+      "summary": "CVE ID :CVE-2026-17561\n  \n  Published : July 31, 2026, 1:17 p.m. | 3\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Improper Control of Generation of Code ('...",
+      "timestamp": 1785503839.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-56672 - ComfyUI: Stored XSS via /userdata/{file} due to Missing Content-Type Sanitization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56672",
-      "summary": "CVE ID :CVE-2026-56672\n  \n  Published : July 31, 2026, 6:16 a.m. | 4\u00a0hours, 22\u00a0minutes ago\n  \n  Description :ComfyUI is a node-based diffusion model G...",
-      "timestamp": 1785478590.0,
+      "title": "CVE-2026-46593 - Authenticated SQL Injection in PHP Poll Script",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46593",
+      "summary": "CVE ID :CVE-2026-46593\n  \n  Published : July 31, 2026, 12:16 p.m. | 4\u00a0hours, 17\u00a0minutes ago\n  \n  Description :A SQL injection vulnerability has been i...",
+      "timestamp": 1785500210.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-56670 - ComfyUI: Stored XSS via SVG file upload on the /view endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56670",
-      "summary": "CVE ID :CVE-2026-56670\n  \n  Published : July 31, 2026, 6:16 a.m. | 4\u00a0hours, 22\u00a0minutes ago\n  \n  Description :ComfyUI is a modular diffusion model GUI,...",
-      "timestamp": 1785478587.0,
+      "title": "CVE-2025-67650 - Authenticated SQL Injection in PHP Jabbers scripts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-67650",
+      "summary": "CVE ID :CVE-2025-67650\n  \n  Published : July 31, 2026, 12:16 p.m. | 4\u00a0hours, 17\u00a0minutes ago\n  \n  Description :An authenticated SQL injection vulnerabi...",
+      "timestamp": 1785500208.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-43832 - tbc",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-43832",
-      "summary": "CVE ID :CVE-2026-43832\n  \n  Published : July 31, 2026, 4:17 a.m. | 6\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Full details and mitigation steps are cur...",
-      "timestamp": 1785471442.0,
+      "title": "CVE-2025-67649 - Unauthenticated  SQL Injection in PHP Jabbers - Car Rental Script script",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-67649",
+      "summary": "CVE ID :CVE-2025-67649\n  \n  Published : July 31, 2026, 12:16 p.m. | 4\u00a0hours, 17\u00a0minutes ago\n  \n  Description :A SQL injection vulnerability has been i...",
+      "timestamp": 1785500208.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -211,42 +243,10 @@
       "vendor": "News"
     },
     {
-      "title": "Analog Devices discloses data breach, says operations unaffected",
-      "link": "https://www.bleepingcomputer.com/news/security/analog-devices-discloses-data-breach-says-operations-unaffected/",
-      "summary": "American semiconductor company Analog Devices announced that an unauthorized party accessed some of its systems and exfiltrated certain files. [...]",
-      "timestamp": 1785424345.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "After the Break-In: What Attackers Do Once They're Already Inside",
-      "link": "https://www.bleepingcomputer.com/news/security/after-the-break-in-what-attackers-do-once-theyre-already-inside/",
-      "summary": "Attackers rarely stop after gaining initial access. Huntress analyzes a real-world intrusion to show how threat actors establish persistence, disable ...",
-      "timestamp": 1785420071.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cisco Secure Firewall Management Center Software Static Credential Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Static%20Credential%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to log ...",
-      "timestamp": 1785340800.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of August 5, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-L4XfJg8S?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%205,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On August 5, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information al...",
       "timestamp": 1785340800.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Secure Firewall Management Center Software Authentication Bypass  Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypa...",
-      "timestamp": 1785340540.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
     },
@@ -275,5 +275,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785500147.549656
+  "last_updated": 1785516939.096218
 }
