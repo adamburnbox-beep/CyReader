@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,81 +52,97 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-16635 - Pronamic Pay <= 10.1.0 - Authenticated (Subscriber+) Privilege Escalation via Gravity Forms 'Update user role' Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16635",
-      "summary": "CVE ID :CVE-2026-16635\n  \n  Published : Aug. 1, 2026, 9:17 a.m. | 3\u00a0hours, 15\u00a0minutes ago\n  \n  Description :The Pronamic Pay plugin for WordPress is v...",
-      "timestamp": 1785575820.0,
+      "title": "Rails patches critical Active Storage flaw with RCE potential",
+      "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+      "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and p...",
+      "timestamp": 1785594030.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-67355 - guzzlehttp/guzzle before 7.15.1 Host-only Cookie Scope",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67355",
+      "summary": "CVE ID :CVE-2026-67355\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 36\u00a0minutes ago\n  \n  Description :guzzlehttp/guzzle versions before 7.15.1 fail to pr...",
+      "timestamp": 1785590226.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-16144 - Kali Forms <= 2.4.20 - Unauthenticated Remote Code Execution via 'thisPermalink' Field Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16144",
-      "summary": "CVE ID :CVE-2026-16144\n  \n  Published : Aug. 1, 2026, 9:17 a.m. | 3\u00a0hours, 15\u00a0minutes ago\n  \n  Description :The Kali Forms \u2014 Contact Form & Drag-and-D...",
-      "timestamp": 1785575820.0,
+      "title": "CVE-2026-67354 - guzzlehttp/guzzle before 7.15.1 URI Fragment Disclosure via Referer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67354",
+      "summary": "CVE ID :CVE-2026-67354\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 36\u00a0minutes ago\n  \n  Description :guzzlehttp/guzzle versions before 7.15.1 contain an...",
+      "timestamp": 1785590226.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-15964 - Single Sign On For TNG <= 2.0.0 - Unauthenticated Privilege Escalation via Unverified Password Change",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15964",
-      "summary": "CVE ID :CVE-2026-15964\n  \n  Published : Aug. 1, 2026, 9:17 a.m. | 3\u00a0hours, 15\u00a0minutes ago\n  \n  Description :The Single Sign On For TNG plugin for Word...",
-      "timestamp": 1785575820.0,
+      "title": "CVE-2026-67344 - ArcadeDB before 26.7.2 Authentication Bypass via ALTER TYPE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67344",
+      "summary": "CVE ID :CVE-2026-67344\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 36\u00a0minutes ago\n  \n  Description :ArcadeDB before 26.7.2 fails to enforce the UPDATE_...",
+      "timestamp": 1785590225.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-15450 - NEX-Forms <= 9.2.3 -  Authenticated (Admin+) Arbitrary File Deletion via Path Traversal via 'location' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15450",
-      "summary": "CVE ID :CVE-2026-15450\n  \n  Published : Aug. 1, 2026, 9:16 a.m. | 3\u00a0hours, 15\u00a0minutes ago\n  \n  Description :The Nex Forms \u2013 Ultimate Form Builder \u2013 Li...",
-      "timestamp": 1785575819.0,
+      "title": "CVE-2026-67343 - ArcadeDB before 26.7.2 Cluster Token Disclosure via GET /api/v1/server",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67343",
+      "summary": "CVE ID :CVE-2026-67343\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 36\u00a0minutes ago\n  \n  Description :ArcadeDB versions before 26.7.2 fail to properly re...",
+      "timestamp": 1785590225.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-15988 - AI Engine <= 3.6.5 - Cross-Site Request Forgery to Privilege Escalation via REQUEST_URI Substring Match",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15988",
-      "summary": "CVE ID :CVE-2026-15988\n  \n  Published : Aug. 1, 2026, 8:16 a.m. | 4\u00a0hours, 15\u00a0minutes ago\n  \n  Description :The AI Engine \u2013 The Chatbot, AI Framework ...",
-      "timestamp": 1785572189.0,
+      "title": "CVE-2026-67342 - ArcadeDB before 26.7.2 Authorization Bypass via Database Handlers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67342",
+      "summary": "CVE ID :CVE-2026-67342\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 36\u00a0minutes ago\n  \n  Description :ArcadeDB versions before 26.7.2 contain an authoriz...",
+      "timestamp": 1785590225.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-3141 - FormGent <= 1.9.2- Missing Authorization to Unauthenticated Arbitrary File Deletion via 'file_token' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-3141",
-      "summary": "CVE ID :CVE-2026-3141\n  \n  Published : Aug. 1, 2026, 6:16 a.m. | 6\u00a0hours, 15\u00a0minutes ago\n  \n  Description :The FormGent plugin for WordPress is vulner...",
-      "timestamp": 1785564986.0,
+      "title": "CVE-2026-67341 - ArcadeDB before 26.7.2 Authorization Bypass via SQL DEFINE FUNCTION",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67341",
+      "summary": "CVE ID :CVE-2026-67341\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 36\u00a0minutes ago\n  \n  Description :ArcadeDB versions before 26.7.2 fail to enforce scr...",
+      "timestamp": 1785590225.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-15414 - Subscriptions for WooCommerce <= 2.0.0 - Authenticated (Contributor+) Privilege Escalation via '_wps_plan_user_role' Membership Plan Meta",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15414",
-      "summary": "CVE ID :CVE-2026-15414\n  \n  Published : Aug. 1, 2026, 3:16 a.m. | 9\u00a0hours, 15\u00a0minutes ago\n  \n  Description :The Subscriptions for WooCommerce plugin f...",
-      "timestamp": 1785554185.0,
+      "title": "CVE-2026-67340 - ArcadeDB before 26.7.2 Remote Code Execution via Trigger Scripts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67340",
+      "summary": "CVE ID :CVE-2026-67340\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 36\u00a0minutes ago\n  \n  Description :ArcadeDB before 26.7.2 (arcadedb-engine) allows tri...",
+      "timestamp": 1785590225.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-9044 - Command Injection Vulnerability in OpenVPN of TP-Link Archer AXE75",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9044",
-      "summary": "CVE ID :CVE-2026-9044\n  \n  Published : July 31, 2026, 11:17 p.m. | 13\u00a0hours, 14\u00a0minutes ago\n  \n  Description :An OS command injection vulnerability ex...",
-      "timestamp": 1785539846.0,
+      "title": "CVE-2026-67336 - better-auth before 1.6.11 Insecure Cryptographic Defaults via oidcProvider",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67336",
+      "summary": "CVE ID :CVE-2026-67336\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 36\u00a0minutes ago\n  \n  Description :better-auth versions before 1.6.11 contain insecure...",
+      "timestamp": 1785590224.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-68771 - ComfyUI 0.23.0 Unauthenticated RCE via LoadTrainingDataset Pickle Deserialization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68771",
-      "summary": "CVE ID :CVE-2026-68771\n  \n  Published : July 31, 2026, 10:17 p.m. | 14\u00a0hours, 15\u00a0minutes ago\n  \n  Description :ComfyUI v0.23.0 contains an unsafe dese...",
-      "timestamp": 1785536223.0,
+      "title": "CVE-2026-67331 - better-auth SCIM 1.5.0 before 1.7.0-beta.4 Authorization Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67331",
+      "summary": "CVE ID :CVE-2026-67331\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 36\u00a0minutes ago\n  \n  Description :better-auth SCIM versions from 1.5.0 before 1.7.0-b...",
+      "timestamp": 1785590223.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67330 - better-auth SCIM 1.4.0-beta.27 through 1.6.21 Account Takeover via Provider-ID Collision",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67330",
+      "summary": "CVE ID :CVE-2026-67330\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 36\u00a0minutes ago\n  \n  Description :@better-auth/scim (a better-auth plugin) versions >...",
+      "timestamp": 1785590223.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -145,14 +161,6 @@
       "timestamp": 1785533888.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-68770 - sentence-transformers Arbitrary Code Execution on Local Model Load Despite trust_remote_code=False",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68770",
-      "summary": "CVE ID :CVE-2026-68770\n  \n  Published : July 31, 2026, 9:17 p.m. | 15\u00a0hours, 14\u00a0minutes ago\n  \n  Description :sentence-transformers contains a securit...",
-      "timestamp": 1785532652.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Online ad firm Adform\u2019s script compromised to steal cryptocurrency",
@@ -227,14 +235,6 @@
       "vendor": "News"
     },
     {
-      "title": "JetBrains warns of critical TeamCity remote code execution flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/",
-      "summary": "JetBrains is warning of a critical authentication bypass vulnerability affecting TeamCity On-Premises that could be exploited to achieve remote code e...",
-      "timestamp": 1785448891.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
@@ -275,5 +275,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785592353.776076
+  "last_updated": 1785597327.7841372
 }
