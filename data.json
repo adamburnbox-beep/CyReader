@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,72 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Google Chrome may soon block New Tab hijacker extensions by default",
+      "link": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
+      "summary": "Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default...",
+      "timestamp": 1785680236.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-68582 - Vikunja 0.24.0 Broken Object Level Authorization via Link-Share Token",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68582",
+      "summary": "CVE ID :CVE-2026-68582\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :Vikunja versions >= 0.24.0 and <= 2.3.0 con...",
+      "timestamp": 1785676614.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-68581 - Vikunja 0.22.0 through 2.3.0 Authentication Bypass via Principal ID Collision",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68581",
+      "summary": "CVE ID :CVE-2026-68581\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :Vikunja versions 0.22.0 through 2.3.0 fail ...",
+      "timestamp": 1785676614.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-68579 - FreeRDP before 3.30.0 Heap Overflow via CliprdrStream_Read",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68579",
+      "summary": "CVE ID :CVE-2026-68579\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :FreeRDP before 3.30.0 (<= 3.29.0) contains ...",
+      "timestamp": 1785676613.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67356 - ArcadeDB before 26.7.3 Privilege Escalation via JavaScript Trigger",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67356",
+      "summary": "CVE ID :CVE-2026-67356\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :ArcadeDB before 26.7.3 binds the real Local...",
+      "timestamp": 1785676613.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-71401 - better-auth before 1.4.1 basePath Modification DoS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71401",
+      "summary": "CVE ID :CVE-2025-71401\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :better-auth (npm) before 1.4.2 allows an ex...",
+      "timestamp": 1785676612.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-71399 - Better Auth before 1.4.4 Path Normalization Bypass via rou3",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71399",
+      "summary": "CVE ID :CVE-2025-71399\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :Better Auth relies on better-call, which us...",
+      "timestamp": 1785676612.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-8457 - WooCommerce - Social Login <= 2.8.7 - Unauthenticated Authentication Bypass via Forged Apple 'id_token' JWT",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8457",
-      "summary": "CVE ID :CVE-2026-8457\n  \n  Published : Aug. 2, 2026, 12:16 a.m. | 11\u00a0hours, 39\u00a0minutes ago\n  \n  Description :The WooCommerce - Social Login plugin for...",
+      "summary": "CVE ID :CVE-2026-8457\n  \n  Published : Aug. 2, 2026, 12:16 a.m. | 14\u00a0hours, 16\u00a0minutes ago\n  \n  Description :The WooCommerce - Social Login plugin for...",
       "timestamp": 1785629783.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +125,7 @@
     {
       "title": "CVE-2026-18556 - Unauthenticated administrative account takeover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18556",
-      "summary": "CVE ID :CVE-2026-18556\n  \n  Published : Aug. 1, 2026, 8:16 p.m. | 15\u00a0hours, 39\u00a0minutes ago\n  \n  Description :Authentication bypass using an alternate ...",
+      "summary": "CVE ID :CVE-2026-18556\n  \n  Published : Aug. 1, 2026, 8:16 p.m. | 18\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Authentication bypass using an alternate ...",
       "timestamp": 1785615397.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +133,7 @@
     {
       "title": "CVE-2026-55735 - Guardian.revoke/3 acts on unverified token claims, allowing forged-token session revocation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55735",
-      "summary": "CVE ID :CVE-2026-55735\n  \n  Published : Aug. 1, 2026, 7:16 p.m. | 16\u00a0hours, 39\u00a0minutes ago\n  \n  Description :Improper Verification of Cryptographic Si...",
+      "summary": "CVE ID :CVE-2026-55735\n  \n  Published : Aug. 1, 2026, 7:16 p.m. | 19\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Improper Verification of Cryptographic Si...",
       "timestamp": 1785611802.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,56 +149,8 @@
     {
       "title": "CVE-2026-67343 - ArcadeDB before 26.7.2 Cluster Token Disclosure via GET /api/v1/server",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67343",
-      "summary": "CVE ID :CVE-2026-67343\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 22\u00a0hours, 39\u00a0minutes ago\n  \n  Description :ArcadeDB versions before 26.7.2 fail to p...",
+      "summary": "CVE ID :CVE-2026-67343\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 1\u00a0day, 1\u00a0hour ago\n  \n  Description :ArcadeDB versions before 26.7.2 fail to properly...",
       "timestamp": 1785590225.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67342 - ArcadeDB before 26.7.2 Authorization Bypass via Database Handlers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67342",
-      "summary": "CVE ID :CVE-2026-67342\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 22\u00a0hours, 39\u00a0minutes ago\n  \n  Description :ArcadeDB versions before 26.7.2 contain a...",
-      "timestamp": 1785590225.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67341 - ArcadeDB before 26.7.2 Authorization Bypass via SQL DEFINE FUNCTION",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67341",
-      "summary": "CVE ID :CVE-2026-67341\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 22\u00a0hours, 39\u00a0minutes ago\n  \n  Description :ArcadeDB versions before 26.7.2 fail to e...",
-      "timestamp": 1785590225.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67340 - ArcadeDB before 26.7.2 Remote Code Execution via Trigger Scripts",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67340",
-      "summary": "CVE ID :CVE-2026-67340\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 22\u00a0hours, 39\u00a0minutes ago\n  \n  Description :ArcadeDB before 26.7.2 (arcadedb-engine) ...",
-      "timestamp": 1785590225.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67336 - better-auth before 1.6.11 Insecure Cryptographic Defaults via oidcProvider",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67336",
-      "summary": "CVE ID :CVE-2026-67336\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 22\u00a0hours, 39\u00a0minutes ago\n  \n  Description :better-auth versions before 1.6.11 contai...",
-      "timestamp": 1785590224.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67331 - better-auth SCIM 1.5.0 before 1.7.0-beta.4 Authorization Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67331",
-      "summary": "CVE ID :CVE-2026-67331\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 22\u00a0hours, 39\u00a0minutes ago\n  \n  Description :better-auth SCIM versions from 1.5.0 befo...",
-      "timestamp": 1785590223.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67330 - better-auth SCIM 1.4.0-beta.27 through 1.6.21 Account Takeover via Provider-ID Collision",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67330",
-      "summary": "CVE ID :CVE-2026-67330\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 22\u00a0hours, 39\u00a0minutes ago\n  \n  Description :@better-auth/scim (a better-auth plugin) ...",
-      "timestamp": 1785590223.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -227,14 +235,6 @@
       "vendor": "News"
     },
     {
-      "title": "South Korea fines telco giant KT $39 million for customer data breach",
-      "link": "https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/",
-      "summary": "South Korea's Personal Information Protection Commission (PIPC) has fined telecommunications giant KT Corporation KRW 53.979 billion ($39 million) ove...",
-      "timestamp": 1785450510.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785672896.252177
+  "last_updated": 1785685529.4678683
 }
