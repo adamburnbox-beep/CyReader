@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 6,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-65321 - PyAthena 3.35.4 SQL Injection via DefaultParameterFormatter DELETE/CTAS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65321",
+      "summary": "CVE ID :CVE-2026-65321\n  \n  Published : Aug. 2, 2026, 3:16 p.m. | 39\u00a0minutes ago\n  \n  Description :PyAthena prior to 3.35.4 contains a sql injection v...",
+      "timestamp": 1785683793.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Google Chrome may soon block New Tab hijacker extensions by default",
       "link": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
@@ -67,17 +75,9 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-68582 - Vikunja 0.24.0 Broken Object Level Authorization via Link-Share Token",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68582",
-      "summary": "CVE ID :CVE-2026-68582\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :Vikunja versions >= 0.24.0 and <= 2.3.0 con...",
-      "timestamp": 1785676614.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-68581 - Vikunja 0.22.0 through 2.3.0 Authentication Bypass via Principal ID Collision",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-68581",
-      "summary": "CVE ID :CVE-2026-68581\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :Vikunja versions 0.22.0 through 2.3.0 fail ...",
+      "summary": "CVE ID :CVE-2026-68581\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 2\u00a0hours, 39\u00a0minutes ago\n  \n  Description :Vikunja versions 0.22.0 through 2.3.0 fail...",
       "timestamp": 1785676614.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +85,7 @@
     {
       "title": "CVE-2026-68579 - FreeRDP before 3.30.0 Heap Overflow via CliprdrStream_Read",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-68579",
-      "summary": "CVE ID :CVE-2026-68579\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :FreeRDP before 3.30.0 (<= 3.29.0) contains ...",
+      "summary": "CVE ID :CVE-2026-68579\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 2\u00a0hours, 39\u00a0minutes ago\n  \n  Description :FreeRDP before 3.30.0 (<= 3.29.0) contains...",
       "timestamp": 1785676613.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,23 +93,15 @@
     {
       "title": "CVE-2026-67356 - ArcadeDB before 26.7.3 Privilege Escalation via JavaScript Trigger",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67356",
-      "summary": "CVE ID :CVE-2026-67356\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :ArcadeDB before 26.7.3 binds the real Local...",
+      "summary": "CVE ID :CVE-2026-67356\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 2\u00a0hours, 39\u00a0minutes ago\n  \n  Description :ArcadeDB before 26.7.3 binds the real Loca...",
       "timestamp": 1785676613.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-71401 - better-auth before 1.4.1 basePath Modification DoS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71401",
-      "summary": "CVE ID :CVE-2025-71401\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :better-auth (npm) before 1.4.2 allows an ex...",
-      "timestamp": 1785676612.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2025-71399 - Better Auth before 1.4.4 Path Normalization Bypass via rou3",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-71399",
-      "summary": "CVE ID :CVE-2025-71399\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :Better Auth relies on better-call, which us...",
+      "summary": "CVE ID :CVE-2025-71399\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 2\u00a0hours, 39\u00a0minutes ago\n  \n  Description :Better Auth relies on better-call, which u...",
       "timestamp": 1785676612.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +109,7 @@
     {
       "title": "CVE-2026-8457 - WooCommerce - Social Login <= 2.8.7 - Unauthenticated Authentication Bypass via Forged Apple 'id_token' JWT",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8457",
-      "summary": "CVE ID :CVE-2026-8457\n  \n  Published : Aug. 2, 2026, 12:16 a.m. | 14\u00a0hours, 16\u00a0minutes ago\n  \n  Description :The WooCommerce - Social Login plugin for...",
+      "summary": "CVE ID :CVE-2026-8457\n  \n  Published : Aug. 2, 2026, 12:16 a.m. | 15\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The WooCommerce - Social Login plugin for...",
       "timestamp": 1785629783.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +117,7 @@
     {
       "title": "CVE-2026-18556 - Unauthenticated administrative account takeover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18556",
-      "summary": "CVE ID :CVE-2026-18556\n  \n  Published : Aug. 1, 2026, 8:16 p.m. | 18\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Authentication bypass using an alternate ...",
+      "summary": "CVE ID :CVE-2026-18556\n  \n  Published : Aug. 1, 2026, 8:16 p.m. | 19\u00a0hours, 39\u00a0minutes ago\n  \n  Description :Authentication bypass using an alternate ...",
       "timestamp": 1785615397.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,7 +125,7 @@
     {
       "title": "CVE-2026-55735 - Guardian.revoke/3 acts on unverified token claims, allowing forged-token session revocation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55735",
-      "summary": "CVE ID :CVE-2026-55735\n  \n  Published : Aug. 1, 2026, 7:16 p.m. | 19\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Improper Verification of Cryptographic Si...",
+      "summary": "CVE ID :CVE-2026-55735\n  \n  Published : Aug. 1, 2026, 7:16 p.m. | 20\u00a0hours, 39\u00a0minutes ago\n  \n  Description :Improper Verification of Cryptographic Si...",
       "timestamp": 1785611802.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -149,7 +141,15 @@
     {
       "title": "CVE-2026-67343 - ArcadeDB before 26.7.2 Cluster Token Disclosure via GET /api/v1/server",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67343",
-      "summary": "CVE ID :CVE-2026-67343\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 1\u00a0day, 1\u00a0hour ago\n  \n  Description :ArcadeDB versions before 26.7.2 fail to properly...",
+      "summary": "CVE ID :CVE-2026-67343\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 1\u00a0day, 2\u00a0hours ago\n  \n  Description :ArcadeDB versions before 26.7.2 fail to properl...",
+      "timestamp": 1785590225.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67342 - ArcadeDB before 26.7.2 Authorization Bypass via Database Handlers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67342",
+      "summary": "CVE ID :CVE-2026-67342\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 1\u00a0day, 2\u00a0hours ago\n  \n  Description :ArcadeDB versions before 26.7.2 contain an auth...",
       "timestamp": 1785590225.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -267,5 +267,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785685529.4678683
+  "last_updated": 1785690898.1860852
 }
