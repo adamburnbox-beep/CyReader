@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 6,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,64 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-69082 - Cross-Site Request Forgery in the Administrative User Deletion Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69082",
+      "summary": "CVE ID :CVE-2026-69082\n  \n  Published : Aug. 3, 2026, 10:16 a.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :CTI-Transmute contained a cross-site requ...",
+      "timestamp": 1785752193.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-69079 - Unauthenticated Denial of Service via Unbounded Activity-Timeline Range in CTI-Transmute",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69079",
+      "summary": "CVE ID :CVE-2026-69079\n  \n  Published : Aug. 3, 2026, 10:16 a.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :CTI-Transmute contains an uncontrolled re...",
+      "timestamp": 1785752193.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-69078 - Server-Side Request Forgery and Local File Disclosure in CTI-Transmute Evaluation PDF Rendering",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69078",
+      "summary": "CVE ID :CVE-2026-69078\n  \n  Published : Aug. 3, 2026, 10:16 a.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :CTI-Transmute is affected by a server-sid...",
+      "timestamp": 1785752193.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-33591 - Authentication bypass on WaptServer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33591",
+      "summary": "CVE ID :CVE-2026-33591\n  \n  Published : Aug. 3, 2026, 10:16 a.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :A vulnerability in Wapt Server before ver...",
+      "timestamp": 1785752188.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18589 - Wavlink WL-NU516U1 nas.cgi change_password stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18589",
+      "summary": "CVE ID :CVE-2026-18589\n  \n  Published : Aug. 3, 2026, 7:16 a.m. | 5\u00a0hours, 14\u00a0minutes ago\n  \n  Description :A vulnerability was found in Wavlink WL-NU...",
+      "timestamp": 1785741403.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18588 - Wavlink WL-NU516U1 nas.cgi fgets stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18588",
+      "summary": "CVE ID :CVE-2026-18588\n  \n  Published : Aug. 3, 2026, 7:16 a.m. | 5\u00a0hours, 14\u00a0minutes ago\n  \n  Description :A vulnerability has been found in Wavlink ...",
+      "timestamp": 1785741403.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-14682 - Possible OOM from unbounded up-front allocation on a definite-length read",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14682",
-      "summary": "CVE ID :CVE-2026-14682\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, Pos...",
+      "summary": "CVE ID :CVE-2026-14682\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 8\u00a0hours, 14\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, Pos...",
       "timestamp": 1785730603.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +117,7 @@
     {
       "title": "CVE-2026-13506 - Lazy ASN.1 sequence forcing resets nesting-depth guard",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13506",
-      "summary": "CVE ID :CVE-2026-13506\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, Laz...",
+      "summary": "CVE ID :CVE-2026-13506\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 8\u00a0hours, 14\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, Laz...",
       "timestamp": 1785730599.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +125,7 @@
     {
       "title": "CVE-2026-12860 - RSA PKCS#1 verification skips last two hash bytes in NULL-omitted path",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12860",
-      "summary": "CVE ID :CVE-2026-12860\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, RSA...",
+      "summary": "CVE ID :CVE-2026-12860\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 8\u00a0hours, 14\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, RSA...",
       "timestamp": 1785730599.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,56 +133,8 @@
     {
       "title": "CVE-2026-12852 - MLS wire decoder allocates attacker-declared opaque length before bounds check",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12852",
-      "summary": "CVE ID :CVE-2026-12852\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, MLS...",
+      "summary": "CVE ID :CVE-2026-12852\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 8\u00a0hours, 14\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, MLS...",
       "timestamp": 1785730599.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12817 - OpenPGP AEAD decryption skips final tag on chunk-aligned data",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12817",
-      "summary": "CVE ID :CVE-2026-12817\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, Ope...",
-      "timestamp": 1785730599.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12816 - IESEngine stream-mode MAC forgery via length-dependent KDF split",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12816",
-      "summary": "CVE ID :CVE-2026-12816\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, IES...",
-      "timestamp": 1785730599.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12803 - KCCMBlockCipher MAC does not bind nonce when AAD is absent (cross-nonce AEAD forgery)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12803",
-      "summary": "CVE ID :CVE-2026-12803\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, KCC...",
-      "timestamp": 1785730599.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12802 - CMS AuthEnvelopedData fails to enforce tag-length on decryption",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12802",
-      "summary": "CVE ID :CVE-2026-12802\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, CMS...",
-      "timestamp": 1785730598.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58062 - Stapled OCSP response accepted without binding to the checked certificate",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58062",
-      "summary": "CVE ID :CVE-2026-58062\n  \n  Published : Aug. 3, 2026, 3:16 a.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, Sta...",
-      "timestamp": 1785727005.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58061 - CCM-family modes write plaintext to caller buffer before tag check",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58061",
-      "summary": "CVE ID :CVE-2026-58061\n  \n  Published : Aug. 3, 2026, 3:16 a.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, CCM...",
-      "timestamp": 1785727005.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -249,15 +249,7 @@
       "timestamp": 1785340800.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "LG to Ban Residential Proxies from Smart TV Apps",
-      "link": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
-      "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an alw...",
-      "timestamp": 1784682638.0,
-      "source": "Krebs on Security",
-      "vendor": "News"
     }
   ],
-  "last_updated": 1785742978.8187811
+  "last_updated": 1785765053.873069
 }
