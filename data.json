@@ -52,17 +52,89 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-18577 - Incomplete patch leads to administrative account takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18577",
-      "summary": "CVE ID :CVE-2026-18577\n  \n  Published : Aug. 2, 2026, 11:16 p.m. | 41\u00a0minutes ago\n  \n  Description :An incomplete patch for CVE-2026-18556 allows for ...",
-      "timestamp": 1785712586.0,
+      "title": "CVE-2026-14682 - Possible OOM from unbounded up-front allocation on a definite-length read",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14682",
+      "summary": "CVE ID :CVE-2026-14682\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, Pos...",
+      "timestamp": 1785730603.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13506 - Lazy ASN.1 sequence forcing resets nesting-depth guard",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13506",
+      "summary": "CVE ID :CVE-2026-13506\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, Laz...",
+      "timestamp": 1785730599.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12860 - RSA PKCS#1 verification skips last two hash bytes in NULL-omitted path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12860",
+      "summary": "CVE ID :CVE-2026-12860\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, RSA...",
+      "timestamp": 1785730599.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12852 - MLS wire decoder allocates attacker-declared opaque length before bounds check",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12852",
+      "summary": "CVE ID :CVE-2026-12852\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, MLS...",
+      "timestamp": 1785730599.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12817 - OpenPGP AEAD decryption skips final tag on chunk-aligned data",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12817",
+      "summary": "CVE ID :CVE-2026-12817\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, Ope...",
+      "timestamp": 1785730599.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12816 - IESEngine stream-mode MAC forgery via length-dependent KDF split",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12816",
+      "summary": "CVE ID :CVE-2026-12816\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, IES...",
+      "timestamp": 1785730599.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12803 - KCCMBlockCipher MAC does not bind nonce when AAD is absent (cross-nonce AEAD forgery)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12803",
+      "summary": "CVE ID :CVE-2026-12803\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, KCC...",
+      "timestamp": 1785730599.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12802 - CMS AuthEnvelopedData fails to enforce tag-length on decryption",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12802",
+      "summary": "CVE ID :CVE-2026-12802\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, CMS...",
+      "timestamp": 1785730598.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58062 - Stapled OCSP response accepted without binding to the checked certificate",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58062",
+      "summary": "CVE ID :CVE-2026-58062\n  \n  Published : Aug. 3, 2026, 3:16 a.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, Sta...",
+      "timestamp": 1785727005.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58061 - CCM-family modes write plaintext to caller buffer before tag check",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58061",
+      "summary": "CVE ID :CVE-2026-58061\n  \n  Published : Aug. 3, 2026, 3:16 a.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, CCM...",
+      "timestamp": 1785727005.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -83,14 +155,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-65321 - PyAthena 3.35.4 SQL Injection via DefaultParameterFormatter DELETE/CTAS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65321",
-      "summary": "CVE ID :CVE-2026-65321\n  \n  Published : Aug. 2, 2026, 3:16 p.m. | 8\u00a0hours, 40\u00a0minutes ago\n  \n  Description :PyAthena prior to 3.35.4 contains a sql in...",
-      "timestamp": 1785683793.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Google Chrome may soon block New Tab hijacker extensions by default",
       "link": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
       "summary": "Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default...",
@@ -99,76 +163,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-68581 - Vikunja 0.22.0 through 2.3.0 Authentication Bypass via Principal ID Collision",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68581",
-      "summary": "CVE ID :CVE-2026-68581\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 10\u00a0hours, 40\u00a0minutes ago\n  \n  Description :Vikunja versions 0.22.0 through 2.3.0 fai...",
-      "timestamp": 1785676614.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-68579 - FreeRDP before 3.30.0 Heap Overflow via CliprdrStream_Read",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68579",
-      "summary": "CVE ID :CVE-2026-68579\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 10\u00a0hours, 40\u00a0minutes ago\n  \n  Description :FreeRDP before 3.30.0 (<= 3.29.0) contain...",
-      "timestamp": 1785676613.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67356 - ArcadeDB before 26.7.3 Privilege Escalation via JavaScript Trigger",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67356",
-      "summary": "CVE ID :CVE-2026-67356\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 10\u00a0hours, 40\u00a0minutes ago\n  \n  Description :ArcadeDB before 26.7.3 binds the real Loc...",
-      "timestamp": 1785676613.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-71399 - Better Auth before 1.4.4 Path Normalization Bypass via rou3",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71399",
-      "summary": "CVE ID :CVE-2025-71399\n  \n  Published : Aug. 2, 2026, 1:16 p.m. | 10\u00a0hours, 40\u00a0minutes ago\n  \n  Description :Better Auth relies on better-call, which ...",
-      "timestamp": 1785676612.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8457 - WooCommerce - Social Login <= 2.8.7 - Unauthenticated Authentication Bypass via Forged Apple 'id_token' JWT",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8457",
-      "summary": "CVE ID :CVE-2026-8457\n  \n  Published : Aug. 2, 2026, 12:16 a.m. | 23\u00a0hours, 41\u00a0minutes ago\n  \n  Description :The WooCommerce - Social Login plugin for...",
-      "timestamp": 1785629783.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18556 - Unauthenticated administrative account takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18556",
-      "summary": "CVE ID :CVE-2026-18556\n  \n  Published : Aug. 1, 2026, 8:16 p.m. | 1\u00a0day, 3\u00a0hours ago\n  \n  Description :Authentication bypass using an alternate path o...",
-      "timestamp": 1785615397.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55735 - Guardian.revoke/3 acts on unverified token claims, allowing forged-token session revocation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55735",
-      "summary": "CVE ID :CVE-2026-55735\n  \n  Published : Aug. 1, 2026, 7:16 p.m. | 1\u00a0day, 4\u00a0hours ago\n  \n  Description :Improper Verification of Cryptographic Signatur...",
-      "timestamp": 1785611802.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Rails patches critical Active Storage flaw with RCE potential",
       "link": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
       "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and p...",
       "timestamp": 1785594030.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-67343 - ArcadeDB before 26.7.2 Cluster Token Disclosure via GET /api/v1/server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67343",
-      "summary": "CVE ID :CVE-2026-67343\n  \n  Published : Aug. 1, 2026, 1:17 p.m. | 1\u00a0day, 10\u00a0hours ago\n  \n  Description :ArcadeDB versions before 26.7.2 fail to proper...",
-      "timestamp": 1785590225.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Amgen says cloud data breach exposed patient health, proprietary info",
@@ -257,15 +257,7 @@
       "timestamp": 1784682638.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Controller, Catalyst SD-WAN Manager, and Catalyst SD-WAN Validator Authenticated Privilege Escalation Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-privesc-4uxFrdzx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller,%20Catalyst%20SD-WAN%20Manager,%20and%20Catalyst%20SD-WAN%20Validator%20Authenticated%20Privilege%20Escalation%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the CLI of Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Ci...",
-      "timestamp": 1784649687.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785715904.3733115
+  "last_updated": 1785742978.8187811
 }
