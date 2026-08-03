@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,108 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "New DOUBLECUP ClickFix service hides malware in browser cache images",
+      "link": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
+      "summary": "A new Russian loader-as-a-service named DOUBLECUP uses ClickFix attacks to hide malicious code in PNG images cached by victims' browsers, ultimately d...",
+      "timestamp": 1785787282.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Fake Roblox Xeno script launcher pushes infostealer, RAT malware",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/",
+      "summary": "Fake Xeno Executor installers are infecting unsuspecting Roblox players with malware that provides remote access and steals sensitive information. [.....",
+      "timestamp": 1785785110.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-18616 - GL-iNet GL-MT3000 wg-server.so Native Plugin glc server.set_peer command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18616",
+      "summary": "CVE ID :CVE-2026-18616\n  \n  Published : Aug. 3, 2026, 7:16 p.m. | 41\u00a0minutes ago\n  \n  Description :A vulnerability was identified in GL-iNet GL-MT3000...",
+      "timestamp": 1785784605.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18615 - GL-iNet GL-MT3000 wg-server.so Native Plugin glc wg-server.generate_publickey command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18615",
+      "summary": "CVE ID :CVE-2026-18615\n  \n  Published : Aug. 3, 2026, 7:16 p.m. | 41\u00a0minutes ago\n  \n  Description :A vulnerability was determined in GL-iNet GL-MT3000...",
+      "timestamp": 1785784605.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18614 - GL-iNet GL-MT3000 s2s.so Native Plugin glc s2s.enable_echo_server command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18614",
+      "summary": "CVE ID :CVE-2026-18614\n  \n  Published : Aug. 3, 2026, 7:16 p.m. | 41\u00a0minutes ago\n  \n  Description :A vulnerability was found in GL-iNet GL-MT3000 up t...",
+      "timestamp": 1785784605.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-15628 - Hardcoded Certificates in TP-Link Omada Device Communications",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15628",
+      "summary": "CVE ID :CVE-2025-15628\n  \n  Published : Aug. 3, 2026, 7:16 p.m. | 41\u00a0minutes ago\n  \n  Description :Affected\nOmada devices rely on embedded certificate...",
+      "timestamp": 1785784600.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67599 - ClearOS 7.9 OS Command Injection via Log Viewer filter parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67599",
+      "summary": "CVE ID :CVE-2026-67599\n  \n  Published : Aug. 3, 2026, 7:05 p.m. | 52\u00a0minutes ago\n  \n  Description :ClearOS 7.9 contains an OS command injection vulner...",
+      "timestamp": 1785783957.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67598 - Emlog Pro 2.6.23 TLS Certificate Validation Disabled in ai.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67598",
+      "summary": "CVE ID :CVE-2026-67598\n  \n  Published : Aug. 3, 2026, 7:02 p.m. | 56\u00a0minutes ago\n  \n  Description :Emlog Pro through 2.6.23 contains a disabled TLS ce...",
+      "timestamp": 1785783726.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-61524 - WebsiteBaker CMS < 2.13.10 File Upload RCE via Module Installation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61524",
+      "summary": "CVE ID :CVE-2026-61524\n  \n  Published : Aug. 3, 2026, 6:16 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :WebsiteBaker CMS before 2.13.10 contains an...",
+      "timestamp": 1785781000.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-61523 - WebsiteBaker CMS < 2.13.10 Code Injection via Droplets Editor",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61523",
+      "summary": "CVE ID :CVE-2026-61523\n  \n  Published : Aug. 3, 2026, 6:16 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :WebsiteBaker CMS before 2.13.10 contains a ...",
+      "timestamp": 1785781000.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18613 - GL-iNet GL-MT3000 plugins.so Native Plugin glc plugins.set_config injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18613",
+      "summary": "CVE ID :CVE-2026-18613\n  \n  Published : Aug. 3, 2026, 6:16 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :A vulnerability has been found in GL-iNet G...",
+      "timestamp": 1785780998.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18612 - GL-iNet GL-MT3000 plugins.so Native Plugin glc plugins.install_package command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18612",
+      "summary": "CVE ID :CVE-2026-18612\n  \n  Published : Aug. 3, 2026, 6:16 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :A flaw has been found in GL-iNet GL-MT3000 ...",
+      "timestamp": 1785780998.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
@@ -83,70 +179,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-18248 - @fastify/aws-lambda vulnerable to Lambda event spoofing via client-controlled x-apigateway-event header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18248",
-      "summary": "CVE ID :CVE-2026-18248\n  \n  Published : Aug. 3, 2026, 4:16 p.m. | 15\u00a0minutes ago\n  \n  Description :@fastify/aws-lambda version 6.4.0 decorates each Fa...",
-      "timestamp": 1785773788.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67611 - OpenEMR 8.2.0 OAuth2 Password Grant Authentication Bypass via SMART Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67611",
-      "summary": "CVE ID :CVE-2026-67611\n  \n  Published : Aug. 3, 2026, 4:04 p.m. | 27\u00a0minutes ago\n  \n  Description :OpenEMR through 8.2.0 contains an authentication by...",
-      "timestamp": 1785773074.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67610 - OpenEMR 8.2.0 OAuth2 Dynamic Client Registration Unauthorized FHIR Access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67610",
-      "summary": "CVE ID :CVE-2026-67610\n  \n  Published : Aug. 3, 2026, 4:02 p.m. | 29\u00a0minutes ago\n  \n  Description :OpenEMR through 8.2.0 contains an improper authenti...",
-      "timestamp": 1785772967.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-39932 - OpenEMR 8.2.0 Remote Code Execution via CategoryTree eval() Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39932",
-      "summary": "CVE ID :CVE-2026-39932\n  \n  Published : Aug. 3, 2026, 4 p.m. | 32\u00a0minutes ago\n  \n  Description :OpenEMR through 8.2.0 contains a remote code execution...",
-      "timestamp": 1785772809.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-39931 - OpenEMR Authenticated SQL Injection via backup.php Import Feature",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39931",
-      "summary": "CVE ID :CVE-2026-39931\n  \n  Published : Aug. 3, 2026, 3:54 p.m. | 37\u00a0minutes ago\n  \n  Description :OpenEMR through 8.2.0 contains an authenticated SQL...",
-      "timestamp": 1785772453.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-41453 - Krayin CRM < 2.2.4 Blind SQL Injection via LeadDataGrid.php rotten_lead Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41453",
-      "summary": "CVE ID :CVE-2026-41453\n  \n  Published : Aug. 3, 2026, 3:47 p.m. | 44\u00a0minutes ago\n  \n  Description :Krayin CRM before 2.2.4 contains a blind SQL inject...",
-      "timestamp": 1785772031.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-41452 - Krayin CRM 2.2.4 Missing Authentication via install/api/admin-config-setup",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41452",
-      "summary": "CVE ID :CVE-2026-41452\n  \n  Published : Aug. 3, 2026, 3:43 p.m. | 49\u00a0minutes ago\n  \n  Description :Krayin CRM 2.2.4 contains a missing authentication ...",
-      "timestamp": 1785771785.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67609 - Telenia TVox 26.5.3 Privilege Escalation via Insecure sudoers Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67609",
-      "summary": "CVE ID :CVE-2026-67609\n  \n  Published : Aug. 3, 2026, 3:16 p.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :Telenia Software TVox 26.5.3 and prior 26.x...",
-      "timestamp": 1785770180.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
       "link": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
       "summary": "A cyberattack on the U.K.'s Police National Legal Database (PNLD) has compromised contact data of more than 100,000 police officers and other criminal...",
@@ -161,22 +193,6 @@
       "timestamp": 1785768355.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-69096 - OpenWrt luci-app-dockerman Read ACL Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69096",
-      "summary": "CVE ID :CVE-2026-69096\n  \n  Published : Aug. 3, 2026, 2:16 p.m. | 2\u00a0hours, 15\u00a0minutes ago\n  \n  Description :OpenWrt luci-app-dockerman (LuCI master an...",
-      "timestamp": 1785766590.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-69095 - OpenWrt luci-app-bmx7 Path Traversal via bmx7-info",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69095",
-      "summary": "CVE ID :CVE-2026-69095\n  \n  Published : Aug. 3, 2026, 2:16 p.m. | 2\u00a0hours, 15\u00a0minutes ago\n  \n  Description :OpenWrt luci-app-bmx7 before commit 589076...",
-      "timestamp": 1785766590.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems",
@@ -219,22 +235,6 @@
       "vendor": "News"
     },
     {
-      "title": "Arch Linux disables AUR package adoption to stop malware flood",
-      "link": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/",
-      "summary": "The Arch Linux project has temporarily disabled adoption of Arch User Repository (AUR) packages after a surge in malicious takeovers of existing packa...",
-      "timestamp": 1785533888.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Online ad firm Adform\u2019s script compromised to steal cryptocurrency",
-      "link": "https://www.bleepingcomputer.com/news/security/online-ad-firm-adforms-script-compromised-to-steal-cryptocurrency/",
-      "summary": "Online advertising firm Adform suffered a supply-chain attack that delivered cryptocurrency-stealing scripts to websites using its ad platform, replac...",
-      "timestamp": 1785532165.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
@@ -251,5 +251,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785781513.1334367
+  "last_updated": 1785793747.8094091
 }
