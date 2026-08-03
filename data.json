@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 8,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,89 +52,105 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 6,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-69082 - Cross-Site Request Forgery in the Administrative User Deletion Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69082",
-      "summary": "CVE ID :CVE-2026-69082\n  \n  Published : Aug. 3, 2026, 10:16 a.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :CTI-Transmute contained a cross-site requ...",
-      "timestamp": 1785752193.0,
+      "title": "CVE-2026-18248 - @fastify/aws-lambda vulnerable to Lambda event spoofing via client-controlled x-apigateway-event header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18248",
+      "summary": "CVE ID :CVE-2026-18248\n  \n  Published : Aug. 3, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :@fastify/aws-lambda version 6.4.0 decorates each Fa...",
+      "timestamp": 1785773788.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-69079 - Unauthenticated Denial of Service via Unbounded Activity-Timeline Range in CTI-Transmute",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69079",
-      "summary": "CVE ID :CVE-2026-69079\n  \n  Published : Aug. 3, 2026, 10:16 a.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :CTI-Transmute contains an uncontrolled re...",
-      "timestamp": 1785752193.0,
+      "title": "CVE-2026-67611 - OpenEMR 8.2.0 OAuth2 Password Grant Authentication Bypass via SMART Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67611",
+      "summary": "CVE ID :CVE-2026-67611\n  \n  Published : Aug. 3, 2026, 4:04 p.m. | 26\u00a0minutes ago\n  \n  Description :OpenEMR through 8.2.0 contains an authentication by...",
+      "timestamp": 1785773074.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-69078 - Server-Side Request Forgery and Local File Disclosure in CTI-Transmute Evaluation PDF Rendering",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69078",
-      "summary": "CVE ID :CVE-2026-69078\n  \n  Published : Aug. 3, 2026, 10:16 a.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :CTI-Transmute is affected by a server-sid...",
-      "timestamp": 1785752193.0,
+      "title": "CVE-2026-67610 - OpenEMR 8.2.0 OAuth2 Dynamic Client Registration Unauthorized FHIR Access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67610",
+      "summary": "CVE ID :CVE-2026-67610\n  \n  Published : Aug. 3, 2026, 4:02 p.m. | 28\u00a0minutes ago\n  \n  Description :OpenEMR through 8.2.0 contains an improper authenti...",
+      "timestamp": 1785772967.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-33591 - Authentication bypass on WaptServer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-33591",
-      "summary": "CVE ID :CVE-2026-33591\n  \n  Published : Aug. 3, 2026, 10:16 a.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :A vulnerability in Wapt Server before ver...",
-      "timestamp": 1785752188.0,
+      "title": "CVE-2026-39932 - OpenEMR 8.2.0 Remote Code Execution via CategoryTree eval() Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39932",
+      "summary": "CVE ID :CVE-2026-39932\n  \n  Published : Aug. 3, 2026, 4 p.m. | 30\u00a0minutes ago\n  \n  Description :OpenEMR through 8.2.0 contains a remote code execution...",
+      "timestamp": 1785772809.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-18589 - Wavlink WL-NU516U1 nas.cgi change_password stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18589",
-      "summary": "CVE ID :CVE-2026-18589\n  \n  Published : Aug. 3, 2026, 7:16 a.m. | 5\u00a0hours, 14\u00a0minutes ago\n  \n  Description :A vulnerability was found in Wavlink WL-NU...",
-      "timestamp": 1785741403.0,
+      "title": "CVE-2026-39931 - OpenEMR Authenticated SQL Injection via backup.php Import Feature",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39931",
+      "summary": "CVE ID :CVE-2026-39931\n  \n  Published : Aug. 3, 2026, 3:54 p.m. | 36\u00a0minutes ago\n  \n  Description :OpenEMR through 8.2.0 contains an authenticated SQL...",
+      "timestamp": 1785772453.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-18588 - Wavlink WL-NU516U1 nas.cgi fgets stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18588",
-      "summary": "CVE ID :CVE-2026-18588\n  \n  Published : Aug. 3, 2026, 7:16 a.m. | 5\u00a0hours, 14\u00a0minutes ago\n  \n  Description :A vulnerability has been found in Wavlink ...",
-      "timestamp": 1785741403.0,
+      "title": "CVE-2026-41453 - Krayin CRM < 2.2.4 Blind SQL Injection via LeadDataGrid.php rotten_lead Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41453",
+      "summary": "CVE ID :CVE-2026-41453\n  \n  Published : Aug. 3, 2026, 3:47 p.m. | 43\u00a0minutes ago\n  \n  Description :Krayin CRM before 2.2.4 contains a blind SQL inject...",
+      "timestamp": 1785772031.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-14682 - Possible OOM from unbounded up-front allocation on a definite-length read",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14682",
-      "summary": "CVE ID :CVE-2026-14682\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 8\u00a0hours, 14\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, Pos...",
-      "timestamp": 1785730603.0,
+      "title": "CVE-2026-41452 - Krayin CRM 2.2.4 Missing Authentication via install/api/admin-config-setup",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41452",
+      "summary": "CVE ID :CVE-2026-41452\n  \n  Published : Aug. 3, 2026, 3:43 p.m. | 47\u00a0minutes ago\n  \n  Description :Krayin CRM 2.2.4 contains a missing authentication ...",
+      "timestamp": 1785771785.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-13506 - Lazy ASN.1 sequence forcing resets nesting-depth guard",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13506",
-      "summary": "CVE ID :CVE-2026-13506\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 8\u00a0hours, 14\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, Laz...",
-      "timestamp": 1785730599.0,
+      "title": "CVE-2026-67609 - Telenia TVox 26.5.3 Privilege Escalation via Insecure sudoers Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67609",
+      "summary": "CVE ID :CVE-2026-67609\n  \n  Published : Aug. 3, 2026, 3:16 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :Telenia Software TVox 26.5.3 and prior 26.x...",
+      "timestamp": 1785770180.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12860 - RSA PKCS#1 verification skips last two hash bytes in NULL-omitted path",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12860",
-      "summary": "CVE ID :CVE-2026-12860\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 8\u00a0hours, 14\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, RSA...",
-      "timestamp": 1785730599.0,
+      "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
+      "link": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
+      "summary": "A cyberattack on the U.K.'s Police National Legal Database (PNLD) has compromised contact data of more than 100,000 police officers and other criminal...",
+      "timestamp": 1785769479.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Inside the Underground Business of the Android BTMOB RAT malware",
+      "link": "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/",
+      "summary": "Flare researchers analyzed thousands of underground posts to examine how the BTMOB Android malware operation evolved into a fragmented ecosystem of re...",
+      "timestamp": 1785768355.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-69096 - OpenWrt luci-app-dockerman Read ACL Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69096",
+      "summary": "CVE ID :CVE-2026-69096\n  \n  Published : Aug. 3, 2026, 2:16 p.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :OpenWrt luci-app-dockerman (LuCI master an...",
+      "timestamp": 1785766590.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12852 - MLS wire decoder allocates attacker-declared opaque length before bounds check",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12852",
-      "summary": "CVE ID :CVE-2026-12852\n  \n  Published : Aug. 3, 2026, 4:16 a.m. | 8\u00a0hours, 14\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.85, MLS...",
-      "timestamp": 1785730599.0,
+      "title": "CVE-2026-69095 - OpenWrt luci-app-bmx7 Path Traversal via bmx7-info",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69095",
+      "summary": "CVE ID :CVE-2026-69095\n  \n  Published : Aug. 3, 2026, 2:16 p.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :OpenWrt luci-app-bmx7 before commit 589076...",
+      "timestamp": 1785766590.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -219,22 +235,6 @@
       "vendor": "News"
     },
     {
-      "title": "Hacker uses DeepSeek AI to autonomously attack vulnerable servers",
-      "link": "https://www.bleepingcomputer.com/news/security/hacker-uses-deepseek-ai-to-autonomously-attack-vulnerable-servers/",
-      "summary": "A Chinese-speaking threat actor is using the DeepSeek AI model and the open-source Hermes Agent to conduct autonomous cyberattacks on exposed servers ...",
-      "timestamp": 1785519335.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CISA warns of cyberattacks disrupting U.S. water utilities",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a significant increase in attacks targeting internet-exposed programmab...",
-      "timestamp": 1785516589.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
@@ -251,5 +251,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785765053.873069
+  "last_updated": 1785775094.8421106
 }
