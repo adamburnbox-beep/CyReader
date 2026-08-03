@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,40 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypa...",
+      "timestamp": 1785778066.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Secure Firewall Management Center Software Static Credential Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Static%20Credential%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to log ...",
+      "timestamp": 1785777710.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
+      "summary": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises ...",
+      "timestamp": 1785776456.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "CVE-2026-18248 - @fastify/aws-lambda vulnerable to Lambda event spoofing via client-controlled x-apigateway-event header",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18248",
-      "summary": "CVE ID :CVE-2026-18248\n  \n  Published : Aug. 3, 2026, 4:16 p.m. | 14\u00a0minutes ago\n  \n  Description :@fastify/aws-lambda version 6.4.0 decorates each Fa...",
+      "summary": "CVE ID :CVE-2026-18248\n  \n  Published : Aug. 3, 2026, 4:16 p.m. | 15\u00a0minutes ago\n  \n  Description :@fastify/aws-lambda version 6.4.0 decorates each Fa...",
       "timestamp": 1785773788.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +93,7 @@
     {
       "title": "CVE-2026-67611 - OpenEMR 8.2.0 OAuth2 Password Grant Authentication Bypass via SMART Configuration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67611",
-      "summary": "CVE ID :CVE-2026-67611\n  \n  Published : Aug. 3, 2026, 4:04 p.m. | 26\u00a0minutes ago\n  \n  Description :OpenEMR through 8.2.0 contains an authentication by...",
+      "summary": "CVE ID :CVE-2026-67611\n  \n  Published : Aug. 3, 2026, 4:04 p.m. | 27\u00a0minutes ago\n  \n  Description :OpenEMR through 8.2.0 contains an authentication by...",
       "timestamp": 1785773074.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +101,7 @@
     {
       "title": "CVE-2026-67610 - OpenEMR 8.2.0 OAuth2 Dynamic Client Registration Unauthorized FHIR Access",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67610",
-      "summary": "CVE ID :CVE-2026-67610\n  \n  Published : Aug. 3, 2026, 4:02 p.m. | 28\u00a0minutes ago\n  \n  Description :OpenEMR through 8.2.0 contains an improper authenti...",
+      "summary": "CVE ID :CVE-2026-67610\n  \n  Published : Aug. 3, 2026, 4:02 p.m. | 29\u00a0minutes ago\n  \n  Description :OpenEMR through 8.2.0 contains an improper authenti...",
       "timestamp": 1785772967.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +109,7 @@
     {
       "title": "CVE-2026-39932 - OpenEMR 8.2.0 Remote Code Execution via CategoryTree eval() Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39932",
-      "summary": "CVE ID :CVE-2026-39932\n  \n  Published : Aug. 3, 2026, 4 p.m. | 30\u00a0minutes ago\n  \n  Description :OpenEMR through 8.2.0 contains a remote code execution...",
+      "summary": "CVE ID :CVE-2026-39932\n  \n  Published : Aug. 3, 2026, 4 p.m. | 32\u00a0minutes ago\n  \n  Description :OpenEMR through 8.2.0 contains a remote code execution...",
       "timestamp": 1785772809.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +117,7 @@
     {
       "title": "CVE-2026-39931 - OpenEMR Authenticated SQL Injection via backup.php Import Feature",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-39931",
-      "summary": "CVE ID :CVE-2026-39931\n  \n  Published : Aug. 3, 2026, 3:54 p.m. | 36\u00a0minutes ago\n  \n  Description :OpenEMR through 8.2.0 contains an authenticated SQL...",
+      "summary": "CVE ID :CVE-2026-39931\n  \n  Published : Aug. 3, 2026, 3:54 p.m. | 37\u00a0minutes ago\n  \n  Description :OpenEMR through 8.2.0 contains an authenticated SQL...",
       "timestamp": 1785772453.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +125,7 @@
     {
       "title": "CVE-2026-41453 - Krayin CRM < 2.2.4 Blind SQL Injection via LeadDataGrid.php rotten_lead Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41453",
-      "summary": "CVE ID :CVE-2026-41453\n  \n  Published : Aug. 3, 2026, 3:47 p.m. | 43\u00a0minutes ago\n  \n  Description :Krayin CRM before 2.2.4 contains a blind SQL inject...",
+      "summary": "CVE ID :CVE-2026-41453\n  \n  Published : Aug. 3, 2026, 3:47 p.m. | 44\u00a0minutes ago\n  \n  Description :Krayin CRM before 2.2.4 contains a blind SQL inject...",
       "timestamp": 1785772031.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +133,7 @@
     {
       "title": "CVE-2026-41452 - Krayin CRM 2.2.4 Missing Authentication via install/api/admin-config-setup",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-41452",
-      "summary": "CVE ID :CVE-2026-41452\n  \n  Published : Aug. 3, 2026, 3:43 p.m. | 47\u00a0minutes ago\n  \n  Description :Krayin CRM 2.2.4 contains a missing authentication ...",
+      "summary": "CVE ID :CVE-2026-41452\n  \n  Published : Aug. 3, 2026, 3:43 p.m. | 49\u00a0minutes ago\n  \n  Description :Krayin CRM 2.2.4 contains a missing authentication ...",
       "timestamp": 1785771785.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +141,7 @@
     {
       "title": "CVE-2026-67609 - Telenia TVox 26.5.3 Privilege Escalation via Insecure sudoers Configuration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67609",
-      "summary": "CVE ID :CVE-2026-67609\n  \n  Published : Aug. 3, 2026, 3:16 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :Telenia Software TVox 26.5.3 and prior 26.x...",
+      "summary": "CVE ID :CVE-2026-67609\n  \n  Published : Aug. 3, 2026, 3:16 p.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :Telenia Software TVox 26.5.3 and prior 26.x...",
       "timestamp": 1785770180.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -141,7 +165,7 @@
     {
       "title": "CVE-2026-69096 - OpenWrt luci-app-dockerman Read ACL Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-69096",
-      "summary": "CVE ID :CVE-2026-69096\n  \n  Published : Aug. 3, 2026, 2:16 p.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :OpenWrt luci-app-dockerman (LuCI master an...",
+      "summary": "CVE ID :CVE-2026-69096\n  \n  Published : Aug. 3, 2026, 2:16 p.m. | 2\u00a0hours, 15\u00a0minutes ago\n  \n  Description :OpenWrt luci-app-dockerman (LuCI master an...",
       "timestamp": 1785766590.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -149,7 +173,7 @@
     {
       "title": "CVE-2026-69095 - OpenWrt luci-app-bmx7 Path Traversal via bmx7-info",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-69095",
-      "summary": "CVE ID :CVE-2026-69095\n  \n  Published : Aug. 3, 2026, 2:16 p.m. | 2\u00a0hours, 14\u00a0minutes ago\n  \n  Description :OpenWrt luci-app-bmx7 before commit 589076...",
+      "summary": "CVE ID :CVE-2026-69095\n  \n  Published : Aug. 3, 2026, 2:16 p.m. | 2\u00a0hours, 15\u00a0minutes ago\n  \n  Description :OpenWrt luci-app-bmx7 before commit 589076...",
       "timestamp": 1785766590.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -211,30 +235,6 @@
       "vendor": "News"
     },
     {
-      "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypa...",
-      "timestamp": 1785527394.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Secure Firewall Management Center Software Static Credential Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Static%20Credential%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to log ...",
-      "timestamp": 1785527394.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "OpenAI says its new GPT 5.6 models are becoming more cost-efficient",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-new-gpt-56-models-are-becoming-more-cost-efficient/",
-      "summary": "OpenAI says it has reduced the price of two GPT-5.6 models, cutting Luna's API price by 80% and Terra's by 20% as it works to make its models more eff...",
-      "timestamp": 1785523964.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
@@ -251,5 +251,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785775094.8421106
+  "last_updated": 1785781513.1334367
 }
