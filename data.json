@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,86 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-18667 - Sensor Proxy Version 1.4.2 Fixes One Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18667",
+      "summary": "CVE ID :CVE-2026-18667\n  \n  Published : Aug. 3, 2026, 10:27 p.m. | 6\u00a0minutes ago\n  \n  Description :A vulnerability in Tenable Sensor Proxy allows a re...",
+      "timestamp": 1785796049.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-69249 - python-cryptography: Duplicate self-signed intermediates can cause exponential path-building",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69249",
+      "summary": "CVE ID :CVE-2026-69249\n  \n  Published : Aug. 3, 2026, 10:16 p.m. | 16\u00a0minutes ago\n  \n  Description :python-cryptography is a package designed to expos...",
+      "timestamp": 1785795412.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-69247 - cryptography: PKCS#7 EnvelopedData decryption exposes a Bleichenbacher oracle through distinguishable errors and timing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69247",
+      "summary": "CVE ID :CVE-2026-69247\n  \n  Published : Aug. 3, 2026, 10:16 p.m. | 16\u00a0minutes ago\n  \n  Description :cryptography is a package designed to expose crypt...",
+      "timestamp": 1785795412.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47746 - Misskey: JSON-LD signature validation + compaction is vulnerable to timing attacks",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47746",
+      "summary": "CVE ID :CVE-2026-47746\n  \n  Published : Aug. 3, 2026, 10:16 p.m. | 16\u00a0minutes ago\n  \n  Description :Misskey is an open source, federated social media ...",
+      "timestamp": 1785795409.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46713 - Misskey: JSON-LD signature validation + compaction may lead to improper activity handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46713",
+      "summary": "CVE ID :CVE-2026-46713\n  \n  Published : Aug. 3, 2026, 10:16 p.m. | 16\u00a0minutes ago\n  \n  Description :Misskey is an open source, federated social media ...",
+      "timestamp": 1785795409.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-10849 - Heap out-of-bounds write in Zephyr hawkBit OTA client when terminating server response body",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10849",
+      "summary": "CVE ID :CVE-2026-10849\n  \n  Published : Aug. 3, 2026, 10:16 p.m. | 16\u00a0minutes ago\n  \n  Description :The hawkBit device management client in subsys/mgm...",
+      "timestamp": 1785795407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-69240 - Sequelize: SQL Injection (Oracle DB)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69240",
+      "summary": "CVE ID :CVE-2026-69240\n  \n  Published : Aug. 3, 2026, 9:16 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Sequelize is a Node.js ORM tool. Prior to 6...",
+      "timestamp": 1785791801.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66065 - Ouroboros: Untrusted project .env can still reach RCE via omitted execution-routing keys (Incomplete fix of CVE-2026-47211)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66065",
+      "summary": "CVE ID :CVE-2026-66065\n  \n  Published : Aug. 3, 2026, 9:16 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Ouroboros is a local-first runtime for AI c...",
+      "timestamp": 1785791801.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48113 - Chisel: ACL Bypass via Post-Handshake SSH Channel ExtraData Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48113",
+      "summary": "CVE ID :CVE-2026-48113\n  \n  Published : Aug. 3, 2026, 9:16 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Chisel is a TCP/UDP tunnel, transported ove...",
+      "timestamp": 1785791799.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48063 - Baileys has message upsert / hist sync spoofing and app state corruption when using maliciously crafted protocolMessage payload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48063",
+      "summary": "CVE ID :CVE-2026-48063\n  \n  Published : Aug. 3, 2026, 9:16 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :Baileys is a cocket-based TS/JavaScript API...",
+      "timestamp": 1785791799.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "New DOUBLECUP ClickFix service hides malware in browser cache images",
       "link": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
       "summary": "A new Russian loader-as-a-service named DOUBLECUP uses ClickFix attacks to hide malicious code in PNG images cached by victims' browsers, ultimately d...",
@@ -73,86 +153,6 @@
       "timestamp": 1785785110.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-18616 - GL-iNet GL-MT3000 wg-server.so Native Plugin glc server.set_peer command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18616",
-      "summary": "CVE ID :CVE-2026-18616\n  \n  Published : Aug. 3, 2026, 7:16 p.m. | 41\u00a0minutes ago\n  \n  Description :A vulnerability was identified in GL-iNet GL-MT3000...",
-      "timestamp": 1785784605.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18615 - GL-iNet GL-MT3000 wg-server.so Native Plugin glc wg-server.generate_publickey command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18615",
-      "summary": "CVE ID :CVE-2026-18615\n  \n  Published : Aug. 3, 2026, 7:16 p.m. | 41\u00a0minutes ago\n  \n  Description :A vulnerability was determined in GL-iNet GL-MT3000...",
-      "timestamp": 1785784605.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18614 - GL-iNet GL-MT3000 s2s.so Native Plugin glc s2s.enable_echo_server command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18614",
-      "summary": "CVE ID :CVE-2026-18614\n  \n  Published : Aug. 3, 2026, 7:16 p.m. | 41\u00a0minutes ago\n  \n  Description :A vulnerability was found in GL-iNet GL-MT3000 up t...",
-      "timestamp": 1785784605.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-15628 - Hardcoded Certificates in TP-Link Omada Device Communications",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15628",
-      "summary": "CVE ID :CVE-2025-15628\n  \n  Published : Aug. 3, 2026, 7:16 p.m. | 41\u00a0minutes ago\n  \n  Description :Affected\nOmada devices rely on embedded certificate...",
-      "timestamp": 1785784600.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67599 - ClearOS 7.9 OS Command Injection via Log Viewer filter parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67599",
-      "summary": "CVE ID :CVE-2026-67599\n  \n  Published : Aug. 3, 2026, 7:05 p.m. | 52\u00a0minutes ago\n  \n  Description :ClearOS 7.9 contains an OS command injection vulner...",
-      "timestamp": 1785783957.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67598 - Emlog Pro 2.6.23 TLS Certificate Validation Disabled in ai.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67598",
-      "summary": "CVE ID :CVE-2026-67598\n  \n  Published : Aug. 3, 2026, 7:02 p.m. | 56\u00a0minutes ago\n  \n  Description :Emlog Pro through 2.6.23 contains a disabled TLS ce...",
-      "timestamp": 1785783726.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61524 - WebsiteBaker CMS < 2.13.10 File Upload RCE via Module Installation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61524",
-      "summary": "CVE ID :CVE-2026-61524\n  \n  Published : Aug. 3, 2026, 6:16 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :WebsiteBaker CMS before 2.13.10 contains an...",
-      "timestamp": 1785781000.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61523 - WebsiteBaker CMS < 2.13.10 Code Injection via Droplets Editor",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61523",
-      "summary": "CVE ID :CVE-2026-61523\n  \n  Published : Aug. 3, 2026, 6:16 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :WebsiteBaker CMS before 2.13.10 contains a ...",
-      "timestamp": 1785781000.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18613 - GL-iNet GL-MT3000 plugins.so Native Plugin glc plugins.set_config injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18613",
-      "summary": "CVE ID :CVE-2026-18613\n  \n  Published : Aug. 3, 2026, 6:16 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :A vulnerability has been found in GL-iNet G...",
-      "timestamp": 1785780998.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18612 - GL-iNet GL-MT3000 plugins.so Native Plugin glc plugins.install_package command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18612",
-      "summary": "CVE ID :CVE-2026-18612\n  \n  Published : Aug. 3, 2026, 6:16 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :A flaw has been found in GL-iNet GL-MT3000 ...",
-      "timestamp": 1785780998.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
@@ -251,5 +251,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785793747.8094091
+  "last_updated": 1785799110.9919565
 }
