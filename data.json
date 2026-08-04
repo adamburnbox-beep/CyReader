@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,75 +52,107 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 6,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-69254 - Flowise: RCE via NodeVM Sandbox Escape in executeJavaScriptCode() nodeVMOptions Override",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69254",
-      "summary": "CVE ID :CVE-2026-69254\n  \n  Published : Aug. 4, 2026, 4:16 p.m. | 35\u00a0minutes ago\n  \n  Description :Flowise is a drag & drop user interface to build a ...",
-      "timestamp": 1785860189.0,
+      "title": "CVE-2026-70553 - MaxSite CMS Unauthenticated RCE via Install Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70553",
+      "summary": "CVE ID :CVE-2026-70553\n  \n  Published : Aug. 4, 2026, 8:16 p.m. | 16\u00a0minutes ago\n  \n  Description :MaxSite CMS contains a remote code execution vulner...",
+      "timestamp": 1785874616.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-69253 - Flowise Sandbox Escape to RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69253",
-      "summary": "CVE ID :CVE-2026-69253\n  \n  Published : Aug. 4, 2026, 4:16 p.m. | 35\u00a0minutes ago\n  \n  Description :Flowise is a drag-and-drop user interface for build...",
-      "timestamp": 1785860189.0,
+      "title": "CVE-2026-70552 - MaxSite CMS 109.5 Unauthenticated AJAX Dispatcher Bypass via ajax.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70552",
+      "summary": "CVE ID :CVE-2026-70552\n  \n  Published : Aug. 4, 2026, 8:16 p.m. | 16\u00a0minutes ago\n  \n  Description :MaxSite CMS 109.5 and earlier contains an authentic...",
+      "timestamp": 1785874615.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-69110 - OpenCode Studio < 2.4.4 Unauthenticated File Read via /api/tmp and /api/music",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69110",
-      "summary": "CVE ID :CVE-2026-69110\n  \n  Published : Aug. 4, 2026, 4:16 p.m. | 35\u00a0minutes ago\n  \n  Description :OpenCode Studio before 2.4.4 contains a missing aut...",
-      "timestamp": 1785860188.0,
+      "title": "CVE-2026-70486 - Open WebUI: Same-origin XSS to account takeover via terminal file-preview iframe hardcoding allow-same-origin",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70486",
+      "summary": "CVE ID :CVE-2026-70486\n  \n  Published : Aug. 4, 2026, 8:16 p.m. | 16\u00a0minutes ago\n  \n  Description :Open WebUI is an extensible, feature-rich, and user...",
+      "timestamp": 1785874615.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-69100 - LAMP 5.6.2 GlueFactory Unsandboxed Groovy Script Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69100",
-      "summary": "CVE ID :CVE-2026-69100\n  \n  Published : Aug. 4, 2026, 4:16 p.m. | 35\u00a0minutes ago\n  \n  Description :LAMP Rapid Development Platform through 5.6.2, fixe...",
-      "timestamp": 1785860188.0,
+      "title": "CVE-2026-70482 - Open WebUI: Account takeover via OAuth token exchange accepting tokens issued to any client",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70482",
+      "summary": "CVE ID :CVE-2026-70482\n  \n  Published : Aug. 4, 2026, 8:16 p.m. | 16\u00a0minutes ago\n  \n  Description :Open WebUI is an extensible, feature-rich, and user...",
+      "timestamp": 1785874615.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-69098 - kotaemon 0.12.0 Unauthenticated Remote Code Execution via Insecure Deserialization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69098",
-      "summary": "CVE ID :CVE-2026-69098\n  \n  Published : Aug. 4, 2026, 4:16 p.m. | 35\u00a0minutes ago\n  \n  Description :kotaemon through 0.12.0 contains an insecure deseri...",
-      "timestamp": 1785860188.0,
+      "title": "CVE-2026-70478 - Flowise: Unauthenticated OAuth2 token refresh endpoint returns access tokens \u2014 enables token theft for any connected service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70478",
+      "summary": "CVE ID :CVE-2026-70478\n  \n  Published : Aug. 4, 2026, 8:16 p.m. | 16\u00a0minutes ago\n  \n  Description :Flowise is a drag & drop user interface to build a ...",
+      "timestamp": 1785874614.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-25289 - Stack-based Buffer Overflow in WLAN Firmware",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-25289",
-      "summary": "CVE ID :CVE-2026-25289\n  \n  Published : Aug. 4, 2026, 4:16 p.m. | 35\u00a0minutes ago\n  \n  Description :Memory Corruption when processing Device Capability...",
-      "timestamp": 1785860184.0,
+      "title": "CVE-2026-70477 - Flowise: CSV Agent Prompt Injection Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70477",
+      "summary": "CVE ID :CVE-2026-70477\n  \n  Published : Aug. 4, 2026, 8:16 p.m. | 16\u00a0minutes ago\n  \n  Description :Flowise is a drag & drop user interface to build a ...",
+      "timestamp": 1785874614.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-24079 - Missing Authentication for Critical Function in Data Modem",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24079",
-      "summary": "CVE ID :CVE-2026-24079\n  \n  Published : Aug. 4, 2026, 4:16 p.m. | 35\u00a0minutes ago\n  \n  Description :Cryptographic Issue while processing registration r...",
-      "timestamp": 1785860183.0,
+      "title": "CVE-2026-70476 - Flowise: Broken Access Control in Stripe Subscription Endpoints Allows Cross-Tenant Billing Manipulation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70476",
+      "summary": "CVE ID :CVE-2026-70476\n  \n  Published : Aug. 4, 2026, 8:16 p.m. | 16\u00a0minutes ago\n  \n  Description :Flowise is a drag & drop user interface to build a ...",
+      "timestamp": 1785874614.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-18801 - Stored Clickhouse SQL Injection Through Customer Usage Attribution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18801",
-      "summary": "CVE ID :CVE-2026-18801\n  \n  Published : Aug. 4, 2026, 4:16 p.m. | 35\u00a0minutes ago\n  \n  Description :OpenMeter contains a stored, or second-order, SQL i...",
-      "timestamp": 1785860182.0,
+      "title": "CVE-2026-18657 - Executable Resolution from Untrusted Project Directory in Kiro CLI on Windows",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18657",
+      "summary": "CVE ID :CVE-2026-18657\n  \n  Published : Aug. 4, 2026, 8:16 p.m. | 16\u00a0minutes ago\n  \n  Description :An uncontrolled search path element in Kiro CLI bef...",
+      "timestamp": 1785874610.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18656 - Executable Resolution from Untrusted Project Directory in Kiro IDE on Windows",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18656",
+      "summary": "CVE ID :CVE-2026-18656\n  \n  Published : Aug. 4, 2026, 8:16 p.m. | 16\u00a0minutes ago\n  \n  Description :An uncontrolled search path element in Kiro IDE bef...",
+      "timestamp": 1785874610.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-16793 - Remote Command Injection via OS Profile Password in Lenovo XClarity Orchestrator",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16793",
+      "summary": "CVE ID :CVE-2026-16793\n  \n  Published : Aug. 4, 2026, 8:16 p.m. | 16\u00a0minutes ago\n  \n  Description :An improper neutralization of special elements used...",
+      "timestamp": 1785874609.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
+      "link": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
+      "summary": "A new version of the XCSSET malware is targeting thousands of\u00a0macOS users through compromised Xcode projects and GitHub repositories. [...]",
+      "timestamp": 1785870189.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "77 Open VSX extensions found harvesting developer info",
+      "link": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
+      "summary": "77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and development env...",
+      "timestamp": 1785869455.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
@@ -129,22 +161,6 @@
       "timestamp": 1785857075.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-69251 - Flowise RCE via TypeORM DataSource",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69251",
-      "summary": "CVE ID :CVE-2026-69251\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 1\u00a0hour, 35\u00a0minutes ago\n  \n  Description :Flowise is a drag & drop user interface to ...",
-      "timestamp": 1785856604.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-69250 - Flowise: Unauthenticated OAuth2 Refresh Enables Non-Blind SSRF and Secret Exfiltration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69250",
-      "summary": "CVE ID :CVE-2026-69250\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 1\u00a0hour, 35\u00a0minutes ago\n  \n  Description :Flowise is a drag & drop user interface to ...",
-      "timestamp": 1785856604.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Varonis Agent IBAC keeps AI agents within their intended boundaries",
@@ -219,22 +235,6 @@
       "vendor": "News"
     },
     {
-      "title": "Inside the Underground Business of the Android BTMOB RAT malware",
-      "link": "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/",
-      "summary": "Flare researchers analyzed thousands of underground posts to examine how the BTMOB Android malware operation evolved into a fragmented ecosystem of re...",
-      "timestamp": 1785768355.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-teases-astra-its-next-major-ai-model-after-it-solves-10-long-standing-math-problems/",
-      "summary": "OpenAI has revealed Astra, an unreleased model designed to tackle complex, long-running tasks, after an internal version produced ten significant adva...",
-      "timestamp": 1785709901.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
@@ -251,5 +251,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785869363.5722046
+  "last_updated": 1785876228.0331364
 }
