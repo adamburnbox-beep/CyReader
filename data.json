@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,17 +52,73 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-69254 - Flowise: RCE via NodeVM Sandbox Escape in executeJavaScriptCode() nodeVMOptions Override",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69254",
+      "summary": "CVE ID :CVE-2026-69254\n  \n  Published : Aug. 4, 2026, 4:16 p.m. | 35\u00a0minutes ago\n  \n  Description :Flowise is a drag & drop user interface to build a ...",
+      "timestamp": 1785860189.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-69253 - Flowise Sandbox Escape to RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69253",
+      "summary": "CVE ID :CVE-2026-69253\n  \n  Published : Aug. 4, 2026, 4:16 p.m. | 35\u00a0minutes ago\n  \n  Description :Flowise is a drag-and-drop user interface for build...",
+      "timestamp": 1785860189.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-69110 - OpenCode Studio < 2.4.4 Unauthenticated File Read via /api/tmp and /api/music",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-69110",
-      "summary": "CVE ID :CVE-2026-69110\n  \n  Published : Aug. 4, 2026, 3:30 p.m. | 28\u00a0minutes ago\n  \n  Description :OpenCode Studio before 2.4.4 contains a missing aut...",
-      "timestamp": 1785857421.0,
+      "summary": "CVE ID :CVE-2026-69110\n  \n  Published : Aug. 4, 2026, 4:16 p.m. | 35\u00a0minutes ago\n  \n  Description :OpenCode Studio before 2.4.4 contains a missing aut...",
+      "timestamp": 1785860188.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-69100 - LAMP 5.6.2 GlueFactory Unsandboxed Groovy Script Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69100",
+      "summary": "CVE ID :CVE-2026-69100\n  \n  Published : Aug. 4, 2026, 4:16 p.m. | 35\u00a0minutes ago\n  \n  Description :LAMP Rapid Development Platform through 5.6.2, fixe...",
+      "timestamp": 1785860188.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-69098 - kotaemon 0.12.0 Unauthenticated Remote Code Execution via Insecure Deserialization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69098",
+      "summary": "CVE ID :CVE-2026-69098\n  \n  Published : Aug. 4, 2026, 4:16 p.m. | 35\u00a0minutes ago\n  \n  Description :kotaemon through 0.12.0 contains an insecure deseri...",
+      "timestamp": 1785860188.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-25289 - Stack-based Buffer Overflow in WLAN Firmware",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-25289",
+      "summary": "CVE ID :CVE-2026-25289\n  \n  Published : Aug. 4, 2026, 4:16 p.m. | 35\u00a0minutes ago\n  \n  Description :Memory Corruption when processing Device Capability...",
+      "timestamp": 1785860184.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-24079 - Missing Authentication for Critical Function in Data Modem",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24079",
+      "summary": "CVE ID :CVE-2026-24079\n  \n  Published : Aug. 4, 2026, 4:16 p.m. | 35\u00a0minutes ago\n  \n  Description :Cryptographic Issue while processing registration r...",
+      "timestamp": 1785860183.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18801 - Stored Clickhouse SQL Injection Through Customer Usage Attribution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18801",
+      "summary": "CVE ID :CVE-2026-18801\n  \n  Published : Aug. 4, 2026, 4:16 p.m. | 35\u00a0minutes ago\n  \n  Description :OpenMeter contains a stored, or second-order, SQL i...",
+      "timestamp": 1785860182.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -75,17 +131,9 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-69100 - LAMP 5.6.2 GlueFactory Unsandboxed Groovy Script Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69100",
-      "summary": "CVE ID :CVE-2026-69100\n  \n  Published : Aug. 4, 2026, 3:20 p.m. | 38\u00a0minutes ago\n  \n  Description :LAMP Rapid Development Platform through 5.6.2, fixe...",
-      "timestamp": 1785856802.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-69251 - Flowise RCE via TypeORM DataSource",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-69251",
-      "summary": "CVE ID :CVE-2026-69251\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Flowise is a drag & drop user interface to build a ...",
+      "summary": "CVE ID :CVE-2026-69251\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 1\u00a0hour, 35\u00a0minutes ago\n  \n  Description :Flowise is a drag & drop user interface to ...",
       "timestamp": 1785856604.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,56 +141,8 @@
     {
       "title": "CVE-2026-69250 - Flowise: Unauthenticated OAuth2 Refresh Enables Non-Blind SSRF and Secret Exfiltration",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-69250",
-      "summary": "CVE ID :CVE-2026-69250\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Flowise is a drag & drop user interface to build a ...",
+      "summary": "CVE ID :CVE-2026-69250\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 1\u00a0hour, 35\u00a0minutes ago\n  \n  Description :Flowise is a drag & drop user interface to ...",
       "timestamp": 1785856604.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-68494 - jackson-core: Async parser maxNumberLength bypass via chunked digit accumulation (incomplete fix for CVE-2026-18401 / GHSA-72hv-8253-57qq)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68494",
-      "summary": "CVE ID :CVE-2026-68494\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :The fix released in jackson-core 2.18.6 and 2.21.1 ...",
-      "timestamp": 1785856601.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67200 - Perspective 5.0.0 Path Traversal via cwd_static_file_handler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67200",
-      "summary": "CVE ID :CVE-2026-67200\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Perspective 5.0.0 contains a path traversal vulnera...",
-      "timestamp": 1785856600.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67198 - Perspective 5.0.0 DoS via VirtualServer Protocol Dispatcher",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67198",
-      "summary": "CVE ID :CVE-2026-67198\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Perspective 5.0.0 contains a denial-of-service vuln...",
-      "timestamp": 1785856600.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67195 - Perspective 5.0.0 RCE via eval() Expression Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67195",
-      "summary": "CVE ID :CVE-2026-67195\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Perspective 5.0.0 contains a remote code execution ...",
-      "timestamp": 1785856600.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61515 - Puwell IP Camera 2.x - 4.x Unauthenticated Command Injection via DebugShell",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61515",
-      "summary": "CVE ID :CVE-2026-61515\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Puwell IP Camera firmware versions 2.x through 4.x ...",
-      "timestamp": 1785856596.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61514 - Puwell IP Camera 2.x - 4.x Unauthenticated Access via TCP Port 23456",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61514",
-      "summary": "CVE ID :CVE-2026-61514\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Puwell IP Camera firmware versions 2.x through 4.x ...",
-      "timestamp": 1785856596.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -251,5 +251,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785863022.681071
+  "last_updated": 1785869363.5722046
 }
