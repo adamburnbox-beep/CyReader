@@ -40,7 +40,7 @@
       "vendor": "ASD",
       "new_count": 0,
       "total_count": 0,
-      "status": "ok"
+      "status": "error"
     },
     {
       "source": "Ivanti Security",
@@ -52,16 +52,40 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 5,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-15721 - Query Console SQL Injection Leading to Sensitive Data Disclosure in Bilin Software's HUMANIST Digital Human Resources",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15721",
+      "summary": "CVE ID :CVE-2026-15721\n  \n  Published : Aug. 4, 2026, 10:19 a.m. | 13\u00a0minutes ago\n  \n  Description :Cleartext storage of sensitive information vulnera...",
+      "timestamp": 1785838772.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14804 - Hardcoded Cryptographic Key in Bilin Software's HUMANIST Digital Human Resources",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14804",
+      "summary": "CVE ID :CVE-2026-14804\n  \n  Published : Aug. 4, 2026, 10:19 a.m. | 13\u00a0minutes ago\n  \n  Description :Use of hard-coded cryptographic key vulnerability ...",
+      "timestamp": 1785838772.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14175 - Unrestricted File Upload in Bilin Software's HUMANIST Digital Human Resources",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14175",
+      "summary": "CVE ID :CVE-2026-14175\n  \n  Published : Aug. 4, 2026, 10:19 a.m. | 13\u00a0minutes ago\n  \n  Description :Unrestricted upload of file with dangerous type vu...",
+      "timestamp": 1785838771.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-67243 - Refirio freo2 Unrestricted File Upload Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67243",
-      "summary": "CVE ID :CVE-2026-67243\n  \n  Published : Aug. 4, 2026, 8:16 a.m. | 28\u00a0minutes ago\n  \n  Description :freo2 provided by refirio contains an unrestricted ...",
+      "summary": "CVE ID :CVE-2026-67243\n  \n  Published : Aug. 4, 2026, 8:16 a.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :freo2 provided by refirio contains an unre...",
       "timestamp": 1785831395.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +93,7 @@
     {
       "title": "CVE-2026-18759 - An improper authentication and path traversal vulnerability exists in ASUSTOR Backup Plan and ASUSTOR EZ Sync.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18759",
-      "summary": "CVE ID :CVE-2026-18759\n  \n  Published : Aug. 4, 2026, 8:16 a.m. | 28\u00a0minutes ago\n  \n  Description :The background service of ABP or AES runs as NT AUT...",
+      "summary": "CVE ID :CVE-2026-18759\n  \n  Published : Aug. 4, 2026, 8:16 a.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :The background service of ABP or AES runs ...",
       "timestamp": 1785831395.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +101,7 @@
     {
       "title": "CVE-2026-18754 - Hardcoded Cryptographic Key on GV-AS1620 Controller Firmware (GV-Cloud)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18754",
-      "summary": "CVE ID :CVE-2026-18754\n  \n  Published : Aug. 4, 2026, 8:16 a.m. | 28\u00a0minutes ago\n  \n  Description :The\nproduct firmware contains an embedded, static R...",
+      "summary": "CVE ID :CVE-2026-18754\n  \n  Published : Aug. 4, 2026, 8:16 a.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :The\nproduct firmware contains an embedded,...",
       "timestamp": 1785831394.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +109,7 @@
     {
       "title": "CVE-2026-18753 - Hardcoded Cryptographic Key on GV-AS1620 Controller Firmware (GV-ASManager)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18753",
-      "summary": "CVE ID :CVE-2026-18753\n  \n  Published : Aug. 4, 2026, 8:16 a.m. | 28\u00a0minutes ago\n  \n  Description :The\nproduct firmware contains an embedded, static R...",
+      "summary": "CVE ID :CVE-2026-18753\n  \n  Published : Aug. 4, 2026, 8:16 a.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :The\nproduct firmware contains an embedded,...",
       "timestamp": 1785831394.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +117,7 @@
     {
       "title": "CVE-2026-16881 - LINE Android Code Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16881",
-      "summary": "CVE ID :CVE-2026-16881\n  \n  Published : Aug. 4, 2026, 6:16 a.m. | 2\u00a0hours, 28\u00a0minutes ago\n  \n  Description :A code injection vulnerability exists in t...",
+      "summary": "CVE ID :CVE-2026-16881\n  \n  Published : Aug. 4, 2026, 6:16 a.m. | 4\u00a0hours, 16\u00a0minutes ago\n  \n  Description :A code injection vulnerability exists in t...",
       "timestamp": 1785824189.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +125,7 @@
     {
       "title": "CVE-2026-66318 - Microsoft Edge (Chromium-based) Information Disclosure Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66318",
-      "summary": "CVE ID :CVE-2026-66318\n  \n  Published : Aug. 4, 2026, 12:17 a.m. | 8\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Origin validation error in Microsoft Edge...",
+      "summary": "CVE ID :CVE-2026-66318\n  \n  Published : Aug. 4, 2026, 12:17 a.m. | 10\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Origin validation error in Microsoft Edg...",
       "timestamp": 1785802659.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +133,7 @@
     {
       "title": "CVE-2026-62870 - Microsoft Excel Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-62870",
-      "summary": "CVE ID :CVE-2026-62870\n  \n  Published : Aug. 4, 2026, 12:17 a.m. | 8\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Use after free in Microsoft Office Excel ...",
+      "summary": "CVE ID :CVE-2026-62870\n  \n  Published : Aug. 4, 2026, 12:17 a.m. | 10\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Use after free in Microsoft Office Excel...",
       "timestamp": 1785802657.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -123,36 +147,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-18686 - GL.iNet GL-MT3000 nas-web RPC Wrapper glc nas-web.add_user command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18686",
-      "summary": "CVE ID :CVE-2026-18686\n  \n  Published : Aug. 4, 2026, 12:16 a.m. | 8\u00a0hours, 28\u00a0minutes ago\n  \n  Description :A vulnerability was detected in GL.iNet G...",
-      "timestamp": 1785802600.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18685 - GL.iNet GL-MT3000 modem.so glc set_upgrade command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18685",
-      "summary": "CVE ID :CVE-2026-18685\n  \n  Published : Aug. 4, 2026, 12:16 a.m. | 8\u00a0hours, 28\u00a0minutes ago\n  \n  Description :A security vulnerability has been detecte...",
-      "timestamp": 1785802600.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
       "link": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
       "summary": "Security researchers have discovered three attacks that allow malware on already-compromised Windows devices to abuse Google Password Manager's synced...",
       "timestamp": 1785801481.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-48333 - Adobe Campaign Classic (ACC) | Incorrect Authorization (CWE-863)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48333",
-      "summary": "CVE ID :CVE-2026-48333\n  \n  Published : Aug. 3, 2026, 11:16 p.m. | 9\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Adobe Campaign Classic (ACC) is affected ...",
-      "timestamp": 1785799006.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "New DOUBLECUP ClickFix service hides malware in browser cache images",
@@ -251,5 +251,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785838472.419974
+  "last_updated": 1785846745.0704203
 }
