@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,64 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Varonis Agent IBAC keeps AI agents within their intended boundaries",
+      "link": "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/",
+      "summary": "AI agents need broad access to be useful, but traditional access controls cannot determine whether an action aligns with a user's intent. Varonis expl...",
+      "timestamp": 1785852010.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-63252 - Eclipse Milo UASC Server Memory Exhaustion Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63252",
+      "summary": "CVE ID :CVE-2026-63252\n  \n  Published : Aug. 4, 2026, 1:18 p.m. | 36\u00a0minutes ago\n  \n  Description :In Eclipse Milo versions 0.6.0 through 1.1.4, UASC ...",
+      "timestamp": 1785849535.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62927 - Eclipse Milo Authorization Bypass via Batch Processing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62927",
+      "summary": "CVE ID :CVE-2026-62927\n  \n  Published : Aug. 4, 2026, 1:18 p.m. | 36\u00a0minutes ago\n  \n  Description :In Eclipse Milo versions 1.0.0 through 1.1.4, the C...",
+      "timestamp": 1785849535.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-60007 - Eclipse Milo Username Token Padding Oracle Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60007",
+      "summary": "CVE ID :CVE-2026-60007\n  \n  Published : Aug. 4, 2026, 1:18 p.m. | 36\u00a0minutes ago\n  \n  Description :In Eclipse Milo versions 0.6.0 through 1.1.4, usern...",
+      "timestamp": 1785849535.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58080 - Eclipse Milo Access Control Bypass Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58080",
+      "summary": "CVE ID :CVE-2026-58080\n  \n  Published : Aug. 4, 2026, 1:18 p.m. | 36\u00a0minutes ago\n  \n  Description :In Eclipse Milo versions 1.0.0 through 1.1.4, `OpcU...",
+      "timestamp": 1785849535.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-10050 - Digest authentication lossy encoding",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10050",
+      "summary": "CVE ID :CVE-2026-10050\n  \n  Published : Aug. 4, 2026, 11:22 a.m. | 2\u00a0hours, 32\u00a0minutes ago\n  \n  Description :In Eclipse Jetty, the Digest authenticati...",
+      "timestamp": 1785842563.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-15721 - Query Console SQL Injection Leading to Sensitive Data Disclosure in Bilin Software's HUMANIST Digital Human Resources",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-15721",
-      "summary": "CVE ID :CVE-2026-15721\n  \n  Published : Aug. 4, 2026, 10:19 a.m. | 13\u00a0minutes ago\n  \n  Description :Cleartext storage of sensitive information vulnera...",
+      "summary": "CVE ID :CVE-2026-15721\n  \n  Published : Aug. 4, 2026, 10:19 a.m. | 3\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Cleartext storage of sensitive informatio...",
       "timestamp": 1785838772.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +117,7 @@
     {
       "title": "CVE-2026-14804 - Hardcoded Cryptographic Key in Bilin Software's HUMANIST Digital Human Resources",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14804",
-      "summary": "CVE ID :CVE-2026-14804\n  \n  Published : Aug. 4, 2026, 10:19 a.m. | 13\u00a0minutes ago\n  \n  Description :Use of hard-coded cryptographic key vulnerability ...",
+      "summary": "CVE ID :CVE-2026-14804\n  \n  Published : Aug. 4, 2026, 10:19 a.m. | 3\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Use of hard-coded cryptographic key vulne...",
       "timestamp": 1785838772.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,23 +125,15 @@
     {
       "title": "CVE-2026-14175 - Unrestricted File Upload in Bilin Software's HUMANIST Digital Human Resources",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14175",
-      "summary": "CVE ID :CVE-2026-14175\n  \n  Published : Aug. 4, 2026, 10:19 a.m. | 13\u00a0minutes ago\n  \n  Description :Unrestricted upload of file with dangerous type vu...",
+      "summary": "CVE ID :CVE-2026-14175\n  \n  Published : Aug. 4, 2026, 10:19 a.m. | 3\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Unrestricted upload of file with dangerou...",
       "timestamp": 1785838771.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67243 - Refirio freo2 Unrestricted File Upload Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67243",
-      "summary": "CVE ID :CVE-2026-67243\n  \n  Published : Aug. 4, 2026, 8:16 a.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :freo2 provided by refirio contains an unre...",
-      "timestamp": 1785831395.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-18759 - An improper authentication and path traversal vulnerability exists in ASUSTOR Backup Plan and ASUSTOR EZ Sync.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18759",
-      "summary": "CVE ID :CVE-2026-18759\n  \n  Published : Aug. 4, 2026, 8:16 a.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :The background service of ABP or AES runs ...",
+      "summary": "CVE ID :CVE-2026-18759\n  \n  Published : Aug. 4, 2026, 8:16 a.m. | 5\u00a0hours, 38\u00a0minutes ago\n  \n  Description :The background service of ABP or AES runs ...",
       "timestamp": 1785831395.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,40 +141,8 @@
     {
       "title": "CVE-2026-18754 - Hardcoded Cryptographic Key on GV-AS1620 Controller Firmware (GV-Cloud)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18754",
-      "summary": "CVE ID :CVE-2026-18754\n  \n  Published : Aug. 4, 2026, 8:16 a.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :The\nproduct firmware contains an embedded,...",
+      "summary": "CVE ID :CVE-2026-18754\n  \n  Published : Aug. 4, 2026, 8:16 a.m. | 5\u00a0hours, 38\u00a0minutes ago\n  \n  Description :The\nproduct firmware contains an embedded,...",
       "timestamp": 1785831394.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18753 - Hardcoded Cryptographic Key on GV-AS1620 Controller Firmware (GV-ASManager)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18753",
-      "summary": "CVE ID :CVE-2026-18753\n  \n  Published : Aug. 4, 2026, 8:16 a.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :The\nproduct firmware contains an embedded,...",
-      "timestamp": 1785831394.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16881 - LINE Android Code Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16881",
-      "summary": "CVE ID :CVE-2026-16881\n  \n  Published : Aug. 4, 2026, 6:16 a.m. | 4\u00a0hours, 16\u00a0minutes ago\n  \n  Description :A code injection vulnerability exists in t...",
-      "timestamp": 1785824189.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66318 - Microsoft Edge (Chromium-based) Information Disclosure Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66318",
-      "summary": "CVE ID :CVE-2026-66318\n  \n  Published : Aug. 4, 2026, 12:17 a.m. | 10\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Origin validation error in Microsoft Edg...",
-      "timestamp": 1785802659.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62870 - Microsoft Excel Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62870",
-      "summary": "CVE ID :CVE-2026-62870\n  \n  Published : Aug. 4, 2026, 12:17 a.m. | 10\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Use after free in Microsoft Office Excel...",
-      "timestamp": 1785802657.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -227,14 +235,6 @@
       "vendor": "News"
     },
     {
-      "title": "Google Chrome may soon block New Tab hijacker extensions by default",
-      "link": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
-      "summary": "Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default...",
-      "timestamp": 1785680236.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
@@ -251,5 +251,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785846745.0704203
+  "last_updated": 1785856206.2108703
 }
