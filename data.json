@@ -52,12 +52,100 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 5,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-69110 - OpenCode Studio < 2.4.4 Unauthenticated File Read via /api/tmp and /api/music",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69110",
+      "summary": "CVE ID :CVE-2026-69110\n  \n  Published : Aug. 4, 2026, 3:30 p.m. | 28\u00a0minutes ago\n  \n  Description :OpenCode Studio before 2.4.4 contains a missing aut...",
+      "timestamp": 1785857421.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
+      "link": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
+      "summary": "Self-propagating malware named 'ChainDrop' has compromised more than\u00a01,300 packages with a combined 2 billion monthly downloads\u00a0on the Node Package Ma...",
+      "timestamp": 1785857075.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-69100 - LAMP 5.6.2 GlueFactory Unsandboxed Groovy Script Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69100",
+      "summary": "CVE ID :CVE-2026-69100\n  \n  Published : Aug. 4, 2026, 3:20 p.m. | 38\u00a0minutes ago\n  \n  Description :LAMP Rapid Development Platform through 5.6.2, fixe...",
+      "timestamp": 1785856802.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-69251 - Flowise RCE via TypeORM DataSource",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69251",
+      "summary": "CVE ID :CVE-2026-69251\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Flowise is a drag & drop user interface to build a ...",
+      "timestamp": 1785856604.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-69250 - Flowise: Unauthenticated OAuth2 Refresh Enables Non-Blind SSRF and Secret Exfiltration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69250",
+      "summary": "CVE ID :CVE-2026-69250\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Flowise is a drag & drop user interface to build a ...",
+      "timestamp": 1785856604.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-68494 - jackson-core: Async parser maxNumberLength bypass via chunked digit accumulation (incomplete fix for CVE-2026-18401 / GHSA-72hv-8253-57qq)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68494",
+      "summary": "CVE ID :CVE-2026-68494\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :The fix released in jackson-core 2.18.6 and 2.21.1 ...",
+      "timestamp": 1785856601.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67200 - Perspective 5.0.0 Path Traversal via cwd_static_file_handler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67200",
+      "summary": "CVE ID :CVE-2026-67200\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Perspective 5.0.0 contains a path traversal vulnera...",
+      "timestamp": 1785856600.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67198 - Perspective 5.0.0 DoS via VirtualServer Protocol Dispatcher",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67198",
+      "summary": "CVE ID :CVE-2026-67198\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Perspective 5.0.0 contains a denial-of-service vuln...",
+      "timestamp": 1785856600.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67195 - Perspective 5.0.0 RCE via eval() Expression Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67195",
+      "summary": "CVE ID :CVE-2026-67195\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Perspective 5.0.0 contains a remote code execution ...",
+      "timestamp": 1785856600.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-61515 - Puwell IP Camera 2.x - 4.x Unauthenticated Command Injection via DebugShell",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61515",
+      "summary": "CVE ID :CVE-2026-61515\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Puwell IP Camera firmware versions 2.x through 4.x ...",
+      "timestamp": 1785856596.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-61514 - Puwell IP Camera 2.x - 4.x Unauthenticated Access via TCP Port 23456",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61514",
+      "summary": "CVE ID :CVE-2026-61514\n  \n  Published : Aug. 4, 2026, 3:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Puwell IP Camera firmware versions 2.x through 4.x ...",
+      "timestamp": 1785856596.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Varonis Agent IBAC keeps AI agents within their intended boundaries",
       "link": "https://www.bleepingcomputer.com/news/security/varonis-agent-ibac-keeps-ai-agents-within-their-intended-boundaries/",
@@ -65,86 +153,6 @@
       "timestamp": 1785852010.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-63252 - Eclipse Milo UASC Server Memory Exhaustion Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63252",
-      "summary": "CVE ID :CVE-2026-63252\n  \n  Published : Aug. 4, 2026, 1:18 p.m. | 36\u00a0minutes ago\n  \n  Description :In Eclipse Milo versions 0.6.0 through 1.1.4, UASC ...",
-      "timestamp": 1785849535.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62927 - Eclipse Milo Authorization Bypass via Batch Processing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62927",
-      "summary": "CVE ID :CVE-2026-62927\n  \n  Published : Aug. 4, 2026, 1:18 p.m. | 36\u00a0minutes ago\n  \n  Description :In Eclipse Milo versions 1.0.0 through 1.1.4, the C...",
-      "timestamp": 1785849535.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-60007 - Eclipse Milo Username Token Padding Oracle Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60007",
-      "summary": "CVE ID :CVE-2026-60007\n  \n  Published : Aug. 4, 2026, 1:18 p.m. | 36\u00a0minutes ago\n  \n  Description :In Eclipse Milo versions 0.6.0 through 1.1.4, usern...",
-      "timestamp": 1785849535.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58080 - Eclipse Milo Access Control Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58080",
-      "summary": "CVE ID :CVE-2026-58080\n  \n  Published : Aug. 4, 2026, 1:18 p.m. | 36\u00a0minutes ago\n  \n  Description :In Eclipse Milo versions 1.0.0 through 1.1.4, `OpcU...",
-      "timestamp": 1785849535.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10050 - Digest authentication lossy encoding",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10050",
-      "summary": "CVE ID :CVE-2026-10050\n  \n  Published : Aug. 4, 2026, 11:22 a.m. | 2\u00a0hours, 32\u00a0minutes ago\n  \n  Description :In Eclipse Jetty, the Digest authenticati...",
-      "timestamp": 1785842563.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-15721 - Query Console SQL Injection Leading to Sensitive Data Disclosure in Bilin Software's HUMANIST Digital Human Resources",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15721",
-      "summary": "CVE ID :CVE-2026-15721\n  \n  Published : Aug. 4, 2026, 10:19 a.m. | 3\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Cleartext storage of sensitive informatio...",
-      "timestamp": 1785838772.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14804 - Hardcoded Cryptographic Key in Bilin Software's HUMANIST Digital Human Resources",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14804",
-      "summary": "CVE ID :CVE-2026-14804\n  \n  Published : Aug. 4, 2026, 10:19 a.m. | 3\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Use of hard-coded cryptographic key vulne...",
-      "timestamp": 1785838772.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14175 - Unrestricted File Upload in Bilin Software's HUMANIST Digital Human Resources",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14175",
-      "summary": "CVE ID :CVE-2026-14175\n  \n  Published : Aug. 4, 2026, 10:19 a.m. | 3\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Unrestricted upload of file with dangerou...",
-      "timestamp": 1785838771.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18759 - An improper authentication and path traversal vulnerability exists in ASUSTOR Backup Plan and ASUSTOR EZ Sync.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18759",
-      "summary": "CVE ID :CVE-2026-18759\n  \n  Published : Aug. 4, 2026, 8:16 a.m. | 5\u00a0hours, 38\u00a0minutes ago\n  \n  Description :The background service of ABP or AES runs ...",
-      "timestamp": 1785831395.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18754 - Hardcoded Cryptographic Key on GV-AS1620 Controller Firmware (GV-Cloud)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18754",
-      "summary": "CVE ID :CVE-2026-18754\n  \n  Published : Aug. 4, 2026, 8:16 a.m. | 5\u00a0hours, 38\u00a0minutes ago\n  \n  Description :The\nproduct firmware contains an embedded,...",
-      "timestamp": 1785831394.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
@@ -227,14 +235,6 @@
       "vendor": "News"
     },
     {
-      "title": "COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft",
-      "link": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
-      "summary": "A vulnerability in COLDCARD hardware wallet firmware allowed attackers to steal an estimated $88.6 million in Bitcoin from thousands of wallets whose ...",
-      "timestamp": 1785705269.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
@@ -251,5 +251,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785856206.2108703
+  "last_updated": 1785863022.681071
 }
