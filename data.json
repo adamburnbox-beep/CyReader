@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,82 +59,106 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-71252 - toner-management: Unauthenticated State-Changing Admin Actions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71252",
-      "summary": "CVE ID :CVE-2026-71252\n  \n  Published : Aug. 5, 2026, 11:16 a.m. | 39\u00a0minutes ago\n  \n  Description :toner-management's admin state-changing handlers (...",
-      "timestamp": 1785928588.0,
+      "title": "Cisco Secure Firewall Management Center Software Static Credential Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Static%20Credential%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to log ...",
+      "timestamp": 1785940752.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypa...",
+      "timestamp": 1785940662.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "How AI-powered phishing killed blocklists for good",
+      "link": "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
+      "summary": "AI is helping attackers create disposable phishing infrastructure and rapidly evolving toolkits that blocklists cannot track fast enough. Push Securit...",
+      "timestamp": 1785938471.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-67623 - Mistral Vibe < 2.23.3 Arbitrary Command Execution via git fsmonitor Hook",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67623",
+      "summary": "CVE ID :CVE-2026-67623\n  \n  Published : Aug. 5, 2026, 1:27 p.m. | 31\u00a0minutes ago\n  \n  Description :Mistral Vibe before 2.23.3 contains a remote code e...",
+      "timestamp": 1785936447.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-71248 - Inventory-Management-System-PHP: Unauthenticated SQL Injection in Login and Product Deletion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71248",
-      "summary": "CVE ID :CVE-2026-71248\n  \n  Published : Aug. 5, 2026, 11:16 a.m. | 39\u00a0minutes ago\n  \n  Description :Inventory-Management-System-PHP's login.php constr...",
-      "timestamp": 1785928587.0,
+      "title": "CVE-2026-71291 - Bolt CMS Server-Side Template Injection via Unsandboxed allow_twig Field Rendering",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71291",
+      "summary": "CVE ID :CVE-2026-71291\n  \n  Published : Aug. 5, 2026, 1:24 p.m. | 34\u00a0minutes ago\n  \n  Description :Bolt CMS renders content field values through Twig'...",
+      "timestamp": 1785936293.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-71243 - backmeup (npm): OS Command Injection via Backup Option Values",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71243",
-      "summary": "CVE ID :CVE-2026-71243\n  \n  Published : Aug. 5, 2026, 11:16 a.m. | 39\u00a0minutes ago\n  \n  Description :The backmeup npm package assembles shell command s...",
-      "timestamp": 1785928587.0,
+      "title": "CVE-2026-71289 - NASA-AMMOS ANMS / JHUAPL dtnma-tools Unauthenticated Remote Command Execution via Exposed AMP Manager REST API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71289",
+      "summary": "CVE ID :CVE-2026-71289\n  \n  Published : Aug. 5, 2026, 1:24 p.m. | 34\u00a0minutes ago\n  \n  Description :The NASA-AMMOS Asynchronous Network Management Syst...",
+      "timestamp": 1785936293.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-71242 - Crater: Cross-Company IDOR on Notes via Missing Company-Ownership Check in NotePolicy",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71242",
-      "summary": "CVE ID :CVE-2026-71242\n  \n  Published : Aug. 5, 2026, 11:16 a.m. | 39\u00a0minutes ago\n  \n  Description :Crater's NotePolicy checks only a blanket Bouncer ...",
-      "timestamp": 1785928587.0,
+      "title": "CVE-2026-71288 - Koha SQL Injection via order_by and {order}_ovalue Parameters in guided_reports.pl",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71288",
+      "summary": "CVE ID :CVE-2026-71288\n  \n  Published : Aug. 5, 2026, 1:24 p.m. | 34\u00a0minutes ago\n  \n  Description :Koha's guided report builder (reports/guided_report...",
+      "timestamp": 1785936293.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-71239 - DjangoCRM: Server-Side Template Injection in Mass Mail Message Rendering",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71239",
-      "summary": "CVE ID :CVE-2026-71239\n  \n  Published : Aug. 5, 2026, 11:16 a.m. | 39\u00a0minutes ago\n  \n  Description :DjangoCRM's massmail module renders user-controlle...",
-      "timestamp": 1785928586.0,
+      "title": "CVE-2026-71287 - Cacti sanitize_sql_column() Regex Allowlist Permits SQL Time-Delay Functions Leading to Blind SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71287",
+      "summary": "CVE ID :CVE-2026-71287\n  \n  Published : Aug. 5, 2026, 1:24 p.m. | 34\u00a0minutes ago\n  \n  Description :Cacti's sanitize_sql_column() (lib/functions.php) s...",
+      "timestamp": 1785936293.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-71238 - DjangoCRM: Hardcoded Django SECRET_KEY Enables Session and CSRF Token Forgery",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71238",
-      "summary": "CVE ID :CVE-2026-71238\n  \n  Published : Aug. 5, 2026, 11:16 a.m. | 39\u00a0minutes ago\n  \n  Description :DjangoCRM ships with its Django SECRET_KEY hardcod...",
-      "timestamp": 1785928586.0,
+      "title": "CVE-2026-71285 - Uptime Kuma Stored XSS via Matomo Analytics Site ID on Public Status Pages",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71285",
+      "summary": "CVE ID :CVE-2026-71285\n  \n  Published : Aug. 5, 2026, 1:24 p.m. | 34\u00a0minutes ago\n  \n  Description :Uptime Kuma's Matomo analytics integration (server/...",
+      "timestamp": 1785936293.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-71237 - Miantang IoT-PHP: Unauthenticated SQL Injection in /userlogin",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71237",
-      "summary": "CVE ID :CVE-2026-71237\n  \n  Published : Aug. 5, 2026, 11:16 a.m. | 39\u00a0minutes ago\n  \n  Description :Miantang/IoT-PHP's index.php implements a POST /us...",
-      "timestamp": 1785928586.0,
+      "title": "CVE-2026-71281 - peft Unsafe Deserialization via torch.load() Without weights_only in LoRA-GA and CorDA Modules",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71281",
+      "summary": "CVE ID :CVE-2026-71281\n  \n  Published : Aug. 5, 2026, 1:24 p.m. | 34\u00a0minutes ago\n  \n  Description :Hugging Face peft's LoRA-GA and CorDA initializatio...",
+      "timestamp": 1785936292.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-71236 - Grocy: Stored XSS via HTMLPurifier Output Double-Decode",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71236",
-      "summary": "CVE ID :CVE-2026-71236\n  \n  Published : Aug. 5, 2026, 11:16 a.m. | 39\u00a0minutes ago\n  \n  Description :Grocy's API request-body parser (controllers/Api/B...",
-      "timestamp": 1785928586.0,
+      "title": "CVE-2026-71280 - go-shiori Server-Side Request Forgery via Unrestricted Bookmark URL Fetch",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71280",
+      "summary": "CVE ID :CVE-2026-71280\n  \n  Published : Aug. 5, 2026, 1:24 p.m. | 34\u00a0minutes ago\n  \n  Description :go-shiori's DownloadBookmark() (internal/core/downl...",
+      "timestamp": 1785936292.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-71235 - Magistrala IoT Platform: Unrestricted Go/Lua Script Execution in Rules Engine",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71235",
-      "summary": "CVE ID :CVE-2026-71235\n  \n  Published : Aug. 5, 2026, 11:16 a.m. | 39\u00a0minutes ago\n  \n  Description :Magistrala's Rules Engine allows authenticated use...",
-      "timestamp": 1785928586.0,
+      "title": "CVE-2026-71279 - Zigbee2MQTT External JS Extension Path Traversal Leading to Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71279",
+      "summary": "CVE ID :CVE-2026-71279\n  \n  Published : Aug. 5, 2026, 1:24 p.m. | 34\u00a0minutes ago\n  \n  Description :Zigbee2MQTT's ExternalJSExtension.getFilePath() (li...",
+      "timestamp": 1785936292.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-71233 - InvoiceNinja: Stored XSS via Invoice/Quote Terms Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71233",
-      "summary": "CVE ID :CVE-2026-71233\n  \n  Published : Aug. 5, 2026, 11:16 a.m. | 39\u00a0minutes ago\n  \n  Description :InvoiceNinja v5-stable renders an invoice or quote...",
-      "timestamp": 1785928585.0,
+      "title": "CVE-2026-71278 - rust-iot-platform Unauthenticated Remote Code Execution via Unsandboxed Calc-Rule Script Evaluation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71278",
+      "summary": "CVE ID :CVE-2026-71278\n  \n  Published : Aug. 5, 2026, 1:24 p.m. | 34\u00a0minutes ago\n  \n  Description :rust-iot-platform allows creating a \"calc rule\" via...",
+      "timestamp": 1785936292.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -211,30 +235,6 @@
       "vendor": "News"
     },
     {
-      "title": "New DOUBLECUP ClickFix service hides malware in browser cache images",
-      "link": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
-      "summary": "A new Russian loader-as-a-service named DOUBLECUP uses ClickFix attacks to hide malicious code in PNG images cached by victims' browsers, ultimately d...",
-      "timestamp": 1785787282.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypa...",
-      "timestamp": 1785778066.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Secure Firewall Management Center Software Static Credential Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Static%20Credential%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to log ...",
-      "timestamp": 1785777710.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
@@ -251,5 +251,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1785933092.036266
+  "last_updated": 1785942160.0547864
 }
