@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,32 +52,80 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 9,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
+      "link": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
+      "summary": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomwa...",
+      "timestamp": 1785970850.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
+      "summary": "A Canadian man pleaded guilty today to his role in accessing company accounts at cloud storage provider Snowflake and stealing data from at least 165 ...",
+      "timestamp": 1785966806.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-71315 - Nuxt route rules silently dropped for mixed-case paths, bypassing appMiddleware auth gates (incomplete fix for CVE-2026-53721)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71315",
+      "summary": "CVE ID :CVE-2026-71315\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Nuxt is an open-source web development framework fo...",
+      "timestamp": 1785964619.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71312 - rclone: PowerShell Smart-Quote Filename Injection Enables SFTP Server-Side Command Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71312",
+      "summary": "CVE ID :CVE-2026-71312\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 42\u00a0minutes ago\n  \n  Description :rclone is a command-line program to sync files and ...",
+      "timestamp": 1785964618.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71309 - rclone: Incomplete path validation allows backend root escape in serve restic",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71309",
+      "summary": "CVE ID :CVE-2026-71309\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 42\u00a0minutes ago\n  \n  Description :rclone is a command-line program to sync files and ...",
+      "timestamp": 1785964618.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-34966 - Gitea prior to 1.27.0 SSRF via Migration URI Fetch Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-34966",
-      "summary": "CVE ID :CVE-2026-34966\n  \n  Published : Aug. 5, 2026, 8:28 p.m. | 49\u00a0minutes ago\n  \n  Description :Gitea prior to 1.27.0 contains a server-side reques...",
-      "timestamp": 1785961737.0,
+      "summary": "CVE ID :CVE-2026-34966\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Gitea prior to 1.27.0 contains a server-side reques...",
+      "timestamp": 1785964618.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18411 - Use of hard-coded cryptographic key in Acrisure KARR BT and DR-100",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18411",
+      "summary": "CVE ID :CVE-2026-18411\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 42\u00a0minutes ago\n  \n  Description :The KARR Security System and SWDS dealer-installed ...",
+      "timestamp": 1785964617.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-17583 - Thermo Fisher Applied Biosystems Genetic Analyzers Missing Support for Integrity Check",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-17583",
-      "summary": "CVE ID :CVE-2026-17583\n  \n  Published : Aug. 5, 2026, 8:23 p.m. | 54\u00a0minutes ago\n  \n  Description :The affected\n\nThermo Fisher Applied Biosystems Gene...",
-      "timestamp": 1785961412.0,
+      "summary": "CVE ID :CVE-2026-17583\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 42\u00a0minutes ago\n  \n  Description :The affected\n\nThermo Fisher Applied Biosystems Gene...",
+      "timestamp": 1785964617.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-70617 - Spacebar Server Missing Authorization via Group DM Recipient Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70617",
-      "summary": "CVE ID :CVE-2026-70617\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 1\u00a0hour ago\n  \n  Description :Spacebar Server before commit dcfd910 contains a missin...",
+      "summary": "CVE ID :CVE-2026-70617\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :Spacebar Server before commit dcfd910 conta...",
       "timestamp": 1785961037.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +133,7 @@
     {
       "title": "CVE-2026-70615 - boringproxy 0.10.0 SSH authorized_keys Injection via Tunnel Creation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70615",
-      "summary": "CVE ID :CVE-2026-70615\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 1\u00a0hour ago\n  \n  Description :boringproxy through 0.10.0 contains a newline injection...",
+      "summary": "CVE ID :CVE-2026-70615\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :boringproxy through 0.10.0 contains a newli...",
       "timestamp": 1785961037.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +141,7 @@
     {
       "title": "CVE-2026-69111 - Milvus 2.6.22, 3.0.0 Unauthenticated Denial of Service via /management/stop",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-69111",
-      "summary": "CVE ID :CVE-2026-69111\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 1\u00a0hour ago\n  \n  Description :Milvus through 2.6.22 and 3.0.0 contains an unauthentic...",
+      "summary": "CVE ID :CVE-2026-69111\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :Milvus through 2.6.22 and 3.0.0 contains an...",
       "timestamp": 1785961034.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,32 +149,8 @@
     {
       "title": "CVE-2026-66298 - JS-view sandboxed output can synthesize keyboard events to trigger unconfirmed global shortcuts",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66298",
-      "summary": "CVE ID :CVE-2026-66298\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 1\u00a0hour ago\n  \n  Description :Origin Validation Error vulnerability in livebook-dev l...",
+      "summary": "CVE ID :CVE-2026-66298\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :Origin Validation Error vulnerability in li...",
       "timestamp": 1785961032.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18953 - Improper limitation of a pathname to a restricted directory in aws-transform-mcp-server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18953",
-      "summary": "CVE ID :CVE-2026-18953\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 1\u00a0hour ago\n  \n  Description :Improper limitation of a pathname to a restricted direc...",
-      "timestamp": 1785961027.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-17556 - Path traversal in GitHub Enterprise Server allowed unauthenticated deletion of instance storage via the X-GitHub-Request-Id header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17556",
-      "summary": "CVE ID :CVE-2026-17556\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :A path traversal vulnerability was identified...",
-      "timestamp": 1785961026.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18411 - Use of hard-coded cryptographic key in Acrisure KARR BT and DR-100",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18411",
-      "summary": "CVE ID :CVE-2026-18411\n  \n  Published : Aug. 5, 2026, 8:13 p.m. | 1\u00a0hour, 4\u00a0minutes ago\n  \n  Description :The KARR Security System and SWDS dealer-ins...",
-      "timestamp": 1785960793.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -137,14 +161,6 @@
       "timestamp": 1785959725.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-9201 - Langflow OSS is affected by arbitrary code execution in component generation, validation, and custom component handling",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9201",
-      "summary": "CVE ID :CVE-2026-9201\n  \n  Published : Aug. 5, 2026, 7:17 p.m. | 2\u00a0hours ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.3 could allow an au...",
-      "timestamp": 1785957468.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "COLDCARD security audit phishing attack installs remote access tool",
@@ -283,22 +299,6 @@
       "vendor": "News"
     },
     {
-      "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
-      "link": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
-      "summary": "A new version of the XCSSET malware is targeting thousands of\u00a0macOS users through compromised Xcode projects and GitHub repositories. [...]",
-      "timestamp": 1785870189.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "77 Open VSX extensions found harvesting developer info",
-      "link": "https://www.bleepingcomputer.com/news/security/77-open-vsx-extensions-found-harvesting-developer-info/",
-      "summary": "77 extensions on the Open VSX marketplace impersonated legitimate developer tools while transmitting information about the systems and development env...",
-      "timestamp": 1785869455.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
@@ -307,5 +307,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1785966935.1143546
+  "last_updated": 1785971807.8078704
 }
