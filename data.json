@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 9,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,84 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Hackers run khunt post-exploitation toolkit from Oracle database",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
+      "summary": "Hackers exploited a SQL injection vulnerability to install a post-exploitation toolkit directly inside an Oracle database that was used to breach a co...",
+      "timestamp": 1785959725.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-18485 - Local Privilege Escalation in NI-PAL",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18485",
+      "summary": "CVE ID :CVE-2026-18485\n  \n  Published : Aug. 5, 2026, 6:39 p.m. | 36\u00a0minutes ago\n  \n  Description :There is a local privilege escalation vulnerability...",
+      "timestamp": 1785955176.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-17624 - Langflow OSS is affected by arbitrary code execution in component generation, validation, and custom component handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17624",
+      "summary": "CVE ID :CVE-2026-17624\n  \n  Published : Aug. 5, 2026, 6:34 p.m. | 41\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.3, 1.0.0 throug...",
+      "timestamp": 1785954864.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-17633 - Langflow OSS is affected by arbitrary code execution in component generation, validation, and custom component handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17633",
+      "summary": "CVE ID :CVE-2026-17633\n  \n  Published : Aug. 5, 2026, 6:33 p.m. | 41\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.3 could allow a...",
+      "timestamp": 1785954831.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-17632 - Langflow OSS is affected by arbitrary code execution in component generation, validation, and custom component handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17632",
+      "summary": "CVE ID :CVE-2026-17632\n  \n  Published : Aug. 5, 2026, 6:33 p.m. | 42\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.3 could allow a...",
+      "timestamp": 1785954806.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-9196 - Langflow OSS is affected by arbitrary code execution in component generation, validation, and custom component handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9196",
+      "summary": "CVE ID :CVE-2026-9196\n  \n  Published : Aug. 5, 2026, 6:27 p.m. | 48\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.3 could allow an...",
+      "timestamp": 1785954459.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8182 - Langflow OSS is affected by arbitrary code execution in component generation, validation, and custom component handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8182",
+      "summary": "CVE ID :CVE-2026-8182\n  \n  Published : Aug. 5, 2026, 6:26 p.m. | 49\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.3 installations ...",
+      "timestamp": 1785954389.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-9201 - Langflow OSS is affected by arbitrary code execution in component generation, validation, and custom component handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9201",
+      "summary": "CVE ID :CVE-2026-9201\n  \n  Published : Aug. 5, 2026, 6:26 p.m. | 49\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.3 could allow an...",
+      "timestamp": 1785954376.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8478 - Langflow OSS is affected by arbitrary code execution in component generation, validation, and custom component handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8478",
+      "summary": "CVE ID :CVE-2026-8478\n  \n  Published : Aug. 5, 2026, 6:24 p.m. | 51\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.3 could allow a ...",
+      "timestamp": 1785954252.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "COLDCARD security audit phishing attack installs remote access tool",
       "link": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
@@ -69,7 +141,7 @@
     {
       "title": "CVE-2026-9077 - Reliance on Untrusted Inputs in a Security Decision vulnerabilities in Model Context Protocol features",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9077",
-      "summary": "CVE ID :CVE-2026-9077\n  \n  Published : Aug. 5, 2026, 5:16 p.m. | 42\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.3 Langflow allow...",
+      "summary": "CVE ID :CVE-2026-9077\n  \n  Published : Aug. 5, 2026, 5:16 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.3 Langfl...",
       "timestamp": 1785950217.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,72 +149,8 @@
     {
       "title": "CVE-2026-20312 - Cisco Catalyst SD-WAN Security Hardening Release - Information Disclosure Vulnerabilities",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-20312",
-      "summary": "CVE ID :CVE-2026-20312\n  \n  Published : Aug. 5, 2026, 5:16 p.m. | 42\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to proactive ...",
+      "summary": "CVE ID :CVE-2026-20312\n  \n  Published : Aug. 5, 2026, 5:16 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to pr...",
       "timestamp": 1785950212.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-20310 - Cisco SD-WAN Software Security Hardening Release - Improper Link Resolution Before File Access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20310",
-      "summary": "CVE ID :CVE-2026-20310\n  \n  Published : Aug. 5, 2026, 5:16 p.m. | 42\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to proactive ...",
-      "timestamp": 1785950211.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-20304 - Cisco Catalyst SD-WAN Security Hardening Release - Access Control Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20304",
-      "summary": "CVE ID :CVE-2026-20304\n  \n  Published : Aug. 5, 2026, 5:16 p.m. | 42\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to proactive ...",
-      "timestamp": 1785950210.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-20303 - Cisco Catalyst SD-WAN Security Hardening Release - Input Validation Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20303",
-      "summary": "CVE ID :CVE-2026-20303\n  \n  Published : Aug. 5, 2026, 5:16 p.m. | 42\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to proactive ...",
-      "timestamp": 1785950210.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-20301 - Cisco IOS Software and IOS XE Software Extensible Messaging Client Protocol Denial of Service Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20301",
-      "summary": "CVE ID :CVE-2026-20301\n  \n  Published : Aug. 5, 2026, 5:16 p.m. | 42\u00a0minutes ago\n  \n  Description :A vulnerability in the Extensible Messaging Client ...",
-      "timestamp": 1785950210.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-20273 - Cisco IOS XE Software Security Hardening Release",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20273",
-      "summary": "CVE ID :CVE-2026-20273\n  \n  Published : Aug. 5, 2026, 5:16 p.m. | 42\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to proactive ...",
-      "timestamp": 1785950209.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-20272 - Cisco IOS XE Software Security Hardening Release",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20272",
-      "summary": "CVE ID :CVE-2026-20272\n  \n  Published : Aug. 5, 2026, 5:16 p.m. | 42\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to proactive ...",
-      "timestamp": 1785950209.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-20271 - Cisco IOS XE Software Security Hardening Release",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20271",
-      "summary": "CVE ID :CVE-2026-20271\n  \n  Published : Aug. 5, 2026, 5:16 p.m. | 42\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to proactive ...",
-      "timestamp": 1785950208.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-20270 - Cisco IOS XE Software Security Hardening Release",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20270",
-      "summary": "CVE ID :CVE-2026-20270\n  \n  Published : Aug. 5, 2026, 5:16 p.m. | 42\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to proactive ...",
-      "timestamp": 1785950208.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -291,14 +299,6 @@
       "vendor": "News"
     },
     {
-      "title": "Massive ChainDrop npm supply-chain attack infects hundreds of packages",
-      "link": "https://www.bleepingcomputer.com/news/security/massive-chaindrop-npm-supply-chain-attack-infects-hundreds-of-packages/",
-      "summary": "Self-propagating malware named 'ChainDrop' has compromised more than\u00a01,300 packages with a combined 2 billion monthly downloads\u00a0on the Node Package Ma...",
-      "timestamp": 1785857075.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
@@ -307,5 +307,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1785955570.7158203
+  "last_updated": 1785962457.3407662
 }
