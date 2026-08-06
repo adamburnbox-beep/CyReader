@@ -52,16 +52,64 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-5430 - Authentication Bypass via JWT Algorithm Mismatch in Multiple WSO2 Products Allows Account Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5430",
+      "summary": "CVE ID :CVE-2026-5430\n  \n  Published : Aug. 6, 2026, 8:16 a.m. | 31\u00a0minutes ago\n  \n  Description :The JWT authentication mechanism accepts tokens sign...",
+      "timestamp": 1786004193.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-1728 - Privilege Escalation via System REST APIs in Multiple WSO2 Products Permits Admin Account Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-1728",
+      "summary": "CVE ID :CVE-2026-1728\n  \n  Published : Aug. 6, 2026, 8:16 a.m. | 31\u00a0minutes ago\n  \n  Description :Tokens issued to a low-privileged user are not suffi...",
+      "timestamp": 1786004191.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18597 - Blind SSRF on Foxit PDF Services API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18597",
+      "summary": "CVE ID :CVE-2026-18597\n  \n  Published : Aug. 6, 2026, 8:16 a.m. | 31\u00a0minutes ago\n  \n  Description :The PDF creation feature of Foxit PDF Services API ...",
+      "timestamp": 1786004189.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-15039 - Account Takeover via Conditional Authentication Script Logic in Multiple WSO2 Products",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15039",
+      "summary": "CVE ID :CVE-2025-15039\n  \n  Published : Aug. 6, 2026, 8:16 a.m. | 31\u00a0minutes ago\n  \n  Description :The Conditional Authentication (Adaptive Authentica...",
+      "timestamp": 1786004189.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15459 - WPMU DEV Dashboard <= 5.0.0 - Authentication Bypass to Arbitrary Plugin Installation (Remote Code Execution) via Forged WDP_AUTH HMAC on ?wpmudev-hub= Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15459",
+      "summary": "CVE ID :CVE-2026-15459\n  \n  Published : Aug. 6, 2026, 6:16 a.m. | 2\u00a0hours, 31\u00a0minutes ago\n  \n  Description :The WPMU DEV Dashboard plugin for WordPres...",
+      "timestamp": 1785996990.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15991 - File Manager 6.0 - 6.9 - Missing Authorization to Authenticated (Subscriber+) Arbitrary File Read and Deletion via 'cmd' Query Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15991",
+      "summary": "CVE ID :CVE-2026-15991\n  \n  Published : Aug. 6, 2026, 5:16 a.m. | 3\u00a0hours, 31\u00a0minutes ago\n  \n  Description :The File Manager plugin for WordPress is v...",
+      "timestamp": 1785993398.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-67531 - FrontMCP: CodeCall sandbox escape -> host RCE via live Zod schema exposure by getTool",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67531",
-      "summary": "CVE ID :CVE-2026-67531\n  \n  Published : Aug. 6, 2026, 12:16 a.m. | 3\u00a0hours, 38\u00a0minutes ago\n  \n  Description :FrontMCP is a TypeScript-first framework ...",
+      "summary": "CVE ID :CVE-2026-67531\n  \n  Published : Aug. 6, 2026, 12:16 a.m. | 8\u00a0hours, 30\u00a0minutes ago\n  \n  Description :FrontMCP is a TypeScript-first framework ...",
       "timestamp": 1785975413.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +117,7 @@
     {
       "title": "CVE-2026-19024 - HDF5 H5Pget_fill_value NULL Pointer Dereference via Malformed Fill Value Message",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-19024",
-      "summary": "CVE ID :CVE-2026-19024\n  \n  Published : Aug. 5, 2026, 11:16 p.m. | 4\u00a0hours, 38\u00a0minutes ago\n  \n  Description :NULL pointer dereference in H5Pget_fill_v...",
+      "summary": "CVE ID :CVE-2026-19024\n  \n  Published : Aug. 5, 2026, 11:16 p.m. | 9\u00a0hours, 30\u00a0minutes ago\n  \n  Description :NULL pointer dereference in H5Pget_fill_v...",
       "timestamp": 1785971813.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +133,7 @@
     {
       "title": "CVE-2026-71320 - Nuxt: Server-Side Remote Code Execution via Runtime Template Injection in Nuxt Server Island Props",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71320",
-      "summary": "CVE ID :CVE-2026-71320\n  \n  Published : Aug. 5, 2026, 10:17 p.m. | 5\u00a0hours, 38\u00a0minutes ago\n  \n  Description :Nuxt is an open-source web development fr...",
+      "summary": "CVE ID :CVE-2026-71320\n  \n  Published : Aug. 5, 2026, 10:17 p.m. | 10\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Nuxt is an open-source web development f...",
       "timestamp": 1785968228.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +141,7 @@
     {
       "title": "CVE-2026-71319 - Nuxt.js Unauthenticated WebSocket RPC Call Leading to Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71319",
-      "summary": "CVE ID :CVE-2026-71319\n  \n  Published : Aug. 5, 2026, 10:17 p.m. | 5\u00a0hours, 38\u00a0minutes ago\n  \n  Description :Nuxt is an open-source web development fr...",
+      "summary": "CVE ID :CVE-2026-71319\n  \n  Published : Aug. 5, 2026, 10:17 p.m. | 10\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Nuxt is an open-source web development f...",
       "timestamp": 1785968228.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -105,54 +153,6 @@
       "timestamp": 1785966806.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-71315 - Nuxt route rules silently dropped for mixed-case paths, bypassing appMiddleware auth gates (incomplete fix for CVE-2026-53721)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71315",
-      "summary": "CVE ID :CVE-2026-71315\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 6\u00a0hours, 38\u00a0minutes ago\n  \n  Description :Nuxt is an open-source web development fra...",
-      "timestamp": 1785964619.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71312 - rclone: PowerShell Smart-Quote Filename Injection Enables SFTP Server-Side Command Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71312",
-      "summary": "CVE ID :CVE-2026-71312\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 6\u00a0hours, 38\u00a0minutes ago\n  \n  Description :rclone is a command-line program to sync f...",
-      "timestamp": 1785964618.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71309 - rclone: Incomplete path validation allows backend root escape in serve restic",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71309",
-      "summary": "CVE ID :CVE-2026-71309\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 6\u00a0hours, 38\u00a0minutes ago\n  \n  Description :rclone is a command-line program to sync f...",
-      "timestamp": 1785964618.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18411 - Use of hard-coded cryptographic key in Acrisure KARR BT and DR-100",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18411",
-      "summary": "CVE ID :CVE-2026-18411\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 6\u00a0hours, 38\u00a0minutes ago\n  \n  Description :The KARR Security System and SWDS dealer-i...",
-      "timestamp": 1785964617.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-17583 - Thermo Fisher Applied Biosystems Genetic Analyzers Missing Support for Integrity Check",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17583",
-      "summary": "CVE ID :CVE-2026-17583\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 6\u00a0hours, 38\u00a0minutes ago\n  \n  Description :The affected\n\nThermo Fisher Applied Biosys...",
-      "timestamp": 1785964617.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-70617 - Spacebar Server Missing Authorization via Group DM Recipient Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70617",
-      "summary": "CVE ID :CVE-2026-70617\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 7\u00a0hours, 38\u00a0minutes ago\n  \n  Description :Spacebar Server before commit dcfd910 cont...",
-      "timestamp": 1785961037.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Hackers run khunt post-exploitation toolkit from Oracle database",
@@ -307,5 +307,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1785990427.6352901
+  "last_updated": 1786011486.628448
 }
