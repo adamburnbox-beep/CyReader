@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,12 +59,36 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-19024 - HDF5 H5Pget_fill_value NULL Pointer Dereference via Malformed Fill Value Message",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19024",
+      "summary": "CVE ID :CVE-2026-19024\n  \n  Published : Aug. 5, 2026, 11:16 p.m. | 42\u00a0minutes ago\n  \n  Description :NULL pointer dereference in H5Pget_fill_value in H...",
+      "timestamp": 1785971813.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
       "link": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
       "summary": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomwa...",
       "timestamp": 1785970850.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-71320 - Nuxt: Server-Side Remote Code Execution via Runtime Template Injection in Nuxt Server Island Props",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71320",
+      "summary": "CVE ID :CVE-2026-71320\n  \n  Published : Aug. 5, 2026, 10:17 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :Nuxt is an open-source web development fra...",
+      "timestamp": 1785968228.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71319 - Nuxt.js Unauthenticated WebSocket RPC Call Leading to Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71319",
+      "summary": "CVE ID :CVE-2026-71319\n  \n  Published : Aug. 5, 2026, 10:17 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :Nuxt is an open-source web development fra...",
+      "timestamp": 1785968228.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
@@ -77,7 +101,7 @@
     {
       "title": "CVE-2026-71315 - Nuxt route rules silently dropped for mixed-case paths, bypassing appMiddleware auth gates (incomplete fix for CVE-2026-53721)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71315",
-      "summary": "CVE ID :CVE-2026-71315\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Nuxt is an open-source web development framework fo...",
+      "summary": "CVE ID :CVE-2026-71315\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 2\u00a0hours, 42\u00a0minutes ago\n  \n  Description :Nuxt is an open-source web development fra...",
       "timestamp": 1785964619.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +109,7 @@
     {
       "title": "CVE-2026-71312 - rclone: PowerShell Smart-Quote Filename Injection Enables SFTP Server-Side Command Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71312",
-      "summary": "CVE ID :CVE-2026-71312\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 42\u00a0minutes ago\n  \n  Description :rclone is a command-line program to sync files and ...",
+      "summary": "CVE ID :CVE-2026-71312\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 2\u00a0hours, 42\u00a0minutes ago\n  \n  Description :rclone is a command-line program to sync f...",
       "timestamp": 1785964618.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,15 +117,7 @@
     {
       "title": "CVE-2026-71309 - rclone: Incomplete path validation allows backend root escape in serve restic",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71309",
-      "summary": "CVE ID :CVE-2026-71309\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 42\u00a0minutes ago\n  \n  Description :rclone is a command-line program to sync files and ...",
-      "timestamp": 1785964618.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-34966 - Gitea prior to 1.27.0 SSRF via Migration URI Fetch Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34966",
-      "summary": "CVE ID :CVE-2026-34966\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 42\u00a0minutes ago\n  \n  Description :Gitea prior to 1.27.0 contains a server-side reques...",
+      "summary": "CVE ID :CVE-2026-71309\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 2\u00a0hours, 42\u00a0minutes ago\n  \n  Description :rclone is a command-line program to sync f...",
       "timestamp": 1785964618.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +125,7 @@
     {
       "title": "CVE-2026-18411 - Use of hard-coded cryptographic key in Acrisure KARR BT and DR-100",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18411",
-      "summary": "CVE ID :CVE-2026-18411\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 42\u00a0minutes ago\n  \n  Description :The KARR Security System and SWDS dealer-installed ...",
+      "summary": "CVE ID :CVE-2026-18411\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 2\u00a0hours, 42\u00a0minutes ago\n  \n  Description :The KARR Security System and SWDS dealer-i...",
       "timestamp": 1785964617.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +133,7 @@
     {
       "title": "CVE-2026-17583 - Thermo Fisher Applied Biosystems Genetic Analyzers Missing Support for Integrity Check",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-17583",
-      "summary": "CVE ID :CVE-2026-17583\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 42\u00a0minutes ago\n  \n  Description :The affected\n\nThermo Fisher Applied Biosystems Gene...",
+      "summary": "CVE ID :CVE-2026-17583\n  \n  Published : Aug. 5, 2026, 9:16 p.m. | 2\u00a0hours, 42\u00a0minutes ago\n  \n  Description :The affected\n\nThermo Fisher Applied Biosys...",
       "timestamp": 1785964617.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +141,7 @@
     {
       "title": "CVE-2026-70617 - Spacebar Server Missing Authorization via Group DM Recipient Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70617",
-      "summary": "CVE ID :CVE-2026-70617\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :Spacebar Server before commit dcfd910 conta...",
+      "summary": "CVE ID :CVE-2026-70617\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 3\u00a0hours, 42\u00a0minutes ago\n  \n  Description :Spacebar Server before commit dcfd910 cont...",
       "timestamp": 1785961037.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,24 +149,8 @@
     {
       "title": "CVE-2026-70615 - boringproxy 0.10.0 SSH authorized_keys Injection via Tunnel Creation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70615",
-      "summary": "CVE ID :CVE-2026-70615\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :boringproxy through 0.10.0 contains a newli...",
+      "summary": "CVE ID :CVE-2026-70615\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 3\u00a0hours, 42\u00a0minutes ago\n  \n  Description :boringproxy through 0.10.0 contains a newl...",
       "timestamp": 1785961037.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-69111 - Milvus 2.6.22, 3.0.0 Unauthenticated Denial of Service via /management/stop",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69111",
-      "summary": "CVE ID :CVE-2026-69111\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :Milvus through 2.6.22 and 3.0.0 contains an...",
-      "timestamp": 1785961034.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66298 - JS-view sandboxed output can synthesize keyboard events to trigger unconfirmed global shortcuts",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66298",
-      "summary": "CVE ID :CVE-2026-66298\n  \n  Published : Aug. 5, 2026, 8:17 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :Origin Validation Error vulnerability in li...",
-      "timestamp": 1785961032.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -307,5 +307,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1785971807.8078704
+  "last_updated": 1785978102.9087698
 }
