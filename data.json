@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,83 +52,155 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-55978 - Improper access control vulnerability in CatchPulse",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55978",
-      "summary": "CVE ID :CVE-2026-55978\n  \n  Published : Aug. 6, 2026, 10:16 a.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :An improper access control vulnerability in...",
-      "timestamp": 1786011403.0,
+      "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don\u2019t pay for it",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
+      "summary": "OpenAI is rolling out\u00a0a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GP...",
+      "timestamp": 1786056502.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
+      "summary": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain dat...",
+      "timestamp": 1786055837.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-71476 - Nx: Zip-Slip in the self-hosted remote cache",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71476",
+      "summary": "CVE ID :CVE-2026-71476\n  \n  Published : Aug. 6, 2026, 10:18 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Nx is a monorepo solution for TypeScript a...",
+      "timestamp": 1786054711.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-5430 - Authentication Bypass via JWT Algorithm Mismatch in Multiple WSO2 Products Allows Account Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5430",
-      "summary": "CVE ID :CVE-2026-5430\n  \n  Published : Aug. 6, 2026, 8:16 a.m. | 3\u00a0hours, 5\u00a0minutes ago\n  \n  Description :The JWT authentication mechanism accepts tok...",
-      "timestamp": 1786004193.0,
+      "title": "CVE-2026-71445 - Authenticated Reflected Cross-Site Scripting in Tag Error Responses in ail-framework",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71445",
+      "summary": "CVE ID :CVE-2026-71445\n  \n  Published : Aug. 6, 2026, 10:18 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :AIL Framework contained a reflected cross-...",
+      "timestamp": 1786054711.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-1728 - Privilege Escalation via System REST APIs in Multiple WSO2 Products Permits Admin Account Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-1728",
-      "summary": "CVE ID :CVE-2026-1728\n  \n  Published : Aug. 6, 2026, 8:16 a.m. | 3\u00a0hours, 5\u00a0minutes ago\n  \n  Description :Tokens issued to a low-privileged user are n...",
-      "timestamp": 1786004191.0,
+      "title": "CVE-2026-70638 - llama.cpp b1886\u2013b7445 Integer Overflow via new_1batch() in llama-android.cpp",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70638",
+      "summary": "CVE ID :CVE-2026-70638\n  \n  Published : Aug. 6, 2026, 10:18 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :llama.cpp builds b1886 through b7445 conta...",
+      "timestamp": 1786054708.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-18597 - Blind SSRF on Foxit PDF Services API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18597",
-      "summary": "CVE ID :CVE-2026-18597\n  \n  Published : Aug. 6, 2026, 8:16 a.m. | 3\u00a0hours, 5\u00a0minutes ago\n  \n  Description :The PDF creation feature of Foxit PDF Servi...",
-      "timestamp": 1786004189.0,
+      "title": "CVE-2026-70636 - Flowise 3.1.4 Authentication Bypass via OAuth2 Credential Refresh Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70636",
+      "summary": "CVE ID :CVE-2026-70636\n  \n  Published : Aug. 6, 2026, 10:18 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Flowise through 3.1.4 contains an authenti...",
+      "timestamp": 1786054708.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2025-15039 - Account Takeover via Conditional Authentication Script Logic in Multiple WSO2 Products",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15039",
-      "summary": "CVE ID :CVE-2025-15039\n  \n  Published : Aug. 6, 2026, 8:16 a.m. | 3\u00a0hours, 5\u00a0minutes ago\n  \n  Description :The Conditional Authentication (Adaptive Au...",
-      "timestamp": 1786004189.0,
+      "title": "CVE-2026-70634 - TimescaleDB 2.29.1 Out-of-Bounds Read Information Disclosure via Dictionary Compression Reverse Iterator",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70634",
+      "summary": "CVE ID :CVE-2026-70634\n  \n  Published : Aug. 6, 2026, 10:18 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :TimescaleDB through 2.29.1, fixed in commi...",
+      "timestamp": 1786054707.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-15459 - WPMU DEV Dashboard <= 5.0.0 - Authentication Bypass to Arbitrary Plugin Installation (Remote Code Execution) via Forged WDP_AUTH HMAC on ?wpmudev-hub= Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15459",
-      "summary": "CVE ID :CVE-2026-15459\n  \n  Published : Aug. 6, 2026, 6:16 a.m. | 5\u00a0hours, 5\u00a0minutes ago\n  \n  Description :The WPMU DEV Dashboard plugin for WordPress...",
-      "timestamp": 1785996990.0,
+      "title": "CVE-2026-70632 - FFmpeg 4.4 < 9.0 Heap Out-of-Bounds Write in CFHD Decoder via AVI Demuxing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70632",
+      "summary": "CVE ID :CVE-2026-70632\n  \n  Published : Aug. 6, 2026, 10:18 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :FFmpeg versions from 4.4 up to, but not in...",
+      "timestamp": 1786054707.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-15991 - File Manager 6.0 - 6.9 - Missing Authorization to Authenticated (Subscriber+) Arbitrary File Read and Deletion via 'cmd' Query Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15991",
-      "summary": "CVE ID :CVE-2026-15991\n  \n  Published : Aug. 6, 2026, 5:16 a.m. | 6\u00a0hours, 5\u00a0minutes ago\n  \n  Description :The File Manager plugin for WordPress is vu...",
-      "timestamp": 1785993398.0,
+      "title": "CVE-2026-70628 - FFmpeg 0.5 < 9.0 DVB Subtitle Parser Heap Buffer Overflow via WTV File",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70628",
+      "summary": "CVE ID :CVE-2026-70628\n  \n  Published : Aug. 6, 2026, 10:18 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :FFmpeg versions from 0.5 up to, but not in...",
+      "timestamp": 1786054706.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-67531 - FrontMCP: CodeCall sandbox escape -> host RCE via live Zod schema exposure by getTool",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67531",
-      "summary": "CVE ID :CVE-2026-67531\n  \n  Published : Aug. 6, 2026, 12:16 a.m. | 11\u00a0hours, 5\u00a0minutes ago\n  \n  Description :FrontMCP is a TypeScript-first framework ...",
-      "timestamp": 1785975413.0,
+      "title": "CVE-2026-70559 - Dinky Unauthenticated System Configuration and Credential Disclosure via GET /api/sysConfig/getAll",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70559",
+      "summary": "CVE ID :CVE-2026-70559\n  \n  Published : Aug. 6, 2026, 10:18 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Dinky's SysConfigController.getAll() handl...",
+      "timestamp": 1786054706.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-19024 - HDF5 H5Pget_fill_value NULL Pointer Dereference via Malformed Fill Value Message",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19024",
-      "summary": "CVE ID :CVE-2026-19024\n  \n  Published : Aug. 5, 2026, 11:16 p.m. | 12\u00a0hours, 5\u00a0minutes ago\n  \n  Description :NULL pointer dereference in H5Pget_fill_v...",
-      "timestamp": 1785971813.0,
+      "title": "CVE-2026-70558 - Dinky Unauthenticated Arbitrary File Write via /download/uploadFromRsByLocal Gated Only by Hardcoded Default Token",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70558",
+      "summary": "CVE ID :CVE-2026-70558\n  \n  Published : Aug. 6, 2026, 10:18 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Dinky's POST /download/uploadFromRsByLocal...",
+      "timestamp": 1786054706.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67622 - Flowise 3.1.4 IDOR in OpenAI Assistants Integration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67622",
+      "summary": "CVE ID :CVE-2026-67622\n  \n  Published : Aug. 6, 2026, 10:18 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Flowise through 3.1.4 contains an insecure...",
+      "timestamp": 1786054702.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
+      "link": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
+      "summary": "A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to\u00a0UNC6671, an extortion ...",
+      "timestamp": 1786046844.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Swiss government SharePoint breach compromised 200 accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
+      "summary": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 ac...",
+      "timestamp": 1786040059.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
+      "link": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
+      "summary": "Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secret...",
+      "timestamp": 1786039425.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and c...",
+      "timestamp": 1786035656.0,
+      "source": "Krebs on Security",
+      "vendor": "News"
+    },
+    {
+      "title": "Meta AI model hacked a company during misconfigured cyber test",
+      "link": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/",
+      "summary": "Meta has become the latest AI company to confirm that one of its models hacked a real organization during cybersecurity testing, as similar incidents ...",
+      "timestamp": 1786032699.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore",
+      "link": "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/",
+      "summary": "AI did not create a new browser security problem. It exposed one that enterprises have long been able to ignore. Skyhigh Security explains why browser...",
+      "timestamp": 1786024932.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
@@ -137,14 +209,6 @@
       "timestamp": 1785970850.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-71320 - Nuxt: Server-Side Remote Code Execution via Runtime Template Injection in Nuxt Server Island Props",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71320",
-      "summary": "CVE ID :CVE-2026-71320\n  \n  Published : Aug. 5, 2026, 10:17 p.m. | 13\u00a0hours, 5\u00a0minutes ago\n  \n  Description :Nuxt is an open-source web development fr...",
-      "timestamp": 1785968228.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
@@ -159,14 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/hackers-run-khunt-post-exploitation-toolkit-from-oracle-database/",
       "summary": "Hackers exploited a SQL injection vulnerability to install a post-exploitation toolkit directly inside an Oracle database that was used to breach a co...",
       "timestamp": 1785959725.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "COLDCARD security audit phishing attack installs remote access tool",
-      "link": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
-      "summary": "A phishing campaign is exploiting fears surrounding the recently disclosed COLDCARD wallet vulnerability and suspected $88.6 million Bitcoin theft to ...",
-      "timestamp": 1785952181.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -251,54 +307,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central...",
-      "timestamp": 1785945093.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Google Blogger locks hundreds of blogs in malware false positive",
-      "link": "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive/",
-      "summary": "Google has locked hundreds of Blogger websites after a false positive claimed they violated its \"Malware and Similar Malicious Content\" policy, with s...",
-      "timestamp": 1785941969.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "How AI-powered phishing killed blocklists for good",
-      "link": "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
-      "summary": "AI is helping attackers create disposable phishing infrastructure and rapidly evolving toolkits that blocklists cannot track fast enough. Push Securit...",
-      "timestamp": 1785938471.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
-      "link": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
-      "summary": "OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that r...",
-      "timestamp": 1785886799.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
-      "link": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
-      "summary": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previous...",
-      "timestamp": 1785881900.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/phishing-service-spoofs-ringcentral-to-steal-microsoft-365-accounts/",
-      "summary": "The Greatness phishing-as-a-service (PhaaS) platform has expanded from credential phishing to adversary-in-the-middle attacks and device-code phishing...",
-      "timestamp": 1785879936.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
@@ -307,5 +315,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1786019577.7823277
+  "last_updated": 1786062682.9217134
 }
