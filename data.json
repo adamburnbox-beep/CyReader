@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,28 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "ClamAV Vulnerabilities Affecting Cisco Products: August 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20August%202026%26vs_k=1",
+      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.&nbsp;...",
+      "timestamp": 1786118400.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
+      "summary": "Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on t...",
+      "timestamp": 1786117700.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "CVE-2026-66914 - Joomla Extension - seblod.com - Unauthenticated path traversal in SEBLOD < 3.30.0, < 4.7.0, < 6.0.1",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66914",
@@ -219,14 +235,6 @@
       "vendor": "News"
     },
     {
-      "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
-      "summary": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomwa...",
-      "timestamp": 1785970850.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of August 5, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-L4XfJg8S?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%205,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On August 5, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE ID\nSec...",
@@ -299,14 +307,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "Cisco Integrated Management Controller Argument Injection Vulnerabilities",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-arg-inject-upSHdMfU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Integrated%20Management%20Controller%20Argument%20Injection%20Vulnerabilities%26vs_k=1",
-      "summary": "Multiple vulnerabilities in the web-based management interface of Cisco Integrated Management Controller (IMC) could allow an authenticated, remote at...",
-      "timestamp": 1785945600.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
@@ -315,5 +315,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1786115273.0006547
+  "last_updated": 1786118842.561212
 }
