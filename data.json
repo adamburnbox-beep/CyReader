@@ -52,12 +52,76 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-8798 - Native entropy source retries the CPU entropy instructions without limit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8798",
+      "summary": "CVE ID :CVE-2026-8798\n  \n  Published : Aug. 8, 2026, 1:16 a.m. | 56\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java FIPS (BC-FJA) before bc-fi...",
+      "timestamp": 1786151791.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13505 - Zeroisation of sensitive key material on garbage collection relies on finalization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13505",
+      "summary": "CVE ID :CVE-2026-13505\n  \n  Published : Aug. 8, 2026, 12:59 a.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java FIPS (BC-FJA) be...",
+      "timestamp": 1786150780.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48120 - Kakoune has a Critical RCE via Autorestore Backup Filename Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48120",
+      "summary": "CVE ID :CVE-2026-48120\n  \n  Published : Aug. 7, 2026, 11:17 p.m. | 2\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Kakoune is a code editor. Prior to versio...",
+      "timestamp": 1786144624.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48026 - lakeFS vulnerable to stored XSS in rendered markdown previews via raw HTML",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48026",
+      "summary": "CVE ID :CVE-2026-48026\n  \n  Published : Aug. 7, 2026, 11:17 p.m. | 2\u00a0hours, 55\u00a0minutes ago\n  \n  Description :lakeFS is an open-source tool that transf...",
+      "timestamp": 1786144623.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46409 - OpenYak local API: unauthenticated CSRF chain leads to Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46409",
+      "summary": "CVE ID :CVE-2026-46409\n  \n  Published : Aug. 7, 2026, 11:17 p.m. | 2\u00a0hours, 55\u00a0minutes ago\n  \n  Description :OpenYak is a local-first agent runtime fo...",
+      "timestamp": 1786144623.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48170 - scimPatch vulnerable to prototype pollution via unfiltered keys in patch",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48170",
+      "summary": "CVE ID :CVE-2026-48170\n  \n  Published : Aug. 7, 2026, 10:16 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :`scim-patch`, a library to perform SCIM p...",
+      "timestamp": 1786141019.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48169 - PraisonAI has Cross-Workspace IDOR and Privilege Escalation via Platform API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48169",
+      "summary": "CVE ID :CVE-2026-48169\n  \n  Published : Aug. 7, 2026, 10:16 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :PraisonAI is a multi-agent teams system. ...",
+      "timestamp": 1786141019.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47243 - Kata guest escape: runtime-rs guest-root to host-root escape via virtiofs",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47243",
+      "summary": "CVE ID :CVE-2026-47243\n  \n  Published : Aug. 7, 2026, 10:16 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Kata Containers is an open source project...",
+      "timestamp": 1786141018.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Cisco Catalyst SD-WAN Manager Information Disclosure Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-infodis-SPuJBDCe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20Information%20Disclosure%20Vulnerability%26vs_k=1",
@@ -69,7 +133,7 @@
     {
       "title": "CVE-2026-50540 - Kata Containers: Config Path Annotation Arbitrary File Loading",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-50540",
-      "summary": "CVE ID :CVE-2026-50540\n  \n  Published : Aug. 7, 2026, 9:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Kata Containers is an open source project focusing ...",
+      "summary": "CVE ID :CVE-2026-50540\n  \n  Published : Aug. 7, 2026, 9:17 p.m. | 4\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Kata Containers is an open source project ...",
       "timestamp": 1786137448.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,72 +141,8 @@
     {
       "title": "CVE-2026-47664 - Pathling: $import-pnp operation enables authenticated SSRF, credential leakage, and warehouse data poisoning",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47664",
-      "summary": "CVE ID :CVE-2026-47664\n  \n  Published : Aug. 7, 2026, 9:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Pathling is a set of tools that make it easier to u...",
+      "summary": "CVE ID :CVE-2026-47664\n  \n  Published : Aug. 7, 2026, 9:17 p.m. | 4\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Pathling is a set of tools that make it ea...",
       "timestamp": 1786137448.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47663 - Pathling: Typed CRUD/search/batch providers can lead to server-wide PHI exfiltration and cross-resource mutation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47663",
-      "summary": "CVE ID :CVE-2026-47663\n  \n  Published : Aug. 7, 2026, 9:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Pathling is a set of tools that make it easier to u...",
-      "timestamp": 1786137448.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47662 - Pathling $bulk-submit allows bearer-token exfiltration and persistent warehouse poisoning via unvalidated manifest output URLs",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47662",
-      "summary": "CVE ID :CVE-2026-47662\n  \n  Published : Aug. 7, 2026, 9:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Pathling is a set of tools that make it easier to u...",
-      "timestamp": 1786137448.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61808 - LightRAG: Missing Authentication for Critical API Functions in Default Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61808",
-      "summary": "CVE ID :CVE-2026-61808\n  \n  Published : Aug. 7, 2026, 8:16 p.m. | 1\u00a0hour, 39\u00a0minutes ago\n  \n  Description :LightRAG provides simple and fast retrieval...",
-      "timestamp": 1786133812.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48039 - Meta Ads MCP: Unauthenticated HTTP MCP Tool Execution Leaks Operator Meta Access Token",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48039",
-      "summary": "CVE ID :CVE-2026-48039\n  \n  Published : Aug. 7, 2026, 8:16 p.m. | 1\u00a0hour, 39\u00a0minutes ago\n  \n  Description :Meta Ads MCP is a Model Context Protocol (M...",
-      "timestamp": 1786133811.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48007 - Element Call reports full URLs of visited pages to analytics server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48007",
-      "summary": "CVE ID :CVE-2026-48007\n  \n  Published : Aug. 7, 2026, 8:16 p.m. | 1\u00a0hour, 39\u00a0minutes ago\n  \n  Description :Element Call is a native Matrix video confe...",
-      "timestamp": 1786133811.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47661 - Pathling has path traversal in $result endpoint that allows arbitrary warehouse file read",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47661",
-      "summary": "CVE ID :CVE-2026-47661\n  \n  Published : Aug. 7, 2026, 8:16 p.m. | 1\u00a0hour, 39\u00a0minutes ago\n  \n  Description :Pathling is a set of tools that make it eas...",
-      "timestamp": 1786133811.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47660 - Pathling: Explicit oauthMetadataUrl in bulk-submit allows OAuth client credential exfiltration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47660",
-      "summary": "CVE ID :CVE-2026-47660\n  \n  Published : Aug. 7, 2026, 8:16 p.m. | 1\u00a0hour, 39\u00a0minutes ago\n  \n  Description :Pathling is a set of tools that make it eas...",
-      "timestamp": 1786133811.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47659 - Pathling has path traversal in $import-pnp manifest that enables read-capable SSRF via /jobs/{jobId}/{filename}",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47659",
-      "summary": "CVE ID :CVE-2026-47659\n  \n  Published : Aug. 7, 2026, 8:16 p.m. | 1\u00a0hour, 39\u00a0minutes ago\n  \n  Description :Pathling is a set of tools that make it eas...",
-      "timestamp": 1786133811.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -315,5 +315,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1786146378.6486447
+  "last_updated": 1786155632.5693913
 }
