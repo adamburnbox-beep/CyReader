@@ -59,34 +59,90 @@
   ],
   "articles": [
     {
-      "title": "CVE-2025-15683 - Multiple Unauthenticated Denial-of-Service Conditions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15683",
-      "summary": "CVE ID :CVE-2025-15683\n  \n  Published : Aug. 10, 2026, 7:38 p.m. | 18\u00a0minutes ago\n  \n  Description :TBEA TLogger V2.1.0.0B0.0.0.0 contains multiple un...",
-      "timestamp": 1786390737.0,
+      "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins",
+      "link": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
+      "summary": "A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed...",
+      "timestamp": 1786396330.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-72902 - Dokploy: Authenticated RCE via Command Injection in registry.testRegistry / registry.testRegistryById",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72902",
+      "summary": "CVE ID :CVE-2026-72902\n  \n  Published : Aug. 10, 2026, 8:17 p.m. | 27\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platform as a Ser...",
+      "timestamp": 1786393055.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2025-15682 - Unauthenticated Resource Exhaustion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15682",
-      "summary": "CVE ID :CVE-2025-15682\n  \n  Published : Aug. 10, 2026, 7:33 p.m. | 24\u00a0minutes ago\n  \n  Description :TBEA TLogger V2.1.0.0B0.0.0.0 contains an unauthen...",
-      "timestamp": 1786390403.0,
+      "title": "CVE-2026-72901 - Dokploy: Remote Code Execution via volume-backup",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72901",
+      "summary": "CVE ID :CVE-2026-72901\n  \n  Published : Aug. 10, 2026, 8:17 p.m. | 27\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platform as a Ser...",
+      "timestamp": 1786393055.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2025-15681 - Insufficient Webserver Authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-15681",
-      "summary": "CVE ID :CVE-2025-15681\n  \n  Published : Aug. 10, 2026, 7:31 p.m. | 26\u00a0minutes ago\n  \n  Description :TBEA TLogger V2.1.0.0B0.0.0.0 contains an authenti...",
-      "timestamp": 1786390265.0,
+      "title": "CVE-2026-72886 - Dokploy: Non-admin member gains root on the host by bypassing the owner/admin check on server-level schedules (incomplete fix of CVE-2026-45632)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72886",
+      "summary": "CVE ID :CVE-2026-72886\n  \n  Published : Aug. 10, 2026, 8:17 p.m. | 27\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platform as a Ser...",
+      "timestamp": 1786393055.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2025-13294 - Unauthenticated SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-13294",
-      "summary": "CVE ID :CVE-2025-13294\n  \n  Published : Aug. 10, 2026, 7:25 p.m. | 32\u00a0minutes ago\n  \n  Description :An unauthenticated SQL injection vulnerability exi...",
-      "timestamp": 1786389932.0,
+      "title": "CVE-2026-72884 - Dokploy: Command Injection via Compose Custom Command",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72884",
+      "summary": "CVE ID :CVE-2026-72884\n  \n  Published : Aug. 10, 2026, 8:17 p.m. | 27\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platform as a Ser...",
+      "timestamp": 1786393055.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72883 - Dokploy: WebSocket Terminal Missing Service-Level Access Control",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72883",
+      "summary": "CVE ID :CVE-2026-72883\n  \n  Published : Aug. 10, 2026, 8:17 p.m. | 27\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platform as a Ser...",
+      "timestamp": 1786393055.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72882 - Dokploy: Authenticated blind command injection via file mounts leads to direct remote host RCE on managed servers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72882",
+      "summary": "CVE ID :CVE-2026-72882\n  \n  Published : Aug. 10, 2026, 8:17 p.m. | 27\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platform as a Ser...",
+      "timestamp": 1786393054.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72880 - Dokploy: Arbitrary File Write + Remote OS Command Injection via `certificatePath`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72880",
+      "summary": "CVE ID :CVE-2026-72880\n  \n  Published : Aug. 10, 2026, 8:17 p.m. | 27\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platform as a Ser...",
+      "timestamp": 1786393054.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72879 - Dokploy: Command Injection via Registry Credentials in Swarm Upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72879",
+      "summary": "CVE ID :CVE-2026-72879\n  \n  Published : Aug. 10, 2026, 8:17 p.m. | 27\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platform as a Ser...",
+      "timestamp": 1786393054.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72878 - Dokploy: OS Command Injection in backup/restore pipeline via unescaped user-controlled shell arguments",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72878",
+      "summary": "CVE ID :CVE-2026-72878\n  \n  Published : Aug. 10, 2026, 8:17 p.m. | 27\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platform as a Ser...",
+      "timestamp": 1786393054.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72877 - Dokploy: Command Injection via dockerImage in buildRemoteDocker",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72877",
+      "summary": "CVE ID :CVE-2026-72877\n  \n  Published : Aug. 10, 2026, 8:17 p.m. | 27\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platform as a Ser...",
+      "timestamp": 1786393054.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -97,54 +153,6 @@
       "timestamp": 1786389880.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2025-13293 - Backdoor / default root credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-13293",
-      "summary": "CVE ID :CVE-2025-13293\n  \n  Published : Aug. 10, 2026, 7:24 p.m. | 33\u00a0minutes ago\n  \n  Description :A hard-coded or default root account credential in...",
-      "timestamp": 1786389850.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72872 - Dokploy: OS Command Injection via Bitbucket `owner`/`repository` in `git clone`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72872",
-      "summary": "CVE ID :CVE-2026-72872\n  \n  Published : Aug. 10, 2026, 7:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platform as a Ser...",
-      "timestamp": 1786389456.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72870 - Dokploy: Command Injection via Docker Credentials in buildRemoteDocker",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72870",
-      "summary": "CVE ID :CVE-2026-72870\n  \n  Published : Aug. 10, 2026, 7:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platform as a Ser...",
-      "timestamp": 1786389455.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72869 - Dokploy: Authenticated OS command injection in backup.restoreBackupWithLogs (databaseName) leading to host RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72869",
-      "summary": "CVE ID :CVE-2026-72869\n  \n  Published : Aug. 10, 2026, 7:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platform as a Ser...",
-      "timestamp": 1786389455.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72868 - Dokploy: Member-role RCE as host root via destination.testConnection rclone shell injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72868",
-      "summary": "CVE ID :CVE-2026-72868\n  \n  Published : Aug. 10, 2026, 7:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platform as a Ser...",
-      "timestamp": 1786389455.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72867 - Dokploy: Incomplete fix of CVE-2026-45628: Command Injection via Unvalidated Branch Fields in Compose Deployment Pipeline (server-side regex missing in compose.ts)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72867",
-      "summary": "CVE ID :CVE-2026-72867\n  \n  Published : Aug. 10, 2026, 7:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platform as a Ser...",
-      "timestamp": 1786389455.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "New StormEncryptor ransomware used by former Medusa affiliate",
@@ -227,14 +235,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
-      "summary": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact ...",
-      "timestamp": 1786133686.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
       "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
       "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and c...",
@@ -315,5 +315,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1786392202.0455155
+  "last_updated": 1786398981.6448777
 }
