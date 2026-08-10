@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,60 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "New StormEncryptor ransomware used by former Medusa affiliate",
+      "link": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
+      "summary": "A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormE...",
+      "timestamp": 1786383720.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-66738 - SPIP < 4.4.18 Code Injection via Navigation Endpoint on SQLite",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66738",
+      "summary": "CVE ID :CVE-2026-66738\n  \n  Published : Aug. 10, 2026, 4:19 p.m. | 25\u00a0minutes ago\n  \n  Description :SPIP before 4.4.18 contains a code injection vulne...",
+      "timestamp": 1786378788.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48158 - use-context-selector was vulnerable to malicious code execution via compromised commits",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48158",
+      "summary": "CVE ID :CVE-2026-48158\n  \n  Published : Aug. 10, 2026, 4:19 p.m. | 25\u00a0minutes ago\n  \n  Description :use-context-selector is a React useContextSelector...",
+      "timestamp": 1786378788.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47754 - unauthenticated path traversal in Metacat 2.x",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47754",
+      "summary": "CVE ID :CVE-2026-47754\n  \n  Published : Aug. 10, 2026, 4:19 p.m. | 25\u00a0minutes ago\n  \n  Description :Metacat is data repository software that helps res...",
+      "timestamp": 1786378787.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "ClamAV Vulnerabilities Affecting Cisco Products: August 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20August%202026%26vs_k=1",
+      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.&nbsp;...",
+      "timestamp": 1786377789.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "CVE-2026-19433 - Authorization Bypass Through User-Controlled Key in Prospero Flow CRM contact save and vCard export",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19433",
+      "summary": "CVE ID :CVE-2026-19433\n  \n  Published : Aug. 10, 2026, 3:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :Authorization Bypass Through User-Controll...",
+      "timestamp": 1786375063.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
@@ -69,7 +117,7 @@
     {
       "title": "CVE-2026-63106 - ReadyEcommerce < 4.5.2 Unauthenticated SQL Injection via ProductController.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63106",
-      "summary": "CVE ID :CVE-2026-63106\n  \n  Published : Aug. 10, 2026, 2:17 p.m. | 27\u00a0minutes ago\n  \n  Description :ReadyEcommerce before 4.5.2 contains an unauthenti...",
+      "summary": "CVE ID :CVE-2026-63106\n  \n  Published : Aug. 10, 2026, 2:17 p.m. | 2\u00a0hours, 27\u00a0minutes ago\n  \n  Description :ReadyEcommerce before 4.5.2 contains an u...",
       "timestamp": 1786371445.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +133,7 @@
     {
       "title": "CVE-2026-59233 - Missing Authorization in Prospero Flow CRM permission save endpoint allows privilege escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59233",
-      "summary": "CVE ID :CVE-2026-59233\n  \n  Published : Aug. 10, 2026, 1:19 p.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Missing Authorization in the permission ma...",
+      "summary": "CVE ID :CVE-2026-59233\n  \n  Published : Aug. 10, 2026, 1:19 p.m. | 3\u00a0hours, 25\u00a0minutes ago\n  \n  Description :Missing Authorization in the permission m...",
       "timestamp": 1786367991.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,15 +141,23 @@
     {
       "title": "CVE-2026-59090 - Gimp: gimp: arbitrary code execution in psd plugin due to unsigned underflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59090",
-      "summary": "CVE ID :CVE-2026-59090\n  \n  Published : Aug. 10, 2026, 1:19 p.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :A flaw was found in GIMP's PSD file format...",
+      "summary": "CVE ID :CVE-2026-59090\n  \n  Published : Aug. 10, 2026, 1:19 p.m. | 3\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A flaw was found in GIMP's PSD file forma...",
       "timestamp": 1786367991.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-19429 - Jenkins - FilePath.untarFrom() Symlink Target Validation Bypass (Arbitrary File Read)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19429",
+      "summary": "CVE ID :CVE-2026-19429\n  \n  Published : Aug. 10, 2026, 1:17 p.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Jenkins FilePath.untarFrom() (all version...",
+      "timestamp": 1786367878.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-13206 - Multiple Vulnerabilities in Zyxel's WAH7601 - OS Command Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-13206",
-      "summary": "CVE ID :CVE-2026-13206\n  \n  Published : Aug. 10, 2026, 1:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :Improper neutralization of special element...",
+      "summary": "CVE ID :CVE-2026-13206\n  \n  Published : Aug. 10, 2026, 1:17 p.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Improper neutralization of special elemen...",
       "timestamp": 1786367876.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +165,7 @@
     {
       "title": "CVE-2026-12984 - Exposure of Sensitive Information to an Unauthorized Actor in Zyxel's WAH7601",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12984",
-      "summary": "CVE ID :CVE-2026-12984\n  \n  Published : Aug. 10, 2026, 1:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :Insufficiently Protected Credentials vulne...",
+      "summary": "CVE ID :CVE-2026-12984\n  \n  Published : Aug. 10, 2026, 1:17 p.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Insufficiently Protected Credentials vuln...",
       "timestamp": 1786367875.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -137,46 +193,6 @@
       "timestamp": 1786362475.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-72593 - dulldusk phpfm - Missing Authentication by Default Allows Full Filesystem Access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72593",
-      "summary": "CVE ID :CVE-2026-72593\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :A missing authentication vulnerability i...",
-      "timestamp": 1786360652.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72592 - dulldusk phpfm - Unauthenticated Remote Code Execution via Unrestricted PHP File Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72592",
-      "summary": "CVE ID :CVE-2026-72592\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :An unrestricted file upload vulnerabilit...",
-      "timestamp": 1786360652.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72590 - alseambusher crontab-ui - Unauthenticated RCE via Newline Injection in env_vars Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72590",
-      "summary": "CVE ID :CVE-2026-72590\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :An OS command injection vulnerability in...",
-      "timestamp": 1786360652.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72589 - alseambusher crontab-ui - Unauthenticated RCE via Shell Injection in Imported Database hook Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72589",
-      "summary": "CVE ID :CVE-2026-72589\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :An OS command injection vulnerability in...",
-      "timestamp": 1786360652.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72581 - duhow xiaoai-patch - Server-Side Request Forgery in /auth Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72581",
-      "summary": "CVE ID :CVE-2026-72581\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :A server-side request forgery (SSRF) vul...",
-      "timestamp": 1786360651.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
@@ -215,22 +231,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
       "summary": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occur...",
       "timestamp": 1786131041.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "ClamAV Vulnerabilities Affecting Cisco Products: August 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20August%202026%26vs_k=1",
-      "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.&nbsp;...",
-      "timestamp": 1786118400.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
-      "summary": "Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on t...",
-      "timestamp": 1786117700.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -315,5 +315,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1786378306.259935
+  "last_updated": 1786384880.8211193
 }
