@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,68 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
+      "summary": "CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity se...",
+      "timestamp": 1786372472.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-63106 - ReadyEcommerce < 4.5.2 Unauthenticated SQL Injection via ProductController.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63106",
+      "summary": "CVE ID :CVE-2026-63106\n  \n  Published : Aug. 10, 2026, 2:17 p.m. | 27\u00a0minutes ago\n  \n  Description :ReadyEcommerce before 4.5.2 contains an unauthenti...",
+      "timestamp": 1786371445.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
+      "link": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/",
+      "summary": "AI is making phishing, credential theft, and social engineering faster and more efficient, while traditional trust signals such as passwords, MFA, IP ...",
+      "timestamp": 1786370471.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-59233 - Missing Authorization in Prospero Flow CRM permission save endpoint allows privilege escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59233",
+      "summary": "CVE ID :CVE-2026-59233\n  \n  Published : Aug. 10, 2026, 1:19 p.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Missing Authorization in the permission ma...",
+      "timestamp": 1786367991.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59090 - Gimp: gimp: arbitrary code execution in psd plugin due to unsigned underflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59090",
+      "summary": "CVE ID :CVE-2026-59090\n  \n  Published : Aug. 10, 2026, 1:19 p.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :A flaw was found in GIMP's PSD file format...",
+      "timestamp": 1786367991.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13206 - Multiple Vulnerabilities in Zyxel's WAH7601 - OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13206",
+      "summary": "CVE ID :CVE-2026-13206\n  \n  Published : Aug. 10, 2026, 1:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :Improper neutralization of special element...",
+      "timestamp": 1786367876.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12984 - Exposure of Sensitive Information to an Unauthorized Actor in Zyxel's WAH7601",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12984",
+      "summary": "CVE ID :CVE-2026-12984\n  \n  Published : Aug. 10, 2026, 1:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :Insufficiently Protected Credentials vulne...",
+      "timestamp": 1786367875.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Member of The Com sent to prison for blackmail, sextortion",
       "link": "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/",
@@ -67,28 +123,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-59233 - Missing Authorization in Prospero Flow CRM permission save endpoint allows privilege escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59233",
-      "summary": "CVE ID :CVE-2026-59233\n  \n  Published : Aug. 10, 2026, 12:14 p.m. | 30\u00a0minutes ago\n  \n  Description :Missing Authorization in the permission managemen...",
-      "timestamp": 1786364080.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "LexisNexis shuts down services after suspicious activity on servers",
       "link": "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/",
       "summary": "LexisNexis took its Diligence, Metabase API, and Newsdesk services offline as part of its response to unusual activity on servers hosted and managed b...",
       "timestamp": 1786363912.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-59090 - Gimp: gimp: arbitrary code execution in psd plugin due to unsigned underflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59090",
-      "summary": "CVE ID :CVE-2026-59090\n  \n  Published : Aug. 10, 2026, 12:10 p.m. | 34\u00a0minutes ago\n  \n  Description :A flaw was found in GIMP's PSD file format plugin...",
-      "timestamp": 1786363840.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Valve notifies Steam hardware customers of a data breach",
@@ -101,7 +141,7 @@
     {
       "title": "CVE-2026-72593 - dulldusk phpfm - Missing Authentication by Default Allows Full Filesystem Access",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72593",
-      "summary": "CVE ID :CVE-2026-72593\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :A missing authentication vulnerability in...",
+      "summary": "CVE ID :CVE-2026-72593\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :A missing authentication vulnerability i...",
       "timestamp": 1786360652.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +149,7 @@
     {
       "title": "CVE-2026-72592 - dulldusk phpfm - Unauthenticated Remote Code Execution via Unrestricted PHP File Upload",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72592",
-      "summary": "CVE ID :CVE-2026-72592\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :An unrestricted file upload vulnerability...",
+      "summary": "CVE ID :CVE-2026-72592\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :An unrestricted file upload vulnerabilit...",
       "timestamp": 1786360652.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +157,7 @@
     {
       "title": "CVE-2026-72590 - alseambusher crontab-ui - Unauthenticated RCE via Newline Injection in env_vars Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72590",
-      "summary": "CVE ID :CVE-2026-72590\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :An OS command injection vulnerability in ...",
+      "summary": "CVE ID :CVE-2026-72590\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :An OS command injection vulnerability in...",
       "timestamp": 1786360652.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +165,7 @@
     {
       "title": "CVE-2026-72589 - alseambusher crontab-ui - Unauthenticated RCE via Shell Injection in Imported Database hook Field",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72589",
-      "summary": "CVE ID :CVE-2026-72589\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :An OS command injection vulnerability in ...",
+      "summary": "CVE ID :CVE-2026-72589\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :An OS command injection vulnerability in...",
       "timestamp": 1786360652.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,32 +173,8 @@
     {
       "title": "CVE-2026-72581 - duhow xiaoai-patch - Server-Side Request Forgery in /auth Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72581",
-      "summary": "CVE ID :CVE-2026-72581\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :A server-side request forgery (SSRF) vuln...",
+      "summary": "CVE ID :CVE-2026-72581\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :A server-side request forgery (SSRF) vul...",
       "timestamp": 1786360651.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72580 - duhow xiaoai-patch - OS Command Injection in /mute and /unmute Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72580",
-      "summary": "CVE ID :CVE-2026-72580\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :An OS command injection vulnerability in ...",
-      "timestamp": 1786360650.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72578 - FreePBX Framework - Missing CSRF Protection in Admin Panel Ajax Dispatcher",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72578",
-      "summary": "CVE ID :CVE-2026-72578\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :A cross-site request forgery (CSRF) vulne...",
-      "timestamp": 1786360650.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72577 - NASA fprime-gds - Missing Authentication and Path Traversal Enable Unauthenticated RCE and Spacecraft Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72577",
-      "summary": "CVE ID :CVE-2026-72577\n  \n  Published : Aug. 10, 2026, 11:17 a.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :Multiple vulnerabilities in NASA fprime-g...",
-      "timestamp": 1786360650.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -215,22 +231,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
       "summary": "Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on t...",
       "timestamp": 1786117700.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Real emails, hijacked payments: Two H1 2026 attack chains",
-      "link": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
-      "summary": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware c...",
-      "timestamp": 1786111210.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "North Carolina Ports confirms cyberattack disrupting operations",
-      "link": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
-      "summary": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead...",
-      "timestamp": 1786109680.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -315,5 +315,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1786370670.9095066
+  "last_updated": 1786378306.259935
 }
