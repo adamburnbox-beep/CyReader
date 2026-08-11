@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -58,6 +58,102 @@
     }
   ],
   "articles": [
+    {
+      "title": "Sandworm hackers target IT pros with trojanized WireGuard VPN client",
+      "link": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
+      "summary": "Hackers associated with the Russian threat group Sandworm have been targeting system administrators and IT professionals through fake job offers since...",
+      "timestamp": 1786482444.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-14863 - FileRun 2026.2.0 RCE via Thumbnail Generation Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14863",
+      "summary": "CVE ID :CVE-2026-14863\n  \n  Published : Aug. 11, 2026, 8:41 p.m. | 43\u00a0minutes ago\n  \n  Description :FileRun up to and including version 2026.2.0 conta...",
+      "timestamp": 1786480895.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73242 - FreeRDP: Kerberos GSS Wrap-token `EC` field is unbounded, causing an out-of-bounds decrypt in `kerberos_DecryptMessage`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73242",
+      "summary": "CVE ID :CVE-2026-73242\n  \n  Published : Aug. 11, 2026, 8:18 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :FreeRDP is a free implementation of the Rem...",
+      "timestamp": 1786479529.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73241 - FreeRDP: RDSTLS server authentication bypass: a credential-less Capabilities PDU is accepted at the auth step (fail-open `resultCode`)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73241",
+      "summary": "CVE ID :CVE-2026-73241\n  \n  Published : Aug. 11, 2026, 8:18 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :FreeRDP is a free implementation of the Rem...",
+      "timestamp": 1786479529.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73233 - FreeCAD: FEM formula incomplete escape",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73233",
+      "summary": "CVE ID :CVE-2026-73233\n  \n  Published : Aug. 11, 2026, 8:18 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :FreeCAD is a free and open-source multiplat...",
+      "timestamp": 1786479528.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73034 - DB-GPT v0.8.1 Path Traversal Arbitrary File Write via user_id Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73034",
+      "summary": "CVE ID :CVE-2026-73034\n  \n  Published : Aug. 11, 2026, 8:18 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :DB-GPT v0.8.1 contains an unauthenticated p...",
+      "timestamp": 1786479526.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73032 - PapersGPT for Zotero 0.6.1 RCE via Unsanitized LLM Response eval()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73032",
+      "summary": "CVE ID :CVE-2026-73032\n  \n  Published : Aug. 11, 2026, 8:18 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :PapersGPT for Zotero 0.6.1 contains a remot...",
+      "timestamp": 1786479526.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73031 - telegram-search Stored XSS via v-html in MessageList.vue",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73031",
+      "summary": "CVE ID :CVE-2026-73031\n  \n  Published : Aug. 11, 2026, 8:18 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :telegram-search contains a stored cross-sit...",
+      "timestamp": 1786479526.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48813 - Flawfinder output manipulation via untrusted filenames and source text",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48813",
+      "summary": "CVE ID :CVE-2026-48813\n  \n  Published : Aug. 11, 2026, 8:17 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :Flawfinder is a a static analysis tool for ...",
+      "timestamp": 1786479463.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45618 - LiquidJS is Vulnerable to Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45618",
+      "summary": "CVE ID :CVE-2026-45618\n  \n  Published : Aug. 11, 2026, 8:17 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :LiquidJS is a Shopify/GitHub Pages compatib...",
+      "timestamp": 1786479460.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-19091 - GeoDirectory <= 2.8.169 - Authenticated (Subscriber+) Arbitrary File Deletion via 'post_type' Parameter via Query-String Bypass in geodir_save_post + geodir_delete_revision",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19091",
+      "summary": "CVE ID :CVE-2026-19091\n  \n  Published : Aug. 11, 2026, 8:17 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :The GeoDirectory \u2013 WP Business Directory Pl...",
+      "timestamp": 1786479458.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Cisco warns of ASA and FTD VPN flaw exploited to crash devices",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
+      "summary": "Cisco is warning that a high-severity denial-of-service vulnerability in Secure Firewall ASA and Threat Defense (FTD) software is being actively explo...",
+      "timestamp": 1786477531.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Cisco Secure Firewall Management Center Software Static Credential Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Static%20Credential%20Vulnerability%26vs_k=1",
@@ -97,86 +193,6 @@
       "timestamp": 1786469922.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-73081 - Activepieces: Remote Code Execution via Command Injection in Code Step Name",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73081",
-      "summary": "CVE ID :CVE-2026-73081\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Activepieces is an open source AI workflow automat...",
-      "timestamp": 1786468755.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71387 - ColdFusion | Incorrect Authorization (CWE-863)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71387",
-      "summary": "CVE ID :CVE-2026-71387\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :ColdFusion is affected by an Incorrect Authorizati...",
-      "timestamp": 1786468753.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71386 - ColdFusion | Cross-site Scripting (XSS) (CWE-79)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71386",
-      "summary": "CVE ID :CVE-2026-71386\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :is affected by a Cross-site Scripting (XSS) vulner...",
-      "timestamp": 1786468753.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71384 - ColdFusion | Incorrect Authorization (CWE-863)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71384",
-      "summary": "CVE ID :CVE-2026-71384\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :is affected by an Incorrect Authorization vulnerab...",
-      "timestamp": 1786468753.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71331 - Windows Device Health Attestation (DHA) Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71331",
-      "summary": "CVE ID :CVE-2026-71331\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Integer overflow or wraparound in Microsoft Azure ...",
-      "timestamp": 1786468753.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-70340 - Azure CycleCloud Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70340",
-      "summary": "CVE ID :CVE-2026-70340\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Missing authorization in Azure CycleCloud allows a...",
-      "timestamp": 1786468751.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-70337 - Microsoft PowerShell Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70337",
-      "summary": "CVE ID :CVE-2026-70337\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Relative path traversal in Microsoft PowerShell Co...",
-      "timestamp": 1786468751.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-70336 - Visual Studio Code Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70336",
-      "summary": "CVE ID :CVE-2026-70336\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Improper control of generation of code ('code inje...",
-      "timestamp": 1786468751.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-70329 - Microsoft Outlook Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70329",
-      "summary": "CVE ID :CVE-2026-70329\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Integer overflow or wraparound in Microsoft Office...",
-      "timestamp": 1786468750.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-70326 - Microsoft SharePoint Server Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70326",
-      "summary": "CVE ID :CVE-2026-70326\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Server-side request forgery (ssrf) in Microsoft Of...",
-      "timestamp": 1786468750.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Denial of Service Vulnerability",
@@ -223,22 +239,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
       "summary": "Cloudflare says it mitigated more than 800 network-layer distributed denial-of-service (DDoS) attacks exceeding 1 Tbps in the second quarter of the ye...",
       "timestamp": 1786453200.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
-      "summary": "CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, which has been...",
-      "timestamp": 1786450336.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cisco warns of high-severity ClamAV flaws with public exploits",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/",
-      "summary": "Cisco warned of two high-severity vulnerabilities affecting the Secure Endpoint Connector that allow threat actors to crash the ClamAV scanning proces...",
-      "timestamp": 1786446181.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -323,5 +323,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1786477495.9771912
+  "last_updated": 1786483777.2013779
 }
