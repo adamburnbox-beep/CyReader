@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,84 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Wesco confirms security incident after ExfilSquad claims data theft",
+      "link": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
+      "summary": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. ...",
+      "timestamp": 1786463975.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-72922 - AutoGPT: Webhook provider path confusion bypasses generic webhook secret verification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72922",
+      "summary": "CVE ID :CVE-2026-72922\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 40\u00a0minutes ago\n  \n  Description :AutoGPT is a workflow automation platform for crea...",
+      "timestamp": 1786461458.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72921 - SeaweedFS: Filer JWT allowed_prefixes literal prefix match allows cross-tenant access to sibling paths",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72921",
+      "summary": "CVE ID :CVE-2026-72921\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 40\u00a0minutes ago\n  \n  Description :SeaweedFS is a distributed storage system. Prior t...",
+      "timestamp": 1786461458.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72920 - SeaweedFS: Unauthenticated filer IAM gRPC service grants S3 administrative control",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72920",
+      "summary": "CVE ID :CVE-2026-72920\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 40\u00a0minutes ago\n  \n  Description :SeaweedFS is a distributed storage system. Prior t...",
+      "timestamp": 1786461458.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47702 - TypeBot API tokens stored in plaintext",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47702",
+      "summary": "CVE ID :CVE-2026-47702\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 40\u00a0minutes ago\n  \n  Description :TypeBot is a chatbot builder tool. In version 3.16...",
+      "timestamp": 1786461450.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18860 - Velociraptor incorrect Org deletion permissions check",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18860",
+      "summary": "CVE ID :CVE-2026-18860\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 40\u00a0minutes ago\n  \n  Description :Velociraptor allows multi-tenant deployments named...",
+      "timestamp": 1786461448.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18129 - Ivanti Endpoint Manager Cleartext Transmission of Credentials",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18129",
+      "summary": "CVE ID :CVE-2026-18129\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 40\u00a0minutes ago\n  \n  Description :Cleartext transmission of sensitive information in...",
+      "timestamp": 1786461448.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-17061 - Deserialization of Untrusted Data Vulnerability in SIMULIA Execution Engine from Release 2023 through Release 2026",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17061",
+      "summary": "CVE ID :CVE-2026-17061\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 40\u00a0minutes ago\n  \n  Description :A Deserialization of Untrusted Data vulnerability ...",
+      "timestamp": 1786461447.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-19546 - Dbi: incomplete fix for cve-2026-14380 dbi: arbitrary code execution via caller-influenced profile attribute",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19546",
+      "summary": "CVE ID :CVE-2026-19546\n  \n  Published : Aug. 11, 2026, 3:07 p.m. | 50\u00a0minutes ago\n  \n  Description :A flaw was found in DBI. This is a fix for a parti...",
+      "timestamp": 1786460871.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "August 2026 Security Update",
       "link": "https://www.ivanti.com/blog/august-2026-security-update",
@@ -67,92 +139,28 @@
       "vendor": "Ivanti"
     },
     {
+      "title": "CVE-2026-48056 - Streambert Vulnerable to Arbitrary Binary Execution via Downloader IPC Handler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48056",
+      "summary": "CVE ID :CVE-2026-48056\n  \n  Published : Aug. 11, 2026, 2:17 p.m. | 1\u00a0hour, 40\u00a0minutes ago\n  \n  Description :Streambert is a cross-platform Electron De...",
+      "timestamp": 1786457834.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48046 - Streambert Vulnerable to Remote Code Execution (RCE) via Unvalidated Auto-Updater IPC Handler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48046",
+      "summary": "CVE ID :CVE-2026-48046\n  \n  Published : Aug. 11, 2026, 2:17 p.m. | 1\u00a0hour, 40\u00a0minutes ago\n  \n  Description :Streambert is a cross-platform Electron De...",
+      "timestamp": 1786457834.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
       "link": "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
       "summary": "Mozilla announced today that it updated the GPG key used to sign Firefox and Thunderbird releases after it was accidentally exposed on GitHub. [...]",
       "timestamp": 1786454428.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-72785 - Craft CMS before 5.10.6 Authorization Bypass via structures/move-element",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72785",
-      "summary": "CVE ID :CVE-2026-72785\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Craft CMS 5.0.0-RC1 through 5.10.5 contains an inc...",
-      "timestamp": 1786454349.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72781 - Craft CMS 5.0.0-RC1 before 5.10.7 Remote Code Execution via Twig Sandbox Escape",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72781",
-      "summary": "CVE ID :CVE-2026-72781\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Craft CMS versions >= 5.0.0-RC1 before 5.10.7 and ...",
-      "timestamp": 1786454348.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72779 - Craft CMS 5.0.0-RC1 before 5.10.6 Arbitrary File Read via SplFileObject",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72779",
-      "summary": "CVE ID :CVE-2026-72779\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Craft CMS 5.0.0-RC1 before 5.10.6 and 4.0.0-RC1 be...",
-      "timestamp": 1786454348.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72778 - Craft CMS 5.0.0-RC1 before 5.10.6 Authenticated RCE via condition.config",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72778",
-      "summary": "CVE ID :CVE-2026-72778\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Craft CMS versions from 4.0.0-RC1 before 4.18.2 an...",
-      "timestamp": 1786454348.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72772 - n8n before 2.32.1 Authentication Bypass via Token Exchange",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72772",
-      "summary": "CVE ID :CVE-2026-72772\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :n8n before 2.32.1 (and before 2.31.5) is vulnerabl...",
-      "timestamp": 1786454347.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72767 - n8n before 1.123.67 Remote Code Execution via Git node",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72767",
-      "summary": "CVE ID :CVE-2026-72767\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :n8n before 1.123.67, 2.x before 2.31.5, and 2.32.x...",
-      "timestamp": 1786454346.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72766 - n8n before 1.123.67 Arbitrary File Read via Send Email Node",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72766",
-      "summary": "CVE ID :CVE-2026-72766\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :n8n before 1.123.67, 2.x before 2.31.5, and 2.32.x...",
-      "timestamp": 1786454346.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72765 - n8n before 2.32.1 Remote Code Execution via Expression Sandbox Escape",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72765",
-      "summary": "CVE ID :CVE-2026-72765\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :n8n before 2.31.5 and before 2.32.1 contain a sand...",
-      "timestamp": 1786454346.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72748 - AVideo Unauthenticated Arbitrary File Write via aVideoEncoderChunk.json.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72748",
-      "summary": "CVE ID :CVE-2026-72748\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :AVideo contains an unauthenticated arbitrary file ...",
-      "timestamp": 1786454345.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72746 - FreeRDP before 3.30.0 RDSTLS Server Authentication Bypass via PDU-type Confusion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72746",
-      "summary": "CVE ID :CVE-2026-72746\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :FreeRDP before 3.30.0 contains a server-side authe...",
-      "timestamp": 1786454345.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Vague Task, Total Access: When AI Delegation Becomes a Security Risk",
@@ -215,14 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/",
       "summary": "OpenAI has developed a new model called \"GPT 5.6 Cyber,\" designed for vulnerability research, penetration testing, incident response, and remediation....",
       "timestamp": 1786389880.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New StormEncryptor ransomware used by former Medusa affiliate",
-      "link": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
-      "summary": "A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormE...",
-      "timestamp": 1786383720.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -323,5 +323,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1786462670.6367593
+  "last_updated": 1786465947.1894095
 }
