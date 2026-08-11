@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Denial of Service Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-dos-dzv4mQFF?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Remote%20Access%20SSL%20VPN%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the Remote Access SSL VPN service for Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Th...",
+      "timestamp": 1786466340.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
     {
       "title": "Wesco confirms security incident after ExfilSquad claims data theft",
       "link": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
@@ -69,7 +77,7 @@
     {
       "title": "CVE-2026-72922 - AutoGPT: Webhook provider path confusion bypasses generic webhook secret verification",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72922",
-      "summary": "CVE ID :CVE-2026-72922\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 40\u00a0minutes ago\n  \n  Description :AutoGPT is a workflow automation platform for crea...",
+      "summary": "CVE ID :CVE-2026-72922\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 56\u00a0minutes ago\n  \n  Description :AutoGPT is a workflow automation platform for crea...",
       "timestamp": 1786461458.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +85,7 @@
     {
       "title": "CVE-2026-72921 - SeaweedFS: Filer JWT allowed_prefixes literal prefix match allows cross-tenant access to sibling paths",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72921",
-      "summary": "CVE ID :CVE-2026-72921\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 40\u00a0minutes ago\n  \n  Description :SeaweedFS is a distributed storage system. Prior t...",
+      "summary": "CVE ID :CVE-2026-72921\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 56\u00a0minutes ago\n  \n  Description :SeaweedFS is a distributed storage system. Prior t...",
       "timestamp": 1786461458.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +93,7 @@
     {
       "title": "CVE-2026-72920 - SeaweedFS: Unauthenticated filer IAM gRPC service grants S3 administrative control",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72920",
-      "summary": "CVE ID :CVE-2026-72920\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 40\u00a0minutes ago\n  \n  Description :SeaweedFS is a distributed storage system. Prior t...",
+      "summary": "CVE ID :CVE-2026-72920\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 56\u00a0minutes ago\n  \n  Description :SeaweedFS is a distributed storage system. Prior t...",
       "timestamp": 1786461458.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +101,7 @@
     {
       "title": "CVE-2026-47702 - TypeBot API tokens stored in plaintext",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47702",
-      "summary": "CVE ID :CVE-2026-47702\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 40\u00a0minutes ago\n  \n  Description :TypeBot is a chatbot builder tool. In version 3.16...",
+      "summary": "CVE ID :CVE-2026-47702\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 56\u00a0minutes ago\n  \n  Description :TypeBot is a chatbot builder tool. In version 3.16...",
       "timestamp": 1786461450.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +109,7 @@
     {
       "title": "CVE-2026-18860 - Velociraptor incorrect Org deletion permissions check",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18860",
-      "summary": "CVE ID :CVE-2026-18860\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 40\u00a0minutes ago\n  \n  Description :Velociraptor allows multi-tenant deployments named...",
+      "summary": "CVE ID :CVE-2026-18860\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 57\u00a0minutes ago\n  \n  Description :Velociraptor allows multi-tenant deployments named...",
       "timestamp": 1786461448.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +117,7 @@
     {
       "title": "CVE-2026-18129 - Ivanti Endpoint Manager Cleartext Transmission of Credentials",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18129",
-      "summary": "CVE ID :CVE-2026-18129\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 40\u00a0minutes ago\n  \n  Description :Cleartext transmission of sensitive information in...",
+      "summary": "CVE ID :CVE-2026-18129\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 57\u00a0minutes ago\n  \n  Description :Cleartext transmission of sensitive information in...",
       "timestamp": 1786461448.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +125,7 @@
     {
       "title": "CVE-2026-17061 - Deserialization of Untrusted Data Vulnerability in SIMULIA Execution Engine from Release 2023 through Release 2026",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-17061",
-      "summary": "CVE ID :CVE-2026-17061\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 40\u00a0minutes ago\n  \n  Description :A Deserialization of Untrusted Data vulnerability ...",
+      "summary": "CVE ID :CVE-2026-17061\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 57\u00a0minutes ago\n  \n  Description :A Deserialization of Untrusted Data vulnerability ...",
       "timestamp": 1786461447.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +133,7 @@
     {
       "title": "CVE-2026-19546 - Dbi: incomplete fix for cve-2026-14380 dbi: arbitrary code execution via caller-influenced profile attribute",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-19546",
-      "summary": "CVE ID :CVE-2026-19546\n  \n  Published : Aug. 11, 2026, 3:07 p.m. | 50\u00a0minutes ago\n  \n  Description :A flaw was found in DBI. This is a fix for a parti...",
+      "summary": "CVE ID :CVE-2026-19546\n  \n  Published : Aug. 11, 2026, 3:07 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :A flaw was found in DBI. This is a fix for ...",
       "timestamp": 1786460871.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -141,7 +149,7 @@
     {
       "title": "CVE-2026-48056 - Streambert Vulnerable to Arbitrary Binary Execution via Downloader IPC Handler",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48056",
-      "summary": "CVE ID :CVE-2026-48056\n  \n  Published : Aug. 11, 2026, 2:17 p.m. | 1\u00a0hour, 40\u00a0minutes ago\n  \n  Description :Streambert is a cross-platform Electron De...",
+      "summary": "CVE ID :CVE-2026-48056\n  \n  Published : Aug. 11, 2026, 2:17 p.m. | 1\u00a0hour, 57\u00a0minutes ago\n  \n  Description :Streambert is a cross-platform Electron De...",
       "timestamp": 1786457834.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -149,7 +157,7 @@
     {
       "title": "CVE-2026-48046 - Streambert Vulnerable to Remote Code Execution (RCE) via Unvalidated Auto-Updater IPC Handler",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-48046",
-      "summary": "CVE ID :CVE-2026-48046\n  \n  Published : Aug. 11, 2026, 2:17 p.m. | 1\u00a0hour, 40\u00a0minutes ago\n  \n  Description :Streambert is a cross-platform Electron De...",
+      "summary": "CVE ID :CVE-2026-48046\n  \n  Published : Aug. 11, 2026, 2:17 p.m. | 1\u00a0hour, 57\u00a0minutes ago\n  \n  Description :Streambert is a cross-platform Electron De...",
       "timestamp": 1786457834.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -307,14 +315,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "Cisco IOS XE Software Security Hardening Release: August 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxe-V8NMuMZJ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XE%20Software%20Security%20Hardening%20Release:%20August%202026%26vs_k=1",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XE Software engineering team has conducted a comprehens...",
-      "timestamp": 1785945600.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
@@ -323,5 +323,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1786465947.1894095
+  "last_updated": 1786469798.7972329
 }
