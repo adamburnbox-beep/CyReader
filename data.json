@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,9 +59,25 @@
   ],
   "articles": [
     {
-      "title": "Windows 10 KB5120249 cumulative update released with fixes",
+      "title": "Cisco Secure Firewall Management Center Software Static Credential Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Static%20Credential%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to log ...",
+      "timestamp": 1786474868.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees",
+      "link": "https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/",
+      "summary": "Delta Air Lines is investigating an unauthorized Wi-Fi network that appeared aboard a flight from Las Vegas to Atlanta carrying passengers who had att...",
+      "timestamp": 1786473263.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft releases Windows 10 KB5120249 extended security update",
       "link": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/",
-      "summary": "Microsoft has released Windows 10 KB5120249 cumulative update for versions 22H2 and 21H2 to fix security vulnerabilities and bugs. [...]",
+      "summary": "Microsoft has released Windows 10 KB5120249 Extended Security Updates for versions 22H2 and 21H2 to fix security vulnerabilities and bugs. [...]",
       "timestamp": 1786472763.0,
       "source": "BleepingComputer",
       "vendor": "News"
@@ -83,82 +99,82 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-50516 - Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50516",
-      "summary": "CVE ID :CVE-2026-50516\n  \n  Published : Aug. 11, 2026, 5:07 p.m. | 16\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 9.4 | CRITICAL\n  \n  Visit the ...",
-      "timestamp": 1786468041.0,
+      "title": "CVE-2026-73081 - Activepieces: Remote Code Execution via Command Injection in Code Step Name",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73081",
+      "summary": "CVE ID :CVE-2026-73081\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Activepieces is an open source AI workflow automat...",
+      "timestamp": 1786468755.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-56179 - Windows Network Address Translation (NAT) Spoofing Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56179",
-      "summary": "CVE ID :CVE-2026-56179\n  \n  Published : Aug. 11, 2026, 5:07 p.m. | 16\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.3 | HIGH\n  \n  Visit the link...",
-      "timestamp": 1786468030.0,
+      "title": "CVE-2026-71387 - ColdFusion | Incorrect Authorization (CWE-863)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71387",
+      "summary": "CVE ID :CVE-2026-71387\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :ColdFusion is affected by an Incorrect Authorizati...",
+      "timestamp": 1786468753.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-62822 - Windows GDI+ Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62822",
-      "summary": "CVE ID :CVE-2026-62822\n  \n  Published : Aug. 11, 2026, 5:06 p.m. | 17\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.8 | HIGH\n  \n  Visit the link...",
-      "timestamp": 1786467981.0,
+      "title": "CVE-2026-71386 - ColdFusion | Cross-site Scripting (XSS) (CWE-79)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71386",
+      "summary": "CVE ID :CVE-2026-71386\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :is affected by a Cross-site Scripting (XSS) vulner...",
+      "timestamp": 1786468753.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-62823 - Windows DHCP Server Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62823",
-      "summary": "CVE ID :CVE-2026-62823\n  \n  Published : Aug. 11, 2026, 5:06 p.m. | 17\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.8 | HIGH\n  \n  Visit the link...",
-      "timestamp": 1786467980.0,
+      "title": "CVE-2026-71384 - ColdFusion | Incorrect Authorization (CWE-863)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71384",
+      "summary": "CVE ID :CVE-2026-71384\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :is affected by an Incorrect Authorization vulnerab...",
+      "timestamp": 1786468753.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-62790 - Windows SMBv3 Server Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62790",
-      "summary": "CVE ID :CVE-2026-62790\n  \n  Published : Aug. 11, 2026, 5:06 p.m. | 17\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.8 | HIGH\n  \n  Visit the link...",
-      "timestamp": 1786467977.0,
+      "title": "CVE-2026-71331 - Windows Device Health Attestation (DHA) Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71331",
+      "summary": "CVE ID :CVE-2026-71331\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Integer overflow or wraparound in Microsoft Azure ...",
+      "timestamp": 1786468753.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-62800 - Windows SMBv3 Server Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62800",
-      "summary": "CVE ID :CVE-2026-62800\n  \n  Published : Aug. 11, 2026, 5:06 p.m. | 17\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.8 | HIGH\n  \n  Visit the link...",
-      "timestamp": 1786467975.0,
+      "title": "CVE-2026-70340 - Azure CycleCloud Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70340",
+      "summary": "CVE ID :CVE-2026-70340\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Missing authorization in Azure CycleCloud allows a...",
+      "timestamp": 1786468751.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-62781 - RPC Runtime Library Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62781",
-      "summary": "CVE ID :CVE-2026-62781\n  \n  Published : Aug. 11, 2026, 5:06 p.m. | 17\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.1 | HIGH\n  \n  Visit the link...",
-      "timestamp": 1786467974.0,
+      "title": "CVE-2026-70337 - Microsoft PowerShell Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70337",
+      "summary": "CVE ID :CVE-2026-70337\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Relative path traversal in Microsoft PowerShell Co...",
+      "timestamp": 1786468751.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-62778 - Windows DNS Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62778",
-      "summary": "CVE ID :CVE-2026-62778\n  \n  Published : Aug. 11, 2026, 5:06 p.m. | 17\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.1 | HIGH\n  \n  Visit the link...",
-      "timestamp": 1786467973.0,
+      "title": "CVE-2026-70336 - Visual Studio Code Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70336",
+      "summary": "CVE ID :CVE-2026-70336\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Improper control of generation of code ('code inje...",
+      "timestamp": 1786468751.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-57104 - Azure Storage Explorer Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57104",
-      "summary": "CVE ID :CVE-2026-57104\n  \n  Published : Aug. 11, 2026, 5:05 p.m. | 17\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.8 | HIGH\n  \n  Visit the link...",
-      "timestamp": 1786467933.0,
+      "title": "CVE-2026-70329 - Microsoft Outlook Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70329",
+      "summary": "CVE ID :CVE-2026-70329\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Integer overflow or wraparound in Microsoft Office...",
+      "timestamp": 1786468750.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-62820 - Windows DNS Server Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62820",
-      "summary": "CVE ID :CVE-2026-62820\n  \n  Published : Aug. 11, 2026, 5:04 p.m. | 18\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.1 | HIGH\n  \n  Visit the link...",
-      "timestamp": 1786467873.0,
+      "title": "CVE-2026-70326 - Microsoft SharePoint Server Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70326",
+      "summary": "CVE ID :CVE-2026-70326\n  \n  Published : Aug. 11, 2026, 5:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Server-side request forgery (ssrf) in Microsoft Of...",
+      "timestamp": 1786468750.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -223,14 +239,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/",
       "summary": "Cisco warned of two high-severity vulnerabilities affecting the Secure Endpoint Connector that allow threat actors to crash the ClamAV scanning proces...",
       "timestamp": 1786446181.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
-      "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
-      "summary": "U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their s...",
-      "timestamp": 1786441626.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -307,14 +315,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "Cisco IOS Software and IOS XE Software Extensible Messaging Client Protocol Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ios-xmcp-thbAr34t?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20Software%20and%20IOS%20XE%20Software%20Extensible%20Messaging%20Client%20Protocol%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the Extensible Messaging Client Protocol (XMCP), also referred to as the External Client protocol, of Cisco IOS Software and Cisco ...",
-      "timestamp": 1785945600.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-t...",
@@ -323,5 +323,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1786473171.198313
+  "last_updated": 1786477495.9771912
 }
