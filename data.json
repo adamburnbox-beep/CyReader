@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,89 +52,97 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-58243 - Privilege Escalation vulnerability in SAP ABAP Developer Tools",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58243",
+      "summary": "CVE ID :CVE-2026-58243\n  \n  Published : Aug. 11, 2026, 1:17 a.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :SAP ABAP Development Tools does not perform...",
+      "timestamp": 1786411042.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-44758 - Code Injection vulnerability in Manufacturing Integration and Intelligence",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44758",
+      "summary": "CVE ID :CVE-2026-44758\n  \n  Published : Aug. 11, 2026, 1:17 a.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :SAP Manufacturing Integration and Intellige...",
+      "timestamp": 1786411040.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-34265 - Memory Corruption vulnerability in Application Server ABAP for SAP NetWeaver and ABAP Platform",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34265",
+      "summary": "CVE ID :CVE-2026-34265\n  \n  Published : Aug. 11, 2026, 1:17 a.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :SAP NetWeaver Application Server ABAP allow...",
+      "timestamp": 1786411040.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8718 - Out-of-bounds write in DTLS peer Connection ID getsockopt (`TLS_DTLS_PEER_CID_VALUE`) in Zephyr net sockets/TLS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8718",
+      "summary": "CVE ID :CVE-2026-8718\n  \n  Published : Aug. 10, 2026, 11:16 p.m. | 3\u00a0hours, 3\u00a0minutes ago\n  \n  Description :tls_opt_dtls_peer_connection_id_value_get(...",
+      "timestamp": 1786403811.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48161 - react18-use was vulnerable to malicious code execution via compromised commits",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48161",
+      "summary": "CVE ID :CVE-2026-48161\n  \n  Published : Aug. 10, 2026, 11:16 p.m. | 3\u00a0hours, 3\u00a0minutes ago\n  \n  Description :react18-use is a React 19 use hook shim. ...",
+      "timestamp": 1786403811.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2025-30241 - OS Command Injection in Web Interface in Multiple TP-Link Aginet Devices",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-30241",
-      "summary": "CVE ID :CVE-2025-30241\n  \n  Published : Aug. 10, 2026, 10:26 p.m. | 18\u00a0minutes ago\n  \n  Description :Certain web\ninterface components in affected TP-L...",
-      "timestamp": 1786400768.0,
+      "summary": "CVE ID :CVE-2025-30241\n  \n  Published : Aug. 10, 2026, 11:16 p.m. | 3\u00a0hours, 3\u00a0minutes ago\n  \n  Description :Certain web\ninterface components in affec...",
+      "timestamp": 1786403810.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2025-30239 - Sensitive Data Exposure due to Hardcoded Cryptographic Keys in Multiple TP-Link Aginet Devices",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-30239",
-      "summary": "CVE ID :CVE-2025-30239\n  \n  Published : Aug. 10, 2026, 10:25 p.m. | 20\u00a0minutes ago\n  \n  Description :In affected TP-Link Aginet devices, use of\nhardco...",
-      "timestamp": 1786400703.0,
+      "summary": "CVE ID :CVE-2025-30239\n  \n  Published : Aug. 10, 2026, 11:16 p.m. | 3\u00a0hours, 3\u00a0minutes ago\n  \n  Description :In affected TP-Link Aginet devices, use o...",
+      "timestamp": 1786403810.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2025-30238 - Privilege Escalation via Improper Authorization in User Management in multiple TP-Link Aginet Devices",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-30238",
-      "summary": "CVE ID :CVE-2025-30238\n  \n  Published : Aug. 10, 2026, 10:24 p.m. | 20\u00a0minutes ago\n  \n  Description :In affected TP-Link Aginet devices, insufficient\n...",
-      "timestamp": 1786400660.0,
+      "summary": "CVE ID :CVE-2025-30238\n  \n  Published : Aug. 10, 2026, 11:16 p.m. | 3\u00a0hours, 3\u00a0minutes ago\n  \n  Description :In affected TP-Link Aginet devices, insuf...",
+      "timestamp": 1786403809.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2025-30237 - Authentication Bypass via Broken Access Control in Web Server in Multiple TP-Link Aginet Devices",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-30237",
-      "summary": "CVE ID :CVE-2025-30237\n  \n  Published : Aug. 10, 2026, 10:23 p.m. | 21\u00a0minutes ago\n  \n  Description :The affected TP-Link Aginet devices\u00a0contain a fla...",
-      "timestamp": 1786400621.0,
+      "summary": "CVE ID :CVE-2025-30237\n  \n  Published : Aug. 10, 2026, 11:16 p.m. | 3\u00a0hours, 4\u00a0minutes ago\n  \n  Description :The affected TP-Link Aginet devices\u00a0conta...",
+      "timestamp": 1786403808.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Hackers breached a small Polish energy plant via private APN last year",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/",
+      "summary": "Hackers breached a heat-and-power plant facility in Poland, which supplies heat to about 50,000 residents, using a private APN (Access Point Name) to ...",
+      "timestamp": 1786403241.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "CVE-2026-73030 - unearth 0.18.2 Path Traversal via Unnormalized Paths and Symlink Escape",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73030",
-      "summary": "CVE ID :CVE-2026-73030\n  \n  Published : Aug. 10, 2026, 9:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :unearth through 0.18.2, fixed in commit 6c...",
+      "summary": "CVE ID :CVE-2026-73030\n  \n  Published : Aug. 10, 2026, 9:17 p.m. | 5\u00a0hours, 3\u00a0minutes ago\n  \n  Description :unearth through 0.18.2, fixed in commit 6c...",
       "timestamp": 1786396646.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72911 - ERPNext: Possibility of server-side template injection due to missing validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72911",
-      "summary": "CVE ID :CVE-2026-72911\n  \n  Published : Aug. 10, 2026, 9:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :ERPNext is a free and open source Enterpri...",
-      "timestamp": 1786396645.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72904 - Firecrawl: Arbitrary file read via JSON Schema $ref expansion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72904",
-      "summary": "CVE ID :CVE-2026-72904\n  \n  Published : Aug. 10, 2026, 9:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :Firecrawl turns entire websites into LLM-r...",
-      "timestamp": 1786396645.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72903 - Tabby: Windows SFTP path traversal allows a malicious server to write files outside the selected download directory",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72903",
-      "summary": "CVE ID :CVE-2026-72903\n  \n  Published : Aug. 10, 2026, 9:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :Tabby (formerly Terminus) is a highly conf...",
-      "timestamp": 1786396644.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48160 - react-tracked was vulnerable to malicious code execution via compromised commits",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48160",
-      "summary": "CVE ID :CVE-2026-48160\n  \n  Published : Aug. 10, 2026, 9:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :react-tracked provides state usage trackin...",
-      "timestamp": 1786396643.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18982 - Odh-training-operator-rhel9: rhoai fork aggregates training job create onto native edit/admin clusterroles",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18982",
-      "summary": "CVE ID :CVE-2026-18982\n  \n  Published : Aug. 10, 2026, 9:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :A flaw was found in the RHOAI training-ope...",
-      "timestamp": 1786396641.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -215,14 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster comma...",
       "timestamp": 1786355377.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
-      "summary": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched\u00a0TrueConf video conferencing servers to replace client installers with ...",
-      "timestamp": 1786198583.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -315,5 +315,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1786402470.5839033
+  "last_updated": 1786415394.256352
 }
