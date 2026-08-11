@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,124 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
+      "link": "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
+      "summary": "Mozilla announced today that it updated the GPG key used to sign Firefox and Thunderbird releases after it was accidentally exposed on GitHub. [...]",
+      "timestamp": 1786454428.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Vague Task, Total Access: When AI Delegation Becomes a Security Risk",
+      "link": "https://www.bleepingcomputer.com/news/security/vague-task-total-access-when-ai-delegation-becomes-a-security-risk/",
+      "summary": "AI agents can improvise beyond the intended scope of a task when they are given broad access to enterprise systems and data. Token Security explains w...",
+      "timestamp": 1786454124.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "DDoS attacks over 1 Tbps surged fivefold in the second quarter",
+      "link": "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
+      "summary": "Cloudflare says it mitigated more than 800 network-layer distributed denial-of-service (DDoS) attacks exceeding 1 Tbps in the second quarter of the ye...",
+      "timestamp": 1786453200.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
+      "summary": "CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, which has been...",
+      "timestamp": 1786450336.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-58231 - Improper Authorization in SAP Commerce Cloud (Data Hub Adapter)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58231",
+      "summary": "CVE ID :CVE-2026-58231\n  \n  Published : Aug. 11, 2026, 11:17 a.m. | 57\u00a0minutes ago\n  \n  Description :SAP Commerce Cloud allows an unauthenticated\natta...",
+      "timestamp": 1786447035.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72603 - wg-easy wg-easy - OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72603",
+      "summary": "CVE ID :CVE-2026-72603\n  \n  Published : Aug. 11, 2026, 11:15 a.m. | 59\u00a0minutes ago\n  \n  Description :An OS command injection vulnerability in wg-easy ...",
+      "timestamp": 1786446911.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72599 - e107 e107 - SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72599",
+      "summary": "CVE ID :CVE-2026-72599\n  \n  Published : Aug. 11, 2026, 11:14 a.m. | 1\u00a0hour ago\n  \n  Description :An SQL injection vulnerability in e107 2.4.0 allows u...",
+      "timestamp": 1786446855.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72596 - Ghost Foundation Ghost - Broken Access Control",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72596",
+      "summary": "CVE ID :CVE-2026-72596\n  \n  Published : Aug. 11, 2026, 11:13 a.m. | 1\u00a0hour ago\n  \n  Description :A broken access control vulnerability in Ghost Founda...",
+      "timestamp": 1786446819.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72595 - BadChoice Handesk - Broken Access Control",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72595",
+      "summary": "CVE ID :CVE-2026-72595\n  \n  Published : Aug. 11, 2026, 11:13 a.m. | 1\u00a0hour ago\n  \n  Description :A broken access control vulnerability in BadChoice Ha...",
+      "timestamp": 1786446808.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72563 - BadChoice Handesk - Broken Access Control",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72563",
+      "summary": "CVE ID :CVE-2026-72563\n  \n  Published : Aug. 11, 2026, 11:13 a.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :A broken access control vulnerability in Ba...",
+      "timestamp": 1786446795.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72562 - Pimcore pimcore admin-ui-classic-bundle - SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72562",
+      "summary": "CVE ID :CVE-2026-72562\n  \n  Published : Aug. 11, 2026, 11:13 a.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :An SQL injection vulnerability in Pimcore a...",
+      "timestamp": 1786446782.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72561 - Peppermint Lab Peppermint - Broken Access Control",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72561",
+      "summary": "CVE ID :CVE-2026-72561\n  \n  Published : Aug. 11, 2026, 11:12 a.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :A broken access control vulnerability in Pe...",
+      "timestamp": 1786446768.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72558 - CiviCRM CiviCRM - SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72558",
+      "summary": "CVE ID :CVE-2026-72558\n  \n  Published : Aug. 11, 2026, 11:12 a.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :An SQL injection vulnerability in CiviCRM ...",
+      "timestamp": 1786446735.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72557 - Cockpit CMS Cockpit CMS - Unrestricted File Upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72557",
+      "summary": "CVE ID :CVE-2026-72557\n  \n  Published : Aug. 11, 2026, 11:11 a.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :An unrestricted file upload vulnerability ...",
+      "timestamp": 1786446713.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Cisco warns of high-severity ClamAV flaws with public exploits",
       "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/",
@@ -73,86 +185,6 @@
       "timestamp": 1786441626.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-73160 - cti-transmute Unauthenticated SSRF via Hostnames Resolving to Internal IP Addresses",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73160",
-      "summary": "CVE ID :CVE-2026-73160\n  \n  Published : Aug. 11, 2026, 9:17 a.m. | 57\u00a0minutes ago\n  \n  Description :Affected versions of cti-transmute contain an SSRF...",
-      "timestamp": 1786439835.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-15560 - Openjdk-orb: unauthed class loading via iiop in eap",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15560",
-      "summary": "CVE ID :CVE-2026-15560\n  \n  Published : Aug. 11, 2026, 9:17 a.m. | 57\u00a0minutes ago\n  \n  Description :when EAP runs with -secmgr, the openjdk-orb's JDKB...",
-      "timestamp": 1786439832.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-15556 - Picketlink-federation: picketlink saml 2.0 auth bypass via missing assertions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15556",
-      "summary": "CVE ID :CVE-2026-15556\n  \n  Published : Aug. 11, 2026, 9:17 a.m. | 57\u00a0minutes ago\n  \n  Description :A flaw was found in Picketlink's SP signature vali...",
-      "timestamp": 1786439832.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-15555 - Jboss-marshalling-river: wildfly-clustering-infinispan-marshalling: jboss deserialization rce via unfiltered river unmarshaller",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15555",
-      "summary": "CVE ID :CVE-2026-15555\n  \n  Published : Aug. 11, 2026, 9:17 a.m. | 57\u00a0minutes ago\n  \n  Description :A flaw was found in JBoss marshalling. The Infinis...",
-      "timestamp": 1786439832.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10579 - Picketlink-federation: auth bypass in picketlink saml unsolicited-response",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10579",
-      "summary": "CVE ID :CVE-2026-10579\n  \n  Published : Aug. 11, 2026, 9:17 a.m. | 57\u00a0minutes ago\n  \n  Description :A flaw was found in Picketlink Federation SAML; th...",
-      "timestamp": 1786439832.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16053 - Path Traversal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16053",
-      "summary": "CVE ID :CVE-2026-16053\n  \n  Published : Aug. 11, 2026, 7:17 a.m. | 2\u00a0hours, 56\u00a0minutes ago\n  \n  Description :Zohocorp ManageEngine\u00a0M365 Manager Plus a...",
-      "timestamp": 1786432648.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19516 - CVE-2026-19516 CVE Record",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19516",
-      "summary": "CVE ID :CVE-2026-19516\n  \n  Published : Aug. 11, 2026, 6:17 a.m. | 3\u00a0hours, 57\u00a0minutes ago\n  \n  Description :A caller-supplied X-Grafana-URL request h...",
-      "timestamp": 1786429033.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13716 - Path Traversal: '.../...//' in Crafty Controller",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13716",
-      "summary": "CVE ID :CVE-2026-13716\n  \n  Published : Aug. 11, 2026, 6:17 a.m. | 3\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Path traversal in server import and admin...",
-      "timestamp": 1786429032.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19425 - Win Men Intermational\uff5cTravel Agency Management System - SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19425",
-      "summary": "CVE ID :CVE-2026-19425\n  \n  Published : Aug. 11, 2026, 5:17 a.m. | 4\u00a0hours, 57\u00a0minutes ago\n  \n  Description :Travel Agency Management System developed...",
-      "timestamp": 1786425434.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8917 - ASUS Software Arbitrary Memory Write Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8917",
-      "summary": "CVE ID :CVE-2026-8917\n  \n  Published : Aug. 11, 2026, 3:18 a.m. | 6\u00a0hours, 56\u00a0minutes ago\n  \n  Description :Untrusted Pointer Dereference in ASUS GPU ...",
-      "timestamp": 1786418281.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Hackers breached a small Polish energy plant via private APN last year",
@@ -193,38 +225,6 @@
       "timestamp": 1786377789.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
-      "summary": "CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity se...",
-      "timestamp": 1786372472.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
-      "link": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/",
-      "summary": "AI is making phishing, credential theft, and social engineering faster and more efficient, while traditional trust signals such as passwords, MFA, IP ...",
-      "timestamp": 1786370471.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Member of The Com sent to prison for blackmail, sextortion",
-      "link": "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/",
-      "summary": "A member of \"The Com,\" a loose-knit online cybercrime collective that targets children and teenagers, has been sentenced to two years in prison for bl...",
-      "timestamp": 1786366588.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "LexisNexis shuts down services after suspicious activity on servers",
-      "link": "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/",
-      "summary": "LexisNexis took its Diligence, Metabase API, and Newsdesk services offline as part of its response to unusual activity on servers hosted and managed b...",
-      "timestamp": 1786363912.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "Cisco Catalyst SD-WAN Manager Information Disclosure Vulnerability",
@@ -315,5 +315,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1786449355.0944803
+  "last_updated": 1786454980.4890444
 }
