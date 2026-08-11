@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,116 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Windows 10 KB5120249 cumulative update released with fixes",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/",
+      "summary": "Microsoft has released Windows 10 KB5120249 cumulative update for versions 22H2 and 21H2 to fix security vulnerabilities and bugs. [...]",
+      "timestamp": 1786472763.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/",
+      "summary": "Today is Microsoft's August 2026 Patch Tuesday, and with it comes security updates for a massive 400 flaws, including one actively exploited and two p...",
+      "timestamp": 1786471730.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Windows 11 KB5121003 & KB5120240 cumulative updates released",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5121003-and-kb5120240-cumulative-updates-released/",
+      "summary": "Microsoft has released Windows 11\u00a0KB5121003\u00a0and\u00a0KB5120240\u00a0cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, an...",
+      "timestamp": 1786469922.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-50516 - Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50516",
+      "summary": "CVE ID :CVE-2026-50516\n  \n  Published : Aug. 11, 2026, 5:07 p.m. | 16\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 9.4 | CRITICAL\n  \n  Visit the ...",
+      "timestamp": 1786468041.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56179 - Windows Network Address Translation (NAT) Spoofing Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56179",
+      "summary": "CVE ID :CVE-2026-56179\n  \n  Published : Aug. 11, 2026, 5:07 p.m. | 16\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.3 | HIGH\n  \n  Visit the link...",
+      "timestamp": 1786468030.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62822 - Windows GDI+ Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62822",
+      "summary": "CVE ID :CVE-2026-62822\n  \n  Published : Aug. 11, 2026, 5:06 p.m. | 17\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.8 | HIGH\n  \n  Visit the link...",
+      "timestamp": 1786467981.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62823 - Windows DHCP Server Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62823",
+      "summary": "CVE ID :CVE-2026-62823\n  \n  Published : Aug. 11, 2026, 5:06 p.m. | 17\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.8 | HIGH\n  \n  Visit the link...",
+      "timestamp": 1786467980.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62790 - Windows SMBv3 Server Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62790",
+      "summary": "CVE ID :CVE-2026-62790\n  \n  Published : Aug. 11, 2026, 5:06 p.m. | 17\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.8 | HIGH\n  \n  Visit the link...",
+      "timestamp": 1786467977.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62800 - Windows SMBv3 Server Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62800",
+      "summary": "CVE ID :CVE-2026-62800\n  \n  Published : Aug. 11, 2026, 5:06 p.m. | 17\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.8 | HIGH\n  \n  Visit the link...",
+      "timestamp": 1786467975.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62781 - RPC Runtime Library Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62781",
+      "summary": "CVE ID :CVE-2026-62781\n  \n  Published : Aug. 11, 2026, 5:06 p.m. | 17\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.1 | HIGH\n  \n  Visit the link...",
+      "timestamp": 1786467974.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62778 - Windows DNS Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62778",
+      "summary": "CVE ID :CVE-2026-62778\n  \n  Published : Aug. 11, 2026, 5:06 p.m. | 17\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.1 | HIGH\n  \n  Visit the link...",
+      "timestamp": 1786467973.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57104 - Azure Storage Explorer Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57104",
+      "summary": "CVE ID :CVE-2026-57104\n  \n  Published : Aug. 11, 2026, 5:05 p.m. | 17\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.8 | HIGH\n  \n  Visit the link...",
+      "timestamp": 1786467933.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62820 - Windows DNS Server Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62820",
+      "summary": "CVE ID :CVE-2026-62820\n  \n  Published : Aug. 11, 2026, 5:04 p.m. | 18\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.1 | HIGH\n  \n  Visit the link...",
+      "timestamp": 1786467873.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Denial of Service Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-dos-dzv4mQFF?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Remote%20Access%20SSL%20VPN%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
@@ -75,92 +179,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-72922 - AutoGPT: Webhook provider path confusion bypasses generic webhook secret verification",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72922",
-      "summary": "CVE ID :CVE-2026-72922\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 56\u00a0minutes ago\n  \n  Description :AutoGPT is a workflow automation platform for crea...",
-      "timestamp": 1786461458.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72921 - SeaweedFS: Filer JWT allowed_prefixes literal prefix match allows cross-tenant access to sibling paths",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72921",
-      "summary": "CVE ID :CVE-2026-72921\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 56\u00a0minutes ago\n  \n  Description :SeaweedFS is a distributed storage system. Prior t...",
-      "timestamp": 1786461458.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72920 - SeaweedFS: Unauthenticated filer IAM gRPC service grants S3 administrative control",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72920",
-      "summary": "CVE ID :CVE-2026-72920\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 56\u00a0minutes ago\n  \n  Description :SeaweedFS is a distributed storage system. Prior t...",
-      "timestamp": 1786461458.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47702 - TypeBot API tokens stored in plaintext",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47702",
-      "summary": "CVE ID :CVE-2026-47702\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 56\u00a0minutes ago\n  \n  Description :TypeBot is a chatbot builder tool. In version 3.16...",
-      "timestamp": 1786461450.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18860 - Velociraptor incorrect Org deletion permissions check",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18860",
-      "summary": "CVE ID :CVE-2026-18860\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 57\u00a0minutes ago\n  \n  Description :Velociraptor allows multi-tenant deployments named...",
-      "timestamp": 1786461448.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18129 - Ivanti Endpoint Manager Cleartext Transmission of Credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18129",
-      "summary": "CVE ID :CVE-2026-18129\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 57\u00a0minutes ago\n  \n  Description :Cleartext transmission of sensitive information in...",
-      "timestamp": 1786461448.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-17061 - Deserialization of Untrusted Data Vulnerability in SIMULIA Execution Engine from Release 2023 through Release 2026",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17061",
-      "summary": "CVE ID :CVE-2026-17061\n  \n  Published : Aug. 11, 2026, 3:17 p.m. | 57\u00a0minutes ago\n  \n  Description :A Deserialization of Untrusted Data vulnerability ...",
-      "timestamp": 1786461447.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19546 - Dbi: incomplete fix for cve-2026-14380 dbi: arbitrary code execution via caller-influenced profile attribute",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19546",
-      "summary": "CVE ID :CVE-2026-19546\n  \n  Published : Aug. 11, 2026, 3:07 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :A flaw was found in DBI. This is a fix for ...",
-      "timestamp": 1786460871.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "August 2026 Security Update",
       "link": "https://www.ivanti.com/blog/august-2026-security-update",
       "summary": "Ivanti releases standard security patches on the second Tuesday of every month. In today\u2019s rapidly evolving technology and threat landscape, we believ...",
       "timestamp": 1786458221.0,
       "source": "Ivanti Security",
       "vendor": "Ivanti"
-    },
-    {
-      "title": "CVE-2026-48056 - Streambert Vulnerable to Arbitrary Binary Execution via Downloader IPC Handler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48056",
-      "summary": "CVE ID :CVE-2026-48056\n  \n  Published : Aug. 11, 2026, 2:17 p.m. | 1\u00a0hour, 57\u00a0minutes ago\n  \n  Description :Streambert is a cross-platform Electron De...",
-      "timestamp": 1786457834.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48046 - Streambert Vulnerable to Remote Code Execution (RCE) via Unvalidated Auto-Updater IPC Handler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48046",
-      "summary": "CVE ID :CVE-2026-48046\n  \n  Published : Aug. 11, 2026, 2:17 p.m. | 1\u00a0hour, 57\u00a0minutes ago\n  \n  Description :Streambert is a cross-platform Electron De...",
-      "timestamp": 1786457834.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
@@ -207,30 +231,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
       "summary": "U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their s...",
       "timestamp": 1786441626.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers breached a small Polish energy plant via private APN last year",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/",
-      "summary": "Hackers breached a heat-and-power plant facility in Poland, which supplies heat to about 50,000 residents, using a private APN (Access Point Name) to ...",
-      "timestamp": 1786403241.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins",
-      "link": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
-      "summary": "A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed...",
-      "timestamp": 1786396330.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users",
-      "link": "https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/",
-      "summary": "OpenAI has developed a new model called \"GPT 5.6 Cyber,\" designed for vulnerability research, penetration testing, incident response, and remediation....",
-      "timestamp": 1786389880.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -323,5 +323,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1786469798.7972329
+  "last_updated": 1786473171.198313
 }
