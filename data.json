@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,12 +59,100 @@
   ],
   "articles": [
     {
+      "title": "August 2026 Security Update",
+      "link": "https://www.ivanti.com/blog/august-2026-security-update",
+      "summary": "Ivanti releases standard security patches on the second Tuesday of every month. In today\u2019s rapidly evolving technology and threat landscape, we believ...",
+      "timestamp": 1786458221.0,
+      "source": "Ivanti Security",
+      "vendor": "Ivanti"
+    },
+    {
       "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
       "link": "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
       "summary": "Mozilla announced today that it updated the GPG key used to sign Firefox and Thunderbird releases after it was accidentally exposed on GitHub. [...]",
       "timestamp": 1786454428.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-72785 - Craft CMS before 5.10.6 Authorization Bypass via structures/move-element",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72785",
+      "summary": "CVE ID :CVE-2026-72785\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Craft CMS 5.0.0-RC1 through 5.10.5 contains an inc...",
+      "timestamp": 1786454349.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72781 - Craft CMS 5.0.0-RC1 before 5.10.7 Remote Code Execution via Twig Sandbox Escape",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72781",
+      "summary": "CVE ID :CVE-2026-72781\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Craft CMS versions >= 5.0.0-RC1 before 5.10.7 and ...",
+      "timestamp": 1786454348.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72779 - Craft CMS 5.0.0-RC1 before 5.10.6 Arbitrary File Read via SplFileObject",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72779",
+      "summary": "CVE ID :CVE-2026-72779\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Craft CMS 5.0.0-RC1 before 5.10.6 and 4.0.0-RC1 be...",
+      "timestamp": 1786454348.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72778 - Craft CMS 5.0.0-RC1 before 5.10.6 Authenticated RCE via condition.config",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72778",
+      "summary": "CVE ID :CVE-2026-72778\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :Craft CMS versions from 4.0.0-RC1 before 4.18.2 an...",
+      "timestamp": 1786454348.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72772 - n8n before 2.32.1 Authentication Bypass via Token Exchange",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72772",
+      "summary": "CVE ID :CVE-2026-72772\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :n8n before 2.32.1 (and before 2.31.5) is vulnerabl...",
+      "timestamp": 1786454347.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72767 - n8n before 1.123.67 Remote Code Execution via Git node",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72767",
+      "summary": "CVE ID :CVE-2026-72767\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :n8n before 1.123.67, 2.x before 2.31.5, and 2.32.x...",
+      "timestamp": 1786454346.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72766 - n8n before 1.123.67 Arbitrary File Read via Send Email Node",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72766",
+      "summary": "CVE ID :CVE-2026-72766\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :n8n before 1.123.67, 2.x before 2.31.5, and 2.32.x...",
+      "timestamp": 1786454346.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72765 - n8n before 2.32.1 Remote Code Execution via Expression Sandbox Escape",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72765",
+      "summary": "CVE ID :CVE-2026-72765\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :n8n before 2.31.5 and before 2.32.1 contain a sand...",
+      "timestamp": 1786454346.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72748 - AVideo Unauthenticated Arbitrary File Write via aVideoEncoderChunk.json.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72748",
+      "summary": "CVE ID :CVE-2026-72748\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :AVideo contains an unauthenticated arbitrary file ...",
+      "timestamp": 1786454345.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72746 - FreeRDP before 3.30.0 RDSTLS Server Authentication Bypass via PDU-type Confusion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72746",
+      "summary": "CVE ID :CVE-2026-72746\n  \n  Published : Aug. 11, 2026, 1:19 p.m. | 38\u00a0minutes ago\n  \n  Description :FreeRDP before 3.30.0 contains a server-side authe...",
+      "timestamp": 1786454345.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Vague Task, Total Access: When AI Delegation Becomes a Security Risk",
@@ -89,86 +177,6 @@
       "timestamp": 1786450336.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-58231 - Improper Authorization in SAP Commerce Cloud (Data Hub Adapter)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58231",
-      "summary": "CVE ID :CVE-2026-58231\n  \n  Published : Aug. 11, 2026, 11:17 a.m. | 57\u00a0minutes ago\n  \n  Description :SAP Commerce Cloud allows an unauthenticated\natta...",
-      "timestamp": 1786447035.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72603 - wg-easy wg-easy - OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72603",
-      "summary": "CVE ID :CVE-2026-72603\n  \n  Published : Aug. 11, 2026, 11:15 a.m. | 59\u00a0minutes ago\n  \n  Description :An OS command injection vulnerability in wg-easy ...",
-      "timestamp": 1786446911.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72599 - e107 e107 - SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72599",
-      "summary": "CVE ID :CVE-2026-72599\n  \n  Published : Aug. 11, 2026, 11:14 a.m. | 1\u00a0hour ago\n  \n  Description :An SQL injection vulnerability in e107 2.4.0 allows u...",
-      "timestamp": 1786446855.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72596 - Ghost Foundation Ghost - Broken Access Control",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72596",
-      "summary": "CVE ID :CVE-2026-72596\n  \n  Published : Aug. 11, 2026, 11:13 a.m. | 1\u00a0hour ago\n  \n  Description :A broken access control vulnerability in Ghost Founda...",
-      "timestamp": 1786446819.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72595 - BadChoice Handesk - Broken Access Control",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72595",
-      "summary": "CVE ID :CVE-2026-72595\n  \n  Published : Aug. 11, 2026, 11:13 a.m. | 1\u00a0hour ago\n  \n  Description :A broken access control vulnerability in BadChoice Ha...",
-      "timestamp": 1786446808.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72563 - BadChoice Handesk - Broken Access Control",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72563",
-      "summary": "CVE ID :CVE-2026-72563\n  \n  Published : Aug. 11, 2026, 11:13 a.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :A broken access control vulnerability in Ba...",
-      "timestamp": 1786446795.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72562 - Pimcore pimcore admin-ui-classic-bundle - SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72562",
-      "summary": "CVE ID :CVE-2026-72562\n  \n  Published : Aug. 11, 2026, 11:13 a.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :An SQL injection vulnerability in Pimcore a...",
-      "timestamp": 1786446782.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72561 - Peppermint Lab Peppermint - Broken Access Control",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72561",
-      "summary": "CVE ID :CVE-2026-72561\n  \n  Published : Aug. 11, 2026, 11:12 a.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :A broken access control vulnerability in Pe...",
-      "timestamp": 1786446768.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72558 - CiviCRM CiviCRM - SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72558",
-      "summary": "CVE ID :CVE-2026-72558\n  \n  Published : Aug. 11, 2026, 11:12 a.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :An SQL injection vulnerability in CiviCRM ...",
-      "timestamp": 1786446735.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72557 - Cockpit CMS Cockpit CMS - Unrestricted File Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72557",
-      "summary": "CVE ID :CVE-2026-72557\n  \n  Published : Aug. 11, 2026, 11:11 a.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :An unrestricted file upload vulnerability ...",
-      "timestamp": 1786446713.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco warns of high-severity ClamAV flaws with public exploits",
@@ -315,5 +323,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1786454980.4890444
+  "last_updated": 1786459376.4259992
 }
