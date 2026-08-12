@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,32 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 6,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-72526 - Multicloud-integrations: multicloud-integrations: pull-model propagation allows hub tenant to target arbitrary spoke cluster via unvalidated ocm-managed-cluster annotation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72526",
+      "summary": "CVE ID :CVE-2026-72526\n  \n  Published : Aug. 12, 2026, 2:16 a.m. | 29\u00a0minutes ago\n  \n  Description :A flaw was found in the multicloud-integrations co...",
+      "timestamp": 1786500998.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-70398 - Multicloud-integrations: multicloud-integrations: gitopscluster.spec.argoserver.argonamespace writes spoke bearer tokens to attacker-chosen namespace",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70398",
+      "summary": "CVE ID :CVE-2026-70398\n  \n  Published : Aug. 12, 2026, 2:16 a.m. | 29\u00a0minutes ago\n  \n  Description :A flaw was found in multicloud-integrations, a com...",
+      "timestamp": 1786500998.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-6484 - Lack of verified boot to certain FV may cause arbitrary code execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6484",
-      "summary": "CVE ID :CVE-2026-6484\n  \n  Published : Aug. 12, 2026, 1:17 a.m. | 57\u00a0minutes ago\n  \n  Description :In an UEFI, Lack of verified boot to certain FV may...",
+      "summary": "CVE ID :CVE-2026-6484\n  \n  Published : Aug. 12, 2026, 1:17 a.m. | 1\u00a0hour, 28\u00a0minutes ago\n  \n  Description :In an UEFI, Lack of verified boot to certai...",
       "timestamp": 1786497428.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -75,25 +91,9 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-70398 - Multicloud-integrations: multicloud-integrations: gitopscluster.spec.argoserver.argonamespace writes spoke bearer tokens to attacker-chosen namespace",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70398",
-      "summary": "CVE ID :CVE-2026-70398\n  \n  Published : Aug. 12, 2026, 1:10 a.m. | 1\u00a0hour, 4\u00a0minutes ago\n  \n  Description :A flaw was found in multicloud-integrations...",
-      "timestamp": 1786497032.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72526 - Multicloud-integrations: multicloud-integrations: pull-model propagation allows hub tenant to target arbitrary spoke cluster via unvalidated ocm-managed-cluster annotation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72526",
-      "summary": "CVE ID :CVE-2026-72526\n  \n  Published : Aug. 12, 2026, 1:10 a.m. | 1\u00a0hour, 4\u00a0minutes ago\n  \n  Description :A flaw was found in the multicloud-integrat...",
-      "timestamp": 1786497028.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-73248 - calibre: Bypass of Python template restrictions via nested `template()` leading to RCE",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73248",
-      "summary": "CVE ID :CVE-2026-73248\n  \n  Published : Aug. 11, 2026, 10:19 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :calibre is an e-book manager. Prior to 9...",
+      "summary": "CVE ID :CVE-2026-73248\n  \n  Published : Aug. 11, 2026, 10:19 p.m. | 4\u00a0hours, 26\u00a0minutes ago\n  \n  Description :calibre is an e-book manager. Prior to 9...",
       "timestamp": 1786486745.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +101,7 @@
     {
       "title": "CVE-2026-73247 - Kestra: SSRF via Pebble http() function allows unauthenticated access to internal services & cloud metadata",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73247",
-      "summary": "CVE ID :CVE-2026-73247\n  \n  Published : Aug. 11, 2026, 10:19 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Kestra is an open-source, event-driven o...",
+      "summary": "CVE ID :CVE-2026-73247\n  \n  Published : Aug. 11, 2026, 10:19 p.m. | 4\u00a0hours, 26\u00a0minutes ago\n  \n  Description :Kestra is an open-source, event-driven o...",
       "timestamp": 1786486745.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +109,7 @@
     {
       "title": "CVE-2026-68067 - Mira Hormone Monitor, Mira Android App Weak Authentication",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-68067",
-      "summary": "CVE ID :CVE-2026-68067\n  \n  Published : Aug. 11, 2026, 10:18 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :The login endpoint on the Mira cloud API...",
+      "summary": "CVE ID :CVE-2026-68067\n  \n  Published : Aug. 11, 2026, 10:18 p.m. | 4\u00a0hours, 26\u00a0minutes ago\n  \n  Description :The login endpoint on the Mira cloud API...",
       "timestamp": 1786486735.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +117,7 @@
     {
       "title": "CVE-2026-67568 - Mira Hormone Monitor, Mira Android App Use of Hard-coded Credentials",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67568",
-      "summary": "CVE ID :CVE-2026-67568\n  \n  Published : Aug. 11, 2026, 10:18 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :The distributed Mira Android APK v4.5.15...",
+      "summary": "CVE ID :CVE-2026-67568\n  \n  Published : Aug. 11, 2026, 10:18 p.m. | 4\u00a0hours, 26\u00a0minutes ago\n  \n  Description :The distributed Mira Android APK v4.5.15...",
       "timestamp": 1786486734.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +125,7 @@
     {
       "title": "CVE-2026-66875 - Mira Hormone Monitor, Mira Android App Missing authentication for critical function",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66875",
-      "summary": "CVE ID :CVE-2026-66875\n  \n  Published : Aug. 11, 2026, 10:18 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :In the Mira hormone monitor device firmw...",
+      "summary": "CVE ID :CVE-2026-66875\n  \n  Published : Aug. 11, 2026, 10:18 p.m. | 4\u00a0hours, 26\u00a0minutes ago\n  \n  Description :In the Mira hormone monitor device firmw...",
       "timestamp": 1786486734.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,7 +133,7 @@
     {
       "title": "CVE-2026-5917 - libgit2 v0.27.0-v1.9.0 Shell Command Injection via ssh_libssh2 Backend",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-5917",
-      "summary": "CVE ID :CVE-2026-5917\n  \n  Published : Aug. 11, 2026, 10:17 p.m. | 3\u00a0hours, 57\u00a0minutes ago\n  \n  Description :libgit2 versions v0.27.0 through v1.9.0 b...",
+      "summary": "CVE ID :CVE-2026-5917\n  \n  Published : Aug. 11, 2026, 10:17 p.m. | 4\u00a0hours, 28\u00a0minutes ago\n  \n  Description :libgit2 versions v0.27.0 through v1.9.0 b...",
       "timestamp": 1786486657.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -157,7 +157,7 @@
     {
       "title": "CVE-2026-66154 - GMS Insufficient Certificate Validation Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66154",
-      "summary": "CVE ID :CVE-2026-66154\n  \n  Published : Aug. 11, 2026, 9:17 p.m. | 4\u00a0hours, 56\u00a0minutes ago\n  \n  Description :An insufficient certificate validation in...",
+      "summary": "CVE ID :CVE-2026-66154\n  \n  Published : Aug. 11, 2026, 9:17 p.m. | 5\u00a0hours, 27\u00a0minutes ago\n  \n  Description :An insufficient certificate validation in...",
       "timestamp": 1786483069.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -331,5 +331,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1786502634.8130462
+  "last_updated": 1786508975.2166004
 }
