@@ -10,7 +10,7 @@
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 8,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,92 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-6484 - Lack of verified boot to certain FV may cause arbitrary code execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6484",
+      "summary": "CVE ID :CVE-2026-6484\n  \n  Published : Aug. 12, 2026, 1:17 a.m. | 57\u00a0minutes ago\n  \n  Description :In an UEFI, Lack of verified boot to certain FV may...",
+      "timestamp": 1786497428.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse",
+      "link": "https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/",
+      "summary": "Google says Chrome's anti-abuse systems reduced unwanted notifications on Android by more than 7 billion per day during the first quarter of 2026. [.....",
+      "timestamp": 1786497355.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-70398 - Multicloud-integrations: multicloud-integrations: gitopscluster.spec.argoserver.argonamespace writes spoke bearer tokens to attacker-chosen namespace",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70398",
+      "summary": "CVE ID :CVE-2026-70398\n  \n  Published : Aug. 12, 2026, 1:10 a.m. | 1\u00a0hour, 4\u00a0minutes ago\n  \n  Description :A flaw was found in multicloud-integrations...",
+      "timestamp": 1786497032.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72526 - Multicloud-integrations: multicloud-integrations: pull-model propagation allows hub tenant to target arbitrary spoke cluster via unvalidated ocm-managed-cluster annotation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72526",
+      "summary": "CVE ID :CVE-2026-72526\n  \n  Published : Aug. 12, 2026, 1:10 a.m. | 1\u00a0hour, 4\u00a0minutes ago\n  \n  Description :A flaw was found in the multicloud-integrat...",
+      "timestamp": 1786497028.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73248 - calibre: Bypass of Python template restrictions via nested `template()` leading to RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73248",
+      "summary": "CVE ID :CVE-2026-73248\n  \n  Published : Aug. 11, 2026, 10:19 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :calibre is an e-book manager. Prior to 9...",
+      "timestamp": 1786486745.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73247 - Kestra: SSRF via Pebble http() function allows unauthenticated access to internal services & cloud metadata",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73247",
+      "summary": "CVE ID :CVE-2026-73247\n  \n  Published : Aug. 11, 2026, 10:19 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Kestra is an open-source, event-driven o...",
+      "timestamp": 1786486745.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-68067 - Mira Hormone Monitor, Mira Android App Weak Authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68067",
+      "summary": "CVE ID :CVE-2026-68067\n  \n  Published : Aug. 11, 2026, 10:18 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :The login endpoint on the Mira cloud API...",
+      "timestamp": 1786486735.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67568 - Mira Hormone Monitor, Mira Android App Use of Hard-coded Credentials",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67568",
+      "summary": "CVE ID :CVE-2026-67568\n  \n  Published : Aug. 11, 2026, 10:18 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :The distributed Mira Android APK v4.5.15...",
+      "timestamp": 1786486734.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66875 - Mira Hormone Monitor, Mira Android App Missing authentication for critical function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66875",
+      "summary": "CVE ID :CVE-2026-66875\n  \n  Published : Aug. 11, 2026, 10:18 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :In the Mira hormone monitor device firmw...",
+      "timestamp": 1786486734.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-5917 - libgit2 v0.27.0-v1.9.0 Shell Command Injection via ssh_libssh2 Backend",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5917",
+      "summary": "CVE ID :CVE-2026-5917\n  \n  Published : Aug. 11, 2026, 10:17 p.m. | 3\u00a0hours, 57\u00a0minutes ago\n  \n  Description :libgit2 versions v0.27.0 through v1.9.0 b...",
+      "timestamp": 1786486657.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "DeadLock ransomware uses blockchain to resist infrastructure takedown",
       "link": "https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/",
@@ -65,30 +145,6 @@
       "timestamp": 1786486522.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-5917 - libgit2 v0.27.0-v1.9.0 Shell Command Injection via ssh_libssh2 Backend",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5917",
-      "summary": "CVE ID :CVE-2026-5917\n  \n  Published : Aug. 11, 2026, 9:40 p.m. | 17\u00a0minutes ago\n  \n  Description :libgit2 versions v0.27.0 through v1.9.0 built with ...",
-      "timestamp": 1786484429.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66875 - Mira Hormone Monitor, Mira Android App Missing authentication for critical function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66875",
-      "summary": "CVE ID :CVE-2026-66875\n  \n  Published : Aug. 11, 2026, 9:31 p.m. | 26\u00a0minutes ago\n  \n  Description :In the Mira hormone monitor device firmware v1.7.1...",
-      "timestamp": 1786483902.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-29036 - cJSON 1.7.19 Wrong-Key Modification via JSON Pointer Escape Decoding",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29036",
-      "summary": "CVE ID :CVE-2026-29036\n  \n  Published : Aug. 11, 2026, 9:30 p.m. | 28\u00a0minutes ago\n  \n  Description :cJSON versions 1.5.0 through 1.7.19 contain an inc...",
-      "timestamp": 1786483801.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft Plugs Nearly 400 Security Holes",
@@ -99,58 +155,10 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-67558 - Mira Hormone Monitor, Mira Android App Authentication bypass by spoofing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67558",
-      "summary": "CVE ID :CVE-2026-67558\n  \n  Published : Aug. 11, 2026, 9:27 p.m. | 30\u00a0minutes ago\n  \n  Description :The Mira Android companion app v4.5.15.4 identifie...",
-      "timestamp": 1786483623.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67568 - Mira Hormone Monitor, Mira Android App Use of Hard-coded Credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67568",
-      "summary": "CVE ID :CVE-2026-67568\n  \n  Published : Aug. 11, 2026, 9:25 p.m. | 32\u00a0minutes ago\n  \n  Description :The distributed Mira Android APK v4.5.15.4 allows ...",
-      "timestamp": 1786483510.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-68067 - Mira Hormone Monitor, Mira Android App Weak Authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68067",
-      "summary": "CVE ID :CVE-2026-68067\n  \n  Published : Aug. 11, 2026, 9:23 p.m. | 34\u00a0minutes ago\n  \n  Description :The login endpoint on the Mira cloud API accepts a...",
-      "timestamp": 1786483385.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55676 - Malcolm vulnerable to RCE via unrestricted .php upload to the file-upload component",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55676",
-      "summary": "CVE ID :CVE-2026-55676\n  \n  Published : Aug. 11, 2026, 9:17 p.m. | 40\u00a0minutes ago\n  \n  Description :Malcolm is a network traffic analysis tool suite. ...",
-      "timestamp": 1786483057.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48765 - TypeBot vulnerable to cross-workspace OAuth credential takeover in updateOAuthCredentials via missing object binding",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48765",
-      "summary": "CVE ID :CVE-2026-48765\n  \n  Published : Aug. 11, 2026, 9:17 p.m. | 40\u00a0minutes ago\n  \n  Description :TypeBot is a chatbot builder tool. Versions prior ...",
-      "timestamp": 1786483056.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-48763 - TypeBot has Arbitrary S3 Object Write in deprecated public upload endpoint via attacker-controlled filePath",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48763",
-      "summary": "CVE ID :CVE-2026-48763\n  \n  Published : Aug. 11, 2026, 9:17 p.m. | 40\u00a0minutes ago\n  \n  Description :TypeBot is a chatbot builder tool. Versions prior ...",
-      "timestamp": 1786483056.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-29035 - CivetWeb Heap/Stack Buffer Overflow via WebSocket permessage-deflate Decompression",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-29035",
-      "summary": "CVE ID :CVE-2026-29035\n  \n  Published : Aug. 11, 2026, 9:17 p.m. | 40\u00a0minutes ago\n  \n  Description :CivetWeb (commit 4a4f0c95) contains a heap and sta...",
-      "timestamp": 1786483055.0,
+      "title": "CVE-2026-66154 - GMS Insufficient Certificate Validation Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66154",
+      "summary": "CVE ID :CVE-2026-66154\n  \n  Published : Aug. 11, 2026, 9:17 p.m. | 4\u00a0hours, 56\u00a0minutes ago\n  \n  Description :An insufficient certificate validation in...",
+      "timestamp": 1786483069.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -243,14 +251,6 @@
       "vendor": "News"
     },
     {
-      "title": "Vague Task, Total Access: When AI Delegation Becomes a Security Risk",
-      "link": "https://www.bleepingcomputer.com/news/security/vague-task-total-access-when-ai-delegation-becomes-a-security-risk/",
-      "summary": "AI agents can improvise beyond the intended scope of a task when they are given broad access to enterprise systems and data. Token Security explains w...",
-      "timestamp": 1786454124.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "ClamAV Vulnerabilities Affecting Cisco Products: August 2026",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=ClamAV%20Vulnerabilities%20Affecting%20Cisco%20Products:%20August%202026%26vs_k=1",
       "summary": "Multiple vulnerabilities in ClamAV could allow a remote attacker to cause a denial of service (DoS) condition, interrupting scanning operations.&nbsp;...",
@@ -331,5 +331,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1786487235.7136257
+  "last_updated": 1786502634.8130462
 }
