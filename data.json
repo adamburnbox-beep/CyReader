@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,14 +24,14 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 10,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,7 +52,7 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
@@ -155,6 +155,14 @@
       "vendor": "Cisco"
     },
     {
+      "title": "CVE-2026-15803 - Eclipse RDF4J XML External Entity Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15803",
+      "summary": "CVE ID :CVE-2026-15803\n  \n  Published : Aug. 12, 2026, 3:38 p.m. | 36\u00a0minutes ago\n  \n  Description :In Eclipse RDF4J, several XML parser entry points ...",
+      "timestamp": 1786549110.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
       "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
       "summary": "North Korean hackers have been exploiting a Windows zero-day vulnerability (CVE-2026-68820) to target defense-sector companies as part of the Operatio...",
@@ -163,18 +171,74 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-67285 - Joomla Extension - joomshaper.com - Unauthenticated arbitrary local PHP file inclusion in SP Page Builder < 6.8.0",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67285",
-      "summary": "CVE ID :CVE-2026-67285\n  \n  Published : Aug. 12, 2026, 2:18 p.m. | 27\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - Unauthenticate...",
-      "timestamp": 1786544313.0,
+      "title": "CVE-2026-73325 - Fujitsu OneCompression 1.2.0 Arbitrary Code Execution via torch.load Deserialization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73325",
+      "summary": "CVE ID :CVE-2026-73325\n  \n  Published : Aug. 12, 2026, 3:35 p.m. | 39\u00a0minutes ago\n  \n  Description :Fujitsu Research's OneCompression library 1.2.0 co...",
+      "timestamp": 1786548951.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-47231 - Admidio has IDOR in `documents-files.php` `mode=move_save` that lets any folder-uploader exfiltrate files from private folders",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47231",
-      "summary": "CVE ID :CVE-2026-47231\n  \n  Published : Aug. 12, 2026, 2:17 p.m. | 28\u00a0minutes ago\n  \n  Description :Admidio is an open-source user management solution...",
-      "timestamp": 1786544274.0,
+      "title": "CVE-2026-65941 - WhatsUp Gold versions prior to 26.0.2 contain an unauthenticated remote code execution vulnerability in an internal report scheduling service.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65941",
+      "summary": "CVE ID :CVE-2026-65941\n  \n  Published : Aug. 12, 2026, 3:23 p.m. | 51\u00a0minutes ago\n  \n  Description :In WhatsUp Gold versions released before 2026.0.2,...",
+      "timestamp": 1786548234.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65937 - WhatsUp Gold versions prior to 26.0.2 contain multiple stored cross-site scripting (XSS) vulnerabilities across the web UI",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65937",
+      "summary": "CVE ID :CVE-2026-65937\n  \n  Published : Aug. 12, 2026, 3:21 p.m. | 53\u00a0minutes ago\n  \n  Description :In WhatsUp Gold versions released before 2026.0.2,...",
+      "timestamp": 1786548115.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-69105 - Potential package cache integrity issue in JFrog Artifactory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69105",
+      "summary": "CVE ID :CVE-2026-69105\n  \n  Published : Aug. 12, 2026, 3:19 p.m. | 55\u00a0minutes ago\n  \n  Description :An unauthenticated attacker may cause untrusted pa...",
+      "timestamp": 1786547980.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73431 - Reusable Account Activation and Recovery Tokens Allow Repeated Account Takeover in vulnerability-lookup",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73431",
+      "summary": "CVE ID :CVE-2026-73431\n  \n  Published : Aug. 12, 2026, 3:18 p.m. | 56\u00a0minutes ago\n  \n  Description :Vulnerability-Lookup contains an \nauthentication w...",
+      "timestamp": 1786547913.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73289 - RustFS: ForAllValues/ForAnyValue negated string conditions are transposed, inverting IAM and bucket-policy decisions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73289",
+      "summary": "CVE ID :CVE-2026-73289\n  \n  Published : Aug. 12, 2026, 3:18 p.m. | 56\u00a0minutes ago\n  \n  Description :RustFS is a distributed object storage system buil...",
+      "timestamp": 1786547912.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73286 - RustF: Request headers can populate server-derived IAM condition keys, letting a caller satisfy identity-based policy conditions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73286",
+      "summary": "CVE ID :CVE-2026-73286\n  \n  Published : Aug. 12, 2026, 3:18 p.m. | 56\u00a0minutes ago\n  \n  Description :RustFS is a distributed object storage system buil...",
+      "timestamp": 1786547912.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73284 - RustFS: AddServiceAccount Handler Allows Creation of Root-Parent Service Accounts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73284",
+      "summary": "CVE ID :CVE-2026-73284\n  \n  Published : Aug. 12, 2026, 3:18 p.m. | 56\u00a0minutes ago\n  \n  Description :RustFS is a distributed object storage system buil...",
+      "timestamp": 1786547911.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73263 - Prowler: RCE on Prowler App workers via kubeconfig auth-provider cmd-path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73263",
+      "summary": "CVE ID :CVE-2026-73263\n  \n  Published : Aug. 12, 2026, 3:18 p.m. | 56\u00a0minutes ago\n  \n  Description :Prowler is a cloud security platform. Prior to 5.3...",
+      "timestamp": 1786547910.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -195,52 +259,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-70468 - Fortinet FortiManager Authentication Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70468",
-      "summary": "CVE ID :CVE-2026-70468\n  \n  Published : Aug. 12, 2026, 1:17 p.m. | 1\u00a0hour, 28\u00a0minutes ago\n  \n  Description :A authentication bypass using an alternate...",
-      "timestamp": 1786540645.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57858 - Cal.com Cal.diy 6.2.0 Stored XSS via BookingPageTagManager Analytics Tracking ID",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57858",
-      "summary": "CVE ID :CVE-2026-57858\n  \n  Published : Aug. 12, 2026, 1:17 p.m. | 1\u00a0hour, 28\u00a0minutes ago\n  \n  Description :Cal.com Cal.diy versions 2.1.1 through 6.2...",
-      "timestamp": 1786540642.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-26035 - Fortinet FortiWeb Improper Authentication Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-26035",
-      "summary": "CVE ID :CVE-2026-26035\n  \n  Published : Aug. 12, 2026, 1:17 p.m. | 1\u00a0hour, 28\u00a0minutes ago\n  \n  Description :An Improper Authentication vulnerability [...",
-      "timestamp": 1786540642.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Hackers leverage new Microsoft SharePoint exploit in attacks",
       "link": "https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/",
       "summary": "Hackers have already begun using a\u00a0proof-of-concept (PoC) exploit for a critical Microsoft SharePoint vulnerability,\u00a0published by cybersecurity compan...",
       "timestamp": 1786537537.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-70465 - Fortinet FortiClient Buffer Overflow Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70465",
-      "summary": "CVE ID :CVE-2026-70465\n  \n  Published : Aug. 12, 2026, 12:19 p.m. | 2\u00a0hours, 26\u00a0minutes ago\n  \n  Description :A buffer copy without checking size of i...",
-      "timestamp": 1786537187.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11325 - cloudflare/pages-action is deprecated \u2014 migration required by September 18th, 2026",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11325",
-      "summary": "CVE ID :CVE-2026-11325\n  \n  Published : Aug. 12, 2026, 12:17 p.m. | 2\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Description\n\n\n\nCloudflare was recently n...",
-      "timestamp": 1786537064.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Signal adds new security feature to thwart man-in-the-middle attacks",
@@ -257,30 +281,6 @@
       "timestamp": 1786529722.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-67282 - Joomla Extension - fabrikar.com - Unauthenticated remote code execution in Fabrik < 4.6.8",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67282",
-      "summary": "CVE ID :CVE-2026-67282\n  \n  Published : Aug. 12, 2026, 9:17 a.m. | 5\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Joomla Extension - fabrikar.com - Unauthe...",
-      "timestamp": 1786526250.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19426 - FitSoft\uff5cPOS Sytstem - Missing Authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19426",
-      "summary": "CVE ID :CVE-2026-19426\n  \n  Published : Aug. 12, 2026, 8:17 a.m. | 6\u00a0hours, 28\u00a0minutes ago\n  \n  Description :POS System developed by FitSoft has a Mis...",
-      "timestamp": 1786522637.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-41769 - Unauthenticated Buffer Overflow in PROFINET Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-41769",
-      "summary": "CVE ID :CVE-2025-41769\n  \n  Published : Aug. 12, 2026, 8:17 a.m. | 6\u00a0hours, 28\u00a0minutes ago\n  \n  Description :The device's PROFINET service is affected...",
-      "timestamp": 1786522631.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse",
@@ -403,5 +403,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1786551029.7142262
+  "last_updated": 1786557995.483473
 }
