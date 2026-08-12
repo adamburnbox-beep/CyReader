@@ -10,7 +10,7 @@
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 7,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,40 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-66659 - WordPress Tablesome Table plugin <= 1.2.9 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66659",
+      "summary": "CVE ID :CVE-2026-66659\n  \n  Published : Aug. 12, 2026, 6:22 a.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elements...",
+      "timestamp": 1786515729.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-19594 - Path Traversal and HTTP Parameter Pollution in Snowflake Python API (snowflake.core) Allow Confused-Deputy Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19594",
+      "summary": "CVE ID :CVE-2026-19594\n  \n  Published : Aug. 12, 2026, 6:21 a.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :Insufficient input sanitization in Snowflak...",
+      "timestamp": 1786515717.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-64954 - Velociraptor collect_client() Permissions Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64954",
+      "summary": "CVE ID :CVE-2026-64954\n  \n  Published : Aug. 12, 2026, 5:19 a.m. | 2\u00a0hours, 10\u00a0minutes ago\n  \n  Description :Velociraptor allows scheduling new collec...",
+      "timestamp": 1786511957.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-18961 - Social Login, Passkeys, Magic Link & Email OTP \u2013 Passwordless Login by VentraConnect <= 1.4.3 - Unauthenticated Authentication Bypass via Spotify OAuth Callback",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18961",
-      "summary": "CVE ID :CVE-2026-18961\n  \n  Published : Aug. 12, 2026, 3:16 a.m. | 58\u00a0minutes ago\n  \n  Description :The Social Login, Passkeys, Magic Link & Email OTP...",
+      "summary": "CVE ID :CVE-2026-18961\n  \n  Published : Aug. 12, 2026, 3:16 a.m. | 4\u00a0hours, 13\u00a0minutes ago\n  \n  Description :The Social Login, Passkeys, Magic Link & ...",
       "timestamp": 1786504602.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +93,7 @@
     {
       "title": "CVE-2026-72526 - Multicloud-integrations: multicloud-integrations: pull-model propagation allows hub tenant to target arbitrary spoke cluster via unvalidated ocm-managed-cluster annotation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72526",
-      "summary": "CVE ID :CVE-2026-72526\n  \n  Published : Aug. 12, 2026, 2:16 a.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :A flaw was found in the multicloud-integra...",
+      "summary": "CVE ID :CVE-2026-72526\n  \n  Published : Aug. 12, 2026, 2:16 a.m. | 5\u00a0hours, 13\u00a0minutes ago\n  \n  Description :A flaw was found in the multicloud-integr...",
       "timestamp": 1786500998.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +101,7 @@
     {
       "title": "CVE-2026-70398 - Multicloud-integrations: multicloud-integrations: gitopscluster.spec.argoserver.argonamespace writes spoke bearer tokens to attacker-chosen namespace",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70398",
-      "summary": "CVE ID :CVE-2026-70398\n  \n  Published : Aug. 12, 2026, 2:16 a.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :A flaw was found in multicloud-integration...",
+      "summary": "CVE ID :CVE-2026-70398\n  \n  Published : Aug. 12, 2026, 2:16 a.m. | 5\u00a0hours, 13\u00a0minutes ago\n  \n  Description :A flaw was found in multicloud-integratio...",
       "timestamp": 1786500998.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +109,7 @@
     {
       "title": "CVE-2026-6484 - Lack of verified boot to certain FV may cause arbitrary code execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-6484",
-      "summary": "CVE ID :CVE-2026-6484\n  \n  Published : Aug. 12, 2026, 1:17 a.m. | 2\u00a0hours, 57\u00a0minutes ago\n  \n  Description :In an UEFI, Lack of verified boot to certa...",
+      "summary": "CVE ID :CVE-2026-6484\n  \n  Published : Aug. 12, 2026, 1:17 a.m. | 6\u00a0hours, 13\u00a0minutes ago\n  \n  Description :In an UEFI, Lack of verified boot to certa...",
       "timestamp": 1786497428.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +125,7 @@
     {
       "title": "CVE-2026-73248 - calibre: Bypass of Python template restrictions via nested `template()` leading to RCE",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73248",
-      "summary": "CVE ID :CVE-2026-73248\n  \n  Published : Aug. 11, 2026, 10:19 p.m. | 5\u00a0hours, 55\u00a0minutes ago\n  \n  Description :calibre is an e-book manager. Prior to 9...",
+      "summary": "CVE ID :CVE-2026-73248\n  \n  Published : Aug. 11, 2026, 10:19 p.m. | 9\u00a0hours, 11\u00a0minutes ago\n  \n  Description :calibre is an e-book manager. Prior to 9...",
       "timestamp": 1786486745.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +133,7 @@
     {
       "title": "CVE-2026-73247 - Kestra: SSRF via Pebble http() function allows unauthenticated access to internal services & cloud metadata",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73247",
-      "summary": "CVE ID :CVE-2026-73247\n  \n  Published : Aug. 11, 2026, 10:19 p.m. | 5\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Kestra is an open-source, event-driven o...",
+      "summary": "CVE ID :CVE-2026-73247\n  \n  Published : Aug. 11, 2026, 10:19 p.m. | 9\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Kestra is an open-source, event-driven o...",
       "timestamp": 1786486745.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,32 +141,8 @@
     {
       "title": "CVE-2026-68067 - Mira Hormone Monitor, Mira Android App Weak Authentication",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-68067",
-      "summary": "CVE ID :CVE-2026-68067\n  \n  Published : Aug. 11, 2026, 10:18 p.m. | 5\u00a0hours, 55\u00a0minutes ago\n  \n  Description :The login endpoint on the Mira cloud API...",
+      "summary": "CVE ID :CVE-2026-68067\n  \n  Published : Aug. 11, 2026, 10:18 p.m. | 9\u00a0hours, 11\u00a0minutes ago\n  \n  Description :The login endpoint on the Mira cloud API...",
       "timestamp": 1786486735.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67568 - Mira Hormone Monitor, Mira Android App Use of Hard-coded Credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67568",
-      "summary": "CVE ID :CVE-2026-67568\n  \n  Published : Aug. 11, 2026, 10:18 p.m. | 5\u00a0hours, 55\u00a0minutes ago\n  \n  Description :The distributed Mira Android APK v4.5.15...",
-      "timestamp": 1786486734.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66875 - Mira Hormone Monitor, Mira Android App Missing authentication for critical function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66875",
-      "summary": "CVE ID :CVE-2026-66875\n  \n  Published : Aug. 11, 2026, 10:18 p.m. | 5\u00a0hours, 55\u00a0minutes ago\n  \n  Description :In the Mira hormone monitor device firmw...",
-      "timestamp": 1786486734.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-5917 - libgit2 v0.27.0-v1.9.0 Shell Command Injection via ssh_libssh2 Backend",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5917",
-      "summary": "CVE ID :CVE-2026-5917\n  \n  Published : Aug. 11, 2026, 10:17 p.m. | 5\u00a0hours, 57\u00a0minutes ago\n  \n  Description :libgit2 versions v0.27.0 through v1.9.0 b...",
-      "timestamp": 1786486657.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -323,5 +323,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1786514721.892168
+  "last_updated": 1786526635.0782707
 }
