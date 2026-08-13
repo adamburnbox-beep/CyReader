@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,89 +52,105 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-71471 - Acm-search-v2-rhel9: search-v2-operator: hub search cr collector.imageoverride propagated to every spoke as arbitrary container image",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71471",
-      "summary": "CVE ID :CVE-2026-71471\n  \n  Published : Aug. 12, 2026, 9:40 p.m. | 34\u00a0minutes ago\n  \n  Description :A flaw was found in acm-search-v2-rhel9. An attack...",
-      "timestamp": 1786570811.0,
+      "title": "CVE-2026-49819 - UpSnap - Unauthenticated Initial-Superuser Takeover Chains to Root RCE via wake_cmd",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49819",
+      "summary": "CVE ID :CVE-2026-49819\n  \n  Published : Aug. 13, 2026, 12:17 a.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :UpSnap is a wake on lan web app. Versions...",
+      "timestamp": 1786580252.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49473 - @cedar-policy/authorization-for-expressjs has an authorization bypass via query string manipulation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49473",
+      "summary": "CVE ID :CVE-2026-49473\n  \n  Published : Aug. 13, 2026, 12:17 a.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :@cedar-policy/authorization-for-expressjs...",
+      "timestamp": 1786580252.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-46382 - Meeting Room Booking System has server-side request forgery in import functionality",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-46382",
+      "summary": "CVE ID :CVE-2026-46382\n  \n  Published : Aug. 13, 2026, 12:17 a.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :The Meeting Room Booking System (MRBS) is...",
+      "timestamp": 1786580252.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71193 - OpenStack Designate Cross-Tenant Zone Overlap Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71193",
+      "summary": "CVE ID :CVE-2026-71193\n  \n  Published : Aug. 12, 2026, 11:17 p.m. | 2\u00a0hours, 24\u00a0minutes ago\n  \n  Description :In OpenStack Designate before 22.0.1, zo...",
+      "timestamp": 1786576642.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-49481 - UpSnap vulnerable to Remote Code Execution via IP Field Template Injection in wake_cmd/shutdown_cmd",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49481",
+      "summary": "CVE ID :CVE-2026-49481\n  \n  Published : Aug. 12, 2026, 11:17 p.m. | 2\u00a0hours, 24\u00a0minutes ago\n  \n  Description :UpSnap is a wake on lan web app. Version...",
+      "timestamp": 1786576641.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
+      "link": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
+      "summary": "An ongoing data theft campaign uses custom\u00a0tools to steal data exposed to anonymous users through Salesforce Experience Cloud and ServiceNow customer ...",
+      "timestamp": 1786576043.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Android malware combo takes out loans and relays victims' credit cards",
+      "link": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
+      "summary": "A new Android NFC relay malware called WindRelay is being used alongside the SpyNote remote administration tool (RAT) to steal live card data and send...",
+      "timestamp": 1786573377.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-73519 - WolfStack < 25.9.2 Hard-coded Secret Authentication Bypass via X-WolfStack-Secret",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73519",
+      "summary": "CVE ID :CVE-2026-73519\n  \n  Published : Aug. 12, 2026, 10:17 p.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :WolfStack before 25.9.2 contains a hard-...",
+      "timestamp": 1786573037.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73501 - kin-openapi: ValidationHandler.Load() Fail-Open Authentication Bypass via NoopAuthenticationFunc Default",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73501",
+      "summary": "CVE ID :CVE-2026-73501\n  \n  Published : Aug. 12, 2026, 10:17 p.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :kin-openapi is a Go project for handling...",
+      "timestamp": 1786573037.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73500 - etcd: `tlsListener.acceptLoop` spawns unbounded handshake goroutines with no deadline",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73500",
+      "summary": "CVE ID :CVE-2026-73500\n  \n  Published : Aug. 12, 2026, 10:17 p.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :etcd is a distributed key-value store fo...",
+      "timestamp": 1786573037.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-71473 - Acm-search-v2-rhel9: search-v2-operator: addonfactory.getvaluesfromaddonannotation enables arbitrary helm-values override per spoke",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71473",
-      "summary": "CVE ID :CVE-2026-71473\n  \n  Published : Aug. 12, 2026, 9:40 p.m. | 34\u00a0minutes ago\n  \n  Description :A flaw was found in the `search-v2-operator` compo...",
-      "timestamp": 1786570809.0,
+      "summary": "CVE ID :CVE-2026-71473\n  \n  Published : Aug. 12, 2026, 10:17 p.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :A flaw was found in the `search-v2-opera...",
+      "timestamp": 1786573036.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-10534 - IBM\u00ae Db2\u00ae is vulnerable to buffer overflow in the IXF IMPORT parser",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10534",
-      "summary": "CVE ID :CVE-2026-10534\n  \n  Published : Aug. 12, 2026, 9:24 p.m. | 50\u00a0minutes ago\n  \n  Description :IBM Db2 11.5.0 through 11.5.9, and 12.1.0 through ...",
-      "timestamp": 1786569870.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-17485 - IBM i is Affected By Denial of Service Vulnerability []",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17485",
-      "summary": "CVE ID :CVE-2026-17485\n  \n  Published : Aug. 12, 2026, 9:24 p.m. | 51\u00a0minutes ago\n  \n  Description :IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote ...",
-      "timestamp": 1786569844.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2024-27253 - IBM Engineering Requirements Management DOORS Next is impacted by vulnerability in Reviews delete request",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-27253",
-      "summary": "CVE ID :CVE-2024-27253\n  \n  Published : Aug. 12, 2026, 9:23 p.m. | 52\u00a0minutes ago\n  \n  Description :IBM DOORS Next 7.0.3 through 7.0.3 Interim Fix 018...",
-      "timestamp": 1786569783.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66898 - Path traversal via unvalidated instance name in backup tarball restore enables root file write / RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66898",
-      "summary": "CVE ID :CVE-2026-66898\n  \n  Published : Aug. 12, 2026, 9:17 p.m. | 57\u00a0minutes ago\n  \n  Description :A path traversal vulnerability in LXD allows an at...",
-      "timestamp": 1786569459.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19004 - MongoDB BI Connector ODBC Driver Memory-Safety Issue When Handling Stored Procedure Output Parameters",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19004",
-      "summary": "CVE ID :CVE-2026-19004\n  \n  Published : Aug. 12, 2026, 9:17 p.m. | 57\u00a0minutes ago\n  \n  Description :An application using the MongoDB BI Connector ODBC...",
-      "timestamp": 1786569457.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19002 - Crafted database metadata may cause memory corruption in MongoDB BI Connector ODBC Driver",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19002",
-      "summary": "CVE ID :CVE-2026-19002\n  \n  Published : Aug. 12, 2026, 9:17 p.m. | 57\u00a0minutes ago\n  \n  Description :A missing bounds check when parsing stored procedu...",
-      "timestamp": 1786569457.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19001 - MongoDB BI Connector ODBC driver may write outside an allocated buffer when handling oversized catalog object names",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19001",
-      "summary": "CVE ID :CVE-2026-19001\n  \n  Published : Aug. 12, 2026, 9:17 p.m. | 57\u00a0minutes ago\n  \n  Description :The MongoDB BI Connector ODBC Driver may write out...",
-      "timestamp": 1786569457.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16033 - Arbitrary file read+write on host via templates/ symlink in malicious image",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16033",
-      "summary": "CVE ID :CVE-2026-16033\n  \n  Published : Aug. 12, 2026, 9:17 p.m. | 57\u00a0minutes ago\n  \n  Description :A path traversal vulnerability in LXD allows an at...",
-      "timestamp": 1786569455.0,
+      "title": "CVE-2026-71471 - Acm-search-v2-rhel9: search-v2-operator: hub search cr collector.imageoverride propagated to every spoke as arbitrary container image",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71471",
+      "summary": "CVE ID :CVE-2026-71471\n  \n  Published : Aug. 12, 2026, 10:17 p.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :A flaw was found in acm-search-v2-rhel9....",
+      "timestamp": 1786573035.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -163,8 +179,8 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -187,40 +203,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -237,6 +221,38 @@
     {
       "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -287,22 +303,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/",
       "summary": "\u200bSignal has introduced Automatic Key Verification, a new security feature that gives users a new way to ensure their encrypted chats haven't been inte...",
       "timestamp": 1786533702.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges",
-      "link": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/",
-      "summary": "Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldBreak\" after Microsoft released the August 2026 Patch Tuesday se...",
-      "timestamp": 1786529722.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse",
-      "link": "https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/",
-      "summary": "Google says Chrome's anti-abuse systems reduced unwanted notifications on Android by more than 7 billion per day during the first quarter of 2026. [.....",
-      "timestamp": 1786497355.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -403,5 +403,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1786573528.5637412
+  "last_updated": 1786589249.762665
 }
