@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,92 +59,108 @@
   ],
   "articles": [
     {
+      "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
+      "summary": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a revers...",
+      "timestamp": 1786639223.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-73670 - CMS Admin SQL Injection via db_data.php table_name Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73670",
+      "summary": "CVE ID :CVE-2026-73670\n  \n  Published : Aug. 13, 2026, 4:19 p.m. | 27\u00a0minutes ago\n  \n  Description :A CMS contains a SQL injection vulnerability in ad...",
+      "timestamp": 1786637947.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73570 - Zimbra Collaboration Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73570",
+      "summary": "CVE ID :CVE-2026-73570\n  \n  Published : Aug. 13, 2026, 4:19 p.m. | 27\u00a0minutes ago\n  \n  Description :A remote code execution vulnerability exists in Zi...",
+      "timestamp": 1786637946.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73533 - Ninja Tables Pro 5.2.11 Embedded Malicious Code via Tampered Plugin Build",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73533",
+      "summary": "CVE ID :CVE-2026-73533\n  \n  Published : Aug. 13, 2026, 4:19 p.m. | 27\u00a0minutes ago\n  \n  Description :Ninja Tables Pro 5.2.11 contains an embedded malic...",
+      "timestamp": 1786637945.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73532 - Fluent Forms Pro 6.2.7 Embedded Malicious Code via Tampered Plugin Build",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73532",
+      "summary": "CVE ID :CVE-2026-73532\n  \n  Published : Aug. 13, 2026, 4:19 p.m. | 27\u00a0minutes ago\n  \n  Description :Fluent Forms Pro 6.2.7 contains an embedded malici...",
+      "timestamp": 1786637945.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73515 - PostGIS < 3.7.0beta2 Out-of-Bounds Read via FlatGeobuf Buffer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73515",
+      "summary": "CVE ID :CVE-2026-73515\n  \n  Published : Aug. 13, 2026, 4:19 p.m. | 27\u00a0minutes ago\n  \n  Description :PostGIS before 3.7.0beta2 contains an out-of-bound...",
+      "timestamp": 1786637945.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73514 - PostGIS address_standardizer Out-of-Bounds Write via standardize_address()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73514",
+      "summary": "CVE ID :CVE-2026-73514\n  \n  Published : Aug. 13, 2026, 4:19 p.m. | 27\u00a0minutes ago\n  \n  Description :The address_standardizer extension for PostGIS thr...",
+      "timestamp": 1786637945.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55402 - Secure Access Out-of-Bounds Read Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55402",
+      "summary": "CVE ID :CVE-2026-55402\n  \n  Published : Aug. 13, 2026, 4:16 p.m. | 30\u00a0minutes ago\n  \n  Description :CVE-2026-55402 is an out of bounds read vulnerabil...",
+      "timestamp": 1786637782.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-70464 - rsync 2.0.0 < 3.5.0 Connection Slot Exhaustion DoS via Handshake Stall",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70464",
+      "summary": "CVE ID :CVE-2026-70464\n  \n  Published : Aug. 13, 2026, 3:20 p.m. | 1\u00a0hour, 26\u00a0minutes ago\n  \n  Description :rsync daemon 2.0.0 before 3.5.0\u00a0contains a...",
+      "timestamp": 1786634401.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-70463 - rsync 3.1.0 < 3.5.0 Authorization Bypass via auth users Directive Parsing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70463",
+      "summary": "CVE ID :CVE-2026-70463\n  \n  Published : Aug. 13, 2026, 3:20 p.m. | 1\u00a0hour, 26\u00a0minutes ago\n  \n  Description :rsync 3.1.0 before 3.5.0\u00a0contains an autho...",
+      "timestamp": 1786634401.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-70461 - rsync 3.2.5 < 3.5.0 Heap Out-of-Bounds Write via files-from Entry",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70461",
+      "summary": "CVE ID :CVE-2026-70461\n  \n  Published : Aug. 13, 2026, 3:20 p.m. | 1\u00a0hour, 26\u00a0minutes ago\n  \n  Description :rsync 3.2.5 before 3.5.0\u00a0contains a heap o...",
+      "timestamp": 1786634400.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Trezor discloses data breach affecting nearly 14,000 customers",
+      "link": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
+      "summary": "Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provid...",
+      "timestamp": 1786633999.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Who Vets AI\u2019s Code? The Scale Challenge Facing Open Source Ingestion",
       "link": "https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/",
       "summary": "AI coding tools can introduce unvetted or hallucinated open source dependencies faster than traditional security reviews can keep pace. ActiveState ex...",
       "timestamp": 1786629610.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-28002 - WordPress Booktics plugin 1.0.22 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28002",
-      "summary": "CVE ID :CVE-2026-28002\n  \n  Published : Aug. 13, 2026, 1:42 p.m. | 33\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elements used i...",
-      "timestamp": 1786628529.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66691 - WordPress Nokri theme <= 1.6.6 - Broken Access Control vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66691",
-      "summary": "CVE ID :CVE-2026-66691\n  \n  Published : Aug. 13, 2026, 1:37 p.m. | 38\u00a0minutes ago\n  \n  Description :Unauthenticated Broken Access Control in Nokri <= ...",
-      "timestamp": 1786628236.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66658 - WordPress Reviewer plugin <= 3.14.2 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66658",
-      "summary": "CVE ID :CVE-2026-66658\n  \n  Published : Aug. 13, 2026, 1:37 p.m. | 38\u00a0minutes ago\n  \n  Description :Subscriber SQL Injection in Reviewer <= 3.14.2 ver...",
-      "timestamp": 1786628233.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66657 - WordPress Biagiotti Core plugin <= 2.1.1 - Local File Inclusion vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66657",
-      "summary": "CVE ID :CVE-2026-66657\n  \n  Published : Aug. 13, 2026, 1:37 p.m. | 38\u00a0minutes ago\n  \n  Description :Unauthenticated Local File Inclusion in Biagiotti ...",
-      "timestamp": 1786628232.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66656 - WordPress Foton Core plugin <= 1.1.1 - Local File Inclusion vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66656",
-      "summary": "CVE ID :CVE-2026-66656\n  \n  Published : Aug. 13, 2026, 1:37 p.m. | 38\u00a0minutes ago\n  \n  Description :Unauthenticated Local File Inclusion in Foton Core...",
-      "timestamp": 1786628232.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66653 - WordPress Barista theme <= 2.5.1 - Local File Inclusion vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66653",
-      "summary": "CVE ID :CVE-2026-66653\n  \n  Published : Aug. 13, 2026, 1:37 p.m. | 38\u00a0minutes ago\n  \n  Description :Unauthenticated Local File Inclusion in Barista <=...",
-      "timestamp": 1786628230.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66478 - WordPress Church Admin plugin <= 5.1.1 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66478",
-      "summary": "CVE ID :CVE-2026-66478\n  \n  Published : Aug. 13, 2026, 1:37 p.m. | 38\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in Church Admin <= 5...",
-      "timestamp": 1786628229.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66472 - WordPress Everest Backup plugin <= 2.3.12 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66472",
-      "summary": "CVE ID :CVE-2026-66472\n  \n  Published : Aug. 13, 2026, 1:37 p.m. | 38\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in Everest Backup <=...",
-      "timestamp": 1786628229.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66465 - WordPress Cartify theme <= 1.3.0.1 - Account Takeover vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66465",
-      "summary": "CVE ID :CVE-2026-66465\n  \n  Published : Aug. 13, 2026, 1:37 p.m. | 38\u00a0minutes ago\n  \n  Description :Unauthenticated Broken Authentication in Cartify <...",
-      "timestamp": 1786628224.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66458 - WordPress RealPress plugin <= 1.1.2 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66458",
-      "summary": "CVE ID :CVE-2026-66458\n  \n  Published : Aug. 13, 2026, 1:37 p.m. | 38\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in RealPress <= 1.1....",
-      "timestamp": 1786628220.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "White House taps security firms for offensive hack-back operations",
@@ -203,8 +219,8 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -219,8 +235,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -243,8 +259,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -259,24 +275,24 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -289,22 +305,6 @@
       "timestamp": 1786550400.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
-      "link": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
-      "summary": "North Korean hackers have been exploiting a Windows zero-day vulnerability (CVE-2026-68820) to target defense-sector companies as part of the Operatio...",
-      "timestamp": 1786549088.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "FBI: Hackers target online accounts to steal nude photos",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos/",
-      "summary": "The FBI warns that cybercriminals are targeting adults' and children's social media and other online accounts to steal sexually explicit images or vid...",
-      "timestamp": 1786544109.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "Microsoft Plugs Nearly 400 Security Holes",
@@ -403,5 +403,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1786633874.8502362
+  "last_updated": 1786641054.4327807
 }
