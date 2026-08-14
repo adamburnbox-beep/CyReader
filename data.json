@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,60 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-19884 - Eclipse Theia Git Extension Arbitrary Command Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19884",
+      "summary": "CVE ID :CVE-2026-19884\n  \n  Published : Aug. 14, 2026, 4:16 p.m. | 29\u00a0minutes ago\n  \n  Description :In Eclipse Theia versions up to and including 1.69...",
+      "timestamp": 1786724215.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-69101 - Datavane TIS v5.0.0 XXE Injection via doEditWorkflow Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69101",
+      "summary": "CVE ID :CVE-2026-69101\n  \n  Published : Aug. 14, 2026, 3:17 p.m. | 1\u00a0hour, 29\u00a0minutes ago\n  \n  Description :Datavane TIS v5.0.0 contains an XML extern...",
+      "timestamp": 1786720630.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
+      "summary": "The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnerability aft...",
+      "timestamp": 1786719595.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-19871 - Use of hard-coded credentials in Prospero Flow CRM employee onboarding",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19871",
+      "summary": "CVE ID :CVE-2026-19871\n  \n  Published : Aug. 14, 2026, 2:16 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Use of Hard-coded Credentials in the huma...",
+      "timestamp": 1786717011.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-19768 - Devolutions PowerShell Universal Code Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19768",
+      "summary": "CVE ID :CVE-2026-19768\n  \n  Published : Aug. 14, 2026, 2:16 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Improper control of generation of code ('...",
+      "timestamp": 1786717010.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
+      "link": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
+      "summary": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Mat...",
+      "timestamp": 1786716010.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
@@ -69,23 +117,39 @@
     {
       "title": "CVE-2026-73673 - Netis NC63 V3.0.0.3327 Unauthenticated Firmware Update with Missing Cryptographic Firmware Authentication",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73673",
-      "summary": "CVE ID :CVE-2026-73673\n  \n  Published : Aug. 14, 2026, 12:21 p.m. | 25\u00a0minutes ago\n  \n  Description :Netis NC63 router firmware V3.0.0.3327 contains a...",
-      "timestamp": 1786710065.0,
+      "summary": "CVE ID :CVE-2026-73673\n  \n  Published : Aug. 14, 2026, 1:19 p.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Netis NC63 router firmware V3.0.0.3327 co...",
+      "timestamp": 1786713549.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-72859 - Budibase 3.39.4 before 3.40.0 Authorization Regression via S3 Presigned URL",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72859",
-      "summary": "CVE ID :CVE-2026-72859\n  \n  Published : Aug. 14, 2026, 12:16 p.m. | 30\u00a0minutes ago\n  \n  Description :Budibase versions 3.39.4 before 3.40.0 contain an...",
-      "timestamp": 1786709807.0,
+      "title": "CVE-2026-19870 - IDOR in Prospero Flow CRM allows cross-tenant payroll disclosure and creation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19870",
+      "summary": "CVE ID :CVE-2026-19870\n  \n  Published : Aug. 14, 2026, 1:17 p.m. | 3\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Authorization Bypass Through User-Control...",
+      "timestamp": 1786713458.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-19824 - Tenda W20E addIpMacBind ipMacBindListStore stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19824",
+      "summary": "CVE ID :CVE-2026-19824\n  \n  Published : Aug. 14, 2026, 1:17 p.m. | 3\u00a0hours, 29\u00a0minutes ago\n  \n  Description :A weakness has been identified in Tenda W...",
+      "timestamp": 1786713457.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-19823 - Tenda W20E QoS Rule Deletion delQos formQOSRuleDel stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19823",
+      "summary": "CVE ID :CVE-2026-19823\n  \n  Published : Aug. 14, 2026, 1:17 p.m. | 3\u00a0hours, 29\u00a0minutes ago\n  \n  Description :A security flaw has been discovered in Te...",
+      "timestamp": 1786713457.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-72837 - File Browser before 2.63.20 Privilege Escalation via Proxy Authentication",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72837",
-      "summary": "CVE ID :CVE-2026-72837\n  \n  Published : Aug. 14, 2026, 12:16 p.m. | 30\u00a0minutes ago\n  \n  Description :File Browser versions before 2.63.20 fail to hono...",
+      "summary": "CVE ID :CVE-2026-72837\n  \n  Published : Aug. 14, 2026, 12:16 p.m. | 4\u00a0hours, 30\u00a0minutes ago\n  \n  Description :File Browser versions before 2.63.20 fai...",
       "timestamp": 1786709807.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,56 +157,8 @@
     {
       "title": "CVE-2026-72836 - FileBrowser before 2.63.19 Case Sensitivity Authentication Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72836",
-      "summary": "CVE ID :CVE-2026-72836\n  \n  Published : Aug. 14, 2026, 12:16 p.m. | 30\u00a0minutes ago\n  \n  Description :FileBrowser before 2.63.19 does not account for c...",
+      "summary": "CVE ID :CVE-2026-72836\n  \n  Published : Aug. 14, 2026, 12:16 p.m. | 4\u00a0hours, 30\u00a0minutes ago\n  \n  Description :FileBrowser before 2.63.19 does not acco...",
       "timestamp": 1786709807.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72833 - Grav 1.0.6 through 1.0.11 Privilege Escalation via Scoped API Keys",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72833",
-      "summary": "CVE ID :CVE-2026-72833\n  \n  Published : Aug. 14, 2026, 12:16 p.m. | 30\u00a0minutes ago\n  \n  Description :The Grav API plugin (getgrav/grav-plugin-api) ver...",
-      "timestamp": 1786709806.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72831 - Grav through 2.0.11 Authentication Bypass via Flex Objects",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72831",
-      "summary": "CVE ID :CVE-2026-72831\n  \n  Published : Aug. 14, 2026, 12:16 p.m. | 30\u00a0minutes ago\n  \n  Description :The Flex Objects plugin (through 1.4.6, tested wi...",
-      "timestamp": 1786709806.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72830 - Grav API Plugin before 1.0.13 RCE via ConfigController scope bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72830",
-      "summary": "CVE ID :CVE-2026-72830\n  \n  Published : Aug. 14, 2026, 12:16 p.m. | 30\u00a0minutes ago\n  \n  Description :Grav API plugin versions before 1.0.13 fail to en...",
-      "timestamp": 1786709806.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72829 - Grav before 1.0.13 API Key Scope Bypass via UsersController",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72829",
-      "summary": "CVE ID :CVE-2026-72829\n  \n  Published : Aug. 14, 2026, 12:16 p.m. | 30\u00a0minutes ago\n  \n  Description :The Grav API plugin (getgrav/grav-plugin-api) bef...",
-      "timestamp": 1786709806.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72828 - Grav before 1.0.13 API Key Scope Bypass via InvitationsController",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72828",
-      "summary": "CVE ID :CVE-2026-72828\n  \n  Published : Aug. 14, 2026, 12:16 p.m. | 30\u00a0minutes ago\n  \n  Description :Grav Plugin API (getgrav/grav-plugin-api) before ...",
-      "timestamp": 1786709806.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72827 - Grav CMS before 2.0.13 Remote Code Execution via Twig",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72827",
-      "summary": "CVE ID :CVE-2026-72827\n  \n  Published : Aug. 14, 2026, 12:16 p.m. | 30\u00a0minutes ago\n  \n  Description :Grav CMS before 2.0.13 contains a server-side tem...",
-      "timestamp": 1786709805.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -219,32 +235,8 @@
       "vendor": "News"
     },
     {
-      "title": "Microsoft patches LegacyHive Windows zero-day vulnerability",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/",
-      "summary": "Microsoft has released security patches to address a Windows zero-day vulnerability known as \"LegacyHive,\" disclosed after the July 2026 Patch Tuesday...",
-      "timestamp": 1786643180.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "AI 'watermark removers' flood the web. Almost none can prove they work.",
-      "link": "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/",
-      "summary": "Multiple 'watermark removers' have surfaced days after Anthropic began watermarking text generated by Claude, including an open source project with ov...",
-      "timestamp": 1786642408.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -259,8 +251,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -275,8 +275,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -299,8 +299,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -411,5 +411,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1786716126.1893642
+  "last_updated": 1786730602.8688672
 }
