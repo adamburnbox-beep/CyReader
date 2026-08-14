@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-19771 - Baicells EG3661M LuCI Web luci os command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19771",
+      "summary": "CVE ID :CVE-2026-19771\n  \n  Published : Aug. 14, 2026, 2:16 a.m. | 30\u00a0minutes ago\n  \n  Description :A vulnerability was identified in Baicells EG3661M...",
+      "timestamp": 1786673784.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Apple sends new \u2018Threat Notification\u2019 alerts over mercenary spyware attacks",
       "link": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
@@ -69,7 +77,7 @@
     {
       "title": "CVE-2026-73843 - OpenChoreo: Unauthenticated access to data-plane operations via OpenChoreo cluster-gateway management APIs",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73843",
-      "summary": "CVE ID :CVE-2026-73843\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :OpenChoreo is a complete, open-source de...",
+      "summary": "CVE ID :CVE-2026-73843\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :OpenChoreo is a complete, open-source de...",
       "timestamp": 1786659449.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +85,7 @@
     {
       "title": "CVE-2026-73842 - OpenChoreo: cluster-gateway internal proxy performs no caller authentication and is not read-only \u2014 data-plane Secret disclosure and arbitrary Kubernetes mutation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73842",
-      "summary": "CVE ID :CVE-2026-73842\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :OpenChoreo is a complete, open-source de...",
+      "summary": "CVE ID :CVE-2026-73842\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :OpenChoreo is a complete, open-source de...",
       "timestamp": 1786659449.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +93,7 @@
     {
       "title": "CVE-2026-73841 - OpenChoreo: Cross-project command execution and wirelog view access via OpenChoreo openchoreo-api exec and wirelogs endpoints",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73841",
-      "summary": "CVE ID :CVE-2026-73841\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :OpenChoreo is a complete, open-source de...",
+      "summary": "CVE ID :CVE-2026-73841\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :OpenChoreo is a complete, open-source de...",
       "timestamp": 1786659448.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +101,7 @@
     {
       "title": "CVE-2026-73667 - OpenChoreo: Authenticated OS command injection via OpenChoreo Workflow Plane templates enables code execution in privileged pods",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73667",
-      "summary": "CVE ID :CVE-2026-73667\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :OpenChoreo is a complete, open-source de...",
+      "summary": "CVE ID :CVE-2026-73667\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :OpenChoreo is a complete, open-source de...",
       "timestamp": 1786659448.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +109,7 @@
     {
       "title": "CVE-2026-73666 - OpenChoreo: Unauthenticated Backstage developer-portal API exposes OpenChoreo catalog data, scaffolder logs, and allows unauthenticated catalog write/delete",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73666",
-      "summary": "CVE ID :CVE-2026-73666\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :OpenChoreo is a developer platform for K...",
+      "summary": "CVE ID :CVE-2026-73666\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :OpenChoreo is a developer platform for K...",
       "timestamp": 1786659448.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +117,7 @@
     {
       "title": "CVE-2026-73665 - FreePBX UCP: Unauthenticated remote code execution via socket.io namespace auth bypass and AMI action injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73665",
-      "summary": "CVE ID :CVE-2026-73665\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :FreePBX is an open source IP PBX. Prior ...",
+      "summary": "CVE ID :CVE-2026-73665\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :FreePBX is an open source IP PBX. Prior ...",
       "timestamp": 1786659448.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +125,7 @@
     {
       "title": "CVE-2026-73664 - FreePBX: Authenticated Arbitrary SSH Key Injection via Backup Module",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73664",
-      "summary": "CVE ID :CVE-2026-73664\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :FreePBX is an open source IP PBX. From 1...",
+      "summary": "CVE ID :CVE-2026-73664\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :FreePBX is an open source IP PBX. From 1...",
       "timestamp": 1786659448.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +133,7 @@
     {
       "title": "CVE-2026-73663 - FreePBX: Unauthenticated SQL injection in FreePBX missedcall via inbound Caller ID name leads to administrator takeover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73663",
-      "summary": "CVE ID :CVE-2026-73663\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :FreePBX is an open source IP PBX. From 1...",
+      "summary": "CVE ID :CVE-2026-73663\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :FreePBX is an open source IP PBX. From 1...",
       "timestamp": 1786659447.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,15 +141,7 @@
     {
       "title": "CVE-2026-73661 - FreePBX: Authenticated Framework AUTHTYPE Can Be Restored From a Crafted Backup",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73661",
-      "summary": "CVE ID :CVE-2026-73661\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :FreePBX is an open source IP PBX. Prior ...",
-      "timestamp": 1786659447.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-73659 - Trigger.dev: Cross-tenant object read/write via path traversal in packet presign API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73659",
-      "summary": "CVE ID :CVE-2026-73659\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Trigger.dev is the open-source platform ...",
+      "summary": "CVE ID :CVE-2026-73661\n  \n  Published : Aug. 13, 2026, 10:17 p.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :FreePBX is an open source IP PBX. Prior ...",
       "timestamp": 1786659447.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -227,16 +227,8 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -251,40 +243,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -299,8 +259,48 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1786675284.6611257
+  "last_updated": 1786681985.3215585
 }
