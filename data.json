@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,7 +52,7 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
@@ -75,33 +75,9 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-74795 - Scriban before 6.6.0 Denial of Service via Uncontrolled Recursion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74795",
-      "summary": "CVE ID :CVE-2026-74795\n  \n  Published : Aug. 16, 2026, 2:16 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :Scriban before 6.6.0 contains an uncontrol...",
-      "timestamp": 1786889817.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-74794 - Scriban before 6.6.0 Denial of Service via Infinite Recursion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74794",
-      "summary": "CVE ID :CVE-2026-74794\n  \n  Published : Aug. 16, 2026, 2:16 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :Scriban before 6.6.0 contains an infinite ...",
-      "timestamp": 1786889817.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-74792 - Scriban before 7.0.0 Stack Overflow via nested array initializers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74792",
-      "summary": "CVE ID :CVE-2026-74792\n  \n  Published : Aug. 16, 2026, 2:16 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :Scriban before 7.0.0 (affected versions <=...",
-      "timestamp": 1786889817.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-74791 - Scriban before 7.0.0 Authorization Bypass via Stale Include Cache",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74791",
-      "summary": "CVE ID :CVE-2026-74791\n  \n  Published : Aug. 16, 2026, 2:16 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :Scriban before 7.0.0 fails to clear the Ca...",
+      "summary": "CVE ID :CVE-2026-74791\n  \n  Published : Aug. 16, 2026, 2:16 p.m. | 3\u00a0hours, 58\u00a0minutes ago\n  \n  Description :Scriban before 7.0.0 fails to clear the C...",
       "timestamp": 1786889817.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,48 +85,72 @@
     {
       "title": "CVE-2026-74790 - Scriban before 7.0.0 MemberFilter Bypass via TemplateContext Cache",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74790",
-      "summary": "CVE ID :CVE-2026-74790\n  \n  Published : Aug. 16, 2026, 2:16 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :Scriban before 7.0.0 caches TypedObjectAcc...",
+      "summary": "CVE ID :CVE-2026-74790\n  \n  Published : Aug. 16, 2026, 2:16 p.m. | 3\u00a0hours, 58\u00a0minutes ago\n  \n  Description :Scriban before 7.0.0 caches TypedObjectAc...",
       "timestamp": 1786889817.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-74789 - Scriban before 7.0.0 LoopLimit Bypass via Built-in Operations",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74789",
-      "summary": "CVE ID :CVE-2026-74789\n  \n  Published : Aug. 16, 2026, 2:16 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :Scriban before 7.0.0 (affected <= 6.6.0) a...",
-      "timestamp": 1786889816.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-74788 - Scriban before 7.0.0 Denial of Service via string.pad_left/pad_right",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74788",
-      "summary": "CVE ID :CVE-2026-74788\n  \n  Published : Aug. 16, 2026, 2:16 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :Scriban before 7.0.0 (affected versions <=...",
-      "timestamp": 1786889816.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-74787 - Scriban before 7.0.0 Uncontrolled Recursion via object.to_json",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74787",
-      "summary": "CVE ID :CVE-2026-74787\n  \n  Published : Aug. 16, 2026, 2:16 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :Scriban before 7.0.0 contains an uncontrol...",
-      "timestamp": 1786889816.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-74784 - Scriban before 7.2.0 Denial of Service via array.insert_at",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74784",
-      "summary": "CVE ID :CVE-2026-74784\n  \n  Published : Aug. 16, 2026, 2:16 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :Scriban before 7.2.0 contains a denial of ...",
+      "summary": "CVE ID :CVE-2026-74784\n  \n  Published : Aug. 16, 2026, 2:16 p.m. | 3\u00a0hours, 58\u00a0minutes ago\n  \n  Description :Scriban before 7.2.0 contains a denial of...",
       "timestamp": 1786889816.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-74783 - Scriban 6.6.0 through 7.2.0 Parser Recursion Denial of Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74783",
-      "summary": "CVE ID :CVE-2026-74783\n  \n  Published : Aug. 16, 2026, 2:16 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :Scriban versions 6.6.0 through 7.2.0 conta...",
-      "timestamp": 1786889816.0,
+      "title": "CVE-2026-73061 - Scriban before 7.2.2 Arbitrary Property Write via TypedObjectAccessor",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73061",
+      "summary": "CVE ID :CVE-2026-73061\n  \n  Published : Aug. 16, 2026, 2:16 p.m. | 3\u00a0hours, 58\u00a0minutes ago\n  \n  Description :Scriban before 7.2.2 contains an access-m...",
+      "timestamp": 1786889815.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73056 - SiYuan kernel before 3.7.4 Unthrottled Brute-Force via API Token",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73056",
+      "summary": "CVE ID :CVE-2026-73056\n  \n  Published : Aug. 16, 2026, 2:16 p.m. | 3\u00a0hours, 58\u00a0minutes ago\n  \n  Description :SiYuan kernel versions before 3.7.4 conta...",
+      "timestamp": 1786889815.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-74251 - Joomla Extension - phoca.cz -  Unauthenticated SQL injection via attribute filter in Phoca Cart 5.0.0-6.1.6",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74251",
+      "summary": "CVE ID :CVE-2026-74251\n  \n  Published : Aug. 16, 2026, 1:16 p.m. | 4\u00a0hours, 58\u00a0minutes ago\n  \n  Description :Joomla Extension - phoca.cz -  Unauthenti...",
+      "timestamp": 1786886217.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2024-13784 - Contact Form, Survey, Quiz & Popup Form Builder \u2013 ARForms <= 1.8.5 - Unauthenticated PHP Object Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-13784",
+      "summary": "CVE ID :CVE-2024-13784\n  \n  Published : Aug. 16, 2026, 9:16 a.m. | 8\u00a0hours, 58\u00a0minutes ago\n  \n  Description :The Contact Form, Survey, Quiz & Popup Fo...",
+      "timestamp": 1786871779.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18316 - Solace Extra <= 1.6.0 - Missing Authorization to Unauthenticated Site Content Deletion and Unauthorized Demo Import via action-import-zip AJAX Action",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18316",
+      "summary": "CVE ID :CVE-2026-18316\n  \n  Published : Aug. 16, 2026, 6:16 a.m. | 11\u00a0hours, 58\u00a0minutes ago\n  \n  Description :The Solace Extra plugin for WordPress is...",
+      "timestamp": 1786861011.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18432 - Frontend Admin by DynamiApps <= 3.29.9 - Unauthenticated Privilege Escalation via 'item_id' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18432",
+      "summary": "CVE ID :CVE-2026-18432\n  \n  Published : Aug. 16, 2026, 5:16 a.m. | 12\u00a0hours, 58\u00a0minutes ago\n  \n  Description :The Frontend Admin by DynamiApps plugin ...",
+      "timestamp": 1786857408.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-17123 - Royal Addons for Elementor <= 1.7.1064 - Authenticated (Contributor+) Server-Side Request Forgery via Form Builder Widget 'webhook_url' Setting",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17123",
+      "summary": "CVE ID :CVE-2026-17123\n  \n  Published : Aug. 16, 2026, 5:16 a.m. | 12\u00a0hours, 58\u00a0minutes ago\n  \n  Description :The Royal Elementor Addons plugin for Wo...",
+      "timestamp": 1786857408.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -411,5 +411,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1786902894.88316
+  "last_updated": 1786905877.394915
 }
