@@ -52,56 +52,16 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-9816 - Insufficient server-side validation of board member role fields permits privilege escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9816",
-      "summary": "CVE ID :CVE-2026-9816\n  \n  Published : Aug. 17, 2026, 10:17 p.m. | 13\u00a0minutes ago\n  \n  Description :Mattermost versions 11.7.x <= 11.7.6, 10.11.x <= 1...",
-      "timestamp": 1787005047.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71424 - Onyx: Cross-user OAuth-token leak via /api/mcp/servers* for per-user MCP servers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71424",
-      "summary": "CVE ID :CVE-2026-71424\n  \n  Published : Aug. 17, 2026, 10:17 p.m. | 13\u00a0minutes ago\n  \n  Description :Onyx is an open-source AI platform. Prior to 3.1....",
-      "timestamp": 1787005046.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-64849 - MLflow: Unauthenticated full-read SSRF in webhook delivery: _validate_webhook_url bypassed via unvalidated HTTP redirects (and DNS rebinding)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64849",
-      "summary": "CVE ID :CVE-2026-64849\n  \n  Published : Aug. 17, 2026, 10:17 p.m. | 13\u00a0minutes ago\n  \n  Description :MLflow is an open source AI engineering platform ...",
-      "timestamp": 1787005043.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56677 - 9Router: Authenticated Server-Side Request Forgery (SSRF) via OIDC Provider Test Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56677",
-      "summary": "CVE ID :CVE-2026-56677\n  \n  Published : Aug. 17, 2026, 10:17 p.m. | 13\u00a0minutes ago\n  \n  Description :9Router is an AI router & token saver. In 0.5.4 a...",
-      "timestamp": 1787005034.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-45790 - Dokploy: Invitation Role Escalation Allows Organization Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45790",
-      "summary": "CVE ID :CVE-2026-45790\n  \n  Published : Aug. 17, 2026, 10:17 p.m. | 13\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platform as a Se...",
-      "timestamp": 1787005034.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-75482 - SWE-agent Trajectory Inspector Path Traversal File Disclosure",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75482",
-      "summary": "CVE ID :CVE-2026-75482\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :SWE-agent's trajectory inspector (sweagent...",
+      "summary": "CVE ID :CVE-2026-75482\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :SWE-agent's trajectory inspector (sweagent inspect...",
       "timestamp": 1787001410.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +69,7 @@
     {
       "title": "CVE-2026-75481 - SkyPilot Authentication Bypass via Service Account Role Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75481",
-      "summary": "CVE ID :CVE-2026-75481\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :SkyPilot fails to validate that authentica...",
+      "summary": "CVE ID :CVE-2026-75481\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :SkyPilot fails to validate that authenticated user...",
       "timestamp": 1787001410.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +77,7 @@
     {
       "title": "CVE-2026-75479 - JimuReport Unauthenticated Report Listing and Share Token Disclosure",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75479",
-      "summary": "CVE ID :CVE-2026-75479\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :JimuReport contains an authentication bypa...",
+      "summary": "CVE ID :CVE-2026-75479\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :JimuReport contains an authentication bypass vulne...",
       "timestamp": 1787001410.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +85,7 @@
     {
       "title": "CVE-2026-75111 - Evidently UI Path Traversal via Dataset Materialization Filename",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75111",
-      "summary": "CVE ID :CVE-2026-75111\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :Evidently UI fails to properly validate th...",
+      "summary": "CVE ID :CVE-2026-75111\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :Evidently UI fails to properly validate the filena...",
       "timestamp": 1787001410.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,8 +93,48 @@
     {
       "title": "CVE-2026-75110 - MemOS Authentication Bypass via Unset INTERNAL_SERVICE_SECRET",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75110",
-      "summary": "CVE ID :CVE-2026-75110\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 1\u00a0hour, 14\u00a0minutes ago\n  \n  Description :MemOS is a memory operating system for LLM...",
+      "summary": "CVE ID :CVE-2026-75110\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :MemOS is a memory operating system for LLMs and AI...",
       "timestamp": 1787001410.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75106 - OpnForm Editable Submission Secret Derivation via Empty Hashids Salt",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75106",
+      "summary": "CVE ID :CVE-2026-75106\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :OpnForm derives editable-submission secrets from s...",
+      "timestamp": 1787001409.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75105 - phpIPAM Temporary Subnet Share Information Disclosure via Address Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75105",
+      "summary": "CVE ID :CVE-2026-75105\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :phpIPAM through 1.8.1 fails to verify that a reque...",
+      "timestamp": 1787001409.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75103 - Crawlab Missing Authorization on Password Change Endpoint Allows Account Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75103",
+      "summary": "CVE ID :CVE-2026-75103\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :Crawlab fails to verify user ownership or administ...",
+      "timestamp": 1787001409.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73410 - Budibase: SSRF via DNS rebinding in the REST datasource integration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73410",
+      "summary": "CVE ID :CVE-2026-73410\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :Budibase is an open-source low-code platform. Prio...",
+      "timestamp": 1787001408.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71518 - Typemill < 2.26.0 Authorization Bypass via Media File Download Route",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71518",
+      "summary": "CVE ID :CVE-2026-71518\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :Typemill before 2.26.0 contains an authorization b...",
+      "timestamp": 1787001408.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -411,5 +411,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1787009744.4150424
+  "last_updated": 1787010955.114694
 }
