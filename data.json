@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,52 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
+      "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+      "summary": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privil...",
+      "timestamp": 1786975210.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-16138 - Remote code execution via unsafe deserialization in Progress ShareFile Storage Zones Controller's CICO service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16138",
+      "summary": "CVE ID :CVE-2026-16138\n  \n  Published : Aug. 17, 2026, 1:32 p.m. | 28\u00a0minutes ago\n  \n  Description :In Progress ShareFile Storage Zones Controller v5....",
+      "timestamp": 1786973521.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-19693 - extract-zip arbitrary file write outside the destination directory via a symlink at the final path component",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19693",
+      "summary": "CVE ID :CVE-2026-19693\n  \n  Published : Aug. 17, 2026, 1:30 p.m. | 29\u00a0minutes ago\n  \n  Description :extract-zip through 2.0.1 containment-checks only ...",
+      "timestamp": 1786973422.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-74997 - Roundcube Webmail Markasjunk Plugin Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74997",
+      "summary": "CVE ID :CVE-2026-74997\n  \n  Published : Aug. 17, 2026, 1:16 p.m. | 43\u00a0minutes ago\n  \n  Description :In Roundcube Webmail before 1.6.18 and 1.7.x befor...",
+      "timestamp": 1786972614.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14564 - Sensitive Data Exposure in Innotim Software's Logsign SIEM",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14564",
+      "summary": "CVE ID :CVE-2026-14564\n  \n  Published : Aug. 17, 2026, 1:16 p.m. | 43\u00a0minutes ago\n  \n  Description :Insufficiently Protected Credentials vulnerability...",
+      "timestamp": 1786972610.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
       "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
@@ -65,6 +105,14 @@
       "timestamp": 1786969991.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-74843 - Wavlink WN531P3/WN535M1 Export Pingortrace CGI export_pingortrace.cgi strcpy stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74843",
+      "summary": "CVE ID :CVE-2026-74843\n  \n  Published : Aug. 17, 2026, 12:18 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :A vulnerability was determined in Wavlink...",
+      "timestamp": 1786969138.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Philips and GE investigating Clop ransomware data theft claims",
@@ -77,7 +125,7 @@
     {
       "title": "CVE-2026-74901 - openssl_encrypt before 1.4.0 Authentication Bypass via AES-CTR Fallback",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74901",
-      "summary": "CVE ID :CVE-2026-74901\n  \n  Published : Aug. 17, 2026, 11:16 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :openssl_encrypt versions before 1.4.0 con...",
+      "summary": "CVE ID :CVE-2026-74901\n  \n  Published : Aug. 17, 2026, 11:16 a.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :openssl_encrypt versions before 1.4.0 co...",
       "timestamp": 1786965405.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +133,7 @@
     {
       "title": "CVE-2026-74900 - openssl_encrypt before 1.4.0 Weak Shared Secret via PQC Simulation Mode",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74900",
-      "summary": "CVE ID :CVE-2026-74900\n  \n  Published : Aug. 17, 2026, 11:16 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :openssl_encrypt versions before 1.4.0 con...",
+      "summary": "CVE ID :CVE-2026-74900\n  \n  Published : Aug. 17, 2026, 11:16 a.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :openssl_encrypt versions before 1.4.0 co...",
       "timestamp": 1786965405.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +141,7 @@
     {
       "title": "CVE-2026-74899 - openssl_encrypt before 1.4.0 Sandbox Escape via Type Hierarchy",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74899",
-      "summary": "CVE ID :CVE-2026-74899\n  \n  Published : Aug. 17, 2026, 11:16 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :openssl_encrypt versions before 1.4.0 con...",
+      "summary": "CVE ID :CVE-2026-74899\n  \n  Published : Aug. 17, 2026, 11:16 a.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :openssl_encrypt versions before 1.4.0 co...",
       "timestamp": 1786965404.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +149,7 @@
     {
       "title": "CVE-2026-74896 - openssl_encrypt before 1.4.0 Sandbox Escape via Dunder Attribute Traversal",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74896",
-      "summary": "CVE ID :CVE-2026-74896\n  \n  Published : Aug. 17, 2026, 11:16 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :openssl_encrypt versions before 1.4.0 con...",
+      "summary": "CVE ID :CVE-2026-74896\n  \n  Published : Aug. 17, 2026, 11:16 a.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :openssl_encrypt versions before 1.4.0 co...",
       "timestamp": 1786965404.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,48 +157,8 @@
     {
       "title": "CVE-2026-74895 - openssl_encrypt before 1.4.0 Plugin Sandbox Bypass via Process Isolation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-74895",
-      "summary": "CVE ID :CVE-2026-74895\n  \n  Published : Aug. 17, 2026, 11:16 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :openssl_encrypt versions before 1.4.0 fai...",
+      "summary": "CVE ID :CVE-2026-74895\n  \n  Published : Aug. 17, 2026, 11:16 a.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :openssl_encrypt versions before 1.4.0 fa...",
       "timestamp": 1786965404.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-74894 - openssl_encrypt before 1.4.0 Authentication Bypass via Bearer Token",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74894",
-      "summary": "CVE ID :CVE-2026-74894\n  \n  Published : Aug. 17, 2026, 11:16 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :openssl_encrypt before 1.4.0 contains an ...",
-      "timestamp": 1786965404.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-74893 - openssl_encrypt before 1.4.0 JWT Token Forgery via Hardcoded Secrets",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74893",
-      "summary": "CVE ID :CVE-2026-74893\n  \n  Published : Aug. 17, 2026, 11:16 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :openssl_encrypt versions before 1.4.0 con...",
-      "timestamp": 1786965404.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-74892 - openssl_encrypt before 1.4.0 Hardcoded Secret Key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74892",
-      "summary": "CVE ID :CVE-2026-74892\n  \n  Published : Aug. 17, 2026, 11:16 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :openssl_encrypt versions before 1.4.0 con...",
-      "timestamp": 1786965404.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-74891 - openssl_encrypt before 1.4.0 Hardcoded Database Credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74891",
-      "summary": "CVE ID :CVE-2026-74891\n  \n  Published : Aug. 17, 2026, 11:16 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :openssl_encrypt versions before 1.4.0 con...",
-      "timestamp": 1786965404.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-74890 - openssl_encrypt before 1.4.0 HMAC Authentication Bypass via Environment Variable",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74890",
-      "summary": "CVE ID :CVE-2026-74890\n  \n  Published : Aug. 17, 2026, 11:16 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :openssl_encrypt versions before 1.4.0 con...",
-      "timestamp": 1786965403.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -211,14 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "How Anthropic plans to watermark Claude's AI-generated text",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
-      "summary": "It could soon become easier to identify AI-generated content, even if it's not the usual \"It's Not X, it's Y\" type of post you'd come across on Linked...",
-      "timestamp": 1786749857.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On August 19, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information a...",
@@ -243,8 +243,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -259,40 +259,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -307,8 +283,32 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -411,5 +411,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1786974726.6204226
+  "last_updated": 1786977682.9236984
 }
