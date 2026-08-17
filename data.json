@@ -52,17 +52,89 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-19478 - Improper Control of Generation of Code ('Code Injection') in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19478",
-      "summary": "CVE ID :CVE-2026-19478\n  \n  Published : Aug. 17, 2026, 8:04 p.m. | 13\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab CE/EE aff...",
-      "timestamp": 1786997086.0,
+      "title": "CVE-2026-75482 - SWE-agent Trajectory Inspector Path Traversal File Disclosure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75482",
+      "summary": "CVE ID :CVE-2026-75482\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 27\u00a0minutes ago\n  \n  Description :SWE-agent's trajectory inspector (sweagent inspect...",
+      "timestamp": 1787001410.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75481 - SkyPilot Authentication Bypass via Service Account Role Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75481",
+      "summary": "CVE ID :CVE-2026-75481\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 27\u00a0minutes ago\n  \n  Description :SkyPilot fails to validate that authenticated user...",
+      "timestamp": 1787001410.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75479 - JimuReport Unauthenticated Report Listing and Share Token Disclosure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75479",
+      "summary": "CVE ID :CVE-2026-75479\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 27\u00a0minutes ago\n  \n  Description :JimuReport contains an authentication bypass vulne...",
+      "timestamp": 1787001410.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75111 - Evidently UI Path Traversal via Dataset Materialization Filename",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75111",
+      "summary": "CVE ID :CVE-2026-75111\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Evidently UI fails to properly validate the filena...",
+      "timestamp": 1787001410.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75110 - MemOS Authentication Bypass via Unset INTERNAL_SERVICE_SECRET",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75110",
+      "summary": "CVE ID :CVE-2026-75110\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 27\u00a0minutes ago\n  \n  Description :MemOS is a memory operating system for LLMs and AI...",
+      "timestamp": 1787001410.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75106 - OpnForm Editable Submission Secret Derivation via Empty Hashids Salt",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75106",
+      "summary": "CVE ID :CVE-2026-75106\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 27\u00a0minutes ago\n  \n  Description :OpnForm derives editable-submission secrets from s...",
+      "timestamp": 1787001409.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75105 - phpIPAM Temporary Subnet Share Information Disclosure via Address Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75105",
+      "summary": "CVE ID :CVE-2026-75105\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 27\u00a0minutes ago\n  \n  Description :phpIPAM through 1.8.1 fails to verify that a reque...",
+      "timestamp": 1787001409.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75103 - Crawlab Missing Authorization on Password Change Endpoint Allows Account Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75103",
+      "summary": "CVE ID :CVE-2026-75103\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Crawlab fails to verify user ownership or administ...",
+      "timestamp": 1787001409.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73410 - Budibase: SSRF via DNS rebinding in the REST datasource integration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73410",
+      "summary": "CVE ID :CVE-2026-73410\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Budibase is an open-source low-code platform. Prio...",
+      "timestamp": 1787001408.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71518 - Typemill < 2.26.0 Authorization Bypass via Media File Download Route",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71518",
+      "summary": "CVE ID :CVE-2026-71518\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Typemill before 2.26.0 contains an authorization b...",
+      "timestamp": 1787001408.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -75,84 +147,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-71472 - Acm-search-v2-rhel9: search-v2-operator: shell-command and sql injection in postgresql-start.sh via cr-supplied work_mem",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71472",
-      "summary": "CVE ID :CVE-2026-71472\n  \n  Published : Aug. 17, 2026, 7:28 p.m. | 49\u00a0minutes ago\n  \n  Description :A flaw was found in acm-search-v2-rhel9. This vuln...",
-      "timestamp": 1786994923.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-70495 - Search-v2-operator: search-v2-operator: cluster-wide impersonate on users/groups shared across 4 pods grants hub system:masters",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70495",
-      "summary": "CVE ID :CVE-2026-70495\n  \n  Published : Aug. 17, 2026, 7:28 p.m. | 49\u00a0minutes ago\n  \n  Description :A flaw was found in search-v2-operator. This compo...",
-      "timestamp": 1786994917.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-74238 - TIER IV Nebula 1.2.0 Heap Out-of-Bounds Read via VLP32 UDP Decoder",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74238",
-      "summary": "CVE ID :CVE-2026-74238\n  \n  Published : Aug. 17, 2026, 7:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :TIER IV Nebula through 1.2.0 contains an out...",
-      "timestamp": 1786994202.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66792 - Multicloud-operators-subscription: multicloud-operators-subscription: isclusteradmin() trusts user-settable annotations on managed clusters",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66792",
-      "summary": "CVE ID :CVE-2026-66792\n  \n  Published : Aug. 17, 2026, 7:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :A flaw was found in the multicloud-operators...",
-      "timestamp": 1786994194.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12553 - HP Web Jetadmin (WJA) - Potential Arbitrary File Read/Write",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12553",
-      "summary": "CVE ID :CVE-2026-12553\n  \n  Published : Aug. 17, 2026, 7:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :HP has identified a potential vulnerability ...",
-      "timestamp": 1786994184.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Pok\u00e9mon Center data breach exposes customer info, cancels some orders",
       "link": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
       "summary": "Pok\u00e9mon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole customer person...",
       "timestamp": 1786993959.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-74254 - Joomla Extension - joomlack.fr - SQL injection in Page Builder CK < 3.6.5",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74254",
-      "summary": "CVE ID :CVE-2026-74254\n  \n  Published : Aug. 17, 2026, 6:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Joomla Extension - joomlack.fr - SQL injec...",
-      "timestamp": 1786990694.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-74253 - Joomla Extension - regularlabs.com - Unauthenticated RCE through unverified reflected user input in Sourcerer < 14.0.0",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74253",
-      "summary": "CVE ID :CVE-2026-74253\n  \n  Published : Aug. 17, 2026, 6:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Joomla Extension - regularlabs.com - Unaut...",
-      "timestamp": 1786990694.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-73523 - COVESA Open1722 0.9.2 Stack Memory Disclosure via acf-can-listener.c Integer Truncation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73523",
-      "summary": "CVE ID :CVE-2026-73523\n  \n  Published : Aug. 17, 2026, 6:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :COVESA Open1722 through 0.9.2 contains an ...",
-      "timestamp": 1786990694.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-73522 - COVESA Open1722 0.9.2 Stack Buffer Overflow via avtp_to_can() in acf-can-listener",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73522",
-      "summary": "CVE ID :CVE-2026-73522\n  \n  Published : Aug. 17, 2026, 6:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :COVESA Open1722 through 0.9.2 contains a s...",
-      "timestamp": 1786990694.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft confirms GitHub is down worldwide",
@@ -243,64 +243,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -315,8 +259,64 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -411,5 +411,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1787002720.7726288
+  "last_updated": 1787003891.2824233
 }
