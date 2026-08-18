@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,49 +52,97 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 6,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-75130 - Context7 2.1.2 Prompt Injection via Custom AI Instructions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75130",
-      "summary": "CVE ID :CVE-2026-75130\n  \n  Published : Aug. 18, 2026, 6:02 p.m. | 16\u00a0minutes ago\n  \n  Description :Context7 through 2.1.2 contains a prompt injection...",
-      "timestamp": 1787076157.0,
+      "title": "Comcast turns your Xfinity WiFi into a home motion detector",
+      "link": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
+      "summary": "Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless devices t...",
+      "timestamp": 1787084098.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-75936 - Memory-amplification denial of service via GZIP decompression bomb in Amazon ion-java",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75936",
+      "summary": "CVE ID :CVE-2026-75936\n  \n  Published : Aug. 18, 2026, 7:34 p.m. | 26\u00a0minutes ago\n  \n  Description :Improper handling of highly compressed data in the...",
+      "timestamp": 1787081659.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75935 - Memory-amplification denial of service via declared-length preallocation in Amazon ion-java",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75935",
+      "summary": "CVE ID :CVE-2026-75935\n  \n  Published : Aug. 18, 2026, 7:33 p.m. | 27\u00a0minutes ago\n  \n  Description :Uncontrolled memory allocation in the binary Ion s...",
+      "timestamp": 1787081626.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55166 - Lemur: any SSO-authenticated user achieves AWS IAM compromise and permanent PKI key access via ACME acme_url SSRF and creator-equality IDOR",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55166",
+      "summary": "CVE ID :CVE-2026-55166\n  \n  Published : Aug. 18, 2026, 7:16 p.m. | 43\u00a0minutes ago\n  \n  Description :Lemur manages TLS certificate creation. Prior to 1...",
+      "timestamp": 1787080618.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47627 - NVIDIA Triton Inference Server Path Traversal Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47627",
+      "summary": "CVE ID :CVE-2026-47627\n  \n  Published : Aug. 18, 2026, 7:16 p.m. | 44\u00a0minutes ago\n  \n  Description :NVIDIA Triton Inference Server for Linux contains ...",
+      "timestamp": 1787080611.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-9210 - Missing JSON Web Token signature validation in Otalio Ship Property Management System",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-9210",
+      "summary": "CVE ID :CVE-2025-9210\n  \n  Published : Aug. 18, 2026, 7:16 p.m. | 44\u00a0minutes ago\n  \n  Description :Missing signature validation in JSON Web Tokens in ...",
+      "timestamp": 1787080603.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-75625 - Kraken Agents Peer-to-Peer Download Cache Poisoning via Digest Verification Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75625",
-      "summary": "CVE ID :CVE-2026-75625\n  \n  Published : Aug. 18, 2026, 5:56 p.m. | 22\u00a0minutes ago\n  \n  Description :Kraken agents fail to verify peer-to-peer download...",
-      "timestamp": 1787075814.0,
+      "summary": "CVE ID :CVE-2026-75625\n  \n  Published : Aug. 18, 2026, 6:19 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Kraken agents fail to verify peer-to-peer ...",
+      "timestamp": 1787077174.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75130 - Context7 2.1.2 Prompt Injection via Custom AI Instructions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75130",
+      "summary": "CVE ID :CVE-2026-75130\n  \n  Published : Aug. 18, 2026, 6:19 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Context7 through 2.1.2 contains a prompt i...",
+      "timestamp": 1787077174.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-71879 - Authentication bypass in Integrated Publishing Toolkit",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71879",
-      "summary": "CVE ID :CVE-2026-71879\n  \n  Published : Aug. 18, 2026, 5:41 p.m. | 37\u00a0minutes ago\n  \n  Description :Missing authentication in initial setup functional...",
-      "timestamp": 1787074908.0,
+      "summary": "CVE ID :CVE-2026-71879\n  \n  Published : Aug. 18, 2026, 6:19 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Missing authentication in initial setup fu...",
+      "timestamp": 1787077172.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-71878 - Authentication bypass in Integrated Publishing Toolkit",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71878",
-      "summary": "CVE ID :CVE-2026-71878\n  \n  Published : Aug. 18, 2026, 5:41 p.m. | 37\u00a0minutes ago\n  \n  Description :Missing authentication in initial setup functional...",
-      "timestamp": 1787074894.0,
+      "summary": "CVE ID :CVE-2026-71878\n  \n  Published : Aug. 18, 2026, 6:19 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Missing authentication in initial setup fu...",
+      "timestamp": 1787077172.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-66780 - Submariner-operator: submariner-operator: flat broker trust model grants every spoke full crud on all endpoints, secrets, and endpointslices in broker namespace",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66780",
-      "summary": "CVE ID :CVE-2026-66780\n  \n  Published : Aug. 18, 2026, 5:32 p.m. | 46\u00a0minutes ago\n  \n  Description :A flaw was found in the submariner-operator compon...",
-      "timestamp": 1787074320.0,
+      "title": "CVE-2026-67262 - Dell PowerStore Missing Authorization Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67262",
+      "summary": "CVE ID :CVE-2026-67262\n  \n  Published : Aug. 18, 2026, 6:19 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Dell PowerStore contains a Missing Authori...",
+      "timestamp": 1787077164.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -105,46 +153,6 @@
       "timestamp": 1787074191.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-67262 - Dell PowerStore Missing Authorization Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67262",
-      "summary": "CVE ID :CVE-2026-67262\n  \n  Published : Aug. 18, 2026, 5:24 p.m. | 54\u00a0minutes ago\n  \n  Description :Dell PowerStore contains a Missing Authorization v...",
-      "timestamp": 1787073870.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75924 - Managed-serviceaccount: managed-serviceaccount: hub addon-manager clusterrole grants cluster-wide secret read/write and csr approval",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75924",
-      "summary": "CVE ID :CVE-2026-75924\n  \n  Published : Aug. 18, 2026, 5:17 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :A flaw was found in managed-serviceaccount. ...",
-      "timestamp": 1787073423.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75897 - Uncontrolled Resource Consumption in Capabilities Route in OpenSearch Dashboards",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75897",
-      "summary": "CVE ID :CVE-2026-75897\n  \n  Published : Aug. 18, 2026, 5:17 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :Improper input validation in the capabilitie...",
-      "timestamp": 1787073423.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-70415 - Dell PowerStore NFS/RPC Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70415",
-      "summary": "CVE ID :CVE-2026-70415\n  \n  Published : Aug. 18, 2026, 5:17 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :Dell PowerStore SDNAS contains a Buffer Copy...",
-      "timestamp": 1787073421.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-69220 - RabbitMQ Java client ValueReader: Unbounded recursive table/array nesting causes StackOverflowError DoS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69220",
-      "summary": "CVE ID :CVE-2026-69220\n  \n  Published : Aug. 18, 2026, 5:17 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :The RabbitMQ Java client library allows Java...",
-      "timestamp": 1787073421.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Your Controls Block Known Attacks. What About the Behavior?",
@@ -211,14 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
-      "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
-      "summary": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privil...",
-      "timestamp": 1786975210.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On August 19, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information a...",
@@ -243,16 +243,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -267,6 +259,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
@@ -275,8 +275,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -299,16 +299,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -371,5 +371,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1787082981.4631538
+  "last_updated": 1787085519.5537915
 }
