@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,92 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-47627 - NVIDIA Triton Inference Server Path Traversal Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47627",
+      "summary": "CVE ID :CVE-2026-47627\n  \n  Published : Aug. 18, 2026, 6:23 p.m. | 17\u00a0minutes ago\n  \n  Description :NVIDIA Triton Inference Server for Linux contains ...",
+      "timestamp": 1787077438.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75625 - Kraken Agents Peer-to-Peer Download Cache Poisoning via Digest Verification Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75625",
+      "summary": "CVE ID :CVE-2026-75625\n  \n  Published : Aug. 18, 2026, 6:19 p.m. | 21\u00a0minutes ago\n  \n  Description :Kraken agents fail to verify peer-to-peer download...",
+      "timestamp": 1787077174.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75130 - Context7 2.1.2 Prompt Injection via Custom AI Instructions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75130",
+      "summary": "CVE ID :CVE-2026-75130\n  \n  Published : Aug. 18, 2026, 6:19 p.m. | 21\u00a0minutes ago\n  \n  Description :Context7 through 2.1.2 contains a prompt injection...",
+      "timestamp": 1787077174.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71879 - Authentication bypass in Integrated Publishing Toolkit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71879",
+      "summary": "CVE ID :CVE-2026-71879\n  \n  Published : Aug. 18, 2026, 6:19 p.m. | 21\u00a0minutes ago\n  \n  Description :Missing authentication in initial setup functional...",
+      "timestamp": 1787077172.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71878 - Authentication bypass in Integrated Publishing Toolkit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71878",
+      "summary": "CVE ID :CVE-2026-71878\n  \n  Published : Aug. 18, 2026, 6:19 p.m. | 21\u00a0minutes ago\n  \n  Description :Missing authentication in initial setup functional...",
+      "timestamp": 1787077172.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67262 - Dell PowerStore Missing Authorization Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67262",
+      "summary": "CVE ID :CVE-2026-67262\n  \n  Published : Aug. 18, 2026, 6:19 p.m. | 21\u00a0minutes ago\n  \n  Description :Dell PowerStore contains a Missing Authorization v...",
+      "timestamp": 1787077164.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66780 - Submariner-operator: submariner-operator: flat broker trust model grants every spoke full crud on all endpoints, secrets, and endpointslices in broker namespace",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66780",
+      "summary": "CVE ID :CVE-2026-66780\n  \n  Published : Aug. 18, 2026, 6:19 p.m. | 21\u00a0minutes ago\n  \n  Description :A flaw was found in the submariner-operator compon...",
+      "timestamp": 1787077163.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50161 - libre: Integer overflow in websock_decode() masked frame length check leads to heap buffer overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50161",
+      "summary": "CVE ID :CVE-2026-50161\n  \n  Published : Aug. 18, 2026, 6:17 p.m. | 23\u00a0minutes ago\n  \n  Description :libre is a generic library for real-time communica...",
+      "timestamp": 1787077073.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-50143 - Actor MCP path authority injection leaks Apify token",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50143",
+      "summary": "CVE ID :CVE-2026-50143\n  \n  Published : Aug. 18, 2026, 6:17 p.m. | 23\u00a0minutes ago\n  \n  Description :The Apify MCP server enables AI agents to extract ...",
+      "timestamp": 1787077073.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48508 - Lemur: Authorization bypass in StrictRolePermission / AuthorityCreatorPermission",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48508",
+      "summary": "CVE ID :CVE-2026-48508\n  \n  Published : Aug. 18, 2026, 6:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Lemur manages TLS certificate creation. Prior to 1...",
+      "timestamp": 1787077061.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Clop created custom web shell for Windchill data theft attacks",
       "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
@@ -65,86 +145,6 @@
       "timestamp": 1787074191.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-75924 - Managed-serviceaccount: managed-serviceaccount: hub addon-manager clusterrole grants cluster-wide secret read/write and csr approval",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75924",
-      "summary": "CVE ID :CVE-2026-75924\n  \n  Published : Aug. 18, 2026, 4:27 p.m. | 12\u00a0minutes ago\n  \n  Description :A flaw was found in managed-serviceaccount. A comp...",
-      "timestamp": 1787070478.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75926 - Hugo 0.162.0 to 0.164.x - Node Permission Model Bypass via Default TailwindCSS Child-Process Grant",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75926",
-      "summary": "CVE ID :CVE-2026-75926\n  \n  Published : Aug. 18, 2026, 4:18 p.m. | 22\u00a0minutes ago\n  \n  Description :Hugo 0.161.0 placed the Node asset pipelines behin...",
-      "timestamp": 1787069904.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75915 - CodeWhale before 0.8.64 Environment Variable Leak via js_execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75915",
-      "summary": "CVE ID :CVE-2026-75915\n  \n  Published : Aug. 18, 2026, 4:18 p.m. | 22\u00a0minutes ago\n  \n  Description :CodeWhale versions before 0.8.64 contain an enviro...",
-      "timestamp": 1787069903.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75914 - CodeWhale before 0.8.64 Path Traversal via image_analyze symlink",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75914",
-      "summary": "CVE ID :CVE-2026-75914\n  \n  Published : Aug. 18, 2026, 4:18 p.m. | 22\u00a0minutes ago\n  \n  Description :CodeWhale versions before 0.8.64 contain a path tr...",
-      "timestamp": 1787069903.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75913 - CodeWhale before 0.8.64 Argument Injection via git_show",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75913",
-      "summary": "CVE ID :CVE-2026-75913\n  \n  Published : Aug. 18, 2026, 4:18 p.m. | 22\u00a0minutes ago\n  \n  Description :CodeWhale (codewhale / codewhale-tui) versions >= ...",
-      "timestamp": 1787069903.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75912 - CodeWhale before 0.8.64 Argument Injection via git_blame",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75912",
-      "summary": "CVE ID :CVE-2026-75912\n  \n  Published : Aug. 18, 2026, 4:18 p.m. | 22\u00a0minutes ago\n  \n  Description :CodeWhale versions before 0.8.64 contain an argume...",
-      "timestamp": 1787069903.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75911 - CodeWhale before 0.8.64 Remote Code Execution via allow_shell",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75911",
-      "summary": "CVE ID :CVE-2026-75911\n  \n  Published : Aug. 18, 2026, 4:18 p.m. | 22\u00a0minutes ago\n  \n  Description :CodeWhale versions before 0.8.64 fail to properly ...",
-      "timestamp": 1787069903.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75859 - CodeWhale before 0.8.64 Arbitrary File Read via instructions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75859",
-      "summary": "CVE ID :CVE-2026-75859\n  \n  Published : Aug. 18, 2026, 4:18 p.m. | 22\u00a0minutes ago\n  \n  Description :CodeWhale versions before 0.8.64 fail to validate ...",
-      "timestamp": 1787069901.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75858 - CodeWhale rlm_eval before 0.8.64 Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75858",
-      "summary": "CVE ID :CVE-2026-75858\n  \n  Published : Aug. 18, 2026, 4:18 p.m. | 22\u00a0minutes ago\n  \n  Description :CodeWhale (packages codewhale / codewhale-tui) ver...",
-      "timestamp": 1787069901.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75856 - CodeWhale before 0.8.64 SSRF Bypass via DNS Pinning TOCTOU",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75856",
-      "summary": "CVE ID :CVE-2026-75856\n  \n  Published : Aug. 18, 2026, 4:18 p.m. | 22\u00a0minutes ago\n  \n  Description :CodeWhale before 0.8.64 contains a server-side req...",
-      "timestamp": 1787069901.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Your Controls Block Known Attacks. What About the Behavior?",
@@ -371,5 +371,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1787076114.9976943
+  "last_updated": 1787079584.0633795
 }
