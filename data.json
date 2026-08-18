@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Clop created custom web shell for Windchill data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
+      "summary": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in featu...",
+      "timestamp": 1787074191.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "CVE-2026-75924 - Managed-serviceaccount: managed-serviceaccount: hub addon-manager clusterrole grants cluster-wide secret read/write and csr approval",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75924",
@@ -211,14 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
-      "summary": "Microsoft has reminded IT administrators that Windows Server 2022 is rapidly approaching its mainstream end date of October 2026, when it will switch ...",
-      "timestamp": 1786969991.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On August 19, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information a...",
@@ -243,8 +243,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -259,8 +259,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -283,8 +283,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -299,24 +299,24 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -371,5 +371,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1787071595.1732526
+  "last_updated": 1787076114.9976943
 }
