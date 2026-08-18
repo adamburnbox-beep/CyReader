@@ -52,40 +52,64 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 5,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-75482 - SWE-agent Trajectory Inspector Path Traversal File Disclosure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75482",
-      "summary": "CVE ID :CVE-2026-75482\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :SWE-agent's trajectory inspector (sweagent inspect...",
-      "timestamp": 1787001410.0,
+      "title": "CVE-2026-75094 - COMFAST CF-N1-S CGI mbox-config sub_44B438 os command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75094",
+      "summary": "CVE ID :CVE-2026-75094\n  \n  Published : Aug. 18, 2026, 2:17 a.m. | 2\u00a0hours, 18\u00a0minutes ago\n  \n  Description :A flaw has been found in COMFAST CF-N1-S ...",
+      "timestamp": 1787019450.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-9816 - Insufficient server-side validation of board member role fields permits privilege escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9816",
+      "summary": "CVE ID :CVE-2026-9816\n  \n  Published : Aug. 17, 2026, 10:17 p.m. | 6\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Mattermost versions 11.7.x <= 11.7.6, 10....",
+      "timestamp": 1787005047.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71424 - Onyx: Cross-user OAuth-token leak via /api/mcp/servers* for per-user MCP servers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71424",
+      "summary": "CVE ID :CVE-2026-71424\n  \n  Published : Aug. 17, 2026, 10:17 p.m. | 6\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Onyx is an open-source AI platform. Prio...",
+      "timestamp": 1787005046.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-64849 - MLflow: Unauthenticated full-read SSRF in webhook delivery: _validate_webhook_url bypassed via unvalidated HTTP redirects (and DNS rebinding)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64849",
+      "summary": "CVE ID :CVE-2026-64849\n  \n  Published : Aug. 17, 2026, 10:17 p.m. | 6\u00a0hours, 18\u00a0minutes ago\n  \n  Description :MLflow is an open source AI engineering ...",
+      "timestamp": 1787005043.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56677 - 9Router: Authenticated Server-Side Request Forgery (SSRF) via OIDC Provider Test Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56677",
+      "summary": "CVE ID :CVE-2026-56677\n  \n  Published : Aug. 17, 2026, 10:17 p.m. | 6\u00a0hours, 18\u00a0minutes ago\n  \n  Description :9Router is an AI router & token saver. I...",
+      "timestamp": 1787005034.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-45790 - Dokploy: Invitation Role Escalation Allows Organization Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45790",
+      "summary": "CVE ID :CVE-2026-45790\n  \n  Published : Aug. 17, 2026, 10:17 p.m. | 6\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Dokploy is a free, self-hostable Platfor...",
+      "timestamp": 1787005034.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-75481 - SkyPilot Authentication Bypass via Service Account Role Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75481",
-      "summary": "CVE ID :CVE-2026-75481\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :SkyPilot fails to validate that authenticated user...",
-      "timestamp": 1787001410.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75479 - JimuReport Unauthenticated Report Listing and Share Token Disclosure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75479",
-      "summary": "CVE ID :CVE-2026-75479\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :JimuReport contains an authentication bypass vulne...",
-      "timestamp": 1787001410.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75111 - Evidently UI Path Traversal via Dataset Materialization Filename",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75111",
-      "summary": "CVE ID :CVE-2026-75111\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :Evidently UI fails to properly validate the filena...",
+      "summary": "CVE ID :CVE-2026-75481\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 7\u00a0hours, 19\u00a0minutes ago\n  \n  Description :SkyPilot fails to validate that authentic...",
       "timestamp": 1787001410.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +117,7 @@
     {
       "title": "CVE-2026-75110 - MemOS Authentication Bypass via Unset INTERNAL_SERVICE_SECRET",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75110",
-      "summary": "CVE ID :CVE-2026-75110\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :MemOS is a memory operating system for LLMs and AI...",
+      "summary": "CVE ID :CVE-2026-75110\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 7\u00a0hours, 19\u00a0minutes ago\n  \n  Description :MemOS is a memory operating system for LL...",
       "timestamp": 1787001410.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,15 +125,7 @@
     {
       "title": "CVE-2026-75106 - OpnForm Editable Submission Secret Derivation via Empty Hashids Salt",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75106",
-      "summary": "CVE ID :CVE-2026-75106\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :OpnForm derives editable-submission secrets from s...",
-      "timestamp": 1787001409.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75105 - phpIPAM Temporary Subnet Share Information Disclosure via Address Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75105",
-      "summary": "CVE ID :CVE-2026-75105\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :phpIPAM through 1.8.1 fails to verify that a reque...",
+      "summary": "CVE ID :CVE-2026-75106\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 7\u00a0hours, 19\u00a0minutes ago\n  \n  Description :OpnForm derives editable-submission secre...",
       "timestamp": 1787001409.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,24 +133,8 @@
     {
       "title": "CVE-2026-75103 - Crawlab Missing Authorization on Password Change Endpoint Allows Account Takeover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75103",
-      "summary": "CVE ID :CVE-2026-75103\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :Crawlab fails to verify user ownership or administ...",
+      "summary": "CVE ID :CVE-2026-75103\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 7\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Crawlab fails to verify user ownership or...",
       "timestamp": 1787001409.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-73410 - Budibase: SSRF via DNS rebinding in the REST datasource integration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73410",
-      "summary": "CVE ID :CVE-2026-73410\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :Budibase is an open-source low-code platform. Prio...",
-      "timestamp": 1787001408.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71518 - Typemill < 2.26.0 Authorization Bypass via Media File Download Route",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71518",
-      "summary": "CVE ID :CVE-2026-71518\n  \n  Published : Aug. 17, 2026, 9:16 p.m. | 44\u00a0minutes ago\n  \n  Description :Typemill before 2.26.0 contains an authorization b...",
-      "timestamp": 1787001408.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -251,32 +251,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -291,8 +267,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -309,6 +285,30 @@
     {
       "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -369,47 +369,7 @@
       "timestamp": 1786035656.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "Cisco Advance Notification for Publication of August 5, 2026, Security Advisories",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-L4XfJg8S?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%205,%202026,%20Security%20Advisories%26vs_k=1",
-      "summary": "On August 5, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE ID\nSec...",
-      "timestamp": 1785945666.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco IOS XE Software Web-Based Management Interface Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-xe-webui-dos-PtAODAWW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XE%20Software%20Web-Based%20Management%20Interface%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the web-based management interface of Cisco IOS XE Software could allow an authenticated, remote attacker with low privileges to ca...",
-      "timestamp": 1785945600.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Integrated Management Controller Cross-Site Scripting Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-xss-7EhBFxBp?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Integrated%20Management%20Controller%20Cross-Site%20Scripting%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the web-based management interface of Cisco Integrated Management Controller (IMC) could allow an authenticated, remote attacker to...",
-      "timestamp": 1785945600.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco RoomOS Logging Subsystem Information Disclosure Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-roomos-infodisc-qBXjfmWm?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20RoomOS%20Logging%20Subsystem%20Information%20Disclosure%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the logging subsystem of Cisco RoomOS could allow an authenticated, local attacker with low privileges to access sensitive informat...",
-      "timestamp": 1785945600.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco IOS XE Software Blocks Extensible Exchange Protocol Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-bing-MGHrFAkd?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XE%20Software%20Blocks%20Extensible%20Exchange%20Protocol%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the Blocks Extensible Exchange Protocol (BEEP) feature of Cisco IOS XE Software could allow an unauthenticated, remote attacker to ...",
-      "timestamp": 1785945600.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1787010955.114694
+  "last_updated": 1787028587.3031836
 }
