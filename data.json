@@ -52,12 +52,76 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-75936 - Memory-amplification denial of service via GZIP decompression bomb in Amazon ion-java",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75936",
+      "summary": "CVE ID :CVE-2026-75936\n  \n  Published : Aug. 18, 2026, 8:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Improper handling of highly compressed data in the...",
+      "timestamp": 1787084254.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75935 - Memory-amplification denial of service via declared-length preallocation in Amazon ion-java",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75935",
+      "summary": "CVE ID :CVE-2026-75935\n  \n  Published : Aug. 18, 2026, 8:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Uncontrolled memory allocation in the binary Ion s...",
+      "timestamp": 1787084254.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75877 - TRENDnet TV-IP751WIC alphapd FUN_0043372C stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75877",
+      "summary": "CVE ID :CVE-2026-75877\n  \n  Published : Aug. 18, 2026, 8:17 p.m. | 23\u00a0minutes ago\n  \n  Description :A flaw has been found in TRENDnet TV-IP751WIC 11.0...",
+      "timestamp": 1787084253.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71308 - Lemur: Unchecked `replaces[]` lets any user silence notifications and hijack auto-rotation for arbitrary certificates",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71308",
+      "summary": "CVE ID :CVE-2026-71308\n  \n  Published : Aug. 18, 2026, 8:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Lemur manages TLS certificate creation. From 0.5.0...",
+      "timestamp": 1787084243.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67443 - FUXA: Unauthenticated guest JWT bypasses Node-RED secure-mode authorization gate (Remote Script Execution)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67443",
+      "summary": "CVE ID :CVE-2026-67443\n  \n  Published : Aug. 18, 2026, 8:17 p.m. | 23\u00a0minutes ago\n  \n  Description :FUXA is a web-based Process Visualization (SCADA/H...",
+      "timestamp": 1787084242.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52736 - ZEBRA: Block suppression via NU5 same-header body poisoning of sent-hash cache",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52736",
+      "summary": "CVE ID :CVE-2026-52736\n  \n  Published : Aug. 18, 2026, 8:17 p.m. | 23\u00a0minutes ago\n  \n  Description :ZEBRA is a Zcash node written entirely in Rust. Pr...",
+      "timestamp": 1787084237.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52735 - ZEBRA: Consensus divergence via P2SH sigop undercount in pure-Rust disabled-opcode parser",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52735",
+      "summary": "CVE ID :CVE-2026-52735\n  \n  Published : Aug. 18, 2026, 8:17 p.m. | 23\u00a0minutes ago\n  \n  Description :ZEBRA is a Zcash node written entirely in Rust. Pr...",
+      "timestamp": 1787084237.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47719 - FUXA: Unauthenticated SSRF via Socket.IO DEVICE_WEBAPI_REQUEST and DEVICE_PROPERTY with response reading",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47719",
+      "summary": "CVE ID :CVE-2026-47719\n  \n  Published : Aug. 18, 2026, 8:17 p.m. | 23\u00a0minutes ago\n  \n  Description :FUXA is a web-based Process Visualization (SCADA/H...",
+      "timestamp": 1787084235.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Comcast turns your Xfinity WiFi into a home motion detector",
       "link": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
@@ -67,25 +131,9 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-75936 - Memory-amplification denial of service via GZIP decompression bomb in Amazon ion-java",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75936",
-      "summary": "CVE ID :CVE-2026-75936\n  \n  Published : Aug. 18, 2026, 7:34 p.m. | 26\u00a0minutes ago\n  \n  Description :Improper handling of highly compressed data in the...",
-      "timestamp": 1787081659.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75935 - Memory-amplification denial of service via declared-length preallocation in Amazon ion-java",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75935",
-      "summary": "CVE ID :CVE-2026-75935\n  \n  Published : Aug. 18, 2026, 7:33 p.m. | 27\u00a0minutes ago\n  \n  Description :Uncontrolled memory allocation in the binary Ion s...",
-      "timestamp": 1787081626.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-55166 - Lemur: any SSO-authenticated user achieves AWS IAM compromise and permanent PKI key access via ACME acme_url SSRF and creator-equality IDOR",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55166",
-      "summary": "CVE ID :CVE-2026-55166\n  \n  Published : Aug. 18, 2026, 7:16 p.m. | 43\u00a0minutes ago\n  \n  Description :Lemur manages TLS certificate creation. Prior to 1...",
+      "summary": "CVE ID :CVE-2026-55166\n  \n  Published : Aug. 18, 2026, 7:16 p.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :Lemur manages TLS certificate creation. Pr...",
       "timestamp": 1787080618.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,56 +141,8 @@
     {
       "title": "CVE-2026-47627 - NVIDIA Triton Inference Server Path Traversal Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47627",
-      "summary": "CVE ID :CVE-2026-47627\n  \n  Published : Aug. 18, 2026, 7:16 p.m. | 44\u00a0minutes ago\n  \n  Description :NVIDIA Triton Inference Server for Linux contains ...",
+      "summary": "CVE ID :CVE-2026-47627\n  \n  Published : Aug. 18, 2026, 7:16 p.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :NVIDIA Triton Inference Server for Linux c...",
       "timestamp": 1787080611.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-9210 - Missing JSON Web Token signature validation in Otalio Ship Property Management System",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-9210",
-      "summary": "CVE ID :CVE-2025-9210\n  \n  Published : Aug. 18, 2026, 7:16 p.m. | 44\u00a0minutes ago\n  \n  Description :Missing signature validation in JSON Web Tokens in ...",
-      "timestamp": 1787080603.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75625 - Kraken Agents Peer-to-Peer Download Cache Poisoning via Digest Verification Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75625",
-      "summary": "CVE ID :CVE-2026-75625\n  \n  Published : Aug. 18, 2026, 6:19 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Kraken agents fail to verify peer-to-peer ...",
-      "timestamp": 1787077174.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75130 - Context7 2.1.2 Prompt Injection via Custom AI Instructions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75130",
-      "summary": "CVE ID :CVE-2026-75130\n  \n  Published : Aug. 18, 2026, 6:19 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Context7 through 2.1.2 contains a prompt i...",
-      "timestamp": 1787077174.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71879 - Authentication bypass in Integrated Publishing Toolkit",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71879",
-      "summary": "CVE ID :CVE-2026-71879\n  \n  Published : Aug. 18, 2026, 6:19 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Missing authentication in initial setup fu...",
-      "timestamp": 1787077172.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71878 - Authentication bypass in Integrated Publishing Toolkit",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71878",
-      "summary": "CVE ID :CVE-2026-71878\n  \n  Published : Aug. 18, 2026, 6:19 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Missing authentication in initial setup fu...",
-      "timestamp": 1787077172.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67262 - Dell PowerStore Missing Authorization Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67262",
-      "summary": "CVE ID :CVE-2026-67262\n  \n  Published : Aug. 18, 2026, 6:19 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Dell PowerStore contains a Missing Authori...",
-      "timestamp": 1787077164.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -243,8 +243,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -259,30 +259,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
       "summary": "",
@@ -291,8 +267,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -307,8 +291,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -371,5 +371,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1787089010.3278522
+  "last_updated": 1787090161.4188354
 }
