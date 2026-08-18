@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,92 +52,12 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
-    {
-      "title": "CVE-2026-75898 - RAGFlow < 0.26.3 - Server-Side Request Forgery via Agent Invoke Component",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75898",
-      "summary": "CVE ID :CVE-2026-75898\n  \n  Published : Aug. 18, 2026, 2:24 p.m. | 15\u00a0minutes ago\n  \n  Description :RAGFlow before 0.26.3 contains a server-side reque...",
-      "timestamp": 1787063046.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-32466 - WordPress Gravity Forms Bookings premium plugin <= 2.1 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32466",
-      "summary": "CVE ID :CVE-2026-32466\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Subscriber SQL Injection in Gravity Forms Bookings...",
-      "timestamp": 1787062623.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-32465 - WordPress Essential Real Estate plugin <= 5.3.3 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32465",
-      "summary": "CVE ID :CVE-2026-32465\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Customer PHP Object Injection in Essential Real Es...",
-      "timestamp": 1787062623.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-32464 - WordPress Theme Test Drive plugin <= 2.9.1 - Local File Inclusion vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32464",
-      "summary": "CVE ID :CVE-2026-32464\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Unauthenticated Local File Inclusion in Theme Test...",
-      "timestamp": 1787062623.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-32463 - WordPress Sync Post With Other Site plugin <= 1.9.3 - Arbitrary File Upload vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32463",
-      "summary": "CVE ID :CVE-2026-32463\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Contributor Arbitrary File Upload in Sync Post Wit...",
-      "timestamp": 1787062623.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-32444 - WordPress Cwicly plugin <= 1.4.4 - Remote Code Execution (RCE) vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32444",
-      "summary": "CVE ID :CVE-2026-32444\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Contributor Remote Code Execution (RCE) in Cwicly ...",
-      "timestamp": 1787062623.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-28570 - WordPress Vavo Core plugin <= 2.3.0 - Local File Inclusion vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28570",
-      "summary": "CVE ID :CVE-2026-28570\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Unauthenticated Local File Inclusion in Vavo Core ...",
-      "timestamp": 1787062622.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-28192 - WordPress Piotnet Addons For Elementor Pro plugin <= 7.1.67 - Arbitrary File Upload vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28192",
-      "summary": "CVE ID :CVE-2026-28192\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Unauthenticated Arbitrary File Upload in Piotnet A...",
-      "timestamp": 1787062622.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-28191 - WordPress The Grid plugin <= 2.7.9.1 - Privilege Escalation vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28191",
-      "summary": "CVE ID :CVE-2026-28191\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Subscriber Privilege Escalation in The Grid <= 2.7...",
-      "timestamp": 1787062622.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-24301 - Microsoft Copilot Information Disclosure Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24301",
-      "summary": "CVE ID :CVE-2026-24301\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements used i...",
-      "timestamp": 1787062621.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
     {
       "title": "Your Controls Block Known Attacks. What About the Behavior?",
       "link": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
@@ -145,6 +65,86 @@
       "timestamp": 1787061671.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-32466 - WordPress Gravity Forms Bookings premium plugin <= 2.1 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32466",
+      "summary": "CVE ID :CVE-2026-32466\n  \n  Published : Aug. 18, 2026, 1:59 p.m. | 19\u00a0minutes ago\n  \n  Description :Subscriber SQL Injection in Gravity Forms Bookings...",
+      "timestamp": 1787061560.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-32465 - WordPress Essential Real Estate plugin <= 5.3.3 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32465",
+      "summary": "CVE ID :CVE-2026-32465\n  \n  Published : Aug. 18, 2026, 1:59 p.m. | 19\u00a0minutes ago\n  \n  Description :Customer PHP Object Injection in Essential Real Es...",
+      "timestamp": 1787061554.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-32464 - WordPress Theme Test Drive plugin <= 2.9.1 - Local File Inclusion vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32464",
+      "summary": "CVE ID :CVE-2026-32464\n  \n  Published : Aug. 18, 2026, 1:59 p.m. | 19\u00a0minutes ago\n  \n  Description :Unauthenticated Local File Inclusion in Theme Test...",
+      "timestamp": 1787061553.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-32463 - WordPress Sync Post With Other Site plugin <= 1.9.3 - Arbitrary File Upload vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32463",
+      "summary": "CVE ID :CVE-2026-32463\n  \n  Published : Aug. 18, 2026, 1:59 p.m. | 19\u00a0minutes ago\n  \n  Description :Contributor Arbitrary File Upload in Sync Post Wit...",
+      "timestamp": 1787061552.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-32444 - WordPress Cwicly plugin <= 1.4.4 - Remote Code Execution (RCE) vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32444",
+      "summary": "CVE ID :CVE-2026-32444\n  \n  Published : Aug. 18, 2026, 1:59 p.m. | 19\u00a0minutes ago\n  \n  Description :Contributor Remote Code Execution (RCE) in Cwicly ...",
+      "timestamp": 1787061551.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-28570 - WordPress Vavo Core plugin <= 2.3.0 - Local File Inclusion vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28570",
+      "summary": "CVE ID :CVE-2026-28570\n  \n  Published : Aug. 18, 2026, 1:59 p.m. | 19\u00a0minutes ago\n  \n  Description :Unauthenticated Local File Inclusion in Vavo Core ...",
+      "timestamp": 1787061547.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-28192 - WordPress Piotnet Addons For Elementor Pro plugin <= 7.1.67 - Arbitrary File Upload vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28192",
+      "summary": "CVE ID :CVE-2026-28192\n  \n  Published : Aug. 18, 2026, 1:59 p.m. | 19\u00a0minutes ago\n  \n  Description :Unauthenticated Arbitrary File Upload in Piotnet A...",
+      "timestamp": 1787061542.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-28191 - WordPress The Grid plugin <= 2.7.9.1 - Privilege Escalation vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28191",
+      "summary": "CVE ID :CVE-2026-28191\n  \n  Published : Aug. 18, 2026, 1:59 p.m. | 19\u00a0minutes ago\n  \n  Description :Subscriber Privilege Escalation in The Grid <= 2.7...",
+      "timestamp": 1787061540.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-24301 - Microsoft Copilot Information Disclosure Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24301",
+      "summary": "CVE ID :CVE-2026-24301\n  \n  Published : Aug. 18, 2026, 1:19 p.m. | 59\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 8.8 | HIGH\n  \n  Visit the link...",
+      "timestamp": 1787059163.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75783 - TRENDnet TEW-WLC100P DHCP blobmsg netifd stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75783",
+      "summary": "CVE ID :CVE-2026-75783\n  \n  Published : Aug. 18, 2026, 1:17 p.m. | 1\u00a0hour ago\n  \n  Description :A security vulnerability has been detected in TRENDnet...",
+      "timestamp": 1787059063.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft tests faster Windows File Explorer, new context menu",
@@ -371,5 +371,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1787067853.7774503
+  "last_updated": 1787069077.5116131
 }
