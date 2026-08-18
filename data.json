@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,91 +52,99 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-75855 - ArcadeDB before 26.8.1 Path Traversal via create/drop database",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75855",
-      "summary": "CVE ID :CVE-2026-75855\n  \n  Published : Aug. 18, 2026, 11:19 a.m. | 40\u00a0minutes ago\n  \n  Description :ArcadeDB versions before 26.8.1 fail to sanitize ...",
-      "timestamp": 1787051997.0,
+      "title": "CVE-2026-75898 - RAGFlow < 0.26.3 - Server-Side Request Forgery via Agent Invoke Component",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75898",
+      "summary": "CVE ID :CVE-2026-75898\n  \n  Published : Aug. 18, 2026, 2:24 p.m. | 15\u00a0minutes ago\n  \n  Description :RAGFlow before 0.26.3 contains a server-side reque...",
+      "timestamp": 1787063046.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-75854 - ArcadeDB Redis Wire-Protocol Plugin Missing Authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75854",
-      "summary": "CVE ID :CVE-2026-75854\n  \n  Published : Aug. 18, 2026, 11:19 a.m. | 40\u00a0minutes ago\n  \n  Description :ArcadeDB versions before 26.8.1 contain a missing...",
-      "timestamp": 1787051997.0,
+      "title": "CVE-2026-32466 - WordPress Gravity Forms Bookings premium plugin <= 2.1 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32466",
+      "summary": "CVE ID :CVE-2026-32466\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Subscriber SQL Injection in Gravity Forms Bookings...",
+      "timestamp": 1787062623.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-75853 - ArcadeDB Gremlin Wire Protocol Authorization Bypass Cross-Database",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75853",
-      "summary": "CVE ID :CVE-2026-75853\n  \n  Published : Aug. 18, 2026, 11:19 a.m. | 40\u00a0minutes ago\n  \n  Description :ArcadeDB's Gremlin wire-protocol plugin (com.arca...",
-      "timestamp": 1787051996.0,
+      "title": "CVE-2026-32465 - WordPress Essential Real Estate plugin <= 5.3.3 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32465",
+      "summary": "CVE ID :CVE-2026-32465\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Customer PHP Object Injection in Essential Real Es...",
+      "timestamp": 1787062623.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-75852 - ArcadeDB MongoDB wire protocol authentication bypass cross-database",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75852",
-      "summary": "CVE ID :CVE-2026-75852\n  \n  Published : Aug. 18, 2026, 11:19 a.m. | 40\u00a0minutes ago\n  \n  Description :ArcadeDB versions before 26.8.1 fail to enforce S...",
-      "timestamp": 1787051995.0,
+      "title": "CVE-2026-32464 - WordPress Theme Test Drive plugin <= 2.9.1 - Local File Inclusion vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32464",
+      "summary": "CVE ID :CVE-2026-32464\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Unauthenticated Local File Inclusion in Theme Test...",
+      "timestamp": 1787062623.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-75851 - ArcadeDB before 26.8.1 Authentication Bypass via Async Command",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75851",
-      "summary": "CVE ID :CVE-2026-75851\n  \n  Published : Aug. 18, 2026, 11:19 a.m. | 40\u00a0minutes ago\n  \n  Description :ArcadeDB server (com.arcadedb:arcadedb-server) in...",
-      "timestamp": 1787051995.0,
+      "title": "CVE-2026-32463 - WordPress Sync Post With Other Site plugin <= 1.9.3 - Arbitrary File Upload vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32463",
+      "summary": "CVE ID :CVE-2026-32463\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Contributor Arbitrary File Upload in Sync Post Wit...",
+      "timestamp": 1787062623.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-75843 - ArcadeDB before 26.8.1 Privilege Escalation via gRPC Transaction",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75843",
-      "summary": "CVE ID :CVE-2026-75843\n  \n  Published : Aug. 18, 2026, 11:19 a.m. | 40\u00a0minutes ago\n  \n  Description :ArcadeDB before 26.8.1 fails to bind the authenti...",
-      "timestamp": 1787051991.0,
+      "title": "CVE-2026-32444 - WordPress Cwicly plugin <= 1.4.4 - Remote Code Execution (RCE) vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32444",
+      "summary": "CVE ID :CVE-2026-32444\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Contributor Remote Code Execution (RCE) in Cwicly ...",
+      "timestamp": 1787062623.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-75842 - ArcadeDB before 26.8.1 Arbitrary File Read via LOAD CSV",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75842",
-      "summary": "CVE ID :CVE-2026-75842\n  \n  Published : Aug. 18, 2026, 11:19 a.m. | 40\u00a0minutes ago\n  \n  Description :ArcadeDB versions before 26.8.1 contain an arbitr...",
-      "timestamp": 1787051990.0,
+      "title": "CVE-2026-28570 - WordPress Vavo Core plugin <= 2.3.0 - Local File Inclusion vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28570",
+      "summary": "CVE ID :CVE-2026-28570\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Unauthenticated Local File Inclusion in Vavo Core ...",
+      "timestamp": 1787062622.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-75840 - ArcadeDB before 26.8.1 Arbitrary File Read via Unescaped Regex",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75840",
-      "summary": "CVE ID :CVE-2026-75840\n  \n  Published : Aug. 18, 2026, 11:19 a.m. | 41\u00a0minutes ago\n  \n  Description :ArcadeDB before 26.8.1 contains an arbitrary file...",
-      "timestamp": 1787051989.0,
+      "title": "CVE-2026-28192 - WordPress Piotnet Addons For Elementor Pro plugin <= 7.1.67 - Arbitrary File Upload vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28192",
+      "summary": "CVE ID :CVE-2026-28192\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Unauthenticated Arbitrary File Upload in Piotnet A...",
+      "timestamp": 1787062622.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-75837 - Grav before 2.0.14 Privilege Escalation via Group Access Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75837",
-      "summary": "CVE ID :CVE-2026-75837\n  \n  Published : Aug. 18, 2026, 11:19 a.m. | 41\u00a0minutes ago\n  \n  Description :Grav before 2.0.14 fails to guard the access fiel...",
-      "timestamp": 1787051987.0,
+      "title": "CVE-2026-28191 - WordPress The Grid plugin <= 2.7.9.1 - Privilege Escalation vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28191",
+      "summary": "CVE ID :CVE-2026-28191\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Subscriber Privilege Escalation in The Grid <= 2.7...",
+      "timestamp": 1787062622.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-75836 - Grav API Plugin before 1.0.14 Missing Authorization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75836",
-      "summary": "CVE ID :CVE-2026-75836\n  \n  Published : Aug. 18, 2026, 11:19 a.m. | 41\u00a0minutes ago\n  \n  Description :The Grav API plugin (getgrav/grav-plugin-api, bun...",
-      "timestamp": 1787051986.0,
+      "title": "CVE-2026-24301 - Microsoft Copilot Information Disclosure Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-24301",
+      "summary": "CVE ID :CVE-2026-24301\n  \n  Published : Aug. 18, 2026, 2:17 p.m. | 22\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements used i...",
+      "timestamp": 1787062621.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Your Controls Block Known Attacks. What About the Behavior?",
+      "link": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
+      "summary": "Security controls can block a familiar attack method while missing quieter ways to achieve the same objective. Picus Security's Blue Report 2026 shows...",
+      "timestamp": 1787061671.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Microsoft tests faster Windows File Explorer, new context menu",
@@ -211,14 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "Philips and GE investigating Clop ransomware data theft claims",
-      "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
-      "summary": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems an...",
-      "timestamp": 1786965902.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On August 19, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information a...",
@@ -251,14 +251,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
       "summary": "",
@@ -267,8 +259,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -283,8 +283,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -307,8 +307,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -371,5 +371,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1787061298.8873377
+  "last_updated": 1787067853.7774503
 }
