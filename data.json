@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,8 +59,88 @@
   ],
   "articles": [
     {
-      "title": "Rogue ransomware affiliate poses as data recovery firm to steal payments",
-      "link": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-data-recovery-firm/",
+      "title": "CVE-2026-76878 - OpenStack Aodh and Watcher Authorization Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76878",
+      "summary": "CVE ID :CVE-2026-76878\n  \n  Published : Aug. 19, 2026, 10:04 p.m. | 14\u00a0minutes ago\n  \n  Description :In OpenStack Aodh before 22.0.1, the alarm list A...",
+      "timestamp": 1787177096.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76832 - Agno PythonTools Path Traversal via joinpath file_name argument",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76832",
+      "summary": "CVE ID :CVE-2026-76832\n  \n  Published : Aug. 19, 2026, 9:58 p.m. | 20\u00a0minutes ago\n  \n  Description :Agno's PythonTools in libs/agno/agno/tools/python....",
+      "timestamp": 1787176731.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76850 - LMDeploy Remote Code Execution via Unsafe Pickle Deserialization in the Disaggregated Serving Peer Connector",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76850",
+      "summary": "CVE ID :CVE-2026-76850\n  \n  Published : Aug. 19, 2026, 9:41 p.m. | 37\u00a0minutes ago\n  \n  Description :LMDeploy deserializes disaggregated-serving peer m...",
+      "timestamp": 1787175688.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76404 - Remote Code Execution (RCE) through Deserialization of Untrusted Data in Splunk MCP Server app",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76404",
+      "summary": "CVE ID :CVE-2026-76404\n  \n  Published : Aug. 19, 2026, 9:35 p.m. | 43\u00a0minutes ago\n  \n  Description :In Splunk MCP Server app versions below 1.2.1, a u...",
+      "timestamp": 1787175317.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76402 - Server-Side Request Forgery (SSRF) through the REST API in Splunk Connect for Kafka",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76402",
+      "summary": "CVE ID :CVE-2026-76402\n  \n  Published : Aug. 19, 2026, 9:35 p.m. | 43\u00a0minutes ago\n  \n  Description :In Splunk Connect for Kafka versions below 2.2.7, ...",
+      "timestamp": 1787175316.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76399 - Incorrect Permission Assignment for Scheduled Searches in Splunk AI Toolkit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76399",
+      "summary": "CVE ID :CVE-2026-76399\n  \n  Published : Aug. 19, 2026, 9:35 p.m. | 43\u00a0minutes ago\n  \n  Description :In Splunk AI Toolkit versions below 6.0.1, a user ...",
+      "timestamp": 1787175314.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76397 - Improper Access Control in Experiment History through the REST API in Splunk AI Toolkit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76397",
+      "summary": "CVE ID :CVE-2026-76397\n  \n  Published : Aug. 19, 2026, 9:35 p.m. | 43\u00a0minutes ago\n  \n  Description :In Splunk AI Toolkit versions below 6.0.0, a user ...",
+      "timestamp": 1787175313.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76395 - Remote Code Execution (RCE) through Deserialization of Untrusted Data in the Model Loading REST API in Splunk AI Toolkit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76395",
+      "summary": "CVE ID :CVE-2026-76395\n  \n  Published : Aug. 19, 2026, 9:35 p.m. | 43\u00a0minutes ago\n  \n  Description :In Splunk AI Toolkit versions below 6.0.0, a user ...",
+      "timestamp": 1787175312.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76394 - Missing Authorization in Container and Connection Management through the REST API in Splunk AI Toolkit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76394",
+      "summary": "CVE ID :CVE-2026-76394\n  \n  Published : Aug. 19, 2026, 9:35 p.m. | 43\u00a0minutes ago\n  \n  Description :In Splunk AI Toolkit versions below 6.0.0, a low-p...",
+      "timestamp": 1787175311.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76391 - Improper Privilege Management through Agent Run History in Splunk AI Toolkit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76391",
+      "summary": "CVE ID :CVE-2026-76391\n  \n  Published : Aug. 19, 2026, 9:35 p.m. | 44\u00a0minutes ago\n  \n  Description :In Splunk AI Toolkit versions below 6.0.0, a user ...",
+      "timestamp": 1787175309.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
+      "link": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
       "summary": "A\u00a0suspected ransomware affiliate is posing as a ransomware recovery service called \"Ransom Busters,\" contacting the victims before the attacks become ...",
       "timestamp": 1787173198.0,
       "source": "BleepingComputer",
@@ -81,86 +161,6 @@
       "timestamp": 1787170032.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-16885 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16885",
-      "summary": "CVE ID :CVE-2026-16885\n  \n  Published : Aug. 19, 2026, 7:51 p.m. | 10\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787169065.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-17091 - Power System Integer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17091",
-      "summary": "CVE ID :CVE-2026-17091\n  \n  Published : Aug. 19, 2026, 7:45 p.m. | 16\u00a0minutes ago\n  \n  Description :IBM PowerVM Hypervisor FW1120.00, FW1110.00 throug...",
-      "timestamp": 1787168715.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16882 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16882",
-      "summary": "CVE ID :CVE-2026-16882\n  \n  Published : Aug. 19, 2026, 7:43 p.m. | 17\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787168625.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16877 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16877",
-      "summary": "CVE ID :CVE-2026-16877\n  \n  Published : Aug. 19, 2026, 7:43 p.m. | 17\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787168608.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16872 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16872",
-      "summary": "CVE ID :CVE-2026-16872\n  \n  Published : Aug. 19, 2026, 7:40 p.m. | 20\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787168430.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16865 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16865",
-      "summary": "CVE ID :CVE-2026-16865\n  \n  Published : Aug. 19, 2026, 7:39 p.m. | 21\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787168379.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16864 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16864",
-      "summary": "CVE ID :CVE-2026-16864\n  \n  Published : Aug. 19, 2026, 7:39 p.m. | 22\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787168359.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16862 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16862",
-      "summary": "CVE ID :CVE-2026-16862\n  \n  Published : Aug. 19, 2026, 7:39 p.m. | 22\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787168342.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16857 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16857",
-      "summary": "CVE ID :CVE-2026-16857\n  \n  Published : Aug. 19, 2026, 7:38 p.m. | 22\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787168324.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16850 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16850",
-      "summary": "CVE ID :CVE-2026-16850\n  \n  Published : Aug. 19, 2026, 7:37 p.m. | 24\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787168220.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Hackers compromise 14,500 Dahua web cameras in 35-day campaign",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787176766.242405
+  "last_updated": 1787179117.9768252
 }
