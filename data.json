@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 5,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,92 +59,164 @@
   ],
   "articles": [
     {
+      "title": "Cisco Secure Workload Software Security Hardening Release: August 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-csw1-shSvndWP?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Workload%20Software%20Security%20Hardening%20Release:%20August%202026%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Workload engineering team has conducted a comprehens...",
+      "timestamp": 1787155200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Industrial Ethernet 1000 Series Switches Stored Cross-Site Scripting Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ie1k-NgXUFF52?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Industrial%20Ethernet%201000%20Series%20Switches%20Stored%20Cross-Site%20Scripting%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the web-based management interface of Cisco Industrial Ethernet (IE) 1000 Series Switches could allow an authenticated, remote atta...",
+      "timestamp": 1787155200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Packaged Contact Center Enterprise and Cisco Unified Contact Center Enterprise Server-Side Request Forgery Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucce-pcce-ssrf-TghHxD?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Packaged%20Contact%20Center%20Enterprise%20and%20Cisco%20Unified%20Contact%20Center%20Enterprise%20Server-Side%20Request%20Forgery%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in Cisco Packaged Contact Center Enterprise (Packaged CCE) and Cisco Unified Contact Center Enterprise (Unified CCE) could allow an au...",
+      "timestamp": 1787155200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Unified Intelligence Center SQL Injection Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cuic-sql-inject-2qbfWSm5?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Intelligence%20Center%20SQL%20Injection%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the web-based management interface of Cisco Unified Intelligence Center could allow an authenticated, local attacker to perform a b...",
+      "timestamp": 1787155200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Industrial Ethernet 1000 Series Switches Denial of Service Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ie1k-uxq86Lnx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Industrial%20Ethernet%201000%20Series%20Switches%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the handling of management plane packets by Cisco Industrial Ethernet (IE) 1000 Series Switches could allow an unauthenticated, rem...",
+      "timestamp": 1787155200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco RoomOS Stack Overflow Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-roomos-bof-vTMANZgu?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20RoomOS%20Stack%20Overflow%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the USB driver of Cisco RoomOS could allow an unauthenticated, local attacker with physical access to the USB port on an affected d...",
+      "timestamp": 1787155200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20BroadWorks%20Out-of-Band%20Blind%20XML%20External%20Entity%20Injection%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive co...",
+      "timestamp": 1787155200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Crosswork Security Hardening Release: August 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-crosswork-UzDTU9Vh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Crosswork%20Security%20Hardening%20Release:%20August%202026%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive in...",
+      "timestamp": 1787155200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "US charges Iranian hackers over $3.4 billion intellectual property theft",
+      "link": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/",
+      "summary": "The U.S. has charged 17 Iranians, alleged members of a hacking-for-hire company called Mabna Institute, involved in years-long operations that stole d...",
+      "timestamp": 1787154969.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-15078 - Vulnerabilities in IBM AIX and PowerVM VIOS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15078",
+      "summary": "CVE ID :CVE-2026-15078\n  \n  Published : Aug. 19, 2026, 2:35 p.m. | 16\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 NIM ...",
+      "timestamp": 1787150128.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15068 - Vulnerabilities in IBM AIX and PowerVM VIOS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15068",
+      "summary": "CVE ID :CVE-2026-15068\n  \n  Published : Aug. 19, 2026, 2:34 p.m. | 17\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 NIM ...",
+      "timestamp": 1787150067.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15065 - Vulnerabilities in IBM AIX and PowerVM VIOS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15065",
+      "summary": "CVE ID :CVE-2026-15065\n  \n  Published : Aug. 19, 2026, 2:33 p.m. | 17\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 NIM ...",
+      "timestamp": 1787150016.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15061 - Vulnerabilities in IBM AIX and PowerVM VIOS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15061",
+      "summary": "CVE ID :CVE-2026-15061\n  \n  Published : Aug. 19, 2026, 2:33 p.m. | 18\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 's n...",
+      "timestamp": 1787149980.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71961 - Cudy WR3000 2.0 OS Command Injection via Mesh MQTT Command Handler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71961",
+      "summary": "CVE ID :CVE-2026-71961\n  \n  Published : Aug. 19, 2026, 2:28 p.m. | 22\u00a0minutes ago\n  \n  Description :Cudy WR3000 2.0 running firmware before 2.5.24 con...",
+      "timestamp": 1787149725.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71960 - Cudy WR3000 2.0 Hard-coded JWT Secret Authentication Bypass via MQTT",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71960",
+      "summary": "CVE ID :CVE-2026-71960\n  \n  Published : Aug. 19, 2026, 2:27 p.m. | 23\u00a0minutes ago\n  \n  Description :Cudy WR3000 2.0 running firmware before 2.5.24 con...",
+      "timestamp": 1787149677.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76244 - stigmem-node Insecure Federation Transport Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76244",
+      "summary": "CVE ID :CVE-2026-76244\n  \n  Published : Aug. 19, 2026, 2:17 p.m. | 33\u00a0minutes ago\n  \n  Description :stigmem-node contains an insecure default configur...",
+      "timestamp": 1787149076.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76243 - stigmem before 0.9.0a2 Authentication Bypass via Disabled Auth",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76243",
+      "summary": "CVE ID :CVE-2026-76243\n  \n  Published : Aug. 19, 2026, 2:17 p.m. | 33\u00a0minutes ago\n  \n  Description :stigmem versions before 0.9.0a2 allow unauthentica...",
+      "timestamp": 1787149076.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76242 - stigmem Federation Peer Registration Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76242",
+      "summary": "CVE ID :CVE-2026-76242\n  \n  Published : Aug. 19, 2026, 2:17 p.m. | 33\u00a0minutes ago\n  \n  Description :stigmem-node 0.9.0a1 accepts federation peer key m...",
+      "timestamp": 1787149076.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76237 - stigmem before 0.9.0a12 Cross-Tenant BOLA via quarantine",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76237",
+      "summary": "CVE ID :CVE-2026-76237\n  \n  Published : Aug. 19, 2026, 2:17 p.m. | 33\u00a0minutes ago\n  \n  Description :stigmem-node before 0.9.0a12 contains a broken obj...",
+      "timestamp": 1787149075.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
       "link": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
       "summary": "Huntress observed a 155x increase in password spraying attacks in H1 2026, including a campaign that generated more than 81 million login attempts in ...",
       "timestamp": 1787148010.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-54795 - Dell OpenManage Enterprise OS Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54795",
-      "summary": "CVE ID :CVE-2026-54795\n  \n  Published : Aug. 19, 2026, 1:43 p.m. | 17\u00a0minutes ago\n  \n  Description :Dell OpenManage Enterprise, versions prior to 4.7....",
-      "timestamp": 1787147020.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-74803 - Joomla Extension - yootheme.com - Unauthenticated arbitrary file upload in Zoo < 4.1.64",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74803",
-      "summary": "CVE ID :CVE-2026-74803\n  \n  Published : Aug. 19, 2026, 1:39 p.m. | 21\u00a0minutes ago\n  \n  Description :Joomla Extension - yootheme.com - Unauthenticated ...",
-      "timestamp": 1787146764.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-74804 - Joomla Extension - yootheme.com - Unauthenticated SQL injection in Zoo < 4.1.64",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74804",
-      "summary": "CVE ID :CVE-2026-74804\n  \n  Published : Aug. 19, 2026, 1:35 p.m. | 25\u00a0minutes ago\n  \n  Description :Joomla Extension - yootheme.com - Unauthenticated ...",
-      "timestamp": 1787146550.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-73391 - WordPress Total Donations plugin <= 2.0.5 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73391",
-      "summary": "CVE ID :CVE-2026-73391\n  \n  Published : Aug. 19, 2026, 1:18 p.m. | 43\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in Total Donations <...",
-      "timestamp": 1787145488.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-73390 - WordPress Total Donations plugin <= 2.0.5 - Privilege Escalation vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73390",
-      "summary": "CVE ID :CVE-2026-73390\n  \n  Published : Aug. 19, 2026, 1:18 p.m. | 43\u00a0minutes ago\n  \n  Description :Unauthenticated Privilege Escalation in Total Dona...",
-      "timestamp": 1787145488.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-73389 - WordPress Kalles Addons plugin <= 1.0.6 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73389",
-      "summary": "CVE ID :CVE-2026-73389\n  \n  Published : Aug. 19, 2026, 1:18 p.m. | 43\u00a0minutes ago\n  \n  Description :Unauthenticated PHP Object Injection in Kalles Add...",
-      "timestamp": 1787145488.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-73388 - WordPress Nikstore Core plugin <= 1.5 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73388",
-      "summary": "CVE ID :CVE-2026-73388\n  \n  Published : Aug. 19, 2026, 1:18 p.m. | 43\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in Nikstore Core <= ...",
-      "timestamp": 1787145488.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-73387 - WordPress Resido theme <= 1.5 - Local File Inclusion vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73387",
-      "summary": "CVE ID :CVE-2026-73387\n  \n  Published : Aug. 19, 2026, 1:18 p.m. | 43\u00a0minutes ago\n  \n  Description :Unauthenticated Local File Inclusion in Resido <= ...",
-      "timestamp": 1787145488.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-73364 - WordPress Flexible Subscriptions plugin <= 1.8.1 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73364",
-      "summary": "CVE ID :CVE-2026-73364\n  \n  Published : Aug. 19, 2026, 1:18 p.m. | 43\u00a0minutes ago\n  \n  Description :Customer PHP Object Injection in Flexible Subscrip...",
-      "timestamp": 1787145487.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-73347 - WordPress TrueBooker plugin <= 1.2.6 - Privilege Escalation vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73347",
-      "summary": "CVE ID :CVE-2026-73347\n  \n  Published : Aug. 19, 2026, 1:18 p.m. | 43\u00a0minutes ago\n  \n  Description :Unauthenticated Privilege Escalation in TrueBooker...",
-      "timestamp": 1787145487.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft fixes known issue causing Windows Defender crashes",
@@ -211,14 +283,6 @@
       "vendor": "News"
     },
     {
-      "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task ...",
-      "timestamp": 1787049136.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On August 19, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information a...",
@@ -243,16 +307,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -267,6 +323,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
@@ -275,8 +339,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -299,16 +363,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -331,37 +395,13 @@
       "vendor": "News"
     },
     {
-      "title": "Cisco Secure Firewall Management Center Software Static Credential Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Static%20Credential%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to log ...",
-      "timestamp": 1786474868.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-dos-dzv4mQFF?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Remote%20Access%20SSL%20VPN%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the Remote Access SSL VPN service for Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Th...",
-      "timestamp": 1786466340.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "August 2026 Security Update",
       "link": "https://www.ivanti.com/blog/august-2026-security-update",
       "summary": "Ivanti releases standard security patches on the second Tuesday of every month. In today\u2019s rapidly evolving technology and threat landscape, we believ...",
       "timestamp": 1786458221.0,
       "source": "Ivanti Security",
       "vendor": "Ivanti"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Manager Information Disclosure Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-infodis-SPuJBDCe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20Information%20Disclosure%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the web-based management interface of Cisco Catalyst SD-WAN Manager could allow an authenticated, remote attacker to view sensitive...",
-      "timestamp": 1786137976.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1787154297.913456
+  "last_updated": 1787155542.9959657
 }
