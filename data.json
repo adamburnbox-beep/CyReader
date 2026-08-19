@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,10 +59,98 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-16707 - Power System Out-of-bounds Read",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16707",
-      "summary": "CVE ID :CVE-2026-16707\n  \n  Published : Aug. 19, 2026, 8:09 p.m. | 9\u00a0minutes ago\n  \n  Description :IBM PowerVM Hypervisor FW1120.00, FW1110.00 through...",
-      "timestamp": 1787170147.0,
+      "title": "Rogue ransomware affiliate poses as data recovery firm to steal payments",
+      "link": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-data-recovery-firm/",
+      "summary": "A\u00a0suspected ransomware affiliate is posing as a ransomware recovery service called \"Ransom Busters,\" contacting the victims before the attacks become ...",
+      "timestamp": 1787173198.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Sakura Internet hack exposes data of up to 1.36 million accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
+      "summary": "Japanese cloud and data center service provider Sakura Internet disclosed that hackers accessed its sales management system, where customer contract a...",
+      "timestamp": 1787172818.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-18544 - Portieris is vulnerable to Image Policy Bypass via Unvalidated ownerReference",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18544",
+      "summary": "CVE ID :CVE-2026-18544\n  \n  Published : Aug. 19, 2026, 8:29 p.m. | 23\u00a0minutes ago\n  \n  Description :IBM Portieris 0.5.0 through 0.14.2 could allow a r...",
+      "timestamp": 1787171350.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-68899 - Wekan: File Upload MIME Type Validation Bypass \u2014 Stored XSS via Missing System Binary Fallback",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68899",
+      "summary": "CVE ID :CVE-2026-68899\n  \n  Published : Aug. 19, 2026, 8:17 p.m. | 35\u00a0minutes ago\n  \n  Description :Wekan is open source kanban built with Meteor. Pri...",
+      "timestamp": 1787170641.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-68561 - Wekan: a low-privilege board member escalates to board admin and takes over a private board via the `sort` collection-allow rule",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68561",
+      "summary": "CVE ID :CVE-2026-68561\n  \n  Published : Aug. 19, 2026, 8:17 p.m. | 35\u00a0minutes ago\n  \n  Description :Wekan is open source kanban built with Meteor. Pri...",
+      "timestamp": 1787170641.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-68558 - Wekan: SSRF filter bypass via DNS-resolving hostname in outgoing webhooks (incomplete fix of CVE-2026-53446)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68558",
+      "summary": "CVE ID :CVE-2026-68558\n  \n  Published : Aug. 19, 2026, 8:17 p.m. | 35\u00a0minutes ago\n  \n  Description :Wekan is open source kanban built with Meteor. Fro...",
+      "timestamp": 1787170640.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63722 - ICEcoder 8.1 Unauthenticated RCE via terminal-xhr.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63722",
+      "summary": "CVE ID :CVE-2026-63722\n  \n  Published : Aug. 19, 2026, 8:17 p.m. | 35\u00a0minutes ago\n  \n  Description :ICEcoder 8.1 contains an unauthenticated remote co...",
+      "timestamp": 1787170640.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63188 - logto-tunnel serves files outside --experience-path via path traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63188",
+      "summary": "CVE ID :CVE-2026-63188\n  \n  Published : Aug. 19, 2026, 8:17 p.m. | 35\u00a0minutes ago\n  \n  Description :Logto is the modern, open-source auth infrastructu...",
+      "timestamp": 1787170640.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55089 - Etherpad: JWT `admin` claim presence-only check lets non-admin OAuth users invoke every Etherpad HTTP API endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55089",
+      "summary": "CVE ID :CVE-2026-55089\n  \n  Published : Aug. 19, 2026, 8:17 p.m. | 35\u00a0minutes ago\n  \n  Description :Etherpad is a real-time collaborative editor. From...",
+      "timestamp": 1787170638.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55085 - Etherpad: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in etherpad-lite",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55085",
+      "summary": "CVE ID :CVE-2026-55085\n  \n  Published : Aug. 19, 2026, 8:17 p.m. | 35\u00a0minutes ago\n  \n  Description :Etherpad is a real-time collaborative editor. Prio...",
+      "timestamp": 1787170637.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-22306 - Critical flaw impacting OZOLS ERP's automatic update channel",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22306",
+      "summary": "CVE ID :CVE-2026-22306\n  \n  Published : Aug. 19, 2026, 8:17 p.m. | 35\u00a0minutes ago\n  \n  Description :Download of code without integrity check, inclusio...",
+      "timestamp": 1787170636.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-17414 - Power System Improper Input Validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17414",
+      "summary": "CVE ID :CVE-2026-17414\n  \n  Published : Aug. 19, 2026, 8:17 p.m. | 35\u00a0minutes ago\n  \n  Description :IBM PowerVM Hypervisor FW1120.00, FW1110.00 throug...",
+      "timestamp": 1787170632.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -73,78 +161,6 @@
       "timestamp": 1787170032.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-16919 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16919",
-      "summary": "CVE ID :CVE-2026-16919\n  \n  Published : Aug. 19, 2026, 7:57 p.m. | 21\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787169443.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16917 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16917",
-      "summary": "CVE ID :CVE-2026-16917\n  \n  Published : Aug. 19, 2026, 7:56 p.m. | 22\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787169417.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16913 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16913",
-      "summary": "CVE ID :CVE-2026-16913\n  \n  Published : Aug. 19, 2026, 7:55 p.m. | 23\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787169359.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16911 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16911",
-      "summary": "CVE ID :CVE-2026-16911\n  \n  Published : Aug. 19, 2026, 7:55 p.m. | 23\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787169344.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16909 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16909",
-      "summary": "CVE ID :CVE-2026-16909\n  \n  Published : Aug. 19, 2026, 7:55 p.m. | 23\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787169326.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16903 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16903",
-      "summary": "CVE ID :CVE-2026-16903\n  \n  Published : Aug. 19, 2026, 7:55 p.m. | 23\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787169308.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16901 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16901",
-      "summary": "CVE ID :CVE-2026-16901\n  \n  Published : Aug. 19, 2026, 7:54 p.m. | 24\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787169290.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16894 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16894",
-      "summary": "CVE ID :CVE-2026-16894\n  \n  Published : Aug. 19, 2026, 7:54 p.m. | 25\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787169247.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16885 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16885",
-      "summary": "CVE ID :CVE-2026-16885\n  \n  Published : Aug. 19, 2026, 7:51 p.m. | 28\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
-      "timestamp": 1787169065.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Hackers compromise 14,500 Dahua web cameras in 35-day campaign",
@@ -275,22 +291,6 @@
       "vendor": "News"
     },
     {
-      "title": "CISA: Medusa ransomware hit over 500 critical infrastructure orgs",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
-      "summary": "The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June ...",
-      "timestamp": 1787126448.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Comcast turns your Xfinity WiFi into a home motion detector",
-      "link": "https://www.bleepingcomputer.com/news/security/comcast-turns-your-xfinity-wifi-into-a-home-motion-detector/",
-      "summary": "Comcast is promoting WiFi-based motion detection as a part of its new Xfinity Shield home protection platform, allowing routers and wireless devices t...",
-      "timestamp": 1787084098.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
       "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every...",
@@ -307,16 +307,16 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -331,16 +331,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -349,6 +341,14 @@
     {
       "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -371,8 +371,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787172199.154879
+  "last_updated": 1787175510.895155
 }
