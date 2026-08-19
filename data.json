@@ -52,12 +52,92 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-17093 - Power System Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17093",
+      "summary": "CVE ID :CVE-2026-17093\n  \n  Published : Aug. 19, 2026, 6:30 p.m. | 21\u00a0minutes ago\n  \n  Description :IBM Power Firmware FW1120.00, FW1110.00 through FW...",
+      "timestamp": 1787164256.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-17100 - Power System Out-of-bounds Write",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17100",
+      "summary": "CVE ID :CVE-2026-17100\n  \n  Published : Aug. 19, 2026, 6:26 p.m. | 25\u00a0minutes ago\n  \n  Description :IBM Power Firmware FW1120.00, FW1110.00 through FW...",
+      "timestamp": 1787163975.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75149 - marimo < 0.23.15 Code Injection via MCP Server Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75149",
+      "summary": "CVE ID :CVE-2026-75149\n  \n  Published : Aug. 19, 2026, 6:17 p.m. | 34\u00a0minutes ago\n  \n  Description :marimo before 0.23.15 contains a code injection vu...",
+      "timestamp": 1787163446.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73541 - Tempo fee sponsorship in mpp bounds each transaction but not aggregate exposure, allowing concurrent sponsor-wallet drain",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73541",
+      "summary": "CVE ID :CVE-2026-73541\n  \n  Published : Aug. 19, 2026, 6:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Allocation of Resources Without Limits or Throttli...",
+      "timestamp": 1787163445.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73136 - Static memo configuration in mpp Tempo disables per-challenge attribution binding, enabling third-party replay",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73136",
+      "summary": "CVE ID :CVE-2026-73136\n  \n  Published : Aug. 19, 2026, 6:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Authentication Bypass by Capture-replay in ZenHive...",
+      "timestamp": 1787163445.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72717 - Orval: Import-time RCE via schema default -> zod module-level template literal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72717",
+      "summary": "CVE ID :CVE-2026-72717\n  \n  Published : Aug. 19, 2026, 6:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Orval generates type-safe JavaScript clients in Ty...",
+      "timestamp": 1787163445.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72716 - Orval: Import-time RCE via query-parameter default -> zod module-level template literal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72716",
+      "summary": "CVE ID :CVE-2026-72716\n  \n  Published : Aug. 19, 2026, 6:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Orval generates type-safe JavaScript clients in Ty...",
+      "timestamp": 1787163445.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71871 - Orval: Import-time RCE via header-parameter default -> zod module-level template literal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71871",
+      "summary": "CVE ID :CVE-2026-71871\n  \n  Published : Aug. 19, 2026, 6:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Orval generates type-safe JavaScript clients in Ty...",
+      "timestamp": 1787163444.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71869 - Orval: Import-time RCE via array-items default -> zod module-level template literal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71869",
+      "summary": "CVE ID :CVE-2026-71869\n  \n  Published : Aug. 19, 2026, 6:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Orval generates type-safe JavaScript clients in Ty...",
+      "timestamp": 1787163444.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71868 - Orval: Import-time RCE via enum-typed default -> zod module-level template literal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71868",
+      "summary": "CVE ID :CVE-2026-71868\n  \n  Published : Aug. 19, 2026, 6:17 p.m. | 34\u00a0minutes ago\n  \n  Description :Orval generates type-safe JavaScript clients in Ty...",
+      "timestamp": 1787163444.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Hackers compromise 14,500 Dahua web cameras in 35-day campaign",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/",
@@ -73,86 +153,6 @@
       "timestamp": 1787161801.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-75149 - marimo < 0.23.15 Code Injection via MCP Server Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75149",
-      "summary": "CVE ID :CVE-2026-75149\n  \n  Published : Aug. 19, 2026, 5:48 p.m. | 12\u00a0minutes ago\n  \n  Description :marimo before 0.23.15 contains a code injection vu...",
-      "timestamp": 1787161726.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61518 - ISPConfig Authenticated SQL Injection via Remote API primary_id Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61518",
-      "summary": "CVE ID :CVE-2026-61518\n  \n  Published : Aug. 19, 2026, 5:45 p.m. | 15\u00a0minutes ago\n  \n  Description :ISPConfig contains an authenticated SQL injection ...",
-      "timestamp": 1787161548.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-14600 - Admin Account Takeover via Path Traversal in vsDesk",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-14600",
-      "summary": "CVE ID :CVE-2025-14600\n  \n  Published : Aug. 19, 2026, 5:39 p.m. | 21\u00a0minutes ago\n  \n  Description :An insecure deserialization vulnerability in vsDes...",
-      "timestamp": 1787161182.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66794 - Cluster-proxy-addon: cluster-proxy-addon: unauthenticated ssrf to arbitrary managed-cluster services via public route",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66794",
-      "summary": "CVE ID :CVE-2026-66794\n  \n  Published : Aug. 19, 2026, 5:30 p.m. | 31\u00a0minutes ago\n  \n  Description :A flaw was found in the `cluster-proxy-addon` comp...",
-      "timestamp": 1787160607.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-32475 - WordPress Elementor Pro plugin <= 4.2.1 - Arbitrary File Upload vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32475",
-      "summary": "CVE ID :CVE-2026-32475\n  \n  Published : Aug. 19, 2026, 5:24 p.m. | 36\u00a0minutes ago\n  \n  Description :Unrestricted Upload of File with Dangerous Type vu...",
-      "timestamp": 1787160295.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75146 - FFmpeg Out-of-Bounds Read in DASH Demuxer via dashdec.c",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75146",
-      "summary": "CVE ID :CVE-2026-75146\n  \n  Published : Aug. 19, 2026, 5:21 p.m. | 40\u00a0minutes ago\n  \n  Description :FFmpeg before commit 65b0dab contains an out-of-bo...",
-      "timestamp": 1787160073.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75144 - FFmpeg Heap Buffer Overflow in VC-2/Dirac RTP Packetizer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75144",
-      "summary": "CVE ID :CVE-2026-75144\n  \n  Published : Aug. 19, 2026, 5:21 p.m. | 40\u00a0minutes ago\n  \n  Description :FFmpeg before commit 1cdeb3c contains a heap buffe...",
-      "timestamp": 1787160072.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75143 - FFmpeg Heap Buffer Overflow via RIST Protocol Reader",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75143",
-      "summary": "CVE ID :CVE-2026-75143\n  \n  Published : Aug. 19, 2026, 5:21 p.m. | 40\u00a0minutes ago\n  \n  Description :FFmpeg before commit 1c10bcc contains a heap buffe...",
-      "timestamp": 1787160072.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75142 - FFmpeg Stack Buffer Overflow in MPEG-PS Muxer via mpegenc.c",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75142",
-      "summary": "CVE ID :CVE-2026-75142\n  \n  Published : Aug. 19, 2026, 5:21 p.m. | 40\u00a0minutes ago\n  \n  Description :FFmpeg before commit 9d786e4 contains a stack buff...",
-      "timestamp": 1787160072.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75141 - FFmpeg Heap Buffer Overflow in hvcC Box Writer via HEVC Muxing",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75141",
-      "summary": "CVE ID :CVE-2026-75141\n  \n  Published : Aug. 19, 2026, 5:21 p.m. | 40\u00a0minutes ago\n  \n  Description :FFmpeg before commit acf5d7c contains a heap buffe...",
-      "timestamp": 1787160072.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
@@ -307,8 +307,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -323,8 +323,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -347,8 +347,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -363,24 +363,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787168285.1578405
+  "last_updated": 1787169469.6306617
 }
