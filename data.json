@@ -52,12 +52,28 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Hackers compromise 14,500 Dahua web cameras in 35-day campaign",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/",
+      "summary": "In a large-scale campaign that researchers dubbed CameraSwarm, hackers compromised more than 14,500 Dahua IP cameras mostly in Ukraine and\u00a0Russia. [.....",
+      "timestamp": 1787162953.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-19234 - This Power System update is being released to address",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19234",
+      "summary": "CVE ID :CVE-2026-19234\n  \n  Published : Aug. 19, 2026, 6:02 p.m. | 16\u00a0minutes ago\n  \n  Description :IBM Power Firmware FW1120.00, FW1110.00 through FW...",
+      "timestamp": 1787162531.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "US warns of AI-powered attacks on Siemens PLCs in critical infrastructure",
       "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
@@ -65,6 +81,78 @@
       "timestamp": 1787161801.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-75149 - marimo < 0.23.15 Code Injection via MCP Server Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75149",
+      "summary": "CVE ID :CVE-2026-75149\n  \n  Published : Aug. 19, 2026, 5:48 p.m. | 30\u00a0minutes ago\n  \n  Description :marimo before 0.23.15 contains a code injection vu...",
+      "timestamp": 1787161726.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-61518 - ISPConfig Authenticated SQL Injection via Remote API primary_id Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61518",
+      "summary": "CVE ID :CVE-2026-61518\n  \n  Published : Aug. 19, 2026, 5:45 p.m. | 33\u00a0minutes ago\n  \n  Description :ISPConfig contains an authenticated SQL injection ...",
+      "timestamp": 1787161548.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-14600 - Admin Account Takeover via Path Traversal in vsDesk",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-14600",
+      "summary": "CVE ID :CVE-2025-14600\n  \n  Published : Aug. 19, 2026, 5:39 p.m. | 39\u00a0minutes ago\n  \n  Description :An insecure deserialization vulnerability in vsDes...",
+      "timestamp": 1787161182.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66794 - Cluster-proxy-addon: cluster-proxy-addon: unauthenticated ssrf to arbitrary managed-cluster services via public route",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66794",
+      "summary": "CVE ID :CVE-2026-66794\n  \n  Published : Aug. 19, 2026, 5:30 p.m. | 48\u00a0minutes ago\n  \n  Description :A flaw was found in the `cluster-proxy-addon` comp...",
+      "timestamp": 1787160607.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-32475 - WordPress Elementor Pro plugin <= 4.2.1 - Arbitrary File Upload vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-32475",
+      "summary": "CVE ID :CVE-2026-32475\n  \n  Published : Aug. 19, 2026, 5:24 p.m. | 54\u00a0minutes ago\n  \n  Description :Unrestricted Upload of File with Dangerous Type vu...",
+      "timestamp": 1787160295.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75146 - FFmpeg Out-of-Bounds Read in DASH Demuxer via dashdec.c",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75146",
+      "summary": "CVE ID :CVE-2026-75146\n  \n  Published : Aug. 19, 2026, 5:21 p.m. | 57\u00a0minutes ago\n  \n  Description :FFmpeg before commit 65b0dab contains an out-of-bo...",
+      "timestamp": 1787160073.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75144 - FFmpeg Heap Buffer Overflow in VC-2/Dirac RTP Packetizer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75144",
+      "summary": "CVE ID :CVE-2026-75144\n  \n  Published : Aug. 19, 2026, 5:21 p.m. | 57\u00a0minutes ago\n  \n  Description :FFmpeg before commit 1cdeb3c contains a heap buffe...",
+      "timestamp": 1787160072.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75143 - FFmpeg Heap Buffer Overflow via RIST Protocol Reader",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75143",
+      "summary": "CVE ID :CVE-2026-75143\n  \n  Published : Aug. 19, 2026, 5:21 p.m. | 57\u00a0minutes ago\n  \n  Description :FFmpeg before commit 1c10bcc contains a heap buffe...",
+      "timestamp": 1787160072.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75142 - FFmpeg Stack Buffer Overflow in MPEG-PS Muxer via mpegenc.c",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75142",
+      "summary": "CVE ID :CVE-2026-75142\n  \n  Published : Aug. 19, 2026, 5:21 p.m. | 57\u00a0minutes ago\n  \n  Description :FFmpeg before commit 9d786e4 contains a stack buff...",
+      "timestamp": 1787160072.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
@@ -147,86 +235,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-75956 - Joomla Extension - cmsjunkie.com - DOS vector in pagination parameter handling in J-BusinessDirectory < 6.2.3",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75956",
-      "summary": "CVE ID :CVE-2026-75956\n  \n  Published : 19 de Agosto de 2026 a las 15:18 | 41\u00a0minutos ago\n  \n  Description :Joomla Extension - cmsjunkie.com - DOS vec...",
-      "timestamp": 1787152690.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75954 - Joomla Extension - cmsjunkie.com -  SQL injection in trips search in J-BusinessDirectory < 6.2.3",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75954",
-      "summary": "CVE ID :CVE-2026-75954\n  \n  Published : 19 de Agosto de 2026 a las 15:18 | 41\u00a0minutos ago\n  \n  Description :Joomla Extension - cmsjunkie.com -  SQL in...",
-      "timestamp": 1787152690.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75949 - Joomla Extension - cmsjunkie.com -  Arbitrary file upload / deletion (path traversal) in J-BusinessDirectory < 6.2.3",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75949",
-      "summary": "CVE ID :CVE-2026-75949\n  \n  Published : 19 de Agosto de 2026 a las 15:18 | 41\u00a0minutos ago\n  \n  Description :Joomla Extension - cmsjunkie.com -  Arbitr...",
-      "timestamp": 1787152689.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71961 - Cudy WR3000 2.0 OS Command Injection via Mesh MQTT Command Handler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71961",
-      "summary": "CVE ID :CVE-2026-71961\n  \n  Published : 19 de Agosto de 2026 a las 15:18 | 41\u00a0minutos ago\n  \n  Description :Cudy WR3000 2.0 running firmware before 2....",
-      "timestamp": 1787152682.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71960 - Cudy WR3000 2.0 Hard-coded JWT Secret Authentication Bypass via MQTT",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71960",
-      "summary": "CVE ID :CVE-2026-71960\n  \n  Published : 19 de Agosto de 2026 a las 15:18 | 41\u00a0minutos ago\n  \n  Description :Cudy WR3000 2.0 running firmware before 2....",
-      "timestamp": 1787152681.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71176 - Dell OpenManage Enterprise SQL Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71176",
-      "summary": "CVE ID :CVE-2026-71176\n  \n  Published : 19 de Agosto de 2026 a las 15:18 | 41\u00a0minutos ago\n  \n  Description :Dell OpenManage Enterprise, versions prior...",
-      "timestamp": 1787152681.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58565 - Dell Command Update Missing Authorization Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58565",
-      "summary": "CVE ID :CVE-2026-58565\n  \n  Published : 19 de Agosto de 2026 a las 15:17 | 42\u00a0minutos ago\n  \n  Description :Dell Command Update (DCU), versions prior ...",
-      "timestamp": 1787152633.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53451 - Ground Station: Unauthenticated arbitrary file write (path traversal) in save-waterfall-snapshot leads to remote code execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53451",
-      "summary": "CVE ID :CVE-2026-53451\n  \n  Published : 19 de Agosto de 2026 a las 15:17 | 42\u00a0minutos ago\n  \n  Description :Ground Station is a browser-based suite fo...",
-      "timestamp": 1787152630.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52889 - Formie: Server-Side Template Injection in Formie Hidden field defaults",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52889",
-      "summary": "CVE ID :CVE-2026-52889\n  \n  Published : 19 de Agosto de 2026 a las 15:17 | 42\u00a0minutos ago\n  \n  Description :Formie is a Craft CMS plugin for creating ...",
-      "timestamp": 1787152629.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-52792 - Algernon: Server-side script source disclosure on Windows via NTFS filename",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52792",
-      "summary": "CVE ID :CVE-2026-52792\n  \n  Published : 19 de Agosto de 2026 a las 15:17 | 42\u00a0minutos ago\n  \n  Description :Algernon is a small self-contained pure-Go...",
-      "timestamp": 1787152629.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
       "link": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
       "summary": "Huntress observed a 155x increase in password spraying attacks in H1 2026, including a campaign that generated more than 81 million login attempts in ...",
@@ -283,14 +291,6 @@
       "vendor": "News"
     },
     {
-      "title": "Your Controls Block Known Attacks. What About the Behavior?",
-      "link": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
-      "summary": "Security controls can block a familiar attack method while missing quieter ways to achieve the same objective. Picus Security's Blue Report 2026 shows...",
-      "timestamp": 1787061671.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
       "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every...",
@@ -307,8 +307,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -323,40 +323,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -371,8 +347,32 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787162283.4786289
+  "last_updated": 1787165565.5778663
 }
