@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 8,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
+      "summary": "On August 19, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE ID\nSe...",
+      "timestamp": 1787155240.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
     {
       "title": "Cisco Secure Workload Software Security Hardening Release: August 2026",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-csw1-shSvndWP?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Workload%20Software%20Security%20Hardening%20Release:%20August%202026%26vs_k=1",
@@ -131,82 +139,82 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-15078 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15078",
-      "summary": "CVE ID :CVE-2026-15078\n  \n  Published : Aug. 19, 2026, 2:35 p.m. | 16\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 NIM ...",
-      "timestamp": 1787150128.0,
+      "title": "CVE-2026-75956 - Joomla Extension - cmsjunkie.com - DOS vector in pagination parameter handling in J-BusinessDirectory < 6.2.3",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75956",
+      "summary": "CVE ID :CVE-2026-75956\n  \n  Published : Aug. 19, 2026, 3:18 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :Joomla Extension - cmsjunkie.com - DOS vect...",
+      "timestamp": 1787152690.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-15068 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15068",
-      "summary": "CVE ID :CVE-2026-15068\n  \n  Published : Aug. 19, 2026, 2:34 p.m. | 17\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 NIM ...",
-      "timestamp": 1787150067.0,
+      "title": "CVE-2026-75954 - Joomla Extension - cmsjunkie.com -  SQL injection in trips search in J-BusinessDirectory < 6.2.3",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75954",
+      "summary": "CVE ID :CVE-2026-75954\n  \n  Published : Aug. 19, 2026, 3:18 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :Joomla Extension - cmsjunkie.com -  SQL inj...",
+      "timestamp": 1787152690.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-15065 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15065",
-      "summary": "CVE ID :CVE-2026-15065\n  \n  Published : Aug. 19, 2026, 2:33 p.m. | 17\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 NIM ...",
-      "timestamp": 1787150016.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-15061 - Vulnerabilities in IBM AIX and PowerVM VIOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15061",
-      "summary": "CVE ID :CVE-2026-15061\n  \n  Published : Aug. 19, 2026, 2:33 p.m. | 18\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 's n...",
-      "timestamp": 1787149980.0,
+      "title": "CVE-2026-75949 - Joomla Extension - cmsjunkie.com -  Arbitrary file upload / deletion (path traversal) in J-BusinessDirectory < 6.2.3",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75949",
+      "summary": "CVE ID :CVE-2026-75949\n  \n  Published : Aug. 19, 2026, 3:18 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :Joomla Extension - cmsjunkie.com -  Arbitra...",
+      "timestamp": 1787152689.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-71961 - Cudy WR3000 2.0 OS Command Injection via Mesh MQTT Command Handler",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71961",
-      "summary": "CVE ID :CVE-2026-71961\n  \n  Published : Aug. 19, 2026, 2:28 p.m. | 22\u00a0minutes ago\n  \n  Description :Cudy WR3000 2.0 running firmware before 2.5.24 con...",
-      "timestamp": 1787149725.0,
+      "summary": "CVE ID :CVE-2026-71961\n  \n  Published : Aug. 19, 2026, 3:18 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :Cudy WR3000 2.0 running firmware before 2.5...",
+      "timestamp": 1787152682.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-71960 - Cudy WR3000 2.0 Hard-coded JWT Secret Authentication Bypass via MQTT",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71960",
-      "summary": "CVE ID :CVE-2026-71960\n  \n  Published : Aug. 19, 2026, 2:27 p.m. | 23\u00a0minutes ago\n  \n  Description :Cudy WR3000 2.0 running firmware before 2.5.24 con...",
-      "timestamp": 1787149677.0,
+      "summary": "CVE ID :CVE-2026-71960\n  \n  Published : Aug. 19, 2026, 3:18 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :Cudy WR3000 2.0 running firmware before 2.5...",
+      "timestamp": 1787152681.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-76244 - stigmem-node Insecure Federation Transport Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76244",
-      "summary": "CVE ID :CVE-2026-76244\n  \n  Published : Aug. 19, 2026, 2:17 p.m. | 33\u00a0minutes ago\n  \n  Description :stigmem-node contains an insecure default configur...",
-      "timestamp": 1787149076.0,
+      "title": "CVE-2026-71176 - Dell OpenManage Enterprise SQL Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71176",
+      "summary": "CVE ID :CVE-2026-71176\n  \n  Published : Aug. 19, 2026, 3:18 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :Dell OpenManage Enterprise, versions prior ...",
+      "timestamp": 1787152681.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-76243 - stigmem before 0.9.0a2 Authentication Bypass via Disabled Auth",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76243",
-      "summary": "CVE ID :CVE-2026-76243\n  \n  Published : Aug. 19, 2026, 2:17 p.m. | 33\u00a0minutes ago\n  \n  Description :stigmem versions before 0.9.0a2 allow unauthentica...",
-      "timestamp": 1787149076.0,
+      "title": "CVE-2026-58565 - Dell Command Update Missing Authorization Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58565",
+      "summary": "CVE ID :CVE-2026-58565\n  \n  Published : Aug. 19, 2026, 3:17 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :Dell Command Update (DCU), versions prior t...",
+      "timestamp": 1787152633.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-76242 - stigmem Federation Peer Registration Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76242",
-      "summary": "CVE ID :CVE-2026-76242\n  \n  Published : Aug. 19, 2026, 2:17 p.m. | 33\u00a0minutes ago\n  \n  Description :stigmem-node 0.9.0a1 accepts federation peer key m...",
-      "timestamp": 1787149076.0,
+      "title": "CVE-2026-53451 - Ground Station: Unauthenticated arbitrary file write (path traversal) in save-waterfall-snapshot leads to remote code execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53451",
+      "summary": "CVE ID :CVE-2026-53451\n  \n  Published : Aug. 19, 2026, 3:17 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :Ground Station is a browser-based suite for...",
+      "timestamp": 1787152630.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-76237 - stigmem before 0.9.0a12 Cross-Tenant BOLA via quarantine",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76237",
-      "summary": "CVE ID :CVE-2026-76237\n  \n  Published : Aug. 19, 2026, 2:17 p.m. | 33\u00a0minutes ago\n  \n  Description :stigmem-node before 0.9.0a12 contains a broken obj...",
-      "timestamp": 1787149075.0,
+      "title": "CVE-2026-52889 - Formie: Server-Side Template Injection in Formie Hidden field defaults",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52889",
+      "summary": "CVE ID :CVE-2026-52889\n  \n  Published : Aug. 19, 2026, 3:17 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :Formie is a Craft CMS plugin for creating f...",
+      "timestamp": 1787152629.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52792 - Algernon: Server-side script source disclosure on Windows via NTFS filename",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52792",
+      "summary": "CVE ID :CVE-2026-52792\n  \n  Published : Aug. 19, 2026, 3:17 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :Algernon is a small self-contained pure-Go ...",
+      "timestamp": 1787152629.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -283,14 +291,6 @@
       "vendor": "News"
     },
     {
-      "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
-      "summary": "On August 19, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information a...",
-      "timestamp": 1786735284.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
       "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every...",
@@ -307,8 +307,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -323,30 +323,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
       "summary": "",
@@ -355,8 +331,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -371,8 +355,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787155542.9959657
+  "last_updated": 1787157896.6806297
 }
