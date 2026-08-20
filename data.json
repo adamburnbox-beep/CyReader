@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,36 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in ...",
+      "timestamp": 1787223974.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-11861 - Freeipa: idm: ipa: freeipa: obtaining tgs with impersonating cname through trust relationships",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11861",
+      "summary": "CVE ID :CVE-2026-11861\n  \n  Published : Aug. 20, 2026, 10:39 a.m. | 21\u00a0minutes ago\n  \n  Description :A flaw was found in FreeIPA. When a trust relatio...",
+      "timestamp": 1787222348.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-13097 - Ipa: privilege escalation via krbcanonicalname manipulation due to realm-unaware uniqueness enforcement in freeipa ldap datastore",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13097",
+      "summary": "CVE ID :CVE-2026-13097\n  \n  Published : Aug. 20, 2026, 10:37 a.m. | 22\u00a0minutes ago\n  \n  Description :A privilege escalation flaw was found in FreeIPA....",
+      "timestamp": 1787222275.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "New Manic Android malware can exfiltrate data through nearby devices",
       "link": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
@@ -77,7 +101,7 @@
     {
       "title": "CVE-2026-14952 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is offering files with sensitive information for download without requiring authentication",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14952",
-      "summary": "CVE ID :CVE-2026-14952\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 44\u00a0minutes ago\n  \n  Description :An unauthenticated remote attacker can retrieve se...",
+      "summary": "CVE ID :CVE-2026-14952\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :An unauthenticated remote attacker can ret...",
       "timestamp": 1787217407.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +109,7 @@
     {
       "title": "CVE-2026-14951 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Cross-Site Request Forgery due to missing CSFR protection headers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14951",
-      "summary": "CVE ID :CVE-2026-14951\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 44\u00a0minutes ago\n  \n  Description :An low privileged remote attacker can cause authen...",
+      "summary": "CVE ID :CVE-2026-14951\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :An low privileged remote attacker can caus...",
       "timestamp": 1787217407.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +117,7 @@
     {
       "title": "CVE-2026-14950 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Insufficient Session Expiration due to flawed session expiration logic",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14950",
-      "summary": "CVE ID :CVE-2026-14950\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 44\u00a0minutes ago\n  \n  Description :An unauthenticated remote attacker in possession o...",
+      "summary": "CVE ID :CVE-2026-14950\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :An unauthenticated remote attacker in poss...",
       "timestamp": 1787217407.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +125,7 @@
     {
       "title": "CVE-2026-14949 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Incorrect Authorization due to improper enforcement of role-based access control",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14949",
-      "summary": "CVE ID :CVE-2026-14949\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 44\u00a0minutes ago\n  \n  Description :A low privileged remote attacker with a valid sess...",
+      "summary": "CVE ID :CVE-2026-14949\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :A low privileged remote attacker with a va...",
       "timestamp": 1787217407.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +133,7 @@
     {
       "title": "CVE-2026-14948 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Insertion of Sensitive Information into Log File via error log archives",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14948",
-      "summary": "CVE ID :CVE-2026-14948\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 44\u00a0minutes ago\n  \n  Description :A low privileged remote attacker can hijack an act...",
+      "summary": "CVE ID :CVE-2026-14948\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :A low privileged remote attacker can hijac...",
       "timestamp": 1787217407.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +141,7 @@
     {
       "title": "CVE-2026-14947 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Remote Code Execution via malicious ZIP file",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14947",
-      "summary": "CVE ID :CVE-2026-14947\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 44\u00a0minutes ago\n  \n  Description :A high-privileged remote attacker can upload malic...",
+      "summary": "CVE ID :CVE-2026-14947\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :A high-privileged remote attacker can uplo...",
       "timestamp": 1787217406.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +149,7 @@
     {
       "title": "CVE-2026-14946 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Remote Code Execution via malicious configuration file.",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14946",
-      "summary": "CVE ID :CVE-2026-14946\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 44\u00a0minutes ago\n  \n  Description :A high privileged remote attacker can upload a .ph...",
+      "summary": "CVE ID :CVE-2026-14946\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :A high privileged remote attacker can uplo...",
       "timestamp": 1787217405.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,24 +157,8 @@
     {
       "title": "CVE-2026-76564 - Joomla Extension - phoca.cz -  Stored XSS via User-Agent header in Admin Order View in Phoca Cart 5.0.0-6.1.7",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76564",
-      "summary": "CVE ID :CVE-2026-76564\n  \n  Published : Aug. 20, 2026, 8:16 a.m. | 1\u00a0hour, 44\u00a0minutes ago\n  \n  Description :Joomla Extension - phoca.cz -  Stored XSS ...",
+      "summary": "CVE ID :CVE-2026-76564\n  \n  Published : Aug. 20, 2026, 8:16 a.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :Joomla Extension - phoca.cz -  Stored XSS...",
       "timestamp": 1787213807.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75948 - Joomla Extension - icagenda.com -  Authenticated Stored XSS in iCagenda 4.0.8 to 4.0.12",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75948",
-      "summary": "CVE ID :CVE-2026-75948\n  \n  Published : Aug. 20, 2026, 8:16 a.m. | 1\u00a0hour, 44\u00a0minutes ago\n  \n  Description :Joomla Extension - icagenda.com -  Authent...",
-      "timestamp": 1787213807.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-14601 - vsDesk Task Scheduler OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-14601",
-      "summary": "CVE ID :CVE-2025-14601\n  \n  Published : Aug. 20, 2026, 8:16 a.m. | 1\u00a0hour, 44\u00a0minutes ago\n  \n  Description :An OS command injection vulnerability in v...",
-      "timestamp": 1787213806.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -283,14 +291,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "US charges Iranian hackers over $3.4 billion intellectual property theft",
-      "link": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/",
-      "summary": "The U.S. has charged 17 Iranians, alleged members of a hacking-for-hire company called Mabna Institute, involved in years-long operations that stole d...",
-      "timestamp": 1787154969.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
       "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every...",
@@ -307,16 +307,16 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -331,16 +331,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -349,6 +341,14 @@
     {
       "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -371,8 +371,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787223934.2974713
+  "last_updated": 1787226032.1316946
 }
