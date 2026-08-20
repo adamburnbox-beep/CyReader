@@ -59,10 +59,82 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-2334 - ) Missing Server-Side File Extension Validation in vsDesk",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-2334",
-      "summary": "CVE ID :CVE-2026-2334\n  \n  Published : Aug. 20, 2026, 6:03 p.m. | 15\u00a0minutes ago\n  \n  Description :An issue was discovered in vsDesk v14.0101. An auth...",
-      "timestamp": 1787249018.0,
+      "title": "CVE-2026-19586 - Pre-Authentication OS Command Injection in Omada Gateways on OpenVPN Server in Omada Gateways",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19586",
+      "summary": "CVE ID :CVE-2026-19586\n  \n  Published : Aug. 20, 2026, 6:32 p.m. | 44\u00a0minutes ago\n  \n  Description :A pre-authentication OS command injection vulnerab...",
+      "timestamp": 1787250726.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72852 - darknet Integer Overflow in Convolutional Layer Buffer Sizing Leads to Heap Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72852",
+      "summary": "CVE ID :CVE-2026-72852\n  \n  Published : Aug. 20, 2026, 6:19 p.m. | 57\u00a0minutes ago\n  \n  Description :hank-ai/darknet sizes a convolutional layer's weig...",
+      "timestamp": 1787249963.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73257 - Mongoose: Content-Length + Transfer-Encoding coexistence enables request smuggling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73257",
+      "summary": "CVE ID :CVE-2026-73257\n  \n  Published : Aug. 20, 2026, 6:16 p.m. | 1\u00a0hour ago\n  \n  Description :Mongoose is an embedded web server and network library...",
+      "timestamp": 1787249806.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73256 - Mongoose: HTTP/1.0 detection off-by-one enables request smuggling via chunked TE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73256",
+      "summary": "CVE ID :CVE-2026-73256\n  \n  Published : Aug. 20, 2026, 6:16 p.m. | 1\u00a0hour ago\n  \n  Description :Mongoose is an embedded web server and network library...",
+      "timestamp": 1787249806.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73253 - Mongoose: TLS Hostname Verification Bypass via Overly Permissive Wildcard Matching",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73253",
+      "summary": "CVE ID :CVE-2026-73253\n  \n  Published : Aug. 20, 2026, 6:16 p.m. | 1\u00a0hour ago\n  \n  Description :Mongoose is an embedded web server and network library...",
+      "timestamp": 1787249805.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73251 - Mongoose Built-in TLS: CA-bundle certificate chain accepted without any signature verification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73251",
+      "summary": "CVE ID :CVE-2026-73251\n  \n  Published : Aug. 20, 2026, 6:16 p.m. | 1\u00a0hour ago\n  \n  Description :Mongoose is an embedded web server and network library...",
+      "timestamp": 1787249805.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63388 - Libevent: Heap out-of-bounds write in bufferevent_socket_set_conn_address_ reachable via AF_UNIX accept",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63388",
+      "summary": "CVE ID :CVE-2026-63388\n  \n  Published : Aug. 20, 2026, 6:16 p.m. | 1\u00a0hour ago\n  \n  Description :Libevent is an event notification library. Prior to 2....",
+      "timestamp": 1787249796.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63385 - Libevent: HTTP header handling bugs create risk of access control bypass.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63385",
+      "summary": "CVE ID :CVE-2026-63385\n  \n  Published : Aug. 20, 2026, 6:16 p.m. | 1\u00a0hour ago\n  \n  Description :Libevent is an event notification library. Prior to 2....",
+      "timestamp": 1787249796.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63384 - Libevent: `evtag_unmarshal_header()` decodes a wire `uint32` length into a signed `int` return value.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63384",
+      "summary": "CVE ID :CVE-2026-63384\n  \n  Published : Aug. 20, 2026, 6:16 p.m. | 1\u00a0hour ago\n  \n  Description :Libevent is an event notification library. Prior to 2....",
+      "timestamp": 1787249796.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63383 - Libevent: decode_tag_internal() can lead to out-of-bounds read",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63383",
+      "summary": "CVE ID :CVE-2026-63383\n  \n  Published : Aug. 20, 2026, 6:16 p.m. | 1\u00a0hour ago\n  \n  Description :Libevent is an event notification library. Prior to 2....",
+      "timestamp": 1787249795.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -73,78 +145,6 @@
       "timestamp": 1787248432.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-76641 - Expat Out-of-Bounds Read via dtdCopy",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76641",
-      "summary": "CVE ID :CVE-2026-76641\n  \n  Published : Aug. 20, 2026, 5:31 p.m. | 48\u00a0minutes ago\n  \n  Description :Expat through 2.8.3 contains an out-of-bounds read...",
-      "timestamp": 1787247070.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53424 - Missing one-time-use enforcement in Samly allows replay of SAML bearer assertions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53424",
-      "summary": "CVE ID :CVE-2026-53424\n  \n  Published : Aug. 20, 2026, 5:27 p.m. | 52\u00a0minutes ago\n  \n  Description :Authentication Bypass by Capture-replay vulnerabil...",
-      "timestamp": 1787246831.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77176 - Kata-containers: insufficient validation of createcontainer mount and storage rules in genpolicy",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77176",
-      "summary": "CVE ID :CVE-2026-77176\n  \n  Published : Aug. 20, 2026, 5:19 p.m. | 59\u00a0minutes ago\n  \n  Description :A flaw was found in Kata Containers. In configurat...",
-      "timestamp": 1787246389.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77022 - Comfast CF-N1-S SSID Configuration mbox-config sub_44B438 stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77022",
-      "summary": "CVE ID :CVE-2026-77022\n  \n  Published : Aug. 20, 2026, 5:19 p.m. | 59\u00a0minutes ago\n  \n  Description :A security flaw has been discovered in Comfast CF-...",
-      "timestamp": 1787246389.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71428 - unstructured: Server-Side Request Forgery in the URL-based partitioning",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71428",
-      "summary": "CVE ID :CVE-2026-71428\n  \n  Published : Aug. 20, 2026, 5:19 p.m. | 59\u00a0minutes ago\n  \n  Description :The unstructured library provides open-source comp...",
-      "timestamp": 1787246380.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65842 - Plate: SSRF with response disclosure in DOCX image embedding",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65842",
-      "summary": "CVE ID :CVE-2026-65842\n  \n  Published : Aug. 20, 2026, 5:19 p.m. | 1\u00a0hour ago\n  \n  Description :Plate is a rich-text editor with AI and shadcn/ui. Pri...",
-      "timestamp": 1787246363.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55642 - dbx: Unauthenticated arbitrary SQL execution in dbx-web (authentication fails open when no password is configured)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55642",
-      "summary": "CVE ID :CVE-2026-55642\n  \n  Published : Aug. 20, 2026, 5:18 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :dbx is a cross-platform database client for ...",
-      "timestamp": 1787246307.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54449 - LangBot: Authenticated RCE Via MCP Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54449",
-      "summary": "CVE ID :CVE-2026-54449\n  \n  Published : Aug. 20, 2026, 5:18 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :LangBot is a global IM bot platform designed...",
-      "timestamp": 1787246297.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-40345 - deepmerge-ts: Stack exhaustion when merging recursive object graphs",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40345",
-      "summary": "CVE ID :CVE-2026-40345\n  \n  Published : Aug. 20, 2026, 5:17 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :deepmerge-ts is a typescript library provid...",
-      "timestamp": 1787246249.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
@@ -315,14 +315,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
       "summary": "",
@@ -331,8 +323,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -347,8 +347,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -371,8 +371,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787252268.1356866
+  "last_updated": 1787254943.534981
 }
