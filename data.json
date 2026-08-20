@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,108 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
+      "summary": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the serve...",
+      "timestamp": 1787236788.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "How MSPs can catch phishing attacks email filters miss",
+      "link": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
+      "summary": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monit...",
+      "timestamp": 1787234471.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-77118 - Out-of-bounds write in GraphicsMagick PCD decoder",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77118",
+      "summary": "CVE ID :CVE-2026-77118\n  \n  Published : Aug. 20, 2026, 12:42 p.m. | 32\u00a0minutes ago\n  \n  Description :A heap out-of-bounds write exists in the Photo CD...",
+      "timestamp": 1787229762.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-28164 - WordPress Easy Elementor Addons plugin <= 2.3.7 - Cross Site Request Forgery (CSRF) vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28164",
+      "summary": "CVE ID :CVE-2026-28164\n  \n  Published : Aug. 20, 2026, 12:38 p.m. | 37\u00a0minutes ago\n  \n  Description :Cross-Site Request Forgery (CSRF) vulnerability i...",
+      "timestamp": 1787229486.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77080 - n8n before 1.123.69 Arbitrary File Read and Write via Snowflake",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77080",
+      "summary": "CVE ID :CVE-2026-77080\n  \n  Published : Aug. 20, 2026, 12:16 p.m. | 58\u00a0minutes ago\n  \n  Description :n8n before 1.123.69, 2.x before 2.33.4, and 2.34....",
+      "timestamp": 1787228199.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77075 - n8n before 1.123.69 Expression Injection via Resource Locator",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77075",
+      "summary": "CVE ID :CVE-2026-77075\n  \n  Published : Aug. 20, 2026, 12:16 p.m. | 58\u00a0minutes ago\n  \n  Description :n8n before 1.123.69, 2.x before 2.33.4, and 2.34....",
+      "timestamp": 1787228198.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77072 - n8n before 1.123.69 Stored XSS via Form Completion Page",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77072",
+      "summary": "CVE ID :CVE-2026-77072\n  \n  Published : Aug. 20, 2026, 12:16 p.m. | 58\u00a0minutes ago\n  \n  Description :n8n before 1.123.69, 2.33.4, and 2.34.1 contains ...",
+      "timestamp": 1787228198.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77068 - n8n before 2.34.1 Remote Code Execution via Path Traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77068",
+      "summary": "CVE ID :CVE-2026-77068\n  \n  Published : Aug. 20, 2026, 12:16 p.m. | 58\u00a0minutes ago\n  \n  Description :n8n before 2.33.4 and 2.34.x before 2.34.1 contai...",
+      "timestamp": 1787228197.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-74018 - WordPress Warehouse Cargo theme <= 2.6.9 - Arbitrary File Upload vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74018",
+      "summary": "CVE ID :CVE-2026-74018\n  \n  Published : Aug. 20, 2026, 12:16 p.m. | 58\u00a0minutes ago\n  \n  Description :Subscriber Arbitrary File Upload in Warehouse Car...",
+      "timestamp": 1787228197.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-74016 - WordPress Smart Cleaning theme <= 4.8.6 - Arbitrary File Upload vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74016",
+      "summary": "CVE ID :CVE-2026-74016\n  \n  Published : Aug. 20, 2026, 12:16 p.m. | 58\u00a0minutes ago\n  \n  Description :Subscriber Arbitrary File Upload in Smart Cleanin...",
+      "timestamp": 1787228197.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-74014 - WordPress IT Residence theme <= 3.2.1 - Arbitrary File Upload vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74014",
+      "summary": "CVE ID :CVE-2026-74014\n  \n  Published : Aug. 20, 2026, 12:16 p.m. | 58\u00a0minutes ago\n  \n  Description :Subscriber Arbitrary File Upload in IT Residence ...",
+      "timestamp": 1787228197.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-74013 - WordPress eShipper Commerce plugin <= 2.16.13 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74013",
+      "summary": "CVE ID :CVE-2026-74013\n  \n  Published : Aug. 20, 2026, 12:16 p.m. | 58\u00a0minutes ago\n  \n  Description :Subscriber SQL Injection in eShipper Commerce <= ...",
+      "timestamp": 1787228197.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
       "link": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
@@ -65,54 +161,6 @@
       "timestamp": 1787228078.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-77080 - n8n before 1.123.69 Arbitrary File Read and Write via Snowflake",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77080",
-      "summary": "CVE ID :CVE-2026-77080\n  \n  Published : Aug. 20, 2026, 11:21 a.m. | 40\u00a0minutes ago\n  \n  Description :n8n before 1.123.69, 2.x before 2.33.4, and 2.34....",
-      "timestamp": 1787224872.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77075 - n8n before 1.123.69 Expression Injection via Resource Locator",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77075",
-      "summary": "CVE ID :CVE-2026-77075\n  \n  Published : Aug. 20, 2026, 11:21 a.m. | 40\u00a0minutes ago\n  \n  Description :n8n before 1.123.69, 2.x before 2.33.4, and 2.34....",
-      "timestamp": 1787224869.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77072 - n8n before 1.123.69 Stored XSS via Form Completion Page",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77072",
-      "summary": "CVE ID :CVE-2026-77072\n  \n  Published : Aug. 20, 2026, 11:21 a.m. | 40\u00a0minutes ago\n  \n  Description :n8n before 1.123.69, 2.33.4, and 2.34.1 contains ...",
-      "timestamp": 1787224867.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77068 - n8n before 2.34.1 Remote Code Execution via Path Traversal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77068",
-      "summary": "CVE ID :CVE-2026-77068\n  \n  Published : Aug. 20, 2026, 11:21 a.m. | 40\u00a0minutes ago\n  \n  Description :n8n before 2.33.4 and 2.34.x before 2.34.1 contai...",
-      "timestamp": 1787224864.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13097 - Ipa: privilege escalation via krbcanonicalname manipulation due to realm-unaware uniqueness enforcement in freeipa ldap datastore",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13097",
-      "summary": "CVE ID :CVE-2026-13097\n  \n  Published : Aug. 20, 2026, 11:16 a.m. | 45\u00a0minutes ago\n  \n  Description :A privilege escalation flaw was found in FreeIPA....",
-      "timestamp": 1787224580.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-11861 - Freeipa: idm: ipa: freeipa: obtaining tgs with impersonating cname through trust relationships",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-11861",
-      "summary": "CVE ID :CVE-2026-11861\n  \n  Published : Aug. 20, 2026, 11:16 a.m. | 45\u00a0minutes ago\n  \n  Description :A flaw was found in FreeIPA. When a trust relatio...",
-      "timestamp": 1787224579.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
@@ -137,38 +185,6 @@
       "timestamp": 1787219214.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-14952 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is offering files with sensitive information for download without requiring authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14952",
-      "summary": "CVE ID :CVE-2026-14952\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :An unauthenticated remote attacker can re...",
-      "timestamp": 1787217407.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14951 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Cross-Site Request Forgery due to missing CSFR protection headers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14951",
-      "summary": "CVE ID :CVE-2026-14951\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :An low privileged remote attacker can cau...",
-      "timestamp": 1787217407.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14950 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Insufficient Session Expiration due to flawed session expiration logic",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14950",
-      "summary": "CVE ID :CVE-2026-14950\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :An unauthenticated remote attacker in pos...",
-      "timestamp": 1787217407.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14949 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Incorrect Authorization due to improper enforcement of role-based access control",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14949",
-      "summary": "CVE ID :CVE-2026-14949\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :A low privileged remote attacker with a v...",
-      "timestamp": 1787217407.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft says August Windows updates may cause gaming issues",
@@ -199,22 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
       "summary": "Japanese cloud and data center service provider Sakura Internet disclosed that hackers accessed its sales management system, where customer contract a...",
       "timestamp": 1787172818.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Healthtech firm CareCloud data breach impacts 3.7 million patients",
-      "link": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
-      "summary": "U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individu...",
-      "timestamp": 1787170032.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers compromise 14,500 Dahua web cameras in 35-day campaign",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/",
-      "summary": "In a large-scale campaign that researchers dubbed CameraSwarm, hackers compromised more than 14,500 Dahua IP cameras mostly in Ukraine and\u00a0Russia. [.....",
-      "timestamp": 1787162953.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -307,16 +307,16 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -331,16 +331,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -349,6 +341,14 @@
     {
       "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -371,8 +371,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787234251.5216634
+  "last_updated": 1787237505.4645288
 }
