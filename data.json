@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,32 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 8,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Hackers poison arrayref Rust crate to push infostealer malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
+      "summary": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during...",
+      "timestamp": 1787248432.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-75140 - jsoup Uncontrolled Resource Consumption in XmlTreeBuilder",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75140",
+      "summary": "CVE ID :CVE-2026-75140\n  \n  Published : Aug. 20, 2026, 3:56 p.m. | 22\u00a0minutes ago\n  \n  Description :jsoup through 1.23.2, fixed in commit 862ba2f, con...",
+      "timestamp": 1787241410.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-73220 - CVAT: Stored XSS via annotation guides in audio tasks",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73220",
-      "summary": "CVE ID :CVE-2026-73220\n  \n  Published : Aug. 20, 2026, 3:18 p.m. | 43\u00a0minutes ago\n  \n  Description :CVAT is an open source interactive video and image...",
+      "summary": "CVE ID :CVE-2026-73220\n  \n  Published : Aug. 20, 2026, 3:18 p.m. | 1\u00a0hour ago\n  \n  Description :CVAT is an open source interactive video and image ann...",
       "timestamp": 1787239117.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +85,7 @@
     {
       "title": "CVE-2026-49825 - lxml: javascript: URL bypass in Cleaner via xlink:href",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-49825",
-      "summary": "CVE ID :CVE-2026-49825\n  \n  Published : Aug. 20, 2026, 3:17 p.m. | 44\u00a0minutes ago\n  \n  Description :lxml is a library for processing XML and HTML in t...",
+      "summary": "CVE ID :CVE-2026-49825\n  \n  Published : Aug. 20, 2026, 3:17 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :lxml is a library for processing XML and HT...",
       "timestamp": 1787239050.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +93,7 @@
     {
       "title": "CVE-2026-16932 - Vulnerabilities in IBM AIX and PowerVM VIOS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16932",
-      "summary": "CVE ID :CVE-2026-16932\n  \n  Published : Aug. 20, 2026, 3:17 p.m. | 44\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
+      "summary": "CVE ID :CVE-2026-16932\n  \n  Published : Aug. 20, 2026, 3:17 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4...",
       "timestamp": 1787239049.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +101,7 @@
     {
       "title": "CVE-2026-16926 - Vulnerabilities in IBM AIX and PowerVM VIOS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16926",
-      "summary": "CVE ID :CVE-2026-16926\n  \n  Published : Aug. 20, 2026, 3:17 p.m. | 44\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4.1 coul...",
+      "summary": "CVE ID :CVE-2026-16926\n  \n  Published : Aug. 20, 2026, 3:17 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :IBM AIX 7.2, and 7.3 and IBM PowerVM VIOS 4...",
       "timestamp": 1787239048.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +117,7 @@
     {
       "title": "CVE-2026-76833 - @cgauge/yaml npm Package Arbitrary Code Execution via eval() YAML Tag",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76833",
-      "summary": "CVE ID :CVE-2026-76833\n  \n  Published : Aug. 20, 2026, 2:18 p.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :@cgauge/yaml npm package contains an arbit...",
+      "summary": "CVE ID :CVE-2026-76833\n  \n  Published : Aug. 20, 2026, 2:18 p.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :@cgauge/yaml npm package contains an arbitr...",
       "timestamp": 1787235480.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +125,7 @@
     {
       "title": "CVE-2026-76635 - baserCMS < 5.3.0 SQL Injection and Code Injection via BcDatabaseService.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76635",
-      "summary": "CVE ID :CVE-2026-76635\n  \n  Published : Aug. 20, 2026, 2:17 p.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :baserCMS before 5.3.0 contains a SQL injec...",
+      "summary": "CVE ID :CVE-2026-76635\n  \n  Published : Aug. 20, 2026, 2:17 p.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :baserCMS before 5.3.0 contains a SQL inject...",
       "timestamp": 1787235479.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +133,7 @@
     {
       "title": "CVE-2026-76633 - WeGIA < 3.9.2 Authorization Bypass Password Change via alterarSenha",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76633",
-      "summary": "CVE ID :CVE-2026-76633\n  \n  Published : Aug. 20, 2026, 2:17 p.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :WeGIA before 3.9.2 contains an authorizati...",
+      "summary": "CVE ID :CVE-2026-76633\n  \n  Published : Aug. 20, 2026, 2:17 p.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :WeGIA before 3.9.2 contains an authorizatio...",
       "timestamp": 1787235479.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +141,7 @@
     {
       "title": "CVE-2026-70383 - Arbitrary file overwrite vulnerability in DigiDoc4 client",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70383",
-      "summary": "CVE ID :CVE-2026-70383\n  \n  Published : Aug. 20, 2026, 2:17 p.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :Improper Limitation of a Pathname to a Res...",
+      "summary": "CVE ID :CVE-2026-70383\n  \n  Published : Aug. 20, 2026, 2:17 p.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :Improper Limitation of a Pathname to a Rest...",
       "timestamp": 1787235478.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,16 +149,8 @@
     {
       "title": "CVE-2026-64966 - Path Traversal leading to Remote Code Execution in ATutor",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-64966",
-      "summary": "CVE ID :CVE-2026-64966\n  \n  Published : Aug. 20, 2026, 2:17 p.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :ATutor is vulnerable to a Path Traversal v...",
+      "summary": "CVE ID :CVE-2026-64966\n  \n  Published : Aug. 20, 2026, 2:17 p.m. | 2\u00a0hours, 1\u00a0minute ago\n  \n  Description :ATutor is vulnerable to a Path Traversal vu...",
       "timestamp": 1787235465.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-64960 - Remote Code Execution via Unrestricted File Upload in ATutor",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64960",
-      "summary": "CVE ID :CVE-2026-64960\n  \n  Published : Aug. 20, 2026, 2:17 p.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :ATutor Gameme module allows users to uploa...",
-      "timestamp": 1787235464.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
       "summary": "A\u00a0suspected ransomware affiliate is posing as a ransomware recovery service called \"Ransom Busters,\" contacting the victims before the attacks become ...",
       "timestamp": 1787173198.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Sakura Internet hack exposes data of up to 1.36 million accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
-      "summary": "Japanese cloud and data center service provider Sakura Internet disclosed that hackers accessed its sales management system, where customer contract a...",
-      "timestamp": 1787172818.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -307,16 +307,16 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -331,16 +331,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -349,6 +341,14 @@
     {
       "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -371,8 +371,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787247808.1863863
+  "last_updated": 1787249029.4284887
 }
