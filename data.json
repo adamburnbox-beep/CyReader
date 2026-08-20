@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,33 +52,105 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-75948 - Joomla Extension - icagenda.com -  Authenticated Stored XSS in iCagenda 4.0.8 to 4.0.12",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75948",
-      "summary": "CVE ID :CVE-2026-75948\n  \n  Published : Aug. 20, 2026, 7:29 a.m. | 31\u00a0minutes ago\n  \n  Description :Joomla Extension - icagenda.com -  Authenticated S...",
-      "timestamp": 1787210995.0,
+      "title": "New Manic Android malware can exfiltrate data through nearby devices",
+      "link": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
+      "summary": "A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected ...",
+      "timestamp": 1787220122.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
+      "summary": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collab...",
+      "timestamp": 1787219214.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-14952 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is offering files with sensitive information for download without requiring authentication",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14952",
+      "summary": "CVE ID :CVE-2026-14952\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :An unauthenticated remote attacker can retr...",
+      "timestamp": 1787217407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14951 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Cross-Site Request Forgery due to missing CSFR protection headers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14951",
+      "summary": "CVE ID :CVE-2026-14951\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :An low privileged remote attacker can cause...",
+      "timestamp": 1787217407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14950 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Insufficient Session Expiration due to flawed session expiration logic",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14950",
+      "summary": "CVE ID :CVE-2026-14950\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :An unauthenticated remote attacker in posse...",
+      "timestamp": 1787217407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14949 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Incorrect Authorization due to improper enforcement of role-based access control",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14949",
+      "summary": "CVE ID :CVE-2026-14949\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :A low privileged remote attacker with a val...",
+      "timestamp": 1787217407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14948 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Insertion of Sensitive Information into Log File via error log archives",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14948",
+      "summary": "CVE ID :CVE-2026-14948\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :A low privileged remote attacker can hijack...",
+      "timestamp": 1787217407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14947 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Remote Code Execution via malicious ZIP file",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14947",
+      "summary": "CVE ID :CVE-2026-14947\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :A high-privileged remote attacker can uploa...",
+      "timestamp": 1787217406.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14946 - Frauscher Sensortechnik: FDS102 for FAdC/FAdCi R2 is vulnerable to Remote Code Execution via malicious configuration file.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14946",
+      "summary": "CVE ID :CVE-2026-14946\n  \n  Published : Aug. 20, 2026, 9:16 a.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :A high privileged remote attacker can uploa...",
+      "timestamp": 1787217405.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-76564 - Joomla Extension - phoca.cz -  Stored XSS via User-Agent header in Admin Order View in Phoca Cart 5.0.0-6.1.7",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76564",
-      "summary": "CVE ID :CVE-2026-76564\n  \n  Published : Aug. 20, 2026, 7:29 a.m. | 31\u00a0minutes ago\n  \n  Description :Joomla Extension - phoca.cz -  Stored XSS via User...",
-      "timestamp": 1787210992.0,
+      "summary": "CVE ID :CVE-2026-76564\n  \n  Published : Aug. 20, 2026, 8:16 a.m. | 2\u00a0hours, 2\u00a0minutes ago\n  \n  Description :Joomla Extension - phoca.cz -  Stored XSS ...",
+      "timestamp": 1787213807.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75948 - Joomla Extension - icagenda.com -  Authenticated Stored XSS in iCagenda 4.0.8 to 4.0.12",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75948",
+      "summary": "CVE ID :CVE-2026-75948\n  \n  Published : Aug. 20, 2026, 8:16 a.m. | 2\u00a0hours, 2\u00a0minutes ago\n  \n  Description :Joomla Extension - icagenda.com -  Authent...",
+      "timestamp": 1787213807.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2025-14601 - vsDesk Task Scheduler OS Command Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2025-14601",
-      "summary": "CVE ID :CVE-2025-14601\n  \n  Published : Aug. 20, 2026, 7:21 a.m. | 40\u00a0minutes ago\n  \n  Description :An OS command injection vulnerability in vsDesk al...",
-      "timestamp": 1787210486.0,
+      "summary": "CVE ID :CVE-2025-14601\n  \n  Published : Aug. 20, 2026, 8:16 a.m. | 2\u00a0hours, 2\u00a0minutes ago\n  \n  Description :An OS command injection vulnerability in v...",
+      "timestamp": 1787213806.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -97,62 +169,6 @@
       "timestamp": 1787185255.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-76886 - Heap-based Buffer Overflow in Wireshark",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76886",
-      "summary": "CVE ID :CVE-2026-76886\n  \n  Published : Aug. 19, 2026, 11:16 p.m. | 8\u00a0hours, 45\u00a0minutes ago\n  \n  Description :C12.22 protocol dissector crash in 4.6.0...",
-      "timestamp": 1787181379.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76878 - OpenStack Aodh and Watcher Authorization Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76878",
-      "summary": "CVE ID :CVE-2026-76878\n  \n  Published : Aug. 19, 2026, 10:17 p.m. | 9\u00a0hours, 44\u00a0minutes ago\n  \n  Description :In OpenStack Aodh before 22.0.1, the ala...",
-      "timestamp": 1787177848.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76850 - LMDeploy Remote Code Execution via Unsafe Pickle Deserialization in the Disaggregated Serving Peer Connector",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76850",
-      "summary": "CVE ID :CVE-2026-76850\n  \n  Published : Aug. 19, 2026, 10:17 p.m. | 9\u00a0hours, 44\u00a0minutes ago\n  \n  Description :LMDeploy deserializes disaggregated-serv...",
-      "timestamp": 1787177848.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76832 - Agno PythonTools Path Traversal via joinpath file_name argument",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76832",
-      "summary": "CVE ID :CVE-2026-76832\n  \n  Published : Aug. 19, 2026, 10:17 p.m. | 9\u00a0hours, 44\u00a0minutes ago\n  \n  Description :Agno's PythonTools in libs/agno/agno/too...",
-      "timestamp": 1787177847.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76590 - TRENDnet TEW-755AP ssi wan.cgi stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76590",
-      "summary": "CVE ID :CVE-2026-76590\n  \n  Published : Aug. 19, 2026, 10:17 p.m. | 9\u00a0hours, 44\u00a0minutes ago\n  \n  Description :A vulnerability was identified in TRENDn...",
-      "timestamp": 1787177847.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76589 - TRENDnet TEW-755AP mycli FUN_401000 stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76589",
-      "summary": "CVE ID :CVE-2026-76589\n  \n  Published : Aug. 19, 2026, 10:17 p.m. | 9\u00a0hours, 44\u00a0minutes ago\n  \n  Description :A vulnerability was found in TRENDnet TE...",
-      "timestamp": 1787177847.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76404 - Remote Code Execution (RCE) through Deserialization of Untrusted Data in Splunk MCP Server app",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76404",
-      "summary": "CVE ID :CVE-2026-76404\n  \n  Published : Aug. 19, 2026, 10:17 p.m. | 9\u00a0hours, 44\u00a0minutes ago\n  \n  Description :In Splunk MCP Server app versions below ...",
-      "timestamp": 1787177847.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
@@ -275,22 +291,6 @@
       "vendor": "News"
     },
     {
-      "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
-      "link": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
-      "summary": "Huntress observed a 155x increase in password spraying attacks in H1 2026, including a campaign that generated more than 81 million login attempts in ...",
-      "timestamp": 1787148010.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft fixes known issue causing Windows Defender crashes",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/",
-      "summary": "Microsoft has resolved a bug that caused Windows Defender to crash after a recent security update, resulting in 0xc0000005 access violation errors on ...",
-      "timestamp": 1787138068.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
       "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every...",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787219358.6550465
+  "last_updated": 1787222642.50761
 }
