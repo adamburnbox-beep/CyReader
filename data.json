@@ -52,16 +52,40 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 9,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-53804 - OTRS Community Edition OS Command Injection via PGP Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53804",
+      "summary": "CVE ID :CVE-2026-53804\n  \n  Published : Aug. 20, 2026, 9:13 p.m. | 3\u00a0minutes ago\n  \n  Description :OTRS Community Edition contains an authenticated OS...",
+      "timestamp": 1787260404.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-74836 - HTTP/2 connection-window starvation pins Plug processes indefinitely in Bandit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74836",
+      "summary": "CVE ID :CVE-2026-74836\n  \n  Published : Aug. 20, 2026, 9:11 p.m. | 5\u00a0minutes ago\n  \n  Description :Allocation of Resources Without Limits or Throttlin...",
+      "timestamp": 1787260278.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77638 - Tor Rendezvous Point Man-in-the-Middle Race Condition",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77638",
+      "summary": "CVE ID :CVE-2026-77638\n  \n  Published : Aug. 20, 2026, 8:52 p.m. | 24\u00a0minutes ago\n  \n  Description :Tor before 0.4.9.11 is prone to a race condition w...",
+      "timestamp": 1787259149.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-18420 - RCE via Prototype Pollution in OpenSearch Dashboards",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18420",
-      "summary": "CVE ID :CVE-2026-18420\n  \n  Published : Aug. 20, 2026, 8:40 p.m. | 22\u00a0minutes ago\n  \n  Description :Improper input validation in the Time Series Visua...",
+      "summary": "CVE ID :CVE-2026-18420\n  \n  Published : Aug. 20, 2026, 8:40 p.m. | 36\u00a0minutes ago\n  \n  Description :Improper input validation in the Time Series Visua...",
       "timestamp": 1787258440.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +93,7 @@
     {
       "title": "CVE-2026-67567 - Multicloud-operators-subscription: multicloud-operators-subscription: helmrelease chart applied with controller sa without gvk or namespace restriction",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-67567",
-      "summary": "CVE ID :CVE-2026-67567\n  \n  Published : Aug. 20, 2026, 8:34 p.m. | 29\u00a0minutes ago\n  \n  Description :A flaw was found in the multicloud-operators-subsc...",
+      "summary": "CVE ID :CVE-2026-67567\n  \n  Published : Aug. 20, 2026, 8:34 p.m. | 42\u00a0minutes ago\n  \n  Description :A flaw was found in the multicloud-operators-subsc...",
       "timestamp": 1787258050.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +101,7 @@
     {
       "title": "CVE-2026-73040 - Dockge Path Traversal via Unvalidated Stack Name Allows Arbitrary Compose and .env Disclosure and Arbitrary Directory Deletion",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-73040",
-      "summary": "CVE ID :CVE-2026-73040\n  \n  Published : Aug. 20, 2026, 8:29 p.m. | 34\u00a0minutes ago\n  \n  Description :Dockge validates a stack name only on the write pa...",
+      "summary": "CVE ID :CVE-2026-73040\n  \n  Published : Aug. 20, 2026, 8:29 p.m. | 48\u00a0minutes ago\n  \n  Description :Dockge validates a stack name only on the write pa...",
       "timestamp": 1787257740.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,23 +109,15 @@
     {
       "title": "CVE-2026-77148 - Comfast CF-N1-S Web Management mbox-config sub_44B50C stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77148",
-      "summary": "CVE ID :CVE-2026-77148\n  \n  Published : Aug. 20, 2026, 7:17 p.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :A vulnerability was found in Comfast CF-N1...",
+      "summary": "CVE ID :CVE-2026-77148\n  \n  Published : Aug. 20, 2026, 7:17 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :A vulnerability was found in Comfast CF-N1...",
       "timestamp": 1787253424.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72852 - darknet Integer Overflow in Convolutional Layer Buffer Sizing Leads to Heap Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72852",
-      "summary": "CVE ID :CVE-2026-72852\n  \n  Published : Aug. 20, 2026, 7:17 p.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :hank-ai/darknet sizes a convolutional laye...",
-      "timestamp": 1787253420.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-66788 - Lighthouse: lighthouse: arbitrary local-namespace injection via attacker-controlled labelsourcenamespace",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66788",
-      "summary": "CVE ID :CVE-2026-66788\n  \n  Published : Aug. 20, 2026, 7:16 p.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :A flaw was found in Lighthouse. A remote a...",
+      "summary": "CVE ID :CVE-2026-66788\n  \n  Published : Aug. 20, 2026, 7:16 p.m. | 2\u00a0hours ago\n  \n  Description :A flaw was found in Lighthouse. A remote attacker, by...",
       "timestamp": 1787253418.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +125,7 @@
     {
       "title": "CVE-2026-66787 - Lighthouse: lighthouse: cross-cluster dns spoofing via unvalidated endpointslice and serviceimport ips",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66787",
-      "summary": "CVE ID :CVE-2026-66787\n  \n  Published : Aug. 20, 2026, 7:16 p.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :A flaw was found in the lighthouse compone...",
+      "summary": "CVE ID :CVE-2026-66787\n  \n  Published : Aug. 20, 2026, 7:16 p.m. | 2\u00a0hours ago\n  \n  Description :A flaw was found in the lighthouse component of Red H...",
       "timestamp": 1787253418.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,24 +133,8 @@
     {
       "title": "CVE-2026-66785 - Submariner: submariner: unvalidated endpoint.spec.subnets propagated into wireguard allowedips / ipsec enables traffic hijack",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-66785",
-      "summary": "CVE ID :CVE-2026-66785\n  \n  Published : Aug. 20, 2026, 7:16 p.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :A flaw was found in Submariner. This vulne...",
+      "summary": "CVE ID :CVE-2026-66785\n  \n  Published : Aug. 20, 2026, 7:16 p.m. | 2\u00a0hours ago\n  \n  Description :A flaw was found in Submariner. This vulnerability al...",
       "timestamp": 1787253418.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66001 - Frappe: Improper Authorization in OAuth2 Consent Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66001",
-      "summary": "CVE ID :CVE-2026-66001\n  \n  Published : Aug. 20, 2026, 7:16 p.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :Frappe is a full-stack web application fra...",
-      "timestamp": 1787253418.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50190 - Shaarli vulnerable to stored XSS via raw bookmark title in document <title> element on public permalink page",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50190",
-      "summary": "CVE ID :CVE-2026-50190\n  \n  Published : Aug. 20, 2026, 7:16 p.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :Shaarli is a personal bookmarking service....",
-      "timestamp": 1787253413.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -315,8 +315,32 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -331,8 +355,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -349,30 +373,6 @@
     {
       "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787259893.3753364
+  "last_updated": 1787263255.9950507
 }
