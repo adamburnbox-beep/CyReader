@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,14 @@
   ],
   "articles": [
     {
+      "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
+      "link": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
+      "summary": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock ...",
+      "timestamp": 1787335290.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Cisco Crosswork Security Hardening Release: August 2026",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-crosswork-UzDTU9Vh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Crosswork%20Security%20Hardening%20Release:%20August%202026%26vs_k=1",
       "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive in...",
@@ -67,18 +75,42 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-22681 - OpenViking < 0.3.4 SSRF via /api/v1/resources",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22681",
-      "summary": "CVE ID :CVE-2026-22681\n  \n  Published : Aug. 21, 2026, 4:13 p.m. | 7\u00a0minutes ago\n  \n  Description :OpenViking before 0.3.4\u00a0contains a server-side requ...",
-      "timestamp": 1787328787.0,
+      "title": "CVE-2026-39909 - llama.cpp Use-After-Free in RPC GRAPH_RECOMPUTE Handler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39909",
+      "summary": "CVE ID :CVE-2026-39909\n  \n  Published : Aug. 21, 2026, 4:28 p.m. | 52\u00a0minutes ago\n  \n  Description :llama.cpp before b8585 contains a use-after-free v...",
+      "timestamp": 1787329706.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75933 - Jet Admin Stored XSS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75933",
+      "summary": "CVE ID :CVE-2026-75933\n  \n  Published : Aug. 21, 2026, 4:18 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :Jet Admin allows an authenticated attacker ...",
+      "timestamp": 1787329097.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75932 - Jet Admin tenant isolation failure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75932",
+      "summary": "CVE ID :CVE-2026-75932\n  \n  Published : Aug. 21, 2026, 4:18 p.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :Jet Admin allows an attacker to create a ma...",
+      "timestamp": 1787329097.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-69502 - Azure SQL Database Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-69502",
-      "summary": "CVE ID :CVE-2026-69502\n  \n  Published : Aug. 21, 2026, 4:03 p.m. | 16\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 10.0 | CRITICAL\n  \n  Visit the...",
-      "timestamp": 1787328236.0,
+      "summary": "CVE ID :CVE-2026-69502\n  \n  Published : Aug. 21, 2026, 4:18 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Server-side request forgery (ssrf) in Azure...",
+      "timestamp": 1787329087.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-22681 - OpenViking < 0.3.4 SSRF via /api/v1/resources",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22681",
+      "summary": "CVE ID :CVE-2026-22681\n  \n  Published : Aug. 21, 2026, 4:17 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :OpenViking before 0.3.4\u00a0contains a server-s...",
+      "timestamp": 1787329036.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -93,7 +125,7 @@
     {
       "title": "CVE-2026-77815 - Infinite Image Browsing Resolves Paths With normpath, Allowing Symlink Escape From Scanned Directories",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77815",
-      "summary": "CVE ID :CVE-2026-77815\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :to_abs_path in scripts/iib/tool.py normalis...",
+      "summary": "CVE ID :CVE-2026-77815\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :to_abs_path in scripts/iib/tool.py normali...",
       "timestamp": 1787325407.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +133,7 @@
     {
       "title": "CVE-2026-77814 - Infinite Image Browsing is_path_trusted Prefix Comparison Omits the Trailing Path Separator",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77814",
-      "summary": "CVE ID :CVE-2026-77814\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :is_path_trusted in scripts/iib/api.py compa...",
+      "summary": "CVE ID :CVE-2026-77814\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :is_path_trusted in scripts/iib/api.py comp...",
       "timestamp": 1787325407.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +141,7 @@
     {
       "title": "CVE-2026-77812 - Cleartext Exposure of DJI Drone Wi-Fi Credentials via BLE",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77812",
-      "summary": "CVE ID :CVE-2026-77812\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :DJI drones transmit DUML (DJI Universal Mar...",
+      "summary": "CVE ID :CVE-2026-77812\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :DJI drones transmit DUML (DJI Universal Ma...",
       "timestamp": 1787325407.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +149,7 @@
     {
       "title": "CVE-2026-77087 - Paperclip before 0.3.1 Remote Code Execution via DNS Rebinding",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77087",
-      "summary": "CVE ID :CVE-2026-77087\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Paperclip before 0.3.1 in default local_tru...",
+      "summary": "CVE ID :CVE-2026-77087\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Paperclip before 0.3.1 in default local_tr...",
       "timestamp": 1787325407.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,31 +157,7 @@
     {
       "title": "CVE-2026-63343 - Arbitrary File Read/Write: metadata.yaml symlink in image allows host filesystem access as root",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-63343",
-      "summary": "CVE ID :CVE-2026-63343\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Incus is a system container and virtual mac...",
-      "timestamp": 1787325406.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63125 - Incus vulnerable to root RCE via image backup.yaml symlink",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63125",
-      "summary": "CVE ID :CVE-2026-63125\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Incus is a system container and virtual mac...",
-      "timestamp": 1787325406.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62941 - Incus: Cross-project instance copy bypasses target project restrictions via TOCTOU in config merge",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62941",
-      "summary": "CVE ID :CVE-2026-62941\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Incus is a system container and virtual mac...",
-      "timestamp": 1787325406.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62940 - Incus has a project restriction bypass via instance migration config override",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62940",
-      "summary": "CVE ID :CVE-2026-62940\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Incus is a system container and virtual mac...",
+      "summary": "CVE ID :CVE-2026-63343\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Incus is a system container and virtual ma...",
       "timestamp": 1787325406.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -215,14 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
       "summary": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during...",
       "timestamp": 1787248432.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
-      "summary": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the serve...",
-      "timestamp": 1787236788.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787335447.744214
+  "last_updated": 1787338693.2063153
 }
