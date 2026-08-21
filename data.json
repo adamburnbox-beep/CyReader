@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,48 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "SickKids data breach exposes employee and job applicant info",
+      "link": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
+      "summary": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees an...",
+      "timestamp": 1787307042.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-77755 - Denial of Service in MISP-STIX Import via Malformed or Oversized STIX Documents in misp-stix library",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77755",
+      "summary": "CVE ID :CVE-2026-77755\n  \n  Published : Aug. 21, 2026, 9:55 a.m. | 24\u00a0minutes ago\n  \n  Description :A denial-of-service vulnerability was identified i...",
+      "timestamp": 1787306111.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77751 - Path Traversal in MISP Object Template Resolution During STIX Import and Export in misp-stix library",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77751",
+      "summary": "CVE ID :CVE-2026-77751\n  \n  Published : Aug. 21, 2026, 9:48 a.m. | 31\u00a0minutes ago\n  \n  Description :A path traversal vulnerability existed in the hand...",
+      "timestamp": 1787305700.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77264 - Automation Web Platform <= 4.8.6 - Unauthenticated Authentication Bypass via 'otp_transient' Token Disclosure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77264",
+      "summary": "CVE ID :CVE-2026-77264\n  \n  Published : Aug. 21, 2026, 8:16 a.m. | 2\u00a0hours, 3\u00a0minutes ago\n  \n  Description :The Automation Web Platform \u2013 Notification...",
+      "timestamp": 1787300204.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-76158 - Datiphy Data Management Center - External Control of File Name or Path",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76158",
-      "summary": "CVE ID :CVE-2026-76158\n  \n  Published : Aug. 21, 2026, 3:16 a.m. | 2\u00a0hours, 45\u00a0minutes ago\n  \n  Description :External Control of File Name or Path in ...",
+      "summary": "CVE ID :CVE-2026-76158\n  \n  Published : Aug. 21, 2026, 3:16 a.m. | 7\u00a0hours, 3\u00a0minutes ago\n  \n  Description :External Control of File Name or Path in t...",
       "timestamp": 1787282199.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +101,7 @@
     {
       "title": "CVE-2026-76157 - Datiphy Data Management Center - Missing Authentication for Critical Function",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76157",
-      "summary": "CVE ID :CVE-2026-76157\n  \n  Published : Aug. 21, 2026, 2:16 a.m. | 3\u00a0hours, 45\u00a0minutes ago\n  \n  Description :Missing authentication for a critical fun...",
+      "summary": "CVE ID :CVE-2026-76157\n  \n  Published : Aug. 21, 2026, 2:16 a.m. | 8\u00a0hours, 3\u00a0minutes ago\n  \n  Description :Missing authentication for a critical func...",
       "timestamp": 1787278587.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +109,7 @@
     {
       "title": "CVE-2026-76156 - Datiphy Data Management Center - Improper Neutralization of Special Elements used in an OS Command",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76156",
-      "summary": "CVE ID :CVE-2026-76156\n  \n  Published : Aug. 21, 2026, 2:16 a.m. | 3\u00a0hours, 45\u00a0minutes ago\n  \n  Description :OS command injection in the api endpoint ...",
+      "summary": "CVE ID :CVE-2026-76156\n  \n  Published : Aug. 21, 2026, 2:16 a.m. | 8\u00a0hours, 3\u00a0minutes ago\n  \n  Description :OS command injection in the api endpoint o...",
       "timestamp": 1787278587.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +117,7 @@
     {
       "title": "CVE-2026-76155 - Datiphy Data Management Center - Use of Default Credentials",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76155",
-      "summary": "CVE ID :CVE-2026-76155\n  \n  Published : Aug. 21, 2026, 2:16 a.m. | 3\u00a0hours, 45\u00a0minutes ago\n  \n  Description :Use of default credentials in Datiphy Dat...",
+      "summary": "CVE ID :CVE-2026-76155\n  \n  Published : Aug. 21, 2026, 2:16 a.m. | 8\u00a0hours, 3\u00a0minutes ago\n  \n  Description :Use of default credentials in Datiphy Data...",
       "timestamp": 1787278585.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +125,7 @@
     {
       "title": "CVE-2026-77651 - arrayref Supply Chain Compromise",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77651",
-      "summary": "CVE ID :CVE-2026-77651\n  \n  Published : Aug. 21, 2026, 1:17 a.m. | 4\u00a0hours, 44\u00a0minutes ago\n  \n  Description :The arrayref crate 0.3.10 for Rust can tr...",
+      "summary": "CVE ID :CVE-2026-77651\n  \n  Published : Aug. 21, 2026, 1:17 a.m. | 9\u00a0hours, 2\u00a0minutes ago\n  \n  Description :The arrayref crate 0.3.10 for Rust can tri...",
       "timestamp": 1787275022.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +133,7 @@
     {
       "title": "CVE-2026-77650 - append-only-vec Malicious Dependency Arbitrary Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77650",
-      "summary": "CVE ID :CVE-2026-77650\n  \n  Published : Aug. 21, 2026, 1:17 a.m. | 4\u00a0hours, 44\u00a0minutes ago\n  \n  Description :The append-only-vec crate 0.1.9 for Rust ...",
+      "summary": "CVE ID :CVE-2026-77650\n  \n  Published : Aug. 21, 2026, 1:17 a.m. | 9\u00a0hours, 2\u00a0minutes ago\n  \n  Description :The append-only-vec crate 0.1.9 for Rust c...",
       "timestamp": 1787275021.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,32 +141,8 @@
     {
       "title": "CVE-2026-77649 - Internment Rust Crate Arbitrary Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77649",
-      "summary": "CVE ID :CVE-2026-77649\n  \n  Published : Aug. 21, 2026, 1:17 a.m. | 4\u00a0hours, 44\u00a0minutes ago\n  \n  Description :The internment crate 0.8.7 for Rust can t...",
+      "summary": "CVE ID :CVE-2026-77649\n  \n  Published : Aug. 21, 2026, 1:17 a.m. | 9\u00a0hours, 2\u00a0minutes ago\n  \n  Description :The internment crate 0.8.7 for Rust can tr...",
       "timestamp": 1787275021.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16520 - Genians Genian NAC and Genian ZTNA SQL Injection and Authentication Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16520",
-      "summary": "CVE ID :CVE-2026-16520\n  \n  Published : Aug. 21, 2026, 12:16 a.m. | 5\u00a0hours, 45\u00a0minutes ago\n  \n  Description :Improper input validation and Exposure o...",
-      "timestamp": 1787271391.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77647 - SPIP Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77647",
-      "summary": "CVE ID :CVE-2026-77647\n  \n  Published : Aug. 20, 2026, 11:16 p.m. | 6\u00a0hours, 45\u00a0minutes ago\n  \n  Description :SPIP before 4.4.20 allows unauthenticate...",
-      "timestamp": 1787267788.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77645 - Critical Remote Code Execution (RCE) vulnerability reported in Windchill",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77645",
-      "summary": "CVE ID :CVE-2026-77645\n  \n  Published : Aug. 20, 2026, 10:18 p.m. | 7\u00a0hours, 43\u00a0minutes ago\n  \n  Description :A critical remote code execution (RCE) v...",
-      "timestamp": 1787264286.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
       "summary": "ChatGPT is experiencing a major outage, and users are unable to sign in, create accounts, or load chats, including previous conversations. [...]",
       "timestamp": 1787185255.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Rogue ransomware affiliate poses as recovery firm to steal payments",
-      "link": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/",
-      "summary": "A\u00a0suspected ransomware affiliate is posing as a ransomware recovery service called \"Ransom Busters,\" contacting the victims before the attacks become ...",
-      "timestamp": 1787173198.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -307,8 +307,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -323,8 +323,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -347,8 +347,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -363,24 +363,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787298931.8702862
+  "last_updated": 1787309032.9289956
 }
