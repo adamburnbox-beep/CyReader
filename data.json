@@ -52,12 +52,100 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-22681 - OpenViking < 0.3.4 SSRF via /api/v1/resources",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22681",
+      "summary": "CVE ID :CVE-2026-22681\n  \n  Published : Aug. 21, 2026, 4:13 p.m. | 7\u00a0minutes ago\n  \n  Description :OpenViking before 0.3.4\u00a0contains a server-side requ...",
+      "timestamp": 1787328787.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-69502 - Azure SQL Database Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69502",
+      "summary": "CVE ID :CVE-2026-69502\n  \n  Published : Aug. 21, 2026, 4:03 p.m. | 16\u00a0minutes ago\n  \n  Description :None\n  \n  Severity: 10.0 | CRITICAL\n  \n  Visit the...",
+      "timestamp": 1787328236.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
+      "summary": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]",
+      "timestamp": 1787327715.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-77815 - Infinite Image Browsing Resolves Paths With normpath, Allowing Symlink Escape From Scanned Directories",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77815",
+      "summary": "CVE ID :CVE-2026-77815\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :to_abs_path in scripts/iib/tool.py normalis...",
+      "timestamp": 1787325407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77814 - Infinite Image Browsing is_path_trusted Prefix Comparison Omits the Trailing Path Separator",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77814",
+      "summary": "CVE ID :CVE-2026-77814\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :is_path_trusted in scripts/iib/api.py compa...",
+      "timestamp": 1787325407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77812 - Cleartext Exposure of DJI Drone Wi-Fi Credentials via BLE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77812",
+      "summary": "CVE ID :CVE-2026-77812\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :DJI drones transmit DUML (DJI Universal Mar...",
+      "timestamp": 1787325407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77087 - Paperclip before 0.3.1 Remote Code Execution via DNS Rebinding",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77087",
+      "summary": "CVE ID :CVE-2026-77087\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Paperclip before 0.3.1 in default local_tru...",
+      "timestamp": 1787325407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63343 - Arbitrary File Read/Write: metadata.yaml symlink in image allows host filesystem access as root",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63343",
+      "summary": "CVE ID :CVE-2026-63343\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Incus is a system container and virtual mac...",
+      "timestamp": 1787325406.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63125 - Incus vulnerable to root RCE via image backup.yaml symlink",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63125",
+      "summary": "CVE ID :CVE-2026-63125\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Incus is a system container and virtual mac...",
+      "timestamp": 1787325406.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62941 - Incus: Cross-project instance copy bypasses target project restrictions via TOCTOU in config merge",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62941",
+      "summary": "CVE ID :CVE-2026-62941\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Incus is a system container and virtual mac...",
+      "timestamp": 1787325406.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62940 - Incus has a project restriction bypass via instance migration config override",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62940",
+      "summary": "CVE ID :CVE-2026-62940\n  \n  Published : Aug. 21, 2026, 3:16 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Incus is a system container and virtual mac...",
+      "timestamp": 1787325406.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Microsoft blames Windows gaming issues on RGB lighting devices",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/",
@@ -65,30 +153,6 @@
       "timestamp": 1787324089.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-77806 - SPIP Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77806",
-      "summary": "CVE ID :CVE-2026-77806\n  \n  Published : Aug. 21, 2026, 2:16 p.m. | 13\u00a0minutes ago\n  \n  Description :SPIP before 4.4.21 allows unauthenticated remote a...",
-      "timestamp": 1787321813.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75946 - OMEN Gaming Hub \u2013 Potential Escalation of Privilege & Information Disclosure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75946",
-      "summary": "CVE ID :CVE-2026-75946\n  \n  Published : Aug. 21, 2026, 2:16 p.m. | 13\u00a0minutes ago\n  \n  Description :A potential security vulnerability has been identi...",
-      "timestamp": 1787321812.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77812 - Cleartext Exposure of DJI Drone Wi-Fi Credentials via BLE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77812",
-      "summary": "CVE ID :CVE-2026-77812\n  \n  Published : Aug. 21, 2026, 2:06 p.m. | 23\u00a0minutes ago\n  \n  Description :DJI drones transmit DUML (DJI Universal Markup Lan...",
-      "timestamp": 1787321215.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Is Online Privacy Possible? How Digital Identities Can Help",
@@ -107,68 +171,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-76613 - Joomla Extension - yootheme.com - Authenticated, privileged SQL injection in YOOtheme Pro 1.0.0-5.0.40",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76613",
-      "summary": "CVE ID :CVE-2026-76613\n  \n  Published : Aug. 21, 2026, 1:18 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :Joomla Extension - yootheme.com - Authenti...",
-      "timestamp": 1787318300.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76612 - Joomla Extension - yootheme.com - Unauthenticated stored XSS via user-controlled fields in Zoo < 4.1.66",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76612",
-      "summary": "CVE ID :CVE-2026-76612\n  \n  Published : Aug. 21, 2026, 1:18 p.m. | 1\u00a0hour, 12\u00a0minutes ago\n  \n  Description :Joomla Extension - yootheme.com - Unauthen...",
-      "timestamp": 1787318299.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabi...",
       "timestamp": 1787315133.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-77776 - Headroom Proxy Treats the Client-Supplied x-headroom-user-id Header as an Authenticated Identity",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77776",
-      "summary": "CVE ID :CVE-2026-77776\n  \n  Published : Aug. 21, 2026, 12:16 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Headroom's LLM proxy derives the memory ...",
-      "timestamp": 1787314596.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77775 - Headroom Proxy Sends Upstream Requests to a Client-Supplied Base URL Without Address Validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77775",
-      "summary": "CVE ID :CVE-2026-77775\n  \n  Published : Aug. 21, 2026, 12:16 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Headroom's LLM proxy lets a client choos...",
-      "timestamp": 1787314596.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77759 - IDOR and missing authorization in the Prospero Flow CRM transaction API allow cross-tenant reading of financial records",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77759",
-      "summary": "CVE ID :CVE-2026-77759\n  \n  Published : Aug. 21, 2026, 12:16 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Authorization Bypass Through User-Contro...",
-      "timestamp": 1787314596.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77767 - Reconmap Report Preview Endpoint Is Marked AllowAnonymous, Exposing Every Project and Client Organisation Without Authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77767",
-      "summary": "CVE ID :CVE-2026-77767\n  \n  Published : Aug. 21, 2026, 11:17 a.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Reconmap's API applies a fallback author...",
-      "timestamp": 1787311027.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77683 - Comfast CF-N1-S mbox-config system command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77683",
-      "summary": "CVE ID :CVE-2026-77683\n  \n  Published : Aug. 21, 2026, 11:17 a.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :A security flaw has been discovered in C...",
-      "timestamp": 1787311026.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
       "summary": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the serve...",
       "timestamp": 1787236788.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "How MSPs can catch phishing attacks email filters miss",
-      "link": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
-      "summary": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monit...",
-      "timestamp": 1787234471.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -307,30 +307,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
@@ -347,8 +323,32 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -371,8 +371,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787327198.0966704
+  "last_updated": 1787330975.3892117
 }
