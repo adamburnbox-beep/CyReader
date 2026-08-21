@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 6,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Is Online Privacy Possible? How Digital Identities Can Help",
+      "link": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
+      "summary": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Ano...",
+      "timestamp": 1787320810.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Microsoft rolls out Classic Outlook theme for New Outlook users",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-classic-outlook-theme-for-new-outlook-users/",
@@ -65,6 +73,30 @@
       "timestamp": 1787319575.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-77806 - SPIP Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77806",
+      "summary": "CVE ID :CVE-2026-77806\n  \n  Published : Aug. 21, 2026, 1:37 p.m. | 24\u00a0minutes ago\n  \n  Description :SPIP before 4.4.21 allows unauthenticated remote a...",
+      "timestamp": 1787319463.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76613 - Joomla Extension - yootheme.com - Authenticated, privileged SQL injection in YOOtheme Pro 1.0.0-5.0.40",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76613",
+      "summary": "CVE ID :CVE-2026-76613\n  \n  Published : Aug. 21, 2026, 1:18 p.m. | 43\u00a0minutes ago\n  \n  Description :Joomla Extension - yootheme.com - Authenticated, p...",
+      "timestamp": 1787318300.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76612 - Joomla Extension - yootheme.com - Unauthenticated stored XSS via user-controlled fields in Zoo < 4.1.66",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76612",
+      "summary": "CVE ID :CVE-2026-76612\n  \n  Published : Aug. 21, 2026, 1:18 p.m. | 43\u00a0minutes ago\n  \n  Description :Joomla Extension - yootheme.com - Unauthenticated ...",
+      "timestamp": 1787318299.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
@@ -75,41 +107,33 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-77759 - IDOR and missing authorization in the Prospero Flow CRM transaction API allow cross-tenant reading of financial records",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77759",
-      "summary": "CVE ID :CVE-2026-77759\n  \n  Published : Aug. 21, 2026, 11:29 a.m. | 32\u00a0minutes ago\n  \n  Description :Authorization Bypass Through User-Controlled Key ...",
-      "timestamp": 1787311783.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-77776 - Headroom Proxy Treats the Client-Supplied x-headroom-user-id Header as an Authenticated Identity",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77776",
-      "summary": "CVE ID :CVE-2026-77776\n  \n  Published : Aug. 21, 2026, 11:22 a.m. | 39\u00a0minutes ago\n  \n  Description :Headroom's LLM proxy derives the memory owner fro...",
-      "timestamp": 1787311371.0,
+      "summary": "CVE ID :CVE-2026-77776\n  \n  Published : Aug. 21, 2026, 12:16 p.m. | 1\u00a0hour, 45\u00a0minutes ago\n  \n  Description :Headroom's LLM proxy derives the memory o...",
+      "timestamp": 1787314596.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-77775 - Headroom Proxy Sends Upstream Requests to a Client-Supplied Base URL Without Address Validation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77775",
-      "summary": "CVE ID :CVE-2026-77775\n  \n  Published : Aug. 21, 2026, 11:22 a.m. | 39\u00a0minutes ago\n  \n  Description :Headroom's LLM proxy lets a client choose the ups...",
-      "timestamp": 1787311371.0,
+      "summary": "CVE ID :CVE-2026-77775\n  \n  Published : Aug. 21, 2026, 12:16 p.m. | 1\u00a0hour, 45\u00a0minutes ago\n  \n  Description :Headroom's LLM proxy lets a client choose...",
+      "timestamp": 1787314596.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-77767 - Reconmap Report Preview Endpoint Is Marked AllowAnonymous, Exposing Every Project and Client Organisation Without Authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77767",
-      "summary": "CVE ID :CVE-2026-77767\n  \n  Published : Aug. 21, 2026, 11:17 a.m. | 44\u00a0minutes ago\n  \n  Description :Reconmap's API applies a fallback authorization p...",
-      "timestamp": 1787311027.0,
+      "title": "CVE-2026-77759 - IDOR and missing authorization in the Prospero Flow CRM transaction API allow cross-tenant reading of financial records",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77759",
+      "summary": "CVE ID :CVE-2026-77759\n  \n  Published : Aug. 21, 2026, 12:16 p.m. | 1\u00a0hour, 45\u00a0minutes ago\n  \n  Description :Authorization Bypass Through User-Control...",
+      "timestamp": 1787314596.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-77683 - Comfast CF-N1-S mbox-config system command injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77683",
-      "summary": "CVE ID :CVE-2026-77683\n  \n  Published : Aug. 21, 2026, 11:17 a.m. | 44\u00a0minutes ago\n  \n  Description :A security flaw has been discovered in Comfast CF...",
+      "summary": "CVE ID :CVE-2026-77683\n  \n  Published : Aug. 21, 2026, 11:17 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :A security flaw has been discovered in C...",
       "timestamp": 1787311026.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +141,7 @@
     {
       "title": "CVE-2026-77086 - SiYuan before v3.7.4 Path Traversal via packageName",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77086",
-      "summary": "CVE ID :CVE-2026-77086\n  \n  Published : Aug. 21, 2026, 11:17 a.m. | 44\u00a0minutes ago\n  \n  Description :SiYuan before v3.7.4 fails to validate the packag...",
+      "summary": "CVE ID :CVE-2026-77086\n  \n  Published : Aug. 21, 2026, 11:17 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :SiYuan before v3.7.4 fails to validate t...",
       "timestamp": 1787311026.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -141,7 +165,7 @@
     {
       "title": "CVE-2026-77755 - Denial of Service in MISP-STIX Import via Malformed or Oversized STIX Documents in misp-stix library",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77755",
-      "summary": "CVE ID :CVE-2026-77755\n  \n  Published : Aug. 21, 2026, 10:16 a.m. | 1\u00a0hour, 45\u00a0minutes ago\n  \n  Description :A denial-of-service vulnerability was ide...",
+      "summary": "CVE ID :CVE-2026-77755\n  \n  Published : Aug. 21, 2026, 10:16 a.m. | 3\u00a0hours, 45\u00a0minutes ago\n  \n  Description :A denial-of-service vulnerability was id...",
       "timestamp": 1787307399.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -149,7 +173,7 @@
     {
       "title": "CVE-2026-77751 - Path Traversal in MISP Object Template Resolution During STIX Import and Export in misp-stix library",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77751",
-      "summary": "CVE ID :CVE-2026-77751\n  \n  Published : Aug. 21, 2026, 10:16 a.m. | 1\u00a0hour, 45\u00a0minutes ago\n  \n  Description :A path traversal vulnerability existed in...",
+      "summary": "CVE ID :CVE-2026-77751\n  \n  Published : Aug. 21, 2026, 10:16 a.m. | 3\u00a0hours, 45\u00a0minutes ago\n  \n  Description :A path traversal vulnerability existed i...",
       "timestamp": 1787307399.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -161,22 +185,6 @@
       "timestamp": 1787307042.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-77264 - Automation Web Platform <= 4.8.6 - Unauthenticated Authentication Bypass via 'otp_transient' Token Disclosure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77264",
-      "summary": "CVE ID :CVE-2026-77264\n  \n  Published : Aug. 21, 2026, 8:16 a.m. | 3\u00a0hours, 45\u00a0minutes ago\n  \n  Description :The Automation Web Platform \u2013 Notificatio...",
-      "timestamp": 1787300204.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76158 - Datiphy Data Management Center - External Control of File Name or Path",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76158",
-      "summary": "CVE ID :CVE-2026-76158\n  \n  Published : Aug. 21, 2026, 3:16 a.m. | 8\u00a0hours, 45\u00a0minutes ago\n  \n  Description :External Control of File Name or Path in ...",
-      "timestamp": 1787282199.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Hackers poison arrayref Rust crate to push infostealer malware",
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
       "summary": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions...",
       "timestamp": 1787228078.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in ...",
-      "timestamp": 1787223974.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -307,64 +307,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -379,8 +323,64 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787320631.5103557
+  "last_updated": 1787323892.9733942
 }
