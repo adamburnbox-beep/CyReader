@@ -59,6 +59,86 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-77237 - Missing type validation in xQueueAddToSet in FreeRTOS-Kernel",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77237",
+      "summary": "CVE ID :CVE-2026-77237\n  \n  Published : Aug. 21, 2026, 6:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Missing queue-set type validation in xQueueAddToSe...",
+      "timestamp": 1787336211.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77236 - Missing size validation in SecureContext_AllocateContext in FreeRTOS-Kernel",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77236",
+      "summary": "CVE ID :CVE-2026-77236\n  \n  Published : Aug. 21, 2026, 6:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Missing minimum size validation in secure context ...",
+      "timestamp": 1787336211.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77235 - Missing privilege check in SecureContext_FreeContext in FreeRTOS-Kernel",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77235",
+      "summary": "CVE ID :CVE-2026-77235\n  \n  Published : Aug. 21, 2026, 6:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Missing privilege verification in the secure conte...",
+      "timestamp": 1787336211.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77234 - Improper input validation in FreeRTOS-Kernel timer command handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77234",
+      "summary": "CVE ID :CVE-2026-77234\n  \n  Published : Aug. 21, 2026, 6:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Improper input validation in FreeRTOS-Kernel befor...",
+      "timestamp": 1787336211.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62677 - Omnigent: Unvalidated os_env.cwd in agent bundle yields arbitrary host filesystem access on runners without OMNIGENT_RUNNER_WORKSPACE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62677",
+      "summary": "CVE ID :CVE-2026-62677\n  \n  Published : Aug. 21, 2026, 6:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Omnigent is an open-source AI agent framework and ...",
+      "timestamp": 1787336209.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62675 - Omnigent: Uploaded Agent Bundle Allows Authenticated Runner RCE via Python Callable Tools",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62675",
+      "summary": "CVE ID :CVE-2026-62675\n  \n  Published : Aug. 21, 2026, 6:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Omnigent is an open-source AI agent framework and ...",
+      "timestamp": 1787336209.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62674 - Omnigent: Shared Agent Bundle Overwrite Leads to Authenticated Runner RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62674",
+      "summary": "CVE ID :CVE-2026-62674\n  \n  Published : Aug. 21, 2026, 6:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Omnigent is an open-source AI agent framework and ...",
+      "timestamp": 1787336209.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-41451 - UAC < 3.3.0 Command Injection via User Substitution in parse_artifact.sh",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41451",
+      "summary": "CVE ID :CVE-2026-41451\n  \n  Published : Aug. 21, 2026, 6:16 p.m. | 27\u00a0minutes ago\n  \n  Description :UAC (Unix-like Artifacts Collector) versions prior...",
+      "timestamp": 1787336208.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-41450 - UAC < 3.3.0 Command Injection via command_collector.sh",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41450",
+      "summary": "CVE ID :CVE-2026-41450\n  \n  Published : Aug. 21, 2026, 6:16 p.m. | 27\u00a0minutes ago\n  \n  Description :UAC (Unix-like Artifacts Collector) versions prior...",
+      "timestamp": 1787336208.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-41449 - UAC < 3.3.0 Command Injection via run_command.sh",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41449",
+      "summary": "CVE ID :CVE-2026-41449\n  \n  Published : Aug. 21, 2026, 6:16 p.m. | 27\u00a0minutes ago\n  \n  Description :UAC (Unix-like Artifacts Collector) versions prior...",
+      "timestamp": 1787336208.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
       "link": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
       "summary": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock ...",
@@ -67,92 +147,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-77236 - Missing size validation in SecureContext_AllocateContext in FreeRTOS-Kernel",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77236",
-      "summary": "CVE ID :CVE-2026-77236\n  \n  Published : Aug. 21, 2026, 5:47 p.m. | 14\u00a0minutes ago\n  \n  Description :Missing minimum size validation in secure context ...",
-      "timestamp": 1787334469.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77235 - Missing privilege check in SecureContext_FreeContext in FreeRTOS-Kernel",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77235",
-      "summary": "CVE ID :CVE-2026-77235\n  \n  Published : Aug. 21, 2026, 5:42 p.m. | 19\u00a0minutes ago\n  \n  Description :Missing privilege verification in the secure conte...",
-      "timestamp": 1787334132.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77234 - Improper input validation in FreeRTOS-Kernel timer command handling",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77234",
-      "summary": "CVE ID :CVE-2026-77234\n  \n  Published : Aug. 21, 2026, 5:40 p.m. | 22\u00a0minutes ago\n  \n  Description :Improper input validation in FreeRTOS-Kernel befor...",
-      "timestamp": 1787334004.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-41451 - UAC < 3.3.0 Command Injection via User Substitution in parse_artifact.sh",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41451",
-      "summary": "CVE ID :CVE-2026-41451\n  \n  Published : Aug. 21, 2026, 5:36 p.m. | 26\u00a0minutes ago\n  \n  Description :UAC (Unix-like Artifacts Collector) versions prior...",
-      "timestamp": 1787333762.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-41450 - UAC < 3.3.0 Command Injection via command_collector.sh",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41450",
-      "summary": "CVE ID :CVE-2026-41450\n  \n  Published : Aug. 21, 2026, 5:35 p.m. | 27\u00a0minutes ago\n  \n  Description :UAC (Unix-like Artifacts Collector) versions prior...",
-      "timestamp": 1787333704.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-41449 - UAC < 3.3.0 Command Injection via run_command.sh",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-41449",
-      "summary": "CVE ID :CVE-2026-41449\n  \n  Published : Aug. 21, 2026, 5:33 p.m. | 28\u00a0minutes ago\n  \n  Description :UAC (Unix-like Artifacts Collector) versions prior...",
-      "timestamp": 1787333630.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-17250 - Authenticated Remote Code Execution via Stack-Based Buffer Overflow in Firmware Update Handling",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17250",
-      "summary": "CVE ID :CVE-2026-17250\n  \n  Published : Aug. 21, 2026, 5:16 p.m. | 45\u00a0minutes ago\n  \n  Description :A\nstack-based buffer overflow vulnerability exists...",
-      "timestamp": 1787332598.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-39909 - llama.cpp Use-After-Free in RPC GRAPH_RECOMPUTE Handler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39909",
-      "summary": "CVE ID :CVE-2026-39909\n  \n  Published : Aug. 21, 2026, 5:16 p.m. | 45\u00a0minutes ago\n  \n  Description :llama.cpp before b8585 contains a use-after-free v...",
-      "timestamp": 1787332590.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Cisco Crosswork Security Hardening Release: August 2026",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-crosswork-UzDTU9Vh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Crosswork%20Security%20Hardening%20Release:%20August%202026%26vs_k=1",
       "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive in...",
       "timestamp": 1787331280.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "CVE-2026-75933 - Jet Admin Stored XSS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75933",
-      "summary": "CVE ID :CVE-2026-75933\n  \n  Published : Aug. 21, 2026, 4:18 p.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :Jet Admin allows an authenticated attacker...",
-      "timestamp": 1787329097.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75932 - Jet Admin tenant isolation failure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75932",
-      "summary": "CVE ID :CVE-2026-75932\n  \n  Published : Aug. 21, 2026, 4:18 p.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :Jet Admin allows an attacker to create a m...",
-      "timestamp": 1787329097.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
@@ -307,16 +307,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -331,6 +323,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
@@ -339,8 +339,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -363,16 +363,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787342140.2767467
+  "last_updated": 1787345014.1416893
 }
