@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,64 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
+      "link": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+      "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 re...",
+      "timestamp": 1787495026.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-9769 - justhtml before 1.10.0 Denial of Service via deeply nested HTML",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9769",
+      "summary": "CVE ID :CVE-2026-9769\n  \n  Published : Aug. 23, 2026, 1:34 p.m. | 46\u00a0minutes ago\n  \n  Description :justhtml through 1.9.1 (fixed in 1.10.0) is vulnera...",
+      "timestamp": 1787492055.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8445 - justhtml before 1.12.0 Sanitizer Bypass via Markdown",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8445",
+      "summary": "CVE ID :CVE-2026-8445\n  \n  Published : Aug. 23, 2026, 1:34 p.m. | 46\u00a0minutes ago\n  \n  Description :justhtml versions <= 1.11.0 (fixed in 1.12.0) do no...",
+      "timestamp": 1787492053.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-7808 - justhtml before 1.16.0 Multiple Security Issues via Sanitization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7808",
+      "summary": "CVE ID :CVE-2026-7808\n  \n  Published : Aug. 23, 2026, 1:34 p.m. | 46\u00a0minutes ago\n  \n  Description :justhtml before 1.16.0 contains multiple HTML sanit...",
+      "timestamp": 1787492053.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-5388 - justhtml before 1.15.0 Multiple Security Issues",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5388",
+      "summary": "CVE ID :CVE-2026-5388\n  \n  Published : Aug. 23, 2026, 1:34 p.m. | 46\u00a0minutes ago\n  \n  Description :justhtml before 1.15.0 contains multiple security i...",
+      "timestamp": 1787492049.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-4671 - justhtml before 1.18.0 Denial of Service via CSS Selector",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4671",
+      "summary": "CVE ID :CVE-2026-4671\n  \n  Published : Aug. 23, 2026, 1:34 p.m. | 46\u00a0minutes ago\n  \n  Description :justhtml before 1.18.0 contains multiple low-severi...",
+      "timestamp": 1787492048.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-78155 - Untrusted Search Path in StackGres",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-78155",
-      "summary": "CVE ID :CVE-2026-78155\n  \n  Published : Aug. 23, 2026, 10:16 a.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :privilege escalation in StackGres operato...",
+      "summary": "CVE ID :CVE-2026-78155\n  \n  Published : Aug. 23, 2026, 10:16 a.m. | 4\u00a0hours, 4\u00a0minutes ago\n  \n  Description :privilege escalation in StackGres operato...",
       "timestamp": 1787480188.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +117,7 @@
     {
       "title": "CVE-2026-10053 - Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') in GitLab",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-10053",
-      "summary": "CVE ID :CVE-2026-10053\n  \n  Published : Aug. 23, 2026, 10:16 a.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
+      "summary": "CVE ID :CVE-2026-10053\n  \n  Published : Aug. 23, 2026, 10:16 a.m. | 4\u00a0hours, 4\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
       "timestamp": 1787480187.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +125,7 @@
     {
       "title": "CVE-2026-78050 - Comfast CF-N1-S Web Management mbox-config sub_41AD7C stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-78050",
-      "summary": "CVE ID :CVE-2026-78050\n  \n  Published : Aug. 23, 2026, 12:16 a.m. | 11\u00a0hours, 45\u00a0minutes ago\n  \n  Description :A vulnerability was found in Comfast CF...",
+      "summary": "CVE ID :CVE-2026-78050\n  \n  Published : Aug. 23, 2026, 12:16 a.m. | 14\u00a0hours, 4\u00a0minutes ago\n  \n  Description :A vulnerability was found in Comfast CF-...",
       "timestamp": 1787444210.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +133,7 @@
     {
       "title": "CVE-2026-16149 - Security Hardener <= 2.4.4 - Authenticated (Subscriber+) Privilege Escalation via REST API '/wp/v2/users' permission_callback Overwrite",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16149",
-      "summary": "CVE ID :CVE-2026-16149\n  \n  Published : Aug. 23, 2026, 12:16 a.m. | 11\u00a0hours, 45\u00a0minutes ago\n  \n  Description :The Security Hardener plugin for WordPr...",
+      "summary": "CVE ID :CVE-2026-16149\n  \n  Published : Aug. 23, 2026, 12:16 a.m. | 14\u00a0hours, 4\u00a0minutes ago\n  \n  Description :The Security Hardener plugin for WordPre...",
       "timestamp": 1787444210.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,48 +141,8 @@
     {
       "title": "CVE-2026-0551 - PPWP \u2013 Password Protect Pages <= 1.9.18 - Authenticated (Contributor+) PHP Object Injection via post_protection_roles",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-0551",
-      "summary": "CVE ID :CVE-2026-0551\n  \n  Published : Aug. 23, 2026, 12:16 a.m. | 11\u00a0hours, 45\u00a0minutes ago\n  \n  Description :The PPWP \u2013 Password Protect Pages plugin...",
+      "summary": "CVE ID :CVE-2026-0551\n  \n  Published : Aug. 23, 2026, 12:16 a.m. | 14\u00a0hours, 4\u00a0minutes ago\n  \n  Description :The PPWP \u2013 Password Protect Pages plugin ...",
       "timestamp": 1787444209.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-4703 - WS Form LITE <= 1.10.80 - Unauthenticated PHP Object Injection via Form Submission",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-4703",
-      "summary": "CVE ID :CVE-2026-4703\n  \n  Published : Aug. 22, 2026, 4:16 p.m. | 19\u00a0hours, 46\u00a0minutes ago\n  \n  Description :The WS Form LITE \u2013 Drag & Drop Contact Fo...",
-      "timestamp": 1787415389.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77992 - Joomla Extension - fabrikar.com - heredoc terminator breakout in the calc element in Fabrik < 4.7.2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77992",
-      "summary": "CVE ID :CVE-2026-77992\n  \n  Published : Aug. 22, 2026, 3:16 p.m. | 20\u00a0hours, 46\u00a0minutes ago\n  \n  Description :Joomla Extension - fabrikar.com - heredo...",
-      "timestamp": 1787411783.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77027 - Joomla Extension - fabrikar.com - Unauthenticated stored XSS in Fabrik < 4.7.2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77027",
-      "summary": "CVE ID :CVE-2026-77027\n  \n  Published : Aug. 22, 2026, 3:16 p.m. | 20\u00a0hours, 46\u00a0minutes ago\n  \n  Description :Joomla Extension - fabrikar.com - Unauth...",
-      "timestamp": 1787411783.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76607 - Joomla Extension - fabrikar.com - Missing ACL check in download element in Fabrik < 4.7.2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76607",
-      "summary": "CVE ID :CVE-2026-76607\n  \n  Published : Aug. 22, 2026, 3:16 p.m. | 20\u00a0hours, 46\u00a0minutes ago\n  \n  Description :Joomla Extension - fabrikar.com - Missin...",
-      "timestamp": 1787411782.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76606 - Joomla Extension - fabrikar.com - Path Traversal via image element in Fabrik < 4.7.2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76606",
-      "summary": "CVE ID :CVE-2026-76606\n  \n  Published : Aug. 22, 2026, 3:16 p.m. | 20\u00a0hours, 46\u00a0minutes ago\n  \n  Description :Joomla Extension - fabrikar.com - Path T...",
-      "timestamp": 1787411782.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -219,14 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "Hackers abuse FTP server banners to deliver new Windows malware",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
-      "summary": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
-      "timestamp": 1787310000.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On August 19, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE ID\nSe...",
@@ -307,64 +307,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -379,8 +323,64 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1787493693.6260111
+  "last_updated": 1787495817.4284043
 }
