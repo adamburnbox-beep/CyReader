@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,7 +52,7 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
@@ -65,6 +65,86 @@
       "timestamp": 1787584636.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-78414 - Cross-site scripting in Nx Witness VMS Web Administration allows session token exfiltration via a rogue peer site name",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78414",
+      "summary": "CVE ID :CVE-2026-78414\n  \n  Published : Aug. 24, 2026, 3:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Cross-site scripting in the Web Administration int...",
+      "timestamp": 1787584608.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78391 - Stored Cross-Site Scripting via Untrusted Cryptocurrency Address Rendering in RansomLook",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78391",
+      "summary": "CVE ID :CVE-2026-78391\n  \n  Published : Aug. 24, 2026, 3:16 p.m. | 27\u00a0minutes ago\n  \n  Description :RansomLook contains a stored cross-site scripting ...",
+      "timestamp": 1787584608.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78387 - RansomLook Missing Authorization in Web Configuration Editor Allows Application Configuration Modification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78387",
+      "summary": "CVE ID :CVE-2026-78387\n  \n  Published : Aug. 24, 2026, 3:16 p.m. | 27\u00a0minutes ago\n  \n  Description :RansomLook contains an authorization weakness in t...",
+      "timestamp": 1787584608.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-39915 - TIM Flow < 26.0.6 CRLF Injection via rt Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39915",
+      "summary": "CVE ID :CVE-2026-39915\n  \n  Published : Aug. 24, 2026, 3:16 p.m. | 27\u00a0minutes ago\n  \n  Description :TIM Flow before 26.0.6 contains a CRLF injection v...",
+      "timestamp": 1787584598.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78386 - Unauthenticated Disclosure of Scraping Credentials and Bypass Configuration via RansomLook API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78386",
+      "summary": "CVE ID :CVE-2026-78386\n  \n  Published : Aug. 24, 2026, 2:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :RansomLook exposed sensitive operator-side...",
+      "timestamp": 1787581026.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78385 - RansomLook Analysis PDF Generation Allows Server-Side Request Forgery and Arbitrary Local File Access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78385",
+      "summary": "CVE ID :CVE-2026-78385\n  \n  Published : Aug. 24, 2026, 2:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :RansomLook contains insufficient resource ...",
+      "timestamp": 1787581025.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78381 - RansomLook Arbitrary File Read via Path Traversal in Post screen Field",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78381",
+      "summary": "CVE ID :CVE-2026-78381\n  \n  Published : Aug. 24, 2026, 2:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :RansomLook contains a path traversal vulne...",
+      "timestamp": 1787581025.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78380 - Private Group and Market Posts Disclosed Through Public Notification Channels in RansomLook",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78380",
+      "summary": "CVE ID :CVE-2026-78380\n  \n  Published : Aug. 24, 2026, 2:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :RansomLook fails to enforce the privacy st...",
+      "timestamp": 1787581025.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78376 - Webkitgtk: use-after-free of jscvalue function parameters",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78376",
+      "summary": "CVE ID :CVE-2026-78376\n  \n  Published : Aug. 24, 2026, 2:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :A flaw was found in WebKitGTK. Processing ...",
+      "timestamp": 1787581025.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78372 - RansomLook Missing Authorization Allows Disclosure of Private Group and Ransom Note Data",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78372",
+      "summary": "CVE ID :CVE-2026-78372\n  \n  Published : Aug. 24, 2026, 2:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :RansomLook does not consistently \nenforce ...",
+      "timestamp": 1787581025.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft Teams now lets admins block external bots from meetings",
@@ -81,86 +161,6 @@
       "timestamp": 1787580010.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-67602 - phpIPAM < 1.8.2 Authentication Bypass via REST API Object Cache",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67602",
-      "summary": "CVE ID :CVE-2026-67602\n  \n  Published : Aug. 24, 2026, 1:57 p.m. | 5\u00a0minutes ago\n  \n  Description :phpIPAM before 1.8.2 contains an authentication byp...",
-      "timestamp": 1787579862.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78386 - Unauthenticated Disclosure of Scraping Credentials and Bypass Configuration via RansomLook API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78386",
-      "summary": "CVE ID :CVE-2026-78386\n  \n  Published : Aug. 24, 2026, 1:55 p.m. | 7\u00a0minutes ago\n  \n  Description :RansomLook exposed sensitive operator-side scraping...",
-      "timestamp": 1787579757.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78385 - RansomLook Analysis PDF Generation Allows Server-Side Request Forgery and Arbitrary Local File Access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78385",
-      "summary": "CVE ID :CVE-2026-78385\n  \n  Published : Aug. 24, 2026, 1:49 p.m. | 13\u00a0minutes ago\n  \n  Description :RansomLook contains insufficient resource validati...",
-      "timestamp": 1787579390.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59568 - Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59568",
-      "summary": "CVE ID :CVE-2026-59568\n  \n  Published : Aug. 24, 2026, 1:44 p.m. | 18\u00a0minutes ago\n  \n  Description :Multiple vulnerabilities on affected versions of Z...",
-      "timestamp": 1787579061.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59567 - Local privilege escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59567",
-      "summary": "CVE ID :CVE-2026-59567\n  \n  Published : Aug. 24, 2026, 1:41 p.m. | 21\u00a0minutes ago\n  \n  Description :Multiple vulnerabilities on affected versions of Z...",
-      "timestamp": 1787578898.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59566 - Local denial-of-service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59566",
-      "summary": "CVE ID :CVE-2026-59566\n  \n  Published : Aug. 24, 2026, 1:41 p.m. | 22\u00a0minutes ago\n  \n  Description :A locally exploitable buffer overflow bug can caus...",
-      "timestamp": 1787578864.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59565 - Local and kernel denial-of-service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59565",
-      "summary": "CVE ID :CVE-2026-59565\n  \n  Published : Aug. 24, 2026, 1:40 p.m. | 22\u00a0minutes ago\n  \n  Description :A remotely exploitable buffer overflow bug can cau...",
-      "timestamp": 1787578823.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59564 - Authentication bypass between ZCC and client connector portal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59564",
-      "summary": "CVE ID :CVE-2026-59564\n  \n  Published : Aug. 24, 2026, 1:39 p.m. | 24\u00a0minutes ago\n  \n  Description :An authentication bypass issue exists in communica...",
-      "timestamp": 1787578756.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78381 - RansomLook Arbitrary File Read via Path Traversal in Post screen Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78381",
-      "summary": "CVE ID :CVE-2026-78381\n  \n  Published : Aug. 24, 2026, 1:32 p.m. | 30\u00a0minutes ago\n  \n  Description :RansomLook contains a path traversal vulnerability...",
-      "timestamp": 1787578375.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78376 - Webkitgtk: use-after-free of jscvalue function parameters",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78376",
-      "summary": "CVE ID :CVE-2026-78376\n  \n  Published : Aug. 24, 2026, 1:29 p.m. | 33\u00a0minutes ago\n  \n  Description :A flaw was found in WebKitGTK. Processing maliciou...",
-      "timestamp": 1787578157.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft: August updates break printing, PDF export in WPF apps",
@@ -307,8 +307,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -323,30 +323,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
       "summary": "",
@@ -355,16 +331,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -379,6 +347,38 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
       "summary": "",
@@ -387,5 +387,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1787586833.7213247
+  "last_updated": 1787590468.521166
 }
