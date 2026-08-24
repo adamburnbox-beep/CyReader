@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,124 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
+      "link": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
+      "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a memb...",
+      "timestamp": 1787584636.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft Teams now lets admins block external bots from meetings",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
+      "summary": "Microsoft is rolling out a new Teams meeting protection policy that allows administrators to automatically block all identified external bots from joi...",
+      "timestamp": 1787580019.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "South Korean startup platform breach exposes key management failures",
+      "link": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
+      "summary": "A breach at South Korea's government-backed startup platform exposed encrypted personal data after an encryption key was included in an API. Penta Sec...",
+      "timestamp": 1787580010.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-67602 - phpIPAM < 1.8.2 Authentication Bypass via REST API Object Cache",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67602",
+      "summary": "CVE ID :CVE-2026-67602\n  \n  Published : Aug. 24, 2026, 1:57 p.m. | 5\u00a0minutes ago\n  \n  Description :phpIPAM before 1.8.2 contains an authentication byp...",
+      "timestamp": 1787579862.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78386 - Unauthenticated Disclosure of Scraping Credentials and Bypass Configuration via RansomLook API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78386",
+      "summary": "CVE ID :CVE-2026-78386\n  \n  Published : Aug. 24, 2026, 1:55 p.m. | 7\u00a0minutes ago\n  \n  Description :RansomLook exposed sensitive operator-side scraping...",
+      "timestamp": 1787579757.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78385 - RansomLook Analysis PDF Generation Allows Server-Side Request Forgery and Arbitrary Local File Access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78385",
+      "summary": "CVE ID :CVE-2026-78385\n  \n  Published : Aug. 24, 2026, 1:49 p.m. | 13\u00a0minutes ago\n  \n  Description :RansomLook contains insufficient resource validati...",
+      "timestamp": 1787579390.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59568 - Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59568",
+      "summary": "CVE ID :CVE-2026-59568\n  \n  Published : Aug. 24, 2026, 1:44 p.m. | 18\u00a0minutes ago\n  \n  Description :Multiple vulnerabilities on affected versions of Z...",
+      "timestamp": 1787579061.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59567 - Local privilege escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59567",
+      "summary": "CVE ID :CVE-2026-59567\n  \n  Published : Aug. 24, 2026, 1:41 p.m. | 21\u00a0minutes ago\n  \n  Description :Multiple vulnerabilities on affected versions of Z...",
+      "timestamp": 1787578898.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59566 - Local denial-of-service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59566",
+      "summary": "CVE ID :CVE-2026-59566\n  \n  Published : Aug. 24, 2026, 1:41 p.m. | 22\u00a0minutes ago\n  \n  Description :A locally exploitable buffer overflow bug can caus...",
+      "timestamp": 1787578864.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59565 - Local and kernel denial-of-service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59565",
+      "summary": "CVE ID :CVE-2026-59565\n  \n  Published : Aug. 24, 2026, 1:40 p.m. | 22\u00a0minutes ago\n  \n  Description :A remotely exploitable buffer overflow bug can cau...",
+      "timestamp": 1787578823.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59564 - Authentication bypass between ZCC and client connector portal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59564",
+      "summary": "CVE ID :CVE-2026-59564\n  \n  Published : Aug. 24, 2026, 1:39 p.m. | 24\u00a0minutes ago\n  \n  Description :An authentication bypass issue exists in communica...",
+      "timestamp": 1787578756.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78381 - RansomLook Arbitrary File Read via Path Traversal in Post screen Field",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78381",
+      "summary": "CVE ID :CVE-2026-78381\n  \n  Published : Aug. 24, 2026, 1:32 p.m. | 30\u00a0minutes ago\n  \n  Description :RansomLook contains a path traversal vulnerability...",
+      "timestamp": 1787578375.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78376 - Webkitgtk: use-after-free of jscvalue function parameters",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78376",
+      "summary": "CVE ID :CVE-2026-78376\n  \n  Published : Aug. 24, 2026, 1:29 p.m. | 33\u00a0minutes ago\n  \n  Description :A flaw was found in WebKitGTK. Processing maliciou...",
+      "timestamp": 1787578157.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft: August updates break printing, PDF export in WPF apps",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
+      "summary": "Microsoft has confirmed that .NET Framework updates released as part of the August 2026 Patch Tuesday are breaking printing and PDF export in WPF appl...",
+      "timestamp": 1787575221.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
@@ -73,86 +185,6 @@
       "timestamp": 1787564525.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-78317 - DIAEnergie - SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78317",
-      "summary": "CVE ID :CVE-2026-78317\n  \n  Published : Aug. 24, 2026, 9:34 a.m. | 37\u00a0minutes ago\n  \n  Description :SQL Injection in Delta DIAEnergie v1.11.00.002 all...",
-      "timestamp": 1787564098.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78316 - DIAEnergie - SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78316",
-      "summary": "CVE ID :CVE-2026-78316\n  \n  Published : Aug. 24, 2026, 9:34 a.m. | 38\u00a0minutes ago\n  \n  Description :SQL Injection in Delta DIAEnergie v1.11.00.002 all...",
-      "timestamp": 1787564078.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78315 - DIAEnergie - SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78315",
-      "summary": "CVE ID :CVE-2026-78315\n  \n  Published : Aug. 24, 2026, 9:34 a.m. | 38\u00a0minutes ago\n  \n  Description :SQL Injection in Delta DIAEnergie v1.11.00.002 all...",
-      "timestamp": 1787564061.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78314 - DIAEnergie - SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78314",
-      "summary": "CVE ID :CVE-2026-78314\n  \n  Published : Aug. 24, 2026, 9:33 a.m. | 38\u00a0minutes ago\n  \n  Description :SQL Injection in Delta DIAEnergie v1.11.00.002 all...",
-      "timestamp": 1787564031.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78306 - DJI Drone Bluetooth Interface Unauthenticated DUML Command Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78306",
-      "summary": "CVE ID :CVE-2026-78306\n  \n  Published : Aug. 24, 2026, 9:16 a.m. | 55\u00a0minutes ago\n  \n  Description :DJI drones expose an unauthenticated DUML command ...",
-      "timestamp": 1787563007.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66897 - Instance template path traversal allows arbitrary host file write as root",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66897",
-      "summary": "CVE ID :CVE-2026-66897\n  \n  Published : Aug. 24, 2026, 9:08 a.m. | 1\u00a0hour, 4\u00a0minutes ago\n  \n  Description :A path traversal vulnerability in LXD's ins...",
-      "timestamp": 1787562484.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78255 - DJI Drone HTTP Media Server Allows Unauthenticated Access to Stored Media",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78255",
-      "summary": "CVE ID :CVE-2026-78255\n  \n  Published : Aug. 24, 2026, 8:16 a.m. | 1\u00a0hour, 56\u00a0minutes ago\n  \n  Description :The HTTP media server running on DJI drone...",
-      "timestamp": 1787559393.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77994 - Joomla Extension - joomlack.fr - Second order SQL injection in Page Builder CK < 3.6.5",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77994",
-      "summary": "CVE ID :CVE-2026-77994\n  \n  Published : Aug. 24, 2026, 8:16 a.m. | 1\u00a0hour, 56\u00a0minutes ago\n  \n  Description :Joomla Extension - joomlack.fr - Second or...",
-      "timestamp": 1787559393.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78251 - DJI Drone FTP Service Allows Unrestricted Storage Consumption of the /blackbox Directory",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78251",
-      "summary": "CVE ID :CVE-2026-78251\n  \n  Published : Aug. 24, 2026, 7:04 a.m. | 3\u00a0hours, 8\u00a0minutes ago\n  \n  Description :DJI drones contain an FTP service that use...",
-      "timestamp": 1787555072.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59561 - Sakura Editor OS Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59561",
-      "summary": "CVE ID :CVE-2026-59561\n  \n  Published : Aug. 24, 2026, 5:16 a.m. | 4\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Sakura Editor provided by Sakura Editor D...",
-      "timestamp": 1787548615.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
@@ -193,38 +225,6 @@
       "timestamp": 1787331280.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
-      "summary": "More than 9,300 Amazon Web Services (AWS) access keys publicly exposed between August 2022 and August 2026 are still active and valid. [...]",
-      "timestamp": 1787327715.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft blames Windows gaming issues on RGB lighting devices",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/",
-      "summary": "Microsoft says ongoing issues causing games to crash or fail to launch after installing the August 2026 Windows updates may be caused by peripherals w...",
-      "timestamp": 1787324089.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Is Online Privacy Possible? How Digital Identities Can Help",
-      "link": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
-      "summary": "Using the same email, phone number, payment method, and other identifiers makes it easier for data brokers and attackers to profile your activity. Ano...",
-      "timestamp": 1787320810.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft rolls out Classic Outlook theme for New Outlook users",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-classic-outlook-theme-for-new-outlook-users/",
-      "summary": "Microsoft has started rolling out a Classic Outlook theme for users of Outlook on the web and the New Outlook for Windows. [...]",
-      "timestamp": 1787319575.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
@@ -307,8 +307,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -323,48 +323,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -379,6 +339,46 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
       "summary": "",
@@ -387,5 +387,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1787572928.1188312
+  "last_updated": 1787586833.7213247
 }
