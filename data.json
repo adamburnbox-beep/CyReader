@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 8,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,72 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Microsoft shares temporary fix for Windows 11 gaming issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues/",
+      "summary": "Microsoft has shared a temporary fix for ongoing\u00a0gaming issues caused by Windows 11\u00a0updates released during the\u00a0August 2026 Patch Tuesday. [...]",
+      "timestamp": 1787564525.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-78317 - DIAEnergie - SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78317",
+      "summary": "CVE ID :CVE-2026-78317\n  \n  Published : Aug. 24, 2026, 9:34 a.m. | 46\u00a0minutes ago\n  \n  Description :SQL Injection in Delta DIAEnergie v1.11.00.002 all...",
+      "timestamp": 1787564098.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78316 - DIAEnergie - SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78316",
+      "summary": "CVE ID :CVE-2026-78316\n  \n  Published : Aug. 24, 2026, 9:34 a.m. | 46\u00a0minutes ago\n  \n  Description :SQL Injection in Delta DIAEnergie v1.11.00.002 all...",
+      "timestamp": 1787564078.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78315 - DIAEnergie - SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78315",
+      "summary": "CVE ID :CVE-2026-78315\n  \n  Published : Aug. 24, 2026, 9:34 a.m. | 47\u00a0minutes ago\n  \n  Description :SQL Injection in Delta DIAEnergie v1.11.00.002 all...",
+      "timestamp": 1787564061.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78314 - DIAEnergie - SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78314",
+      "summary": "CVE ID :CVE-2026-78314\n  \n  Published : Aug. 24, 2026, 9:33 a.m. | 47\u00a0minutes ago\n  \n  Description :SQL Injection in Delta DIAEnergie v1.11.00.002 all...",
+      "timestamp": 1787564031.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78306 - DJI Drone Bluetooth Interface Unauthenticated DUML Command Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78306",
+      "summary": "CVE ID :CVE-2026-78306\n  \n  Published : Aug. 24, 2026, 9:16 a.m. | 1\u00a0hour, 4\u00a0minutes ago\n  \n  Description :DJI drones expose an unauthenticated DUML c...",
+      "timestamp": 1787563007.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66897 - Instance template path traversal allows arbitrary host file write as root",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66897",
+      "summary": "CVE ID :CVE-2026-66897\n  \n  Published : Aug. 24, 2026, 9:08 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :A path traversal vulnerability in LXD's in...",
+      "timestamp": 1787562484.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-78255 - DJI Drone HTTP Media Server Allows Unauthenticated Access to Stored Media",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-78255",
-      "summary": "CVE ID :CVE-2026-78255\n  \n  Published : Aug. 24, 2026, 8:16 a.m. | 15\u00a0minutes ago\n  \n  Description :The HTTP media server running on DJI drones serves...",
+      "summary": "CVE ID :CVE-2026-78255\n  \n  Published : Aug. 24, 2026, 8:16 a.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :The HTTP media server running on DJI drone...",
       "timestamp": 1787559393.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,23 +125,15 @@
     {
       "title": "CVE-2026-77994 - Joomla Extension - joomlack.fr - Second order SQL injection in Page Builder CK < 3.6.5",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77994",
-      "summary": "CVE ID :CVE-2026-77994\n  \n  Published : Aug. 24, 2026, 8:16 a.m. | 15\u00a0minutes ago\n  \n  Description :Joomla Extension - joomlack.fr - Second order SQL ...",
+      "summary": "CVE ID :CVE-2026-77994\n  \n  Published : Aug. 24, 2026, 8:16 a.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Joomla Extension - joomlack.fr - Second or...",
       "timestamp": 1787559393.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78306 - DJI Drone Bluetooth Interface Unauthenticated DUML Command Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78306",
-      "summary": "CVE ID :CVE-2026-78306\n  \n  Published : Aug. 24, 2026, 8:08 a.m. | 24\u00a0minutes ago\n  \n  Description :DJI drones expose an unauthenticated DUML command ...",
-      "timestamp": 1787558880.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-78251 - DJI Drone FTP Service Allows Unrestricted Storage Consumption of the /blackbox Directory",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-78251",
-      "summary": "CVE ID :CVE-2026-78251\n  \n  Published : Aug. 24, 2026, 7:04 a.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :DJI drones contain an FTP service that use...",
+      "summary": "CVE ID :CVE-2026-78251\n  \n  Published : Aug. 24, 2026, 7:04 a.m. | 3\u00a0hours, 16\u00a0minutes ago\n  \n  Description :DJI drones contain an FTP service that us...",
       "timestamp": 1787555072.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,48 +141,8 @@
     {
       "title": "CVE-2026-59561 - Sakura Editor OS Command Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-59561",
-      "summary": "CVE ID :CVE-2026-59561\n  \n  Published : Aug. 24, 2026, 5:16 a.m. | 3\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Sakura Editor provided by Sakura Editor D...",
+      "summary": "CVE ID :CVE-2026-59561\n  \n  Published : Aug. 24, 2026, 5:16 a.m. | 5\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Sakura Editor provided by Sakura Editor De...",
       "timestamp": 1787548615.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78213 - Hepta Platforms\uff5cHeptabase - Stored Cross-Site Scripting",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78213",
-      "summary": "CVE ID :CVE-2026-78213\n  \n  Published : Aug. 24, 2026, 4:16 a.m. | 4\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Heptabase developed by Hepta Platforms, I...",
-      "timestamp": 1787545019.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78212 - 4MOSAn Security Technology\uff5c4MOSAn Management Center - Arbitrary File Read",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78212",
-      "summary": "CVE ID :CVE-2026-78212\n  \n  Published : Aug. 24, 2026, 4:16 a.m. | 4\u00a0hours, 15\u00a0minutes ago\n  \n  Description :4MOSAn developed by 4MOSAn Security Techn...",
-      "timestamp": 1787545019.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78211 - 4MOSAn Security Technology\uff5c4MOSAn GCB Doctor - OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78211",
-      "summary": "CVE ID :CVE-2026-78211\n  \n  Published : Aug. 24, 2026, 4:16 a.m. | 4\u00a0hours, 15\u00a0minutes ago\n  \n  Description :4MOSAn GCB Doctor developed by 4MOSAn Sec...",
-      "timestamp": 1787545019.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19200 - Velociraptor Analyst overwrites live built-in artifacts through verify()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19200",
-      "summary": "CVE ID :CVE-2026-19200\n  \n  Published : Aug. 24, 2026, 4:16 a.m. | 4\u00a0hours, 15\u00a0minutes ago\n  \n  Description :The Velociraptor verify() VQL function al...",
-      "timestamp": 1787545006.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78170 - UTT HiPER 1200GW formConfigFastDirectionW strcpy buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78170",
-      "summary": "CVE ID :CVE-2026-78170\n  \n  Published : Aug. 24, 2026, 2:17 a.m. | 6\u00a0hours, 15\u00a0minutes ago\n  \n  Description :A flaw has been found in UTT HiPER 1200GW...",
-      "timestamp": 1787537824.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -219,14 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "Microsoft patches max severity code execution, privilege escalation flaws",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
-      "summary": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attack...",
-      "timestamp": 1787310250.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of August 19, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20August%2019,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On August 19, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE ID\nSe...",
@@ -307,8 +307,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -331,40 +331,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -385,7 +353,39 @@
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1787563867.6613805
+  "last_updated": 1787567483.1815326
 }
