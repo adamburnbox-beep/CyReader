@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-78555 - RansomLook API Key Disclosure Through /admin/apikeys HTML Source",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78555",
+      "summary": "CVE ID :CVE-2026-78555\n  \n  Published : Aug. 24, 2026, 7:38 p.m. | 37\u00a0minutes ago\n  \n  Description :RansomLook exposed complete API keys in the HTML s...",
+      "timestamp": 1787600330.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
@@ -67,17 +75,65 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-78551 - RansomLook Login Endpoint Allows Timing-Based Username Enumeration and Unthrottled Authentication Attempts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78551",
+      "summary": "CVE ID :CVE-2026-78551\n  \n  Published : Aug. 24, 2026, 7:20 p.m. | 56\u00a0minutes ago\n  \n  Description :RansomLook contains multiple weaknesses in its aut...",
+      "timestamp": 1787599203.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-78541 - Command Injection in Parent Control of TP-Link Archer BE3600 v1",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-78541",
-      "summary": "CVE ID :CVE-2026-78541\n  \n  Published : Aug. 24, 2026, 6:26 p.m. | 30\u00a0minutes ago\n  \n  Description :A stored OS\ncommand injection vulnerability exists...",
-      "timestamp": 1787595971.0,
+      "summary": "CVE ID :CVE-2026-78541\n  \n  Published : Aug. 24, 2026, 7:17 p.m. | 59\u00a0minutes ago\n  \n  Description :A stored OS\ncommand injection vulnerability exists...",
+      "timestamp": 1787599024.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71506 - Dolibarr < 24.0.0 Payments REST API Improper Authorization via Delete Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71506",
+      "summary": "CVE ID :CVE-2026-71506\n  \n  Published : Aug. 24, 2026, 7:16 p.m. | 59\u00a0minutes ago\n  \n  Description :Dolibarr before 24.0.0 contains an improper author...",
+      "timestamp": 1787599009.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71504 - Dolibarr < 24.0.0 Members REST API Improper Authorization via Password Reset",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71504",
+      "summary": "CVE ID :CVE-2026-71504\n  \n  Published : Aug. 24, 2026, 7:16 p.m. | 59\u00a0minutes ago\n  \n  Description :Dolibarr before 24.0.0 contains an improper author...",
+      "timestamp": 1787599009.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-40877 - Combodo iTop: PHP Object Injection Leading to Remote Code Execution on user preferences",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40877",
+      "summary": "CVE ID :CVE-2026-40877\n  \n  Published : Aug. 24, 2026, 7:16 p.m. | 59\u00a0minutes ago\n  \n  Description :Combodo iTop is a web-based IT service management ...",
+      "timestamp": 1787598998.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-39975 - Combodo iTop: Remote code execution using external auth variable value",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39975",
+      "summary": "CVE ID :CVE-2026-39975\n  \n  Published : Aug. 24, 2026, 7:16 p.m. | 59\u00a0minutes ago\n  \n  Description :Combodo iTop is a web-based IT service management ...",
+      "timestamp": 1787598998.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-30864 - Combodo iTop: Reflected XSS in dashboard revert",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-30864",
+      "summary": "CVE ID :CVE-2026-30864\n  \n  Published : Aug. 24, 2026, 7:16 p.m. | 59\u00a0minutes ago\n  \n  Description :Combodo iTop is a web-based IT service management ...",
+      "timestamp": 1787598997.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-9254 - Command Injection Vulnerability in Parent Control of Multiple TP-Link Archer Devices",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-9254",
-      "summary": "CVE ID :CVE-2026-9254\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :An unauthenticated OS command injection vulnerabili...",
+      "summary": "CVE ID :CVE-2026-9254\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :An unauthenticated OS command injection vul...",
       "timestamp": 1787595454.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,64 +141,8 @@
     {
       "title": "CVE-2026-76838 - Hi.Events before 1.11.1-beta Server-Side Request Forgery via Unvalidated Webhook Redirects",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76838",
-      "summary": "CVE ID :CVE-2026-76838\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Hi.Events validates a webhook destination only whe...",
+      "summary": "CVE ID :CVE-2026-76838\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :Hi.Events validates a webhook destination ...",
       "timestamp": 1787595442.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76836 - AzuraCast through 0.23.8 Liquidsoap Configuration Write via Profile Edit Serialization Group Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76836",
-      "summary": "CVE ID :CVE-2026-76836\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :AzuraCast exposes the Liquidsoap custom configurat...",
-      "timestamp": 1787595441.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76835 - OAuth2 Proxy 7.15.2 through 7.15.4 Authentication Bypass via X-Forwarded-Uri Under the Default Trusted Proxy Set",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76835",
-      "summary": "CVE ID :CVE-2026-76835\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :OAuth2 Proxy honours a client-supplied X-Forwarded...",
-      "timestamp": 1787595441.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76073 - Label Studio through 1.23.0 Cross-Organization Annotation Access via Unscoped AnnotationAPI Queryset",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76073",
-      "summary": "CVE ID :CVE-2026-76073\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Label Studio does not scope the annotation detail ...",
-      "timestamp": 1787595441.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76072 - Continue CLI through 1.5.47 Incomplete Destructive Command Denylist in Headless and Auto Mode",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76072",
-      "summary": "CVE ID :CVE-2026-76072\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :The Continue CLI applies an incomplete denylist as...",
-      "timestamp": 1787595441.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71943 - DrayTek VigorSwitch Multiple Models OS Command Injection via setDevNet",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71943",
-      "summary": "CVE ID :CVE-2026-71943\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Multiple DrayTek VigorSwitch models contain a comm...",
-      "timestamp": 1787595440.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71942 - DrayTek VigorSwitch Multiple Models Buffer Overflow via mail_mailalert",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71942",
-      "summary": "CVE ID :CVE-2026-71942\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Multiple DrayTek VigorSwitch models contain a buff...",
-      "timestamp": 1787595439.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71941 - DrayTek VigorSwitch Multiple Models Buffer Overflow via diag_logmail",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71941",
-      "summary": "CVE ID :CVE-2026-71941\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Multiple DrayTek VigorSwitch models contain a buff...",
-      "timestamp": 1787595439.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -315,8 +315,32 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+      "summary": "",
+      "timestamp": 1786550400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -331,8 +355,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
       "summary": "",
       "timestamp": 1786550400.0,
       "source": "Palo Alto Networks",
@@ -355,30 +379,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
-      "summary": "",
-      "timestamp": 1786550400.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
       "summary": "",
@@ -387,5 +387,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1787600477.8044338
+  "last_updated": 1787604320.134676
 }
