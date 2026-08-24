@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,100 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
+      "summary": "Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress th...",
+      "timestamp": 1787599592.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-78541 - Command Injection in Parent Control of TP-Link Archer BE3600 v1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78541",
+      "summary": "CVE ID :CVE-2026-78541\n  \n  Published : Aug. 24, 2026, 6:26 p.m. | 30\u00a0minutes ago\n  \n  Description :A stored OS\ncommand injection vulnerability exists...",
+      "timestamp": 1787595971.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-9254 - Command Injection Vulnerability in Parent Control of Multiple TP-Link Archer Devices",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9254",
+      "summary": "CVE ID :CVE-2026-9254\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :An unauthenticated OS command injection vulnerabili...",
+      "timestamp": 1787595454.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76838 - Hi.Events before 1.11.1-beta Server-Side Request Forgery via Unvalidated Webhook Redirects",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76838",
+      "summary": "CVE ID :CVE-2026-76838\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Hi.Events validates a webhook destination only whe...",
+      "timestamp": 1787595442.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76836 - AzuraCast through 0.23.8 Liquidsoap Configuration Write via Profile Edit Serialization Group Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76836",
+      "summary": "CVE ID :CVE-2026-76836\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :AzuraCast exposes the Liquidsoap custom configurat...",
+      "timestamp": 1787595441.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76835 - OAuth2 Proxy 7.15.2 through 7.15.4 Authentication Bypass via X-Forwarded-Uri Under the Default Trusted Proxy Set",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76835",
+      "summary": "CVE ID :CVE-2026-76835\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :OAuth2 Proxy honours a client-supplied X-Forwarded...",
+      "timestamp": 1787595441.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76073 - Label Studio through 1.23.0 Cross-Organization Annotation Access via Unscoped AnnotationAPI Queryset",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76073",
+      "summary": "CVE ID :CVE-2026-76073\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Label Studio does not scope the annotation detail ...",
+      "timestamp": 1787595441.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76072 - Continue CLI through 1.5.47 Incomplete Destructive Command Denylist in Headless and Auto Mode",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76072",
+      "summary": "CVE ID :CVE-2026-76072\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :The Continue CLI applies an incomplete denylist as...",
+      "timestamp": 1787595441.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71943 - DrayTek VigorSwitch Multiple Models OS Command Injection via setDevNet",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71943",
+      "summary": "CVE ID :CVE-2026-71943\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Multiple DrayTek VigorSwitch models contain a comm...",
+      "timestamp": 1787595440.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71942 - DrayTek VigorSwitch Multiple Models Buffer Overflow via mail_mailalert",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71942",
+      "summary": "CVE ID :CVE-2026-71942\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Multiple DrayTek VigorSwitch models contain a buff...",
+      "timestamp": 1787595439.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71941 - DrayTek VigorSwitch Multiple Models Buffer Overflow via diag_logmail",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71941",
+      "summary": "CVE ID :CVE-2026-71941\n  \n  Published : Aug. 24, 2026, 6:17 p.m. | 39\u00a0minutes ago\n  \n  Description :Multiple DrayTek VigorSwitch models contain a buff...",
+      "timestamp": 1787595439.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "TikTok reaches $400M settlement with US over COPPA violations",
       "link": "https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/",
@@ -65,86 +153,6 @@
       "timestamp": 1787594184.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-76835 - OAuth2 Proxy 7.15.2 through 7.15.4 Authentication Bypass via X-Forwarded-Uri Under the Default Trusted Proxy Set",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76835",
-      "summary": "CVE ID :CVE-2026-76835\n  \n  Published : Aug. 24, 2026, 5:55 p.m. | 19\u00a0minutes ago\n  \n  Description :OAuth2 Proxy honours a client-supplied X-Forwarded...",
-      "timestamp": 1787594139.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76073 - Label Studio through 1.23.0 Cross-Organization Annotation Access via Unscoped AnnotationAPI Queryset",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76073",
-      "summary": "CVE ID :CVE-2026-76073\n  \n  Published : Aug. 24, 2026, 5:55 p.m. | 19\u00a0minutes ago\n  \n  Description :Label Studio does not scope the annotation detail ...",
-      "timestamp": 1787594139.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76072 - Continue CLI through 1.5.47 Incomplete Destructive Command Denylist in Headless and Auto Mode",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76072",
-      "summary": "CVE ID :CVE-2026-76072\n  \n  Published : Aug. 24, 2026, 5:55 p.m. | 19\u00a0minutes ago\n  \n  Description :The Continue CLI applies an incomplete denylist as...",
-      "timestamp": 1787594138.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76838 - Hi.Events before 1.11.1-beta Server-Side Request Forgery via Unvalidated Webhook Redirects",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76838",
-      "summary": "CVE ID :CVE-2026-76838\n  \n  Published : Aug. 24, 2026, 5:36 p.m. | 39\u00a0minutes ago\n  \n  Description :Hi.Events validates a webhook destination only whe...",
-      "timestamp": 1787592962.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76836 - AzuraCast through 0.23.8 Liquidsoap Configuration Write via Profile Edit Serialization Group Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76836",
-      "summary": "CVE ID :CVE-2026-76836\n  \n  Published : Aug. 24, 2026, 5:36 p.m. | 39\u00a0minutes ago\n  \n  Description :AzuraCast exposes the Liquidsoap custom configurat...",
-      "timestamp": 1787592961.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16348 - Command Injection Vulnerability in VPN connection of Archer BE800",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16348",
-      "summary": "CVE ID :CVE-2026-16348\n  \n  Published : Aug. 24, 2026, 5:25 p.m. | 49\u00a0minutes ago\n  \n  Description :An authenticated command injection vulnerability i...",
-      "timestamp": 1787592346.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9254 - Command Injection Vulnerability in Parent Control of Multiple TP-Link Archer Devices",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9254",
-      "summary": "CVE ID :CVE-2026-9254\n  \n  Published : Aug. 24, 2026, 5:25 p.m. | 49\u00a0minutes ago\n  \n  Description :An unauthenticated OS command injection vulnerabili...",
-      "timestamp": 1787592330.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77915 - rConfig 8.0.0 < 8.2.10 Unauthorized Admin Registration via web.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77915",
-      "summary": "CVE ID :CVE-2026-77915\n  \n  Published : Aug. 24, 2026, 5:18 p.m. | 56\u00a0minutes ago\n  \n  Description :rConfig 8.0.0 before 8.2.13 contains an authentica...",
-      "timestamp": 1787591898.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19685 - Networkmanager: networkmanager: 802-1x ca-path and phase2-ca-path bypass private_user restriction, allowing wpa-enterprise server validation bypass (incomplete fix for cve-2025-9615)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19685",
-      "summary": "CVE ID :CVE-2026-19685\n  \n  Published : Aug. 24, 2026, 5:17 p.m. | 57\u00a0minutes ago\n  \n  Description :NetworkManager did not apply the private_user rest...",
-      "timestamp": 1787591841.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-36939 - OpenThread MLE Packet Denial of Service and Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-36939",
-      "summary": "CVE ID :CVE-2025-36939\n  \n  Published : Aug. 24, 2026, 5:17 p.m. | 57\u00a0minutes ago\n  \n  Description :Multiple vulnerabilities exist in OpenThread's han...",
-      "timestamp": 1787591841.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
       "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised device...",
       "timestamp": 1787408064.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
-      "link": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
-      "summary": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLoc...",
-      "timestamp": 1787403609.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -387,5 +387,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1787597841.746689
+  "last_updated": 1787600477.8044338
 }
