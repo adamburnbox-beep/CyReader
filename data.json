@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,116 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Massive DDoS attack disrupts Norway\u2019s government digital services",
+      "link": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
+      "summary": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services u...",
+      "timestamp": 1787673156.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-70551 - Server-Side Request Forgery Via VCS remote download in JFrog Artifactory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70551",
+      "summary": "CVE ID :CVE-2026-70551\n  \n  Published : Aug. 25, 2026, 3:16 p.m. | 47\u00a0minutes ago\n  \n  Description :A user who can read an existing remote VCS reposit...",
+      "timestamp": 1787670998.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55541 - PraisonAI: `--api-key` flag on `praisonai serve` is not properly enforced",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55541",
+      "summary": "CVE ID :CVE-2026-55541\n  \n  Published : Aug. 25, 2026, 3:16 p.m. | 47\u00a0minutes ago\n  \n  Description :PraisonAI is a multi-agent teams system. Prior to ...",
+      "timestamp": 1787670994.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55534 - PraisonAI serve agents --api-key is ignored, allowing unauthenticated remote agent execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55534",
+      "summary": "CVE ID :CVE-2026-55534\n  \n  Published : Aug. 25, 2026, 3:16 p.m. | 47\u00a0minutes ago\n  \n  Description :PraisonAI is a multi-agent teams system. From prai...",
+      "timestamp": 1787670994.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55528 - praisonaiagents: AgentServer declares auth_token but never enforces it on any route (CWE-862)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55528",
+      "summary": "CVE ID :CVE-2026-55528\n  \n  Published : Aug. 25, 2026, 3:16 p.m. | 47\u00a0minutes ago\n  \n  Description :PraisonAI is a multi-agent teams system. Prior to ...",
+      "timestamp": 1787670993.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55526 - PraisonAI: SSRF protection bypass in `spider_tools._host_is_blocked()` via DNS-resolved hostnames (`127.0.0.1.nip.io`)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55526",
+      "summary": "CVE ID :CVE-2026-55526\n  \n  Published : Aug. 25, 2026, 3:16 p.m. | 47\u00a0minutes ago\n  \n  Description :PraisonAI is a multi-agent teams system. Prior to ...",
+      "timestamp": 1787670993.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-16286 - File Upload in TRTEK Software's Software Repository Management",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16286",
+      "summary": "CVE ID :CVE-2026-16286\n  \n  Published : Aug. 25, 2026, 3:16 p.m. | 47\u00a0minutes ago\n  \n  Description :Unrestricted upload of file with dangerous type vu...",
+      "timestamp": 1787670990.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-79784 - Vocos through 0.1.0 Arbitrary Code Execution via Unrestricted class_path in Model Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79784",
+      "summary": "CVE ID :CVE-2026-79784\n  \n  Published : Aug. 25, 2026, 3:16 p.m. | 47\u00a0minutes ago\n  \n  Description :Vocos instantiates a class named by a configuratio...",
+      "timestamp": 1787670972.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-79782 - rclone before 1.74.4 Security Token Disclosure via HTTPS to HTTP Redirect",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79782",
+      "summary": "CVE ID :CVE-2026-79782\n  \n  Published : Aug. 25, 2026, 3:16 p.m. | 47\u00a0minutes ago\n  \n  Description :rclone before 1.74.4 fails to strip the X-Amz-Secu...",
+      "timestamp": 1787670971.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-79774 - Winter CMS before 1.2.13 Twig Sandbox Escape via SecurityPolicy",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79774",
+      "summary": "CVE ID :CVE-2026-79774\n  \n  Published : Aug. 25, 2026, 3:16 p.m. | 47\u00a0minutes ago\n  \n  Description :Winter CMS versions before 1.2.13 contain an incom...",
+      "timestamp": 1787670965.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-79770 - Nokogiri before 1.19.3 ReDoS via CSS selector tokenizer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79770",
+      "summary": "CVE ID :CVE-2026-79770\n  \n  Published : Aug. 25, 2026, 3:16 p.m. | 47\u00a0minutes ago\n  \n  Description :Nokogiri versions before 1.19.3 contain regular ex...",
+      "timestamp": 1787670963.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Hospital operator Nutex Health says data stolen in cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
+      "summary": "Healthcare and services provider Nutex is investigating a data breach incident\u00a0where an unauthorized third party exfiltrated information from company ...",
+      "timestamp": 1787669056.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
+      "link": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
+      "summary": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how ...",
+      "timestamp": 1787666471.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Microsoft PowerToys adds Alt+Tab-style switching for an app's windows",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
@@ -83,92 +187,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-79673 - Ech0 before 4.4.3 Scope Bypass via profile:read Token",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79673",
-      "summary": "CVE ID :CVE-2026-79673\n  \n  Published : Aug. 25, 2026, 11:33 a.m. | 48\u00a0minutes ago\n  \n  Description :Ech0 before 4.4.3 protects the PUT /user endpoint...",
-      "timestamp": 1787657613.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-79665 - Ech0 before 4.5.1 Authorization Bypass via Session Tokens",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79665",
-      "summary": "CVE ID :CVE-2026-79665\n  \n  Published : Aug. 25, 2026, 11:33 a.m. | 48\u00a0minutes ago\n  \n  Description :Ech0 before 4.5.1 contains an authorization bypas...",
-      "timestamp": 1787657608.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-79664 - Ech0 before 4.7.3 Access Token Revocation Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79664",
-      "summary": "CVE ID :CVE-2026-79664\n  \n  Published : Aug. 25, 2026, 11:33 a.m. | 48\u00a0minutes ago\n  \n  Description :Ech0 before 4.7.3 fails to properly revoke access...",
-      "timestamp": 1787657607.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-79662 - Ech0 before 4.7.3 OAuth Redirect URI Validation Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79662",
-      "summary": "CVE ID :CVE-2026-79662\n  \n  Published : Aug. 25, 2026, 11:33 a.m. | 48\u00a0minutes ago\n  \n  Description :Ech0 through 4.5.6 contains an OAuth redirect URI...",
-      "timestamp": 1787657606.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-79659 - Ech0 before 4.7.3 Server-Side Request Forgery via fetchPeerConnectInfo",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79659",
-      "summary": "CVE ID :CVE-2026-79659\n  \n  Published : Aug. 25, 2026, 11:33 a.m. | 48\u00a0minutes ago\n  \n  Description :Ech0 before 4.7.3 contains a server-side request ...",
-      "timestamp": 1787657603.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-79658 - Ech0 before 5.0.1 Denial of Service via Accept-Language",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79658",
-      "summary": "CVE ID :CVE-2026-79658\n  \n  Published : Aug. 25, 2026, 11:33 a.m. | 48\u00a0minutes ago\n  \n  Description :Ech0 before 5.0.1 does not impose any size or sha...",
-      "timestamp": 1787657603.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-79657 - NLTK before 3.10.3 Remote Code Execution via Unsafe Pickle Deserialization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79657",
-      "summary": "CVE ID :CVE-2026-79657\n  \n  Published : Aug. 25, 2026, 11:33 a.m. | 48\u00a0minutes ago\n  \n  Description :NLTK versions before 3.10.3 contain a remote code...",
-      "timestamp": 1787657602.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59335 - Case-Sensitive Authorization Check Bypass via Identity Zone ID Case Manipulation Leads to Full UAA Compromise",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59335",
-      "summary": "CVE ID :CVE-2026-59335\n  \n  Published : Aug. 25, 2026, 11:16 a.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :Improper handling of case sensitivity (CWE...",
-      "timestamp": 1787656613.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12600 - Uncontrolled memory usage in Innodata Labs\u2019 Poppler JPX decoderUncontrolled memory usage in Innodata Labs\u2019 Poppler JPX decoder",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12600",
-      "summary": "CVE ID :CVE-2026-12600\n  \n  Published : Aug. 25, 2026, 11:16 a.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :Denial-of-service (DoS) vulnerability in t...",
-      "timestamp": 1787656610.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Police arrests dozens of suspects in global cybercrime crackdown",
       "link": "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/",
       "summary": "Law enforcement agencies from 22 countries helped identify 263 suspects and arrested 58 individuals linked to cybercrime networks coordinated by Afric...",
       "timestamp": 1787655200.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-78572 - Kalles Addons <= 1.0.6 - Unauthenticated PHP Object Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78572",
-      "summary": "CVE ID :CVE-2026-78572\n  \n  Published : Aug. 25, 2026, 10:18 a.m. | 2\u00a0hours, 3\u00a0minutes ago\n  \n  Description :The Kalles Addons plugin for WordPress is...",
-      "timestamp": 1787653093.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
@@ -191,30 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/",
       "summary": "The U.S. Department of Justice announced a $400 million settlement with TikTok, ByteDance, and affiliated companies over allegations that they violate...",
       "timestamp": 1787594184.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
-      "link": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
-      "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a memb...",
-      "timestamp": 1787584636.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft Teams now lets admins block external bots from meetings",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
-      "summary": "Microsoft is rolling out a new Teams meeting protection policy that allows administrators to automatically block all identified external bots from joi...",
-      "timestamp": 1787580019.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "South Korean startup platform breach exposes key management failures",
-      "link": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
-      "summary": "A breach at South Korea's government-backed startup platform exposed encrypted personal data after an encryption key was included in an API. Penta Sec...",
-      "timestamp": 1787580010.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -307,5 +307,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1787666484.0080373
+  "last_updated": 1787676813.4455714
 }
