@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,92 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Hackers breached over 270 Zimbra servers in ongoing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
+      "summary": "Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite...",
+      "timestamp": 1787659442.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-79673 - Ech0 before 4.4.3 Scope Bypass via profile:read Token",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79673",
+      "summary": "CVE ID :CVE-2026-79673\n  \n  Published : Aug. 25, 2026, 11:33 a.m. | 13\u00a0minutes ago\n  \n  Description :Ech0 before 4.4.3 protects the PUT /user endpoint...",
+      "timestamp": 1787657613.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-79665 - Ech0 before 4.5.1 Authorization Bypass via Session Tokens",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79665",
+      "summary": "CVE ID :CVE-2026-79665\n  \n  Published : Aug. 25, 2026, 11:33 a.m. | 13\u00a0minutes ago\n  \n  Description :Ech0 before 4.5.1 contains an authorization bypas...",
+      "timestamp": 1787657608.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-79664 - Ech0 before 4.7.3 Access Token Revocation Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79664",
+      "summary": "CVE ID :CVE-2026-79664\n  \n  Published : Aug. 25, 2026, 11:33 a.m. | 13\u00a0minutes ago\n  \n  Description :Ech0 before 4.7.3 fails to properly revoke access...",
+      "timestamp": 1787657607.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-79662 - Ech0 before 4.7.3 OAuth Redirect URI Validation Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79662",
+      "summary": "CVE ID :CVE-2026-79662\n  \n  Published : Aug. 25, 2026, 11:33 a.m. | 13\u00a0minutes ago\n  \n  Description :Ech0 through 4.5.6 contains an OAuth redirect URI...",
+      "timestamp": 1787657606.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-79659 - Ech0 before 4.7.3 Server-Side Request Forgery via fetchPeerConnectInfo",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79659",
+      "summary": "CVE ID :CVE-2026-79659\n  \n  Published : Aug. 25, 2026, 11:33 a.m. | 13\u00a0minutes ago\n  \n  Description :Ech0 before 4.7.3 contains a server-side request ...",
+      "timestamp": 1787657603.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-79658 - Ech0 before 5.0.1 Denial of Service via Accept-Language",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79658",
+      "summary": "CVE ID :CVE-2026-79658\n  \n  Published : Aug. 25, 2026, 11:33 a.m. | 13\u00a0minutes ago\n  \n  Description :Ech0 before 5.0.1 does not impose any size or sha...",
+      "timestamp": 1787657603.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-79657 - NLTK before 3.10.3 Remote Code Execution via Unsafe Pickle Deserialization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79657",
+      "summary": "CVE ID :CVE-2026-79657\n  \n  Published : Aug. 25, 2026, 11:33 a.m. | 14\u00a0minutes ago\n  \n  Description :NLTK versions before 3.10.3 contain a remote code...",
+      "timestamp": 1787657602.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59335 - Case-Sensitive Authorization Check Bypass via Identity Zone ID Case Manipulation Leads to Full UAA Compromise",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59335",
+      "summary": "CVE ID :CVE-2026-59335\n  \n  Published : Aug. 25, 2026, 11:16 a.m. | 30\u00a0minutes ago\n  \n  Description :Improper handling of case sensitivity (CWE-178) i...",
+      "timestamp": 1787656613.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12600 - Uncontrolled memory usage in Innodata Labs\u2019 Poppler JPX decoderUncontrolled memory usage in Innodata Labs\u2019 Poppler JPX decoder",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12600",
+      "summary": "CVE ID :CVE-2026-12600\n  \n  Published : Aug. 25, 2026, 11:16 a.m. | 30\u00a0minutes ago\n  \n  Description :Denial-of-service (DoS) vulnerability in the inte...",
+      "timestamp": 1787656610.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Police arrests dozens of suspects in global cybercrime crackdown",
       "link": "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/",
@@ -67,82 +147,10 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-16231 - hbs vulnerable to XSS via registerAsyncHelper output-escaping bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16231",
-      "summary": "CVE ID :CVE-2026-16231\n  \n  Published : Aug. 25, 2026, 10 a.m. | 27\u00a0minutes ago\n  \n  Description :hbs is an Express view engine that wraps Handlebars....",
-      "timestamp": 1787652009.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78568 - Total Donations <= 2.0.5 - Unauthenticated SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78568",
-      "summary": "CVE ID :CVE-2026-78568\n  \n  Published : Aug. 25, 2026, 9:17 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :The Total Donations plugin for WordPress is...",
-      "timestamp": 1787649456.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78566 - Shuffle <= 1.8 - Unauthenticated Local File Inclusion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78566",
-      "summary": "CVE ID :CVE-2026-78566\n  \n  Published : Aug. 25, 2026, 9:17 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :The Shuffle theme for WordPress is vulnerab...",
-      "timestamp": 1787649456.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78562 - Verdure Core <= 1.2 - Unauthenticated Local File Inclusion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78562",
-      "summary": "CVE ID :CVE-2026-78562\n  \n  Published : Aug. 25, 2026, 9:17 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :The Verdure Core plugin for WordPress is vu...",
-      "timestamp": 1787649456.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77146 - Broken Access Control in extension \"femanager\" (femanager)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77146",
-      "summary": "CVE ID :CVE-2026-77146\n  \n  Published : Aug. 25, 2026, 9:17 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :The extension's invitation controller fails...",
-      "timestamp": 1787649455.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77143 - Broken Access Control in extension \"Forum\" (pforum)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77143",
-      "summary": "CVE ID :CVE-2026-77143\n  \n  Published : Aug. 25, 2026, 9:17 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :The frontend topic editing flow does not ve...",
-      "timestamp": 1787649455.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77142 - Broken Access Control in extension \"Industry Directory\" (yellowpages2)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77142",
-      "summary": "CVE ID :CVE-2026-77142\n  \n  Published : Aug. 25, 2026, 9:17 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :The frontend company self-service editing f...",
-      "timestamp": 1787649455.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77141 - Broken Access Control in extension \"Club Directory\" (clubdirectory)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77141",
-      "summary": "CVE ID :CVE-2026-77141\n  \n  Published : Aug. 25, 2026, 9:17 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :The extension resolves the targeted club re...",
-      "timestamp": 1787649454.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77140 - Broken Access Control in extension \"Telephone Directory\" (telephonedirectory)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77140",
-      "summary": "CVE ID :CVE-2026-77140\n  \n  Published : Aug. 25, 2026, 9:17 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :The extension validates the HMAC of a front...",
-      "timestamp": 1787649454.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77138 - Remote Code Execution in extension \"HTML5 Video Player vs. Powermail\" (html5videoplayer_powermail)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77138",
-      "summary": "CVE ID :CVE-2026-77138\n  \n  Published : Aug. 25, 2026, 9:17 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :The extension fails to safely process untru...",
-      "timestamp": 1787649454.0,
+      "title": "CVE-2026-78572 - Kalles Addons <= 1.0.6 - Unauthenticated PHP Object Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78572",
+      "summary": "CVE ID :CVE-2026-78572\n  \n  Published : Aug. 25, 2026, 10:18 a.m. | 1\u00a0hour, 29\u00a0minutes ago\n  \n  Description :The Kalles Addons plugin for WordPress is...",
+      "timestamp": 1787653093.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
       "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbr...",
       "timestamp": 1787568312.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft shares temporary fix for Windows 11 gaming issues",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues/",
-      "summary": "Microsoft has shared a temporary fix for ongoing\u00a0gaming issues caused by Windows 11\u00a0updates released during the\u00a0August 2026 Patch Tuesday. [...]",
-      "timestamp": 1787564525.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -307,5 +307,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1787659509.8481574
+  "last_updated": 1787663349.7013059
 }
