@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,32 +52,48 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
+      "link": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
+      "summary": "A newly uncovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT automates the retrieval of codes used to unlock stolen Apple devices and ...",
+      "timestamp": 1787689526.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "CVE-2026-80049 - Airbyte Platform through 2.0.0 Cross-Workspace Authorization Bypass via Caller-Supplied workspaceId",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-80049",
-      "summary": "CVE ID :CVE-2026-80049\n  \n  Published : Aug. 25, 2026, 6:23 p.m. | 37\u00a0minutes ago\n  \n  Description :Airbyte Platform resolves the workspace used for i...",
-      "timestamp": 1787682196.0,
+      "summary": "CVE ID :CVE-2026-80049\n  \n  Published : Aug. 25, 2026, 7:16 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :Airbyte Platform resolves the workspace use...",
+      "timestamp": 1787685415.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-79787 - Alluxio through 2.9.5 S3 REST Proxy Authentication Bypass via Unverified Request Signature",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-79787",
-      "summary": "CVE ID :CVE-2026-79787\n  \n  Published : Aug. 25, 2026, 6:23 p.m. | 37\u00a0minutes ago\n  \n  Description :Alluxio's S3 REST proxy fails to verify AWS Signat...",
-      "timestamp": 1787682195.0,
+      "summary": "CVE ID :CVE-2026-79787\n  \n  Published : Aug. 25, 2026, 7:16 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :Alluxio's S3 REST proxy fails to verify AWS...",
+      "timestamp": 1787685414.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78379 - Consent bypass in python_repl tool via batch kwargs forwarding in Amazon Strands Agents Tools",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78379",
+      "summary": "CVE ID :CVE-2026-78379\n  \n  Published : Aug. 25, 2026, 7:16 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :Improper neutralization of input used for L...",
+      "timestamp": 1787685414.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-76197 - Adobe Campaign Classic (ACC) | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') (CWE-78)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76197",
-      "summary": "CVE ID :CVE-2026-76197\n  \n  Published : Aug. 25, 2026, 6:18 p.m. | 42\u00a0minutes ago\n  \n  Description :Adobe Campaign Classic (ACC) is affected by an Imp...",
+      "summary": "CVE ID :CVE-2026-76197\n  \n  Published : Aug. 25, 2026, 6:18 p.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Adobe Campaign Classic (ACC) is affected b...",
       "timestamp": 1787681885.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +101,7 @@
     {
       "title": "CVE-2026-76195 - Adobe Campaign Classic (ACC) | Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') (CWE-78)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76195",
-      "summary": "CVE ID :CVE-2026-76195\n  \n  Published : Aug. 25, 2026, 6:18 p.m. | 42\u00a0minutes ago\n  \n  Description :Adobe Campaign Classic (ACC) is affected by an Imp...",
+      "summary": "CVE ID :CVE-2026-76195\n  \n  Published : Aug. 25, 2026, 6:18 p.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Adobe Campaign Classic (ACC) is affected b...",
       "timestamp": 1787681884.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +109,7 @@
     {
       "title": "CVE-2026-76193 - Adobe Campaign Classic (ACC) | Server-Side Request Forgery (SSRF) (CWE-918)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76193",
-      "summary": "CVE ID :CVE-2026-76193\n  \n  Published : Aug. 25, 2026, 6:18 p.m. | 42\u00a0minutes ago\n  \n  Description :Adobe Campaign Classic (ACC) is affected by a Serv...",
+      "summary": "CVE ID :CVE-2026-76193\n  \n  Published : Aug. 25, 2026, 6:18 p.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Adobe Campaign Classic (ACC) is affected b...",
       "timestamp": 1787681884.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,40 +117,32 @@
     {
       "title": "CVE-2026-55637 - genieacs-mcp: DNS rebinding reaches local GenieACS MCP Streamable HTTP transport",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-55637",
-      "summary": "CVE ID :CVE-2026-55637\n  \n  Published : Aug. 25, 2026, 6:17 p.m. | 42\u00a0minutes ago\n  \n  Description :genieacs-mcp is an MCP server for GenieACS written...",
+      "summary": "CVE ID :CVE-2026-55637\n  \n  Published : Aug. 25, 2026, 6:17 p.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :genieacs-mcp is an MCP server for GenieACS...",
       "timestamp": 1787681876.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-75498 - Webkul QloApps SQL injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75498",
-      "summary": "CVE ID :CVE-2026-75498\n  \n  Published : Aug. 25, 2026, 5:18 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :Webkul QloApps does not validate request p...",
-      "timestamp": 1787678296.0,
+      "title": "CVE-2026-55585 - QWED: Authenticated Remote Code Execution via Unsafe SymPy `parse_expr()`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55585",
+      "summary": "CVE ID :CVE-2026-55585\n  \n  Published : Aug. 25, 2026, 5:17 p.m. | 3\u00a0hours, 4\u00a0minutes ago\n  \n  Description :QWED is open-source AI verification infras...",
+      "timestamp": 1787678252.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-75497 - Webkul QloApps SQL injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75497",
-      "summary": "CVE ID :CVE-2026-75497\n  \n  Published : Aug. 25, 2026, 5:18 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :Webkul QloApps does not validate request p...",
-      "timestamp": 1787678296.0,
+      "title": "CVE-2026-55571 - djust authentication bypass: a login_required / on_mount LiveView mount redirect does not close the WebSocket, allowing an unauthenticated client to dispatch event-handler calls",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55571",
+      "summary": "CVE ID :CVE-2026-55571\n  \n  Published : Aug. 25, 2026, 5:17 p.m. | 3\u00a0hours, 4\u00a0minutes ago\n  \n  Description :djust provides Phoenix LiveView-style reac...",
+      "timestamp": 1787678252.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-75496 - Webkul QloApps improper file upload validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75496",
-      "summary": "CVE ID :CVE-2026-75496\n  \n  Published : Aug. 25, 2026, 5:18 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :Webkul QloApps does not perform proper val...",
-      "timestamp": 1787678296.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-64204 - Out-of-Bounds Write Vulnerability in NI LabVIEW when loading VI",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64204",
-      "summary": "CVE ID :CVE-2026-64204\n  \n  Published : Aug. 25, 2026, 5:17 p.m. | 1\u00a0hour, 42\u00a0minutes ago\n  \n  Description :There is a memory corruption vulnerability...",
-      "timestamp": 1787678279.0,
+      "title": "CVE-2026-55557 - browse-mcp: Arbitrary file write via unconfined download and state paths",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55557",
+      "summary": "CVE ID :CVE-2026-55557\n  \n  Published : Aug. 25, 2026, 5:17 p.m. | 3\u00a0hours, 4\u00a0minutes ago\n  \n  Description :browse-mcp is a Playwright-based headless-...",
+      "timestamp": 1787678252.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
       "summary": "Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress th...",
       "timestamp": 1787599592.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "TikTok reaches $400M settlement with US over COPPA violations",
-      "link": "https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/",
-      "summary": "The U.S. Department of Justice announced a $400 million settlement with TikTok, ByteDance, and affiliated companies over allegations that they violate...",
-      "timestamp": 1787594184.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -307,5 +307,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1787688207.9105885
+  "last_updated": 1787690606.521805
 }
