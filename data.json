@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,52 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Hackers target Microsoft SharePoint RCE chain with PoC exploit",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
+      "summary": "Attackers are now targeting a chain of two Microsoft SharePoint vulnerabilities that can allow them to execute arbitrary code on unpatched servers, ac...",
+      "timestamp": 1787755671.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "FBI disrupts proxy network enabling Chinese espionage operations",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations/",
+      "summary": "The FBI has disrupted infrastructure associated with a technical \"quartermaster\" that provided reconnaissance, proxy management, and operational routi...",
+      "timestamp": 1787753879.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Snowflake ends service-account passwords. Now comes the hard part",
+      "link": "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
+      "summary": "Snowflake is ending password authentication for legacy service accounts, forcing organizations to migrate them to passwordless methods. Token Security...",
+      "timestamp": 1787752871.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-75896 - Use of Hard-coded LDAP Credentials in T\u00dcB\u0130TAK B\u0130LGEM's Liderahenk",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75896",
+      "summary": "CVE ID :CVE-2026-75896\n  \n  Published : Aug. 26, 2026, 1:35 p.m. | 28\u00a0minutes ago\n  \n  Description :Use of Hard-coded Credentials vulnerability in T\u00dcB...",
+      "timestamp": 1787751305.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75960 - Insufficiently Protected Credentials in Rently Smart Home",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75960",
+      "summary": "CVE ID :CVE-2026-75960\n  \n  Published : Aug. 26, 2026, 1:20 p.m. | 43\u00a0minutes ago\n  \n  Description :Rently Smart Home versions 20.1.0 and prior are vu...",
+      "timestamp": 1787750419.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Ubiquiti patches three max severity security vulnerabilities",
       "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-security-vulnerabilities/",
@@ -67,9 +107,25 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-73108 - RustDesk < 1.4.7 Uncontrolled Memory Allocation DoS via BytesCodec",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73108",
+      "summary": "CVE ID :CVE-2026-73108\n  \n  Published : Aug. 26, 2026, 1 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :RustDesk versions before 1.4.7 contain an unco...",
+      "timestamp": 1787749229.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12717 - Remote Code Execution in BigQuery Data Transfer Service via JDBC Connection String Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12717",
+      "summary": "CVE ID :CVE-2026-12717\n  \n  Published : Aug. 26, 2026, 12:59 p.m. | 1\u00a0hour, 4\u00a0minutes ago\n  \n  Description :An Improper Input Validation vulnerability...",
+      "timestamp": 1787749196.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-12587 - Embedded credentials in Virtuagym",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-12587",
-      "summary": "CVE ID :CVE-2026-12587\n  \n  Published : Aug. 26, 2026, 12:20 p.m. | 30\u00a0minutes ago\n  \n  Description :The vulnerability allows the unauthorised generat...",
+      "summary": "CVE ID :CVE-2026-12587\n  \n  Published : Aug. 26, 2026, 12:20 p.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :The vulnerability allows the unauthorised...",
       "timestamp": 1787746852.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -91,9 +147,17 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-18080 - ERP: Complete HR, Accounting & CRM Suite Built for WooCommerce <= 1.17.8 - Unauthenticated Arbitrary File Upload via CRM Email Connect IMAP Attachment",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18080",
+      "summary": "CVE ID :CVE-2026-18080\n  \n  Published : Aug. 26, 2026, 11:05 a.m. | 2\u00a0hours, 58\u00a0minutes ago\n  \n  Description :The ERP: Complete HR, Accounting & CRM S...",
+      "timestamp": 1787742344.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-77532 - Ubiquiti EdgeMAX EdgeSwitch Buffer Overflow Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77532",
-      "summary": "CVE ID :CVE-2026-77532\n  \n  Published : Aug. 26, 2026, 11:01 a.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :A malicious actor with access to an adjac...",
+      "summary": "CVE ID :CVE-2026-77532\n  \n  Published : Aug. 26, 2026, 11:01 a.m. | 3\u00a0hours, 2\u00a0minutes ago\n  \n  Description :A malicious actor with access to an adjac...",
       "timestamp": 1787742090.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +165,7 @@
     {
       "title": "CVE-2026-77557 - UniFi Protect AI Key Improper Access Control Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77557",
-      "summary": "CVE ID :CVE-2026-77557\n  \n  Published : Aug. 26, 2026, 10:53 a.m. | 1\u00a0hour, 57\u00a0minutes ago\n  \n  Description :A malicious actor with access to the netw...",
+      "summary": "CVE ID :CVE-2026-77557\n  \n  Published : Aug. 26, 2026, 10:53 a.m. | 3\u00a0hours, 10\u00a0minutes ago\n  \n  Description :A malicious actor with access to the net...",
       "timestamp": 1787741607.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +173,7 @@
     {
       "title": "CVE-2026-77554 - UniFi Talk Application Command Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77554",
-      "summary": "CVE ID :CVE-2026-77554\n  \n  Published : Aug. 26, 2026, 10:45 a.m. | 2\u00a0hours, 5\u00a0minutes ago\n  \n  Description :A malicious actor with access to the netw...",
+      "summary": "CVE ID :CVE-2026-77554\n  \n  Published : Aug. 26, 2026, 10:45 a.m. | 3\u00a0hours, 18\u00a0minutes ago\n  \n  Description :A malicious actor with access to the net...",
       "timestamp": 1787741146.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,48 +181,8 @@
     {
       "title": "CVE-2026-77553 - UniFi Access Application Improper Access Control Privilege Escalation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77553",
-      "summary": "CVE ID :CVE-2026-77553\n  \n  Published : Aug. 26, 2026, 10:42 a.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :A malicious actor with access to the netw...",
+      "summary": "CVE ID :CVE-2026-77553\n  \n  Published : Aug. 26, 2026, 10:42 a.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :A malicious actor with access to the net...",
       "timestamp": 1787740974.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77552 - UniFi Enterprise Audio/Video Bridge Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77552",
-      "summary": "CVE ID :CVE-2026-77552\n  \n  Published : Aug. 26, 2026, 10:40 a.m. | 2\u00a0hours, 10\u00a0minutes ago\n  \n  Description :A malicious actor with access to the net...",
-      "timestamp": 1787740805.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77551 - UniFi Connect Display Cast Pro Improper Access Control Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77551",
-      "summary": "CVE ID :CVE-2026-77551\n  \n  Published : Aug. 26, 2026, 10:37 a.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :A malicious actor with access to the net...",
-      "timestamp": 1787740639.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77550 - UniFi OS Improper Neutralization of CRLF Sequences Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77550",
-      "summary": "CVE ID :CVE-2026-77550\n  \n  Published : Aug. 26, 2026, 10:33 a.m. | 2\u00a0hours, 17\u00a0minutes ago\n  \n  Description :A malicious actor with access to the net...",
-      "timestamp": 1787740409.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77549 - UniFi OS CRLF Injection Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77549",
-      "summary": "CVE ID :CVE-2026-77549\n  \n  Published : Aug. 26, 2026, 10:30 a.m. | 2\u00a0hours, 20\u00a0minutes ago\n  \n  Description :A malicious actor with access to the net...",
-      "timestamp": 1787740206.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-80206 - NLTK 3.10.2 Regular Expression Denial of Service via tgrep",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80206",
-      "summary": "CVE ID :CVE-2026-80206\n  \n  Published : Aug. 26, 2026, 10:28 a.m. | 2\u00a0hours, 22\u00a0minutes ago\n  \n  Description :NLTK before 3.10.3 contains a regular ex...",
-      "timestamp": 1787740095.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -191,30 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
       "summary": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services u...",
       "timestamp": 1787673156.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hospital operator Nutex Health says data stolen in cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
-      "summary": "Healthcare and services provider Nutex is investigating a data breach incident\u00a0where an unauthorized third party exfiltrated information from company ...",
-      "timestamp": 1787669056.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
-      "link": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
-      "summary": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how ...",
-      "timestamp": 1787666471.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft PowerToys adds Alt+Tab-style switching for an app's windows",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
-      "summary": "Microsoft updated its Windows PowerToys toolset with a new utility\u00a0dubbed \"Window Hopper\"\u00a0that lets users switch between an app's windows more quickly...",
-      "timestamp": 1787665918.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -299,5 +299,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1787753134.9256642
+  "last_updated": 1787756446.3877811
 }
