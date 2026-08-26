@@ -52,41 +52,89 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-63403 - Faktory: Unrecovered panic in command handlers allows full-server denial of service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63403",
-      "summary": "CVE ID :CVE-2026-63403\n  \n  Published : Aug. 25, 2026, 10:17 p.m. | 24\u00a0minutes ago\n  \n  Description :Faktory is a language-agnostic background job ser...",
-      "timestamp": 1787696224.0,
+      "title": "CVE-2026-80202 - Kimai before 2.56.0 Authorization Bypass via TimesheetVoter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80202",
+      "summary": "CVE ID :CVE-2026-80202\n  \n  Published : Aug. 25, 2026, 11:19 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :Kimai before 2.56.0 does not enforce team...",
+      "timestamp": 1787699947.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-62865 - TypeBot: Arbitrary server file read via Send Email block attachment path",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62865",
-      "summary": "CVE ID :CVE-2026-62865\n  \n  Published : Aug. 25, 2026, 10:17 p.m. | 24\u00a0minutes ago\n  \n  Description :Typebot is an open-source chatbot builder. In sel...",
-      "timestamp": 1787696224.0,
+      "title": "CVE-2026-80198 - Kimai before 2.56.0 Information Disclosure via config() Twig Function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80198",
+      "summary": "CVE ID :CVE-2026-80198\n  \n  Published : Aug. 25, 2026, 11:19 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :Kimai versions before 2.56.0 fail to rest...",
+      "timestamp": 1787699944.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-62862 - TypeBot: Account takeover via brute-forceable 6-digit magic-link code",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62862",
-      "summary": "CVE ID :CVE-2026-62862\n  \n  Published : Aug. 25, 2026, 10:17 p.m. | 24\u00a0minutes ago\n  \n  Description :Typebot is an open-source chatbot builder. In sel...",
-      "timestamp": 1787696224.0,
+      "title": "CVE-2026-80197 - Kimai before 2.57.0 Improper Authorization via Favorite Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80197",
+      "summary": "CVE ID :CVE-2026-80197\n  \n  Published : Aug. 25, 2026, 11:19 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :Kimai before 2.57.0 contains an improper ...",
+      "timestamp": 1787699943.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-80196 - Kimai before 2.58.0 Authentication Bypass via Password Reset Link",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80196",
+      "summary": "CVE ID :CVE-2026-80196\n  \n  Published : Aug. 25, 2026, 11:19 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :Kimai before 2.58.0 contains an authentic...",
+      "timestamp": 1787699943.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-80195 - Kimai before 2.63.0 Team Membership Removal via API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80195",
+      "summary": "CVE ID :CVE-2026-80195\n  \n  Published : Aug. 25, 2026, 11:19 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :Kimai before 2.63.0 contains a business l...",
+      "timestamp": 1787699942.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-80194 - Kimai before 2.64.0 Missing Authorization via ProjectViewController export",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80194",
+      "summary": "CVE ID :CVE-2026-80194\n  \n  Published : Aug. 25, 2026, 11:19 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :Kimai before 2.64.0 contains a missing au...",
+      "timestamp": 1787699941.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-80193 - Kimai before 2.62.0 Authorization Bypass via QuickEntry",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80193",
+      "summary": "CVE ID :CVE-2026-80193\n  \n  Published : Aug. 25, 2026, 11:19 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :Kimai before 2.62.0 fails to validate cre...",
+      "timestamp": 1787699941.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-80192 - better-auth SSO before 1.6.27 Domain Ownership Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80192",
+      "summary": "CVE ID :CVE-2026-80192\n  \n  Published : Aug. 25, 2026, 11:19 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :@better-auth/sso before 1.6.27 (and befor...",
+      "timestamp": 1787699940.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-80191 - GROWI before 8.0.2 Missing Authorization on Attachment Retrieval for Unauthenticated Requests",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80191",
+      "summary": "CVE ID :CVE-2026-80191\n  \n  Published : Aug. 25, 2026, 11:18 p.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :GROWI applies its page-viewer permission ...",
+      "timestamp": 1787699939.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-80138 - ClipBucket V5 5.5.1 through 5.5.3-#153 OS Command Injection via Installer php_cli_filepath Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-80138",
-      "summary": "CVE ID :CVE-2026-80138\n  \n  Published : Aug. 25, 2026, 10:12 p.m. | 29\u00a0minutes ago\n  \n  Description :ClipBucket V5's web installer fails to properly v...",
-      "timestamp": 1787695943.0,
+      "summary": "CVE ID :CVE-2026-80138\n  \n  Published : Aug. 25, 2026, 11:17 p.m. | 1\u00a0hour, 39\u00a0minutes ago\n  \n  Description :ClipBucket V5's web installer fails to pr...",
+      "timestamp": 1787699879.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -105,54 +153,6 @@
       "timestamp": 1787693941.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-80104 - DB-GPT 0.8.0 Path Traversal Arbitrary File Write via Skill Upload Filename",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80104",
-      "summary": "CVE ID :CVE-2026-80104\n  \n  Published : Aug. 25, 2026, 9:18 p.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :DB-GPT builds the destination path for an ...",
-      "timestamp": 1787692704.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77357 - Mesop: DoS in /hot-reload endpoint allows unauthenticated attacker to exhaust worker threads and crash the server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77357",
-      "summary": "CVE ID :CVE-2026-77357\n  \n  Published : Aug. 25, 2026, 9:17 p.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :Mesop is a Python-based UI framework that ...",
-      "timestamp": 1787692666.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65105 - NVIDIA NemoClaw Inference Server Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65105",
-      "summary": "CVE ID :CVE-2026-65105\n  \n  Published : Aug. 25, 2026, 9:17 p.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :NVIDIA NemoClaw for Linux contains a vulne...",
-      "timestamp": 1787692649.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65098 - NVIDIA NemoClaw Authentication Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65098",
-      "summary": "CVE ID :CVE-2026-65098\n  \n  Published : Aug. 25, 2026, 9:17 p.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :NVIDIA NemoClaw for Linux contains a vulne...",
-      "timestamp": 1787692649.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65093 - NVIDIA OpenShell Sandbox Escape Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65093",
-      "summary": "CVE ID :CVE-2026-65093\n  \n  Published : Aug. 25, 2026, 9:17 p.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :NVIDIA OpenShell for Linux contains a vuln...",
-      "timestamp": 1787692649.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65092 - NVIDIA OpenShell Sandbox Path Traversal Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65092",
-      "summary": "CVE ID :CVE-2026-65092\n  \n  Published : Aug. 25, 2026, 9:17 p.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :NVIDIA OpenShell Sandbox for Linux contain...",
-      "timestamp": 1787692649.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
@@ -307,5 +307,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1787702221.996623
+  "last_updated": 1787709374.5580094
 }
