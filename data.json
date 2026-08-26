@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,32 +52,80 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-58474 - whichllm < 0.5.16 Code Injection via run and snippet commands",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58474",
-      "summary": "CVE ID :CVE-2026-58474\n  \n  Published : Aug. 26, 2026, 5:49 p.m. | 36\u00a0minutes ago\n  \n  Description :whichllm before 0.5.16 contains a code injection v...",
-      "timestamp": 1787766544.0,
+      "title": "CVE-2026-74770 - Dell PowerProtect One OS Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74770",
+      "summary": "CVE ID :CVE-2026-74770\n  \n  Published : Aug. 26, 2026, 8:17 p.m. | 33\u00a0minutes ago\n  \n  Description :Dell PowerProtect One, versions 20.1.0.0 and below...",
+      "timestamp": 1787775479.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
+      "title": "CVE-2026-68861 - Dell PowerProtect One OS Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68861",
+      "summary": "CVE ID :CVE-2026-68861\n  \n  Published : Aug. 26, 2026, 8:17 p.m. | 33\u00a0minutes ago\n  \n  Description :Dell PowerProtect One, versions 20.1.0.0 and below...",
+      "timestamp": 1787775477.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-60004 - Gitea Code Injection Vulnerability - [Actively Exploited]",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-60004",
+      "summary": "CVE ID :CVE-2026-60004\n  \n  Published : Aug. 26, 2026, 8:17 p.m. | 33\u00a0minutes ago\n  \n  Description :Gitea before 1.27.1 allows remote code execution v...",
+      "timestamp": 1787775476.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-70419 - Dell Cloud Disaster Recovery OS Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-70419",
+      "summary": "CVE ID :CVE-2026-70419\n  \n  Published : Aug. 26, 2026, 7:16 p.m. | 1\u00a0hour, 34\u00a0minutes ago\n  \n  Description :Dell Cloud Disaster Recovery, versions 20....",
+      "timestamp": 1787771816.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-19485 - Bucket Squatting in Vertex AI Search for Commerce",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19485",
+      "summary": "CVE ID :CVE-2026-19485\n  \n  Published : Aug. 26, 2026, 7:16 p.m. | 1\u00a0hour, 34\u00a0minutes ago\n  \n  Description :A Predictable Resource Name vulnerability ...",
+      "timestamp": 1787771809.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "New GPUThor attack defeats NVIDIA ECC protection for root access",
+      "link": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/",
+      "summary": "A newly disclosed Rowhammer attack called GPUThor can bypass error-correcting code (ECC) protections on NVIDIA GPUs, enabling denial-of-service (DoS) ...",
+      "timestamp": 1787770104.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "CVE-2026-76784 - Insufficient Cryptographic Protections in Local Device Communication Protocol on Multiple TP-Link Kasa Smart Home Devices",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76784",
-      "summary": "CVE ID :CVE-2026-76784\n  \n  Published : Aug. 26, 2026, 5:47 p.m. | 37\u00a0minutes ago\n  \n  Description :Multiple\nTP-Link Kasa smart home devices contain i...",
-      "timestamp": 1787766474.0,
+      "summary": "CVE ID :CVE-2026-76784\n  \n  Published : Aug. 26, 2026, 6:17 p.m. | 2\u00a0hours, 34\u00a0minutes ago\n  \n  Description :Multiple\nTP-Link Kasa smart home devices ...",
+      "timestamp": 1787768221.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58474 - whichllm < 0.5.16 Code Injection via run and snippet commands",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58474",
+      "summary": "CVE ID :CVE-2026-58474\n  \n  Published : Aug. 26, 2026, 6:16 p.m. | 2\u00a0hours, 34\u00a0minutes ago\n  \n  Description :whichllm before 0.5.16 contains a code in...",
+      "timestamp": 1787768202.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-32258 - Winter: Stored XSS through Editor Settings custom styles",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-32258",
-      "summary": "CVE ID :CVE-2026-32258\n  \n  Published : Aug. 26, 2026, 5:16 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :Winter is a free, open-source content manag...",
+      "summary": "CVE ID :CVE-2026-32258\n  \n  Published : Aug. 26, 2026, 5:16 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :Winter is a free, open-source content man...",
       "timestamp": 1787764613.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +133,7 @@
     {
       "title": "CVE-2026-32257 - Winter: Stored XSS through Brand Settings custom styles",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-32257",
-      "summary": "CVE ID :CVE-2026-32257\n  \n  Published : Aug. 26, 2026, 5:16 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :Winter is a free, open-source content manag...",
+      "summary": "CVE ID :CVE-2026-32257\n  \n  Published : Aug. 26, 2026, 5:16 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :Winter is a free, open-source content man...",
       "timestamp": 1787764613.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,48 +149,8 @@
     {
       "title": "CVE-2026-81036 - Stalwart Mail Server through 0.16.19 Authorization Code Disclosure via Unvalidated OAuth redirect_uri",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-81036",
-      "summary": "CVE ID :CVE-2026-81036\n  \n  Published : Aug. 26, 2026, 4:16 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Stalwart Mail Server does not compare an O...",
+      "summary": "CVE ID :CVE-2026-81036\n  \n  Published : Aug. 26, 2026, 4:16 p.m. | 4\u00a0hours, 34\u00a0minutes ago\n  \n  Description :Stalwart Mail Server does not compare an ...",
       "timestamp": 1787761006.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-81035 - Midday Missing Owner Check on Team Deletion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81035",
-      "summary": "CVE ID :CVE-2026-81035\n  \n  Published : Aug. 26, 2026, 4:16 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Midday allows any member of a team to dele...",
-      "timestamp": 1787761006.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-81034 - Netmaker through 1.6.0 Improper Certificate Validation in SMTP Client",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81034",
-      "summary": "CVE ID :CVE-2026-81034\n  \n  Published : Aug. 26, 2026, 4:16 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Netmaker disables certificate verification...",
-      "timestamp": 1787761006.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-81032 - NebulaGraph through 3.8.0 Unauthenticated Read and Modification of Runtime Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81032",
-      "summary": "CVE ID :CVE-2026-81032\n  \n  Published : Aug. 26, 2026, 4:16 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :NebulaGraph exposes its runtime configurat...",
-      "timestamp": 1787761006.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-81031 - IDURAR ERP CRM through 4.1.1 Account Takeover via Unverified Identifier on Password Update",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81031",
-      "summary": "CVE ID :CVE-2026-81031\n  \n  Published : Aug. 26, 2026, 4:16 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :IDURAR ERP CRM changes the password of whi...",
-      "timestamp": 1787761005.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-81029 - OpenMetadata before 2.0.0 JWT Disclosure via Unvalidated SAML and OIDC Redirect URI",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81029",
-      "summary": "CVE ID :CVE-2026-81029\n  \n  Published : Aug. 26, 2026, 4:16 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :OpenMetadata accepts a caller-supplied pos...",
-      "timestamp": 1787761005.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -215,14 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/",
       "summary": "The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]",
       "timestamp": 1787695094.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers abuse npm mirrors to host phishing redirect pages",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-npm-mirrors-to-host-phishing-redirect-pages/",
-      "summary": "Threat actors are abusing npm and its mirrors to host malicious HTML pages that impersonate Cloudflare CAPTCHAs to redirect visitors to attacker-contr...",
-      "timestamp": 1787693941.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -307,5 +307,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1787768718.7136154
+  "last_updated": 1787778698.8996394
 }
