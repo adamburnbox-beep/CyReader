@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 9,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,64 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploiting-citrix-netscaler-rce-flaw-in-attacks/",
+      "summary": "CISA has ordered U.S. government agencies to patch their Citrix NetScaler appliances against an actively exploited remote code execution vulnerability...",
+      "timestamp": 1787822210.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "ATF confirms \u201cmajor incident\u201d after recent Qilin breach claims",
+      "link": "https://www.bleepingcomputer.com/news/security/atf-confirms-major-incident-after-recent-qilin-breach-claims/",
+      "summary": "ATF, the regulatory agency that enforces federal laws governing firearms and explosives in the United States, has confirmed that one of its systems wa...",
+      "timestamp": 1787818430.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-77991 - Joomla Extension - joomlaeventmanager.net - Privileged remote code execution in Joomla Event Manager < 5.0.1",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77991",
+      "summary": "CVE ID :CVE-2026-77991\n  \n  Published : Aug. 27, 2026, 6:17 a.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Joomla Extension - joomlaeventmanager.net...",
+      "timestamp": 1787811448.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59270 - Spring Security embedded UnboundID LDAP server exposes well-known administrative bind DN on all network interfaces",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59270",
+      "summary": "CVE ID :CVE-2026-59270\n  \n  Published : Aug. 27, 2026, 6:17 a.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Spring Security's embedded UnboundID LDAP...",
+      "timestamp": 1787811441.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-47877 - Spring Security Authorization Server Default Consent Page is vulnerable to Cross-Site Scripting (XSS)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47877",
+      "summary": "CVE ID :CVE-2026-47877\n  \n  Published : Aug. 27, 2026, 6:17 a.m. | 3\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Spring Security Authorization Server's de...",
+      "timestamp": 1787811437.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-0251 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0251",
+      "summary": "",
+      "timestamp": 1787792400.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-65956 - KubePi: Unauthenticated SSO/OIDC configuration allows admin account takeover and SSRF",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65956",
-      "summary": "CVE ID :CVE-2026-65956\n  \n  Published : Aug. 26, 2026, 11:17 p.m. | 1\u00a0hour, 26\u00a0minutes ago\n  \n  Description :KubePi is a Kubernetes multi-cluster mana...",
+      "summary": "CVE ID :CVE-2026-65956\n  \n  Published : Aug. 26, 2026, 11:17 p.m. | 10\u00a0hours, 12\u00a0minutes ago\n  \n  Description :KubePi is a Kubernetes multi-cluster ma...",
       "timestamp": 1787786235.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +117,7 @@
     {
       "title": "CVE-2026-47665 - Penpot: Stored XSS via comment content, innerHTML renders unsanitized HTML",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47665",
-      "summary": "CVE ID :CVE-2026-47665\n  \n  Published : Aug. 26, 2026, 11:17 p.m. | 1\u00a0hour, 26\u00a0minutes ago\n  \n  Description :Penpot is an open-source design and proto...",
+      "summary": "CVE ID :CVE-2026-47665\n  \n  Published : Aug. 26, 2026, 11:17 p.m. | 10\u00a0hours, 12\u00a0minutes ago\n  \n  Description :Penpot is an open-source design and pro...",
       "timestamp": 1787786233.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +125,7 @@
     {
       "title": "CVE-2026-77317 - SeaweedFS: SFTP path ACL literal prefix match permits cross-tenant file read and overwrite",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77317",
-      "summary": "CVE ID :CVE-2026-77317\n  \n  Published : Aug. 26, 2026, 10:16 p.m. | 2\u00a0hours, 27\u00a0minutes ago\n  \n  Description :SeaweedFS is a distributed storage syste...",
+      "summary": "CVE ID :CVE-2026-77317\n  \n  Published : Aug. 26, 2026, 10:16 p.m. | 11\u00a0hours, 13\u00a0minutes ago\n  \n  Description :SeaweedFS is a distributed storage syst...",
       "timestamp": 1787782589.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +133,7 @@
     {
       "title": "CVE-2026-77298 - SeaweedFS S3 OIDC Bearer authentication bypasses IAM role trust policy",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77298",
-      "summary": "CVE ID :CVE-2026-77298\n  \n  Published : Aug. 26, 2026, 10:16 p.m. | 2\u00a0hours, 27\u00a0minutes ago\n  \n  Description :SeaweedFS is a distributed storage syste...",
+      "summary": "CVE ID :CVE-2026-77298\n  \n  Published : Aug. 26, 2026, 10:16 p.m. | 11\u00a0hours, 13\u00a0minutes ago\n  \n  Description :SeaweedFS is a distributed storage syst...",
       "timestamp": 1787782589.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +141,7 @@
     {
       "title": "CVE-2026-65647 - Plesk Improper Symlink Resolution Arbitrary Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65647",
-      "summary": "CVE ID :CVE-2026-65647\n  \n  Published : Aug. 26, 2026, 10:16 p.m. | 2\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Improper symlink resolution before file ...",
+      "summary": "CVE ID :CVE-2026-65647\n  \n  Published : Aug. 26, 2026, 10:16 p.m. | 11\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Improper symlink resolution before file...",
       "timestamp": 1787782586.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +149,7 @@
     {
       "title": "CVE-2026-65646 - Plesk Improper Neutralization of Special Elements Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65646",
-      "summary": "CVE ID :CVE-2026-65646\n  \n  Published : Aug. 26, 2026, 10:16 p.m. | 2\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Improper neutralization of special eleme...",
+      "summary": "CVE ID :CVE-2026-65646\n  \n  Published : Aug. 26, 2026, 10:16 p.m. | 11\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Improper neutralization of special elem...",
       "timestamp": 1787782586.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,32 +157,8 @@
     {
       "title": "CVE-2026-65642 - Plesk Insecure Direct Object Reference Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-65642",
-      "summary": "CVE ID :CVE-2026-65642\n  \n  Published : Aug. 26, 2026, 10:16 p.m. | 2\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Insecure direct object reference in Ples...",
+      "summary": "CVE ID :CVE-2026-65642\n  \n  Published : Aug. 26, 2026, 10:16 p.m. | 11\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Insecure direct object reference in Ple...",
       "timestamp": 1787782585.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65641 - Microsoft SMB Server NTLM Authentication Relay Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65641",
-      "summary": "CVE ID :CVE-2026-65641\n  \n  Published : Aug. 26, 2026, 10:16 p.m. | 2\u00a0hours, 27\u00a0minutes ago\n  \n  Description :A vulnerability allowing an unauthentica...",
-      "timestamp": 1787782585.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-64632 - Reporter Service NTLM Credential Exposure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-64632",
-      "summary": "CVE ID :CVE-2026-64632\n  \n  Published : Aug. 26, 2026, 10:16 p.m. | 2\u00a0hours, 27\u00a0minutes ago\n  \n  Description :A vulnerability allowing a low-privilege...",
-      "timestamp": 1787782585.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55182 - LibreNMS: Remote Code Execution by Signal Alert Transportation Module",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55182",
-      "summary": "CVE ID :CVE-2026-55182\n  \n  Published : Aug. 26, 2026, 10:16 p.m. | 2\u00a0hours, 27\u00a0minutes ago\n  \n  Description :LibreNMS is a network monitoring system....",
-      "timestamp": 1787782584.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -211,22 +235,6 @@
       "vendor": "News"
     },
     {
-      "title": "Microsoft tests new privacy controls for Windows 11 desktop apps",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-privacy-controls-for-windows-11-desktop-apps/",
-      "summary": "Microsoft has begun testing new privacy controls that will let Windows 11 users choose which desktop applications can access their camera, microphone,...",
-      "timestamp": 1787745988.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers now exploit critical Gitea flaw in code injection attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
-      "summary": "Attackers are now exploiting a critical-severity vulnerability in the Gitea self-hosted Git service, according to the U.S. Cybersecurity and Infrastru...",
-      "timestamp": 1787742468.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Crosswork Security Hardening Release: August 2026",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-crosswork-UzDTU9Vh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Crosswork%20Security%20Hardening%20Release:%20August%202026%26vs_k=1",
       "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive in...",
@@ -299,5 +307,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1787791690.3802934
+  "last_updated": 1787829161.8636737
 }
