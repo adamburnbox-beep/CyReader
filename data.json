@@ -52,25 +52,89 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-55848 - mapfish-print: XXE on MapFish Print allows reading arbitrary files of certain types",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55848",
-      "summary": "CVE ID :CVE-2026-55848\n  \n  Published : Aug. 28, 2026, 11:17 p.m. | 9\u00a0hours, 7\u00a0minutes ago\n  \n  Description :mapfish-print is a component of MapFish f...",
-      "timestamp": 1787959028.0,
+      "title": "CVE-2026-82457 - su-exec through 0.3 Privilege Escalation via Numeric User ID",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82457",
+      "summary": "CVE ID :CVE-2026-82457\n  \n  Published : Aug. 29, 2026, 1:47 p.m. | 14\u00a0minutes ago\n  \n  Description :su-exec through 0.3 fails to validate numeric user...",
+      "timestamp": 1788011278.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-55764 - Klever-Go: SFT add-quantity `int64` overflow bypasses a finite per-nonce MaxSupply",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55764",
-      "summary": "CVE ID :CVE-2026-55764\n  \n  Published : Aug. 28, 2026, 11:17 p.m. | 9\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Klever-Go is the Go implementation of the...",
-      "timestamp": 1787959027.0,
+      "title": "CVE-2026-82456 - argocd-mcp 0.8.0 Authentication Bypass via Unauthenticated HTTP",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82456",
+      "summary": "CVE ID :CVE-2026-82456\n  \n  Published : Aug. 29, 2026, 1:47 p.m. | 14\u00a0minutes ago\n  \n  Description :argocd-mcp 0.8.0 binds its HTTP transport to every...",
+      "timestamp": 1788011277.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82454 - Omnivore before android-0.227.0 Authentication Bypass via Apple Sign-in",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82454",
+      "summary": "CVE ID :CVE-2026-82454\n  \n  Published : Aug. 29, 2026, 1:47 p.m. | 14\u00a0minutes ago\n  \n  Description :The Omnivore API (packages/api) before the fix in ...",
+      "timestamp": 1788011276.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82453 - rust-iot-platform Cleartext Password Storage via User Model",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82453",
+      "summary": "CVE ID :CVE-2026-82453\n  \n  Published : Aug. 29, 2026, 1:47 p.m. | 14\u00a0minutes ago\n  \n  Description :rust-iot-platform through commit 5df942ab stores u...",
+      "timestamp": 1788011275.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82452 - rust-iot-platform Authentication Bypass via Missing Request Guards",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82452",
+      "summary": "CVE ID :CVE-2026-82452\n  \n  Published : Aug. 29, 2026, 1:47 p.m. | 14\u00a0minutes ago\n  \n  Description :rust-iot-platform through commit 5df942ab contains...",
+      "timestamp": 1788011274.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82450 - BookStack before 26.05.4 Remote Code Execution via Book Cover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82450",
+      "summary": "CVE ID :CVE-2026-82450\n  \n  Published : Aug. 29, 2026, 1:47 p.m. | 15\u00a0minutes ago\n  \n  Description :BookStack before 26.05.4 contains a remote code ex...",
+      "timestamp": 1788011273.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82448 - Shinobi before commit 5a76c74f Arbitrary Database Query Execution via Hardcoded Child Node Key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82448",
+      "summary": "CVE ID :CVE-2026-82448\n  \n  Published : Aug. 29, 2026, 1:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Shinobi before commit 5a76c74f contains a hardcode...",
+      "timestamp": 1788009398.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82447 - Skyvern before 1.0.45 Sandbox Escape via TextPromptBlock",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82447",
+      "summary": "CVE ID :CVE-2026-82447\n  \n  Published : Aug. 29, 2026, 1:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Skyvern before 1.0.45 contains a sandbox escape vu...",
+      "timestamp": 1788009398.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14494 - Sigma Forms Pro <= 1.4.5 - Unauthenticated Unauthenticated Arbitrary File Upload Leading to Remote Code Execution via Pre-built Template File Upload Field",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14494",
+      "summary": "CVE ID :CVE-2026-14494\n  \n  Published : Aug. 29, 2026, 12:16 p.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :The Sigma Forms Pro plugin for WordPress ...",
+      "timestamp": 1788005801.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55848 - mapfish-print: XXE on MapFish Print allows reading arbitrary files of certain types",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55848",
+      "summary": "CVE ID :CVE-2026-55848\n  \n  Published : Aug. 28, 2026, 11:17 p.m. | 14\u00a0hours, 45\u00a0minutes ago\n  \n  Description :mapfish-print is a component of MapFish...",
+      "timestamp": 1787959028.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -81,70 +145,6 @@
       "timestamp": 1787956817.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-81532 - BI Connector ODBC Driver Improper Bounds Checking on Cursor Name Leading to Memory Corruption",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81532",
-      "summary": "CVE ID :CVE-2026-81532\n  \n  Published : Aug. 28, 2026, 10:16 p.m. | 10\u00a0hours, 7\u00a0minutes ago\n  \n  Description :A user able to submit SQL through an app...",
-      "timestamp": 1787955414.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75118 - http_gdpr_decrypt Pre-Authentication Stack-Based Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75118",
-      "summary": "CVE ID :CVE-2026-75118\n  \n  Published : Aug. 28, 2026, 10:16 p.m. | 10\u00a0hours, 7\u00a0minutes ago\n  \n  Description :A pre-authentication stack-based buffer ...",
-      "timestamp": 1787955412.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55763 - Klever-Go: Percentage-transfer royalty skips the source debit at exactly-100% splits",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55763",
-      "summary": "CVE ID :CVE-2026-55763\n  \n  Published : Aug. 28, 2026, 10:16 p.m. | 10\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Klever-Go is the Go implementation of th...",
-      "timestamp": 1787955411.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-3627 - Multiple Vulnerabilities in IBM Concert Software",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-3627",
-      "summary": "CVE ID :CVE-2026-3627\n  \n  Published : Aug. 28, 2026, 10:16 p.m. | 10\u00a0hours, 7\u00a0minutes ago\n  \n  Description :IBM Concert 1.0.0 through 2.3.1 is vulner...",
-      "timestamp": 1787955409.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19295 - Langflow is affected by multiple remote code execution vulnerabilities due to insufficient code-execution policy enforcement",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19295",
-      "summary": "CVE ID :CVE-2026-19295\n  \n  Published : Aug. 28, 2026, 10:16 p.m. | 10\u00a0hours, 7\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.11.1 al...",
-      "timestamp": 1787955407.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19286 - Langflow is affected by multiple remote code execution vulnerabilities due to insufficient code-execution policy enforcement",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19286",
-      "summary": "CVE ID :CVE-2026-19286\n  \n  Published : Aug. 28, 2026, 10:16 p.m. | 10\u00a0hours, 7\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.11.1 co...",
-      "timestamp": 1787955407.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18904 - Langflow is affected by multiple authentication bypass, path traversal, authorization, and server-side request forgery vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18904",
-      "summary": "CVE ID :CVE-2026-18904\n  \n  Published : Aug. 28, 2026, 10:16 p.m. | 10\u00a0hours, 7\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.11.1 co...",
-      "timestamp": 1787955407.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18891 - Langflow is affected by multiple authentication bypass, path traversal, authorization, and server-side request forgery vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18891",
-      "summary": "CVE ID :CVE-2026-18891\n  \n  Published : Aug. 28, 2026, 10:16 p.m. | 10\u00a0hours, 7\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.11.1 co...",
-      "timestamp": 1787955406.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "PaperCut releases second emergency patch for exploited flaws",
@@ -315,5 +315,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1787994129.8344784
+  "last_updated": 1788013736.228142
 }
