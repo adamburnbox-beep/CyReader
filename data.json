@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,82 +59,90 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-82457 - su-exec through 0.3 Privilege Escalation via Numeric User ID",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82457",
-      "summary": "CVE ID :CVE-2026-82457\n  \n  Published : Aug. 29, 2026, 1:47 p.m. | 14\u00a0minutes ago\n  \n  Description :su-exec through 0.3 fails to validate numeric user...",
-      "timestamp": 1788011278.0,
+      "title": "CVE-2026-82475 - iFlytek astron-agent through 1.1.1 Workflow Hijacking via Missing Ownership Check",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82475",
+      "summary": "CVE ID :CVE-2026-82475\n  \n  Published : Aug. 29, 2026, 5:18 p.m. | 18\u00a0minutes ago\n  \n  Description :iFlytek astron-agent through 1.1.1 contains an aut...",
+      "timestamp": 1788023880.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82474 - Sudo through 1.9.17p2 Intercept Policy Bypass via execveat",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82474",
+      "summary": "CVE ID :CVE-2026-82474\n  \n  Published : Aug. 29, 2026, 5:17 p.m. | 18\u00a0minutes ago\n  \n  Description :Sudo through 1.9.17p2 fails to apply intercept pol...",
+      "timestamp": 1788023879.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82473 - KubeEdge CloudCore through 1.23.1 Missing Authentication on Node Task Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82473",
+      "summary": "CVE ID :CVE-2026-82473\n  \n  Published : Aug. 29, 2026, 5:17 p.m. | 18\u00a0minutes ago\n  \n  Description :KubeEdge CloudCore through 1.23.1 accepts node tas...",
+      "timestamp": 1788023879.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82472 - Documenso before 2.13.0 Unauthenticated File Upload via /api/files/upload-pdf",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82472",
+      "summary": "CVE ID :CVE-2026-82472\n  \n  Published : Aug. 29, 2026, 5:17 p.m. | 18\u00a0minutes ago\n  \n  Description :Documenso before 2.13.0 accepts PDF file uploads o...",
+      "timestamp": 1788023879.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82466 - Rodauth before 2.46.0 Authentication Bypass via webauthn_login",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82466",
+      "summary": "CVE ID :CVE-2026-82466\n  \n  Published : Aug. 29, 2026, 5:17 p.m. | 18\u00a0minutes ago\n  \n  Description :Rodauth before 2.46.0 contains an authentication b...",
+      "timestamp": 1788023878.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82463 - pac4j-core before 6.5.6 Authorization Bypass via Reversed Profile Type Check",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82463",
+      "summary": "CVE ID :CVE-2026-82463\n  \n  Published : Aug. 29, 2026, 5:17 p.m. | 18\u00a0minutes ago\n  \n  Description :pac4j-core before 6.5.6 contains an authentication...",
+      "timestamp": 1788023878.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82461 - pac4j-oidc before 6.5.6 Privilege Escalation via Unverified Keycloak Access Token",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82461",
+      "summary": "CVE ID :CVE-2026-82461\n  \n  Published : Aug. 29, 2026, 5:17 p.m. | 18\u00a0minutes ago\n  \n  Description :pac4j-oidc before 6.5.6 fails to verify access tok...",
+      "timestamp": 1788023878.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82460 - Cloud Commander before 19.20.2 Directory Traversal via REST and Markdown",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82460",
+      "summary": "CVE ID :CVE-2026-82460\n  \n  Published : Aug. 29, 2026, 5:17 p.m. | 18\u00a0minutes ago\n  \n  Description :Cloud Commander before 19.20.2 contains a director...",
+      "timestamp": 1788023878.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82481 - cohttp Directory Traversal Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82481",
+      "summary": "CVE ID :CVE-2026-82481\n  \n  Published : Aug. 29, 2026, 3:17 p.m. | 2\u00a0hours, 18\u00a0minutes ago\n  \n  Description :The cohttp package before 6.3.0 for OCaml...",
+      "timestamp": 1788016675.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Brave browser adds email aliases to help users evade tracking",
+      "link": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
+      "summary": "The latest version of the Brave browser,\u00a01.94, introduces a feature called 'Email Aliases' that allows users to generate disposable email addresses wh...",
+      "timestamp": 1788013163.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "CVE-2026-82456 - argocd-mcp 0.8.0 Authentication Bypass via Unauthenticated HTTP",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82456",
-      "summary": "CVE ID :CVE-2026-82456\n  \n  Published : Aug. 29, 2026, 1:47 p.m. | 14\u00a0minutes ago\n  \n  Description :argocd-mcp 0.8.0 binds its HTTP transport to every...",
-      "timestamp": 1788011277.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82454 - Omnivore before android-0.227.0 Authentication Bypass via Apple Sign-in",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82454",
-      "summary": "CVE ID :CVE-2026-82454\n  \n  Published : Aug. 29, 2026, 1:47 p.m. | 14\u00a0minutes ago\n  \n  Description :The Omnivore API (packages/api) before the fix in ...",
-      "timestamp": 1788011276.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82453 - rust-iot-platform Cleartext Password Storage via User Model",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82453",
-      "summary": "CVE ID :CVE-2026-82453\n  \n  Published : Aug. 29, 2026, 1:47 p.m. | 14\u00a0minutes ago\n  \n  Description :rust-iot-platform through commit 5df942ab stores u...",
-      "timestamp": 1788011275.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82452 - rust-iot-platform Authentication Bypass via Missing Request Guards",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82452",
-      "summary": "CVE ID :CVE-2026-82452\n  \n  Published : Aug. 29, 2026, 1:47 p.m. | 14\u00a0minutes ago\n  \n  Description :rust-iot-platform through commit 5df942ab contains...",
-      "timestamp": 1788011274.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82450 - BookStack before 26.05.4 Remote Code Execution via Book Cover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82450",
-      "summary": "CVE ID :CVE-2026-82450\n  \n  Published : Aug. 29, 2026, 1:47 p.m. | 15\u00a0minutes ago\n  \n  Description :BookStack before 26.05.4 contains a remote code ex...",
-      "timestamp": 1788011273.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82448 - Shinobi before commit 5a76c74f Arbitrary Database Query Execution via Hardcoded Child Node Key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82448",
-      "summary": "CVE ID :CVE-2026-82448\n  \n  Published : Aug. 29, 2026, 1:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Shinobi before commit 5a76c74f contains a hardcode...",
-      "timestamp": 1788009398.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82447 - Skyvern before 1.0.45 Sandbox Escape via TextPromptBlock",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82447",
-      "summary": "CVE ID :CVE-2026-82447\n  \n  Published : Aug. 29, 2026, 1:16 p.m. | 46\u00a0minutes ago\n  \n  Description :Skyvern before 1.0.45 contains a sandbox escape vu...",
-      "timestamp": 1788009398.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14494 - Sigma Forms Pro <= 1.4.5 - Unauthenticated Unauthenticated Arbitrary File Upload Leading to Remote Code Execution via Pre-built Template File Upload Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14494",
-      "summary": "CVE ID :CVE-2026-14494\n  \n  Published : Aug. 29, 2026, 12:16 p.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :The Sigma Forms Pro plugin for WordPress ...",
-      "timestamp": 1788005801.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55848 - mapfish-print: XXE on MapFish Print allows reading arbitrary files of certain types",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55848",
-      "summary": "CVE ID :CVE-2026-55848\n  \n  Published : Aug. 28, 2026, 11:17 p.m. | 14\u00a0hours, 45\u00a0minutes ago\n  \n  Description :mapfish-print is a component of MapFish...",
-      "timestamp": 1787959028.0,
+      "summary": "CVE ID :CVE-2026-82456\n  \n  Published : Aug. 29, 2026, 2:16 p.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :argocd-mcp 0.8.0 binds its HTTP transport...",
+      "timestamp": 1788012998.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/windows-11-kb5120998-update-released-with-35-changes-and-fixes/",
       "summary": "Microsoft released the KB5120998 preview cumulative update for Windows 11 versions 25H2 and 24H2, which comes with 35 changes, including improvements ...",
       "timestamp": 1787908213.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
-      "link": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
-      "summary": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise t...",
-      "timestamp": 1787866733.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -315,5 +315,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1788013736.228142
+  "last_updated": 1788026290.539447
 }
