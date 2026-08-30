@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,32 +52,32 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-82657 - Admidio before 5.0.12 Authentication Bypass via RSS feeds",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82657",
-      "summary": "CVE ID :CVE-2026-82657\n  \n  Published : Aug. 30, 2026, 3:16 p.m. | 38\u00a0minutes ago\n  \n  Description :Admidio before 5.0.12 fails to enforce login-only ...",
-      "timestamp": 1788103006.0,
+      "title": "CVE-2026-81636 - Query-complexity limit bypass via first/last pagination arguments in AshGraphql enables denial of service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81636",
+      "summary": "CVE ID :CVE-2026-81636\n  \n  Published : Aug. 30, 2026, 7:17 p.m. | 1\u00a0hour, 7\u00a0minutes ago\n  \n  Description :Allocation of Resources Without Limits or T...",
+      "timestamp": 1788117449.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-82655 - Admidio before 5.0.12 SQL Injection via relation_type_list",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82655",
-      "summary": "CVE ID :CVE-2026-82655\n  \n  Published : Aug. 30, 2026, 3:16 p.m. | 38\u00a0minutes ago\n  \n  Description :Admidio before 5.0.12 contains a blind SQL injecti...",
-      "timestamp": 1788103006.0,
+      "title": "CVE-2026-82549 - Linux Foundation Magma SecurityModeComplete integrity check",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82549",
+      "summary": "CVE ID :CVE-2026-82549\n  \n  Published : Aug. 30, 2026, 4:16 p.m. | 4\u00a0hours, 8\u00a0minutes ago\n  \n  Description :A vulnerability was identified in Linux Fo...",
+      "timestamp": 1788106603.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-82654 - SiYuan before v3.8.1 Stored XSS via block name",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82654",
-      "summary": "CVE ID :CVE-2026-82654\n  \n  Published : Aug. 30, 2026, 3:16 p.m. | 38\u00a0minutes ago\n  \n  Description :SiYuan before v3.8.1 fails to properly escape bloc...",
+      "summary": "CVE ID :CVE-2026-82654\n  \n  Published : Aug. 30, 2026, 3:16 p.m. | 5\u00a0hours, 8\u00a0minutes ago\n  \n  Description :SiYuan before v3.8.1 fails to properly esc...",
       "timestamp": 1788103006.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +85,7 @@
     {
       "title": "CVE-2026-82653 - SiYuan before v3.8.1 Stored XSS via confirmDialog",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82653",
-      "summary": "CVE ID :CVE-2026-82653\n  \n  Published : Aug. 30, 2026, 3:16 p.m. | 38\u00a0minutes ago\n  \n  Description :SiYuan before v3.8.1 contains a stored cross-site ...",
+      "summary": "CVE ID :CVE-2026-82653\n  \n  Published : Aug. 30, 2026, 3:16 p.m. | 5\u00a0hours, 8\u00a0minutes ago\n  \n  Description :SiYuan before v3.8.1 contains a stored cro...",
       "timestamp": 1788103006.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,15 +93,7 @@
     {
       "title": "CVE-2026-82645 - AVideo Unauthenticated Stream Credential Disclosure via Forgeable Token",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82645",
-      "summary": "CVE ID :CVE-2026-82645\n  \n  Published : Aug. 30, 2026, 3:16 p.m. | 38\u00a0minutes ago\n  \n  Description :AVideo (current commit e01e41ecc and earlier) expo...",
-      "timestamp": 1788103004.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82644 - WWBN AVideo Brute-force Rate Limiting Bypass via Missing User-Agent",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82644",
-      "summary": "CVE ID :CVE-2026-82644\n  \n  Published : Aug. 30, 2026, 3:16 p.m. | 38\u00a0minutes ago\n  \n  Description :WWBN AVideo (current e01e41ecc and earlier) contai...",
+      "summary": "CVE ID :CVE-2026-82645\n  \n  Published : Aug. 30, 2026, 3:16 p.m. | 5\u00a0hours, 8\u00a0minutes ago\n  \n  Description :AVideo (current commit e01e41ecc and earli...",
       "timestamp": 1788103004.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,7 +125,7 @@
     {
       "title": "CVE-2026-82642 - Readest: unsanitized iframe srcdoc attribute in the EPUB sanitizer can lead to arbitrary code execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82642",
-      "summary": "CVE ID :CVE-2026-82642\n  \n  Published : Aug. 30, 2026, 2:17 p.m. | 1\u00a0hour, 37\u00a0minutes ago\n  \n  Description :Readest is an open-source e-book reader bu...",
+      "summary": "CVE ID :CVE-2026-82642\n  \n  Published : Aug. 30, 2026, 2:17 p.m. | 6\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Readest is an open-source e-book reader bu...",
       "timestamp": 1788099424.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -141,7 +133,7 @@
     {
       "title": "CVE-2026-82641 - keploy 3.1.0 through 3.6.25 Unauthenticated TLS Key Exposure",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82641",
-      "summary": "CVE ID :CVE-2026-82641\n  \n  Published : Aug. 30, 2026, 2:17 p.m. | 1\u00a0hour, 37\u00a0minutes ago\n  \n  Description :keploy versions 3.1.0 through 3.6.25 bind ...",
+      "summary": "CVE ID :CVE-2026-82641\n  \n  Published : Aug. 30, 2026, 2:17 p.m. | 6\u00a0hours, 7\u00a0minutes ago\n  \n  Description :keploy versions 3.1.0 through 3.6.25 bind ...",
       "timestamp": 1788099424.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -149,7 +141,7 @@
     {
       "title": "CVE-2026-82635 - Pake arbitrary file write via unsanitized download_file filename",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82635",
-      "summary": "CVE ID :CVE-2026-82635\n  \n  Published : Aug. 30, 2026, 1:16 p.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :Pake before 3.13.1 joins the JavaScript-s...",
+      "summary": "CVE ID :CVE-2026-82635\n  \n  Published : Aug. 30, 2026, 1:16 p.m. | 7\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Pake before 3.13.1 joins the JavaScript-su...",
       "timestamp": 1788095816.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -157,8 +149,16 @@
     {
       "title": "CVE-2026-82542 - Tenda HG10 Boa Web Server formIPv6Routing buffer overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82542",
-      "summary": "CVE ID :CVE-2026-82542\n  \n  Published : Aug. 30, 2026, 1:16 p.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :A weakness has been identified in Tenda H...",
+      "summary": "CVE ID :CVE-2026-82542\n  \n  Published : Aug. 30, 2026, 1:16 p.m. | 7\u00a0hours, 8\u00a0minutes ago\n  \n  Description :A weakness has been identified in Tenda HG...",
       "timestamp": 1788095816.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82539 - TOTOLINK A720R MAC Filtering cstecgi.cgi setMacFilterRules memory corruption",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82539",
+      "summary": "CVE ID :CVE-2026-82539\n  \n  Published : Aug. 30, 2026, 11:17 a.m. | 9\u00a0hours, 7\u00a0minutes ago\n  \n  Description :A vulnerability was determined in TOTOLIN...",
+      "timestamp": 1788088655.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -315,5 +315,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1788112157.2571084
+  "last_updated": 1788123734.245647
 }
