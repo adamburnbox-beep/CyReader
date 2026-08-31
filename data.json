@@ -52,24 +52,80 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-56718 - AJCloud AJY IPC Firmware Path Traversal via jdbhttpd",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56718",
-      "summary": "CVE ID :CVE-2026-56718\n  \n  Published : Aug. 30, 2026, 9:16 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :AJCloud AJY IPC firmware prior to version 0...",
-      "timestamp": 1788124594.0,
+      "title": "CVE-2026-82616 - TOTOLINK NR1800X cstecgi.cgi setUploadSetting stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82616",
+      "summary": "CVE ID :CVE-2026-82616\n  \n  Published : Aug. 31, 2026, 5:17 a.m. | 52\u00a0minutes ago\n  \n  Description :A vulnerability was found in TOTOLINK NR1800X 9.1....",
+      "timestamp": 1788153426.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82722 - AshAdmin LiveView events intern atoms from client input, exhausting the atom table (node DoS)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82722",
+      "summary": "CVE ID :CVE-2026-82722\n  \n  Published : Aug. 31, 2026, 3:16 a.m. | 2\u00a0hours, 52\u00a0minutes ago\n  \n  Description :Allocation of Resources Without Limits or...",
+      "timestamp": 1788146203.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82673 - Path traversal in AshAdmin file uploads via unsanitized client filename",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82673",
+      "summary": "CVE ID :CVE-2026-82673\n  \n  Published : Aug. 31, 2026, 3:16 a.m. | 2\u00a0hours, 52\u00a0minutes ago\n  \n  Description :Improper Limitation of a Pathname to a Re...",
+      "timestamp": 1788146203.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77850 - Stored XSS in AshAdmin relationship typeahead via unescaped label_field content",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77850",
+      "summary": "CVE ID :CVE-2026-77850\n  \n  Published : Aug. 31, 2026, 3:16 a.m. | 2\u00a0hours, 52\u00a0minutes ago\n  \n  Description :Stored Cross-site Scripting vulnerability...",
+      "timestamp": 1788146202.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75757 - AshAdmin cookie reader matches names by substring, enabling actor/session shadowing from a sibling subdomain",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75757",
+      "summary": "CVE ID :CVE-2026-75757\n  \n  Published : Aug. 31, 2026, 3:16 a.m. | 2\u00a0hours, 52\u00a0minutes ago\n  \n  Description :Reliance on Cookies without Validation an...",
+      "timestamp": 1788146202.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77956 - EEx template evaluation of prompt content in AshAi enables remote code execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77956",
+      "summary": "CVE ID :CVE-2026-77956\n  \n  Published : Aug. 31, 2026, 1:16 a.m. | 4\u00a0hours, 52\u00a0minutes ago\n  \n  Description :Improper Control of Generation of Code (C...",
+      "timestamp": 1788139009.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82593 - D-Link DIR-825M LTE Module Firmware Upgrade formLtefotaUpgradeFibocom sub_41802C stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82593",
+      "summary": "CVE ID :CVE-2026-82593\n  \n  Published : Aug. 31, 2026, 12:16 a.m. | 5\u00a0hours, 52\u00a0minutes ago\n  \n  Description :A flaw has been found in D-Link DIR-825M...",
+      "timestamp": 1788135401.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82592 - D-Link DIR-825M Disk Formatting Handler Endpoint formDiskFormat sub_46725C stack-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82592",
+      "summary": "CVE ID :CVE-2026-82592\n  \n  Published : Aug. 30, 2026, 11:17 p.m. | 6\u00a0hours, 52\u00a0minutes ago\n  \n  Description :A vulnerability was detected in D-Link D...",
+      "timestamp": 1788131828.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-81636 - Query-complexity limit bypass via first/last pagination arguments in AshGraphql enables denial of service",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-81636",
-      "summary": "CVE ID :CVE-2026-81636\n  \n  Published : Aug. 30, 2026, 7:17 p.m. | 3\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Allocation of Resources Without Limits or ...",
+      "summary": "CVE ID :CVE-2026-81636\n  \n  Published : Aug. 30, 2026, 7:17 p.m. | 10\u00a0hours, 52\u00a0minutes ago\n  \n  Description :Allocation of Resources Without Limits o...",
       "timestamp": 1788117449.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,32 +133,8 @@
     {
       "title": "CVE-2026-82549 - Linux Foundation Magma SecurityModeComplete integrity check",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82549",
-      "summary": "CVE ID :CVE-2026-82549\n  \n  Published : Aug. 30, 2026, 4:16 p.m. | 6\u00a0hours, 8\u00a0minutes ago\n  \n  Description :A vulnerability was identified in Linux Fo...",
+      "summary": "CVE ID :CVE-2026-82549\n  \n  Published : Aug. 30, 2026, 4:16 p.m. | 13\u00a0hours, 52\u00a0minutes ago\n  \n  Description :A vulnerability was identified in Linux ...",
       "timestamp": 1788106603.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82654 - SiYuan before v3.8.1 Stored XSS via block name",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82654",
-      "summary": "CVE ID :CVE-2026-82654\n  \n  Published : Aug. 30, 2026, 3:16 p.m. | 7\u00a0hours, 8\u00a0minutes ago\n  \n  Description :SiYuan before v3.8.1 fails to properly esc...",
-      "timestamp": 1788103006.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82653 - SiYuan before v3.8.1 Stored XSS via confirmDialog",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82653",
-      "summary": "CVE ID :CVE-2026-82653\n  \n  Published : Aug. 30, 2026, 3:16 p.m. | 7\u00a0hours, 8\u00a0minutes ago\n  \n  Description :SiYuan before v3.8.1 contains a stored cro...",
-      "timestamp": 1788103006.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82645 - AVideo Unauthenticated Stream Credential Disclosure via Forgeable Token",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82645",
-      "summary": "CVE ID :CVE-2026-82645\n  \n  Published : Aug. 30, 2026, 3:16 p.m. | 7\u00a0hours, 8\u00a0minutes ago\n  \n  Description :AVideo (current commit e01e41ecc and earli...",
-      "timestamp": 1788103004.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -129,38 +161,6 @@
       "timestamp": 1788099464.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-82642 - Readest: unsanitized iframe srcdoc attribute in the EPUB sanitizer can lead to arbitrary code execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82642",
-      "summary": "CVE ID :CVE-2026-82642\n  \n  Published : Aug. 30, 2026, 2:17 p.m. | 8\u00a0hours, 7\u00a0minutes ago\n  \n  Description :Readest is an open-source e-book reader bu...",
-      "timestamp": 1788099424.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82641 - keploy 3.1.0 through 3.6.25 Unauthenticated TLS Key Exposure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82641",
-      "summary": "CVE ID :CVE-2026-82641\n  \n  Published : Aug. 30, 2026, 2:17 p.m. | 8\u00a0hours, 7\u00a0minutes ago\n  \n  Description :keploy versions 3.1.0 through 3.6.25 bind ...",
-      "timestamp": 1788099424.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82635 - Pake arbitrary file write via unsanitized download_file filename",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82635",
-      "summary": "CVE ID :CVE-2026-82635\n  \n  Published : Aug. 30, 2026, 1:16 p.m. | 9\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Pake before 3.13.1 joins the JavaScript-su...",
-      "timestamp": 1788095816.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82542 - Tenda HG10 Boa Web Server formIPv6Routing buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82542",
-      "summary": "CVE ID :CVE-2026-82542\n  \n  Published : Aug. 30, 2026, 1:16 p.m. | 9\u00a0hours, 8\u00a0minutes ago\n  \n  Description :A weakness has been identified in Tenda HG...",
-      "timestamp": 1788095816.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
@@ -315,5 +315,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1788132539.7637918
+  "last_updated": 1788161884.115389
 }
