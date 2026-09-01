@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,84 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
+      "summary": "Phishing actors are abusing the legitimate Faronics Deploy endpoint-management platform to gain remote administrative control over victim computers an...",
+      "timestamp": 1788296003.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Aesto Health says data breach affects over 9.5 million patients",
+      "link": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
+      "summary": "Aesto LLC, operating as Aesto Health, disclosed that a data breach discovered recently affects more than 9.5 million individuals. [...]",
+      "timestamp": 1788290897.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-72649 - Deserialization of Untrusted Data in Elasticsearch Leading to Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72649",
+      "summary": "CVE ID :CVE-2026-72649\n  \n  Published : Sept. 1, 2026, 7:20 p.m. | 15\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data (CWE-502) in the...",
+      "timestamp": 1788290417.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63137 - Incorrect Authorization in Kibana Leading to Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63137",
+      "summary": "CVE ID :CVE-2026-63137\n  \n  Published : Sept. 1, 2026, 7:20 p.m. | 15\u00a0minutes ago\n  \n  Description :Incorrect Authorization (CWE-863) in Kibana can le...",
+      "timestamp": 1788290414.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-8712 - Wyoming < 1.10.2 SSRF via uri Query Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8712",
+      "summary": "CVE ID :CVE-2026-8712\n  \n  Published : Sept. 1, 2026, 7:17 p.m. | 17\u00a0minutes ago\n  \n  Description :Wyoming before 1.10.2 contains a server-side reques...",
+      "timestamp": 1788290251.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84304 - gRPC-Go: Heap Memory Exhaustion (OOM) via HTTP/2 DATA Frame Fragmentation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84304",
+      "summary": "CVE ID :CVE-2026-84304\n  \n  Published : Sept. 1, 2026, 7:17 p.m. | 17\u00a0minutes ago\n  \n  Description :gRPC-Go is the Go language implementation of gRPC....",
+      "timestamp": 1788290250.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-83551 - Cleartext storage of HMAC signing key in Amazon SageMaker Python SDK @step/@remote pipeline path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83551",
+      "summary": "CVE ID :CVE-2026-83551\n  \n  Published : Sept. 1, 2026, 7:17 p.m. | 17\u00a0minutes ago\n  \n  Description :Cleartext storage of sensitive information in the ...",
+      "timestamp": 1788290249.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2024-7953 - DataEdgePlatform DataMosaix\u2122 Private Cloud",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-7953",
+      "summary": "CVE ID :CVE-2024-7953\n  \n  Published : Sept. 1, 2026, 6:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :A vulnerability exists in the affected prod...",
+      "timestamp": 1788286658.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2024-7952 - DataEdgePlatform DataMosaix\u2122 Private Cloud",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-7952",
+      "summary": "CVE ID :CVE-2024-7952\n  \n  Published : Sept. 1, 2026, 6:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :A data exposure vulnerability exists in the...",
+      "timestamp": 1788286658.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
       "link": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
@@ -67,25 +139,9 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2024-7953 - DataEdgePlatform DataMosaix\u2122 Private Cloud",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-7953",
-      "summary": "CVE ID :CVE-2024-7953\n  \n  Published : Sept. 1, 2026, 5:34 p.m. | 51\u00a0minutes ago\n  \n  Description :A vulnerability exists in the affected products tha...",
-      "timestamp": 1788284088.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2024-7952 - DataEdgePlatform DataMosaix\u2122 Private Cloud",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-7952",
-      "summary": "CVE ID :CVE-2024-7952\n  \n  Published : Sept. 1, 2026, 5:33 p.m. | 52\u00a0minutes ago\n  \n  Description :A data exposure vulnerability exists in the affecte...",
-      "timestamp": 1788284037.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-58566 - Dell PowerStore Incorrect Authorization Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-58566",
-      "summary": "CVE ID :CVE-2026-58566\n  \n  Published : Sept. 1, 2026, 5:17 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :Dell PowerStore, an Incorrect Authorization...",
+      "summary": "CVE ID :CVE-2026-58566\n  \n  Published : Sept. 1, 2026, 5:17 p.m. | 2\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Dell PowerStore, an Incorrect Authorizati...",
       "timestamp": 1788283051.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +149,7 @@
     {
       "title": "CVE-2026-84268 - Gvfs: sftp: heap-based buffer overflow in read_reply()",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84268",
-      "summary": "CVE ID :CVE-2026-84268\n  \n  Published : Sept. 1, 2026, 4:17 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :A flaw was found in the SFTP backend in gv...",
+      "summary": "CVE ID :CVE-2026-84268\n  \n  Published : Sept. 1, 2026, 4:17 p.m. | 3\u00a0hours, 17\u00a0minutes ago\n  \n  Description :A flaw was found in the SFTP backend in g...",
       "timestamp": 1788279457.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,48 +157,8 @@
     {
       "title": "CVE-2026-84203 - Memos 0.26.0 through 0.30.0 Insufficient Session Expiration on Password Change",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84203",
-      "summary": "CVE ID :CVE-2026-84203\n  \n  Published : Sept. 1, 2026, 4:17 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Memos versions 0.26.0 through 0.30.0 fail ...",
+      "summary": "CVE ID :CVE-2026-84203\n  \n  Published : Sept. 1, 2026, 4:17 p.m. | 3\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Memos versions 0.26.0 through 0.30.0 fail...",
       "timestamp": 1788279454.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84202 - ModelScope through 1.40.0 Unsafe YAML Deserialization in Model Config Loading",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84202",
-      "summary": "CVE ID :CVE-2026-84202\n  \n  Published : Sept. 1, 2026, 4:17 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :ModelScope uses PyYAML's unsafe yaml.Loade...",
-      "timestamp": 1788279454.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-79687 - Dell PowerStore Missing Authentication for Critical Function Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79687",
-      "summary": "CVE ID :CVE-2026-79687\n  \n  Published : Sept. 1, 2026, 4:17 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Dell PowerStore SDNAS contains a Missing A...",
-      "timestamp": 1788279440.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-79682 - Dell PowerStore Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79682",
-      "summary": "CVE ID :CVE-2026-79682\n  \n  Published : Sept. 1, 2026, 4:17 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Dell PowerStore contains a Command Injecti...",
-      "timestamp": 1788279439.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58567 - Dell PowerStore OS Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58567",
-      "summary": "CVE ID :CVE-2026-58567\n  \n  Published : Sept. 1, 2026, 4:17 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Dell PowerStore contains an OS Command Inj...",
-      "timestamp": 1788279426.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18931 - Hardcoded Credentials in TMT Machine's Talassoft Industrial Management Software",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18931",
-      "summary": "CVE ID :CVE-2026-18931\n  \n  Published : Sept. 1, 2026, 4:16 p.m. | 2\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Use of Hard-coded Credentials vulnerabilit...",
-      "timestamp": 1788279414.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -203,22 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "Microsoft warns of TerminalFix attacks deploying reverse tunnels",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-terminalfix-attacks-deploying-reverse-tunnels/",
-      "summary": "A new ClickFix variant dubbed TerminalFix uses fake Cloudflare CAPTCHA prompts on compromised websites to trick victims into running malicious PowerSh...",
-      "timestamp": 1788202264.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Massive Microsoft 365 outage causes auth issues, service failures",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-failures-auth-issues/",
-      "summary": "Microsoft is investigating a widespread service issue causing authentication issues, email delays and failures, and various other issues for Exchange ...",
-      "timestamp": 1788195417.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Two Alleged \u2018TeamPCP\u2019 Hackers Arrested in Australia",
       "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
       "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrati...",
@@ -251,5 +251,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1788287367.3636262
+  "last_updated": 1788297636.552264
 }
