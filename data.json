@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,100 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 5,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the ...",
+      "timestamp": 1788302428.0,
+      "source": "Krebs on Security",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-84482 - WWBN AVideo Cross-Site Request Forgery via get_domain() validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84482",
+      "summary": "CVE ID :CVE-2026-84482\n  \n  Published : Sept. 1, 2026, 10:25 p.m. | 29\u00a0minutes ago\n  \n  Description :WWBN AVideo through commit 9c39d8c8 contains a cr...",
+      "timestamp": 1788301535.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84480 - WWBN AVideo Password Recovery Token Expiration Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84480",
+      "summary": "CVE ID :CVE-2026-84480\n  \n  Published : Sept. 1, 2026, 10:25 p.m. | 29\u00a0minutes ago\n  \n  Description :WWBN AVideo fails to validate password recovery t...",
+      "timestamp": 1788301533.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84479 - WWBN AVideo Authentication Bypass via User-Agent Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84479",
+      "summary": "CVE ID :CVE-2026-84479\n  \n  Published : Sept. 1, 2026, 10:25 p.m. | 29\u00a0minutes ago\n  \n  Description :WWBN AVideo (current e01e41ecc and earlier) makes...",
+      "timestamp": 1788301533.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84476 - WWBN AVideo Authentication Bypass via X-Real-IP Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84476",
+      "summary": "CVE ID :CVE-2026-84476\n  \n  Published : Sept. 1, 2026, 10:25 p.m. | 29\u00a0minutes ago\n  \n  Description :WWBN AVideo fails to validate trusted proxies bef...",
+      "timestamp": 1788301531.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84208 - AVideo User_Location Plugin Unauthenticated SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84208",
+      "summary": "CVE ID :CVE-2026-84208\n  \n  Published : Sept. 1, 2026, 10:25 p.m. | 29\u00a0minutes ago\n  \n  Description :AVideo through version 29.0 contains an unauthent...",
+      "timestamp": 1788301530.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84372 - Predis: Redis command injection and denial of service via CRLF smuggling in pipelined commands on aggregate connections",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84372",
+      "summary": "CVE ID :CVE-2026-84372\n  \n  Published : Sept. 1, 2026, 10:17 p.m. | 37\u00a0minutes ago\n  \n  Description :Predis is a flexible and feature-complete Redis a...",
+      "timestamp": 1788301038.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75604 - Next.js: Unauthenticated Remote Code Execution on windows-hosted servers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75604",
+      "summary": "CVE ID :CVE-2026-75604\n  \n  Published : Sept. 1, 2026, 10:17 p.m. | 37\u00a0minutes ago\n  \n  Description :Next.js is a React framework for building full-st...",
+      "timestamp": 1788301032.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18730 - Server-side request forgery vulnerability in GitHub Enterprise Server Manage API leaked a replayable gateway-agent bearer token",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18730",
+      "summary": "CVE ID :CVE-2026-18730\n  \n  Published : Sept. 1, 2026, 10:17 p.m. | 37\u00a0minutes ago\n  \n  Description :A server-side request forgery (SSRF) vulnerabilit...",
+      "timestamp": 1788301030.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2023-54391 - Proxmox VE 7.0-8.0 Authentication Bypass via tfa-challenge Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2023-54391",
+      "summary": "CVE ID :CVE-2023-54391\n  \n  Published : Sept. 1, 2026, 10:17 p.m. | 37\u00a0minutes ago\n  \n  Description :Proxmox Virtual Environment (VE) 7.0 through 8.0 ...",
+      "timestamp": 1788301030.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84370 - SVGO: removeScripts allows executable links through namespace and control-character bypasses",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84370",
+      "summary": "CVE ID :CVE-2026-84370\n  \n  Published : Sept. 1, 2026, 9:18 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :SVGO, short for SVG Optimizer, is a Node.j...",
+      "timestamp": 1788297528.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
@@ -75,92 +163,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-72649 - Deserialization of Untrusted Data in Elasticsearch Leading to Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72649",
-      "summary": "CVE ID :CVE-2026-72649\n  \n  Published : Sept. 1, 2026, 7:20 p.m. | 15\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data (CWE-502) in the...",
-      "timestamp": 1788290417.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63137 - Incorrect Authorization in Kibana Leading to Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63137",
-      "summary": "CVE ID :CVE-2026-63137\n  \n  Published : Sept. 1, 2026, 7:20 p.m. | 15\u00a0minutes ago\n  \n  Description :Incorrect Authorization (CWE-863) in Kibana can le...",
-      "timestamp": 1788290414.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8712 - Wyoming < 1.10.2 SSRF via uri Query Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8712",
-      "summary": "CVE ID :CVE-2026-8712\n  \n  Published : Sept. 1, 2026, 7:17 p.m. | 17\u00a0minutes ago\n  \n  Description :Wyoming before 1.10.2 contains a server-side reques...",
-      "timestamp": 1788290251.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84304 - gRPC-Go: Heap Memory Exhaustion (OOM) via HTTP/2 DATA Frame Fragmentation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84304",
-      "summary": "CVE ID :CVE-2026-84304\n  \n  Published : Sept. 1, 2026, 7:17 p.m. | 17\u00a0minutes ago\n  \n  Description :gRPC-Go is the Go language implementation of gRPC....",
-      "timestamp": 1788290250.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-83551 - Cleartext storage of HMAC signing key in Amazon SageMaker Python SDK @step/@remote pipeline path",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83551",
-      "summary": "CVE ID :CVE-2026-83551\n  \n  Published : Sept. 1, 2026, 7:17 p.m. | 17\u00a0minutes ago\n  \n  Description :Cleartext storage of sensitive information in the ...",
-      "timestamp": 1788290249.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2024-7953 - DataEdgePlatform DataMosaix\u2122 Private Cloud",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-7953",
-      "summary": "CVE ID :CVE-2024-7953\n  \n  Published : Sept. 1, 2026, 6:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :A vulnerability exists in the affected prod...",
-      "timestamp": 1788286658.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2024-7952 - DataEdgePlatform DataMosaix\u2122 Private Cloud",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-7952",
-      "summary": "CVE ID :CVE-2024-7952\n  \n  Published : Sept. 1, 2026, 6:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :A data exposure vulnerability exists in the...",
-      "timestamp": 1788286658.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
       "link": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
       "summary": "Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building...",
       "timestamp": 1788285262.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-58566 - Dell PowerStore Incorrect Authorization Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58566",
-      "summary": "CVE ID :CVE-2026-58566\n  \n  Published : Sept. 1, 2026, 5:17 p.m. | 2\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Dell PowerStore, an Incorrect Authorizati...",
-      "timestamp": 1788283051.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84268 - Gvfs: sftp: heap-based buffer overflow in read_reply()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84268",
-      "summary": "CVE ID :CVE-2026-84268\n  \n  Published : Sept. 1, 2026, 4:17 p.m. | 3\u00a0hours, 17\u00a0minutes ago\n  \n  Description :A flaw was found in the SFTP backend in g...",
-      "timestamp": 1788279457.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84203 - Memos 0.26.0 through 0.30.0 Insufficient Session Expiration on Password Change",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84203",
-      "summary": "CVE ID :CVE-2026-84203\n  \n  Published : Sept. 1, 2026, 4:17 p.m. | 3\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Memos versions 0.26.0 through 0.30.0 fail...",
-      "timestamp": 1788279454.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
@@ -251,5 +259,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1788297636.552264
+  "last_updated": 1788305770.6908345
 }
