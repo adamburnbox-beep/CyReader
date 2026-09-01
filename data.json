@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,94 @@
   ],
   "articles": [
     {
+      "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
+      "summary": "Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building...",
+      "timestamp": 1788285262.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2024-7953 - DataEdgePlatform DataMosaix\u2122 Private Cloud",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-7953",
+      "summary": "CVE ID :CVE-2024-7953\n  \n  Published : Sept. 1, 2026, 5:34 p.m. | 51\u00a0minutes ago\n  \n  Description :A vulnerability exists in the affected products tha...",
+      "timestamp": 1788284088.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2024-7952 - DataEdgePlatform DataMosaix\u2122 Private Cloud",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-7952",
+      "summary": "CVE ID :CVE-2024-7952\n  \n  Published : Sept. 1, 2026, 5:33 p.m. | 52\u00a0minutes ago\n  \n  Description :A data exposure vulnerability exists in the affecte...",
+      "timestamp": 1788284037.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58566 - Dell PowerStore Incorrect Authorization Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58566",
+      "summary": "CVE ID :CVE-2026-58566\n  \n  Published : Sept. 1, 2026, 5:17 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :Dell PowerStore, an Incorrect Authorization...",
+      "timestamp": 1788283051.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84268 - Gvfs: sftp: heap-based buffer overflow in read_reply()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84268",
+      "summary": "CVE ID :CVE-2026-84268\n  \n  Published : Sept. 1, 2026, 4:17 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :A flaw was found in the SFTP backend in gv...",
+      "timestamp": 1788279457.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84203 - Memos 0.26.0 through 0.30.0 Insufficient Session Expiration on Password Change",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84203",
+      "summary": "CVE ID :CVE-2026-84203\n  \n  Published : Sept. 1, 2026, 4:17 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Memos versions 0.26.0 through 0.30.0 fail ...",
+      "timestamp": 1788279454.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84202 - ModelScope through 1.40.0 Unsafe YAML Deserialization in Model Config Loading",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84202",
+      "summary": "CVE ID :CVE-2026-84202\n  \n  Published : Sept. 1, 2026, 4:17 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :ModelScope uses PyYAML's unsafe yaml.Loade...",
+      "timestamp": 1788279454.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-79687 - Dell PowerStore Missing Authentication for Critical Function Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79687",
+      "summary": "CVE ID :CVE-2026-79687\n  \n  Published : Sept. 1, 2026, 4:17 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Dell PowerStore SDNAS contains a Missing A...",
+      "timestamp": 1788279440.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-79682 - Dell PowerStore Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79682",
+      "summary": "CVE ID :CVE-2026-79682\n  \n  Published : Sept. 1, 2026, 4:17 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Dell PowerStore contains a Command Injecti...",
+      "timestamp": 1788279439.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58567 - Dell PowerStore OS Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58567",
+      "summary": "CVE ID :CVE-2026-58567\n  \n  Published : Sept. 1, 2026, 4:17 p.m. | 2\u00a0hours, 8\u00a0minutes ago\n  \n  Description :Dell PowerStore contains an OS Command Inj...",
+      "timestamp": 1788279426.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18931 - Hardcoded Credentials in TMT Machine's Talassoft Industrial Management Software",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18931",
+      "summary": "CVE ID :CVE-2026-18931\n  \n  Published : Sept. 1, 2026, 4:16 p.m. | 2\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Use of Hard-coded Credentials vulnerabilit...",
+      "timestamp": 1788279414.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
       "summary": "Hackers delivered malicious updates to the Virtualizor VPS management software after hijacking BGP routing for its update infrastructure and redirecti...",
@@ -81,86 +169,6 @@
       "timestamp": 1788271271.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-58571 - Dell PowerStore OS Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58571",
-      "summary": "CVE ID :CVE-2026-58571\n  \n  Published : Sept. 1, 2026, 1:52 p.m. | 9\u00a0minutes ago\n  \n  Description :Dell PowerStore contains an OS Command Injection vu...",
-      "timestamp": 1788270770.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-12768 - FactoryTalk\u00ae Historian Machine Edition - Out-of-Bounds Write Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-12768",
-      "summary": "CVE ID :CVE-2025-12768\n  \n  Published : Sept. 1, 2026, 1:40 p.m. | 21\u00a0minutes ago\n  \n  Description :A security issue exists within FactoryTalk\u00ae Histor...",
-      "timestamp": 1788270050.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-79684 - Dell PowerStore Privilege Escalation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79684",
-      "summary": "CVE ID :CVE-2026-79684\n  \n  Published : Sept. 1, 2026, 1:39 p.m. | 23\u00a0minutes ago\n  \n  Description :Dell PowerStore contains a Protection Mechanism Fa...",
-      "timestamp": 1788269968.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18210 - SQL Injection in TRtek Technological Products's Store",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18210",
-      "summary": "CVE ID :CVE-2026-18210\n  \n  Published : Sept. 1, 2026, 1:39 p.m. | 23\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements used i...",
-      "timestamp": 1788269967.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9625 - RSLinx Classic\u00ae - Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9625",
-      "summary": "CVE ID :CVE-2026-9625\n  \n  Published : Sept. 1, 2026, 1:36 p.m. | 25\u00a0minutes ago\n  \n  Description :A denial-of-service security issue exists within RS...",
-      "timestamp": 1788269818.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9624 - RSLinx Classic\u00ae - Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9624",
-      "summary": "CVE ID :CVE-2026-9624\n  \n  Published : Sept. 1, 2026, 1:35 p.m. | 27\u00a0minutes ago\n  \n  Description :A denial-of-service security issue exists within RS...",
-      "timestamp": 1788269735.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9622 - RSLinx Classic\u00ae - Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9622",
-      "summary": "CVE ID :CVE-2026-9622\n  \n  Published : Sept. 1, 2026, 1:34 p.m. | 27\u00a0minutes ago\n  \n  Description :A denial-of-service security issue exists within RS...",
-      "timestamp": 1788269695.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9621 - RSLinx Classic\u00ae - Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9621",
-      "summary": "CVE ID :CVE-2026-9621\n  \n  Published : Sept. 1, 2026, 1:33 p.m. | 28\u00a0minutes ago\n  \n  Description :A denial-of-service security issue exists within RS...",
-      "timestamp": 1788269633.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9637 - CompactLogix\u00ae 5380 / ControlLogix\u00ae 5580 - Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9637",
-      "summary": "CVE ID :CVE-2026-9637\n  \n  Published : Sept. 1, 2026, 1:28 p.m. | 34\u00a0minutes ago\n  \n  Description :A denial-of-service security issue exists in the af...",
-      "timestamp": 1788269306.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58572 - Dell PowerStore Code Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58572",
-      "summary": "CVE ID :CVE-2026-58572\n  \n  Published : Sept. 1, 2026, 1:25 p.m. | 37\u00a0minutes ago\n  \n  Description :Dell PowerStore contains a Code Injection vulnerab...",
-      "timestamp": 1788269105.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
@@ -211,14 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "OpenAI confirms ChatGPT outage as users report errors",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-outage-as-users-report-errors/",
-      "summary": "ChatGPT Work is experiencing a partial outage, and users across multiple subscription plans may be unable to start or continue tasks. [...]",
-      "timestamp": 1788195050.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Two Alleged \u2018TeamPCP\u2019 Hackers Arrested in Australia",
       "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
       "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrati...",
@@ -251,5 +251,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1788275572.8902617
+  "last_updated": 1788287367.3636262
 }
