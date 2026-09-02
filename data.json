@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 8,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,82 +59,98 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-82404 - TOON Prototype Pollution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82404",
-      "summary": "CVE ID :CVE-2026-82404\n  \n  Published : Sept. 2, 2026, 5:18 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :TOON is a compact, human-readable serializa...",
-      "timestamp": 1788369480.0,
+      "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
+      "summary": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead t...",
+      "timestamp": 1788382813.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-84452 - Windows ML CLI Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84452",
+      "summary": "CVE ID :CVE-2026-84452\n  \n  Published : Sept. 2, 2026, 8:17 p.m. | 28\u00a0minutes ago\n  \n  Description :Windows ML CLI is a command line tool for building...",
+      "timestamp": 1788380261.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-79756 - Nuclio Dashboard OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79756",
-      "summary": "CVE ID :CVE-2026-79756\n  \n  Published : Sept. 2, 2026, 5:18 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :Nuclio is a \"Serverless\" framework for Real...",
-      "timestamp": 1788369480.0,
+      "title": "CVE-2026-82524 - UnoPim Arbitrary File Upload Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82524",
+      "summary": "CVE ID :CVE-2026-82524\n  \n  Published : Sept. 2, 2026, 8:17 p.m. | 28\u00a0minutes ago\n  \n  Description :UnoPim before 2.1.5 contains an authenticated file...",
+      "timestamp": 1788380259.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-79755 - Nuclio Dashboard OS Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79755",
-      "summary": "CVE ID :CVE-2026-79755\n  \n  Published : Sept. 2, 2026, 5:17 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :Nuclio is a \"Serverless\" framework for Real...",
-      "timestamp": 1788369479.0,
+      "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
+      "summary": "An SQL injection vulnerability in the All-in-One WP Migration and Backup plugin for WordPress could allow unauthenticated attackers to execute remote ...",
+      "timestamp": 1788377326.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-84381 - HTTPX2 SOCKS5 Proxy TLS Upgrade Failure Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84381",
+      "summary": "CVE ID :CVE-2026-84381\n  \n  Published : Sept. 2, 2026, 7:18 p.m. | 1\u00a0hour, 28\u00a0minutes ago\n  \n  Description :HTTPX2 is a next generation HTTP client fo...",
+      "timestamp": 1788376688.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-52833 - Nuclio Java Runtime Template Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52833",
-      "summary": "CVE ID :CVE-2026-52833\n  \n  Published : Sept. 2, 2026, 5:17 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :Nuclio is a \"Serverless\" framework for Real...",
-      "timestamp": 1788369465.0,
+      "title": "CVE-2026-19117 - FIDO2 Authentication Bypass Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19117",
+      "summary": "CVE ID :CVE-2026-19117\n  \n  Published : Sept. 2, 2026, 7:17 p.m. | 1\u00a0hour, 29\u00a0minutes ago\n  \n  Description :Under specific conditions, an attacker can...",
+      "timestamp": 1788376636.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-52831 - Nuclio Controller Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52831",
-      "summary": "CVE ID :CVE-2026-52831\n  \n  Published : Sept. 2, 2026, 5:17 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :Nuclio is a \"Serverless\" framework for Real...",
-      "timestamp": 1788369465.0,
+      "title": "CVE-2026-66786 - Submariner Configuration Injection Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66786",
+      "summary": "CVE ID :CVE-2026-66786\n  \n  Published : Sept. 2, 2026, 6:21 p.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A flaw was found in submariner. In cert-a...",
+      "timestamp": 1788373270.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-45730 - Nuclio Dashboard Improper Authorization Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-45730",
-      "summary": "CVE ID :CVE-2026-45730\n  \n  Published : Sept. 2, 2026, 5:17 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :Nuclio is a \"Serverless\" framework for Real...",
-      "timestamp": 1788369460.0,
+      "title": "CVE-2026-53706 - PREVAIL eBPF Verifier Improper Pointer Arithmetic Validation Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53706",
+      "summary": "CVE ID :CVE-2026-53706\n  \n  Published : Sept. 2, 2026, 6:20 p.m. | 2\u00a0hours, 26\u00a0minutes ago\n  \n  Description :PREVAIL is a Polynomial-Runtime EBPF Veri...",
+      "timestamp": 1788373200.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-20280 - Cisco IOS XR Software Improper Check for Exceptional Conditions Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20280",
-      "summary": "CVE ID :CVE-2026-20280\n  \n  Published : Sept. 2, 2026, 5:17 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to pr...",
-      "timestamp": 1788369453.0,
+      "title": "CVE-2026-53671 - PREVAIL eBPF Verifier Context Pointer Write Out-of-Bounds Access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53671",
+      "summary": "CVE ID :CVE-2026-53671\n  \n  Published : Sept. 2, 2026, 6:20 p.m. | 2\u00a0hours, 26\u00a0minutes ago\n  \n  Description :PREVAIL is a Polynomial-Runtime EBPF Veri...",
+      "timestamp": 1788373200.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-20279 - Cisco IOS XR Software Improper Access Control Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20279",
-      "summary": "CVE ID :CVE-2026-20279\n  \n  Published : Sept. 2, 2026, 5:17 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to pr...",
-      "timestamp": 1788369453.0,
+      "title": "CVE-2026-53670 - Prevail eBPF Verifier Out-of-Bounds Memory Access Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53670",
+      "summary": "CVE ID :CVE-2026-53670\n  \n  Published : Sept. 2, 2026, 6:20 p.m. | 2\u00a0hours, 26\u00a0minutes ago\n  \n  Description :PREVAIL is a Polynomial-Runtime EBPF Veri...",
+      "timestamp": 1788373200.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-20278 - Cisco IOS XR Software Improper Neutralization Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20278",
-      "summary": "CVE ID :CVE-2026-20278\n  \n  Published : Sept. 2, 2026, 5:17 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to pr...",
-      "timestamp": 1788369453.0,
+      "title": "CVE-2026-53649 - Joro Cross-Origin Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53649",
+      "summary": "CVE ID :CVE-2026-53649\n  \n  Published : Sept. 2, 2026, 6:19 p.m. | 2\u00a0hours, 26\u00a0minutes ago\n  \n  Description :Joro is a web exploitation framework. Pri...",
+      "timestamp": 1788373199.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-20277 - Cisco IOS XR Software Protection Mechanism Failure Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20277",
-      "summary": "CVE ID :CVE-2026-20277\n  \n  Published : Sept. 2, 2026, 5:17 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to pr...",
-      "timestamp": 1788369453.0,
+      "title": "CVE-2026-49832 - DSpace Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49832",
+      "summary": "CVE ID :CVE-2026-49832\n  \n  Published : Sept. 2, 2026, 6:19 p.m. | 2\u00a0hours, 26\u00a0minutes ago\n  \n  Description :DSpace open source software is a reposito...",
+      "timestamp": 1788373172.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -251,22 +267,6 @@
       "vendor": "News"
     },
     {
-      "title": "Aesto Health says data breach affects over 9.5 million patients",
-      "link": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
-      "summary": "Aesto LLC, operating as Aesto Health, disclosed that a data breach discovered recently affects more than 9.5 million individuals. [...]",
-      "timestamp": 1788290897.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
-      "summary": "Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building...",
-      "timestamp": 1788285262.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Two Alleged \u2018TeamPCP\u2019 Hackers Arrested in Australia",
       "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
       "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrati...",
@@ -291,5 +291,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1788375589.9929638
+  "last_updated": 1788385754.5435722
 }
