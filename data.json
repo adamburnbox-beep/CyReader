@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,108 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 5,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
+      "link": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
+      "summary": "Ransomware resilience requires more than backups or endpoint detection alone. Acronis outlines six capabilities MSPs should test across client environ...",
+      "timestamp": 1788357732.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Dropbox accounts breached through Lenovo email verification flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
+      "summary": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process to regist...",
+      "timestamp": 1788352222.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-84803 - SiYuan before v3.8.2 Stored XSS via incomplete asset blocklist",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84803",
+      "summary": "CVE ID :CVE-2026-84803\n  \n  Published : Sept. 2, 2026, 12:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :SiYuan before v3.8.2 contains a stored cr...",
+      "timestamp": 1788351437.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84801 - Craft CMS 5.0.0-RC1 before 5.10.11 Authentication Bypass via administrateUsers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84801",
+      "summary": "CVE ID :CVE-2026-84801\n  \n  Published : Sept. 2, 2026, 12:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :Craft CMS versions before 5.10.11 fail to...",
+      "timestamp": 1788351436.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84796 - Craft CMS 5.0.0-RC1 before 5.10.11 GraphQL Entry Mutation Site Scope Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84796",
+      "summary": "CVE ID :CVE-2026-84796\n  \n  Published : Sept. 2, 2026, 12:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :Craft CMS versions before 5.10.11 contain...",
+      "timestamp": 1788351436.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84795 - Craft CMS before 5.10.11 Authentication Bypass via Admin Flag Inheritance",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84795",
+      "summary": "CVE ID :CVE-2026-84795\n  \n  Published : Sept. 2, 2026, 12:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :Craft CMS before 5.10.11 fails to validat...",
+      "timestamp": 1788351436.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84770 - WordPress Mang Board WP plugin <= 2.3.8 - Cross Site Request Forgery (CSRF) vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84770",
+      "summary": "CVE ID :CVE-2026-84770\n  \n  Published : Sept. 2, 2026, 12:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :Unauthenticated Cross Site Request Forger...",
+      "timestamp": 1788351434.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84764 - WordPress Simply Schedule Appointments plugin <= 1.6.12.23 - Cross Site Request Forgery (CSRF) vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84764",
+      "summary": "CVE ID :CVE-2026-84764\n  \n  Published : Sept. 2, 2026, 12:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :Unauthenticated Cross Site Request Forger...",
+      "timestamp": 1788351434.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-81772 - WordPress Ninja Forms - Layout & Styles plugin <= 3.0.31 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81772",
+      "summary": "CVE ID :CVE-2026-81772\n  \n  Published : Sept. 2, 2026, 12:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :Unauthenticated PHP Object Injection in N...",
+      "timestamp": 1788351433.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-81769 - WordPress Booking Hub plugin <= 1.3.1 - Privilege Escalation vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81769",
+      "summary": "CVE ID :CVE-2026-81769\n  \n  Published : Sept. 2, 2026, 12:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :Incorrect Privilege Assignment vulnerabil...",
+      "timestamp": 1788351432.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-81294 - WordPress Authorizer plugin <= 3.15.1 - Privilege Escalation vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81294",
+      "summary": "CVE ID :CVE-2026-81294\n  \n  Published : Sept. 2, 2026, 12:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :Unauthenticated Privilege Escalation in A...",
+      "timestamp": 1788351432.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-81286 - WordPress WCFM Marketplace plugin <= 3.8.1 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81286",
+      "summary": "CVE ID :CVE-2026-81286\n  \n  Published : Sept. 2, 2026, 12:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in WCFM Mar...",
+      "timestamp": 1788351432.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Microsoft Defender flags legitimate Google search links as malicious",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
@@ -75,14 +171,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-14828 - ManageEngine Password Manager Pro, PAM360, and Access Manager Plus SQL Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14828",
-      "summary": "CVE ID :CVE-2026-14828\n  \n  Published : Sept. 2, 2026, 8:16 a.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :Zohocorp ManageEngine Password Manager Pr...",
-      "timestamp": 1788337002.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Sality botnet infrastructure dismantled in joint global takedown",
       "link": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
       "summary": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take dow...",
@@ -97,78 +185,6 @@
       "timestamp": 1788331169.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-78657 - SigmaForms Pro <= 1.4.11 - Unauthenticated Arbitrary File Deletion via Path Traversal in File Upload Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78657",
-      "summary": "CVE ID :CVE-2026-78657\n  \n  Published : Sept. 2, 2026, 6:17 a.m. | 4\u00a0hours, 24\u00a0minutes ago\n  \n  Description :The SigmaForms Pro \u2013 AI Generated Forms p...",
-      "timestamp": 1788329838.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14357 - DevKit Pro <= 2.3.0 - Missing Authorization to Authenticated (Subscriber+) Arbitrary Theme Installation / Remote Code Execution via 'qqfile' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14357",
-      "summary": "CVE ID :CVE-2026-14357\n  \n  Published : Sept. 2, 2026, 6:17 a.m. | 4\u00a0hours, 24\u00a0minutes ago\n  \n  Description :The DevKit Pro plugin for WordPress is vu...",
-      "timestamp": 1788329836.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-9055 - Booking for Appointments and Events Calendar \u2013 Amelia (Premium) 8.0 - 9.6.2 - Unauthenticated Privilege Escalation to Administrator via 'externalId'",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9055",
-      "summary": "CVE ID :CVE-2026-9055\n  \n  Published : Sept. 2, 2026, 5:17 a.m. | 5\u00a0hours, 24\u00a0minutes ago\n  \n  Description :The Booking for Appointments and Events Ca...",
-      "timestamp": 1788326230.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2024-35585 - Oxford Nanopore MinKNOW Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-35585",
-      "summary": "CVE ID :CVE-2024-35585\n  \n  Published : Sept. 2, 2026, 5:17 a.m. | 5\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Oxford Nanopore MinKNOW before 24.06 reli...",
-      "timestamp": 1788326230.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19754 - Baserow 2.3.3 - SQL injection in formula index() JSONB array extraction",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19754",
-      "summary": "CVE ID :CVE-2026-19754\n  \n  Published : Sept. 2, 2026, 4:17 a.m. | 6\u00a0hours, 23\u00a0minutes ago\n  \n  Description :Baserow 2.3.3 contains a SQL injection vu...",
-      "timestamp": 1788322671.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14982 - WP File Download <= 6.3.4 - Authenticated (Subscriber+) Arbitrary File Deletion via 'remoteurl' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14982",
-      "summary": "CVE ID :CVE-2026-14982\n  \n  Published : Sept. 2, 2026, 3:16 a.m. | 7\u00a0hours, 24\u00a0minutes ago\n  \n  Description :The WP File Download plugin for WordPress...",
-      "timestamp": 1788319007.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84715 - FeatherPanel before 1.3.7.10 Privilege Escalation via Subuser Permission Update",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84715",
-      "summary": "CVE ID :CVE-2026-84715\n  \n  Published : Sept. 2, 2026, 2:17 a.m. | 8\u00a0hours, 24\u00a0minutes ago\n  \n  Description :FeatherPanel versions before 1.3.7.10 fai...",
-      "timestamp": 1788315440.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84485 - APITable through 1.13.0-beta.1 Missing Authentication on the Internal Organization Load or Search Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84485",
-      "summary": "CVE ID :CVE-2026-84485\n  \n  Published : Sept. 2, 2026, 2:17 a.m. | 8\u00a0hours, 24\u00a0minutes ago\n  \n  Description :APITable through 1.13.0-beta.1 exposes th...",
-      "timestamp": 1788315440.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84484 - ION-DTN before 4.2.0 Out-of-Bounds Read via decodeSdnv",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84484",
-      "summary": "CVE ID :CVE-2026-84484\n  \n  Published : Sept. 2, 2026, 2:17 a.m. | 8\u00a0hours, 24\u00a0minutes ago\n  \n  Description :ION-DTN versions before 4.2.0 contain an ...",
-      "timestamp": 1788315440.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
@@ -211,22 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "Novocure data breach affects more than 1,400 cancer patients",
-      "link": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/",
-      "summary": "Healthtech company Novocure says the data of an undisclosed number of employees and more than 1,400 U.S. cancer patients has been exposed in a mid-Aug...",
-      "timestamp": 1788272920.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
-      "link": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
-      "summary": "Attackers can hide behind residential proxies, VPNs, and other infrastructure that makes malicious sessions appear legitimate to existing edge securit...",
-      "timestamp": 1788271271.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Two Alleged \u2018TeamPCP\u2019 Hackers Arrested in Australia",
       "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
       "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrati...",
@@ -259,5 +259,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1788349479.5300121
+  "last_updated": 1788362476.1209261
 }
