@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,88 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Microsoft Defender flags legitimate Google search links as malicious",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
+      "summary": "Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google search links...",
+      "timestamp": 1788344979.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "US charges Russian for infecting 80,000 freelancers with malware",
+      "link": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
+      "summary": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT ...",
+      "timestamp": 1788340008.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-14828 - ManageEngine Password Manager Pro, PAM360, and Access Manager Plus SQL Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14828",
+      "summary": "CVE ID :CVE-2026-14828\n  \n  Published : Sept. 2, 2026, 8:16 a.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :Zohocorp ManageEngine Password Manager Pr...",
+      "timestamp": 1788337002.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Sality botnet infrastructure dismantled in joint global takedown",
+      "link": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
+      "summary": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take dow...",
+      "timestamp": 1788336043.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
+      "summary": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
+      "timestamp": 1788331169.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-78657 - SigmaForms Pro <= 1.4.11 - Unauthenticated Arbitrary File Deletion via Path Traversal in File Upload Field",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78657",
+      "summary": "CVE ID :CVE-2026-78657\n  \n  Published : Sept. 2, 2026, 6:17 a.m. | 4\u00a0hours, 24\u00a0minutes ago\n  \n  Description :The SigmaForms Pro \u2013 AI Generated Forms p...",
+      "timestamp": 1788329838.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14357 - DevKit Pro <= 2.3.0 - Missing Authorization to Authenticated (Subscriber+) Arbitrary Theme Installation / Remote Code Execution via 'qqfile' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14357",
+      "summary": "CVE ID :CVE-2026-14357\n  \n  Published : Sept. 2, 2026, 6:17 a.m. | 4\u00a0hours, 24\u00a0minutes ago\n  \n  Description :The DevKit Pro plugin for WordPress is vu...",
+      "timestamp": 1788329836.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-9055 - Booking for Appointments and Events Calendar \u2013 Amelia (Premium) 8.0 - 9.6.2 - Unauthenticated Privilege Escalation to Administrator via 'externalId'",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9055",
+      "summary": "CVE ID :CVE-2026-9055\n  \n  Published : Sept. 2, 2026, 5:17 a.m. | 5\u00a0hours, 24\u00a0minutes ago\n  \n  Description :The Booking for Appointments and Events Ca...",
+      "timestamp": 1788326230.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2024-35585 - Oxford Nanopore MinKNOW Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-35585",
+      "summary": "CVE ID :CVE-2024-35585\n  \n  Published : Sept. 2, 2026, 5:17 a.m. | 5\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Oxford Nanopore MinKNOW before 24.06 reli...",
+      "timestamp": 1788326230.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-19754 - Baserow 2.3.3 - SQL injection in formula index() JSONB array extraction",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-19754",
-      "summary": "CVE ID :CVE-2026-19754\n  \n  Published : Sept. 2, 2026, 4:17 a.m. | 37\u00a0minutes ago\n  \n  Description :Baserow 2.3.3 contains a SQL injection vulnerabili...",
+      "summary": "CVE ID :CVE-2026-19754\n  \n  Published : Sept. 2, 2026, 4:17 a.m. | 6\u00a0hours, 23\u00a0minutes ago\n  \n  Description :Baserow 2.3.3 contains a SQL injection vu...",
       "timestamp": 1788322671.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +141,7 @@
     {
       "title": "CVE-2026-14982 - WP File Download <= 6.3.4 - Authenticated (Subscriber+) Arbitrary File Deletion via 'remoteurl' Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-14982",
-      "summary": "CVE ID :CVE-2026-14982\n  \n  Published : Sept. 2, 2026, 3:16 a.m. | 1\u00a0hour, 38\u00a0minutes ago\n  \n  Description :The WP File Download plugin for WordPress ...",
+      "summary": "CVE ID :CVE-2026-14982\n  \n  Published : Sept. 2, 2026, 3:16 a.m. | 7\u00a0hours, 24\u00a0minutes ago\n  \n  Description :The WP File Download plugin for WordPress...",
       "timestamp": 1788319007.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +149,7 @@
     {
       "title": "CVE-2026-84715 - FeatherPanel before 1.3.7.10 Privilege Escalation via Subuser Permission Update",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84715",
-      "summary": "CVE ID :CVE-2026-84715\n  \n  Published : Sept. 2, 2026, 2:17 a.m. | 2\u00a0hours, 37\u00a0minutes ago\n  \n  Description :FeatherPanel versions before 1.3.7.10 fai...",
+      "summary": "CVE ID :CVE-2026-84715\n  \n  Published : Sept. 2, 2026, 2:17 a.m. | 8\u00a0hours, 24\u00a0minutes ago\n  \n  Description :FeatherPanel versions before 1.3.7.10 fai...",
       "timestamp": 1788315440.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +157,7 @@
     {
       "title": "CVE-2026-84485 - APITable through 1.13.0-beta.1 Missing Authentication on the Internal Organization Load or Search Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84485",
-      "summary": "CVE ID :CVE-2026-84485\n  \n  Published : Sept. 2, 2026, 2:17 a.m. | 2\u00a0hours, 37\u00a0minutes ago\n  \n  Description :APITable through 1.13.0-beta.1 exposes th...",
+      "summary": "CVE ID :CVE-2026-84485\n  \n  Published : Sept. 2, 2026, 2:17 a.m. | 8\u00a0hours, 24\u00a0minutes ago\n  \n  Description :APITable through 1.13.0-beta.1 exposes th...",
       "timestamp": 1788315440.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,48 +165,8 @@
     {
       "title": "CVE-2026-84484 - ION-DTN before 4.2.0 Out-of-Bounds Read via decodeSdnv",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84484",
-      "summary": "CVE ID :CVE-2026-84484\n  \n  Published : Sept. 2, 2026, 2:17 a.m. | 2\u00a0hours, 37\u00a0minutes ago\n  \n  Description :ION-DTN versions before 4.2.0 contain an ...",
+      "summary": "CVE ID :CVE-2026-84484\n  \n  Published : Sept. 2, 2026, 2:17 a.m. | 8\u00a0hours, 24\u00a0minutes ago\n  \n  Description :ION-DTN versions before 4.2.0 contain an ...",
       "timestamp": 1788315440.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84702 - facefusion before 3.7.0 Path Traversal via Job Identifier",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84702",
-      "summary": "CVE ID :CVE-2026-84702\n  \n  Published : Sept. 2, 2026, 1:17 a.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :facefusion through 3.6.1 fails to normali...",
-      "timestamp": 1788311845.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84700 - Pika Unauthenticated Replication Access via Internal Protobuf Port",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84700",
-      "summary": "CVE ID :CVE-2026-84700\n  \n  Published : Sept. 2, 2026, 1:17 a.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :PikiwiDB (Pika) v3.5.7 exposes an interna...",
-      "timestamp": 1788311845.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84699 - Team Password Manager before 14.184.308 Authentication Bypass in Password Reset",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84699",
-      "summary": "CVE ID :CVE-2026-84699\n  \n  Published : Sept. 2, 2026, 1:17 a.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Team Password Manager before 14.184.308 f...",
-      "timestamp": 1788311844.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84696 - Phison PS3111-S11 Controller Firmware Missing Authentication on Vendor Unique Commands",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84696",
-      "summary": "CVE ID :CVE-2026-84696\n  \n  Published : Sept. 2, 2026, 1:17 a.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Phison PS3111-S11 controller firmware ver...",
-      "timestamp": 1788311844.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84695 - BookStack before 26.05.4 Stored XSS via Drawing Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84695",
-      "summary": "CVE ID :CVE-2026-84695\n  \n  Published : Sept. 2, 2026, 1:17 a.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :BookStack before 26.05.4 contains a store...",
-      "timestamp": 1788311844.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -195,38 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/",
-      "summary": "Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attac...",
-      "timestamp": 1788266315.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Five Venezuelans plead guilty to ATM jackpotting attacks in US",
-      "link": "https://www.bleepingcomputer.com/news/security/five-venezuelans-plead-guilty-to-atm-jackpotting-attacks-in-us/",
-      "summary": "Five Venezuelan nationals pleaded guilty to attempting to empty automated teller machines (ATMs) using malware in a series of ATM jackpotting attacks....",
-      "timestamp": 1788254107.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Recently patched PaperCut zero-days used in data theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks/",
-      "summary": "Two security vulnerabilities in the PaperCut NG and MF print management software, patched last week after being exploited as zero-days, are now being ...",
-      "timestamp": 1788248904.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cronos blockchain restarts after $74 million Tectonic exploit",
-      "link": "https://www.bleepingcomputer.com/news/security/cronos-blockchain-restarts-after-74-million-tectonic-exploit/",
-      "summary": "The Cronos blockchain network has resumed trading activity after a price-manipulation attack on the Tectonic cryptocurrency lending platform allowed a...",
-      "timestamp": 1788209274.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Two Alleged \u2018TeamPCP\u2019 Hackers Arrested in Australia",
       "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
       "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrati...",
@@ -259,5 +259,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1788330419.484023
+  "last_updated": 1788349479.5300121
 }
