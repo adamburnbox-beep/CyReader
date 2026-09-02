@@ -10,7 +10,7 @@
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 9,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,52 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-84482 - WWBN AVideo Cross-Site Request Forgery via get_domain() validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84482",
+      "summary": "CVE ID :CVE-2026-84482\n  \n  Published : Sept. 1, 2026, 11:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :WWBN AVideo through commit 9c39d8c8 conta...",
+      "timestamp": 1788304642.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84480 - WWBN AVideo Password Recovery Token Expiration Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84480",
+      "summary": "CVE ID :CVE-2026-84480\n  \n  Published : Sept. 1, 2026, 11:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :WWBN AVideo fails to validate password re...",
+      "timestamp": 1788304642.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84479 - WWBN AVideo Authentication Bypass via User-Agent Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84479",
+      "summary": "CVE ID :CVE-2026-84479\n  \n  Published : Sept. 1, 2026, 11:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :WWBN AVideo (current e01e41ecc and earlie...",
+      "timestamp": 1788304642.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84476 - WWBN AVideo Authentication Bypass via X-Real-IP Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84476",
+      "summary": "CVE ID :CVE-2026-84476\n  \n  Published : Sept. 1, 2026, 11:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :WWBN AVideo fails to validate trusted pro...",
+      "timestamp": 1788304641.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84208 - AVideo User_Location Plugin Unauthenticated SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84208",
+      "summary": "CVE ID :CVE-2026-84208\n  \n  Published : Sept. 1, 2026, 11:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :AVideo through version 29.0 contains an u...",
+      "timestamp": 1788304641.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
       "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
@@ -67,49 +107,9 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-84482 - WWBN AVideo Cross-Site Request Forgery via get_domain() validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84482",
-      "summary": "CVE ID :CVE-2026-84482\n  \n  Published : Sept. 1, 2026, 10:25 p.m. | 29\u00a0minutes ago\n  \n  Description :WWBN AVideo through commit 9c39d8c8 contains a cr...",
-      "timestamp": 1788301535.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84480 - WWBN AVideo Password Recovery Token Expiration Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84480",
-      "summary": "CVE ID :CVE-2026-84480\n  \n  Published : Sept. 1, 2026, 10:25 p.m. | 29\u00a0minutes ago\n  \n  Description :WWBN AVideo fails to validate password recovery t...",
-      "timestamp": 1788301533.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84479 - WWBN AVideo Authentication Bypass via User-Agent Header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84479",
-      "summary": "CVE ID :CVE-2026-84479\n  \n  Published : Sept. 1, 2026, 10:25 p.m. | 29\u00a0minutes ago\n  \n  Description :WWBN AVideo (current e01e41ecc and earlier) makes...",
-      "timestamp": 1788301533.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84476 - WWBN AVideo Authentication Bypass via X-Real-IP Header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84476",
-      "summary": "CVE ID :CVE-2026-84476\n  \n  Published : Sept. 1, 2026, 10:25 p.m. | 29\u00a0minutes ago\n  \n  Description :WWBN AVideo fails to validate trusted proxies bef...",
-      "timestamp": 1788301531.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84208 - AVideo User_Location Plugin Unauthenticated SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84208",
-      "summary": "CVE ID :CVE-2026-84208\n  \n  Published : Sept. 1, 2026, 10:25 p.m. | 29\u00a0minutes ago\n  \n  Description :AVideo through version 29.0 contains an unauthent...",
-      "timestamp": 1788301530.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-84372 - Predis: Redis command injection and denial of service via CRLF smuggling in pipelined commands on aggregate connections",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84372",
-      "summary": "CVE ID :CVE-2026-84372\n  \n  Published : Sept. 1, 2026, 10:17 p.m. | 37\u00a0minutes ago\n  \n  Description :Predis is a flexible and feature-complete Redis a...",
+      "summary": "CVE ID :CVE-2026-84372\n  \n  Published : Sept. 1, 2026, 10:17 p.m. | 2\u00a0hours, 22\u00a0minutes ago\n  \n  Description :Predis is a flexible and feature-complet...",
       "timestamp": 1788301038.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +117,7 @@
     {
       "title": "CVE-2026-75604 - Next.js: Unauthenticated Remote Code Execution on windows-hosted servers",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-75604",
-      "summary": "CVE ID :CVE-2026-75604\n  \n  Published : Sept. 1, 2026, 10:17 p.m. | 37\u00a0minutes ago\n  \n  Description :Next.js is a React framework for building full-st...",
+      "summary": "CVE ID :CVE-2026-75604\n  \n  Published : Sept. 1, 2026, 10:17 p.m. | 2\u00a0hours, 23\u00a0minutes ago\n  \n  Description :Next.js is a React framework for buildin...",
       "timestamp": 1788301032.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +125,7 @@
     {
       "title": "CVE-2026-18730 - Server-side request forgery vulnerability in GitHub Enterprise Server Manage API leaked a replayable gateway-agent bearer token",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18730",
-      "summary": "CVE ID :CVE-2026-18730\n  \n  Published : Sept. 1, 2026, 10:17 p.m. | 37\u00a0minutes ago\n  \n  Description :A server-side request forgery (SSRF) vulnerabilit...",
+      "summary": "CVE ID :CVE-2026-18730\n  \n  Published : Sept. 1, 2026, 10:17 p.m. | 2\u00a0hours, 23\u00a0minutes ago\n  \n  Description :A server-side request forgery (SSRF) vul...",
       "timestamp": 1788301030.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,7 +133,7 @@
     {
       "title": "CVE-2023-54391 - Proxmox VE 7.0-8.0 Authentication Bypass via tfa-challenge Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2023-54391",
-      "summary": "CVE ID :CVE-2023-54391\n  \n  Published : Sept. 1, 2026, 10:17 p.m. | 37\u00a0minutes ago\n  \n  Description :Proxmox Virtual Environment (VE) 7.0 through 8.0 ...",
+      "summary": "CVE ID :CVE-2023-54391\n  \n  Published : Sept. 1, 2026, 10:17 p.m. | 2\u00a0hours, 23\u00a0minutes ago\n  \n  Description :Proxmox Virtual Environment (VE) 7.0 thr...",
       "timestamp": 1788301030.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -141,7 +141,7 @@
     {
       "title": "CVE-2026-84370 - SVGO: removeScripts allows executable links through namespace and control-character bypasses",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84370",
-      "summary": "CVE ID :CVE-2026-84370\n  \n  Published : Sept. 1, 2026, 9:18 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :SVGO, short for SVG Optimizer, is a Node.j...",
+      "summary": "CVE ID :CVE-2026-84370\n  \n  Published : Sept. 1, 2026, 9:18 p.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :SVGO, short for SVG Optimizer, is a Node....",
       "timestamp": 1788297528.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -259,5 +259,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1788305770.6908345
+  "last_updated": 1788312216.8034425
 }
