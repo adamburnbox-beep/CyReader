@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 5,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,10 +59,98 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-85237 - Missing Rate Limiting in Email OTP Verification Allows Brute-Force Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85237",
-      "summary": "CVE ID :CVE-2026-85237\n  \n  Published : Sept. 3, 2026, 3:22 p.m. | 36\u00a0minutes ago\n  \n  Description :A vulnerability in MISP's email-based one-time pas...",
-      "timestamp": 1788448979.0,
+      "title": "CVE-2026-82527 - R2R 3.6.6 SQL Injection via Retrieval Search Filter Key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82527",
+      "summary": "CVE ID :CVE-2026-82527\n  \n  Published : Sept. 3, 2026, 7:24 p.m. | 11\u00a0minutes ago\n  \n  Description :R2R through 3.6.6 contains a SQL injection vulnera...",
+      "timestamp": 1788463470.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85396 - rubyzip before 3.4.0 Path Traversal in Zip::Entry#extract via Sibling-Directory Prefix",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85396",
+      "summary": "CVE ID :CVE-2026-85396\n  \n  Published : Sept. 3, 2026, 7:17 p.m. | 18\u00a0minutes ago\n  \n  Description :rubyzip versions before 3.4.0 contain a path trave...",
+      "timestamp": 1788463051.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85394 - python-jose through 3.5.0 Algorithm Confusion via DER-encoded Public Key as HMAC Secret",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85394",
+      "summary": "CVE ID :CVE-2026-85394\n  \n  Published : Sept. 3, 2026, 7:17 p.m. | 18\u00a0minutes ago\n  \n  Description :python-jose through 3.5.0 fails to properly valida...",
+      "timestamp": 1788463051.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85393 - node-forge through 1.4.0 RSA PKCS#1 v1.5 Signature Forgery via Nested DigestAlgorithm Padding",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85393",
+      "summary": "CVE ID :CVE-2026-85393\n  \n  Published : Sept. 3, 2026, 7:17 p.m. | 18\u00a0minutes ago\n  \n  Description :node-forge through 1.4.0 fails to validate element...",
+      "timestamp": 1788463051.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85391 - Peppermint through 0.5.5 Use of Hard-coded JWT Signing Secret in docker-compose.yml",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85391",
+      "summary": "CVE ID :CVE-2026-85391\n  \n  Published : Sept. 3, 2026, 7:17 p.m. | 18\u00a0minutes ago\n  \n  Description :Peppermint through 0.5.5 contains a hardcoded JWT ...",
+      "timestamp": 1788463050.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85388 - Worklenz through 3.0.0 SQL Injection via the sort-field Query Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85388",
+      "summary": "CVE ID :CVE-2026-85388\n  \n  Published : Sept. 3, 2026, 7:17 p.m. | 18\u00a0minutes ago\n  \n  Description :Worklenz through 3.0.0 fails to properly validate ...",
+      "timestamp": 1788463050.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82526 - R2R 3.6.6 SQL Injection via Vector Index Creation Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82526",
+      "summary": "CVE ID :CVE-2026-82526\n  \n  Published : Sept. 3, 2026, 7:17 p.m. | 18\u00a0minutes ago\n  \n  Description :R2R through 3.6.6 contains a stacked SQL injection...",
+      "timestamp": 1788463049.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82302 - Incorrect Authorization in Kibana Leading to Unauthorized Configuration Modification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82302",
+      "summary": "CVE ID :CVE-2026-82302\n  \n  Published : Sept. 3, 2026, 7:17 p.m. | 18\u00a0minutes ago\n  \n  Description :Incorrect Authorization (CWE-863) in Kibana can le...",
+      "timestamp": 1788463049.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78583 - Incorrect Authorization in Kibana Leading to Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78583",
+      "summary": "CVE ID :CVE-2026-78583\n  \n  Published : Sept. 3, 2026, 7:17 p.m. | 18\u00a0minutes ago\n  \n  Description :Incorrect Authorization (CWE-863) in Kibana can le...",
+      "timestamp": 1788463048.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehens...",
+      "timestamp": 1788461610.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
+      "summary": "Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote code execut...",
+      "timestamp": 1788460092.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-85012 - OS command injection in the Amazon CodeCatalyst blueprints SDK",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85012",
+      "summary": "CVE ID :CVE-2026-85012\n  \n  Published : Sept. 3, 2026, 6:17 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Improper neutralization of special element...",
+      "timestamp": 1788459453.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -73,78 +161,6 @@
       "timestamp": 1788448953.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-71963 - Hermes Agent 0.18.2 - 0.21.0 RCE via git core.fsmonitor Config Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71963",
-      "summary": "CVE ID :CVE-2026-71963\n  \n  Published : Sept. 3, 2026, 3:19 p.m. | 39\u00a0minutes ago\n  \n  Description :Hermes Agent 0.18.2 through 0.21.0, fixed in commi...",
-      "timestamp": 1788448770.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85216 - MISP LDAP and LinOTP Authentication Bypass via Empty or Invalid Credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85216",
-      "summary": "CVE ID :CVE-2026-85216\n  \n  Published : Sept. 3, 2026, 3:17 p.m. | 41\u00a0minutes ago\n  \n  Description :MISP contains an authentication bypass vulnerabili...",
-      "timestamp": 1788448660.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85214 - vhr Missing Authorization in PUT /hr/info Allows Arbitrary Profile Overwrite",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85214",
-      "summary": "CVE ID :CVE-2026-85214\n  \n  Published : Sept. 3, 2026, 3:17 p.m. | 41\u00a0minutes ago\n  \n  Description :vhr fails to validate user authorization in the PU...",
-      "timestamp": 1788448660.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85212 - CRMEB through 6.0.0 Missing Authorization via Inert verifyAuth Role Check",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85212",
-      "summary": "CVE ID :CVE-2026-85212\n  \n  Published : Sept. 3, 2026, 3:17 p.m. | 41\u00a0minutes ago\n  \n  Description :CRMEB contains an authentication bypass vulnerabil...",
-      "timestamp": 1788448660.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85211 - Label Studio through 1.23.0 Cross-Organization Storage URI Resolution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85211",
-      "summary": "CVE ID :CVE-2026-85211\n  \n  Published : Sept. 3, 2026, 3:17 p.m. | 41\u00a0minutes ago\n  \n  Description :Label Studio fails to apply organization filters w...",
-      "timestamp": 1788448660.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85199 - Eclipse aeriOS Self-orchestrator Path Traversal Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85199",
-      "summary": "CVE ID :CVE-2026-85199\n  \n  Published : Sept. 3, 2026, 3:17 p.m. | 41\u00a0minutes ago\n  \n  Description :Eclipse aeriOS Self-orchestrator versions prior to...",
-      "timestamp": 1788448659.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85183 - Taipy through 4.1.1 Cross-Site WebSocket Hijacking via Wildcard socket.io CORS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85183",
-      "summary": "CVE ID :CVE-2026-85183\n  \n  Published : Sept. 3, 2026, 3:17 p.m. | 41\u00a0minutes ago\n  \n  Description :Taipy configures its socket.io server with wildcar...",
-      "timestamp": 1788448659.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85181 - CAT through 3.1.0 Session Cookie Forgery via Unkeyed hashCode Checksum",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85181",
-      "summary": "CVE ID :CVE-2026-85181\n  \n  Published : Sept. 3, 2026, 3:17 p.m. | 41\u00a0minutes ago\n  \n  Description :CAT uses Java String.hashCode as the sole integrit...",
-      "timestamp": 1788448659.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85180 - Ollama 0.30.0 through 0.33.2 SSRF via Cross-Host Tensor Blob Redirect",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85180",
-      "summary": "CVE ID :CVE-2026-85180\n  \n  Published : Sept. 3, 2026, 3:17 p.m. | 41\u00a0minutes ago\n  \n  Description :Ollama fails to validate redirect destinations whe...",
-      "timestamp": 1788448659.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
@@ -203,26 +219,10 @@
       "vendor": "News"
     },
     {
-      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehens...",
-      "timestamp": 1788386012.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
       "summary": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead t...",
       "timestamp": 1788382813.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
-      "summary": "An SQL injection vulnerability in the All-in-One WP Migration and Backup plugin for WordPress could allow unauthenticated attackers to execute remote ...",
-      "timestamp": 1788377326.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -283,5 +283,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1788455589.6842265
+  "last_updated": 1788465040.7649167
 }
