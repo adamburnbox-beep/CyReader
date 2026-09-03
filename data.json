@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,116 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Microsoft says KB5120998 Windows update resets desktop settings",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/",
+      "summary": "Microsoft has confirmed that desktop settings are lost or reset on some Windows devices after installing the KB5120998 August 2026 preview update. [.....",
+      "timestamp": 1788437792.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-85175 - SiYuan before v3.8.2 TLS Private Key Disclosure via getFile",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85175",
+      "summary": "CVE ID :CVE-2026-85175\n  \n  Published : Sept. 3, 2026, 11:22 a.m. | 13\u00a0minutes ago\n  \n  Description :SiYuan versions <= 3.8.1 (fixed in v3.8.2) contai...",
+      "timestamp": 1788434542.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85174 - SiYuan before v3.8.2 API Token Exposure via Log File",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85174",
+      "summary": "CVE ID :CVE-2026-85174\n  \n  Published : Sept. 3, 2026, 11:22 a.m. | 13\u00a0minutes ago\n  \n  Description :SiYuan before v3.8.2 logs API tokens from query p...",
+      "timestamp": 1788434542.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85169 - n8n before 1.123.73 Remote Code Execution via $fromAI Prototype Leak",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85169",
+      "summary": "CVE ID :CVE-2026-85169\n  \n  Published : Sept. 3, 2026, 11:22 a.m. | 13\u00a0minutes ago\n  \n  Description :n8n versions before 1.123.73, 2.35.4, and 2.36.2 ...",
+      "timestamp": 1788434538.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85160 - AVideo through c91b5975d CSRF and Path Traversal via stopLive.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85160",
+      "summary": "CVE ID :CVE-2026-85160\n  \n  Published : Sept. 3, 2026, 11:22 a.m. | 13\u00a0minutes ago\n  \n  Description :AVideo through commit c91b5975d contains a cross-...",
+      "timestamp": 1788434532.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85155 - WWBN AVideo SQL Injection via get.json.php APIName channels",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85155",
+      "summary": "CVE ID :CVE-2026-85155\n  \n  Published : Sept. 3, 2026, 11:22 a.m. | 13\u00a0minutes ago\n  \n  Description :WWBN AVideo contains a SQL injection vulnerabilit...",
+      "timestamp": 1788434529.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85154 - WWBN AVideo Authentication Bypass via Non-Expiring video_id_hash",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85154",
+      "summary": "CVE ID :CVE-2026-85154\n  \n  Published : Sept. 3, 2026, 11:22 a.m. | 13\u00a0minutes ago\n  \n  Description :WWBN AVideo contains an authentication failure vu...",
+      "timestamp": 1788434528.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Plex warns users to patch security vulnerabilities immediately",
+      "link": "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/",
+      "summary": "Plex urged users this week to update their desktop clients and media servers immediately to patch multiple security vulnerabilities. [...]",
+      "timestamp": 1788433342.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-76642 - util-linux libmount Privilege Escalation via Failed Mount Helper",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76642",
+      "summary": "CVE ID :CVE-2026-76642\n  \n  Published : Sept. 3, 2026, 10:54 a.m. | 41\u00a0minutes ago\n  \n  Description :util-linux versions through 2.41.5 and 2.42.2 fai...",
+      "timestamp": 1788432848.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76178 - Multiple vulnerabilities in Ocsreports for OCS Inventory NG",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76178",
+      "summary": "CVE ID :CVE-2026-76178\n  \n  Published : Sept. 3, 2026, 10:20 a.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :A stored Cross-Site Scripting (XSS) vulne...",
+      "timestamp": 1788430819.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76176 - Multiple vulnerabilities in Ocsreports for OCS Inventory NG",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76176",
+      "summary": "CVE ID :CVE-2026-76176\n  \n  Published : Sept. 3, 2026, 9:47 a.m. | 1\u00a0hour, 48\u00a0minutes ago\n  \n  Description :SQL injection vulnerability in the endpoin...",
+      "timestamp": 1788428841.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76175 - Multiple vulnerabilities in Ocsreports for OCS Inventory NG",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76175",
+      "summary": "CVE ID :CVE-2026-76175\n  \n  Published : Sept. 3, 2026, 9:44 a.m. | 1\u00a0hour, 51\u00a0minutes ago\n  \n  Description :SQL injection vulnerability in the del_che...",
+      "timestamp": 1788428696.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft Teams, Outlook fail to launch on ARM-based Windows PCs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outlook-fail-to-launch-on-arm-based-windows-pcs/",
+      "summary": "Microsoft is working to fix a known issue that causes crashes and launch failures for Microsoft Teams and New Outlook users after installing updates r...",
+      "timestamp": 1788425725.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
@@ -75,92 +179,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-84452 - Windows ML CLI Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84452",
-      "summary": "CVE ID :CVE-2026-84452\n  \n  Published : Sept. 2, 2026, 8:17 p.m. | 7\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Windows ML CLI is a command line tool for...",
-      "timestamp": 1788380261.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82524 - UnoPim Arbitrary File Upload Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82524",
-      "summary": "CVE ID :CVE-2026-82524\n  \n  Published : Sept. 2, 2026, 8:17 p.m. | 7\u00a0hours, 18\u00a0minutes ago\n  \n  Description :UnoPim before 2.1.5 contains an authentic...",
-      "timestamp": 1788380259.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "WordPress backup plugin flaw exposes millions of sites to takeover attacks",
       "link": "https://www.bleepingcomputer.com/news/security/wordpress-backup-plugin-flaw-exposes-millions-of-sites-to-takeover-attacks/",
       "summary": "An SQL injection vulnerability in the All-in-One WP Migration and Backup plugin for WordPress could allow unauthenticated attackers to execute remote ...",
       "timestamp": 1788377326.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-84381 - HTTPX2 SOCKS5 Proxy TLS Upgrade Failure Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84381",
-      "summary": "CVE ID :CVE-2026-84381\n  \n  Published : Sept. 2, 2026, 7:18 p.m. | 8\u00a0hours, 17\u00a0minutes ago\n  \n  Description :HTTPX2 is a next generation HTTP client f...",
-      "timestamp": 1788376688.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19117 - FIDO2 Authentication Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19117",
-      "summary": "CVE ID :CVE-2026-19117\n  \n  Published : Sept. 2, 2026, 7:17 p.m. | 8\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Under specific conditions, an attacker ca...",
-      "timestamp": 1788376636.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66786 - Submariner Configuration Injection Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66786",
-      "summary": "CVE ID :CVE-2026-66786\n  \n  Published : Sept. 2, 2026, 6:21 p.m. | 9\u00a0hours, 14\u00a0minutes ago\n  \n  Description :A flaw was found in submariner. In cert-a...",
-      "timestamp": 1788373270.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53706 - PREVAIL eBPF Verifier Improper Pointer Arithmetic Validation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53706",
-      "summary": "CVE ID :CVE-2026-53706\n  \n  Published : Sept. 2, 2026, 6:20 p.m. | 9\u00a0hours, 15\u00a0minutes ago\n  \n  Description :PREVAIL is a Polynomial-Runtime EBPF Veri...",
-      "timestamp": 1788373200.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53671 - PREVAIL eBPF Verifier Context Pointer Write Out-of-Bounds Access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53671",
-      "summary": "CVE ID :CVE-2026-53671\n  \n  Published : Sept. 2, 2026, 6:20 p.m. | 9\u00a0hours, 15\u00a0minutes ago\n  \n  Description :PREVAIL is a Polynomial-Runtime EBPF Veri...",
-      "timestamp": 1788373200.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53670 - Prevail eBPF Verifier Out-of-Bounds Memory Access Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53670",
-      "summary": "CVE ID :CVE-2026-53670\n  \n  Published : Sept. 2, 2026, 6:20 p.m. | 9\u00a0hours, 15\u00a0minutes ago\n  \n  Description :PREVAIL is a Polynomial-Runtime EBPF Veri...",
-      "timestamp": 1788373200.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-53649 - Joro Cross-Origin Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53649",
-      "summary": "CVE ID :CVE-2026-53649\n  \n  Published : Sept. 2, 2026, 6:19 p.m. | 9\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Joro is a web exploitation framework. Pri...",
-      "timestamp": 1788373199.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49832 - DSpace Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49832",
-      "summary": "CVE ID :CVE-2026-49832\n  \n  Published : Sept. 2, 2026, 6:19 p.m. | 9\u00a0hours, 16\u00a0minutes ago\n  \n  Description :DSpace open source software is a reposito...",
-      "timestamp": 1788373172.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco Advance Notification for Publication of September 2, 2026, Security Advisories",
@@ -235,35 +259,11 @@
       "vendor": "News"
     },
     {
-      "title": "Sality botnet infrastructure dismantled in joint global takedown",
-      "link": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
-      "summary": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take dow...",
-      "timestamp": 1788336043.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
-      "summary": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
-      "timestamp": 1788331169.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
       "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the ...",
       "timestamp": 1788302428.0,
       "source": "Krebs on Security",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
-      "summary": "Phishing actors are abusing the legitimate Faronics Deploy endpoint-management platform to gain remote administrative control over victim computers an...",
-      "timestamp": 1788296003.0,
-      "source": "BleepingComputer",
       "vendor": "News"
     },
     {
@@ -281,15 +281,7 @@
       "timestamp": 1787792400.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
-    },
-    {
-      "title": "Cisco Crosswork Security Hardening Release: August 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-crosswork-UzDTU9Vh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Crosswork%20Security%20Hardening%20Release:%20August%202026%26vs_k=1",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Crosswork engineering team has conducted a comprehensive in...",
-      "timestamp": 1787331280.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1788409092.4929953
+  "last_updated": 1788442522.5783734
 }
