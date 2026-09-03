@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 4,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,126 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-85237 - Missing Rate Limiting in Email OTP Verification Allows Brute-Force Authentication Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85237",
+      "summary": "CVE ID :CVE-2026-85237\n  \n  Published : Sept. 3, 2026, 3:22 p.m. | 36\u00a0minutes ago\n  \n  Description :A vulnerability in MISP's email-based one-time pas...",
+      "timestamp": 1788448979.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
+      "summary": "Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English Windows 11...",
+      "timestamp": 1788448953.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-71963 - Hermes Agent 0.18.2 - 0.21.0 RCE via git core.fsmonitor Config Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71963",
+      "summary": "CVE ID :CVE-2026-71963\n  \n  Published : Sept. 3, 2026, 3:19 p.m. | 39\u00a0minutes ago\n  \n  Description :Hermes Agent 0.18.2 through 0.21.0, fixed in commi...",
+      "timestamp": 1788448770.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85216 - MISP LDAP and LinOTP Authentication Bypass via Empty or Invalid Credentials",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85216",
+      "summary": "CVE ID :CVE-2026-85216\n  \n  Published : Sept. 3, 2026, 3:17 p.m. | 41\u00a0minutes ago\n  \n  Description :MISP contains an authentication bypass vulnerabili...",
+      "timestamp": 1788448660.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85214 - vhr Missing Authorization in PUT /hr/info Allows Arbitrary Profile Overwrite",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85214",
+      "summary": "CVE ID :CVE-2026-85214\n  \n  Published : Sept. 3, 2026, 3:17 p.m. | 41\u00a0minutes ago\n  \n  Description :vhr fails to validate user authorization in the PU...",
+      "timestamp": 1788448660.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85212 - CRMEB through 6.0.0 Missing Authorization via Inert verifyAuth Role Check",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85212",
+      "summary": "CVE ID :CVE-2026-85212\n  \n  Published : Sept. 3, 2026, 3:17 p.m. | 41\u00a0minutes ago\n  \n  Description :CRMEB contains an authentication bypass vulnerabil...",
+      "timestamp": 1788448660.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85211 - Label Studio through 1.23.0 Cross-Organization Storage URI Resolution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85211",
+      "summary": "CVE ID :CVE-2026-85211\n  \n  Published : Sept. 3, 2026, 3:17 p.m. | 41\u00a0minutes ago\n  \n  Description :Label Studio fails to apply organization filters w...",
+      "timestamp": 1788448660.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85199 - Eclipse aeriOS Self-orchestrator Path Traversal Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85199",
+      "summary": "CVE ID :CVE-2026-85199\n  \n  Published : Sept. 3, 2026, 3:17 p.m. | 41\u00a0minutes ago\n  \n  Description :Eclipse aeriOS Self-orchestrator versions prior to...",
+      "timestamp": 1788448659.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85183 - Taipy through 4.1.1 Cross-Site WebSocket Hijacking via Wildcard socket.io CORS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85183",
+      "summary": "CVE ID :CVE-2026-85183\n  \n  Published : Sept. 3, 2026, 3:17 p.m. | 41\u00a0minutes ago\n  \n  Description :Taipy configures its socket.io server with wildcar...",
+      "timestamp": 1788448659.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85181 - CAT through 3.1.0 Session Cookie Forgery via Unkeyed hashCode Checksum",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85181",
+      "summary": "CVE ID :CVE-2026-85181\n  \n  Published : Sept. 3, 2026, 3:17 p.m. | 41\u00a0minutes ago\n  \n  Description :CAT uses Java String.hashCode as the sole integrit...",
+      "timestamp": 1788448659.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85180 - Ollama 0.30.0 through 0.33.2 SSRF via Cross-Host Tensor Blob Redirect",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85180",
+      "summary": "CVE ID :CVE-2026-85180\n  \n  Published : Sept. 3, 2026, 3:17 p.m. | 41\u00a0minutes ago\n  \n  Description :Ollama fails to validate redirect destinations whe...",
+      "timestamp": 1788448659.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
+      "summary": "ChatGPT and Codex are experiencing a major outage, with users reporting errors across nearly every major ChatGPT feature. [...]",
+      "timestamp": 1788448409.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Anthropic confirms Claude is down, multiple models affected",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
+      "summary": "Claude is experiencing an outage, with users encountering elevated errors when sending requests to multiple Anthropic AI models. [...]",
+      "timestamp": 1788447772.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
+      "summary": "A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deliver a webs...",
+      "timestamp": 1788447140.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Your Employee\u2019s Password Appeared in an Infostealer Log. Now What?",
+      "link": "https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/",
+      "summary": "Infostealers can expose far more than passwords, including authenticated sessions that may let attackers bypass MFA. Flare explains how defenders can ...",
+      "timestamp": 1788443459.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Microsoft says KB5120998 Windows update resets desktop settings",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-kb5120998-windows-update-resets-desktop-settings/",
       "summary": "Microsoft has confirmed that desktop settings are lost or reset on some Windows devices after installing the KB5120998 August 2026 preview update. [.....",
@@ -67,92 +187,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-85175 - SiYuan before v3.8.2 TLS Private Key Disclosure via getFile",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85175",
-      "summary": "CVE ID :CVE-2026-85175\n  \n  Published : Sept. 3, 2026, 11:22 a.m. | 13\u00a0minutes ago\n  \n  Description :SiYuan versions <= 3.8.1 (fixed in v3.8.2) contai...",
-      "timestamp": 1788434542.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85174 - SiYuan before v3.8.2 API Token Exposure via Log File",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85174",
-      "summary": "CVE ID :CVE-2026-85174\n  \n  Published : Sept. 3, 2026, 11:22 a.m. | 13\u00a0minutes ago\n  \n  Description :SiYuan before v3.8.2 logs API tokens from query p...",
-      "timestamp": 1788434542.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85169 - n8n before 1.123.73 Remote Code Execution via $fromAI Prototype Leak",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85169",
-      "summary": "CVE ID :CVE-2026-85169\n  \n  Published : Sept. 3, 2026, 11:22 a.m. | 13\u00a0minutes ago\n  \n  Description :n8n versions before 1.123.73, 2.35.4, and 2.36.2 ...",
-      "timestamp": 1788434538.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85160 - AVideo through c91b5975d CSRF and Path Traversal via stopLive.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85160",
-      "summary": "CVE ID :CVE-2026-85160\n  \n  Published : Sept. 3, 2026, 11:22 a.m. | 13\u00a0minutes ago\n  \n  Description :AVideo through commit c91b5975d contains a cross-...",
-      "timestamp": 1788434532.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85155 - WWBN AVideo SQL Injection via get.json.php APIName channels",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85155",
-      "summary": "CVE ID :CVE-2026-85155\n  \n  Published : Sept. 3, 2026, 11:22 a.m. | 13\u00a0minutes ago\n  \n  Description :WWBN AVideo contains a SQL injection vulnerabilit...",
-      "timestamp": 1788434529.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85154 - WWBN AVideo Authentication Bypass via Non-Expiring video_id_hash",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85154",
-      "summary": "CVE ID :CVE-2026-85154\n  \n  Published : Sept. 3, 2026, 11:22 a.m. | 13\u00a0minutes ago\n  \n  Description :WWBN AVideo contains an authentication failure vu...",
-      "timestamp": 1788434528.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Plex warns users to patch security vulnerabilities immediately",
       "link": "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/",
       "summary": "Plex urged users this week to update their desktop clients and media servers immediately to patch multiple security vulnerabilities. [...]",
       "timestamp": 1788433342.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-76642 - util-linux libmount Privilege Escalation via Failed Mount Helper",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76642",
-      "summary": "CVE ID :CVE-2026-76642\n  \n  Published : Sept. 3, 2026, 10:54 a.m. | 41\u00a0minutes ago\n  \n  Description :util-linux versions through 2.41.5 and 2.42.2 fai...",
-      "timestamp": 1788432848.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76178 - Multiple vulnerabilities in Ocsreports for OCS Inventory NG",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76178",
-      "summary": "CVE ID :CVE-2026-76178\n  \n  Published : Sept. 3, 2026, 10:20 a.m. | 1\u00a0hour, 15\u00a0minutes ago\n  \n  Description :A stored Cross-Site Scripting (XSS) vulne...",
-      "timestamp": 1788430819.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76176 - Multiple vulnerabilities in Ocsreports for OCS Inventory NG",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76176",
-      "summary": "CVE ID :CVE-2026-76176\n  \n  Published : Sept. 3, 2026, 9:47 a.m. | 1\u00a0hour, 48\u00a0minutes ago\n  \n  Description :SQL injection vulnerability in the endpoin...",
-      "timestamp": 1788428841.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76175 - Multiple vulnerabilities in Ocsreports for OCS Inventory NG",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76175",
-      "summary": "CVE ID :CVE-2026-76175\n  \n  Published : Sept. 3, 2026, 9:44 a.m. | 1\u00a0hour, 51\u00a0minutes ago\n  \n  Description :SQL injection vulnerability in the del_che...",
-      "timestamp": 1788428696.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft Teams, Outlook fail to launch on ARM-based Windows PCs",
@@ -219,46 +259,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "Hackers exploit critical JFrog Artifactory flaw to forge admin tokens",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-jfrog-artifactory-flaw-to-forge-admin-tokens/",
-      "summary": "A critical authentication bypass vulnerability (CVE-2026-82329) in JFrog Artifactory is being exploited in attacks to create tokens that provide admin...",
-      "timestamp": 1788364028.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
-      "link": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
-      "summary": "Ransomware resilience requires more than backups or endpoint detection alone. Acronis outlines six capabilities MSPs should test across client environ...",
-      "timestamp": 1788357732.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Dropbox accounts breached through Lenovo email verification flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
-      "summary": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process to regist...",
-      "timestamp": 1788352222.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft Defender flags legitimate Google search links as malicious",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
-      "summary": "Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google search links...",
-      "timestamp": 1788344979.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "US charges Russian for infecting 80,000 freelancers with malware",
-      "link": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
-      "summary": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT ...",
-      "timestamp": 1788340008.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
       "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the ...",
@@ -283,5 +283,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1788442522.5783734
+  "last_updated": 1788455589.6842265
 }
