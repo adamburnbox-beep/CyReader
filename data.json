@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,76 +59,100 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-82527 - R2R 3.6.6 SQL Injection via Retrieval Search Filter Key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82527",
-      "summary": "CVE ID :CVE-2026-82527\n  \n  Published : Sept. 3, 2026, 7:24 p.m. | 11\u00a0minutes ago\n  \n  Description :R2R through 3.6.6 contains a SQL injection vulnera...",
-      "timestamp": 1788463470.0,
+      "title": "CVE-2026-85455 - MOOS core-moos through 10.4.0 MOOSDB Out-of-Bounds Read via Short Packet",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85455",
+      "summary": "CVE ID :CVE-2026-85455\n  \n  Published : Sept. 3, 2026, 11:17 p.m. | 33\u00a0minutes ago\n  \n  Description :MOOS core-moos through 10.4.0 contains a buffer o...",
+      "timestamp": 1788477445.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-85396 - rubyzip before 3.4.0 Path Traversal in Zip::Entry#extract via Sibling-Directory Prefix",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85396",
-      "summary": "CVE ID :CVE-2026-85396\n  \n  Published : Sept. 3, 2026, 7:17 p.m. | 18\u00a0minutes ago\n  \n  Description :rubyzip versions before 3.4.0 contain a path trave...",
-      "timestamp": 1788463051.0,
+      "title": "CVE-2026-85452 - MOOS ui-moos through 50b9c6c uMS Buffer Overflow via Long MOOS Identifiers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85452",
+      "summary": "CVE ID :CVE-2026-85452\n  \n  Published : Sept. 3, 2026, 11:17 p.m. | 33\u00a0minutes ago\n  \n  Description :MOOS ui-moos through 50b9c6c contains a buffer ov...",
+      "timestamp": 1788477445.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-85394 - python-jose through 3.5.0 Algorithm Confusion via DER-encoded Public Key as HMAC Secret",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85394",
-      "summary": "CVE ID :CVE-2026-85394\n  \n  Published : Sept. 3, 2026, 7:17 p.m. | 18\u00a0minutes ago\n  \n  Description :python-jose through 3.5.0 fails to properly valida...",
-      "timestamp": 1788463051.0,
+      "title": "CVE-2026-85450 - MOOS core-moos through 10.4.0 MOOSDB HTTP Server Resource Exhaustion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85450",
+      "summary": "CVE ID :CVE-2026-85450\n  \n  Published : Sept. 3, 2026, 11:17 p.m. | 33\u00a0minutes ago\n  \n  Description :MOOS core-moos through 10.4.0 contains a denial o...",
+      "timestamp": 1788477445.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-85393 - node-forge through 1.4.0 RSA PKCS#1 v1.5 Signature Forgery via Nested DigestAlgorithm Padding",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85393",
-      "summary": "CVE ID :CVE-2026-85393\n  \n  Published : Sept. 3, 2026, 7:17 p.m. | 18\u00a0minutes ago\n  \n  Description :node-forge through 1.4.0 fails to validate element...",
-      "timestamp": 1788463051.0,
+      "title": "CVE-2026-85449 - MOOS-IvP through 24.8.1 pMarineViewer Unbounded Memory Consumption via NODE_REPORT",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85449",
+      "summary": "CVE ID :CVE-2026-85449\n  \n  Published : Sept. 3, 2026, 11:17 p.m. | 33\u00a0minutes ago\n  \n  Description :MOOS-IvP pMarineViewer through 24.8.1 fails to li...",
+      "timestamp": 1788477444.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-85391 - Peppermint through 0.5.5 Use of Hard-coded JWT Signing Secret in docker-compose.yml",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85391",
-      "summary": "CVE ID :CVE-2026-85391\n  \n  Published : Sept. 3, 2026, 7:17 p.m. | 18\u00a0minutes ago\n  \n  Description :Peppermint through 0.5.5 contains a hardcoded JWT ...",
-      "timestamp": 1788463050.0,
+      "title": "CVE-2026-85448 - MOOS-IvP through 24.8.1 uFldShoreBroker Unbounded Community State Retention",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85448",
+      "summary": "CVE ID :CVE-2026-85448\n  \n  Published : Sept. 3, 2026, 11:17 p.m. | 33\u00a0minutes ago\n  \n  Description :MOOS-IvP uFldShoreBroker through 24.8.1 fails to ...",
+      "timestamp": 1788477444.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-85388 - Worklenz through 3.0.0 SQL Injection via the sort-field Query Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85388",
-      "summary": "CVE ID :CVE-2026-85388\n  \n  Published : Sept. 3, 2026, 7:17 p.m. | 18\u00a0minutes ago\n  \n  Description :Worklenz through 3.0.0 fails to properly validate ...",
-      "timestamp": 1788463050.0,
+      "title": "CVE-2026-85447 - MOOS-IvP through 24.8.1 pRealm Unbounded REALMCAST_REQ Subscription Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85447",
+      "summary": "CVE ID :CVE-2026-85447\n  \n  Published : Sept. 3, 2026, 11:17 p.m. | 33\u00a0minutes ago\n  \n  Description :MOOS-IvP pRealm through version 24.8.1 accepts un...",
+      "timestamp": 1788477444.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-82526 - R2R 3.6.6 SQL Injection via Vector Index Creation Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82526",
-      "summary": "CVE ID :CVE-2026-82526\n  \n  Published : Sept. 3, 2026, 7:17 p.m. | 18\u00a0minutes ago\n  \n  Description :R2R through 3.6.6 contains a stacked SQL injection...",
-      "timestamp": 1788463049.0,
+      "title": "CVE-2026-85446 - MOOS-IvP through 24.8.1 uFldNodeComms Quadratic Processing Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85446",
+      "summary": "CVE ID :CVE-2026-85446\n  \n  Published : Sept. 3, 2026, 11:17 p.m. | 33\u00a0minutes ago\n  \n  Description :MOOS-IvP versions through 24.8.1 contain a quadra...",
+      "timestamp": 1788477444.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-82302 - Incorrect Authorization in Kibana Leading to Unauthorized Configuration Modification",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82302",
-      "summary": "CVE ID :CVE-2026-82302\n  \n  Published : Sept. 3, 2026, 7:17 p.m. | 18\u00a0minutes ago\n  \n  Description :Incorrect Authorization (CWE-863) in Kibana can le...",
-      "timestamp": 1788463049.0,
+      "title": "CVE-2026-85445 - MOOS-IvP through 24.8.1 BHV_IPF Demultiplexer Memory Exhaustion via Packet Count",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85445",
+      "summary": "CVE ID :CVE-2026-85445\n  \n  Published : Sept. 3, 2026, 11:17 p.m. | 33\u00a0minutes ago\n  \n  Description :MOOS-IvP through 24.8.1 contains a denial of serv...",
+      "timestamp": 1788477444.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-78583 - Incorrect Authorization in Kibana Leading to Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78583",
-      "summary": "CVE ID :CVE-2026-78583\n  \n  Published : Sept. 3, 2026, 7:17 p.m. | 18\u00a0minutes ago\n  \n  Description :Incorrect Authorization (CWE-863) in Kibana can le...",
-      "timestamp": 1788463048.0,
+      "title": "CVE-2026-85444 - MOOS-IvP through 24.8.1 Out-of-Bounds Read in isBraced, isQuoted and isChevroned",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85444",
+      "summary": "CVE ID :CVE-2026-85444\n  \n  Published : Sept. 3, 2026, 11:17 p.m. | 33\u00a0minutes ago\n  \n  Description :MOOS-IvP through 24.8.1 contains a buffer over-re...",
+      "timestamp": 1788477444.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85443 - MOOS core-moos through 10.4.0 MOOSDB Accept Loop Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85443",
+      "summary": "CVE ID :CVE-2026-85443\n  \n  Published : Sept. 3, 2026, 11:17 p.m. | 33\u00a0minutes ago\n  \n  Description :MOOS core-moos through 10.4.0 contains a denial o...",
+      "timestamp": 1788477444.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "French hospital fined \u20ac500,000 after breach exposes data of 727,000",
+      "link": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
+      "summary": "France's data protection authority (CNIL) has fined H\u00f4pital priv\u00e9 de la Loire \u20ac500,000 ($580,000) for failing to adequately protect patients' and thei...",
+      "timestamp": 1788472897.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Coder's registry infrastructure compromised to push malicious modules",
+      "link": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
+      "summary": "Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing ...",
+      "timestamp": 1788465864.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
@@ -145,14 +169,6 @@
       "timestamp": 1788460092.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-85012 - OS command injection in the Amazon CodeCatalyst blueprints SDK",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85012",
-      "summary": "CVE ID :CVE-2026-85012\n  \n  Published : Sept. 3, 2026, 6:17 p.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Improper neutralization of special element...",
-      "timestamp": 1788459453.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
@@ -207,22 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/plex-warns-users-to-patch-security-vulnerabilities-immediately/",
       "summary": "Plex urged users this week to update their desktop clients and media servers immediately to patch multiple security vulnerabilities. [...]",
       "timestamp": 1788433342.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft Teams, Outlook fail to launch on ARM-based Windows PCs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-outlook-fail-to-launch-on-arm-based-windows-pcs/",
-      "summary": "Microsoft is working to fix a known issue that causes crashes and launch failures for Microsoft Teams and New Outlook users after installing updates r...",
-      "timestamp": 1788425725.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers exploit Sangoma Switchvox flaw to deploy reverse shells",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/",
-      "summary": "Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead t...",
-      "timestamp": 1788382813.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -283,5 +283,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1788465040.7649167
+  "last_updated": 1788481402.5346422
 }
