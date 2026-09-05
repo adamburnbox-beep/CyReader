@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,82 +59,90 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-86140 - libxml2 Stack-Based Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86140",
-      "summary": "CVE ID :CVE-2026-86140\n  \n  Published : Sept. 5, 2026, 4:26 a.m. | 21\u00a0minutes ago\n  \n  Description :In libxml2 before 2.15.4, xmlSnprintfElements in v...",
-      "timestamp": 1788582373.0,
+      "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
+      "summary": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed re...",
+      "timestamp": 1788606710.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-86124 - AutoAgent Unauthenticated Remote Code Execution via the Sandbox TCP Command Server",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86124",
+      "summary": "CVE ID :CVE-2026-86124\n  \n  Published : Sept. 5, 2026, 10:16 a.m. | 30\u00a0minutes ago\n  \n  Description :AutoAgent contains an unauthenticated remote code...",
+      "timestamp": 1788603403.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-52777 - YesWiki: Authenticated PHP Object Injection in BazarImportAction via unserialize",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52777",
-      "summary": "CVE ID :CVE-2026-52777\n  \n  Published : Sept. 5, 2026, 12:17 a.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :YesWiki is a wiki system written in PHP....",
-      "timestamp": 1788567440.0,
+      "title": "CVE-2026-86123 - SQL Chat Unauthenticated Database-Connection Proxy in the /api/connection Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86123",
+      "summary": "CVE ID :CVE-2026-86123\n  \n  Published : Sept. 5, 2026, 10:16 a.m. | 30\u00a0minutes ago\n  \n  Description :SQL Chat contains four unauthenticated API endpoi...",
+      "timestamp": 1788603403.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-52775 - YesWiki Authenticated SQL Injection in ReactionManager",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52775",
-      "summary": "CVE ID :CVE-2026-52775\n  \n  Published : Sept. 5, 2026, 12:17 a.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :YesWiki is a wiki system written in PHP....",
-      "timestamp": 1788567440.0,
+      "title": "CVE-2026-86121 - Cua computer-server before 0.3.42 Unauthenticated RCE via Desktop Control",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86121",
+      "summary": "CVE ID :CVE-2026-86121\n  \n  Published : Sept. 5, 2026, 10:16 a.m. | 30\u00a0minutes ago\n  \n  Description :Cua computer-server versions before 0.3.42 skip a...",
+      "timestamp": 1788603403.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-52771 - YesWiki: Second-Order SQL Injection in Page Delete API via Unescaped Page Tag (`ApiController::deletePage`)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52771",
-      "summary": "CVE ID :CVE-2026-52771\n  \n  Published : Sept. 5, 2026, 12:17 a.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :YesWiki is a wiki system written in PHP....",
-      "timestamp": 1788567439.0,
+      "title": "CVE-2026-86119 - Webstudio through 0.296.0 SSRF via /cgi proxy routes",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86119",
+      "summary": "CVE ID :CVE-2026-86119\n  \n  Published : Sept. 5, 2026, 10:16 a.m. | 30\u00a0minutes ago\n  \n  Description :Webstudio through 0.296.0 contains an unauthentic...",
+      "timestamp": 1788603403.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-52769 - YesWiki: Unauthenticated Server-Side Request Forgery via ActivityPub `Signature.keyId`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52769",
-      "summary": "CVE ID :CVE-2026-52769\n  \n  Published : Sept. 5, 2026, 12:17 a.m. | 4\u00a0hours, 30\u00a0minutes ago\n  \n  Description :YesWiki is a wiki system written in PHP....",
-      "timestamp": 1788567439.0,
+      "title": "CVE-2026-86117 - Coolify through 4.3.17 OAuth Account Takeover via Unverified Email Matching",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86117",
+      "summary": "CVE ID :CVE-2026-86117\n  \n  Published : Sept. 5, 2026, 10:16 a.m. | 30\u00a0minutes ago\n  \n  Description :Coolify through 4.3.17 contains an authentication...",
+      "timestamp": 1788603402.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-52767 - YesWiki: Unauthenticated ActivityPub Signature-Verification Bypass via `!openssl_verify(...)` accepting `int(-1)`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52767",
-      "summary": "CVE ID :CVE-2026-52767\n  \n  Published : Sept. 5, 2026, 12:17 a.m. | 4\u00a0hours, 30\u00a0minutes ago\n  \n  Description :YesWiki is a wiki system written in PHP....",
-      "timestamp": 1788567439.0,
+      "title": "CVE-2024-11080 - Post Grid and Gutenberg Blocks \u2013 ComboBlocks 2.2.85 - 2.3.32 - Unauthenticated Hook Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-11080",
+      "summary": "CVE ID :CVE-2024-11080\n  \n  Published : Sept. 5, 2026, 9:16 a.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :The Post Grid and Gutenberg Blocks \u2013 Combo...",
+      "timestamp": 1788599808.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-52766 - YesWiki: Unauthenticated arbitrary page deletion via `{{erasespamedcomments}}` action",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52766",
-      "summary": "CVE ID :CVE-2026-52766\n  \n  Published : Sept. 5, 2026, 12:17 a.m. | 4\u00a0hours, 30\u00a0minutes ago\n  \n  Description :YesWiki is a wiki system written in PHP....",
-      "timestamp": 1788567439.0,
+      "title": "CVE-2026-81543 - Abandoned Cart Pro for WooCommerce <= 10.7.1 - Missing Authorization to Authenticated (Subscriber+) Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81543",
+      "summary": "CVE ID :CVE-2026-81543\n  \n  Published : Sept. 5, 2026, 8:16 a.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :The Abandoned Cart Pro for WooCommerce pl...",
+      "timestamp": 1788596200.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-86098 - ntop nDPI before 6.0 Heap Buffer Overflow via ndpi_json_string_escape",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86098",
-      "summary": "CVE ID :CVE-2026-86098\n  \n  Published : Sept. 4, 2026, 11:18 p.m. | 5\u00a0hours, 29\u00a0minutes ago\n  \n  Description :ntop nDPI versions before 6.0 contain a ...",
-      "timestamp": 1788563883.0,
+      "title": "CVE-2026-19887 - Welcart e-Commerce <= 2.12.1 - Unauthenticated Arbitrary File Deletion via PHP Object Injection via 'reserve' Checkout Parameter and 'option' EDY Callback",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19887",
+      "summary": "CVE ID :CVE-2026-19887\n  \n  Published : Sept. 5, 2026, 7:17 a.m. | 3\u00a0hours, 30\u00a0minutes ago\n  \n  Description :The Welcart e-Commerce plugin for WordPre...",
+      "timestamp": 1788592631.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-86095 - Unidata netcdf-c through 4.10.1 Out-of-bounds Write via Oversized HDF5 Attribute Name",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86095",
-      "summary": "CVE ID :CVE-2026-86095\n  \n  Published : Sept. 4, 2026, 11:18 p.m. | 5\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Unidata netcdf-c through 4.10.1 contains...",
-      "timestamp": 1788563883.0,
+      "title": "CVE-2026-86145 - PCRE2 Out-of-Bounds Write Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86145",
+      "summary": "CVE ID :CVE-2026-86145\n  \n  Published : Sept. 5, 2026, 6:17 a.m. | 4\u00a0hours, 30\u00a0minutes ago\n  \n  Description :PCRE2 before 10.48 allows a pcre2_dfa_mat...",
+      "timestamp": 1788589030.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-48019 - CRLF injection in Laravel's default email rule enables SMTP smuggling and spoofed-mail relay",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48019",
-      "summary": "CVE ID :CVE-2026-48019\n  \n  Published : Sept. 4, 2026, 11:17 p.m. | 5\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Laravel is a web application framework. ...",
-      "timestamp": 1788563829.0,
+      "title": "CVE-2026-83627 - Hummingbird \u2013 Speed Optimization, Caching, Minify, Compress & CDN <= 3.21.0 - Unauthenticated Remote Code Execution via Cookie Name in Page Cache Debug Log",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83627",
+      "summary": "CVE ID :CVE-2026-83627\n  \n  Published : Sept. 5, 2026, 6:17 a.m. | 4\u00a0hours, 30\u00a0minutes ago\n  \n  Description :The Hummingbird \u2013 Speed Optimization, Cac...",
+      "timestamp": 1788589030.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -219,14 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
-      "summary": "Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote code execut...",
-      "timestamp": 1788460092.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of September 2, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-f2SiMFxl?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20September%202,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On September 2, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE ID\n...",
@@ -283,5 +283,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1788584271.8244576
+  "last_updated": 1788612044.3973906
 }
