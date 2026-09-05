@@ -59,92 +59,100 @@
   ],
   "articles": [
     {
+      "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
+      "link": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+      "summary": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contract...",
+      "timestamp": 1788618553.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-86196 - Grav API Plugin before 1.0.20 Authentication Bypass via Host Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86196",
+      "summary": "CVE ID :CVE-2026-86196\n  \n  Published : Sept. 5, 2026, 1:18 p.m. | 1\u00a0hour, 29\u00a0minutes ago\n  \n  Description :Grav API plugin versions before 1.0.20 bui...",
+      "timestamp": 1788614294.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86195 - grav-plugin-api 1.0.0 through 1.0.19 Privilege Escalation via Dot-Keyed Super Flag",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86195",
+      "summary": "CVE ID :CVE-2026-86195\n  \n  Published : Sept. 5, 2026, 1:18 p.m. | 1\u00a0hour, 29\u00a0minutes ago\n  \n  Description :grav-plugin-api versions before 1.0.20 con...",
+      "timestamp": 1788614294.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86193 - Grav API Plugin Authentication Bypass via Group-Inherited Super",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86193",
+      "summary": "CVE ID :CVE-2026-86193\n  \n  Published : Sept. 5, 2026, 1:18 p.m. | 1\u00a0hour, 29\u00a0minutes ago\n  \n  Description :grav-plugin-api before 1.0.20 fails to val...",
+      "timestamp": 1788614294.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86190 - WWBN AVideo Broken Access Control via videoViewsInfo hash Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86190",
+      "summary": "CVE ID :CVE-2026-86190\n  \n  Published : Sept. 5, 2026, 1:18 p.m. | 1\u00a0hour, 29\u00a0minutes ago\n  \n  Description :WWBN AVideo contains a broken access contr...",
+      "timestamp": 1788614294.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86189 - WWBN AVideo Unauthenticated Path Traversal via notify.ffmpeg.json.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86189",
+      "summary": "CVE ID :CVE-2026-86189\n  \n  Published : Sept. 5, 2026, 1:18 p.m. | 1\u00a0hour, 29\u00a0minutes ago\n  \n  Description :WWBN AVideo contains a path traversal vuln...",
+      "timestamp": 1788614294.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86185 - Bilibili Desktop through 1.18.0 Remote Code Execution via TLS Verification Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86185",
+      "summary": "CVE ID :CVE-2026-86185\n  \n  Published : Sept. 5, 2026, 12:16 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Bilibili Desktop through 1.18.0 disables...",
+      "timestamp": 1788610609.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86184 - Lara Dashboard before 1.3.0 Missing Authentication in screenshot-login Route",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86184",
+      "summary": "CVE ID :CVE-2026-86184\n  \n  Published : Sept. 5, 2026, 12:16 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Lara Dashboard before 1.3.0 contains an ...",
+      "timestamp": 1788610609.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-10196 - Mail Mint <= 1.31.0 - Unauthenticated PHP Object Injection in Arbitrary Form Fields",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10196",
+      "summary": "CVE ID :CVE-2026-10196\n  \n  Published : Sept. 5, 2026, 12:16 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :The Mail Mint \u2013 Email Marketing, Newslet...",
+      "timestamp": 1788610606.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2025-9049 - Nokri \u2013 Job Board WordPress Theme <= 1.6.4 - Missing Authorization to Authenticated (Subscriber +) Privilege Escalation via Account Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-9049",
+      "summary": "CVE ID :CVE-2025-9049\n  \n  Published : Sept. 5, 2026, 12:16 p.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :The Nokri \u2013 Job Board WordPress Theme the...",
+      "timestamp": 1788610606.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86177 - Pterodactyl Panel before 1.14.1 Privilege Escalation via Schedule Tasks",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86177",
+      "summary": "CVE ID :CVE-2026-86177\n  \n  Published : Sept. 5, 2026, 11:16 a.m. | 3\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Pterodactyl Panel before 1.14.1 fails to...",
+      "timestamp": 1788607006.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
       "link": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
       "summary": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed re...",
       "timestamp": 1788606710.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-86124 - AutoAgent Unauthenticated Remote Code Execution via the Sandbox TCP Command Server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86124",
-      "summary": "CVE ID :CVE-2026-86124\n  \n  Published : Sept. 5, 2026, 10:16 a.m. | 30\u00a0minutes ago\n  \n  Description :AutoAgent contains an unauthenticated remote code...",
-      "timestamp": 1788603403.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86123 - SQL Chat Unauthenticated Database-Connection Proxy in the /api/connection Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86123",
-      "summary": "CVE ID :CVE-2026-86123\n  \n  Published : Sept. 5, 2026, 10:16 a.m. | 30\u00a0minutes ago\n  \n  Description :SQL Chat contains four unauthenticated API endpoi...",
-      "timestamp": 1788603403.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86121 - Cua computer-server before 0.3.42 Unauthenticated RCE via Desktop Control",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86121",
-      "summary": "CVE ID :CVE-2026-86121\n  \n  Published : Sept. 5, 2026, 10:16 a.m. | 30\u00a0minutes ago\n  \n  Description :Cua computer-server versions before 0.3.42 skip a...",
-      "timestamp": 1788603403.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86119 - Webstudio through 0.296.0 SSRF via /cgi proxy routes",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86119",
-      "summary": "CVE ID :CVE-2026-86119\n  \n  Published : Sept. 5, 2026, 10:16 a.m. | 30\u00a0minutes ago\n  \n  Description :Webstudio through 0.296.0 contains an unauthentic...",
-      "timestamp": 1788603403.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86117 - Coolify through 4.3.17 OAuth Account Takeover via Unverified Email Matching",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86117",
-      "summary": "CVE ID :CVE-2026-86117\n  \n  Published : Sept. 5, 2026, 10:16 a.m. | 30\u00a0minutes ago\n  \n  Description :Coolify through 4.3.17 contains an authentication...",
-      "timestamp": 1788603402.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2024-11080 - Post Grid and Gutenberg Blocks \u2013 ComboBlocks 2.2.85 - 2.3.32 - Unauthenticated Hook Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-11080",
-      "summary": "CVE ID :CVE-2024-11080\n  \n  Published : Sept. 5, 2026, 9:16 a.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :The Post Grid and Gutenberg Blocks \u2013 Combo...",
-      "timestamp": 1788599808.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-81543 - Abandoned Cart Pro for WooCommerce <= 10.7.1 - Missing Authorization to Authenticated (Subscriber+) Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81543",
-      "summary": "CVE ID :CVE-2026-81543\n  \n  Published : Sept. 5, 2026, 8:16 a.m. | 2\u00a0hours, 30\u00a0minutes ago\n  \n  Description :The Abandoned Cart Pro for WooCommerce pl...",
-      "timestamp": 1788596200.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19887 - Welcart e-Commerce <= 2.12.1 - Unauthenticated Arbitrary File Deletion via PHP Object Injection via 'reserve' Checkout Parameter and 'option' EDY Callback",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19887",
-      "summary": "CVE ID :CVE-2026-19887\n  \n  Published : Sept. 5, 2026, 7:17 a.m. | 3\u00a0hours, 30\u00a0minutes ago\n  \n  Description :The Welcart e-Commerce plugin for WordPre...",
-      "timestamp": 1788592631.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86145 - PCRE2 Out-of-Bounds Write Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86145",
-      "summary": "CVE ID :CVE-2026-86145\n  \n  Published : Sept. 5, 2026, 6:17 a.m. | 4\u00a0hours, 30\u00a0minutes ago\n  \n  Description :PCRE2 before 10.48 allows a pcre2_dfa_mat...",
-      "timestamp": 1788589030.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-83627 - Hummingbird \u2013 Speed Optimization, Caching, Minify, Compress & CDN <= 3.21.0 - Unauthenticated Remote Code Execution via Cookie Name in Page Cache Debug Log",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83627",
-      "summary": "CVE ID :CVE-2026-83627\n  \n  Published : Sept. 5, 2026, 6:17 a.m. | 4\u00a0hours, 30\u00a0minutes ago\n  \n  Description :The Hummingbird \u2013 Speed Optimization, Cac...",
-      "timestamp": 1788589030.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
@@ -219,14 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "Coder's registry infrastructure compromised to push malicious modules",
-      "link": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
-      "summary": "Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing ...",
-      "timestamp": 1788465864.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of September 2, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-f2SiMFxl?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20September%202,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On September 2, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE ID\n...",
@@ -283,5 +283,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1788612044.3973906
+  "last_updated": 1788622463.3301237
 }
