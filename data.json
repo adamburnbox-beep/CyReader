@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,92 +59,100 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-86140 - libxml2 Stack-Based Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86140",
+      "summary": "CVE ID :CVE-2026-86140\n  \n  Published : Sept. 5, 2026, 4:26 a.m. | 21\u00a0minutes ago\n  \n  Description :In libxml2 before 2.15.4, xmlSnprintfElements in v...",
+      "timestamp": 1788582373.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52777 - YesWiki: Authenticated PHP Object Injection in BazarImportAction via unserialize",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52777",
+      "summary": "CVE ID :CVE-2026-52777\n  \n  Published : Sept. 5, 2026, 12:17 a.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :YesWiki is a wiki system written in PHP....",
+      "timestamp": 1788567440.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52775 - YesWiki Authenticated SQL Injection in ReactionManager",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52775",
+      "summary": "CVE ID :CVE-2026-52775\n  \n  Published : Sept. 5, 2026, 12:17 a.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :YesWiki is a wiki system written in PHP....",
+      "timestamp": 1788567440.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52771 - YesWiki: Second-Order SQL Injection in Page Delete API via Unescaped Page Tag (`ApiController::deletePage`)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52771",
+      "summary": "CVE ID :CVE-2026-52771\n  \n  Published : Sept. 5, 2026, 12:17 a.m. | 4\u00a0hours, 29\u00a0minutes ago\n  \n  Description :YesWiki is a wiki system written in PHP....",
+      "timestamp": 1788567439.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52769 - YesWiki: Unauthenticated Server-Side Request Forgery via ActivityPub `Signature.keyId`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52769",
+      "summary": "CVE ID :CVE-2026-52769\n  \n  Published : Sept. 5, 2026, 12:17 a.m. | 4\u00a0hours, 30\u00a0minutes ago\n  \n  Description :YesWiki is a wiki system written in PHP....",
+      "timestamp": 1788567439.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52767 - YesWiki: Unauthenticated ActivityPub Signature-Verification Bypass via `!openssl_verify(...)` accepting `int(-1)`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52767",
+      "summary": "CVE ID :CVE-2026-52767\n  \n  Published : Sept. 5, 2026, 12:17 a.m. | 4\u00a0hours, 30\u00a0minutes ago\n  \n  Description :YesWiki is a wiki system written in PHP....",
+      "timestamp": 1788567439.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-52766 - YesWiki: Unauthenticated arbitrary page deletion via `{{erasespamedcomments}}` action",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-52766",
+      "summary": "CVE ID :CVE-2026-52766\n  \n  Published : Sept. 5, 2026, 12:17 a.m. | 4\u00a0hours, 30\u00a0minutes ago\n  \n  Description :YesWiki is a wiki system written in PHP....",
+      "timestamp": 1788567439.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86098 - ntop nDPI before 6.0 Heap Buffer Overflow via ndpi_json_string_escape",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86098",
+      "summary": "CVE ID :CVE-2026-86098\n  \n  Published : Sept. 4, 2026, 11:18 p.m. | 5\u00a0hours, 29\u00a0minutes ago\n  \n  Description :ntop nDPI versions before 6.0 contain a ...",
+      "timestamp": 1788563883.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86095 - Unidata netcdf-c through 4.10.1 Out-of-bounds Write via Oversized HDF5 Attribute Name",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86095",
+      "summary": "CVE ID :CVE-2026-86095\n  \n  Published : Sept. 4, 2026, 11:18 p.m. | 5\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Unidata netcdf-c through 4.10.1 contains...",
+      "timestamp": 1788563883.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-48019 - CRLF injection in Laravel's default email rule enables SMTP smuggling and spoofed-mail relay",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-48019",
+      "summary": "CVE ID :CVE-2026-48019\n  \n  Published : Sept. 4, 2026, 11:17 p.m. | 5\u00a0hours, 30\u00a0minutes ago\n  \n  Description :Laravel is a web application framework. ...",
+      "timestamp": 1788563829.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehens...",
+      "timestamp": 1788548243.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
       "title": "IDScan sued over alleged data breach affecting 153 million drivers",
       "link": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
       "summary": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more t...",
       "timestamp": 1788541005.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-18175 - IBM i is Affected By Improper Authorization and Authentication Vulnerabilities in DDM / DRDA [, ]",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18175",
-      "summary": "CVE ID :CVE-2026-18175\n  \n  Published : Sept. 4, 2026, 4:26 p.m. | 19\u00a0minutes ago\n  \n  Description :IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote ...",
-      "timestamp": 1788539174.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18221 - IBM i is Affected By Improper Authorization and Authentication Vulnerabilities in DDM / DRDA [, ]",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18221",
-      "summary": "CVE ID :CVE-2026-18221\n  \n  Published : Sept. 4, 2026, 4:25 p.m. | 20\u00a0minutes ago\n  \n  Description :IBM i 7.6, 7.5, 7.4, and 7.3 could allow a remote ...",
-      "timestamp": 1788539159.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18486 - IBM ContextForge MCP Gateway is affected by credential disclosure and privilege escalation via jq filter execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18486",
-      "summary": "CVE ID :CVE-2026-18486\n  \n  Published : Sept. 4, 2026, 4:24 p.m. | 21\u00a0minutes ago\n  \n  Description :IBM ContextForge MCP Gateway <= v1.0.7 MCP Context...",
-      "timestamp": 1788539085.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85730 - smol-toml: Denial of Service via malformed TOML documents",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85730",
-      "summary": "CVE ID :CVE-2026-85730\n  \n  Published : Sept. 4, 2026, 4:18 p.m. | 27\u00a0minutes ago\n  \n  Description :smol-toml is a small, fast, and correct TOML parse...",
-      "timestamp": 1788538703.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77822 - IBM ContextForge MCP Gateway is affected by server-side request forgery (DNS rebinding) via the A2A agent invocation endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77822",
-      "summary": "CVE ID :CVE-2026-77822\n  \n  Published : Sept. 4, 2026, 4:17 p.m. | 28\u00a0minutes ago\n  \n  Description :IBM ContextForge MCP Gateway could allow a remote ...",
-      "timestamp": 1788538679.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75431 - PowerJob Server JWT Authentication Bypass leading to Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75431",
-      "summary": "CVE ID :CVE-2026-75431\n  \n  Published : Sept. 4, 2026, 4:17 p.m. | 28\u00a0minutes ago\n  \n  Description :PowerJob Server version 5.1.2 (and likely earlier)...",
-      "timestamp": 1788538679.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-44402 - Voltronic Power SNMP Web Pro 1.1 Unauthenticated RCE via upload.cgi",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44402",
-      "summary": "CVE ID :CVE-2026-44402\n  \n  Published : Sept. 4, 2026, 4:17 p.m. | 28\u00a0minutes ago\n  \n  Description :Voltronic Power SNMP Web Pro 1.1 contains an unaut...",
-      "timestamp": 1788538645.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19305 - Langflow is vulnerable to Server-Side Request Forgery due to missing or bypassable URL validation in multiple components",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19305",
-      "summary": "CVE ID :CVE-2026-19305\n  \n  Published : Sept. 4, 2026, 4:17 p.m. | 28\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.11.2 could allow ...",
-      "timestamp": 1788538644.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19303 - Langflow is vulnerable to arbitrary file write and arbitrary file deletion due to unvalidated paths in file-processing components",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19303",
-      "summary": "CVE ID :CVE-2026-19303\n  \n  Published : Sept. 4, 2026, 4:17 p.m. | 28\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.11.2 could allow ...",
-      "timestamp": 1788538644.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19298 - Langflow is vulnerable to remote code execution due to authorization policy bypass in the authenticated flow-build endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19298",
-      "summary": "CVE ID :CVE-2026-19298\n  \n  Published : Sept. 4, 2026, 4:17 p.m. | 28\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.11.2 could allow ...",
-      "timestamp": 1788538641.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
@@ -211,14 +219,6 @@
       "vendor": "News"
     },
     {
-      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehens...",
-      "timestamp": 1788461610.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
       "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
       "summary": "Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote code execut...",
@@ -283,5 +283,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1788543472.8993354
+  "last_updated": 1788584271.8244576
 }
