@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,64 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 6,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-19633 - PostgreSQL Anonymizer: unprivileged masked users can execute code via operators, domain casts and view subqueries",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19633",
+      "summary": "CVE ID :CVE-2026-19633\n  \n  Published : Sept. 6, 2026, 4:16 p.m. | 24\u00a0minutes ago\n  \n  Description :PostgreSQL Anonymizer contains a vulnerability tha...",
+      "timestamp": 1788711409.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82750 - Unbounded EIP-7702 authorization list in mpp Tempo fee-payer sponsorship inflates gas cost and sponsors account delegation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82750",
+      "summary": "CVE ID :CVE-2026-82750\n  \n  Published : Sept. 6, 2026, 4:08 p.m. | 32\u00a0minutes ago\n  \n  Description :Improper Validation of Specified Quantity in Input...",
+      "timestamp": 1788710921.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82751 - Unbounded key authorization in mpp Tempo fee-payer sponsorship inflates gas cost and sponsors access-key provisioning",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82751",
+      "summary": "CVE ID :CVE-2026-82751\n  \n  Published : Sept. 6, 2026, 4:07 p.m. | 33\u00a0minutes ago\n  \n  Description :Improper Validation of Specified Quantity in Input...",
+      "timestamp": 1788710846.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Attackers conceal phishing lures using invisible Unicode characters",
+      "link": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
+      "summary": "Threat actors have adopted the ASCII smuggling technique in phishing campaigns, using invisible Unicode characters to evade email security filters. [....",
+      "timestamp": 1788704626.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-86259 - OpenMAIC before 1.0.1 SSRF via Environment-Gated URL Validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86259",
+      "summary": "CVE ID :CVE-2026-86259\n  \n  Published : Sept. 6, 2026, 1:17 p.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :OpenMAIC before 1.0.1 skips server-side r...",
+      "timestamp": 1788700630.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86258 - nbviewer through 1.0.1 Path Traversal via LocalFileHandler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86258",
+      "summary": "CVE ID :CVE-2026-86258\n  \n  Published : Sept. 6, 2026, 1:17 p.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :nbviewer through 1.0.1 contains a path tr...",
+      "timestamp": 1788700630.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-86253 - h3 before 1.15.6 Path Traversal via Percent-Encoded Dot Segments",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86253",
-      "summary": "CVE ID :CVE-2026-86253\n  \n  Published : Sept. 6, 2026, 12:17 p.m. | 24\u00a0minutes ago\n  \n  Description :h3 (npm package) versions <= 2.0.1-rc.14 contain ...",
+      "summary": "CVE ID :CVE-2026-86253\n  \n  Published : Sept. 6, 2026, 12:17 p.m. | 4\u00a0hours, 24\u00a0minutes ago\n  \n  Description :h3 (npm package) versions <= 2.0.1-rc.14...",
       "timestamp": 1788697036.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +117,7 @@
     {
       "title": "CVE-2026-86251 - h3 before 1.15.9 Path Traversal via Double Decoding",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86251",
-      "summary": "CVE ID :CVE-2026-86251\n  \n  Published : Sept. 6, 2026, 12:17 p.m. | 24\u00a0minutes ago\n  \n  Description :h3 versions before 1.15.9 contain a path traversa...",
+      "summary": "CVE ID :CVE-2026-86251\n  \n  Published : Sept. 6, 2026, 12:17 p.m. | 4\u00a0hours, 24\u00a0minutes ago\n  \n  Description :h3 versions before 1.15.9 contain a path...",
       "timestamp": 1788697035.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +125,7 @@
     {
       "title": "CVE-2026-86250 - h3 before 2.0.1-rc.18 Denial of Service via Unbounded Chunked Cookie",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86250",
-      "summary": "CVE ID :CVE-2026-86250\n  \n  Published : Sept. 6, 2026, 12:17 p.m. | 24\u00a0minutes ago\n  \n  Description :h3 versions before 2.0.1-rc.18 fail to validate t...",
+      "summary": "CVE ID :CVE-2026-86250\n  \n  Published : Sept. 6, 2026, 12:17 p.m. | 4\u00a0hours, 24\u00a0minutes ago\n  \n  Description :h3 versions before 2.0.1-rc.18 fail to v...",
       "timestamp": 1788697035.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +133,7 @@
     {
       "title": "CVE-2026-86242 - Unauthenticated RCE via Custom Plugin HTTP Path on Dynamically Linked Builds",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86242",
-      "summary": "CVE ID :CVE-2026-86242\n  \n  Published : Sept. 6, 2026, 12:17 p.m. | 24\u00a0minutes ago\n  \n  Description :Bifrost HTTP transport before 2.0.0 accepts an en...",
+      "summary": "CVE ID :CVE-2026-86242\n  \n  Published : Sept. 6, 2026, 12:17 p.m. | 4\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Bifrost HTTP transport before 2.0.0 acce...",
       "timestamp": 1788697035.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,48 +141,8 @@
     {
       "title": "CVE-2022-51009 - PocketMine-MP before 4.7.2 Denial of Service via Skin Geometry",
       "link": "https://cvefeed.io/vuln/detail/CVE-2022-51009",
-      "summary": "CVE ID :CVE-2022-51009\n  \n  Published : Sept. 6, 2026, 12:17 p.m. | 24\u00a0minutes ago\n  \n  Description :PocketMine-MP before 4.7.2 fails to properly hand...",
+      "summary": "CVE ID :CVE-2022-51009\n  \n  Published : Sept. 6, 2026, 12:17 p.m. | 4\u00a0hours, 24\u00a0minutes ago\n  \n  Description :PocketMine-MP before 4.7.2 fails to prop...",
       "timestamp": 1788697035.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18480 - SureCart < 4.6.3 - Subscriber+ Administrator Account Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18480",
-      "summary": "CVE ID :CVE-2026-18480\n  \n  Published : Sept. 6, 2026, 7:16 a.m. | 5\u00a0hours, 24\u00a0minutes ago\n  \n  Description :The SureCart  WordPress plugin before 4.6...",
-      "timestamp": 1788679003.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86167 - Tenda HG10 Boa formgponConf os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86167",
-      "summary": "CVE ID :CVE-2026-86167\n  \n  Published : Sept. 6, 2026, 5:16 a.m. | 7\u00a0hours, 24\u00a0minutes ago\n  \n  Description :A vulnerability was identified in Tenda H...",
-      "timestamp": 1788671810.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86166 - Tenda HG10 Boa Web Server formWanRedirect buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86166",
-      "summary": "CVE ID :CVE-2026-86166\n  \n  Published : Sept. 6, 2026, 4:18 a.m. | 8\u00a0hours, 22\u00a0minutes ago\n  \n  Description :A vulnerability was determined in Tenda H...",
-      "timestamp": 1788668312.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86165 - Tenda HG10 formURL buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86165",
-      "summary": "CVE ID :CVE-2026-86165\n  \n  Published : Sept. 6, 2026, 4:18 a.m. | 8\u00a0hours, 22\u00a0minutes ago\n  \n  Description :A vulnerability was found in Tenda HG10 3...",
-      "timestamp": 1788668312.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86218 - pre-authentication remote code execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86218",
-      "summary": "CVE ID :CVE-2026-86218\n  \n  Published : Sept. 6, 2026, 3:17 a.m. | 9\u00a0hours, 24\u00a0minutes ago\n  \n  Description :N-central is vulnerable to a pre-auth rem...",
-      "timestamp": 1788664637.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -219,14 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "French hospital fined \u20ac500,000 after breach exposes data of 727,000",
-      "link": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
-      "summary": "France's data protection authority (CNIL) has fined H\u00f4pital priv\u00e9 de la Loire \u20ac500,000 ($580,000) for failing to adequately protect patients' and thei...",
-      "timestamp": 1788472897.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of September 2, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-f2SiMFxl?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20September%202,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On September 2, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE ID\n...",
@@ -283,5 +283,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1788704787.5410354
+  "last_updated": 1788715413.6366923
 }
