@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,96 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "ChatGPT can now connect to your personal apps to mimic writing style",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/",
+      "summary": "OpenAI appears to be testing a new \"Writing Style\" feature for ChatGPT that can learn how you write by looking at examples from your connected apps. [...",
+      "timestamp": 1788777397.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+      "summary": "Hackers are exploiting a chain of two recently disclosed vulnerabilities in MikroTik routers to take control of devices with SSH services exposed to t...",
+      "timestamp": 1788777160.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-84173 - Eclipse Ankaios Control Interface Improper Authorization Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84173",
+      "summary": "CVE ID :CVE-2026-84173\n  \n  Published : Sept. 7, 2026, 10:16 a.m. | 19\u00a0minutes ago\n  \n  Description :In Eclipse Ankaios versions v0.5.1 through v1.0.1...",
+      "timestamp": 1788776214.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "ConnectWise warns of new ScreenConnect flaw without patch",
+      "link": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+      "summary": "ConnectWise has shared temporary mitigation measures for a new ScreenConnect Remote Access vulnerability that it plans to patch later this week. [...]",
+      "timestamp": 1788775598.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-84732 - OpenVPN ACK Packet ID Integer Overflow Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84732",
+      "summary": "CVE ID :CVE-2026-84732\n  \n  Published : Sept. 7, 2026, 9:17 a.m. | 1\u00a0hour, 19\u00a0minutes ago\n  \n  Description :Retransmissions of ACK packet ID in OpenVP...",
+      "timestamp": 1788772636.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14297 - The Continuous Glucose Monitoring Service's Record Access Control Point (RACP) write handler `memcpy`s the entire attacker-supplied ATT write value into a fixed 20-byte BSS buffer.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14297",
+      "summary": "CVE ID :CVE-2026-14297\n  \n  Published : Sept. 7, 2026, 9:17 a.m. | 1\u00a0hour, 19\u00a0minutes ago\n  \n  Description :A buffer overflow in the Bluetooth Continu...",
+      "timestamp": 1788772635.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84226 - OpenVPN Windows Binary Planting Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84226",
+      "summary": "CVE ID :CVE-2026-84226\n  \n  Published : Sept. 7, 2026, 8:17 a.m. | 2\u00a0hours, 19\u00a0minutes ago\n  \n  Description :OpenVPN version 2.5.0 through 2.6.22 and ...",
+      "timestamp": 1788769033.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-79698 - Advantech WISE-6610-NB Node-RED nodered_lib_apply command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79698",
+      "summary": "CVE ID :CVE-2026-79698\n  \n  Published : Sept. 7, 2026, 7:16 a.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :A vulnerability was identified in Advante...",
+      "timestamp": 1788765407.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-79697 - Advantech WISE-6610-NB Basic Station Certificate-Deletion basicstation_apply command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79697",
+      "summary": "CVE ID :CVE-2026-79697\n  \n  Published : Sept. 7, 2026, 7:16 a.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :A vulnerability was determined in Advante...",
+      "timestamp": 1788765405.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "N-able patches max severity N-central flaw amid ongoing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
+      "summary": "N-able has released an emergency hotfix for a maximum-severity remote code execution (RCE) flaw affecting its N-central remote monitoring and manageme...",
+      "timestamp": 1788761861.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "CVE-2026-16876 - NEC UNIVERGE IX-R/IX-V Authentication Bypass Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-16876",
-      "summary": "CVE ID :CVE-2026-16876\n  \n  Published : Sept. 7, 2026, 2:17 a.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :An authentication bypass vulnerability ex...",
+      "summary": "CVE ID :CVE-2026-16876\n  \n  Published : Sept. 7, 2026, 2:17 a.m. | 8\u00a0hours, 19\u00a0minutes ago\n  \n  Description :An authentication bypass vulnerability ex...",
       "timestamp": 1788747437.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +157,7 @@
     {
       "title": "CVE-2026-82751 - Unbounded key authorization in mpp Tempo fee-payer sponsorship inflates gas cost and sponsors access-key provisioning",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82751",
-      "summary": "CVE ID :CVE-2026-82751\n  \n  Published : Sept. 6, 2026, 5:17 p.m. | 12\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Improper Validation of Specified Quantit...",
+      "summary": "CVE ID :CVE-2026-82751\n  \n  Published : Sept. 6, 2026, 5:17 p.m. | 17\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Improper Validation of Specified Quantit...",
       "timestamp": 1788715076.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +165,7 @@
     {
       "title": "CVE-2026-82750 - Unbounded EIP-7702 authorization list in mpp Tempo fee-payer sponsorship inflates gas cost and sponsors account delegation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82750",
-      "summary": "CVE ID :CVE-2026-82750\n  \n  Published : Sept. 6, 2026, 5:17 p.m. | 12\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Improper Validation of Specified Quantit...",
+      "summary": "CVE ID :CVE-2026-82750\n  \n  Published : Sept. 6, 2026, 5:17 p.m. | 17\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Improper Validation of Specified Quantit...",
       "timestamp": 1788715075.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +173,7 @@
     {
       "title": "CVE-2026-19633 - PostgreSQL Anonymizer: unprivileged masked users can execute code via operators, domain casts and view subqueries",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-19633",
-      "summary": "CVE ID :CVE-2026-19633\n  \n  Published : Sept. 6, 2026, 4:16 p.m. | 13\u00a0hours, 20\u00a0minutes ago\n  \n  Description :PostgreSQL Anonymizer contains a vulnera...",
+      "summary": "CVE ID :CVE-2026-19633\n  \n  Published : Sept. 6, 2026, 4:16 p.m. | 18\u00a0hours, 19\u00a0minutes ago\n  \n  Description :PostgreSQL Anonymizer contains a vulnera...",
       "timestamp": 1788711409.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -105,54 +185,6 @@
       "timestamp": 1788704626.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-86259 - OpenMAIC before 1.0.1 SSRF via Environment-Gated URL Validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86259",
-      "summary": "CVE ID :CVE-2026-86259\n  \n  Published : Sept. 6, 2026, 1:17 p.m. | 16\u00a0hours, 20\u00a0minutes ago\n  \n  Description :OpenMAIC before 1.0.1 skips server-side ...",
-      "timestamp": 1788700630.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86258 - nbviewer through 1.0.1 Path Traversal via LocalFileHandler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86258",
-      "summary": "CVE ID :CVE-2026-86258\n  \n  Published : Sept. 6, 2026, 1:17 p.m. | 16\u00a0hours, 20\u00a0minutes ago\n  \n  Description :nbviewer through 1.0.1 contains a path t...",
-      "timestamp": 1788700630.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86253 - h3 before 1.15.6 Path Traversal via Percent-Encoded Dot Segments",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86253",
-      "summary": "CVE ID :CVE-2026-86253\n  \n  Published : Sept. 6, 2026, 12:17 p.m. | 17\u00a0hours, 20\u00a0minutes ago\n  \n  Description :h3 (npm package) versions <= 2.0.1-rc.1...",
-      "timestamp": 1788697036.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86251 - h3 before 1.15.9 Path Traversal via Double Decoding",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86251",
-      "summary": "CVE ID :CVE-2026-86251\n  \n  Published : Sept. 6, 2026, 12:17 p.m. | 17\u00a0hours, 20\u00a0minutes ago\n  \n  Description :h3 versions before 1.15.9 contain a pat...",
-      "timestamp": 1788697035.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86250 - h3 before 2.0.1-rc.18 Denial of Service via Unbounded Chunked Cookie",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86250",
-      "summary": "CVE ID :CVE-2026-86250\n  \n  Published : Sept. 6, 2026, 12:17 p.m. | 17\u00a0hours, 20\u00a0minutes ago\n  \n  Description :h3 versions before 2.0.1-rc.18 fail to ...",
-      "timestamp": 1788697035.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86242 - Unauthenticated RCE via Custom Plugin HTTP Path on Dynamically Linked Builds",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86242",
-      "summary": "CVE ID :CVE-2026-86242\n  \n  Published : Sept. 6, 2026, 12:17 p.m. | 17\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Bifrost HTTP transport before 2.0.0 acc...",
-      "timestamp": 1788697035.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
@@ -191,38 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
       "summary": "Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerability intellig...",
       "timestamp": 1788535559.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft says some users can\u2019t open the Teams desktop client",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
-      "summary": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows syste...",
-      "timestamp": 1788532215.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "39 New Methods That Compromise Passkey Authentication",
-      "link": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
-      "summary": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token ex...",
-      "timestamp": 1788530471.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
-      "link": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
-      "summary": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" that lets ...",
-      "timestamp": 1788528121.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Exchange Online outage causes email delays, 'Server busy' errors",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/",
-      "summary": "Microsoft is working to resolve an ongoing Exchange Online outage that is delaying email sent to and received from external domains. [...]",
-      "timestamp": 1788524550.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -283,5 +283,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1788761069.338573
+  "last_updated": 1788783808.9752674
 }
