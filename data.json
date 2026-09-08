@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 9,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,14 +24,14 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 9,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 5,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,7 +45,7 @@
     {
       "source": "Ivanti Security",
       "vendor": "Ivanti",
-      "new_count": 10,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,12 +59,124 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-26084 - Fortinet FortiSandbox Improper Access Control Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-26084",
-      "summary": "CVE ID :CVE-2026-26084\n  \n  Published : Sept. 8, 2026, 4:41 p.m. | 18\u00a0minutes ago\n  \n  Description :A improper access control vulnerability in Fortine...",
-      "timestamp": 1788885707.0,
+      "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/",
+      "summary": "A Linux rootkit targeting devices in F5 BIG-IP APM environments can intercept PHP file loading and inject a fileless web shell directly into memory, a...",
+      "timestamp": 1788898135.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the&nbsp;Cisco IOS XR Software engineering team has conducted a compr...",
+      "timestamp": 1788895197.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Microsoft releases Windows 10 KB5122878 extended security update",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/",
+      "summary": "Microsoft has released the Windows 10 KB5122878 extended security update, which includes this month's record-breaking September 2026 Patch Tuesday fix...",
+      "timestamp": 1788893359.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-85877 - Windows Print Spooler Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85877",
+      "summary": "CVE ID :CVE-2026-85877\n  \n  Published : Sept. 8, 2026, 6:21 p.m. | 9\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Windows Print Spooler...",
+      "timestamp": 1788891673.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-83998 - Remote Desktop Client Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83998",
+      "summary": "CVE ID :CVE-2026-83998\n  \n  Published : Sept. 8, 2026, 6:21 p.m. | 10\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Remote Desktop Clien...",
+      "timestamp": 1788891670.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-83997 - Windows Message Queuing Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83997",
+      "summary": "CVE ID :CVE-2026-83997\n  \n  Published : Sept. 8, 2026, 6:21 p.m. | 10\u00a0minutes ago\n  \n  Description :Use after free in Windows Message Queuing allows a...",
+      "timestamp": 1788891670.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-83996 - Windows Error Reporting Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83996",
+      "summary": "CVE ID :CVE-2026-83996\n  \n  Published : Sept. 8, 2026, 6:21 p.m. | 10\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Windows Error Report...",
+      "timestamp": 1788891670.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-83992 - Windows Imaging Component Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83992",
+      "summary": "CVE ID :CVE-2026-83992\n  \n  Published : Sept. 8, 2026, 6:21 p.m. | 10\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Windows Imaging Comp...",
+      "timestamp": 1788891669.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-83948 - Microsoft Azure CLI Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83948",
+      "summary": "CVE ID :CVE-2026-83948\n  \n  Published : Sept. 8, 2026, 6:21 p.m. | 10\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements used i...",
+      "timestamp": 1788891665.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-83941 - Entra ID Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83941",
+      "summary": "CVE ID :CVE-2026-83941\n  \n  Published : Sept. 8, 2026, 6:21 p.m. | 10\u00a0minutes ago\n  \n  Description :Missing authorization in Entra ID allows an author...",
+      "timestamp": 1788891664.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-83939 - Windows Secure Kernel Mode Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83939",
+      "summary": "CVE ID :CVE-2026-83939\n  \n  Published : Sept. 8, 2026, 6:21 p.m. | 10\u00a0minutes ago\n  \n  Description :Untrusted pointer dereference in Windows Secure Ke...",
+      "timestamp": 1788891664.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-81955 - Windows Graphics Component Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81955",
+      "summary": "CVE ID :CVE-2026-81955\n  \n  Published : Sept. 8, 2026, 6:20 p.m. | 10\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Microsoft Graphics C...",
+      "timestamp": 1788891659.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-81952 - Microsoft Word Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81952",
+      "summary": "CVE ID :CVE-2026-81952\n  \n  Published : Sept. 8, 2026, 6:20 p.m. | 10\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Microsoft Office Wor...",
+      "timestamp": 1788891658.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/",
+      "summary": "Today is Microsoft's September 2026 Patch Tuesday, with security updates released for a record-breaking 966 flaws, including two actively exploited ze...",
+      "timestamp": 1788891485.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Windows 11 cumulative updates KB5124008 & KB5122880 released",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5124008-and-kb5122880-released/",
+      "summary": "Microsoft has released Windows 11\u00a0KB5124008\u00a0and\u00a0KB5122880 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, an...",
+      "timestamp": 1788890223.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
@@ -81,78 +193,6 @@
       "timestamp": 1788884922.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-86738 - Snipe-IT before 8.7.0 CSS Injection via Custom CSS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86738",
-      "summary": "CVE ID :CVE-2026-86738\n  \n  Published : Sept. 8, 2026, 4:18 p.m. | 41\u00a0minutes ago\n  \n  Description :Snipe-IT versions before 8.7.0 contain a CSS injec...",
-      "timestamp": 1788884316.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86733 - Snipe-IT before 8.7.0 Remote Code Execution via Backup Restore",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86733",
-      "summary": "CVE ID :CVE-2026-86733\n  \n  Published : Sept. 8, 2026, 4:18 p.m. | 41\u00a0minutes ago\n  \n  Description :Snipe-IT before 8.7.0 streams the SQL entry from a...",
-      "timestamp": 1788884315.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86732 - Craft CMS before 5.10.12 Remote Code Execution via element-index",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86732",
-      "summary": "CVE ID :CVE-2026-86732\n  \n  Published : Sept. 8, 2026, 4:18 p.m. | 41\u00a0minutes ago\n  \n  Description :Craft CMS versions before 5.10.12 contain a remote...",
-      "timestamp": 1788884315.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86730 - Craft CMS 5.0.0-RC1 before 5.10.12 Behavior Injection RCE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86730",
-      "summary": "CVE ID :CVE-2026-86730\n  \n  Published : Sept. 8, 2026, 4:18 p.m. | 41\u00a0minutes ago\n  \n  Description :Craft CMS versions before 5.10.12 fail to properly...",
-      "timestamp": 1788884314.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86729 - WWBN AVideo Unrestricted Authentication Attempts via get_api_preauthorize",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86729",
-      "summary": "CVE ID :CVE-2026-86729\n  \n  Published : Sept. 8, 2026, 4:18 p.m. | 41\u00a0minutes ago\n  \n  Description :WWBN AVideo through commit e01e41ecc (no patched v...",
-      "timestamp": 1788884314.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86728 - AVideo through 29.0 Unauthenticated Disclosure via epg.json.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86728",
-      "summary": "CVE ID :CVE-2026-86728\n  \n  Published : Sept. 8, 2026, 4:18 p.m. | 41\u00a0minutes ago\n  \n  Description :AVideo through 29.0 contains an authentication byp...",
-      "timestamp": 1788884313.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86727 - AVideo through 29.0 Information Disclosure via stats.json.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86727",
-      "summary": "CVE ID :CVE-2026-86727\n  \n  Published : Sept. 8, 2026, 4:18 p.m. | 41\u00a0minutes ago\n  \n  Description :AVideo through 29.0 contains an information disclo...",
-      "timestamp": 1788884313.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86723 - AVideo LoginControl PGP Authentication Bypass via verifyChallenge",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86723",
-      "summary": "CVE ID :CVE-2026-86723\n  \n  Published : Sept. 8, 2026, 4:18 p.m. | 41\u00a0minutes ago\n  \n  Description :AVideo through c3edcc274c389816d434acadac07ee78eaf...",
-      "timestamp": 1788884312.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86722 - AVideo Authentication Bypass via SQL Cache Invalidation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86722",
-      "summary": "CVE ID :CVE-2026-86722\n  \n  Published : Sept. 8, 2026, 4:18 p.m. | 41\u00a0minutes ago\n  \n  Description :AVideo through commit c3edcc274c389816d434acadac07...",
-      "timestamp": 1788884312.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco UCS and UCS-Based Appliances UEFI Shell Secure Boot Bypass Vulnerability",
@@ -203,50 +243,10 @@
       "vendor": "News"
     },
     {
-      "title": "Webinar: The forgotten Google Workspace access that can lead to a breach",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/",
-      "summary": "Third-party applications connected to Google Workspace can retain access long after their original purpose is forgotten. This webinar examines how ove...",
-      "timestamp": 1788871248.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers build AI frameworks for widescale credential theft",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/",
-      "summary": "Threat actors are increasingly switching from AI-powered coding assistants to multi-agent frameworks that automate every stage of an attack. [...]",
-      "timestamp": 1788868983.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft: Windows Server 2025 changes causing app crashes",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2025-changes-may-cause-app-crashes/",
-      "summary": "Microsoft warned customers last week that they may experience application crashes on some Windows Server 2025 due to recent memory management changes....",
-      "timestamp": 1788868671.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Secure Email Secure/Multipurpose Internet Mail Extensions Ciphertext Decryption Vulnerabilities",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-smime-disc-dzw4rEdY?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Secure/Multipurpose%20Internet%20Mail%20Extensions%20Ciphertext%20Decryption%20Vulnerabilities%26vs_k=1",
       "summary": "Multiple vulnerabilities in the Secure/Multipurpose Internet Mail Extensions (S/MIME) decryption functionality of Cisco Secure Email could allow an un...",
       "timestamp": 1788866537.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "220 million traveler records exposed in Vietnam-linked APIS leak",
-      "link": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
-      "summary": "Exclusive: An exposed Advance Passenger Information System (APIS) database held 220 million passenger and crew records containing names, passport numb...",
-      "timestamp": 1788852950.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehens...",
-      "timestamp": 1788548243.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
     },
@@ -291,5 +291,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1788888850.440724
+  "last_updated": 1788898631.0965533
 }
