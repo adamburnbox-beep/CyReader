@@ -24,14 +24,14 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 10,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 4,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,56 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
+      "summary": "Cisco has confirmed that a maximum-severity authentication bypass vulnerability tracked as CVE-2026-20079 in its Secure Firewall Management Center (FM...",
+      "timestamp": 1788990044.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
+      "summary": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attributed to th...",
+      "timestamp": 1788989436.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
+      "link": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
+      "summary": "The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairing requests...",
+      "timestamp": 1788987734.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-87911 - Read-only enforcement bypass enabling operating system command execution in the SQL validation component of Amazon awslabs postgres-mcp-server",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87911",
+      "summary": "CVE ID :CVE-2026-87911\n  \n  Published : Sept. 9, 2026, 8:21 p.m. | 31\u00a0minutes ago\n  \n  Description :An OS command injection weakness in the read-only ...",
+      "timestamp": 1788985262.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-79322 - Mageplaza Blog for Magento SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79322",
+      "summary": "CVE ID :CVE-2026-79322\n  \n  Published : Sept. 9, 2026, 7:17 p.m. | 1\u00a0hour, 34\u00a0minutes ago\n  \n  Description :SQL injection in the RelatedProduct block ...",
+      "timestamp": 1788981467.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-54694 - NationalSecurityAgency/skills-service has Stored XSS via User Registration Enabling Admin Account Takeover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54694",
-      "summary": "CVE ID :CVE-2026-54694\n  \n  Published : Sept. 9, 2026, 7:17 p.m. | 13\u00a0minutes ago\n  \n  Description :SkillTree is a micro-learning gamification platfor...",
+      "summary": "CVE ID :CVE-2026-54694\n  \n  Published : Sept. 9, 2026, 7:17 p.m. | 1\u00a0hour, 34\u00a0minutes ago\n  \n  Description :SkillTree is a micro-learning gamification...",
       "timestamp": 1788981448.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +109,7 @@
     {
       "title": "CVE-2026-8044 - [Product/Vendor Name] Argument Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8044",
-      "summary": "CVE ID :CVE-2026-8044\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :CWE-88: Improper Neutralization of Argumen...",
+      "summary": "CVE ID :CVE-2026-8044\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :CWE-88: Improper Neutralization of Argumen...",
       "timestamp": 1788974274.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +117,7 @@
     {
       "title": "CVE-2026-87930 - MaxSite CMS through 109.6 PHP Object Injection via ci_session",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-87930",
-      "summary": "CVE ID :CVE-2026-87930\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :MaxSite CMS through 109.6 passes the ci_s...",
+      "summary": "CVE ID :CVE-2026-87930\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :MaxSite CMS through 109.6 passes the ci_s...",
       "timestamp": 1788974273.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +125,7 @@
     {
       "title": "CVE-2026-87929 - MaxSite CMS through 109.6 Authentication Bypass via Hardcoded Encryption Key",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-87929",
-      "summary": "CVE ID :CVE-2026-87929\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :MaxSite CMS through 109.6 ships with a ha...",
+      "summary": "CVE ID :CVE-2026-87929\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :MaxSite CMS through 109.6 ships with a ha...",
       "timestamp": 1788974273.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +133,7 @@
     {
       "title": "CVE-2026-87927 - MaxSite CMS through 109.6 Local File Inclusion via ajax dispatcher",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-87927",
-      "summary": "CVE ID :CVE-2026-87927\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :MaxSite CMS through 109.6 contains a loca...",
+      "summary": "CVE ID :CVE-2026-87927\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :MaxSite CMS through 109.6 contains a loca...",
       "timestamp": 1788974273.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +141,7 @@
     {
       "title": "CVE-2026-87874 - Community.general: community.general: memcached cache plugin deserializes untrusted pickle data from memcached, enabling cache-poisoning remote code execution on the ansible controller",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-87874",
-      "summary": "CVE ID :CVE-2026-87874\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 2\u00a0hours, 12\u00a0minutes ago\n  \n  Description :A flaw was found in the memcached cache p...",
+      "summary": "CVE ID :CVE-2026-87874\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :A flaw was found in the memcached cache p...",
       "timestamp": 1788974273.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +149,7 @@
     {
       "title": "CVE-2026-77120 - OS Command Injection in Operating System Console",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-77120",
-      "summary": "CVE ID :CVE-2026-77120\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :CWE-78: Improper Neutralization of Specia...",
+      "summary": "CVE ID :CVE-2026-77120\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :CWE-78: Improper Neutralization of Specia...",
       "timestamp": 1788974261.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,24 +157,8 @@
     {
       "title": "CVE-2026-47156 - MantisBT: SOAP API Authentication Bypass with Privilege Escalation to Administrator",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-47156",
-      "summary": "CVE ID :CVE-2026-47156\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :MantisBT is an open source bug tracker. V...",
+      "summary": "CVE ID :CVE-2026-47156\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :MantisBT is an open source bug tracker. V...",
       "timestamp": 1788974241.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19233 - Server-Side Request Forgery in Web Server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19233",
-      "summary": "CVE ID :CVE-2026-19233\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :CWE-918: Server-Side Request Forgery (SSR...",
-      "timestamp": 1788974237.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18147 - Freeipa: ipa: freeipa/idm: cross-site scripting vulnerability allows arbitrary code execution via crafted url",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18147",
-      "summary": "CVE ID :CVE-2026-18147\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :A flaw was found in FreeIPA. An unauthent...",
-      "timestamp": 1788974237.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -163,22 +187,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0302 Checkov by Prisma Cloud: OS Command Injection Vulnerability (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0302",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0308 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0308",
       "summary": "",
@@ -187,24 +195,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0303 Checkov by Prisma Cloud: Code Execution via Auto-Loaded Configuration File (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0303",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0306 Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0306",
+      "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -219,6 +211,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0306 Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0306",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "PAN-SA-2026-0012 Chromium: Monthly Vulnerability Update (September 2026) (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0012",
       "summary": "",
@@ -227,16 +227,40 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
+      "title": "CVE-2026-0302 Checkov by Prisma Cloud: OS Command Injection Vulnerability (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0302",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
+      "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0303 Checkov by Prisma Cloud: Code Execution via Auto-Loaded Configuration File (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0303",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -299,35 +323,11 @@
       "vendor": "News"
     },
     {
-      "title": "Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/",
-      "summary": "Microsoft is adding new age-awareness APIs to Windows 11 that will allow apps to determine whether someone is a child, teenager, or adult without expo...",
-      "timestamp": 1788916587.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Microsoft Plugs Nearly 1,000 Security Holes",
       "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
       "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest singl...",
       "timestamp": 1788903862.0,
       "source": "Krebs on Security",
-      "vendor": "News"
-    },
-    {
-      "title": "DoppelCart fraud network uses 119,000 fake shops to steal credit cards",
-      "link": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/",
-      "summary": "A massive operation dubbed \"DoppelCart\" uses more than 119,000 domains to run a network of fake e-shops that steal payment card details. [...]",
-      "timestamp": 1788899714.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
-      "link": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/",
-      "summary": "The EU Cyber Resilience Act's vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours to report a...",
-      "timestamp": 1788899056.0,
-      "source": "BleepingComputer",
       "vendor": "News"
     },
     {
@@ -387,5 +387,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1788982248.8926482
+  "last_updated": 1788991166.4214563
 }
