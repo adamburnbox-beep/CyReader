@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 7,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,59 +52,131 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-53939 - OpenIDC/cjose uses all-zero Content Encryption Key for AES-CBC-HMAC JWE encryption",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53939",
-      "summary": "CVE ID :CVE-2026-53939\n  \n  Published : Sept. 9, 2026, 12:17 a.m. | 48\u00a0minutes ago\n  \n  Description :OpenIDC/cjose is a C library implementing the Jav...",
-      "timestamp": 1788913051.0,
+      "title": "CVE-2026-87819 - GitPython before 3.1.60 Denial of Service via ReDoS",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87819",
+      "summary": "CVE ID :CVE-2026-87819\n  \n  Published : Sept. 9, 2026, 11:21 a.m. | 16\u00a0minutes ago\n  \n  Description :GitPython before 3.1.60 contains a regular expres...",
+      "timestamp": 1788952865.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-53938 - OpenIDC/cjose has a heap buffer overflow in AES Key Wrap decryption (A128KW/A192KW/A256KW)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53938",
-      "summary": "CVE ID :CVE-2026-53938\n  \n  Published : Sept. 9, 2026, 12:17 a.m. | 48\u00a0minutes ago\n  \n  Description :OpenIDC/cjose is a C library implementing the Jav...",
-      "timestamp": 1788913051.0,
+      "title": "CVE-2026-87817 - GitPython before 3.1.60 Remote Code Execution via Git Directory Impersonation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87817",
+      "summary": "CVE ID :CVE-2026-87817\n  \n  Published : Sept. 9, 2026, 11:21 a.m. | 16\u00a0minutes ago\n  \n  Description :GitPython before 3.1.60 fails to properly validat...",
+      "timestamp": 1788952864.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-55250 - Maravel-Framework Token Replay Vulnerability via Premature JWT Blacklist Eviction in Tagged Caches",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55250",
-      "summary": "CVE ID :CVE-2026-55250\n  \n  Published : Sept. 8, 2026, 11:17 p.m. | 1\u00a0hour, 48\u00a0minutes ago\n  \n  Description :Maravel, a PHP framework oriented towards...",
-      "timestamp": 1788909445.0,
+      "title": "CVE-2026-87816 - PasswordPusher before 2.11.1 Race Condition View Limit Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87816",
+      "summary": "CVE ID :CVE-2026-87816\n  \n  Published : Sept. 9, 2026, 11:21 a.m. | 16\u00a0minutes ago\n  \n  Description :PasswordPusher before 2.11.1 contains a time-of-c...",
+      "timestamp": 1788952863.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-53581 - ntp: write path traversal",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53581",
-      "summary": "CVE ID :CVE-2026-53581\n  \n  Published : Sept. 8, 2026, 11:17 p.m. | 1\u00a0hour, 48\u00a0minutes ago\n  \n  Description :OPNsense is a FreeBSD based firewall and ...",
-      "timestamp": 1788909444.0,
+      "title": "CVE-2026-87815 - SiYuan before v3.8.2 Path Traversal via removeRiffDeck",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87815",
+      "summary": "CVE ID :CVE-2026-87815\n  \n  Published : Sept. 9, 2026, 11:21 a.m. | 16\u00a0minutes ago\n  \n  Description :SiYuan versions before v3.8.2 contain a path trav...",
+      "timestamp": 1788952862.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-86076 - n8n: Expression Sandbox Escape in Editor-UI Enables Stored Cross-User JavaScript Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86076",
-      "summary": "CVE ID :CVE-2026-86076\n  \n  Published : Sept. 8, 2026, 10:19 p.m. | 2\u00a0hours, 46\u00a0minutes ago\n  \n  Description :n8n is an open source workflow automatio...",
-      "timestamp": 1788905956.0,
+      "title": "CVE-2026-87814 - SiYuan before v3.8.2 Stored XSS via Asset Preview",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87814",
+      "summary": "CVE ID :CVE-2026-87814\n  \n  Published : Sept. 9, 2026, 11:21 a.m. | 16\u00a0minutes ago\n  \n  Description :SiYuan before v3.8.2 contains a stored cross-site...",
+      "timestamp": 1788952861.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-86075 - n8n: Unauthenticated Persistent Storage Exhaustion via OAuth Dynamic Client Registration Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86075",
-      "summary": "CVE ID :CVE-2026-86075\n  \n  Published : Sept. 8, 2026, 10:19 p.m. | 2\u00a0hours, 46\u00a0minutes ago\n  \n  Description :n8n is an open source workflow automatio...",
-      "timestamp": 1788905956.0,
+      "title": "CVE-2026-87813 - SiYuan before v3.8.2 Stored XSS via unescaped asset filenames",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87813",
+      "summary": "CVE ID :CVE-2026-87813\n  \n  Published : Sept. 9, 2026, 11:21 a.m. | 16\u00a0minutes ago\n  \n  Description :SiYuan before v3.8.2 contains a stored cross-site...",
+      "timestamp": 1788952861.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-87811 - SiYuan before v3.8.2 Stored XSS via notebook template paths",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87811",
+      "summary": "CVE ID :CVE-2026-87811\n  \n  Published : Sept. 9, 2026, 11:20 a.m. | 16\u00a0minutes ago\n  \n  Description :SiYuan before v3.8.2 inserts persisted notebook t...",
+      "timestamp": 1788952859.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-87808 - SiYuan before v3.8.2 Read-Only Boundary Bypass via fullTextSearchBlock",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87808",
+      "summary": "CVE ID :CVE-2026-87808\n  \n  Published : Sept. 9, 2026, 11:20 a.m. | 16\u00a0minutes ago\n  \n  Description :SiYuan versions <= 3.8.1 contain an incomplete fi...",
+      "timestamp": 1788952857.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-87807 - siyuan before v3.8.2 SQL Injection via fullTextSearchBlock",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87807",
+      "summary": "CVE ID :CVE-2026-87807\n  \n  Published : Sept. 9, 2026, 11:20 a.m. | 16\u00a0minutes ago\n  \n  Description :siyuan versions before v3.8.2 contain an authenti...",
+      "timestamp": 1788952856.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-87806 - Parse Server 9.0.0 Authentication Bypass via LDAP Empty Password",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87806",
+      "summary": "CVE ID :CVE-2026-87806\n  \n  Published : Sept. 9, 2026, 11:20 a.m. | 16\u00a0minutes ago\n  \n  Description :Parse Server versions = 9.0.0 < 9.10.1-alpha.7 co...",
+      "timestamp": 1788952856.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/",
+      "summary": "Over 36,000 Plex Media servers exposed online remain unpatched against multiple security vulnerabilities and are vulnerable to attacks. [...]",
+      "timestamp": 1788948689.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Man gets 15 years for extorting women with AI-generated porn videos",
+      "link": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
+      "summary": "An Ohio man was sentenced to 15 years in prison for multiple cybercrimes, including sextortion and cyberstalking of numerous victims using AI-generate...",
+      "timestamp": 1788943462.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
+      "link": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
+      "summary": "An anonymous\u00a0security researcher known as Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldCrash\" right after Mic...",
+      "timestamp": 1788939015.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Google warns of new Chrome zero-day bug exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
+      "summary": "Google has patched 230 vulnerabilities on Tuesday, including another actively exploited Chrome zero-day bug, the seventh such vulnerability patched si...",
+      "timestamp": 1788935148.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/",
+      "summary": "Microsoft is adding new age-awareness APIs to Windows 11 that will allow apps to determine whether someone is a child, teenager, or adult without expo...",
+      "timestamp": 1788916587.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Microsoft Plugs Nearly 1,000 Security Holes",
@@ -113,38 +185,6 @@
       "timestamp": 1788903862.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-86819 - Waves Central local privilege escalation via Improper XPC Client Authentication in macOS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86819",
-      "summary": "CVE ID :CVE-2026-86819\n  \n  Published : Sept. 8, 2026, 9:18 p.m. | 3\u00a0hours, 47\u00a0minutes ago\n  \n  Description :Waves Central for macOS contains a local ...",
-      "timestamp": 1788902327.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85982 - Stored Cross-Site Scripting (XSS) in Auth0 AD/LDAP Connector",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85982",
-      "summary": "CVE ID :CVE-2026-85982\n  \n  Published : Sept. 8, 2026, 9:18 p.m. | 3\u00a0hours, 47\u00a0minutes ago\n  \n  Description :The Auth0 AD/LDAP Connector is vulnerable...",
-      "timestamp": 1788902327.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-81996 - Acrobat Reader | Incorrect Authorization (CWE-863)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81996",
-      "summary": "CVE ID :CVE-2026-81996\n  \n  Published : Sept. 8, 2026, 9:18 p.m. | 3\u00a0hours, 47\u00a0minutes ago\n  \n  Description :Acrobat Reader is affected by an Incorrec...",
-      "timestamp": 1788902326.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-81994 - Acrobat Reader | Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') (CWE-1321)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81994",
-      "summary": "CVE ID :CVE-2026-81994\n  \n  Published : Sept. 8, 2026, 9:18 p.m. | 3\u00a0hours, 47\u00a0minutes ago\n  \n  Description :Acrobat Reader is affected by an Improper...",
-      "timestamp": 1788902326.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "DoppelCart fraud network uses 119,000 fake shops to steal credit cards",
@@ -195,52 +235,12 @@
       "vendor": "News"
     },
     {
-      "title": "Windows 11 cumulative updates KB5124008 & KB5122880 released",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5124008-and-kb5122880-released/",
-      "summary": "Microsoft has released Windows 11\u00a0KB5124008\u00a0and\u00a0KB5122880 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, an...",
-      "timestamp": 1788890223.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
-      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/",
-      "summary": "The ShinyHunters extortion gang claims it breached an online platform for the Florida Department of Motor Vehicles database known as \"DAVID\" and stole...",
-      "timestamp": 1788885347.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "OpenAI says ChatGPT outage causes image generation errors",
-      "link": "https://www.bleepingcomputer.com/news/technology/openai-says-chatgpt-outage-causes-image-generation-errors/",
-      "summary": "OpenAI is investigating an ongoing incident causing ChatGPT image generation failures and delays when uploading files. [...]",
-      "timestamp": 1788884922.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco UCS and UCS-Based Appliances UEFI Shell Secure Boot Bypass Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucs-uefi-sb-bypass-eb6xC5GW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20and%20UCS-Based%20Appliances%20UEFI%20Shell%20Secure%20Boot%20Bypass%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the Unified Extensible Firmware Interface (UEFI) Shell implementation of Cisco UCS Servers and UCS-based appliances could allow an ...",
       "timestamp": 1788883200.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "August updates trigger 0xc0000409 errors on Windows Server 2016",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/august-updates-trigger-0xc0000409-errors-on-windows-server-2016/",
-      "summary": "Microsoft says the August 2026 security update may trigger 0xc0000409 errors on Windows Server 2016 systems where the Compatibility Appraiser diagnost...",
-      "timestamp": 1788880953.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "SAP warns of maximum severity 'OVERPASS' kernel vulnerability",
-      "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/",
-      "summary": "SAP has addressed 20 vulnerabilities across multiple products in its September 2026 security updates, including a maximum-severity memory corruption f...",
-      "timestamp": 1788879320.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "September 2026 Security Update",
@@ -291,5 +291,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1788916563.8452353
+  "last_updated": 1788954714.66375
 }
