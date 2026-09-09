@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 8,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,48 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-53939 - OpenIDC/cjose uses all-zero Content Encryption Key for AES-CBC-HMAC JWE encryption",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53939",
+      "summary": "CVE ID :CVE-2026-53939\n  \n  Published : Sept. 9, 2026, 12:17 a.m. | 48\u00a0minutes ago\n  \n  Description :OpenIDC/cjose is a C library implementing the Jav...",
+      "timestamp": 1788913051.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53938 - OpenIDC/cjose has a heap buffer overflow in AES Key Wrap decryption (A128KW/A192KW/A256KW)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53938",
+      "summary": "CVE ID :CVE-2026-53938\n  \n  Published : Sept. 9, 2026, 12:17 a.m. | 48\u00a0minutes ago\n  \n  Description :OpenIDC/cjose is a C library implementing the Jav...",
+      "timestamp": 1788913051.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55250 - Maravel-Framework Token Replay Vulnerability via Premature JWT Blacklist Eviction in Tagged Caches",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55250",
+      "summary": "CVE ID :CVE-2026-55250\n  \n  Published : Sept. 8, 2026, 11:17 p.m. | 1\u00a0hour, 48\u00a0minutes ago\n  \n  Description :Maravel, a PHP framework oriented towards...",
+      "timestamp": 1788909445.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53581 - ntp: write path traversal",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53581",
+      "summary": "CVE ID :CVE-2026-53581\n  \n  Published : Sept. 8, 2026, 11:17 p.m. | 1\u00a0hour, 48\u00a0minutes ago\n  \n  Description :OPNsense is a FreeBSD based firewall and ...",
+      "timestamp": 1788909444.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-86076 - n8n: Expression Sandbox Escape in Editor-UI Enables Stored Cross-User JavaScript Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86076",
-      "summary": "CVE ID :CVE-2026-86076\n  \n  Published : Sept. 8, 2026, 10:19 p.m. | 32\u00a0minutes ago\n  \n  Description :n8n is an open source workflow automation platfor...",
+      "summary": "CVE ID :CVE-2026-86076\n  \n  Published : Sept. 8, 2026, 10:19 p.m. | 2\u00a0hours, 46\u00a0minutes ago\n  \n  Description :n8n is an open source workflow automatio...",
       "timestamp": 1788905956.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +101,7 @@
     {
       "title": "CVE-2026-86075 - n8n: Unauthenticated Persistent Storage Exhaustion via OAuth Dynamic Client Registration Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86075",
-      "summary": "CVE ID :CVE-2026-86075\n  \n  Published : Sept. 8, 2026, 10:19 p.m. | 32\u00a0minutes ago\n  \n  Description :n8n is an open source workflow automation platfor...",
+      "summary": "CVE ID :CVE-2026-86075\n  \n  Published : Sept. 8, 2026, 10:19 p.m. | 2\u00a0hours, 46\u00a0minutes ago\n  \n  Description :n8n is an open source workflow automatio...",
       "timestamp": 1788905956.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +117,7 @@
     {
       "title": "CVE-2026-86819 - Waves Central local privilege escalation via Improper XPC Client Authentication in macOS",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-86819",
-      "summary": "CVE ID :CVE-2026-86819\n  \n  Published : Sept. 8, 2026, 9:18 p.m. | 1\u00a0hour, 32\u00a0minutes ago\n  \n  Description :Waves Central for macOS contains a local p...",
+      "summary": "CVE ID :CVE-2026-86819\n  \n  Published : Sept. 8, 2026, 9:18 p.m. | 3\u00a0hours, 47\u00a0minutes ago\n  \n  Description :Waves Central for macOS contains a local ...",
       "timestamp": 1788902327.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +125,7 @@
     {
       "title": "CVE-2026-85982 - Stored Cross-Site Scripting (XSS) in Auth0 AD/LDAP Connector",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-85982",
-      "summary": "CVE ID :CVE-2026-85982\n  \n  Published : Sept. 8, 2026, 9:18 p.m. | 1\u00a0hour, 32\u00a0minutes ago\n  \n  Description :The Auth0 AD/LDAP Connector is vulnerable ...",
+      "summary": "CVE ID :CVE-2026-85982\n  \n  Published : Sept. 8, 2026, 9:18 p.m. | 3\u00a0hours, 47\u00a0minutes ago\n  \n  Description :The Auth0 AD/LDAP Connector is vulnerable...",
       "timestamp": 1788902327.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +133,7 @@
     {
       "title": "CVE-2026-81996 - Acrobat Reader | Incorrect Authorization (CWE-863)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-81996",
-      "summary": "CVE ID :CVE-2026-81996\n  \n  Published : Sept. 8, 2026, 9:18 p.m. | 1\u00a0hour, 32\u00a0minutes ago\n  \n  Description :Acrobat Reader is affected by an Incorrect...",
+      "summary": "CVE ID :CVE-2026-81996\n  \n  Published : Sept. 8, 2026, 9:18 p.m. | 3\u00a0hours, 47\u00a0minutes ago\n  \n  Description :Acrobat Reader is affected by an Incorrec...",
       "timestamp": 1788902326.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,16 +141,8 @@
     {
       "title": "CVE-2026-81994 - Acrobat Reader | Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') (CWE-1321)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-81994",
-      "summary": "CVE ID :CVE-2026-81994\n  \n  Published : Sept. 8, 2026, 9:18 p.m. | 1\u00a0hour, 32\u00a0minutes ago\n  \n  Description :Acrobat Reader is affected by an Improperl...",
+      "summary": "CVE ID :CVE-2026-81994\n  \n  Published : Sept. 8, 2026, 9:18 p.m. | 3\u00a0hours, 47\u00a0minutes ago\n  \n  Description :Acrobat Reader is affected by an Improper...",
       "timestamp": 1788902326.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77827 - Maono Link local privilege escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77827",
-      "summary": "CVE ID :CVE-2026-77827\n  \n  Published : Sept. 8, 2026, 9:18 p.m. | 1\u00a0hour, 32\u00a0minutes ago\n  \n  Description :Maono Link 3.8.13 MaonoAiServices Windows ...",
-      "timestamp": 1788902319.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -137,30 +161,6 @@
       "timestamp": 1788899056.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-86464 - Eclipse aeriOS Identity Manager Insecure Default Configuration and Credential Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86464",
-      "summary": "CVE ID :CVE-2026-86464\n  \n  Published : Sept. 8, 2026, 8:18 p.m. | 2\u00a0hours, 32\u00a0minutes ago\n  \n  Description :In the current development version of Ecl...",
-      "timestamp": 1788898732.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84942 - Stored Cross-Site Scripting via Vega Expression Function Bypass in OpenSearch Dashboards",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84942",
-      "summary": "CVE ID :CVE-2026-84942\n  \n  Published : Sept. 8, 2026, 8:18 p.m. | 2\u00a0hours, 32\u00a0minutes ago\n  \n  Description :Improper input validation in the Vega exp...",
-      "timestamp": 1788898731.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84869 - ScreenConnect Client: Guest-to-Host File Execution via File-Transfer Actions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84869",
-      "summary": "CVE ID :CVE-2026-84869\n  \n  Published : Sept. 8, 2026, 8:18 p.m. | 2\u00a0hours, 32\u00a0minutes ago\n  \n  Description :A condition in the ScreenConnect client m...",
-      "timestamp": 1788898731.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
@@ -289,15 +289,7 @@
       "timestamp": 1788302428.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "Two Alleged \u2018TeamPCP\u2019 Hackers Arrested in Australia",
-      "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-      "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrati...",
-      "timestamp": 1787828655.0,
-      "source": "Krebs on Security",
-      "vendor": "News"
     }
   ],
-  "last_updated": 1788908555.7686064
+  "last_updated": 1788916563.8452353
 }
