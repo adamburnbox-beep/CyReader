@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,36 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 2,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-88069 - Path traversal in Pandora archive extractor allows arbitrary file writes outside the extraction directory in pandora analysis",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88069",
+      "summary": "CVE ID :CVE-2026-88069\n  \n  Published : Sept. 9, 2026, 10:18 p.m. | 58\u00a0minutes ago\n  \n  Description :Pandora contains a path traversal vulnerability i...",
+      "timestamp": 1788992329.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-87995 - Open WebUI: Same-origin XSS to account takeover via terminal port-preview iframe hardcoding allow-same-origin",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87995",
+      "summary": "CVE ID :CVE-2026-87995\n  \n  Published : Sept. 9, 2026, 10:18 p.m. | 58\u00a0minutes ago\n  \n  Description :Open WebUI is an extensible, feature-rich, and us...",
+      "timestamp": 1788992327.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-87016 - Open WebUI: Sign-in as another user via wildcard characters in the OAuth subject claim on SQLite",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87016",
+      "summary": "CVE ID :CVE-2026-87016\n  \n  Published : Sept. 9, 2026, 10:18 p.m. | 58\u00a0minutes ago\n  \n  Description :Open WebUI is an extensible, feature-rich, and us...",
+      "timestamp": 1788992326.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
@@ -85,7 +109,7 @@
     {
       "title": "CVE-2026-87911 - Read-only enforcement bypass enabling operating system command execution in the SQL validation component of Amazon awslabs postgres-mcp-server",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-87911",
-      "summary": "CVE ID :CVE-2026-87911\n  \n  Published : Sept. 9, 2026, 8:21 p.m. | 31\u00a0minutes ago\n  \n  Description :An OS command injection weakness in the read-only ...",
+      "summary": "CVE ID :CVE-2026-87911\n  \n  Published : Sept. 9, 2026, 8:21 p.m. | 2\u00a0hours, 55\u00a0minutes ago\n  \n  Description :An OS command injection weakness in the r...",
       "timestamp": 1788985262.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +117,7 @@
     {
       "title": "CVE-2026-79322 - Mageplaza Blog for Magento SQL Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-79322",
-      "summary": "CVE ID :CVE-2026-79322\n  \n  Published : Sept. 9, 2026, 7:17 p.m. | 1\u00a0hour, 34\u00a0minutes ago\n  \n  Description :SQL injection in the RelatedProduct block ...",
+      "summary": "CVE ID :CVE-2026-79322\n  \n  Published : Sept. 9, 2026, 7:17 p.m. | 3\u00a0hours, 59\u00a0minutes ago\n  \n  Description :SQL injection in the RelatedProduct block...",
       "timestamp": 1788981467.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +125,7 @@
     {
       "title": "CVE-2026-54694 - NationalSecurityAgency/skills-service has Stored XSS via User Registration Enabling Admin Account Takeover",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-54694",
-      "summary": "CVE ID :CVE-2026-54694\n  \n  Published : Sept. 9, 2026, 7:17 p.m. | 1\u00a0hour, 34\u00a0minutes ago\n  \n  Description :SkillTree is a micro-learning gamification...",
+      "summary": "CVE ID :CVE-2026-54694\n  \n  Published : Sept. 9, 2026, 7:17 p.m. | 3\u00a0hours, 59\u00a0minutes ago\n  \n  Description :SkillTree is a micro-learning gamificatio...",
       "timestamp": 1788981448.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +133,7 @@
     {
       "title": "CVE-2026-8044 - [Product/Vendor Name] Argument Injection Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-8044",
-      "summary": "CVE ID :CVE-2026-8044\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :CWE-88: Improper Neutralization of Argumen...",
+      "summary": "CVE ID :CVE-2026-8044\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 5\u00a0hours, 58\u00a0minutes ago\n  \n  Description :CWE-88: Improper Neutralization of Argumen...",
       "timestamp": 1788974274.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +141,7 @@
     {
       "title": "CVE-2026-87930 - MaxSite CMS through 109.6 PHP Object Injection via ci_session",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-87930",
-      "summary": "CVE ID :CVE-2026-87930\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :MaxSite CMS through 109.6 passes the ci_s...",
+      "summary": "CVE ID :CVE-2026-87930\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 5\u00a0hours, 58\u00a0minutes ago\n  \n  Description :MaxSite CMS through 109.6 passes the ci_s...",
       "timestamp": 1788974273.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,7 +149,7 @@
     {
       "title": "CVE-2026-87929 - MaxSite CMS through 109.6 Authentication Bypass via Hardcoded Encryption Key",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-87929",
-      "summary": "CVE ID :CVE-2026-87929\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :MaxSite CMS through 109.6 ships with a ha...",
+      "summary": "CVE ID :CVE-2026-87929\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 5\u00a0hours, 58\u00a0minutes ago\n  \n  Description :MaxSite CMS through 109.6 ships with a ha...",
       "timestamp": 1788974273.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,32 +157,8 @@
     {
       "title": "CVE-2026-87927 - MaxSite CMS through 109.6 Local File Inclusion via ajax dispatcher",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-87927",
-      "summary": "CVE ID :CVE-2026-87927\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :MaxSite CMS through 109.6 contains a loca...",
+      "summary": "CVE ID :CVE-2026-87927\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 5\u00a0hours, 58\u00a0minutes ago\n  \n  Description :MaxSite CMS through 109.6 contains a loca...",
       "timestamp": 1788974273.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-87874 - Community.general: community.general: memcached cache plugin deserializes untrusted pickle data from memcached, enabling cache-poisoning remote code execution on the ansible controller",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87874",
-      "summary": "CVE ID :CVE-2026-87874\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :A flaw was found in the memcached cache p...",
-      "timestamp": 1788974273.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77120 - OS Command Injection in Operating System Console",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77120",
-      "summary": "CVE ID :CVE-2026-77120\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :CWE-78: Improper Neutralization of Specia...",
-      "timestamp": 1788974261.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47156 - MantisBT: SOAP API Authentication Bypass with Privilege Escalation to Administrator",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47156",
-      "summary": "CVE ID :CVE-2026-47156\n  \n  Published : Sept. 9, 2026, 5:17 p.m. | 3\u00a0hours, 34\u00a0minutes ago\n  \n  Description :MantisBT is an open source bug tracker. V...",
-      "timestamp": 1788974241.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -195,8 +195,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
+      "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -211,16 +211,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0306 Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0306",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0012 Chromium: Monthly Vulnerability Update (September 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0012",
+      "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -235,6 +227,22 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "PAN-SA-2026-0012 Chromium: Monthly Vulnerability Update (September 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0012",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
       "summary": "",
@@ -243,8 +251,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
+      "title": "CVE-2026-0306 Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0306",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -253,14 +261,6 @@
     {
       "title": "CVE-2026-0303 Checkov by Prisma Cloud: Code Execution via Auto-Loaded Configuration File (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0303",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -387,5 +387,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1788991166.4214563
+  "last_updated": 1788999003.852
 }
