@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,89 +52,105 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 7,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-18351 - Drag and Drop File Upload for Elementor Forms <= 1.6.0 - Unauthenticated Arbitrary File Upload via 'type' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18351",
-      "summary": "CVE ID :CVE-2026-18351\n  \n  Published : Sept. 10, 2026, 2:16 a.m. | 35\u00a0minutes ago\n  \n  Description :The Drag and Drop File Upload for Elementor Forms...",
-      "timestamp": 1789006594.0,
+      "title": "CVE-2026-13745 - Arbitrary Code Execution in Gemini CLI via Symlinked Environment Variables",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13745",
+      "summary": "CVE ID :CVE-2026-13745\n  \n  Published : Sept. 10, 2026, 8:33 a.m. | 19\u00a0minutes ago\n  \n  Description :A vulnerability in the Gemini CLI and associated ...",
+      "timestamp": 1789029189.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-88285 - GV-LPC2011/LPC2211 - Unauthenticated PTZ Control Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88285",
+      "summary": "CVE ID :CVE-2026-88285\n  \n  Published : Sept. 10, 2026, 8:24 a.m. | 28\u00a0minutes ago\n  \n  Description :GeoVision GV-LPC2211 V1.13 exposes a network-acce...",
+      "timestamp": 1789028655.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-88278 - GV-LPCLPC2011/2211 - ONVIF WS-Security PasswordDigest Replay",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88278",
+      "summary": "CVE ID :CVE-2026-88278\n  \n  Published : Sept. 10, 2026, 8:21 a.m. | 30\u00a0minutes ago\n  \n  Description :GeoVision GV-LPC2211 V1.13 fails to enforce WS-Se...",
+      "timestamp": 1789028518.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-88277 - GV-LPCLPC2011/2211 - ONVIF Subscribe Address Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88277",
+      "summary": "CVE ID :CVE-2026-88277\n  \n  Published : Sept. 10, 2026, 8:21 a.m. | 30\u00a0minutes ago\n  \n  Description :GeoVision GV-LPC2211 V1.13 allows an authenticate...",
+      "timestamp": 1789028503.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-44950 - fs_read_glyphs() heap buffer overflow via cumulative glyph data overflow in libXfont2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44950",
+      "summary": "CVE ID :CVE-2026-44950\n  \n  Published : Sept. 10, 2026, 8:19 a.m. | 32\u00a0minutes ago\n  \n  Description :fs_read_glyphs() in the libXfont2 font-server cli...",
+      "timestamp": 1789028395.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-88271 - GV-LPC2011/LPC2211 - SSVR Guest Configuration Overwrite and Administrative Credential Takeover",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88271",
+      "summary": "CVE ID :CVE-2026-88271\n  \n  Published : Sept. 10, 2026, 8:19 a.m. | 32\u00a0minutes ago\n  \n  Description :GeoVision GV-LPC2211 V1.13 allows a Guest user to...",
+      "timestamp": 1789028370.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-7188 - SQLi in Armiya Information Technologies' Access Control System",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7188",
+      "summary": "CVE ID :CVE-2026-7188\n  \n  Published : Sept. 10, 2026, 8:16 a.m. | 35\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements used i...",
+      "timestamp": 1789028217.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-59679 - fs_read_glyphs() heap OOB read/write via encoding array index mismatch in libXfont2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59679",
+      "summary": "CVE ID :CVE-2026-59679\n  \n  Published : Sept. 10, 2026, 8:15 a.m. | 37\u00a0minutes ago\n  \n  Description :fs_read_glyphs() in the libXfont2 font-server cli...",
+      "timestamp": 1789028124.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft fixes bug that wiped Windows desktop settings",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-wiped-windows-desktop-settings/",
+      "summary": "Microsoft says the September 2026 Patch Tuesday updates fix a known issue causing desktop settings to be lost or reset on some Windows devices. [...]",
+      "timestamp": 1789027696.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Trezor warns users of email provider breach, phishing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/",
+      "summary": "Trezor warned customers on Wednesday that threat actors who breached its third-party email provider are targeting them in phishing attacks. [...]",
+      "timestamp": 1789023393.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-14873 - Bulk Password Reset <= 1.3.3 - Authenticated (Subscriber+) Arbitrary Password Reset",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14873",
+      "summary": "CVE ID :CVE-2026-14873\n  \n  Published : Sept. 10, 2026, 4:17 a.m. | 4\u00a0hours, 34\u00a0minutes ago\n  \n  Description :The Bulk Password Reset plugin for WordP...",
+      "timestamp": 1789013865.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-84063 - BurgerEditor Unrestricted File Upload Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84063",
-      "summary": "CVE ID :CVE-2026-84063\n  \n  Published : Sept. 10, 2026, 2:15 a.m. | 36\u00a0minutes ago\n  \n  Description :BurgerEditor 3.2.0 through 3.4.0 contains an issu...",
-      "timestamp": 1789006536.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-87931 - Behavioral Technology Group Pavlok Behavioral Conditioning Wearable Apple Notification Center Service Event buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87931",
-      "summary": "CVE ID :CVE-2026-87931\n  \n  Published : Sept. 10, 2026, 12:17 a.m. | 2\u00a0hours, 34\u00a0minutes ago\n  \n  Description :A vulnerability has been found in Behav...",
-      "timestamp": 1788999444.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59185 - Identrail GitHub App Installation ID Authorization Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59185",
-      "summary": "CVE ID :CVE-2026-59185\n  \n  Published : Sept. 9, 2026, 11:52 p.m. | 3\u00a0hours ago\n  \n  Description :## Summary\n\nidentrail's GitHub App connection-comple...",
-      "timestamp": 1788997934.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59179 - OpenHop Path Traversal Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59179",
-      "summary": "CVE ID :CVE-2026-59179\n  \n  Published : Sept. 9, 2026, 11:51 p.m. | 3\u00a0hours ago\n  \n  Description :## Path Traversal in Flow ID File Operations\n\n### Su...",
-      "timestamp": 1788997919.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59177 - ESPHome Authentication Bypass via Insecure Network Binding",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59177",
-      "summary": "CVE ID :CVE-2026-59177\n  \n  Published : Sept. 9, 2026, 11:51 p.m. | 3\u00a0hours ago\n  \n  Description :## Summary\n\nOn the Home Assistant add-on, the dashbo...",
-      "timestamp": 1788997885.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59160 - @yeger/turbo-graph Unauthenticated Remote Task Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59160",
-      "summary": "CVE ID :CVE-2026-59160\n  \n  Published : Sept. 9, 2026, 11:47 p.m. | 3\u00a0hours, 4\u00a0minutes ago\n  \n  Description :## Unauthenticated Network-Exposed Turbor...",
-      "timestamp": 1788997675.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-88069 - Path traversal in Pandora archive extractor allows arbitrary file writes outside the extraction directory in pandora analysis",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88069",
-      "summary": "CVE ID :CVE-2026-88069\n  \n  Published : Sept. 9, 2026, 10:18 p.m. | 4\u00a0hours, 33\u00a0minutes ago\n  \n  Description :Pandora contains a path traversal vulner...",
-      "timestamp": 1788992329.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-87995 - Open WebUI: Same-origin XSS to account takeover via terminal port-preview iframe hardcoding allow-same-origin",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87995",
-      "summary": "CVE ID :CVE-2026-87995\n  \n  Published : Sept. 9, 2026, 10:18 p.m. | 4\u00a0hours, 33\u00a0minutes ago\n  \n  Description :Open WebUI is an extensible, feature-ric...",
-      "timestamp": 1788992327.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-87016 - Open WebUI: Sign-in as another user via wildcard characters in the OAuth subject claim on SQLite",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87016",
-      "summary": "CVE ID :CVE-2026-87016\n  \n  Published : Sept. 9, 2026, 10:18 p.m. | 4\u00a0hours, 33\u00a0minutes ago\n  \n  Description :Open WebUI is an extensible, feature-ric...",
-      "timestamp": 1788992326.0,
+      "summary": "CVE ID :CVE-2026-84063\n  \n  Published : Sept. 10, 2026, 3:17 a.m. | 5\u00a0hours, 35\u00a0minutes ago\n  \n  Description :BurgerEditor 3.2.0 through 3.4.0 contain...",
+      "timestamp": 1789010220.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -195,16 +211,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0309 PAN-OS: Authenticated Command Injection in CLI with Luna HSM Configuration (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0309",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0306 Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0306",
+      "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -219,8 +227,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0303 Checkov by Prisma Cloud: Code Execution via Auto-Loaded Configuration File (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0303",
+      "title": "CVE-2026-0309 PAN-OS: Authenticated Command Injection in CLI with Luna HSM Configuration (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0309",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -235,14 +243,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "PAN-SA-2026-0012 Chromium: Monthly Vulnerability Update (September 2026) (Severity: HIGH)",
       "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0012",
       "summary": "",
@@ -251,16 +251,32 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
+      "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
+      "title": "CVE-2026-0306 Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0306",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0303 Checkov by Prisma Cloud: Code Execution via Auto-Loaded Configuration File (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0303",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -303,22 +319,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
       "summary": "An Ohio man was sentenced to 15 years in prison for multiple cybercrimes, including sextortion and cyberstalking of numerous victims using AI-generate...",
       "timestamp": 1788943462.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
-      "link": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
-      "summary": "An anonymous\u00a0security researcher known as Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldCrash\" right after Mic...",
-      "timestamp": 1788939015.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Google warns of new Chrome zero-day bug exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
-      "summary": "Google has patched 230 vulnerabilities on Tuesday, including another actively exploited Chrome zero-day bug, the seventh such vulnerability patched si...",
-      "timestamp": 1788935148.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -387,5 +387,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1789014817.3247917
+  "last_updated": 1789031511.2970235
 }
