@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,27 +52,139 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 5,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-9163 - SQLi in GIS Informatics' GisLab Laboratory Management System",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-9163",
-      "summary": "CVE ID :CVE-2026-9163\n  \n  Published : Sept. 10, 2026, 12:11 p.m. | 30\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements used ...",
-      "timestamp": 1789042294.0,
+      "title": "CVE-2026-73699 - FileRun < 2026.3.0 PHP Object Injection via Perms::getPerms()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73699",
+      "summary": "CVE ID :CVE-2026-73699\n  \n  Published : Sept. 10, 2026, 4:36 p.m. | 16\u00a0minutes ago\n  \n  Description :FileRun before 2026.3.0 contains a PHP object inj...",
+      "timestamp": 1789058184.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-87962 - t-digest 3.1 through 3.3 Denial of Service via Unvalidated Length Fields in MergingDigest.fromBytes",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87962",
-      "summary": "CVE ID :CVE-2026-87962\n  \n  Published : Sept. 10, 2026, 11:17 a.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :t-digest versions 3.1 through 3.3 contai...",
-      "timestamp": 1789039027.0,
+      "title": "CVE-2026-73698 - FileRun < 2026.3.0 Authenticated SQL Injection via Groups Add Action",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73698",
+      "summary": "CVE ID :CVE-2026-73698\n  \n  Published : Sept. 10, 2026, 4:34 p.m. | 17\u00a0minutes ago\n  \n  Description :FileRun before 2026.3.0 contains a SQL injection ...",
+      "timestamp": 1789058090.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73694 - FileRun < 2026.3.0 OS Command Injection via escapeshellcmd() No-Op Redefinition",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73694",
+      "summary": "CVE ID :CVE-2026-73694\n  \n  Published : Sept. 10, 2026, 4:33 p.m. | 19\u00a0minutes ago\n  \n  Description :FileRun before 2026.3.0 contains an OS command in...",
+      "timestamp": 1789057980.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73693 - FileRun < 2026.3.0 OS Command Injection via PhotoProofSheet Handler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73693",
+      "summary": "CVE ID :CVE-2026-73693\n  \n  Published : Sept. 10, 2026, 4:31 p.m. | 21\u00a0minutes ago\n  \n  Description :FileRun before 2026.3.0 contains an OS command in...",
+      "timestamp": 1789057892.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-88959 - Anchor CMS through 0.12.7 Privilege Escalation via Missing Authorization on Admin User-Management Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88959",
+      "summary": "CVE ID :CVE-2026-88959\n  \n  Published : Sept. 10, 2026, 4:18 p.m. | 34\u00a0minutes ago\n  \n  Description :Anchor CMS through 0.12.7 fails to enforce role-b...",
+      "timestamp": 1789057092.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-88939 - knowns through 0.33.0 Authorization Bypass via project.set Bootstrap Exemption",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88939",
+      "summary": "CVE ID :CVE-2026-88939\n  \n  Published : Sept. 10, 2026, 4:18 p.m. | 34\u00a0minutes ago\n  \n  Description :knowns through 0.33.0 exempts the project.set act...",
+      "timestamp": 1789057092.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-88937 - knowns through 0.33.0 Path Traversal via Template Engine",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88937",
+      "summary": "CVE ID :CVE-2026-88937\n  \n  Published : Sept. 10, 2026, 4:18 p.m. | 34\u00a0minutes ago\n  \n  Description :knowns through 0.33.0 fails to properly validate ...",
+      "timestamp": 1789057092.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-88899 - knowns before 0.31.0 External Control of Agent Working Directory via x-opencode-directory Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88899",
+      "summary": "CVE ID :CVE-2026-88899\n  \n  Published : Sept. 10, 2026, 4:18 p.m. | 34\u00a0minutes ago\n  \n  Description :knowns versions before 0.31.0 fail to properly va...",
+      "timestamp": 1789057092.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-88018 - rclone serve s3: --auth-proxy without --auth-key authenticates nobody - full SigV4 signature bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88018",
+      "summary": "CVE ID :CVE-2026-88018\n  \n  Published : Sept. 10, 2026, 4:18 p.m. | 34\u00a0minutes ago\n  \n  Description :rclone is a command-line program to sync files an...",
+      "timestamp": 1789057088.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-88009 - Traefik: Rootless HTTP/1 request-target routes as \"/\" but is forwarded verbatim, bypassing path-scoped routing, middleware guards and access logging",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88009",
+      "summary": "CVE ID :CVE-2026-88009\n  \n  Published : Sept. 10, 2026, 4:18 p.m. | 34\u00a0minutes ago\n  \n  Description :Traefik is an open source HTTP reverse proxy and ...",
+      "timestamp": 1789057087.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
+      "link": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
+      "summary": "A threat actor, likely\u00a0Russian-speaking, used hundreds of AI agents to develop and launch a global exploitation campaign targeting vulnerable PaperCut...",
+      "timestamp": 1789055756.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
+      "summary": "Cisco Talos says two recently patched Secure Firewall Management Center (FMC) vulnerabilities have been exploited by three separate threat clusters li...",
+      "timestamp": 1789055038.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "IDScan confirms breach tied to 153 million stolen driver\u2019s licenses",
+      "link": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
+      "summary": "Identity verification company IDScan has confirmed that hackers accessed customer data stored in its cloud platform, days after reports linked the com...",
+      "timestamp": 1789052133.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+      "summary": "Multiple cyber-espionage groups deployed an exploit kit dubbed \"BlueMoon\" that leveraged zero-day vulnerabilities in Microsoft Windows and Google Chro...",
+      "timestamp": 1789049494.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
+      "link": "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/",
+      "summary": "Identity was the target in roughly half of all confirmed malicious activity. Prophet Security breaks down the four main attack patterns seen across cu...",
+      "timestamp": 1789048810.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehens...",
+      "timestamp": 1789047912.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
     },
     {
       "title": "Microsoft says September updates fix mouse settings reset issues",
@@ -81,70 +193,6 @@
       "timestamp": 1789038868.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-78302 - Joomla Extension - joomshaper.com - Unauthenticated Cross-Site Scripting (XSS) via Unescaped Output in Views and Admin Lists in SP Property < 4.1.4",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78302",
-      "summary": "CVE ID :CVE-2026-78302\n  \n  Published : Sept. 10, 2026, 10:17 a.m. | 2\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - Una...",
-      "timestamp": 1789035452.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78082 - Joomla Extension - joomshaper.com - Unauthenticated SQL Injection in Property Search and Map Filtering in SP Property < 4.1.4",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78082",
-      "summary": "CVE ID :CVE-2026-78082\n  \n  Published : Sept. 10, 2026, 10:17 a.m. | 2\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - Una...",
-      "timestamp": 1789035451.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-8323 - Open Redirect in Armiya Information Technologies' Access Control System",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-8323",
-      "summary": "CVE ID :CVE-2026-8323\n  \n  Published : Sept. 10, 2026, 9:17 a.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :URL redirection to untrusted site ('open ...",
-      "timestamp": 1789031826.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-88285 - GV-LPC2011/LPC2211 - Unauthenticated PTZ Control Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88285",
-      "summary": "CVE ID :CVE-2026-88285\n  \n  Published : Sept. 10, 2026, 9:17 a.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :GeoVision GV-LPC2211 V1.13 exposes a net...",
-      "timestamp": 1789031825.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-88278 - GV-LPCLPC2011/2211 - ONVIF WS-Security PasswordDigest Replay",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88278",
-      "summary": "CVE ID :CVE-2026-88278\n  \n  Published : Sept. 10, 2026, 9:17 a.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :GeoVision GV-LPC2211 V1.13 fails to enfo...",
-      "timestamp": 1789031824.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-88277 - GV-LPCLPC2011/2211 - ONVIF Subscribe Address Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88277",
-      "summary": "CVE ID :CVE-2026-88277\n  \n  Published : Sept. 10, 2026, 9:17 a.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :GeoVision GV-LPC2211 V1.13 allows an aut...",
-      "timestamp": 1789031824.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-88271 - GV-LPC2011/LPC2211 - SSVR Guest Configuration Overwrite and Administrative Credential Takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88271",
-      "summary": "CVE ID :CVE-2026-88271\n  \n  Published : Sept. 10, 2026, 9:17 a.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :GeoVision GV-LPC2211 V1.13 allows a Gues...",
-      "timestamp": 1789031824.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-59679 - fs_read_glyphs() heap OOB read/write via encoding array index mismatch in libXfont2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-59679",
-      "summary": "CVE ID :CVE-2026-59679\n  \n  Published : Sept. 10, 2026, 9:17 a.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :fs_read_glyphs() in the libXfont2 font-s...",
-      "timestamp": 1789031822.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
@@ -179,38 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
-      "summary": "Healthcare company AdaptHealth has confirmed that data of 4.1 million people was exposed in a cyberattack discovered in July that was attributed to th...",
-      "timestamp": 1788989436.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Skullcandy Dime 3 earbuds expose users to Bluetooth hijacking",
-      "link": "https://www.bleepingcomputer.com/news/security/skullcandy-dime-3-earbuds-expose-users-to-bluetooth-hijacking/",
-      "summary": "The Carnegie Mellon University CERT Coordination Center (CERT/CC) is warning that Skullcandy Dime 3 wireless earbuds accept Bluetooth pairing requests...",
-      "timestamp": 1788987734.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
-      "link": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
-      "summary": "U.S. cybersecurity and intelligence agencies say that six Chinese AI companies conducted industrial-scale distillation attacks on American frontier AI...",
-      "timestamp": 1788972513.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the&nbsp;Cisco IOS XR Software engineering team has conducted a compr...",
-      "timestamp": 1788971569.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypa...",
@@ -219,8 +235,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0302 Checkov by Prisma Cloud: OS Command Injection Vulnerability (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0302",
+      "title": "CVE-2026-0308 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0308",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -235,32 +251,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0308 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0308",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0303 Checkov by Prisma Cloud: Code Execution via Auto-Loaded Configuration File (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0303",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0306 Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0306",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -275,16 +267,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "PAN-SA-2026-0012 Chromium: Monthly Vulnerability Update (September 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0012",
+      "title": "CVE-2026-0302 Checkov by Prisma Cloud: OS Command Injection Vulnerability (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0302",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
+      "title": "PAN-SA-2026-0012 Chromium: Monthly Vulnerability Update (September 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0012",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -299,28 +291,36 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0306 Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0306",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0303 Checkov by Prisma Cloud: Code Execution via Auto-Loaded Configuration File (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0303",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "Cisco Advance Notification for Publication of September 16, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-jfxK98ZP?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20September%2016,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On September 16, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability informatio...",
       "timestamp": 1788969600.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
-      "link": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
-      "summary": "Healthcare technology company Veradigm disclosed a data breach after a cybersecurity incident at one of its third-party vendors exposed patients' pers...",
-      "timestamp": 1788967883.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
-      "link": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
-      "summary": "MFA makes account takeover harder, but attackers are increasingly targeting the recovery processes used to reset passwords and authentication methods....",
-      "timestamp": 1788962471.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "Microsoft Plugs Nearly 1,000 Security Holes",
@@ -387,5 +387,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1789047329.188105
+  "last_updated": 1789060341.8757226
 }
