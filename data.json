@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 5,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,82 +59,98 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-73699 - FileRun < 2026.3.0 PHP Object Injection via Perms::getPerms()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73699",
-      "summary": "CVE ID :CVE-2026-73699\n  \n  Published : Sept. 10, 2026, 4:36 p.m. | 16\u00a0minutes ago\n  \n  Description :FileRun before 2026.3.0 contains a PHP object inj...",
-      "timestamp": 1789058184.0,
+      "title": "Surfshark VPN says hackers breached internal testing, proxy servers",
+      "link": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
+      "summary": "Surfshark disclosed that hackers accessed one of its internal test servers after a configuration error exposed it to the internet. [...]",
+      "timestamp": 1789067707.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft Excel KB5002914 update breaks copy and paste for some users",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-excel-kb5002914-update-breaks-copy-and-paste-for-some-users/",
+      "summary": "Microsoft Excel users report that this week's KB5002914 Office security update is breaking copy-and-paste operations and formula dragging, with affect...",
+      "timestamp": 1789067253.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-89046 - zstd-jni 1.5.5-6 through 1.5.7-13 Out-of-Bounds Read via Negative Offset",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89046",
+      "summary": "CVE ID :CVE-2026-89046\n  \n  Published : Sept. 10, 2026, 6:18 p.m. | 34\u00a0minutes ago\n  \n  Description :zstd-jni versions 1.5.5-6 through 1.5.7-13 contai...",
+      "timestamp": 1789064296.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-73698 - FileRun < 2026.3.0 Authenticated SQL Injection via Groups Add Action",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73698",
-      "summary": "CVE ID :CVE-2026-73698\n  \n  Published : Sept. 10, 2026, 4:34 p.m. | 17\u00a0minutes ago\n  \n  Description :FileRun before 2026.3.0 contains a SQL injection ...",
-      "timestamp": 1789058090.0,
+      "title": "CVE-2026-89043 - passport-saml-encrypted through 0.1.13 XML Signature Wrapping via Assertion Prepending",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89043",
+      "summary": "CVE ID :CVE-2026-89043\n  \n  Published : Sept. 10, 2026, 6:18 p.m. | 34\u00a0minutes ago\n  \n  Description :passport-saml-encrypted through 0.1.13 contains a...",
+      "timestamp": 1789064296.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-73694 - FileRun < 2026.3.0 OS Command Injection via escapeshellcmd() No-Op Redefinition",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73694",
-      "summary": "CVE ID :CVE-2026-73694\n  \n  Published : Sept. 10, 2026, 4:33 p.m. | 19\u00a0minutes ago\n  \n  Description :FileRun before 2026.3.0 contains an OS command in...",
-      "timestamp": 1789057980.0,
+      "title": "CVE-2026-89042 - passport-saml-encrypted through 0.1.13 Authentication Bypass via Missing Signature Verification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89042",
+      "summary": "CVE ID :CVE-2026-89042\n  \n  Published : Sept. 10, 2026, 6:18 p.m. | 34\u00a0minutes ago\n  \n  Description :passport-saml-encrypted through 0.1.13 makes SAML...",
+      "timestamp": 1789064295.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-73693 - FileRun < 2026.3.0 OS Command Injection via PhotoProofSheet Handler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73693",
-      "summary": "CVE ID :CVE-2026-73693\n  \n  Published : Sept. 10, 2026, 4:31 p.m. | 21\u00a0minutes ago\n  \n  Description :FileRun before 2026.3.0 contains an OS command in...",
-      "timestamp": 1789057892.0,
+      "title": "CVE-2026-88053 - Tesseract: Heap out-of-bounds write in Classify::ReadIntTemplates via unvalidated counts in crafted .traineddata",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88053",
+      "summary": "CVE ID :CVE-2026-88053\n  \n  Published : Sept. 10, 2026, 6:18 p.m. | 34\u00a0minutes ago\n  \n  Description :Tesseract is an open source OCR engine. In versio...",
+      "timestamp": 1789064294.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-88959 - Anchor CMS through 0.12.7 Privilege Escalation via Missing Authorization on Admin User-Management Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88959",
-      "summary": "CVE ID :CVE-2026-88959\n  \n  Published : Sept. 10, 2026, 4:18 p.m. | 34\u00a0minutes ago\n  \n  Description :Anchor CMS through 0.12.7 fails to enforce role-b...",
-      "timestamp": 1789057092.0,
+      "title": "CVE-2026-88051 - Tesseract: Heap out-of-bounds write in GenericVector<T>::read due to independent reserved/size_used_ fields",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88051",
+      "summary": "CVE ID :CVE-2026-88051\n  \n  Published : Sept. 10, 2026, 6:18 p.m. | 34\u00a0minutes ago\n  \n  Description :Tesseract is an open source OCR engine. In versio...",
+      "timestamp": 1789064294.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-88939 - knowns through 0.33.0 Authorization Bypass via project.set Bootstrap Exemption",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88939",
-      "summary": "CVE ID :CVE-2026-88939\n  \n  Published : Sept. 10, 2026, 4:18 p.m. | 34\u00a0minutes ago\n  \n  Description :knowns through 0.33.0 exempts the project.set act...",
-      "timestamp": 1789057092.0,
+      "title": "CVE-2026-88031 - GridFS data deletion via query-operator injection in file IDs in the MongoDB Go Driver",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88031",
+      "summary": "CVE ID :CVE-2026-88031\n  \n  Published : Sept. 10, 2026, 6:18 p.m. | 34\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements in da...",
+      "timestamp": 1789064293.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-88937 - knowns through 0.33.0 Path Traversal via Template Engine",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88937",
-      "summary": "CVE ID :CVE-2026-88937\n  \n  Published : Sept. 10, 2026, 4:18 p.m. | 34\u00a0minutes ago\n  \n  Description :knowns through 0.33.0 fails to properly validate ...",
-      "timestamp": 1789057092.0,
+      "title": "CVE-2026-88030 - GridFS data disclosure and deletion via query-operator injection in file IDs in the MongoDB Ruby Driver",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88030",
+      "summary": "CVE ID :CVE-2026-88030\n  \n  Published : Sept. 10, 2026, 6:18 p.m. | 34\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements in da...",
+      "timestamp": 1789064293.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-88899 - knowns before 0.31.0 External Control of Agent Working Directory via x-opencode-directory Header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88899",
-      "summary": "CVE ID :CVE-2026-88899\n  \n  Published : Sept. 10, 2026, 4:18 p.m. | 34\u00a0minutes ago\n  \n  Description :knowns versions before 0.31.0 fail to properly va...",
-      "timestamp": 1789057092.0,
+      "title": "CVE-2026-88029 - GridFS data disclosure and deletion via query-operator injection in file IDs in the MongoDB Python Driver",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88029",
+      "summary": "CVE ID :CVE-2026-88029\n  \n  Published : Sept. 10, 2026, 6:18 p.m. | 34\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements in da...",
+      "timestamp": 1789064293.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-88018 - rclone serve s3: --auth-proxy without --auth-key authenticates nobody - full SigV4 signature bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88018",
-      "summary": "CVE ID :CVE-2026-88018\n  \n  Published : Sept. 10, 2026, 4:18 p.m. | 34\u00a0minutes ago\n  \n  Description :rclone is a command-line program to sync files an...",
-      "timestamp": 1789057088.0,
+      "title": "CVE-2026-88025 - GridFS data disclosure and deletion via query-operator injection in file IDs in the MongoDB C# Driver",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88025",
+      "summary": "CVE ID :CVE-2026-88025\n  \n  Published : Sept. 10, 2026, 6:18 p.m. | 34\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements in da...",
+      "timestamp": 1789064292.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-88009 - Traefik: Rootless HTTP/1 request-target routes as \"/\" but is forwarded verbatim, bypassing path-scoped routing, middleware guards and access logging",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88009",
-      "summary": "CVE ID :CVE-2026-88009\n  \n  Published : Sept. 10, 2026, 4:18 p.m. | 34\u00a0minutes ago\n  \n  Description :Traefik is an open source HTTP reverse proxy and ...",
-      "timestamp": 1789057087.0,
+      "title": "CVE-2026-88024 - GridFS data disclosure and deletion via query-operator injection in file IDs in the MongoDB Rust Driver",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88024",
+      "summary": "CVE ID :CVE-2026-88024\n  \n  Published : Sept. 10, 2026, 6:18 p.m. | 34\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements in da...",
+      "timestamp": 1789064292.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -211,22 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "Trezor warns users of email provider breach, phishing attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/",
-      "summary": "Trezor warned customers on Wednesday that threat actors who breached its third-party email provider are targeting them in phishing attacks. [...]",
-      "timestamp": 1789023393.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/",
-      "summary": "Cisco has confirmed that a maximum-severity authentication bypass vulnerability tracked as CVE-2026-20079 in its Secure Firewall Management Center (FM...",
-      "timestamp": 1788990044.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypa...",
@@ -243,48 +243,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0309 PAN-OS: Authenticated Command Injection in CLI with Luna HSM Configuration (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0309",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0302 Checkov by Prisma Cloud: OS Command Injection Vulnerability (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0302",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0012 Chromium: Monthly Vulnerability Update (September 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0012",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -299,8 +259,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
+      "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -309,6 +269,46 @@
     {
       "title": "CVE-2026-0303 Checkov by Prisma Cloud: Code Execution via Auto-Loaded Configuration File (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0303",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0302 Checkov by Prisma Cloud: OS Command Injection Vulnerability (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0302",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "PAN-SA-2026-0012 Chromium: Monthly Vulnerability Update (September 2026) (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0012",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -387,5 +387,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1789060341.8757226
+  "last_updated": 1789069217.409017
 }
