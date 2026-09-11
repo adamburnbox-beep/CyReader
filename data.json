@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 8,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,68 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
+      "summary": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to a...",
+      "timestamp": 1789157949.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-62107 - WordPress Masteriyo - LMS plugin <= 3.4.0 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62107",
+      "summary": "CVE ID :CVE-2026-62107\n  \n  Published : Sept. 11, 2026, 7:17 p.m. | 57\u00a0minutes ago\n  \n  Description :Unauthenticated PHP Object Injection in Masteriyo...",
+      "timestamp": 1789154263.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62106 - WordPress SMS Alert Order Notifications plugin <= 3.9.9 - Privilege Escalation vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62106",
+      "summary": "CVE ID :CVE-2026-62106\n  \n  Published : Sept. 11, 2026, 7:17 p.m. | 57\u00a0minutes ago\n  \n  Description :Subscriber Privilege Escalation in SMS Alert Orde...",
+      "timestamp": 1789154263.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62105 - WordPress ThemeREX Addons plugin < 2.45.0 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62105",
+      "summary": "CVE ID :CVE-2026-62105\n  \n  Published : Sept. 11, 2026, 7:17 p.m. | 57\u00a0minutes ago\n  \n  Description :Unauthenticated PHP Object Injection in ThemeREX ...",
+      "timestamp": 1789154263.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62103 - WordPress Everest Forms plugin <= 3.6.0 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62103",
+      "summary": "CVE ID :CVE-2026-62103\n  \n  Published : Sept. 11, 2026, 7:17 p.m. | 57\u00a0minutes ago\n  \n  Description :Unauthenticated PHP Object Injection in Everest F...",
+      "timestamp": 1789154263.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62102 - WordPress Gato GraphQL plugin <= 19.2.3 - Privilege Escalation vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62102",
+      "summary": "CVE ID :CVE-2026-62102\n  \n  Published : Sept. 11, 2026, 7:17 p.m. | 57\u00a0minutes ago\n  \n  Description :Subscriber Privilege Escalation in Gato GraphQL <...",
+      "timestamp": 1789154263.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54072 - Authorizer: Unvalidated redirect_uri in /authorize leaks OAuth2 tokens to attacker-controlled URL",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54072",
+      "summary": "CVE ID :CVE-2026-54072\n  \n  Published : Sept. 11, 2026, 7:17 p.m. | 57\u00a0minutes ago\n  \n  Description :Authorizer is an open-source, self-hostable authe...",
+      "timestamp": 1789154262.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Florida confirms DMV database breached via stolen police account",
       "link": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
@@ -67,10 +123,18 @@
       "vendor": "News"
     },
     {
+      "title": "CVE-2026-89090 - Denial of service in the event stream header decoder in AWS SDK for Go v2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89090",
+      "summary": "CVE ID :CVE-2026-89090\n  \n  Published : Sept. 11, 2026, 6:17 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :An unrecovered panic in the event stream ...",
+      "timestamp": 1789150620.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-82617 - Apache OpenNLP, Apache OpenNLP: ReDoS / stack exhaustion in RegexNameFinderFactory built-in EMAIL and URL patterns",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82617",
-      "summary": "CVE ID :CVE-2026-82617\n  \n  Published : Sept. 11, 2026, 5:50 p.m. | 32\u00a0minutes ago\n  \n  Description :The two built-in name-finder patterns exposed by\n...",
-      "timestamp": 1789149053.0,
+      "summary": "CVE ID :CVE-2026-82617\n  \n  Published : Sept. 11, 2026, 6:16 p.m. | 1\u00a0hour, 58\u00a0minutes ago\n  \n  Description :The two built-in name-finder patterns exp...",
+      "timestamp": 1789150619.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -85,7 +149,7 @@
     {
       "title": "CVE-2026-72710 - SPIP < 4.4.18 Remote Code Execution via editer_objet.php Job Queue Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72710",
-      "summary": "CVE ID :CVE-2026-72710\n  \n  Published : Sept. 11, 2026, 5:18 p.m. | 1\u00a0hour, 4\u00a0minutes ago\n  \n  Description :SPIP before 4.4.18 contains a remote code ...",
+      "summary": "CVE ID :CVE-2026-72710\n  \n  Published : Sept. 11, 2026, 5:18 p.m. | 2\u00a0hours, 56\u00a0minutes ago\n  \n  Description :SPIP before 4.4.18 contains a remote cod...",
       "timestamp": 1789147138.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,32 +157,8 @@
     {
       "title": "CVE-2026-72709 - SPIP < 4.4.18 Missing Authorization via ecrire/action/ editer_auteur",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-72709",
-      "summary": "CVE ID :CVE-2026-72709\n  \n  Published : Sept. 11, 2026, 5:18 p.m. | 1\u00a0hour, 4\u00a0minutes ago\n  \n  Description :SPIP before 4.4.18 contains a missing auth...",
+      "summary": "CVE ID :CVE-2026-72709\n  \n  Published : Sept. 11, 2026, 5:18 p.m. | 2\u00a0hours, 56\u00a0minutes ago\n  \n  Description :SPIP before 4.4.18 contains a missing au...",
       "timestamp": 1789147138.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-72708 - SPIP < 4.4.18 Unauthenticated SQL Injection via sitemap annee Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72708",
-      "summary": "CVE ID :CVE-2026-72708\n  \n  Published : Sept. 11, 2026, 5:18 p.m. | 1\u00a0hour, 4\u00a0minutes ago\n  \n  Description :SPIP before 4.4.18 contains an unauthentic...",
-      "timestamp": 1789147137.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54047 - Laci Synchroni Backend Vulnerable to Account Takeover / User Impersonation via Client-Side Configuration Manipulation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54047",
-      "summary": "CVE ID :CVE-2026-54047\n  \n  Published : Sept. 11, 2026, 5:17 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :Laci Synchroni is a decentralized mod and ...",
-      "timestamp": 1789147030.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-89090 - Denial of service in the event stream header decoder in AWS SDK for Go v2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89090",
-      "summary": "CVE ID :CVE-2026-89090\n  \n  Published : Sept. 11, 2026, 5:03 p.m. | 1\u00a0hour, 19\u00a0minutes ago\n  \n  Description :An unrecovered panic in the event stream ...",
-      "timestamp": 1789146213.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -129,38 +169,6 @@
       "timestamp": 1789144184.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-89262 - MoguBlog through 6.2 Arbitrary Comment Deletion via Request-Body Ownership Check",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89262",
-      "summary": "CVE ID :CVE-2026-89262\n  \n  Published : Sept. 11, 2026, 4:17 p.m. | 2\u00a0hours, 5\u00a0minutes ago\n  \n  Description :MoguBlog through 6.2 contains an authoriz...",
-      "timestamp": 1789143470.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-89260 - MoguBlog through 6.2 XML External Entity Injection in the Unauthenticated WeChat Callback Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89260",
-      "summary": "CVE ID :CVE-2026-89260\n  \n  Published : Sept. 11, 2026, 4:17 p.m. | 2\u00a0hours, 5\u00a0minutes ago\n  \n  Description :MoguBlog through 6.2 contains an XML exte...",
-      "timestamp": 1789143470.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-89066 - OS command injection in the task synthesis component in projen",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89066",
-      "summary": "CVE ID :CVE-2026-89066\n  \n  Published : Sept. 11, 2026, 4:17 p.m. | 2\u00a0hours, 5\u00a0minutes ago\n  \n  Description :Improper neutralization of special elemen...",
-      "timestamp": 1789143469.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-89013 - Dolibarr 23.0.4 < 24.0.1 Authorization Bypass via hashp Parameter in document.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89013",
-      "summary": "CVE ID :CVE-2026-89013\n  \n  Published : Sept. 11, 2026, 4:17 p.m. | 2\u00a0hours, 5\u00a0minutes ago\n  \n  Description :Dolibarr 23.0.4 before 24.0.1 ontains an ...",
-      "timestamp": 1789143468.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
@@ -219,14 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "September Windows Server updates break Remote Desktop Services",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/september-windows-server-updates-break-remote-desktop-services/",
-      "summary": "Windows admins report that the September 2026 security updates are causing Remote Desktop Services (RDS) failures on Windows Server 2019, 2022, and 20...",
-      "timestamp": 1789072477.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypa...",
@@ -235,8 +235,24 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0302 Checkov by Prisma Cloud: OS Command Injection Vulnerability (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0302",
+      "title": "CVE-2026-0308 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0308",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0309 PAN-OS: Authenticated Command Injection in CLI with Luna HSM Configuration (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0309",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -251,40 +267,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0308 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0308",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0303 Checkov by Prisma Cloud: Code Execution via Auto-Loaded Configuration File (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0303",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0306 Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0306",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0309 PAN-OS: Authenticated Command Injection in CLI with Luna HSM Configuration (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0309",
+      "title": "CVE-2026-0302 Checkov by Prisma Cloud: OS Command Injection Vulnerability (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0302",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -307,8 +291,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
+      "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0306 Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0306",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0303 Checkov by Prisma Cloud: Code Execution via Auto-Loaded Configuration File (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0303",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -387,5 +387,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1789155729.270922
+  "last_updated": 1789163873.3709931
 }
