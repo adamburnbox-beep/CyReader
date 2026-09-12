@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,42 +59,130 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-78175 - Tutor LMS <= 4.0.7 - Authenticated (Subscriber+) PHP Object Injection to Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78175",
+      "summary": "CVE ID :CVE-2026-78175\n  \n  Published : Sept. 12, 2026, 8:16 a.m. | 37\u00a0minutes ago\n  \n  Description :The Tutor LMS \u2013 eLearning and online course solut...",
+      "timestamp": 1789200984.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78159 - The Events Calendar <= 6.17.3 - Unauthenticated Code Injection to Remote Code Execution via Widget 'classes' Map Callable Invocation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78159",
+      "summary": "CVE ID :CVE-2026-78159\n  \n  Published : Sept. 12, 2026, 8:16 a.m. | 37\u00a0minutes ago\n  \n  Description :The The Events Calendar plugin for WordPress is v...",
+      "timestamp": 1789200984.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78006 - The Events Calendar <= 6.17.4 - Unauthenticated PHP Object Injection to Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78006",
+      "summary": "CVE ID :CVE-2026-78006\n  \n  Published : Sept. 12, 2026, 8:16 a.m. | 37\u00a0minutes ago\n  \n  Description :The The Events Calendar plugin for WordPress is v...",
+      "timestamp": 1789200984.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-87719 - Deserialization of Untrusted Data in GitLab",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87719",
+      "summary": "CVE ID :CVE-2026-87719\n  \n  Published : Sept. 12, 2026, 3:16 a.m. | 5\u00a0hours, 37\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab...",
+      "timestamp": 1789182991.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85706 - GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability - [Actively Exploited]",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85706",
+      "summary": "CVE ID :CVE-2026-85706\n  \n  Published : Sept. 12, 2026, 3:16 a.m. | 5\u00a0hours, 37\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab...",
+      "timestamp": 1789182990.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-89266 - stb_vorbis through 1.22 heap buffer overflow via codebook multiplicands",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89266",
+      "summary": "CVE ID :CVE-2026-89266\n  \n  Published : Sept. 12, 2026, 12:17 a.m. | 8\u00a0hours, 36\u00a0minutes ago\n  \n  Description :stb_vorbis through 1.22 contains a heap...",
+      "timestamp": 1789172226.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-90456 - Inventory Management Component Default Administrative Credential Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-90456",
-      "summary": "CVE ID :CVE-2026-90456\n  \n  Published : Sept. 11, 2026, 9:52 p.m. | 35\u00a0minutes ago\n  \n  Description :An example environment-configuration file for a b...",
-      "timestamp": 1789163537.0,
+      "summary": "CVE ID :CVE-2026-90456\n  \n  Published : Sept. 11, 2026, 10:16 p.m. | 10\u00a0hours, 36\u00a0minutes ago\n  \n  Description :An example environment-configuration f...",
+      "timestamp": 1789165007.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-90451 - Packet-Analysis Component Authentication Cookie Forgery via Hardcoded Secret",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-90451",
-      "summary": "CVE ID :CVE-2026-90451\n  \n  Published : Sept. 11, 2026, 9:50 p.m. | 36\u00a0minutes ago\n  \n  Description :An example environment-configuration file ships w...",
-      "timestamp": 1789163431.0,
+      "summary": "CVE ID :CVE-2026-90451\n  \n  Published : Sept. 11, 2026, 10:16 p.m. | 10\u00a0hours, 36\u00a0minutes ago\n  \n  Description :An example environment-configuration f...",
+      "timestamp": 1789165007.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-90444 - Product Name OS Command Injection via Filename Validation Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-90444",
-      "summary": "CVE ID :CVE-2026-90444\n  \n  Published : Sept. 11, 2026, 9:46 p.m. | 41\u00a0minutes ago\n  \n  Description :A file-transfer interface that requires valid cre...",
-      "timestamp": 1789163167.0,
+      "summary": "CVE ID :CVE-2026-90444\n  \n  Published : Sept. 11, 2026, 10:16 p.m. | 10\u00a0hours, 36\u00a0minutes ago\n  \n  Description :A file-transfer interface that require...",
+      "timestamp": 1789165006.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-54174 - melange: Incomplete package integrity verification allows data section substitution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54174",
-      "summary": "CVE ID :CVE-2026-54174\n  \n  Published : Sept. 11, 2026, 9:17 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :melange allows users to build apk package...",
-      "timestamp": 1789161431.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-49464 - NL Portal: IDOR allows any authenticated user to complete and tamper with another user's taak",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49464",
-      "summary": "CVE ID :CVE-2026-49464\n  \n  Published : Sept. 11, 2026, 9:17 p.m. | 1\u00a0hour, 10\u00a0minutes ago\n  \n  Description :NL Portal Backend Libraries provide backe...",
-      "timestamp": 1789161430.0,
+      "title": "CVE-2026-44715 - OpenMRS has Broken Access Control in HL7 Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-44715",
+      "summary": "CVE ID :CVE-2026-44715\n  \n  Published : Sept. 11, 2026, 10:16 p.m. | 10\u00a0hours, 37\u00a0minutes ago\n  \n  Description :OpenMRS is an open source electronic m...",
+      "timestamp": 1789164997.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -105,46 +193,6 @@
       "timestamp": 1789157949.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-53952 - GetSimple CMS & GetSimpleCMS-CE have an Unauthenticated Admin Account Creation via Setup Logic Flaw",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53952",
-      "summary": "CVE ID :CVE-2026-53952\n  \n  Published : Sept. 11, 2026, 8:17 p.m. | 2\u00a0hours, 10\u00a0minutes ago\n  \n  Description :GetSimple CMS is a content management sy...",
-      "timestamp": 1789157834.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-79395 - Xiongmai IP Camera Sofia IPC Daemon Improper Authentication Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79395",
-      "summary": "CVE ID :CVE-2026-79395\n  \n  Published : Sept. 11, 2026, 7:17 p.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :An improper authentication vulnerability ...",
-      "timestamp": 1789154266.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62107 - WordPress Masteriyo - LMS plugin <= 3.4.0 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62107",
-      "summary": "CVE ID :CVE-2026-62107\n  \n  Published : Sept. 11, 2026, 7:17 p.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Unauthenticated PHP Object Injection in M...",
-      "timestamp": 1789154263.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62106 - WordPress SMS Alert Order Notifications plugin <= 3.9.9 - Privilege Escalation vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62106",
-      "summary": "CVE ID :CVE-2026-62106\n  \n  Published : Sept. 11, 2026, 7:17 p.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Subscriber Privilege Escalation in SMS Al...",
-      "timestamp": 1789154263.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62105 - WordPress ThemeREX Addons plugin < 2.45.0 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62105",
-      "summary": "CVE ID :CVE-2026-62105\n  \n  Published : Sept. 11, 2026, 7:17 p.m. | 3\u00a0hours, 9\u00a0minutes ago\n  \n  Description :Unauthenticated PHP Object Injection in T...",
-      "timestamp": 1789154263.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Florida confirms DMV database breached via stolen police account",
@@ -235,64 +283,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0308 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0308",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0309 PAN-OS: Authenticated Command Injection in CLI with Luna HSM Configuration (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0309",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0302 Checkov by Prisma Cloud: OS Command Injection Vulnerability (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0302",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "PAN-SA-2026-0012 Chromium: Monthly Vulnerability Update (September 2026) (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0012",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0306 Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0306",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -307,8 +299,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0303 Checkov by Prisma Cloud: Code Execution via Auto-Loaded Configuration File (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0303",
+      "title": "CVE-2026-0308 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0308",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -387,5 +387,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1789172036.6611989
+  "last_updated": 1789203288.7027717
 }
