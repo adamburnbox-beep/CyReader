@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,57 +52,97 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-90651 - Socket Firewall TLS Certificate Verification Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90651",
-      "summary": "CVE ID :CVE-2026-90651\n  \n  Published : Sept. 13, 2026, 12:17 a.m. | 27\u00a0minutes ago\n  \n  Description :Socket Firewall (socketdev/socket-registry-firew...",
-      "timestamp": 1789258627.0,
+      "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+      "summary": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for W...",
+      "timestamp": 1789309592.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-90783 - MKVToolNix through 101.0 Heap Buffer Overflow via avilib ODML Superindex Integer Wraparound",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90783",
+      "summary": "CVE ID :CVE-2026-90783\n  \n  Published : Sept. 13, 2026, 1:16 p.m. | 3\u00a0hours, 15\u00a0minutes ago\n  \n  Description :MKVToolNix through 101.0 contains a heap...",
+      "timestamp": 1789305389.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-90647 - Kalkitech ASE2000 Improper Certificate Validation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90647",
-      "summary": "CVE ID :CVE-2026-90647\n  \n  Published : Sept. 12, 2026, 11:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :ASE/Kalkitech ASE2000 V2 Communication T...",
-      "timestamp": 1789255021.0,
+      "title": "CVE-2026-90780 - SIPp through 3.7.7 Buffer Overflow via Oversized SIP Header Content",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90780",
+      "summary": "CVE ID :CVE-2026-90780\n  \n  Published : Sept. 13, 2026, 12:17 p.m. | 4\u00a0hours, 14\u00a0minutes ago\n  \n  Description :SIPp through 3.7.7 contains a buffer ov...",
+      "timestamp": 1789301837.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-90560 - zstd-jni 1.2.0 through 1.5.7-13 Out-of-Bounds Read via ZstdDictDecompress",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90560",
-      "summary": "CVE ID :CVE-2026-90560\n  \n  Published : Sept. 12, 2026, 6:16 p.m. | 6\u00a0hours, 27\u00a0minutes ago\n  \n  Description :zstd-jni versions 1.2.0 through 1.5.7-13...",
-      "timestamp": 1789237004.0,
+      "title": "CVE-2026-90779 - SIPp through 3.7.7 Stack Buffer Overflow via createAuthHeader Algorithm Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90779",
+      "summary": "CVE ID :CVE-2026-90779\n  \n  Published : Sept. 13, 2026, 12:17 p.m. | 4\u00a0hours, 15\u00a0minutes ago\n  \n  Description :SIPp through 3.7.7 contains a stack buf...",
+      "timestamp": 1789301836.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-90559 - snappy-java through 1.1.10.8 Out-of-Bounds Write via uncompress",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90559",
-      "summary": "CVE ID :CVE-2026-90559\n  \n  Published : Sept. 12, 2026, 6:16 p.m. | 6\u00a0hours, 27\u00a0minutes ago\n  \n  Description :snappy-java through 1.1.10.8 contains an...",
-      "timestamp": 1789237004.0,
+      "title": "CVE-2026-90778 - SIPp through 3.7.7 Buffer Overflow via SIP To Header Tag",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90778",
+      "summary": "CVE ID :CVE-2026-90778\n  \n  Published : Sept. 13, 2026, 12:17 p.m. | 4\u00a0hours, 15\u00a0minutes ago\n  \n  Description :SIPp through 3.7.7 contains a buffer ov...",
+      "timestamp": 1789301836.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-90558 - sngrep through 1.8.4 Stack Buffer Overflow via SIP Headers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90558",
-      "summary": "CVE ID :CVE-2026-90558\n  \n  Published : Sept. 12, 2026, 6:16 p.m. | 6\u00a0hours, 27\u00a0minutes ago\n  \n  Description :sngrep through 1.8.4 contains stack buff...",
-      "timestamp": 1789237004.0,
+      "title": "CVE-2026-90777 - ESPnet before 202609 Remote Code Execution via Unsafe Deserialization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90777",
+      "summary": "CVE ID :CVE-2026-90777\n  \n  Published : Sept. 13, 2026, 12:17 p.m. | 4\u00a0hours, 15\u00a0minutes ago\n  \n  Description :ESPnet before 202609 deserializes pretr...",
+      "timestamp": 1789301836.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-90556 - Freeciv before 3.2.6 Heap Buffer Overflow via worklist_load",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90556",
-      "summary": "CVE ID :CVE-2026-90556\n  \n  Published : Sept. 12, 2026, 6:16 p.m. | 6\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Freeciv versions before 3.2.6 contain a ...",
-      "timestamp": 1789237004.0,
+      "title": "CVE-2026-90776 - Nodemailer 9.1.0 through 10.0.4 Denial of Service via Quadratic Address Parsing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90776",
+      "summary": "CVE ID :CVE-2026-90776\n  \n  Published : Sept. 13, 2026, 12:17 p.m. | 4\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Nodemailer versions 9.1.0 through 10.0....",
+      "timestamp": 1789301836.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-90774 - rustypaste before 0.18.1 Path Traversal via filename header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90774",
+      "summary": "CVE ID :CVE-2026-90774\n  \n  Published : Sept. 13, 2026, 11:17 a.m. | 5\u00a0hours, 15\u00a0minutes ago\n  \n  Description :rustypaste before 0.18.1 validates the ...",
+      "timestamp": 1789298222.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-90772 - Amundsen Frontend through 4.3.0 Stored XSS via Description",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90772",
+      "summary": "CVE ID :CVE-2026-90772\n  \n  Published : Sept. 13, 2026, 11:17 a.m. | 5\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Amundsen frontend through 4.3.0 renders...",
+      "timestamp": 1789298221.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-90770 - Spug through 3.4.0 Remote Code Execution via ping_check",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90770",
+      "summary": "CVE ID :CVE-2026-90770\n  \n  Published : Sept. 13, 2026, 11:17 a.m. | 5\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Spug through 3.4.0 contains a remote co...",
+      "timestamp": 1789298221.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-90769 - Open Notebook before 1.11.0 Server-Side Request Forgery via link-source",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90769",
+      "summary": "CVE ID :CVE-2026-90769\n  \n  Published : Sept. 13, 2026, 11:17 a.m. | 5\u00a0hours, 15\u00a0minutes ago\n  \n  Description :Open Notebook before 1.11.0 fails to va...",
+      "timestamp": 1789298221.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -113,38 +153,6 @@
       "timestamp": 1789222472.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-90553 - vLLM before 0.28.0 Remote Code Execution via LlavaOnevision2 processor",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90553",
-      "summary": "CVE ID :CVE-2026-90553\n  \n  Published : Sept. 12, 2026, 1:16 p.m. | 11\u00a0hours, 27\u00a0minutes ago\n  \n  Description :vLLM before 0.28.0 contains a remote co...",
-      "timestamp": 1789219013.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-90537 - WWBN AVideo Scheduler sendEmail Missing Authorization via Token",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90537",
-      "summary": "CVE ID :CVE-2026-90537\n  \n  Published : Sept. 12, 2026, 1:16 p.m. | 11\u00a0hours, 27\u00a0minutes ago\n  \n  Description :WWBN AVideo through commit c3edcc274c38...",
-      "timestamp": 1789219011.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-15451 - MemberPress Corporate Accounts <= 1.5.39 - Authenticated (Subscriber+) Privilege Escalation via Mass Assignment in Sub-Account Creation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15451",
-      "summary": "CVE ID :CVE-2026-15451\n  \n  Published : Sept. 12, 2026, 1:16 p.m. | 11\u00a0hours, 27\u00a0minutes ago\n  \n  Description :The MemberPress Corporate Accounts plug...",
-      "timestamp": 1789219010.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78175 - Tutor LMS <= 4.0.7 - Authenticated (Subscriber+) PHP Object Injection to Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78175",
-      "summary": "CVE ID :CVE-2026-78175\n  \n  Published : Sept. 12, 2026, 8:16 a.m. | 16\u00a0hours, 27\u00a0minutes ago\n  \n  Description :The Tutor LMS \u2013 eLearning and online co...",
-      "timestamp": 1789200984.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
@@ -267,14 +275,6 @@
       "vendor": "News"
     },
     {
-      "title": "Conti ransomware gang member sentenced to 4 years in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
-      "summary": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
-      "timestamp": 1789109317.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypa...",
@@ -291,16 +291,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
+      "title": "CVE-2026-0308 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0308",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0308 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0308",
+      "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -387,5 +387,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1789262885.5674772
+  "last_updated": 1789318867.857419
 }
