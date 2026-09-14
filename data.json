@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,84 +59,124 @@
   ],
   "articles": [
     {
-      "title": "CVE-2023-45858 - Paessler PRTG Directory Traversal Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2023-45858",
-      "summary": "CVE ID :CVE-2023-45858\n  \n  Published : Sept. 14, 2026, 6:16 a.m. | 27\u00a0minutes ago\n  \n  Description :A directory traversal was identified in Paessler ...",
-      "timestamp": 1789366614.0,
+      "title": "CVE-2026-90919 - LightLLM through 1.2.0 Unauthenticated Remote Code Execution via Config Server Pickle Deserialization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90919",
+      "summary": "CVE ID :CVE-2026-90919\n  \n  Published : Sept. 14, 2026, 12:17 p.m. | 32\u00a0minutes ago\n  \n  Description :LightLLM through 1.2.0 contains a remote code ex...",
+      "timestamp": 1789388271.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-90680 - D-Link DIR-823G HNAP1 SetStaticRouteSettings strcpy stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90680",
-      "summary": "CVE ID :CVE-2026-90680\n  \n  Published : Sept. 14, 2026, 4:16 a.m. | 2\u00a0hours, 27\u00a0minutes ago\n  \n  Description :A security flaw has been discovered in D...",
-      "timestamp": 1789359396.0,
+      "title": "CVE-2026-21391 - Improper Claim Validation in PingAM OIDC Provider",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-21391",
+      "summary": "CVE ID :CVE-2026-21391\n  \n  Published : Sept. 14, 2026, 12:17 p.m. | 32\u00a0minutes ago\n  \n  Description :An improper validation vulnerability exists with...",
+      "timestamp": 1789388258.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-90608 - Totolink A3002MU boa formPortFw buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90608",
-      "summary": "CVE ID :CVE-2026-90608\n  \n  Published : Sept. 14, 2026, 1:16 a.m. | 5\u00a0hours, 27\u00a0minutes ago\n  \n  Description :A flaw has been found in Totolink A3002M...",
-      "timestamp": 1789348588.0,
+      "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/",
+      "summary": "Attackers can combine social engineering with malicious OAuth applications to gain access to Google Workspace data without relying solely on stolen pa...",
+      "timestamp": 1789388123.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-12258 - Inadequate access control in the Hiperdino REST API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12258",
+      "summary": "CVE ID :CVE-2026-12258\n  \n  Published : Sept. 14, 2026, 12:11 p.m. | 39\u00a0minutes ago\n  \n  Description :Inadequate access control in Hiperdino\u2019s REST v1...",
+      "timestamp": 1789387873.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-90607 - Totolink A3002MU boa formNewSchedule buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90607",
-      "summary": "CVE ID :CVE-2026-90607\n  \n  Published : Sept. 14, 2026, 1:16 a.m. | 5\u00a0hours, 27\u00a0minutes ago\n  \n  Description :A vulnerability was detected in Totolink...",
-      "timestamp": 1789348587.0,
+      "title": "CVE-2026-90898 - Bifrost unauthenticated remote code execution via MCP stdio client registration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90898",
+      "summary": "CVE ID :CVE-2026-90898\n  \n  Published : Sept. 14, 2026, 11:17 a.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :Bifrost registers MCP clients through it...",
+      "timestamp": 1789384628.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-90606 - Totolink A3002MU boa formIpv6Setup buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90606",
-      "summary": "CVE ID :CVE-2026-90606\n  \n  Published : Sept. 14, 2026, 12:16 a.m. | 6\u00a0hours, 27\u00a0minutes ago\n  \n  Description :A security vulnerability has been detec...",
-      "timestamp": 1789345017.0,
+      "title": "CVE-2026-90707 - Open5GS Old AMF Discovery Fallback nnrf-handler.c amf_nnrf_try_old_amf_discovery_fallback use after free",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90707",
+      "summary": "CVE ID :CVE-2026-90707\n  \n  Published : Sept. 14, 2026, 11:17 a.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :A security flaw has been discovered in O...",
+      "timestamp": 1789384627.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-90605 - Totolink A3002MU boa formFilter buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90605",
-      "summary": "CVE ID :CVE-2026-90605\n  \n  Published : Sept. 14, 2026, 12:16 a.m. | 6\u00a0hours, 27\u00a0minutes ago\n  \n  Description :A weakness has been identified in Totol...",
-      "timestamp": 1789345017.0,
+      "title": "CVE-2026-89180 - Thinking Software Technology\uff5cEFence - SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89180",
+      "summary": "CVE ID :CVE-2026-89180\n  \n  Published : Sept. 14, 2026, 11:17 a.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :EFence developed by Thinking Software Te...",
+      "timestamp": 1789384625.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2023-50461 - TYPO3 Direct Mail Configuration Injection and Arbitrary Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2023-50461",
-      "summary": "CVE ID :CVE-2023-50461\n  \n  Published : Sept. 14, 2026, midnight | 6\u00a0hours, 44\u00a0minutes ago\n  \n  Description :An issue was discovered in the direct_mai...",
-      "timestamp": 1789344000.0,
+      "title": "CVE-2026-78375 - Joomla Extension - joomshaper.com - Authenticated Privileged SQL Injection in the Content Plugin of SP Page Builder (Free and Pro) 5.2.1 - 6.9.0",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78375",
+      "summary": "CVE ID :CVE-2026-78375\n  \n  Published : Sept. 14, 2026, 11:17 a.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - Auth...",
+      "timestamp": 1789384624.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-88793 - YouTube Embed 10.0 - 10.3 - Unauthenticated Stored XSS via youram_server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88793",
-      "summary": "CVE ID :CVE-2026-88793\n  \n  Published : Sept. 13, 2026, 9:17 p.m. | 9\u00a0hours, 27\u00a0minutes ago\n  \n  Description :The YouTube Embed WordPress plugin from ...",
-      "timestamp": 1789334222.0,
+      "title": "CVE-2026-20773 - Improper Authorization in PingFederate Administrative Expression Evaluation Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20773",
+      "summary": "CVE ID :CVE-2026-20773\n  \n  Published : Sept. 14, 2026, 11:17 a.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :A role-based access control issue was id...",
+      "timestamp": 1789384623.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-85129 - Hoo Companion 1.0.2 - Unauthenticated Stored XSS via Theme Settings Import",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85129",
-      "summary": "CVE ID :CVE-2026-85129\n  \n  Published : Sept. 13, 2026, 9:17 p.m. | 9\u00a0hours, 27\u00a0minutes ago\n  \n  Description :The Hoo Companion WordPress plugin 1.0.2...",
-      "timestamp": 1789334222.0,
+      "title": "CVE-2026-90895 - MISP Interactive CLI Shell: Authorization Bypass, Credential Exposure, and Terminal Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90895",
+      "summary": "CVE ID :CVE-2026-90895\n  \n  Published : Sept. 14, 2026, 10:17 a.m. | 2\u00a0hours, 33\u00a0minutes ago\n  \n  Description :Affected versions of MISP\u2019s interactive...",
+      "timestamp": 1789381026.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-81648 - CryptoPayment Gateway 1.2.1 - 1.2.2 - Unauthenticated Arbitrary File Deletion and Settings Update via Unguarded AJAX Router",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81648",
-      "summary": "CVE ID :CVE-2026-81648\n  \n  Published : Sept. 13, 2026, 9:17 p.m. | 9\u00a0hours, 27\u00a0minutes ago\n  \n  Description :The CryptoPayment Gateway WordPress plug...",
-      "timestamp": 1789334221.0,
+      "title": "CVE-2026-90703 - D-Link DWR-M921 formDiskCreateShare system os command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90703",
+      "summary": "CVE ID :CVE-2026-90703\n  \n  Published : Sept. 14, 2026, 10:17 a.m. | 2\u00a0hours, 33\u00a0minutes ago\n  \n  Description :A vulnerability has been found in D-Lin...",
+      "timestamp": 1789381025.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft: September updates cause RDS failures on Windows Server",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
+      "summary": "Microsoft has confirmed reports that the September 2026 security updates cause Remote Desktop Services (RDS) failures on Windows Server systems. [...]",
+      "timestamp": 1789379425.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Revolut discloses data breach exposing financial info, passports",
+      "link": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
+      "summary": "Fintech company Revolut has disclosed a data breach after sharing data from an undisclosed number of customers with a threat actor impersonating a gov...",
+      "timestamp": 1789375704.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft: September updates break audio on some Windows PCs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/",
+      "summary": "Microsoft has confirmed that USB audio devices may fail on some Windows systems after installing the KB5124008and KB5124012 September 2026 security up...",
+      "timestamp": 1789373296.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are now exploiting a maximum-severity GitLab vulnerability in att...",
+      "timestamp": 1789369587.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
@@ -155,14 +195,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
       "summary": "",
@@ -171,8 +203,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -187,16 +227,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
+      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -227,52 +267,12 @@
       "vendor": "News"
     },
     {
-      "title": "Artifactory flaws chained in attacks deploying backdoor malware",
-      "link": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
-      "summary": "Threat actors are exploiting critical and high-severity vulnerabilities in JFrog Artifactory to bypass authentication, gain administrative privileges,...",
-      "timestamp": 1789144184.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
       "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehens...",
       "timestamp": 1789142015.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
-      "link": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
-      "summary": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress exa...",
-      "timestamp": 1789135271.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "GitLab urges users to patch max severity path traversal flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
-      "summary": "GitLab urged users on Thursday to patch their servers immediately against a maximum-severity path traversal vulnerability tracked as CVE-2026-85706. [...",
-      "timestamp": 1789125322.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft fixes Teams, Outlook launch failures on ARM Windows PCs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
-      "summary": "Microsoft has fixed a bug that prevented Teams and Outlook from launching on ARM-based Windows devices after installing updates released since the Aug...",
-      "timestamp": 1789119577.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
-      "link": "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/",
-      "summary": "Trezor has revealed that phishing attacks against its customers earlier this week targeted 347,000 email addresses and affected 2,500 users who clicke...",
-      "timestamp": 1789113315.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
@@ -307,8 +307,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
+      "title": "CVE-2026-0303 Checkov by Prisma Cloud: Code Execution via Auto-Loaded Configuration File (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0303",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -377,15 +377,7 @@
       "timestamp": 1788364800.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
-      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the ...",
-      "timestamp": 1788302428.0,
-      "source": "Krebs on Security",
-      "vendor": "News"
     }
   ],
-  "last_updated": 1789369333.2657306
+  "last_updated": 1789394276.045973
 }
