@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 5,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 8,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,20 +59,132 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-90919 - LightLLM through 1.2.0 Unauthenticated Remote Code Execution via Config Server Pickle Deserialization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90919",
-      "summary": "CVE ID :CVE-2026-90919\n  \n  Published : Sept. 14, 2026, 12:17 p.m. | 32\u00a0minutes ago\n  \n  Description :LightLLM through 1.2.0 contains a remote code ex...",
-      "timestamp": 1789388271.0,
+      "title": "Twitch extension with 30K installs exposes users\u2019 OAuth tokens",
+      "link": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
+      "summary": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth session to...",
+      "timestamp": 1789412631.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
+      "summary": "Hackers compromised HBO Max's official Reddit account and used it to push malicious ads that launched ClickFix attacks to infect Windows and macOS dev...",
+      "timestamp": 1789410856.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-91080 - webhook through 2.8.3 Memory Exhaustion via Oversized Request Body",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91080",
+      "summary": "CVE ID :CVE-2026-91080\n  \n  Published : Sept. 14, 2026, 6:20 p.m. | 34\u00a0minutes ago\n  \n  Description :webhook through 2.8.3 reads the entire request bo...",
+      "timestamp": 1789410029.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-21391 - Improper Claim Validation in PingAM OIDC Provider",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-21391",
-      "summary": "CVE ID :CVE-2026-21391\n  \n  Published : Sept. 14, 2026, 12:17 p.m. | 32\u00a0minutes ago\n  \n  Description :An improper validation vulnerability exists with...",
-      "timestamp": 1789388258.0,
+      "title": "CVE-2026-91079 - Huly Platform through 0.7.426 SSRF via Print Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91079",
+      "summary": "CVE ID :CVE-2026-91079\n  \n  Published : Sept. 14, 2026, 6:20 p.m. | 34\u00a0minutes ago\n  \n  Description :Huly Platform through 0.7.426 contains a server-s...",
+      "timestamp": 1789410029.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-90946 - DeepWiki-Open through commit d92819a Arbitrary File Read via /ws/chat WebSocket",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90946",
+      "summary": "CVE ID :CVE-2026-90946\n  \n  Published : Sept. 14, 2026, 6:20 p.m. | 34\u00a0minutes ago\n  \n  Description :DeepWiki-Open through commit d92819a contains an ...",
+      "timestamp": 1789410029.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-90945 - Crawlab through 0.6.3 Authentication Bypass via Hard-coded JWT Secret",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90945",
+      "summary": "CVE ID :CVE-2026-90945\n  \n  Published : Sept. 14, 2026, 6:20 p.m. | 34\u00a0minutes ago\n  \n  Description :Crawlab through 0.6.3 uses a hard-coded HMAC-SHA2...",
+      "timestamp": 1789410029.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-90944 - Krayin CRM through 2.2.6 Unauthenticated Email Injection via inbound-parse",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90944",
+      "summary": "CVE ID :CVE-2026-90944\n  \n  Published : Sept. 14, 2026, 6:20 p.m. | 34\u00a0minutes ago\n  \n  Description :Krayin CRM through 2.2.6 exposes the POST /admin/...",
+      "timestamp": 1789410028.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-90942 - Casdoor through 4.4.0 Private Key Exposure via Certificate Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90942",
+      "summary": "CVE ID :CVE-2026-90942\n  \n  Published : Sept. 14, 2026, 6:20 p.m. | 34\u00a0minutes ago\n  \n  Description :Casdoor through 4.4.0 fails to properly mask the ...",
+      "timestamp": 1789410028.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86836 - Eclipse Ankaios Workload Control Interface Improper Path Validation and Impersonation Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86836",
+      "summary": "CVE ID :CVE-2026-86836\n  \n  Published : Sept. 14, 2026, 6:20 p.m. | 34\u00a0minutes ago\n  \n  Description :In Eclipse Ankaios versions 0.1.0 through 1.0.2, ...",
+      "timestamp": 1789410020.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85921 - Windows Secure Kernel Mode Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85921",
+      "summary": "CVE ID :CVE-2026-85921\n  \n  Published : Sept. 14, 2026, 6:20 p.m. | 34\u00a0minutes ago\n  \n  Description :Double free in Windows Secure Kernel Mode allows ...",
+      "timestamp": 1789410020.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57578 - DotVVM: Missing authorization in AuthorizeActionFilter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57578",
+      "summary": "CVE ID :CVE-2026-57578\n  \n  Published : Sept. 14, 2026, 6:17 p.m. | 36\u00a0minutes ago\n  \n  Description :DotVVM is an open source MVVM framework for web a...",
+      "timestamp": 1789409877.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-57577 - DotVVM: ReDOS in routing",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57577",
+      "summary": "CVE ID :CVE-2026-57577\n  \n  Published : Sept. 14, 2026, 6:17 p.m. | 36\u00a0minutes ago\n  \n  Description :DotVVM is an open source MVVM framework for web a...",
+      "timestamp": 1789409877.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
+      "summary": "A mass-scanning campaign targeting internet-exposed Vite development servers is attempting to steal cloud credentials and configurations from AWS and ...",
+      "timestamp": 1789402558.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco Secure Email Gateway and Secure Email and Web Manager Security Hardening Release: September 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-esa-dfCrfXkm?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20and%20Secure%20Email%20and%20Web%20Manager%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Email Gateway and Cisco Secure Email and Web Manager...",
+      "timestamp": 1789401600.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Secure Email Gateway SQL Injection Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20SQL%20Injection%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execu...",
+      "timestamp": 1789401600.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Why Patch Automation Needs Brakes, Not Just an Accelerator",
+      "link": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/",
+      "summary": "Patch automation can help IT teams keep pace with growing update volumes, but deploying faster also means bad updates can spread faster. Action1 expla...",
+      "timestamp": 1789394471.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
@@ -81,70 +193,6 @@
       "timestamp": 1789388123.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-12258 - Inadequate access control in the Hiperdino REST API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12258",
-      "summary": "CVE ID :CVE-2026-12258\n  \n  Published : Sept. 14, 2026, 12:11 p.m. | 39\u00a0minutes ago\n  \n  Description :Inadequate access control in Hiperdino\u2019s REST v1...",
-      "timestamp": 1789387873.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-90898 - Bifrost unauthenticated remote code execution via MCP stdio client registration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90898",
-      "summary": "CVE ID :CVE-2026-90898\n  \n  Published : Sept. 14, 2026, 11:17 a.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :Bifrost registers MCP clients through it...",
-      "timestamp": 1789384628.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-90707 - Open5GS Old AMF Discovery Fallback nnrf-handler.c amf_nnrf_try_old_amf_discovery_fallback use after free",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90707",
-      "summary": "CVE ID :CVE-2026-90707\n  \n  Published : Sept. 14, 2026, 11:17 a.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :A security flaw has been discovered in O...",
-      "timestamp": 1789384627.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-89180 - Thinking Software Technology\uff5cEFence - SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89180",
-      "summary": "CVE ID :CVE-2026-89180\n  \n  Published : Sept. 14, 2026, 11:17 a.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :EFence developed by Thinking Software Te...",
-      "timestamp": 1789384625.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78375 - Joomla Extension - joomshaper.com - Authenticated Privileged SQL Injection in the Content Plugin of SP Page Builder (Free and Pro) 5.2.1 - 6.9.0",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78375",
-      "summary": "CVE ID :CVE-2026-78375\n  \n  Published : Sept. 14, 2026, 11:17 a.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :Joomla Extension - joomshaper.com - Auth...",
-      "timestamp": 1789384624.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-20773 - Improper Authorization in PingFederate Administrative Expression Evaluation Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-20773",
-      "summary": "CVE ID :CVE-2026-20773\n  \n  Published : Sept. 14, 2026, 11:17 a.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :A role-based access control issue was id...",
-      "timestamp": 1789384623.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-90895 - MISP Interactive CLI Shell: Authorization Bypass, Credential Exposure, and Terminal Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90895",
-      "summary": "CVE ID :CVE-2026-90895\n  \n  Published : Sept. 14, 2026, 10:17 a.m. | 2\u00a0hours, 33\u00a0minutes ago\n  \n  Description :Affected versions of MISP\u2019s interactive...",
-      "timestamp": 1789381026.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-90703 - D-Link DWR-M921 formDiskCreateShare system os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90703",
-      "summary": "CVE ID :CVE-2026-90703\n  \n  Published : Sept. 14, 2026, 10:17 a.m. | 2\u00a0hours, 33\u00a0minutes ago\n  \n  Description :A vulnerability has been found in D-Lin...",
-      "timestamp": 1789381025.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft: September updates cause RDS failures on Windows Server",
@@ -183,14 +231,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
       "summary": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for W...",
       "timestamp": 1789309592.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
-      "link": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
-      "summary": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CVE-2026-851...",
-      "timestamp": 1789222472.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -241,30 +281,6 @@
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
-    },
-    {
-      "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
-      "summary": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to a...",
-      "timestamp": 1789157949.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Florida confirms DMV database breached via stolen police account",
-      "link": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
-      "summary": "The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) has confirmed that its DAVID driver database suffered a data breach, saying the a...",
-      "timestamp": 1789153229.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
-      "link": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
-      "summary": "Microsoft says threat actors linked to ShinyHunters, Helix,\u00a0and other extortion gangs are using passkey and single sign-on-themed social engineering a...",
-      "timestamp": 1789147610.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
@@ -379,5 +395,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1789394276.045973
+  "last_updated": 1789413631.8349185
 }
