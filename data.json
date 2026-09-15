@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,86 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-91752 - GNU libextractor before 1.15 Stack Overflow via OLE2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91752",
+      "summary": "CVE ID :CVE-2026-91752\n  \n  Published : Sept. 15, 2026, 12:35 a.m. | 19\u00a0minutes ago\n  \n  Description :GNU libextractor before 1.15 contains a stack-ba...",
+      "timestamp": 1789432543.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-91751 - Flextype CMS through 1.0.0-alpha.3 Path Traversal via Entries REST API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91751",
+      "summary": "CVE ID :CVE-2026-91751\n  \n  Published : Sept. 15, 2026, 12:35 a.m. | 19\u00a0minutes ago\n  \n  Description :Flextype CMS through 1.0.0-alpha.3 fails to prop...",
+      "timestamp": 1789432542.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-91200 - DevSpace through 6.3.21 Path Traversal via tar extraction",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91200",
+      "summary": "CVE ID :CVE-2026-91200\n  \n  Published : Sept. 14, 2026, 11:19 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :DevSpace through 6.3.21 fails to reject ...",
+      "timestamp": 1789427940.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-91144 - ZFile through 5.0.5 Share Entry Filter Bypass via Download Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91144",
+      "summary": "CVE ID :CVE-2026-91144\n  \n  Published : Sept. 14, 2026, 10:16 p.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :ZFile through 5.0.5 fails to validate r...",
+      "timestamp": 1789424219.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-12944 - Incomplete Security Scanner Blocklist Enables Network-Based Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12944",
+      "summary": "CVE ID :CVE-2026-12944\n  \n  Published : Sept. 14, 2026, 10:16 p.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 c...",
+      "timestamp": 1789424216.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-90896 - Missing authentication in Ecommerce Template checkout session endpoint allows unauthenticated disclosure of buyer PII",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90896",
+      "summary": "CVE ID :CVE-2026-90896\n  \n  Published : Sept. 14, 2026, 9:17 p.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Missing Authentication for Critical Func...",
+      "timestamp": 1789420662.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-68489 - Plesk Extensions Ruby and Node.js Toolkit Static Code Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68489",
+      "summary": "CVE ID :CVE-2026-68489\n  \n  Published : Sept. 14, 2026, 9:17 p.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Static Code Injection in Plesk extension...",
+      "timestamp": 1789420645.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-67399 - WHMCS Deserialization of Untrusted Data Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67399",
+      "summary": "CVE ID :CVE-2026-67399\n  \n  Published : Sept. 14, 2026, 9:17 p.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Deserialization of untrusted data in WHM...",
+      "timestamp": 1789420645.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-65414 - Apple Software Out-of-Bounds Write Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65414",
+      "summary": "CVE ID :CVE-2026-65414\n  \n  Published : Sept. 14, 2026, 9:17 p.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :An out-of-bounds write issue was address...",
+      "timestamp": 1789420645.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-53713 - Envoy Gateway: Authentication Bypass via Improper Input Validation in EnvoyExtensionPolicy Lua Allows Secret Disclosure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53713",
+      "summary": "CVE ID :CVE-2026-53713\n  \n  Published : Sept. 14, 2026, 9:17 p.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Envoy Gateway is an open source project ...",
+      "timestamp": 1789420632.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Microsoft releases emergency Windows updates to fix RDS failures",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/",
       "summary": "Microsoft has released emergency out-of-band Windows updates to fix Remote Desktop Services failures caused by this month's security updates, along wi...",
@@ -73,86 +153,6 @@
       "timestamp": 1789418162.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-82028 - Magistrala < 1.0.0 SQL Injection via format Parameter in Reader API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82028",
-      "summary": "CVE ID :CVE-2026-82028\n  \n  Published : Sept. 14, 2026, 8:16 p.m. | 34\u00a0minutes ago\n  \n  Description :Magistrala before 1.0.0 contains a SQL injection ...",
-      "timestamp": 1789417014.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-65838 - Skipper: an oversized declared-`Content-Length` body still hands OPA an empty `parsed_body`, so deny-on-presence Rego policies fail OPEN while the full payload reaches upstream",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65838",
-      "summary": "CVE ID :CVE-2026-65838\n  \n  Published : Sept. 14, 2026, 8:16 p.m. | 34\u00a0minutes ago\n  \n  Description :Skipper is an HTTP router and reverse proxy for s...",
-      "timestamp": 1789417009.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55209 - resdata insufficiently validates untrusted GRDECL files",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55209",
-      "summary": "CVE ID :CVE-2026-55209\n  \n  Published : Sept. 14, 2026, 8:16 p.m. | 34\u00a0minutes ago\n  \n  Description :resdata is software for reading and writing resul...",
-      "timestamp": 1789417007.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54628 - Anyquery: Server-Side Request Forgery (SSRF) via Unrestricted SQLite Virtual Table Modules in Server Mode",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54628",
-      "summary": "CVE ID :CVE-2026-54628\n  \n  Published : Sept. 14, 2026, 8:16 p.m. | 34\u00a0minutes ago\n  \n  Description :Anyquery is an SQL query engine built on top of S...",
-      "timestamp": 1789417006.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54447 - garminconnect: Insecure Permission Assignment for Garmin OAuth Token Store",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54447",
-      "summary": "CVE ID :CVE-2026-54447\n  \n  Published : Sept. 14, 2026, 8:16 p.m. | 34\u00a0minutes ago\n  \n  Description :garminconnect is a Python 3 API wrapper for Garmi...",
-      "timestamp": 1789417006.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54334 - UEFI Firmware Parser: Heap out-of-bounds write in tiano decompressor `ReadCLen`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54334",
-      "summary": "CVE ID :CVE-2026-54334\n  \n  Published : Sept. 14, 2026, 8:16 p.m. | 34\u00a0minutes ago\n  \n  Description :UEFI Firmware Parser parses BIOS, Intel ME, and U...",
-      "timestamp": 1789417006.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54333 - UEFI Firmware Parser: Stack out-of-bounds write in tiano decompressor MakeTable",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54333",
-      "summary": "CVE ID :CVE-2026-54333\n  \n  Published : Sept. 14, 2026, 8:16 p.m. | 34\u00a0minutes ago\n  \n  Description :UEFI Firmware Parser parses BIOS, Intel ME, and U...",
-      "timestamp": 1789417005.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-50006 - Anyquery: Arbitrary File Write (AFW) which could lead to Remote Code Execution (RCE) via Unrestricted ATTACH DATABASE in Server Mode",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-50006",
-      "summary": "CVE ID :CVE-2026-50006\n  \n  Published : Sept. 14, 2026, 8:16 p.m. | 34\u00a0minutes ago\n  \n  Description :Anyquery is an SQL query engine built on top of S...",
-      "timestamp": 1789417004.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-17467 - Vulnerabilities exists in IBM Cloud Pak for Data System",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17467",
-      "summary": "CVE ID :CVE-2026-17467\n  \n  Published : Sept. 14, 2026, 8:16 p.m. | 34\u00a0minutes ago\n  \n  Description :IBM Cloud Pak for Data System (Yosemite 1.0) 3.0....",
-      "timestamp": 1789417002.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16673 - DataStage on Cloud Pak for Data has several vulnerabilities due to open source software",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16673",
-      "summary": "CVE ID :CVE-2026-16673\n  \n  Published : Sept. 14, 2026, 8:16 p.m. | 34\u00a0minutes ago\n  \n  Description :IBM DataStage on Cloud Pak for Data 5.4.0.0 IBM D...",
-      "timestamp": 1789417001.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Homebrew 7.0.0 gets built-in GUI, better security controls",
@@ -235,16 +235,16 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
+      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -259,16 +259,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -277,6 +269,14 @@
     {
       "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -299,14 +299,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0308 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0308",
       "summary": "",
@@ -315,16 +307,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
+      "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0303 Checkov by Prisma Cloud: Code Execution via Auto-Loaded Configuration File (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0303",
+      "title": "CVE-2026-0309 PAN-OS: Authenticated Command Injection in CLI with Luna HSM Configuration (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0309",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -395,5 +395,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1789426036.2471461
+  "last_updated": 1789435656.786585
 }
