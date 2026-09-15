@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 3,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,84 +59,156 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-91752 - GNU libextractor before 1.15 Stack Overflow via OLE2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91752",
-      "summary": "CVE ID :CVE-2026-91752\n  \n  Published : Sept. 15, 2026, 12:35 a.m. | 19\u00a0minutes ago\n  \n  Description :GNU libextractor before 1.15 contains a stack-ba...",
-      "timestamp": 1789432543.0,
+      "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
+      "summary": "CenterPoint Energy disclosed a breach compromising some customers' personal information after an attacker leaked data allegedly stolen from the utilit...",
+      "timestamp": 1789490414.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-91992 - Tornado before 6.5.7 Credential Leak via Handle Reuse",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91992",
+      "summary": "CVE ID :CVE-2026-91992\n  \n  Published : Sept. 15, 2026, 4:17 p.m. | 26\u00a0minutes ago\n  \n  Description :Tornado before 6.5.7 contains a credential leak v...",
+      "timestamp": 1789489078.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-91751 - Flextype CMS through 1.0.0-alpha.3 Path Traversal via Entries REST API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91751",
-      "summary": "CVE ID :CVE-2026-91751\n  \n  Published : Sept. 15, 2026, 12:35 a.m. | 19\u00a0minutes ago\n  \n  Description :Flextype CMS through 1.0.0-alpha.3 fails to prop...",
-      "timestamp": 1789432542.0,
+      "title": "CVE-2026-91990 - Tornado before 6.5.8 Memory Amplification DoS via multipart",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91990",
+      "summary": "CVE ID :CVE-2026-91990\n  \n  Published : Sept. 15, 2026, 4:17 p.m. | 26\u00a0minutes ago\n  \n  Description :Tornado before 6.5.8 contains a memory amplificat...",
+      "timestamp": 1789489078.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-91200 - DevSpace through 6.3.21 Path Traversal via tar extraction",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91200",
-      "summary": "CVE ID :CVE-2026-91200\n  \n  Published : Sept. 14, 2026, 11:19 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :DevSpace through 6.3.21 fails to reject ...",
-      "timestamp": 1789427940.0,
+      "title": "CVE-2026-91989 - atomic-agents-stack before 1.1.0 Path Traversal via dashboard serve.py",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91989",
+      "summary": "CVE ID :CVE-2026-91989\n  \n  Published : Sept. 15, 2026, 4:17 p.m. | 26\u00a0minutes ago\n  \n  Description :atomic-agents-stack before 1.1.0 contains a path ...",
+      "timestamp": 1789489078.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-91144 - ZFile through 5.0.5 Share Entry Filter Bypass via Download Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91144",
-      "summary": "CVE ID :CVE-2026-91144\n  \n  Published : Sept. 14, 2026, 10:16 p.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :ZFile through 5.0.5 fails to validate r...",
-      "timestamp": 1789424219.0,
+      "title": "CVE-2026-91988 - atomic-agents-stack before 1.1.0 Remote Code Execution via HTTP MCP",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91988",
+      "summary": "CVE ID :CVE-2026-91988\n  \n  Published : Sept. 15, 2026, 4:17 p.m. | 26\u00a0minutes ago\n  \n  Description :atomic-agents-stack before 1.1.0 accepts cleartex...",
+      "timestamp": 1789489077.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-12944 - Incomplete Security Scanner Blocklist Enables Network-Based Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12944",
-      "summary": "CVE ID :CVE-2026-12944\n  \n  Published : Sept. 14, 2026, 10:16 p.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :IBM Langflow OSS 1.0.0 through 1.10.0 c...",
-      "timestamp": 1789424216.0,
+      "title": "CVE-2026-91985 - Vikunja before 2.6.0 Privilege Escalation via Link Share Hash",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91985",
+      "summary": "CVE ID :CVE-2026-91985\n  \n  Published : Sept. 15, 2026, 4:17 p.m. | 26\u00a0minutes ago\n  \n  Description :Vikunja before 2.6.0 fails to properly restrict a...",
+      "timestamp": 1789489077.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-90896 - Missing authentication in Ecommerce Template checkout session endpoint allows unauthenticated disclosure of buyer PII",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90896",
-      "summary": "CVE ID :CVE-2026-90896\n  \n  Published : Sept. 14, 2026, 9:17 p.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Missing Authentication for Critical Func...",
-      "timestamp": 1789420662.0,
+      "title": "CVE-2026-91973 - Vikunja before 2.6.0 Authentication Bypass via CalDAV BasicAuth",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91973",
+      "summary": "CVE ID :CVE-2026-91973\n  \n  Published : Sept. 15, 2026, 4:17 p.m. | 26\u00a0minutes ago\n  \n  Description :Vikunja before 2.6.0 contains an authentication b...",
+      "timestamp": 1789489074.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-68489 - Plesk Extensions Ruby and Node.js Toolkit Static Code Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-68489",
-      "summary": "CVE ID :CVE-2026-68489\n  \n  Published : Sept. 14, 2026, 9:17 p.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Static Code Injection in Plesk extension...",
-      "timestamp": 1789420645.0,
+      "title": "CVE-2026-91972 - Vikunja before 2.6.0 Authentication Bypass via Unthrottled API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91972",
+      "summary": "CVE ID :CVE-2026-91972\n  \n  Published : Sept. 15, 2026, 4:17 p.m. | 26\u00a0minutes ago\n  \n  Description :Vikunja versions before 2.6.0 fail to apply rate ...",
+      "timestamp": 1789489074.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-67399 - WHMCS Deserialization of Untrusted Data Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67399",
-      "summary": "CVE ID :CVE-2026-67399\n  \n  Published : Sept. 14, 2026, 9:17 p.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Deserialization of untrusted data in WHM...",
-      "timestamp": 1789420645.0,
+      "title": "CVE-2026-91965 - WWBN AVideo through 29.0 Broken Access Control via Live Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91965",
+      "summary": "CVE ID :CVE-2026-91965\n  \n  Published : Sept. 15, 2026, 4:17 p.m. | 26\u00a0minutes ago\n  \n  Description :WWBN AVideo through 29.0 fails to enforce user-gr...",
+      "timestamp": 1789489072.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-65414 - Apple Software Out-of-Bounds Write Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-65414",
-      "summary": "CVE ID :CVE-2026-65414\n  \n  Published : Sept. 14, 2026, 9:17 p.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :An out-of-bounds write issue was address...",
-      "timestamp": 1789420645.0,
+      "title": "CVE-2026-91964 - FreeRDP 2.0.0 through 3.30.0 Heap Buffer Overflow via RoutingToken",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91964",
+      "summary": "CVE ID :CVE-2026-91964\n  \n  Published : Sept. 15, 2026, 4:17 p.m. | 26\u00a0minutes ago\n  \n  Description :FreeRDP versions before 3.31.0 contain a heap-bas...",
+      "timestamp": 1789489072.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-53713 - Envoy Gateway: Authentication Bypass via Improper Input Validation in EnvoyExtensionPolicy Lua Allows Secret Disclosure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-53713",
-      "summary": "CVE ID :CVE-2026-53713\n  \n  Published : Sept. 14, 2026, 9:17 p.m. | 3\u00a0hours, 37\u00a0minutes ago\n  \n  Description :Envoy Gateway is an open source project ...",
-      "timestamp": 1789420632.0,
+      "title": "CVE-2026-91955 - FreeRDP before 3.31.0 Denial of Service via Desktop Dimensions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91955",
+      "summary": "CVE ID :CVE-2026-91955\n  \n  Published : Sept. 15, 2026, 4:17 p.m. | 26\u00a0minutes ago\n  \n  Description :FreeRDP before 3.31.0 fails to validate client-su...",
+      "timestamp": 1789489069.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "BambooToken malware controls Windows and Linux systems via MQTT",
+      "link": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
+      "summary": "A previously unknown malware framework called BambooToken, active since at least 2023, is now using the Message Queuing Telemetry Transport (MQTT) pro...",
+      "timestamp": 1789484400.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehens...",
+      "timestamp": 1789484118.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Hackers target WordPress sites via third-party WooCommerce plugin",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
+      "summary": "Hackers are actively exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture premium plugin for WordPress to upload a PHP backdo...",
+      "timestamp": 1789483510.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "What Zero-Day Response Should Be in the Post-Mythos Era",
+      "link": "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
+      "summary": "AI is shrinking the time between vulnerability disclosure and exploitation, leaving defenders less time to wait for patches or public exploits. Picus ...",
+      "timestamp": 1789479954.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned security teams that ransomware gangs have now joined ongoing attacks exploitin...",
+      "timestamp": 1789474592.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Suspected Black Axe gang leaders face cybercrime charges in the US",
+      "link": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
+      "summary": "Five alleged leaders of the Black Axe cybercrime syndicate, known for its involvement in global-scale cyber-enabled financial fraud, have been extradi...",
+      "timestamp": 1789465825.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
+      "summary": "Microsoft has confirmed that copy and paste may silently fail for some Excel users after installing the September 2026 KB5002914 security update. [......",
+      "timestamp": 1789461620.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
+      "summary": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]",
+      "timestamp": 1789457469.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Microsoft releases emergency Windows updates to fix RDS failures",
@@ -151,38 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/",
       "summary": "Japan's Digital Agency has discovered a data breach that may have exposed around 246,000 record rows containing personal information of government emp...",
       "timestamp": 1789418162.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Homebrew 7.0.0 gets built-in GUI, better security controls",
-      "link": "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/",
-      "summary": "Homebrew package manager version 7.0.0 has been released with a built-in vulnerability scanner, stronger security controls, and the full release of it...",
-      "timestamp": 1789415464.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Twitch extension with 30K installs exposes users\u2019 OAuth tokens",
-      "link": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
-      "summary": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth session to...",
-      "timestamp": 1789412631.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
-      "summary": "Hackers compromised HBO Max's official Reddit account and used it to push malicious ads that launched ClickFix attacks to infect Windows and macOS dev...",
-      "timestamp": 1789410856.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
-      "summary": "A mass-scanning campaign targeting internet-exposed Vite development servers is attempting to steal cloud credentials and configurations from AWS and ...",
-      "timestamp": 1789402558.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -203,40 +243,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "Why Patch Automation Needs Brakes, Not Just an Accelerator",
-      "link": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/",
-      "summary": "Patch automation can help IT teams keep pace with growing update volumes, but deploying faster also means bad updates can spread faster. Action1 expla...",
-      "timestamp": 1789394471.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/",
-      "summary": "Attackers can combine social engineering with malicious OAuth applications to gain access to Google Workspace data without relying solely on stolen pa...",
-      "timestamp": 1789388123.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft: September updates cause RDS failures on Windows Server",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
-      "summary": "Microsoft has confirmed reports that the September 2026 security updates cause Remote Desktop Services (RDS) failures on Windows Server systems. [...]",
-      "timestamp": 1789379425.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Revolut discloses data breach exposing financial info, passports",
-      "link": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
-      "summary": "Fintech company Revolut has disclosed a data breach after sharing data from an undisclosed number of customers with a threat actor impersonating a gov...",
-      "timestamp": 1789375704.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -251,24 +259,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
+      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -283,12 +275,20 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehens...",
-      "timestamp": 1789142015.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
+      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
     },
     {
       "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
@@ -297,6 +297,22 @@
       "timestamp": 1788969643.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
+    },
+    {
+      "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
     },
     {
       "title": "CVE-2026-0308 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
@@ -309,22 +325,6 @@
     {
       "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0309 PAN-OS: Authenticated Command Injection in CLI with Luna HSM Configuration (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0309",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -369,31 +369,7 @@
       "timestamp": 1788866537.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Advance Notification for Publication of September 2, 2026, Security Advisories",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-f2SiMFxl?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20September%202,%202026,%20Security%20Advisories%26vs_k=1",
-      "summary": "On September 2, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories:\n\n\n\nCisco Security Advisory\nCVE ID\n...",
-      "timestamp": 1788364957.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Desk Phone 9800 Series, IP Phone 7800 and 8800 Series, and Video Phone 8875 with SIP Software Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-phone-dos-txMYNRzv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Desk%20Phone%209800%20Series,%20IP%20Phone%207800%20and%208800%20Series,%20and%20Video%20Phone%208875%20with%20SIP%20Software%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in Cisco Desk Phone 9800 Series, Cisco IP Phone 7800 and 8800 Series, and Cisco Video Phone 8875 that are running Cisco Session Initia...",
-      "timestamp": 1788364800.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Nexus 9000 Series Switches Silicon One Remote Code Execution Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-n9k-s1-rce-EH8dEtr?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Nexus%209000%20Series%20Switches%20Silicon%20One%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the Silicon One integration for Cisco Nexus 9000 Series Switches could allow an unauthenticated, remote attacker to execute code wi...",
-      "timestamp": 1788364800.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1789435656.786585
+  "last_updated": 1789491303.6098695
 }
