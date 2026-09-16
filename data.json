@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 3,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,81 +52,97 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
+      "summary": "",
+      "timestamp": 1789519200.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-15640 - Authentication Bypass via SAML Response Manipulation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15640",
+      "summary": "CVE ID :CVE-2026-15640\n  \n  Published : Sept. 16, 2026, 12:17 a.m. | 38\u00a0minutes ago\n  \n  Description :Under certain conditions a valid SAML IdP respon...",
+      "timestamp": 1789517823.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15639 - Reflected Cross-Site Scripting",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15639",
+      "summary": "CVE ID :CVE-2026-15639\n  \n  Published : Sept. 16, 2026, 12:17 a.m. | 38\u00a0minutes ago\n  \n  Description :An attacker can craft a malicious link that, if ...",
+      "timestamp": 1789517823.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15638 - Cryptographic Padding Oracle",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15638",
+      "summary": "CVE ID :CVE-2026-15638\n  \n  Published : Sept. 16, 2026, 12:17 a.m. | 38\u00a0minutes ago\n  \n  Description :An unauthenticated user with access to Secret Se...",
+      "timestamp": 1789517822.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85893 - Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85893",
+      "summary": "CVE ID :CVE-2026-85893\n  \n  Published : Sept. 15, 2026, 11:19 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :Use after free in Microsoft Edge (Chromi...",
+      "timestamp": 1789514352.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-69486 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69486",
+      "summary": "CVE ID :CVE-2026-69486\n  \n  Published : Sept. 15, 2026, 11:17 p.m. | 1\u00a0hour, 37\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Microsoft ...",
+      "timestamp": 1789514261.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-83408 - Vulnerability in the Oracle GraalVM for JDK, Oracl",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83408",
+      "summary": "CVE ID :CVE-2026-83408\n  \n  Published : Sept. 15, 2026, 10:17 p.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle GraalVM for...",
+      "timestamp": 1789510623.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-83357 - Vulnerability in the Oracle GraalVM for JDK, Oracl",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83357",
+      "summary": "CVE ID :CVE-2026-83357\n  \n  Published : Sept. 15, 2026, 10:17 p.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :Vulnerability in the Oracle GraalVM for...",
+      "timestamp": 1789510623.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-81855 - W\u00e4rtsil\u00e4 FOS-Onboard Use of Hard-coded Cryptographic Key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81855",
+      "summary": "CVE ID :CVE-2026-81855\n  \n  Published : Sept. 15, 2026, 10:17 p.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :A hardcoded cryptographic client authen...",
+      "timestamp": 1789510623.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78225 - W\u00e4rtsil\u00e4 FOS-Onboard Use of Hard-coded Cryptographic Key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78225",
+      "summary": "CVE ID :CVE-2026-78225\n  \n  Published : Sept. 15, 2026, 10:17 p.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :A hardcoded cryptographic server key vu...",
+      "timestamp": 1789510622.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-76869 - Netcore NR255-V 1.5.130703 Stack-Based Buffer Overflow in reboot_timer_set.cgi",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-76869",
-      "summary": "CVE ID :CVE-2026-76869\n  \n  Published : Sept. 15, 2026, 9:58 p.m. | 31\u00a0minutes ago\n  \n  Description :Netcore NR255-V version 1.5.130703 contains a sta...",
-      "timestamp": 1789509480.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76866 - Netcore NR255-V 1.5.130703 OS Command Argument Injection via Unquoted DDNS Parameters",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76866",
-      "summary": "CVE ID :CVE-2026-76866\n  \n  Published : Sept. 15, 2026, 9:57 p.m. | 31\u00a0minutes ago\n  \n  Description :Netcore NR255-V firmware version 1.5.130703 build...",
-      "timestamp": 1789509478.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76862 - Netcore NR255-V 1.5.130703 OS Command Argument Injection in Nettools tcpdump Launch Paths",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76862",
-      "summary": "CVE ID :CVE-2026-76862\n  \n  Published : Sept. 15, 2026, 9:57 p.m. | 31\u00a0minutes ago\n  \n  Description :Netcore NR255-V version 1.5.130703 contains an os...",
-      "timestamp": 1789509475.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76861 - Netcore NR255-V 1.5.130703 Stack-Based Buffer Overflow in ntools_tcpdump_start_set.cgi",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76861",
-      "summary": "CVE ID :CVE-2026-76861\n  \n  Published : Sept. 15, 2026, 9:57 p.m. | 31\u00a0minutes ago\n  \n  Description :Netcore NR255-V version 1.5.130703 contains a sta...",
-      "timestamp": 1789509474.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76860 - Netcore NR255-V 1.5.130703 Stack-Based Buffer Overflow in wake_up_set.cgi via MAC and ID Tokenization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76860",
-      "summary": "CVE ID :CVE-2026-76860\n  \n  Published : Sept. 15, 2026, 9:57 p.m. | 31\u00a0minutes ago\n  \n  Description :Netcore NR255-V version 1.5.130703 contains a sta...",
-      "timestamp": 1789509474.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76856 - Netcore NR255-V 1.5.130703 Cross-Site Request Forgery in WAN/LAN Configuration Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76856",
-      "summary": "CVE ID :CVE-2026-76856\n  \n  Published : Sept. 15, 2026, 9:57 p.m. | 31\u00a0minutes ago\n  \n  Description :Netcore NR255-V firmware version 1.5.130703 conta...",
-      "timestamp": 1789509471.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76853 - Netcore NR268 1.7.121109 Security Check Bypass in parame_put_file.cgi",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76853",
-      "summary": "CVE ID :CVE-2026-76853\n  \n  Published : Sept. 15, 2026, 9:57 p.m. | 31\u00a0minutes ago\n  \n  Description :Netcore NR268 firmware version 1.7.121109 contain...",
-      "timestamp": 1789509469.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76852 - Netcore NR268 1.7.121109 Forgeable Firmware Authenticity Check in mtd_write",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76852",
-      "summary": "CVE ID :CVE-2026-76852\n  \n  Published : Sept. 15, 2026, 9:57 p.m. | 31\u00a0minutes ago\n  \n  Description :Netcore NR268 firmware version 1.7.121109 has an ...",
-      "timestamp": 1789509468.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-73807 - mySCADA myPRO Manager Missing Authorization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73807",
-      "summary": "CVE ID :CVE-2026-73807\n  \n  Published : Sept. 15, 2026, 9:42 p.m. | 46\u00a0minutes ago\n  \n  Description :The mySCADA myPRO Manager command API does not pr...",
-      "timestamp": 1789508575.0,
+      "summary": "CVE ID :CVE-2026-76869\n  \n  Published : Sept. 15, 2026, 10:17 p.m. | 2\u00a0hours, 38\u00a0minutes ago\n  \n  Description :Netcore NR255-V version 1.5.130703 cont...",
+      "timestamp": 1789510621.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -137,14 +153,6 @@
       "timestamp": 1789508255.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-81855 - W\u00e4rtsil\u00e4 FOS-Onboard Use of Hard-coded Cryptographic Key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81855",
-      "summary": "CVE ID :CVE-2026-81855\n  \n  Published : Sept. 15, 2026, 9:31 p.m. | 57\u00a0minutes ago\n  \n  Description :A hardcoded cryptographic client authentication k...",
-      "timestamp": 1789507919.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco Integrated Management Controller Argument Injection Vulnerabilities",
@@ -275,24 +283,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -307,6 +307,14 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypa...",
@@ -315,8 +323,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0308 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0308",
+      "title": "CVE-2026-0306 Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0306",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -331,16 +339,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0309 PAN-OS: Authenticated Command Injection in CLI with Luna HSM Configuration (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0309",
-      "summary": "",
-      "timestamp": 1788969600.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
+      "title": "CVE-2026-0308 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0308",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -379,5 +379,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1789513127.0407765
+  "last_updated": 1789521908.9401357
 }
