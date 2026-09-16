@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 5,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 9,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,14 +24,14 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 8,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,68 +59,108 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-92599 - Joi before 17.13.7 and 18.2.6 ReDoS via isoDate",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92599",
+      "summary": "CVE ID :CVE-2026-92599\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :joi (npm package `joi`, hapi.js) versions >=17.2...",
+      "timestamp": 1789597110.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-92598 - Nodemailer before 9.1.0 IDN/Punycode Domain Allow-list Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92598",
+      "summary": "CVE ID :CVE-2026-92598\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :Nodemailer before 9.1.0 fails to apply UTS-46 no...",
+      "timestamp": 1789597110.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-92597 - Nodemailer before 9.1.0 Email Domain Validation Bypass via RFC 5322 Comment",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92597",
+      "summary": "CVE ID :CVE-2026-92597\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :Nodemailer versions >= 6.9.16 and < 9.1.0 mis-pa...",
+      "timestamp": 1789597110.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-92596 - Nodemailer before 9.1.0 Denial of Service via addressparser",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92596",
+      "summary": "CVE ID :CVE-2026-92596\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :Nodemailer before 9.1.0 contains a quadratic tim...",
+      "timestamp": 1789597110.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-92594 - Craft CMS before 5.11.0 Unauthenticated PII Disclosure via GraphQL",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92594",
+      "summary": "CVE ID :CVE-2026-92594\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :Craft CMS 5.0.0-RC1 through versions before 5.11...",
+      "timestamp": 1789597110.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-92593 - Craft CMS 5.10.0 before 5.10.13 Authenticated Remote Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92593",
+      "summary": "CVE ID :CVE-2026-92593\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :Craft CMS versions 5.10.0 through 5.10.12 contai...",
+      "timestamp": 1789597110.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-92592 - Craft CMS before 4.18.6 Remote Code Execution via signed cookie",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92592",
+      "summary": "CVE ID :CVE-2026-92592\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :Craft CMS 4.8.0 through 4.18.5 and 5.0.0 through...",
+      "timestamp": 1789597110.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-92591 - Craft CMS 5.0.0 before 5.10.13 Environment Secret Exposure via Installer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92591",
+      "summary": "CVE ID :CVE-2026-92591\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :Craft CMS 5.0.0 through 5.10.12 treats a databas...",
+      "timestamp": 1789597109.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-92580 - AVideo through 29.0 CloneSite Stored Shell Injection via SSH Password CSRF",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92580",
+      "summary": "CVE ID :CVE-2026-92580\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :In AVideo through 29.0, the CloneSite plugin is ...",
+      "timestamp": 1789597108.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-92578 - WWBN AVideo through 29.0 Authentication Bypass via Stored Password Hash",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92578",
+      "summary": "CVE ID :CVE-2026-92578\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :WWBN AVideo through 29.0 contains an authenticat...",
+      "timestamp": 1789597108.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Windows 11 KB5124008 update breaks domain trust for some users",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
+      "summary": "Microsoft is investigating reports that the Windows 11 KB5124008 security update is breaking domain trust relationships on some enterprise systems, pr...",
+      "timestamp": 1789591169.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Iranian hackers use CHOSEN BRICK Windows malware to spy on targets",
+      "link": "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/",
+      "summary": "Government agencies are warning that Iranian state-linked hackers are using a Windows malware strain named CHOSEN BRICK to target dissidents, activist...",
+      "timestamp": 1789590295.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Malware bypasses browser checks to force install Chrome, Edge extensions",
       "link": "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
       "summary": "A banking malware operation active since mid-2025 has been using a toolkit named KREMLIN to install malicious Chrome and Edge extensions that steal cr...",
       "timestamp": 1789584653.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-92729 - SigNoz 0.88.0 through 0.141.0 - Missing Authentication on Trace Funnel Analytics Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92729",
-      "summary": "CVE ID :CVE-2026-92729\n  \n  Published : Sept. 16, 2026, 6:31 p.m. | 24\u00a0minutes ago\n  \n  Description :SigNoz versions 0.88.0 through 0.141.0 fail to ap...",
-      "timestamp": 1789583479.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92720 - Kubero through 3.1.1 Unauthenticated Notifications API Access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92720",
-      "summary": "CVE ID :CVE-2026-92720\n  \n  Published : Sept. 16, 2026, 6:17 p.m. | 38\u00a0minutes ago\n  \n  Description :Kubero through 3.1.1 fails to apply authenticatio...",
-      "timestamp": 1789582642.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92719 - Quickwit through 0.9.0 SSRF via SQS queue_url Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92719",
-      "summary": "CVE ID :CVE-2026-92719\n  \n  Published : Sept. 16, 2026, 6:17 p.m. | 38\u00a0minutes ago\n  \n  Description :Quickwit through 0.9.0 fails to validate the host...",
-      "timestamp": 1789582642.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92717 - Covenant through 0.6 Missing Authentication on the CovenantHub SignalR Hub",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92717",
-      "summary": "CVE ID :CVE-2026-92717\n  \n  Published : Sept. 16, 2026, 6:17 p.m. | 38\u00a0minutes ago\n  \n  Description :Covenant through 0.6 registers the CovenantHub Si...",
-      "timestamp": 1789582642.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92716 - Shuffle through 2.2.1 API Key Reset Cross-Tenant Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92716",
-      "summary": "CVE ID :CVE-2026-92716\n  \n  Published : Sept. 16, 2026, 6:17 p.m. | 38\u00a0minutes ago\n  \n  Description :Shuffle through 2.2.1 contains a cross-tenant pri...",
-      "timestamp": 1789582642.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92604 - Scirius through 3.8.0 Arbitrary File Write via PCAP Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92604",
-      "summary": "CVE ID :CVE-2026-92604\n  \n  Published : Sept. 16, 2026, 6:17 p.m. | 38\u00a0minutes ago\n  \n  Description :Scirius through 3.8.0 contains an arbitrary file ...",
-      "timestamp": 1789582642.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-47094 - SIMAC MyPHR 1.1 IDOR Account Takeover via /api/employes/put/{id}",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-47094",
-      "summary": "CVE ID :CVE-2026-47094\n  \n  Published : Sept. 16, 2026, 6:17 p.m. | 38\u00a0minutes ago\n  \n  Description :SIMAC MyPHR 1.1 contains an insecure direct objec...",
-      "timestamp": 1789582629.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
@@ -137,30 +177,6 @@
       "timestamp": 1789579601.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-92398 - Ruijie RG-EW3000GX user_list_note admin os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92398",
-      "summary": "CVE ID :CVE-2026-92398\n  \n  Published : Sept. 16, 2026, 5:18 p.m. | 1\u00a0hour, 37\u00a0minutes ago\n  \n  Description :A vulnerability was found in Ruijie RG-EW...",
-      "timestamp": 1789579099.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86359 - Dell Repository Manager Incorrect Default Permissions Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86359",
-      "summary": "CVE ID :CVE-2026-86359\n  \n  Published : Sept. 16, 2026, 5:18 p.m. | 1\u00a0hour, 37\u00a0minutes ago\n  \n  Description :Dell Repository Manager, versions prior t...",
-      "timestamp": 1789579096.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85731 - oras-go: Arbitrary file write outside file.Store root via symlink-chain bypass in tar extraction (pushDir)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85731",
-      "summary": "CVE ID :CVE-2026-85731\n  \n  Published : Sept. 16, 2026, 5:18 p.m. | 1\u00a0hour, 37\u00a0minutes ago\n  \n  Description :oras-go is a Go library for managing OCI ...",
-      "timestamp": 1789579095.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco Advance Notification for Publication of September 16, 2026, Security Advisories",
@@ -299,22 +315,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
-      "link": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
-      "summary": "Acronis disclosed a high-severity Linux local privilege escalation vulnerability in its backup plugin for cPanel, WebHost Manager (WHM), and Plesk tha...",
-      "timestamp": 1789508255.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
-      "link": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
-      "summary": "Malicious versions of the Admin Menu Editor Pro plugin for WordPress have been distributed to more than 200 customers after a threat actor compromised...",
-      "timestamp": 1789504455.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1789589110.2553294
+  "last_updated": 1789599378.2172983
 }
