@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,92 +59,124 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-93426 - SigNoz 0.87.0 before 0.142.0 - SQL Injection in v5 Query Builder Field Key Names",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93426",
+      "summary": "CVE ID :CVE-2026-93426\n  \n  Published : Sept. 17, 2026, 10:17 p.m. | 32\u00a0minutes ago\n  \n  Description :SigNoz versions 0.87.0 before 0.142.0 fail to es...",
+      "timestamp": 1789683424.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76949 - Remember-me sign-in guard reads a session key that is never written in ash_authentication, allowing session replacement",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76949",
+      "summary": "CVE ID :CVE-2026-76949\n  \n  Published : Sept. 17, 2026, 10:17 p.m. | 32\u00a0minutes ago\n  \n  Description :Authentication Bypass by Spoofing vulnerability ...",
+      "timestamp": 1789683423.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54767 - WeGIA: Hardcoded Secret Key Backdoor \u2014 Mass Data Destruction via deletar_socios.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54767",
+      "summary": "CVE ID :CVE-2026-54767\n  \n  Published : Sept. 17, 2026, 10:17 p.m. | 32\u00a0minutes ago\n  \n  Description :WeGIA is a web manager for charitable institutio...",
+      "timestamp": 1789683423.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54734 - Prebid Server Java: Vulnerability to request forgery allows for possible host environment data extraction",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54734",
+      "summary": "CVE ID :CVE-2026-54734\n  \n  Published : Sept. 17, 2026, 10:17 p.m. | 32\u00a0minutes ago\n  \n  Description :Prebid Server Java is the Java version of Prebid...",
+      "timestamp": 1789683423.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54671 - WeGIA: Authorization Bypass via Empty Resource Array in InternoControle",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54671",
+      "summary": "CVE ID :CVE-2026-54671\n  \n  Published : Sept. 17, 2026, 10:17 p.m. | 32\u00a0minutes ago\n  \n  Description :WeGIA is a web manager for charitable institutio...",
+      "timestamp": 1789683423.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54670 - WeGIA: Unauthenticated Auth Bypass + Local File Inclusion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54670",
+      "summary": "CVE ID :CVE-2026-54670\n  \n  Published : Sept. 17, 2026, 10:17 p.m. | 32\u00a0minutes ago\n  \n  Description :WeGIA is a web manager for charitable institutio...",
+      "timestamp": 1789683422.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54612 - Vvveb: Authenticated editor path traversal to PHP file write/RCE via data-v-save-global",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54612",
+      "summary": "CVE ID :CVE-2026-54612\n  \n  Published : Sept. 17, 2026, 10:17 p.m. | 32\u00a0minutes ago\n  \n  Description :Vvveb is a powerful and easy to use CMS with pag...",
+      "timestamp": 1789683421.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54520 - AI Agent Automation: Workflow file step path traversal allows read and write outside the expected directory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54520",
+      "summary": "CVE ID :CVE-2026-54520\n  \n  Published : Sept. 17, 2026, 10:17 p.m. | 32\u00a0minutes ago\n  \n  Description :AI Agent Automation is a modular AI agent workfl...",
+      "timestamp": 1789683421.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54519 - AI Agent Automation: Missing ownership checks in memory APIs allow cross-user memory read and deletion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54519",
+      "summary": "CVE ID :CVE-2026-54519\n  \n  Published : Sept. 17, 2026, 10:17 p.m. | 32\u00a0minutes ago\n  \n  Description :AI Agent Automation is a modular AI agent workfl...",
+      "timestamp": 1789683420.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-54507 - Vvveb oEmbedProxy vulnerable to server-side request forgery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54507",
+      "summary": "CVE ID :CVE-2026-54507\n  \n  Published : Sept. 17, 2026, 10:17 p.m. | 32\u00a0minutes ago\n  \n  Description :Vvveb is a powerful and easy to use CMS with pag...",
+      "timestamp": 1789683420.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "New RatHat Android malware uses AI to automate device control",
+      "link": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
+      "summary": "A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromis...",
+      "timestamp": 1789681826.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehens...",
+      "timestamp": 1789679608.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "OpenAI details more cases of AI agents taking unauthorized actions",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
+      "summary": "OpenAI has presented new examples of what they call \"AI model misalignment\"\u00a0from the past six months,\u00a0including unauthorized file uploads, following s...",
+      "timestamp": 1789671312.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
+      "link": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
+      "summary": "Brevo confirmed that attackers stole a Cloudflare API key and used it to inject malicious ClickFix scripts into its websites and JavaScript files embe...",
+      "timestamp": 1789665094.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Cisco Secure Email Gateway SQL Injection Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20SQL%20Injection%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execu...",
       "timestamp": 1789663632.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "CVE-2026-28326 - SolarWinds Access Rights Manager Unauthenticated Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-28326",
-      "summary": "CVE ID :CVE-2026-28326\n  \n  Published : Sept. 17, 2026, 4:30 p.m. | 14\u00a0minutes ago\n  \n  Description :SolarWinds Access Rights Manager was reported to ...",
-      "timestamp": 1789662631.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-93292 - SigNoz 0.88.0 before 0.142.1 - SQL Injection in Trace Funnel Analytics Query Builders",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93292",
-      "summary": "CVE ID :CVE-2026-93292\n  \n  Published : Sept. 17, 2026, 4:26 p.m. | 18\u00a0minutes ago\n  \n  Description :SigNoz versions from 0.88.0 before 0.142.1 contai...",
-      "timestamp": 1789662402.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-91039 - dynamic_oidc identities are not namespaced by connection in ash_authentication, allowing cross-connection account takeover",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91039",
-      "summary": "CVE ID :CVE-2026-91039\n  \n  Published : Sept. 17, 2026, 4:18 p.m. | 26\u00a0minutes ago\n  \n  Description :Authentication Bypass by Spoofing vulnerability i...",
-      "timestamp": 1789661908.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-89036 - Appwrite < 2.0.0 Argument Injection via providerRootDirectory Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89036",
-      "summary": "CVE ID :CVE-2026-89036\n  \n  Published : Sept. 17, 2026, 4:18 p.m. | 26\u00a0minutes ago\n  \n  Description :Appwrite before 2.0.0 contains an argument inject...",
-      "timestamp": 1789661908.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86864 - pgAdmin 4: Argument and connection-string injection via the database field in the Backup tool",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86864",
-      "summary": "CVE ID :CVE-2026-86864\n  \n  Published : Sept. 17, 2026, 4:18 p.m. | 27\u00a0minutes ago\n  \n  Description :pgAdmin 4's Backup tool appended the client-suppl...",
-      "timestamp": 1789661898.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86863 - pgAdmin 4: Authentication bypass via a client-controlled identity header in Webserver authentication mode",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86863",
-      "summary": "CVE ID :CVE-2026-86863\n  \n  Published : Sept. 17, 2026, 4:18 p.m. | 27\u00a0minutes ago\n  \n  Description :pgAdmin 4's Webserver authentication source is in...",
-      "timestamp": 1789661897.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86039 - libp2p: PeerStore accepts attacker-signed PeerRecords for a victim peer ID and stores certified attacker addresses",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86039",
-      "summary": "CVE ID :CVE-2026-86039\n  \n  Published : Sept. 17, 2026, 4:18 p.m. | 27\u00a0minutes ago\n  \n  Description :libp2p is a JavaScript implementation of the libp...",
-      "timestamp": 1789661897.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76834 - b2evolution CMS 6.7.8 through 7.2.5 Object Injection via Negative Integer Array Key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76834",
-      "summary": "CVE ID :CVE-2026-76834\n  \n  Published : Sept. 17, 2026, 4:17 p.m. | 27\u00a0minutes ago\n  \n  Description :b2evolution CMS versions 6.7.8 through 7.2.5 cont...",
-      "timestamp": 1789661862.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-69197 - Umbraco: Delivery API leaks protected (Public Access) content through Content Picker / Multi-Node Tree Picker expansion",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69197",
-      "summary": "CVE ID :CVE-2026-69197\n  \n  Published : Sept. 17, 2026, 4:17 p.m. | 27\u00a0minutes ago\n  \n  Description :Umbraco is an ASP.NET CMS. Prior to 13.15.1, 17.5...",
-      "timestamp": 1789661861.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-56795 - Dell Server Update Utility Uncontrolled Search Path Element Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56795",
-      "summary": "CVE ID :CVE-2026-56795\n  \n  Published : Sept. 17, 2026, 4:17 p.m. | 27\u00a0minutes ago\n  \n  Description :Dell Server Update Utility, versions prior to 26....",
-      "timestamp": 1789661851.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
@@ -199,30 +231,6 @@
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/",
       "summary": "Anthropic is testing a new personal finance feature called\u00a0\"Claude Money\" that will allow you to connect your bank accounts directly to Claude and \"un...",
       "timestamp": 1789605348.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Windows 11 KB5124008 update breaks domain trust for some users",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
-      "summary": "Microsoft is investigating reports that the Windows 11 KB5124008 security update is breaking domain trust relationships on some enterprise systems, pr...",
-      "timestamp": 1789591169.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Iranian hackers use CHOSEN BRICK Windows malware to spy on targets",
-      "link": "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/",
-      "summary": "Government agencies are warning that Iranian state-linked hackers are using a Windows malware strain named CHOSEN BRICK to target dissidents, activist...",
-      "timestamp": 1789590295.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Malware bypasses browser checks to force install Chrome, Edge extensions",
-      "link": "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
-      "summary": "A banking malware operation active since mid-2025 has been using a toolkit named KREMLIN to install malicious Chrome and Edge extensions that steal cr...",
-      "timestamp": 1789584653.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -299,14 +307,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "Cisco Identity Services Engine Authenticated Remote Code Execution and API Vulnerabilities",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-mult-vul-ymSsTLCc?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authenticated%20Remote%20Code%20Execution%20and%20API%20Vulnerabilities%26vs_k=1",
-      "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) could allow an authenticated, remote attacker to conduct SQL injections, modify data,...",
-      "timestamp": 1789574400.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
       "summary": "",
@@ -315,8 +315,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -339,8 +339,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
+      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -355,18 +355,10 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
-      "summary": "",
-      "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
@@ -379,8 +371,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
+      "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
+      "summary": "",
+      "timestamp": 1788969600.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0309 PAN-OS: Authenticated Command Injection in CLI with Luna HSM Configuration (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0309",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1789664127.502531
+  "last_updated": 1789686443.7361608
 }
