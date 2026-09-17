@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,32 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Anthropic wants Claude to analyze your bank account and financial data",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/",
+      "summary": "Anthropic is testing a new personal finance feature called\u00a0\"Claude Money\" that will allow you to connect your bank accounts directly to Claude and \"un...",
+      "timestamp": 1789605348.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-61599 - djust has an unauthenticated arbitrary module import via the WebSocket/SSE view-mount path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61599",
+      "summary": "CVE ID :CVE-2026-61599\n  \n  Published : Sept. 16, 2026, 11:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :djust provides Phoenix LiveView-style reac...",
+      "timestamp": 1789600614.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-92599 - Joi before 17.13.7 and 18.2.6 ReDoS via isoDate",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-92599",
-      "summary": "CVE ID :CVE-2026-92599\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :joi (npm package `joi`, hapi.js) versions >=17.2...",
+      "summary": "CVE ID :CVE-2026-92599\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :joi (npm package `joi`, hapi.js) version...",
       "timestamp": 1789597110.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +85,7 @@
     {
       "title": "CVE-2026-92598 - Nodemailer before 9.1.0 IDN/Punycode Domain Allow-list Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-92598",
-      "summary": "CVE ID :CVE-2026-92598\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :Nodemailer before 9.1.0 fails to apply UTS-46 no...",
+      "summary": "CVE ID :CVE-2026-92598\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Nodemailer before 9.1.0 fails to apply U...",
       "timestamp": 1789597110.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +93,7 @@
     {
       "title": "CVE-2026-92597 - Nodemailer before 9.1.0 Email Domain Validation Bypass via RFC 5322 Comment",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-92597",
-      "summary": "CVE ID :CVE-2026-92597\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :Nodemailer versions >= 6.9.16 and < 9.1.0 mis-pa...",
+      "summary": "CVE ID :CVE-2026-92597\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Nodemailer versions >= 6.9.16 and < 9.1....",
       "timestamp": 1789597110.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +101,7 @@
     {
       "title": "CVE-2026-92596 - Nodemailer before 9.1.0 Denial of Service via addressparser",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-92596",
-      "summary": "CVE ID :CVE-2026-92596\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :Nodemailer before 9.1.0 contains a quadratic tim...",
+      "summary": "CVE ID :CVE-2026-92596\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Nodemailer before 9.1.0 contains a quadr...",
       "timestamp": 1789597110.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +109,7 @@
     {
       "title": "CVE-2026-92594 - Craft CMS before 5.11.0 Unauthenticated PII Disclosure via GraphQL",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-92594",
-      "summary": "CVE ID :CVE-2026-92594\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :Craft CMS 5.0.0-RC1 through versions before 5.11...",
+      "summary": "CVE ID :CVE-2026-92594\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Craft CMS 5.0.0-RC1 through versions bef...",
       "timestamp": 1789597110.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +117,7 @@
     {
       "title": "CVE-2026-92593 - Craft CMS 5.10.0 before 5.10.13 Authenticated Remote Code Execution",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-92593",
-      "summary": "CVE ID :CVE-2026-92593\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :Craft CMS versions 5.10.0 through 5.10.12 contai...",
+      "summary": "CVE ID :CVE-2026-92593\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Craft CMS versions 5.10.0 through 5.10.1...",
       "timestamp": 1789597110.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +125,7 @@
     {
       "title": "CVE-2026-92592 - Craft CMS before 4.18.6 Remote Code Execution via signed cookie",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-92592",
-      "summary": "CVE ID :CVE-2026-92592\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :Craft CMS 4.8.0 through 4.18.5 and 5.0.0 through...",
+      "summary": "CVE ID :CVE-2026-92592\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Craft CMS 4.8.0 through 4.18.5 and 5.0.0...",
       "timestamp": 1789597110.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +133,7 @@
     {
       "title": "CVE-2026-92591 - Craft CMS 5.0.0 before 5.10.13 Environment Secret Exposure via Installer",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-92591",
-      "summary": "CVE ID :CVE-2026-92591\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :Craft CMS 5.0.0 through 5.10.12 treats a databas...",
+      "summary": "CVE ID :CVE-2026-92591\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Craft CMS 5.0.0 through 5.10.12 treats a...",
       "timestamp": 1789597109.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -125,15 +141,7 @@
     {
       "title": "CVE-2026-92580 - AVideo through 29.0 CloneSite Stored Shell Injection via SSH Password CSRF",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-92580",
-      "summary": "CVE ID :CVE-2026-92580\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :In AVideo through 29.0, the CloneSite plugin is ...",
-      "timestamp": 1789597108.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92578 - WWBN AVideo through 29.0 Authentication Bypass via Stored Password Hash",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92578",
-      "summary": "CVE ID :CVE-2026-92578\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 26\u00a0minutes ago\n  \n  Description :WWBN AVideo through 29.0 contains an authenticat...",
+      "summary": "CVE ID :CVE-2026-92580\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :In AVideo through 29.0, the CloneSite pl...",
       "timestamp": 1789597108.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -299,14 +307,6 @@
       "vendor": "News"
     },
     {
-      "title": "Google fixes actively exploited Android zero-day on Pixel devices",
-      "link": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
-      "summary": "Google has released the September 2026 security patches to address 110 vulnerabilities affecting its Pixel devices, including one zero-day flaw active...",
-      "timestamp": 1789542019.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
       "summary": "",
@@ -315,16 +315,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -339,16 +331,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -363,8 +347,24 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0306 Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0306",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1789599378.2172983
+  "last_updated": 1789608167.4202256
 }
