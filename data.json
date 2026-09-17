@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,108 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "US takes down NightmareStresser DDoS-for-hire platform",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) seized the domains used by NightmareStresser, one of the world's longest-running distributed denial-of-...",
+      "timestamp": 1789644815.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-92903 - Improper Input Validation in Snowflake CLI Versions Allow Unsanitized User-Controlled Values to be Interpolated into SQL Strings",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92903",
+      "summary": "CVE ID :CVE-2026-92903\n  \n  Published : Sept. 17, 2026, 10:49 a.m. | 26\u00a0minutes ago\n  \n  Description :Improper input validation in Snowflake CLI versi...",
+      "timestamp": 1789642199.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-78428 - Flaw in Nuevector can result in one user receiving another user's authenticated session when multiple SSO login attempts occur concurrently",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78428",
+      "summary": "CVE ID :CVE-2026-78428\n  \n  Published : Sept. 17, 2026, 10:17 a.m. | 59\u00a0minutes ago\n  \n  Description :For users authenticated through SAML or OpenID C...",
+      "timestamp": 1789640223.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-15688 - Password Authentication Bypass Vulnerability in GX Works3 and Motion Control Setting",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15688",
+      "summary": "CVE ID :CVE-2026-15688\n  \n  Published : Sept. 17, 2026, 9:16 a.m. | 2\u00a0hours ago\n  \n  Description :Incorrect Implementation of Authentication Algorithm...",
+      "timestamp": 1789636599.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Chinese hackers use SparroWocky malware in govt espionage attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/",
+      "summary": "The China-linked espionage group FamousSparrow has been using a new backdoor named SparroWocky in attacks on government organizations in Latin America...",
+      "timestamp": 1789635600.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft shares workaround for Windows domain login issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-workaround-for-windows-domain-login-authentication-issues/",
+      "summary": "Microsoft shared a temporary fix on Wednesday for\u00a0a known issue that prevents Windows 11 users from logging in with valid domain credentials after ins...",
+      "timestamp": 1789633488.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco warns of max severity ISE zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-identity-service-engine-zero-day-exploited-in-attacks/",
+      "summary": "Cisco has released security updates to address a maximum-severity Identity Services Engine vulnerability that attackers are actively exploiting in the...",
+      "timestamp": 1789629654.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-87963 - Yo 1.1 - 1.3.1 - Unauthenticated SQL Injection via username Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87963",
+      "summary": "CVE ID :CVE-2026-87963\n  \n  Published : Sept. 17, 2026, 7:16 a.m. | 4\u00a0hours ago\n  \n  Description :The Yo WordPress plugin from 1.1 through 1.3.1 does ...",
+      "timestamp": 1789629388.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86801 - To Do List Member 1.4 - 1.6 - Unauthenticated Stored XSS, File Listing and Deletion via Unprotected Upload Handler",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86801",
+      "summary": "CVE ID :CVE-2026-86801\n  \n  Published : Sept. 17, 2026, 7:16 a.m. | 4\u00a0hours ago\n  \n  Description :The To Do List Member WordPress plugin from 1.4 thro...",
+      "timestamp": 1789629388.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-87935 - Paid Downloads <= 3.15 - Unauthenticated Arbitrary File Upload via 'paiddownloads_update_file' Action",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87935",
+      "summary": "CVE ID :CVE-2026-87935\n  \n  Published : Sept. 17, 2026, 5:17 a.m. | 5\u00a0hours, 59\u00a0minutes ago\n  \n  Description :The Paid Downloads plugin for WordPress ...",
+      "timestamp": 1789622222.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-87796 - Multi Uploader for Gravity Forms <= 1.1.9 - Unauthenticated Arbitrary File Upload via Chunked File Upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87796",
+      "summary": "CVE ID :CVE-2026-87796\n  \n  Published : Sept. 17, 2026, 5:17 a.m. | 5\u00a0hours, 59\u00a0minutes ago\n  \n  Description :The Multi Uploader for Gravity Forms plu...",
+      "timestamp": 1789622222.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-25283 - Stack-based Buffer Overflow in OOBM",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-25283",
+      "summary": "CVE ID :CVE-2026-25283\n  \n  Published : Sept. 17, 2026, 5:17 a.m. | 5\u00a0hours, 59\u00a0minutes ago\n  \n  Description :Memory Corruption when copying unverifie...",
+      "timestamp": 1789622221.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Anthropic wants Claude to analyze your bank account and financial data",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/",
@@ -69,7 +165,7 @@
     {
       "title": "CVE-2026-61599 - djust has an unauthenticated arbitrary module import via the WebSocket/SSE view-mount path",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-61599",
-      "summary": "CVE ID :CVE-2026-61599\n  \n  Published : Sept. 16, 2026, 11:16 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :djust provides Phoenix LiveView-style reac...",
+      "summary": "CVE ID :CVE-2026-61599\n  \n  Published : Sept. 16, 2026, 11:16 p.m. | 11\u00a0hours, 59\u00a0minutes ago\n  \n  Description :djust provides Phoenix LiveView-style ...",
       "timestamp": 1789600614.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,72 +173,8 @@
     {
       "title": "CVE-2026-92599 - Joi before 17.13.7 and 18.2.6 ReDoS via isoDate",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-92599",
-      "summary": "CVE ID :CVE-2026-92599\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :joi (npm package `joi`, hapi.js) version...",
+      "summary": "CVE ID :CVE-2026-92599\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 12\u00a0hours, 58\u00a0minutes ago\n  \n  Description :joi (npm package `joi`, hapi.js) versi...",
       "timestamp": 1789597110.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92598 - Nodemailer before 9.1.0 IDN/Punycode Domain Allow-list Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92598",
-      "summary": "CVE ID :CVE-2026-92598\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Nodemailer before 9.1.0 fails to apply U...",
-      "timestamp": 1789597110.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92597 - Nodemailer before 9.1.0 Email Domain Validation Bypass via RFC 5322 Comment",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92597",
-      "summary": "CVE ID :CVE-2026-92597\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Nodemailer versions >= 6.9.16 and < 9.1....",
-      "timestamp": 1789597110.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92596 - Nodemailer before 9.1.0 Denial of Service via addressparser",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92596",
-      "summary": "CVE ID :CVE-2026-92596\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Nodemailer before 9.1.0 contains a quadr...",
-      "timestamp": 1789597110.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92594 - Craft CMS before 5.11.0 Unauthenticated PII Disclosure via GraphQL",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92594",
-      "summary": "CVE ID :CVE-2026-92594\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Craft CMS 5.0.0-RC1 through versions bef...",
-      "timestamp": 1789597110.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92593 - Craft CMS 5.10.0 before 5.10.13 Authenticated Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92593",
-      "summary": "CVE ID :CVE-2026-92593\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Craft CMS versions 5.10.0 through 5.10.1...",
-      "timestamp": 1789597110.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92592 - Craft CMS before 4.18.6 Remote Code Execution via signed cookie",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92592",
-      "summary": "CVE ID :CVE-2026-92592\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Craft CMS 4.8.0 through 4.18.5 and 5.0.0...",
-      "timestamp": 1789597110.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92591 - Craft CMS 5.0.0 before 5.10.13 Environment Secret Exposure via Installer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92591",
-      "summary": "CVE ID :CVE-2026-92591\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :Craft CMS 5.0.0 through 5.10.12 treats a...",
-      "timestamp": 1789597109.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92580 - AVideo through 29.0 CloneSite Stored Shell Injection via SSH Password CSRF",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92580",
-      "summary": "CVE ID :CVE-2026-92580\n  \n  Published : Sept. 16, 2026, 10:18 p.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :In AVideo through 29.0, the CloneSite pl...",
-      "timestamp": 1789597108.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -275,38 +307,6 @@
       "vendor": "News"
     },
     {
-      "title": "Microsoft says Copilot buttons still missing in classic Outlook",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-missing-outlook-copilot-buttons/",
-      "summary": "Microsoft says it's still investigating a known issue that causes the Copilot and Copilot Chat buttons in Classic Outlook to disappear for some Window...",
-      "timestamp": 1789560992.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Webinar: What happens in the first hours of a Google Workspace breach",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/",
-      "summary": "The first hours after discovering a Google Workspace breach can determine how an incident unfolds. This webinar examines real-world breaches to show w...",
-      "timestamp": 1789560679.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Critical ScreenConnect flaw now actively exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/",
-      "summary": "Attackers now exploit\u00a0a critical-severity ConnectWise ScreenConnect vulnerability in the wild, according to the U.S. Cybersecurity and Infrastructure ...",
-      "timestamp": 1789557268.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Windows Server 2022 reaches end of mainstream support next month",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-next-month/",
-      "summary": "Microsoft has reminded customers that Windows Server 2022 will reach the end of mainstream support next month and enter extended support until October...",
-      "timestamp": 1789549820.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
       "summary": "",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1789608167.4202256
+  "last_updated": 1789646686.4434044
 }
