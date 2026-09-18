@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 0,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,12 +59,188 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-15579 - Ethernet Switch Web Interface Buffer Overflow Denial of Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15579",
-      "summary": "CVE ID :CVE-2026-15579\n  \n  Published : Sept. 18, 2026, 10:17 a.m. | 39\u00a0minutes ago\n  \n  Description :An out-of-bounds write vulnerability exists in s...",
-      "timestamp": 1789726624.0,
+      "title": "CVE-2026-93762 - Data deletion and attribute disclosure via field-name method injection in in-memory queries",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93762",
+      "summary": "CVE ID :CVE-2026-93762\n  \n  Published : Sept. 18, 2026, 6:18 p.m. | 27\u00a0minutes ago\n  \n  Description :Mongoid contains an unsafe reflection weakness in...",
+      "timestamp": 1789755515.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93761 - Denial of service via unbounded regex matching in Mongoid's in-memory query matcher",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93761",
+      "summary": "CVE ID :CVE-2026-93761\n  \n  Published : Sept. 18, 2026, 6:18 p.m. | 27\u00a0minutes ago\n  \n  Description :An inefficient regular expression complexity issu...",
+      "timestamp": 1789755514.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93760 - NoSQL injection of JavaScript-executing query operators via unsafe-by-default operator guard",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93760",
+      "summary": "CVE ID :CVE-2026-93760\n  \n  Published : Sept. 18, 2026, 6:18 p.m. | 27\u00a0minutes ago\n  \n  Description :Mongoid does not restrict which query operators m...",
+      "timestamp": 1789755514.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93759 - Server-side JavaScript injection via string query criteria bypassing the strict operator allowlist",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93759",
+      "summary": "CVE ID :CVE-2026-93759\n  \n  Published : Sept. 18, 2026, 6:18 p.m. | 27\u00a0minutes ago\n  \n  Description :Mongoid does not neutralize a string-typed query ...",
+      "timestamp": 1789755514.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93753 - deepmerge through 4.3.1 Prototype Poisoning via mergeObject",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93753",
+      "summary": "CVE ID :CVE-2026-93753\n  \n  Published : Sept. 18, 2026, 6:18 p.m. | 27\u00a0minutes ago\n  \n  Description :deepmerge through 4.3.1 contains a prototype pois...",
+      "timestamp": 1789755514.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93752 - CSSOM through 0.5.0 Denial of Service via length Property",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93752",
+      "summary": "CVE ID :CVE-2026-93752\n  \n  Published : Sept. 18, 2026, 6:18 p.m. | 27\u00a0minutes ago\n  \n  Description :CSSOM through 0.5.0 contains a denial of service ...",
+      "timestamp": 1789755514.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93750 - http-cache-semantics through 4.2.0 Cross-Client Cache Disclosure via Vary Wildcard",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93750",
+      "summary": "CVE ID :CVE-2026-93750\n  \n  Published : Sept. 18, 2026, 6:18 p.m. | 27\u00a0minutes ago\n  \n  Description :http-cache-semantics through 4.2.0 contains a cac...",
+      "timestamp": 1789755513.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93749 - source-map-js through 1.2.1 Event Loop Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93749",
+      "summary": "CVE ID :CVE-2026-93749\n  \n  Published : Sept. 18, 2026, 6:18 p.m. | 27\u00a0minutes ago\n  \n  Description :source-map-js through 1.2.1 fails to validate the...",
+      "timestamp": 1789755513.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93748 - http-cache-semantics through 4.2.0 Cross-User Cache Disclosure via max-stale",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93748",
+      "summary": "CVE ID :CVE-2026-93748\n  \n  Published : Sept. 18, 2026, 6:18 p.m. | 27\u00a0minutes ago\n  \n  Description :http-cache-semantics through 4.2.0 fails to prope...",
+      "timestamp": 1789755513.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-92702 - Cocos AI: Intra-handshake attested TLS implementation can accept Evidence with nil, empty, or omitted reportData in the AMD SEV-SNP path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92702",
+      "summary": "CVE ID :CVE-2026-92702\n  \n  Published : Sept. 18, 2026, 6:18 p.m. | 27\u00a0minutes ago\n  \n  Description :Cocos AI is a confidential computing system for r...",
+      "timestamp": 1789755496.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Gyazo server flaw exploited to steal 23.6 million user records",
+      "link": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
+      "summary": "The Gyazo image-sharing platform has confirmed it suffered a data breach after hackers exploited a server vulnerability that allowed them to steal 23....",
+      "timestamp": 1789747238.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Logging Denial of Service Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ftd-logging-dos-ZXXNesfN?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Logging%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the system rate-limiting process for syslog message 419002 of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and ...",
+      "timestamp": 1789746656.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Secure Firewall Adaptive Security Appliance, Secure Firewall Threat Defense, and Secure Firewall Management Center Software Hardening Release: September 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-asaftdfmc-uvpPROhN?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance,%20Secure%20Firewall%20Threat%20Defense,%20and%20Secure%20Firewall%20Management%20Center%20Software%20Hardening%20Release:%20September%202026%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Firewall Adaptive Security Appliance (ASA) Software,...",
+      "timestamp": 1789746633.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software for Secure Firewall 3100 and 4200 Series DTLS Denial of Service Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-dtls-dos-Kp57HkyO?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20for%20Secure%20Firewall%203100%20and%204200%20Series%20DTLS%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in Datagram TLS (DTLS) message handling of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall ...",
+      "timestamp": 1789746631.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software IKEv2 Certificate Authentication Denial of Service Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ikev2cert-dos-uWyc2xtv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20IKEv2%20Certificate%20Authentication%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the certification authentication feature of Internet Key Exchange version 2 (IKEv2)&nbsp;for Cisco Secure Firewall Adaptive Securit...",
+      "timestamp": 1789746630.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Object Group Access Control List Bypass Vulnerabilities",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-acl-bypass-8p6vFvw?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Object%20Group%20Access%20Control%20List%20Bypass%20Vulnerabilities%26vs_k=1",
+      "summary": "Multiple vulnerabilities in the access control list (ACL) Object Group Search (OGS) implementation of Cisco Secure Firewall Adaptive Security Applianc...",
+      "timestamp": 1789746630.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software TCP DNS Denial of Service Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tcpdns-dos-p6dUnjr5?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20TCP%20DNS%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the DNS over TCP implementation of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threa...",
+      "timestamp": 1789746629.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software EIGRP Denial of Service Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-eigrp-dos-GOhNejSj?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20EIGRP%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the EIGRP implementation in Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defen...",
+      "timestamp": 1789746628.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
+      "summary": "An ongoing malware campaign uses SEO-optimized GitHub repositories to impersonate well-known software firms to push a previously undocumented informat...",
+      "timestamp": 1789744746.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Secure enterprise sharing with access reviews for Microsoft 365",
+      "link": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
+      "summary": "Microsoft 365 makes sharing files easy, but access can remain long after its original purpose has ended, leaving organizations with little visibility ...",
+      "timestamp": 1789740010.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft Teams will let admins block custom file extensions",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
+      "summary": "Microsoft Teams will soon let administrators tweak the list of file extensions commonly associated with security threats to meet\u00a0their company's secur...",
+      "timestamp": 1789739920.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Webinar: Which Google Workspace security controls actually matter?",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/",
+      "summary": "Fast-growing companies face countless recommendations for securing Google Workspace, but not every control provides the same value. This webinar exami...",
+      "timestamp": 1789737019.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft fixes bug behind \u2018Defender Antivirus is turned off\u2019 alerts",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
+      "summary": "Microsoft has resolved a known issue that causes incorrect alerts warning that Defender Antivirus was turned off after installing recent updates. [......",
+      "timestamp": 1789733792.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "New Check Point flaw lets hackers execute code with root privileges",
@@ -73,78 +249,6 @@
       "timestamp": 1789724073.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-85410 - Master Addons for Elementor <= 3.2.2 - Missing Authorization to Authenticated (Contributor+) Arbitrary Post Modification/Deletion via 'popup_id' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85410",
-      "summary": "CVE ID :CVE-2026-85410\n  \n  Published : Sept. 18, 2026, 9:16 a.m. | 1\u00a0hour, 40\u00a0minutes ago\n  \n  Description :The Master Addons for Elementor \u2013 Element...",
-      "timestamp": 1789723002.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-6205 - Synology DiskStation Manager Upload API Arbitrary File Write Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-6205",
-      "summary": "CVE ID :CVE-2026-6205\n  \n  Published : Sept. 18, 2026, 9:16 a.m. | 1\u00a0hour, 40\u00a0minutes ago\n  \n  Description :An external control of file name or path v...",
-      "timestamp": 1789723002.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-40530 - Synology DiskStation Manager User API CRLF Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-40530",
-      "summary": "CVE ID :CVE-2026-40530\n  \n  Published : Sept. 18, 2026, 9:16 a.m. | 1\u00a0hour, 40\u00a0minutes ago\n  \n  Description :An improper neutralization of CRLF sequen...",
-      "timestamp": 1789723000.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13684 - Synology DiskStation Manager SCGI Improper Output Neutralization Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13684",
-      "summary": "CVE ID :CVE-2026-13684\n  \n  Published : Sept. 18, 2026, 9:16 a.m. | 1\u00a0hour, 40\u00a0minutes ago\n  \n  Description :An improper encoding or escaping of outpu...",
-      "timestamp": 1789722999.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13673 - Synology DiskStation Manager LDAP API Improper Privilege Management Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13673",
-      "summary": "CVE ID :CVE-2026-13673\n  \n  Published : Sept. 18, 2026, 9:16 a.m. | 1\u00a0hour, 40\u00a0minutes ago\n  \n  Description :An incorrect permission assignment for cr...",
-      "timestamp": 1789722998.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-13639 - Synology DiskStation Manager Insufficient Entropy Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-13639",
-      "summary": "CVE ID :CVE-2026-13639\n  \n  Published : Sept. 18, 2026, 9:16 a.m. | 1\u00a0hour, 40\u00a0minutes ago\n  \n  Description :An insufficient entropy vulnerability in ...",
-      "timestamp": 1789722998.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67102 - HCL BigFix Service Management is affected by multiple security vulnerabilities.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67102",
-      "summary": "CVE ID :CVE-2026-67102\n  \n  Published : Sept. 18, 2026, 8:17 a.m. | 2\u00a0hours, 39\u00a0minutes ago\n  \n  Description :HCL BigFix Service Management is affecte...",
-      "timestamp": 1789719420.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67101 - HCL BigFix Service Management is affected by multiple security vulnerabilities.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67101",
-      "summary": "CVE ID :CVE-2026-67101\n  \n  Published : Sept. 18, 2026, 8:17 a.m. | 2\u00a0hours, 39\u00a0minutes ago\n  \n  Description :HCL BigFix Service Management is affecte...",
-      "timestamp": 1789719420.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67100 - HCL BigFix Service Management is affected by multiple security vulnerabilities.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67100",
-      "summary": "CVE ID :CVE-2026-67100\n  \n  Published : Sept. 18, 2026, 8:17 a.m. | 2\u00a0hours, 39\u00a0minutes ago\n  \n  Description :HCL BigFix Service Management is affecte...",
-      "timestamp": 1789719420.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
@@ -179,60 +283,12 @@
       "vendor": "News"
     },
     {
-      "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
-      "link": "https://www.bleepingcomputer.com/news/security/brevo-supply-chain-attack-injected-clickfix-scripts-on-customer-sites/",
-      "summary": "Brevo confirmed that attackers stole a Cloudflare API key and used it to inject malicious ClickFix scripts into its websites and JavaScript files embe...",
-      "timestamp": 1789665094.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Secure Email Gateway SQL Injection Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20SQL%20Injection%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execu...",
       "timestamp": 1789663632.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "What Recent AI-Powered Attacks Mean for Your Identity Security",
-      "link": "https://www.bleepingcomputer.com/news/security/what-recent-ai-powered-attacks-mean-for-your-identity-security/",
-      "summary": "AI is making credential theft faster and easier to scale, giving attackers more opportunities to abuse valid identities. Specops explains why identity...",
-      "timestamp": 1789653671.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Windows 11 24H2 Home and Pro reach end of support in October",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-october/",
-      "summary": "Microsoft reminded customers this week that devices running Windows 11 24H2 Home and Pro editions will stop receiving updates next month. [...]",
-      "timestamp": 1789650549.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "US takes down NightmareStresser DDoS-for-hire platform",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-seizes-nightmarestresser-service-linked-to-thousands-of-ddos-attacks/",
-      "summary": "The U.S. Federal Bureau of Investigation (FBI) seized the domains used by NightmareStresser, one of the world's longest-running distributed denial-of-...",
-      "timestamp": 1789644815.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Chinese hackers use SparroWocky malware in govt espionage attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/",
-      "summary": "The China-linked espionage group FamousSparrow has been using a new backdoor named SparroWocky in attacks on government organizations in Latin America...",
-      "timestamp": 1789635600.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft shares workaround for Windows domain login issues",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-workaround-for-windows-domain-login-authentication-issues/",
-      "summary": "Microsoft shared a temporary fix on Wednesday for\u00a0a known issue that prevents Windows 11 users from logging in with valid domain credentials after ins...",
-      "timestamp": 1789633488.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
@@ -251,62 +307,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software SSL VPN Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftdvirtual-dos-MuenGnYR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20SSL%20VPN%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "summary": "Update for September 16, 2026: The original 1.0 version of this advisory was specific to the Cisco Adaptive Security Virtual Appliance (ASAv) and Cisc...",
-      "timestamp": 1789574750.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Secure Firewall Management Center Software Static Credential Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Static%20Credential%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to log ...",
-      "timestamp": 1789574747.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-dos-dzv4mQFF?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Remote%20Access%20SSL%20VPN%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the Remote Access SSL VPN service for Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Th...",
-      "timestamp": 1789574742.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Secure Firewall Management Center Software Authentication Bypass Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the web interface of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remote attacker to bypa...",
-      "timestamp": 1789574599.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software for Secure Firewall 3100 and 4200 Series DTLS Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-dtls-dos-Kp57HkyO?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20for%20Secure%20Firewall%203100%20and%204200%20Series%20DTLS%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in Datagram TLS (DTLS) message handling of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall ...",
-      "timestamp": 1789574400.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Secure Firewall Management Center Software Java Deserialization Remote Code Execution Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-javarce-y2NypXwk?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Management%20Center%20Software%20Java%20Deserialization%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the External Database Access feature of Cisco Secure Firewall Management Center (FMC) Software could allow an unauthenticated, remo...",
-      "timestamp": 1789574400.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Identity Services Engine Remote Code Execution Vulnerabilities",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-rce-se7bYU57?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Remote%20Code%20Execution%20Vulnerabilities%26vs_k=1",
-      "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) could allow an authenticated, remote attacker to execute arbitrary commands on the un...",
-      "timestamp": 1789574400.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
       "summary": "",
@@ -315,24 +315,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -347,8 +339,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -363,8 +355,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0306 Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0306",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1789732027.2289128
+  "last_updated": 1789758812.9457877
 }
