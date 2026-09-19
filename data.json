@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,20 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "BragJack attacks hijack AI browser agents through malicious extensions",
+      "link": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
+      "summary": "BragJack, a proof-of-concept attack from Forever Security's Gal Weizman, hijacks the AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and ...",
+      "timestamp": 1789829791.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
       "link": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
@@ -77,14 +85,14 @@
     {
       "title": "CVE-2026-93985 - OpenPanel js-runtime JavaScript Template Sandbox Escape RCE",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-93985",
-      "summary": "CVE ID :CVE-2026-93985\n  \n  Published : Sept. 19, 2026, 12:16 p.m. | 40\u00a0minutes ago\n  \n  Description :OpenPanel js-runtime through commit bad75bdd con...",
+      "summary": "CVE ID :CVE-2026-93985\n  \n  Published : Sept. 19, 2026, 12:16 p.m. | 4\u00a0hours, 40\u00a0minutes ago\n  \n  Description :OpenPanel js-runtime through commit bad...",
       "timestamp": 1789820201.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "Calling viral AI actress Tilly Norwood? Agree to a face scan first",
-      "link": "https://www.bleepingcomputer.com/news/security/calling-viral-ai-actress-tilly-norwood-agree-to-a-face-scan-first/",
+      "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
+      "link": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
       "summary": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call service face-sc...",
       "timestamp": 1789817900.0,
       "source": "BleepingComputer",
@@ -93,7 +101,7 @@
     {
       "title": "CVE-2026-93742 - Totolink A3002MU formWsc command injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-93742",
-      "summary": "CVE ID :CVE-2026-93742\n  \n  Published : Sept. 19, 2026, 9:16 a.m. | 3\u00a0hours, 40\u00a0minutes ago\n  \n  Description :A weakness has been identified in Totoli...",
+      "summary": "CVE ID :CVE-2026-93742\n  \n  Published : Sept. 19, 2026, 9:16 a.m. | 7\u00a0hours, 40\u00a0minutes ago\n  \n  Description :A weakness has been identified in Totoli...",
       "timestamp": 1789809394.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +109,7 @@
     {
       "title": "CVE-2026-85658 - Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content <= 4.17.2 - Authenticated (Subscriber+) Arbitrary Shortcode Execution via 'eup_bio' Biography Field (Entity-Encoded Shortcode Bracket)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-85658",
-      "summary": "CVE ID :CVE-2026-85658\n  \n  Published : Sept. 19, 2026, 8:16 a.m. | 4\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The Paid Membership Plugin, Ecommerce, U...",
+      "summary": "CVE ID :CVE-2026-85658\n  \n  Published : Sept. 19, 2026, 8:16 a.m. | 8\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The Paid Membership Plugin, Ecommerce, U...",
       "timestamp": 1789805814.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,56 +117,56 @@
     {
       "title": "CVE-2026-4327 - The Welcomizer <= 2.8.1 - Missing Authorization to Authenticated (Subscriber+) Remote Code Execution via 'twiz_custom_logic' Parameter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-4327",
-      "summary": "CVE ID :CVE-2026-4327\n  \n  Published : Sept. 19, 2026, 8:16 a.m. | 4\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The The Welcomizer plugin for WordPress i...",
+      "summary": "CVE ID :CVE-2026-4327\n  \n  Published : Sept. 19, 2026, 8:16 a.m. | 8\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The The Welcomizer plugin for WordPress i...",
       "timestamp": 1789805813.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-93741 - Totolink A3002MU formWlWds buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93741",
-      "summary": "CVE ID :CVE-2026-93741\n  \n  Published : Sept. 19, 2026, 6:16 a.m. | 6\u00a0hours, 40\u00a0minutes ago\n  \n  Description :A security flaw has been discovered in T...",
-      "timestamp": 1789798590.0,
+      "title": "CVE-2026-88926 - VikRentItems Flexible Rental Management System < 1.2.4 - Unauthenticated SQLi",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88926",
+      "summary": "CVE ID :CVE-2026-88926\n  \n  Published : Sept. 19, 2026, 7:16 a.m. | 9\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The VikRentItems Flexible Rental Managem...",
+      "timestamp": 1789802193.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-92807 - Save as PDF Plugin by PDFCrowd <= 4.6.1 - Authenticated (Contributor+) Arbitrary Function Invocation / Code Injection via 'pdf_created_callback' Shortcode Attribute",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92807",
-      "summary": "CVE ID :CVE-2026-92807\n  \n  Published : Sept. 19, 2026, 3:17 a.m. | 9\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The Save as PDF Plugin by PDFCrowd plugi...",
-      "timestamp": 1789787837.0,
+      "title": "CVE-2026-88824 - Master Blocks 1.4.1 - 1.4.1.4 - Unauthenticated Stored XSS via White Label Settings",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88824",
+      "summary": "CVE ID :CVE-2026-88824\n  \n  Published : Sept. 19, 2026, 7:16 a.m. | 9\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The Master Blocks  WordPress plugin befo...",
+      "timestamp": 1789802193.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-92229 - Forminator Forms <= 1.57.2 - Unauthenticated Arbitrary Shortcode Execution via 'current_url' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92229",
-      "summary": "CVE ID :CVE-2026-92229\n  \n  Published : Sept. 19, 2026, 3:17 a.m. | 9\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The The Forminator Forms \u2013 Contact Form,...",
-      "timestamp": 1789787837.0,
+      "title": "CVE-2026-86814 - UsersWP - Social Login < 1.5.10 - Unauthenticated Account Takeover via Unverified Provider Email",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86814",
+      "summary": "CVE ID :CVE-2026-86814\n  \n  Published : Sept. 19, 2026, 7:16 a.m. | 9\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The UsersWP  WordPress plugin before 1.5...",
+      "timestamp": 1789802193.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-89274 - WP Recipe Maker <= 10.8.1 - Unauthenticated Arbitrary Shortcode Execution via Recipe Comment Content",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89274",
-      "summary": "CVE ID :CVE-2026-89274\n  \n  Published : Sept. 19, 2026, 3:17 a.m. | 9\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The WP Recipe Maker plugin for WordPress...",
-      "timestamp": 1789787836.0,
+      "title": "CVE-2026-86591 - Botiga Pro < 1.6.5 - Unauthenticated Arbitrary Blog Options Update via Templates Builder REST Route",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86591",
+      "summary": "CVE ID :CVE-2026-86591\n  \n  Published : Sept. 19, 2026, 7:16 a.m. | 9\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The Botiga Pro WordPress plugin before 1...",
+      "timestamp": 1789802193.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-84434 - Gravity Forms <= 3.1.0.4 - Unauthenticated Arbitrary File Upload via Hidden File Upload Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84434",
-      "summary": "CVE ID :CVE-2026-84434\n  \n  Published : Sept. 19, 2026, 3:17 a.m. | 9\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The Gravity Forms plugin for WordPress i...",
-      "timestamp": 1789787835.0,
+      "title": "CVE-2026-85680 - Ultimate Member < 2.13.1 - Unauthenticated Stored XSS via Profile Page Title",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85680",
+      "summary": "CVE ID :CVE-2026-85680\n  \n  Published : Sept. 19, 2026, 7:16 a.m. | 9\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The Ultimate Member  WordPress plugin be...",
+      "timestamp": 1789802192.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-93923 - SiYuan through 3.8.4 Stored XSS via Heading Style Attribute",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93923",
-      "summary": "CVE ID :CVE-2026-93923\n  \n  Published : Sept. 19, 2026, 12:16 a.m. | 12\u00a0hours, 40\u00a0minutes ago\n  \n  Description :SiYuan through 3.8.4 fails to escape h...",
-      "timestamp": 1789777017.0,
+      "title": "CVE-2026-85574 - Unbounce Landing Pages 1.1.1 - 1.1.4 - Subscriber+ Reverse-Proxy Target Hijack via set_unbounce_domains",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85574",
+      "summary": "CVE ID :CVE-2026-85574\n  \n  Published : Sept. 19, 2026, 7:16 a.m. | 9\u00a0hours, 40\u00a0minutes ago\n  \n  Description :The Unbounce Landing Pages WordPress plu...",
+      "timestamp": 1789802192.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -263,14 +271,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
       "summary": "Microsoft has resolved a known issue that causes incorrect alerts warning that Defender Antivirus was turned off after installing recent updates. [......",
       "timestamp": 1789733792.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New Check Point flaw lets hackers execute code with root privileges",
-      "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
-      "summary": "Check Point Software has released security updates to address a critical vulnerability that can let attackers execute code with root privileges on man...",
-      "timestamp": 1789724073.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -403,5 +403,5 @@
       "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1789829400.907384
+  "last_updated": 1789840884.6107264
 }
