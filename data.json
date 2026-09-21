@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 5,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 8,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,60 +59,116 @@
   ],
   "articles": [
     {
+      "title": "CISA alerts of active exploitation of three Linux kernel flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of the...",
+      "timestamp": 1790021537.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-49811 - Dell Command | Monitor Incorrect Permission Assignment Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49811",
+      "summary": "CVE ID :CVE-2026-49811\n  \n  Published : Sept. 21, 2026, 7:38 p.m. | 15\u00a0minutes ago\n  \n  Description :Dell Command | Monitor (DCM), versions prior to 1...",
+      "timestamp": 1790019500.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94501 - jshERP through 3.6 Privilege Escalation via userBusiness CRUD",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94501",
+      "summary": "CVE ID :CVE-2026-94501\n  \n  Published : Sept. 21, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :jshERP through 3.6 contains an authorization bypa...",
+      "timestamp": 1790018241.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94497 - jshERP through 3.6 Unauthorized Access via by-id Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94497",
+      "summary": "CVE ID :CVE-2026-94497\n  \n  Published : Sept. 21, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :jshERP through 3.6 fails to validate object owner...",
+      "timestamp": 1790018241.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94496 - jshERP through 3.6 Privilege Escalation via Role Management",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94496",
+      "summary": "CVE ID :CVE-2026-94496\n  \n  Published : Sept. 21, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :jshERP through 3.6 fails to validate caller permi...",
+      "timestamp": 1790018241.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94412 - jshERP through 3.6 Authorization Bypass via resetPwd",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94412",
+      "summary": "CVE ID :CVE-2026-94412\n  \n  Published : Sept. 21, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :jshERP through 3.6 contains an authorization bypa...",
+      "timestamp": 1790018240.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94411 - jshERP 3.6 Privilege Escalation via updateOneValueByKeyIdAndType",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94411",
+      "summary": "CVE ID :CVE-2026-94411\n  \n  Published : Sept. 21, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :jshERP 3.6 contains a privilege escalation vulner...",
+      "timestamp": 1790018240.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94403 - ColorFul iGameCenter IOCTL ene.sys sub_140001AF0 untrusted pointer dereference",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94403",
+      "summary": "CVE ID :CVE-2026-94403\n  \n  Published : Sept. 21, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :A weakness has been identified in ColorFul iGameC...",
+      "timestamp": 1790018239.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58491 - Warpgate: Reflected XSS in SSO return endpoint via attacker-controlled next parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58491",
+      "summary": "CVE ID :CVE-2026-58491\n  \n  Published : Sept. 21, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :Warpgate is an open source SSH, HTTPS and MySQL b...",
+      "timestamp": 1790018226.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
+      "link": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
+      "summary": "Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dubbed 'Click...",
+      "timestamp": 1790014991.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-94488 - Telegram Desktop Cross-Site Scripting Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94488",
+      "summary": "CVE ID :CVE-2026-94488\n  \n  Published : Sept. 21, 2026, 6:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :Telegram Desktop before 6.9.4 allows XSS ...",
+      "timestamp": 1790014637.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62369 - KubeEdge: keadm DecompressTarGz path traversal enables arbitrary file write on Windows during edge node join",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62369",
+      "summary": "CVE ID :CVE-2026-62369\n  \n  Published : Sept. 21, 2026, 6:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :KubeEdge is an open source system for ext...",
+      "timestamp": 1790014629.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft to retire Microsoft 365 Companion apps in December",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
+      "summary": "Microsoft will retire the Calendar, People, and Files Microsoft 365 companion apps on December 16 and has asked admins to remove them from managed dev...",
+      "timestamp": 1790013289.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Google fined \u20ac403 million over location data privacy violations",
       "link": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
       "summary": "Ireland's Data Protection Commission (DPC) has fined Google \u20ac403 million ($463M) for multiple GDPR violations related to processing users' location da...",
       "timestamp": 1790005282.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-94301 - Apache MINA: CVE-2026-47065 resolveProxyClass fix missing from 2.0.X and 2.1.X branches (2.0.30 / 2.1.14) ZDRES-232",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94301",
-      "summary": "CVE ID :CVE-2026-94301\n  \n  Published : Sept. 21, 2026, 3:17 p.m. | 16\u00a0minutes ago\n  \n  Description :The fix for CVE-2026-47065/ZDRES-232 (\"resolvePro...",
-      "timestamp": 1790003858.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94184 - Fetchmail: fetchmail: stack-based buffer overflow in ntlm authentication (fetchmail-sa-2026-01)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94184",
-      "summary": "CVE ID :CVE-2026-94184\n  \n  Published : Sept. 21, 2026, 3:17 p.m. | 16\u00a0minutes ago\n  \n  Description :A stack-based buffer overflow flaw was found in f...",
-      "timestamp": 1790003858.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-80110 - Pki-core: dogtag pki v2 rest acl filter's reverse-lexicographic tie-break lets a ca agent invoke the admin-only raw profile creation endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80110",
-      "summary": "CVE ID :CVE-2026-80110\n  \n  Published : Sept. 21, 2026, 3:17 p.m. | 16\u00a0minutes ago\n  \n  Description :A flaw was found in pki-core. The v2 REST ACL fil...",
-      "timestamp": 1790003852.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61628 - nginx ignition has Unauthenticated Admin Account Creation via Onboarding Race Condition",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61628",
-      "summary": "CVE ID :CVE-2026-61628\n  \n  Published : Sept. 21, 2026, 3:17 p.m. | 16\u00a0minutes ago\n  \n  Description :nginx ignition is a user interface for the nginx ...",
-      "timestamp": 1790003850.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55074 - Ansible FreeBSD Jail Connection Plugin: Jail escape via symlink following in put_file (host-side root mv)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55074",
-      "summary": "CVE ID :CVE-2026-55074\n  \n  Published : Sept. 21, 2026, 3:17 p.m. | 16\u00a0minutes ago\n  \n  Description :Ansible FreeBSD Jail Connection Plugin is an Ansi...",
-      "timestamp": 1790003849.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55071 - MCP-for-Stata: Stata Command Injection via Unsanitized `package` in `ado_package_install`",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55071",
-      "summary": "CVE ID :CVE-2026-55071\n  \n  Published : Sept. 21, 2026, 3:17 p.m. | 16\u00a0minutes ago\n  \n  Description :MCP-for-Stata is a MCP server for integrating Sta...",
-      "timestamp": 1790003849.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft fixes broken Excel copy and paste for all Office users",
@@ -123,44 +179,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-94401 - MISP Arbitrary Local File Read and SSRF via MISP Export Upload",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94401",
-      "summary": "CVE ID :CVE-2026-94401\n  \n  Published : Sept. 21, 2026, 2:17 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :MISP has a file-handling vulnerability th...",
-      "timestamp": 1790000250.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-88807 - libXrender RenderQueryPictFormats Reply Heap-based Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88807",
-      "summary": "CVE ID :CVE-2026-88807\n  \n  Published : Sept. 21, 2026, 2:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :A heap overflow in libXrender before 0.9....",
-      "timestamp": 1790000242.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2025-71421 - UVdesk core-framework before 1.1.7 Privilege Escalation via editAgent",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71421",
-      "summary": "CVE ID :CVE-2025-71421\n  \n  Published : Sept. 21, 2026, 2:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :UVdesk core-framework before 1.1.7 contai...",
-      "timestamp": 1790000234.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
       "link": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
       "summary": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more conti...",
       "timestamp": 1789999332.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-94383 - MISP Blocklist Workflow Module: Arbitrary Script Execution via Unrestricted File Extension",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94383",
-      "summary": "CVE ID :CVE-2026-94383\n  \n  Published : Sept. 21, 2026, 1:17 p.m. | 2\u00a0hours, 17\u00a0minutes ago\n  \n  Description :The MISP blocklist workflow module accep...",
-      "timestamp": 1789996633.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
@@ -191,30 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
       "summary": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched ...",
       "timestamp": 1789905600.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "BragJack attacks hijack AI browser agents through malicious extensions",
-      "link": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
-      "summary": "BragJack, a proof-of-concept attack from Forever Security's Gal Weizman, hijacks the AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and ...",
-      "timestamp": 1789829791.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
-      "link": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
-      "summary": "A joint law enforcement advisory warns that the North Korean hacking group WaterPlum compromised at least 30,000 devices worldwide from December 2025 ...",
-      "timestamp": 1789826715.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
-      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
-      "summary": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing serve...",
-      "timestamp": 1789825712.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -315,16 +315,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -339,16 +331,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
+      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -363,8 +355,16 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0306 Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0306",
+      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -387,5 +387,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1790010191.6989603
+  "last_updated": 1790024583.4108255
 }
