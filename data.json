@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,57 +52,89 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 0,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-94129 - BioStar VALKYRIE AURORA IOCTL BS_RVSIO64.sys sub_1105C write-what-where",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94129",
+      "summary": "CVE ID :CVE-2026-94129\n  \n  Published : Sept. 21, 2026, 2:16 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :A vulnerability was detected in BioStar V...",
+      "timestamp": 1789957014.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94128 - BioStar VIVID LED DJ IOCTL BS_LED64.sys sub_1105C write-what-where",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94128",
+      "summary": "CVE ID :CVE-2026-94128\n  \n  Published : Sept. 21, 2026, 2:16 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :A security vulnerability has been detecte...",
+      "timestamp": 1789957014.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94101 - Netcore NBR200V2 routerd vlan_load_form_uci buffer overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94101",
+      "summary": "CVE ID :CVE-2026-94101\n  \n  Published : Sept. 21, 2026, 2:16 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :A security vulnerability has been detecte...",
+      "timestamp": 1789957013.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94100 - Netcore NBR200V2 WAN VLAN Reconfiguration routerd wan_config_set_vlan buffer overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94100",
+      "summary": "CVE ID :CVE-2026-94100\n  \n  Published : Sept. 21, 2026, 1:16 a.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A weakness has been identified in Netcor...",
+      "timestamp": 1789953390.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94099 - Netcore NBR200V2 Backup Restore restore.cgi command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94099",
+      "summary": "CVE ID :CVE-2026-94099\n  \n  Published : Sept. 21, 2026, 1:16 a.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A security flaw has been discovered in N...",
+      "timestamp": 1789953389.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94098 - Netcore NBR200V2 Firmware Upgrade CGI Endpoint upgrade command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94098",
+      "summary": "CVE ID :CVE-2026-94098\n  \n  Published : Sept. 21, 2026, 1:16 a.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A vulnerability was identified in Netcor...",
+      "timestamp": 1789953389.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94097 - Netcore NBR200V2 CGI Diagnostic Endpoint network_tools command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94097",
+      "summary": "CVE ID :CVE-2026-94097\n  \n  Published : Sept. 21, 2026, 12:16 a.m. | 3\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A vulnerability was determined in Netco...",
+      "timestamp": 1789949819.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94096 - Netcore NBR200V2 LAN IP Configuration network_tools command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94096",
+      "summary": "CVE ID :CVE-2026-94096\n  \n  Published : Sept. 21, 2026, 12:16 a.m. | 3\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A vulnerability was found in Netcore NB...",
+      "timestamp": 1789949819.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94095 - Netcore NBR200V2 Traceroute Diagnostic Feature network_tools command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94095",
+      "summary": "CVE ID :CVE-2026-94095\n  \n  Published : Sept. 21, 2026, 12:16 a.m. | 3\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A vulnerability has been found in Netco...",
+      "timestamp": 1789949819.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-94089 - D-Link DIR-868L Authentication webfa_authentication.cgi strcpy stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94089",
-      "summary": "CVE ID :CVE-2026-94089\n  \n  Published : Sept. 20, 2026, 9:16 p.m. | 2\u00a0hours, 18\u00a0minutes ago\n  \n  Description :A vulnerability was determined in D-Link...",
+      "summary": "CVE ID :CVE-2026-94089\n  \n  Published : Sept. 20, 2026, 9:16 p.m. | 6\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A vulnerability was determined in D-Link...",
       "timestamp": 1789939015.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-88857 - Joomla Extension - OrdaSoft.com - Authenticated, Privileged Remote Code Execution in OrdaSoft Joomla Gallery extension for Joomla < 6.2.7",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88857",
-      "summary": "CVE ID :CVE-2026-88857\n  \n  Published : Sept. 20, 2026, 6:16 p.m. | 5\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Joomla Extension - OrdaSoft.com - Authen...",
-      "timestamp": 1789928214.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-88856 - Joomla Extension - OrdaSoft.com - Authenticated, Privileged Remote Code Execution in OrdaSoft Joomla Gallery extension for Joomla < 6.2.7",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88856",
-      "summary": "CVE ID :CVE-2026-88856\n  \n  Published : Sept. 20, 2026, 6:16 p.m. | 5\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Joomla Extension - OrdaSoft.com - Authen...",
-      "timestamp": 1789928214.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-88855 - Joomla Extension - OrdaSoft.com - Authenticated, Privileged SQL Injection in OrdaSoft Joomla Gallery extension for Joomla < 6.2.7",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88855",
-      "summary": "CVE ID :CVE-2026-88855\n  \n  Published : Sept. 20, 2026, 6:16 p.m. | 5\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Joomla Extension - OrdaSoft.com - Authen...",
-      "timestamp": 1789928214.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-88854 - Joomla Extension - OrdaSoft.com - Unauthenticated SQL Injection in OrdaSoft Joomla Gallery extension for Joomla < 6.2.7",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88854",
-      "summary": "CVE ID :CVE-2026-88854\n  \n  Published : Sept. 20, 2026, 6:16 p.m. | 5\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Joomla Extension - OrdaSoft.com - Unauth...",
-      "timestamp": 1789928213.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94036 - D-Link DIR-X1860/DIR-X1860Z routerd ubus access control",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94036",
-      "summary": "CVE ID :CVE-2026-94036\n  \n  Published : Sept. 20, 2026, 4:16 p.m. | 7\u00a0hours, 18\u00a0minutes ago\n  \n  Description :A security flaw has been discovered in D...",
-      "timestamp": 1789921015.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -113,38 +145,6 @@
       "timestamp": 1789913481.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-90817 - REDCap Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90817",
-      "summary": "CVE ID :CVE-2026-90817\n  \n  Published : Sept. 20, 2026, 1:17 p.m. | 10\u00a0hours, 17\u00a0minutes ago\n  \n  Description :An unauthenticated Remote Code Executio...",
-      "timestamp": 1789910264.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94109 - openEQUELLA before 2026.1.0 Remote Code Execution via FreeMarker Template Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94109",
-      "summary": "CVE ID :CVE-2026-94109\n  \n  Published : Sept. 20, 2026, 12:17 p.m. | 11\u00a0hours, 18\u00a0minutes ago\n  \n  Description :openEQUELLA versions before 2026.1.0 c...",
-      "timestamp": 1789906626.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94108 - getID3 through 1.9.26 XML External Entity Injection via XML2array",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94108",
-      "summary": "CVE ID :CVE-2026-94108\n  \n  Published : Sept. 20, 2026, 12:17 p.m. | 11\u00a0hours, 18\u00a0minutes ago\n  \n  Description :getID3 through 1.9.26 contains an XML ...",
-      "timestamp": 1789906626.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94107 - NivoCart through 2.4.0 Predictable Administrator Password Reset Token",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94107",
-      "summary": "CVE ID :CVE-2026-94107\n  \n  Published : Sept. 20, 2026, 12:17 p.m. | 11\u00a0hours, 18\u00a0minutes ago\n  \n  Description :NivoCart through 2.4.0 contains a pred...",
-      "timestamp": 1789906626.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
@@ -393,15 +393,7 @@
       "timestamp": 1788903862.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "September 2026 Security Update",
-      "link": "https://www.ivanti.com/blog/september-2026-security-update",
-      "summary": "Ivanti releases standard security patches on the second Tuesday of every month. In today\u2019s rapidly evolving technology and threat landscape, we believ...",
-      "timestamp": 1788877683.0,
-      "source": "Ivanti Security",
-      "vendor": "Ivanti"
     }
   ],
-  "last_updated": 1789950695.63232
+  "last_updated": 1789968424.9626687
 }
