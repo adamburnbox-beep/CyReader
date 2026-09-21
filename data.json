@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,98 +45,138 @@
     {
       "source": "Ivanti Security",
       "vendor": "Ivanti",
-      "new_count": 9,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 9,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-94129 - BioStar VALKYRIE AURORA IOCTL BS_RVSIO64.sys sub_1105C write-what-where",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94129",
-      "summary": "CVE ID :CVE-2026-94129\n  \n  Published : Sept. 21, 2026, 2:16 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :A vulnerability was detected in BioStar V...",
-      "timestamp": 1789957014.0,
+      "title": "Google fined \u20ac403 million over location data privacy violations",
+      "link": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
+      "summary": "Ireland's Data Protection Commission (DPC) has fined Google \u20ac403 million ($463M) for multiple GDPR violations related to processing users' location da...",
+      "timestamp": 1790005282.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-94301 - Apache MINA: CVE-2026-47065 resolveProxyClass fix missing from 2.0.X and 2.1.X branches (2.0.30 / 2.1.14) ZDRES-232",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94301",
+      "summary": "CVE ID :CVE-2026-94301\n  \n  Published : Sept. 21, 2026, 3:17 p.m. | 16\u00a0minutes ago\n  \n  Description :The fix for CVE-2026-47065/ZDRES-232 (\"resolvePro...",
+      "timestamp": 1790003858.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-94128 - BioStar VIVID LED DJ IOCTL BS_LED64.sys sub_1105C write-what-where",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94128",
-      "summary": "CVE ID :CVE-2026-94128\n  \n  Published : Sept. 21, 2026, 2:16 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :A security vulnerability has been detecte...",
-      "timestamp": 1789957014.0,
+      "title": "CVE-2026-94184 - Fetchmail: fetchmail: stack-based buffer overflow in ntlm authentication (fetchmail-sa-2026-01)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94184",
+      "summary": "CVE ID :CVE-2026-94184\n  \n  Published : Sept. 21, 2026, 3:17 p.m. | 16\u00a0minutes ago\n  \n  Description :A stack-based buffer overflow flaw was found in f...",
+      "timestamp": 1790003858.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-94101 - Netcore NBR200V2 routerd vlan_load_form_uci buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94101",
-      "summary": "CVE ID :CVE-2026-94101\n  \n  Published : Sept. 21, 2026, 2:16 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :A security vulnerability has been detecte...",
-      "timestamp": 1789957013.0,
+      "title": "CVE-2026-80110 - Pki-core: dogtag pki v2 rest acl filter's reverse-lexicographic tie-break lets a ca agent invoke the admin-only raw profile creation endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80110",
+      "summary": "CVE ID :CVE-2026-80110\n  \n  Published : Sept. 21, 2026, 3:17 p.m. | 16\u00a0minutes ago\n  \n  Description :A flaw was found in pki-core. The v2 REST ACL fil...",
+      "timestamp": 1790003852.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-94100 - Netcore NBR200V2 WAN VLAN Reconfiguration routerd wan_config_set_vlan buffer overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94100",
-      "summary": "CVE ID :CVE-2026-94100\n  \n  Published : Sept. 21, 2026, 1:16 a.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A weakness has been identified in Netcor...",
-      "timestamp": 1789953390.0,
+      "title": "CVE-2026-61628 - nginx ignition has Unauthenticated Admin Account Creation via Onboarding Race Condition",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61628",
+      "summary": "CVE ID :CVE-2026-61628\n  \n  Published : Sept. 21, 2026, 3:17 p.m. | 16\u00a0minutes ago\n  \n  Description :nginx ignition is a user interface for the nginx ...",
+      "timestamp": 1790003850.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-94099 - Netcore NBR200V2 Backup Restore restore.cgi command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94099",
-      "summary": "CVE ID :CVE-2026-94099\n  \n  Published : Sept. 21, 2026, 1:16 a.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A security flaw has been discovered in N...",
-      "timestamp": 1789953389.0,
+      "title": "CVE-2026-55074 - Ansible FreeBSD Jail Connection Plugin: Jail escape via symlink following in put_file (host-side root mv)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55074",
+      "summary": "CVE ID :CVE-2026-55074\n  \n  Published : Sept. 21, 2026, 3:17 p.m. | 16\u00a0minutes ago\n  \n  Description :Ansible FreeBSD Jail Connection Plugin is an Ansi...",
+      "timestamp": 1790003849.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-94098 - Netcore NBR200V2 Firmware Upgrade CGI Endpoint upgrade command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94098",
-      "summary": "CVE ID :CVE-2026-94098\n  \n  Published : Sept. 21, 2026, 1:16 a.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A vulnerability was identified in Netcor...",
-      "timestamp": 1789953389.0,
+      "title": "CVE-2026-55071 - MCP-for-Stata: Stata Command Injection via Unsanitized `package` in `ado_package_install`",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55071",
+      "summary": "CVE ID :CVE-2026-55071\n  \n  Published : Sept. 21, 2026, 3:17 p.m. | 16\u00a0minutes ago\n  \n  Description :MCP-for-Stata is a MCP server for integrating Sta...",
+      "timestamp": 1790003849.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-94097 - Netcore NBR200V2 CGI Diagnostic Endpoint network_tools command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94097",
-      "summary": "CVE ID :CVE-2026-94097\n  \n  Published : Sept. 21, 2026, 12:16 a.m. | 3\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A vulnerability was determined in Netco...",
-      "timestamp": 1789949819.0,
+      "title": "Microsoft fixes broken Excel copy and paste for all Office users",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/",
+      "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for Excel users after installing the September 2026 security updates. [...]",
+      "timestamp": 1790001757.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-94401 - MISP Arbitrary Local File Read and SSRF via MISP Export Upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94401",
+      "summary": "CVE ID :CVE-2026-94401\n  \n  Published : Sept. 21, 2026, 2:17 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :MISP has a file-handling vulnerability th...",
+      "timestamp": 1790000250.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-94096 - Netcore NBR200V2 LAN IP Configuration network_tools command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94096",
-      "summary": "CVE ID :CVE-2026-94096\n  \n  Published : Sept. 21, 2026, 12:16 a.m. | 3\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A vulnerability was found in Netcore NB...",
-      "timestamp": 1789949819.0,
+      "title": "CVE-2026-88807 - libXrender RenderQueryPictFormats Reply Heap-based Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88807",
+      "summary": "CVE ID :CVE-2026-88807\n  \n  Published : Sept. 21, 2026, 2:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :A heap overflow in libXrender before 0.9....",
+      "timestamp": 1790000242.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-94095 - Netcore NBR200V2 Traceroute Diagnostic Feature network_tools command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94095",
-      "summary": "CVE ID :CVE-2026-94095\n  \n  Published : Sept. 21, 2026, 12:16 a.m. | 3\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A vulnerability has been found in Netco...",
-      "timestamp": 1789949819.0,
+      "title": "CVE-2025-71421 - UVdesk core-framework before 1.1.7 Privilege Escalation via editAgent",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2025-71421",
+      "summary": "CVE ID :CVE-2025-71421\n  \n  Published : Sept. 21, 2026, 2:17 p.m. | 1\u00a0hour, 17\u00a0minutes ago\n  \n  Description :UVdesk core-framework before 1.1.7 contai...",
+      "timestamp": 1790000234.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-94089 - D-Link DIR-868L Authentication webfa_authentication.cgi strcpy stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94089",
-      "summary": "CVE ID :CVE-2026-94089\n  \n  Published : Sept. 20, 2026, 9:16 p.m. | 6\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A vulnerability was determined in D-Link...",
-      "timestamp": 1789939015.0,
+      "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
+      "link": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
+      "summary": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more conti...",
+      "timestamp": 1789999332.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-94383 - MISP Blocklist Workflow Module: Arbitrary Script Execution via Unrestricted File Extension",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94383",
+      "summary": "CVE ID :CVE-2026-94383\n  \n  Published : Sept. 21, 2026, 1:17 p.m. | 2\u00a0hours, 17\u00a0minutes ago\n  \n  Description :The MISP blocklist workflow module accep...",
+      "timestamp": 1789996633.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
+      "summary": "Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it retires SMS...",
+      "timestamp": 1789996580.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft: September updates break File History backup feature",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
+      "summary": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 securit...",
+      "timestamp": 1789991154.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Malicious npm packages evade install-script defenses at runtime",
@@ -175,22 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
       "summary": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing serve...",
       "timestamp": 1789825712.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
-      "link": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
-      "summary": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call service face-sc...",
-      "timestamp": 1789817900.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Gyazo server flaw exploited to steal 23.6 million user records",
-      "link": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
-      "summary": "The Gyazo image-sharing platform has confirmed it suffered a data breach after hackers exploited a server vulnerability that allowed them to steal 23....",
-      "timestamp": 1789747238.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -249,30 +273,6 @@
       "timestamp": 1789746628.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
-      "summary": "An ongoing malware campaign uses SEO-optimized GitHub repositories to impersonate well-known software firms to push a previously undocumented informat...",
-      "timestamp": 1789744746.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Secure enterprise sharing with access reviews for Microsoft 365",
-      "link": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
-      "summary": "Microsoft 365 makes sharing files easy, but access can remain long after its original purpose has ended, leaving organizations with little visibility ...",
-      "timestamp": 1789740010.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft Teams will let admins block custom file extensions",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
-      "summary": "Microsoft Teams will soon let administrators tweak the list of file extensions commonly associated with security threats to meet\u00a0their company's secur...",
-      "timestamp": 1789739920.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
@@ -385,15 +385,7 @@
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
-    },
-    {
-      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-      "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-      "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest singl...",
-      "timestamp": 1788903862.0,
-      "source": "Krebs on Security",
-      "vendor": "News"
     }
   ],
-  "last_updated": 1789968424.9626687
+  "last_updated": 1790010191.6989603
 }
