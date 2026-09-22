@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 1,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,19 +52,123 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 1,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-94493 - Gigatech PDV5701 WebSocket Service index.html missing authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94493",
-      "summary": "CVE ID :CVE-2026-94493\n  \n  Published : Sept. 22, 2026, 1:16 a.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A vulnerability was detected in Gigatech...",
-      "timestamp": 1790039816.0,
+      "title": "Webinar tomorrow: Inside real-world Google Workspace breaches",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
+      "summary": "Tomorrow's webinar examines real Google Workspace breaches involving social engineering and malicious OAuth applications, from initial access through ...",
+      "timestamp": 1790081827.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
+      "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
+      "summary": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting l...",
+      "timestamp": 1790081286.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-87119 - mpp Tempo subscription key authorization is not bound to the issuing challenge, allowing a captured activation credential to be replayed",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87119",
+      "summary": "CVE ID :CVE-2026-87119\n  \n  Published : Sept. 22, 2026, 12:17 p.m. | 41\u00a0minutes ago\n  \n  Description :Authentication Bypass by Capture-replay in ZenHi...",
+      "timestamp": 1790079434.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-74849 - Remote code execution vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74849",
+      "summary": "CVE ID :CVE-2026-74849\n  \n  Published : Sept. 22, 2026, 12:17 p.m. | 41\u00a0minutes ago\n  \n  Description :Zohocorp ManageEngine ADSelfService Plus version...",
+      "timestamp": 1790079434.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75791 - Authentication bypass vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75791",
+      "summary": "CVE ID :CVE-2026-75791\n  \n  Published : Sept. 22, 2026, 12:03 p.m. | 55\u00a0minutes ago\n  \n  Description :Zohocorp ManageEngine ADSelfService Plus version...",
+      "timestamp": 1790078611.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-90882 - Reflected arbitrary origins with credentials, allowing cross-origin reads of authenticated user data",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90882",
+      "summary": "CVE ID :CVE-2026-90882\n  \n  Published : Sept. 22, 2026, 10:17 a.m. | 2\u00a0hours, 41\u00a0minutes ago\n  \n  Description :The open-vsx.org deployment returned Ac...",
+      "timestamp": 1790072230.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-25265 - Creation of Temporary File with Insecure Permissions in Qualcomm Software Center",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-25265",
+      "summary": "CVE ID :CVE-2026-25265\n  \n  Published : Sept. 22, 2026, 10:17 a.m. | 2\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Privilege escalation due to weak config...",
+      "timestamp": 1790072229.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-25264 - Uncontrolled Search Path Element in Qualcomm Software Center",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-25264",
+      "summary": "CVE ID :CVE-2026-25264\n  \n  Published : Sept. 22, 2026, 10:17 a.m. | 2\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Privilege escalation due to weak config...",
+      "timestamp": 1790072229.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-25255 - Exposed function in Qualcomm Package Manager and Qualcomm Software Center.",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-25255",
+      "summary": "CVE ID :CVE-2026-25255\n  \n  Published : Sept. 22, 2026, 10:17 a.m. | 2\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Exposed dangerous function lead to priv...",
+      "timestamp": 1790072228.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-25254 - Improper authorization in Qualcomm Software Center",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-25254",
+      "summary": "CVE ID :CVE-2026-25254\n  \n  Published : Sept. 22, 2026, 10:17 a.m. | 2\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Improper authorization leads to Remote ...",
+      "timestamp": 1790072228.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+      "link": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+      "summary": "Over the weekend, security researcher Abdelhamid Naceri (also known as\u00a0Nightmare Eclipse) released another Microsoft Defender zero-day exploit that bl...",
+      "timestamp": 1790070911.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-95511 - Cups: cups-filters: cups-filters: lpadmin can escalate to root via privileged serial backend (cups2root)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-95511",
+      "summary": "CVE ID :CVE-2026-95511\n  \n  Published : Sept. 22, 2026, 9:17 a.m. | 3\u00a0hours, 41\u00a0minutes ago\n  \n  Description :A privilege escalation vulnerability was...",
+      "timestamp": 1790068626.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93556 - Direct references to unsafe objects (IDOR) in Tankuam Places by Kompini",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93556",
+      "summary": "CVE ID :CVE-2026-93556\n  \n  Published : Sept. 22, 2026, 9:17 a.m. | 3\u00a0hours, 41\u00a0minutes ago\n  \n  Description :The \u2018/password/guardarClau/recover\u2019 endp...",
+      "timestamp": 1790068625.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
+      "summary": "\u200bAttackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity and Infrastr...",
+      "timestamp": 1790067189.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
@@ -75,84 +179,12 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-94425 - Moore Threads MTT S80 Driver Package IOCTL mtdispkm64.sys sub_140006F0C privileges management",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94425",
-      "summary": "CVE ID :CVE-2026-94425\n  \n  Published : Sept. 21, 2026, 11:16 p.m. | 4\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A vulnerability was found in Moore Thre...",
-      "timestamp": 1790032616.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94627 - vLLM through 0.29.0 GPU KV Cache Leak via Mooncake Transfer ID Collision",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94627",
-      "summary": "CVE ID :CVE-2026-94627\n  \n  Published : Sept. 21, 2026, 10:17 p.m. | 5\u00a0hours, 25\u00a0minutes ago\n  \n  Description :vLLM Mooncake connector through 0.29.0 ...",
-      "timestamp": 1790029021.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94626 - vLLM through 0.29.0 Memory Exhaustion via Unvalidated NIXL tp_size",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94626",
-      "summary": "CVE ID :CVE-2026-94626\n  \n  Published : Sept. 21, 2026, 10:17 p.m. | 5\u00a0hours, 25\u00a0minutes ago\n  \n  Description :vLLM through 0.29.0 fails to validate t...",
-      "timestamp": 1790029021.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94624 - vLLM through 0.29.0 Denial of Service via Unbounded P2P KV Offloading Sessions",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94624",
-      "summary": "CVE ID :CVE-2026-94624\n  \n  Published : Sept. 21, 2026, 10:17 p.m. | 5\u00a0hours, 25\u00a0minutes ago\n  \n  Description :vLLM through 0.29.0 contains a denial o...",
-      "timestamp": 1790029021.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94623 - vLLM through 0.29.0 Denial of Service via NIXL Multi-Prompt Assertion Failure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94623",
-      "summary": "CVE ID :CVE-2026-94623\n  \n  Published : Sept. 21, 2026, 10:17 p.m. | 5\u00a0hours, 25\u00a0minutes ago\n  \n  Description :vLLM through 0.29.0 contains a denial o...",
-      "timestamp": 1790029021.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94622 - vLLM through 0.29.0 Denial of Service via Incomplete NIXL KV Transfer Metadata",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94622",
-      "summary": "CVE ID :CVE-2026-94622\n  \n  Published : Sept. 21, 2026, 10:17 p.m. | 5\u00a0hours, 25\u00a0minutes ago\n  \n  Description :vLLM versions through 0.29.0 contain a ...",
-      "timestamp": 1790029020.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-61652 - Zapros: Streaming decoders ignored the requested chunk size, allowing a single compressed response chunk to allocate unbounded memory (decompression bomb)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61652",
-      "summary": "CVE ID :CVE-2026-61652\n  \n  Published : Sept. 21, 2026, 10:16 p.m. | 5\u00a0hours, 25\u00a0minutes ago\n  \n  Description :Zapros, a Python HTTP client, prior to ...",
-      "timestamp": 1790029017.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
       "link": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
       "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applicati...",
       "timestamp": 1790025529.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-94572 - OpenStack Octavia Amphora Provider Driver Improper Input Validation Configuration Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94572",
-      "summary": "CVE ID :CVE-2026-94572\n  \n  Published : Sept. 21, 2026, 9:17 p.m. | 6\u00a0hours, 25\u00a0minutes ago\n  \n  Description :In OpenStack Octavia before 18.0.1, the ...",
-      "timestamp": 1790025442.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94571 - OpenStack Octavia Amphora Provider Driver HAProxy Configuration Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94571",
-      "summary": "CVE ID :CVE-2026-94571\n  \n  Published : Sept. 21, 2026, 9:17 p.m. | 6\u00a0hours, 25\u00a0minutes ago\n  \n  Description :In OpenStack Octavia before 18.0.1, the ...",
-      "timestamp": 1790025441.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CISA alerts of active exploitation of three Linux kernel flaws",
@@ -191,38 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-excel-copy-and-paste-for-all-office-users/",
       "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for Excel users after installing the September 2026 security updates. [...]",
       "timestamp": 1790001757.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
-      "link": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
-      "summary": "The FBI's CJIS Security Policy v6.1 strengthens requirements around encryption and vulnerability scanning while continuing the shift toward more conti...",
-      "timestamp": 1789999332.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
-      "summary": "Microsoft has reminded admins to migrate Entra ID users to phishing-resistant authentication methods to avoid sign-in disruptions after it retires SMS...",
-      "timestamp": 1789996580.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft: September updates break File History backup feature",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
-      "summary": "Microsoft warned that the built-in File History backup feature in Windows may stop working on some systems after installing the September 2026 securit...",
-      "timestamp": 1789991154.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Malicious npm packages evade install-script defenses at runtime",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
-      "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in...",
-      "timestamp": 1789913481.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -363,5 +363,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1790052397.3382938
+  "last_updated": 1790088641.9432285
 }
