@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,94 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-94425 - Moore Threads MTT S80 Driver Package IOCTL mtdispkm64.sys sub_140006F0C privileges management",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94425",
+      "summary": "CVE ID :CVE-2026-94425\n  \n  Published : Sept. 21, 2026, 11:16 p.m. | 43\u00a0minutes ago\n  \n  Description :A vulnerability was found in Moore Threads MTT S...",
+      "timestamp": 1790032616.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94627 - vLLM through 0.29.0 GPU KV Cache Leak via Mooncake Transfer ID Collision",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94627",
+      "summary": "CVE ID :CVE-2026-94627\n  \n  Published : Sept. 21, 2026, 10:17 p.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :vLLM Mooncake connector through 0.29.0 f...",
+      "timestamp": 1790029021.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94626 - vLLM through 0.29.0 Memory Exhaustion via Unvalidated NIXL tp_size",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94626",
+      "summary": "CVE ID :CVE-2026-94626\n  \n  Published : Sept. 21, 2026, 10:17 p.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :vLLM through 0.29.0 fails to validate th...",
+      "timestamp": 1790029021.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94624 - vLLM through 0.29.0 Denial of Service via Unbounded P2P KV Offloading Sessions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94624",
+      "summary": "CVE ID :CVE-2026-94624\n  \n  Published : Sept. 21, 2026, 10:17 p.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :vLLM through 0.29.0 contains a denial of...",
+      "timestamp": 1790029021.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94623 - vLLM through 0.29.0 Denial of Service via NIXL Multi-Prompt Assertion Failure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94623",
+      "summary": "CVE ID :CVE-2026-94623\n  \n  Published : Sept. 21, 2026, 10:17 p.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :vLLM through 0.29.0 contains a denial of...",
+      "timestamp": 1790029021.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94622 - vLLM through 0.29.0 Denial of Service via Incomplete NIXL KV Transfer Metadata",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94622",
+      "summary": "CVE ID :CVE-2026-94622\n  \n  Published : Sept. 21, 2026, 10:17 p.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :vLLM versions through 0.29.0 contain a d...",
+      "timestamp": 1790029020.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-61652 - Zapros: Streaming decoders ignored the requested chunk size, allowing a single compressed response chunk to allocate unbounded memory (decompression bomb)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61652",
+      "summary": "CVE ID :CVE-2026-61652\n  \n  Published : Sept. 21, 2026, 10:16 p.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :Zapros, a Python HTTP client, prior to v...",
+      "timestamp": 1790029017.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+      "link": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
+      "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applicati...",
+      "timestamp": 1790025529.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-94572 - OpenStack Octavia Amphora Provider Driver Improper Input Validation Configuration Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94572",
+      "summary": "CVE ID :CVE-2026-94572\n  \n  Published : Sept. 21, 2026, 9:17 p.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :In OpenStack Octavia before 18.0.1, the ...",
+      "timestamp": 1790025442.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94571 - OpenStack Octavia Amphora Provider Driver HAProxy Configuration Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94571",
+      "summary": "CVE ID :CVE-2026-94571\n  \n  Published : Sept. 21, 2026, 9:17 p.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :In OpenStack Octavia before 18.0.1, the ...",
+      "timestamp": 1790025441.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94424 - Moore Threads MTT S80 Driver Package IOCTL mtdispkm64.sys sub_140001000 heap-based overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94424",
+      "summary": "CVE ID :CVE-2026-94424\n  \n  Published : Sept. 21, 2026, 9:17 p.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :A vulnerability has been found in Moore ...",
+      "timestamp": 1790025441.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CISA alerts of active exploitation of three Linux kernel flaws",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of the...",
@@ -67,92 +155,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-49811 - Dell Command | Monitor Incorrect Permission Assignment Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-49811",
-      "summary": "CVE ID :CVE-2026-49811\n  \n  Published : Sept. 21, 2026, 7:38 p.m. | 15\u00a0minutes ago\n  \n  Description :Dell Command | Monitor (DCM), versions prior to 1...",
-      "timestamp": 1790019500.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94501 - jshERP through 3.6 Privilege Escalation via userBusiness CRUD",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94501",
-      "summary": "CVE ID :CVE-2026-94501\n  \n  Published : Sept. 21, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :jshERP through 3.6 contains an authorization bypa...",
-      "timestamp": 1790018241.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94497 - jshERP through 3.6 Unauthorized Access via by-id Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94497",
-      "summary": "CVE ID :CVE-2026-94497\n  \n  Published : Sept. 21, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :jshERP through 3.6 fails to validate object owner...",
-      "timestamp": 1790018241.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94496 - jshERP through 3.6 Privilege Escalation via Role Management",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94496",
-      "summary": "CVE ID :CVE-2026-94496\n  \n  Published : Sept. 21, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :jshERP through 3.6 fails to validate caller permi...",
-      "timestamp": 1790018241.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94412 - jshERP through 3.6 Authorization Bypass via resetPwd",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94412",
-      "summary": "CVE ID :CVE-2026-94412\n  \n  Published : Sept. 21, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :jshERP through 3.6 contains an authorization bypa...",
-      "timestamp": 1790018240.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94411 - jshERP 3.6 Privilege Escalation via updateOneValueByKeyIdAndType",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94411",
-      "summary": "CVE ID :CVE-2026-94411\n  \n  Published : Sept. 21, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :jshERP 3.6 contains a privilege escalation vulner...",
-      "timestamp": 1790018240.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94403 - ColorFul iGameCenter IOCTL ene.sys sub_140001AF0 untrusted pointer dereference",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94403",
-      "summary": "CVE ID :CVE-2026-94403\n  \n  Published : Sept. 21, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :A weakness has been identified in ColorFul iGameC...",
-      "timestamp": 1790018239.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58491 - Warpgate: Reflected XSS in SSO return endpoint via attacker-controlled next parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58491",
-      "summary": "CVE ID :CVE-2026-58491\n  \n  Published : Sept. 21, 2026, 7:17 p.m. | 36\u00a0minutes ago\n  \n  Description :Warpgate is an open source SSH, HTTPS and MySQL b...",
-      "timestamp": 1790018226.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "WordPress Click2Shell flaw lets hackers execute PHP on the server",
       "link": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
       "summary": "Technical details and a proof-of-concept exploit have been published for a new WordPress cross-site request forgery (CSRF) vulnerability dubbed 'Click...",
       "timestamp": 1790014991.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-94488 - Telegram Desktop Cross-Site Scripting Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94488",
-      "summary": "CVE ID :CVE-2026-94488\n  \n  Published : Sept. 21, 2026, 6:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :Telegram Desktop before 6.9.4 allows XSS ...",
-      "timestamp": 1790014637.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62369 - KubeEdge: keadm DecompressTarGz path traversal enables arbitrary file write on Windows during edge node join",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62369",
-      "summary": "CVE ID :CVE-2026-62369\n  \n  Published : Sept. 21, 2026, 6:17 p.m. | 1\u00a0hour, 36\u00a0minutes ago\n  \n  Description :KubeEdge is an open source system for ext...",
-      "timestamp": 1790014629.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft to retire Microsoft 365 Companion apps in December",
@@ -207,14 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
       "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in...",
       "timestamp": 1789913481.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
-      "link": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
-      "summary": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched ...",
-      "timestamp": 1789905600.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -315,40 +315,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
       "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -363,8 +331,40 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
+      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0308 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0308",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
@@ -379,13 +379,13 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0308 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0308",
+      "title": "CVE-2026-0309 PAN-OS: Authenticated Command Injection in CLI with Luna HSM Configuration (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0309",
       "summary": "",
       "timestamp": 1788969600.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1790024583.4108255
+  "last_updated": 1790035900.24118
 }
