@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,102 @@
   ],
   "articles": [
     {
+      "title": "Hackers start exploiting critical WordPress flaw for code execution",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+      "summary": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell co...",
+      "timestamp": 1790188282.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-95601 - WordPress Product Filter by WBW plugin <= 3.1.7 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-95601",
+      "summary": "CVE ID :CVE-2026-95601\n  \n  Published : Sept. 23, 2026, 6:14 p.m. | 27\u00a0minutes ago\n  \n  Description :Unauthenticated SQL Injection in Product Filter b...",
+      "timestamp": 1790187288.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94487 - WordPress PublishPress Capabilities plugin <= 2.50.1 - Cross Site Request Forgery (CSRF) vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94487",
+      "summary": "CVE ID :CVE-2026-94487\n  \n  Published : Sept. 23, 2026, 6:14 p.m. | 27\u00a0minutes ago\n  \n  Description :Unauthenticated Cross Site Request Forgery (CSRF)...",
+      "timestamp": 1790187269.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94124 - WordPress WP EasyCart plugin <= 5.9.4 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94124",
+      "summary": "CVE ID :CVE-2026-94124\n  \n  Published : Sept. 23, 2026, 6:14 p.m. | 27\u00a0minutes ago\n  \n  Description :Contributor SQL Injection in WP EasyCart <= 5.9.4...",
+      "timestamp": 1790187262.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93773 - WordPress Mollie Forms plugin <= 2.11.0 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93773",
+      "summary": "CVE ID :CVE-2026-93773\n  \n  Published : Sept. 23, 2026, 6:14 p.m. | 27\u00a0minutes ago\n  \n  Description :Contributor SQL Injection in Mollie Forms <= 2.11...",
+      "timestamp": 1790187259.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93527 - WordPress Live Copy Paste for Elementor plugin <= 1.5.10 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93527",
+      "summary": "CVE ID :CVE-2026-93527\n  \n  Published : Sept. 23, 2026, 6:14 p.m. | 28\u00a0minutes ago\n  \n  Description :Contributor SQL Injection in Live Copy Paste for ...",
+      "timestamp": 1790187254.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75131 - NetworkManager-l2tp Privilege Escalation via pppd Username Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75131",
+      "summary": "CVE ID :CVE-2026-75131\n  \n  Published : Sept. 23, 2026, 6:09 p.m. | 33\u00a0minutes ago\n  \n  Description :NetworkManager-l2tp through 1.52.4, fixed in 1.52...",
+      "timestamp": 1790186947.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-96804 - CVE-2026-96804",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96804",
+      "summary": "CVE ID :CVE-2026-96804\n  \n  Published : Sept. 23, 2026, 5:17 p.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :MLflow's statsmodel flavor, versions 2.1....",
+      "timestamp": 1790183845.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-96775 - MLflow dspy bypasses pickle deserialization control",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96775",
+      "summary": "CVE ID :CVE-2026-96775\n  \n  Published : Sept. 23, 2026, 5:17 p.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :MLflow's dspy flavor, versions >= 2.0,  a...",
+      "timestamp": 1790183845.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-96759 - orval before 8.29.0 Code Injection via operationId",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96759",
+      "summary": "CVE ID :CVE-2026-96759\n  \n  Published : Sept. 23, 2026, 5:17 p.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :orval before 8.29.0 fails to escape the o...",
+      "timestamp": 1790183845.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-96758 - orval @orval/core before 8.28.0 Code Injection via Form-Data",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96758",
+      "summary": "CVE ID :CVE-2026-96758\n  \n  Published : Sept. 23, 2026, 5:17 p.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :orval @orval/core before 8.28.0 contains ...",
+      "timestamp": 1790183845.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
+      "summary": "A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more than 600,...",
+      "timestamp": 1790180454.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "InfraTrust report warns network management systems under attack",
       "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
       "summary": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively ...",
@@ -75,30 +171,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-86678 - Broken Authentication vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86678",
-      "summary": "CVE ID :CVE-2026-86678\n  \n  Published : Sept. 23, 2026, 1:41 p.m. | 25\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine Applications Manager versio...",
-      "timestamp": 1790170887.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86677 - Broken Authentication vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86677",
-      "summary": "CVE ID :CVE-2026-86677\n  \n  Published : Sept. 23, 2026, 1:36 p.m. | 30\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine Applications Manager versio...",
-      "timestamp": 1790170563.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-96560 - LightLLM through 1.2.0 Unauthenticated Remote Code Execution via NCCL PD RPyC Control Channel",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96560",
-      "summary": "CVE ID :CVE-2026-96560\n  \n  Published : Sept. 23, 2026, 1:32 p.m. | 34\u00a0minutes ago\n  \n  Description :LightLLM through 1.2.0 contains a remote code exe...",
-      "timestamp": 1790170358.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software SSL VPN Denial of Service Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftdvirtual-dos-MuenGnYR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20SSL%20VPN%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
       "summary": "Update for September 16, 2026: The original 1.0 version of this advisory was specific to the Cisco Adaptive Security Virtual Appliance (ASAv) and Cisc...",
@@ -107,68 +179,12 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-86683 - Broken Authentication Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86683",
-      "summary": "CVE ID :CVE-2026-86683\n  \n  Published : Sept. 23, 2026, 1:23 p.m. | 42\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine Applications Manager versio...",
-      "timestamp": 1790169838.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76978 - Command Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76978",
-      "summary": "CVE ID :CVE-2026-76978\n  \n  Published : Sept. 23, 2026, 1:17 p.m. | 49\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine OpManager and Firewall Anal...",
-      "timestamp": 1790169449.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-75825 - Authentication Bypass vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75825",
-      "summary": "CVE ID :CVE-2026-75825\n  \n  Published : Sept. 23, 2026, 1:17 p.m. | 49\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine OpManager versions 12.8.710...",
-      "timestamp": 1790169448.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19599 - Remote Code Execution vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19599",
-      "summary": "CVE ID :CVE-2026-19599\n  \n  Published : Sept. 23, 2026, 1:17 p.m. | 49\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine OpManager MSP versions 12.8...",
-      "timestamp": 1790169447.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86708 - Sensitive data exposure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86708",
-      "summary": "CVE ID :CVE-2026-86708\n  \n  Published : Sept. 23, 2026, 1:11 p.m. | 55\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine Applications Manager versio...",
-      "timestamp": 1790169091.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
       "link": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
       "summary": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem de...",
       "timestamp": 1790166593.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-84787 - Privilege Escalation vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84787",
-      "summary": "CVE ID :CVE-2026-84787\n  \n  Published : Sept. 23, 2026, 12:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine OpManager and Fire...",
-      "timestamp": 1790165827.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14913 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14913",
-      "summary": "CVE ID :CVE-2026-14913\n  \n  Published : Sept. 23, 2026, 12:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine OpManager and Fire...",
-      "timestamp": 1790165825.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft: September Windows updates break Always On VPN connections",
@@ -215,22 +231,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
       "summary": "Sweden's data privacy regulator, IMY, has imposed a $183,000 (SEK 1.8 million) fine on IT systems provider Milj\u00f6data for inadequate security measures ...",
       "timestamp": 1790113237.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
-      "summary": "A Chinese-speaking threat actor has been exploiting vulnerabilities in ZyXEL GS1900 Smart Managed Switches and WordPress to steal sensitive data from ...",
-      "timestamp": 1790109324.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
-      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
-      "summary": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal servic...",
-      "timestamp": 1790104409.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -315,16 +315,16 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -339,8 +339,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -355,13 +355,13 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1790175710.2238271
+  "last_updated": 1790190208.3734398
 }
