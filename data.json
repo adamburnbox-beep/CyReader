@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,19 +52,131 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 6,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-15027 - Changing\uff5cCGServiSign - OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15027",
-      "summary": "CVE ID :CVE-2026-15027\n  \n  Published : Sept. 23, 2026, 9:17 a.m. | 23\u00a0minutes ago\n  \n  Description :CGServiSign developed by Changing has a OS Comman...",
-      "timestamp": 1790155027.0,
+      "title": "InfraTrust report warns network management systems under attack",
+      "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
+      "summary": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively ...",
+      "timestamp": 1790174126.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
+      "link": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
+      "summary": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to ...",
+      "timestamp": 1790172071.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-86678 - Broken Authentication vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86678",
+      "summary": "CVE ID :CVE-2026-86678\n  \n  Published : Sept. 23, 2026, 1:41 p.m. | 25\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine Applications Manager versio...",
+      "timestamp": 1790170887.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86677 - Broken Authentication vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86677",
+      "summary": "CVE ID :CVE-2026-86677\n  \n  Published : Sept. 23, 2026, 1:36 p.m. | 30\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine Applications Manager versio...",
+      "timestamp": 1790170563.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-96560 - LightLLM through 1.2.0 Unauthenticated Remote Code Execution via NCCL PD RPyC Control Channel",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96560",
+      "summary": "CVE ID :CVE-2026-96560\n  \n  Published : Sept. 23, 2026, 1:32 p.m. | 34\u00a0minutes ago\n  \n  Description :LightLLM through 1.2.0 contains a remote code exe...",
+      "timestamp": 1790170358.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software SSL VPN Denial of Service Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftdvirtual-dos-MuenGnYR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20SSL%20VPN%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+      "summary": "Update for September 16, 2026: The original 1.0 version of this advisory was specific to the Cisco Adaptive Security Virtual Appliance (ASAv) and Cisc...",
+      "timestamp": 1790169993.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "CVE-2026-86683 - Broken Authentication Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86683",
+      "summary": "CVE ID :CVE-2026-86683\n  \n  Published : Sept. 23, 2026, 1:23 p.m. | 42\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine Applications Manager versio...",
+      "timestamp": 1790169838.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76978 - Command Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76978",
+      "summary": "CVE ID :CVE-2026-76978\n  \n  Published : Sept. 23, 2026, 1:17 p.m. | 49\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine OpManager and Firewall Anal...",
+      "timestamp": 1790169449.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75825 - Authentication Bypass vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75825",
+      "summary": "CVE ID :CVE-2026-75825\n  \n  Published : Sept. 23, 2026, 1:17 p.m. | 49\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine OpManager versions 12.8.710...",
+      "timestamp": 1790169448.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-19599 - Remote Code Execution vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19599",
+      "summary": "CVE ID :CVE-2026-19599\n  \n  Published : Sept. 23, 2026, 1:17 p.m. | 49\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine OpManager MSP versions 12.8...",
+      "timestamp": 1790169447.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86708 - Sensitive data exposure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86708",
+      "summary": "CVE ID :CVE-2026-86708\n  \n  Published : Sept. 23, 2026, 1:11 p.m. | 55\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine Applications Manager versio...",
+      "timestamp": 1790169091.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
+      "link": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
+      "summary": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem de...",
+      "timestamp": 1790166593.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-84787 - Privilege Escalation vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84787",
+      "summary": "CVE ID :CVE-2026-84787\n  \n  Published : Sept. 23, 2026, 12:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine OpManager and Fire...",
+      "timestamp": 1790165827.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14913 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14913",
+      "summary": "CVE ID :CVE-2026-14913\n  \n  Published : Sept. 23, 2026, 12:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :ZohoCorp ManageEngine OpManager and Fire...",
+      "timestamp": 1790165825.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft: September Windows updates break Always On VPN connections",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
+      "summary": "Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]",
+      "timestamp": 1790162293.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Ryuk ransomware member sentenced to 24 months in prison",
@@ -75,38 +187,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-91813 - Foxit PDF Editor/Reader FoxitUpdater Race Condition Local Privilege Escalation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91813",
-      "summary": "CVE ID :CVE-2026-91813\n  \n  Published : Sept. 23, 2026, 8:17 a.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :A vulnerability in Foxit PDF Editor/Reade...",
-      "timestamp": 1790151433.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-91803 - Security Vulnerability Report \u2013 Foxit PDF Editor/Reader Updater DLL Search Path Hijacking",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91803",
-      "summary": "CVE ID :CVE-2026-91803\n  \n  Published : Sept. 23, 2026, 8:17 a.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :A local privilege escalation vulnerabilit...",
-      "timestamp": 1790151432.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-91800 - Foxit PDF Editor installer local privilege escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91800",
-      "summary": "CVE ID :CVE-2026-91800\n  \n  Published : Sept. 23, 2026, 8:17 a.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :A local privilege escalation vulnerabilit...",
-      "timestamp": 1790151432.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-91798 - Foxit PDF Editor/Reader Updater Privilege Escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91798",
-      "summary": "CVE ID :CVE-2026-91798\n  \n  Published : Sept. 23, 2026, 8:17 a.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :A local privilege escalation vulnerabilit...",
-      "timestamp": 1790151431.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
       "link": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
       "summary": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...]",
@@ -115,52 +195,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-19438 - Mint Workbench I Path traversal Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19438",
-      "summary": "CVE ID :CVE-2026-19438\n  \n  Published : Sept. 23, 2026, 6:17 a.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Improper Limitation of a Pathname to a R...",
-      "timestamp": 1790144221.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-96257 - Fast FAC1203R Gigabit Edition Device Discovery Service copy_msg_element stack-based overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96257",
-      "summary": "CVE ID :CVE-2026-96257\n  \n  Published : Sept. 23, 2026, 3:17 a.m. | 6\u00a0hours, 24\u00a0minutes ago\n  \n  Description :A flaw has been found in Fast FAC1203R G...",
-      "timestamp": 1790133426.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-96272 - ClipBucket v5 before 5.5.3-#182 SQL Injection via search_result.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96272",
-      "summary": "CVE ID :CVE-2026-96272\n  \n  Published : Sept. 23, 2026, 1:16 a.m. | 8\u00a0hours, 24\u00a0minutes ago\n  \n  Description :ClipBucket v5 before 5.5.3-#182 contains...",
-      "timestamp": 1790126192.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
       "summary": "",
       "timestamp": 1790122800.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-18169 - IBM Financial Transaction Manager (FTM) is Impacted by Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18169",
-      "summary": "CVE ID :CVE-2026-18169\n  \n  Published : Sept. 22, 2026, 11:17 p.m. | 10\u00a0hours, 24\u00a0minutes ago\n  \n  Description :IBM Financial Transaction Manager (FTM...",
-      "timestamp": 1790119026.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18163 - IBM Financial Transaction Manager (FTM) is Impacted by Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18163",
-      "summary": "CVE ID :CVE-2026-18163\n  \n  Published : Sept. 22, 2026, 11:17 p.m. | 10\u00a0hours, 24\u00a0minutes ago\n  \n  Description :IBM Financial Transaction Manager (FTM...",
-      "timestamp": 1790119026.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Rogue external MFA providers can steal passwords during logins",
@@ -191,38 +231,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
       "summary": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal servic...",
       "timestamp": 1790104409.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
-      "link": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
-      "summary": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take durin...",
-      "timestamp": 1790100279.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Reducing shadow IT visibility gaps with Wazuh",
-      "link": "https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/",
-      "summary": "Shadow IT can leave security teams unaware of unmanaged endpoints, unauthorized software, and other assets that fall outside existing monitoring. Wazu...",
-      "timestamp": 1790097461.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Check Point warns of Management Server zero-day exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
-      "summary": "Check Point Software released emergency hotfixes to address a critical Security Management Server vulnerability that could let attackers run\u00a0arbitrary...",
-      "timestamp": 1790094767.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
-      "summary": "The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Micro...",
-      "timestamp": 1790089200.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -307,14 +315,6 @@
       "vendor": "News"
     },
     {
-      "title": "Cisco Advance Notification for Publication of September 16, 2026, Security Advisories",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-jfxK98ZP?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20September%2016,%202026,%20Security%20Advisories%26vs_k=1",
-      "summary": "On September 16, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the advisories that are listed in the following tables.&nbs...",
-      "timestamp": 1789574846.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
@@ -363,5 +363,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1790157431.0329998
+  "last_updated": 1790175710.2238271
 }
