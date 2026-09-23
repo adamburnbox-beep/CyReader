@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,80 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 2,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-15027 - Changing\uff5cCGServiSign - OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15027",
+      "summary": "CVE ID :CVE-2026-15027\n  \n  Published : Sept. 23, 2026, 9:17 a.m. | 23\u00a0minutes ago\n  \n  Description :CGServiSign developed by Changing has a OS Comman...",
+      "timestamp": 1790155027.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Ryuk ransomware member sentenced to 24 months in prison",
+      "link": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
+      "summary": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk...",
+      "timestamp": 1790151605.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-91813 - Foxit PDF Editor/Reader FoxitUpdater Race Condition Local Privilege Escalation Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91813",
+      "summary": "CVE ID :CVE-2026-91813\n  \n  Published : Sept. 23, 2026, 8:17 a.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :A vulnerability in Foxit PDF Editor/Reade...",
+      "timestamp": 1790151433.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-91803 - Security Vulnerability Report \u2013 Foxit PDF Editor/Reader Updater DLL Search Path Hijacking",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91803",
+      "summary": "CVE ID :CVE-2026-91803\n  \n  Published : Sept. 23, 2026, 8:17 a.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :A local privilege escalation vulnerabilit...",
+      "timestamp": 1790151432.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-91800 - Foxit PDF Editor installer local privilege escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91800",
+      "summary": "CVE ID :CVE-2026-91800\n  \n  Published : Sept. 23, 2026, 8:17 a.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :A local privilege escalation vulnerabilit...",
+      "timestamp": 1790151432.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-91798 - Foxit PDF Editor/Reader Updater Privilege Escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91798",
+      "summary": "CVE ID :CVE-2026-91798\n  \n  Published : Sept. 23, 2026, 8:17 a.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :A local privilege escalation vulnerabilit...",
+      "timestamp": 1790151431.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
+      "summary": "F5 has released security updates to address a critical BIG-IP APM zero-day vulnerability being exploited in remote code execution attacks. [...]",
+      "timestamp": 1790147843.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-19438 - Mint Workbench I Path traversal Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19438",
+      "summary": "CVE ID :CVE-2026-19438\n  \n  Published : Sept. 23, 2026, 6:17 a.m. | 3\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Improper Limitation of a Pathname to a R...",
+      "timestamp": 1790144221.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-96257 - Fast FAC1203R Gigabit Edition Device Discovery Service copy_msg_element stack-based overflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-96257",
-      "summary": "CVE ID :CVE-2026-96257\n  \n  Published : Sept. 23, 2026, 3:17 a.m. | 25\u00a0minutes ago\n  \n  Description :A flaw has been found in Fast FAC1203R Gigabit Ed...",
+      "summary": "CVE ID :CVE-2026-96257\n  \n  Published : Sept. 23, 2026, 3:17 a.m. | 6\u00a0hours, 24\u00a0minutes ago\n  \n  Description :A flaw has been found in Fast FAC1203R G...",
       "timestamp": 1790133426.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +133,7 @@
     {
       "title": "CVE-2026-96272 - ClipBucket v5 before 5.5.3-#182 SQL Injection via search_result.php",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-96272",
-      "summary": "CVE ID :CVE-2026-96272\n  \n  Published : Sept. 23, 2026, 1:16 a.m. | 2\u00a0hours, 26\u00a0minutes ago\n  \n  Description :ClipBucket v5 before 5.5.3-#182 contains...",
+      "summary": "CVE ID :CVE-2026-96272\n  \n  Published : Sept. 23, 2026, 1:16 a.m. | 8\u00a0hours, 24\u00a0minutes ago\n  \n  Description :ClipBucket v5 before 5.5.3-#182 contains...",
       "timestamp": 1790126192.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +149,7 @@
     {
       "title": "CVE-2026-18169 - IBM Financial Transaction Manager (FTM) is Impacted by Multiple Vulnerabilities",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18169",
-      "summary": "CVE ID :CVE-2026-18169\n  \n  Published : Sept. 22, 2026, 11:17 p.m. | 4\u00a0hours, 25\u00a0minutes ago\n  \n  Description :IBM Financial Transaction Manager (FTM)...",
+      "summary": "CVE ID :CVE-2026-18169\n  \n  Published : Sept. 22, 2026, 11:17 p.m. | 10\u00a0hours, 24\u00a0minutes ago\n  \n  Description :IBM Financial Transaction Manager (FTM...",
       "timestamp": 1790119026.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,56 +157,8 @@
     {
       "title": "CVE-2026-18163 - IBM Financial Transaction Manager (FTM) is Impacted by Multiple Vulnerabilities",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18163",
-      "summary": "CVE ID :CVE-2026-18163\n  \n  Published : Sept. 22, 2026, 11:17 p.m. | 4\u00a0hours, 25\u00a0minutes ago\n  \n  Description :IBM Financial Transaction Manager (FTM)...",
+      "summary": "CVE ID :CVE-2026-18163\n  \n  Published : Sept. 22, 2026, 11:17 p.m. | 10\u00a0hours, 24\u00a0minutes ago\n  \n  Description :IBM Financial Transaction Manager (FTM...",
       "timestamp": 1790119026.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18162 - IBM Financial Transaction Manager (FTM) is Impacted by Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18162",
-      "summary": "CVE ID :CVE-2026-18162\n  \n  Published : Sept. 22, 2026, 11:17 p.m. | 4\u00a0hours, 25\u00a0minutes ago\n  \n  Description :IBM Financial Transaction Manager (FTM)...",
-      "timestamp": 1790119026.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19202 - Token Cache Reuse in mcp-toolbox-sdk-python",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19202",
-      "summary": "CVE ID :CVE-2026-19202\n  \n  Published : Sept. 22, 2026, 10:17 p.m. | 5\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A caching flaw in the toolbox-core pack...",
-      "timestamp": 1790115431.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18154 - IBM Financial Transaction Manager (FTM) is Impacted by Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18154",
-      "summary": "CVE ID :CVE-2026-18154\n  \n  Published : Sept. 22, 2026, 10:17 p.m. | 5\u00a0hours, 25\u00a0minutes ago\n  \n  Description :IBM Financial Transaction Manager (FTM)...",
-      "timestamp": 1790115430.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18137 - IBM Financial Transaction Manager (FTM) is Impacted by Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18137",
-      "summary": "CVE ID :CVE-2026-18137\n  \n  Published : Sept. 22, 2026, 10:17 p.m. | 5\u00a0hours, 25\u00a0minutes ago\n  \n  Description :IBM Financial Transaction Manager (FTM)...",
-      "timestamp": 1790115430.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18131 - IBM Financial Transaction Manager (FTM) is Impacted by Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18131",
-      "summary": "CVE ID :CVE-2026-18131\n  \n  Published : Sept. 22, 2026, 10:17 p.m. | 5\u00a0hours, 25\u00a0minutes ago\n  \n  Description :IBM Financial Transaction Manager (FTM)...",
-      "timestamp": 1790115429.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18095 - IBM Financial Transaction Manager (FTM) is Impacted by Multiple Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18095",
-      "summary": "CVE ID :CVE-2026-18095\n  \n  Published : Sept. 22, 2026, 10:17 p.m. | 5\u00a0hours, 25\u00a0minutes ago\n  \n  Description :IBM Financial Transaction Manager (FTM)...",
-      "timestamp": 1790115429.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -207,22 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
       "summary": "The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Micro...",
       "timestamp": 1790089200.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Webinar tomorrow: Inside real-world Google Workspace breaches",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
-      "summary": "Tomorrow's webinar examines real Google Workspace breaches involving social engineering and malicious OAuth applications, from initial access through ...",
-      "timestamp": 1790081827.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
-      "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
-      "summary": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting l...",
-      "timestamp": 1790081286.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -315,24 +315,8 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -347,6 +331,22 @@
       "vendor": "Palo Alto"
     },
     {
+      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
       "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
       "summary": "",
@@ -355,13 +355,13 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1790140457.6910703
+  "last_updated": 1790157431.0329998
 }
