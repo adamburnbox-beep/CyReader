@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,14 +24,14 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 3,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,91 +52,107 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-93291 - Improper certificate validation in Eufy Omni C20",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93291",
-      "summary": "CVE ID :CVE-2026-93291\n  \n  Published : Sept. 24, 2026, 7:27 p.m. | 15\u00a0minutes ago\n  \n  Description :Omni C20 lacks proper certificate validation whic...",
-      "timestamp": 1790278074.0,
+      "title": "CVE-2026-87722 - Regular Expression Denial of Service (ReDoS) in Search Query Predicates and REST Filter Endpoints in Gerrit Code Review",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87722",
+      "summary": "CVE ID :CVE-2026-87722\n  \n  Published : Sept. 24, 2026, 10:03 p.m. | 20\u00a0minutes ago\n  \n  Description :Uncontrolled Resource Consumption (CWE-400 / CWE...",
+      "timestamp": 1790287428.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-84399 - Botslab G980H Dashcams Incorrect Authorization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84399",
-      "summary": "CVE ID :CVE-2026-84399\n  \n  Published : Sept. 24, 2026, 7:27 p.m. | 15\u00a0minutes ago\n  \n  Description :The Botslab G980H dash camera firmware contains a...",
-      "timestamp": 1790278067.0,
+      "title": "CVE-2026-87721 - Denial of Service via Exponential Backtracking in ANTLR Search Query Parser in Gerrit Code Review",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87721",
+      "summary": "CVE ID :CVE-2026-87721\n  \n  Published : Sept. 24, 2026, 10:02 p.m. | 21\u00a0minutes ago\n  \n  Description :Uncontrolled Resource Consumption (CWE-400 / CWE...",
+      "timestamp": 1790287327.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-95699 - MrSteam iSteamX Improper Isolation or Compartmentalization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-95699",
+      "summary": "CVE ID :CVE-2026-95699\n  \n  Published : Sept. 24, 2026, 9:18 p.m. | 1\u00a0hour, 4\u00a0minutes ago\n  \n  Description :Prior to 9/18/2026, the iSteamX mobile app...",
+      "timestamp": 1790284738.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-81630 - Botslab G980H Dashcams Insufficient Verification of Data Authenticity",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81630",
+      "summary": "CVE ID :CVE-2026-81630\n  \n  Published : Sept. 24, 2026, 9:18 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :The Botslab G980H dash camera firmware doe...",
+      "timestamp": 1790284728.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14443 - Incomplete log sanitization during bulk IPsec policy collection in Brocade SANnav before 3.0.1a",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14443",
+      "summary": "CVE ID :CVE-2026-14443\n  \n  Published : Sept. 24, 2026, 9:17 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :Incomplete log sanitization during bulk IP...",
+      "timestamp": 1790284632.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
+      "link": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+      "summary": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]",
+      "timestamp": 1790283215.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-96883 - Type confusion in AWS pgcollection allows remote code execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96883",
+      "summary": "CVE ID :CVE-2026-96883\n  \n  Published : Sept. 24, 2026, 8:17 p.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :pgcollection is an open source extension ...",
+      "timestamp": 1790281055.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93354 - Taskview Community Missing Authentication via OAuth Dynamic Client Registration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93354",
+      "summary": "CVE ID :CVE-2026-93354\n  \n  Published : Sept. 24, 2026, 8:17 p.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Taskview Community before 1.56.0 contains...",
+      "timestamp": 1790281054.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93291 - Improper certificate validation in Eufy Omni C20",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93291",
+      "summary": "CVE ID :CVE-2026-93291\n  \n  Published : Sept. 24, 2026, 8:17 p.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Omni C20 lacks proper certificate validat...",
+      "timestamp": 1790281054.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-93289 - OS command injection in Eufy Omni C20, Omni X10 Pro",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-93289",
-      "summary": "CVE ID :CVE-2026-93289\n  \n  Published : Sept. 24, 2026, 7:24 p.m. | 18\u00a0minutes ago\n  \n  Description :The affected products are vulnerable to command i...",
-      "timestamp": 1790277880.0,
+      "summary": "CVE ID :CVE-2026-93289\n  \n  Published : Sept. 24, 2026, 8:17 p.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :The affected products are vulnerable to c...",
+      "timestamp": 1790281054.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-96749 - Heap out-of-bounds write via signed size overflow in BSON document encoding",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96749",
-      "summary": "CVE ID :CVE-2026-96749\n  \n  Published : Sept. 24, 2026, 7:17 p.m. | 26\u00a0minutes ago\n  \n  Description :An integer overflow in the BSON document encoding...",
-      "timestamp": 1790277440.0,
+      "title": "CVE-2026-85496 - Botslab G980H Dashcams Generation of Predictable Numbers or Identifiers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85496",
+      "summary": "CVE ID :CVE-2026-85496\n  \n  Published : Sept. 24, 2026, 8:17 p.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :The Botslab G980H dash camera firmware ge...",
+      "timestamp": 1790281052.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-96748 - Connection redirection via percent-encoded delimiter injection in connection string hosts",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96748",
-      "summary": "CVE ID :CVE-2026-96748\n  \n  Published : Sept. 24, 2026, 7:17 p.m. | 26\u00a0minutes ago\n  \n  Description :PyMongo's connection string parsing decodes perce...",
-      "timestamp": 1790277440.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86860 - Unauthenticated Sensitive Data Disclosure in ServiceNow AI Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86860",
-      "summary": "CVE ID :CVE-2026-86860\n  \n  Published : Sept. 24, 2026, 7:17 p.m. | 26\u00a0minutes ago\n  \n  Description :ServiceNow has remediated a missing authorization...",
-      "timestamp": 1790277438.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86859 - Unauthenticated Arbitrary Record Disclosure in ServiceNow AI Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86859",
-      "summary": "CVE ID :CVE-2026-86859\n  \n  Published : Sept. 24, 2026, 7:17 p.m. | 26\u00a0minutes ago\n  \n  Description :ServiceNow has remediated an authorization bypass...",
-      "timestamp": 1790277438.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86858 - Unauthenticated Privilege Escalation via GraphQL in ServiceNow AI Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86858",
-      "summary": "CVE ID :CVE-2026-86858\n  \n  Published : Sept. 24, 2026, 7:17 p.m. | 26\u00a0minutes ago\n  \n  Description :ServiceNow has remediated an improper access cont...",
-      "timestamp": 1790277438.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86857 - Authorization Bypass in ServiceNow AI Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86857",
-      "summary": "CVE ID :CVE-2026-86857\n  \n  Published : Sept. 24, 2026, 7:17 p.m. | 26\u00a0minutes ago\n  \n  Description :ServiceNow has remediated an authorization bypass...",
-      "timestamp": 1790277438.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82371 - Plaintext exposure of sensitive authentication data in SANnav discovery service log files",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82371",
-      "summary": "CVE ID :CVE-2026-82371\n  \n  Published : Sept. 24, 2026, 7:17 p.m. | 26\u00a0minutes ago\n  \n  Description :Plaintext exposure of sensitive authentication da...",
-      "timestamp": 1790277438.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
+      "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+      "link": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+      "summary": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install\u00a0the Hermes Agent AI framework and take control. [....",
+      "timestamp": 1790280648.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Exposed GitLab project email addresses let attackers push code",
@@ -207,22 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
       "summary": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples,\u00a0is serving a fake Cloudflare verification p...",
       "timestamp": 1790203561.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New RemControl Android banking malware targets users in Europe and Canada",
-      "link": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
-      "summary": "A new Android malware-as-a-service (MaaS) platform called RemControl is targeting users through malvertising campaigns that impersonate the TVTap IPTV...",
-      "timestamp": 1790198713.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
-      "summary": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability ...",
-      "timestamp": 1790193234.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -315,5 +315,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1790280121.2986999
+  "last_updated": 1790291693.4934623
 }
