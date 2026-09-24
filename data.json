@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,132 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 5,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-93291 - Improper certificate validation in Eufy Omni C20",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93291",
+      "summary": "CVE ID :CVE-2026-93291\n  \n  Published : Sept. 24, 2026, 7:27 p.m. | 15\u00a0minutes ago\n  \n  Description :Omni C20 lacks proper certificate validation whic...",
+      "timestamp": 1790278074.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-84399 - Botslab G980H Dashcams Incorrect Authorization",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84399",
+      "summary": "CVE ID :CVE-2026-84399\n  \n  Published : Sept. 24, 2026, 7:27 p.m. | 15\u00a0minutes ago\n  \n  Description :The Botslab G980H dash camera firmware contains a...",
+      "timestamp": 1790278067.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93289 - OS command injection in Eufy Omni C20, Omni X10 Pro",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93289",
+      "summary": "CVE ID :CVE-2026-93289\n  \n  Published : Sept. 24, 2026, 7:24 p.m. | 18\u00a0minutes ago\n  \n  Description :The affected products are vulnerable to command i...",
+      "timestamp": 1790277880.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-96749 - Heap out-of-bounds write via signed size overflow in BSON document encoding",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96749",
+      "summary": "CVE ID :CVE-2026-96749\n  \n  Published : Sept. 24, 2026, 7:17 p.m. | 26\u00a0minutes ago\n  \n  Description :An integer overflow in the BSON document encoding...",
+      "timestamp": 1790277440.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-96748 - Connection redirection via percent-encoded delimiter injection in connection string hosts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96748",
+      "summary": "CVE ID :CVE-2026-96748\n  \n  Published : Sept. 24, 2026, 7:17 p.m. | 26\u00a0minutes ago\n  \n  Description :PyMongo's connection string parsing decodes perce...",
+      "timestamp": 1790277440.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86860 - Unauthenticated Sensitive Data Disclosure in ServiceNow AI Platform",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86860",
+      "summary": "CVE ID :CVE-2026-86860\n  \n  Published : Sept. 24, 2026, 7:17 p.m. | 26\u00a0minutes ago\n  \n  Description :ServiceNow has remediated a missing authorization...",
+      "timestamp": 1790277438.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86859 - Unauthenticated Arbitrary Record Disclosure in ServiceNow AI Platform",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86859",
+      "summary": "CVE ID :CVE-2026-86859\n  \n  Published : Sept. 24, 2026, 7:17 p.m. | 26\u00a0minutes ago\n  \n  Description :ServiceNow has remediated an authorization bypass...",
+      "timestamp": 1790277438.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86858 - Unauthenticated Privilege Escalation via GraphQL in ServiceNow AI Platform",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86858",
+      "summary": "CVE ID :CVE-2026-86858\n  \n  Published : Sept. 24, 2026, 7:17 p.m. | 26\u00a0minutes ago\n  \n  Description :ServiceNow has remediated an improper access cont...",
+      "timestamp": 1790277438.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86857 - Authorization Bypass in ServiceNow AI Platform",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86857",
+      "summary": "CVE ID :CVE-2026-86857\n  \n  Published : Sept. 24, 2026, 7:17 p.m. | 26\u00a0minutes ago\n  \n  Description :ServiceNow has remediated an authorization bypass...",
+      "timestamp": 1790277438.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82371 - Plaintext exposure of sensitive authentication data in SANnav discovery service log files",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82371",
+      "summary": "CVE ID :CVE-2026-82371\n  \n  Published : Sept. 24, 2026, 7:17 p.m. | 26\u00a0minutes ago\n  \n  Description :Plaintext exposure of sensitive authentication da...",
+      "timestamp": 1790277438.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Exposed GitLab project email addresses let attackers push code",
+      "link": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
+      "summary": "Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contributing guid...",
+      "timestamp": 1790272064.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco Identity Services Engine Authentication Bypass Vulnerabilities",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multiauth-bypass-sgD2HbL4?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authentication%20Bypass%20Vulnerabilities%26vs_k=1",
+      "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to a...",
+      "timestamp": 1790270197.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "FedRAMP VDR & VER: Daily Scans Are Only the Beginning",
+      "link": "https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/",
+      "summary": "FedRAMP's new VDR and VER requirements make vulnerability management more continuous, with faster scanning, tighter remediation deadlines, and stronge...",
+      "timestamp": 1790258532.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
+      "summary": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber ...",
+      "timestamp": 1790256477.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Windows 11 KB5124010 update released with 46 changes and fixes",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/",
+      "summary": "Microsoft released the KB5124010 September 2026 non-security preview update for Windows 11 24H2 and 25H2, with 46 changes including Bluetooth improvem...",
+      "timestamp": 1790252192.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "CISA: Ransomware gangs now exploiting critical TeamCity flaw",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
@@ -75,92 +195,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-85682 - YOP Poll <= 7.0.10 - Unauthenticated Origin Validation Error to Administrator Account Takeover via '/auth/wp-login-redirect' REST Route",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85682",
-      "summary": "CVE ID :CVE-2026-85682\n  \n  Published : Sept. 24, 2026, 9:17 a.m. | 26\u00a0minutes ago\n  \n  Description :The YOP Poll plugin for WordPress is vulnerable t...",
-      "timestamp": 1790241428.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78312 - Path Traversal in DIAEnergie",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78312",
-      "summary": "CVE ID :CVE-2026-78312\n  \n  Published : Sept. 24, 2026, 9:17 a.m. | 26\u00a0minutes ago\n  \n  Description :Path Traversal in DIAEnergie.\n\nThis issue affects...",
-      "timestamp": 1790241428.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78311 - SQL Injection in DIAEnergie",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78311",
-      "summary": "CVE ID :CVE-2026-78311\n  \n  Published : Sept. 24, 2026, 9:17 a.m. | 26\u00a0minutes ago\n  \n  Description :SQL Injection vulnerability in DIAEnergie.\n\nThis ...",
-      "timestamp": 1790241428.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78309 - SQL Injection in DIAEnergie",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78309",
-      "summary": "CVE ID :CVE-2026-78309\n  \n  Published : Sept. 24, 2026, 9:17 a.m. | 26\u00a0minutes ago\n  \n  Description :SQL Injection vulnerability in DIAEnergie.\n\nThis ...",
-      "timestamp": 1790241428.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-78308 - Authentication Bypass in DIAEnergie",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-78308",
-      "summary": "CVE ID :CVE-2026-78308\n  \n  Published : Sept. 24, 2026, 9:17 a.m. | 26\u00a0minutes ago\n  \n  Description :Improper Authentication vulnerability in DIAEnerg...",
-      "timestamp": 1790241428.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Microsoft fixes bug that broke Windows File History backup feature",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
       "summary": "Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the September 2026 sec...",
       "timestamp": 1790237687.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-97152 - Nanomsg WebSocket Transport Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97152",
-      "summary": "CVE ID :CVE-2026-97152\n  \n  Published : Sept. 24, 2026, 4:18 a.m. | 5\u00a0hours, 25\u00a0minutes ago\n  \n  Description :Nanomsg versions 0.5-beta through 1.x be...",
-      "timestamp": 1790223486.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-97151 - Mammoth.js Prototype Pollution and Arbitrary File Disclosure",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97151",
-      "summary": "CVE ID :CVE-2026-97151\n  \n  Published : Sept. 24, 2026, 4:18 a.m. | 5\u00a0hours, 25\u00a0minutes ago\n  \n  Description :mammoth (aka mammoth.js) before 1.12.2 i...",
-      "timestamp": 1790223486.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-96891 - D-Link DIR-825 rp-l2tp tunnel.c tunnel_set_params out-of-bounds write",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96891",
-      "summary": "CVE ID :CVE-2026-96891\n  \n  Published : Sept. 24, 2026, 3:16 a.m. | 6\u00a0hours, 26\u00a0minutes ago\n  \n  Description :A vulnerability was identified in D-Link...",
-      "timestamp": 1790219818.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-97055 - SigNoz before 0.143.0 Authentication Bypass via Empty JWT Secret",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97055",
-      "summary": "CVE ID :CVE-2026-97055\n  \n  Published : Sept. 24, 2026, 2:16 a.m. | 7\u00a0hours, 26\u00a0minutes ago\n  \n  Description :SigNoz from v0.8.0 before v0.143.0 defau...",
-      "timestamp": 1790216214.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18467 - Paytium: Mollie payment forms & donations <= 5.0.3 - Unauthenticated Privilege Escalation via 'pt_form_field[pt-user-role]' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18467",
-      "summary": "CVE ID :CVE-2026-18467\n  \n  Published : Sept. 24, 2026, 2:16 a.m. | 7\u00a0hours, 26\u00a0minutes ago\n  \n  Description :The Paytium: Mollie payment forms & dona...",
-      "timestamp": 1790216212.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
@@ -183,38 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
       "summary": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability ...",
       "timestamp": 1790193234.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers start exploiting critical WordPress flaw for code execution",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
-      "summary": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell co...",
-      "timestamp": 1790188282.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
-      "summary": "A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more than 600,...",
-      "timestamp": 1790180454.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "InfraTrust report warns network management systems under attack",
-      "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
-      "summary": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively ...",
-      "timestamp": 1790174126.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
-      "link": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
-      "summary": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to ...",
-      "timestamp": 1790172071.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -299,69 +307,13 @@
       "vendor": "Cisco"
     },
     {
-      "title": "Cisco Secure Email Gateway SQL Injection Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20SQL%20Injection%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execu...",
-      "timestamp": 1789663632.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
       "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
       "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-sea...",
       "timestamp": 1789582462.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1790250207.622134
+  "last_updated": 1790280121.2986999
 }
