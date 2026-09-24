@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,56 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-97152 - Nanomsg WebSocket Transport Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97152",
+      "summary": "CVE ID :CVE-2026-97152\n  \n  Published : Sept. 24, 2026, 4:18 a.m. | 41\u00a0minutes ago\n  \n  Description :Nanomsg versions 0.5-beta through 1.x before 1.2....",
+      "timestamp": 1790223486.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97151 - Mammoth.js Prototype Pollution and Arbitrary File Disclosure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97151",
+      "summary": "CVE ID :CVE-2026-97151\n  \n  Published : Sept. 24, 2026, 4:18 a.m. | 41\u00a0minutes ago\n  \n  Description :mammoth (aka mammoth.js) before 1.12.2 is vulnera...",
+      "timestamp": 1790223486.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-96891 - D-Link DIR-825 rp-l2tp tunnel.c tunnel_set_params out-of-bounds write",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96891",
+      "summary": "CVE ID :CVE-2026-96891\n  \n  Published : Sept. 24, 2026, 3:16 a.m. | 1\u00a0hour, 43\u00a0minutes ago\n  \n  Description :A vulnerability was identified in D-Link ...",
+      "timestamp": 1790219818.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97055 - SigNoz before 0.143.0 Authentication Bypass via Empty JWT Secret",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97055",
+      "summary": "CVE ID :CVE-2026-97055\n  \n  Published : Sept. 24, 2026, 2:16 a.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :SigNoz from v0.8.0 before v0.143.0 defau...",
+      "timestamp": 1790216214.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18467 - Paytium: Mollie payment forms & donations <= 5.0.3 - Unauthenticated Privilege Escalation via 'pt_form_field[pt-user-role]' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18467",
+      "summary": "CVE ID :CVE-2026-18467\n  \n  Published : Sept. 24, 2026, 2:16 a.m. | 2\u00a0hours, 43\u00a0minutes ago\n  \n  Description :The Paytium: Mollie payment forms & dona...",
+      "timestamp": 1790216212.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-93577 - Integer Overflow or Wraparound in GitLab",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-93577",
-      "summary": "CVE ID :CVE-2026-93577\n  \n  Published : Sept. 24, 2026, 12:17 a.m. | 35\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab CE/EE a...",
+      "summary": "CVE ID :CVE-2026-93577\n  \n  Published : Sept. 24, 2026, 12:17 a.m. | 4\u00a0hours, 42\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLa...",
       "timestamp": 1790209042.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +109,7 @@
     {
       "title": "CVE-2026-89078 - Double Free in GitLab",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-89078",
-      "summary": "CVE ID :CVE-2026-89078\n  \n  Published : Sept. 24, 2026, 12:17 a.m. | 35\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab CE/EE a...",
+      "summary": "CVE ID :CVE-2026-89078\n  \n  Published : Sept. 24, 2026, 12:17 a.m. | 4\u00a0hours, 42\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLa...",
       "timestamp": 1790209042.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +117,7 @@
     {
       "title": "CVE-2026-82370 - Unauthenticated remote command injection in the Brocade SANnav orchestrator HTTP service",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82370",
-      "summary": "CVE ID :CVE-2026-82370\n  \n  Published : Sept. 24, 2026, 12:17 a.m. | 35\u00a0minutes ago\n  \n  Description :Unauthenticated remote command injection in the ...",
+      "summary": "CVE ID :CVE-2026-82370\n  \n  Published : Sept. 24, 2026, 12:17 a.m. | 4\u00a0hours, 42\u00a0minutes ago\n  \n  Description :Unauthenticated remote command injectio...",
       "timestamp": 1790209041.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +125,7 @@
     {
       "title": "CVE-2026-70125 - Microsoft Outlook Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-70125",
-      "summary": "CVE ID :CVE-2026-70125\n  \n  Published : Sept. 23, 2026, 11:18 p.m. | 1\u00a0hour, 34\u00a0minutes ago\n  \n  Description :Microsoft Outlook Remote Code Execution ...",
+      "summary": "CVE ID :CVE-2026-70125\n  \n  Published : Sept. 23, 2026, 11:18 p.m. | 5\u00a0hours, 41\u00a0minutes ago\n  \n  Description :Microsoft Outlook Remote Code Execution...",
       "timestamp": 1790205492.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,40 +141,8 @@
     {
       "title": "CVE-2026-93352 - Laravel-Mediable 7.0.0 < 7.0.2 RCE via .pht File Upload",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-93352",
-      "summary": "CVE ID :CVE-2026-93352\n  \n  Published : Sept. 23, 2026, 10:16 p.m. | 2\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Laravel-Mediable 7.0.0 before 7.0.2 con...",
+      "summary": "CVE ID :CVE-2026-93352\n  \n  Published : Sept. 23, 2026, 10:16 p.m. | 6\u00a0hours, 43\u00a0minutes ago\n  \n  Description :Laravel-Mediable 7.0.0 before 7.0.2 con...",
       "timestamp": 1790201819.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86583 - Import and export users and customers <= 2.4.17 - Authenticated (Subscriber+) Privilege Escalation via CSV Escape-Character Mismatch in Export/Import Round Trip via display_name and nickname Profile Fields",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86583",
-      "summary": "CVE ID :CVE-2026-86583\n  \n  Published : Sept. 23, 2026, 10:16 p.m. | 2\u00a0hours, 35\u00a0minutes ago\n  \n  Description :The Import and export users and custome...",
-      "timestamp": 1790201819.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-81537 - DataStage on Cloud Pak for Data has several vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81537",
-      "summary": "CVE ID :CVE-2026-81537\n  \n  Published : Sept. 23, 2026, 10:16 p.m. | 2\u00a0hours, 35\u00a0minutes ago\n  \n  Description :IBM DataStage on Cloud Pak for Data 5.4...",
-      "timestamp": 1790201817.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-80423 - DataStage on Cloud Pak for Data has several vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80423",
-      "summary": "CVE ID :CVE-2026-80423\n  \n  Published : Sept. 23, 2026, 10:16 p.m. | 2\u00a0hours, 35\u00a0minutes ago\n  \n  Description :IBM DataStage on Cloud Pak for Data 5.4...",
-      "timestamp": 1790201817.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19125 - EthPress <= 2.3.5 - Unauthenticated Authentication Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19125",
-      "summary": "CVE ID :CVE-2026-19125\n  \n  Published : Sept. 23, 2026, 10:16 p.m. | 2\u00a0hours, 35\u00a0minutes ago\n  \n  Description :The EthPress \u2013 Web3 Login plugin for Wo...",
-      "timestamp": 1790201816.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -145,14 +153,6 @@
       "timestamp": 1790198713.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-82369 - Insufficient input sanitization of shell metacharacters in Brocade SANnav before 3.0.1a",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82369",
-      "summary": "CVE ID :CVE-2026-82369\n  \n  Published : Sept. 23, 2026, 9:17 p.m. | 3\u00a0hours, 35\u00a0minutes ago\n  \n  Description :Insufficient input sanitization of shell...",
-      "timestamp": 1790198223.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
@@ -315,16 +315,8 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -339,16 +331,8 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
-      "summary": "",
-      "timestamp": 1789173000.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
       "summary": "",
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
@@ -361,7 +345,23 @@
       "timestamp": 1789173000.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
+    },
+    {
+      "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+      "summary": "",
+      "timestamp": 1789173000.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1790211291.509242
+  "last_updated": 1790230143.8095126
 }
