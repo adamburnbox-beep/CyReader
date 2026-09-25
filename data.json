@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,49 +52,113 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 8,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-87722 - Regular Expression Denial of Service (ReDoS) in Search Query Predicates and REST Filter Endpoints in Gerrit Code Review",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87722",
-      "summary": "CVE ID :CVE-2026-87722\n  \n  Published : Sept. 24, 2026, 10:03 p.m. | 20\u00a0minutes ago\n  \n  Description :Uncontrolled Resource Consumption (CWE-400 / CWE...",
-      "timestamp": 1790287428.0,
+      "title": "Rydox marketplace admin pleads guilty, faces 22 years in prison",
+      "link": "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
+      "summary": "A Kosovar national has pleaded guilty to operating Rydox, a large illegal online marketplace that sold stolen personal information, login credentials,...",
+      "timestamp": 1790336114.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft: Recent Windows updates cause desktop loading issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
+      "summary": "Microsoft has confirmed that some users may experience desktop loading issues, including black screens, after installing the August 2026 preview updat...",
+      "timestamp": 1790332238.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-97898 - Broken authorization in Akia keyless entry lets an authenticated guest unlock other rooms",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97898",
+      "summary": "CVE ID :CVE-2026-97898\n  \n  Published : Sept. 25, 2026, 10:07 a.m. | 13\u00a0minutes ago\n  \n  Description :Insecure Direct Object Reference / missing objec...",
+      "timestamp": 1790330855.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-87721 - Denial of Service via Exponential Backtracking in ANTLR Search Query Parser in Gerrit Code Review",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87721",
-      "summary": "CVE ID :CVE-2026-87721\n  \n  Published : Sept. 24, 2026, 10:02 p.m. | 21\u00a0minutes ago\n  \n  Description :Uncontrolled Resource Consumption (CWE-400 / CWE...",
-      "timestamp": 1790287327.0,
+      "title": "Hackers steal $351.6 million in Bitget crypto exchange hack",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-3516-million-in-bitget-crypto-exchange-hack/",
+      "summary": "\u200bCryptocurrency exchange Bitget disclosed today that suspected North Korean hackers have stolen $351.6 million from its hot and warm wallets. [...]",
+      "timestamp": 1790325224.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-92713 - Modula Image Gallery <= 3.0.2 - Missing Authorization to Authenticated (Author+) Arbitrary File Deletion (Non-PHP) via 'file' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92713",
+      "summary": "CVE ID :CVE-2026-92713\n  \n  Published : Sept. 25, 2026, 8:16 a.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :The Modula Image Gallery \u2013 Photo Grid & V...",
+      "timestamp": 1790324201.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-95699 - MrSteam iSteamX Improper Isolation or Compartmentalization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-95699",
-      "summary": "CVE ID :CVE-2026-95699\n  \n  Published : Sept. 24, 2026, 9:18 p.m. | 1\u00a0hour, 4\u00a0minutes ago\n  \n  Description :Prior to 9/18/2026, the iSteamX mobile app...",
-      "timestamp": 1790284738.0,
+      "title": "CVE-2026-89426 - Knit Pay <= 9.6.1.0 - Authenticated (Subscriber+) Privilege Escalation via Gravity Forms Role Field",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89426",
+      "summary": "CVE ID :CVE-2026-89426\n  \n  Published : Sept. 25, 2026, 8:16 a.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :The Knit Pay \u2013 Cashfree, Instamojo, Razor...",
+      "timestamp": 1790324200.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-81630 - Botslab G980H Dashcams Insufficient Verification of Data Authenticity",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-81630",
-      "summary": "CVE ID :CVE-2026-81630\n  \n  Published : Sept. 24, 2026, 9:18 p.m. | 1\u00a0hour, 5\u00a0minutes ago\n  \n  Description :The Botslab G980H dash camera firmware doe...",
-      "timestamp": 1790284728.0,
+      "title": "CVE-2026-19804 - s2Member <= 260814 - Unauthenticated Remote Code Execution via 'first_name' Parameter in PayPal Proxy Return",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19804",
+      "summary": "CVE ID :CVE-2026-19804\n  \n  Published : Sept. 25, 2026, 8:16 a.m. | 2\u00a0hours, 4\u00a0minutes ago\n  \n  Description :The s2Member \u2013 Excellent for All Kinds of...",
+      "timestamp": 1790324200.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-14443 - Incomplete log sanitization during bulk IPsec policy collection in Brocade SANnav before 3.0.1a",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14443",
-      "summary": "CVE ID :CVE-2026-14443\n  \n  Published : Sept. 24, 2026, 9:17 p.m. | 1\u00a0hour, 6\u00a0minutes ago\n  \n  Description :Incomplete log sanitization during bulk IP...",
-      "timestamp": 1790284632.0,
+      "title": "CVE-2026-93399 - Online Scheduling and Appointment Booking System <= 28.2 - Insecure Direct Object Reference to Unauthenticated Arbitrary Booking Token Disclosure and Deletion via 'order_id' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93399",
+      "summary": "CVE ID :CVE-2026-93399\n  \n  Published : Sept. 25, 2026, 7:16 a.m. | 3\u00a0hours, 4\u00a0minutes ago\n  \n  Description :The Bookly plugin for WordPress is vulner...",
+      "timestamp": 1790320616.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-89055 - Customer Reviews for WooCommerce <= 5.120.0 - Missing Authorization to Unauthenticated Arbitrary Attachment Deletion via 'items[][media]' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89055",
+      "summary": "CVE ID :CVE-2026-89055\n  \n  Published : Sept. 25, 2026, 7:16 a.m. | 3\u00a0hours, 4\u00a0minutes ago\n  \n  Description :The Customer Reviews for WooCommerce plug...",
+      "timestamp": 1790320615.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62062 - WordPress Elementor Website Builder plugin <= 4.3.1 - Cross Site Request Forgery (CSRF) vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62062",
+      "summary": "CVE ID :CVE-2026-62062\n  \n  Published : Sept. 25, 2026, 7:16 a.m. | 3\u00a0hours, 4\u00a0minutes ago\n  \n  Description :Cross-Site Request Forgery (CSRF) vulnera...",
+      "timestamp": 1790320614.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14281 - Automation Web Platform <= 4.8.6 - Unauthenticated Privilege Escalation via 'wawp_custom_fields' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14281",
+      "summary": "CVE ID :CVE-2026-14281\n  \n  Published : Sept. 25, 2026, 7:16 a.m. | 3\u00a0hours, 4\u00a0minutes ago\n  \n  Description :The Automation Web Platform \u2013 Notificatio...",
+      "timestamp": 1790320613.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97818 - phpIPAM User API Authorization Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97818",
+      "summary": "CVE ID :CVE-2026-97818\n  \n  Published : Sept. 25, 2026, 5:17 a.m. | 5\u00a0hours, 4\u00a0minutes ago\n  \n  Description :phpIPAM through 1.8.3 has incorrect autho...",
+      "timestamp": 1790313428.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97735 - ITFlow SVG File Upload Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97735",
+      "summary": "CVE ID :CVE-2026-97735\n  \n  Published : Sept. 25, 2026, 4:17 a.m. | 6\u00a0hours, 3\u00a0minutes ago\n  \n  Description :ITFlow before 26.08 allows SVG attachment...",
+      "timestamp": 1790309870.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -105,46 +169,6 @@
       "timestamp": 1790283215.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-96883 - Type confusion in AWS pgcollection allows remote code execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96883",
-      "summary": "CVE ID :CVE-2026-96883\n  \n  Published : Sept. 24, 2026, 8:17 p.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :pgcollection is an open source extension ...",
-      "timestamp": 1790281055.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-93354 - Taskview Community Missing Authentication via OAuth Dynamic Client Registration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93354",
-      "summary": "CVE ID :CVE-2026-93354\n  \n  Published : Sept. 24, 2026, 8:17 p.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Taskview Community before 1.56.0 contains...",
-      "timestamp": 1790281054.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-93291 - Improper certificate validation in Eufy Omni C20",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93291",
-      "summary": "CVE ID :CVE-2026-93291\n  \n  Published : Sept. 24, 2026, 8:17 p.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :Omni C20 lacks proper certificate validat...",
-      "timestamp": 1790281054.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-93289 - OS command injection in Eufy Omni C20, Omni X10 Pro",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93289",
-      "summary": "CVE ID :CVE-2026-93289\n  \n  Published : Sept. 24, 2026, 8:17 p.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :The affected products are vulnerable to c...",
-      "timestamp": 1790281054.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85496 - Botslab G980H Dashcams Generation of Predictable Numbers or Identifiers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85496",
-      "summary": "CVE ID :CVE-2026-85496\n  \n  Published : Sept. 24, 2026, 8:17 p.m. | 2\u00a0hours, 6\u00a0minutes ago\n  \n  Description :The Botslab G980H dash camera firmware ge...",
-      "timestamp": 1790281052.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
@@ -199,30 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/",
       "summary": "\u200bThe U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a...",
       "timestamp": 1790246557.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "OpenAI hacked Australian Medicare govt site, probed data providers",
-      "link": "https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/",
-      "summary": "OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australi...",
-      "timestamp": 1790242733.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft fixes bug that broke Windows File History backup feature",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
-      "summary": "Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the September 2026 sec...",
-      "timestamp": 1790237687.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
-      "summary": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples,\u00a0is serving a fake Cloudflare verification p...",
-      "timestamp": 1790203561.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -315,5 +315,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1790291693.4934623
+  "last_updated": 1790338335.498684
 }
