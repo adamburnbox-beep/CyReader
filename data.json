@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,20 +59,108 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-84462 - Zammad: AI Agent template sanitizer bypass leads to remote code execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84462",
+      "summary": "CVE ID :CVE-2026-84462\n  \n  Published : Sept. 25, 2026, 6:17 p.m. | 24\u00a0minutes ago\n  \n  Description :Zammad is a web based open source helpdesk/custom...",
+      "timestamp": 1790360250.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-61525 - Zammad: Arbitrary File Deletion via Unvalidated Session Identifier in Long Polling Controller",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61525",
+      "summary": "CVE ID :CVE-2026-61525\n  \n  Published : Sept. 25, 2026, 6:17 p.m. | 24\u00a0minutes ago\n  \n  Description :Zammad is a web based open source helpdesk/custom...",
+      "timestamp": 1790360249.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56733 - Zammad: Incorrect Authorization and Improper Privilege Management",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56733",
+      "summary": "CVE ID :CVE-2026-56733\n  \n  Published : Sept. 25, 2026, 6:17 p.m. | 24\u00a0minutes ago\n  \n  Description :Zammad is a web based open source helpdesk/custom...",
+      "timestamp": 1790360247.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56731 - Zammad: Cross-Site Scripting in Ticket Notifications",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56731",
+      "summary": "CVE ID :CVE-2026-56731\n  \n  Published : Sept. 25, 2026, 6:17 p.m. | 24\u00a0minutes ago\n  \n  Description :Zammad is a web based open source helpdesk/custom...",
+      "timestamp": 1790360247.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-56725 - Zammad: Denial of Service via OTRS Import Controller",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-56725",
+      "summary": "CVE ID :CVE-2026-56725\n  \n  Published : Sept. 25, 2026, 6:17 p.m. | 24\u00a0minutes ago\n  \n  Description :Zammad is a web based open source helpdesk/custom...",
+      "timestamp": 1790360246.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Elementor WordPress flaw lets attackers create admin accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
+      "summary": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrato...",
+      "timestamp": 1790360013.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-97064 - X-SpringBoot through 6.0 Authentication Bypass via Static Master Code",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97064",
+      "summary": "CVE ID :CVE-2026-97064\n  \n  Published : Sept. 25, 2026, 6:12 p.m. | 29\u00a0minutes ago\n  \n  Description :X-SpringBoot through 6.0 ships with a hardcoded s...",
+      "timestamp": 1790359939.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97063 - X-SpringBoot through 6.0 Authentication Bypass via Login Code",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97063",
+      "summary": "CVE ID :CVE-2026-97063\n  \n  Published : Sept. 25, 2026, 6:12 p.m. | 29\u00a0minutes ago\n  \n  Description :X-SpringBoot through 6.0 returns login verificati...",
+      "timestamp": 1790359939.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97060 - X-SpringBoot through 6.0 Authorization Bypass via User Management",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97060",
+      "summary": "CVE ID :CVE-2026-97060\n  \n  Published : Sept. 25, 2026, 6:12 p.m. | 29\u00a0minutes ago\n  \n  Description :X-SpringBoot through 6.0 lacks object-level autho...",
+      "timestamp": 1790359938.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability (CVE-2026...",
+      "timestamp": 1790357060.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-94445 - Malicious user input may lead to RCE in golang.org/x/playground",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94445",
+      "summary": "CVE ID :CVE-2026-94445\n  \n  Published : Sept. 25, 2026, 5:17 p.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :A malicious txtar could escape the intend...",
+      "timestamp": 1790356639.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-89032 - BerriAI LiteLLM < 1.101.0-rc.1 Tenant Isolation Bypass via Semantic Cache Layer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89032",
+      "summary": "CVE ID :CVE-2026-89032\n  \n  Published : Sept. 25, 2026, 5:17 p.m. | 1\u00a0hour, 24\u00a0minutes ago\n  \n  Description :BerriAI LiteLLM before 1.101.0-rc.1 conta...",
+      "timestamp": 1790356638.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
       "summary": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage...",
       "timestamp": 1790352000.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-96812 - Host Root Sandbox Escape in gVisor via Character Device Passthrough and CUSE",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96812",
-      "summary": "CVE ID :CVE-2026-96812\n  \n  Published : Sept. 25, 2026, 3:17 p.m. | 21\u00a0minutes ago\n  \n  Description :Improper Exposure of Resource to Wrong Sphere in ...",
-      "timestamp": 1790349477.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "OpenAI is preparing a $500 ChatGPT Pro Max plan with faster Codex",
@@ -89,78 +177,6 @@
       "timestamp": 1790347870.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-93834 - Qemu-kvm: 9pfs: use-after-free race in tlcreate/twalk allows vm guest escape",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93834",
-      "summary": "CVE ID :CVE-2026-93834\n  \n  Published : Sept. 25, 2026, 2:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :A use-after-free vulnerability was found ...",
-      "timestamp": 1790345844.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-93647 - Zimbra Collaboration Suite Classic Web Client Stored Cross-Site Scripting via Crafted Calendar COUNTER Message From Address",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93647",
-      "summary": "CVE ID :CVE-2026-93647\n  \n  Published : Sept. 25, 2026, 2:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :An unauthenticated calendar sender can pl...",
-      "timestamp": 1790345843.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-93643 - Zimbra Collaboration Suite OnlyOffice Integration Path Traversal Leading to Remote Code Execution via Unauthenticated /downloadas Request",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93643",
-      "summary": "CVE ID :CVE-2026-93643\n  \n  Published : Sept. 25, 2026, 2:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :When OnlyOffice/Document Editing is avail...",
-      "timestamp": 1790345843.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-93642 - Zimbra Collaboration Suite Modern Web Client Stored Cross-Site Scripting via Forged Share Invitation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93642",
-      "summary": "CVE ID :CVE-2026-93642\n  \n  Published : Sept. 25, 2026, 2:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :An unauthenticated sender can forge a sha...",
-      "timestamp": 1790345843.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-93641 - Zimbra Collaboration Suite Classic Web Client Stored Cross-Site Scripting via Forged Share Invitation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93641",
-      "summary": "CVE ID :CVE-2026-93641\n  \n  Published : Sept. 25, 2026, 2:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :An unauthenticated sender can forge a sha...",
-      "timestamp": 1790345843.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85542 - IBM Guardium Data Protection is affected by multiple vulnerabilities.",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85542",
-      "summary": "CVE ID :CVE-2026-85542\n  \n  Published : Sept. 25, 2026, 2:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :IBM Guardium Data Protection 12.2 is affe...",
-      "timestamp": 1790345840.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-100176 - Stored Cross-Site Scripting (XSS) in AIL Framework Username Timeline Tooltip",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100176",
-      "summary": "CVE ID :CVE-2026-100176\n  \n  Published : Sept. 25, 2026, 2:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :The AIL Framework's username timeline fe...",
-      "timestamp": 1790345837.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-100172 - Stored XSS in AIL Framework extracted-match popovers via unescaped dynamic values in HTML-enabled data-content attributes",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100172",
-      "summary": "CVE ID :CVE-2026-100172\n  \n  Published : Sept. 25, 2026, 2:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :The AIL Framework (ail-project/ail-frame...",
-      "timestamp": 1790345835.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-100075 - RDMA/srpt: Fix srpt_alloc_rw_ctxs() unwind counters",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100075",
-      "summary": "CVE ID :CVE-2026-100075\n  \n  Published : Sept. 25, 2026, 2:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :In the Linux kernel, the following vulne...",
-      "timestamp": 1790345834.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft plans to deprecate Windows Deployment Services",
@@ -199,22 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
       "summary": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]",
       "timestamp": 1790283215.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
-      "link": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
-      "summary": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install\u00a0the Hermes Agent AI framework and take control. [....",
-      "timestamp": 1790280648.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Exposed GitLab project email addresses let attackers push code",
-      "link": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
-      "summary": "Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contributing guid...",
-      "timestamp": 1790272064.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -315,5 +315,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1790356179.5099697
+  "last_updated": 1790368036.9733093
 }
