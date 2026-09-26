@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 9,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,84 +59,116 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-100599 - OpenClaw 2026.5.1 before 2026.7.1 Remote Code Execution via googlemeet.chrome",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100599",
-      "summary": "CVE ID :CVE-2026-100599\n  \n  Published : Sept. 26, 2026, 3:17 a.m. | 3\u00a0hours, 42\u00a0minutes ago\n  \n  Description :OpenClaw versions 2026.5.1 through 2026...",
-      "timestamp": 1790392628.0,
+      "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
+      "summary": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and ...",
+      "timestamp": 1790440018.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft pauses KB5002907 update after Office license deactivations",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
+      "summary": "Microsoft has paused the rollout of the KB5002907 Microsoft 365 update after users report\u00a0that it deactivated, or in some cases completely removed, pe...",
+      "timestamp": 1790437838.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-97163 - Joomla Extension - lomart.fr - Unauthenticated remote code installation in UP plugin extension 5.0.0-5.2.0, 6.0.0-6.0.29",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97163",
+      "summary": "CVE ID :CVE-2026-97163\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Joomla Extension - lomart.fr - Unauthenticated re...",
+      "timestamp": 1790435815.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100597 - OpenClaw before 2026.7.1 Path Traversal via Filesystem Race",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100597",
-      "summary": "CVE ID :CVE-2026-100597\n  \n  Published : Sept. 26, 2026, 3:17 a.m. | 3\u00a0hours, 42\u00a0minutes ago\n  \n  Description :OpenClaw (npm package 'openclaw') befor...",
-      "timestamp": 1790392628.0,
+      "title": "CVE-2026-97162 - Joomla Extension - lomart.fr - Various SQL injection vectors in UP plugin extension 5.0.0-5.2.0, 6.0.0-6.0.29",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97162",
+      "summary": "CVE ID :CVE-2026-97162\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Joomla Extension - lomart.fr - Various SQL inject...",
+      "timestamp": 1790435815.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100596 - OpenClaw before 2026.7.1 Authorization Bypass via MCP Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100596",
-      "summary": "CVE ID :CVE-2026-100596\n  \n  Published : Sept. 26, 2026, 3:17 a.m. | 3\u00a0hours, 42\u00a0minutes ago\n  \n  Description :OpenClaw versions before 2026.7.1 fail ...",
-      "timestamp": 1790392628.0,
+      "title": "CVE-2026-97161 - Joomla Extension - lomart.fr - Various path traversal / file access vectors in UP plugin extension 5.0.0-5.2.0, 6.0.0-6.0.29",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97161",
+      "summary": "CVE ID :CVE-2026-97161\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Joomla Extension - lomart.fr - Various path trave...",
+      "timestamp": 1790435815.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100589 - OpenClaw before 2026.7.1 Sandbox Bypass via Browser Node",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100589",
-      "summary": "CVE ID :CVE-2026-100589\n  \n  Published : Sept. 26, 2026, 3:17 a.m. | 3\u00a0hours, 42\u00a0minutes ago\n  \n  Description :OpenClaw versions before 2026.7.1 conta...",
-      "timestamp": 1790392627.0,
+      "title": "CVE-2026-97160 - Joomla Extension - lomart.fr - Authenticated, privileged PHP command injection in UP plugin extension 5.0.0-5.2.0, 6.0.0-6.0.29",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97160",
+      "summary": "CVE ID :CVE-2026-97160\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Joomla Extension - lomart.fr - Authenticated, pri...",
+      "timestamp": 1790435815.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100588 - OpenClaw before 2026.7.1 Authentication Bypass via node.invoke",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100588",
-      "summary": "CVE ID :CVE-2026-100588\n  \n  Published : Sept. 26, 2026, 3:17 a.m. | 3\u00a0hours, 42\u00a0minutes ago\n  \n  Description :OpenClaw (npm package 'openclaw') befor...",
-      "timestamp": 1790392626.0,
+      "title": "CVE-2026-94132 - Joomla Extension - acymailing.com - Remote Code Execution vulnerability in mailbox action feature in AcyMailing Enterprise extension < 11.1.0",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94132",
+      "summary": "CVE ID :CVE-2026-94132\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Joomla Extension - acymailing.com - Remote Code E...",
+      "timestamp": 1790435815.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100587 - OpenClaw before 2026.7.1 Authorization Bypass via Codex Install",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100587",
-      "summary": "CVE ID :CVE-2026-100587\n  \n  Published : Sept. 26, 2026, 3:17 a.m. | 3\u00a0hours, 42\u00a0minutes ago\n  \n  Description :OpenClaw versions before 2026.7.1 fail ...",
-      "timestamp": 1790392626.0,
+      "title": "CVE-2026-94131 - Joomla Extension - acymailing.com - Unauthenticated arbitrary file deletion in AcyMailing Enterprise extension < 11.1.0",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94131",
+      "summary": "CVE ID :CVE-2026-94131\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Joomla Extension - acymailing.com - Unauthenticat...",
+      "timestamp": 1790435814.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100586 - OpenClaw Codex before 2026.7.1 Authorization Bypass via Bind",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100586",
-      "summary": "CVE ID :CVE-2026-100586\n  \n  Published : Sept. 26, 2026, 3:17 a.m. | 3\u00a0hours, 42\u00a0minutes ago\n  \n  Description :OpenClaw Codex before 2026.7.1 fails to...",
-      "timestamp": 1790392626.0,
+      "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
+      "link": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+      "summary": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for mo...",
+      "timestamp": 1790432386.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-94130 - Joomla Extension - joomlaboat.com - Unauthenticated SQL injection in YouTube Gallery extension < 5.7.3",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94130",
+      "summary": "CVE ID :CVE-2026-94130\n  \n  Published : Sept. 26, 2026, 2:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :Joomla Extension - joomlaboat.com - Unaut...",
+      "timestamp": 1790432220.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100585 - OpenClaw before 2026.7.1 Authentication Bypass via MCP Channel",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100585",
-      "summary": "CVE ID :CVE-2026-100585\n  \n  Published : Sept. 26, 2026, 3:17 a.m. | 3\u00a0hours, 42\u00a0minutes ago\n  \n  Description :OpenClaw (npm package `openclaw`) befor...",
-      "timestamp": 1790392626.0,
+      "title": "CVE-2026-100720 - Froxlor before 2.3.12 Stored XSS via SSL certificate issuer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100720",
+      "summary": "CVE ID :CVE-2026-100720\n  \n  Published : Sept. 26, 2026, 2:16 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :Froxlor 2.0.0 through 2.3.10 is vulnerab...",
+      "timestamp": 1790432218.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100580 - OpenClaw before 2026.7.1 Remote Code Execution via cron tool",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100580",
-      "summary": "CVE ID :CVE-2026-100580\n  \n  Published : Sept. 26, 2026, 3:17 a.m. | 3\u00a0hours, 42\u00a0minutes ago\n  \n  Description :OpenClaw (npm package 'openclaw') befor...",
-      "timestamp": 1790392625.0,
+      "title": "CVE-2026-100717 - froxlor before 2.3.12 CRLF Injection via validateUrl userinfo",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100717",
+      "summary": "CVE ID :CVE-2026-100717\n  \n  Published : Sept. 26, 2026, 2:16 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :froxlor is a server administration panel...",
+      "timestamp": 1790432217.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100575 - OpenClaw Slack before 2026.8.1 Authentication Bypass via Group DM",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100575",
-      "summary": "CVE ID :CVE-2026-100575\n  \n  Published : Sept. 26, 2026, 3:17 a.m. | 3\u00a0hours, 42\u00a0minutes ago\n  \n  Description :OpenClaw Slack versions before 2026.8.1...",
-      "timestamp": 1790392625.0,
+      "title": "CVE-2026-100716 - Froxlor before 2.3.12 Privilege Escalation via Symlink",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100716",
+      "summary": "CVE ID :CVE-2026-100716\n  \n  Published : Sept. 26, 2026, 2:16 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :Froxlor is a server administration panel...",
+      "timestamp": 1790432217.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+      "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
+      "timestamp": 1790425721.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
@@ -191,38 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/",
       "summary": "OpenAI appears to be preparing a new ChatGPT Pro Max subscription that could cost $500 per month, but it's unclear when it'll begin rolling out. [...]",
       "timestamp": 1790348073.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance",
-      "link": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
-      "summary": "AI agents can operate through human credentials and take actions that existing SOC 2 controls may not distinguish from human activity. Token Security ...",
-      "timestamp": 1790347870.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft plans to deprecate Windows Deployment Services",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
-      "summary": "Microsoft announced it will deprecate the Windows Deployment Services (WDS) server role starting with the next Windows Server release. [...]",
-      "timestamp": 1790340059.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Rydox marketplace admin pleads guilty, faces 22 years in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
-      "summary": "A Kosovar national has pleaded guilty to operating Rydox, a large illegal online marketplace that sold stolen personal information, login credentials,...",
-      "timestamp": 1790336114.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft: Recent Windows updates cause desktop loading issues",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
-      "summary": "Microsoft has confirmed that some users may experience desktop loading issues, including black screens, after installing the August 2026 preview updat...",
-      "timestamp": 1790332238.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -323,5 +323,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1790408208.8886669
+  "last_updated": 1790441243.7753296
 }
