@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,36 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+      "summary": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35...",
+      "timestamp": 1790449414.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-85984 - miniOrange OTP Login, Verification and SMS Notifications <= 5.5.5 - Unauthenticated Authentication Bypass via 'mo_wp_login_intent' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85984",
+      "summary": "CVE ID :CVE-2026-85984\n  \n  Published : Sept. 26, 2026, 6:16 p.m. | 28\u00a0minutes ago\n  \n  Description :The miniOrange OTP Login, Verification and SMS No...",
+      "timestamp": 1790446591.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77203 - Groups <= 4.6.0 - Authenticated (Subscriber+) Privilege Escalation via 'groups_join' Shortcode",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77203",
+      "summary": "CVE ID :CVE-2026-77203\n  \n  Published : Sept. 26, 2026, 6:16 p.m. | 28\u00a0minutes ago\n  \n  Description :The Groups \u2013 Memberships and Access Control plugi...",
+      "timestamp": 1790446589.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
@@ -77,7 +101,7 @@
     {
       "title": "CVE-2026-97163 - Joomla Extension - lomart.fr - Unauthenticated remote code installation in UP plugin extension 5.0.0-5.2.0, 6.0.0-6.0.29",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-97163",
-      "summary": "CVE ID :CVE-2026-97163\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Joomla Extension - lomart.fr - Unauthenticated re...",
+      "summary": "CVE ID :CVE-2026-97163\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Joomla Extension - lomart.fr - Unauthent...",
       "timestamp": 1790435815.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +109,7 @@
     {
       "title": "CVE-2026-97162 - Joomla Extension - lomart.fr - Various SQL injection vectors in UP plugin extension 5.0.0-5.2.0, 6.0.0-6.0.29",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-97162",
-      "summary": "CVE ID :CVE-2026-97162\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Joomla Extension - lomart.fr - Various SQL inject...",
+      "summary": "CVE ID :CVE-2026-97162\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Joomla Extension - lomart.fr - Various S...",
       "timestamp": 1790435815.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +117,7 @@
     {
       "title": "CVE-2026-97161 - Joomla Extension - lomart.fr - Various path traversal / file access vectors in UP plugin extension 5.0.0-5.2.0, 6.0.0-6.0.29",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-97161",
-      "summary": "CVE ID :CVE-2026-97161\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Joomla Extension - lomart.fr - Various path trave...",
+      "summary": "CVE ID :CVE-2026-97161\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Joomla Extension - lomart.fr - Various p...",
       "timestamp": 1790435815.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +125,7 @@
     {
       "title": "CVE-2026-97160 - Joomla Extension - lomart.fr - Authenticated, privileged PHP command injection in UP plugin extension 5.0.0-5.2.0, 6.0.0-6.0.29",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-97160",
-      "summary": "CVE ID :CVE-2026-97160\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Joomla Extension - lomart.fr - Authenticated, pri...",
+      "summary": "CVE ID :CVE-2026-97160\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Joomla Extension - lomart.fr - Authentic...",
       "timestamp": 1790435815.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,7 +133,7 @@
     {
       "title": "CVE-2026-94132 - Joomla Extension - acymailing.com - Remote Code Execution vulnerability in mailbox action feature in AcyMailing Enterprise extension < 11.1.0",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94132",
-      "summary": "CVE ID :CVE-2026-94132\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Joomla Extension - acymailing.com - Remote Code E...",
+      "summary": "CVE ID :CVE-2026-94132\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Joomla Extension - acymailing.com - Remo...",
       "timestamp": 1790435815.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -117,7 +141,7 @@
     {
       "title": "CVE-2026-94131 - Joomla Extension - acymailing.com - Unauthenticated arbitrary file deletion in AcyMailing Enterprise extension < 11.1.0",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94131",
-      "summary": "CVE ID :CVE-2026-94131\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 27\u00a0minutes ago\n  \n  Description :Joomla Extension - acymailing.com - Unauthenticat...",
+      "summary": "CVE ID :CVE-2026-94131\n  \n  Published : Sept. 26, 2026, 3:16 p.m. | 3\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Joomla Extension - acymailing.com - Unau...",
       "timestamp": 1790435814.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -133,7 +157,7 @@
     {
       "title": "CVE-2026-94130 - Joomla Extension - joomlaboat.com - Unauthenticated SQL injection in YouTube Gallery extension < 5.7.3",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94130",
-      "summary": "CVE ID :CVE-2026-94130\n  \n  Published : Sept. 26, 2026, 2:17 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :Joomla Extension - joomlaboat.com - Unaut...",
+      "summary": "CVE ID :CVE-2026-94130\n  \n  Published : Sept. 26, 2026, 2:17 p.m. | 4\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Joomla Extension - joomlaboat.com - Unau...",
       "timestamp": 1790432220.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -141,24 +165,8 @@
     {
       "title": "CVE-2026-100720 - Froxlor before 2.3.12 Stored XSS via SSL certificate issuer",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100720",
-      "summary": "CVE ID :CVE-2026-100720\n  \n  Published : Sept. 26, 2026, 2:16 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :Froxlor 2.0.0 through 2.3.10 is vulnerab...",
+      "summary": "CVE ID :CVE-2026-100720\n  \n  Published : Sept. 26, 2026, 2:16 p.m. | 4\u00a0hours, 27\u00a0minutes ago\n  \n  Description :Froxlor 2.0.0 through 2.3.10 is vulnera...",
       "timestamp": 1790432218.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-100717 - froxlor before 2.3.12 CRLF Injection via validateUrl userinfo",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100717",
-      "summary": "CVE ID :CVE-2026-100717\n  \n  Published : Sept. 26, 2026, 2:16 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :froxlor is a server administration panel...",
-      "timestamp": 1790432217.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-100716 - Froxlor before 2.3.12 Privilege Escalation via Symlink",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100716",
-      "summary": "CVE ID :CVE-2026-100716\n  \n  Published : Sept. 26, 2026, 2:16 p.m. | 1\u00a0hour, 27\u00a0minutes ago\n  \n  Description :Froxlor is a server administration panel...",
-      "timestamp": 1790432217.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -215,14 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
       "summary": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage...",
       "timestamp": 1790352000.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "OpenAI is preparing a $500 ChatGPT Pro Max plan with faster Codex",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/",
-      "summary": "OpenAI appears to be preparing a new ChatGPT Pro Max subscription that could cost $500 per month, but it's unclear when it'll begin rolling out. [...]",
-      "timestamp": 1790348073.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -323,5 +323,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1790441243.7753296
+  "last_updated": 1790452063.094143
 }
