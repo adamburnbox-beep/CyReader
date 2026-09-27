@@ -52,16 +52,48 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-93302 - Trusted peer certificate match ignores public key, allowing forged CA clones",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93302",
+      "summary": "CVE ID :CVE-2026-93302\n  \n  Published : Sept. 27, 2026, 10:16 a.m. | 45\u00a0minutes ago\n  \n  Description :MatchTrustedPeer ignores the public key used, le...",
+      "timestamp": 1790504219.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-89136 - Client accepts unsolicited RawPublicKey server certificate type",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89136",
+      "summary": "CVE ID :CVE-2026-89136\n  \n  Published : Sept. 27, 2026, 10:16 a.m. | 45\u00a0minutes ago\n  \n  Description :When using RPK (Raw Public Key), the client side...",
+      "timestamp": 1790504219.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-89102 - OCSP stapling v2 multi accepts non-CA chain certificates as issuers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89102",
+      "summary": "CVE ID :CVE-2026-89102\n  \n  Published : Sept. 27, 2026, 10:16 a.m. | 45\u00a0minutes ago\n  \n  Description :In wolfSSL versions 5.7.2 through 5.9.2 there is...",
+      "timestamp": 1790504218.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-100741 - Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') in hMailServer",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100741",
+      "summary": "CVE ID :CVE-2026-100741\n  \n  Published : Sept. 27, 2026, 8:16 a.m. | 2\u00a0hours, 45\u00a0minutes ago\n  \n  Description :Eval injection in the JScript event-scr...",
+      "timestamp": 1790496986.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-100865 - Heym before 0.0.53 Multiple RCE and Authentication Bypass Vulnerabilities",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100865",
-      "summary": "CVE ID :CVE-2026-100865\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :Heym before 0.0.53 contains multiple in...",
+      "summary": "CVE ID :CVE-2026-100865\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 8\u00a0hours, 44\u00a0minutes ago\n  \n  Description :Heym before 0.0.53 contains multiple in...",
       "timestamp": 1790475446.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +101,7 @@
     {
       "title": "CVE-2026-100864 - heym before 0.0.91 Remote Code Execution via Expression Engine",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100864",
-      "summary": "CVE ID :CVE-2026-100864\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :heym before 0.0.91 contains a sandbox e...",
+      "summary": "CVE ID :CVE-2026-100864\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 8\u00a0hours, 44\u00a0minutes ago\n  \n  Description :heym before 0.0.91 contains a sandbox e...",
       "timestamp": 1790475446.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +109,7 @@
     {
       "title": "CVE-2026-100857 - AzuraCast before 0.23.4 Remote Code Execution via Liquidsoap string interpolation",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100857",
-      "summary": "CVE ID :CVE-2026-100857\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :AzuraCast before 0.23.4 contains a code...",
+      "summary": "CVE ID :CVE-2026-100857\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 8\u00a0hours, 44\u00a0minutes ago\n  \n  Description :AzuraCast before 0.23.4 contains a code...",
       "timestamp": 1790475445.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,7 +117,7 @@
     {
       "title": "CVE-2026-100856 - AzuraCast before 0.23.6 Code Injection via Remote Relay Password",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100856",
-      "summary": "CVE ID :CVE-2026-100856\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :AzuraCast before 0.23.6 contains a code...",
+      "summary": "CVE ID :CVE-2026-100856\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 8\u00a0hours, 44\u00a0minutes ago\n  \n  Description :AzuraCast before 0.23.6 contains a code...",
       "timestamp": 1790475445.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +125,7 @@
     {
       "title": "CVE-2026-100853 - AzuraCast before 0.23.8 On-Demand Download Endpoint Authorization Bypass",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100853",
-      "summary": "CVE ID :CVE-2026-100853\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :In AzuraCast before 0.23.8, the public ...",
+      "summary": "CVE ID :CVE-2026-100853\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 8\u00a0hours, 44\u00a0minutes ago\n  \n  Description :In AzuraCast before 0.23.8, the public ...",
       "timestamp": 1790475444.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,40 +133,8 @@
     {
       "title": "CVE-2026-100852 - AzuraCast through 0.23.x Command Injection via Streamer Username",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-100852",
-      "summary": "CVE ID :CVE-2026-100852\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :AzuraCast through 0.23.x contains a com...",
+      "summary": "CVE ID :CVE-2026-100852\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 8\u00a0hours, 44\u00a0minutes ago\n  \n  Description :AzuraCast through 0.23.x contains a com...",
       "timestamp": 1790475444.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-100847 - AzuraCast before 0.23.8 DQL Injection via sortOrder",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100847",
-      "summary": "CVE ID :CVE-2026-100847\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :AzuraCast before 0.23.8 contains a DQL ...",
-      "timestamp": 1790475443.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-100846 - MONAI before 1.5.2 Remote Code Execution via Pickle Deserialization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100846",
-      "summary": "CVE ID :CVE-2026-100846\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :MONAI before 1.5.2 contains a deseriali...",
-      "timestamp": 1790475443.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-100845 - MONAI before 1.6.0 Remote Code Execution via NumpyReader",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100845",
-      "summary": "CVE ID :CVE-2026-100845\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :MONAI before 1.6.0 contains an unsafe d...",
-      "timestamp": 1790475443.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-100844 - MONAI before 1.6.0 OS Command Injection via dataset_name_or_id",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100844",
-      "summary": "CVE ID :CVE-2026-100844\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 2\u00a0hours, 44\u00a0minutes ago\n  \n  Description :MONAI before 1.6.0 is vulnerable to OS ...",
-      "timestamp": 1790475442.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -323,5 +323,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1790491061.3008091
+  "last_updated": 1790512283.634755
 }
