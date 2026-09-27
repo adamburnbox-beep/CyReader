@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,89 +52,113 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-93302 - Trusted peer certificate match ignores public key, allowing forged CA clones",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93302",
-      "summary": "CVE ID :CVE-2026-93302\n  \n  Published : Sept. 27, 2026, 10:16 a.m. | 45\u00a0minutes ago\n  \n  Description :MatchTrustedPeer ignores the public key used, le...",
-      "timestamp": 1790504219.0,
+      "title": "CVE-2026-88778 - TCP Initial Sequence Number (ISN) prediction",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88778",
+      "summary": "CVE ID :CVE-2026-88778\n  \n  Published : Sept. 27, 2026, 4:43 p.m. | 17\u00a0minutes ago\n  \n  Description :Predictable exact value from previous values vuln...",
+      "timestamp": 1790527396.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-89136 - Client accepts unsolicited RawPublicKey server certificate type",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89136",
-      "summary": "CVE ID :CVE-2026-89136\n  \n  Published : Sept. 27, 2026, 10:16 a.m. | 45\u00a0minutes ago\n  \n  Description :When using RPK (Raw Public Key), the client side...",
-      "timestamp": 1790504219.0,
+      "title": "CVE-2026-88777 - Memory overflow vulnerability leading to unpredictable or erroneous behavior or Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88777",
+      "summary": "CVE ID :CVE-2026-88777\n  \n  Published : Sept. 27, 2026, 4:37 p.m. | 23\u00a0minutes ago\n  \n  Description :Memory overflow vulnerability vulnerability in Ci...",
+      "timestamp": 1790527064.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-89102 - OCSP stapling v2 multi accepts non-CA chain certificates as issuers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89102",
-      "summary": "CVE ID :CVE-2026-89102\n  \n  Published : Sept. 27, 2026, 10:16 a.m. | 45\u00a0minutes ago\n  \n  Description :In wolfSSL versions 5.7.2 through 5.9.2 there is...",
-      "timestamp": 1790504218.0,
+      "title": "CVE-2026-88776 - Memory overflow vulnerability leading to unpredictable or erroneous behavior or Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88776",
+      "summary": "CVE ID :CVE-2026-88776\n  \n  Published : Sept. 27, 2026, 4:36 p.m. | 24\u00a0minutes ago\n  \n  Description :Memory overflow vulnerability vulnerability in Ci...",
+      "timestamp": 1790527000.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100741 - Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') in hMailServer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100741",
-      "summary": "CVE ID :CVE-2026-100741\n  \n  Published : Sept. 27, 2026, 8:16 a.m. | 2\u00a0hours, 45\u00a0minutes ago\n  \n  Description :Eval injection in the JScript event-scr...",
-      "timestamp": 1790496986.0,
+      "title": "CVE-2026-101050 - Heym before 0.0.53 Authentication Bypass via Telegram Webhook",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101050",
+      "summary": "CVE ID :CVE-2026-101050\n  \n  Published : Sept. 27, 2026, 4:28 p.m. | 32\u00a0minutes ago\n  \n  Description :Heym before 0.0.53 fails to verify the X-Telegra...",
+      "timestamp": 1790526508.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100865 - Heym before 0.0.53 Multiple RCE and Authentication Bypass Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100865",
-      "summary": "CVE ID :CVE-2026-100865\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 8\u00a0hours, 44\u00a0minutes ago\n  \n  Description :Heym before 0.0.53 contains multiple in...",
-      "timestamp": 1790475446.0,
+      "title": "CVE-2026-101049 - Heym before 0.0.53 Slack Webhook Signature Verification Bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101049",
+      "summary": "CVE ID :CVE-2026-101049\n  \n  Published : Sept. 27, 2026, 4:28 p.m. | 32\u00a0minutes ago\n  \n  Description :Heym before 0.0.53 fails to verify Slack request...",
+      "timestamp": 1790526508.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100864 - heym before 0.0.91 Remote Code Execution via Expression Engine",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100864",
-      "summary": "CVE ID :CVE-2026-100864\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 8\u00a0hours, 44\u00a0minutes ago\n  \n  Description :heym before 0.0.91 contains a sandbox e...",
-      "timestamp": 1790475446.0,
+      "title": "CVE-2026-88775 - Memory overflow vulnerability leading to unpredictable or erroneous behavior or Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88775",
+      "summary": "CVE ID :CVE-2026-88775\n  \n  Published : Sept. 27, 2026, 4:21 p.m. | 39\u00a0minutes ago\n  \n  Description :Vulnerability in Citrix NetScaler ADC and Citrix ...",
+      "timestamp": 1790526072.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100857 - AzuraCast before 0.23.4 Remote Code Execution via Liquidsoap string interpolation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100857",
-      "summary": "CVE ID :CVE-2026-100857\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 8\u00a0hours, 44\u00a0minutes ago\n  \n  Description :AzuraCast before 0.23.4 contains a code...",
-      "timestamp": 1790475445.0,
+      "title": "CVE-2026-88773 - HTTP Request Smuggling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88773",
+      "summary": "CVE ID :CVE-2026-88773\n  \n  Published : Sept. 27, 2026, 4:20 p.m. | 40\u00a0minutes ago\n  \n  Description :Inconsistent interpretation of HTTP requests ('HT...",
+      "timestamp": 1790526008.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100856 - AzuraCast before 0.23.6 Code Injection via Remote Relay Password",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100856",
-      "summary": "CVE ID :CVE-2026-100856\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 8\u00a0hours, 44\u00a0minutes ago\n  \n  Description :AzuraCast before 0.23.6 contains a code...",
-      "timestamp": 1790475445.0,
+      "title": "CVE-2026-88772 - Memory overflow vulnerability leading to Remote Code Execution or Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88772",
+      "summary": "CVE ID :CVE-2026-88772\n  \n  Published : Sept. 27, 2026, 4:09 p.m. | 51\u00a0minutes ago\n  \n  Description :Vulnerability in Citrix NetScaler ADC and Citrix ...",
+      "timestamp": 1790525396.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100853 - AzuraCast before 0.23.8 On-Demand Download Endpoint Authorization Bypass",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100853",
-      "summary": "CVE ID :CVE-2026-100853\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 8\u00a0hours, 44\u00a0minutes ago\n  \n  Description :In AzuraCast before 0.23.8, the public ...",
-      "timestamp": 1790475444.0,
+      "title": "Citrix admins warned to shut down NetScalers over 2 exploited zero-days",
+      "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+      "summary": "Two unpatched Citrix NetScaler zero-day vulnerabilities are reportedly being exploited in attacks, with cybersecurity agencies, security researchers, ...",
+      "timestamp": 1790524957.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-88771 - A remote code execution vulnerability exists due to improper input validation, which can allow an unauthenticated attacker to execute arbitrary commands",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88771",
+      "summary": "CVE ID :CVE-2026-88771\n  \n  Published : Sept. 27, 2026, 4:02 p.m. | 59\u00a0minutes ago\n  \n  Description :Improper input validation vulnerability in Citrix...",
+      "timestamp": 1790524927.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100852 - AzuraCast through 0.23.x Command Injection via Streamer Username",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100852",
-      "summary": "CVE ID :CVE-2026-100852\n  \n  Published : Sept. 27, 2026, 2:17 a.m. | 8\u00a0hours, 44\u00a0minutes ago\n  \n  Description :AzuraCast through 0.23.x contains a com...",
-      "timestamp": 1790475444.0,
+      "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+      "link": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+      "summary": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from othe...",
+      "timestamp": 1790518411.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+      "summary": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and m...",
+      "timestamp": 1790516320.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-100872 - Sylius 2.x before 2.1.16 and 2.2.9 Payment Amount Overwrite",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100872",
+      "summary": "CVE ID :CVE-2026-100872\n  \n  Published : Sept. 27, 2026, 1:16 p.m. | 3\u00a0hours, 44\u00a0minutes ago\n  \n  Description :Sylius versions before 2.1.16 and 2.2.9...",
+      "timestamp": 1790514998.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -199,30 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
       "summary": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an...",
       "timestamp": 1790369875.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Elementor WordPress flaw lets attackers create admin accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
-      "summary": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrato...",
-      "timestamp": 1790360013.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability (CVE-2026...",
-      "timestamp": 1790357060.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
-      "summary": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage...",
-      "timestamp": 1790352000.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -323,5 +323,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1790512283.634755
+  "last_updated": 1790529513.8674057
 }
