@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,140 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 9,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
+      "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
+      "summary": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy co...",
+      "timestamp": 1790610567.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Dutch Police Arrest \u2018Reformed\u2019 Hacker in Shiny Hunters Investigation",
+      "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+      "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolifi...",
+      "timestamp": 1790608137.0,
+      "source": "Krebs on Security",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-96538 - WarehousePG pg_file_write/pg_file_rename/pg_file_unlink/pg_logdir_ls privilege escalation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96538",
+      "summary": "CVE ID :CVE-2026-96538\n  \n  Published : Sept. 28, 2026, 2:41 p.m. | 25\u00a0minutes ago\n  \n  Description :WarehousePG (WHPG) 7.x before 7.6.0-WHPG is affec...",
+      "timestamp": 1790606475.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-90926 - Code Injection in Innotim Software's Logsign SIEM",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90926",
+      "summary": "CVE ID :CVE-2026-90926\n  \n  Published : Sept. 28, 2026, 2:17 p.m. | 49\u00a0minutes ago\n  \n  Description :Improper Control of Generation of Code ('Code Inj...",
+      "timestamp": 1790605041.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-90924 - Default Admin Credentials in Innotim Software's Logsign SIEM",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90924",
+      "summary": "CVE ID :CVE-2026-90924\n  \n  Published : Sept. 28, 2026, 2:17 p.m. | 49\u00a0minutes ago\n  \n  Description :Use of default credentials vulnerability in Innot...",
+      "timestamp": 1790605041.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-87799 - Arbitrary file write on LXD host via symlink in migration stream",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87799",
+      "summary": "CVE ID :CVE-2026-87799\n  \n  Published : Sept. 28, 2026, 2:17 p.m. | 49\u00a0minutes ago\n  \n  Description :Improper link resolution in the migration receive...",
+      "timestamp": 1790605041.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85526 - Path traversal via Btrfs optimized-backup subvolumes[].path enables root file/dir manipulation in LXD",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85526",
+      "summary": "CVE ID :CVE-2026-85526\n  \n  Published : Sept. 28, 2026, 2:17 p.m. | 49\u00a0minutes ago\n  \n  Description :Path traversal in the Btrfs storage driver (unpac...",
+      "timestamp": 1790605040.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85185 - Path traversal in LXD btrfs storage driver allows arbitrary file deletion and write on host as root",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85185",
+      "summary": "CVE ID :CVE-2026-85185\n  \n  Published : Sept. 28, 2026, 2:17 p.m. | 49\u00a0minutes ago\n  \n  Description :Path traversal in the btrfs storage driver in Can...",
+      "timestamp": 1790605040.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73642 - Path Traversal in Dayforce Payroll",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73642",
+      "summary": "CVE ID :CVE-2026-73642\n  \n  Published : Sept. 28, 2026, 2:17 p.m. | 49\u00a0minutes ago\n  \n  Description :Dayforce Payroll is vulnerable to Path Traversal\u00a0...",
+      "timestamp": 1790605037.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-73640 - Time-based SQL Injection in Dayforce Payroll",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73640",
+      "summary": "CVE ID :CVE-2026-73640\n  \n  Published : Sept. 28, 2026, 2:17 p.m. | 49\u00a0minutes ago\n  \n  Description :Dayforce Payroll is vulnerable to Time Based-Blin...",
+      "timestamp": 1790605036.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-101072 - Netcore NR289-GE CGI ap_ip.cgi system os command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101072",
+      "summary": "CVE ID :CVE-2026-101072\n  \n  Published : Sept. 28, 2026, 2:17 p.m. | 49\u00a0minutes ago\n  \n  Description :A vulnerability was identified in Netcore NR289-...",
+      "timestamp": 1790605033.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
+      "link": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
+      "summary": "Infostealer logs exposed AI account credentials and sessions tied to more than 80,000 corporate domains, creating risks ranging from stolen conversati...",
+      "timestamp": 1790604010.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-82323 - Improper Authorization in Enocta Educational's Enocta Platform",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82323",
+      "summary": "CVE ID :CVE-2026-82323\n  \n  Published : Sept. 28, 2026, 1:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :Authorization bypass through User-Control...",
+      "timestamp": 1790601442.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
+      "link": "https://www.bleepingcomputer.com/news/security/bitget-resumes-bitcoin-withdrawals-after-3875-million-crypto-heist/",
+      "summary": "Cryptocurrency exchange Bitget has resumed Bitcoin withdrawals suspended after suspected North Korean hackers breached its systems last week and stole...",
+      "timestamp": 1790587529.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "US soldier gets 70 months in prison for extorting 10 tech, telecom firms",
+      "link": "https://www.bleepingcomputer.com/news/security/us-soldier-gets-70-months-in-prison-for-extorting-10-tech-telecom-firms/",
+      "summary": "A former U.S. Army soldier has been sentenced to 70 months in prison for hacking and extorting at least 10 U.S. technology and telecommunications comp...",
+      "timestamp": 1790580615.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CISA orders feds to patch exploited Citrix flaws by Wednesday",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-exploited-citrix-flaws-by-wednesday/",
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies over the weekend to secure their systems against atta...",
+      "timestamp": 1790576659.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "OpenAI is preparing \u201co,\u201d an always-on ChatGPT assistant that could handle email",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
@@ -65,86 +193,6 @@
       "timestamp": 1790552439.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-100886 - Seetong T8108/T8108P/T8116/T8232 Debug Service improper authentication",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100886",
-      "summary": "CVE ID :CVE-2026-100886\n  \n  Published : Sept. 27, 2026, 11:16 p.m. | 1\u00a0hour, 45\u00a0minutes ago\n  \n  Description :A vulnerability was identified in Seeto...",
-      "timestamp": 1790551019.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-101090 - Nezha through 2.2.3 Host Header Injection via OAuth2 redirect_uri",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101090",
-      "summary": "CVE ID :CVE-2026-101090\n  \n  Published : Sept. 27, 2026, 9:17 p.m. | 3\u00a0hours, 45\u00a0minutes ago\n  \n  Description :Nezha 2.2.3 contains a Host header inje...",
-      "timestamp": 1790543823.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-101084 - obot before v0.21.1 Authorization Bypass via /mcp-connect",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101084",
-      "summary": "CVE ID :CVE-2026-101084\n  \n  Published : Sept. 27, 2026, 9:17 p.m. | 3\u00a0hours, 45\u00a0minutes ago\n  \n  Description :obot versions before v0.21.1 fail to en...",
-      "timestamp": 1790543822.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-101065 - Obot Quickstart Docker Deployment Unauthenticated Admin Access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101065",
-      "summary": "CVE ID :CVE-2026-101065\n  \n  Published : Sept. 27, 2026, 9:17 p.m. | 3\u00a0hours, 45\u00a0minutes ago\n  \n  Description :Obot is an open-source AI agent/MCP pla...",
-      "timestamp": 1790543822.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-101064 - Obot before v0.23.0 Server-Side Request Forgery via MCP",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101064",
-      "summary": "CVE ID :CVE-2026-101064\n  \n  Published : Sept. 27, 2026, 9:17 p.m. | 3\u00a0hours, 45\u00a0minutes ago\n  \n  Description :Obot before v0.23.0 contains a server-s...",
-      "timestamp": 1790543821.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-101062 - Obot before v0.23.0 Authentication Bypass via OAuth Dynamic Client Registration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101062",
-      "summary": "CVE ID :CVE-2026-101062\n  \n  Published : Sept. 27, 2026, 9:17 p.m. | 3\u00a0hours, 45\u00a0minutes ago\n  \n  Description :Obot before v0.23.0 (affected versions ...",
-      "timestamp": 1790543821.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-101060 - python-utcp before 1.1.4 SSRF via unvalidated HTTP redirects",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101060",
-      "summary": "CVE ID :CVE-2026-101060\n  \n  Published : Sept. 27, 2026, 6:16 p.m. | 6\u00a0hours, 45\u00a0minutes ago\n  \n  Description :python-utcp versions before 1.1.4 conta...",
-      "timestamp": 1790532992.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-101045 - Fleet Homebrew Cask OS Command Injection via Metadata",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101045",
-      "summary": "CVE ID :CVE-2026-101045\n  \n  Published : Sept. 27, 2026, 6:16 p.m. | 6\u00a0hours, 45\u00a0minutes ago\n  \n  Description :Fleet-maintained app install and uninst...",
-      "timestamp": 1790532990.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-101043 - pnpm 11.0.0 before 11.11.0 Environment Variable Exfiltration via Proxy Settings",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101043",
-      "summary": "CVE ID :CVE-2026-101043\n  \n  Published : Sept. 27, 2026, 6:16 p.m. | 6\u00a0hours, 45\u00a0minutes ago\n  \n  Description :pnpm versions 11.0.0 before 11.11.0 and...",
-      "timestamp": 1790532989.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-88778 - TCP Initial Sequence Number (ISN) prediction",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88778",
-      "summary": "CVE ID :CVE-2026-88778\n  \n  Published : Sept. 27, 2026, 5:16 p.m. | 7\u00a0hours, 45\u00a0minutes ago\n  \n  Description :Predictable exact value from previous va...",
-      "timestamp": 1790529417.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
@@ -179,51 +227,11 @@
       "vendor": "News"
     },
     {
-      "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
-      "summary": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and ...",
-      "timestamp": 1790440018.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft pauses KB5002907 update after Office license deactivations",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
-      "summary": "Microsoft has paused the rollout of the KB5002907 Microsoft 365 update after users report\u00a0that it deactivated, or in some cases completely removed, pe...",
-      "timestamp": 1790437838.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
-      "link": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
-      "summary": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for mo...",
-      "timestamp": 1790432386.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
-      "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
-      "timestamp": 1790425721.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
       "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
       "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than ...",
       "timestamp": 1790372680.0,
       "source": "Krebs on Security",
-      "vendor": "News"
-    },
-    {
-      "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
-      "summary": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window\u00a0...",
-      "timestamp": 1790372467.0,
-      "source": "BleepingComputer",
       "vendor": "News"
     },
     {
@@ -323,5 +331,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1790561126.6242373
+  "last_updated": 1790615007.1337118
 }
