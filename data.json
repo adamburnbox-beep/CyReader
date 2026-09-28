@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 5,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 8,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,118 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-102268 - PyJWT: Asymmetric-PEM detection bypass: whitespace/line-ending-mutated public keys skip the HS/asymmetric confusion guard",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102268",
+      "summary": "CVE ID :CVE-2026-102268\n  \n  Published : Sept. 28, 2026, 9:17 p.m. | 23\u00a0minutes ago\n  \n  Description :PyJWT is a Python implementation of JSON Web Tok...",
+      "timestamp": 1790630234.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-101187 - Ziroom ZHOME A0101 USB Device Management API zrUsb.lua pop_usb_device command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101187",
+      "summary": "CVE ID :CVE-2026-101187\n  \n  Published : Sept. 28, 2026, 9:17 p.m. | 23\u00a0minutes ago\n  \n  Description :A weakness has been identified in Ziroom ZHOME A...",
+      "timestamp": 1790630232.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-100371 - InvoicePlane: Incomplete Authorization Remediation in Users::form() Enables Primary Administrator Account Takeover via Email Reassignment and Password Recovery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100371",
+      "summary": "CVE ID :CVE-2026-100371\n  \n  Published : Sept. 28, 2026, 9:17 p.m. | 23\u00a0minutes ago\n  \n  Description :InvoicePlane is a self-hosted open source applic...",
+      "timestamp": 1790630231.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Japan's Keio confirms ransomware attack disrupted business systems",
+      "link": "https://www.bleepingcomputer.com/news/security/japans-keio-confirms-ransomware-attack-disrupted-business-systems/",
+      "summary": "Keio Corporation (Keio), a major private railway operator in Japan, said its network was hit by a ransomware attack over the weekend, disrupting\u00a0 some...",
+      "timestamp": 1790629007.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Times Car confirms data breach affecting 6.6 million user accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/times-car-confirms-data-breach-affecting-66-million-user-accounts/",
+      "summary": "Japanese car-sharing service Times Car has confirmed that approximately 6.6 million user accounts were compromised in a cyberattack disclosed late las...",
+      "timestamp": 1790627476.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-93355 - LiteLLM Weak JWT Authentication via Email-Based User Lookup",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93355",
+      "summary": "CVE ID :CVE-2026-93355\n  \n  Published : Sept. 28, 2026, 8:17 p.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :LiteLLM contains a weak authentication vu...",
+      "timestamp": 1790626631.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-87741 - ConvertPlus <= 3.6.3 - Authenticated (Subscriber+) PHP Object Injection via 'style' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87741",
+      "summary": "CVE ID :CVE-2026-87741\n  \n  Published : Sept. 28, 2026, 8:17 p.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :The ConvertPlus plugin for WordPress is v...",
+      "timestamp": 1790626631.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86950 - Apple Kernel Out-of-Bounds Write Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86950",
+      "summary": "CVE ID :CVE-2026-86950\n  \n  Published : Sept. 28, 2026, 8:17 p.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :An out-of-bounds write issue was addresse...",
+      "timestamp": 1790626631.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
+      "link": "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
+      "summary": "Dutch police have confirmed that a 24-year-old Amsterdam man arrested earlier this month was detained as part of an investigation into the ShinyHunter...",
+      "timestamp": 1790624950.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-101110 - Joomla Extension - ordasoft.com - Unauthenticated SQL Injection in Book Library (Free) < 6.4.6",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101110",
+      "summary": "CVE ID :CVE-2026-101110\n  \n  Published : Sept. 28, 2026, 7:16 p.m. | 2\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Joomla Extension - ordasoft.com - Unaut...",
+      "timestamp": 1790623007.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-101108 - Joomla Extension - ordasoft.com - Unauthenticated SQL Injection in Vehicle Manager (Free) < 6.5.8",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101108",
+      "summary": "CVE ID :CVE-2026-101108\n  \n  Published : Sept. 28, 2026, 7:16 p.m. | 2\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Joomla Extension - ordasoft.com - Unaut...",
+      "timestamp": 1790623006.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-100752 - Joomla Extension - ordasoft.com - Unauthenticated SQL Injection in Real Estate Manager (Free) < 6.7.9",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100752",
+      "summary": "CVE ID :CVE-2026-100752\n  \n  Published : Sept. 28, 2026, 7:16 p.m. | 2\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Joomla Extension - ordasoft.com - Unaut...",
+      "timestamp": 1790623006.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
+      "link": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
+      "summary": "Researchers found more than 16,000 misconfigured Supabase databases exposing readable tables with personally identifiable information, passwords, or a...",
+      "timestamp": 1790621459.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-75600 - FreePBX: Authenticated API generatedocs Host Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75600",
+      "summary": "CVE ID :CVE-2026-75600\n  \n  Published : Sept. 28, 2026, 6:17 p.m. | 3\u00a0hours, 23\u00a0minutes ago\n  \n  Description :FreePBX is an open source IP PBX. Prior ...",
+      "timestamp": 1790619444.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
       "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
       "summary": "The JadePuffer ransomware operator is targeting Azure tenants with agent-driven attacks that conduct reconnaissance, steal credentials, and destroy co...",
@@ -75,92 +187,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-96538 - WarehousePG pg_file_write/pg_file_rename/pg_file_unlink/pg_logdir_ls privilege escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96538",
-      "summary": "CVE ID :CVE-2026-96538\n  \n  Published : Sept. 28, 2026, 2:41 p.m. | 25\u00a0minutes ago\n  \n  Description :WarehousePG (WHPG) 7.x before 7.6.0-WHPG is affec...",
-      "timestamp": 1790606475.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-90926 - Code Injection in Innotim Software's Logsign SIEM",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90926",
-      "summary": "CVE ID :CVE-2026-90926\n  \n  Published : Sept. 28, 2026, 2:17 p.m. | 49\u00a0minutes ago\n  \n  Description :Improper Control of Generation of Code ('Code Inj...",
-      "timestamp": 1790605041.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-90924 - Default Admin Credentials in Innotim Software's Logsign SIEM",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90924",
-      "summary": "CVE ID :CVE-2026-90924\n  \n  Published : Sept. 28, 2026, 2:17 p.m. | 49\u00a0minutes ago\n  \n  Description :Use of default credentials vulnerability in Innot...",
-      "timestamp": 1790605041.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-87799 - Arbitrary file write on LXD host via symlink in migration stream",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87799",
-      "summary": "CVE ID :CVE-2026-87799\n  \n  Published : Sept. 28, 2026, 2:17 p.m. | 49\u00a0minutes ago\n  \n  Description :Improper link resolution in the migration receive...",
-      "timestamp": 1790605041.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85526 - Path traversal via Btrfs optimized-backup subvolumes[].path enables root file/dir manipulation in LXD",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85526",
-      "summary": "CVE ID :CVE-2026-85526\n  \n  Published : Sept. 28, 2026, 2:17 p.m. | 49\u00a0minutes ago\n  \n  Description :Path traversal in the Btrfs storage driver (unpac...",
-      "timestamp": 1790605040.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85185 - Path traversal in LXD btrfs storage driver allows arbitrary file deletion and write on host as root",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85185",
-      "summary": "CVE ID :CVE-2026-85185\n  \n  Published : Sept. 28, 2026, 2:17 p.m. | 49\u00a0minutes ago\n  \n  Description :Path traversal in the btrfs storage driver in Can...",
-      "timestamp": 1790605040.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-73642 - Path Traversal in Dayforce Payroll",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73642",
-      "summary": "CVE ID :CVE-2026-73642\n  \n  Published : Sept. 28, 2026, 2:17 p.m. | 49\u00a0minutes ago\n  \n  Description :Dayforce Payroll is vulnerable to Path Traversal\u00a0...",
-      "timestamp": 1790605037.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-73640 - Time-based SQL Injection in Dayforce Payroll",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73640",
-      "summary": "CVE ID :CVE-2026-73640\n  \n  Published : Sept. 28, 2026, 2:17 p.m. | 49\u00a0minutes ago\n  \n  Description :Dayforce Payroll is vulnerable to Time Based-Blin...",
-      "timestamp": 1790605036.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-101072 - Netcore NR289-GE CGI ap_ip.cgi system os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101072",
-      "summary": "CVE ID :CVE-2026-101072\n  \n  Published : Sept. 28, 2026, 2:17 p.m. | 49\u00a0minutes ago\n  \n  Description :A vulnerability was identified in Netcore NR289-...",
-      "timestamp": 1790605033.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
       "link": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
       "summary": "Infostealer logs exposed AI account credentials and sessions tied to more than 80,000 corporate domains, creating risks ranging from stolen conversati...",
       "timestamp": 1790604010.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-82323 - Improper Authorization in Enocta Educational's Enocta Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82323",
-      "summary": "CVE ID :CVE-2026-82323\n  \n  Published : Sept. 28, 2026, 1:17 p.m. | 1\u00a0hour, 49\u00a0minutes ago\n  \n  Description :Authorization bypass through User-Control...",
-      "timestamp": 1790601442.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Bitget resumes Bitcoin withdrawals after $387.5 million crypto heist",
@@ -191,38 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
       "summary": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
       "timestamp": 1790552439.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
-      "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploi...",
-      "timestamp": 1790524957.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
-      "link": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
-      "summary": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from othe...",
-      "timestamp": 1790518411.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
-      "summary": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and m...",
-      "timestamp": 1790516320.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
-      "summary": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35...",
-      "timestamp": 1790449414.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -331,5 +331,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1790615007.1337118
+  "last_updated": 1790634869.5567946
 }
