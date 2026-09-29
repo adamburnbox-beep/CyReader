@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,26 +59,82 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-102268 - PyJWT: Asymmetric-PEM detection bypass: whitespace/line-ending-mutated public keys skip the HS/asymmetric confusion guard",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102268",
-      "summary": "CVE ID :CVE-2026-102268\n  \n  Published : Sept. 28, 2026, 9:17 p.m. | 23\u00a0minutes ago\n  \n  Description :PyJWT is a Python implementation of JSON Web Tok...",
-      "timestamp": 1790630234.0,
+      "title": "CVE-2026-102361 - mall4j through 4.0 Missing Authentication in Password Update Endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102361",
+      "summary": "CVE ID :CVE-2026-102361\n  \n  Published : Sept. 29, 2026, 12:17 a.m. | 45\u00a0minutes ago\n  \n  Description :mall4j through 4.0 contains a missing authentic...",
+      "timestamp": 1790641023.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-101187 - Ziroom ZHOME A0101 USB Device Management API zrUsb.lua pop_usb_device command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101187",
-      "summary": "CVE ID :CVE-2026-101187\n  \n  Published : Sept. 28, 2026, 9:17 p.m. | 23\u00a0minutes ago\n  \n  Description :A weakness has been identified in Ziroom ZHOME A...",
-      "timestamp": 1790630232.0,
+      "title": "CVE-2026-101264 - Ziroom ZHOME A0101 set_passwd command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101264",
+      "summary": "CVE ID :CVE-2026-101264\n  \n  Published : Sept. 29, 2026, 12:17 a.m. | 45\u00a0minutes ago\n  \n  Description :A vulnerability was determined in Ziroom ZHOME ...",
+      "timestamp": 1790641022.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-100371 - InvoicePlane: Incomplete Authorization Remediation in Users::form() Enables Primary Administrator Account Takeover via Email Reassignment and Password Recovery",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100371",
-      "summary": "CVE ID :CVE-2026-100371\n  \n  Published : Sept. 28, 2026, 9:17 p.m. | 23\u00a0minutes ago\n  \n  Description :InvoicePlane is a self-hosted open source applic...",
-      "timestamp": 1790630231.0,
+      "title": "CVE-2026-101263 - Ziroom ZHOME A0101 set_online_client command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101263",
+      "summary": "CVE ID :CVE-2026-101263\n  \n  Published : Sept. 29, 2026, 12:17 a.m. | 46\u00a0minutes ago\n  \n  Description :A vulnerability was found in Ziroom ZHOME A0101...",
+      "timestamp": 1790641021.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-102334 - Nginx Proxy Manager through 2.16.0 Missing Brute-Force Protection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102334",
+      "summary": "CVE ID :CVE-2026-102334\n  \n  Published : Sept. 28, 2026, 11:17 p.m. | 1\u00a0hour, 45\u00a0minutes ago\n  \n  Description :Nginx Proxy Manager through 2.16.0 lack...",
+      "timestamp": 1790637421.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-101262 - Ziroom ZHOME A0101 set_online_client command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101262",
+      "summary": "CVE ID :CVE-2026-101262\n  \n  Published : Sept. 28, 2026, 11:17 p.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :A vulnerability has been found in Ziroo...",
+      "timestamp": 1790637421.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-101261 - Ziroom ZHOME A0101 firstSetup_wifi command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101261",
+      "summary": "CVE ID :CVE-2026-101261\n  \n  Published : Sept. 28, 2026, 11:17 p.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :A flaw has been found in Ziroom ZHOME A...",
+      "timestamp": 1790637421.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-101260 - Ziroom ZHOME A0101 firstLogin command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101260",
+      "summary": "CVE ID :CVE-2026-101260\n  \n  Published : Sept. 28, 2026, 11:17 p.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :A vulnerability was detected in Ziroom ...",
+      "timestamp": 1790637420.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-102296 - ZoneMinder before 1.38.4 Buffer Overflow via HTTP Camera Response",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102296",
+      "summary": "CVE ID :CVE-2026-102296\n  \n  Published : Sept. 28, 2026, 10:17 p.m. | 2\u00a0hours, 45\u00a0minutes ago\n  \n  Description :ZoneMinder before 1.38.4 contains stat...",
+      "timestamp": 1790633852.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-101188 - Netcore POWER13 ubus routerd.passwd_set password recovery",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101188",
+      "summary": "CVE ID :CVE-2026-101188\n  \n  Published : Sept. 28, 2026, 10:17 p.m. | 2\u00a0hours, 45\u00a0minutes ago\n  \n  Description :A security vulnerability has been dete...",
+      "timestamp": 1790633851.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2024-42002 - Unsafe use of eval() method in ros2 topic hz tool",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2024-42002",
+      "summary": "CVE ID :CVE-2024-42002\n  \n  Published : Sept. 28, 2026, 10:17 p.m. | 2\u00a0hours, 45\u00a0minutes ago\n  \n  Description :A code injection vulnerability has been...",
+      "timestamp": 1790633848.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -99,30 +155,6 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-93355 - LiteLLM Weak JWT Authentication via Email-Based User Lookup",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93355",
-      "summary": "CVE ID :CVE-2026-93355\n  \n  Published : Sept. 28, 2026, 8:17 p.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :LiteLLM contains a weak authentication vu...",
-      "timestamp": 1790626631.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-87741 - ConvertPlus <= 3.6.3 - Authenticated (Subscriber+) PHP Object Injection via 'style' Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87741",
-      "summary": "CVE ID :CVE-2026-87741\n  \n  Published : Sept. 28, 2026, 8:17 p.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :The ConvertPlus plugin for WordPress is v...",
-      "timestamp": 1790626631.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86950 - Apple Kernel Out-of-Bounds Write Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86950",
-      "summary": "CVE ID :CVE-2026-86950\n  \n  Published : Sept. 28, 2026, 8:17 p.m. | 1\u00a0hour, 23\u00a0minutes ago\n  \n  Description :An out-of-bounds write issue was addresse...",
-      "timestamp": 1790626631.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Dutch police confirm arrest in ShinyHunters hacking investigation",
       "link": "https://www.bleepingcomputer.com/news/security/dutch-police-confirm-arrest-in-shinyhunters-hacking-investigation/",
       "summary": "Dutch police have confirmed that a 24-year-old Amsterdam man arrested earlier this month was detained as part of an investigation into the ShinyHunter...",
@@ -131,44 +163,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-101110 - Joomla Extension - ordasoft.com - Unauthenticated SQL Injection in Book Library (Free) < 6.4.6",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101110",
-      "summary": "CVE ID :CVE-2026-101110\n  \n  Published : Sept. 28, 2026, 7:16 p.m. | 2\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Joomla Extension - ordasoft.com - Unaut...",
-      "timestamp": 1790623007.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-101108 - Joomla Extension - ordasoft.com - Unauthenticated SQL Injection in Vehicle Manager (Free) < 6.5.8",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101108",
-      "summary": "CVE ID :CVE-2026-101108\n  \n  Published : Sept. 28, 2026, 7:16 p.m. | 2\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Joomla Extension - ordasoft.com - Unaut...",
-      "timestamp": 1790623006.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-100752 - Joomla Extension - ordasoft.com - Unauthenticated SQL Injection in Real Estate Manager (Free) < 6.7.9",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100752",
-      "summary": "CVE ID :CVE-2026-100752\n  \n  Published : Sept. 28, 2026, 7:16 p.m. | 2\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Joomla Extension - ordasoft.com - Unaut...",
-      "timestamp": 1790623006.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Over 16,000 Supabase databases expose PII, passwords, auth tokens",
       "link": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/",
       "summary": "Researchers found more than 16,000 misconfigured Supabase databases exposing readable tables with personally identifiable information, passwords, or a...",
       "timestamp": 1790621459.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-75600 - FreePBX: Authenticated API generatedocs Host Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75600",
-      "summary": "CVE ID :CVE-2026-75600\n  \n  Published : Sept. 28, 2026, 6:17 p.m. | 3\u00a0hours, 23\u00a0minutes ago\n  \n  Description :FreePBX is an open source IP PBX. Prior ...",
-      "timestamp": 1790619444.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
@@ -331,5 +331,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1790634869.5567946
+  "last_updated": 1790648375.7741163
 }
