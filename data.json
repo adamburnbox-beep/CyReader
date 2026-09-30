@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 0,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,134 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-102377 - WordPress Photo Gallery by 10Web plugin <= 1.8.46 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102377",
+      "summary": "CVE ID :CVE-2026-102377\n  \n  Published : Sept. 30, 2026, 5:39 p.m. | 15\u00a0minutes ago\n  \n  Description :Contributor PHP Object Injection in Photo Galler...",
+      "timestamp": 1790789946.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-100512 - WordPress Nested Pages plugin <= 3.3.2 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100512",
+      "summary": "CVE ID :CVE-2026-100512\n  \n  Published : Sept. 30, 2026, 5:39 p.m. | 15\u00a0minutes ago\n  \n  Description :Contributor PHP Object Injection in Nested Pages...",
+      "timestamp": 1790789944.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97291 - WordPress Schema & Structured Data for WP & AMP plugin <= 1.66 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97291",
+      "summary": "CVE ID :CVE-2026-97291\n  \n  Published : Sept. 30, 2026, 5:39 p.m. | 15\u00a0minutes ago\n  \n  Description :Contributor PHP Object Injection in Schema & Stru...",
+      "timestamp": 1790789942.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103475 - yii2-starter-kit through 4.2.0 Debug and Gii Module Exposure",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103475",
+      "summary": "CVE ID :CVE-2026-103475\n  \n  Published : Sept. 30, 2026, 5:22 p.m. | 31\u00a0minutes ago\n  \n  Description :yii2-starter-kit through 4.2.0 exposes the Yii d...",
+      "timestamp": 1790788961.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103474 - yii2-starter-kit through 4.2.0 Unrestricted File Upload RCE",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103474",
+      "summary": "CVE ID :CVE-2026-103474\n  \n  Published : Sept. 30, 2026, 5:22 p.m. | 31\u00a0minutes ago\n  \n  Description :yii2-starter-kit through 4.2.0 fails to validate...",
+      "timestamp": 1790788961.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103473 - Deno 2.7.0 through 2.9.7 Command Injection via node:child_process",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103473",
+      "summary": "CVE ID :CVE-2026-103473\n  \n  Published : Sept. 30, 2026, 5:22 p.m. | 31\u00a0minutes ago\n  \n  Description :Deno versions 2.7.0 through 2.9.7 on Windows con...",
+      "timestamp": 1790788960.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103472 - restbed through 5.0.0 WebSocket Memory Exhaustion via Unbounded Frame Buffering",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103472",
+      "summary": "CVE ID :CVE-2026-103472\n  \n  Published : Sept. 30, 2026, 5:22 p.m. | 31\u00a0minutes ago\n  \n  Description :restbed through 5.0.0 accepts WebSocket frames w...",
+      "timestamp": 1790788959.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103471 - restbed through 5.0.0 Denial of Service via Unbounded Header Buffering",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103471",
+      "summary": "CVE ID :CVE-2026-103471\n  \n  Published : Sept. 30, 2026, 5:22 p.m. | 31\u00a0minutes ago\n  \n  Description :restbed through 5.0.0 buffers HTTP request heade...",
+      "timestamp": 1790788958.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-75969 - PTZOptics Missing Authentication in Firmware Upload",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75969",
+      "summary": "CVE ID :CVE-2026-75969\n  \n  Published : Sept. 30, 2026, 5:16 p.m. | 37\u00a0minutes ago\n  \n  Description :Missing authentication for critical function vuln...",
+      "timestamp": 1790788609.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62308 - Tugtainer: Authenticated SSRF via arbitrary notification URLs in test_notification endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62308",
+      "summary": "CVE ID :CVE-2026-62308\n  \n  Published : Sept. 30, 2026, 5:16 p.m. | 37\u00a0minutes ago\n  \n  Description :Tugtainer is a self-hosted app for automating upd...",
+      "timestamp": 1790788609.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Cisco Advance Notification for Publication of October 7, 2026, Security Advisories",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-fBn58ELx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20October%207,%202026,%20Security%20Advisories%26vs_k=1",
+      "summary": "On October 7, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information a...",
+      "timestamp": 1790784000.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to re...",
+      "timestamp": 1790783369.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
+      "summary": "Cisco\u00a0released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as\u00a0CVE-2026-76504) that attackers are actively ...",
+      "timestamp": 1790779600.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
+      "link": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
+      "summary": "Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to hand...",
+      "timestamp": 1790776871.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft to block Entra ID script injection attacks starting October",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
+      "summary": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting...",
+      "timestamp": 1790775435.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco Catalyst SD-WAN Manager API Authentication Bypass Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20API%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to...",
+      "timestamp": 1790773200.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
       "title": "TeamViewer urges users to patch severe flaws \u201cas soon as possible\u201d",
       "link": "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
       "summary": "Remote access software company TeamViewer warned customers on Tuesday to immediately patch a set of high-severity vulnerabilities affecting its client...",
@@ -73,86 +201,6 @@
       "timestamp": 1790766706.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-94053 - Apache MINA SSHD: LDAP injection in sshd-ldap",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94053",
-      "summary": "CVE ID :CVE-2026-94053\n  \n  Published : Sept. 30, 2026, 10:17 a.m. | 46\u00a0minutes ago\n  \n  Description :Authentication bypass via LDAP injection in comp...",
-      "timestamp": 1790763438.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94052 - Apache MINA SSHD: LDAP password authentication ineffective",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94052",
-      "summary": "CVE ID :CVE-2026-94052\n  \n  Published : Sept. 30, 2026, 10:17 a.m. | 46\u00a0minutes ago\n  \n  Description :A missing check in LdapPasswordAuthenticator in ...",
-      "timestamp": 1790763438.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-93994 - Apache MINA SSHD: Repeated-publickey policy bypass on server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93994",
-      "summary": "CVE ID :CVE-2026-93994\n  \n  Published : Sept. 30, 2026, 10:17 a.m. | 46\u00a0minutes ago\n  \n  Description :Apache MINA SSHD is a Java library for client-si...",
-      "timestamp": 1790763437.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-79625 - Improper Synchronization in Monitoring in CODESYS Control Runtime",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79625",
-      "summary": "CVE ID :CVE-2026-79625\n  \n  Published : Sept. 30, 2026, 10:17 a.m. | 46\u00a0minutes ago\n  \n  Description :Affected products do not properly synchronize ac...",
-      "timestamp": 1790763437.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77185 - Apache MINA SSHD: Asynchronous authentication can bypass signature verification",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77185",
-      "summary": "CVE ID :CVE-2026-77185\n  \n  Published : Sept. 30, 2026, 10:17 a.m. | 46\u00a0minutes ago\n  \n  Description :Authentication bypass in sshd-core in Apache MIN...",
-      "timestamp": 1790763437.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-10764 - Information disclosure in BVMS 4.5 up to 12.3",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10764",
-      "summary": "CVE ID :CVE-2026-10764\n  \n  Published : Sept. 30, 2026, 10:17 a.m. | 46\u00a0minutes ago\n  \n  Description :Information disclosure in BVMS 4.5 up to 12.3 in...",
-      "timestamp": 1790763436.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-103237 - MISP: Nested Model Alias Key Bypasses Sanitization to Modify Cross-Tenant Rows",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103237",
-      "summary": "CVE ID :CVE-2026-103237\n  \n  Published : Sept. 30, 2026, 10:17 a.m. | 46\u00a0minutes ago\n  \n  Description :MISP contains an improper input validation vuln...",
-      "timestamp": 1790763436.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-103235 - MISP Event Delegation Mass Assignment Allows Retargeting Delegation to Arbitrary Events",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103235",
-      "summary": "CVE ID :CVE-2026-103235\n  \n  Published : Sept. 30, 2026, 10:17 a.m. | 46\u00a0minutes ago\n  \n  Description :MISP contains a mass assignment vulnerability i...",
-      "timestamp": 1790763436.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-103239 - MISP Tag Collection Save Allows Privilege Escalation via Sibling Model Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103239",
-      "summary": "CVE ID :CVE-2026-103239\n  \n  Published : Sept. 30, 2026, 10:16 a.m. | 47\u00a0minutes ago\n  \n  Description :MISP contains a privilege escalation vulnerabil...",
-      "timestamp": 1790763378.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-102511 - Apache PLC4X, Apache PLC4X, Apache PLC4X, Apache PLC4X: ADS discovery accepts spoofed responses and derives the connection target from them",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102511",
-      "summary": "CVE ID :CVE-2026-102511\n  \n  Published : Sept. 30, 2026, 9:17 a.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :Improper Verification of Source of a Com...",
-      "timestamp": 1790759834.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
@@ -191,38 +239,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
       "summary": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described as one of ...",
       "timestamp": 1790712595.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-citrix-netscaler-zero-day-to-deploy-web-shells/",
-      "summary": "Cybersecurity firms say attackers exploited the Citrix NetScaler CVE-2026-88772 zero-day to deploy custom web shells and tunneling malware, gain root ...",
-      "timestamp": 1790707032.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Former US Air Force members sent to prison over BEC attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/former-us-air-force-members-sent-to-prison-over-bec-attacks/",
-      "summary": "Two former members of the United States Air Force were sentenced to a combined 189 months in federal prison for their roles in a multi-year series of ...",
-      "timestamp": 1790705379.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Windows 11 2026 Update released, here's everything you need to know",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-2026-update-released-heres-everything-you-need-to-know/",
-      "summary": "Microsoft has started rolling out Windows 11 26H2 to everyone, and while it's this year's big annual feature update, you probably won't notice a massi...",
-      "timestamp": 1790703460.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New Spectre v2 attack variant leaks Linux root password hash in minutes",
-      "link": "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/",
-      "summary": "A new Branch Target Reuse (BTR) attack has been devised that can recover root password hashes on Intel computers running Linux in 3-5 minutes on avera...",
-      "timestamp": 1790701811.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -305,15 +321,7 @@
       "timestamp": 1789746629.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software EIGRP Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-eigrp-dos-GOhNejSj?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20EIGRP%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the EIGRP implementation in Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defen...",
-      "timestamp": 1789746628.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1790771424.4655263
+  "last_updated": 1790791862.5900602
 }
