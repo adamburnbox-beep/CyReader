@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,68 +59,108 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-86134 - Fireware OS Pre-Authentication NULL Pointer Dereference Allows Remote Denial of Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86134",
-      "summary": "CVE ID :CVE-2026-86134\n  \n  Published : Sept. 30, 2026, 4:18 a.m. | 45\u00a0minutes ago\n  \n  Description :A NULL pointer dereference vulnerability in the W...",
-      "timestamp": 1790741913.0,
+      "title": "TeamViewer urges users to patch severe flaws \u201cas soon as possible\u201d",
+      "link": "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
+      "summary": "Remote access software company TeamViewer warned customers on Tuesday to immediately patch a set of high-severity vulnerabilities affecting its client...",
+      "timestamp": 1790771110.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Bitget hacked via zero-day in third-party security products",
+      "link": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
+      "summary": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw ...",
+      "timestamp": 1790766706.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-94053 - Apache MINA SSHD: LDAP injection in sshd-ldap",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94053",
+      "summary": "CVE ID :CVE-2026-94053\n  \n  Published : Sept. 30, 2026, 10:17 a.m. | 46\u00a0minutes ago\n  \n  Description :Authentication bypass via LDAP injection in comp...",
+      "timestamp": 1790763438.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-103110 - Pexip Infinity Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103110",
-      "summary": "CVE ID :CVE-2026-103110\n  \n  Published : Sept. 30, 2026, 4:18 a.m. | 45\u00a0minutes ago\n  \n  Description :Pexip Infinity before 38.2, plus 39.0, 39.1 and ...",
-      "timestamp": 1790741909.0,
+      "title": "CVE-2026-94052 - Apache MINA SSHD: LDAP password authentication ineffective",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94052",
+      "summary": "CVE ID :CVE-2026-94052\n  \n  Published : Sept. 30, 2026, 10:17 a.m. | 46\u00a0minutes ago\n  \n  Description :A missing check in LdapPasswordAuthenticator in ...",
+      "timestamp": 1790763438.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-102911 - zosmaai pi-llm-wiki wiki_capture_source MCP tool index.ts os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102911",
-      "summary": "CVE ID :CVE-2026-102911\n  \n  Published : Sept. 30, 2026, 4:18 a.m. | 45\u00a0minutes ago\n  \n  Description :A flaw has been found in zosmaai pi-llm-wiki up ...",
-      "timestamp": 1790741908.0,
+      "title": "CVE-2026-93994 - Apache MINA SSHD: Repeated-publickey policy bypass on server",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93994",
+      "summary": "CVE ID :CVE-2026-93994\n  \n  Published : Sept. 30, 2026, 10:17 a.m. | 46\u00a0minutes ago\n  \n  Description :Apache MINA SSHD is a Java library for client-si...",
+      "timestamp": 1790763437.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-103105 - Pexip Infinity Improper Access Control Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103105",
-      "summary": "CVE ID :CVE-2026-103105\n  \n  Published : Sept. 30, 2026, 3:16 a.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :Pexip Infinity before 38.2, plus 39.0, 3...",
-      "timestamp": 1790738219.0,
+      "title": "CVE-2026-79625 - Improper Synchronization in Monitoring in CODESYS Control Runtime",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79625",
+      "summary": "CVE ID :CVE-2026-79625\n  \n  Published : Sept. 30, 2026, 10:17 a.m. | 46\u00a0minutes ago\n  \n  Description :Affected products do not properly synchronize ac...",
+      "timestamp": 1790763437.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-103102 - Pexip Infinity Signaling Implementation Denial of Service Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103102",
-      "summary": "CVE ID :CVE-2026-103102\n  \n  Published : Sept. 30, 2026, 3:16 a.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :Pexip Infinity before 41.0 is affected b...",
-      "timestamp": 1790738219.0,
+      "title": "CVE-2026-77185 - Apache MINA SSHD: Asynchronous authentication can bypass signature verification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77185",
+      "summary": "CVE ID :CVE-2026-77185\n  \n  Published : Sept. 30, 2026, 10:17 a.m. | 46\u00a0minutes ago\n  \n  Description :Authentication bypass in sshd-core in Apache MIN...",
+      "timestamp": 1790763437.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-103101 - Pexip Infinity Improper Input Validation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103101",
-      "summary": "CVE ID :CVE-2026-103101\n  \n  Published : Sept. 30, 2026, 3:16 a.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :Pexip Infinity 30.0 through 40.x before ...",
-      "timestamp": 1790738219.0,
+      "title": "CVE-2026-10764 - Information disclosure in BVMS 4.5 up to 12.3",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-10764",
+      "summary": "CVE ID :CVE-2026-10764\n  \n  Published : Sept. 30, 2026, 10:17 a.m. | 46\u00a0minutes ago\n  \n  Description :Information disclosure in BVMS 4.5 up to 12.3 in...",
+      "timestamp": 1790763436.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-103056 - AiSOC 7.2.0 before 12.0.0 Command Injection via CrowdStrike RTR",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103056",
-      "summary": "CVE ID :CVE-2026-103056\n  \n  Published : Sept. 30, 2026, 1:16 a.m. | 3\u00a0hours, 47\u00a0minutes ago\n  \n  Description :AiSOC versions 7.2.0 before 12.0.0 cont...",
-      "timestamp": 1790730997.0,
+      "title": "CVE-2026-103237 - MISP: Nested Model Alias Key Bypasses Sanitization to Modify Cross-Tenant Rows",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103237",
+      "summary": "CVE ID :CVE-2026-103237\n  \n  Published : Sept. 30, 2026, 10:17 a.m. | 46\u00a0minutes ago\n  \n  Description :MISP contains an improper input validation vuln...",
+      "timestamp": 1790763436.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-103055 - AiSOC 7.5.0 before 12.0.0 Authentication Bypass via Hard-coded JWT Secret",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103055",
-      "summary": "CVE ID :CVE-2026-103055\n  \n  Published : Sept. 30, 2026, 1:16 a.m. | 3\u00a0hours, 47\u00a0minutes ago\n  \n  Description :AiSOC versions 7.5.0 before 12.0.0 use ...",
-      "timestamp": 1790730996.0,
+      "title": "CVE-2026-103235 - MISP Event Delegation Mass Assignment Allows Retargeting Delegation to Arbitrary Events",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103235",
+      "summary": "CVE ID :CVE-2026-103235\n  \n  Published : Sept. 30, 2026, 10:17 a.m. | 46\u00a0minutes ago\n  \n  Description :MISP contains a mass assignment vulnerability i...",
+      "timestamp": 1790763436.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103239 - MISP Tag Collection Save Allows Privilege Escalation via Sibling Model Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103239",
+      "summary": "CVE ID :CVE-2026-103239\n  \n  Published : Sept. 30, 2026, 10:16 a.m. | 47\u00a0minutes ago\n  \n  Description :MISP contains a privilege escalation vulnerabil...",
+      "timestamp": 1790763378.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-102511 - Apache PLC4X, Apache PLC4X, Apache PLC4X, Apache PLC4X: ADS discovery accepts spoofed responses and derives the connection target from them",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102511",
+      "summary": "CVE ID :CVE-2026-102511\n  \n  Published : Sept. 30, 2026, 9:17 a.m. | 1\u00a0hour, 46\u00a0minutes ago\n  \n  Description :Improper Verification of Source of a Com...",
+      "timestamp": 1790759834.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
+      "summary": "",
+      "timestamp": 1790748900.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
     },
     {
       "title": "Microsoft is rolling out Linux container support to WSL",
@@ -129,22 +169,6 @@
       "timestamp": 1790728857.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-86133 - Fireware OS Pre-Authentication Integer Underflow in iked Allows Remote Denial of Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86133",
-      "summary": "CVE ID :CVE-2026-86133\n  \n  Published : Sept. 30, 2026, 12:16 a.m. | 4\u00a0hours, 47\u00a0minutes ago\n  \n  Description :An integer underflow vulnerability in t...",
-      "timestamp": 1790727397.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-86132 - Fireware OS Pre-Authentication Integer Underflow in iked Allows Denial of Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86132",
-      "summary": "CVE ID :CVE-2026-86132\n  \n  Published : Sept. 30, 2026, 12:16 a.m. | 4\u00a0hours, 47\u00a0minutes ago\n  \n  Description :An integer underflow vulnerability in t...",
-      "timestamp": 1790727396.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Signal adds encypted local backup support to iOS, desktop apps",
@@ -203,22 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
-      "link": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
-      "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) suffered an AI-driven cyberattack that the organization described as \"loud and very, very mess...",
-      "timestamp": 1790696359.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Catch threats before they escalate with real-time Identity Telemetry",
-      "link": "https://www.bleepingcomputer.com/news/security/catch-threats-before-they-escalate-with-real-time-identity-telemetry/",
-      "summary": "Identity governance helps control who should have access, but periodic reviews alone may not reveal attacks as they happen. tenfold Software explains ...",
-      "timestamp": 1790690471.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Dutch Police Arrest \u2018Reformed\u2019 Hacker in Shiny Hunters Investigation",
       "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
       "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolifi...",
@@ -249,14 +257,6 @@
       "timestamp": 1790169993.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
-      "summary": "",
-      "timestamp": 1790122800.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
     },
     {
       "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Logging Denial of Service Vulnerability",
@@ -313,15 +313,7 @@
       "timestamp": 1789746628.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XR%20Software%20Security%20Hardening%20Release:%20September%202026%26vs_k=1",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XR Software engineering team has conducted a comprehens...",
-      "timestamp": 1789679608.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1790747962.3138394
+  "last_updated": 1790771424.4655263
 }
