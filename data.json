@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 5,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,92 +59,108 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-103043 - anchorme through 3.0.8 Regular Expression Denial of Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103043",
+      "summary": "CVE ID :CVE-2026-103043\n  \n  Published : Sept. 29, 2026, 11:17 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :anchorme through 3.0.8 contains a regular...",
+      "timestamp": 1790723842.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103042 - LightLLM through 1.2.0 Unauthenticated Memory Exhaustion via NCCL Control Channel set_value",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103042",
+      "summary": "CVE ID :CVE-2026-103042\n  \n  Published : Sept. 29, 2026, 11:17 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :LightLLM through 1.2.0 contains a memory ...",
+      "timestamp": 1790723841.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103041 - LightLLM through 1.2.0 Unauthenticated Remote Code Execution via Embed Cache RPyC Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103041",
+      "summary": "CVE ID :CVE-2026-103041\n  \n  Published : Sept. 29, 2026, 11:17 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :LightLLM through 1.2.0 multimodal deploym...",
+      "timestamp": 1790723841.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103040 - LightLLM through 1.2.0 Unauthenticated Remote Code Execution via Router Profiler RPyC Service",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103040",
+      "summary": "CVE ID :CVE-2026-103040\n  \n  Published : Sept. 29, 2026, 11:17 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :LightLLM through 1.2.0 contains a remote ...",
+      "timestamp": 1790723841.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-102792 - Ziroom ZHOME A0101 set_syslog command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102792",
+      "summary": "CVE ID :CVE-2026-102792\n  \n  Published : Sept. 29, 2026, 11:17 p.m. | 1\u00a0hour, 1\u00a0minute ago\n  \n  Description :A vulnerability was detected in Ziroom ZH...",
+      "timestamp": 1790723841.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-74222 - U-Boot before 2026.10-rc5 Use-After-Free in lwIP wget Receive Callback",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74222",
+      "summary": "CVE ID :CVE-2026-74222\n  \n  Published : Sept. 29, 2026, 10:18 p.m. | 2\u00a0hours ago\n  \n  Description :U-Boot before 2026.10-rc5 contains a use-after-free...",
+      "timestamp": 1790720313.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-74221 - U-Boot before 2026.10-rc5 Buffer Overflow via NFS READLINK",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74221",
+      "summary": "CVE ID :CVE-2026-74221\n  \n  Published : Sept. 29, 2026, 10:18 p.m. | 2\u00a0hours ago\n  \n  Description :U-Boot before 2026.10-rc5 contains a buffer overflo...",
+      "timestamp": 1790720313.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-74220 - U-Boot before 2026.10-rc5 Buffer Overflow via NFS READ Reply",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-74220",
+      "summary": "CVE ID :CVE-2026-74220\n  \n  Published : Sept. 29, 2026, 10:18 p.m. | 2\u00a0hours ago\n  \n  Description :U-Boot before 2026.10-rc5 contains a buffer overflo...",
+      "timestamp": 1790720313.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72510 - Toptech TMS7 and TopHAT SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72510",
+      "summary": "CVE ID :CVE-2026-72510\n  \n  Published : Sept. 29, 2026, 10:18 p.m. | 2\u00a0hours ago\n  \n  Description :The \"supplier_no\" parameter used in the business al...",
+      "timestamp": 1790720302.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-72507 - Toptech TMS7 and TopHAT SQL Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-72507",
+      "summary": "CVE ID :CVE-2026-72507\n  \n  Published : Sept. 29, 2026, 10:18 p.m. | 2\u00a0hours ago\n  \n  Description :The \"reportType\" parameter in the product summary r...",
+      "timestamp": 1790720302.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Signal adds encypted local backup support to iOS, desktop apps",
+      "link": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
+      "summary": "Signal, the secure messaging app, released version 8.30, completing the rollout of its secure backups feature across all supported operating systems (...",
+      "timestamp": 1790717408.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
+      "link": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
+      "summary": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks...",
+      "timestamp": 1790715579.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "FBI tells ShinyHunters members to turn themselves in after recent arrest",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-tells-shinyhunters-members-to-turn-themselves-in-after-recent-arrest/",
       "summary": "The FBI is warning members of the ShinyHunters extortion group to turn themselves in after Dutch police arrested a man the bureau described as one of ...",
       "timestamp": 1790712595.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-100294 - Use of Hard-coded Credentials in Anjvision YSSD-RTMP-H5",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100294",
-      "summary": "CVE ID :CVE-2026-100294\n  \n  Published : Sept. 29, 2026, 7:40 p.m. | 7\u00a0minutes ago\n  \n  Description :In Anjvision YSSD\u2011RTMP\u2011H5 firmware version 3.3.2....",
-      "timestamp": 1790710812.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-100293 - Improper verification of cryptographic signature in Anjvision YSSD-RTMP-H5",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100293",
-      "summary": "CVE ID :CVE-2026-100293\n  \n  Published : Sept. 29, 2026, 7:37 p.m. | 10\u00a0minutes ago\n  \n  Description :In Anjvision YSSD\u2011RTMP\u2011H5 firmware version 3.3.2...",
-      "timestamp": 1790710633.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-100292 - Improper neutralization of special elements used in an OS command ('OS command injection') in Anjvision YSSD-RTMP-H5",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100292",
-      "summary": "CVE ID :CVE-2026-100292\n  \n  Published : Sept. 29, 2026, 7:35 p.m. | 12\u00a0minutes ago\n  \n  Description :In Anjvision YSSD\u2011RTMP\u2011H5 firmware version 3.3.2...",
-      "timestamp": 1790710535.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-100291 - Initialization of a resource with an insecure default in Anjvision YSSD-RTMP-H5",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100291",
-      "summary": "CVE ID :CVE-2026-100291\n  \n  Published : Sept. 29, 2026, 7:34 p.m. | 13\u00a0minutes ago\n  \n  Description :In Anjvision YSSD\u2011RTMP\u2011H5 firmware version 3.3.2...",
-      "timestamp": 1790710463.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-96274 - Uncaught exception in Baicells Nova 430H",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96274",
-      "summary": "CVE ID :CVE-2026-96274\n  \n  Published : Sept. 29, 2026, 7:29 p.m. | 18\u00a0minutes ago\n  \n  Description :In Baicells Nova 430H, an unauthenticated device ...",
-      "timestamp": 1790710153.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76726 - Authentication Bypass Leading to Unauthorized Network Access in HPE Networking Instant ON API Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76726",
-      "summary": "CVE ID :CVE-2026-76726\n  \n  Published : Sept. 29, 2026, 7:28 p.m. | 19\u00a0minutes ago\n  \n  Description :An authentication bypass vulnerability in the API...",
-      "timestamp": 1790710120.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76725 - Authentication Bypass in a Management Protocol of HPE Networking Instant ON APs",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76725",
-      "summary": "CVE ID :CVE-2026-76725\n  \n  Published : Sept. 29, 2026, 7:28 p.m. | 19\u00a0minutes ago\n  \n  Description :A vulnerability has been identified in a manageme...",
-      "timestamp": 1790710119.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76724 - Unauthenticated Adjacent Command Injection Vulnerability in HPE Networking Instant ON APs Command Line Interface (CLI) Accessed by the PAPI Protocol",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76724",
-      "summary": "CVE ID :CVE-2026-76724\n  \n  Published : Sept. 29, 2026, 7:28 p.m. | 19\u00a0minutes ago\n  \n  Description :A command injection vulnerability exists in CLI o...",
-      "timestamp": 1790710117.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76723 - Unauthenticated Adjacent Buffer Overflow Vulnerabilities lead to Remote Code Execution in HPE Networking Instant ON APS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76723",
-      "summary": "CVE ID :CVE-2026-76723\n  \n  Published : Sept. 29, 2026, 7:28 p.m. | 19\u00a0minutes ago\n  \n  Description :Buffer overflow vulnerabilities exist in the affe...",
-      "timestamp": 1790710115.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76722 - Uncontrolled Format String Vulnerabilities lead to Remote Code Execution or Denial-of-Service in HPE Networking Instant ON APs",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76722",
-      "summary": "CVE ID :CVE-2026-76722\n  \n  Published : Sept. 29, 2026, 7:28 p.m. | 19\u00a0minutes ago\n  \n  Description :Uncontrolled Format string vulnerabilities exist ...",
-      "timestamp": 1790710114.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Hackers exploit Citrix NetScaler zero-day to deploy web shells",
@@ -199,22 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/vietnamese-man-charged-in-16-million-pig-butchering-crypto-scam/",
       "summary": "A Vietnamese national was charged with money laundering for his role in a massive \"pig butchering\" scam, which defrauded a victim out of $16 million w...",
       "timestamp": 1790682113.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Kiteworks patches critical flaw, brings customer systems online",
-      "link": "https://www.bleepingcomputer.com/news/security/kiteworks-lifts-shutdown-warning-after-patching-critical-flaw/",
-      "summary": "American tech company Kiteworks has lifted a precautionary advisory asking customers to shut down systems after patching a critical vulnerability. [.....",
-      "timestamp": 1790672646.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Apple patches CoreGraphics zero-day flaw exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/apple-patches-coregraphics-zero-day-flaw-exploited-in-attacks/",
-      "summary": "Apple released security updates to fix a zero-day vulnerability exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
-      "timestamp": 1790667192.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -323,5 +323,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1790714691.1399615
+  "last_updated": 1790727807.1617036
 }
