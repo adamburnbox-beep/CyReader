@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 0,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,92 +59,132 @@
   ],
   "articles": [
     {
+      "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
+      "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
+      "summary": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, led to three...",
+      "timestamp": 1790864714.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-79901 - Predictable Active Directory service-account passwords in BoKS Manager",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79901",
+      "summary": "CVE ID :CVE-2026-79901\n  \n  Published : Oct. 1, 2026, 2:17 p.m. | 13\u00a0minutes ago\n  \n  Description :In deployments using BoKS keytab management, affect...",
+      "timestamp": 1790864250.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-66246 - HCL iControl is affected by multiple security vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66246",
+      "summary": "CVE ID :CVE-2026-66246\n  \n  Published : Oct. 1, 2026, 2:17 p.m. | 13\u00a0minutes ago\n  \n  Description :iControl is affected by a Broken Access Control vul...",
+      "timestamp": 1790864249.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "The Day-One Hole in Zero Trust Architecture",
+      "link": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
+      "summary": "Zero Trust can verify users once they are established, but onboarding creates a gap where organizations must decide who to trust before strong authent...",
+      "timestamp": 1790863271.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Kiteworks patches max severity code injection vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
+      "summary": "Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw affecting i...",
+      "timestamp": 1790862668.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-103338 - WordPress Unlimited Elements For Elementor (Free Widgets, Addons, Templates) plugin <= 2.0.20 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103338",
+      "summary": "CVE ID :CVE-2026-103338\n  \n  Published : Oct. 1, 2026, 1:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Element...",
+      "timestamp": 1790860628.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103067 - WordPress Memberful - Membership Plugin plugin <= 1.81.0 - Cross Site Request Forgery (CSRF) vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103067",
+      "summary": "CVE ID :CVE-2026-103067\n  \n  Published : Oct. 1, 2026, 1:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Cross-Site Request Forgery (CSRF) vulnerab...",
+      "timestamp": 1790860628.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-102379 - WordPress BuildKit \u2013 Product Builder for WooCommerce \u2013 Custom PC Builder plugin <= 1.0.28 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102379",
+      "summary": "CVE ID :CVE-2026-102379\n  \n  Published : Oct. 1, 2026, 1:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Element...",
+      "timestamp": 1790860627.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94250 - Apache APISIX: Batch response aggregation can exhaust worker memory",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94250",
+      "summary": "CVE ID :CVE-2026-94250\n  \n  Published : Oct. 1, 2026, 12:17 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Allocation of resources without limits or...",
+      "timestamp": 1790857037.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-88789 - Apache Camel Quarkus: Camel Quarkus: Forced Xalan TransformerFactory drops upstream external-DTD/stylesheet hardening",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88789",
+      "summary": "CVE ID :CVE-2026-88789\n  \n  Published : Oct. 1, 2026, 11:17 a.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Improper Restriction of XML External Enti...",
+      "timestamp": 1790853448.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103758 - Obot 0.21.1 through 0.24.1 Authorization Bypass via /mcp-connect-composite/ Route",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103758",
+      "summary": "CVE ID :CVE-2026-103758\n  \n  Published : Oct. 1, 2026, 11:17 a.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Obot 0.21.1 through 0.24.1 contains an a...",
+      "timestamp": 1790853446.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103757 - Budibase before 3.41.0 SSRF via uploadUrl in AI Table Generation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103757",
+      "summary": "CVE ID :CVE-2026-103757\n  \n  Published : Oct. 1, 2026, 11:17 a.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Budibase through 3.41.0 contains a serve...",
+      "timestamp": 1790853446.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103292 - Ghost 0.5.3 before 6.50.0 Cross-Site Scripting via ghost_head",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103292",
+      "summary": "CVE ID :CVE-2026-103292\n  \n  Published : Oct. 1, 2026, 11:17 a.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Ghost versions from 0.5.3 through versio...",
+      "timestamp": 1790853445.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft enables Windows settings backup by default for orgs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
+      "summary": "Microsoft announced that Windows settings backup and restore is now enabled by default on all Microsoft Entra-joined or Microsoft Entra hybrid-joined ...",
+      "timestamp": 1790853268.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Hackers stole Pentagon personnel records of over 3 million people",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
+      "summary": "The Pentagon's Defense Manpower Data Center (DMDC) is notifying millions of military service members that hackers stole their data after breaching the...",
+      "timestamp": 1790847868.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Metamask discloses security incident affecting its infrastructure",
       "link": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
       "summary": "On Thursday, cryptocurrency wallet provider MetaMask has disclosed an ongoing infrastructure security incident affecting some of its infrastructure. [...",
       "timestamp": 1790840037.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-80275 - Comelit 1456B gateway allows low priviledge user to overwrite installer password via unauthorized endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80275",
-      "summary": "CVE ID :CVE-2026-80275\n  \n  Published : Oct. 1, 2026, 6:17 a.m. | 13\u00a0minutes ago\n  \n  Description :Comelit Multi-User Gateway for VIP System (model 14...",
-      "timestamp": 1790835429.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92966 - Appointment Booking Plugin <= 5.7.0 - Unauthenticated Arbitrary Shortcode Execution via First/Last Name Field",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92966",
-      "summary": "CVE ID :CVE-2026-92966\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :The The Appointment Booking Plugin \u2013 LatePo...",
-      "timestamp": 1790831831.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82829 - Hidden accounts or hard-coded credentials may permit unauthorized access without the legitimate authentication process",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82829",
-      "summary": "CVE ID :CVE-2026-82829\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Hitachi Coding Software Suite contains a vu...",
-      "timestamp": 1790831831.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82828 - Improper authorization may allow a general user to perform operations equivalent to those available with administrator privileges",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82828",
-      "summary": "CVE ID :CVE-2026-82828\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Hitachi Coding Software Suite contains an I...",
-      "timestamp": 1790831830.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82827 - A hard-coded JWT signing secret key may allow administrative functions to be abused using fraudulently generated Bearer tokens",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82827",
-      "summary": "CVE ID :CVE-2026-82827\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Hitachi Coding Software Suite contains a vu...",
-      "timestamp": 1790831830.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82826 - Authentication information or sensitive data may be intercepted in transit",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82826",
-      "summary": "CVE ID :CVE-2026-82826\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Hitachi Coding Software Suite contains a vu...",
-      "timestamp": 1790831830.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82825 - Missing proper authentication for critical APIs may allow sensitive information to be obtained or modified, or unauthorized operations to be performed",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82825",
-      "summary": "CVE ID :CVE-2026-82825\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Hitachi Coding Software Suite contains a vu...",
-      "timestamp": 1790831830.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82824 - Path traversal may allow arbitrary files to be viewed, created, modified, or deleted",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82824",
-      "summary": "CVE ID :CVE-2026-82824\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Hitachi Coding Software Suite contains a vu...",
-      "timestamp": 1790831830.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76146 - Genians, Inc Genian SSL PNS OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76146",
-      "summary": "CVE ID :CVE-2026-76146\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :An OS command injection vulnerability in Ge...",
-      "timestamp": 1790831829.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76142 - Genians, Inc. Genian NAC/ZTNA Improper Access Control on the Internal Interface",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76142",
-      "summary": "CVE ID :CVE-2026-76142\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Insufficient authentication and access cont...",
-      "timestamp": 1790831829.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Russian state hackers use new RedFlick technique to push malware",
@@ -187,52 +227,12 @@
       "vendor": "News"
     },
     {
-      "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
-      "summary": "Cisco\u00a0released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as\u00a0CVE-2026-76504) that attackers are actively ...",
-      "timestamp": 1790779600.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
-      "link": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
-      "summary": "Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to hand...",
-      "timestamp": 1790776871.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft to block Entra ID script injection attacks starting October",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
-      "summary": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting...",
-      "timestamp": 1790775435.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Manager API Authentication Bypass Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20API%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to...",
       "timestamp": 1790773200.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "TeamViewer urges users to patch severe flaws \u201cas soon as possible\u201d",
-      "link": "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
-      "summary": "Remote access software company TeamViewer warned customers on Tuesday to immediately patch a set of high-severity vulnerabilities affecting its client...",
-      "timestamp": 1790771110.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Bitget hacked via zero-day in third-party security products",
-      "link": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
-      "summary": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw ...",
-      "timestamp": 1790766706.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
@@ -275,5 +275,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1790840805.1278036
+  "last_updated": 1790868435.0019698
 }
