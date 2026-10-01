@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 5,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,28 +59,100 @@
   ],
   "articles": [
     {
+      "title": "Microsoft says threat actors are ahead in the early AI race",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
+      "summary": "Microsoft says cyberattackers are currently benefiting from artificial intelligence faster than defenders, allowing threat actors to speed up vulnerab...",
+      "timestamp": 1790883167.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-104059 - Lektor 3.3.14 CSRF via Admin API Endpoints",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104059",
+      "summary": "CVE ID :CVE-2026-104059\n  \n  Published : Oct. 1, 2026, 6:17 p.m. | 51\u00a0minutes ago\n  \n  Description :Lektor 3.3.14 and 3.4.0b15 contains a cross-site r...",
+      "timestamp": 1790878659.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97662 - Argument injection in the diff scan operation in AWS security-agent-mcp-server allows arbitrary host file creation, overwrite, and truncation outside the intended workspace",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97662",
+      "summary": "CVE ID :CVE-2026-97662\n  \n  Published : Oct. 1, 2026, 6:17 p.m. | 51\u00a0minutes ago\n  \n  Description :An argument injection issue in the diff scan operat...",
+      "timestamp": 1790878649.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-104018 - VxWorks 7 improper privilege management",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104018",
+      "summary": "CVE ID :CVE-2026-104018\n  \n  Published : Oct. 1, 2026, 6:17 p.m. | 51\u00a0minutes ago\n  \n  Description :An improper privilege management vulnerability (CW...",
+      "timestamp": 1790878634.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103922 - Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103922",
+      "summary": "CVE ID :CVE-2026-103922\n  \n  Published : Oct. 1, 2026, 6:17 p.m. | 51\u00a0minutes ago\n  \n  Description :Capacitor is a cross-platform native runtime for w...",
+      "timestamp": 1790878632.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-102369 - Unauthenticated Remote Code Execution via MacTool Command Injection in TP-Link Tapo C120 & C200",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102369",
+      "summary": "CVE ID :CVE-2026-102369\n  \n  Published : Oct. 1, 2026, 6:17 p.m. | 51\u00a0minutes ago\n  \n  Description :Tapo C120 v1 and C200 V5\ndo not adequately protect...",
+      "timestamp": 1790878632.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-102294 - Authenticated OS Command Injection in TL-WR841N IPv6 WAN Configuration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102294",
+      "summary": "CVE ID :CVE-2026-102294\n  \n  Published : Oct. 1, 2026, 6:17 p.m. | 51\u00a0minutes ago\n  \n  Description :TP-Link TL-WR841N contains an authenticated OS com...",
+      "timestamp": 1790878632.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2023-54404 - Zod 4.6.5 Uncontrolled Resource Consumption via Array Validation",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2023-54404",
+      "summary": "CVE ID :CVE-2023-54404\n  \n  Published : Oct. 1, 2026, 6:17 p.m. | 51\u00a0minutes ago\n  \n  Description :Zod schema-validation library through 4.6.5 contain...",
+      "timestamp": 1790878631.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55083 - DHIS2: Unsafe Java Deserialization - Remote Code Execution (RCE)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55083",
+      "summary": "CVE ID :CVE-2026-55083\n  \n  Published : Oct. 1, 2026, 6 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :DHIS2 is a flexible information system for data...",
+      "timestamp": 1790877605.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-96659 - Foreman: excessive permissions for viewer role on preview",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96659",
+      "summary": "CVE ID :CVE-2026-96659\n  \n  Published : Oct. 1, 2026, 5:17 p.m. | 1\u00a0hour, 51\u00a0minutes ago\n  \n  Description :A flaw was found in Foreman. This vulnerabi...",
+      "timestamp": 1790875055.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-96658 - Foreman: safemode bypass leading to rce",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96658",
+      "summary": "CVE ID :CVE-2026-96658\n  \n  Published : Oct. 1, 2026, 5:17 p.m. | 1\u00a0hour, 51\u00a0minutes ago\n  \n  Description :A flaw was found in Foreman. An authenticat...",
+      "timestamp": 1790875054.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
       "link": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
       "summary": "An international law enforcement operation dubbed \"Operation KillSwitch\" seized the KillSec ransomware gang's data leak site and servers, led to three...",
       "timestamp": 1790864714.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-79901 - Predictable Active Directory service-account passwords in BoKS Manager",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79901",
-      "summary": "CVE ID :CVE-2026-79901\n  \n  Published : Oct. 1, 2026, 2:17 p.m. | 13\u00a0minutes ago\n  \n  Description :In deployments using BoKS keytab management, affect...",
-      "timestamp": 1790864250.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-66246 - HCL iControl is affected by multiple security vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66246",
-      "summary": "CVE ID :CVE-2026-66246\n  \n  Published : Oct. 1, 2026, 2:17 p.m. | 13\u00a0minutes ago\n  \n  Description :iControl is affected by a Broken Access Control vul...",
-      "timestamp": 1790864249.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "The Day-One Hole in Zero Trust Architecture",
@@ -97,70 +169,6 @@
       "timestamp": 1790862668.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-103338 - WordPress Unlimited Elements For Elementor (Free Widgets, Addons, Templates) plugin <= 2.0.20 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103338",
-      "summary": "CVE ID :CVE-2026-103338\n  \n  Published : Oct. 1, 2026, 1:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Element...",
-      "timestamp": 1790860628.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-103067 - WordPress Memberful - Membership Plugin plugin <= 1.81.0 - Cross Site Request Forgery (CSRF) vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103067",
-      "summary": "CVE ID :CVE-2026-103067\n  \n  Published : Oct. 1, 2026, 1:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Cross-Site Request Forgery (CSRF) vulnerab...",
-      "timestamp": 1790860628.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-102379 - WordPress BuildKit \u2013 Product Builder for WooCommerce \u2013 Custom PC Builder plugin <= 1.0.28 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102379",
-      "summary": "CVE ID :CVE-2026-102379\n  \n  Published : Oct. 1, 2026, 1:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Element...",
-      "timestamp": 1790860627.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94250 - Apache APISIX: Batch response aggregation can exhaust worker memory",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94250",
-      "summary": "CVE ID :CVE-2026-94250\n  \n  Published : Oct. 1, 2026, 12:17 p.m. | 2\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Allocation of resources without limits or...",
-      "timestamp": 1790857037.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-88789 - Apache Camel Quarkus: Camel Quarkus: Forced Xalan TransformerFactory drops upstream external-DTD/stylesheet hardening",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88789",
-      "summary": "CVE ID :CVE-2026-88789\n  \n  Published : Oct. 1, 2026, 11:17 a.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Improper Restriction of XML External Enti...",
-      "timestamp": 1790853448.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-103758 - Obot 0.21.1 through 0.24.1 Authorization Bypass via /mcp-connect-composite/ Route",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103758",
-      "summary": "CVE ID :CVE-2026-103758\n  \n  Published : Oct. 1, 2026, 11:17 a.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Obot 0.21.1 through 0.24.1 contains an a...",
-      "timestamp": 1790853446.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-103757 - Budibase before 3.41.0 SSRF via uploadUrl in AI Table Generation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103757",
-      "summary": "CVE ID :CVE-2026-103757\n  \n  Published : Oct. 1, 2026, 11:17 a.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Budibase through 3.41.0 contains a serve...",
-      "timestamp": 1790853446.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-103292 - Ghost 0.5.3 before 6.50.0 Cross-Site Scripting via ghost_head",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103292",
-      "summary": "CVE ID :CVE-2026-103292\n  \n  Published : Oct. 1, 2026, 11:17 a.m. | 3\u00a0hours, 13\u00a0minutes ago\n  \n  Description :Ghost versions from 0.5.3 through versio...",
-      "timestamp": 1790853445.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft enables Windows settings backup by default for orgs",
@@ -219,14 +227,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to re...",
-      "timestamp": 1790783369.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Manager API Authentication Bypass Vulnerability",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20API%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
       "summary": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to...",
@@ -275,5 +275,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1790868435.0019698
+  "last_updated": 1790886735.7576048
 }
