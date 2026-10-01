@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 3,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,92 +59,100 @@
   ],
   "articles": [
     {
+      "title": "Metamask discloses security incident affecting its infrastructure",
+      "link": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
+      "summary": "On Thursday, cryptocurrency wallet provider MetaMask has disclosed an ongoing infrastructure security incident affecting some of its infrastructure. [...",
+      "timestamp": 1790840037.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-80275 - Comelit 1456B gateway allows low priviledge user to overwrite installer password via unauthorized endpoint",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80275",
+      "summary": "CVE ID :CVE-2026-80275\n  \n  Published : Oct. 1, 2026, 6:17 a.m. | 13\u00a0minutes ago\n  \n  Description :Comelit Multi-User Gateway for VIP System (model 14...",
+      "timestamp": 1790835429.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-92966 - Appointment Booking Plugin <= 5.7.0 - Unauthenticated Arbitrary Shortcode Execution via First/Last Name Field",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92966",
+      "summary": "CVE ID :CVE-2026-92966\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :The The Appointment Booking Plugin \u2013 LatePo...",
+      "timestamp": 1790831831.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82829 - Hidden accounts or hard-coded credentials may permit unauthorized access without the legitimate authentication process",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82829",
+      "summary": "CVE ID :CVE-2026-82829\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Hitachi Coding Software Suite contains a vu...",
+      "timestamp": 1790831831.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82828 - Improper authorization may allow a general user to perform operations equivalent to those available with administrator privileges",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82828",
+      "summary": "CVE ID :CVE-2026-82828\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Hitachi Coding Software Suite contains an I...",
+      "timestamp": 1790831830.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82827 - A hard-coded JWT signing secret key may allow administrative functions to be abused using fraudulently generated Bearer tokens",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82827",
+      "summary": "CVE ID :CVE-2026-82827\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Hitachi Coding Software Suite contains a vu...",
+      "timestamp": 1790831830.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82826 - Authentication information or sensitive data may be intercepted in transit",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82826",
+      "summary": "CVE ID :CVE-2026-82826\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Hitachi Coding Software Suite contains a vu...",
+      "timestamp": 1790831830.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82825 - Missing proper authentication for critical APIs may allow sensitive information to be obtained or modified, or unauthorized operations to be performed",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82825",
+      "summary": "CVE ID :CVE-2026-82825\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Hitachi Coding Software Suite contains a vu...",
+      "timestamp": 1790831830.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-82824 - Path traversal may allow arbitrary files to be viewed, created, modified, or deleted",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82824",
+      "summary": "CVE ID :CVE-2026-82824\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Hitachi Coding Software Suite contains a vu...",
+      "timestamp": 1790831830.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76146 - Genians, Inc Genian SSL PNS OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76146",
+      "summary": "CVE ID :CVE-2026-76146\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :An OS command injection vulnerability in Ge...",
+      "timestamp": 1790831829.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76142 - Genians, Inc. Genian NAC/ZTNA Improper Access Control on the Internal Interface",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76142",
+      "summary": "CVE ID :CVE-2026-76142\n  \n  Published : Oct. 1, 2026, 5:17 a.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Insufficient authentication and access cont...",
+      "timestamp": 1790831829.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Russian state hackers use new RedFlick technique to push malware",
       "link": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
       "summary": "The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed \"RedFlick\" to deploy its signature CosmicPulse backdoor....",
       "timestamp": 1790800441.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2023-54403 - Yonyou U8 CRM Arbitrary File Read via getemaildata.php",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2023-54403",
-      "summary": "CVE ID :CVE-2023-54403\n  \n  Published : Sept. 30, 2026, 8:25 p.m. | 24\u00a0minutes ago\n  \n  Description :Yonyou U8 CRM before V16.5 and V18 contains an ar...",
-      "timestamp": 1790799940.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2024-58387 - Inspur HCM Cloud Arbitrary File Read via file/download Endpoint",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2024-58387",
-      "summary": "CVE ID :CVE-2024-58387\n  \n  Published : Sept. 30, 2026, 8:24 p.m. | 25\u00a0minutes ago\n  \n  Description :Inspur Haiyue HCM Cloud contains an arbitrary fil...",
-      "timestamp": 1790799865.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-102115 - Kiteworks Core Authentication Bypass in the Password Reset Workflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102115",
-      "summary": "CVE ID :CVE-2026-102115\n  \n  Published : Sept. 30, 2026, 8:19 p.m. | 29\u00a0minutes ago\n  \n  Description :Kiteworks Core did not correctly validate a para...",
-      "timestamp": 1790799595.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-102120 - Kiteworks Core OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102120",
-      "summary": "CVE ID :CVE-2026-102120\n  \n  Published : Sept. 30, 2026, 8:17 p.m. | 31\u00a0minutes ago\n  \n  Description :A privilege escalation vulnerability in Kitework...",
-      "timestamp": 1790799468.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-102121 - Kiteworks Secure Data Forms Exposure of Sensitive Information to an Unauthorized Actor",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102121",
-      "summary": "CVE ID :CVE-2026-102121\n  \n  Published : Sept. 30, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :A form-rendering interface in the Advanced Forms...",
-      "timestamp": 1790799451.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-103547 - OpenBSD ldapd Authentication Correlation Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103547",
-      "summary": "CVE ID :CVE-2026-103547\n  \n  Published : Sept. 30, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :In ldapd in OpenBSD 7.8 before errata 057 and 7....",
-      "timestamp": 1790799451.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-102994 - pypdf: Possible long runtimes/large memory usage when parsing indirect objects",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102994",
-      "summary": "CVE ID :CVE-2026-102994\n  \n  Published : Sept. 30, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :pypdf is a free and open-source pure-python PDF ...",
-      "timestamp": 1790799448.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-102993 - pypdf: Possible large memory usage when retrieving Roman page labels",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102993",
-      "summary": "CVE ID :CVE-2026-102993\n  \n  Published : Sept. 30, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :pypdf is a free and open-source pure-python PDF ...",
-      "timestamp": 1790799447.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-102992 - piscina: Prototype-pollution gadget in ThreadPool.options allows RCE via execArgv / loadBalancer / env",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102992",
-      "summary": "CVE ID :CVE-2026-102992\n  \n  Published : Sept. 30, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :piscina is a node.js worker pool implementation....",
-      "timestamp": 1790799447.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-102990 - basic-ftp: Quadratic-time CPU denial of service in Client.list() Unix directory-listing parser (RE_LINE backtracking)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102990",
-      "summary": "CVE ID :CVE-2026-102990\n  \n  Published : Sept. 30, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :basic-ftp is an FTP client for Node.js. Prior to...",
-      "timestamp": 1790799446.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
@@ -235,14 +243,6 @@
       "vendor": "Palo Alto"
     },
     {
-      "title": "Microsoft is rolling out Linux container support to WSL",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
-      "summary": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]",
-      "timestamp": 1790728857.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Dutch Police Arrest \u2018Reformed\u2019 Hacker in Shiny Hunters Investigation",
       "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
       "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolifi...",
@@ -273,55 +273,7 @@
       "timestamp": 1790169993.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Logging Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ftd-logging-dos-ZXXNesfN?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Logging%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the system rate-limiting process for syslog message 419002 of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and ...",
-      "timestamp": 1789746656.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Secure Firewall Adaptive Security Appliance, Secure Firewall Threat Defense, and Secure Firewall Management Center Software Hardening Release: September 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-asaftdfmc-uvpPROhN?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance,%20Secure%20Firewall%20Threat%20Defense,%20and%20Secure%20Firewall%20Management%20Center%20Software%20Hardening%20Release:%20September%202026%26vs_k=1",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Firewall Adaptive Security Appliance (ASA) Software,...",
-      "timestamp": 1789746633.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software for Secure Firewall 3100 and 4200 Series DTLS Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-dtls-dos-Kp57HkyO?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20for%20Secure%20Firewall%203100%20and%204200%20Series%20DTLS%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in Datagram TLS (DTLS) message handling of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall ...",
-      "timestamp": 1789746631.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software IKEv2 Certificate Authentication Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ikev2cert-dos-uWyc2xtv?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20IKEv2%20Certificate%20Authentication%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the certification authentication feature of Internet Key Exchange version 2 (IKEv2)&nbsp;for Cisco Secure Firewall Adaptive Securit...",
-      "timestamp": 1789746630.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Object Group Access Control List Bypass Vulnerabilities",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-acl-bypass-8p6vFvw?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Object%20Group%20Access%20Control%20List%20Bypass%20Vulnerabilities%26vs_k=1",
-      "summary": "Multiple vulnerabilities in the access control list (ACL) Object Group Search (OGS) implementation of Cisco Secure Firewall Adaptive Security Applianc...",
-      "timestamp": 1789746630.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software TCP DNS Denial of Service Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tcpdns-dos-p6dUnjr5?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20TCP%20DNS%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the DNS over TCP implementation of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threa...",
-      "timestamp": 1789746629.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     }
   ],
-  "last_updated": 1790806456.8184497
+  "last_updated": 1790840805.1278036
 }
