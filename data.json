@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,68 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-104480 - Improper MLS Welcome roster validation in Discord libdave allows unauthorized group membership",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104480",
+      "summary": "CVE ID :CVE-2026-104480\n  \n  Published : Oct. 2, 2026, 2:17 a.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :Discord libdave before 1.2.0 did not rejec...",
+      "timestamp": 1790907422.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-86345 - 389-ds-base: 389-ds-base: starttls plaintext-buffer retention allows on-path attacker to forge an ldap client's authentication result",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86345",
+      "summary": "CVE ID :CVE-2026-86345\n  \n  Published : Oct. 2, 2026, 12:17 a.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :A flaw was found in 389-ds-base. The serv...",
+      "timestamp": 1790900224.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103766 - ClipBucket v5 through 5.5.3-#197 SQL Injection via ads_manager.php delete Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103766",
+      "summary": "CVE ID :CVE-2026-103766\n  \n  Published : Oct. 2, 2026, 12:16 a.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :ClipBucket v5 through 5.5.3-#197 contain...",
+      "timestamp": 1790900219.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103765 - Mooncake through 0.3.13.post1 Missing Authentication in HTTP Metadata Server",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103765",
+      "summary": "CVE ID :CVE-2026-103765\n  \n  Published : Oct. 2, 2026, 12:16 a.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Mooncake through 0.3.13.post1 contains a...",
+      "timestamp": 1790900219.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103764 - Mooncake transfer engine before 0.3.13 Unauthenticated Arbitrary Memory Read/Write via TCP Transport",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103764",
+      "summary": "CVE ID :CVE-2026-103764\n  \n  Published : Oct. 2, 2026, 12:16 a.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Mooncake transfer engine before 0.3.13 c...",
+      "timestamp": 1790900219.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103761 - Mooncake transfer engine through 0.3.13.post1 Memory Exhaustion via Unbounded Notify Queue",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103761",
+      "summary": "CVE ID :CVE-2026-103761\n  \n  Published : Oct. 1, 2026, 11:16 p.m. | 4\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Mooncake transfer engine through 0.3.13....",
+      "timestamp": 1790896606.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-103760 - Mooncake transfer engine through 0.3.13.post1 Denial of Service via P2P Handshake Daemon Response Write",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103760",
+      "summary": "CVE ID :CVE-2026-103760\n  \n  Published : Oct. 1, 2026, 11:16 p.m. | 4\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Mooncake transfer engine through 0.3.13....",
+      "timestamp": 1790896606.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
       "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
@@ -69,7 +125,7 @@
     {
       "title": "CVE-2026-71452 - Johnson Controls EasyIO FS32 OS Command Injection",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71452",
-      "summary": "CVE ID :CVE-2026-71452\n  \n  Published : Oct. 1, 2026, 10:17 p.m. | 13\u00a0minutes ago\n  \n  Description :- OS Command Injection vulnerability in Johnson Co...",
+      "summary": "CVE ID :CVE-2026-71452\n  \n  Published : Oct. 1, 2026, 10:17 p.m. | 5\u00a0hours, 20\u00a0minutes ago\n  \n  Description :- OS Command Injection vulnerability in J...",
       "timestamp": 1790893025.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +133,7 @@
     {
       "title": "CVE-2026-71449 - Johnson Controls EasyIO FS32 Hard-coded Cryptographic Key Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-71449",
-      "summary": "CVE ID :CVE-2026-71449\n  \n  Published : Oct. 1, 2026, 10:17 p.m. | 13\u00a0minutes ago\n  \n  Description :: Use of Hard-coded Cryptographic Key vulnerabilit...",
+      "summary": "CVE ID :CVE-2026-71449\n  \n  Published : Oct. 1, 2026, 10:17 p.m. | 5\u00a0hours, 20\u00a0minutes ago\n  \n  Description :: Use of Hard-coded Cryptographic Key vul...",
       "timestamp": 1790893024.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,64 +141,8 @@
     {
       "title": "CVE-2026-18397 - SConnect: Native Host Unauthenticated Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-18397",
-      "summary": "CVE ID :CVE-2026-18397\n  \n  Published : Oct. 1, 2026, 10:17 p.m. | 13\u00a0minutes ago\n  \n  Description :This vulnerability enables unauthenticated remote ...",
+      "summary": "CVE ID :CVE-2026-18397\n  \n  Published : Oct. 1, 2026, 10:17 p.m. | 5\u00a0hours, 20\u00a0minutes ago\n  \n  Description :This vulnerability enables unauthenticate...",
       "timestamp": 1790893021.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-104356 - PictShare < 3.7.1 Predictable Delete Code via rand()",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104356",
-      "summary": "CVE ID :CVE-2026-104356\n  \n  Published : Oct. 1, 2026, 10:17 p.m. | 13\u00a0minutes ago\n  \n  Description :PictShare before version 3.7.1 contains a weak ra...",
-      "timestamp": 1790893020.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-104051 - PictShare < 3.7.1 Sensitive Information Disclosure via info API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104051",
-      "summary": "CVE ID :CVE-2026-104051\n  \n  Published : Oct. 1, 2026, 10:17 p.m. | 13\u00a0minutes ago\n  \n  Description :PictShare before 3.7.1 contains an information di...",
-      "timestamp": 1790893020.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-96780 - figlet is vulnerable to denial of service via unbounded loop when whitespaceBreak is used with a small width",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96780",
-      "summary": "CVE ID :CVE-2026-96780\n  \n  Published : Oct. 1, 2026, 9:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :figlet.js is a FIG driver written in JavaSc...",
-      "timestamp": 1790889446.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55396 - Unencrypted UDP Control Traffic in Teledyne FLIR Robots running Aware2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55396",
-      "summary": "CVE ID :CVE-2026-55396\n  \n  Published : Oct. 1, 2026, 9:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Cleartext transmission without a cryptograp...",
-      "timestamp": 1790889441.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55395 - Hardcoded Passwords in Teledyne FLIR Robots running Aware2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55395",
-      "summary": "CVE ID :CVE-2026-55395\n  \n  Published : Oct. 1, 2026, 9:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Hardcoded passwords in the access control i...",
-      "timestamp": 1790889441.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55393 - Local File Inclusion in Teledyne FLIR Robots running Aware2",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55393",
-      "summary": "CVE ID :CVE-2026-55393\n  \n  Published : Oct. 1, 2026, 9:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Unvalidated pathnames in the web interface ...",
-      "timestamp": 1790889441.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-104020 - Uncontrolled recursion in the Ion reader in Amazon Ion Python",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104020",
-      "summary": "CVE ID :CVE-2026-104020\n  \n  Published : Oct. 1, 2026, 9:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Uncontrolled recursion in the Ion reader i...",
-      "timestamp": 1790889438.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -275,5 +275,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1790899913.5619602
+  "last_updated": 1790919059.1420188
 }
