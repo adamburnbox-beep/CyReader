@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,67 +52,107 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 7,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-104480 - Improper MLS Welcome roster validation in Discord libdave allows unauthorized group membership",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104480",
-      "summary": "CVE ID :CVE-2026-104480\n  \n  Published : Oct. 2, 2026, 2:17 a.m. | 1\u00a0hour, 20\u00a0minutes ago\n  \n  Description :Discord libdave before 1.2.0 did not rejec...",
-      "timestamp": 1790907422.0,
+      "title": "Microsoft\u2019s X account hacked in crypto pump-and-dump scheme",
+      "link": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
+      "summary": "On Thursday, unknown attackers hijacked the official Microsoft account on X, which has over 13 million followers, in what appeared to be a pump-and-du...",
+      "timestamp": 1790933396.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-94635 - Apache Thrift: Lua `TBinaryProtocol:readMessageBegin` bypasses `checkStringSize` on the pre-versioned name",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94635",
+      "summary": "CVE ID :CVE-2026-94635\n  \n  Published : Oct. 2, 2026, 9:07 a.m. | 34\u00a0minutes ago\n  \n  Description :Allocation of resources without limits or throttlin...",
+      "timestamp": 1790932076.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-86345 - 389-ds-base: 389-ds-base: starttls plaintext-buffer retention allows on-path attacker to forge an ldap client's authentication result",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86345",
-      "summary": "CVE ID :CVE-2026-86345\n  \n  Published : Oct. 2, 2026, 12:17 a.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :A flaw was found in 389-ds-base. The serv...",
-      "timestamp": 1790900224.0,
+      "title": "CVE-2026-80298 - SQL Injection in HAVELSAN's Sef - AI Chatbot Platform",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80298",
+      "summary": "CVE ID :CVE-2026-80298\n  \n  Published : Oct. 2, 2026, 9:07 a.m. | 34\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements used in...",
+      "timestamp": 1790932072.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-103766 - ClipBucket v5 through 5.5.3-#197 SQL Injection via ads_manager.php delete Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103766",
-      "summary": "CVE ID :CVE-2026-103766\n  \n  Published : Oct. 2, 2026, 12:16 a.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :ClipBucket v5 through 5.5.3-#197 contain...",
-      "timestamp": 1790900219.0,
+      "title": "CVE-2026-97637 - JSON API Auth <= 3.1.2 - Unauthenticated Authentication Bypass via Cached 'generate_auth_cookie' Response",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97637",
+      "summary": "CVE ID :CVE-2026-97637\n  \n  Published : Oct. 2, 2026, 8:17 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :The JSON API Auth plugin for WordPress is v...",
+      "timestamp": 1790929025.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-103765 - Mooncake through 0.3.13.post1 Missing Authentication in HTTP Metadata Server",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103765",
-      "summary": "CVE ID :CVE-2026-103765\n  \n  Published : Oct. 2, 2026, 12:16 a.m. | 3\u00a0hours, 20\u00a0minutes ago\n  \n  Description :Mooncake through 0.3.13.post1 contains a...",
-      "timestamp": 1790900219.0,
+      "title": "CVE-2026-63577 - Name Constraints bypass: directoryName constraint matched at any position in the DN instead of as a prefix",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63577",
+      "summary": "CVE ID :CVE-2026-63577\n  \n  Published : Oct. 2, 2026, 8:17 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Improper certificate validation in the dire...",
+      "timestamp": 1790929022.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-103764 - Mooncake transfer engine before 0.3.13 Unauthenticated Arbitrary Memory Read/Write via TCP Transport",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103764",
-      "summary": "CVE ID :CVE-2026-103764\n  \n  Published : Oct. 2, 2026, 12:16 a.m. | 3\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Mooncake transfer engine before 0.3.13 c...",
-      "timestamp": 1790900219.0,
+      "title": "CVE-2026-63576 - URI name constraints checked against a mis-parsed host",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63576",
+      "summary": "CVE ID :CVE-2026-63576\n  \n  Published : Oct. 2, 2026, 8:17 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Improper certificate validation in PkixName...",
+      "timestamp": 1790929022.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-103761 - Mooncake transfer engine through 0.3.13.post1 Memory Exhaustion via Unbounded Notify Queue",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103761",
-      "summary": "CVE ID :CVE-2026-103761\n  \n  Published : Oct. 1, 2026, 11:16 p.m. | 4\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Mooncake transfer engine through 0.3.13....",
-      "timestamp": 1790896606.0,
+      "title": "CVE-2026-63574 - Unbounded allocation from OpenPGP signature and user attribute subpacket lengths",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63574",
+      "summary": "CVE ID :CVE-2026-63574\n  \n  Published : Oct. 2, 2026, 8:17 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Memory allocation with excessive size value...",
+      "timestamp": 1790929022.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-103760 - Mooncake transfer engine through 0.3.13.post1 Denial of Service via P2P Handshake Daemon Response Write",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103760",
-      "summary": "CVE ID :CVE-2026-103760\n  \n  Published : Oct. 1, 2026, 11:16 p.m. | 4\u00a0hours, 21\u00a0minutes ago\n  \n  Description :Mooncake transfer engine through 0.3.13....",
-      "timestamp": 1790896606.0,
+      "title": "CVE-2026-63573 - Bleichenbacher padding oracle in CMS RSA PKCS#1 v1.5 key-transport unwrap",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63573",
+      "summary": "CVE ID :CVE-2026-63573\n  \n  Published : Oct. 2, 2026, 8:17 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Observable discrepancy in the CMS RSA PKCS#...",
+      "timestamp": 1790929022.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-63571 - Attribute certificate path validation does not verify the attribute certificate's signature",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63571",
+      "summary": "CVE ID :CVE-2026-63571\n  \n  Published : Oct. 2, 2026, 8:17 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Improper verification of cryptographic sign...",
+      "timestamp": 1790929021.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18036 - NTRU leaks private key information by reducing secret values with a non-constant-time integer division",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18036",
+      "summary": "CVE ID :CVE-2026-18036\n  \n  Published : Oct. 2, 2026, 8:17 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.86, NTRU...",
+      "timestamp": 1790929021.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-17507 - MLS membership checks compare a uint32 leaf_index as signed, admitting an out-of-range sender",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17507",
+      "summary": "CVE ID :CVE-2026-17507\n  \n  Published : Oct. 2, 2026, 8:17 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.86, the ...",
+      "timestamp": 1790929021.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
+      "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
+      "summary": "",
+      "timestamp": 1790928900.0,
+      "source": "Palo Alto Networks",
+      "vendor": "Palo Alto"
     },
     {
       "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
@@ -121,30 +161,6 @@
       "timestamp": 1790894569.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-71452 - Johnson Controls EasyIO FS32 OS Command Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71452",
-      "summary": "CVE ID :CVE-2026-71452\n  \n  Published : Oct. 1, 2026, 10:17 p.m. | 5\u00a0hours, 20\u00a0minutes ago\n  \n  Description :- OS Command Injection vulnerability in J...",
-      "timestamp": 1790893025.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-71449 - Johnson Controls EasyIO FS32 Hard-coded Cryptographic Key Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71449",
-      "summary": "CVE ID :CVE-2026-71449\n  \n  Published : Oct. 1, 2026, 10:17 p.m. | 5\u00a0hours, 20\u00a0minutes ago\n  \n  Description :: Use of Hard-coded Cryptographic Key vul...",
-      "timestamp": 1790893024.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18397 - SConnect: Native Host Unauthenticated Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18397",
-      "summary": "CVE ID :CVE-2026-18397\n  \n  Published : Oct. 1, 2026, 10:17 p.m. | 5\u00a0hours, 20\u00a0minutes ago\n  \n  Description :This vulnerability enables unauthenticate...",
-      "timestamp": 1790893021.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Autonomous AI agents tried to hack US, Canadian government websites",
@@ -211,14 +227,6 @@
       "vendor": "News"
     },
     {
-      "title": "Russian state hackers use new RedFlick technique to push malware",
-      "link": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
-      "summary": "The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed \"RedFlick\" to deploy its signature CosmicPulse backdoor....",
-      "timestamp": 1790800441.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Advance Notification for Publication of October 7, 2026, Security Advisories",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-fBn58ELx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20October%207,%202026,%20Security%20Advisories%26vs_k=1",
       "summary": "On October 7, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information a...",
@@ -275,5 +283,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1790919059.1420188
+  "last_updated": 1790940142.2172706
 }
