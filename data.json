@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,92 +59,108 @@
   ],
   "articles": [
     {
+      "title": "Fortinet warns of critical FortiMail flaw exploited in zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/",
+      "summary": "Fortinet is warning customers of a critical FortiMail vulnerability, tracked as CVE-2026-104286, that is being actively exploited in zero-day attacks ...",
+      "timestamp": 1790894569.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-71452 - Johnson Controls EasyIO FS32 OS Command Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71452",
+      "summary": "CVE ID :CVE-2026-71452\n  \n  Published : Oct. 1, 2026, 10:17 p.m. | 13\u00a0minutes ago\n  \n  Description :- OS Command Injection vulnerability in Johnson Co...",
+      "timestamp": 1790893025.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71449 - Johnson Controls EasyIO FS32 Hard-coded Cryptographic Key Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71449",
+      "summary": "CVE ID :CVE-2026-71449\n  \n  Published : Oct. 1, 2026, 10:17 p.m. | 13\u00a0minutes ago\n  \n  Description :: Use of Hard-coded Cryptographic Key vulnerabilit...",
+      "timestamp": 1790893024.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-18397 - SConnect: Native Host Unauthenticated Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18397",
+      "summary": "CVE ID :CVE-2026-18397\n  \n  Published : Oct. 1, 2026, 10:17 p.m. | 13\u00a0minutes ago\n  \n  Description :This vulnerability enables unauthenticated remote ...",
+      "timestamp": 1790893021.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-104356 - PictShare < 3.7.1 Predictable Delete Code via rand()",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104356",
+      "summary": "CVE ID :CVE-2026-104356\n  \n  Published : Oct. 1, 2026, 10:17 p.m. | 13\u00a0minutes ago\n  \n  Description :PictShare before version 3.7.1 contains a weak ra...",
+      "timestamp": 1790893020.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-104051 - PictShare < 3.7.1 Sensitive Information Disclosure via info API",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104051",
+      "summary": "CVE ID :CVE-2026-104051\n  \n  Published : Oct. 1, 2026, 10:17 p.m. | 13\u00a0minutes ago\n  \n  Description :PictShare before 3.7.1 contains an information di...",
+      "timestamp": 1790893020.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-96780 - figlet is vulnerable to denial of service via unbounded loop when whitespaceBreak is used with a small width",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96780",
+      "summary": "CVE ID :CVE-2026-96780\n  \n  Published : Oct. 1, 2026, 9:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :figlet.js is a FIG driver written in JavaSc...",
+      "timestamp": 1790889446.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55396 - Unencrypted UDP Control Traffic in Teledyne FLIR Robots running Aware2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55396",
+      "summary": "CVE ID :CVE-2026-55396\n  \n  Published : Oct. 1, 2026, 9:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Cleartext transmission without a cryptograp...",
+      "timestamp": 1790889441.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55395 - Hardcoded Passwords in Teledyne FLIR Robots running Aware2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55395",
+      "summary": "CVE ID :CVE-2026-55395\n  \n  Published : Oct. 1, 2026, 9:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Hardcoded passwords in the access control i...",
+      "timestamp": 1790889441.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55393 - Local File Inclusion in Teledyne FLIR Robots running Aware2",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55393",
+      "summary": "CVE ID :CVE-2026-55393\n  \n  Published : Oct. 1, 2026, 9:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Unvalidated pathnames in the web interface ...",
+      "timestamp": 1790889441.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-104020 - Uncontrolled recursion in the Ion reader in Amazon Ion Python",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104020",
+      "summary": "CVE ID :CVE-2026-104020\n  \n  Published : Oct. 1, 2026, 9:17 p.m. | 1\u00a0hour, 13\u00a0minutes ago\n  \n  Description :Uncontrolled recursion in the Ion reader i...",
+      "timestamp": 1790889438.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Autonomous AI agents tried to hack US, Canadian government websites",
+      "link": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
+      "summary": "Autonomous AI agents using aggressive strategies attempted to hack U.S. and Canadian government websites to find school and divorce statistics. [...]",
+      "timestamp": 1790887970.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Microsoft says threat actors are ahead in the early AI race",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
       "summary": "Microsoft says cyberattackers are currently benefiting from artificial intelligence faster than defenders, allowing threat actors to speed up vulnerab...",
       "timestamp": 1790883167.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-104059 - Lektor 3.3.14 CSRF via Admin API Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104059",
-      "summary": "CVE ID :CVE-2026-104059\n  \n  Published : Oct. 1, 2026, 6:17 p.m. | 51\u00a0minutes ago\n  \n  Description :Lektor 3.3.14 and 3.4.0b15 contains a cross-site r...",
-      "timestamp": 1790878659.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-97662 - Argument injection in the diff scan operation in AWS security-agent-mcp-server allows arbitrary host file creation, overwrite, and truncation outside the intended workspace",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97662",
-      "summary": "CVE ID :CVE-2026-97662\n  \n  Published : Oct. 1, 2026, 6:17 p.m. | 51\u00a0minutes ago\n  \n  Description :An argument injection issue in the diff scan operat...",
-      "timestamp": 1790878649.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-104018 - VxWorks 7 improper privilege management",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104018",
-      "summary": "CVE ID :CVE-2026-104018\n  \n  Published : Oct. 1, 2026, 6:17 p.m. | 51\u00a0minutes ago\n  \n  Description :An improper privilege management vulnerability (CW...",
-      "timestamp": 1790878634.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-103922 - Capacitor Android and iOS: remote content can be loaded at the app origin via the internal HTTP proxy path",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103922",
-      "summary": "CVE ID :CVE-2026-103922\n  \n  Published : Oct. 1, 2026, 6:17 p.m. | 51\u00a0minutes ago\n  \n  Description :Capacitor is a cross-platform native runtime for w...",
-      "timestamp": 1790878632.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-102369 - Unauthenticated Remote Code Execution via MacTool Command Injection in TP-Link Tapo C120 & C200",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102369",
-      "summary": "CVE ID :CVE-2026-102369\n  \n  Published : Oct. 1, 2026, 6:17 p.m. | 51\u00a0minutes ago\n  \n  Description :Tapo C120 v1 and C200 V5\ndo not adequately protect...",
-      "timestamp": 1790878632.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-102294 - Authenticated OS Command Injection in TL-WR841N IPv6 WAN Configuration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102294",
-      "summary": "CVE ID :CVE-2026-102294\n  \n  Published : Oct. 1, 2026, 6:17 p.m. | 51\u00a0minutes ago\n  \n  Description :TP-Link TL-WR841N contains an authenticated OS com...",
-      "timestamp": 1790878632.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2023-54404 - Zod 4.6.5 Uncontrolled Resource Consumption via Array Validation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2023-54404",
-      "summary": "CVE ID :CVE-2023-54404\n  \n  Published : Oct. 1, 2026, 6:17 p.m. | 51\u00a0minutes ago\n  \n  Description :Zod schema-validation library through 4.6.5 contain...",
-      "timestamp": 1790878631.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-55083 - DHIS2: Unsafe Java Deserialization - Remote Code Execution (RCE)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55083",
-      "summary": "CVE ID :CVE-2026-55083\n  \n  Published : Oct. 1, 2026, 6 p.m. | 1\u00a0hour, 8\u00a0minutes ago\n  \n  Description :DHIS2 is a flexible information system for data...",
-      "timestamp": 1790877605.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-96659 - Foreman: excessive permissions for viewer role on preview",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96659",
-      "summary": "CVE ID :CVE-2026-96659\n  \n  Published : Oct. 1, 2026, 5:17 p.m. | 1\u00a0hour, 51\u00a0minutes ago\n  \n  Description :A flaw was found in Foreman. This vulnerabi...",
-      "timestamp": 1790875055.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-96658 - Foreman: safemode bypass leading to rce",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96658",
-      "summary": "CVE ID :CVE-2026-96658\n  \n  Published : Oct. 1, 2026, 5:17 p.m. | 1\u00a0hour, 51\u00a0minutes ago\n  \n  Description :A flaw was found in Foreman. An authenticat...",
-      "timestamp": 1790875054.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Police dismantle KillSec ransomware gang allegedly led by 16-year-old",
@@ -199,22 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
       "summary": "The Russian state actor Star Blizzard has been using a new malware installation tactic dubbed \"RedFlick\" to deploy its signature CosmicPulse backdoor....",
       "timestamp": 1790800441.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
-      "link": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
-      "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD) says that the breach of its network was possible by exploiting a chain of two zero-day vulnera...",
-      "timestamp": 1790797755.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Over 543,000 valid credentials exposed in public GitHub repositories",
-      "link": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
-      "summary": "More than 543,000 credentials exposed in public GitHub repositories were still valid in July despite the platform's security measures to prevent accid...",
-      "timestamp": 1790791714.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -275,5 +275,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1790886735.7576048
+  "last_updated": 1790899913.5619602
 }
