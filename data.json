@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -24,7 +24,7 @@
     {
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto",
-      "new_count": 9,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,92 +59,124 @@
   ],
   "articles": [
     {
+      "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
+      "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
+      "summary": "GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable i...",
+      "timestamp": 1790958005.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "US sanctions Tren de Aragua gang members in ATM hacks crackdown",
+      "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/",
+      "summary": "The U.S. Treasury Department has sanctioned eight members of the Venezuelan gang Tren de Aragua (TdA) for their role in the theft of millions of dolla...",
+      "timestamp": 1790954453.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-90970 - Improper Neutralization of Special Elements Used in a Template Engine in GitLab AI Gateway",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90970",
+      "summary": "CVE ID :CVE-2026-90970\n  \n  Published : Oct. 2, 2026, 3:17 p.m. | 30\u00a0minutes ago\n  \n  Description :GitLab has remediated a vulnerability in the GitLab...",
+      "timestamp": 1790954232.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94422 - xdg-dbus-proxy: message filtering bypass via reply serial allows sandbox escape",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94422",
+      "summary": "CVE ID :CVE-2026-94422\n  \n  Published : Oct. 2, 2026, 2:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :An incorrect implementation of message filt...",
+      "timestamp": 1790950632.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-19652 - Divi Membership <= 2.2.0 - Unauthenticated Privilege Escalation via 'form_id' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19652",
+      "summary": "CVE ID :CVE-2026-19652\n  \n  Published : Oct. 2, 2026, 2:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :The Divi Membership plugin for WordPress is...",
+      "timestamp": 1790950630.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
+      "link": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
+      "summary": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to detect. Nor...",
+      "timestamp": 1790949610.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-96289 - Apache Thrift: php `--gen php:inlined` struct readers (and `TProtocol::skipBinary`) have no recursion-depth guard",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96289",
+      "summary": "CVE ID :CVE-2026-96289\n  \n  Published : Oct. 2, 2026, 1:18 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Uncontrolled Recursion vulnerability in Ap...",
+      "timestamp": 1790947085.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-96287 - Apache Thrift: Perl `FramedTransport` reads and TLS socket writes re-slice the remaining buffer on every call (quadratic)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96287",
+      "summary": "CVE ID :CVE-2026-96287\n  \n  Published : Oct. 2, 2026, 1:18 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Inefficient Algorithmic Complexity vulnera...",
+      "timestamp": 1790947085.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-96286 - Apache Thrift: Perl servers end `serve()` when serving one connection fails",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96286",
+      "summary": "CVE ID :CVE-2026-96286\n  \n  Published : Oct. 2, 2026, 1:18 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Uncaught exception vulnerability in Apache...",
+      "timestamp": 1790947085.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-96277 - Apache Thrift: Ruby `SimpleServer` ends `serve()` on any non-Transport/Protocol exception",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96277",
+      "summary": "CVE ID :CVE-2026-96277\n  \n  Published : Oct. 2, 2026, 1:18 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Uncaught exception, Improper Handling of E...",
+      "timestamp": 1790947085.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94658 - Apache Thrift: Lua `TFramedTransport`/`THttpTransport` re-slice the buffer on every read (quadratic)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94658",
+      "summary": "CVE ID :CVE-2026-94658\n  \n  Published : Oct. 2, 2026, 1:18 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Inefficient Algorithmic Complexity vulnera...",
+      "timestamp": 1790947083.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94657 - Apache Thrift: javame `TJsonProtocol`/`TJSONProtocol` has no string size bound",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94657",
+      "summary": "CVE ID :CVE-2026-94657\n  \n  Published : Oct. 2, 2026, 1:18 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Allocation of resources without limits or ...",
+      "timestamp": 1790947082.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94656 - Apache Thrift: rb `TJsonProtocol`/`TJSONProtocol` has no string size bound",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94656",
+      "summary": "CVE ID :CVE-2026-94656\n  \n  Published : Oct. 2, 2026, 1:18 p.m. | 2\u00a0hours, 29\u00a0minutes ago\n  \n  Description :Allocation of resources without limits or ...",
+      "timestamp": 1790947082.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Dell asks admins to patch max severity CSM flaws as soon as possible",
+      "link": "https://www.bleepingcomputer.com/news/security/new-max-severity-dell-csm-flaws-give-hackers-admin-privileges/",
+      "summary": "Dell has patched two maximum severity vulnerabilities in the Container Storage Modules (CSM) that connect Dell enterprise storage arrays to Kubernetes...",
+      "timestamp": 1790944660.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Microsoft\u2019s X account hacked in crypto pump-and-dump scheme",
       "link": "https://www.bleepingcomputer.com/news/security/microsofts-x-account-hacked-in-crypto-token-pump-and-dump-scheme/",
       "summary": "On Thursday, unknown attackers hijacked the official Microsoft account on X, which has over 13 million followers, in what appeared to be a pump-and-du...",
       "timestamp": 1790933396.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-94635 - Apache Thrift: Lua `TBinaryProtocol:readMessageBegin` bypasses `checkStringSize` on the pre-versioned name",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94635",
-      "summary": "CVE ID :CVE-2026-94635\n  \n  Published : Oct. 2, 2026, 9:07 a.m. | 34\u00a0minutes ago\n  \n  Description :Allocation of resources without limits or throttlin...",
-      "timestamp": 1790932076.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-80298 - SQL Injection in HAVELSAN's Sef - AI Chatbot Platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-80298",
-      "summary": "CVE ID :CVE-2026-80298\n  \n  Published : Oct. 2, 2026, 9:07 a.m. | 34\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements used in...",
-      "timestamp": 1790932072.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-97637 - JSON API Auth <= 3.1.2 - Unauthenticated Authentication Bypass via Cached 'generate_auth_cookie' Response",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97637",
-      "summary": "CVE ID :CVE-2026-97637\n  \n  Published : Oct. 2, 2026, 8:17 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :The JSON API Auth plugin for WordPress is v...",
-      "timestamp": 1790929025.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63577 - Name Constraints bypass: directoryName constraint matched at any position in the DN instead of as a prefix",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63577",
-      "summary": "CVE ID :CVE-2026-63577\n  \n  Published : Oct. 2, 2026, 8:17 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Improper certificate validation in the dire...",
-      "timestamp": 1790929022.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63576 - URI name constraints checked against a mis-parsed host",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63576",
-      "summary": "CVE ID :CVE-2026-63576\n  \n  Published : Oct. 2, 2026, 8:17 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Improper certificate validation in PkixName...",
-      "timestamp": 1790929022.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63574 - Unbounded allocation from OpenPGP signature and user attribute subpacket lengths",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63574",
-      "summary": "CVE ID :CVE-2026-63574\n  \n  Published : Oct. 2, 2026, 8:17 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Memory allocation with excessive size value...",
-      "timestamp": 1790929022.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63573 - Bleichenbacher padding oracle in CMS RSA PKCS#1 v1.5 key-transport unwrap",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63573",
-      "summary": "CVE ID :CVE-2026-63573\n  \n  Published : Oct. 2, 2026, 8:17 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Observable discrepancy in the CMS RSA PKCS#...",
-      "timestamp": 1790929022.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63571 - Attribute certificate path validation does not verify the attribute certificate's signature",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63571",
-      "summary": "CVE ID :CVE-2026-63571\n  \n  Published : Oct. 2, 2026, 8:17 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Improper verification of cryptographic sign...",
-      "timestamp": 1790929021.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-18036 - NTRU leaks private key information by reducing secret values with a non-constant-time integer division",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-18036",
-      "summary": "CVE ID :CVE-2026-18036\n  \n  Published : Oct. 2, 2026, 8:17 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.86, NTRU...",
-      "timestamp": 1790929021.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-17507 - MLS membership checks compare a uint32 leaf_index as signed, admitting an out-of-range sender",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-17507",
-      "summary": "CVE ID :CVE-2026-17507\n  \n  Published : Oct. 2, 2026, 8:17 a.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.86, the ...",
-      "timestamp": 1790929021.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
@@ -191,38 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
       "summary": "Zero Trust can verify users once they are established, but onboarding creates a gap where organizations must decide who to trust before strong authent...",
       "timestamp": 1790863271.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Kiteworks patches max severity code injection vulnerability",
-      "link": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
-      "summary": "Secure file-sharing software company Kiteworks has released security updates to address 126 vulnerabilities, including a max-severity flaw affecting i...",
-      "timestamp": 1790862668.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Microsoft enables Windows settings backup by default for orgs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enables-windows-settings-backup-by-default-for-orgs/",
-      "summary": "Microsoft announced that Windows settings backup and restore is now enabled by default on all Microsoft Entra-joined or Microsoft Entra hybrid-joined ...",
-      "timestamp": 1790853268.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers stole Pentagon personnel records of over 3 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
-      "summary": "The Pentagon's Defense Manpower Data Center (DMDC) is notifying millions of military service members that hackers stole their data after breaching the...",
-      "timestamp": 1790847868.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Metamask discloses security incident affecting its infrastructure",
-      "link": "https://www.bleepingcomputer.com/news/security/metamask-discloses-security-incident-affecting-its-infrastructure/",
-      "summary": "On Thursday, cryptocurrency wallet provider MetaMask has disclosed an ongoing infrastructure security incident affecting some of its infrastructure. [...",
-      "timestamp": 1790840037.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -283,5 +283,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1790940142.2172706
+  "last_updated": 1790959961.4897704
 }
