@@ -52,49 +52,89 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-97644 - Groundhogg <= 4.9 - Authenticated (Sales Person+) Privilege Escalation via Contact Identity Rebinding leading to Administrator Account Takeover to 'user_id' Parameter (v3 /contacts) chained with v4 /emails/test",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97644",
-      "summary": "CVE ID :CVE-2026-97644\n  \n  Published : Oct. 3, 2026, 4:18 a.m. | 16\u00a0minutes ago\n  \n  Description :The Groundhogg \u2014 CRM, Newsletters, and Marketing Au...",
-      "timestamp": 1791001084.0,
+      "title": "CVE-2026-85515 - OpenPGP message truncation not reported, bypassing the SEIPDv1 integrity check",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85515",
+      "summary": "CVE ID :CVE-2026-85515\n  \n  Published : Oct. 3, 2026, 9:17 a.m. | 58\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.86, a truncated ...",
+      "timestamp": 1791019026.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-92536 - Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content <= 4.17.4 - Authenticated (Subscriber+) Sensitive Information Exposure via Shortcode Injection via Nickname and Biographical Info Profile Fields",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92536",
-      "summary": "CVE ID :CVE-2026-92536\n  \n  Published : Oct. 3, 2026, 4:18 a.m. | 16\u00a0minutes ago\n  \n  Description :The Paid Membership Plugin, Ecommerce, User Registr...",
-      "timestamp": 1791001081.0,
+      "title": "CVE-2026-71890 - MLS external commit can remove an arbitrary group member",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71890",
+      "summary": "CVE ID :CVE-2026-71890\n  \n  Published : Oct. 3, 2026, 9:17 a.m. | 58\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.86, validation o...",
+      "timestamp": 1791019025.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-105080 - ConvertX Arbitrary Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105080",
-      "summary": "CVE ID :CVE-2026-105080\n  \n  Published : Oct. 3, 2026, 1:17 a.m. | 3\u00a0hours, 16\u00a0minutes ago\n  \n  Description :In ConvertX before 0.19.0, converters/cal...",
-      "timestamp": 1790990243.0,
+      "title": "CVE-2026-71889 - PKIXCertPathReviewer does not apply X.509 name constraints to the target certificate",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71889",
+      "summary": "CVE ID :CVE-2026-71889\n  \n  Published : Oct. 3, 2026, 9:17 a.m. | 58\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.86, neither copy...",
+      "timestamp": 1791019025.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-104476 - Backdrop CMS before 1.35.1 Information Disclosure via Configuration Export Archive",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104476",
-      "summary": "CVE ID :CVE-2026-104476\n  \n  Published : Oct. 3, 2026, 12:16 a.m. | 4\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Backdrop CMS before 1.35.1 contains an i...",
-      "timestamp": 1790986595.0,
+      "title": "CVE-2026-71888 - CMS AuthenticatedData exposes attacker-inserted authAttrs when digestAlgorithm is absent",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71888",
+      "summary": "CVE ID :CVE-2026-71888\n  \n  Published : Oct. 3, 2026, 9:17 a.m. | 58\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.86, the streamin...",
+      "timestamp": 1791019025.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-104433 - Mooncake before 0.3.12 Out-of-Bounds Read via P2P Handshake readString",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104433",
-      "summary": "CVE ID :CVE-2026-104433\n  \n  Published : Oct. 3, 2026, 12:16 a.m. | 4\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Mooncake transfer engine before 0.3.12 c...",
-      "timestamp": 1790986595.0,
+      "title": "CVE-2026-71887 - OpenPGP data signature accepted from a signing subkey without cross-certification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71887",
+      "summary": "CVE ID :CVE-2026-71887\n  \n  Published : Oct. 3, 2026, 9:17 a.m. | 58\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.86, the high-lev...",
+      "timestamp": 1791019025.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71886 - OpenPGP certification accepted from a subkey without certification authority",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71886",
+      "summary": "CVE ID :CVE-2026-71886\n  \n  Published : Oct. 3, 2026, 9:17 a.m. | 58\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.86, the high-lev...",
+      "timestamp": 1791019024.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71885 - MLS X.509 credential not bound to the LeafNode signature key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71885",
+      "summary": "CVE ID :CVE-2026-71885\n  \n  Published : Oct. 3, 2026, 9:17 a.m. | 58\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java before 1.86, the Messagin...",
+      "timestamp": 1791019024.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-71883 - Native AES packet cipher returns the raw AES key on an alias",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-71883",
+      "summary": "CVE ID :CVE-2026-71883\n  \n  Published : Oct. 3, 2026, 9:17 a.m. | 58\u00a0minutes ago\n  \n  Description :In Bouncy Castle for Java LTS before 2.73.13, the o...",
+      "timestamp": 1791019024.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-92084 - Beaver Builder Page Builder <= 2.11.0.5 - Unauthenticated Arbitrary Shortcode Execution via Sidebar Module Widget Output",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92084",
+      "summary": "CVE ID :CVE-2026-92084\n  \n  Published : Oct. 3, 2026, 8:16 a.m. | 1\u00a0hour, 59\u00a0minutes ago\n  \n  Description :The The Beaver Builder Page Builder \u2013 Drag ...",
+      "timestamp": 1791015386.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94505 - Nelio Content <= 4.5.0 - Missing Authorization to Authenticated (Contributor+) Arbitrary Reusable Message Deletion via 'id' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94505",
+      "summary": "CVE ID :CVE-2026-94505\n  \n  Published : Oct. 3, 2026, 7:16 a.m. | 2\u00a0hours, 58\u00a0minutes ago\n  \n  Description :The Nelio Content \u2013 Editorial Calendar & S...",
+      "timestamp": 1791011809.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -105,46 +145,6 @@
       "timestamp": 1790983122.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "CVE-2026-73802 - Gitea act_runner Container Sandbox Escape Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73802",
-      "summary": "CVE ID :CVE-2026-73802\n  \n  Published : Oct. 2, 2026, 11:18 p.m. | 5\u00a0hours, 16\u00a0minutes ago\n  \n  Description :### Summary\nact_runner appends workflow-c...",
-      "timestamp": 1790983092.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-84411 - MikroTik RouterOS Integer Underflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84411",
-      "summary": "CVE ID :CVE-2026-84411\n  \n  Published : Oct. 2, 2026, 11:16 p.m. | 5\u00a0hours, 17\u00a0minutes ago\n  \n  Description :The web management service in affected Ro...",
-      "timestamp": 1790983018.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-97363 - Monta monta.app Improper Restriction of Excessive Authentication Attempts",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97363",
-      "summary": "CVE ID :CVE-2026-97363\n  \n  Published : Oct. 2, 2026, 10:16 p.m. | 6\u00a0hours, 17\u00a0minutes ago\n  \n  Description :The WebSocket Application Programming Int...",
-      "timestamp": 1790979416.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-95102 - Monta monta.app Missing Authentication for Critical Function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-95102",
-      "summary": "CVE ID :CVE-2026-95102\n  \n  Published : Oct. 2, 2026, 10:16 p.m. | 6\u00a0hours, 17\u00a0minutes ago\n  \n  Description :WebSocket endpoints lack proper authentic...",
-      "timestamp": 1790979416.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94593 - Armatura LLC Armatura One Insertion of Sensitive Information into Log File",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94593",
-      "summary": "CVE ID :CVE-2026-94593\n  \n  Published : Oct. 2, 2026, 10:16 p.m. | 6\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Armatura One's backup and restore routine...",
-      "timestamp": 1790979416.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco IOS XE Software Security Hardening Release: August 2026",
@@ -291,5 +291,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1791008799.8329062
+  "last_updated": 1791028926.717747
 }
