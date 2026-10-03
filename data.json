@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 6,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,65 +52,97 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-75937 - OS Command Injection in Digi Accelerated Linux (DAL OS)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75937",
-      "summary": "CVE ID :CVE-2026-75937\n  \n  Published : Oct. 2, 2026, 8:33 p.m. | 16\u00a0minutes ago\n  \n  Description :A specially crafted HTTP POST request to the web ad...",
-      "timestamp": 1790973236.0,
+      "title": "CVE-2026-104476 - Backdrop CMS before 1.35.1 Information Disclosure via Configuration Export Archive",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104476",
+      "summary": "CVE ID :CVE-2026-104476\n  \n  Published : Oct. 3, 2026, 12:16 a.m. | 17\u00a0minutes ago\n  \n  Description :Backdrop CMS before 1.35.1 contains an informatio...",
+      "timestamp": 1790986595.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-82039 - UTMStack < 11.2.16 SQL Injection via searchGroupsByFilter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82039",
-      "summary": "CVE ID :CVE-2026-82039\n  \n  Published : Oct. 2, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :UTMStack before 11.2.16 contains a SQL injection vu...",
-      "timestamp": 1790972224.0,
+      "title": "CVE-2026-104433 - Mooncake before 0.3.12 Out-of-Bounds Read via P2P Handshake readString",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104433",
+      "summary": "CVE ID :CVE-2026-104433\n  \n  Published : Oct. 3, 2026, 12:16 a.m. | 17\u00a0minutes ago\n  \n  Description :Mooncake transfer engine before 0.3.12 contains a...",
+      "timestamp": 1790986595.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-39718 - WordPress Wallstreet theme <= 2.8.6 - Cross Site Request Forgery (CSRF) vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-39718",
-      "summary": "CVE ID :CVE-2026-39718\n  \n  Published : Oct. 2, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :Cross-Site Request Forgery (CSRF) vulnerability in ...",
-      "timestamp": 1790972222.0,
+      "title": "Cisco Catalyst SD-WAN Manager API Authentication Bypass Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20API%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to...",
+      "timestamp": 1790983122.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "CVE-2026-84411 - MikroTik RouterOS Integer Underflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-84411",
+      "summary": "CVE ID :CVE-2026-84411\n  \n  Published : Oct. 2, 2026, 11:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :The web management service in affected Rou...",
+      "timestamp": 1790983018.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-104988 - Pki-core: dogtag-pki: redhat-pki: pki: est fullcmc authentication bypass allows certificate mis-issuance with arbitrary subject",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104988",
-      "summary": "CVE ID :CVE-2026-104988\n  \n  Published : Oct. 2, 2026, 8:17 p.m. | 32\u00a0minutes ago\n  \n  Description :A flaw was found in Dogtag PKI (pki-core). The CMC...",
-      "timestamp": 1790972221.0,
+      "title": "CVE-2026-97363 - Monta monta.app Improper Restriction of Excessive Authentication Attempts",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97363",
+      "summary": "CVE ID :CVE-2026-97363\n  \n  Published : Oct. 2, 2026, 10:16 p.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :The WebSocket Application Programming Int...",
+      "timestamp": 1790979416.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-104019 - OS command injection in the Studio Space startup validation script in Amazon SageMaker Distribution when running on Amazon SageMaker Unified Studio",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104019",
-      "summary": "CVE ID :CVE-2026-104019\n  \n  Published : Oct. 2, 2026, 8:17 p.m. | 33\u00a0minutes ago\n  \n  Description :OS command injection in the Studio Space startup v...",
-      "timestamp": 1790972220.0,
+      "title": "CVE-2026-95102 - Monta monta.app Missing Authentication for Critical Function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-95102",
+      "summary": "CVE ID :CVE-2026-95102\n  \n  Published : Oct. 2, 2026, 10:16 p.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :WebSocket endpoints lack proper authentic...",
+      "timestamp": 1790979416.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94593 - Armatura LLC Armatura One Insertion of Sensitive Information into Log File",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94593",
+      "summary": "CVE ID :CVE-2026-94593\n  \n  Published : Oct. 2, 2026, 10:16 p.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Armatura One's backup and restore routine...",
+      "timestamp": 1790979416.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94592 - Armatura LLC Armatura One Use of Hard-coded Credentials",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94592",
+      "summary": "CVE ID :CVE-2026-94592\n  \n  Published : Oct. 2, 2026, 10:16 p.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Armatura One's database initialization ro...",
+      "timestamp": 1790979416.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94591 - Armatura LLC Armatura One Use of Hard-coded Cryptographic Key",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94591",
+      "summary": "CVE ID :CVE-2026-94591\n  \n  Published : Oct. 2, 2026, 10:16 p.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Armatura One stores database and message-...",
+      "timestamp": 1790979416.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-82042 - UTMStack < 11.2.16 Authentication Bypass via InternalApiKeyFilter",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82042",
-      "summary": "CVE ID :CVE-2026-82042\n  \n  Published : Oct. 2, 2026, 8:15 p.m. | 34\u00a0minutes ago\n  \n  Description :UTMStack before 11.2.16 contains an authentication ...",
-      "timestamp": 1790972127.0,
+      "summary": "CVE ID :CVE-2026-82042\n  \n  Published : Oct. 2, 2026, 9:16 p.m. | 3\u00a0hours, 16\u00a0minutes ago\n  \n  Description :UTMStack before 11.2.16 contains an authen...",
+      "timestamp": 1790975816.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-82041 - UTMStack < 11.2.16 Missing Authorization via Command WebSocket",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-82041",
-      "summary": "CVE ID :CVE-2026-82041\n  \n  Published : Oct. 2, 2026, 8:13 p.m. | 36\u00a0minutes ago\n  \n  Description :UTMStack before 11.2.16 contains a missing authoriz...",
-      "timestamp": 1790972007.0,
+      "summary": "CVE ID :CVE-2026-82041\n  \n  Published : Oct. 2, 2026, 9:16 p.m. | 3\u00a0hours, 16\u00a0minutes ago\n  \n  Description :UTMStack before 11.2.16 contains a missing...",
+      "timestamp": 1790975816.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -121,30 +153,6 @@
       "timestamp": 1790968888.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "CVE-2026-96940 - Microsoft Exchange Server Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96940",
-      "summary": "CVE ID :CVE-2026-96940\n  \n  Published : Oct. 2, 2026, 7:16 p.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :Weak authorization in Microsoft Exchange Se...",
-      "timestamp": 1790968603.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-103958 - Server-side request forgery in the tool server and remote agent connection handling in Loom for AWS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103958",
-      "summary": "CVE ID :CVE-2026-103958\n  \n  Published : Oct. 2, 2026, 7:16 p.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :Server-side request forgery in the tool se...",
-      "timestamp": 1790968600.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-103957 - Server-side request forgery in the OAuth2 discovery handling in Loom for AWS",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103957",
-      "summary": "CVE ID :CVE-2026-103957\n  \n  Published : Oct. 2, 2026, 7:16 p.m. | 1\u00a0hour, 33\u00a0minutes ago\n  \n  Description :Server-side request forgery in the OAuth2 ...",
-      "timestamp": 1790968599.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Frontline Education breach exposes school district employee data",
@@ -243,14 +251,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "Cisco Catalyst SD-WAN Manager API Authentication Bypass Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20API%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to...",
-      "timestamp": 1790773200.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
       "summary": "",
@@ -291,5 +291,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1790976190.2918227
+  "last_updated": 1790988382.690719
 }
