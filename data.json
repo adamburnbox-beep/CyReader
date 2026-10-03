@@ -52,16 +52,40 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 8,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-97644 - Groundhogg <= 4.9 - Authenticated (Sales Person+) Privilege Escalation via Contact Identity Rebinding leading to Administrator Account Takeover to 'user_id' Parameter (v3 /contacts) chained with v4 /emails/test",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97644",
+      "summary": "CVE ID :CVE-2026-97644\n  \n  Published : Oct. 3, 2026, 4:18 a.m. | 16\u00a0minutes ago\n  \n  Description :The Groundhogg \u2014 CRM, Newsletters, and Marketing Au...",
+      "timestamp": 1791001084.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-92536 - Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content <= 4.17.4 - Authenticated (Subscriber+) Sensitive Information Exposure via Shortcode Injection via Nickname and Biographical Info Profile Fields",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92536",
+      "summary": "CVE ID :CVE-2026-92536\n  \n  Published : Oct. 3, 2026, 4:18 a.m. | 16\u00a0minutes ago\n  \n  Description :The Paid Membership Plugin, Ecommerce, User Registr...",
+      "timestamp": 1791001081.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-105080 - ConvertX Arbitrary Code Execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105080",
+      "summary": "CVE ID :CVE-2026-105080\n  \n  Published : Oct. 3, 2026, 1:17 a.m. | 3\u00a0hours, 16\u00a0minutes ago\n  \n  Description :In ConvertX before 0.19.0, converters/cal...",
+      "timestamp": 1790990243.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-104476 - Backdrop CMS before 1.35.1 Information Disclosure via Configuration Export Archive",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-104476",
-      "summary": "CVE ID :CVE-2026-104476\n  \n  Published : Oct. 3, 2026, 12:16 a.m. | 17\u00a0minutes ago\n  \n  Description :Backdrop CMS before 1.35.1 contains an informatio...",
+      "summary": "CVE ID :CVE-2026-104476\n  \n  Published : Oct. 3, 2026, 12:16 a.m. | 4\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Backdrop CMS before 1.35.1 contains an i...",
       "timestamp": 1790986595.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +93,7 @@
     {
       "title": "CVE-2026-104433 - Mooncake before 0.3.12 Out-of-Bounds Read via P2P Handshake readString",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-104433",
-      "summary": "CVE ID :CVE-2026-104433\n  \n  Published : Oct. 3, 2026, 12:16 a.m. | 17\u00a0minutes ago\n  \n  Description :Mooncake transfer engine before 0.3.12 contains a...",
+      "summary": "CVE ID :CVE-2026-104433\n  \n  Published : Oct. 3, 2026, 12:16 a.m. | 4\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Mooncake transfer engine before 0.3.12 c...",
       "timestamp": 1790986595.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -83,9 +107,17 @@
       "vendor": "Cisco"
     },
     {
+      "title": "CVE-2026-73802 - Gitea act_runner Container Sandbox Escape Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-73802",
+      "summary": "CVE ID :CVE-2026-73802\n  \n  Published : Oct. 2, 2026, 11:18 p.m. | 5\u00a0hours, 16\u00a0minutes ago\n  \n  Description :### Summary\nact_runner appends workflow-c...",
+      "timestamp": 1790983092.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-84411 - MikroTik RouterOS Integer Underflow",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-84411",
-      "summary": "CVE ID :CVE-2026-84411\n  \n  Published : Oct. 2, 2026, 11:16 p.m. | 1\u00a0hour, 16\u00a0minutes ago\n  \n  Description :The web management service in affected Rou...",
+      "summary": "CVE ID :CVE-2026-84411\n  \n  Published : Oct. 2, 2026, 11:16 p.m. | 5\u00a0hours, 17\u00a0minutes ago\n  \n  Description :The web management service in affected Ro...",
       "timestamp": 1790983018.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -93,7 +125,7 @@
     {
       "title": "CVE-2026-97363 - Monta monta.app Improper Restriction of Excessive Authentication Attempts",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-97363",
-      "summary": "CVE ID :CVE-2026-97363\n  \n  Published : Oct. 2, 2026, 10:16 p.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :The WebSocket Application Programming Int...",
+      "summary": "CVE ID :CVE-2026-97363\n  \n  Published : Oct. 2, 2026, 10:16 p.m. | 6\u00a0hours, 17\u00a0minutes ago\n  \n  Description :The WebSocket Application Programming Int...",
       "timestamp": 1790979416.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -101,7 +133,7 @@
     {
       "title": "CVE-2026-95102 - Monta monta.app Missing Authentication for Critical Function",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-95102",
-      "summary": "CVE ID :CVE-2026-95102\n  \n  Published : Oct. 2, 2026, 10:16 p.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :WebSocket endpoints lack proper authentic...",
+      "summary": "CVE ID :CVE-2026-95102\n  \n  Published : Oct. 2, 2026, 10:16 p.m. | 6\u00a0hours, 17\u00a0minutes ago\n  \n  Description :WebSocket endpoints lack proper authentic...",
       "timestamp": 1790979416.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -109,40 +141,8 @@
     {
       "title": "CVE-2026-94593 - Armatura LLC Armatura One Insertion of Sensitive Information into Log File",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94593",
-      "summary": "CVE ID :CVE-2026-94593\n  \n  Published : Oct. 2, 2026, 10:16 p.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Armatura One's backup and restore routine...",
+      "summary": "CVE ID :CVE-2026-94593\n  \n  Published : Oct. 2, 2026, 10:16 p.m. | 6\u00a0hours, 17\u00a0minutes ago\n  \n  Description :Armatura One's backup and restore routine...",
       "timestamp": 1790979416.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94592 - Armatura LLC Armatura One Use of Hard-coded Credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94592",
-      "summary": "CVE ID :CVE-2026-94592\n  \n  Published : Oct. 2, 2026, 10:16 p.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Armatura One's database initialization ro...",
-      "timestamp": 1790979416.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-94591 - Armatura LLC Armatura One Use of Hard-coded Cryptographic Key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94591",
-      "summary": "CVE ID :CVE-2026-94591\n  \n  Published : Oct. 2, 2026, 10:16 p.m. | 2\u00a0hours, 16\u00a0minutes ago\n  \n  Description :Armatura One stores database and message-...",
-      "timestamp": 1790979416.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82042 - UTMStack < 11.2.16 Authentication Bypass via InternalApiKeyFilter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82042",
-      "summary": "CVE ID :CVE-2026-82042\n  \n  Published : Oct. 2, 2026, 9:16 p.m. | 3\u00a0hours, 16\u00a0minutes ago\n  \n  Description :UTMStack before 11.2.16 contains an authen...",
-      "timestamp": 1790975816.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-82041 - UTMStack < 11.2.16 Missing Authorization via Command WebSocket",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-82041",
-      "summary": "CVE ID :CVE-2026-82041\n  \n  Published : Oct. 2, 2026, 9:16 p.m. | 3\u00a0hours, 16\u00a0minutes ago\n  \n  Description :UTMStack before 11.2.16 contains a missing...",
-      "timestamp": 1790975816.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -291,5 +291,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1790988382.690719
+  "last_updated": 1791008799.8329062
 }
