@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,92 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-105089 - WWBN AVideo through 29.2.0 Stored XSS via trailer1 in YouPHPFlix2 Templates",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105089",
+      "summary": "CVE ID :CVE-2026-105089\n  \n  Published : Oct. 4, 2026, 4:16 p.m. | 55\u00a0minutes ago\n  \n  Description :WWBN AVideo through 29.2.0 contains a stored cross...",
+      "timestamp": 1791130590.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-105086 - WWBN AVideo 12.4 through 29.2.0 Stored XSS via Double-Encoded Video Title",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105086",
+      "summary": "CVE ID :CVE-2026-105086\n  \n  Published : Oct. 4, 2026, 4:16 p.m. | 55\u00a0minutes ago\n  \n  Description :WWBN AVideo 12.4 through 29.2.0 contains a stored ...",
+      "timestamp": 1791130590.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-105215 - ZITADEL before 4.16.2 Account Pre-Hijacking via Forged External IdP Callback",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105215",
+      "summary": "CVE ID :CVE-2026-105215\n  \n  Published : Oct. 4, 2026, 3:16 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :ZITADEL before 3.4.14 and 4.x before 4.16....",
+      "timestamp": 1791126992.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-105213 - ZITADEL before 4.17.1 Authentication Bypass via Login V2 for Deactivated Organizations",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105213",
+      "summary": "CVE ID :CVE-2026-105213\n  \n  Published : Oct. 4, 2026, 3:16 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :ZITADEL 4.x before 4.17.1 does not check a...",
+      "timestamp": 1791126992.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-105212 - ZITADEL before 3.4.14 and 4.16.2 Account Takeover via Passkey Enrollment",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105212",
+      "summary": "CVE ID :CVE-2026-105212\n  \n  Published : Oct. 4, 2026, 3:16 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :ZITADEL 3.x before 3.4.14 and 4.x before 4...",
+      "timestamp": 1791126992.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-105211 - ZITADEL before 4.17.1 Authentication Bypass via Login V2 OTP returnCode",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105211",
+      "summary": "CVE ID :CVE-2026-105211\n  \n  Published : Oct. 4, 2026, 3:16 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :ZITADEL before 4.17.1 contains an authenti...",
+      "timestamp": 1791126992.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-105210 - ZITADEL before 4.17.1 Unauthenticated MFA Enrollment via Login V1 Init Handlers",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105210",
+      "summary": "CVE ID :CVE-2026-105210\n  \n  Published : Oct. 4, 2026, 3:16 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :ZITADEL 3.x before 3.4.15 and 4.x before 4...",
+      "timestamp": 1791126992.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-105209 - ZITADEL before 3.4.15 and 4.17.1 Cross-Organization Account Takeover via Passkey Enrollment",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105209",
+      "summary": "CVE ID :CVE-2026-105209\n  \n  Published : Oct. 4, 2026, 3:16 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :ZITADEL 3.x before 3.4.15 and 4.x before 4...",
+      "timestamp": 1791126992.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-105208 - ZITADEL before 4.17.3 Session Hijacking via Forgeable IdP Intent Tokens",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105208",
+      "summary": "CVE ID :CVE-2026-105208\n  \n  Published : Oct. 4, 2026, 3:16 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :ZITADEL 4.x before 4.17.3 and 3.x through ...",
+      "timestamp": 1791126991.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-105207 - ZITADEL before 4.17.3 Account Takeover via External IdP Linking",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105207",
+      "summary": "CVE ID :CVE-2026-105207\n  \n  Published : Oct. 4, 2026, 3:16 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :ZITADEL 3.0.0 through 3.4.15 and 4.0.0 bef...",
+      "timestamp": 1791126991.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Anthropic asks Claude users to share voice data for AI model training",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
@@ -65,54 +145,6 @@
       "timestamp": 1791111201.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-103355 - WordPress Unlimited Elements For Elementor (Free Widgets, Addons, Templates) plugin <= 2.0.20 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103355",
-      "summary": "CVE ID :CVE-2026-103355\n  \n  Published : Oct. 4, 2026, 9:16 a.m. | 3\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elemen...",
-      "timestamp": 1791105398.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-105135 - InternLM MindSearch Planner Agent graph.py ExecutionAction.run code injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105135",
-      "summary": "CVE ID :CVE-2026-105135\n  \n  Published : Oct. 4, 2026, 7:16 a.m. | 5\u00a0hours, 19\u00a0minutes ago\n  \n  Description :A vulnerability has been found in InternL...",
-      "timestamp": 1791098193.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-105134 - Ahsay AhsayCBS Replication Receiver UpdateReceivers.do os command injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105134",
-      "summary": "CVE ID :CVE-2026-105134\n  \n  Published : Oct. 4, 2026, 7:16 a.m. | 5\u00a0hours, 19\u00a0minutes ago\n  \n  Description :A flaw has been found in Ahsay AhsayCBS u...",
-      "timestamp": 1791098193.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-88779 - Memory overflow vulnerability  leading to Denial of Service",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88779",
-      "summary": "CVE ID :CVE-2026-88779\n  \n  Published : Oct. 4, 2026, 4:16 a.m. | 8\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Vulnerability in NetScaler ADC and NetScal...",
-      "timestamp": 1791087403.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-105126 - LaraDashboard before 1.4.8 Privilege Escalation via Superadmin Role Tampering",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105126",
-      "summary": "CVE ID :CVE-2026-105126\n  \n  Published : Oct. 4, 2026, 12:16 a.m. | 12\u00a0hours, 19\u00a0minutes ago\n  \n  Description :LaraDashboard before 1.4.8 contains an ...",
-      "timestamp": 1791072996.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-105123 - W (wcms) through 3.18.0 RCE and Arbitrary File Write via Media Upload API",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105123",
-      "summary": "CVE ID :CVE-2026-105123\n  \n  Published : Oct. 4, 2026, 12:16 a.m. | 12\u00a0hours, 19\u00a0minutes ago\n  \n  Description :W (vincent-peugnet/wcms) through 3.18.0...",
-      "timestamp": 1791072995.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Google Gemini could soon get full access to your Mac\u2019s files, apps and the web",
@@ -131,44 +163,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-96451 - WordPress Ultimate Member plugin <= 2.13.1 - Privilege Escalation vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96451",
-      "summary": "CVE ID :CVE-2026-96451\n  \n  Published : Oct. 3, 2026, 4:16 p.m. | 20\u00a0hours, 18\u00a0minutes ago\n  \n  Description :Authorization Bypass Through User-Control...",
-      "timestamp": 1791044206.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-103065 - WordPress Kirki plugin <= 6.3.1 - Arbitrary Code Execution vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103065",
-      "summary": "CVE ID :CVE-2026-103065\n  \n  Published : Oct. 3, 2026, 3:16 p.m. | 21\u00a0hours, 19\u00a0minutes ago\n  \n  Description :Improper Validation of Specified Quantit...",
-      "timestamp": 1791040595.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Danish university DTU breach exposes data of up to 200,000 people",
       "link": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
       "summary": "The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity ...",
       "timestamp": 1791038120.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-105115 - OpenAM before 16.1.3 Unauthenticated Arbitrary Class Instantiation via JAX-RPC Interface",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105115",
-      "summary": "CVE ID :CVE-2026-105115\n  \n  Published : Oct. 3, 2026, 2:16 p.m. | 22\u00a0hours, 19\u00a0minutes ago\n  \n  Description :OpenAM before 16.1.3 contains an unauthe...",
-      "timestamp": 1791036998.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-105105 - Unauthenticated ZeroMQ command/telemetry bus in AIT-Core allows remote spacecraft command injection and telemetry exfiltration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105105",
-      "summary": "CVE ID :CVE-2026-105105\n  \n  Published : Oct. 3, 2026, 12:16 p.m. | 1\u00a0day ago\n  \n  Description :CWE-306: Missing Authentication for Critical Function ...",
-      "timestamp": 1791029817.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Cisco Catalyst SD-WAN Manager API Authentication Bypass Vulnerability",
@@ -291,5 +291,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1791123872.1253667
+  "last_updated": 1791138311.236127
 }
