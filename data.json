@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,129 +52,169 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 3,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-105294 - Legcord 1.1.0 through 1.3.0 Chromium Switch Injection via settings.setConfig",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105294",
-      "summary": "CVE ID :CVE-2026-105294\n  \n  Published : Oct. 5, 2026, 1:16 a.m. | 5\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Legcord 1.1.0 through 1.3.0 contains a co...",
-      "timestamp": 1791162988.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-105293 - Legcord 1.1.0 through 1.3.0 Path Traversal via Theme IPC Handlers",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105293",
-      "summary": "CVE ID :CVE-2026-105293\n  \n  Published : Oct. 5, 2026, 1:16 a.m. | 5\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Legcord 1.1.0 through 1.3.0 contains a pa...",
-      "timestamp": 1791162988.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-105223 - maclof kubernetes-client 0.17.0 before 0.32.0 Disabled TLS Certificate Verification",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105223",
-      "summary": "CVE ID :CVE-2026-105223\n  \n  Published : Oct. 5, 2026, 1:16 a.m. | 5\u00a0hours, 24\u00a0minutes ago\n  \n  Description :maclof kubernetes-client 0.17.0 before 0....",
-      "timestamp": 1791162988.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-105222 - alexpechkarev/google-maps through 12.16 Disabled TLS Certificate Verification via ssl_verify_peer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105222",
-      "summary": "CVE ID :CVE-2026-105222\n  \n  Published : Oct. 4, 2026, 11:16 p.m. | 7\u00a0hours, 23\u00a0minutes ago\n  \n  Description :The alexpechkarev/google-maps Laravel pa...",
-      "timestamp": 1791155819.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-105221 - Gist RubyGem before 6.1.0 Disabled TLS Certificate Verification",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105221",
-      "summary": "CVE ID :CVE-2026-105221\n  \n  Published : Oct. 4, 2026, 11:16 p.m. | 7\u00a0hours, 23\u00a0minutes ago\n  \n  Description :The gist RubyGem before 6.1.0 contains a...",
-      "timestamp": 1791155819.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-105220 - Twine 2 Desktop through 2.12.0 Arbitrary Code Execution via Imported Story Files",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105220",
-      "summary": "CVE ID :CVE-2026-105220\n  \n  Published : Oct. 4, 2026, 11:16 p.m. | 7\u00a0hours, 23\u00a0minutes ago\n  \n  Description :Twine 2 desktop through 2.12.0 contains ...",
-      "timestamp": 1791155819.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
-      "summary": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-da...",
-      "timestamp": 1791151081.0,
+      "title": "Rejetto HFS servers now actively scanned for critical RCE flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
+      "summary": "Hackers are actively scanning for a Rejetto HFS weak signing key vulnerability, tracked as CVE-2026-61500, that allows session forgery, account takeov...",
+      "timestamp": 1791231605.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-105219 - Mammoth.js 1.3.0 before 1.12.3 ReDoS via Style Map Tokeniser",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105219",
-      "summary": "CVE ID :CVE-2026-105219\n  \n  Published : Oct. 4, 2026, 6:16 p.m. | 12\u00a0hours, 23\u00a0minutes ago\n  \n  Description :Mammoth.js 1.3.0 before 1.12.3 contains ...",
-      "timestamp": 1791137794.0,
+      "title": "CVE-2026-97257 - WordPress Simple Event Planner plugin <= 1.5.7 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97257",
+      "summary": "CVE ID :CVE-2026-97257\n  \n  Published : Oct. 5, 2026, 8:17 p.m. | 56\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnerability in ...",
+      "timestamp": 1791231449.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-105218 - gopay before 1.5.119 Disabled TLS Certificate Verification in xhttp Client",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105218",
-      "summary": "CVE ID :CVE-2026-105218\n  \n  Published : Oct. 4, 2026, 6:16 p.m. | 12\u00a0hours, 23\u00a0minutes ago\n  \n  Description :gopay before 1.5.119 disables TLS certif...",
-      "timestamp": 1791137794.0,
+      "title": "CVE-2026-94201 - Filtering an :atom attribute with unsafe_to_atom? can exhaust the BEAM atom table in Ash",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94201",
+      "summary": "CVE ID :CVE-2026-94201\n  \n  Published : Oct. 5, 2026, 8:17 p.m. | 56\u00a0minutes ago\n  \n  Description :Ash stores :atom-typed attributes as strings and co...",
+      "timestamp": 1791231448.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-105216 - go-micro before 6.0.0 Disabled TLS Certificate Verification via tls.Config Helper",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105216",
-      "summary": "CVE ID :CVE-2026-105216\n  \n  Published : Oct. 4, 2026, 6:16 p.m. | 12\u00a0hours, 23\u00a0minutes ago\n  \n  Description :go-micro before 6.0.0 contains an improp...",
-      "timestamp": 1791137794.0,
+      "title": "CVE-2026-105691 - Penpot: Authenticated OS Command Injection in Penpot SVG Exporter via Legacy fill-color",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105691",
+      "summary": "CVE ID :CVE-2026-105691\n  \n  Published : Oct. 5, 2026, 8:17 p.m. | 56\u00a0minutes ago\n  \n  Description :Penpot is an open-source design and prototyping pl...",
+      "timestamp": 1791231439.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-105089 - WWBN AVideo through 29.2.0 Stored XSS via trailer1 in YouPHPFlix2 Templates",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105089",
-      "summary": "CVE ID :CVE-2026-105089\n  \n  Published : Oct. 4, 2026, 4:16 p.m. | 14\u00a0hours, 24\u00a0minutes ago\n  \n  Description :WWBN AVideo through 29.2.0 contains a st...",
-      "timestamp": 1791130590.0,
+      "title": "CVE-2026-105650 - Ghost: Stored XSS via oEmbed Photo Responses",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105650",
+      "summary": "CVE ID :CVE-2026-105650\n  \n  Published : Oct. 5, 2026, 8:17 p.m. | 56\u00a0minutes ago\n  \n  Description :Ghost is a Node.js content management system. From...",
+      "timestamp": 1791231433.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "Anthropic asks Claude users to share voice data for AI model training",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
-      "summary": "Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]",
-      "timestamp": 1791111201.0,
+      "title": "CVE-2026-103066 - WordPress WP BASE Booking plugin <= 6.4.0 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103066",
+      "summary": "CVE ID :CVE-2026-103066\n  \n  Published : Oct. 5, 2026, 8:17 p.m. | 56\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elements used i...",
+      "timestamp": 1791231428.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-100511 - WordPress VK Google Job Posting Manager plugin <= 1.3.1 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-100511",
+      "summary": "CVE ID :CVE-2026-100511\n  \n  Published : Oct. 5, 2026, 8:17 p.m. | 56\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnerability in...",
+      "timestamp": 1791231427.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97283 - WordPress Advanced Post Manager plugin <= 4.5.5 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97283",
+      "summary": "CVE ID :CVE-2026-97283\n  \n  Published : Oct. 5, 2026, 7:17 p.m. | 1\u00a0hour, 56\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnerabi...",
+      "timestamp": 1791227847.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-58835 - Bluetooth btif_storage Heap Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58835",
+      "summary": "CVE ID :CVE-2026-58835\n  \n  Published : Oct. 5, 2026, 7:17 p.m. | 1\u00a0hour, 56\u00a0minutes ago\n  \n  Description :In cfg2prop of btif_storage.cc, there is a ...",
+      "timestamp": 1791227844.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-55280 - Microsoft Windows Uninitialized Memory Out-of-Bounds Write",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-55280",
+      "summary": "CVE ID :CVE-2026-55280\n  \n  Published : Oct. 5, 2026, 7:17 p.m. | 1\u00a0hour, 56\u00a0minutes ago\n  \n  Description :In multiple locations, there is a possible ...",
+      "timestamp": 1791227844.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-105642 - Ghost: Remote Code Execution via Bookmark Card Images",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105642",
+      "summary": "CVE ID :CVE-2026-105642\n  \n  Published : Oct. 5, 2026, 7:17 p.m. | 1\u00a0hour, 56\u00a0minutes ago\n  \n  Description :Ghost is a Node.js content management syst...",
+      "timestamp": 1791227838.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "IQVIA fined $7.8 million for failing to properly anonymize health data",
+      "link": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
+      "summary": "Italy's Data Protection Authority (GPDP) has fined IQVIA \u20ac7 million ($7.8M) over poor data-processing practices that the agency says could have put ro...",
+      "timestamp": 1791220793.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
     {
-      "title": "Google Gemini could soon get full access to your Mac\u2019s files, apps and the web",
-      "link": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
-      "summary": "Google's Gemini could soon access any file on your macOS device, open apps, browse the web, and perform actions without asking for permission every ti...",
-      "timestamp": 1791069154.0,
+      "title": "Denmark population registry data breach affects 8.8 million people",
+      "link": "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
+      "summary": "Denmark's Central Population Register (CPR) is warning of a data breach that exposed the personal information of approximately 8.8 million registered ...",
+      "timestamp": 1791213670.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
     {
-      "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
-      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
-      "summary": "A suspected ShinyHunters hacking group member known online as \"Rey\" has reportedly been detained in Jordan and is cooperating with the FBI to help loc...",
-      "timestamp": 1791054578.0,
+      "title": "New Dell System Update flaw lets hackers gain root privileges",
+      "link": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
+      "summary": "Dell warned customers to patch a critical vulnerability in the System Update (DSU) command-line interface (CLI) deployment tool as soon as possible. [...",
+      "timestamp": 1791211986.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
     {
-      "title": "Danish university DTU breach exposes data of up to 200,000 people",
-      "link": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
-      "summary": "The Technical University of Denmark (DTU) says information belonging to up to 200,000 users may have been exposed after hackers accessed its identity ...",
-      "timestamp": 1791038120.0,
+      "title": "South Korea probes bank breaches amid suspected AI-powered attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
+      "summary": "South Korea's Financial Services Commission (FSC) held an emergency meeting following a series of cyberattacks targeting financial institutions in the...",
+      "timestamp": 1791210132.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "tenfold CE: Our free Identity Governance tool just got 2 new features",
+      "link": "https://www.bleepingcomputer.com/news/security/tenfold-ce-our-free-identity-governance-tool-just-got-2-new-features/",
+      "summary": "tenfold has added shared content governance and real-time event auditing to its free Community Edition for organizations with under 150 users. The new...",
+      "timestamp": 1791207222.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Alleged dev of Ploutus ATM malware appears in US court after arrest",
+      "link": "https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/",
+      "summary": "The U.S. Department of Justice has announced the arrest of the alleged developer of Ploutus malware, used to steal millions of dollars in ATM jackpott...",
+      "timestamp": 1791205305.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "OpenAI will show visual ads in ChatGPT while you generate images",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/",
+      "summary": "OpenAI is expanding ads in ChatGPT, and one of the first new formats will show visual ads while you're generating images. [...]",
+      "timestamp": 1791196125.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft: Windows KB5124010 update crashes some games and apps",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-kb5124010-update-crashes-some-games-and-apps/",
+      "summary": "Microsoft confirmed over the weekend that some games and applications using AC-3 (Dolby Digital) audio decoding will crash after installing the Septem...",
+      "timestamp": 1791193076.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Google halts open-source bug bounty program amid AI spam surge",
+      "link": "https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/",
+      "summary": "Google has now suspended submissions to its Open Source Software Vulnerability Rewards Program (OSS VRP) after being flooded by AI-generated reports. ...",
+      "timestamp": 1791188866.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -193,46 +233,6 @@
       "timestamp": 1790968888.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "Frontline Education breach exposes school district employee data",
-      "link": "https://www.bleepingcomputer.com/news/security/frontline-education-data-breach-impacts-school-district-employees/",
-      "summary": "Frontline Education is notifying school districts of a data breach after attackers exploited a vulnerability in third-party software to gain unauthori...",
-      "timestamp": 1790967700.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Warlock ransomware breach SharePoint in water, telecom operator attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/warlock-ransomware-breach-sharepoint-in-water-telecom-operator-attacks/",
-      "summary": "The China-linked ransomware group Warlock targeted a water utility, a telecom provider, a regional government body, and a university by exploiting Sha...",
-      "timestamp": 1790965981.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "GitLab warns of critical RCE vulnerability in AI Gateway service",
-      "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/",
-      "summary": "GitLab warned customers today to immediately patch a critical AI Gateway vulnerability that could let attackers run arbitrary commands on vulnerable i...",
-      "timestamp": 1790958005.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "US sanctions Tren de Aragua gang members in ATM hacks crackdown",
-      "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-tren-de-aragua-members-in-atm-jackpotting-crackdown/",
-      "summary": "The U.S. Treasury Department has sanctioned eight members of the Venezuelan gang Tren de Aragua (TdA) for their role in the theft of millions of dolla...",
-      "timestamp": 1790954453.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "The EDR blind spot: 3 ways browser attacks evade endpoint telemetry",
-      "link": "https://www.bleepingcomputer.com/news/security/the-edr-blind-spot-3-ways-browser-attacks-evade-endpoint-telemetry/",
-      "summary": "Browser-based attacks can steal sessions, abuse extensions, or manipulate users without creating the endpoint artifacts EDR is designed to detect. Nor...",
-      "timestamp": 1790949610.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
@@ -291,5 +291,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1791183629.4774659
+  "last_updated": 1791239804.1310592
 }
