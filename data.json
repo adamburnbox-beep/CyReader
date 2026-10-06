@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 5,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,92 +59,124 @@
   ],
   "articles": [
     {
+      "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
+      "link": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
+      "summary": "Hackers are exploiting stored cross-site scripting (XSS) vulnerabilities in two unrelated WordPress plugins, Ninja Forms and WPC Product Bundles for W...",
+      "timestamp": 1791320427.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-106446 - Handlebars: JavaScript Injection via AST Type Confusion in compile (Program.blockParams)",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-106446",
+      "summary": "CVE ID :CVE-2026-106446\n  \n  Published : Oct. 6, 2026, 7:41 p.m. | 48\u00a0minutes ago\n  \n  Description :Handlebars provides the power necessary to let use...",
+      "timestamp": 1791315715.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-102163 - Security Advisory 0195",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102163",
+      "summary": "CVE ID :CVE-2026-102163\n  \n  Published : Oct. 6, 2026, 7:40 p.m. | 49\u00a0minutes ago\n  \n  Description :On affected Arista access points with Wireless Int...",
+      "timestamp": 1791315631.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-102162 - Security Advisory 0193",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102162",
+      "summary": "CVE ID :CVE-2026-102162\n  \n  Published : Oct. 6, 2026, 7:40 p.m. | 49\u00a0minutes ago\n  \n  Description :On affected Arista Wi-Fi access points with captiv...",
+      "timestamp": 1791315629.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-101157 - Security Advisory 0192",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101157",
+      "summary": "CVE ID :CVE-2026-101157\n  \n  Published : Oct. 6, 2026, 7:40 p.m. | 49\u00a0minutes ago\n  \n  Description :A stored cross-site scripting (XSS) vulnerability ...",
+      "timestamp": 1791315629.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-101156 - Security Advisory 0192",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101156",
+      "summary": "CVE ID :CVE-2026-101156\n  \n  Published : Oct. 6, 2026, 7:40 p.m. | 49\u00a0minutes ago\n  \n  Description :A stored cross-site scripting (XSS) vulnerability ...",
+      "timestamp": 1791315628.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-102161 - Security Advisory 0190",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102161",
+      "summary": "CVE ID :CVE-2026-102161\n  \n  Published : Oct. 6, 2026, 7:39 p.m. | 50\u00a0minutes ago\n  \n  Description :An unauthenticated attacker located on an adjacent...",
+      "timestamp": 1791315594.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-102159 - Security Advisory 0190",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102159",
+      "summary": "CVE ID :CVE-2026-102159\n  \n  Published : Oct. 6, 2026, 7:39 p.m. | 50\u00a0minutes ago\n  \n  Description :An access-control flaw in the CV-CUE backend may a...",
+      "timestamp": 1791315593.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-102155 - Security Advisory 0190",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102155",
+      "summary": "CVE ID :CVE-2026-102155\n  \n  Published : Oct. 6, 2026, 7:39 p.m. | 50\u00a0minutes ago\n  \n  Description :An XML External Entity (XXE) injection vulnerabili...",
+      "timestamp": 1791315592.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-101155 - Security Advisory 0189",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101155",
+      "summary": "CVE ID :CVE-2026-101155\n  \n  Published : Oct. 6, 2026, 7:38 p.m. | 51\u00a0minutes ago\n  \n  Description :An authenticated remote attacker with specific per...",
+      "timestamp": 1791315503.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-101153 - Security Advisory 0188",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101153",
+      "summary": "CVE ID :CVE-2026-101153\n  \n  Published : Oct. 6, 2026, 7:38 p.m. | 51\u00a0minutes ago\n  \n  Description :On affected versions of CloudVision Portal (on-pre...",
+      "timestamp": 1791315487.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
+      "summary": "On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploitin...",
+      "timestamp": 1791314513.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
+      "link": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
+      "summary": "Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple sel...",
+      "timestamp": 1791308099.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "ASOS confirms data breach after \u201cHACKED\u201d in-app notifications",
+      "link": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
+      "summary": "UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to h...",
+      "timestamp": 1791304434.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
       "link": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
       "summary": "A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor aut...",
       "timestamp": 1791299804.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-61421 - Dell Container Storage Modules Use of Hard-coded Credentials Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-61421",
-      "summary": "CVE ID :CVE-2026-61421\n  \n  Published : Oct. 6, 2026, 2:57 p.m. | 15\u00a0minutes ago\n  \n  Description :Dell Container Storage Modules, versions prior to 1...",
-      "timestamp": 1791298670.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-104069 - HortusFox < 6.2 Remote Code Execution via Theme Import",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104069",
-      "summary": "CVE ID :CVE-2026-104069\n  \n  Published : Oct. 6, 2026, 2:55 p.m. | 17\u00a0minutes ago\n  \n  Description :HortusFox before 6.2 contains a remote code execut...",
-      "timestamp": 1791298507.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-54472 - Dell Container Storage Modules Use of Hard-coded Credentials Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-54472",
-      "summary": "CVE ID :CVE-2026-54472\n  \n  Published : Oct. 6, 2026, 2:51 p.m. | 22\u00a0minutes ago\n  \n  Description :Dell Container Storage Modules, versions prior to 1...",
-      "timestamp": 1791298260.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-67269 - Dell Container Storage Modules Operator Improper Privilege Management Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-67269",
-      "summary": "CVE ID :CVE-2026-67269\n  \n  Published : Oct. 6, 2026, 2:47 p.m. | 25\u00a0minutes ago\n  \n  Description :Dell Container Storage Modules (CSM) Operator, vers...",
-      "timestamp": 1791298037.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63692 - Dell Container Storage Modules Missing Authentication for Critical Function Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63692",
-      "summary": "CVE ID :CVE-2026-63692\n  \n  Published : Oct. 6, 2026, 2:38 p.m. | 34\u00a0minutes ago\n  \n  Description :Dell Container Storage Modules, versions prior to 1...",
-      "timestamp": 1791297487.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-63688 - Dell Container Storage Modules Missing Authentication Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-63688",
-      "summary": "CVE ID :CVE-2026-63688\n  \n  Published : Oct. 6, 2026, 2:32 p.m. | 40\u00a0minutes ago\n  \n  Description :Dell Container Storage Modules (CSM), versions prio...",
-      "timestamp": 1791297178.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-105798 - SimpleChat: Stored XSS via group document filename in inline onclick handler",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105798",
-      "summary": "CVE ID :CVE-2026-105798\n  \n  Published : Oct. 6, 2026, 2:25 p.m. | 47\u00a0minutes ago\n  \n  Description :SimpleChat is a secure AI conversation application...",
-      "timestamp": 1791296739.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-105797 - SimpleChat: Command injection via authorization-gate ordering flaw (arbitrary process spawn through MCP stdio transport)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105797",
-      "summary": "CVE ID :CVE-2026-105797\n  \n  Published : Oct. 6, 2026, 2:23 p.m. | 49\u00a0minutes ago\n  \n  Description :SimpleChat is a secure AI conversation application...",
-      "timestamp": 1791296622.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-105796 - Kiota: Code injection through doc-comment delimiter reformation in Kiota Java and PHP generators",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105796",
-      "summary": "CVE ID :CVE-2026-105796\n  \n  Published : Oct. 6, 2026, 2:21 p.m. | 51\u00a0minutes ago\n  \n  Description :Kiota is an OpenAPI based HTTP Client code generat...",
-      "timestamp": 1791296502.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-91140 - OS command injection in Progress Software Autonomous REST Connector GenAI Agents",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-91140",
-      "summary": "CVE ID :CVE-2026-91140\n  \n  Published : Oct. 6, 2026, 2:17 p.m. | 55\u00a0minutes ago\n  \n  Description :An OS command injection vulnerability in the shell-...",
-      "timestamp": 1791296268.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "How to secure RMM software: 8 controls MSPs should test",
@@ -183,38 +215,6 @@
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-adding-invisible-watermarks-to-chatgpt-and-codex-text-in-the-eu/",
       "summary": "OpenAI is preparing to add invisible watermarks to text generated by ChatGPT and Codex in the European Union. [...]",
       "timestamp": 1791240393.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Rejetto HFS servers now actively scanned for critical RCE flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
-      "summary": "Hackers are actively scanning for a Rejetto HFS weak signing key vulnerability, tracked as CVE-2026-61500, that allows session forgery, account takeov...",
-      "timestamp": 1791231605.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "IQVIA fined $7.8 million for failing to properly anonymize health data",
-      "link": "https://www.bleepingcomputer.com/news/security/iqvia-fined-78-million-for-failing-to-properly-anonymize-health-data/",
-      "summary": "Italy's Data Protection Authority (GPDP) has fined IQVIA \u20ac7 million ($7.8M) over poor data-processing practices that the agency says could have put ro...",
-      "timestamp": 1791220793.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Denmark population registry data breach affects 8.8 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/",
-      "summary": "Denmark's Central Population Register (CPR) is warning of a data breach that exposed the personal information of approximately 8.8 million registered ...",
-      "timestamp": 1791213670.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "New Dell System Update flaw lets hackers gain root privileges",
-      "link": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
-      "summary": "Dell warned customers to patch a critical vulnerability in the System Update (DSU) command-line interface (CLI) deployment tool as soon as possible. [...",
-      "timestamp": 1791211986.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -283,5 +283,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1791303455.362754
+  "last_updated": 1791321322.2948623
 }
