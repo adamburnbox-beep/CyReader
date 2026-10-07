@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,70 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-106503 - Backstage: Scaffolder action input authorization bypass",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-106503",
+      "summary": "CVE ID :CVE-2026-106503\n  \n  Published : Oct. 6, 2026, 10:17 p.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Backstage is an open framework for buildi...",
+      "timestamp": 1791325025.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-106501 - Backstage: Sensitive information exposure in Scaffolder",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-106501",
+      "summary": "CVE ID :CVE-2026-106501\n  \n  Published : Oct. 6, 2026, 10:17 p.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Backstage is an open framework for buildi...",
+      "timestamp": 1791325025.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-106500 - Backstage: Improper task state validation in Scaffolder backend",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-106500",
+      "summary": "CVE ID :CVE-2026-106500\n  \n  Published : Oct. 6, 2026, 10:17 p.m. | 1\u00a0hour, 25\u00a0minutes ago\n  \n  Description :Backstage is an open framework for buildi...",
+      "timestamp": 1791325025.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-106547 - HDF5 heap buffer overflow in H5VM_array_fill via crafted fill-value metadata",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-106547",
+      "summary": "CVE ID :CVE-2026-106547\n  \n  Published : Oct. 6, 2026, 9:17 p.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :A heap-based buffer overflow in H5VM_arra...",
+      "timestamp": 1791321438.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-106488 - Backstage: Improper authentication in the OIDC provider",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-106488",
+      "summary": "CVE ID :CVE-2026-106488\n  \n  Published : Oct. 6, 2026, 9:17 p.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :Backstage is an open framework for buildi...",
+      "timestamp": 1791321437.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-106486 - Backstage: Improper filesystem validation in Bitbucket pull-request scaffolder actions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-106486",
+      "summary": "CVE ID :CVE-2026-106486\n  \n  Published : Oct. 6, 2026, 9:17 p.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :Backstage is an open framework for buildi...",
+      "timestamp": 1791321437.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-106459 - Backstage: Improper input validation in Sentry scaffolder actions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-106459",
+      "summary": "CVE ID :CVE-2026-106459\n  \n  Published : Oct. 6, 2026, 9:17 p.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :Backstage is an open framework for buildi...",
+      "timestamp": 1791321436.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-105812 - Code injection via unencoded configuration values during Python code generation in Bedrock AgentCore Starter Toolkit agent import",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105812",
+      "summary": "CVE ID :CVE-2026-105812\n  \n  Published : Oct. 6, 2026, 9:17 p.m. | 2\u00a0hours, 25\u00a0minutes ago\n  \n  Description :Improper control of code generation in th...",
+      "timestamp": 1791321424.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
       "link": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
       "summary": "Hackers are exploiting stored cross-site scripting (XSS) vulnerabilities in two unrelated WordPress plugins, Ninja Forms and WPC Product Bundles for W...",
@@ -67,82 +131,18 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-106446 - Handlebars: JavaScript Injection via AST Type Confusion in compile (Program.blockParams)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-106446",
-      "summary": "CVE ID :CVE-2026-106446\n  \n  Published : Oct. 6, 2026, 7:41 p.m. | 48\u00a0minutes ago\n  \n  Description :Handlebars provides the power necessary to let use...",
-      "timestamp": 1791315715.0,
+      "title": "CVE-2026-94114 - Apache Commons BCEL: Nested Code/Record attributes drive unbounded parse-time recursion in ClassParser",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94114",
+      "summary": "CVE ID :CVE-2026-94114\n  \n  Published : Oct. 6, 2026, 8:17 p.m. | 3\u00a0hours, 25\u00a0minutes ago\n  \n  Description :Symbolic name not mapping to correct objec...",
+      "timestamp": 1791317854.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-102163 - Security Advisory 0195",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102163",
-      "summary": "CVE ID :CVE-2026-102163\n  \n  Published : Oct. 6, 2026, 7:40 p.m. | 49\u00a0minutes ago\n  \n  Description :On affected Arista access points with Wireless Int...",
-      "timestamp": 1791315631.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-102162 - Security Advisory 0193",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102162",
-      "summary": "CVE ID :CVE-2026-102162\n  \n  Published : Oct. 6, 2026, 7:40 p.m. | 49\u00a0minutes ago\n  \n  Description :On affected Arista Wi-Fi access points with captiv...",
-      "timestamp": 1791315629.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-101157 - Security Advisory 0192",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101157",
-      "summary": "CVE ID :CVE-2026-101157\n  \n  Published : Oct. 6, 2026, 7:40 p.m. | 49\u00a0minutes ago\n  \n  Description :A stored cross-site scripting (XSS) vulnerability ...",
-      "timestamp": 1791315629.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-101156 - Security Advisory 0192",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101156",
-      "summary": "CVE ID :CVE-2026-101156\n  \n  Published : Oct. 6, 2026, 7:40 p.m. | 49\u00a0minutes ago\n  \n  Description :A stored cross-site scripting (XSS) vulnerability ...",
-      "timestamp": 1791315628.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-102161 - Security Advisory 0190",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102161",
-      "summary": "CVE ID :CVE-2026-102161\n  \n  Published : Oct. 6, 2026, 7:39 p.m. | 50\u00a0minutes ago\n  \n  Description :An unauthenticated attacker located on an adjacent...",
-      "timestamp": 1791315594.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-102159 - Security Advisory 0190",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102159",
-      "summary": "CVE ID :CVE-2026-102159\n  \n  Published : Oct. 6, 2026, 7:39 p.m. | 50\u00a0minutes ago\n  \n  Description :An access-control flaw in the CV-CUE backend may a...",
-      "timestamp": 1791315593.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-102155 - Security Advisory 0190",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-102155",
-      "summary": "CVE ID :CVE-2026-102155\n  \n  Published : Oct. 6, 2026, 7:39 p.m. | 50\u00a0minutes ago\n  \n  Description :An XML External Entity (XXE) injection vulnerabili...",
-      "timestamp": 1791315592.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-101155 - Security Advisory 0189",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101155",
-      "summary": "CVE ID :CVE-2026-101155\n  \n  Published : Oct. 6, 2026, 7:38 p.m. | 51\u00a0minutes ago\n  \n  Description :An authenticated remote attacker with specific per...",
-      "timestamp": 1791315503.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-101153 - Security Advisory 0188",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-101153",
-      "summary": "CVE ID :CVE-2026-101153\n  \n  Published : Oct. 6, 2026, 7:38 p.m. | 51\u00a0minutes ago\n  \n  Description :On affected versions of CloudVision Portal (on-pre...",
-      "timestamp": 1791315487.0,
+      "title": "CVE-2026-79805 - Authenticated Path Traversal Vulnerability Leads to Unauthorized File Access and Modification in ClearPass Policy Manager",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-79805",
+      "summary": "CVE ID :CVE-2026-79805\n  \n  Published : Oct. 6, 2026, 8:17 p.m. | 3\u00a0hours, 25\u00a0minutes ago\n  \n  Description :An authenticated path traversal vulnerabil...",
+      "timestamp": 1791317852.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -283,5 +283,5 @@
       "vendor": "Cisco"
     }
   ],
-  "last_updated": 1791321322.2948623
+  "last_updated": 1791335027.3446572
 }
