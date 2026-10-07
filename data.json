@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 5,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 8,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 6,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,6 +59,182 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-107213 - Excelize: Nil-pointer dereference in GetSlicers when a worksheet has extLst present but no drawing element",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107213",
+      "summary": "CVE ID :CVE-2026-107213\n  \n  Published : Oct. 7, 2026, 6:17 p.m. | 30\u00a0minutes ago\n  \n  Description :Excelize is a Go language library for reading and ...",
+      "timestamp": 1791397038.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-107211 - Excelize: Unchecked pivot-cache field index in extractPivotTableFields causes unrecoverable panic",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107211",
+      "summary": "CVE ID :CVE-2026-107211\n  \n  Published : Oct. 7, 2026, 6:17 p.m. | 30\u00a0minutes ago\n  \n  Description :Excelize is a Go language library for reading and ...",
+      "timestamp": 1791397038.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-95606 - WordPress The Events Calendar plugin <= 6.17.4 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-95606",
+      "summary": "CVE ID :CVE-2026-95606\n  \n  Published : Oct. 7, 2026, 5:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnerabi...",
+      "timestamp": 1791393424.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-95605 - WordPress WP Data Access plugin <= 5.5.82 - SQL Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-95605",
+      "summary": "CVE ID :CVE-2026-95605\n  \n  Published : Oct. 7, 2026, 5:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elements...",
+      "timestamp": 1791393424.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-95534 - WordPress Unlimited Elements For Elementor (Free Widgets, Addons, Templates) plugin <= 2.0.19 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-95534",
+      "summary": "CVE ID :CVE-2026-95534\n  \n  Published : Oct. 7, 2026, 5:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnerabi...",
+      "timestamp": 1791393423.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76501 - Cisco Nexus 9000 Series Switches SRv6 OAM (NGOAM) Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76501",
+      "summary": "CVE ID :CVE-2026-76501\n  \n  Published : Oct. 7, 2026, 5:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :A vulnerability in the Segment Routing over...",
+      "timestamp": 1791393422.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76500 - Cisco Application Policy Infrastructure Controller Hardening Release: October 2026 - Improper Control of a Resource Through its Lifetime Vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76500",
+      "summary": "CVE ID :CVE-2026-76500\n  \n  Published : Oct. 7, 2026, 5:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to pr...",
+      "timestamp": 1791393421.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76499 - Cisco Application Policy Infrastructure Controller Hardening Release: October 2026 - Improper Neutralization Vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76499",
+      "summary": "CVE ID :CVE-2026-76499\n  \n  Published : Oct. 7, 2026, 5:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to pr...",
+      "timestamp": 1791393421.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76498 - Cisco Application Policy Infrastructure Controller Hardening Release: October 2026 - Improper Access Control Vulnerabilities",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76498",
+      "summary": "CVE ID :CVE-2026-76498\n  \n  Published : Oct. 7, 2026, 5:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to pr...",
+      "timestamp": 1791393421.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-76486 - Cisco Nexus 3000 and 9000 Series Switches VXLAN OAM (NGOAM) Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76486",
+      "summary": "CVE ID :CVE-2026-76486\n  \n  Published : Oct. 7, 2026, 5:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :A vulnerability in the VXLAN Operation, Adm...",
+      "timestamp": 1791393421.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Cisco Advance Notification for Publication of October 7, 2026, Security Advisories",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-fBn58ELx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20October%207,%202026,%20Security%20Advisories%26vs_k=1",
+      "summary": "On October 7, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the advisories that are listed in the following tables.\nTo rem...",
+      "timestamp": 1791388841.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco NX-OS Software Python Sandbox Escape Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nxos-mppe-dhKZAFgb?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20NX-OS%20Software%20Python%20Sandbox%20Escape%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the Python interpreter of Cisco NX-OS Software could allow an authenticated, local attacker with low privileges to escape the Pytho...",
+      "timestamp": 1791388800.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Finesse Server-Side Request Forgery Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-ssrf-mmSuyugS?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Server-Side%20Request%20Forgery%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the web-based management interface of Cisco Finesse could allow an unauthenticated, remote attacker to conduct server-side request ...",
+      "timestamp": 1791388800.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Nexus 3000 and 9000 Series Switches MPLS OAM Remote Code Execution Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-moam-rce-uBTzYV7?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Nexus%203000%20and%209000%20Series%20Switches%20MPLS%20OAM%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the MPLS Operation, Administration, and Maintenance (OAM) feature of Cisco NX-OS Software for Cisco Nexus 3000 Series Switches and ...",
+      "timestamp": 1791388800.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Application Policy Infrastructure Controller Unauthorized File Access Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apic-info-priv-enAdB5vD?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Application%20Policy%20Infrastructure%20Controller%20Unauthorized%20File%20Access%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the export policies functionality of Cisco Application Policy Infrastructure Controller (APIC) could allow an authenticated, remote...",
+      "timestamp": 1791388800.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Application Policy Infrastructure Controller API Command Injection Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apic-cmdinj-L6VR4E7?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Application%20Policy%20Infrastructure%20Controller%20API%20Command%20Injection%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the web-based management API for Cisco Application Policy Infrastructure Controller (APIC) could allow an authenticated, remote att...",
+      "timestamp": 1791388800.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco License (Smart Software Manager) On-Prem Security Hardening Release: October 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-ssm-Ph77wdhf?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20License%20(Smart%20Software%20Manager)%20On-Prem%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the engineering team for Cisco License On-Prem, formerly Cisco Smart ...",
+      "timestamp": 1791388800.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Nexus 9000 Series Fabric Switches in ACI Mode Endpoint Group Contract Bypass Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-aci-epgcbp-SfDU7NLf?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Nexus%209000%20Series%20Fabric%20Switches%20in%20ACI%20Mode%20Endpoint%20Group%20Contract%20Bypass%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the endpoint group (EPG) contract functionality of Cisco Nexus 9000 Series Fabric Switches in ACI Mode could allow an unauthenticat...",
+      "timestamp": 1791388800.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Meraki Security Hardening Release: October 2026",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Meraki%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams conducted a comprehensive internal security review....",
+      "timestamp": 1791388800.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Cisco Nexus 3000 and 9000 Series Switches NGOAM Remote Code Execution Vulnerabilities",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ngoam-rce-LWKQ4BU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Nexus%203000%20and%209000%20Series%20Switches%20NGOAM%20Remote%20Code%20Execution%20Vulnerabilities%26vs_k=1",
+      "summary": "Multiple vulnerabilities in the Operation, Administration, and Maintenance (OAM) feature of Cisco NX-OS Software, known as Next Generation OAM (NGOAM)...",
+      "timestamp": 1791388800.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "Microsoft Outlook to block MSIX attachments starting November",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
+      "summary": "Microsoft announced that it will add .msix and .msixbundle attachments to the list of blocked attachments in Outlook Web and the new Outlook Windows c...",
+      "timestamp": 1791387862.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
+      "summary": "A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit\u00a0launchpads. [...]",
+      "timestamp": 1791385448.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Ransomware has a new target. Is your backup ready?",
       "link": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
       "summary": "Ransomware groups are increasingly targeting backup infrastructure to eliminate recovery options and increase pressure on victims to pay. Kaseya expla...",
@@ -83,44 +259,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-106059 - GitAhead through 2.7.1 on macOS Command Injection via Show in Finder AppleScript",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-106059",
-      "summary": "CVE ID :CVE-2026-106059\n  \n  Published : Oct. 7, 2026, 12:17 p.m. | 1\u00a0hour, 32\u00a0minutes ago\n  \n  Description :GitAhead through 2.7.1 on macOS contains ...",
-      "timestamp": 1791375429.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-106057 - patool before 4.0.6 OS Command Injection on Windows via shell_quote_nt",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-106057",
-      "summary": "CVE ID :CVE-2026-106057\n  \n  Published : Oct. 7, 2026, 12:17 p.m. | 1\u00a0hour, 32\u00a0minutes ago\n  \n  Description :patool before 4.0.6 contains an OS comman...",
-      "timestamp": 1791375428.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
       "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
       "summary": "SonicWall has released hotfixes to address a maximum-severity server-side request forgery (SSRF) flaw in SMA1000 series appliances. [...]",
       "timestamp": 1791373027.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-96408 - Movable Type Code Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96408",
-      "summary": "CVE ID :CVE-2026-96408\n  \n  Published : Oct. 7, 2026, 11:17 a.m. | 2\u00a0hours, 32\u00a0minutes ago\n  \n  Description :A code injection vulnerability exists in ...",
-      "timestamp": 1791371840.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-103668 - Movable Type SQL Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103668",
-      "summary": "CVE ID :CVE-2026-103668\n  \n  Published : Oct. 7, 2026, 11:17 a.m. | 2\u00a0hours, 32\u00a0minutes ago\n  \n  Description :An SQL Injection vulnerability exists in...",
-      "timestamp": 1791371829.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Musician sent to prison for $10 million streaming fraud using AI bots",
@@ -137,54 +281,6 @@
       "timestamp": 1791368872.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-105192 - LMCache Unauthenticated RCE in multiprocess mode via pickle deserialization",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105192",
-      "summary": "CVE ID :CVE-2026-105192\n  \n  Published : Oct. 7, 2026, 10:17 a.m. | 3\u00a0hours, 31\u00a0minutes ago\n  \n  Description :LMCache multiprocess mode, also called d...",
-      "timestamp": 1791368252.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-58069 - Veeam Backup & Replication Arbitrary File Read Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-58069",
-      "summary": "CVE ID :CVE-2026-58069\n  \n  Published : Oct. 7, 2026, 9:17 a.m. | 4\u00a0hours, 32\u00a0minutes ago\n  \n  Description :This vulnerability in Veeam Backup & Repli...",
-      "timestamp": 1791364625.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-19186 - Integer underflow in IEEE 802.15.4 frame decryption leads to out-of-bounds read and write",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19186",
-      "summary": "CVE ID :CVE-2026-19186\n  \n  Published : Oct. 7, 2026, 9:17 a.m. | 4\u00a0hours, 32\u00a0minutes ago\n  \n  Description :ieee802154_decipher_data_frame() in subsys...",
-      "timestamp": 1791364625.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-15894 - Bluetooth Mesh solicitation PDU stack buffer overflow via oversized advertisement",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-15894",
-      "summary": "CVE ID :CVE-2026-15894\n  \n  Published : Oct. 7, 2026, 9:17 a.m. | 4\u00a0hours, 32\u00a0minutes ago\n  \n  Description :The Bluetooth Mesh On-Demand Private Proxy...",
-      "timestamp": 1791364625.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-107104 - Unsafe Deserialization Vulnerability in Manacle Technologies ERP System",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107104",
-      "summary": "CVE ID :CVE-2026-107104\n  \n  Published : Oct. 7, 2026, 9:17 a.m. | 4\u00a0hours, 32\u00a0minutes ago\n  \n  Description :This vulnerability exists in the ERP syst...",
-      "timestamp": 1791364625.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-107103 - SQL Injection Vulnerability in Manacle Technologies ERP System",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107103",
-      "summary": "CVE ID :CVE-2026-107103\n  \n  Published : Oct. 7, 2026, 9:17 a.m. | 4\u00a0hours, 32\u00a0minutes ago\n  \n  Description :This vulnerability exists in the ERP syst...",
-      "timestamp": 1791364624.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
@@ -211,52 +307,12 @@
       "vendor": "News"
     },
     {
-      "title": "ASOS confirms data breach after \u201cHACKED\u201d in-app notifications",
-      "link": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
-      "summary": "UK fashion retailer ASOS confirmed a data breach Tuesday after hackers sent unauthorized push notifications through its mobile app while claiming to h...",
-      "timestamp": 1791304434.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Fake ChatGPT, Gemini Sites steal advertising accounts, MFA codes",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-chatgpt-gemini-sites-steal-advertising-accounts-mfa-codes/",
-      "summary": "A new campaign targeting ad account managers uses fake ChatGPT, Gemini, Claude, and Perplexity sites that steal login credentials and multi-factor aut...",
-      "timestamp": 1791299804.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Manager API Authentication Bypass Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Manager%20API%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to...",
-      "timestamp": 1790983122.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Cisco IOS XE Software Security Hardening Release: August 2026",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxe-V8NMuMZJ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20IOS%20XE%20Software%20Security%20Hardening%20Release:%20August%202026%26vs_k=1",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco IOS XE Software engineering team has conducted a comprehens...",
-      "timestamp": 1790968888.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
       "summary": "",
       "timestamp": 1790928900.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
-    },
-    {
-      "title": "Cisco Advance Notification for Publication of October 7, 2026, Security Advisories",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-fBn58ELx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20October%207,%202026,%20Security%20Advisories%26vs_k=1",
-      "summary": "On October 7, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information a...",
-      "timestamp": 1790784000.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
     },
     {
       "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
@@ -283,5 +339,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1791383506.7919734
+  "last_updated": 1791404107.6820374
 }
