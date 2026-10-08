@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 3,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 9,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,104 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Ransomware recovery CEO charged over secret ransom payments",
+      "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
+      "summary": "The owner of ransomware remediation company MonsterCloud has been charged with allegedly defrauding ransomware victims by secretly paying their attack...",
+      "timestamp": 1791414277.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-107282 - AsyncHttpClient: Replay to a different host sends the original host request and credentials to the new host",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107282",
+      "summary": "CVE ID :CVE-2026-107282\n  \n  Published : Oct. 7, 2026, 10:17 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :The AsyncHttpClient (AHC) library allows ...",
+      "timestamp": 1791411424.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-107279 - AsyncHttpClient: Digest mutual authentication is switched off by a peer offering qop=auth-int",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107279",
+      "summary": "CVE ID :CVE-2026-107279\n  \n  Published : Oct. 7, 2026, 10:17 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :The AsyncHttpClient (AHC) library allows ...",
+      "timestamp": 1791411423.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-107231 - AsyncHttpClient: Digest challenge without a usable nonce downgrades to Basic and sends the password in cleartext",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107231",
+      "summary": "CVE ID :CVE-2026-107231\n  \n  Published : Oct. 7, 2026, 10:17 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :The AsyncHttpClient (AHC) library allows ...",
+      "timestamp": 1791411423.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-105816 - Vault Vulnerable to Arbitrary Code Execution via Plugin Catalog Entries Restored From Raft Snapshots",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105816",
+      "summary": "CVE ID :CVE-2026-105816\n  \n  Published : Oct. 7, 2026, 10:17 p.m. | 1\u00a0hour, 55\u00a0minutes ago\n  \n  Description :Vault and Vault Enterprise did not consis...",
+      "timestamp": 1791411422.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+      "summary": "The FBI is warning that FortiBleed attacks are still ongoing, targeting exposed Fortinet FortiGate firewalls and SSL VPN gateways and locking out legi...",
+      "timestamp": 1791408534.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-76268 - Missing Authentication for Critical Function in the Patroni REST API in Splunk Enterprise",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76268",
+      "summary": "CVE ID :CVE-2026-76268\n  \n  Published : Oct. 7, 2026, 9:17 p.m. | 2\u00a0hours, 55\u00a0minutes ago\n  \n  Description :In Splunk Enterprise versions below 10.4.3...",
+      "timestamp": 1791407837.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Hackers hijack Google domains after breaching ccTLD registries",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
+      "summary": "Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Gh...",
+      "timestamp": 1791406213.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-97716 - Denial of Service in Absolute Secure Access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97716",
+      "summary": "CVE ID :CVE-2026-97716\n  \n  Published : Oct. 7, 2026, 8:17 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :CVE-2026-97716\nis a vulnerability in the c...",
+      "timestamp": 1791404236.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97714 - Denial of service vulnerability in Secure Access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97714",
+      "summary": "CVE ID :CVE-2026-97714\n  \n  Published : Oct. 7, 2026, 8:17 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :CVE-2026-97714\nis a is a vulnerability in ...",
+      "timestamp": 1791404235.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-34499 - Johnson Controls ADVMS Hard-Coded Cryptographic Key Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-34499",
+      "summary": "CVE ID :CVE-2026-34499\n  \n  Published : Oct. 7, 2026, 8:17 p.m. | 3\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Use of hard-coded cryptographic key vulner...",
+      "timestamp": 1791404232.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-107213 - Excelize: Nil-pointer dereference in GetSlicers when a worksheet has extLst present but no drawing element",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-107213",
-      "summary": "CVE ID :CVE-2026-107213\n  \n  Published : Oct. 7, 2026, 6:17 p.m. | 30\u00a0minutes ago\n  \n  Description :Excelize is a Go language library for reading and ...",
+      "summary": "CVE ID :CVE-2026-107213\n  \n  Published : Oct. 7, 2026, 6:17 p.m. | 5\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Excelize is a Go language library for rea...",
       "timestamp": 1791397038.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,72 +157,8 @@
     {
       "title": "CVE-2026-107211 - Excelize: Unchecked pivot-cache field index in extractPivotTableFields causes unrecoverable panic",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-107211",
-      "summary": "CVE ID :CVE-2026-107211\n  \n  Published : Oct. 7, 2026, 6:17 p.m. | 30\u00a0minutes ago\n  \n  Description :Excelize is a Go language library for reading and ...",
+      "summary": "CVE ID :CVE-2026-107211\n  \n  Published : Oct. 7, 2026, 6:17 p.m. | 5\u00a0hours, 55\u00a0minutes ago\n  \n  Description :Excelize is a Go language library for rea...",
       "timestamp": 1791397038.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-95606 - WordPress The Events Calendar plugin <= 6.17.4 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-95606",
-      "summary": "CVE ID :CVE-2026-95606\n  \n  Published : Oct. 7, 2026, 5:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnerabi...",
-      "timestamp": 1791393424.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-95605 - WordPress WP Data Access plugin <= 5.5.82 - SQL Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-95605",
-      "summary": "CVE ID :CVE-2026-95605\n  \n  Published : Oct. 7, 2026, 5:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :Improper Neutralization of Special Elements...",
-      "timestamp": 1791393424.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-95534 - WordPress Unlimited Elements For Elementor (Free Widgets, Addons, Templates) plugin <= 2.0.19 - PHP Object Injection vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-95534",
-      "summary": "CVE ID :CVE-2026-95534\n  \n  Published : Oct. 7, 2026, 5:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnerabi...",
-      "timestamp": 1791393423.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76501 - Cisco Nexus 9000 Series Switches SRv6 OAM (NGOAM) Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76501",
-      "summary": "CVE ID :CVE-2026-76501\n  \n  Published : Oct. 7, 2026, 5:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :A vulnerability in the Segment Routing over...",
-      "timestamp": 1791393422.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76500 - Cisco Application Policy Infrastructure Controller Hardening Release: October 2026 - Improper Control of a Resource Through its Lifetime Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76500",
-      "summary": "CVE ID :CVE-2026-76500\n  \n  Published : Oct. 7, 2026, 5:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to pr...",
-      "timestamp": 1791393421.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76499 - Cisco Application Policy Infrastructure Controller Hardening Release: October 2026 - Improper Neutralization Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76499",
-      "summary": "CVE ID :CVE-2026-76499\n  \n  Published : Oct. 7, 2026, 5:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to pr...",
-      "timestamp": 1791393421.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76498 - Cisco Application Policy Infrastructure Controller Hardening Release: October 2026 - Improper Access Control Vulnerabilities",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76498",
-      "summary": "CVE ID :CVE-2026-76498\n  \n  Published : Oct. 7, 2026, 5:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :As part of Cisco's ongoing commitment to pr...",
-      "timestamp": 1791393421.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-76486 - Cisco Nexus 3000 and 9000 Series Switches VXLAN OAM (NGOAM) Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-76486",
-      "summary": "CVE ID :CVE-2026-76486\n  \n  Published : Oct. 7, 2026, 5:17 p.m. | 1\u00a0hour, 30\u00a0minutes ago\n  \n  Description :A vulnerability in the VXLAN Operation, Adm...",
-      "timestamp": 1791393421.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -283,30 +307,6 @@
       "vendor": "News"
     },
     {
-      "title": "Ninja Forms plugin flaw exploited to hack WordPress sites",
-      "link": "https://www.bleepingcomputer.com/news/security/ninja-forms-plugin-flaw-exploited-to-hack-wordpress-sites/",
-      "summary": "Hackers are exploiting stored cross-site scripting (XSS) vulnerabilities in two unrelated WordPress plugins, Ninja Forms and WPC Product Bundles for W...",
-      "timestamp": 1791320427.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers exploit 32 zero-days on first day of Pwn2Own Ireland",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-32-zero-days-on-first-day-of-pwn2own-ireland/",
-      "summary": "On the first day of the Pwn2Own Ireland 2026 competition, security researchers hacked the Samsung Galaxy S26 twice and earned $388,500 after exploitin...",
-      "timestamp": 1791314513.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Atlassian warns of critical file-access flaw in Jira, Confluence",
-      "link": "https://www.bleepingcomputer.com/news/security/atlassian-warns-of-critical-file-access-flaw-in-jira-confluence/",
-      "summary": "Atlassian is warning customers of a critical vulnerability, tracked as CVE-2026-21589, that can be exploited for arbitrary file-access in multiple sel...",
-      "timestamp": 1791308099.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "CVE-2026-0250 GlobalProtect App: Buffer Overflow Vulnerability during connection to Portal or Gateway (Severity: MEDIUM)",
       "link": "https://security.paloaltonetworks.com/CVE-2026-0250",
       "summary": "",
@@ -339,5 +339,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1791404107.6820374
+  "last_updated": 1791418359.9558752
 }
