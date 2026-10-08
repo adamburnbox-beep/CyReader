@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 4,
+      "new_count": 5,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 7,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,20 +59,132 @@
   ],
   "articles": [
     {
-      "title": "CVE-2026-92555 - Database Credentials Disclosure in AKIN Software's AKINSOFT WOLVOX Control Panel",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92555",
-      "summary": "CVE ID :CVE-2026-92555\n  \n  Published : Oct. 8, 2026, 12:17 p.m. | 27\u00a0minutes ago\n  \n  Description :Insertion of sensitive information into sent data ...",
-      "timestamp": 1791461838.0,
+      "title": "Low-cost Android phones ship with residential proxy malware",
+      "link": "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
+      "summary": "A malware campaign dubbed 'Midnight Mimosa' has been discovered on low-cost Android smartphones that ship with malicious software embedded in their fi...",
+      "timestamp": 1791487233.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-107322 - OS command injection in Amazon Agent Plugins for AWS databases-on-aws",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107322",
+      "summary": "CVE ID :CVE-2026-107322\n  \n  Published : Oct. 8, 2026, 6:39 p.m. | 21\u00a0minutes ago\n  \n  Description :An incomplete list of disallowed inputs in Amazon ...",
+      "timestamp": 1791484767.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-19083 - IDOR in AKIN Software's OctoCloud",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-19083",
-      "summary": "CVE ID :CVE-2026-19083\n  \n  Published : Oct. 8, 2026, 12:17 p.m. | 27\u00a0minutes ago\n  \n  Description :Authorization bypass through User-Controlled key v...",
-      "timestamp": 1791461837.0,
+      "title": "CVE-2026-107704 - image_optimizer 1.3.0 through 1.9.0 OS Command Injection via identify_format",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107704",
+      "summary": "CVE ID :CVE-2026-107704\n  \n  Published : Oct. 8, 2026, 6:36 p.m. | 24\u00a0minutes ago\n  \n  Description :The image_optimizer Ruby gem 1.3.0 through 1.9.0 c...",
+      "timestamp": 1791484597.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-107703 - @enmaso/node-convert through 1.0.0 OS Command Injection via filepath and convertTo",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107703",
+      "summary": "CVE ID :CVE-2026-107703\n  \n  Published : Oct. 8, 2026, 6:36 p.m. | 24\u00a0minutes ago\n  \n  Description :@enmaso/node-convert through 1.0.0 contains an OS ...",
+      "timestamp": 1791484596.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-107701 - dot-access through 1.0.0 Prototype Pollution via set() path argument",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107701",
+      "summary": "CVE ID :CVE-2026-107701\n  \n  Published : Oct. 8, 2026, 6:36 p.m. | 24\u00a0minutes ago\n  \n  Description :dot-access through 1.0.0 contains a prototype poll...",
+      "timestamp": 1791484596.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-107700 - dot-access 0.0.3 through 1.0.0 Code Injection via get() Path Argument",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107700",
+      "summary": "CVE ID :CVE-2026-107700\n  \n  Published : Oct. 8, 2026, 6:36 p.m. | 24\u00a0minutes ago\n  \n  Description :dot-access 0.0.3 through 1.0.0 contains a code inj...",
+      "timestamp": 1791484595.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-107699 - ppt2png through 0.0.6 OS Command Injection via input and output paths",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107699",
+      "summary": "CVE ID :CVE-2026-107699\n  \n  Published : Oct. 8, 2026, 6:36 p.m. | 24\u00a0minutes ago\n  \n  Description :ppt2png through 0.0.6 contains an OS command injec...",
+      "timestamp": 1791484595.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93858 - OpenStack Mistral Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93858",
+      "summary": "CVE ID :CVE-2026-93858\n  \n  Published : Oct. 8, 2026, 6:18 p.m. | 42\u00a0minutes ago\n  \n  Description :In OpenStack Mistral through 23.0.0, the std.ssh_pr...",
+      "timestamp": 1791483510.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-107378 - CairoSVG: Quadratic-time DoS parsing a crafted SVG <path>",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107378",
+      "summary": "CVE ID :CVE-2026-107378\n  \n  Published : Oct. 8, 2026, 6:17 p.m. | 43\u00a0minutes ago\n  \n  Description :CairoSVG is an SVG converter based on Cairo, a 2D ...",
+      "timestamp": 1791483443.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-107376 - webonyx graphql-php: Unbounded recursion in parser causes stack overflow on crafted nested input",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107376",
+      "summary": "CVE ID :CVE-2026-107376\n  \n  Published : Oct. 8, 2026, 6:17 p.m. | 43\u00a0minutes ago\n  \n  Description :webonyx graphql-php is a PHP implementation of the...",
+      "timestamp": 1791483442.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-107375 - JHipster: SQL Injection in the Parameter of JHipster-Generated Reactive (WebFlux + R2DBC) Applicationssort",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107375",
+      "summary": "CVE ID :CVE-2026-107375\n  \n  Published : Oct. 8, 2026, 6:17 p.m. | 43\u00a0minutes ago\n  \n  Description :JHipster is a development platform to quickly gene...",
+      "timestamp": 1791483441.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
+      "link": "https://www.bleepingcomputer.com/news/security/fakegit-malware-campaign-returns-with-17-610-malicious-github-repos/",
+      "summary": "More than 17,000 fake repositories on GitHub are distributing the SmartLoader malware after the FakeGit campaign reactivated earlier this month to pus...",
+      "timestamp": 1791479455.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco warns of critical flaws allowing Nexus switch takeover",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/",
+      "summary": "Cisco released security advisories for five critical vulnerabilities in its NX-OS data center network operating system that could be exploited to run ...",
+      "timestamp": 1791473193.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cisco NX-OS Software NX-API Remote Code Execution Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-napi-rce-r2shwu2j?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20NX-OS%20Software%20NX-API%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the NX-API feature of Cisco NX-OS Software could allow an unauthenticated, remote attacker to execute arbitrary code with root priv...",
+      "timestamp": 1791468683.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "OAuth grants pile up faster than you can review them. Here's how to keep up.",
+      "link": "https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/",
+      "summary": "OAuth grants create data highways between SaaS apps, AI agents, and other tools. And, they are multiplying faster than any security team can review th...",
+      "timestamp": 1791468010.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Uranium crypto exchange hacker convicted for stealing $53 million",
+      "link": "https://www.bleepingcomputer.com/news/security/uranium-crypto-exchange-hacker-found-guilty-of-53-million-theft/",
+      "summary": "A Maryland man was found guilty of stealing more than $53 million after hacking the decentralized crypto exchange Uranium Finance twice in April 2021....",
+      "timestamp": 1791465516.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Microsoft Teams to get support for third-party deepfake detection tools",
@@ -91,76 +203,12 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-103647 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in hMailServer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-103647",
-      "summary": "CVE ID :CVE-2026-103647\n  \n  Published : Oct. 8, 2026, 11:16 a.m. | 1\u00a0hour, 28\u00a0minutes ago\n  \n  Description :Cross-site scripting in the webmail of Pr...",
-      "timestamp": 1791458202.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Owner of Empire cybercrime market gets 40 years in prison",
       "link": "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/",
       "summary": "The co-creator of Empire Market, one of the largest dark web marketplaces before its shutdown, has been sentenced to 40 years in prison for facilitati...",
       "timestamp": 1791455359.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-107510 - Authenticated argument injection in NIOS command line leading to privilege escalation",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107510",
-      "summary": "CVE ID :CVE-2026-107510\n  \n  Published : Oct. 8, 2026, 10:17 a.m. | 2\u00a0hours, 27\u00a0minutes ago\n  \n  Description :An authenticated high privilege user can...",
-      "timestamp": 1791454629.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-12260 - SQL injection in the NetBoard CRM demo platform",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-12260",
-      "summary": "CVE ID :CVE-2026-12260\n  \n  Published : Oct. 8, 2026, 9:16 a.m. | 3\u00a0hours, 28\u00a0minutes ago\n  \n  Description :SQL injection in the NetBoard CRM demo pla...",
-      "timestamp": 1791451001.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-105110 - Iskratel Innbox Unauthenticated Remote Code Execution via login.xgi CLI Parameter",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105110",
-      "summary": "CVE ID :CVE-2026-105110\n  \n  Published : Oct. 8, 2026, 9:16 a.m. | 3\u00a0hours, 28\u00a0minutes ago\n  \n  Description :OS Command Injection in the login.xgi CGI...",
-      "timestamp": 1791451000.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-93699 - WP Toolkit for cPanel Argument Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93699",
-      "summary": "CVE ID :CVE-2026-93699\n  \n  Published : Oct. 8, 2026, 8:16 a.m. | 4\u00a0hours, 28\u00a0minutes ago\n  \n  Description :Argument injection in WP Toolkit for cPane...",
-      "timestamp": 1791447394.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-87428 - Brocade ASCG Credential Disclosure Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87428",
-      "summary": "CVE ID :CVE-2026-87428\n  \n  Published : Oct. 8, 2026, 7:16 a.m. | 5\u00a0hours, 28\u00a0minutes ago\n  \n  Description :In Brocade ASCG before 3.5.0, a\u00a0 local una...",
-      "timestamp": 1791443793.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-87424 - Brocade ASCG Authentication Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87424",
-      "summary": "CVE ID :CVE-2026-87424\n  \n  Published : Oct. 8, 2026, 7:16 a.m. | 5\u00a0hours, 28\u00a0minutes ago\n  \n  Description :A vulnerability in the SupportLink API aut...",
-      "timestamp": 1791443793.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-85489 - Brocade ASCG Authentication Bypass Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85489",
-      "summary": "CVE ID :CVE-2026-85489\n  \n  Published : Oct. 8, 2026, 7:16 a.m. | 5\u00a0hours, 28\u00a0minutes ago\n  \n  Description :An authentication flaw exists in the Broca...",
-      "timestamp": 1791443792.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
@@ -183,22 +231,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
       "summary": "The owner of ransomware remediation company MonsterCloud has been charged with allegedly defrauding ransomware victims by secretly paying their attack...",
       "timestamp": 1791414277.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
-      "summary": "The FBI is warning that FortiBleed attacks are still ongoing, targeting exposed Fortinet FortiGate firewalls and SSL VPN gateways and locking out legi...",
-      "timestamp": 1791408534.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers hijack Google domains after breaching ccTLD registries",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
-      "summary": "Hackers obtained unauthorized HTTPS certificates for several Google domains and hijacked domains in the country-code top-level domains (ccTLDs) for Gh...",
-      "timestamp": 1791406213.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -267,38 +299,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "Cisco Nexus 3000 and 9000 Series Switches NGOAM Remote Code Execution Vulnerabilities",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ngoam-rce-LWKQ4BU?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Nexus%203000%20and%209000%20Series%20Switches%20NGOAM%20Remote%20Code%20Execution%20Vulnerabilities%26vs_k=1",
-      "summary": "Multiple vulnerabilities in the Operation, Administration, and Maintenance (OAM) feature of Cisco NX-OS Software, known as Next Generation OAM (NGOAM)...",
-      "timestamp": 1791388800.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
-      "title": "Microsoft Outlook to block MSIX attachments starting November",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
-      "summary": "Microsoft announced that it will add .msix and .msixbundle attachments to the list of blocked attachments in Outlook Web and the new Outlook Windows c...",
-      "timestamp": 1791387862.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
-      "summary": "A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit\u00a0launchpads. [...]",
-      "timestamp": 1791385448.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Ransomware has a new target. Is your backup ready?",
-      "link": "https://www.bleepingcomputer.com/news/security/ransomware-has-a-new-target-is-your-backup-ready/",
-      "summary": "Ransomware groups are increasingly targeting backup infrastructure to eliminate recovery options and increase pressure on victims to pay. Kaseya expla...",
-      "timestamp": 1791381671.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
       "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
       "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooper...",
@@ -331,5 +331,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1791465809.5892844
+  "last_updated": 1791487695.7444854
 }
