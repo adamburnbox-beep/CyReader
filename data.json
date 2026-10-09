@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 5,
+      "new_count": 2,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -59,92 +59,108 @@
   ],
   "articles": [
     {
+      "title": "CVE-2026-96207 - Microsoft Partner Center Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-96207",
+      "summary": "CVE ID :CVE-2026-96207\n  \n  Published : Oct. 8, 2026, 11:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Improper certificate validation in Microsoft Partn...",
+      "timestamp": 1791501425.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94510 - Microsoft Bookings Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94510",
+      "summary": "CVE ID :CVE-2026-94510\n  \n  Published : Oct. 8, 2026, 11:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Authorization bypass through user-controlled key i...",
+      "timestamp": 1791501425.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-88131 - Microsoft Dataverse Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-88131",
+      "summary": "CVE ID :CVE-2026-88131\n  \n  Published : Oct. 8, 2026, 11:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Deserialization of untrusted data in Microsoft Dat...",
+      "timestamp": 1791501424.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-83943 - Azure API Center Information Disclosure Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-83943",
+      "summary": "CVE ID :CVE-2026-83943\n  \n  Published : Oct. 8, 2026, 11:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Exposure of sensitive information to an unauthoriz...",
+      "timestamp": 1791501424.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-77900 - Azure App Service Remote Code Execution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77900",
+      "summary": "CVE ID :CVE-2026-77900\n  \n  Published : Oct. 8, 2026, 11:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Missing authentication for critical function in Az...",
+      "timestamp": 1791501423.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-69435 - Azure SRE Agent Elevation of Privilege Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69435",
+      "summary": "CVE ID :CVE-2026-69435\n  \n  Published : Oct. 8, 2026, 11:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Missing authorization in Azure SRE Agent allows an...",
+      "timestamp": 1791501422.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-107732 - SumatraPDF: Markup/command-link injection into UI notification text",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107732",
+      "summary": "CVE ID :CVE-2026-107732\n  \n  Published : Oct. 8, 2026, 11:16 p.m. | 23\u00a0minutes ago\n  \n  Description :SumatraPDF is a multi-format reader for Windows. ...",
+      "timestamp": 1791501418.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-105674 - Predictable Media Stream Pre-Shared Key Vulnerability in TP-Link Tapo C325WB",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105674",
+      "summary": "CVE ID :CVE-2026-105674\n  \n  Published : Oct. 8, 2026, 11:16 p.m. | 23\u00a0minutes ago\n  \n  Description :TP-Link Tapo\nC325WB V2 generates the pre-shared k...",
+      "timestamp": 1791501417.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-105672 - Unauthenticated JSON API Authorization Bypass Vulnerability in TP-Link Tapo C325WB",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105672",
+      "summary": "CVE ID :CVE-2026-105672\n  \n  Published : Oct. 8, 2026, 11:16 p.m. | 23\u00a0minutes ago\n  \n  Description :TP-Link Tapo\nC325WB V2 contains an unauthenticate...",
+      "timestamp": 1791501417.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-89091 - Ansible-core: ansible-core: ansible-galaxy collection install symlink path escape allows arbitrary file write / code execution",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89091",
+      "summary": "CVE ID :CVE-2026-89091\n  \n  Published : Oct. 8, 2026, 10:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :A flaw was found in ansible-core. When ins...",
+      "timestamp": 1791497855.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "FBI disrupts Chinese hacking tools used to breach critical infrastructure",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-chinese-hacking-tools-used-to-breach-critical-infrastructure/",
+      "summary": "The FBI has seized seven domains used by Chinese state-sponsored hackers known as Flax Typhoon to operate two hacking tools, MicroScan and FishHub, us...",
+      "timestamp": 1791495771.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Ransomware attack disrupts Japan's IDCF Cloud used by govt clients",
+      "link": "https://www.bleepingcomputer.com/news/security/ransomware-attack-disrupts-japans-idcf-cloud-used-by-govt-clients/",
+      "summary": "IDC Frontier, a major Japanese cloud and digital infrastructure company, disclosed that its IDCF Cloud service was targeted in a ransomware attack tha...",
+      "timestamp": 1791490185.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
       "title": "Low-cost Android phones ship with residential proxy malware",
       "link": "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
       "summary": "A malware campaign dubbed 'Midnight Mimosa' has been discovered on low-cost Android smartphones that ship with malicious software embedded in their fi...",
       "timestamp": 1791487233.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-107322 - OS command injection in Amazon Agent Plugins for AWS databases-on-aws",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107322",
-      "summary": "CVE ID :CVE-2026-107322\n  \n  Published : Oct. 8, 2026, 6:39 p.m. | 21\u00a0minutes ago\n  \n  Description :An incomplete list of disallowed inputs in Amazon ...",
-      "timestamp": 1791484767.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-107704 - image_optimizer 1.3.0 through 1.9.0 OS Command Injection via identify_format",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107704",
-      "summary": "CVE ID :CVE-2026-107704\n  \n  Published : Oct. 8, 2026, 6:36 p.m. | 24\u00a0minutes ago\n  \n  Description :The image_optimizer Ruby gem 1.3.0 through 1.9.0 c...",
-      "timestamp": 1791484597.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-107703 - @enmaso/node-convert through 1.0.0 OS Command Injection via filepath and convertTo",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107703",
-      "summary": "CVE ID :CVE-2026-107703\n  \n  Published : Oct. 8, 2026, 6:36 p.m. | 24\u00a0minutes ago\n  \n  Description :@enmaso/node-convert through 1.0.0 contains an OS ...",
-      "timestamp": 1791484596.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-107701 - dot-access through 1.0.0 Prototype Pollution via set() path argument",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107701",
-      "summary": "CVE ID :CVE-2026-107701\n  \n  Published : Oct. 8, 2026, 6:36 p.m. | 24\u00a0minutes ago\n  \n  Description :dot-access through 1.0.0 contains a prototype poll...",
-      "timestamp": 1791484596.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-107700 - dot-access 0.0.3 through 1.0.0 Code Injection via get() Path Argument",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107700",
-      "summary": "CVE ID :CVE-2026-107700\n  \n  Published : Oct. 8, 2026, 6:36 p.m. | 24\u00a0minutes ago\n  \n  Description :dot-access 0.0.3 through 1.0.0 contains a code inj...",
-      "timestamp": 1791484595.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-107699 - ppt2png through 0.0.6 OS Command Injection via input and output paths",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107699",
-      "summary": "CVE ID :CVE-2026-107699\n  \n  Published : Oct. 8, 2026, 6:36 p.m. | 24\u00a0minutes ago\n  \n  Description :ppt2png through 0.0.6 contains an OS command injec...",
-      "timestamp": 1791484595.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-93858 - OpenStack Mistral Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93858",
-      "summary": "CVE ID :CVE-2026-93858\n  \n  Published : Oct. 8, 2026, 6:18 p.m. | 42\u00a0minutes ago\n  \n  Description :In OpenStack Mistral through 23.0.0, the std.ssh_pr...",
-      "timestamp": 1791483510.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-107378 - CairoSVG: Quadratic-time DoS parsing a crafted SVG <path>",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107378",
-      "summary": "CVE ID :CVE-2026-107378\n  \n  Published : Oct. 8, 2026, 6:17 p.m. | 43\u00a0minutes ago\n  \n  Description :CairoSVG is an SVG converter based on Cairo, a 2D ...",
-      "timestamp": 1791483443.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-107376 - webonyx graphql-php: Unbounded recursion in parser causes stack overflow on crafted nested input",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107376",
-      "summary": "CVE ID :CVE-2026-107376\n  \n  Published : Oct. 8, 2026, 6:17 p.m. | 43\u00a0minutes ago\n  \n  Description :webonyx graphql-php is a PHP implementation of the...",
-      "timestamp": 1791483442.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-107375 - JHipster: SQL Injection in the Parameter of JHipster-Generated Reactive (WebFlux + R2DBC) Applicationssort",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107375",
-      "summary": "CVE ID :CVE-2026-107375\n  \n  Published : Oct. 8, 2026, 6:17 p.m. | 43\u00a0minutes ago\n  \n  Description :JHipster is a development platform to quickly gene...",
-      "timestamp": 1791483441.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "FakeGit malware campaign returns with 17,610 malicious GitHub repos",
@@ -211,28 +227,12 @@
       "vendor": "News"
     },
     {
-      "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
-      "link": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
-      "summary": "\u200b\u200b\u200bOn the second day of Pwn2Own Ireland 2026, security researchers collected $232,500 in cash awards after exploiting 45 unique zero-day vulnerabiliti...",
-      "timestamp": 1791441136.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
       "title": "Cisco Meraki Security Hardening Release: October 2026",
       "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Meraki%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
       "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams conducted a comprehensive internal security review....",
       "timestamp": 1791418718.0,
       "source": "Cisco Advisories",
       "vendor": "Cisco"
-    },
-    {
-      "title": "Ransomware recovery CEO charged over secret ransom payments",
-      "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
-      "summary": "The owner of ransomware remediation company MonsterCloud has been charged with allegedly defrauding ransomware victims by secretly paying their attack...",
-      "timestamp": 1791414277.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
     },
     {
       "title": "Cisco Advance Notification for Publication of October 7, 2026, Security Advisories",
@@ -331,5 +331,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1791487695.7444854
+  "last_updated": 1791504087.6893535
 }
