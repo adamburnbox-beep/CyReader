@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 2,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,72 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
+      "summary": "The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]",
+      "timestamp": 1791524464.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-7827 - Stack-based buffer overflow in FalkorDB _RdbLoadEntity via unbounded property count in crafted RDB",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7827",
+      "summary": "CVE ID :CVE-2026-7827\n  \n  Published : Oct. 9, 2026, 5:16 a.m. | 25\u00a0minutes ago\n  \n  Description :A stack-based buffer overflow in the _RdbLoadEntity ...",
+      "timestamp": 1791523005.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-7826 - Heap out-of-bounds read in FalkorDB BufferSerializerIOv2_ReadBuffer via crafted RDB",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-7826",
+      "summary": "CVE ID :CVE-2026-7826\n  \n  Published : Oct. 9, 2026, 5:16 a.m. | 25\u00a0minutes ago\n  \n  Description :A heap-based out-of-bounds read in the BufferSeriali...",
+      "timestamp": 1791523005.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-5759 - Double free and use-after-free in FalkorDB RdbLoadDeletedNodes allows remote code execution via crafted RDB",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-5759",
+      "summary": "CVE ID :CVE-2026-5759\n  \n  Published : Oct. 9, 2026, 5:16 a.m. | 25\u00a0minutes ago\n  \n  Description :A double free and use-after-free vulnerability in th...",
+      "timestamp": 1791523004.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-107910 - Authentication bypass in FalkorDB Bolt endpoint via fail-open AUTH probe error handling",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107910",
+      "summary": "CVE ID :CVE-2026-107910\n  \n  Published : Oct. 9, 2026, 5:08 a.m. | 33\u00a0minutes ago\n  \n  Description :An improper authentication vulnerability in the is...",
+      "timestamp": 1791522493.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-107909 - Pre-authentication heap out-of-bounds write in FalkorDB Bolt WebSocket frame handling via unbounded payload length",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107909",
+      "summary": "CVE ID :CVE-2026-107909\n  \n  Published : Oct. 9, 2026, 5:08 a.m. | 33\u00a0minutes ago\n  \n  Description :A heap-based out-of-bounds write in the ws_read_fr...",
+      "timestamp": 1791522492.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-107908 - Pre-authentication heap out-of-bounds write in FalkorDB Bolt BoltReadHandler via RESET message",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107908",
+      "summary": "CVE ID :CVE-2026-107908\n  \n  Published : Oct. 9, 2026, 5:08 a.m. | 33\u00a0minutes ago\n  \n  Description :A heap-based out-of-bounds write in the BoltReadHa...",
+      "timestamp": 1791522486.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-96207 - Microsoft Partner Center Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-96207",
-      "summary": "CVE ID :CVE-2026-96207\n  \n  Published : Oct. 8, 2026, 11:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Improper certificate validation in Microsoft Partn...",
+      "summary": "CVE ID :CVE-2026-96207\n  \n  Published : Oct. 8, 2026, 11:17 p.m. | 6\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Improper certificate validation in Micros...",
       "timestamp": 1791501425.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,7 +125,7 @@
     {
       "title": "CVE-2026-94510 - Microsoft Bookings Elevation of Privilege Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-94510",
-      "summary": "CVE ID :CVE-2026-94510\n  \n  Published : Oct. 8, 2026, 11:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Authorization bypass through user-controlled key i...",
+      "summary": "CVE ID :CVE-2026-94510\n  \n  Published : Oct. 8, 2026, 11:17 p.m. | 6\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Authorization bypass through user-control...",
       "timestamp": 1791501425.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -77,7 +133,7 @@
     {
       "title": "CVE-2026-88131 - Microsoft Dataverse Remote Code Execution Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-88131",
-      "summary": "CVE ID :CVE-2026-88131\n  \n  Published : Oct. 8, 2026, 11:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Deserialization of untrusted data in Microsoft Dat...",
+      "summary": "CVE ID :CVE-2026-88131\n  \n  Published : Oct. 8, 2026, 11:17 p.m. | 6\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Deserialization of untrusted data in Micr...",
       "timestamp": 1791501424.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -85,56 +141,8 @@
     {
       "title": "CVE-2026-83943 - Azure API Center Information Disclosure Vulnerability",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-83943",
-      "summary": "CVE ID :CVE-2026-83943\n  \n  Published : Oct. 8, 2026, 11:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Exposure of sensitive information to an unauthoriz...",
+      "summary": "CVE ID :CVE-2026-83943\n  \n  Published : Oct. 8, 2026, 11:17 p.m. | 6\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Exposure of sensitive information to an u...",
       "timestamp": 1791501424.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-77900 - Azure App Service Remote Code Execution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77900",
-      "summary": "CVE ID :CVE-2026-77900\n  \n  Published : Oct. 8, 2026, 11:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Missing authentication for critical function in Az...",
-      "timestamp": 1791501423.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-69435 - Azure SRE Agent Elevation of Privilege Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-69435",
-      "summary": "CVE ID :CVE-2026-69435\n  \n  Published : Oct. 8, 2026, 11:17 p.m. | 23\u00a0minutes ago\n  \n  Description :Missing authorization in Azure SRE Agent allows an...",
-      "timestamp": 1791501422.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-107732 - SumatraPDF: Markup/command-link injection into UI notification text",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-107732",
-      "summary": "CVE ID :CVE-2026-107732\n  \n  Published : Oct. 8, 2026, 11:16 p.m. | 23\u00a0minutes ago\n  \n  Description :SumatraPDF is a multi-format reader for Windows. ...",
-      "timestamp": 1791501418.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-105674 - Predictable Media Stream Pre-Shared Key Vulnerability in TP-Link Tapo C325WB",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105674",
-      "summary": "CVE ID :CVE-2026-105674\n  \n  Published : Oct. 8, 2026, 11:16 p.m. | 23\u00a0minutes ago\n  \n  Description :TP-Link Tapo\nC325WB V2 generates the pre-shared k...",
-      "timestamp": 1791501417.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-105672 - Unauthenticated JSON API Authorization Bypass Vulnerability in TP-Link Tapo C325WB",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-105672",
-      "summary": "CVE ID :CVE-2026-105672\n  \n  Published : Oct. 8, 2026, 11:16 p.m. | 23\u00a0minutes ago\n  \n  Description :TP-Link Tapo\nC325WB V2 contains an unauthenticate...",
-      "timestamp": 1791501417.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-89091 - Ansible-core: ansible-core: ansible-galaxy collection install symlink path escape allows arbitrary file write / code execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89091",
-      "summary": "CVE ID :CVE-2026-89091\n  \n  Published : Oct. 8, 2026, 10:17 p.m. | 1\u00a0hour, 22\u00a0minutes ago\n  \n  Description :A flaw was found in ansible-core. When ins...",
-      "timestamp": 1791497855.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -215,14 +223,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
       "summary": "ASOS is sending updates to affected customers about the cybersecurity incident it suffered earlier this week, confirming that hackers accessed some pe...",
       "timestamp": 1791459766.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Owner of Empire cybercrime market gets 40 years in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/",
-      "summary": "The co-creator of Empire Market, one of the largest dark web marketplaces before its shutdown, has been sentenced to 40 years in prison for facilitati...",
-      "timestamp": 1791455359.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -331,5 +331,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1791504087.6893535
+  "last_updated": 1791525703.8722847
 }
