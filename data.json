@@ -10,7 +10,7 @@
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 8,
+      "new_count": 7,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,92 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 5,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-104759 - WPO365 | SEAMLESS WORDPRESS + MICROSOFT INTEGRATION (WPO365 | LOGIN) <= 44.1 - Unauthenticated Authentication Bypass via OIDC Nonce Replay via id_token Nonce Verification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104759",
+      "summary": "CVE ID :CVE-2026-104759\n  \n  Published : Oct. 10, 2026, 7:41 a.m. | 37\u00a0minutes ago\n  \n  Description :The WPO365 | SEAMLESS WORDPRESS + MICROSOFT INTEG...",
+      "timestamp": 1791618107.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-104803 - WPCOM Member <= 1.7.27 - Unauthenticated Authentication Bypass via 'uuid' and 'code' Parameters on Social-Login Callback",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104803",
+      "summary": "CVE ID :CVE-2026-104803\n  \n  Published : Oct. 10, 2026, 7:41 a.m. | 37\u00a0minutes ago\n  \n  Description :The WPCOM Member plugin for WordPress is vulnerab...",
+      "timestamp": 1791618104.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-94538 - WP File Download <= 6.3.9 - Missing Authorization to Authenticated (Subscriber+) Arbitrary File Deletion/Modification via 'task' Parameter to Multiple Functions",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-94538",
+      "summary": "CVE ID :CVE-2026-94538\n  \n  Published : Oct. 10, 2026, 7:16 a.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :The WP File Download plugin for WordPress i...",
+      "timestamp": 1791616602.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-104801 - PPOM <= 34.0.10 - Unauthenticated Arbitrary File Deletion via 'ppom[fields][<data_name>][n][org]' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104801",
+      "summary": "CVE ID :CVE-2026-104801\n  \n  Published : Oct. 10, 2026, 7:16 a.m. | 1\u00a0hour, 2\u00a0minutes ago\n  \n  Description :The PPOM \u2013 Product Addons & Custom Fields ...",
+      "timestamp": 1791616600.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62045 - WordPress Booklovers theme <= 2.13.0 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62045",
+      "summary": "CVE ID :CVE-2026-62045\n  \n  Published : Oct. 10, 2026, 7 a.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnerabili...",
+      "timestamp": 1791615639.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-62046 - WordPress Gutentype theme <= 2.1.12 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62046",
+      "summary": "CVE ID :CVE-2026-62046\n  \n  Published : Oct. 10, 2026, 7 a.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnerabili...",
+      "timestamp": 1791615638.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93945 - WordPress Balance theme <= 1.12.0 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93945",
+      "summary": "CVE ID :CVE-2026-93945\n  \n  Published : Oct. 10, 2026, 7 a.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnerabili...",
+      "timestamp": 1791615638.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93944 - WordPress Camelia theme <= 1.2.15 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93944",
+      "summary": "CVE ID :CVE-2026-93944\n  \n  Published : Oct. 10, 2026, 7 a.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnerabili...",
+      "timestamp": 1791615638.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93943 - WordPress Convex theme <= 1.16.0 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93943",
+      "summary": "CVE ID :CVE-2026-93943\n  \n  Published : Oct. 10, 2026, 7 a.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnerabili...",
+      "timestamp": 1791615638.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93942 - WordPress Dwell theme <= 1.16.0 - PHP Object Injection vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93942",
+      "summary": "CVE ID :CVE-2026-93942\n  \n  Published : Oct. 10, 2026, 7 a.m. | 1\u00a0hour, 18\u00a0minutes ago\n  \n  Description :Deserialization of Untrusted Data vulnerabili...",
+      "timestamp": 1791615638.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
       "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
@@ -65,86 +145,6 @@
       "timestamp": 1791591462.0,
       "source": "Krebs on Security",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-108474 - JetBrains Exposed SQL Injection",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108474",
-      "summary": "CVE ID :CVE-2026-108474\n  \n  Published : Oct. 10, 2026, 12:17 a.m. | 1\u00a0hour, 11\u00a0minutes ago\n  \n  Description :In JetBrains Exposed before 1.5.1 sQL in...",
-      "timestamp": 1791591423.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-22061 - CVE-2026-22061 Debug Log Information Disclosure Vulnerability in Trident",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-22061",
-      "summary": "CVE ID :CVE-2026-22061\n  \n  Published : Oct. 9, 2026, 11:16 p.m. | 2\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Trident versions v25.02.1 through v26.06....",
-      "timestamp": 1791587814.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108269 - ra-tls-clients: RA-TLS challenge verifier accepted quotes not bound to the TLS session",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108269",
-      "summary": "CVE ID :CVE-2026-108269\n  \n  Published : Oct. 9, 2026, 10:16 p.m. | 3\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Remote Attestation TLS Clients provides ...",
-      "timestamp": 1791584219.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108268 - enclave-os-virtual: RA-TLS challenge certificates were not bound to the TLS session",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108268",
-      "summary": "CVE ID :CVE-2026-108268\n  \n  Published : Oct. 9, 2026, 10:16 p.m. | 3\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Enclave OS Virtual runs container worklo...",
-      "timestamp": 1791584219.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108267 - Privasys Go fork: RA-TLS challenge mode did not bind attestation evidence to the TLS session",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108267",
-      "summary": "CVE ID :CVE-2026-108267\n  \n  Published : Oct. 9, 2026, 10:16 p.m. | 3\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Privasys Go is a maintained fork of the ...",
-      "timestamp": 1791584219.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-62376 - Vikunja: Plaintext storage of password-reset/email-confirm tokens in database enables account takeover on DB read access",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-62376",
-      "summary": "CVE ID :CVE-2026-62376\n  \n  Published : Oct. 9, 2026, 9:17 p.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Vikunja is an open-source self-hosted task...",
-      "timestamp": 1791580625.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-57458 - Vikunja: Scoped API token can mint unrestricted OAuth session credentials",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-57458",
-      "summary": "CVE ID :CVE-2026-57458\n  \n  Published : Oct. 9, 2026, 9:17 p.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Vikunja is an open-source self-hosted task...",
-      "timestamp": 1791580625.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108266 - Privasys rustls fork: RA-TLS challenge mode did not bind attestation evidence to the TLS session",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108266",
-      "summary": "CVE ID :CVE-2026-108266\n  \n  Published : Oct. 9, 2026, 9:17 p.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Privasys rustls is a maintained fork of t...",
-      "timestamp": 1791580625.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108265 - enclave-os-mini: RA-TLS challenge certificates were not bound to the TLS session",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108265",
-      "summary": "CVE ID :CVE-2026-108265\n  \n  Published : Oct. 9, 2026, 9:17 p.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Enclave OS Mini is a Rust-based runtime f...",
-      "timestamp": 1791580624.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108264 - Wizarr: Authenticated Server-Side Template Injection (SSTI) in wizard step rendering leads to Remote Code Execution (RCE)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108264",
-      "summary": "CVE ID :CVE-2026-108264\n  \n  Published : Oct. 9, 2026, 9:17 p.m. | 4\u00a0hours, 11\u00a0minutes ago\n  \n  Description :Wizarr is an advanced user invitation and...",
-      "timestamp": 1791580624.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
@@ -339,5 +339,5 @@
       "vendor": "News"
     }
   ],
-  "last_updated": 1791598882.1397793
+  "last_updated": 1791622713.3273206
 }
