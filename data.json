@@ -3,14 +3,14 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
     {
       "source": "Krebs on Security",
       "vendor": "News",
-      "new_count": 7,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,12 +52,28 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 6,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-108905 - pH7Builder before 18.6.0 Hard-Coded API Key Bypass via Host Header",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108905",
+      "summary": "CVE ID :CVE-2026-108905\n  \n  Published : Oct. 11, 2026, 3:16 p.m. | 3\u00a0hours, 3\u00a0minutes ago\n  \n  Description :pH7Builder (pH7 Social Dating CMS) before...",
+      "timestamp": 1791731816.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-108902 - pH7Builder before 18.5.0 Path Traversal Arbitrary File Deletion via picture_link",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108902",
+      "summary": "CVE ID :CVE-2026-108902\n  \n  Published : Oct. 11, 2026, 3:16 p.m. | 3\u00a0hours, 3\u00a0minutes ago\n  \n  Description :pH7Builder (pH7 Social Dating CMS) before...",
+      "timestamp": 1791731816.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
     {
       "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
       "link": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
@@ -69,80 +85,64 @@
     {
       "title": "CVE-2026-108865 - AmoyLab Unla through 0.10.0 OAuth2 Authentication Bypass via /authorize",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-108865",
-      "summary": "CVE ID :CVE-2026-108865\n  \n  Published : Oct. 11, 2026, 1:26 p.m. | 54\u00a0minutes ago\n  \n  Description :AmoyLab Unla through 0.10.0 contains an authentic...",
-      "timestamp": 1791725170.0,
+      "summary": "CVE ID :CVE-2026-108865\n  \n  Published : Oct. 11, 2026, 2:17 p.m. | 4\u00a0hours, 3\u00a0minutes ago\n  \n  Description :AmoyLab Unla through 0.10.0 contains an a...",
+      "timestamp": 1791728226.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-108863 - Katanemo Plano through 0.4.37 Missing Authentication on Envoy Admin Interface",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108863",
+      "summary": "CVE ID :CVE-2026-108863\n  \n  Published : Oct. 11, 2026, 2:17 p.m. | 4\u00a0hours, 3\u00a0minutes ago\n  \n  Description :Katanemo Plano through 0.4.37 contains a ...",
+      "timestamp": 1791728226.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-108860 - BotSharp through 5.2.0 Authentication Bypass via Hard-Coded JWT Signing Key",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-108860",
-      "summary": "CVE ID :CVE-2026-108860\n  \n  Published : Oct. 11, 2026, 1:26 p.m. | 54\u00a0minutes ago\n  \n  Description :BotSharp through 5.2.0 contains an authentication...",
-      "timestamp": 1791725167.0,
+      "summary": "CVE ID :CVE-2026-108860\n  \n  Published : Oct. 11, 2026, 2:17 p.m. | 4\u00a0hours, 3\u00a0minutes ago\n  \n  Description :BotSharp through 5.2.0 contains an authen...",
+      "timestamp": 1791728225.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-108859 - mcp-go through 1.2.1 Denial of Service via Unbounded POST Body Buffering",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108859",
+      "summary": "CVE ID :CVE-2026-108859\n  \n  Published : Oct. 11, 2026, 2:17 p.m. | 4\u00a0hours, 3\u00a0minutes ago\n  \n  Description :mcp-go through 1.2.1 contains a denial of...",
+      "timestamp": 1791728225.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-108853 - UnicomAI Wanwu before 0.6.3 IDOR via DELETE /v1/appspace/app",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-108853",
-      "summary": "CVE ID :CVE-2026-108853\n  \n  Published : Oct. 11, 2026, 1:26 p.m. | 54\u00a0minutes ago\n  \n  Description :UnicomAI Wanwu before 0.6.3 contains an insecure ...",
-      "timestamp": 1791725162.0,
+      "summary": "CVE ID :CVE-2026-108853\n  \n  Published : Oct. 11, 2026, 2:17 p.m. | 4\u00a0hours, 3\u00a0minutes ago\n  \n  Description :UnicomAI Wanwu before 0.6.3 contains an i...",
+      "timestamp": 1791728224.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-108699 - hyper-mcp through 0.8.3 Improper Signature Verification of OCI WebAssembly Plugins",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108699",
+      "summary": "CVE ID :CVE-2026-108699\n  \n  Published : Oct. 11, 2026, 2:17 p.m. | 4\u00a0hours, 3\u00a0minutes ago\n  \n  Description :hyper-mcp through 0.8.3 contains an impro...",
+      "timestamp": 1791728224.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-108698 - hyper-mcp through 0.8.3 OCI Plugin Signature Verification TOCTOU Race Condition",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108698",
+      "summary": "CVE ID :CVE-2026-108698\n  \n  Published : Oct. 11, 2026, 2:17 p.m. | 4\u00a0hours, 3\u00a0minutes ago\n  \n  Description :hyper-mcp through 0.8.3 contains a signat...",
+      "timestamp": 1791728224.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "CVE-2026-108758 - Easy!Appointments through 1.6.0 Authorization Bypass via booking/register Endpoint",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-108758",
-      "summary": "CVE ID :CVE-2026-108758\n  \n  Published : Oct. 11, 2026, 1:17 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Easy!Appointments through 1.6.0 contains a...",
+      "summary": "CVE ID :CVE-2026-108758\n  \n  Published : Oct. 11, 2026, 1:17 p.m. | 5\u00a0hours, 3\u00a0minutes ago\n  \n  Description :Easy!Appointments through 1.6.0 contains ...",
       "timestamp": 1791724641.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108753 - Agnaistic agnai through 1.0.555 Hard-Coded Credentials in self-host Docker Compose",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108753",
-      "summary": "CVE ID :CVE-2026-108753\n  \n  Published : Oct. 11, 2026, 1:17 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Agnaistic agnai through 1.0.555 contains a...",
-      "timestamp": 1791724640.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108746 - Vearch 3.5.2 through 3.5.9 Incorrect Authorization via Role.HasPermissionForResources",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108746",
-      "summary": "CVE ID :CVE-2026-108746\n  \n  Published : Oct. 11, 2026, 1:17 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Vearch 3.5.2 through 3.5.9 contains an inc...",
-      "timestamp": 1791724639.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108740 - GoatCounter through 2.7.0 Privilege Escalation via /user/pref Mass Assignment",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108740",
-      "summary": "CVE ID :CVE-2026-108740\n  \n  Published : Oct. 11, 2026, 1:17 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :GoatCounter through 2.7.0 contains a mass ...",
-      "timestamp": 1791724638.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108739 - OpenAgents Workspace through launcher-v1.0.17 Unauthenticated Credential Exposure via /v1/workspaces",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108739",
-      "summary": "CVE ID :CVE-2026-108739\n  \n  Published : Oct. 11, 2026, 1:17 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :OpenAgents Workspace backend through launc...",
-      "timestamp": 1791724638.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108729 - Corteza through 2024.9.10 Unauthenticated Attachment Access via Compose Attachment Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108729",
-      "summary": "CVE ID :CVE-2026-108729\n  \n  Published : Oct. 11, 2026, 1:17 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Corteza through 2024.9.10 contains an inco...",
-      "timestamp": 1791724636.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108718 - Rill 0.77.0 through 0.90.5 OAuth Missing Authorization via Dynamic Client Registration",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108718",
-      "summary": "CVE ID :CVE-2026-108718\n  \n  Published : Oct. 11, 2026, 1:17 p.m. | 1\u00a0hour, 3\u00a0minutes ago\n  \n  Description :Rill 0.77.0 through 0.90.5 contains a miss...",
-      "timestamp": 1791724635.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -331,5 +331,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1791733123.546225
+  "last_updated": 1791748173.4465218
 }
