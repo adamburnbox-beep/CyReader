@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 8,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,51 +52,155 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 2,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-66086 - Stack-based Buffer Overflow in Modem",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-66086",
-      "summary": "CVE ID :CVE-2026-66086\n  \n  Published : Oct. 12, 2026, 2:16 a.m. | 25\u00a0minutes ago\n  \n  Description :In the modem OTA stack, there is a possible stack-...",
-      "timestamp": 1791771417.0,
+      "title": "Yandex confirms service outage as users lose access to cloud files",
+      "link": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+      "summary": "Russian cloud services provider Yandex\u00a0announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and part...",
+      "timestamp": 1791832981.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
+      "link": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+      "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incident...",
+      "timestamp": 1791831119.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "CVE-2026-77366 - obsidian-tc tokens can access arbitrary configured vaults",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77366",
+      "summary": "CVE ID :CVE-2026-77366\n  \n  Published : Oct. 12, 2026, 6:17 p.m. | 41\u00a0minutes ago\n  \n  Description :obsidian-tc is a governed, agent-ready Model Conte...",
+      "timestamp": 1791829043.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-108980 - Blinko Directory Traversal Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108980",
-      "summary": "CVE ID :CVE-2026-108980\n  \n  Published : Oct. 12, 2026, 2:16 a.m. | 25\u00a0minutes ago\n  \n  Description :Blinko through 1.8.8 allows directory traversal, ...",
-      "timestamp": 1791771417.0,
+      "title": "CVE-2026-77363 - obsidian-tc Streamable HTTP transport permits cross-origin loopback vault access",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-77363",
+      "summary": "CVE ID :CVE-2026-77363\n  \n  Published : Oct. 12, 2026, 6:17 p.m. | 41\u00a0minutes ago\n  \n  Description :obsidian-tc is a governed, agent-ready Model Conte...",
+      "timestamp": 1791829043.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-108963 - Databasement Argument Injection Remote Code Execution",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108963",
-      "summary": "CVE ID :CVE-2026-108963\n  \n  Published : Oct. 11, 2026, 8:16 p.m. | 6\u00a0hours, 25\u00a0minutes ago\n  \n  Description :databasement before 1.8.2 allows remote ...",
-      "timestamp": 1791749792.0,
+      "title": "CVE-2026-108918 - Edimax BR-6208AC formWlanMP command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108918",
+      "summary": "CVE ID :CVE-2026-108918\n  \n  Published : Oct. 12, 2026, 6:17 p.m. | 42\u00a0minutes ago\n  \n  Description :A vulnerability was identified in Edimax BR-6208A...",
+      "timestamp": 1791829042.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-108905 - pH7Builder before 18.6.0 Hard-Coded API Key Bypass via Host Header",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108905",
-      "summary": "CVE ID :CVE-2026-108905\n  \n  Published : Oct. 11, 2026, 3:16 p.m. | 11\u00a0hours, 25\u00a0minutes ago\n  \n  Description :pH7Builder (pH7 Social Dating CMS) befo...",
-      "timestamp": 1791731816.0,
+      "title": "CVE-2026-108917 - Edimax BR-6208AC formAutoFWupgrade command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108917",
+      "summary": "CVE ID :CVE-2026-108917\n  \n  Published : Oct. 12, 2026, 6:17 p.m. | 42\u00a0minutes ago\n  \n  Description :A vulnerability was determined in Edimax BR-6208A...",
+      "timestamp": 1791829042.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
-      "title": "CVE-2026-108902 - pH7Builder before 18.5.0 Path Traversal Arbitrary File Deletion via picture_link",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108902",
-      "summary": "CVE ID :CVE-2026-108902\n  \n  Published : Oct. 11, 2026, 3:16 p.m. | 11\u00a0hours, 25\u00a0minutes ago\n  \n  Description :pH7Builder (pH7 Social Dating CMS) befo...",
-      "timestamp": 1791731816.0,
+      "title": "CVE-2026-108916 - Edimax BR-6208AC formAccept command injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108916",
+      "summary": "CVE ID :CVE-2026-108916\n  \n  Published : Oct. 12, 2026, 6:17 p.m. | 42\u00a0minutes ago\n  \n  Description :A vulnerability was found in Edimax BR-6208AC 1.3...",
+      "timestamp": 1791829041.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-108915 - Edimax BR-6208AC formWlanMP buffer overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108915",
+      "summary": "CVE ID :CVE-2026-108915\n  \n  Published : Oct. 12, 2026, 6:17 p.m. | 42\u00a0minutes ago\n  \n  Description :A vulnerability has been found in Edimax BR-6208A...",
+      "timestamp": 1791829041.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-108479 - WordPress Patreon WordPress plugin <= 1.9.17 - Cross Site Request Forgery (CSRF) vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108479",
+      "summary": "CVE ID :CVE-2026-108479\n  \n  Published : Oct. 12, 2026, 6:17 p.m. | 42\u00a0minutes ago\n  \n  Description :Cross-Site Request Forgery (CSRF) vulnerability i...",
+      "timestamp": 1791829041.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-85965 - Use-after-free in Progress MarkLogic Server JavaScript engine integration",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-85965",
+      "summary": "CVE ID :CVE-2026-85965\n  \n  Published : Oct. 12, 2026, 5:17 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :Progress MarkLogic Server 12.x releases be...",
+      "timestamp": 1791825457.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-109373 - ZITADEL 3.0.0 before 4.19.2 Account Takeover via Unsigned Login V2 Session Cookie",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-109373",
+      "summary": "CVE ID :CVE-2026-109373\n  \n  Published : Oct. 12, 2026, 5:17 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :ZITADEL 3.0.0 before 4.19.2 contains an a...",
+      "timestamp": 1791825455.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-109372 - ZITADEL 3.0.0 before 4.19.2 Account Takeover via SAML Identity-Provider Confusion",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-109372",
+      "summary": "CVE ID :CVE-2026-109372\n  \n  Published : Oct. 12, 2026, 5:17 p.m. | 1\u00a0hour, 41\u00a0minutes ago\n  \n  Description :ZITADEL 4.x before 4.19.2 and 3.x through...",
+      "timestamp": 1791825454.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "link": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "summary": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that d...",
+      "timestamp": 1791822443.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Cyberattack shuts down refrigerators at French supermarkets",
+      "link": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+      "summary": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigera...",
+      "timestamp": 1791818614.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
+      "link": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+      "summary": "A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt...",
+      "timestamp": 1791813610.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+      "summary": "Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it had to take some systems offline in response to a ...",
+      "timestamp": 1791813067.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "GitLab warns of max severity code execution vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+      "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attacke...",
+      "timestamp": 1791810549.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
+    {
+      "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
+      "summary": "Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security ...",
+      "timestamp": 1791806313.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
     },
     {
       "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
@@ -107,66 +211,10 @@
       "vendor": "News"
     },
     {
-      "title": "CVE-2026-108865 - AmoyLab Unla through 0.10.0 OAuth2 Authentication Bypass via /authorize",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108865",
-      "summary": "CVE ID :CVE-2026-108865\n  \n  Published : Oct. 11, 2026, 2:17 p.m. | 12\u00a0hours, 24\u00a0minutes ago\n  \n  Description :AmoyLab Unla through 0.10.0 contains an...",
-      "timestamp": 1791728226.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108863 - Katanemo Plano through 0.4.37 Missing Authentication on Envoy Admin Interface",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108863",
-      "summary": "CVE ID :CVE-2026-108863\n  \n  Published : Oct. 11, 2026, 2:17 p.m. | 12\u00a0hours, 24\u00a0minutes ago\n  \n  Description :Katanemo Plano through 0.4.37 contains ...",
-      "timestamp": 1791728226.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108860 - BotSharp through 5.2.0 Authentication Bypass via Hard-Coded JWT Signing Key",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108860",
-      "summary": "CVE ID :CVE-2026-108860\n  \n  Published : Oct. 11, 2026, 2:17 p.m. | 12\u00a0hours, 25\u00a0minutes ago\n  \n  Description :BotSharp through 5.2.0 contains an auth...",
-      "timestamp": 1791728225.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108859 - mcp-go through 1.2.1 Denial of Service via Unbounded POST Body Buffering",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108859",
-      "summary": "CVE ID :CVE-2026-108859\n  \n  Published : Oct. 11, 2026, 2:17 p.m. | 12\u00a0hours, 25\u00a0minutes ago\n  \n  Description :mcp-go through 1.2.1 contains a denial ...",
-      "timestamp": 1791728225.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108853 - UnicomAI Wanwu before 0.6.3 IDOR via DELETE /v1/appspace/app",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108853",
-      "summary": "CVE ID :CVE-2026-108853\n  \n  Published : Oct. 11, 2026, 2:17 p.m. | 12\u00a0hours, 25\u00a0minutes ago\n  \n  Description :UnicomAI Wanwu before 0.6.3 contains an...",
-      "timestamp": 1791728224.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
       "link": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
       "summary": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple report...",
       "timestamp": 1791644874.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
-      "link": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
-      "summary": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration test...",
-      "timestamp": 1791641777.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
-      "link": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
-      "summary": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP ...",
-      "timestamp": 1791635439.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -176,54 +224,6 @@
       "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an inves...",
       "timestamp": 1791591462.0,
       "source": "Krebs on Security",
-      "vendor": "News"
-    },
-    {
-      "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
-      "summary": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ...",
-      "timestamp": 1791577897.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
-      "link": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
-      "summary": "Threat actors are exploiting one critical and one medium-severity vulnerability still unpatched in the AhsayCBS backup management platform to deploy w...",
-      "timestamp": 1791566243.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "FBI arrests another suspected ShinyHunters hacker after agency breach",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
-      "summary": "The FBI has arrested another suspected member of the ShinyHunters extortion group believed to be involved in the recent breach of FBI systems, Directo...",
-      "timestamp": 1791565349.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Germany arrests alleged core Qilin ransomware member after extradition",
-      "link": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
-      "summary": "Germany has arrested a Russian national suspected of being a leading member of the Qilin ransomware group following extradition from Japan earlier thi...",
-      "timestamp": 1791560336.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "How to keep AI agents within their permissions",
-      "link": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
-      "summary": "AI agents can use valid credentials to perform actions beyond their assigned permissions, creating risks that traditional access controls may not prev...",
-      "timestamp": 1791554471.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/max-severity-sonicwall-sma1000-flaw-now-exploited-in-attacks/",
-      "summary": "Attackers are exploiting a maximum-severity vulnerability in SonicWall SMA1000 appliances (CVE-2026-102255) that was patched on Tuesday, three days ag...",
-      "timestamp": 1791549136.0,
-      "source": "BleepingComputer",
       "vendor": "News"
     },
     {
@@ -321,15 +321,7 @@
       "timestamp": 1790928900.0,
       "source": "Palo Alto Networks",
       "vendor": "Palo Alto"
-    },
-    {
-      "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-      "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
-      "summary": "",
-      "timestamp": 1790748900.0,
-      "source": "Palo Alto Networks",
-      "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1791772926.238503
+  "last_updated": 1791834604.4624937
 }
