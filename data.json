@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,16 +52,80 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 10,
+      "new_count": 4,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
+      "title": "CVE-2026-75826 - Teltonika Command Injection in Backup function",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75826",
+      "summary": "CVE ID :CVE-2026-75826\n  \n  Published : Oct. 13, 2026, 7:16 a.m. | 54\u00a0minutes ago\n  \n  Description :Command injection in the backup function in Telton...",
+      "timestamp": 1791875792.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-108971 - D-Link DCS-930L Emergency HTTP Recovery Server bootloader_region.bin mpfd_decode signature verification",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108971",
+      "summary": "CVE ID :CVE-2026-108971\n  \n  Published : Oct. 13, 2026, 6:16 a.m. | 1\u00a0hour, 53\u00a0minutes ago\n  \n  Description :A flaw has been found in D-Link DCS-930L ...",
+      "timestamp": 1791872210.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-109758 - Perforce Helix Authentication Service Hardcoded Credential and Prototype Pollution Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-109758",
+      "summary": "CVE ID :CVE-2026-109758\n  \n  Published : Oct. 13, 2026, 4:17 a.m. | 3\u00a0hours, 53\u00a0minutes ago\n  \n  Description :Perforce Helix Authentication Service (H...",
+      "timestamp": 1791865034.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97229 - Integer Overflow or Wraparound in GitLab",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97229",
+      "summary": "CVE ID :CVE-2026-97229\n  \n  Published : Oct. 13, 2026, 2:17 a.m. | 5\u00a0hours, 53\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
+      "timestamp": 1791857820.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-92883 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92883",
+      "summary": "CVE ID :CVE-2026-92883\n  \n  Published : Oct. 13, 2026, 2:17 a.m. | 5\u00a0hours, 53\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
+      "timestamp": 1791857820.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-35001 - OpenS100 S-102 Parser Integer Overflow Heap Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35001",
+      "summary": "CVE ID :CVE-2026-35001\n  \n  Published : Oct. 13, 2026, 2:16 a.m. | 5\u00a0hours, 53\u00a0minutes ago\n  \n  Description :OpenS100 through commit daa35b contains a...",
+      "timestamp": 1791857819.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-16301 - Incorrect Authorization in GitLab",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16301",
+      "summary": "CVE ID :CVE-2026-16301\n  \n  Published : Oct. 13, 2026, 2:16 a.m. | 5\u00a0hours, 53\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
+      "timestamp": 1791857818.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-14814 - Permissive Regular Expression in GitLab",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14814",
+      "summary": "CVE ID :CVE-2026-14814\n  \n  Published : Oct. 13, 2026, 2:16 a.m. | 5\u00a0hours, 53\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
+      "timestamp": 1791857818.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
       "title": "CVE-2026-89113 - SQL Injection vulnerability in SAP Commerce Cloud (OOTB Code)",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-89113",
-      "summary": "CVE ID :CVE-2026-89113\n  \n  Published : Oct. 13, 2026, 1:16 a.m. | 30\u00a0minutes ago\n  \n  Description :SAP Commerce Cloud does not sufficiently validate ...",
+      "summary": "CVE ID :CVE-2026-89113\n  \n  Published : Oct. 13, 2026, 1:16 a.m. | 6\u00a0hours, 53\u00a0minutes ago\n  \n  Description :SAP Commerce Cloud does not sufficiently ...",
       "timestamp": 1791854208.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
@@ -69,72 +133,8 @@
     {
       "title": "CVE-2026-89111 - OAuth2 SSRF vulnerability in SAP Cloud SDK for Python",
       "link": "https://cvefeed.io/vuln/detail/CVE-2026-89111",
-      "summary": "CVE ID :CVE-2026-89111\n  \n  Published : Oct. 13, 2026, 1:16 a.m. | 30\u00a0minutes ago\n  \n  Description :The SAP Cloud SDK for Python contains an OAuth2 SS...",
+      "summary": "CVE ID :CVE-2026-89111\n  \n  Published : Oct. 13, 2026, 1:16 a.m. | 6\u00a0hours, 53\u00a0minutes ago\n  \n  Description :The SAP Cloud SDK for Python contains an ...",
       "timestamp": 1791854207.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-89110 - Broken Access Control in SAP NetWeaver Visual Composer",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89110",
-      "summary": "CVE ID :CVE-2026-89110\n  \n  Published : Oct. 13, 2026, 1:16 a.m. | 30\u00a0minutes ago\n  \n  Description :SAP NetWeaver Visual Composer does not perform suf...",
-      "timestamp": 1791854207.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-89108 - Missing Authorization check in SAP Manufacturing Integration and Intelligence (Configuration Service)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89108",
-      "summary": "CVE ID :CVE-2026-89108\n  \n  Published : Oct. 13, 2026, 1:16 a.m. | 30\u00a0minutes ago\n  \n  Description :SAP Manufacturing Integration and Intelligence doe...",
-      "timestamp": 1791854207.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-89107 - Code Injection vulnerability in SAP S/4HANA (Manage Substitution/Validation Rules)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89107",
-      "summary": "CVE ID :CVE-2026-89107\n  \n  Published : Oct. 13, 2026, 1:16 a.m. | 30\u00a0minutes ago\n  \n  Description :SAP S/4HANA (Manage Substitution/Validation Rules)...",
-      "timestamp": 1791854207.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-87689 - Metasploit Framework Web Service REST API Missing Authentication on Credential Endpoints",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87689",
-      "summary": "CVE ID :CVE-2026-87689\n  \n  Published : Oct. 13, 2026, 1:16 a.m. | 30\u00a0minutes ago\n  \n  Description :The Metasploit Framework Web Service REST API (msf...",
-      "timestamp": 1791854207.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14814 - Permissive Regular Expression in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14814",
-      "summary": "CVE ID :CVE-2026-14814\n  \n  Published : Oct. 13, 2026, 1:08 a.m. | 39\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab CE/EE aff...",
-      "timestamp": 1791853706.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16301 - Incorrect Authorization in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16301",
-      "summary": "CVE ID :CVE-2026-16301\n  \n  Published : Oct. 13, 2026, 1:08 a.m. | 39\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab CE/EE aff...",
-      "timestamp": 1791853691.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92883 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92883",
-      "summary": "CVE ID :CVE-2026-92883\n  \n  Published : Oct. 13, 2026, 1:05 a.m. | 41\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab CE/EE aff...",
-      "timestamp": 1791853551.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-97229 - Integer Overflow or Wraparound in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97229",
-      "summary": "CVE ID :CVE-2026-97229\n  \n  Published : Oct. 13, 2026, 1:05 a.m. | 41\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab CE/EE aff...",
-      "timestamp": 1791853546.0,
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High"
     },
@@ -323,5 +323,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1791856959.591794
+  "last_updated": 1791883345.1142468
 }
