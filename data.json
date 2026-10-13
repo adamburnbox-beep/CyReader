@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 0,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 0,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -52,171 +52,187 @@
     {
       "source": "CVE Feed.io",
       "vendor": "CVEFeed.io - Critical & Very High",
-      "new_count": 4,
+      "new_count": 10,
       "total_count": 10,
       "status": "ok"
     }
   ],
   "articles": [
     {
-      "title": "CVE-2026-75826 - Teltonika Command Injection in Backup function",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-75826",
-      "summary": "CVE ID :CVE-2026-75826\n  \n  Published : Oct. 13, 2026, 7:16 a.m. | 54\u00a0minutes ago\n  \n  Description :Command injection in the backup function in Telton...",
-      "timestamp": 1791875792.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-108971 - D-Link DCS-930L Emergency HTTP Recovery Server bootloader_region.bin mpfd_decode signature verification",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-108971",
-      "summary": "CVE ID :CVE-2026-108971\n  \n  Published : Oct. 13, 2026, 6:16 a.m. | 1\u00a0hour, 53\u00a0minutes ago\n  \n  Description :A flaw has been found in D-Link DCS-930L ...",
-      "timestamp": 1791872210.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-109758 - Perforce Helix Authentication Service Hardcoded Credential and Prototype Pollution Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-109758",
-      "summary": "CVE ID :CVE-2026-109758\n  \n  Published : Oct. 13, 2026, 4:17 a.m. | 3\u00a0hours, 53\u00a0minutes ago\n  \n  Description :Perforce Helix Authentication Service (H...",
-      "timestamp": 1791865034.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-97229 - Integer Overflow or Wraparound in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97229",
-      "summary": "CVE ID :CVE-2026-97229\n  \n  Published : Oct. 13, 2026, 2:17 a.m. | 5\u00a0hours, 53\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
-      "timestamp": 1791857820.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-92883 - Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92883",
-      "summary": "CVE ID :CVE-2026-92883\n  \n  Published : Oct. 13, 2026, 2:17 a.m. | 5\u00a0hours, 53\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
-      "timestamp": 1791857820.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-35001 - OpenS100 S-102 Parser Integer Overflow Heap Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-35001",
-      "summary": "CVE ID :CVE-2026-35001\n  \n  Published : Oct. 13, 2026, 2:16 a.m. | 5\u00a0hours, 53\u00a0minutes ago\n  \n  Description :OpenS100 through commit daa35b contains a...",
-      "timestamp": 1791857819.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-16301 - Incorrect Authorization in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-16301",
-      "summary": "CVE ID :CVE-2026-16301\n  \n  Published : Oct. 13, 2026, 2:16 a.m. | 5\u00a0hours, 53\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
-      "timestamp": 1791857818.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-14814 - Permissive Regular Expression in GitLab",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-14814",
-      "summary": "CVE ID :CVE-2026-14814\n  \n  Published : Oct. 13, 2026, 2:16 a.m. | 5\u00a0hours, 53\u00a0minutes ago\n  \n  Description :GitLab has remediated an issue in GitLab ...",
-      "timestamp": 1791857818.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-89113 - SQL Injection vulnerability in SAP Commerce Cloud (OOTB Code)",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89113",
-      "summary": "CVE ID :CVE-2026-89113\n  \n  Published : Oct. 13, 2026, 1:16 a.m. | 6\u00a0hours, 53\u00a0minutes ago\n  \n  Description :SAP Commerce Cloud does not sufficiently ...",
-      "timestamp": 1791854208.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-89111 - OAuth2 SSRF vulnerability in SAP Cloud SDK for Python",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-89111",
-      "summary": "CVE ID :CVE-2026-89111\n  \n  Published : Oct. 13, 2026, 1:16 a.m. | 6\u00a0hours, 53\u00a0minutes ago\n  \n  Description :The SAP Cloud SDK for Python contains an ...",
-      "timestamp": 1791854207.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
-      "link": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
-      "summary": "Norway's Data Protection Authority (Datatilsynet) has fined Microsoft-owned advertising company Xandr NOK 92 million ($9.6M) for unlawfully processing...",
-      "timestamp": 1791836032.0,
+      "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+      "link": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+      "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow\u00a0remote code execution t...",
+      "timestamp": 1791927206.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
     {
-      "title": "Yandex confirms service outage as users lose access to cloud files",
-      "link": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
-      "summary": "Russian cloud services provider Yandex\u00a0announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and part...",
-      "timestamp": 1791832981.0,
+      "title": "Anthropic warns self-replicating AI could spread to your smart devices",
+      "link": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
+      "summary": "Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, crea...",
+      "timestamp": 1791926194.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
     {
-      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
-      "link": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
-      "summary": "Anthropic announced that its internal AI models undergoing \"high-risk and cybersecurity evaluations\" no longer have internet access following incident...",
-      "timestamp": 1791831119.0,
+      "title": "Cisco UCS and UCS-Based Appliances UEFI Shell Secure Boot Bypass Vulnerability",
+      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucs-uefi-sb-bypass-eb6xC5GW?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20and%20UCS-Based%20Appliances%20UEFI%20Shell%20Secure%20Boot%20Bypass%20Vulnerability%26vs_k=1",
+      "summary": "A vulnerability in the Unified Extensible Firmware Interface (UEFI) Shell implementation of Cisco UCS Servers and UCS-based appliances could allow an ...",
+      "timestamp": 1791925513.0,
+      "source": "Cisco Advisories",
+      "vendor": "Cisco"
+    },
+    {
+      "title": "CVE-2026-90531 - Adobe Experience Manager is affected by an Imprope",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90531",
+      "summary": "CVE ID :CVE-2026-90531\n  \n  Published : Oct. 13, 2026, 7:56 p.m. | 5\u00a0minutes ago\n  \n  Description :Adobe Experience Manager is affected by an Improper...",
+      "timestamp": 1791921390.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-90532 - Adobe Experience Manager is affected by an Incorre",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90532",
+      "summary": "CVE ID :CVE-2026-90532\n  \n  Published : Oct. 13, 2026, 7:56 p.m. | 5\u00a0minutes ago\n  \n  Description :Adobe Experience Manager is affected by an Incorrec...",
+      "timestamp": 1791921389.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+      "summary": "Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and ...",
+      "timestamp": 1791921369.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
     {
-      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
-      "link": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
-      "summary": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that d...",
-      "timestamp": 1791822443.0,
+      "title": "Microsoft releases Windows 10 KB5126657 extended security update",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
+      "summary": "Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday fixes and...",
+      "timestamp": 1791920850.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
     {
-      "title": "Cyberattack shuts down refrigerators at French supermarkets",
-      "link": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
-      "summary": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigera...",
-      "timestamp": 1791818614.0,
+      "title": "CVE-2026-86016 - VNote Cross-Site Scripting Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86016",
+      "summary": "CVE ID :CVE-2026-86016\n  \n  Published : Oct. 13, 2026, 7:40 p.m. | 21\u00a0minutes ago\n  \n  Description :VNote is a note-taking platform. Prior to 4.3.0, V...",
+      "timestamp": 1791920406.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97816 - OpenSSH for Windows Use-After-Free Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97816",
+      "summary": "CVE ID :CVE-2026-97816\n  \n  Published : Oct. 13, 2026, 7:22 p.m. | 39\u00a0minutes ago\n  \n  Description :Use after free in OpenSSH for Windows allows an un...",
+      "timestamp": 1791919340.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97815 - Windows Error Reporting Heap-Based Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97815",
+      "summary": "CVE ID :CVE-2026-97815\n  \n  Published : Oct. 13, 2026, 7:22 p.m. | 39\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Windows Error Report...",
+      "timestamp": 1791919339.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97814 - Windows Text Shaping Heap-Based Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97814",
+      "summary": "CVE ID :CVE-2026-97814\n  \n  Published : Oct. 13, 2026, 7:22 p.m. | 39\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Windows Text Shaping...",
+      "timestamp": 1791919339.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97805 - Windows Partition Management Driver Out-of-Bounds Read Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97805",
+      "summary": "CVE ID :CVE-2026-97805\n  \n  Published : Oct. 13, 2026, 7:22 p.m. | 39\u00a0minutes ago\n  \n  Description :Out-of-bounds read in Windows Partition Management...",
+      "timestamp": 1791919338.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97783 - Microsoft SharePoint Cross-Site Scripting Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97783",
+      "summary": "CVE ID :CVE-2026-97783\n  \n  Published : Oct. 13, 2026, 7:22 p.m. | 39\u00a0minutes ago\n  \n  Description :Improper neutralization of input during web page g...",
+      "timestamp": 1791919336.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97781 - Microsoft Office OneNote Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97781",
+      "summary": "CVE ID :CVE-2026-97781\n  \n  Published : Oct. 13, 2026, 7:22 p.m. | 39\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements used i...",
+      "timestamp": 1791919336.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97780 - Microsoft Office Excel Heap-Based Buffer Overflow",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97780",
+      "summary": "CVE ID :CVE-2026-97780\n  \n  Published : Oct. 13, 2026, 7:22 p.m. | 39\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Microsoft Office Exc...",
+      "timestamp": 1791919336.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
+      "summary": "Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer receive monthl...",
+      "timestamp": 1791918278.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
     {
-      "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
-      "link": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
-      "summary": "A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt...",
-      "timestamp": 1791813610.0,
+      "title": "UK Housing Ombudsman Service investigates 'security incident'",
+      "link": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
+      "summary": "The U.K. Housing Ombudsman Service is investigating a third-party IT security incident that impacted its case management system on Tuesday. [...]",
+      "timestamp": 1791915584.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
     {
-      "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
-      "summary": "Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it had to take some systems offline in response to a ...",
-      "timestamp": 1791813067.0,
+      "title": "Windows 11 KB5127648 & KB5126653 cumulative updates released",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
+      "summary": "Microsoft has released the Patch Tuesday Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vu...",
+      "timestamp": 1791913778.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
     {
-      "title": "GitLab warns of max severity code execution vulnerability",
-      "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
-      "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attacke...",
-      "timestamp": 1791810549.0,
+      "title": "TFG London cyberattack disrupts systems at Hobbs and Whistles retailers",
+      "link": "https://www.bleepingcomputer.com/news/security/tfg-london-cyberattack-disrupts-systems-at-hobbs-and-whistles-retailers/",
+      "summary": "TFG London detected a cybersecurity incident that impacted IT systems used by the Phase Eight, Hobbs, and Whistles premium fashion brands. [...]",
+      "timestamp": 1791909858.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
     {
-      "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
-      "summary": "Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security ...",
-      "timestamp": 1791806313.0,
+      "title": "Ivanti warns of Connect Secure zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
+      "summary": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access g...",
+      "timestamp": 1791906350.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
     {
-      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
-      "link": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
-      "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8...",
-      "timestamp": 1791728626.0,
+      "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
+      "link": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
+      "summary": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a ...",
+      "timestamp": 1791904820.0,
       "source": "BleepingComputer",
       "vendor": "News"
+    },
+    {
+      "title": "October 2026 Security Update",
+      "link": "https://www.ivanti.com/blog/october-2026-security-update",
+      "summary": "Security is foundational to how Ivanti builds, tests, and supports our products. We continue to strengthen our secure product development practices th...",
+      "timestamp": 1791901982.0,
+      "source": "Ivanti Security",
+      "vendor": "Ivanti"
     },
     {
       "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
@@ -299,14 +315,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "Cisco Nexus 9000 Series Fabric Switches in ACI Mode Endpoint Group Contract Bypass Vulnerability",
-      "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-aci-epgcbp-SfDU7NLf?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Nexus%209000%20Series%20Fabric%20Switches%20in%20ACI%20Mode%20Endpoint%20Group%20Contract%20Bypass%20Vulnerability%26vs_k=1",
-      "summary": "A vulnerability in the endpoint group (EPG) contract functionality of Cisco Nexus 9000 Series Fabric Switches in ACI Mode could allow an unauthenticat...",
-      "timestamp": 1791388800.0,
-      "source": "Cisco Advisories",
-      "vendor": "Cisco"
-    },
-    {
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
       "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
       "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooper...",
@@ -323,5 +331,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1791883345.1142468
+  "last_updated": 1791928341.358045
 }
