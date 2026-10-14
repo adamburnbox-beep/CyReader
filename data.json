@@ -1,6 +1,6 @@
 {
  "version": 2,
- "last_updated": 1791972212.7349277,
+ "last_updated": 1791979319.6598213,
  "retention_days": 30,
  "stats": [
   {
@@ -12,11 +12,11 @@
    "error": "HTTP Error 403: Forbidden",
    "new_count": 0,
    "total_count": 0,
-   "latency_ms": 9292,
-   "last_checked": 1791972212.7349277,
+   "latency_ms": 9309,
+   "last_checked": 1791979319.6598213,
    "last_success": null,
    "last_new": null,
-   "failures": 1
+   "failures": 2
   },
   {
    "source": "ASD Alerts",
@@ -27,11 +27,11 @@
    "error": "The read operation timed out",
    "new_count": 0,
    "total_count": 0,
-   "latency_ms": 84235,
-   "last_checked": 1791972212.7349277,
+   "latency_ms": 84437,
+   "last_checked": 1791979319.6598213,
    "last_success": null,
    "last_new": null,
-   "failures": 1
+   "failures": 2
   },
   {
    "source": "Microsoft MSRC",
@@ -40,11 +40,11 @@
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "status": "ok",
    "error": null,
-   "new_count": 50,
+   "new_count": 0,
    "total_count": 50,
-   "latency_ms": 1933,
-   "last_checked": 1791972212.7349277,
-   "last_success": 1791972212.7349277,
+   "latency_ms": 3167,
+   "last_checked": 1791979319.6598213,
+   "last_success": 1791979319.6598213,
    "last_new": 1791972212.7349277,
    "failures": 0
   },
@@ -55,12 +55,12 @@
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "status": "ok",
    "error": null,
-   "new_count": 24,
+   "new_count": 23,
    "total_count": 25,
-   "latency_ms": 191,
-   "last_checked": 1791972212.7349277,
-   "last_success": 1791972212.7349277,
-   "last_new": 1791972212.7349277,
+   "latency_ms": 192,
+   "last_checked": 1791979319.6598213,
+   "last_success": 1791979319.6598213,
+   "last_new": 1791979319.6598213,
    "failures": 0
   },
   {
@@ -70,11 +70,11 @@
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "status": "ok",
    "error": null,
-   "new_count": 40,
+   "new_count": 0,
    "total_count": 50,
-   "latency_ms": 774,
-   "last_checked": 1791972212.7349277,
-   "last_success": 1791972212.7349277,
+   "latency_ms": 615,
+   "last_checked": 1791979319.6598213,
+   "last_success": 1791979319.6598213,
    "last_new": 1791972212.7349277,
    "failures": 0
   },
@@ -85,12 +85,12 @@
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "status": "ok",
    "error": null,
-   "new_count": 50,
+   "new_count": 38,
    "total_count": 50,
-   "latency_ms": 478,
-   "last_checked": 1791972212.7349277,
-   "last_success": 1791972212.7349277,
-   "last_new": 1791972212.7349277,
+   "latency_ms": 1046,
+   "last_checked": 1791979319.6598213,
+   "last_success": 1791979319.6598213,
+   "last_new": 1791979319.6598213,
    "failures": 0
   },
   {
@@ -102,10 +102,10 @@
    "error": null,
    "new_count": 18,
    "total_count": 19,
-   "latency_ms": 183,
-   "last_checked": 1791972212.7349277,
-   "last_success": 1791972212.7349277,
-   "last_new": 1791972212.7349277,
+   "latency_ms": 212,
+   "last_checked": 1791979319.6598213,
+   "last_success": 1791979319.6598213,
+   "last_new": 1791979319.6598213,
    "failures": 0
   },
   {
@@ -115,11 +115,11 @@
    "url": "https://ubuntu.com/security/notices/rss.xml",
    "status": "ok",
    "error": null,
-   "new_count": 10,
+   "new_count": 0,
    "total_count": 10,
-   "latency_ms": 671,
-   "last_checked": 1791972212.7349277,
-   "last_success": 1791972212.7349277,
+   "latency_ms": 629,
+   "last_checked": 1791979319.6598213,
+   "last_success": 1791979319.6598213,
    "last_new": 1791972212.7349277,
    "failures": 0
   },
@@ -130,11 +130,11 @@
    "url": "https://chromereleases.googleblog.com/feeds/posts/default",
    "status": "ok",
    "error": null,
-   "new_count": 9,
+   "new_count": 0,
    "total_count": 9,
-   "latency_ms": 592,
-   "last_checked": 1791972212.7349277,
-   "last_success": 1791972212.7349277,
+   "latency_ms": 827,
+   "last_checked": 1791979319.6598213,
+   "last_success": 1791979319.6598213,
    "last_new": 1791972212.7349277,
    "failures": 0
   },
@@ -145,12 +145,27 @@
    "url": "https://www.zerodayinitiative.com/rss/published/",
    "status": "ok",
    "error": null,
-   "new_count": 50,
+   "new_count": 0,
    "total_count": 50,
-   "latency_ms": 1732,
-   "last_checked": 1791972212.7349277,
-   "last_success": 1791972212.7349277,
+   "latency_ms": 1887,
+   "last_checked": 1791979319.6598213,
+   "last_success": 1791979319.6598213,
    "last_new": 1791972212.7349277,
+   "failures": 0
+  },
+  {
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "url": "https://cvefeed.io/rssfeed/severity/high.xml",
+   "status": "ok",
+   "error": null,
+   "new_count": 25,
+   "total_count": 25,
+   "latency_ms": 380,
+   "last_checked": 1791979319.6598213,
+   "last_success": 1791979319.6598213,
+   "last_new": 1791979319.6598213,
    "failures": 0
   },
   {
@@ -160,12 +175,42 @@
    "url": "https://krebsonsecurity.com/feed/",
    "status": "ok",
    "error": null,
-   "new_count": 7,
+   "new_count": 4,
    "total_count": 10,
-   "latency_ms": 942,
-   "last_checked": 1791972212.7349277,
-   "last_success": 1791972212.7349277,
-   "last_new": 1791972212.7349277,
+   "latency_ms": 706,
+   "last_checked": 1791979319.6598213,
+   "last_success": 1791979319.6598213,
+   "last_new": 1791979319.6598213,
+   "failures": 0
+  },
+  {
+   "source": "F5 Community Security",
+   "vendor": "F5",
+   "category": "Vendor",
+   "url": "https://community.f5.com/tag/security/20.rss",
+   "status": "ok",
+   "error": null,
+   "new_count": 30,
+   "total_count": 30,
+   "latency_ms": 2004,
+   "last_checked": 1791979319.6598213,
+   "last_success": 1791979319.6598213,
+   "last_new": 1791979319.6598213,
+   "failures": 0
+  },
+  {
+   "source": "Juniper Mist Security Alerts",
+   "vendor": "Juniper",
+   "category": "Vendor",
+   "url": "https://www.mist.com/documentation/category/security-alerts/feed/",
+   "status": "ok",
+   "error": null,
+   "new_count": 10,
+   "total_count": 10,
+   "latency_ms": 470,
+   "last_checked": 1791979319.6598213,
+   "last_success": 1791979319.6598213,
+   "last_new": 1791979319.6598213,
    "failures": 0
   },
   {
@@ -178,13 +223,374 @@
    "new_count": 0,
    "total_count": 1741,
    "latency_ms": 0,
-   "last_checked": 1791972212.7349277,
-   "last_success": 1791972212.7349277,
+   "last_checked": 1791979319.6598213,
+   "last_success": 1791979319.6598213,
    "last_new": null,
    "failures": 0
   }
  ],
  "articles": [
+  {
+   "id": "5bdbd2a3e1d35ef3",
+   "title": "CVE-2026-103905 - Unauthenticated Plugin Safe Mode Toggle Vulnerability in JTL-Shop",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-103905",
+   "summary": "CVE ID : CVE-2026-103905 Published : Oct. 14, 2026, 10:34 a.m. | 25 minutes ago Description : The authentication middleware of the JTL-Shop administration backend processes the plugin safe mode toggle on the admin logout route before checking whether the requesting user is authenticated. An unauthenticated remote attacker can therefore switch the shop's plugin safe mode on and off, which deactivates all installed plugins and their functionality, such as payment and shipping integrations, resulting in a shop-wide denial of service. The attack requires a single request and can be automated again...",
+   "timestamp": 1791974074,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-103905"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "3136bbd110e4afc3",
+   "title": "CVE-2026-103904 - Stored XSS Vulnerability in JTL-Shop",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-103904",
+   "summary": "CVE ID : CVE-2026-103904 Published : Oct. 14, 2026, 10:23 a.m. | 36 minutes ago Description : The public consent endpoint of JTL-Shop accepts arbitrary consent names from unauthenticated visitors without validating them against the configured consent items. These names are stored in the consent statistics and rendered without output encoding in the administration backend. An unauthenticated remote attacker can thereby inject script code that is executed in the browser session of an administrator viewing the consent statistics page, allowing actions to be performed with the administrator's priv...",
+   "timestamp": 1791973409,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-103904"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "555386c633ea2ec2",
+   "title": "CVE-2026-86476 - Gstreamer1-plugins-base: gst-plugins-base: heap buffer overflow via unvalidated gstvideometa plane extents in gst_video_frame_map_id and video_meta_deserialize",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-86476",
+   "summary": "CVE ID : CVE-2026-86476 Published : Oct. 14, 2026, 10:17 a.m. | 42 minutes ago Description : A flaw was found in gst-plugins-base. A heap buffer overflow can be triggered when processing video buffers whose attached GstVideoMeta metadata declares plane strides and offsets that exceed the actual backing memory allocation. The metadata is not range-checked during deserialization, and the video frame mapping code does not verify that the declared plane geometry fits within the buffer before allowing consumers to read or write video data. A local attacker who controls the sending side of a GStream...",
+   "timestamp": 1791973076,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-86476"
+   ],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "5c7a89e6c103762e",
+   "title": "CVE-2026-73790 - HPE NonStop iTP WebServer - Memory corruption vulnerability",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-73790",
+   "summary": "CVE ID : CVE-2026-73790 Published : Oct. 14, 2026, 9:17 a.m. | 1 hour, 42 minutes ago Description : A vulnerability in HPE NonStop iTP WebServer can cause memory corruption and system shutdown. Severity: 8.2 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1791969442,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-73790"
+   ],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "e40daafe05d1ccad",
+   "title": "CVE-2026-14851 - Unauthorised disclosure of information on Copart’s online billing service",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-14851",
+   "summary": "CVE ID : CVE-2026-14851 Published : Oct. 14, 2026, 9:17 a.m. | 1 hour, 42 minutes ago Description : A vulnerability relating to the exposure of confidential information in the customer invoicing web application, which exposes personally identifiable information (PII) and financial data – including customer names, addresses, invoice numbers, payment details and tax information – to unauthorised individuals. The issue is caused by a lack of authorisation checks at the endpoint responsible for serving PDF invoice files. Furthermore, some URLs for invoicing documents appear to be publicly accessib...",
+   "timestamp": 1791969442,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-14851"
+   ],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "70085ee5144d7c1b",
+   "title": "CVE-2026-109901 - WordPress CP Multi View Event Calendar plugin <= 1.4.41 - SQL Injection vulnerability",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-109901",
+   "summary": "CVE ID : CVE-2026-109901 Published : Oct. 14, 2026, 8:17 a.m. | 2 hours, 43 minutes ago Description : Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Codepeople CP Multi View Event Calendar cp-multi-view-calendar allows SQL Injection.This issue affects CP Multi View Event Calendar : from n/a through 1.4.41. Severity: 8.5 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1791965825,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-109901"
+   ],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "c1a4fabfbc68daf4",
+   "title": "CVE-2026-105106 - Koha authenticated OS command injection in tools/scheduler.pl via the jobid parameter when deleting a scheduled task",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-105106",
+   "summary": "CVE ID : CVE-2026-105106 Published : Oct. 14, 2026, 8:17 a.m. | 2 hours, 43 minutes ago Description : Koha is vulnerable to OS command injection in the Task Scheduler deletion path. The tools/scheduler.pl handler accepts the jobid request parameter for op=cud-delete and passes it to C4::Scheduler::remove_at_job without validating it. Schedule::At::remove substitutes the supplied job ID into an atrm command string without quoting or escaping it and executes the command through a single-argument system() call, which invokes the shell. An authenticated staff user with the tools => schedule_tasks...",
+   "timestamp": 1791965823,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-105106"
+   ],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "3884342f9c4ac77f",
+   "title": "CVE-2026-104909 - Mang Board _type' Parameter",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-104909",
+   "summary": "CVE ID : CVE-2026-104909 Published : Oct. 14, 2026, 8:17 a.m. | 2 hours, 43 minutes ago Description : The Mang Board plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.4.3 via the '_type (e.g. foo_type)' parameter parameter. This makes it possible for unauthenticated attackers to include and execute arbitrary .php files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where .php file types can be uploaded and included. Exploi...",
+   "timestamp": 1791965823,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-104909"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "c87b4900e73d2eaa",
+   "title": "CVE-2026-104748 - SimpleForm <= 3.10.0 - Unauthenticated Privilege Escalation to wp_capabilities Mass Assignment via simpleform_wp_register",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-104748",
+   "summary": "CVE ID : CVE-2026-104748 Published : Oct. 14, 2026, 8:17 a.m. | 2 hours, 43 minutes ago Description : The SimpleForm – Form Maker to Chat Apps with Quiz, Poll and Multi Lead Notifications plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.10.0 This is due to the `wp_ajax_nopriv_simpleform_wp_register` AJAX action lacking any capability check for role assignment and the `save_custom_fields_to_user_meta()` function using an exclusion list that omits `wp_capabilities`, combined with `get_form_settings()` returning a hard-coded defaults array that un...",
+   "timestamp": 1791965822,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-104748"
+   ],
+   "tags": [
+    "auth-bypass",
+    "priv-esc"
+   ],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "29db23155a0a23eb",
+   "title": "CVE-2026-103367 - ShopMagic <= 4.9.0 - Unauthenticated Local File Inclusion via 'billing.first_name' Parameter",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-103367",
+   "summary": "CVE ID : CVE-2026-103367 Published : Oct. 14, 2026, 8:17 a.m. | 2 hours, 43 minutes ago Description : The ShopMagic – email automation for WordPress plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 4.9.0 via the 'billing_address.first_name' parameter parameter. This makes it possible for unauthenticated attackers to include and execute arbitrary .php files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where .php file types...",
+   "timestamp": 1791965822,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-103367"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "24d39969ba6d9d3b",
+   "title": "CVE-2026-89310 - SQL Command Injection Vulnerability in JTL-WMS",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-89310",
+   "summary": "CVE ID : CVE-2026-89310 Published : Oct. 14, 2026, 7:17 a.m. | 3 hours, 43 minutes ago Description : A parameter taken from the request body is inserted into a T-SQL statement without parameterization or escaping, allowing a remote attacker to execute arbitrary SQL statements in the context of the application's database account. Severity: 9.9 | CRITICAL Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1791962224,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-89310"
+   ],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "6678a79311a80536",
+   "title": "CVE-2026-50218 - Akamai Guardicore Platform Agent JWT Validation Vulnerability",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-50218",
+   "summary": "CVE ID : CVE-2026-50218 Published : Oct. 14, 2026, 6:17 a.m. | 4 hours, 42 minutes ago Description : Akamai GPA (Guardicore Platform Agent) client on all platforms before 7.4 improperly validates JWT tokens used for seeding. By convincing a user to interact with a malicious link, an attacker can use a spoofed JWT token to inject arbitrary parameters into the client software, resulting in unauthorized reconfiguration and full compromise of the application's functionality. This attack can also be targeted against an already seeded client if the attacker knows the URL of the IDP that the client u...",
+   "timestamp": 1791958626,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-50218"
+   ],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "e1ad363a3d377fcf",
+   "title": "CVE-2026-110459 - UniFi Protect AI Key Improper Access Control Vulnerability",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-110459",
+   "summary": "CVE ID : CVE-2026-110459 Published : Oct. 14, 2026, 6:17 a.m. | 4 hours, 42 minutes ago Description : A malicious actor with access to the network could exploit an Improper Access Control vulnerability found in UniFi Protect AI Key to obtain information, make unauthorized changes, and execute a Denial of Service (DoS) attack on the device. Severity: 8.6 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1791958626,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-110459"
+   ],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "f90f8b6a95d14118",
+   "title": "CVE-2026-110455 - UniFi Protect AI Key Command Injection Vulnerability",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-110455",
+   "summary": "CVE ID : CVE-2026-110455 Published : Oct. 14, 2026, 5:16 a.m. | 5 hours, 43 minutes ago Description : A malicious actor with access to the network and under certain conditions could exploit an Improper Input Validation vulnerability found in UniFi Protect AI Key to execute a Command Injection on the device. Severity: 8.1 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1791955003,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-110455"
+   ],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "9135c6f380e61d98",
+   "title": "CVE-2026-110450 - Nix and Lix Privilege Escalation Vulnerability",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-110450",
+   "summary": "CVE ID : CVE-2026-110450 Published : Oct. 14, 2026, 5:16 a.m. | 5 hours, 43 minutes ago Description : Nix before 2.35.3 and Lix before 2.95.4 allow privilege escalation via a repair operation because it could destroy and then replace a store path before content verification. Severity: 8.0 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1791955002,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-110450"
+   ],
+   "tags": [
+    "priv-esc"
+   ],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "0ae08f150692262b",
+   "title": "CVE-2026-106931 - SiteGuard Server Edition OS Command Injection Vulnerability",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-106931",
+   "summary": "CVE ID : CVE-2026-106931 Published : Oct. 14, 2026, 5:16 a.m. | 5 hours, 43 minutes ago Description : SiteGuard Server Edition contains an OS command injection vulnerability, which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product. Severity: 8.5 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1791955002,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-106931"
+   ],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "3e12381e23ac6963",
+   "title": "CVE-2026-105429 - NetBird client SSH config Match line injection via peer FQDN or hostname allows local command execution",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-105429",
+   "summary": "CVE ID : CVE-2026-105429 Published : Oct. 14, 2026, 5:16 a.m. | 5 hours, 43 minutes ago Description : Improper neutralization of special elements in the NetBird client SSH configuration manager (client/ssh/config/manager.go) in NetBird versions 0.60.0 through 0.74.6 allows a malicious or compromised peer to execute arbitrary commands on other NetBird client hosts. The client writes a system-wide OpenSSH drop-in file (/etc/ssh/ssh_config.d/99-netbird.conf, or the equivalent under %PROGRAMDATA%\\ssh\\ssh_config.d on Windows) that embeds each peer FQDN or hostname inside a double-quoted Match host...",
+   "timestamp": 1791955002,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-105429"
+   ],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "dc01b42fba2f879a",
+   "title": "CVE-2026-87855 - JTL-Connector for WooCommerce <= 2.4.3 - Unauthenticated Arbitrary File Upload via 'image.push' Method",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-87855",
+   "summary": "CVE ID : CVE-2026-87855 Published : Oct. 14, 2026, 4:18 a.m. | 6 hours, 41 minutes ago Description : The JTL-Connector for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.4.3 via the saveImage() function. This is due to the startSession() function accepting an empty jtlauth parameter as a valid credential, combined with insufficient file type validation in handleImagePush(). This makes it possible for unauthenticated attackers to upload files that may be executable, which makes remote code execution possible. Severity: 9.8 | CRITI...",
+   "timestamp": 1791951532,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-87855"
+   ],
+   "tags": [
+    "rce",
+    "auth-bypass"
+   ],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "b4732fc52662d968",
+   "title": "CVE-2026-104800 - AGE-GATE <= 1.0 - Unauthenticated Remote Code Execution via PHP Code Injection via 'width'/'height' Parameters to Standalone admin.php",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-104800",
+   "summary": "CVE ID : CVE-2026-104800 Published : Oct. 14, 2026, 4:18 a.m. | 6 hours, 41 minutes ago Description : The AGE-GATE plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.0 via the 'width (and height)' parameter parameter. This is due to missing authentication, capability checks, and nonce verification on the standalone admin.php endpoint, combined with unsanitized injection of POST parameters directly into generated PHP source written to an included file. This makes it possible for unauthenticated attackers to execute code on the server. This is pos...",
+   "timestamp": 1791951492,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-104800"
+   ],
+   "tags": [
+    "rce",
+    "auth-bypass"
+   ],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
   {
    "id": "6ba636418a964c18",
    "title": "USN-8925-1: YAML-LibYAML vulnerabilities",
@@ -205,6 +611,132 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
+   "kev": false
+  },
+  {
+   "id": "559524cc4902a248",
+   "title": "CVE-2026-97668 - Abandoned Cart Pro for WooCommerce <= 10.8.0 - Unauthenticated SQL Injection via Guest Persistent Cart meta_value",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-97668",
+   "summary": "CVE ID : CVE-2026-97668 Published : Oct. 14, 2026, 3:17 a.m. | 7 hours, 42 minutes ago Description : The Abandoned Cart Pro for WooCommerce plugin for WordPress is vulnerable to SQL Injection via the guest cart persistent meta_value in all versions up to, and including, 10.8.0 due to insufficient escaping on user supplied data and lack of sufficient preparation on the existing SQL query in the update_guest_persistent_cart() function. The abandoned_cart_info value, populated from attacker-controlled checkout fields such as the SMS consent field, is passed through stripslashes() and concatenated...",
+   "timestamp": 1791947857,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-97668"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "725ef6a08e364305",
+   "title": "CVE-2026-97657 - Abandoned Cart Pro for WooCommerce <= 10.8.0 - Unauthenticated Authentication Bypass via Malleable Encryption and Bypassable HMAC via Recovery Link 'validate' Parameter",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-97657",
+   "summary": "CVE ID : CVE-2026-97657 Published : Oct. 14, 2026, 3:17 a.m. | 7 hours, 42 minutes ago Description : The Abandoned Cart Pro for WooCommerce plugin for WordPress is vulnerable to Authentication Bypass via Malleable Encryption and Bypassable HMAC in all versions up to, and including, 10.8.0. This is due to the use of MAC-free AES-CTR encryption for cart-recovery link tokens — where the 8-byte CTR nonce is carried inside the ciphertext blob and the encryption key is looked up using the attacker-supplied `user_email` GET parameter — combined with an HMAC nonce check in `wcap_email_track_links()` t...",
+   "timestamp": 1791947857,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-97657"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "19bc0636e22df315",
+   "title": "CVE-2026-110447 - Collabora Online CODE Server OS Command Injection Vulnerability",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-110447",
+   "summary": "CVE ID : CVE-2026-110447 Published : Oct. 14, 2026, 3:17 a.m. | 7 hours, 42 minutes ago Description : Collabora Online Built-in CODE Server before 26.4.303 (richdocumentscode), a Nextcloud app, allows remote code execution, as exploited in the wild in September and October 2026, a different vulnerability than CVE-2025-66208. This is an OS command injection in proxy.php when the CODE server isn't running (e.g., the product was recently restarted). The vulnerability is not present in standalone Collabora Online servers; only this deployment with CODE Server is affected. Severity: 9.2 | CRITICAL...",
+   "timestamp": 1791947840,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2025-66208",
+    "CVE-2026-110447"
+   ],
+   "tags": [
+    "exploited",
+    "rce"
+   ],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "805eb8cebff0bd22",
+   "title": "CVE-2026-110445 - TEAMPLUS TECHNOLOGY｜TeamPlus Messenger - Code Injection",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-110445",
+   "summary": "CVE ID : CVE-2026-110445 Published : Oct. 14, 2026, 3:17 a.m. | 7 hours, 42 minutes ago Description : TeamPlus Messenger developed by Teamplus Technology has a Code Injection vulnerability. Unauthenticated remote attackers can trick users into interacting with crafted content to inject and execute arbitrary JavaScript. After the user confirms a Windows security warning, attackers can execute arbitrary code with the privileges of the current user. Severity: 8.8 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1791947840,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-110445"
+   ],
+   "tags": [
+    "rce",
+    "auth-bypass"
+   ],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "7d869192f62e4d2a",
+   "title": "CVE-2026-110444 - TEAMPLUS TECHNOLOGY｜TeamPlus Messenger - Code Injection",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-110444",
+   "summary": "CVE ID : CVE-2026-110444 Published : Oct. 14, 2026, 3:17 a.m. | 7 hours, 42 minutes ago Description : TeamPlus Messenger developed by Teamplus Technology has a Code Injection vulnerability. Unauthenticated remote attackers can trick users into opening a crafted link to inject and execute arbitrary JavaScript. After the user confirms a Windows security warning, attackers can execute arbitrary code with the privileges of the current user. Severity: 8.8 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1791947840,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-110444"
+   ],
+   "tags": [
+    "rce",
+    "auth-bypass"
+   ],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "c563de0cc4305bb4",
+   "title": "CVE-2026-110002 - Snazzy Social Media Feed <= 2.5 - Unauthenticated Arbitrary File Upload via 'pluginURL' Parameter",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-110002",
+   "summary": "CVE ID : CVE-2026-110002 Published : Oct. 14, 2026, 3:17 a.m. | 7 hours, 42 minutes ago Description : The Snazzy Social Media Feed plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.5 via the (file scope) function. This is due to missing WordPress bootstrap, authentication, capability, and nonce checks in the standalone save-to-cache.php script, combined with insufficient sanitization of the pluginURL parameter before it is written to a web-executable PHP file. This makes it possible for authenticated attackers, with subscriber-level access and...",
+   "timestamp": 1791947840,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-110002"
+   ],
+   "tags": [
+    "rce",
+    "auth-bypass"
+   ],
+   "first_seen": 1791979319.6598213,
    "kev": false
   },
   {
@@ -238,6 +770,7 @@
    "cves": [],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -313,6 +846,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -358,6 +892,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -387,6 +922,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -1455,6 +1991,7 @@
     "exploited"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": true,
    "kev_due": "2026-08-30"
   },
@@ -1481,6 +2018,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -1510,6 +2048,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -1529,6 +2068,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -1555,6 +2095,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -1583,6 +2124,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2652,6 +3194,7 @@
     "exploited"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": true,
    "kev_due": "2026-08-30"
   },
@@ -2690,6 +3233,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2710,6 +3254,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2730,6 +3275,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2746,6 +3292,7 @@
    "cves": [],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2766,6 +3313,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2786,6 +3334,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2804,6 +3353,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2824,6 +3374,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2844,6 +3395,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2864,6 +3416,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2884,6 +3437,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2902,6 +3456,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2920,6 +3475,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2938,6 +3494,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2956,6 +3513,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2974,6 +3532,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -2994,6 +3553,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3014,6 +3574,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3034,6 +3595,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3054,6 +3616,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3074,6 +3637,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3094,6 +3658,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3114,6 +3679,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3134,6 +3700,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3152,6 +3719,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3172,6 +3740,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3192,6 +3761,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3212,6 +3782,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3232,6 +3803,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3250,6 +3822,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3268,6 +3841,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3288,6 +3862,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3306,6 +3881,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3324,6 +3900,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3344,6 +3921,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3364,6 +3942,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3384,6 +3963,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3404,6 +3984,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3424,6 +4005,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3444,6 +4026,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3464,6 +4047,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3484,6 +4068,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3502,6 +4087,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3520,6 +4106,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3540,6 +4127,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3560,6 +4148,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3580,6 +4169,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3600,6 +4190,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3620,6 +4211,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3640,6 +4232,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3663,6 +4256,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3681,6 +4275,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3697,6 +4292,7 @@
    "cves": [],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3713,6 +4309,7 @@
    "cves": [],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3731,6 +4328,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3749,6 +4347,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3765,6 +4364,7 @@
    "cves": [],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3783,6 +4383,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3799,6 +4400,7 @@
    "cves": [],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3815,6 +4417,7 @@
    "cves": [],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3831,6 +4434,7 @@
    "cves": [],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3847,6 +4451,7 @@
    "cves": [],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3865,6 +4470,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3881,6 +4487,7 @@
    "cves": [],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3897,6 +4504,7 @@
    "cves": [],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3913,6 +4521,7 @@
    "cves": [],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3931,6 +4540,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -3974,6 +4584,38 @@
    "kev_due": "2026-10-16",
    "first_seen": 1791972212.7349277,
    "kev": true
+  },
+  {
+   "id": "d541484ebbb5f410",
+   "title": "How the F5 ADSP Delivers End-to-End Protection for GenAI Workloads",
+   "link": "https://community.f5.com/t/how-the-f5-adsp-delivers-end-to-end-protection-for-genai-workloads/77490",
+   "summary": "Welcome to our deep dive into the 2024 Application Delivery Top Ten challenges. Today, we’re tackling ADC08: Lack of Security and Regulatory Compliance . In the era of hybrid cloud and AI, legacy security models that only protect the perimeter are no longer sufficient. Modern applications, especially generative AI pipelines, have a sprawling attack surface that extends from the public internet deep into the Kubernetes cluster and out to third-party API services. Failing to secure this entire pathway exposes organizations to significant risks, including data breaches, compliance violations (PCI...",
+   "timestamp": 1791808938,
+   "source": "F5 Community Security",
+   "vendor": "F5",
+   "category": "Vendor",
+   "severity": "info",
+   "cvss": null,
+   "cves": [],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "34d3edf2a0acf839",
+   "title": "STD WAF Course of F5",
+   "link": "https://community.f5.com/t/std-waf-course-of-f5/77550",
+   "summary": "Hi All, I would like to ask if anyone has taken STD course for Advanced WAF from F5? Is it really worth it? Will it make a big difference for a beginner engineer in WAF or YouTube and daily operation tasks is enough. Thanks 1 post - 1 participant Read full topic",
+   "timestamp": 1791727433,
+   "source": "F5 Community Security",
+   "vendor": "F5",
+   "category": "Vendor",
+   "severity": "info",
+   "cvss": null,
+   "cves": [],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
+   "kev": false
   },
   {
    "id": "7f5dd566b2dd8d8c",
@@ -4115,6 +4757,23 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
+   "kev": false
+  },
+  {
+   "id": "2a0a9b1134f3d8c5",
+   "title": "How to attach application security policy on VS if ASM and LTM are two different appliances",
+   "link": "https://community.f5.com/t/how-to-attach-application-security-policy-on-vs-if-asm-and-ltm-are-two-different-appliances/77543",
+   "summary": "Hi all, I need to know is it possible to configure application security policy (waf) for virtual server if the ASM and LTM are two different separated devices? If it is possible how can I do that? 5 posts - 2 participants Read full topic",
+   "timestamp": 1791557453,
+   "source": "F5 Community Security",
+   "vendor": "F5",
+   "category": "Vendor",
+   "severity": "info",
+   "cvss": null,
+   "cves": [],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
    "kev": false
   },
   {
@@ -4137,6 +4796,22 @@
    ],
    "first_seen": 1791468683.0,
    "epss": null,
+   "kev": false
+  },
+  {
+   "id": "788028975afd41fe",
+   "title": "DNS/AFM-Guidance on how to configure and validate NXDOMAIN protection specifically for a Tier1 Transparent Cache -Tier2 Recursive Resolver architecture",
+   "link": "https://community.f5.com/t/dns-afm-guidance-on-how-to-configure-and-validate-nxdomain-protection-specifically-for-a-tier1-transparent-cache-tier2-recursive-resolver-architecture/77535",
+   "summary": "Need F5 guidance on how to configure and validate NXDOMAIN protection specifically for a Tier1 Transparent Cache → Tier2 Recursive Resolver architecture. Where the NXDOMAIN Query attack vector is evaluated. Whether AFM can stop the offending query at Tier1 before it reaches Tier2. How Detection Threshold EPS should be calculated. How Detection Threshold % should be calculated. How Mitigation Threshold EPS should be calculated. Which counters/logs prove that Bad Actor mitigation is working. Which BIG-IP DNS profile statistics should be collected. Which AFM DoS statistics should be collected. Ho...",
+   "timestamp": 1791438444,
+   "source": "F5 Community Security",
+   "vendor": "F5",
+   "category": "Vendor",
+   "severity": "info",
+   "cvss": null,
+   "cves": [],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
    "kev": false
   },
   {
@@ -4272,6 +4947,22 @@
    "kev": true
   },
   {
+   "id": "184a8331b8ed0a10",
+   "title": "Beyond Ingress: How We’re Securing AI Traffic and Bridging BIG-IP with NGINX Gateway Fabric",
+   "link": "https://community.f5.com/t/beyond-ingress-how-we-re-securing-ai-traffic-and-bridging-big-ip-with-nginx-gateway-fabric/77467",
+   "summary": "Introduction: As the industry rapidly rallies behind the Kubernetes Gateway API , platform, NetOps, and SecOps teams are facing a new set of immediate architectural challenges. Instead of managing separate routing silos, enterprise teams are asking two fundamental questions: 1. How do we bring our enterprise edge (specifically our F5 BIG-IP fleet) seamlessly into modern Gateway API architectures without operational churn? 2. How do we govern and secure AI inference workloads (LLMs) running inside our clusters without drowning in sidecars, bespoke proxies, or application code changes? With the...",
+   "timestamp": 1791400802,
+   "source": "F5 Community Security",
+   "vendor": "F5",
+   "category": "Vendor",
+   "severity": "info",
+   "cvss": null,
+   "cves": [],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
    "id": "2237741941ba622d",
    "title": "Long Term Support Channel Update for ChromeOS",
    "link": "http://chromereleases.googleblog.com/2026/10/long-term-support-channel-update-for.html",
@@ -4329,6 +5020,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -4507,6 +5199,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -4530,6 +5223,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -4552,6 +5246,7 @@
     "exploited"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -4572,6 +5267,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -4593,6 +5289,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -4618,6 +5315,7 @@
     "exploited"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -4651,6 +5349,23 @@
    "cves": [],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
+   "kev": false
+  },
+  {
+   "id": "ee63c611f4173d74",
+   "title": "401 rest auth error after upgrade",
+   "link": "https://community.f5.com/t/401-rest-auth-error-after-upgrade/77525",
+   "summary": "Hi Team, Rest api auth request are failing. Throws 401 error. The basic authentication works fine. The rest calls are failing with localhost also. Tried clearing the corrupt REST storage index directory and restarted restjavad service. But still the issue persists. Anyone faced issue..please help. The SW version is 17.5.1.9. 2 posts - 2 participants Read full topic",
+   "timestamp": 1791307331,
+   "source": "F5 Community Security",
+   "vendor": "F5",
+   "category": "Vendor",
+   "severity": "info",
+   "cvss": null,
+   "cves": [],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
    "kev": false
   },
   {
@@ -4915,6 +5630,23 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
+   "kev": false
+  },
+  {
+   "id": "c1393c2a5968c2f2",
+   "title": "Who Do You Trust? Establishing Continuous Runtime Trust in the Era of Agentic AI",
+   "link": "https://community.f5.com/t/who-do-you-trust-establishing-continuous-runtime-trust-in-the-era-of-agentic-ai/77519",
+   "summary": "Over the last 18 months, securing websites against fraud, web scraping, credential stuffing, scalping, and other attacks leveraging bots has become more complex. Where we mainly had to worry about differentiating bots from a growing number of legitimate devices (desktop, laptop, smartphones, tablets, smart TVs, game consoles, and more), all using a wide variety of operating systems and applications to access the internet, a new class of clients–AI agents–emerged, adding a new variable to the complex equation of protecting websites and their users. AI agents are intelligent automated systems (b...",
+   "timestamp": 1791234323,
+   "source": "F5 Community Security",
+   "vendor": "F5",
+   "category": "Vendor",
+   "severity": "info",
+   "cvss": null,
+   "cves": [],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
    "kev": false
   },
   {
@@ -4957,6 +5689,7 @@
     "exploited"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": true,
    "kev_due": "2026-10-03"
   },
@@ -4984,6 +5717,7 @@
     "exploited"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5019,6 +5753,7 @@
    "cves": [],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5047,6 +5782,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5108,6 +5844,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5128,6 +5865,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5169,6 +5907,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5189,6 +5928,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5209,6 +5949,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5231,6 +5972,38 @@
    "kev_due": "2026-10-03",
    "first_seen": 1791972212.7349277,
    "kev": true
+  },
+  {
+   "id": "126aedcbdf0f8bcf",
+   "title": "Delineating Between Different Automated Traffic Types with F5 Distributed Cloud Bot Defense",
+   "link": "https://community.f5.com/t/delineating-between-different-automated-traffic-types-with-f5-distributed-cloud-bot-defense/77407",
+   "summary": "For years, bot management was largely a binary decision: Allow Human Traffic or Block Malicious Automated Scripts . However, today’s digital landscape has expanded far beyond this simple distinction. The rise of Agentic AI , autonomous web browsers (like Perplexity Comet), recognized web crawlers, and cryptographically signed AI agents (utilizing Web Bot Authentication standards) means that modern web applications face a growing spectrum of traffic types: 1. Legitimate Human Traffic: Organic user interactions navigating applications naturally. 2. Malicious Automation: Credential stuffing, scra...",
+   "timestamp": 1790706662,
+   "source": "F5 Community Security",
+   "vendor": "F5",
+   "category": "Vendor",
+   "severity": "info",
+   "cvss": null,
+   "cves": [],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
+   "kev": false
+  },
+  {
+   "id": "f20c83c94c39c881",
+   "title": "API Security on F5 WAF",
+   "link": "https://community.f5.com/t/api-security-on-f5-waf/77488",
+   "summary": "Dear Team, I would appreciate your guidance on how to properly secure an application that uses APIs. Additionally, I would like to understand the recommended best practices and security controls that should be configured on the WAF to protect API traffic. I would also appreciate your guidance on the recommended architecture and traffic flow when an API Gateway is part of the design, as I currently have limited experience with API traffic and API security. Thank you for your support. 3 posts - 3 participants Read full topic",
+   "timestamp": 1790683661,
+   "source": "F5 Community Security",
+   "vendor": "F5",
+   "category": "Vendor",
+   "severity": "info",
+   "cvss": null,
+   "cves": [],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
+   "kev": false
   },
   {
    "id": "6547e48b74bcdd09",
@@ -5269,6 +6042,7 @@
     "ransomware"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5327,6 +6101,7 @@
    "cves": [],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5413,6 +6188,25 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
+   "kev": false
+  },
+  {
+   "id": "40a34bf2c56b34d7",
+   "title": "Trust, But Verify: Adding Deep Malware Inspection to NetApp S3 Flows with F5 and OPSWAT",
+   "link": "https://community.f5.com/t/trust-but-verify-adding-deep-malware-inspection-to-netapp-s3-flows-with-f5-and-opswat/77425",
+   "summary": "Object storage has become the digital attic of the modern enterprise. Everything seems to end up there: AI training datasets, backups, application data, media files, compliance archives, and occasionally that one mysterious file nobody remembers creating but is suddenly business critical. As organizations continue to rely on S3-compatible storage platforms such as NetApp StorageGRID, the challenge is no longer simply storing data. The challenge is understanding what is moving into and out of those repositories, and whether any of it poses a risk. In this article, I’ll bring together three well...",
+   "timestamp": 1790251225,
+   "source": "F5 Community Security",
+   "vendor": "F5",
+   "category": "Vendor",
+   "severity": "info",
+   "cvss": null,
+   "cves": [],
+   "tags": [
+    "zero-day"
+   ],
+   "first_seen": 1791979319.6598213,
    "kev": false
   },
   {
@@ -5475,6 +6269,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5495,6 +6290,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5515,6 +6311,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5535,6 +6332,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5555,6 +6353,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5575,6 +6374,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5595,6 +6395,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5615,6 +6416,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5636,6 +6438,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5656,6 +6459,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5674,6 +6478,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5692,6 +6497,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5710,6 +6516,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5728,6 +6535,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5746,6 +6554,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5766,6 +6575,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5786,6 +6596,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5804,6 +6615,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5824,6 +6636,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5844,6 +6657,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5862,6 +6676,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5880,6 +6695,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5900,6 +6716,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5918,6 +6735,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5936,6 +6754,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5956,6 +6775,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5974,6 +6794,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -5994,6 +6815,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6014,6 +6836,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6032,6 +6855,23 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
+   "kev": false
+  },
+  {
+   "id": "b26d9b47b01d9e90",
+   "title": "I am having trouble applying public certificates to my F5 LTM i2600 HA Pair",
+   "link": "https://community.f5.com/t/i-am-having-trouble-applying-public-certificates-to-my-f5-ltm-i2600-ha-pair/77449",
+   "summary": "I manage an F5 LTM i2600 HA Pair running v17.5.1.3. I need to install public Sectigo ssl certificates to both nodes. I followed these instructions that I got from a Google Search (I dd not find any F5 documentation on this). Probably did not use the proper search criteria. I pasted the steps i followed below. To update the F5 BIG-IP Configuration Utility (Web GUI) admin portal certificate with a Sectigo public certificate in an HA cluster, you must perform the steps individually on both uniquely named nodes . [ 1 , 2 ] Because the web administration portal relies on the Device Certificate (bou...",
+   "timestamp": 1790123087,
+   "source": "F5 Community Security",
+   "vendor": "F5",
+   "category": "Vendor",
+   "severity": "info",
+   "cvss": null,
+   "cves": [],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
    "kev": false
   },
   {
@@ -6052,6 +6892,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6177,6 +7018,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6205,6 +7047,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6225,6 +7068,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6245,6 +7089,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6266,6 +7111,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6286,6 +7132,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6306,6 +7153,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6324,6 +7172,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6344,6 +7193,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6364,6 +7214,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6384,6 +7235,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6473,6 +7325,7 @@
     "exploited"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6494,6 +7347,7 @@
     "exploited"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": true,
    "kev_due": "2026-09-17"
   },
@@ -6515,6 +7369,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6531,6 +7386,7 @@
    "cves": [],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6576,6 +7432,7 @@
     "exploited"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": true,
    "kev_due": "2026-09-19"
   },
@@ -6598,6 +7455,7 @@
     "exploited"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": true,
    "kev_due": "2026-08-01"
   },
@@ -6620,6 +7478,7 @@
     "exploited"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": true,
    "kev_due": "2026-08-14"
   },
@@ -6642,6 +7501,7 @@
     "exploited"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": true,
    "kev_due": "2026-09-12"
   },
@@ -6661,6 +7521,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6682,6 +7543,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6704,6 +7566,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6722,6 +7585,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6742,6 +7606,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6768,6 +7633,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6789,6 +7655,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6809,6 +7676,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6828,6 +7696,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6849,6 +7718,7 @@
     "exploited"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": true,
    "kev_due": "2026-09-19"
   },
@@ -6869,6 +7739,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6889,6 +7760,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6914,6 +7786,7 @@
     "exploited"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6932,6 +7805,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6953,6 +7827,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6972,6 +7847,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -6992,6 +7868,23 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
+   "kev": false
+  },
+  {
+   "id": "037a1bfaa8923fb4",
+   "title": "PKI Today 2026: Revocation Is Still Broken. We've Decided to Be Calm About It",
+   "link": "https://community.f5.com/t/pki-today-2026-revocation-is-still-broken-weve-decided-to-be-calm-about-it/77309",
+   "summary": "Post-quantum signatures don’t fail because they’re insecure. They fail because they’re enormous, and the entire web PKI was quietly built on the assumption that signatures are small. Pull that assumption out and a surprising number of things tip over at once. The Byte Size Problem Start with the raw numbers, because the gap is not subtle. A classical ECDSA P-256 signature is 64 bytes raw, roughly 72 once DER-encoded on the wire, and its public key is 65 bytes uncompressed. The post-quantum replacements are an order of magnitude larger: Scheme Public key Signature Security category ECDSA P-256...",
+   "timestamp": 1789560017,
+   "source": "F5 Community Security",
+   "vendor": "F5",
+   "category": "Vendor",
+   "severity": "info",
+   "cvss": null,
+   "cves": [],
+   "tags": [],
+   "first_seen": 1791979319.6598213,
    "kev": false
   },
   {
@@ -7012,6 +7905,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -7030,6 +7924,7 @@
    ],
    "tags": [],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -7050,6 +7945,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -7070,6 +7966,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -7090,6 +7987,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -7108,6 +8006,7 @@
     "priv-esc"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
@@ -7128,6 +8027,7 @@
     "rce"
    ],
    "first_seen": 1791972212.7349277,
+   "epss": null,
    "kev": false
   },
   {
