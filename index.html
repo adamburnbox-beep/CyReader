@@ -82,6 +82,9 @@ main{max-width:1400px;margin:0 auto;padding:1rem}
 .chip.s-medium.on{border-color:var(--med);background:color-mix(in srgb,var(--med) 22%,transparent)}
 .chip.s-low.on{border-color:var(--low);background:color-mix(in srgb,var(--low) 22%,transparent)}
 select{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:.3rem .5rem}
+.chip.ex{color:var(--crit);border-color:var(--crit);background:color-mix(in srgb,var(--crit) 12%,transparent);text-decoration:line-through}
+#filters.collapsed .fbody{display:none}
+#filters.collapsed{padding:.5rem .75rem}
 .vendors{max-height:5.2rem;overflow:auto;padding:2px}
 .vendors.open{max-height:none}
 .toolbar{display:flex;justify-content:space-between;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.5rem;color:var(--muted);font-size:13px}
@@ -165,6 +168,12 @@ pre{background:var(--surface2);border:1px solid var(--border);border-radius:8px;
   <section id="tiles" aria-label="Summary"></section>
 
   <section id="filters" aria-label="Filters">
+    <div class="row fhead">
+      <button class="btn sm" id="f-toggle" aria-expanded="true" aria-controls="f-body">▾ Filters <span id="f-count" style="color:var(--accent)"></span></button>
+      <span id="f-summary" class="row"></span>
+      <span style="color:var(--muted);font-size:12px;margin-left:auto">click: include · again: exclude · again: clear</span>
+    </div>
+    <div id="f-body" class="fbody">
     <div class="row"><span class="lbl">Severity</span><span id="f-sev" class="row"></span>
       <span class="lbl" style="margin-left:1rem;min-width:0">Time</span>
       <select id="f-range" aria-label="Time range">
@@ -182,6 +191,8 @@ pre{background:var(--surface2);border:1px solid var(--border);border-radius:8px;
     <div class="row"><span class="lbl">Type</span><span id="f-cat" class="row"></span></div>
     <div class="row" style="align-items:flex-start"><span class="lbl">Vendor</span><span id="f-vendor" class="row vendors" style="flex:1"></span>
       <button class="btn sm" id="vendor-more">expand</button></div>
+    <div class="row"><span class="lbl"></span><input id="vendor-q" type="search" placeholder="Find vendor…" aria-label="Find vendor" style="background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:.2rem .5rem;font-size:12px"></div>
+    </div>
   </section>
 
   <div class="toolbar">
@@ -261,7 +272,18 @@ let data = null, view = [], shown = PAGE, cur = -1, lastFetchOk = true;
 const now = () => Date.now()/1000;
 const user = store.get('cyreader_user', {read:{}, unread:{}, star:{}, readBefore: now() - 48*3600, compact:false, theme:null, notify:false});
 const saveUser = () => store.set('cyreader_user', user);
-const F = {q:'', sev:new Set(), vendor:new Set(), cat:new Set(), range:'7d', sort:'new', unread:false, prio:false, star:false, cve:false};
+// Tri-state filters: a value is absent (off), 'in' (include) or 'ex' (exclude).
+const FLAGS = ['unread','prio','star','cve'];
+const F = {q:'', sev:new Map(), vendor:new Map(), cat:new Map(), range:'7d', sort:'new', unread:null, prio:null, star:null, cve:null, vq:''};
+const cycle = v => v === 'in' ? 'ex' : v === 'ex' ? null : 'in';
+const passes = (m, v) => {
+  if (!m.size) return true;
+  if (m.get(v) === 'ex') return false;
+  const inc = [...m.values()].includes('in');
+  return !inc || m.get(v) === 'in';
+};
+const flagOk = (mode, val) => mode === 'in' ? val : mode === 'ex' ? !val : true;
+const activeCount = () => F.sev.size + F.vendor.size + F.cat.size + FLAGS.filter(k => F[k]).length + (F.range !== '7d' ? 1 : 0);
 
 /* ---------- article helpers ---------- */
 function norm(a){
@@ -313,13 +335,10 @@ function matchTerm(a, t){
 /* ---------- filtering ---------- */
 function applies(a, terms, skip){
   if (F.range !== 'all' && a.timestamp < now() - RANGES[F.range]*3600) return false;
-  if (skip !== 'sev' && F.sev.size && !F.sev.has(a.severity)) return false;
-  if (skip !== 'vendor' && F.vendor.size && !F.vendor.has(a.vendor)) return false;
-  if (skip !== 'cat' && F.cat.size && !F.cat.has(a.category)) return false;
-  if (F.unread && !isUnread(a)) return false;
-  if (F.prio && !isPrio(a)) return false;
-  if (F.star && !user.star[a.id]) return false;
-  if (F.cve && !a.cves.length) return false;
+  if (skip !== 'sev' && !passes(F.sev, a.severity)) return false;
+  if (skip !== 'vendor' && !passes(F.vendor, a.vendor)) return false;
+  if (skip !== 'cat' && !passes(F.cat, a.category)) return false;
+  if (!flagOk(F.unread, isUnread(a)) || !flagOk(F.prio, isPrio(a)) || !flagOk(F.star, !!user.star[a.id]) || !flagOk(F.cve, a.cves.length > 0)) return false;
   for (const t of terms) if (matchTerm(a, t) === t.neg) return false;
   return true;
 }
@@ -336,29 +355,32 @@ const sorters = {
 function writeHash(){
   const p = new URLSearchParams();
   if (F.q) p.set('q', F.q);
-  if (F.sev.size) p.set('sev', [...F.sev].join(','));
-  if (F.vendor.size) p.set('vendor', [...F.vendor].join('|'));
-  if (F.cat.size) p.set('type', [...F.cat].join(','));
+  const enc = m => [...m].map(([k, v]) => (v === 'ex' ? '-' : '') + k);
+  if (F.sev.size) p.set('sev', enc(F.sev).join(','));
+  if (F.vendor.size) p.set('vendor', enc(F.vendor).join('|'));
+  if (F.cat.size) p.set('type', enc(F.cat).join('|'));
   if (F.range !== '7d') p.set('range', F.range);
   if (F.sort !== 'new') p.set('sort', F.sort);
-  ['unread','prio','star','cve'].forEach(k => F[k] && p.set(k, '1'));
+  FLAGS.forEach(k => F[k] && p.set(k, F[k] === 'ex' ? '0' : '1'));
   const s = p.toString();
   history.replaceState(null, '', s ? '#' + s : location.pathname + location.search);
 }
 function readHash(){
   const p = new URLSearchParams(location.hash.slice(1));
   F.q = p.get('q') || '';
-  F.sev = new Set((p.get('sev') || '').split(',').filter(Boolean));
-  F.vendor = new Set((p.get('vendor') || '').split('|').filter(Boolean));
-  F.cat = new Set((p.get('type') || '').split(',').filter(Boolean));
+  const dec = (str, sep) => new Map(str.split(sep).filter(Boolean).map(x => x[0] === '-' ? [x.slice(1), 'ex'] : [x, 'in']));
+  F.sev = dec(p.get('sev') || '', ',');
+  F.vendor = dec(p.get('vendor') || '', '|');
+  F.cat = dec(p.get('type') || '', '|');
   F.range = RANGES[p.get('range')] !== undefined ? p.get('range') : '7d';
   F.sort = sorters[p.get('sort')] ? p.get('sort') : 'new';
-  ['unread','prio','star','cve'].forEach(k => F[k] = p.get(k) === '1');
+  FLAGS.forEach(k => F[k] = p.get(k) === '1' ? 'in' : p.get(k) === '0' ? 'ex' : null);
 }
 
 /* ---------- rendering ---------- */
-function chip(label, on, attrs, count, cls=''){
-  return `<button class="chip ${cls} ${on?'on':''}" aria-pressed="${on}" ${attrs}>${esc(label)}${count!==undefined?` <i>${count}</i>`:''}</button>`;
+function chip(label, mode, attrs, count, cls=''){
+  const mark = mode === 'in' ? '✓ ' : mode === 'ex' ? '⊘ ' : '';
+  return `<button class="chip ${cls} ${mode==='in'?'on':''} ${mode==='ex'?'ex':''}" aria-pressed="${mode==='in'?'true':mode==='ex'?'mixed':'false'}" title="${mode==='in'?'Included – click to exclude':mode==='ex'?'Excluded – click to clear':'Click to include'}" ${attrs}>${mark}${esc(label)}${count!==undefined?` <i>${count}</i>`:''}</button>`;
 }
 function facetCounts(key, terms){
   const m = {};
@@ -367,15 +389,26 @@ function facetCounts(key, terms){
 }
 function renderFilters(terms){
   const sc = facetCounts('sev', terms), vc = facetCounts('vendor', terms), cc = facetCounts('cat', terms);
-  $('f-sev').innerHTML = SEVS.map(s => chip(s, F.sev.has(s), `data-sev="${s}"`, sc[s]||0, 's-'+s)).join('');
-  const vendors = [...new Set(data.articles.map(a => a.vendor))].sort((a,b) => (vc[b]||0)-(vc[a]||0) || a.localeCompare(b));
-  $('f-vendor').innerHTML = vendors.map(v => chip(v, F.vendor.has(v), `data-vendor="${esc(v)}"`, vc[v]||0)).join('');
+  $('f-sev').innerHTML = SEVS.map(s => chip(s, F.sev.get(s), `data-sev="${s}"`, sc[s]||0, 's-'+s)).join('');
+  const vq = F.vq.toLowerCase();
+  const vendors = [...new Set(data.articles.map(a => a.vendor))]
+    .filter(v => !vq || v.toLowerCase().includes(vq) || F.vendor.has(v))
+    .sort((a,b) => (!!F.vendor.get(b))-(!!F.vendor.get(a)) || (vc[b]||0)-(vc[a]||0) || a.localeCompare(b));
+  $('f-vendor').innerHTML = vendors.map(v => chip(v, F.vendor.get(v), `data-vendor="${esc(v)}"`, vc[v]||0)).join('') || '<span style="color:var(--muted)">No vendors match</span>';
   const cats = [...new Set(data.articles.map(a => a.category))].sort();
-  $('f-cat').innerHTML = cats.map(c => chip(c, F.cat.has(c), `data-cat="${esc(c)}"`, cc[c]||0)).join('');
-  $('f-flags').innerHTML =
-    chip('Unread only', F.unread, 'data-flag="unread"') + chip('KEV / exploited / critical', F.prio, 'data-flag="prio"') +
-    chip('Has CVE', F.cve, 'data-flag="cve"') + chip('★ Starred', F.star, 'data-flag="star"');
+  $('f-cat').innerHTML = cats.map(c => chip(c, F.cat.get(c), `data-cat="${esc(c)}"`, cc[c]||0)).join('');
+  const FL = {unread:'Unread', prio:'KEV / exploited / critical', cve:'Has CVE', star:'★ Starred'};
+  $('f-flags').innerHTML = FLAGS.map(k => chip(FL[k], F[k], `data-flag="${k}"`)).join('');
   $('f-range').value = F.range; $('f-sort').value = F.sort;
+  // header summary (visible when collapsed): every active filter as a removable chip
+  const act = [];
+  const add = (m, kind, fmt = x => x) => m.forEach((v, k) => act.push([kind, k, v, fmt(k)]));
+  add(F.sev, 'sev'); add(F.cat, 'cat'); add(F.vendor, 'vendor');
+  FLAGS.forEach(k => F[k] && act.push(['flag', k, F[k], FL[k]]));
+  if (F.range !== '7d') act.push(['range', F.range, 'in', $('f-range').selectedOptions[0].text]);
+  $('f-count').textContent = act.length ? act.length + ' active' : '';
+  $('f-summary').innerHTML = act.map(([kind, k, v, label]) =>
+    `<button class="chip ${v==='ex'?'ex':'on'}" data-rm="${kind}" data-key="${esc(k)}" title="Remove filter">${v==='ex'?'⊘ ':''}${esc(label)} ✕</button>`).join('');
 }
 function renderItem(a, i){
   const unread = isUnread(a), star = !!user.star[a.id];
@@ -418,7 +451,7 @@ function renderTiles(){
   const d1 = all.filter(a => a.timestamp > t - 86400).length;
   const bad = data.stats.filter(s => s.status === 'error').length;
   const tiles = [
-    ['Unread', unread, 'unread', F.unread], ['Critical (72h)', crit, 'crit', false],
+    ['Unread', unread, 'unread', F.unread === 'in'], ['Critical (72h)', crit, 'crit', false],
     ['KEV / exploited (7d)', kev, 'kev', false], ['Last 24 hours', d1, 'd1', false],
     [`Sources failing`, bad, 'src', false]
   ];
@@ -524,7 +557,7 @@ function act(a, what){
   render();
 }
 function resetFilters(){
-  F.q=''; F.sev.clear(); F.vendor.clear(); F.cat.clear(); F.range='7d'; F.sort='new'; F.unread=F.prio=F.star=F.cve=false;
+  F.q=''; F.sev.clear(); F.vendor.clear(); F.cat.clear(); F.range='7d'; F.sort='new'; F.unread=F.prio=F.star=F.cve=null; F.vq=''; $('vendor-q').value='';
   $('q').value=''; shown=PAGE; render();
 }
 function csv(){
@@ -552,24 +585,33 @@ function moveCur(d){
 function bind(){
   let qt;
   $('q').addEventListener('input', e => { clearTimeout(qt); qt = setTimeout(() => { F.q = e.target.value; shown = PAGE; cur = -1; render(); }, 120); });
+  $('f-toggle').onclick = () => setFiltersOpen($('filters').classList.contains('collapsed'));
+  $('vendor-q').addEventListener('input', e => { F.vq = e.target.value; renderFilters(parseQuery(F.q)); });
   $('f-range').onchange = e => { F.range = e.target.value; shown = PAGE; render(); };
   $('f-sort').onchange = e => { F.sort = e.target.value; shown = PAGE; render(); };
   document.addEventListener('click', e => {
-    const t = e.target.closest('[data-sev],[data-vendor],[data-cat],[data-flag],[data-tag],[data-tile],[data-act],.title,.alert,[data-close],#empty-reset,#srcerr-open');
+    const t = e.target.closest('[data-rm],[data-sev],[data-vendor],[data-cat],[data-flag],[data-tag],[data-tile],[data-act],.title,.alert,[data-close],#empty-reset,#srcerr-open');
     if (!t) return;
-    const toggle = (set, v) => { set.has(v) ? set.delete(v) : set.add(v); shown = PAGE; render(); };
+    const toggle = (m, v) => { const n = cycle(m.get(v)); n ? m.set(v, n) : m.delete(v); shown = PAGE; render(); };
+    if (t.dataset.rm){
+      const k = t.dataset.key;
+      if (t.dataset.rm === 'flag') F[k] = null;
+      else if (t.dataset.rm === 'range') F.range = '7d';
+      else F[t.dataset.rm].delete(k);
+      shown = PAGE; return render();
+    }
     if (t.dataset.sev) return toggle(F.sev, t.dataset.sev);
     if (t.dataset.vendor) return toggle(F.vendor, t.dataset.vendor);
     if (t.dataset.cat) return toggle(F.cat, t.dataset.cat);
-    if (t.dataset.flag){ F[t.dataset.flag] = !F[t.dataset.flag]; shown = PAGE; return render(); }
+    if (t.dataset.flag){ F[t.dataset.flag] = cycle(F[t.dataset.flag]); shown = PAGE; return render(); }
     if (t.dataset.tag){ $('q').value = F.q = 'tag:' + t.dataset.tag; shown = PAGE; return render(); }
     if (t.dataset.tile){
       const k = t.dataset.tile;
       if (k === 'src') return openSources();
       resetFilters();
-      if (k === 'unread') F.unread = true;
-      if (k === 'crit'){ F.sev.add('critical'); F.range = '72h'; }
-      if (k === 'kev'){ F.prio = true; F.range = '7d'; $('q').value = F.q = 'tag:kev'; }
+      if (k === 'unread') F.unread = 'in';
+      if (k === 'crit'){ F.sev.set('critical', 'in'); F.range = '72h'; }
+      if (k === 'kev'){ F.prio = 'in'; F.range = '7d'; $('q').value = F.q = 'tag:kev'; }
       if (k === 'd1') F.range = '24h';
       return render();
     }
@@ -587,7 +629,7 @@ function bind(){
     const a = data.articles.find(x => x.id === id);
     if (a && isUnread(a)){ setRead(a, true); setTimeout(render, 50); }
   });
-  $('alerts-all').onclick = () => { resetFilters(); F.prio = true; F.range = '72h'; F.sort = 'prio'; render(); $('list').scrollIntoView(); };
+  $('alerts-all').onclick = () => { resetFilters(); F.prio = 'in'; F.range = '72h'; F.sort = 'prio'; render(); $('list').scrollIntoView(); };
   $('more').onclick = () => { shown += PAGE; renderList(); };
   $('btn-refresh').onclick = () => load(true);
   $('btn-theme').onclick = () => { user.theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'; saveUser(); applyTheme(); };
@@ -628,6 +670,12 @@ function bind(){
     }
   });
 }
+function setFiltersOpen(open){
+  $('filters').classList.toggle('collapsed', !open);
+  $('f-toggle').setAttribute('aria-expanded', open);
+  $('f-toggle').firstChild.textContent = (open ? '▾' : '▸') + ' Filters ';
+  user.filtersOpen = open; saveUser();
+}
 function openSources(){ renderSources(); $('dlg-sources').showModal(); }
 
 /* ---------- boot ---------- */
@@ -637,6 +685,7 @@ $('btn-compact').classList.toggle('on', !!user.compact);
 $('btn-notify').classList.toggle('on', !!user.notify);
 readHash(); $('q').value = F.q;
 bind();
+setFiltersOpen(user.filtersOpen !== false);
 load().then(() => { if (data && !store.get('cyreader_user', null)) saveUser(); });
 setInterval(() => load(), REFRESH_MS);
 setInterval(() => data && (renderStatus()), 60*1000);
