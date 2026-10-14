@@ -1,37 +1,22 @@
 {
  "version": 2,
- "last_updated": 1791979599.7570693,
+ "last_updated": 1791980061.599094,
  "retention_days": 30,
  "stats": [
   {
    "source": "CISA Advisories",
    "vendor": "CISA",
    "category": "Government",
-   "url": "https://www.cisa.gov/cybersecurity-advisories.xml",
+   "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
    "status": "error",
    "error": "HTTP Error 403: Forbidden",
    "new_count": 0,
    "total_count": 0,
-   "latency_ms": 9261,
-   "last_checked": 1791979599.7570693,
+   "latency_ms": 9329,
+   "last_checked": 1791980061.599094,
    "last_success": null,
    "last_new": null,
-   "failures": 3
-  },
-  {
-   "source": "ASD Advisories",
-   "vendor": "ASD",
-   "category": "Government",
-   "url": "https://www.cyber.gov.au/rss/advisories",
-   "status": "error",
-   "error": "The read operation timed out",
-   "new_count": 0,
-   "total_count": 0,
-   "latency_ms": 84943,
-   "last_checked": 1791979599.7570693,
-   "last_success": null,
-   "last_new": null,
-   "failures": 1
+   "failures": 4
   },
   {
    "source": "Microsoft MSRC",
@@ -42,9 +27,9 @@
    "error": null,
    "new_count": 0,
    "total_count": 50,
-   "latency_ms": 2099,
-   "last_checked": 1791979599.7570693,
-   "last_success": 1791979599.7570693,
+   "latency_ms": 2381,
+   "last_checked": 1791980061.599094,
+   "last_success": 1791980061.599094,
    "last_new": 1791972212.7349277,
    "failures": 0
   },
@@ -57,10 +42,10 @@
    "error": null,
    "new_count": 23,
    "total_count": 25,
-   "latency_ms": 351,
-   "last_checked": 1791979599.7570693,
-   "last_success": 1791979599.7570693,
-   "last_new": 1791979599.7570693,
+   "latency_ms": 296,
+   "last_checked": 1791980061.599094,
+   "last_success": 1791980061.599094,
+   "last_new": 1791980061.599094,
    "failures": 0
   },
   {
@@ -72,9 +57,9 @@
    "error": null,
    "new_count": 0,
    "total_count": 50,
-   "latency_ms": 575,
-   "last_checked": 1791979599.7570693,
-   "last_success": 1791979599.7570693,
+   "latency_ms": 730,
+   "last_checked": 1791980061.599094,
+   "last_success": 1791980061.599094,
    "last_new": 1791972212.7349277,
    "failures": 0
   },
@@ -87,10 +72,10 @@
    "error": null,
    "new_count": 38,
    "total_count": 50,
-   "latency_ms": 595,
-   "last_checked": 1791979599.7570693,
-   "last_success": 1791979599.7570693,
-   "last_new": 1791979599.7570693,
+   "latency_ms": 744,
+   "last_checked": 1791980061.599094,
+   "last_success": 1791980061.599094,
+   "last_new": 1791980061.599094,
    "failures": 0
   },
   {
@@ -102,10 +87,10 @@
    "error": null,
    "new_count": 18,
    "total_count": 19,
-   "latency_ms": 245,
-   "last_checked": 1791979599.7570693,
-   "last_success": 1791979599.7570693,
-   "last_new": 1791979599.7570693,
+   "latency_ms": 168,
+   "last_checked": 1791980061.599094,
+   "last_success": 1791980061.599094,
+   "last_new": 1791980061.599094,
    "failures": 0
   },
   {
@@ -117,9 +102,9 @@
    "error": null,
    "new_count": 0,
    "total_count": 10,
-   "latency_ms": 964,
-   "last_checked": 1791979599.7570693,
-   "last_success": 1791979599.7570693,
+   "latency_ms": 614,
+   "last_checked": 1791980061.599094,
+   "last_success": 1791980061.599094,
    "last_new": 1791972212.7349277,
    "failures": 0
   },
@@ -132,9 +117,9 @@
    "error": null,
    "new_count": 0,
    "total_count": 9,
-   "latency_ms": 1434,
-   "last_checked": 1791979599.7570693,
-   "last_success": 1791979599.7570693,
+   "latency_ms": 924,
+   "last_checked": 1791980061.599094,
+   "last_success": 1791980061.599094,
    "last_new": 1791972212.7349277,
    "failures": 0
   },
@@ -147,9 +132,9 @@
    "error": null,
    "new_count": 0,
    "total_count": 50,
-   "latency_ms": 1535,
-   "last_checked": 1791979599.7570693,
-   "last_success": 1791979599.7570693,
+   "latency_ms": 1980,
+   "last_checked": 1791980061.599094,
+   "last_success": 1791980061.599094,
    "last_new": 1791972212.7349277,
    "failures": 0
   },
@@ -160,11 +145,11 @@
    "url": "https://cvefeed.io/rssfeed/severity/high.xml",
    "status": "ok",
    "error": null,
-   "new_count": 9,
+   "new_count": 0,
    "total_count": 25,
-   "latency_ms": 265,
-   "last_checked": 1791979599.7570693,
-   "last_success": 1791979599.7570693,
+   "latency_ms": 184,
+   "last_checked": 1791980061.599094,
+   "last_success": 1791980061.599094,
    "last_new": 1791979599.7570693,
    "failures": 0
   },
@@ -177,10 +162,10 @@
    "error": null,
    "new_count": 4,
    "total_count": 10,
-   "latency_ms": 1066,
-   "last_checked": 1791979599.7570693,
-   "last_success": 1791979599.7570693,
-   "last_new": 1791979599.7570693,
+   "latency_ms": 546,
+   "last_checked": 1791980061.599094,
+   "last_success": 1791980061.599094,
+   "last_new": 1791980061.599094,
    "failures": 0
   },
   {
@@ -192,10 +177,10 @@
    "error": null,
    "new_count": 18,
    "total_count": 30,
-   "latency_ms": 1323,
-   "last_checked": 1791979599.7570693,
-   "last_success": 1791979599.7570693,
-   "last_new": 1791979599.7570693,
+   "latency_ms": 1663,
+   "last_checked": 1791980061.599094,
+   "last_success": 1791980061.599094,
+   "last_new": 1791980061.599094,
    "failures": 0
   },
   {
@@ -207,10 +192,10 @@
    "error": null,
    "new_count": 10,
    "total_count": 10,
-   "latency_ms": 581,
-   "last_checked": 1791979599.7570693,
-   "last_success": 1791979599.7570693,
-   "last_new": 1791979599.7570693,
+   "latency_ms": 229,
+   "last_checked": 1791980061.599094,
+   "last_success": 1791980061.599094,
+   "last_new": 1791980061.599094,
    "failures": 0
   },
   {
@@ -223,8 +208,8 @@
    "new_count": 0,
    "total_count": 1741,
    "latency_ms": 0,
-   "last_checked": 1791979599.7570693,
-   "last_success": 1791979599.7570693,
+   "last_checked": 1791980061.599094,
+   "last_success": 1791980061.599094,
    "last_new": null,
    "failures": 0
   }
@@ -307,27 +292,6 @@
    "kev": false
   },
   {
-   "id": "5bdbd2a3e1d35ef3",
-   "title": "CVE-2026-103905 - Unauthenticated Plugin Safe Mode Toggle Vulnerability in JTL-Shop",
-   "link": "https://cvefeed.io/vuln/detail/CVE-2026-103905",
-   "summary": "CVE ID : CVE-2026-103905 Published : Oct. 14, 2026, 11:16 a.m. | 21 minutes ago Description : The authentication middleware of the JTL-Shop administration backend processes the plugin safe mode toggle on the admin logout route before checking whether the requesting user is authenticated. An unauthenticated remote attacker can therefore switch the shop's plugin safe mode on and off, which deactivates all installed plugins and their functionality, such as payment and shipping integrations, resulting in a shop-wide denial of service. The attack requires a single request and can be automated again...",
-   "timestamp": 1791976619,
-   "source": "CVE Feed.io (High+)",
-   "vendor": "CVEFeed.io",
-   "category": "CVE",
-   "severity": "high",
-   "cvss": null,
-   "cves": [
-    "CVE-2026-103905"
-   ],
-   "tags": [
-    "auth-bypass"
-   ],
-   "first_seen": 1791979319.6598213,
-   "epss": null,
-   "kev": false
-  },
-  {
    "id": "e1c4683d8a6912ba",
    "title": "CVE-2026-104795 - Insights-runtime-extractor: insights-runtime-extractor: container escape via privileged binary execution",
    "link": "https://cvefeed.io/vuln/detail/CVE-2026-104795",
@@ -343,27 +307,6 @@
    ],
    "tags": [],
    "first_seen": 1791979599.7570693,
-   "kev": false
-  },
-  {
-   "id": "3136bbd110e4afc3",
-   "title": "CVE-2026-103904 - Stored XSS Vulnerability in JTL-Shop",
-   "link": "https://cvefeed.io/vuln/detail/CVE-2026-103904",
-   "summary": "CVE ID : CVE-2026-103904 Published : Oct. 14, 2026, 11:16 a.m. | 21 minutes ago Description : The public consent endpoint of JTL-Shop accepts arbitrary consent names from unauthenticated visitors without validating them against the configured consent items. These names are stored in the consent statistics and rendered without output encoding in the administration backend. An unauthenticated remote attacker can thereby inject script code that is executed in the browser session of an administrator viewing the consent statistics page, allowing actions to be performed with the administrator's priv...",
-   "timestamp": 1791976618,
-   "source": "CVE Feed.io (High+)",
-   "vendor": "CVEFeed.io",
-   "category": "CVE",
-   "severity": "high",
-   "cvss": null,
-   "cves": [
-    "CVE-2026-103904"
-   ],
-   "tags": [
-    "auth-bypass"
-   ],
-   "first_seen": 1791979319.6598213,
-   "epss": null,
    "kev": false
   },
   {
@@ -439,10 +382,52 @@
    "kev": false
   },
   {
+   "id": "5bdbd2a3e1d35ef3",
+   "title": "CVE-2026-103905 - Unauthenticated Plugin Safe Mode Toggle Vulnerability in JTL-Shop",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-103905",
+   "summary": "CVE ID : CVE-2026-103905 Published : Oct. 14, 2026, 10:34 a.m. | 25 minutes ago Description : The authentication middleware of the JTL-Shop administration backend processes the plugin safe mode toggle on the admin logout route before checking whether the requesting user is authenticated. An unauthenticated remote attacker can therefore switch the shop's plugin safe mode on and off, which deactivates all installed plugins and their functionality, such as payment and shipping integrations, resulting in a shop-wide denial of service. The attack requires a single request and can be automated again...",
+   "timestamp": 1791974074,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-103905"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1791979319.6598213,
+   "epss": null,
+   "kev": false
+  },
+  {
+   "id": "3136bbd110e4afc3",
+   "title": "CVE-2026-103904 - Stored XSS Vulnerability in JTL-Shop",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-103904",
+   "summary": "CVE ID : CVE-2026-103904 Published : Oct. 14, 2026, 10:23 a.m. | 36 minutes ago Description : The public consent endpoint of JTL-Shop accepts arbitrary consent names from unauthenticated visitors without validating them against the configured consent items. These names are stored in the consent statistics and rendered without output encoding in the administration backend. An unauthenticated remote attacker can thereby inject script code that is executed in the browser session of an administrator viewing the consent statistics page, allowing actions to be performed with the administrator's priv...",
+   "timestamp": 1791973409,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-103904"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1791979319.6598213,
+   "epss": null,
+   "kev": false
+  },
+  {
    "id": "555386c633ea2ec2",
    "title": "CVE-2026-86476 - Gstreamer1-plugins-base: gst-plugins-base: heap buffer overflow via unvalidated gstvideometa plane extents in gst_video_frame_map_id and video_meta_deserialize",
    "link": "https://cvefeed.io/vuln/detail/CVE-2026-86476",
-   "summary": "CVE ID : CVE-2026-86476 Published : Oct. 14, 2026, 10:17 a.m. | 1 hour, 20 minutes ago Description : A flaw was found in gst-plugins-base. A heap buffer overflow can be triggered when processing video buffers whose attached GstVideoMeta metadata declares plane strides and offsets that exceed the actual backing memory allocation. The metadata is not range-checked during deserialization, and the video frame mapping code does not verify that the declared plane geometry fits within the buffer before allowing consumers to read or write video data. A local attacker who controls the sending side of a...",
+   "summary": "CVE ID : CVE-2026-86476 Published : Oct. 14, 2026, 10:17 a.m. | 42 minutes ago Description : A flaw was found in gst-plugins-base. A heap buffer overflow can be triggered when processing video buffers whose attached GstVideoMeta metadata declares plane strides and offsets that exceed the actual backing memory allocation. The metadata is not range-checked during deserialization, and the video frame mapping code does not verify that the declared plane geometry fits within the buffer before allowing consumers to read or write video data. A local attacker who controls the sending side of a GStream...",
    "timestamp": 1791973076,
    "source": "CVE Feed.io (High+)",
    "vendor": "CVEFeed.io",
@@ -461,7 +446,7 @@
    "id": "5c7a89e6c103762e",
    "title": "CVE-2026-73790 - HPE NonStop iTP WebServer - Memory corruption vulnerability",
    "link": "https://cvefeed.io/vuln/detail/CVE-2026-73790",
-   "summary": "CVE ID : CVE-2026-73790 Published : Oct. 14, 2026, 9:17 a.m. | 2 hours, 21 minutes ago Description : A vulnerability in HPE NonStop iTP WebServer can cause memory corruption and system shutdown. Severity: 8.2 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "summary": "CVE ID : CVE-2026-73790 Published : Oct. 14, 2026, 9:17 a.m. | 1 hour, 42 minutes ago Description : A vulnerability in HPE NonStop iTP WebServer can cause memory corruption and system shutdown. Severity: 8.2 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
    "timestamp": 1791969442,
    "source": "CVE Feed.io (High+)",
    "vendor": "CVEFeed.io",
@@ -480,7 +465,7 @@
    "id": "e40daafe05d1ccad",
    "title": "CVE-2026-14851 - Unauthorised disclosure of information on Copart’s online billing service",
    "link": "https://cvefeed.io/vuln/detail/CVE-2026-14851",
-   "summary": "CVE ID : CVE-2026-14851 Published : Oct. 14, 2026, 9:17 a.m. | 2 hours, 21 minutes ago Description : A vulnerability relating to the exposure of confidential information in the customer invoicing web application, which exposes personally identifiable information (PII) and financial data – including customer names, addresses, invoice numbers, payment details and tax information – to unauthorised individuals. The issue is caused by a lack of authorisation checks at the endpoint responsible for serving PDF invoice files. Furthermore, some URLs for invoicing documents appear to be publicly accessi...",
+   "summary": "CVE ID : CVE-2026-14851 Published : Oct. 14, 2026, 9:17 a.m. | 1 hour, 42 minutes ago Description : A vulnerability relating to the exposure of confidential information in the customer invoicing web application, which exposes personally identifiable information (PII) and financial data – including customer names, addresses, invoice numbers, payment details and tax information – to unauthorised individuals. The issue is caused by a lack of authorisation checks at the endpoint responsible for serving PDF invoice files. Furthermore, some URLs for invoicing documents appear to be publicly accessib...",
    "timestamp": 1791969442,
    "source": "CVE Feed.io (High+)",
    "vendor": "CVEFeed.io",
@@ -499,7 +484,7 @@
    "id": "70085ee5144d7c1b",
    "title": "CVE-2026-109901 - WordPress CP Multi View Event Calendar plugin <= 1.4.41 - SQL Injection vulnerability",
    "link": "https://cvefeed.io/vuln/detail/CVE-2026-109901",
-   "summary": "CVE ID : CVE-2026-109901 Published : Oct. 14, 2026, 8:17 a.m. | 3 hours, 21 minutes ago Description : Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Codepeople CP Multi View Event Calendar cp-multi-view-calendar allows SQL Injection.This issue affects CP Multi View Event Calendar : from n/a through 1.4.41. Severity: 8.5 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "summary": "CVE ID : CVE-2026-109901 Published : Oct. 14, 2026, 8:17 a.m. | 2 hours, 43 minutes ago Description : Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Codepeople CP Multi View Event Calendar cp-multi-view-calendar allows SQL Injection.This issue affects CP Multi View Event Calendar : from n/a through 1.4.41. Severity: 8.5 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
    "timestamp": 1791965825,
    "source": "CVE Feed.io (High+)",
    "vendor": "CVEFeed.io",
@@ -518,7 +503,7 @@
    "id": "c1a4fabfbc68daf4",
    "title": "CVE-2026-105106 - Koha authenticated OS command injection in tools/scheduler.pl via the jobid parameter when deleting a scheduled task",
    "link": "https://cvefeed.io/vuln/detail/CVE-2026-105106",
-   "summary": "CVE ID : CVE-2026-105106 Published : Oct. 14, 2026, 8:17 a.m. | 3 hours, 21 minutes ago Description : Koha is vulnerable to OS command injection in the Task Scheduler deletion path. The tools/scheduler.pl handler accepts the jobid request parameter for op=cud-delete and passes it to C4::Scheduler::remove_at_job without validating it. Schedule::At::remove substitutes the supplied job ID into an atrm command string without quoting or escaping it and executes the command through a single-argument system() call, which invokes the shell. An authenticated staff user with the tools => schedule_tasks...",
+   "summary": "CVE ID : CVE-2026-105106 Published : Oct. 14, 2026, 8:17 a.m. | 2 hours, 43 minutes ago Description : Koha is vulnerable to OS command injection in the Task Scheduler deletion path. The tools/scheduler.pl handler accepts the jobid request parameter for op=cud-delete and passes it to C4::Scheduler::remove_at_job without validating it. Schedule::At::remove substitutes the supplied job ID into an atrm command string without quoting or escaping it and executes the command through a single-argument system() call, which invokes the shell. An authenticated staff user with the tools => schedule_tasks...",
    "timestamp": 1791965823,
    "source": "CVE Feed.io (High+)",
    "vendor": "CVEFeed.io",
@@ -537,7 +522,7 @@
    "id": "3884342f9c4ac77f",
    "title": "CVE-2026-104909 - Mang Board _type' Parameter",
    "link": "https://cvefeed.io/vuln/detail/CVE-2026-104909",
-   "summary": "CVE ID : CVE-2026-104909 Published : Oct. 14, 2026, 8:17 a.m. | 3 hours, 21 minutes ago Description : The Mang Board plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.4.3 via the '_type (e.g. foo_type)' parameter parameter. This makes it possible for unauthenticated attackers to include and execute arbitrary .php files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where .php file types can be uploaded and included. Exploi...",
+   "summary": "CVE ID : CVE-2026-104909 Published : Oct. 14, 2026, 8:17 a.m. | 2 hours, 43 minutes ago Description : The Mang Board plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 2.4.3 via the '_type (e.g. foo_type)' parameter parameter. This makes it possible for unauthenticated attackers to include and execute arbitrary .php files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where .php file types can be uploaded and included. Exploi...",
    "timestamp": 1791965823,
    "source": "CVE Feed.io (High+)",
    "vendor": "CVEFeed.io",
@@ -558,7 +543,7 @@
    "id": "c87b4900e73d2eaa",
    "title": "CVE-2026-104748 - SimpleForm <= 3.10.0 - Unauthenticated Privilege Escalation to wp_capabilities Mass Assignment via simpleform_wp_register",
    "link": "https://cvefeed.io/vuln/detail/CVE-2026-104748",
-   "summary": "CVE ID : CVE-2026-104748 Published : Oct. 14, 2026, 8:17 a.m. | 3 hours, 21 minutes ago Description : The SimpleForm – Form Maker to Chat Apps with Quiz, Poll and Multi Lead Notifications plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.10.0 This is due to the `wp_ajax_nopriv_simpleform_wp_register` AJAX action lacking any capability check for role assignment and the `save_custom_fields_to_user_meta()` function using an exclusion list that omits `wp_capabilities`, combined with `get_form_settings()` returning a hard-coded defaults array that un...",
+   "summary": "CVE ID : CVE-2026-104748 Published : Oct. 14, 2026, 8:17 a.m. | 2 hours, 43 minutes ago Description : The SimpleForm – Form Maker to Chat Apps with Quiz, Poll and Multi Lead Notifications plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.10.0 This is due to the `wp_ajax_nopriv_simpleform_wp_register` AJAX action lacking any capability check for role assignment and the `save_custom_fields_to_user_meta()` function using an exclusion list that omits `wp_capabilities`, combined with `get_form_settings()` returning a hard-coded defaults array that un...",
    "timestamp": 1791965822,
    "source": "CVE Feed.io (High+)",
    "vendor": "CVEFeed.io",
@@ -580,7 +565,7 @@
    "id": "29db23155a0a23eb",
    "title": "CVE-2026-103367 - ShopMagic <= 4.9.0 - Unauthenticated Local File Inclusion via 'billing.first_name' Parameter",
    "link": "https://cvefeed.io/vuln/detail/CVE-2026-103367",
-   "summary": "CVE ID : CVE-2026-103367 Published : Oct. 14, 2026, 8:17 a.m. | 3 hours, 21 minutes ago Description : The ShopMagic – email automation for WordPress plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 4.9.0 via the 'billing_address.first_name' parameter parameter. This makes it possible for unauthenticated attackers to include and execute arbitrary .php files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where .php file types...",
+   "summary": "CVE ID : CVE-2026-103367 Published : Oct. 14, 2026, 8:17 a.m. | 2 hours, 43 minutes ago Description : The ShopMagic – email automation for WordPress plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 4.9.0 via the 'billing_address.first_name' parameter parameter. This makes it possible for unauthenticated attackers to include and execute arbitrary .php files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where .php file types...",
    "timestamp": 1791965822,
    "source": "CVE Feed.io (High+)",
    "vendor": "CVEFeed.io",
@@ -601,7 +586,7 @@
    "id": "24d39969ba6d9d3b",
    "title": "CVE-2026-89310 - SQL Command Injection Vulnerability in JTL-WMS",
    "link": "https://cvefeed.io/vuln/detail/CVE-2026-89310",
-   "summary": "CVE ID : CVE-2026-89310 Published : Oct. 14, 2026, 7:17 a.m. | 4 hours, 21 minutes ago Description : A parameter taken from the request body is inserted into a T-SQL statement without parameterization or escaping, allowing a remote attacker to execute arbitrary SQL statements in the context of the application's database account. Severity: 9.9 | CRITICAL Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "summary": "CVE ID : CVE-2026-89310 Published : Oct. 14, 2026, 7:17 a.m. | 3 hours, 43 minutes ago Description : A parameter taken from the request body is inserted into a T-SQL statement without parameterization or escaping, allowing a remote attacker to execute arbitrary SQL statements in the context of the application's database account. Severity: 9.9 | CRITICAL Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
    "timestamp": 1791962224,
    "source": "CVE Feed.io (High+)",
    "vendor": "CVEFeed.io",
@@ -620,7 +605,7 @@
    "id": "6678a79311a80536",
    "title": "CVE-2026-50218 - Akamai Guardicore Platform Agent JWT Validation Vulnerability",
    "link": "https://cvefeed.io/vuln/detail/CVE-2026-50218",
-   "summary": "CVE ID : CVE-2026-50218 Published : Oct. 14, 2026, 6:17 a.m. | 5 hours, 21 minutes ago Description : Akamai GPA (Guardicore Platform Agent) client on all platforms before 7.4 improperly validates JWT tokens used for seeding. By convincing a user to interact with a malicious link, an attacker can use a spoofed JWT token to inject arbitrary parameters into the client software, resulting in unauthorized reconfiguration and full compromise of the application's functionality. This attack can also be targeted against an already seeded client if the attacker knows the URL of the IDP that the client u...",
+   "summary": "CVE ID : CVE-2026-50218 Published : Oct. 14, 2026, 6:17 a.m. | 4 hours, 42 minutes ago Description : Akamai GPA (Guardicore Platform Agent) client on all platforms before 7.4 improperly validates JWT tokens used for seeding. By convincing a user to interact with a malicious link, an attacker can use a spoofed JWT token to inject arbitrary parameters into the client software, resulting in unauthorized reconfiguration and full compromise of the application's functionality. This attack can also be targeted against an already seeded client if the attacker knows the URL of the IDP that the client u...",
    "timestamp": 1791958626,
    "source": "CVE Feed.io (High+)",
    "vendor": "CVEFeed.io",
@@ -639,7 +624,7 @@
    "id": "e1ad363a3d377fcf",
    "title": "CVE-2026-110459 - UniFi Protect AI Key Improper Access Control Vulnerability",
    "link": "https://cvefeed.io/vuln/detail/CVE-2026-110459",
-   "summary": "CVE ID : CVE-2026-110459 Published : Oct. 14, 2026, 6:17 a.m. | 5 hours, 21 minutes ago Description : A malicious actor with access to the network could exploit an Improper Access Control vulnerability found in UniFi Protect AI Key to obtain information, make unauthorized changes, and execute a Denial of Service (DoS) attack on the device. Severity: 8.6 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "summary": "CVE ID : CVE-2026-110459 Published : Oct. 14, 2026, 6:17 a.m. | 4 hours, 42 minutes ago Description : A malicious actor with access to the network could exploit an Improper Access Control vulnerability found in UniFi Protect AI Key to obtain information, make unauthorized changes, and execute a Denial of Service (DoS) attack on the device. Severity: 8.6 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
    "timestamp": 1791958626,
    "source": "CVE Feed.io (High+)",
    "vendor": "CVEFeed.io",
@@ -658,7 +643,7 @@
    "id": "f90f8b6a95d14118",
    "title": "CVE-2026-110455 - UniFi Protect AI Key Command Injection Vulnerability",
    "link": "https://cvefeed.io/vuln/detail/CVE-2026-110455",
-   "summary": "CVE ID : CVE-2026-110455 Published : Oct. 14, 2026, 5:16 a.m. | 6 hours, 22 minutes ago Description : A malicious actor with access to the network and under certain conditions could exploit an Improper Input Validation vulnerability found in UniFi Protect AI Key to execute a Command Injection on the device. Severity: 8.1 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "summary": "CVE ID : CVE-2026-110455 Published : Oct. 14, 2026, 5:16 a.m. | 5 hours, 43 minutes ago Description : A malicious actor with access to the network and under certain conditions could exploit an Improper Input Validation vulnerability found in UniFi Protect AI Key to execute a Command Injection on the device. Severity: 8.1 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
    "timestamp": 1791955003,
    "source": "CVE Feed.io (High+)",
    "vendor": "CVEFeed.io",
@@ -677,7 +662,7 @@
    "id": "9135c6f380e61d98",
    "title": "CVE-2026-110450 - Nix and Lix Privilege Escalation Vulnerability",
    "link": "https://cvefeed.io/vuln/detail/CVE-2026-110450",
-   "summary": "CVE ID : CVE-2026-110450 Published : Oct. 14, 2026, 5:16 a.m. | 6 hours, 22 minutes ago Description : Nix before 2.35.3 and Lix before 2.95.4 allow privilege escalation via a repair operation because it could destroy and then replace a store path before content verification. Severity: 8.0 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "summary": "CVE ID : CVE-2026-110450 Published : Oct. 14, 2026, 5:16 a.m. | 5 hours, 43 minutes ago Description : Nix before 2.35.3 and Lix before 2.95.4 allow privilege escalation via a repair operation because it could destroy and then replace a store path before content verification. Severity: 8.0 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
    "timestamp": 1791955002,
    "source": "CVE Feed.io (High+)",
    "vendor": "CVEFeed.io",
@@ -698,7 +683,7 @@
    "id": "0ae08f150692262b",
    "title": "CVE-2026-106931 - SiteGuard Server Edition OS Command Injection Vulnerability",
    "link": "https://cvefeed.io/vuln/detail/CVE-2026-106931",
-   "summary": "CVE ID : CVE-2026-106931 Published : Oct. 14, 2026, 5:16 a.m. | 6 hours, 22 minutes ago Description : SiteGuard Server Edition contains an OS command injection vulnerability, which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product. Severity: 8.5 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "summary": "CVE ID : CVE-2026-106931 Published : Oct. 14, 2026, 5:16 a.m. | 5 hours, 43 minutes ago Description : SiteGuard Server Edition contains an OS command injection vulnerability, which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product. Severity: 8.5 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
    "timestamp": 1791955002,
    "source": "CVE Feed.io (High+)",
    "vendor": "CVEFeed.io",
@@ -729,6 +714,7 @@
    ],
    "tags": [],
    "first_seen": 1791979319.6598213,
+   "epss": null,
    "kev": false
   },
   {
@@ -750,6 +736,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791979319.6598213,
+   "epss": null,
    "kev": false
   },
   {
@@ -771,6 +758,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791979319.6598213,
+   "epss": null,
    "kev": false
   },
   {
@@ -814,6 +802,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791979319.6598213,
+   "epss": null,
    "kev": false
   },
   {
@@ -834,6 +823,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791979319.6598213,
+   "epss": null,
    "kev": false
   },
   {
@@ -856,6 +846,7 @@
     "rce"
    ],
    "first_seen": 1791979319.6598213,
+   "epss": null,
    "kev": false
   },
   {
@@ -877,6 +868,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791979319.6598213,
+   "epss": null,
    "kev": false
   },
   {
@@ -898,6 +890,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791979319.6598213,
+   "epss": null,
    "kev": false
   },
   {
@@ -919,6 +912,7 @@
     "auth-bypass"
    ],
    "first_seen": 1791979319.6598213,
+   "epss": null,
    "kev": false
   },
   {
