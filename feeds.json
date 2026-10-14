@@ -9,7 +9,5 @@
   {"name": "Ubuntu Security Notices", "url": "https://ubuntu.com/security/notices/rss.xml", "vendor": "Ubuntu", "category": "Vendor"},
   {"name": "Chrome Releases", "url": "https://chromereleases.googleblog.com/feeds/posts/default", "vendor": "Google", "category": "Vendor", "include": ["security", "cve"]},
   {"name": "Zero Day Initiative", "url": "https://www.zerodayinitiative.com/rss/published/", "vendor": "ZDI", "category": "Research"},
-  {"name": "CVE Feed.io (High+)", "url": "https://cvefeed.io/rssfeed/severity/high.xml", "vendor": "CVEFeed.io", "category": "CVE", "default_severity": "high", "max_items": 30},
-  {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "vendor": "BleepingComputer", "category": "News"},
   {"name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "vendor": "Krebs", "category": "News"}
 ]
