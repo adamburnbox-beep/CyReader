@@ -3,7 +3,7 @@
     {
       "source": "BleepingComputer",
       "vendor": "News",
-      "new_count": 10,
+      "new_count": 1,
       "total_count": 10,
       "status": "ok"
     },
@@ -31,7 +31,7 @@
     {
       "source": "Cisco Advisories",
       "vendor": "Cisco",
-      "new_count": 1,
+      "new_count": 0,
       "total_count": 10,
       "status": "ok"
     },
@@ -45,7 +45,7 @@
     {
       "source": "Ivanti Security",
       "vendor": "Ivanti",
-      "new_count": 10,
+      "new_count": 9,
       "total_count": 10,
       "status": "ok"
     },
@@ -58,6 +58,102 @@
     }
   ],
   "articles": [
+    {
+      "title": "CVE-2026-87855 - JTL-Connector for WooCommerce <= 2.4.3 - Unauthenticated Arbitrary File Upload via 'image.push' Method",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-87855",
+      "summary": "CVE ID :CVE-2026-87855\n  \n  Published : Oct. 14, 2026, 3:40 a.m. | 46\u00a0minutes ago\n  \n  Description :The JTL-Connector for WooCommerce plugin for WordP...",
+      "timestamp": 1791949206.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-104800 - AGE-GATE <= 1.0 - Unauthenticated Remote Code Execution via PHP Code Injection via 'width'/'height' Parameters to Standalone admin.php",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-104800",
+      "summary": "CVE ID :CVE-2026-104800\n  \n  Published : Oct. 14, 2026, 3:39 a.m. | 46\u00a0minutes ago\n  \n  Description :The AGE-GATE plugin for WordPress is vulnerable t...",
+      "timestamp": 1791949199.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97668 - Abandoned Cart Pro for WooCommerce <= 10.8.0 - Unauthenticated SQL Injection via Guest Persistent Cart meta_value",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97668",
+      "summary": "CVE ID :CVE-2026-97668\n  \n  Published : Oct. 14, 2026, 3:17 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :The Abandoned Cart Pro for WooCommerce plug...",
+      "timestamp": 1791947857.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-97657 - Abandoned Cart Pro for WooCommerce <= 10.8.0 - Unauthenticated Authentication Bypass via Malleable Encryption and Bypassable HMAC via Recovery Link 'validate' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97657",
+      "summary": "CVE ID :CVE-2026-97657\n  \n  Published : Oct. 14, 2026, 3:17 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :The Abandoned Cart Pro for WooCommerce plug...",
+      "timestamp": 1791947857.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-110447 - Collabora Online CODE Server OS Command Injection Vulnerability",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-110447",
+      "summary": "CVE ID :CVE-2026-110447\n  \n  Published : Oct. 14, 2026, 3:17 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :Collabora Online Built-in CODE Server befo...",
+      "timestamp": 1791947840.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-110445 - TEAMPLUS TECHNOLOGY\uff5cTeamPlus Messenger - Code Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-110445",
+      "summary": "CVE ID :CVE-2026-110445\n  \n  Published : Oct. 14, 2026, 3:17 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :TeamPlus Messenger developed by Teamplus T...",
+      "timestamp": 1791947840.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-110444 - TEAMPLUS TECHNOLOGY\uff5cTeamPlus Messenger - Code Injection",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-110444",
+      "summary": "CVE ID :CVE-2026-110444\n  \n  Published : Oct. 14, 2026, 3:17 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :TeamPlus Messenger developed by Teamplus T...",
+      "timestamp": 1791947840.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-110002 - Snazzy Social Media Feed <= 2.5 - Unauthenticated Arbitrary File Upload via 'pluginURL' Parameter",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-110002",
+      "summary": "CVE ID :CVE-2026-110002\n  \n  Published : Oct. 14, 2026, 3:17 a.m. | 1\u00a0hour, 9\u00a0minutes ago\n  \n  Description :The Snazzy Social Media Feed plugin for Wo...",
+      "timestamp": 1791947840.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-93388 - Printcart Store - Web to Print Product Designer for WooCommerce (PCDesigner) <= 2.9.1 - Unauthenticated Arbitrary File Upload to Remote Code Execution via nbdesigner_copy_image_from_url",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-93388",
+      "summary": "CVE ID :CVE-2026-93388\n  \n  Published : Oct. 14, 2026, 2:17 a.m. | 2\u00a0hours, 9\u00a0minutes ago\n  \n  Description :The Printcart Store (PCDesigner / NB Desig...",
+      "timestamp": 1791944221.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "CVE-2026-92097 - Click to Chat <= 4.44 - Unauthenticated Arbitrary Shortcode Execution via REQUEST_URI via {url} Placeholder",
+      "link": "https://cvefeed.io/vuln/detail/CVE-2026-92097",
+      "summary": "CVE ID :CVE-2026-92097\n  \n  Published : Oct. 14, 2026, 2:17 a.m. | 2\u00a0hours, 9\u00a0minutes ago\n  \n  Description :The Click to Chat for WhatsApp plugin for ...",
+      "timestamp": 1791944221.0,
+      "source": "CVE Feed.io",
+      "vendor": "CVEFeed.io - Critical & Very High"
+    },
+    {
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch...",
+      "timestamp": 1791933893.0,
+      "source": "Krebs on Security",
+      "vendor": "News"
+    },
+    {
+      "title": "OpenAI engineer arrested for allegedly planting spy device in office",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
+      "summary": "A Saudi OpenAI engineer has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Franci...",
+      "timestamp": 1791930782.0,
+      "source": "BleepingComputer",
+      "vendor": "News"
+    },
     {
       "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
       "link": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
@@ -83,22 +179,6 @@
       "vendor": "Cisco"
     },
     {
-      "title": "CVE-2026-90531 - Adobe Experience Manager is affected by an Imprope",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90531",
-      "summary": "CVE ID :CVE-2026-90531\n  \n  Published : Oct. 13, 2026, 7:56 p.m. | 5\u00a0minutes ago\n  \n  Description :Adobe Experience Manager is affected by an Improper...",
-      "timestamp": 1791921390.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-90532 - Adobe Experience Manager is affected by an Incorre",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-90532",
-      "summary": "CVE ID :CVE-2026-90532\n  \n  Published : Oct. 13, 2026, 7:56 p.m. | 5\u00a0minutes ago\n  \n  Description :Adobe Experience Manager is affected by an Incorrec...",
-      "timestamp": 1791921389.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
       "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
       "summary": "Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and ...",
@@ -113,70 +193,6 @@
       "timestamp": 1791920850.0,
       "source": "BleepingComputer",
       "vendor": "News"
-    },
-    {
-      "title": "CVE-2026-86016 - VNote Cross-Site Scripting Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-86016",
-      "summary": "CVE ID :CVE-2026-86016\n  \n  Published : Oct. 13, 2026, 7:40 p.m. | 21\u00a0minutes ago\n  \n  Description :VNote is a note-taking platform. Prior to 4.3.0, V...",
-      "timestamp": 1791920406.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-97816 - OpenSSH for Windows Use-After-Free Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97816",
-      "summary": "CVE ID :CVE-2026-97816\n  \n  Published : Oct. 13, 2026, 7:22 p.m. | 39\u00a0minutes ago\n  \n  Description :Use after free in OpenSSH for Windows allows an un...",
-      "timestamp": 1791919340.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-97815 - Windows Error Reporting Heap-Based Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97815",
-      "summary": "CVE ID :CVE-2026-97815\n  \n  Published : Oct. 13, 2026, 7:22 p.m. | 39\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Windows Error Report...",
-      "timestamp": 1791919339.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-97814 - Windows Text Shaping Heap-Based Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97814",
-      "summary": "CVE ID :CVE-2026-97814\n  \n  Published : Oct. 13, 2026, 7:22 p.m. | 39\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Windows Text Shaping...",
-      "timestamp": 1791919339.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-97805 - Windows Partition Management Driver Out-of-Bounds Read Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97805",
-      "summary": "CVE ID :CVE-2026-97805\n  \n  Published : Oct. 13, 2026, 7:22 p.m. | 39\u00a0minutes ago\n  \n  Description :Out-of-bounds read in Windows Partition Management...",
-      "timestamp": 1791919338.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-97783 - Microsoft SharePoint Cross-Site Scripting Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97783",
-      "summary": "CVE ID :CVE-2026-97783\n  \n  Published : Oct. 13, 2026, 7:22 p.m. | 39\u00a0minutes ago\n  \n  Description :Improper neutralization of input during web page g...",
-      "timestamp": 1791919336.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-97781 - Microsoft Office OneNote Command Injection Vulnerability",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97781",
-      "summary": "CVE ID :CVE-2026-97781\n  \n  Published : Oct. 13, 2026, 7:22 p.m. | 39\u00a0minutes ago\n  \n  Description :Improper neutralization of special elements used i...",
-      "timestamp": 1791919336.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
-    },
-    {
-      "title": "CVE-2026-97780 - Microsoft Office Excel Heap-Based Buffer Overflow",
-      "link": "https://cvefeed.io/vuln/detail/CVE-2026-97780",
-      "summary": "CVE ID :CVE-2026-97780\n  \n  Published : Oct. 13, 2026, 7:22 p.m. | 39\u00a0minutes ago\n  \n  Description :Heap-based buffer overflow in Microsoft Office Exc...",
-      "timestamp": 1791919336.0,
-      "source": "CVE Feed.io",
-      "vendor": "CVEFeed.io - Critical & Very High"
     },
     {
       "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
@@ -215,14 +231,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-connect-secure-zero-day-exploited-in-attacks/",
       "summary": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access g...",
       "timestamp": 1791906350.0,
-      "source": "BleepingComputer",
-      "vendor": "News"
-    },
-    {
-      "title": "Docker Hub flaw let attackers impersonate users, tamper with images",
-      "link": "https://www.bleepingcomputer.com/news/security/docker-hub-flaw-let-attackers-impersonate-users-tamper-with-images/",
-      "summary": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a ...",
-      "timestamp": 1791904820.0,
       "source": "BleepingComputer",
       "vendor": "News"
     },
@@ -331,5 +339,5 @@
       "vendor": "Palo Alto"
     }
   ],
-  "last_updated": 1791928341.358045
+  "last_updated": 1791958140.2051625
 }
