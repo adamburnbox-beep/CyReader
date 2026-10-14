@@ -85,8 +85,17 @@ select{background:var(--surface2);border:1px solid var(--border);border-radius:8
 .chip.ex{color:var(--crit);border-color:var(--crit);background:color-mix(in srgb,var(--crit) 12%,transparent);text-decoration:line-through}
 #filters.collapsed .fbody{display:none}
 #filters.collapsed{padding:.5rem .75rem}
-.vendors{max-height:5.2rem;overflow:auto;padding:2px}
+.fg{display:grid;grid-template-columns:84px 1fr;gap:.5rem;align-items:start;padding:.55rem 0;border-top:1px solid var(--border)}
+.fg .lbl{padding-top:.2rem;min-width:0}
+.fc{display:flex;flex-wrap:wrap;gap:.4rem;align-items:center;min-width:0}
+.fc.col{flex-direction:column;align-items:stretch;flex-wrap:nowrap}
+.vtools{display:flex;gap:.5rem;align-items:center}
+.vtools input{flex:0 1 220px;background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:.25rem .6rem;font-size:13px}
+.vtools input:focus{border-color:var(--accent);outline:none}
+.vendors{max-height:3.6rem;overflow:hidden}
 .vendors.open{max-height:none}
+.fhead{cursor:pointer}
+#filters:not(.collapsed) .fhead{padding-bottom:.1rem}
 .toolbar{display:flex;justify-content:space-between;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.5rem;color:var(--muted);font-size:13px}
 
 /* list */
@@ -135,7 +144,7 @@ th{font:11px var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var
 pre{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:.6rem;overflow:auto;font:12px var(--mono);margin:.5rem 0}
 .help-grid{display:grid;grid-template-columns:auto 1fr;gap:.3rem 1rem;font-size:13px}
 #toast{position:fixed;left:50%;bottom:1.2rem;transform:translateX(-50%);z-index:50;background:var(--accent);color:#fff;border-radius:999px;padding:.5rem 1rem;box-shadow:0 8px 30px rgba(0,0,0,.4)}
-@media(max-width:700px){main{padding:.6rem}.lbl{min-width:100%}.status span.t{display:none}.item{grid-template-columns:1fr}.acts{justify-content:flex-end}}
+@media(max-width:700px){main{padding:.6rem}.fg{grid-template-columns:1fr;gap:.2rem}.status span.t{display:none}.item{grid-template-columns:1fr}.acts{justify-content:flex-end}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
@@ -174,24 +183,30 @@ pre{background:var(--surface2);border:1px solid var(--border);border-radius:8px;
       <span style="color:var(--muted);font-size:12px;margin-left:auto">click: include · again: exclude · again: clear</span>
     </div>
     <div id="f-body" class="fbody">
-    <div class="row"><span class="lbl">Severity</span><span id="f-sev" class="row"></span>
-      <span class="lbl" style="margin-left:1rem;min-width:0">Time</span>
-      <select id="f-range" aria-label="Time range">
-        <option value="6h">Last 6 hours</option><option value="24h">Last 24 hours</option><option value="72h">Last 3 days</option>
-        <option value="7d">Last 7 days</option><option value="30d">Last 30 days</option><option value="all">All stored</option>
-      </select>
-      <span class="lbl" style="margin-left:1rem;min-width:0">Sort</span>
-      <select id="f-sort" aria-label="Sort order">
-        <option value="new">Newest first</option><option value="old">Oldest first</option>
-        <option value="prio">Priority (KEV · severity · EPSS)</option><option value="sev">Severity</option>
-        <option value="epss">EPSS (exploit probability)</option><option value="src">Source A–Z</option>
-      </select>
-    </div>
-    <div class="row"><span class="lbl">Show</span><span id="f-flags" class="row"></span></div>
-    <div class="row"><span class="lbl">Type</span><span id="f-cat" class="row"></span></div>
-    <div class="row" style="align-items:flex-start"><span class="lbl">Vendor</span><span id="f-vendor" class="row vendors" style="flex:1"></span>
-      <button class="btn sm" id="vendor-more">expand</button></div>
-    <div class="row"><span class="lbl"></span><input id="vendor-q" type="search" placeholder="Find vendor…" aria-label="Find vendor" style="background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:.2rem .5rem;font-size:12px"></div>
+      <div class="fg"><span class="lbl">Time</span>
+        <div class="fc">
+          <select id="f-range" aria-label="Time range">
+            <option value="6h">Last 6 hours</option><option value="24h">Last 24 hours</option><option value="72h">Last 3 days</option>
+            <option value="7d">Last 7 days</option><option value="30d">Last 30 days</option><option value="all">All stored</option>
+          </select>
+          <span class="lbl" style="min-width:0;margin-left:.75rem">Sort</span>
+          <select id="f-sort" aria-label="Sort order">
+            <option value="new">Newest first</option><option value="old">Oldest first</option>
+            <option value="prio">Priority (KEV · severity · EPSS)</option><option value="sev">Severity</option>
+            <option value="epss">EPSS (exploit probability)</option><option value="src">Source A–Z</option>
+          </select>
+        </div></div>
+      <div class="fg"><span class="lbl">Severity</span><div class="fc" id="f-sev"></div></div>
+      <div class="fg"><span class="lbl">Show</span><div class="fc" id="f-flags"></div></div>
+      <div class="fg"><span class="lbl">Type</span><div class="fc" id="f-cat"></div></div>
+      <div class="fg"><span class="lbl">Vendor</span>
+        <div class="fc col">
+          <div class="vtools">
+            <input id="vendor-q" type="search" placeholder="Find vendor…" aria-label="Find vendor">
+            <button class="btn sm hidden" id="vendor-more" aria-expanded="false">Show all</button>
+          </div>
+          <div id="f-vendor" class="fc vendors"></div>
+        </div></div>
     </div>
   </section>
 
@@ -395,6 +410,7 @@ function renderFilters(terms){
     .filter(v => !vq || v.toLowerCase().includes(vq) || F.vendor.has(v))
     .sort((a,b) => (!!F.vendor.get(b))-(!!F.vendor.get(a)) || (vc[b]||0)-(vc[a]||0) || a.localeCompare(b));
   $('f-vendor').innerHTML = vendors.map(v => chip(v, F.vendor.get(v), `data-vendor="${esc(v)}"`, vc[v]||0)).join('') || '<span style="color:var(--muted)">No vendors match</span>';
+  syncVendorMore();
   const cats = [...new Set(data.articles.map(a => a.category))].sort();
   $('f-cat').innerHTML = cats.map(c => chip(c, F.cat.get(c), `data-cat="${esc(c)}"`, cc[c]||0)).join('');
   const FL = {unread:'Unread', prio:'KEV / exploited / critical', cve:'Has CVE', star:'★ Starred'};
@@ -640,7 +656,8 @@ function bind(){
   $('btn-compact').onclick = () => { user.compact = !user.compact; saveUser(); document.body.classList.toggle('compact', user.compact); $('btn-compact').classList.toggle('on', user.compact); };
   $('btn-readvis').onclick = () => { view.forEach(a => setRead(a, true)); render(); };
   $('btn-readall').onclick = () => { user.readBefore = now(); user.read = {}; user.unread = {}; saveUser(); render(); toast('Everything marked read'); };
-  $('vendor-more').onclick = e => { const o = $('f-vendor').classList.toggle('open'); e.target.textContent = o ? 'collapse' : 'expand'; };
+  $('vendor-more').onclick = () => { $('f-vendor').classList.toggle('open'); syncVendorMore(); };
+  $('filters').querySelector('.fhead').addEventListener('click', e => { if (!e.target.closest('button')) $('f-toggle').click(); });
   $('btn-notify').onclick = async () => {
     if (!('Notification' in window)) return toast('Notifications not supported');
     if (user.notify){ user.notify = false; } else {
@@ -670,11 +687,19 @@ function bind(){
     }
   });
 }
+function syncVendorMore(){
+  const v = $('f-vendor'), b = $('vendor-more'), open = v.classList.contains('open');
+  const overflow = open || v.scrollHeight > v.clientHeight + 2;
+  b.classList.toggle('hidden', !overflow);
+  b.textContent = open ? 'Show less' : `Show all ${v.children.length}`;
+  b.setAttribute('aria-expanded', open);
+}
 function setFiltersOpen(open){
   $('filters').classList.toggle('collapsed', !open);
   $('f-toggle').setAttribute('aria-expanded', open);
   $('f-toggle').firstChild.textContent = (open ? '▾' : '▸') + ' Filters ';
   user.filtersOpen = open; saveUser();
+  if (open && data) syncVendorMore();
 }
 function openSources(){ renderSources(); $('dlg-sources').showModal(); }
 
