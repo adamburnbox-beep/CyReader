@@ -1,558 +1,647 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CybeRSS // INTELLIGENCE FEED</title>
-    <style>
-        :root {
-            --bg: #050505;
-            --surface: #0f0f0f;
-            --border: #1a1a1a;
-            --text-primary: #ffffff;
-            --text-secondary: #999999;
-            --accent: #ff3e3e;
-            --accent-glow: rgba(255, 62, 62, 0.4);
-            --success: #00ff88;
-            --success-glow: rgba(0, 255, 136, 0.4);
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark light">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 10 10%27%3E%3Ccircle cx=%275%27 cy=%275%27 r=%275%27 fill=%27%23ff4057%27/%3E%3C/svg%3E">
+<title>CyReader // Vulnerability Advisory Feed</title>
+<style>
+:root{
+  --bg:#07090d; --surface:#0f1319; --surface2:#161b23; --border:#232a35; --text:#e8ecf2; --muted:#8c97a8;
+  --accent:#4ea1ff; --ok:#2fd18b; --warn:#f2c230;
+  --crit:#ff4057; --high:#ff8a1f; --med:#f2c230; --low:#4ea1ff; --info:#6b7686;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+:root[data-theme="light"]{
+  --bg:#f3f5f8; --surface:#ffffff; --surface2:#eef1f5; --border:#d7dde6; --text:#141a24; --muted:#586272;
+  --accent:#0b63ce; --ok:#0f8a5a; --warn:#9a6b00;
+  --crit:#d3122f; --high:#c25a00; --med:#8a6a00; --low:#0b63ce; --info:#5d6877;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button,select,input{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 
-        body {
-            background-color: var(--bg);
-            color: var(--text-primary);
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            margin: 0;
-            padding: 2rem;
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-        }
+/* header */
+header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+.bar{max-width:1400px;margin:0 auto;padding:.6rem 1rem;display:flex;gap:.75rem;align-items:center;flex-wrap:wrap}
+.logo{font-weight:800;font-size:1.15rem;letter-spacing:-.3px;white-space:nowrap}
+.logo b{color:var(--crit)}
+.search{flex:1 1 280px;position:relative;min-width:200px}
+.search input{width:100%;padding:.5rem 2.2rem .5rem .8rem;background:var(--surface);border:1px solid var(--border);border-radius:8px}
+.search input:focus{border-color:var(--accent);outline:none}
+.search kbd{position:absolute;right:.6rem;top:50%;transform:translateY(-50%)}
+kbd{font:11px var(--mono);border:1px solid var(--border);border-bottom-width:2px;border-radius:4px;padding:0 .35rem;color:var(--muted);background:var(--surface2)}
+.status{font:12px var(--mono);color:var(--muted);display:flex;align-items:center;gap:.4rem;white-space:nowrap}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--ok);box-shadow:0 0 6px var(--ok)}
+.dot.stale{background:var(--crit);box-shadow:0 0 6px var(--crit)}
+.btn{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.4rem .7rem;white-space:nowrap}
+.btn:hover{border-color:var(--accent)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.on{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 18%,var(--surface))}
+.btn.sm{padding:.15rem .5rem;font-size:12px}
 
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 3rem;
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 1.5rem;
-        }
+main{max-width:1400px;margin:0 auto;padding:1rem}
 
-        .logo {
-            font-weight: 900;
-            font-size: 1.8rem;
-            letter-spacing: -1px;
-            text-transform: uppercase;
-        }
+/* banners */
+.banner{border:1px solid var(--border);border-left:4px solid var(--warn);background:var(--surface);border-radius:8px;padding:.5rem .8rem;margin-bottom:.75rem;display:flex;gap:.75rem;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.banner.err{border-left-color:var(--crit)}
+.hidden{display:none!important}
 
-        .logo-cybe {
-            background: linear-gradient(90deg, #fff, #aaa);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+/* priority alerts */
+#alerts{border:1px solid color-mix(in srgb,var(--crit) 50%,var(--border));background:color-mix(in srgb,var(--crit) 7%,var(--surface));border-radius:10px;padding:.75rem;margin-bottom:1rem}
+#alerts h2{margin:0 0 .5rem;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--crit);display:flex;justify-content:space-between;align-items:center;gap:1rem}
+.alert-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:.5rem}
+.alert{display:block;text-decoration:none;background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--crit);border-radius:6px;padding:.45rem .6rem;min-width:0}
+.alert:hover{border-color:var(--crit)}
+.alert .t{font-weight:600;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.alert .m{font-size:12px;color:var(--muted);margin-top:.15rem}
 
-        .logo-rss {
-            color: var(--accent);
-            text-shadow: 0 0 15px var(--accent-glow);
-        }
+/* tiles */
+#tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.6rem;margin-bottom:1rem}
+.tile{text-align:left;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:.6rem .8rem}
+.tile:hover,.tile.on{border-color:var(--accent)}
+.tile .n{font-size:1.7rem;font-weight:800;line-height:1.1}
+.tile .l{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 
-        .status-container {
-            text-align: right;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
-            color: var(--text-secondary);
-        }
+/* filters */
+#filters{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:.75rem;margin-bottom:1rem;display:grid;gap:.6rem}
+.row{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center}
+.lbl{font:11px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);min-width:70px}
+.chip{background:transparent;border:1px solid var(--border);border-radius:999px;padding:.1rem .65rem;font-size:12px;color:var(--muted);display:inline-flex;gap:.35rem;align-items:center}
+.chip:hover{color:var(--text);border-color:var(--muted)}
+.chip.on{color:var(--text);border-color:var(--accent);background:color-mix(in srgb,var(--accent) 20%,transparent)}
+.chip i{font-style:normal;opacity:.65;font-size:11px}
+.chip.s-critical.on{border-color:var(--crit);background:color-mix(in srgb,var(--crit) 22%,transparent)}
+.chip.s-high.on{border-color:var(--high);background:color-mix(in srgb,var(--high) 22%,transparent)}
+.chip.s-medium.on{border-color:var(--med);background:color-mix(in srgb,var(--med) 22%,transparent)}
+.chip.s-low.on{border-color:var(--low);background:color-mix(in srgb,var(--low) 22%,transparent)}
+select{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:.3rem .5rem}
+.vendors{max-height:5.2rem;overflow:auto;padding:2px}
+.vendors.open{max-height:none}
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:.5rem;flex-wrap:wrap;margin-bottom:.5rem;color:var(--muted);font-size:13px}
 
-        /* Redesigned Dashboard */
-        #dashboard {
-            display: grid;
-            grid-template-columns: 300px 1fr;
-            gap: 2rem;
-            margin-bottom: 4rem;
-            background: linear-gradient(145deg, #0f0f0f, #0a0a0a);
-            border: 1px solid var(--border);
-            padding: 2rem;
-            border-radius: 8px;
-        }
+/* list */
+#list{display:grid;gap:.4rem}
+.item{position:relative;background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--info);border-radius:8px;padding:.55rem .75rem;display:grid;grid-template-columns:1fr auto;gap:.2rem .75rem}
+.item.sev-critical{border-left-color:var(--crit)} .item.sev-high{border-left-color:var(--high)}
+.item.sev-medium{border-left-color:var(--med)} .item.sev-low{border-left-color:var(--low)}
+.item.read{opacity:.62}
+.item.read .title{font-weight:500}
+.item.cur{outline:2px solid var(--accent);outline-offset:1px}
+.item .main{min-width:0}
+.title{font-weight:700;text-decoration:none;word-break:break-word}
+.title:hover{color:var(--accent);text-decoration:underline}
+.meta{font-size:12px;color:var(--muted);display:flex;gap:.3rem .6rem;flex-wrap:wrap;margin-top:.1rem;align-items:center}
+.badge{font:700 10px var(--mono);letter-spacing:.05em;text-transform:uppercase;padding:.05rem .4rem;border-radius:4px;border:1px solid currentColor;white-space:nowrap}
+.b-critical{color:var(--crit)} .b-high{color:var(--high)} .b-medium{color:var(--med)} .b-low{color:var(--low)} .b-info{color:var(--info)}
+.b-kev{background:var(--crit);border-color:var(--crit);color:#fff}
+.b-new{background:var(--ok);border-color:var(--ok);color:#000}
+.b-tag{color:var(--muted);border-color:var(--border);cursor:pointer}
+.b-epss{color:var(--high)}
+.cve{font:12px var(--mono);color:var(--accent);text-decoration:none}
+.cve:hover{text-decoration:underline}
+.summary{grid-column:1/-1;font-size:13px;color:var(--muted);display:none;margin-top:.25rem;padding-top:.35rem;border-top:1px dashed var(--border)}
+.item.open .summary{display:block}
+.acts{display:flex;gap:.25rem;align-items:flex-start}
+.ico{background:none;border:1px solid transparent;border-radius:6px;padding:.1rem .4rem;color:var(--muted);font-size:15px;line-height:1.3}
+.ico:hover{border-color:var(--border);color:var(--text)}
+.ico.starred{color:var(--warn)}
+body.compact .item{padding:.25rem .6rem}
+body.compact .meta .vend,body.compact .acts .x{display:none}
+.empty{text-align:center;color:var(--muted);padding:3rem 1rem;border:1px dashed var(--border);border-radius:10px}
 
-        .global-stat {
-            border-right: 1px solid var(--border);
-            padding-right: 2rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .global-label {
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: var(--text-secondary);
-            margin-bottom: 0.5rem;
-        }
-
-        .global-value {
-            font-size: 3.5rem;
-            font-weight: 900;
-            line-height: 1;
-            margin: 0.5rem 0;
-            display: flex;
-            align-items: baseline;
-            gap: 0.5rem;
-        }
-
-        .global-new {
-            color: var(--success);
-            text-shadow: 0 0 20px var(--success-glow);
-        }
-
-        .global-total {
-            font-size: 1.2rem;
-            color: var(--text-secondary);
-            font-weight: 400;
-        }
-
-        .source-activity {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.75rem;
-            align-content: flex-start;
-        }
-
-        .source-chip {
-            background: #1a1a1a;
-            border: 1px solid var(--border);
-            padding: 0.4rem 0.8rem;
-            border-radius: 4px;
-            font-size: 0.7rem;
-            font-family: 'JetBrains Mono', monospace;
-            display: flex;
-            align-items: center;
-            gap: 0.6rem;
-            transition: all 0.2s ease;
-            color: var(--text-secondary);
-        }
-
-        .source-chip.has-updates {
-            border-color: var(--success);
-            color: var(--text-primary);
-            background: rgba(0, 255, 136, 0.05);
-        }
-
-        .source-chip.has-updates .indicator {
-            background: var(--success);
-            box-shadow: 0 0 8px var(--success-glow);
-            animation: pulse-dot 2s infinite;
-        }
-
-        .source-chip.has-error {
-            border-color: var(--accent);
-            opacity: 0.7;
-        }
-
-        .source-chip.has-error .indicator {
-            background: var(--accent);
-            box-shadow: 0 0 8px var(--accent-glow);
-        }
-
-        .source-chip .indicator {
-            width: 6px;
-            height: 6px;
-            background: #333;
-            border-radius: 50%;
-        }
-
-        .source-chip:hover {
-            background: #252525;
-            border-color: var(--text-secondary);
-            cursor: pointer;
-        }
-
-        @keyframes pulse-dot {
-            0% { transform: scale(1); opacity: 1; }
-            50% { transform: scale(1.5); opacity: 0.5; }
-            100% { transform: scale(1); opacity: 1; }
-        }
-
-        /* Feed Grid Styles */
-        #grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-            gap: 2rem;
-        }
-
-        .card {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            padding: 1.5rem;
-            display: flex;
-            flex-direction: column;
-            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-            position: relative;
-            overflow: hidden; /* Fixes the bleeding */
-            max-height: 400px; /* Optional: keeps the grid uniform */
-        }
-
-        .card:hover {
-            border-color: var(--accent);
-            box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
-            transform: scale(1.01);
-        }
-
-        .card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 2px;
-            height: 0;
-            background: var(--accent);
-            transition: height 0.4s ease;
-        }
-
-        .card:hover::before {
-            height: 100%;
-        }
-
-        .meta {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.7rem;
-            color: var(--text-secondary);
-            margin-bottom: 1rem;
-            display: flex;
-            justify-content: space-between;
-            text-transform: uppercase;
-        }
-
-        .title {
-            font-size: 1.2rem;
-            font-weight: 600;
-            line-height: 1.3;
-            margin-bottom: 1rem;
-            color: var(--text-primary);
-            text-decoration: none;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-
-        .title:hover {
-            color: var(--accent);
-        }
-
-        .summary {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            flex-grow: 1;
-        }
-
-        .new-badge {
-            background: var(--success);
-            color: #000;
-            padding: 0 4px;
-            font-size: 0.6rem;
-            font-weight: 900;
-            margin-left: 8px;
-            border-radius: 2px;
-            vertical-align: middle;
-        }
-
-        @media (max-width: 900px) {
-            #dashboard { grid-template-columns: 1fr; }
-            .global-stat { border-right: none; border-bottom: 1px solid var(--border); padding-right: 0; padding-bottom: 2rem; }
-        }
-
-        @media (max-width: 600px) {
-            body { padding: 1rem; }
-            #grid { grid-template-columns: 1fr; }
-        }
-
-        /* Enhanced Filter Section */
-        .controls-container {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin-bottom: 2rem;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 2rem;
-            align-items: flex-start;
-        }
-
-        .control-group {
-            display: flex;
-            flex-direction: column;
-            gap: 0.8rem;
-        }
-
-        .control-label {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.7rem;
-            color: var(--text-secondary);
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .search-input {
-            background: #151515;
-            border: 1px solid var(--border);
-            color: var(--text-primary);
-            padding: 0.6rem 1rem;
-            border-radius: 4px;
-            font-family: 'Inter', sans-serif;
-            font-size: 0.9rem;
-            width: 100%;
-            box-sizing: border-box;
-            transition: border-color 0.2s;
-        }
-
-        .search-input:focus {
-            outline: none;
-            border-color: var(--accent);
-        }
-
-        .date-input {
-            background: #151515;
-            border: 1px solid var(--border);
-            color: var(--text-primary);
-            padding: 0.5rem;
-            border-radius: 4px;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.8rem;
-            width: 100%;
-            box-sizing: border-box;
-        }
-
-        .vendor-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
-
-        .vendor-tag {
-            background: transparent;
-            border: 1px solid var(--border);
-            color: var(--text-secondary);
-            padding: 0.3rem 0.6rem;
-            border-radius: 4px;
-            font-size: 0.65rem;
-            font-family: 'JetBrains Mono', monospace;
-            cursor: pointer;
-            transition: all 0.2s;
-            text-transform: uppercase;
-        }
-
-        .vendor-tag:hover {
-            border-color: var(--text-primary);
-            color: var(--text-primary);
-        }
-
-        .vendor-tag.active {
-            background: var(--accent-glow);
-            border-color: var(--accent);
-            color: var(--text-primary);
-        }
-
-        @media (max-width: 1000px) {
-            .controls-container { grid-template-columns: 1fr 1fr; }
-        }
-
-        @media (max-width: 700px) {
-            .controls-container { grid-template-columns: 1fr; }
-        }
-    </style>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=JetBrains+Mono&display=swap" rel="stylesheet">
+/* modal */
+dialog{background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:12px;padding:0;max-width:min(980px,94vw);width:100%;max-height:90vh}
+dialog::backdrop{background:rgba(0,0,0,.6)}
+.dlg{padding:1rem 1.25rem;overflow:auto;max-height:88vh}
+.dlg h2{margin:.2rem 0 .6rem}
+.dlg h3{margin:1.2rem 0 .4rem;font-size:.9rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{text-align:left;padding:.35rem .5rem;border-bottom:1px solid var(--border);vertical-align:top}
+th{font:11px var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.st-ok{color:var(--ok)} .st-warn{color:var(--warn)} .st-error{color:var(--crit)}
+.form{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.5rem}
+.form label{display:grid;gap:.15rem;font-size:12px;color:var(--muted)}
+.form input,.form select{background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:.4rem .5rem;width:100%}
+pre{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:.6rem;overflow:auto;font:12px var(--mono);margin:.5rem 0}
+.help-grid{display:grid;grid-template-columns:auto 1fr;gap:.3rem 1rem;font-size:13px}
+#toast{position:fixed;left:50%;bottom:1.2rem;transform:translateX(-50%);z-index:50;background:var(--accent);color:#fff;border-radius:999px;padding:.5rem 1rem;box-shadow:0 8px 30px rgba(0,0,0,.4)}
+@media(max-width:700px){main{padding:.6rem}.lbl{min-width:100%}.status span.t{display:none}.item{grid-template-columns:1fr}.acts{justify-content:flex-end}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
 </head>
 <body>
-
 <header>
-    <div class="logo"><span class="logo-cybe">Cybe</span><span class="logo-rss">RSS</span> <span style="font-weight: 300; opacity: 0.5;">// INTEL</span></div>
-    <div class="status-container">
-        <div>SYSTEM STATUS: ACTIVE</div>
-        <div id="status">LAST FETCH: --:--:--</div>
+  <div class="bar">
+    <div class="logo">Cy<b>Reader</b></div>
+    <div class="search">
+      <label class="sr" for="q">Search advisories</label>
+      <input id="q" type="search" placeholder='Search: cisco "remote code" -low  vendor:fortinet  cve:2026  tag:exploited' autocomplete="off">
+      <kbd>/</kbd>
     </div>
+    <div class="status" title="Time of the last successful build of data.json"><span class="dot" id="dot"></span><span id="updated">loading…</span></div>
+    <button class="btn" id="btn-refresh" title="Reload feed data (r)">↻</button>
+    <button class="btn" id="btn-sources">Sources <span id="src-health"></span></button>
+    <button class="btn" id="btn-theme" title="Toggle light/dark">Theme</button>
+    <button class="btn" id="btn-help" title="Keyboard shortcuts (?)">?</button>
+  </div>
 </header>
 
-<div id="dashboard">
-    <div class="global-stat">
-        <div class="global-label">TOTAL NEW INTEL</div>
-        <div class="global-value">
-            <span id="total-new" class="global-new">+0</span>
-            <span id="total-articles" class="global-total">/ 0</span>
-        </div>
-    </div>
-    <div id="source-activity" class="source-activity">
-        <!-- Source chips will be injected here -->
-    </div>
-</div>
+<main>
+  <div id="stale" class="banner err hidden"></div>
+  <div id="srcerr" class="banner hidden"></div>
 
-<div class="controls-container">
-    <div class="control-group">
-        <label class="control-label">SEARCH INTEL <span>[TITLE/VENDOR]</span></label>
-        <input type="text" id="search-query" class="search-input" placeholder="Type to search..." oninput="updateFilters()">
-    </div>
-    
-    <div class="control-group">
-        <label class="control-label">FILTER VENDORS <span>[MULTI-SELECT]</span></label>
-        <div id="vendor-tags" class="vendor-tags">
-            <!-- Vendor tags will be injected here -->
-        </div>
-    </div>
+  <section id="alerts" class="hidden" aria-label="Priority alerts">
+    <h2><span id="alerts-title">Priority alerts</span><button class="btn sm" id="alerts-all">Show all priority →</button></h2>
+    <div class="alert-list" id="alert-list"></div>
+  </section>
 
-    <div class="control-group">
-        <label class="control-label">PUBLISHED SINCE <span>[DATE]</span></label>
-        <input type="date" id="date-since" class="date-input" onchange="updateFilters()">
-    </div>
-</div>
+  <section id="tiles" aria-label="Summary"></section>
 
-<div id="grid">
-    <!-- Articles will be injected here -->
-</div>
+  <section id="filters" aria-label="Filters">
+    <div class="row"><span class="lbl">Severity</span><span id="f-sev" class="row"></span>
+      <span class="lbl" style="margin-left:1rem;min-width:0">Time</span>
+      <select id="f-range" aria-label="Time range">
+        <option value="6h">Last 6 hours</option><option value="24h">Last 24 hours</option><option value="72h">Last 3 days</option>
+        <option value="7d">Last 7 days</option><option value="30d">Last 30 days</option><option value="all">All stored</option>
+      </select>
+      <span class="lbl" style="margin-left:1rem;min-width:0">Sort</span>
+      <select id="f-sort" aria-label="Sort order">
+        <option value="new">Newest first</option><option value="old">Oldest first</option>
+        <option value="prio">Priority (KEV · severity · EPSS)</option><option value="sev">Severity</option>
+        <option value="epss">EPSS (exploit probability)</option><option value="src">Source A–Z</option>
+      </select>
+    </div>
+    <div class="row"><span class="lbl">Show</span><span id="f-flags" class="row"></span></div>
+    <div class="row"><span class="lbl">Type</span><span id="f-cat" class="row"></span></div>
+    <div class="row" style="align-items:flex-start"><span class="lbl">Vendor</span><span id="f-vendor" class="row vendors" style="flex:1"></span>
+      <button class="btn sm" id="vendor-more">expand</button></div>
+  </section>
+
+  <div class="toolbar">
+    <span id="count"></span>
+    <span class="row">
+      <button class="btn sm" id="btn-readvis" title="Mark all visible items read">Mark visible read</button>
+      <button class="btn sm" id="btn-readall" title="Mark everything read">Mark all read</button>
+      <button class="btn sm" id="btn-compact">Compact</button>
+      <button class="btn sm" id="btn-csv">Export CSV</button>
+      <button class="btn sm" id="btn-notify" title="Browser notifications for new critical / KEV items">🔔 Notify</button>
+      <button class="btn sm" id="btn-reset">Reset filters</button>
+    </span>
+  </div>
+  <div id="list" role="list"></div>
+  <div style="text-align:center;margin:1rem"><button class="btn" id="more">Show more</button></div>
+</main>
+
+<dialog id="dlg-sources"><div class="dlg">
+  <div class="row" style="justify-content:space-between"><h2>Sources</h2><button class="btn sm" data-close>Close ✕</button></div>
+  <div id="src-table"></div>
+  <h3>Add a feed</h3>
+  <p style="color:var(--muted);margin:0 0 .5rem">Feeds are defined in <code>feeds.json</code>. Fill this in, copy the snippet, add it to the list on GitHub and commit &mdash; the builder re-runs automatically and the feed appears within a minute or two.</p>
+  <div class="form">
+    <label>Name<input id="nf-name" placeholder="Fortinet PSIRT"></label>
+    <label>Feed URL<input id="nf-url" placeholder="https://…/rss.xml" inputmode="url"></label>
+    <label>Vendor / group<input id="nf-vendor" placeholder="Fortinet"></label>
+    <label>Type<select id="nf-cat"><option>Vendor</option><option>Government</option><option>CVE</option><option>Research</option><option>News</option></select></label>
+    <label>Default severity<select id="nf-sev"><option value="info">info (unknown)</option><option>low</option><option>medium</option><option>high</option><option>critical</option></select></label>
+    <label>Only keep entries containing (comma list, optional)<input id="nf-inc" placeholder="security, cve"></label>
+  </div>
+  <pre id="nf-out"></pre>
+  <div class="row"><button class="btn primary" id="nf-copy">Copy snippet</button>
+    <a class="btn" target="_blank" rel="noopener" href="https://github.com/adamburnbox-beep/CyReader/edit/main/feeds.json">Open feeds.json on GitHub ↗</a></div>
+  <p style="color:var(--muted);font-size:12px">Optional per-feed keys: <code>enabled</code> (false to pause), <code>max_items</code>, <code>include</code> / <code>exclude</code> keyword lists, <code>default_severity</code>. Severity, CVSS and CVE IDs are auto-detected from titles and summaries; CVEs are also checked against CISA KEV and EPSS.</p>
+</div></dialog>
+
+<dialog id="dlg-help"><div class="dlg">
+  <div class="row" style="justify-content:space-between"><h2>Shortcuts &amp; search</h2><button class="btn sm" data-close>Close ✕</button></div>
+  <div class="help-grid">
+    <kbd>/</kbd><span>Focus search</span><kbd>j</kbd> <span>Next item (<kbd>k</kbd> previous)</span>
+    <kbd>o</kbd><span>Open selected advisory (marks read)</span><kbd>x</kbd><span>Expand / collapse summary</span>
+    <kbd>m</kbd><span>Toggle read</span><kbd>s</kbd><span>Star / unstar</span>
+    <kbd>r</kbd><span>Refresh data</span><kbd>Esc</kbd><span>Clear search / close dialogs</span>
+  </div>
+  <h3>Search syntax</h3>
+  <div class="help-grid">
+    <code>word word</code><span>all words must match (title, summary, vendor, source, CVE)</span>
+    <code>"exact phrase"</code><span>phrase match</span>
+    <code>-word</code><span>exclude</span>
+    <code>vendor:cisco</code><span>also <code>source:</code> <code>sev:</code> <code>cve:</code> <code>tag:</code> <code>type:</code></span>
+    <code>cve:2026-1234</code><span>partial CVE match</span>
+  </div>
+  <p style="color:var(--muted)">Read/starred state is stored in this browser only. Filters live in the URL, so you can bookmark or share a view.</p>
+</div></dialog>
+<div id="toast" class="hidden" role="status"></div>
 
 <script>
-    let cachedData = null;
-    let selectedVendors = new Set();
-    let searchQuery = '';
-    let dateSince = '';
+(() => {
+'use strict';
+const REPO = 'adamburnbox-beep/CyReader';
+const SEVS = ['critical','high','medium','low','info'];
+const SEV_RANK = {critical:4,high:3,medium:2,low:1,info:0};
+const RANGES = {'6h':6,'24h':24,'72h':72,'7d':168,'30d':720,all:0};
+const PAGE = 100, REFRESH_MS = 5*60*1000, STALE_S = 3*3600;
+const $ = id => document.getElementById(id);
 
-    function updateFilters() {
-        searchQuery = document.getElementById('search-query').value.toLowerCase();
-        dateSince = document.getElementById('date-since').value;
-        renderUI();
+/* ---------- safe storage ---------- */
+const store = {
+  get(k, d){ try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safeUrl = u => /^https?:\/\//i.test(u) ? u : '#';
+
+/* ---------- state ---------- */
+let data = null, view = [], shown = PAGE, cur = -1, lastFetchOk = true;
+const now = () => Date.now()/1000;
+const user = store.get('cyreader_user', {read:{}, unread:{}, star:{}, readBefore: now() - 48*3600, compact:false, theme:null, notify:false});
+const saveUser = () => store.set('cyreader_user', user);
+const F = {q:'', sev:new Set(), vendor:new Set(), cat:new Set(), range:'7d', sort:'new', unread:false, prio:false, star:false, cve:false};
+
+/* ---------- article helpers ---------- */
+function norm(a){
+  a.severity = SEV_RANK[a.severity] !== undefined ? a.severity : 'info';
+  a.cves = a.cves || []; a.tags = a.tags || [];
+  a.category = a.category || 'Vendor';
+  a.first_seen = a.first_seen || a.timestamp || 0;
+  a.id = a.id || a.link;
+  a._h = [a.title, a.summary, a.vendor, a.source, a.category, a.severity, a.cves.join(' '), a.tags.join(' ')].join(' \n').toLowerCase();
+  return a;
+}
+const isUnread = a => user.unread[a.id] || (!user.read[a.id] && a.first_seen > user.readBefore);
+const isPrio = a => a.kev || a.severity === 'critical' || a.tags.includes('exploited') || a.tags.includes('zero-day');
+const prioScore = a => (a.kev?1000:0) + SEV_RANK[a.severity]*100 + (a.tags.includes('exploited')?50:0) + (a.tags.includes('zero-day')?50:0) + (a.epss||0)*40 + (a.cvss||0);
+
+function ago(ts){
+  const s = Math.max(0, now() - ts);
+  if (s < 90) return 'just now';
+  if (s < 3600) return Math.round(s/60) + 'm ago';
+  if (s < 86400) return Math.round(s/3600) + 'h ago';
+  return Math.round(s/86400) + 'd ago';
+}
+const absTime = ts => new Date(ts*1000).toLocaleString();
+
+/* ---------- search parsing ---------- */
+function parseQuery(q){
+  const terms = [], re = /(-?)(?:(\w+):)?(?:"([^"]+)"|(\S+))/g; let m;
+  while ((m = re.exec(q))){
+    let field = m[2] ? m[2].toLowerCase() : null, val = (m[3] || m[4] || '').toLowerCase();
+    if (field && !['vendor','source','sev','cve','tag','type'].includes(field)){ val = (field + ':' + val); field = null; }
+    if (val) terms.push({neg: !!m[1], field, val});
+  }
+  return terms;
+}
+function matchTerm(a, t){
+  let hay;
+  switch (t.field){
+    case 'vendor': hay = a.vendor; break;
+    case 'source': hay = a.source; break;
+    case 'sev': hay = a.severity; break;
+    case 'cve': hay = a.cves.join(' '); break;
+    case 'tag': hay = a.tags.join(' ') + (a.kev ? ' kev' : ''); break;
+    case 'type': hay = a.category; break;
+    default: hay = a._h;
+  }
+  return String(hay).toLowerCase().includes(t.val);
+}
+
+/* ---------- filtering ---------- */
+function applies(a, terms, skip){
+  if (F.range !== 'all' && a.timestamp < now() - RANGES[F.range]*3600) return false;
+  if (skip !== 'sev' && F.sev.size && !F.sev.has(a.severity)) return false;
+  if (skip !== 'vendor' && F.vendor.size && !F.vendor.has(a.vendor)) return false;
+  if (skip !== 'cat' && F.cat.size && !F.cat.has(a.category)) return false;
+  if (F.unread && !isUnread(a)) return false;
+  if (F.prio && !isPrio(a)) return false;
+  if (F.star && !user.star[a.id]) return false;
+  if (F.cve && !a.cves.length) return false;
+  for (const t of terms) if (matchTerm(a, t) === t.neg) return false;
+  return true;
+}
+const sorters = {
+  new: (a,b) => b.timestamp - a.timestamp,
+  old: (a,b) => a.timestamp - b.timestamp,
+  prio: (a,b) => prioScore(b) - prioScore(a) || b.timestamp - a.timestamp,
+  sev: (a,b) => SEV_RANK[b.severity] - SEV_RANK[a.severity] || b.timestamp - a.timestamp,
+  epss: (a,b) => (b.epss||0) - (a.epss||0) || b.timestamp - a.timestamp,
+  src: (a,b) => a.source.localeCompare(b.source) || b.timestamp - a.timestamp
+};
+
+/* ---------- URL hash <-> filters ---------- */
+function writeHash(){
+  const p = new URLSearchParams();
+  if (F.q) p.set('q', F.q);
+  if (F.sev.size) p.set('sev', [...F.sev].join(','));
+  if (F.vendor.size) p.set('vendor', [...F.vendor].join('|'));
+  if (F.cat.size) p.set('type', [...F.cat].join(','));
+  if (F.range !== '7d') p.set('range', F.range);
+  if (F.sort !== 'new') p.set('sort', F.sort);
+  ['unread','prio','star','cve'].forEach(k => F[k] && p.set(k, '1'));
+  const s = p.toString();
+  history.replaceState(null, '', s ? '#' + s : location.pathname + location.search);
+}
+function readHash(){
+  const p = new URLSearchParams(location.hash.slice(1));
+  F.q = p.get('q') || '';
+  F.sev = new Set((p.get('sev') || '').split(',').filter(Boolean));
+  F.vendor = new Set((p.get('vendor') || '').split('|').filter(Boolean));
+  F.cat = new Set((p.get('type') || '').split(',').filter(Boolean));
+  F.range = RANGES[p.get('range')] !== undefined ? p.get('range') : '7d';
+  F.sort = sorters[p.get('sort')] ? p.get('sort') : 'new';
+  ['unread','prio','star','cve'].forEach(k => F[k] = p.get(k) === '1');
+}
+
+/* ---------- rendering ---------- */
+function chip(label, on, attrs, count, cls=''){
+  return `<button class="chip ${cls} ${on?'on':''}" aria-pressed="${on}" ${attrs}>${esc(label)}${count!==undefined?` <i>${count}</i>`:''}</button>`;
+}
+function facetCounts(key, terms){
+  const m = {};
+  for (const a of data.articles) if (applies(a, terms, key)) { const v = key==='sev'?a.severity:key==='vendor'?a.vendor:a.category; m[v] = (m[v]||0)+1; }
+  return m;
+}
+function renderFilters(terms){
+  const sc = facetCounts('sev', terms), vc = facetCounts('vendor', terms), cc = facetCounts('cat', terms);
+  $('f-sev').innerHTML = SEVS.map(s => chip(s, F.sev.has(s), `data-sev="${s}"`, sc[s]||0, 's-'+s)).join('');
+  const vendors = [...new Set(data.articles.map(a => a.vendor))].sort((a,b) => (vc[b]||0)-(vc[a]||0) || a.localeCompare(b));
+  $('f-vendor').innerHTML = vendors.map(v => chip(v, F.vendor.has(v), `data-vendor="${esc(v)}"`, vc[v]||0)).join('');
+  const cats = [...new Set(data.articles.map(a => a.category))].sort();
+  $('f-cat').innerHTML = cats.map(c => chip(c, F.cat.has(c), `data-cat="${esc(c)}"`, cc[c]||0)).join('');
+  $('f-flags').innerHTML =
+    chip('Unread only', F.unread, 'data-flag="unread"') + chip('KEV / exploited / critical', F.prio, 'data-flag="prio"') +
+    chip('Has CVE', F.cve, 'data-flag="cve"') + chip('★ Starred', F.star, 'data-flag="star"');
+  $('f-range').value = F.range; $('f-sort').value = F.sort;
+}
+function renderItem(a, i){
+  const unread = isUnread(a), star = !!user.star[a.id];
+  const cves = a.cves.slice(0,4).map(c => `<a class="cve" target="_blank" rel="noopener" href="https://nvd.nist.gov/vuln/detail/${esc(c)}">${esc(c)}</a>`).join(' ')
+    + (a.cves.length > 4 ? ` <span>+${a.cves.length-4}</span>` : '');
+  return `<article class="item sev-${a.severity} ${unread?'':'read'} ${i===cur?'cur':''}" data-i="${i}" data-id="${esc(a.id)}" role="listitem">
+    <div class="main">
+      <a class="title" href="${esc(safeUrl(a.link))}" target="_blank" rel="noopener noreferrer">${esc(a.title)}</a>
+      <div class="meta">
+        ${a.kev ? `<span class="badge b-kev" title="In CISA Known Exploited Vulnerabilities${a.kev_due?' – due '+esc(a.kev_due):''}">KEV</span>` : ''}
+        ${a.severity !== 'info' ? `<span class="badge b-${a.severity}">${a.severity}${a.cvss ? ' ' + a.cvss : ''}</span>` : ''}
+        ${a.epss != null ? `<span class="badge b-epss" title="EPSS: probability of exploitation in next 30 days">EPSS ${(a.epss*100).toFixed(a.epss<0.1?1:0)}%</span>` : ''}
+        ${unread ? '<span class="badge b-new">new</span>' : ''}
+        <span class="vend">${esc(a.vendor)} · ${esc(a.source)}</span>
+        <span title="${esc(absTime(a.timestamp))}">${ago(a.timestamp)}</span>
+        ${cves}
+        ${a.tags.map(t => `<span class="badge b-tag" data-tag="${esc(t)}">${esc(t)}</span>`).join('')}
+      </div>
+    </div>
+    <div class="acts">
+      <button class="ico x" data-act="expand" title="Show summary (x)" aria-label="Toggle summary">▾</button>
+      <button class="ico ${star?'starred':''}" data-act="star" title="Star (s)" aria-label="Star" aria-pressed="${star}">${star?'★':'☆'}</button>
+      <button class="ico" data-act="read" title="Toggle read (m)" aria-label="Toggle read">${unread?'●':'○'}</button>
+    </div>
+    <div class="summary">${esc(a.summary) || '<em>No summary provided by the feed.</em>'}</div>
+  </article>`;
+}
+function renderList(){
+  const frag = view.slice(0, shown).map(renderItem).join('');
+  $('list').innerHTML = frag || `<div class="empty">No advisories match the current filters.<br><button class="btn" style="margin-top:.6rem" id="empty-reset">Reset filters</button></div>`;
+  $('more').classList.toggle('hidden', shown >= view.length);
+  $('more').textContent = `Show more (${view.length - shown} remaining)`;
+  $('count').textContent = `${view.length} advisor${view.length===1?'y':'ies'} · ${view.filter(isUnread).length} unread`;
+}
+function renderTiles(){
+  const all = data.articles, t = now();
+  const unread = all.filter(isUnread).length;
+  const crit = all.filter(a => a.severity === 'critical' && a.timestamp > t - 72*3600).length;
+  const kev = all.filter(a => a.kev && a.timestamp > t - 7*86400).length;
+  const d1 = all.filter(a => a.timestamp > t - 86400).length;
+  const bad = data.stats.filter(s => s.status === 'error').length;
+  const tiles = [
+    ['Unread', unread, 'unread', F.unread], ['Critical (72h)', crit, 'crit', false],
+    ['KEV / exploited (7d)', kev, 'kev', false], ['Last 24 hours', d1, 'd1', false],
+    [`Sources failing`, bad, 'src', false]
+  ];
+  $('tiles').innerHTML = tiles.map(([l,n,k,on]) => `<button class="tile ${on?'on':''}" data-tile="${k}"><div class="n" style="${k==='src'&&n?'color:var(--crit)':k==='crit'&&n?'color:var(--crit)':''}">${n}</div><div class="l">${l}</div></button>`).join('');
+}
+function renderAlerts(){
+  const t = now();
+  const pri = data.articles.filter(a => isPrio(a) && a.timestamp > t - 72*3600)
+    .sort((a,b) => (isUnread(b)-isUnread(a)) || prioScore(b) - prioScore(a));
+  $('alerts').classList.toggle('hidden', !pri.length);
+  $('alerts-title').textContent = `Priority alerts · ${pri.length} in last 72h (${pri.filter(isUnread).length} unread)`;
+  $('alert-list').innerHTML = pri.slice(0, 6).map(a => `<a class="alert" target="_blank" rel="noopener noreferrer" data-id="${esc(a.id)}" href="${esc(safeUrl(a.link))}">
+    <div class="t">${esc(a.title)}</div>
+    <div class="m">${a.kev?'<span class="badge b-kev">KEV</span> ':''}<span class="badge b-${a.severity}">${a.severity}</span> ${esc(a.vendor)} · ${ago(a.timestamp)}${isUnread(a)?' · <b style="color:var(--ok)">new</b>':''}</div></a>`).join('');
+}
+function renderStatus(){
+  const age = now() - data.last_updated;
+  $('updated').innerHTML = `<span class="t">updated </span>${ago(data.last_updated)}`;
+  $('updated').title = absTime(data.last_updated);
+  const stale = age > STALE_S;
+  $('dot').classList.toggle('stale', stale || !lastFetchOk);
+  $('stale').classList.toggle('hidden', !stale);
+  if (stale) $('stale').textContent = `⚠ Feed data is ${ago(data.last_updated).replace(' ago','')} old – the scheduled build may have stopped. Check the "RSS Ops Baker" GitHub Action.`;
+  const bad = data.stats.filter(s => s.status === 'error'), warn = data.stats.filter(s => s.status === 'warn');
+  const ok = data.stats.length - bad.length;
+  $('src-health').textContent = `${ok}/${data.stats.length}`;
+  $('srcerr').classList.toggle('hidden', !bad.length && !warn.length);
+  $('srcerr').classList.toggle('err', !!bad.length);
+  $('srcerr').innerHTML = `<span>⚠ ${bad.length ? bad.length + ' source' + (bad.length>1?'s':'') + ' failing: <b>' + bad.map(s => esc(s.source)).join(', ') + '</b>' : ''}${warn.length ? (bad.length?' · ':'') + warn.length + ' returned nothing: ' + warn.map(s => esc(s.source)).join(', ') : ''} – advisories from these may be missing.</span><button class="btn sm" id="srcerr-open">Details</button>`;
+}
+function render(keepScroll){
+  if (!data) return;
+  const terms = parseQuery(F.q);
+  view = data.articles.filter(a => applies(a, terms)).sort(sorters[F.sort]);
+  if (cur >= view.length) cur = view.length - 1;
+  renderFilters(terms); renderTiles(); renderAlerts(); renderStatus(); renderList();
+  const n = data.articles.filter(isUnread).length;
+  document.title = (n ? `(${n}) ` : '') + 'CyReader // Vulnerability Advisory Feed';
+  writeHash();
+}
+
+/* ---------- sources dialog ---------- */
+function renderSources(){
+  const rows = [...data.stats].sort((a,b) => ({error:0,warn:1,ok:2}[a.status] - {error:0,warn:1,ok:2}[b.status]) || a.source.localeCompare(b.source));
+  $('src-table').innerHTML = `<div style="overflow:auto"><table><thead><tr><th>Source</th><th>Type</th><th>Status</th><th>Entries</th><th>Last new</th><th>Last OK</th></tr></thead><tbody>` +
+    rows.map(s => `<tr><td><a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener">${esc(s.source)}</a><div style="color:var(--muted);font-size:12px">${esc(s.vendor)}</div></td>
+      <td>${esc(s.category||'')}</td>
+      <td class="st-${s.status}">${s.status.toUpperCase()}${s.error ? `<div style="font-size:12px;word-break:break-word">${esc(s.error)}</div>` : ''}${s.failures > 1 ? `<div style="font-size:12px">${s.failures} runs in a row</div>`:''}</td>
+      <td>${s.total_count}${s.new_count ? ` <b style="color:var(--ok)">+${s.new_count}</b>` : ''}</td>
+      <td>${s.last_new ? ago(s.last_new) : '–'}</td><td>${s.last_success ? ago(s.last_success) : 'never'}</td></tr>`).join('') + `</tbody></table></div>`;
+  updateSnippet();
+}
+function updateSnippet(){
+  const o = {name: $('nf-name').value.trim() || 'Example Vendor PSIRT', url: $('nf-url').value.trim() || 'https://example.com/security/rss.xml',
+    vendor: $('nf-vendor').value.trim() || 'Example', category: $('nf-cat').value};
+  if ($('nf-sev').value !== 'info') o.default_severity = $('nf-sev').value;
+  const inc = $('nf-inc').value.split(',').map(s => s.trim()).filter(Boolean);
+  if (inc.length) o.include = inc;
+  $('nf-out').textContent = '  ' + JSON.stringify(o) + ',';
+}
+
+/* ---------- data loading ---------- */
+async function load(manual){
+  try {
+    const r = await fetch('data.json?t=' + Date.now(), {cache:'no-store'});
+    if (!r.ok) throw new Error(r.status);
+    const d = await r.json();
+    if (Array.isArray(d)) throw new Error('legacy format');
+    d.articles.forEach(norm);
+    const known = data ? new Set(data.articles.map(a => a.id)) : null;
+    const fresh = known ? d.articles.filter(a => !known.has(a.id)) : [];
+    const changed = !data || data.last_updated !== d.last_updated;
+    data = d; lastFetchOk = true;
+    // prune stale local state
+    const ids = new Set(d.articles.map(a => a.id));
+    for (const k of ['read','unread','star']) for (const id in user[k]) if (!ids.has(id) && k !== 'star') delete user[k][id];
+    if (changed) render();
+    else renderStatus();
+    if (fresh.length) {
+      const hot = fresh.filter(isPrio);
+      toast(`${fresh.length} new advisor${fresh.length>1?'ies':'y'}${hot.length ? ` (${hot.length} priority)` : ''}`);
+      if (user.notify && hot.length && 'Notification' in window && Notification.permission === 'granted')
+        hot.slice(0,3).forEach(a => new Notification(`${a.kev?'KEV · ':''}${a.severity.toUpperCase()} · ${a.vendor}`, {body: a.title}));
+    } else if (manual) toast(changed ? 'Updated' : 'Already up to date');
+  } catch (e) {
+    console.error(e); lastFetchOk = false;
+    if (!data) $('updated').textContent = 'DATA LOAD FAILED';
+    else { renderStatus(); if (manual) toast('Refresh failed'); }
+  }
+}
+let toastT;
+function toast(msg){ const t = $('toast'); t.textContent = msg; t.classList.remove('hidden'); clearTimeout(toastT); toastT = setTimeout(() => t.classList.add('hidden'), 4000); }
+
+/* ---------- actions ---------- */
+function setRead(a, read){
+  if (read){ user.read[a.id] = 1; delete user.unread[a.id]; }
+  else { delete user.read[a.id]; user.unread[a.id] = 1; }
+  saveUser();
+}
+function act(a, what){
+  if (what === 'star'){ user.star[a.id] ? delete user.star[a.id] : user.star[a.id] = 1; saveUser(); }
+  else if (what === 'read') setRead(a, isUnread(a));
+  render();
+}
+function resetFilters(){
+  F.q=''; F.sev.clear(); F.vendor.clear(); F.cat.clear(); F.range='7d'; F.sort='new'; F.unread=F.prio=F.star=F.cve=false;
+  $('q').value=''; shown=PAGE; render();
+}
+function csv(){
+  const cols = ['published','severity','cvss','kev','epss','vendor','source','title','cves','link'];
+  const q = v => '"' + String(v ?? '').replace(/"/g,'""') + '"';
+  const lines = [cols.join(',')].concat(view.map(a => [new Date(a.timestamp*1000).toISOString(), a.severity, a.cvss, a.kev, a.epss, a.vendor, a.source, a.title, a.cves.join(' '), a.link].map(q).join(',')));
+  const b = new Blob([lines.join('\n')], {type:'text/csv'});
+  const l = document.createElement('a'); l.href = URL.createObjectURL(b); l.download = `cyreader-${new Date().toISOString().slice(0,10)}.csv`; l.click();
+  setTimeout(() => URL.revokeObjectURL(l.href), 1000);
+}
+function applyTheme(){
+  const t = user.theme || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+  document.documentElement.dataset.theme = t;
+}
+function moveCur(d){
+  if (!view.length) return;
+  cur = Math.min(view.length - 1, Math.max(0, cur + d));
+  if (cur >= shown) shown = cur + PAGE;
+  renderList();
+  const el = document.querySelector(`.item[data-i="${cur}"]`);
+  el && el.scrollIntoView({block:'center', behavior:'smooth'});
+}
+
+/* ---------- events ---------- */
+function bind(){
+  let qt;
+  $('q').addEventListener('input', e => { clearTimeout(qt); qt = setTimeout(() => { F.q = e.target.value; shown = PAGE; cur = -1; render(); }, 120); });
+  $('f-range').onchange = e => { F.range = e.target.value; shown = PAGE; render(); };
+  $('f-sort').onchange = e => { F.sort = e.target.value; shown = PAGE; render(); };
+  document.addEventListener('click', e => {
+    const t = e.target.closest('[data-sev],[data-vendor],[data-cat],[data-flag],[data-tag],[data-tile],[data-act],.title,.alert,[data-close],#empty-reset,#srcerr-open');
+    if (!t) return;
+    const toggle = (set, v) => { set.has(v) ? set.delete(v) : set.add(v); shown = PAGE; render(); };
+    if (t.dataset.sev) return toggle(F.sev, t.dataset.sev);
+    if (t.dataset.vendor) return toggle(F.vendor, t.dataset.vendor);
+    if (t.dataset.cat) return toggle(F.cat, t.dataset.cat);
+    if (t.dataset.flag){ F[t.dataset.flag] = !F[t.dataset.flag]; shown = PAGE; return render(); }
+    if (t.dataset.tag){ $('q').value = F.q = 'tag:' + t.dataset.tag; shown = PAGE; return render(); }
+    if (t.dataset.tile){
+      const k = t.dataset.tile;
+      if (k === 'src') return openSources();
+      resetFilters();
+      if (k === 'unread') F.unread = true;
+      if (k === 'crit'){ F.sev.add('critical'); F.range = '72h'; }
+      if (k === 'kev'){ F.prio = true; F.range = '7d'; $('q').value = F.q = 'tag:kev'; }
+      if (k === 'd1') F.range = '24h';
+      return render();
     }
-
-    function toggleVendor(vendor) {
-        if (selectedVendors.has(vendor)) {
-            selectedVendors.delete(vendor);
-        } else {
-            selectedVendors.add(vendor);
-        }
-        renderUI();
+    if (t.dataset.close !== undefined) return t.closest('dialog').close();
+    if (t.id === 'empty-reset') return resetFilters();
+    if (t.id === 'srcerr-open') return openSources();
+    const item = e.target.closest('.item');
+    if (t.dataset.act && item){
+      const a = view[+item.dataset.i];
+      if (t.dataset.act === 'expand'){ item.classList.toggle('open'); return; }
+      return act(a, t.dataset.act);
     }
-
-    function markSourceAsRead(sourceName) {
-        const readRegistry = JSON.parse(localStorage.getItem('cyberss_read_registry') || '{}');
-        readRegistry[sourceName] = Date.now() / 1000; 
-        localStorage.setItem('cyberss_read_registry', JSON.stringify(readRegistry));
-        renderUI();
+    // opening a title or alert marks it read
+    const id = (item || t).dataset.id;
+    const a = data.articles.find(x => x.id === id);
+    if (a && isUnread(a)){ setRead(a, true); setTimeout(render, 50); }
+  });
+  $('alerts-all').onclick = () => { resetFilters(); F.prio = true; F.range = '72h'; F.sort = 'prio'; render(); $('list').scrollIntoView(); };
+  $('more').onclick = () => { shown += PAGE; renderList(); };
+  $('btn-refresh').onclick = () => load(true);
+  $('btn-theme').onclick = () => { user.theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'; saveUser(); applyTheme(); };
+  $('btn-help').onclick = () => $('dlg-help').showModal();
+  $('btn-sources').onclick = openSources;
+  $('btn-reset').onclick = resetFilters;
+  $('btn-csv').onclick = csv;
+  $('btn-compact').onclick = () => { user.compact = !user.compact; saveUser(); document.body.classList.toggle('compact', user.compact); $('btn-compact').classList.toggle('on', user.compact); };
+  $('btn-readvis').onclick = () => { view.forEach(a => setRead(a, true)); render(); };
+  $('btn-readall').onclick = () => { user.readBefore = now(); user.read = {}; user.unread = {}; saveUser(); render(); toast('Everything marked read'); };
+  $('vendor-more').onclick = e => { const o = $('f-vendor').classList.toggle('open'); e.target.textContent = o ? 'collapse' : 'expand'; };
+  $('btn-notify').onclick = async () => {
+    if (!('Notification' in window)) return toast('Notifications not supported');
+    if (user.notify){ user.notify = false; } else {
+      const p = Notification.permission === 'granted' ? 'granted' : await Notification.requestPermission();
+      user.notify = p === 'granted'; if (!user.notify) toast('Notification permission denied');
     }
-
-    function renderUI() {
-        if (!cachedData) return;
-
-        const sourceActivity = document.getElementById('source-activity');
-        const grid = document.getElementById('grid');
-        const totalNewEl = document.getElementById('total-new');
-        const totalArticlesEl = document.getElementById('total-articles');
-        const vendorTagsContainer = document.getElementById('vendor-tags');
-
-        const readRegistry = JSON.parse(localStorage.getItem('cyberss_read_registry') || '{}');
-        const now = Date.now() / 1000;
-
-        // Render Vendors Multi-select
-        const allVendors = [...new Set(cachedData.stats.map(s => s.vendor))].sort();
-        vendorTagsContainer.innerHTML = allVendors.map(v => `
-            <div class="vendor-tag ${selectedVendors.has(v) ? 'active' : ''}" onclick="toggleVendor('${v}')">
-                ${v}
-            </div>
-        `).join('');
-
-        // Apply Filters
-        const filteredStats = cachedData.stats.filter(s => {
-            const vendorMatch = selectedVendors.size === 0 || selectedVendors.has(s.vendor);
-            const searchMatch = !searchQuery || s.source.toLowerCase().includes(searchQuery) || s.vendor.toLowerCase().includes(searchQuery);
-            return vendorMatch && searchMatch;
-        });
-        
-        const filteredArticles = cachedData.articles.filter(a => {
-            const vendorMatch = selectedVendors.size === 0 || selectedVendors.has(a.vendor);
-            const searchMatch = !searchQuery || 
-                               a.title.toLowerCase().includes(searchQuery) || 
-                               a.vendor.toLowerCase().includes(searchQuery) ||
-                               a.source.toLowerCase().includes(searchQuery);
-            
-            let dateMatch = true;
-            if (dateSince) {
-                const filterTime = new Date(dateSince).getTime() / 1000;
-                dateMatch = a.timestamp >= filterTime;
-            }
-
-            return vendorMatch && searchMatch && dateMatch;
-        });
-
-        // Calculate Stats based on filtered data
-        let totalNew = 0;
-        // We only count "new" from sources that match the current filters
-        filteredStats.forEach(stat => {
-            const lastReadAt = readRegistry[stat.source] || 0;
-            // Count unread articles for this source that ALSO pass the other filters (date, search)
-            const unreadCount = filteredArticles.filter(a => a.source === stat.source && a.timestamp > lastReadAt).length;
-            if (unreadCount > 0) totalNew += unreadCount;
-        });
-
-        totalNewEl.innerText = `+${totalNew}`;
-        totalArticlesEl.innerText = `/ ${filteredArticles.length}`;
-        totalNewEl.classList.toggle('global-new', totalNew > 0);
-
-        // Render Chips
-        sourceActivity.innerHTML = filteredStats.map(stat => {
-            const lastReadAt = readRegistry[stat.source] || 0;
-            const unreadCount = filteredArticles.filter(a => a.source === stat.source && a.timestamp > lastReadAt).length;
-            const hasUnreadUpdates = unreadCount > 0;
-            const isError = stat.status === 'error';
-            
-            let chipClass = '';
-            if (hasUnreadUpdates) chipClass = 'has-updates';
-            if (isError) chipClass = 'has-error';
-
-            return `
-                <div class="source-chip ${chipClass}" onclick="markSourceAsRead('${stat.source.replace(/'/g, "\\'")}')">
-                    <div class="indicator"></div>
-                    <span>${stat.source}${isError ? ' [ERR]' : ''} ${hasUnreadUpdates ? `(${unreadCount})` : ''}</span>
-                </div>
-            `;
-        }).join('');
-
-        // Render Grid
-        grid.innerHTML = filteredArticles.map(item => {
-            const lastReadAt = readRegistry[item.source] || 0;
-            const isUnread = item.timestamp > lastReadAt;
-            const isVeryRecent = (now - item.timestamp) < (24 * 60 * 60);
-            const badge = (isUnread && isVeryRecent) ? `<span class="new-badge">NEW</span>` : '';
-            const diffHours = Math.floor((now - item.timestamp) / 3600);
-            const timeString = diffHours === 0 ? "JUST NOW" : `${diffHours}H AGO`;
-
-            return `
-                <div class="card">
-                    <div class="meta">
-                        <span>${item.source} [${item.vendor}]</span>
-                        <span>${timeString}${badge}</span>
-                    </div>
-                    <a href="${item.link}" target="_blank" class="title">${item.title}</a>
-                    <div class="summary">${item.summary}</div>
-                </div>
-            `;
-        }).join('');
-
-        const lastUpdatedText = cachedData.last_updated ? new Date(cachedData.last_updated * 1000).toLocaleTimeString() : '--:--:--';
-        document.getElementById('status').innerText = `LAST FETCH: ${lastUpdatedText}`;
+    saveUser(); $('btn-notify').classList.toggle('on', user.notify);
+    if (user.notify) toast('Notifications on for new KEV / critical items while this tab is open');
+  };
+  ['nf-name','nf-url','nf-vendor','nf-cat','nf-sev','nf-inc'].forEach(id => $(id).addEventListener('input', updateSnippet));
+  $('nf-copy').onclick = async () => { try { await navigator.clipboard.writeText($('nf-out').textContent.trim().replace(/,$/, '')); toast('Copied – add it to the feeds.json array'); } catch { toast('Copy failed – select the text manually'); } };
+  window.addEventListener('hashchange', () => { readHash(); $('q').value = F.q; render(); });
+  document.addEventListener('keydown', e => {
+    const typing = /^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement.tagName);
+    if (e.key === 'Escape'){ if (typing){ document.activeElement.blur(); if (document.activeElement === $('q')){} } if ($('q').value){ $('q').value = F.q = ''; render(); } return; }
+    if (typing || e.ctrlKey || e.metaKey || e.altKey || document.querySelector('dialog[open]')) return;
+    const a = view[cur];
+    switch (e.key){
+      case '/': e.preventDefault(); $('q').focus(); $('q').select(); break;
+      case 'j': moveCur(1); break; case 'k': moveCur(-1); break;
+      case 'o': case 'Enter': if (a){ window.open(safeUrl(a.link), '_blank', 'noopener'); setRead(a, true); render(); } break;
+      case 'x': if (a) document.querySelector(`.item[data-i="${cur}"]`)?.classList.toggle('open'); break;
+      case 'm': if (a) act(a, 'read'); break;
+      case 's': if (a) act(a, 'star'); break;
+      case 'r': load(true); break;
+      case '?': $('dlg-help').showModal(); break;
     }
+  });
+}
+function openSources(){ renderSources(); $('dlg-sources').showModal(); }
 
-    async function loadFeed() {
-        try {
-            const response = await fetch(`data.json?t=${Date.now()}`);
-            cachedData = await response.json();
-            renderUI();
-        } catch (error) {
-            console.error(error);
-            document.getElementById('status').innerText = "SYSTEM ERR: DATA_LOAD_FAILED";
-        }
-    }
-
-    loadFeed();
+/* ---------- boot ---------- */
+applyTheme();
+document.body.classList.toggle('compact', !!user.compact);
+$('btn-compact').classList.toggle('on', !!user.compact);
+$('btn-notify').classList.toggle('on', !!user.notify);
+readHash(); $('q').value = F.q;
+bind();
+load().then(() => { if (data && !store.get('cyreader_user', null)) saveUser(); });
+setInterval(() => load(), REFRESH_MS);
+setInterval(() => data && (renderStatus()), 60*1000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) load(); });
+})();
 </script>
-
 </body>
 </html>
