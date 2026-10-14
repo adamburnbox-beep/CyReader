@@ -1,42 +1,15 @@
 [
-  {
-    "name": "BleepingComputer",
-    "url": "https://www.bleepingcomputer.com/feed/",
-    "vendor": "News"
-  },
-  {
-    "name": "Krebs on Security",
-    "url": "https://krebsonsecurity.com/feed/",
-    "vendor": "News"
-  },
-  {
-    "name": "CISA Advisories",
-    "url": "https://www.cisa.gov/cybersecurity-advisories.xml",
-    "vendor": "Government"
-  },
-  {
-    "name": "Palo Alto Networks",
-    "url": "https://security.paloaltonetworks.com/rss.xml",
-    "vendor": "Palo Alto"
-  },
-  {
-    "name": "Cisco Advisories",
-    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
-    "vendor": "Cisco"
-  },
-  {
-    "name": "ASD Alerts",
-    "url": "https://www.cyber.gov.au/rss/alerts",
-    "vendor": "ASD"
-  },
-  {
-    "name": "Ivanti Security",
-    "url": "https://www.ivanti.com/blog/topics/security-advisory/rss",
-    "vendor": "Ivanti"
-  },
-  {
-    "name": "CVE Feed.io",
-    "url": "https://cvefeed.io/rssfeed/severity/high.xml",
-    "vendor": "CVEFeed.io - Critical & Very High"
-  }
+  {"name": "CISA Advisories", "url": "https://www.cisa.gov/cybersecurity-advisories.xml", "vendor": "CISA", "category": "Government"},
+  {"name": "ASD Alerts", "url": "https://www.cyber.gov.au/rss/alerts", "vendor": "ASD", "category": "Government"},
+  {"name": "Microsoft MSRC", "url": "https://api.msrc.microsoft.com/update-guide/rss", "vendor": "Microsoft", "category": "Vendor"},
+  {"name": "Palo Alto Networks", "url": "https://security.paloaltonetworks.com/rss.xml", "vendor": "Palo Alto", "category": "Vendor"},
+  {"name": "Cisco Advisories", "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml", "vendor": "Cisco", "category": "Vendor"},
+  {"name": "Fortinet PSIRT", "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml", "vendor": "Fortinet", "category": "Vendor"},
+  {"name": "Ivanti Security", "url": "https://www.ivanti.com/blog/topics/security-advisory/rss", "vendor": "Ivanti", "category": "Vendor"},
+  {"name": "Ubuntu Security Notices", "url": "https://ubuntu.com/security/notices/rss.xml", "vendor": "Ubuntu", "category": "Vendor"},
+  {"name": "Chrome Releases", "url": "https://chromereleases.googleblog.com/feeds/posts/default", "vendor": "Google", "category": "Vendor", "include": ["security", "cve"]},
+  {"name": "Zero Day Initiative", "url": "https://www.zerodayinitiative.com/rss/published/", "vendor": "ZDI", "category": "Research"},
+  {"name": "CVE Feed.io (High+)", "url": "https://cvefeed.io/rssfeed/severity/high.xml", "vendor": "CVEFeed.io", "category": "CVE", "default_severity": "high", "max_items": 30},
+  {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/feed/", "vendor": "BleepingComputer", "category": "News"},
+  {"name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "vendor": "Krebs", "category": "News"}
 ]

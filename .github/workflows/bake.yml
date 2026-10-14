@@ -2,29 +2,38 @@ name: RSS Ops Baker
 
 on:
   schedule:
-    - cron: '10,40 * * * *'
-  workflow_dispatch: # Allows manual trigger from GitHub UI
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Manual trigger from the GitHub UI
+  push:
+    branches: [main]
+    paths: ['feeds.json', 'builder.py']   # new feed / builder change shows up immediately
+
+concurrency:
+  group: bake
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
-      - name: Install feedparser
-        run: pip install feedparser
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
       - name: Run Builder
         run: python builder.py
       - name: Commit and Push
         run: |
-          git config --global user.name "RSS-Bot"
-          git config --global user.email "bot@ctvm.local"
+          git config user.name "RSS-Bot"
+          git config user.email "bot@ctvm.local"
           git add data.json
-          git commit -m "Update feed data" || exit 0
+          git diff --cached --quiet && exit 0
+          git commit -m "Update feed data"
           git pull --rebase
           git push
