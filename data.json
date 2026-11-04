@@ -1,6 +1,6 @@
 {
  "version": 2,
- "last_updated": 1793789552.8557768,
+ "last_updated": 1793816167.0634718,
  "retention_days": 30,
  "stats": [
   {
@@ -8,15 +8,15 @@
    "vendor": "CISA",
    "category": "Government",
    "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
-   "status": "ok",
-   "error": null,
+   "status": "error",
+   "error": "HTTP Error 403: Forbidden",
    "new_count": 0,
-   "total_count": 30,
-   "latency_ms": 5037,
-   "last_checked": 1793789552.8557768,
+   "total_count": 0,
+   "latency_ms": 9328,
+   "last_checked": 1793816167.0634718,
    "last_success": 1793789552.8557768,
    "last_new": 1793749213.465392,
-   "failures": 0
+   "failures": 1
   },
   {
    "source": "Microsoft MSRC",
@@ -27,9 +27,9 @@
    "error": null,
    "new_count": 0,
    "total_count": 50,
-   "latency_ms": 3706,
-   "last_checked": 1793789552.8557768,
-   "last_success": 1793789552.8557768,
+   "latency_ms": 1952,
+   "last_checked": 1793816167.0634718,
+   "last_success": 1793816167.0634718,
    "last_new": 1793480442.6969626,
    "failures": 0
   },
@@ -42,10 +42,10 @@
    "error": null,
    "new_count": 9,
    "total_count": 25,
-   "latency_ms": 186,
-   "last_checked": 1793789552.8557768,
-   "last_success": 1793789552.8557768,
-   "last_new": 1793789552.8557768,
+   "latency_ms": 166,
+   "last_checked": 1793816167.0634718,
+   "last_success": 1793816167.0634718,
+   "last_new": 1793816167.0634718,
    "failures": 0
   },
   {
@@ -57,10 +57,10 @@
    "error": null,
    "new_count": 9,
    "total_count": 50,
-   "latency_ms": 448,
-   "last_checked": 1793789552.8557768,
-   "last_success": 1793789552.8557768,
-   "last_new": 1793789552.8557768,
+   "latency_ms": 676,
+   "last_checked": 1793816167.0634718,
+   "last_success": 1793816167.0634718,
+   "last_new": 1793816167.0634718,
    "failures": 0
   },
   {
@@ -72,10 +72,10 @@
    "error": null,
    "new_count": 37,
    "total_count": 50,
-   "latency_ms": 710,
-   "last_checked": 1793789552.8557768,
-   "last_success": 1793789552.8557768,
-   "last_new": 1793789552.8557768,
+   "latency_ms": 308,
+   "last_checked": 1793816167.0634718,
+   "last_success": 1793816167.0634718,
+   "last_new": 1793816167.0634718,
    "failures": 0
   },
   {
@@ -87,10 +87,10 @@
    "error": null,
    "new_count": 18,
    "total_count": 19,
-   "latency_ms": 196,
-   "last_checked": 1793789552.8557768,
-   "last_success": 1793789552.8557768,
-   "last_new": 1793789552.8557768,
+   "latency_ms": 159,
+   "last_checked": 1793816167.0634718,
+   "last_success": 1793816167.0634718,
+   "last_new": 1793816167.0634718,
    "failures": 0
   },
   {
@@ -100,12 +100,12 @@
    "url": "https://ubuntu.com/security/notices/rss.xml",
    "status": "ok",
    "error": null,
-   "new_count": 0,
+   "new_count": 1,
    "total_count": 10,
-   "latency_ms": 530,
-   "last_checked": 1793789552.8557768,
-   "last_success": 1793789552.8557768,
-   "last_new": 1793749213.465392,
+   "latency_ms": 593,
+   "last_checked": 1793816167.0634718,
+   "last_success": 1793816167.0634718,
+   "last_new": 1793816167.0634718,
    "failures": 0
   },
   {
@@ -117,9 +117,9 @@
    "error": null,
    "new_count": 0,
    "total_count": 9,
-   "latency_ms": 1249,
-   "last_checked": 1793789552.8557768,
-   "last_success": 1793789552.8557768,
+   "latency_ms": 1254,
+   "last_checked": 1793816167.0634718,
+   "last_success": 1793816167.0634718,
    "last_new": 1793762008.8673146,
    "failures": 0
   },
@@ -130,12 +130,12 @@
    "url": "https://www.zerodayinitiative.com/rss/published/",
    "status": "ok",
    "error": null,
-   "new_count": 0,
+   "new_count": 6,
    "total_count": 50,
-   "latency_ms": 1812,
-   "last_checked": 1793789552.8557768,
-   "last_success": 1793789552.8557768,
-   "last_new": 1793749213.465392,
+   "latency_ms": 1241,
+   "last_checked": 1793816167.0634718,
+   "last_success": 1793816167.0634718,
+   "last_new": 1793816167.0634718,
    "failures": 0
   },
   {
@@ -147,10 +147,10 @@
    "error": null,
    "new_count": 25,
    "total_count": 25,
-   "latency_ms": 1123,
-   "last_checked": 1793789552.8557768,
-   "last_success": 1793789552.8557768,
-   "last_new": 1793789552.8557768,
+   "latency_ms": 80,
+   "last_checked": 1793816167.0634718,
+   "last_success": 1793816167.0634718,
+   "last_new": 1793816167.0634718,
    "failures": 0
   },
   {
@@ -162,10 +162,10 @@
    "error": null,
    "new_count": 3,
    "total_count": 10,
-   "latency_ms": 1681,
-   "last_checked": 1793789552.8557768,
-   "last_success": 1793789552.8557768,
-   "last_new": 1793789552.8557768,
+   "latency_ms": 254,
+   "last_checked": 1793816167.0634718,
+   "last_success": 1793816167.0634718,
+   "last_new": 1793816167.0634718,
    "failures": 0
   },
   {
@@ -177,10 +177,10 @@
    "error": null,
    "new_count": 8,
    "total_count": 30,
-   "latency_ms": 1351,
-   "last_checked": 1793789552.8557768,
-   "last_success": 1793789552.8557768,
-   "last_new": 1793789552.8557768,
+   "latency_ms": 1200,
+   "last_checked": 1793816167.0634718,
+   "last_success": 1793816167.0634718,
+   "last_new": 1793816167.0634718,
    "failures": 0
   },
   {
@@ -192,10 +192,10 @@
    "error": null,
    "new_count": 10,
    "total_count": 10,
-   "latency_ms": 860,
-   "last_checked": 1793789552.8557768,
-   "last_success": 1793789552.8557768,
-   "last_new": 1793789552.8557768,
+   "latency_ms": 343,
+   "last_checked": 1793816167.0634718,
+   "last_success": 1793816167.0634718,
+   "last_new": 1793816167.0634718,
    "failures": 0
   },
   {
@@ -208,13 +208,580 @@
    "new_count": 0,
    "total_count": 1767,
    "latency_ms": 0,
-   "last_checked": 1793789552.8557768,
-   "last_success": 1793789552.8557768,
+   "last_checked": 1793816167.0634718,
+   "last_success": 1793816167.0634718,
    "last_new": null,
    "failures": 0
   }
  ],
  "articles": [
+  {
+   "id": "e62cb1987235266b",
+   "title": "CVE-2026-121971 - Symfony: ScopingHttpClient Sends the Credentials of Its Default Scope to Other Origins Through Network-Path References",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121971",
+   "summary": "CVE ID : CVE-2026-121971 Published : Nov. 4, 2026, 5:43 p.m. | 28 minutes ago Description : The component ScopingHttpClient in Symfony HttpClient merges the options of its default scope (such as auth_bearer or auth_basic) into a request before resolving a relative URL against the base_uri, allowing a network-path reference such as \"//evil.example/steal\" to be sent to another origin together with the default scope’s credentials, and resulting in potential disclosure of those credentials to an attacker-controlled server. This affects Symfony in versions 5.x prior to 5.4.56, 6.x prior to 6.4.50,...",
+   "timestamp": 1793814214,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121971"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "0c1a763cf497d74d",
+   "title": "CVE-2026-119749 - GetPaid WordPress Plugin < 2.8.63 Negative Quantity Payment Bypass",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-119749",
+   "summary": "CVE ID : CVE-2026-119749 Published : Nov. 4, 2026, 5:17 p.m. | 54 minutes ago Description : The GetPaid plugin for WordPress before 2.8.63 contains an improper input validation vulnerability that allows unauthenticated attackers to bypass payment processing by submitting a negative item quantity on a public payment form. Attackers can exploit the unchecked quantity value in process_item() to produce a negative line subtotal that reduces the invoice total to zero, causing process_free_payment() to mark the invoice as paid without any actual gateway charge. Severity: 8.7 | HIGH Visit the link fo...",
+   "timestamp": 1793812654,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-119749"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "939fbf0bfdfc5622",
+   "title": "CVE-2026-92704 - SharpEmu: Cross-site request forgery in the debugger frontend leads to arbitrary process execution",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-92704",
+   "summary": "CVE ID : CVE-2026-92704 Published : Nov. 4, 2026, 4:17 p.m. | 1 hour, 53 minutes ago Description : SharpEmu is an experimental PlayStation 5 emulator for Windows and Linux. In version 0.0.3-release.3 and earlier, the repository-provided debugger frontend tooling is vulnerable while running. This tooling is not included in the release archives. The frontend exposes an HTTP API on 127.0.0.1:8765 without authentication or CSRF token. Its do_POST handler in tools/SharpEmu.DebuggerFrontend/debugger_frontend.py does not validate the Origin, Referer, Sec-Fetch-Site, or Host headers. The _read_json_bo...",
+   "timestamp": 1793809075,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-92704"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "3ea2425475174b69",
+   "title": "CVE-2026-121966 - Traefik before 2.11.60 and 3.7.16 ForwardAuth NTLM/Negotiate Identity Leak",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121966",
+   "summary": "CVE ID : CVE-2026-121966 Published : Nov. 4, 2026, 4:17 p.m. | 1 hour, 53 minutes ago Description : Traefik 2.x before 2.11.60 and 3.x before 3.7.16 sends ForwardAuth subrequests (and, in 3.7, Ingress NGINX auth-url requests) through an auth-server connection pool shared by all clients, exposing connection-bound NTLM or Negotiate authentication. An unauthenticated attacker can reuse another user's authenticated connection, receiving the victim's identity via authResponseHeaders to access backends as that user. Severity: 8.7 | HIGH Visit the link for more details, such as CVSS details, affected...",
+   "timestamp": 1793809070,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121966"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "cdf4df07b921d517",
+   "title": "CVE-2026-121964 - FreeRDP before 3.32.2 Heap Buffer Overflow via rpc_client_recv_fragment",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121964",
+   "summary": "CVE ID : CVE-2026-121964 Published : Nov. 4, 2026, 4:17 p.m. | 1 hour, 53 minutes ago Description : FreeRDP before 3.32.2 contains a heap-based buffer overflow in the RD Gateway RPC client, where rpc_client_recv_fragment writes BIND_ACK and ALTER_CONTEXT_RESP fragments into a persistent PDU stream after checking only total capacity rather than remaining capacity from the current stream position. A malicious or compromised RD Gateway can send crafted RPC fragments with manipulated alloc_hint and frag_length values to overwrite client heap memory with attacker-controlled data, causing a crash or...",
+   "timestamp": 1793809069,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121964"
+   ],
+   "tags": [
+    "rce"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "a367ecdfe7f77ca6",
+   "title": "CVE-2026-121963 - FreeRDP before 3.32.2 Use-After-Free via Dynamic rdpsnd Channel Close",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121963",
+   "summary": "CVE ID : CVE-2026-121963 Published : Nov. 4, 2026, 4:17 p.m. | 1 hour, 53 minutes ago Description : FreeRDP before 3.32.2 contains a use-after-free vulnerability in the asynchronous dynamic rdpsnd channel that allows malicious RDP servers to trigger freed callback access by closing the channel with queued audio PDUs. Attackers can send a training PDU then close the channel so the playback thread reads the freed callback in rdpsnd_virtual_channel_write, crashing the client. Severity: 8.2 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1793809069,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121963"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "fb144501b7ca3452",
+   "title": "CVE-2026-121962 - FreeRDP before 3.32.2 Heap Buffer Overflow via Early User Authorization Read",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121962",
+   "summary": "CVE ID : CVE-2026-121962 Published : Nov. 4, 2026, 4:17 p.m. | 1 hour, 53 minutes ago Description : FreeRDP before 3.32.2 contains a heap buffer overflow in transport_default_read_pdu when handling partial Early User Authorization reads during PROTOCOL_HYBRID_EX CredSSP. A malicious RDP server can split the four-byte EUA result into short reads that advance the stream pointer beyond the 16 KiB allocation, causing an out-of-bounds write and client denial of service. Severity: 8.1 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1793809069,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121962"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "811925a8b54cc043",
+   "title": "CVE-2026-121961 - FreeRDP before 3.32.2 Use-After-Free via DRDYNVC Tracker Race",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121961",
+   "summary": "CVE ID : CVE-2026-121961 Published : Nov. 4, 2026, 4:17 p.m. | 1 hour, 53 minutes ago Description : FreeRDP before 3.32.2 contains a use-after-free vulnerability in the freerdp-proxy DRDYNVC tracker when intercepting the drdynvc channel. A malicious target server can repeatedly send CREATE_REQUEST_PDU for an active channel id, racing front DATA handling to free a borrowed context and crash the proxy process. Severity: 8.2 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1793809069,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121961"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "6fe6ebe3b7470e06",
+   "title": "CVE-2026-121960 - FreeRDP before 3.32.2 Unauthenticated Denial of Service via CredSSP TSRequest",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121960",
+   "summary": "CVE ID : CVE-2026-121960 Published : Nov. 4, 2026, 4:17 p.m. | 1 hour, 53 minutes ago Description : FreeRDP before 3.32.2 contains a denial of service vulnerability in the NLA-enabled shadow server when a CredSSP TSRequest omits negoTokens. Unauthenticated attackers can send a crafted seven-byte TSRequest containing only the version field to trigger a fatal WINPR_ASSERT and abort the server process. Severity: 8.7 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1793809068,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121960"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "87d1d8c57c917303",
+   "title": "CVE-2026-121958 - FreeRDP through 3.32.1 Heap Out-of-Bounds Write via RDPGFX HashTable_GetKeys",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121958",
+   "summary": "CVE ID : CVE-2026-121958 Published : Nov. 4, 2026, 4:17 p.m. | 1 hour, 53 minutes ago Description : FreeRDP through 3.32.1 has a heap out-of-bounds write in the RDPGFX client because the delete_surface callback truncates surface hash keys to 16 bits, leaving the surface table inconsistent so HashTable_GetKeys writes past its allocated key array. A malicious or man-in-the-middle RDP server can exploit this by creating surfaceId 0xFFFF, closing the RDPGFX channel, sending repeated DELETESURFACE PDUs, and then sending ENDFRAME or RESETGRAPHICS. Severity: 8.8 | HIGH Visit the link for more details...",
+   "timestamp": 1793809068,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121958"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "201cd4f1942428fd",
+   "title": "CVE-2026-121957 - FreeRDP before 3.32.2 Use-After-Free via RDPGFX ResetGraphics Race",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121957",
+   "summary": "CVE ID : CVE-2026-121957 Published : Nov. 4, 2026, 4:17 p.m. | 1 hour, 53 minutes ago Description : FreeRDP before 3.32.2 contains a use-after-free vulnerability that allows malicious RDP servers to corrupt client memory by racing the RDPGFX ResetGraphics handler against the planar bitmap decoder. Attackers can send ResetGraphics while concurrently sending compressed bitmaps of 32 bpp or more to trigger heap use-after-free or out-of-bounds read/write on shared planar buffers. Severity: 8.7 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1793809068,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121957"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "ad29ed0644cb2719",
+   "title": "CVE-2026-121956 - FreeRDP before 3.32.2 Double Free in WinPR Kerberos retrieveSomeTgt",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121956",
+   "summary": "CVE ID : CVE-2026-121956 Published : Nov. 4, 2026, 4:17 p.m. | 1 hour, 53 minutes ago Description : FreeRDP before 3.32.2 contains a double free in the WinPR Kerberos SSPI retrieveSomeTgt function, which installs the krb5 default realm into a target principal that has an empty realm without taking ownership of it. Unauthenticated remote clients can send a crafted NLA/CredSSP u2u TGT request whose server-name component contains '@' to corrupt the heap and crash the server process. Severity: 8.7 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more.....",
+   "timestamp": 1793809068,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121956"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "a5209934476e3e01",
+   "title": "CVE-2026-121955 - FreeRDP before 3.32.2 Use-After-Free in Smartcard Emulation ReleaseContext",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121955",
+   "summary": "CVE ID : CVE-2026-121955 Published : Nov. 4, 2026, 4:17 p.m. | 1 hour, 53 minutes ago Description : FreeRDP before 3.32.2 contains a use-after-free vulnerability in Emulate_SCardReleaseContext that frees the emulated SCardContext before its worker thread is cancelled and joined. A malicious server can send ESTABLISHCONTEXT, a long-timeout GETSTATUSCHANGE, then RELEASECONTEXT smartcard IRPs to corrupt heap memory or crash clients using smartcard emulation. Severity: 8.7 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1793809068,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121955"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "dcc88719e50cb4e3",
+   "title": "CVE-2026-121953 - FreeRDP before 3.32.2 Use-After-Free via rdpgfx Dynamic Virtual Channel Close",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121953",
+   "summary": "CVE ID : CVE-2026-121953 Published : Nov. 4, 2026, 4:17 p.m. | 1 hour, 53 minutes ago Description : FreeRDP before 3.32.2 has a use-after-free in the client's rdpgfx dynamic virtual channel: a duplicate-name channel with a new ChannelId overwrites the listener's single callback slot, which rdpgfx_on_close frees without clearing. A malicious RDP server can open and close such a channel, then send a PDU on the original channel to crash the client or potentially execute code. Severity: 9.8 | CRITICAL Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1793809067,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121953"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "70d2d52cfab1cec2",
+   "title": "CVE-2026-121952 - FreeRDP before 3.32.2 Proxy Out-of-Bounds Write via Bitmap Cache v2 Capability",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121952",
+   "summary": "CVE ID : CVE-2026-121952 Published : Nov. 4, 2026, 4:17 p.m. | 1 hour, 53 minutes ago Description : FreeRDP before 3.32.2 has an out-of-bounds write in the proxy because rdp_read_bitmap_cache_v2_capability_set rejects only numCellCaches values above 5, yet the bitmap cache v2 cell array is later accessed at fixed indices 0 through 4. A client connecting to the proxy can declare fewer than five cell caches in its Confirm Active, causing heap corruption, heap data leakage to the backend, or a crash. Severity: 9.8 | CRITICAL Visit the link for more details, such as CVSS details, affected products...",
+   "timestamp": 1793809067,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121952"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "45bca1fa90a4cb4d",
+   "title": "CVE-2026-121951 - FreeRDP 3.0.0 before 3.32.2 Denial of Service via Slow-Path Input Event",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121951",
+   "summary": "CVE ID : CVE-2026-121951 Published : Nov. 4, 2026, 4:17 p.m. | 1 hour, 53 minutes ago Description : FreeRDP 3.0.0 before 3.32.2 server-side RDP peer input parsing skips the six-byte body of a slow-path input event with an unknown message type without checking it lies within the packet's declared length, causing a WinPR stream assertion failure. A remote RDP client with an active session can send a truncated unknown input event to abort assertion-enabled server processes, causing denial of service. Severity: 8.7 | HIGH Visit the link for more details, such as CVSS details, affected products, ti...",
+   "timestamp": 1793809067,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121951"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "597bfd7c3b476c71",
+   "title": "CVE-2026-119746 - ProSoft ICX35 Login Lockout Bypass via Client-Side Cookies",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-119746",
+   "summary": "CVE ID : CVE-2026-119746 Published : Nov. 4, 2026, 4:17 p.m. | 1 hour, 54 minutes ago Description : ProSoft Technology ICX35 devices (X35-HWC-A and ICX35-HWC-E) contain a login lockout bypass in the integrated module web page. The account lockout mechanism that restricts repeated failed authentication attempts is enforced in client-side JavaScript, so a remote attacker can reset the lockout and continue submitting password guesses by deleting the relevant browser cookies, defeating the brute-force protection. This vulnerability has been addressed in version 1.14.158. Severity: 8.2 | HIGH Visit...",
+   "timestamp": 1793809065,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-119746"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "63ac614acb83e5db",
+   "title": "Cisco Advance Notification for Publication of November 4, 2026, Security Advisories",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-I8z3n6lK?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20November%204,%202026,%20Security%20Advisories%26vs_k=1",
+   "summary": "On November 4, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories: Cisco Security Advisory CVE ID Security Impact Rating CVSS Base Score Cisco UCS Central Software Remote Code Execution Vulnerability CVE-2026-76506 High 7.6 Cisco Unified Communications Manager Cross-Site Scripting Vulnerability CVE-2026-76419 Medium 6.1 Cisco Identity Services Engine Authorization Bypass Vulnerability CVE-2026-20241 Medium 5.3 To remediate the vulnerabilities that were disclosed on November 4, 2026, Cisco strongly recommends that customers upgrade to the fixed so...",
+   "timestamp": 1793808062,
+   "source": "Cisco Advisories",
+   "vendor": "Cisco",
+   "category": "Vendor",
+   "severity": "info",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-20241",
+    "CVE-2026-76419",
+    "CVE-2026-76506"
+   ],
+   "tags": [
+    "rce"
+   ],
+   "first_seen": 1793216682.0387814,
+   "epss": null,
+   "kev": false
+  },
+  {
+   "id": "331c95675f856bd3",
+   "title": "Cisco Unified Communications Manager Cross-Site Scripting Vulnerability",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-xss-5mQn2U5z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Manager%20Cross-Site%20Scripting%20Vulnerability%26vs_k=1",
+   "summary": "A vulnerability in the web-based management interface of Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface. This vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execut...",
+   "timestamp": 1793808000,
+   "source": "Cisco Advisories",
+   "vendor": "Cisco",
+   "category": "Vendor",
+   "severity": "medium",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-76419"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "795e2ecb9efb2c15",
+   "title": "Cisco Identity Services Engine Authorization Bypass Vulnerability",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-cert-mE9BD5GO?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authorization%20Bypass%20Vulnerability%26vs_k=1",
+   "summary": "A vulnerability in the authorization mechanism of Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow an unauthenticated, remote attacker to obtain an endpoint identity certificate. This vulnerability is due to improper authorization checks. An attacker could exploit this vulnerability by sending a crafted request to an affected device. A successful exploit could allow the attacker to bypass authorization to obtain an endpoint certificate. Cisco has released software updates that address this vulnerability. There are no workarounds that address t...",
+   "timestamp": 1793808000,
+   "source": "Cisco Advisories",
+   "vendor": "Cisco",
+   "category": "Vendor",
+   "severity": "medium",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-20241"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "4c7ab7942025d1ce",
+   "title": "Cisco UCS Central Software Remote Code Execution Vulnerability",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucs-rce-LzHSFRDQ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20Central%20Software%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
+   "summary": "A vulnerability in the web-based management interface of Cisco UCS Central Software could allow an authenticated, remote attacker to achieve remote code execution or conduct information disclosure attacks on an affected device. This vulnerability is due to insufficient validation of user-supplied input in an HTTP request. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected endpoint on an affected device. A successful exploit could allow the attacker to execute arbitrary commands, write arbitrary files to the filesystem, and obtain sensitive information...",
+   "timestamp": 1793808000,
+   "source": "Cisco Advisories",
+   "vendor": "Cisco",
+   "category": "Vendor",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-76506"
+   ],
+   "tags": [
+    "rce"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "93a3938f7b9d6669",
+   "title": "CVE-2026-122006 - ActiveStorage ImageMagick Arbitrary File Access Vulnerability",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-122006",
+   "summary": "CVE ID : CVE-2026-122006 Published : Nov. 4, 2026, 3:17 p.m. | 2 hours, 54 minutes ago Description : The activestorage gem before 8.1.4.1 for Ruby on Rails, when ImageMagick attachment processing occurs, can allow server read and write operations (e.g., reading secret_key_base) because the ImageMagick analyzer runs when a file is attached, and there is not an ImageMagick security policy to block unintended functionality. Severity: 9.8 | CRITICAL Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1793805462,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-122006"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "d19615ffaa82d32d",
+   "title": "CVE-2026-121640 - WatchGuard AuthPoint Gateway Capture-replay Allows Unauthorized Administrative Actions",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121640",
+   "summary": "CVE ID : CVE-2026-121640 Published : Nov. 4, 2026, 3:17 p.m. | 2 hours, 54 minutes ago Description : An Authentication Bypass by Capture-replay vulnerability in WatchGuard AuthPoint Gateway allows an attacker who has observed a legitimate request between AuthPoint Gateway components to replay it and perform unauthorized administrative actions, including disrupting authentication services. Severity: 9.1 | CRITICAL Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1793805462,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121640"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "31d4451ae92a3037",
+   "title": "CVE-2026-121639 - WatchGuard AuthPoint Gateway Improper Authentication Allows Unauthenticated Denial of Service",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121639",
+   "summary": "CVE ID : CVE-2026-121639 Published : Nov. 4, 2026, 3:17 p.m. | 2 hours, 54 minutes ago Description : A Missing Authentication for Critical Function vulnerability in WatchGuard AuthPoint Gateway allows a remote unauthenticated attacker with network access to the AuthPoint Gateway host to disrupt authentication services and delete the local directory synchronization configuration. Severity: 9.2 | CRITICAL Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1793805462,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121639"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "9b8141c2a826cbb4",
+   "title": "CVE-2026-121638 - WatchGuard AuthPoint Gateway Improper Certificate Validation Allows Man-in-the-Middle Attacks",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121638",
+   "summary": "CVE ID : CVE-2026-121638 Published : Nov. 4, 2026, 3:17 p.m. | 2 hours, 54 minutes ago Description : An Improper Certificate Validation vulnerability in WatchGuard AuthPoint Gateway allows an attacker with an on-path network position to intercept and modify communications between the AuthPoint Gateway and local authentication providers. Severity: 9.1 | CRITICAL Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1793805462,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121638"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "321f650524e0ed17",
+   "title": "CVE-2026-121637 - WatchGuard AuthPoint Gateway Improper HMAC Validation in LDAP Authentication Callback Allows Forged Authentication Results",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121637",
+   "summary": "CVE ID : CVE-2026-121637 Published : Nov. 4, 2026, 3:17 p.m. | 2 hours, 54 minutes ago Description : An improper integrity validation vulnerability in WatchGuard AuthPoint Gateway's LDAP authentication callback allows a network attacker who has obtained a valid header signature to forge the authentication result and transaction identifier in the request body, resulting in unauthorized session outcomes. Severity: 8.9 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1793805462,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121637"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "df11688809813364",
+   "title": "USN-7530-2: ADOdb vulnerability",
+   "link": "https://ubuntu.com/security/notices/USN-7530-2",
+   "summary": "USN-7530-1 fixed a vulnerability in ADOdb. This update provides the corresponding updates for Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. Original advisory details: It was discovered that ADOdb incorrectly handled SQL input. A remote attacker could use this issue to execute arbitrary SQL commands.",
+   "timestamp": 1793805292,
+   "source": "Ubuntu Security Notices",
+   "vendor": "Ubuntu",
+   "category": "Vendor",
+   "severity": "info",
+   "cvss": null,
+   "cves": [],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "0b0fc7809bf1b8aa",
+   "title": "CVE-2026-118391 - Unbounded query cache growth from interpolated JSON paths and splice lists in Ecto",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-118391",
+   "summary": "CVE ID : CVE-2026-118391 Published : Nov. 4, 2026, 2:17 p.m. | 3 hours, 54 minutes ago Description : Allocation of Resources Without Limits or Throttling vulnerability in elixir-ecto ecto allows an unauthenticated remote attacker to exhaust memory in the application and in the database server by sending requests with distinct JSON keys or list lengths where the application interpolates them into json_extract_path/2, field[^key] or splice/1. Ecto caches prepared queries per repository in an ETS table with no size limit and no eviction. Interpolated JSON path elements become part of the query ex...",
+   "timestamp": 1793801849,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-118391"
+   ],
+   "tags": [
+    "auth-bypass"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "2a2dcdb0bdc48df6",
+   "title": "CVE-2026-65555 - WordPress Uncanny Toolkit for LearnDash plugin <= 3.8.2 - Privilege Escalation vulnerability",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-65555",
+   "summary": "CVE ID : CVE-2026-65555 Published : Nov. 4, 2026, 1:17 p.m. | 4 hours, 54 minutes ago Description : Incorrect Privilege Assignment vulnerability in Uncanny Owl Uncanny Toolkit for LearnDash uncanny-learndash-toolkit allows Privilege Escalation.This issue affects Uncanny Toolkit for LearnDash: from n/a through 3.8.2. Severity: 9.8 | CRITICAL Visit the link for more details, such as CVSS details, affected products, timeline, and more...",
+   "timestamp": 1793798250,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-65555"
+   ],
+   "tags": [
+    "priv-esc"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "13a9984c57970c58",
+   "title": "CVE-2026-121941 - libmt32emu before 2.8.4 Heap Buffer Overflow via MidiStreamParserImpl::parseSysex",
+   "link": "https://cvefeed.io/vuln/detail/CVE-2026-121941",
+   "summary": "CVE ID : CVE-2026-121941 Published : Nov. 4, 2026, 1:17 p.m. | 4 hours, 54 minutes ago Description : libmt32emu before 2.8.4 contains a heap buffer overflow vulnerability in MidiStreamParserImpl::parseSysex that allows attackers to write past a heap allocation by supplying oversized unterminated SysEx messages. Attackers can feed more than 32768 SysEx data bytes through the mt32emu_parse_stream API via MIDI files, ports, or sequencer clients to corrupt heap memory and crash the application. Severity: 8.5 | HIGH Visit the link for more details, such as CVSS details, affected products, timeline,...",
+   "timestamp": 1793798248,
+   "source": "CVE Feed.io (High+)",
+   "vendor": "CVEFeed.io",
+   "category": "CVE",
+   "severity": "high",
+   "cvss": null,
+   "cves": [
+    "CVE-2026-121941"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
   {
    "id": "d696f5a4ba81b403",
    "title": "CVE-2026-120422 - Insecure HTTP configuration retrieval in Sogou Input Method allows arbitrary code execution",
@@ -503,6 +1070,124 @@
    ],
    "tags": [],
    "first_seen": 1793789552.8557768,
+   "kev": false
+  },
+  {
+   "id": "d22e61f724923eec",
+   "title": "ZDI-26-874: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
+   "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-874/",
+   "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-121742.",
+   "timestamp": 1793772000,
+   "source": "Zero Day Initiative",
+   "vendor": "ZDI",
+   "category": "Research",
+   "severity": "high",
+   "cvss": 7.8,
+   "cves": [
+    "CVE-2026-121742"
+   ],
+   "tags": [
+    "rce"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "8d57b61567fdf144",
+   "title": "ZDI-26-873: (0Day) Ashlar-Vellum Cobalt AR File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+   "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-873/",
+   "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-121743.",
+   "timestamp": 1793772000,
+   "source": "Zero Day Initiative",
+   "vendor": "ZDI",
+   "category": "Research",
+   "severity": "high",
+   "cvss": 7.8,
+   "cves": [
+    "CVE-2026-121743"
+   ],
+   "tags": [
+    "rce"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "443c8acfae8f6f29",
+   "title": "ZDI-26-872: (0Day) Ashlar-Vellum Cobalt XE File Parsing Use-After-Free Remote Code Execution Vulnerability",
+   "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-872/",
+   "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-121753.",
+   "timestamp": 1793772000,
+   "source": "Zero Day Initiative",
+   "vendor": "ZDI",
+   "category": "Research",
+   "severity": "high",
+   "cvss": 7.8,
+   "cves": [
+    "CVE-2026-121753"
+   ],
+   "tags": [
+    "rce"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "537c489870297af7",
+   "title": "ZDI-26-871: (0Day) Ashlar-Vellum Cobalt LI File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+   "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-871/",
+   "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-121752.",
+   "timestamp": 1793772000,
+   "source": "Zero Day Initiative",
+   "vendor": "ZDI",
+   "category": "Research",
+   "severity": "high",
+   "cvss": 7.8,
+   "cves": [
+    "CVE-2026-121752"
+   ],
+   "tags": [
+    "rce"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "5158ed643a12e9e5",
+   "title": "ZDI-26-870: (0Day) Ashlar-Vellum Cobalt XE File Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+   "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-870/",
+   "summary": "This vulnerability allows remote attackers to execute arbitrary code on affected installations of Ashlar-Vellum Cobalt. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2026-121744.",
+   "timestamp": 1793772000,
+   "source": "Zero Day Initiative",
+   "vendor": "ZDI",
+   "category": "Research",
+   "severity": "high",
+   "cvss": 7.8,
+   "cves": [
+    "CVE-2026-121744"
+   ],
+   "tags": [
+    "rce"
+   ],
+   "first_seen": 1793816167.0634718,
+   "kev": false
+  },
+  {
+   "id": "84743783efc84093",
+   "title": "ZDI-26-869: MailEnable Save Directory Traversal Arbitrary File Creation Vulnerability",
+   "link": "http://www.zerodayinitiative.com/advisories/ZDI-26-869/",
+   "summary": "This vulnerability allows remote attackers to create arbitrary files on affected installations of MailEnable. Authentication is not required to exploit this vulnerability. The ZDI has assigned a CVSS rating of 7.4. The following CVEs are assigned: CVE-2026-114556.",
+   "timestamp": 1793772000,
+   "source": "Zero Day Initiative",
+   "vendor": "ZDI",
+   "category": "Research",
+   "severity": "high",
+   "cvss": 7.4,
+   "cves": [
+    "CVE-2026-114556"
+   ],
+   "tags": [],
+   "first_seen": 1793816167.0634718,
    "kev": false
   },
   {
@@ -21334,23 +22019,6 @@
    ],
    "tags": [],
    "first_seen": 1793216682.0387814,
-   "kev": false
-  },
-  {
-   "id": "63ac614acb83e5db",
-   "title": "Cisco Advance Notification for Publication of November 4, 2026, Security Advisories",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-I8z3n6lK?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20November%204,%202026,%20Security%20Advisories%26vs_k=1",
-   "summary": "On November 4, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: Identity Services Engine (ISE) UCS Central Software Unified Communications Manager To remediate vulnerabilities to be disclosed on November 4, 2026, Cisco strongly recommends that customers upgrade to the fixed software indicated in the advisories. Important: The Cisco PSIRT does not plan to publish any more security hardening advisories to disclose security vulnerability inform...",
-   "timestamp": 1793203200,
-   "source": "Cisco Advisories",
-   "vendor": "Cisco",
-   "category": "Vendor",
-   "severity": "info",
-   "cvss": null,
-   "cves": [],
-   "tags": [],
-   "first_seen": 1793216682.0387814,
-   "epss": null,
    "kev": false
   },
   {
